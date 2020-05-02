@@ -7832,12 +7832,13 @@
       <dateval val="1840-06-25"/>
       <place hlink="_ce8221b72cd07b47c92"/>
     </event>
-    <event handle="_ce849d61f4d382eb602" change="1429561691" id="E5306">
+    <event handle="_ce849d61f4d382eb602" change="1588451556" id="E5306">
       <type>Death</type>
       <dateval val="1907-09-11"/>
       <place hlink="_ce849d0239c081d788f"/>
       <description>vatsanpoltto</description>
       <citationref hlink="_d007529214868396ea2"/>
+      <citationref hlink="_d007585432e69f66109"/>
     </event>
     <event handle="_ce84f3571f429485f3c" change="1419190292" id="E5310">
       <type>Education</type>
@@ -8639,11 +8640,12 @@
       <description>Nordberg - Pohja</description>
       <citationref hlink="_d00740e9ffe13a24aba"/>
     </event>
-    <event handle="_d0075481eb0219d85a6" change="1588413519" id="E3264">
+    <event handle="_d0075481eb0219d85a6" change="1588440225" id="E3264">
       <type>Residence</type>
       <datespan start="1900" stop="1910"/>
       <place hlink="_ce849d0239c081d788f"/>
       <citationref hlink="_d007585432e69f66109"/>
+      <citationref hlink="_e725fc207277556302dafef1d67"/>
     </event>
     <event handle="_d00759c56ad3314dc6d" change="1429562753" id="E3265">
       <type>Residence</type>
@@ -13390,16 +13392,24 @@
       <place hlink="_ce849d0239c081d788f"/>
       <citationref hlink="_e725052fa0192a9307d405e326"/>
     </event>
-    <event handle="_e72507d7c94232d8ca793683dd6" change="1588414448" id="E0010">
+    <event handle="_e72507d7c94232d8ca793683dd6" change="1588414846" id="E0010">
       <type>Death</type>
       <dateval val="1920-02-02"/>
       <place hlink="_ce849d0239c081d788f"/>
       <citationref hlink="_e725052fa0192a9307d405e326"/>
+      <citationref hlink="_e725101775546d289a8f702c255"/>
     </event>
-    <event handle="_e7250856fc520ecba2a27ad6bfe" change="1588413998" id="E0043">
+    <event handle="_e7250856fc520ecba2a27ad6bfe" change="1588420376" id="E0043">
       <type>Death</type>
       <dateval val="1911-06-12"/>
       <place hlink="_ce9b8f427c046131878"/>
+      <citationref hlink="_e725052fa0192a9307d405e326"/>
+    </event>
+    <event handle="_e726090219a7e439cbc2b5960b7" change="1588440931" id="E0044">
+      <type>Residence</type>
+      <datespan start="1906" stop="1911"/>
+      <place hlink="_ce9b8f427c046131878"/>
+      <citationref hlink="_d007585432e69f66109"/>
       <citationref hlink="_e725052fa0192a9307d405e326"/>
     </event>
   </events>
@@ -14701,7 +14711,7 @@
       <eventref hlink="_cb589ccc4655fa757c0" role="Primary"/>
       <childof hlink="_cb589cc934615c31879"/>
     </person>
-    <person handle="_cb589ccc4845e52a937" change="1588414008" id="I6031">
+    <person handle="_cb589ccc4845e52a937" change="1588440971" id="I6031">
       <gender>M</gender>
       <name type="Also Known As">
         <first>August Teodor</first>
@@ -14715,6 +14725,7 @@
       </name>
       <eventref hlink="_cb589ccc48c49d2cda7" role="Primary"/>
       <eventref hlink="_d00740f121e07ebdc6f" role="Primary"/>
+      <eventref hlink="_e726090219a7e439cbc2b5960b7" role="Primary"/>
       <eventref hlink="_e7250856fc520ecba2a27ad6bfe" role="Primary"/>
       <childof hlink="_cb589cc934615c31879"/>
     </person>
@@ -28445,10 +28456,10 @@
       <confidence>2</confidence>
       <sourceref hlink="_cf838e85cca7aaed857"/>
     </citation>
-    <citation handle="_cf83957f6402a5bbf7f" change="1426025364" id="C0096">
+    <citation handle="_cf83957f6402a5bbf7f" change="1588451997" id="C0096">
       <page>346</page>
       <confidence>2</confidence>
-      <sourceref hlink="_cf83956b87c741ec5d2"/>
+      <sourceref hlink="_cf83924a8c84de89b38"/>
     </citation>
     <citation handle="_cf8397d493d5ba8339e" change="1426025593" id="C0097">
       <page>342</page>
@@ -32216,12 +32227,12 @@
       <noteref hlink="_df26f5d0737251d353010455a35"/>
       <sourceref hlink="_ce9c261f8c54ebfa47f"/>
     </citation>
-    <citation handle="_df273e0f8af7e4bb038f28fc432" change="1533497784" id="C0663">
+    <citation handle="_df273e0f8af7e4bb038f28fc432" change="1588451775" id="C0663">
       <page>ED205/10B/216</page>
       <confidence>2</confidence>
       <noteref hlink="_df273da663f326f065f611337aa"/>
       <noteref hlink="_df273df2b7b36c0428615632c48"/>
-      <sourceref hlink="_df273ce944a209c948f61a8adca"/>
+      <sourceref hlink="_cea7c8752cb3f8be17b"/>
     </citation>
     <citation handle="_df2744f7b7032763825b015e298" change="1533498529" id="C0664">
       <page>2223149/758</page>
@@ -32369,11 +32380,11 @@
       <noteref hlink="_df3de55f63a632cfa563463ae7d"/>
       <sourceref hlink="_df3de52db346697c4676e72fd13"/>
     </citation>
-    <citation handle="_df3de71ff565998438901495b09" change="1534106022" id="C0688">
+    <citation handle="_df3de71ff565998438901495b09" change="1588451811" id="C0688">
       <page>kuva 83</page>
       <confidence>2</confidence>
       <noteref hlink="_df3de71d9457ed4452b38d8c350"/>
-      <sourceref hlink="_df3de6e96375c716f9559f950f0"/>
+      <sourceref hlink="_df3dd9a77c2293a4bf48072c0ab"/>
     </citation>
     <citation handle="_df43ffead5767e2b48f10305584" change="1534269713" id="C0689">
       <page>I/304</page>
@@ -32507,11 +32518,11 @@
       <noteref hlink="_df4773483961eb6522708f0f4ff"/>
       <sourceref hlink="_df476d95ad777f12c966340b7e4"/>
     </citation>
-    <citation handle="_df4a2c4a157294a048d137bbe67" change="1534446084" id="C0711">
+    <citation handle="_df4a2c4a157294a048d137bbe67" change="1588451631" id="C0711">
       <page>160</page>
       <confidence>2</confidence>
       <noteref hlink="_df4a2c46c9627fb185a910a2d53"/>
-      <sourceref hlink="_df4a2c1a5994efafc425d167258"/>
+      <sourceref hlink="_cf8f2d45ac85aabf133"/>
     </citation>
     <citation handle="_df4a2d1f2606dee8d5446bb4329" change="1534446087" id="C0712">
       <page>168-169</page>
@@ -34652,17 +34663,17 @@
       <noteref hlink="_e37d0561a997f0e22dcd478b150"/>
       <sourceref hlink="_d6d0f6d6deb45654ad708990e0"/>
     </citation>
-    <citation handle="_e37e0f8564d3797b0c9d3dcda92" change="1563316036" id="C1063">
+    <citation handle="_e37e0f8564d3797b0c9d3dcda92" change="1588452170" id="C1063">
       <page>81</page>
       <confidence>2</confidence>
       <noteref hlink="_e37e0f7f35a6b388fa1efa7acb9"/>
-      <sourceref hlink="_e37e0f1974b5424c7a6e58aed43"/>
+      <sourceref hlink="_d6cdda448716a020f78957f81cf"/>
     </citation>
-    <citation handle="_e37e11e72a810963bf08d1491ed" change="1563316285" id="C1064">
+    <citation handle="_e37e11e72a810963bf08d1491ed" change="1588452170" id="C1064">
       <page>152</page>
       <confidence>2</confidence>
       <noteref hlink="_e37e11e107e5799626c7308b189"/>
-      <sourceref hlink="_e37e0f1974b5424c7a6e58aed43"/>
+      <sourceref hlink="_d6cdda448716a020f78957f81cf"/>
     </citation>
     <citation handle="_e37e144e20744bcbc38647e7ec7" change="1563316537" id="C1065">
       <page>jakso 121</page>
@@ -34785,6 +34796,20 @@
       <noteref hlink="_e7250529e446e87f6337ca0afc2"/>
       <noteref hlink="_e72507328b4589d09ec6eb5ebb6"/>
       <sourceref hlink="_e72504e86343d1f7fe689079b77"/>
+    </citation>
+    <citation handle="_e725101775546d289a8f702c255" change="1588414811" id="C0150">
+      <page>3</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e7250ee5b604d142bc208d4ba1f"/>
+      <noteref hlink="_e725100c593a5410a627cf867c"/>
+      <sourceref hlink="_e7250e94b3d33aa6b67694a94f1"/>
+    </citation>
+    <citation handle="_e725fc207277556302dafef1d67" change="1588440146" id="C0479">
+      <page>674-675</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e725fc1a398650632f34e7130b8"/>
+      <noteref hlink="_e726019a93829b4d68d554d853"/>
+      <sourceref hlink="_e725fbe0e3f7296cf49a5814bfb"/>
     </citation>
   </citations>
   <sources>
@@ -35011,10 +35036,11 @@
       <sauthor>U.S. Census Bureau</sauthor>
       <reporef hlink="_ce9c185fc9d5a8ba9ba" medium="Book"/>
     </source>
-    <source handle="_cea7c8752cb3f8be17b" change="1461493944" id="S0067">
+    <source handle="_cea7c8752cb3f8be17b" change="1588451775" id="S0067">
       <stitle>United States Census, 1920</stitle>
       <sauthor>U.S. Census Bureau</sauthor>
       <reporef hlink="_ce9c185fc9d5a8ba9ba" medium="Book"/>
+      <reporef hlink="_ce9b9687b8963ce76e7" medium="Book"/>
     </source>
     <source handle="_ceb3b23801f24837260" change="1461493944" id="S0068">
       <stitle>Iron Range Obituary Records</stitle>
@@ -35052,12 +35078,7 @@
       <sauthor>Euran seurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
-    <source handle="_cf83924a8c84de89b38" change="1461493944" id="S0075">
-      <stitle>Eura Rippikirja 1898-1907</stitle>
-      <sauthor>Euran seurakunta</sauthor>
-      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
-    </source>
-    <source handle="_cf83956b87c741ec5d2" change="1461493944" id="S0076">
+    <source handle="_cf83924a8c84de89b38" change="1588451997" id="S0075">
       <stitle>Eura Rippikirja 1898-1907</stitle>
       <sauthor>Euran seurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
@@ -35131,7 +35152,7 @@
       <sauthor>Lopen seurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
-    <source handle="_cf8f2d45ac85aabf133" change="1461493944" id="S0091">
+    <source handle="_cf8f2d45ac85aabf133" change="1588451631" id="S0091">
       <stitle>Tuusula Rippikirja 1863-1872</stitle>
       <sauthor>Tuusulan seurakunta</sauthor>
       <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
@@ -35438,10 +35459,11 @@
       <sauthor>Porvoon ruotsalainen tuomiokirkkoseurakunta</sauthor>
       <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
     </source>
-    <source handle="_d6cdda448716a020f78957f81cf" change="1508688139" id="S0140">
+    <source handle="_d6cdda448716a020f78957f81cf" change="1588452170" id="S0140">
       <stitle>Porvoo rtksrk Rippikirja 1795-1802</stitle>
       <sauthor>Porvoon ruotsalainen tuomiokirkkoseurakunta</sauthor>
       <noteref hlink="_d6d0d4a0f446d142750081a5e9d"/>
+      <noteref hlink="_e380cd8bfb610c8849a73be8ff0"/>
       <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
     </source>
     <source handle="_d6ce0c487d74c90ec3c6f73b1b8" change="1508688056" id="S0141">
@@ -36543,8 +36565,8 @@
       <sauthor>Porvoon ruotsalainen tuomiokirkkoseurakunta</sauthor>
       <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
     </source>
-    <source handle="_defd445dbd3341f9ccc77d7c900" change="1533217462" id="S0350">
-      <stitle>Perunkirja Nordberg Hilda Maria</stitle>
+    <source handle="_defd445dbd3341f9ccc77d7c900" change="1588452117" id="S0350">
+      <stitle>Perukirja Nordberg Hilda Maria</stitle>
       <sauthor>Nordberg Hilda Maria kuolinpesä</sauthor>
       <reporef hlink="_dcdca3f7d3b161a6bf5b6f5e9d0" medium="Book"/>
     </source>
@@ -36613,11 +36635,6 @@
       <sauthor>Euran seurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
-    <source handle="_df273ce944a209c948f61a8adca" change="1533497782" id="S0364">
-      <stitle>United States Census 1920</stitle>
-      <sauthor>Department of Commerce-Bureau of the Census</sauthor>
-      <reporef hlink="_ce9b9687b8963ce76e7" medium="Book"/>
-    </source>
     <source handle="_df3d4715fe5687f41793d5e6fbf" change="1534089241" id="S0365">
       <stitle>Rautalampi Muuttaneet 1847-1867</stitle>
       <sauthor>Rautalammin seurakunta</sauthor>
@@ -36648,7 +36665,7 @@
       <sauthor>Vesannon seurakunta</sauthor>
       <reporef hlink="_d00112dce232e7f4a7d" medium="Book"/>
     </source>
-    <source handle="_df3dd9a77c2293a4bf48072c0ab" change="1534104610" id="S0371">
+    <source handle="_df3dd9a77c2293a4bf48072c0ab" change="1588451811" id="S0371">
       <stitle>Vesanto Kuolleet 1858-1879</stitle>
       <sauthor>Vesannon seurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
@@ -36667,11 +36684,6 @@
       <stitle>Vesanto Lastenkirja 1869-1878</stitle>
       <sauthor>Vesannon seurakunta</sauthor>
       <reporef hlink="_d00112dce232e7f4a7d" medium="Book"/>
-    </source>
-    <source handle="_df3de6e96375c716f9559f950f0" change="1534106000" id="S0375">
-      <stitle>Vesanto Kuolleet 1858-1879</stitle>
-      <sauthor>Vesannon seurakunta</sauthor>
-      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
     <source handle="_df43ffb22c910b5795c6d68fa20" change="1534269660" id="S0376">
       <stitle>Vesanto Rippikirja 1880-1889</stitle>
@@ -36695,11 +36707,6 @@
     </source>
     <source handle="_df476d95ad777f12c966340b7e4" change="1534361713" id="S0380">
       <stitle>Tuusula Muuttaneet 1854-1864</stitle>
-      <sauthor>Tuusulan seurakunta</sauthor>
-      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
-    </source>
-    <source handle="_df4a2c1a5994efafc425d167258" change="1534435378" id="S0381">
-      <stitle>Tuusula Rippikirja 1863-1872</stitle>
       <sauthor>Tuusulan seurakunta</sauthor>
       <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
     </source>
@@ -36728,8 +36735,8 @@
       <sauthor>Helsingin pitäjän seurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
-    <source handle="_df4ac67e0294373a1f829978fe4" change="1534451567" id="S0387">
-      <stitle>Helsingin pitäjä Rippikirja</stitle>
+    <source handle="_df4ac67e0294373a1f829978fe4" change="1588452035" id="S0387">
+      <stitle>Helsingin pitäjä Rippikirja 1876-1879</stitle>
       <sauthor>Helsingin pitäjän seurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
@@ -37177,12 +37184,6 @@
       <stitle>Adressbok och yrkeskalender för Helsingfors 1917</stitle>
       <reporef hlink="_cdea68c6afd7d08bd3f" medium="Book"/>
     </source>
-    <source handle="_e37e0f1974b5424c7a6e58aed43" change="1563389652" id="S0478">
-      <stitle>Porvoo rtksrk Rippikirja 1795-1802</stitle>
-      <sauthor>Porvoon ruotsalainen tuomiokirkkoseurakunta</sauthor>
-      <noteref hlink="_e380cd8bfb610c8849a73be8ff0"/>
-      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
-    </source>
     <source handle="_e38988a40e27fc0b0cd6562cddc" change="1563624015" id="S0479">
       <stitle>Porvoo rtksrk Perukirjat liitteineen 1858-1867</stitle>
       <sauthor>Porvoo ruotsalainen tuomiokirkkoseurakunta</sauthor>
@@ -37200,6 +37201,16 @@
     </source>
     <source handle="_e72504e86343d1f7fe689079b77" change="1588413638" id="S0222">
       <stitle>Tuusula Rippikirja 1910-1919</stitle>
+      <sauthor>Tuusulan seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_e7250e94b3d33aa6b67694a94f1" change="1588414652" id="S0482">
+      <stitle>Tuusula Kuolleet 1920-1941</stitle>
+      <sauthor>Tuusulan seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_e725fbe0e3f7296cf49a5814bfb" change="1588439535" id="S0483">
+      <stitle>Tuusula Lastenkirja 1890-1899</stitle>
       <sauthor>Tuusulan seurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
@@ -39668,7 +39679,7 @@
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1588413634" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1588439532" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -49303,6 +49314,30 @@ Jokela
 Itsellinen
 leski	Otto Wilhelm Nordberg			2/12 1850 Tuusula	VK 1216	joutui leskeksi 11/9 1907	Kuoli 2/2 1920
 P.		August Teodor Pohja (Nordberg)	13/6 1880 &quot;		&quot;			R.L. sivu 107				Kuoli Amerikassa 12/6 1911</text>
+    </note>
+    <note handle="_e7250ee5b604d142bc208d4ba1f" change="1588414685" id="N0021" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33318&amp;pnum=3</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33318&amp;pnum=3">
+        <range start="0" end="76"/>
+      </style>
+    </note>
+    <note handle="_e725100c593a5410a627cf867c" change="1588414806" id="N0023" type="Transcript">
+      <text>Kuolleet ja haudatut Tuusulan seurakunnassa vuonna 1920
+
+2	2	8/2	453	Its. Otto Vilhelm Nordberg Jokelasta	2/12 1850	69	2	-	leski	keuhkotauti	1	-</text>
+    </note>
+    <note handle="_e725fc1a398650632f34e7130b8" change="1588439558" id="N0060" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33314&amp;pnum=115</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33314&amp;pnum=115">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_e726019a93829b4d68d554d853" change="1588440135" id="N0061" type="Transcript" format="1">
+      <text>Jokela
+Talon itselliset
+	Itsell Otto Vilhelm Nordbergin l.vo Anna Karolina Johantytär 1840
+Maria Olivia		20/3 1878	Tuusula	Kansakoulussa 91		93	f. GB 82B	Rippik 674 93
+August Teodor	13/6 1880	do									95 do			rippik 674 95</text>
     </note>
   </notes>
 </database>
