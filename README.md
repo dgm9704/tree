@@ -17,3 +17,8 @@
 - Export -> Gramps XML (Family Tree), unselect "Use Compression"
 - overwrite my git-managed .gramps file
 - git add, git commit, git push
+
+### web site
+- fenerate "Narrated Web Site" report into /docs
+- git add, git commit, git push
+- github copies it to https://dgm9704.github.io/tree/
