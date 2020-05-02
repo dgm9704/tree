@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2020-05-01" version="5.1.2"/>
+    <created date="2020-05-02" version="5.1.2"/>
     <researcher>
     </researcher>
   </header>
@@ -8639,7 +8639,7 @@
       <description>Nordberg - Pohja</description>
       <citationref hlink="_d00740e9ffe13a24aba"/>
     </event>
-    <event handle="_d0075481eb0219d85a6" change="1534790078" id="E3264">
+    <event handle="_d0075481eb0219d85a6" change="1588413519" id="E3264">
       <type>Residence</type>
       <datespan start="1900" stop="1910"/>
       <place hlink="_ce849d0239c081d788f"/>
@@ -13384,6 +13384,24 @@
       <place hlink="_cb589ccbc8775a4d7d2"/>
       <citationref hlink="_e38da7f0bb819d770977004efcd"/>
     </event>
+    <event handle="_e72507566476929195484358078" change="1588413893" id="E0004">
+      <type>Residence</type>
+      <datespan start="1910" stop="1920"/>
+      <place hlink="_ce849d0239c081d788f"/>
+      <citationref hlink="_e725052fa0192a9307d405e326"/>
+    </event>
+    <event handle="_e72507d7c94232d8ca793683dd6" change="1588413946" id="E0010">
+      <type>Death</type>
+      <dateval val="1920-02-02"/>
+      <place hlink="_ce849d0239c081d788f"/>
+      <citationref hlink="_e725052fa0192a9307d405e326"/>
+    </event>
+    <event handle="_e7250856fc520ecba2a27ad6bfe" change="1588413998" id="E0043">
+      <type>Death</type>
+      <dateval val="1911-06-12"/>
+      <place hlink="_ce9b8f427c046131878"/>
+      <citationref hlink="_e725052fa0192a9307d405e326"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1548617779" id="I3858">
@@ -13856,7 +13874,7 @@
       <eventref hlink="_cb589cc923a7108ce8e" role="Primary"/>
       <childof hlink="_cb589cc83ea4c947ebd"/>
     </person>
-    <person handle="_cb589cc92dd6232fd94" change="1534796549" id="I5684">
+    <person handle="_cb589cc92dd6232fd94" change="1588414109" id="I5684">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Otto Wilhelm</first>
@@ -13869,6 +13887,7 @@
       <eventref hlink="_df579db5113497d013b5f9fc509" role="Primary"/>
       <eventref hlink="_df579ed733a7dbdf4669d37ce1b" role="Primary"/>
       <eventref hlink="_df579ff53c3590ea41a274df416" role="Primary"/>
+      <eventref hlink="_e72507d7c94232d8ca793683dd6" role="Primary"/>
       <childof hlink="_cb589cc83ea4c947ebd"/>
       <parentin hlink="_cb589cc934615c31879"/>
     </person>
@@ -14672,7 +14691,7 @@
       <childof hlink="_cb589cc921e71289c52"/>
       <parentin hlink="_df7131cba331e8e144ba66420c5"/>
     </person>
-    <person handle="_cb589ccc450050bcad3" change="1460460923" id="I3627">
+    <person handle="_cb589ccc450050bcad3" change="1588413899" id="I3627">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Olivia</first>
@@ -14682,7 +14701,7 @@
       <eventref hlink="_cb589ccc4655fa757c0" role="Primary"/>
       <childof hlink="_cb589cc934615c31879"/>
     </person>
-    <person handle="_cb589ccc4845e52a937" change="1534789947" id="I6031">
+    <person handle="_cb589ccc4845e52a937" change="1588414008" id="I6031">
       <gender>M</gender>
       <name type="Also Known As">
         <first>August Teodor</first>
@@ -14696,6 +14715,7 @@
       </name>
       <eventref hlink="_cb589ccc48c49d2cda7" role="Primary"/>
       <eventref hlink="_d00740f121e07ebdc6f" role="Primary"/>
+      <eventref hlink="_e7250856fc520ecba2a27ad6bfe" role="Primary"/>
       <childof hlink="_cb589cc934615c31879"/>
     </person>
     <person handle="_cb589ccc4c00d9da784" change="1519929896" id="I4389">
@@ -23353,7 +23373,7 @@
       <eventref hlink="_cf99c1cc20c5adb7044" role="Primary"/>
       <childof hlink="_cf99bfe17cb65ecde12"/>
     </person>
-    <person handle="_d007999b053375c96a5" change="1519930055" id="I1460">
+    <person handle="_d007999b053375c96a5" change="1588413899" id="I1460">
       <gender>M</gender>
       <name type="Also Known As">
         <first>Karl Viktor</first>
@@ -23375,8 +23395,8 @@
       <eventref hlink="_d48760453161ad29e6c6bbb157a" role="Primary"/>
       <eventref hlink="_d4876f2764c2abf9ac7039b5d2b" role="Primary"/>
       <eventref hlink="_d4878c8238e27c8517254ca342a" role="Primary"/>
-      <childof hlink="_cb589cc934615c31879"/>
       <childof hlink="_d00a47dacf6745098af"/>
+      <childof hlink="_cb589cc934615c31879"/>
       <parentin hlink="_d4878df4e4a200b0df7f9ee9878"/>
     </person>
     <person handle="_d1cd0fdc8f30fb2abf5" change="1441743523" id="I1459">
@@ -25094,7 +25114,7 @@
       <childref hlink="_cb589ccc3fc36ec92a3"/>
       <childref hlink="_df6a7e0ca9f684c3e5dddc3a8c9"/>
     </family>
-    <family handle="_cb589cc934615c31879" change="1429569172" id="F2155">
+    <family handle="_cb589cc934615c31879" change="1588413899" id="F2155">
       <rel type="Married"/>
       <father hlink="_cb589cc92dd6232fd94"/>
       <mother hlink="_ce849db87a510e0466a"/>
@@ -25105,6 +25125,7 @@
       <eventref hlink="_d0075fda2f1395c0024" role="Family"/>
       <eventref hlink="_d00759c56ad3314dc6d" role="Family"/>
       <eventref hlink="_d0075481eb0219d85a6" role="Family"/>
+      <eventref hlink="_e72507566476929195484358078" role="Family"/>
       <childref hlink="_d007999b053375c96a5" frel="Stepchild"/>
       <childref hlink="_cb589ccc450050bcad3"/>
       <childref hlink="_cb589ccc4845e52a937"/>
@@ -34758,6 +34779,13 @@
       <noteref hlink="_e38da7e8a7948876c49920c7851"/>
       <sourceref hlink="_e38da7a48d275b71d83ab303b9d"/>
     </citation>
+    <citation handle="_e725052fa0192a9307d405e326" change="1588413882" id="C0095">
+      <page>453</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e7250529e446e87f6337ca0afc2"/>
+      <noteref hlink="_e72507328b4589d09ec6eb5ebb6"/>
+      <sourceref hlink="_e72504e86343d1f7fe689079b77"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -37169,6 +37197,11 @@
       <stitle>Uusimaa ja Häme Henkikirja 1792</stitle>
       <sauthor>Uudenmaan ja Hämeen lääni</sauthor>
       <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
+    <source handle="_e72504e86343d1f7fe689079b77" change="1588413638" id="S0222">
+      <stitle>Tuusula Rippikirja 1910-1919</stitle>
+      <sauthor>Tuusulan seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
   </sources>
   <places>
@@ -39635,7 +39668,7 @@
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1549822070" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1588413634" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -40904,13 +40937,14 @@ Syyskuu	11			15			1216	Nordberg, Anna Karolina Its vmo	25/6  1840	67	2	16	naitu	
         <range start="0" end="78"/>
       </style>
     </note>
-    <note handle="_d007584ea820659fe46" change="1534790073" id="N0224" type="Transcript" format="1">
-      <text>Itsell		Otto Wilhelm Nordberg					2/12 1850	Tuusula		VK 674
-Wo		Anna Karolina Juhontytär				25/6 1840	Nurmijärvi	&quot;						+ 11/9 1907
-Fa		Kiertokouluop Maria Olivia Nordberg	20/3 1878	Tuusula			&quot;							+ 5/10 1903
-Pa		August Teodor (Nordberg) Pohja		13/6 1880	&quot;			&quot;							R.L. sivu 107</text>
+    <note handle="_d007584ea820659fe46" change="1588413454" id="N0224" type="Transcript" format="1">
+      <text>Itsell	Otto Wilhelm Nordberg			2/12 1850 Tuusula	VK 674			UK 453
+Wo	Anna Karolina Juhontytär		25/6 1840 Nurmijärvi	&quot;			+ 11/9 1907
+Fa	Kiertokouluop Maria Olivia Nordberg	20/3 1878 Tuusula	&quot;			+ 5/10 1903
+Pa	August Teodor (Nordberg) Pohja		13/6 1880 &quot;		&quot;	R.L. sivu 107	UK 453
+										Amerikassa	</text>
       <style name="fontface" value="Monospace">
-        <range start="0" end="283"/>
+        <range start="0" end="296"/>
       </style>
     </note>
     <note handle="_d0075a8eeb1650cae63" change="1429562516" id="N0225" type="Url">
@@ -49255,6 +49289,17 @@ ikä, etunimet, sepän leski, asuinpaikka.</text>
       <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=11149419">
         <range start="0" end="46"/>
       </style>
+    </note>
+    <note handle="_e7250529e446e87f6337ca0afc2" change="1588413665" id="N0017" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33307&amp;pnum=455</text>
+    </note>
+    <note handle="_e72507328b4589d09ec6eb5ebb6" change="1588413878" id="N0019" type="Transcript" format="1">
+      <text>453	Jokela
+Jokela
+
+Itsellinen
+leski	Otto Wilhelm Nordberg			2/12 1850 Tuusula	VK 1216	joutui leskeksi 11/9 1907	Kuoli 2/2 1920
+P.		August Teodor Pohja (Nordberg)	13/6 1880 &quot;		&quot;			R.L. sivu 107				Kuoli Amerikassa 12/6 1911</text>
     </note>
   </notes>
 </database>
