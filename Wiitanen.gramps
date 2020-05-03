@@ -110,7 +110,7 @@
       <place hlink="_cfcf2ba409031044428"/>
       <citationref hlink="_cfcf30666691acecc72"/>
     </event>
-    <event handle="_d55225fd3d857dd5b3e0a015371" change="1465930008" id="E0020">
+    <event handle="_d55225fd3d857dd5b3e0a015371" change="1588502258" id="E0020">
       <type>Residence</type>
       <datespan start="1888" stop="1897"/>
       <place hlink="_cfcf2ba409031044428"/>
@@ -1322,9 +1322,15 @@
       <place hlink="_dccd4bc81bc5bf540a7f8eb1101"/>
       <citationref hlink="_dccd49fe69952ff75dc16dfae26"/>
     </event>
+    <event handle="_e72853ec73963b71062eab0e70b" change="1588502769" id="E0220">
+      <type>Residence</type>
+      <datespan start="1898" stop="1907"/>
+      <place hlink="_cfcf2ba409031044428"/>
+      <citationref hlink="_e72853ea117745d0c3861969b37"/>
+    </event>
   </events>
   <people>
-    <person handle="_cfcf2d6f80f4798ccdc" change="1466858185" id="I0000">
+    <person handle="_cfcf2d6f80f4798ccdc" change="1588502459" id="I0000">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Ossian Evert</first>
@@ -1366,7 +1372,7 @@
       <childof hlink="_d55290d7fa5149dbcfdd4219bc0"/>
       <parentin hlink="_cfcf2ec39c105718f81"/>
     </person>
-    <person handle="_cfcf328c2542400af2a" change="1466858185" id="I0003">
+    <person handle="_cfcf328c2542400af2a" change="1588502459" id="I0003">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Karl Alexander</first>
@@ -1376,7 +1382,7 @@
       <eventref hlink="_cfcf34e661b478d26b7" role="Primary"/>
       <childof hlink="_cfcf2ec39c105718f81"/>
     </person>
-    <person handle="_cfcf3347c8a0d78cd49" change="1466858185" id="I0004">
+    <person handle="_cfcf3347c8a0d78cd49" change="1588502459" id="I0004">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Hilja Maria</first>
@@ -2359,13 +2365,14 @@
     </person>
   </people>
   <families>
-    <family handle="_cfcf2ec39c105718f81" change="1466858185" id="F0000">
+    <family handle="_cfcf2ec39c105718f81" change="1588502459" id="F0000">
       <rel type="Married"/>
       <father hlink="_cfcf2f0accb0fef1bb6"/>
       <mother hlink="_cfcf31d6de109edc716"/>
       <eventref hlink="_d55219cef861e075a230883588c" role="Family"/>
       <eventref hlink="_d55224025e4b8b51511701ff9f" role="Family"/>
       <eventref hlink="_d55225fd3d857dd5b3e0a015371" role="Family"/>
+      <eventref hlink="_e72853ec73963b71062eab0e70b" role="Family"/>
       <childref hlink="_cfcf328c2542400af2a"/>
       <childref hlink="_cfcf3347c8a0d78cd49"/>
       <childref hlink="_cfcf2d6f80f4798ccdc"/>
@@ -3400,15 +3407,22 @@
       <noteref hlink="_e72849206d77bdec43c61f9ff80"/>
       <sourceref hlink="_dccd493f7206082a8d2342e69d5"/>
     </citation>
+    <citation handle="_e72853ea117745d0c3861969b37" change="1588502768" id="C0130">
+      <page>VI/822</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e72853e1db0407aeb4f76cb5100"/>
+      <noteref hlink="_e72856ddc224bf039f7a295fbd9"/>
+      <sourceref hlink="_e728531e0c32e72b38815016c09"/>
+    </citation>
   </citations>
   <sources>
-    <source handle="_cfcf2cc3be07b4ceb0a" change="1428055204" id="S0000">
-      <stitle>Tampere rippikirja 1888-1897</stitle>
+    <source handle="_cfcf2cc3be07b4ceb0a" change="1588502483" id="S0000">
+      <stitle>Tampere Rippikirja 1888-1897</stitle>
       <sauthor>Tampereen tuomiokirkkoseurakunta</sauthor>
       <reporef hlink="_cfcf2cbb463653e2b72" medium="Book"/>
     </source>
-    <source handle="_cfcf30028bc2b3db1f1" change="1428055189" id="S0001">
-      <stitle>Tampere rippikirja 1878-1887</stitle>
+    <source handle="_cfcf30028bc2b3db1f1" change="1588502477" id="S0001">
+      <stitle>Tampere Rippikirja 1878-1887</stitle>
       <sauthor>Tampereen tuomiokirkkoseurakunta</sauthor>
       <reporef hlink="_cfcf2cbb463653e2b72" medium="Book"/>
     </source>
@@ -3804,6 +3818,11 @@
       <noteref hlink="_dccd48e11367debebdc6980619d"/>
       <reporef hlink="_dccd46ff6f55e81325860132a48" medium="Book"/>
     </source>
+    <source handle="_e728531e0c32e72b38815016c09" change="1588502369" id="S0080">
+      <stitle>Tampere Rippikirja 1897-1907</stitle>
+      <sauthor>Tampereen tuomiokirkkoseurakunta</sauthor>
+      <reporef hlink="_cfcf2cbb463653e2b72" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cfcf2b878383fc95f39" change="1466532481" id="P0000" type="Country">
@@ -4065,7 +4084,7 @@
     </placeobj>
   </places>
   <repositories>
-    <repository handle="_cfcf2cbb463653e2b72" change="1466971484" id="R0000">
+    <repository handle="_cfcf2cbb463653e2b72" change="1588502368" id="R0000">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Archive</type>
     </repository>
@@ -4911,8 +4930,8 @@ för idkad krogrörelse 20 rubel silfver Död 2/? 1868</text>
         <range start="0" end="78"/>
       </style>
     </note>
-    <note handle="_e72849206d77bdec43c61f9ff80" change="1588501322" id="N0139" type="Transcript" format="1">
-      <text>Aufgehotsliste N:o 2237. 
+    <note handle="_e72849206d77bdec43c61f9ff80" change="1588501930" id="N0139" type="Transcript" format="1">
+      <text>Aufgebotsliste N:o 2237. 
 	Aufgebot.
   Es wird zur allgemeinen Kenntnis 
 gebracht, dass
@@ -4945,6 +4964,21 @@ der Stadt Hannover
         <range start="287" end="313"/>
         <range start="872" end="876"/>
       </style>
+    </note>
+    <note handle="_e72853e1db0407aeb4f76cb5100" change="1588502450" id="N0140" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31605&amp;pnum=825</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31605&amp;pnum=825">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_e72856ddc224bf039f7a295fbd9" change="1588502763" id="N0141" type="Transcript" format="1">
+      <text>822
+W
+
+Sorvari
+Wiitanen Kaarlo Evert Kustaanp	8/8 1862	Kangasala	V.k. 3650	U.K. 9-746
+Wmo Maria Sofia Nyman	23/9 1850	Helsingin pit	&quot;
+Lapsi Ossian Evert	24/2 1887	Tampere	&quot;</text>
     </note>
   </notes>
 </database>
