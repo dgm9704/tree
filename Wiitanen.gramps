@@ -40,17 +40,21 @@
       <place hlink="_cfcf2ba409031044428"/>
       <citationref hlink="_cfcf30666691acecc72"/>
     </event>
-    <event handle="_cfcf345ddb07d3a1236" change="1428055273" id="E0005">
+    <event handle="_cfcf345ddb07d3a1236" change="1588515169" id="E0005">
       <type>Death</type>
       <dateval val="1887-03-13"/>
       <place hlink="_cfcf2ba409031044428"/>
       <citationref hlink="_cfcf30666691acecc72"/>
+      <citationref hlink="_e728cd18b987aefb54318b9d2e6"/>
+      <citationref hlink="_e728ca0f0ef111a8a745f8c9e5c"/>
     </event>
-    <event handle="_cfcf34e661b478d26b7" change="1428055329" id="E0006">
+    <event handle="_cfcf34e661b478d26b7" change="1588514996" id="E0006">
       <type>Death</type>
       <dateval val="1892-06-02"/>
       <place hlink="_cfcf2ba409031044428"/>
       <citationref hlink="_cfcf2d46b6642aced58"/>
+      <citationref hlink="_e728cb65bfdabb6e689fc2fc5c"/>
+      <citationref hlink="_e728c9aeed129bf6688dcc43d7b"/>
     </event>
     <event handle="_cfd03da8a1b41dcf08d" change="1428083091" id="E0007">
       <type>Residence</type>
@@ -1322,11 +1326,21 @@
       <place hlink="_dccd4bc81bc5bf540a7f8eb1101"/>
       <citationref hlink="_dccd49fe69952ff75dc16dfae26"/>
     </event>
-    <event handle="_e72853ec73963b71062eab0e70b" change="1588502769" id="E0220">
+    <event handle="_e72853ec73963b71062eab0e70b" change="1588505141" id="E0220">
       <type>Residence</type>
       <datespan start="1898" stop="1907"/>
       <place hlink="_cfcf2ba409031044428"/>
       <citationref hlink="_e72853ea117745d0c3861969b37"/>
+    </event>
+    <event handle="_e728908a372513289ad70196b49" change="1588514616" id="E0221">
+      <type>Death</type>
+      <dateval val="1943-10-26"/>
+      <citationref hlink="_e7289086cca783f96462723e395"/>
+    </event>
+    <event handle="_e728c79eaa42c7dd5444120736d" change="1588514586" id="E0222">
+      <type>Death</type>
+      <dateval val="1934-08-20"/>
+      <citationref hlink="_e728c79967d69784e5ef713fc39"/>
     </event>
   </events>
   <people>
@@ -1341,7 +1355,7 @@
       <childof hlink="_cfcf2ec39c105718f81"/>
       <parentin hlink="_cfd267b9fa13a7ccef2"/>
     </person>
-    <person handle="_cfcf2f0accb0fef1bb6" change="1466958499" id="I0001">
+    <person handle="_cfcf2f0accb0fef1bb6" change="1588514482" id="I0001">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Karl Evert</first>
@@ -1351,10 +1365,11 @@
       <eventref hlink="_d574bad150a38eb2c6de2226d80" role="Primary"/>
       <eventref hlink="_d574b908d99636f01a55f5d8c3d" role="Primary"/>
       <eventref hlink="_d574b67f3561edbbae53adef18e" role="Primary"/>
+      <eventref hlink="_e728908a372513289ad70196b49" role="Primary"/>
       <childof hlink="_d575ca326306945b8e520b7efaa"/>
       <parentin hlink="_cfcf2ec39c105718f81"/>
     </person>
-    <person handle="_cfcf31d6de109edc716" change="1466544717" id="I0002">
+    <person handle="_cfcf31d6de109edc716" change="1588514596" id="I0002">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Sofia</first>
@@ -1369,6 +1384,7 @@
       <eventref hlink="_d55235bf1c857765bf44b8ad939" role="Primary"/>
       <eventref hlink="_d5522a2d3c33d6aa60533bb0866" role="Primary"/>
       <eventref hlink="_d55228a687c66e126b86e89eca6" role="Primary"/>
+      <eventref hlink="_e728c79eaa42c7dd5444120736d" role="Primary"/>
       <childof hlink="_d55290d7fa5149dbcfdd4219bc0"/>
       <parentin hlink="_cfcf2ec39c105718f81"/>
     </person>
@@ -3414,6 +3430,42 @@
       <noteref hlink="_e72856ddc224bf039f7a295fbd9"/>
       <sourceref hlink="_e728531e0c32e72b38815016c09"/>
     </citation>
+    <citation handle="_e7289086cca783f96462723e395" change="1588514615" id="C0131">
+      <page>Karl Evert</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e7288484f3c2beb3a96b163bb24"/>
+      <noteref hlink="_e72890836041c5fb6c0f5212b80"/>
+      <sourceref hlink="_e72883f5a5d75d8fe69c45b4cbe"/>
+    </citation>
+    <citation handle="_e728c79967d69784e5ef713fc39" change="1588514755" id="C0132">
+      <page>Maria Sofia</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e72890836041c5fb6c0f5212b80"/>
+      <noteref hlink="_e7288484f3c2beb3a96b163bb24"/>
+      <sourceref hlink="_e72883f5a5d75d8fe69c45b4cbe"/>
+    </citation>
+    <citation handle="_e728c9aeed129bf6688dcc43d7b" change="1588514802" id="C0133">
+      <page>Karl Alexander</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_e72883f5a5d75d8fe69c45b4cbe"/>
+    </citation>
+    <citation handle="_e728ca0f0ef111a8a745f8c9e5c" change="1588514841" id="C0134">
+      <page>Hilja Maria</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_e72883f5a5d75d8fe69c45b4cbe"/>
+    </citation>
+    <citation handle="_e728cb65bfdabb6e689fc2fc5c" change="1588514982" id="C0135">
+      <page>63-64</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e728cb6245e3decdfd5b4c1fff"/>
+      <sourceref hlink="_e728cb332086754b87a9f0b01e8"/>
+    </citation>
+    <citation handle="_e728cd18b987aefb54318b9d2e6" change="1588515160" id="C0136">
+      <page>200-201</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e728cd13bdaf8b5e863a678da"/>
+      <sourceref hlink="_e728ccd0edc2d31123361bb12a"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cfcf2cc3be07b4ceb0a" change="1588502483" id="S0000">
@@ -3823,6 +3875,20 @@
       <sauthor>Tampereen tuomiokirkkoseurakunta</sauthor>
       <reporef hlink="_cfcf2cbb463653e2b72" medium="Book"/>
     </source>
+    <source handle="_e72883f5a5d75d8fe69c45b4cbe" change="1588507491" id="S0081">
+      <stitle>Hautakivi Wiitanen</stitle>
+      <reporef hlink="_e728834a41754e2c49273e3c085" medium="Tombstone"/>
+    </source>
+    <source handle="_e728cb332086754b87a9f0b01e8" change="1588514961" id="S0082">
+      <stitle>Tampere Kuolleet 1890-1903</stitle>
+      <sauthor>Tampereen tuomiokirkkoseurakunta</sauthor>
+      <reporef hlink="_cfcf2cbb463653e2b72" medium="Book"/>
+    </source>
+    <source handle="_e728ccd0edc2d31123361bb12a" change="1588515130" id="S0083">
+      <stitle>Tampere Kuolleet 1868-1889</stitle>
+      <sauthor>Tampereen tuomiokirkkoseurakunta</sauthor>
+      <reporef hlink="_cfcf2cbb463653e2b72" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cfcf2b878383fc95f39" change="1466532481" id="P0000" type="Country">
@@ -4084,7 +4150,7 @@
     </placeobj>
   </places>
   <repositories>
-    <repository handle="_cfcf2cbb463653e2b72" change="1588502368" id="R0000">
+    <repository handle="_cfcf2cbb463653e2b72" change="1588515129" id="R0000">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Archive</type>
     </repository>
@@ -4096,6 +4162,10 @@
       <rname>Kansalliskirjaston digitoidut aineistot</rname>
       <type>Library</type>
       <url  href="https://digi.kansalliskirjasto.fi/" type="Web Home"/>
+    </repository>
+    <repository handle="_e728834a41754e2c49273e3c085" change="1588514658" id="R0003">
+      <rname>Kalevankankaan hautausmaa</rname>
+      <type>Cemetery</type>
     </repository>
   </repositories>
   <notes>
@@ -4979,6 +5049,38 @@ Sorvari
 Wiitanen Kaarlo Evert Kustaanp	8/8 1862	Kangasala	V.k. 3650	U.K. 9-746
 Wmo Maria Sofia Nyman	23/9 1850	Helsingin pit	&quot;
 Lapsi Ossian Evert	24/2 1887	Tampere	&quot;</text>
+    </note>
+    <note handle="_e7288484f3c2beb3a96b163bb24" change="1588507550" id="N0142" type="Link">
+      <text>https://www.facebook.com/photo.php?fbid=1272988362764643</text>
+      <style name="link" value="https://www.facebook.com/photo.php?fbid=1272988362764643">
+        <range start="0" end="56"/>
+      </style>
+    </note>
+    <note handle="_e72890836041c5fb6c0f5212b80" change="1588514457" id="N0143" type="Transcript" format="1">
+      <text>                                   WIITANEN
+
+TALOUSTIREHTÖÖRI                             MARIA SOFIA
+  KARL EVERT                                              O.S. NYMAN
+*8.8.1862 +26.10.1943                         *28.9.1850 +20.8.1934
+
+KARL ALEXANDER                                   HILJA MARIA
+*12.4.1883 +2.6.1892                            *22.10.1884 +13.3.1887
+</text>
+      <style name="fontsize" value="12">
+        <range start="0" end="43"/>
+      </style>
+    </note>
+    <note handle="_e728cb6245e3decdfd5b4c1fff" change="1588514980" id="N0144" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31622&amp;pnum=36</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31622&amp;pnum=36">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_e728cd13bdaf8b5e863a678da" change="1588515158" id="N0145" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31621&amp;pnum=104</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31621&amp;pnum=104">
+        <range start="0" end="78"/>
+      </style>
     </note>
   </notes>
 </database>
