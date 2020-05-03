@@ -102,7 +102,7 @@
       <type>Birth</type>
       <datestr val="19.5"/>
     </event>
-    <event handle="_d55219cef861e075a230883588c" change="1465928731" id="E0018">
+    <event handle="_d55219cef861e075a230883588c" change="1588544185" id="E0018">
       <type>Marriage</type>
       <dateval val="1883-10-04"/>
       <place hlink="_cfcf2ba409031044428"/>
@@ -1338,9 +1338,10 @@
       <description>Helsinki?</description>
       <citationref hlink="_e7289086cca783f96462723e395"/>
     </event>
-    <event handle="_e728c79eaa42c7dd5444120736d" change="1588514586" id="E0222">
+    <event handle="_e728c79eaa42c7dd5444120736d" change="1588544087" id="E0222">
       <type>Death</type>
       <dateval val="1934-08-20"/>
+      <description>Helsinki?</description>
       <citationref hlink="_e728c79967d69784e5ef713fc39"/>
     </event>
     <event handle="_e72977f60c33605687d2b55d0f7" change="1588534504" id="E0223">
@@ -1353,15 +1354,30 @@
       <citationref hlink="_e729844e1982a0fddbe52d25ad5"/>
       <citationref hlink="_e729856ed1e219d1230abae5f8e"/>
     </event>
-    <event handle="_e729df746e839a6f7f827693a26" change="1588543961" id="E0224">
+    <event handle="_e729df746e839a6f7f827693a26" change="1588547504" id="E0224">
       <type>Residence</type>
-      <dateval val="1919"/>
+      <datespan start="1918" stop="1920"/>
       <place hlink="_e729dccd3a611449df2235b7c3c"/>
+      <citationref hlink="_e729fe11cc87824e01be76f9ae7"/>
       <citationref hlink="_e729df63ae548b45db52e1677a"/>
+      <citationref hlink="_e729e59e145627d953802fd1ad1"/>
+    </event>
+    <event handle="_e729eae02af461cf9ca030a0d4c" change="1588547461" id="E0225">
+      <type>Residence</type>
+      <datespan start="1916" stop="1917"/>
+      <place hlink="_e729eb4f8032e23fb7785fad1a9"/>
+      <citationref hlink="_e729e92bdef5373876ce5bc3a7a"/>
+      <citationref hlink="_e729ee3cb52289cbb96c7b316a2"/>
+    </event>
+    <event handle="_e729ff368787210807492d478df" change="1588547258" id="E0226">
+      <type>Residence</type>
+      <dateval val="1918"/>
+      <place hlink="_cfd03d0678a092a610f"/>
+      <citationref hlink="_e729fe11cc87824e01be76f9ae7"/>
     </event>
   </events>
   <people>
-    <person handle="_cfcf2d6f80f4798ccdc" change="1588543968" id="I0000">
+    <person handle="_cfcf2d6f80f4798ccdc" change="1588547287" id="I0000">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Ossian Evert</first>
@@ -1369,6 +1385,7 @@
       </name>
       <eventref hlink="_cfcf2d4a7b0720c6594" role="Primary"/>
       <eventref hlink="_cfd03da8a1b41dcf08d" role="Primary"/>
+      <eventref hlink="_e729ff368787210807492d478df" role="Primary"/>
       <childof hlink="_cfcf2ec39c105718f81"/>
       <parentin hlink="_cfd267b9fa13a7ccef2"/>
     </person>
@@ -1405,7 +1422,7 @@
       <childof hlink="_d55290d7fa5149dbcfdd4219bc0"/>
       <parentin hlink="_cfcf2ec39c105718f81"/>
     </person>
-    <person handle="_cfcf328c2542400af2a" change="1588543968" id="I0003">
+    <person handle="_cfcf328c2542400af2a" change="1588547170" id="I0003">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Karl Alexander</first>
@@ -1415,7 +1432,7 @@
       <eventref hlink="_cfcf34e661b478d26b7" role="Primary"/>
       <childof hlink="_cfcf2ec39c105718f81"/>
     </person>
-    <person handle="_cfcf3347c8a0d78cd49" change="1588543968" id="I0004">
+    <person handle="_cfcf3347c8a0d78cd49" change="1588547170" id="I0004">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Hilja Maria</first>
@@ -1550,13 +1567,15 @@
       <childof hlink="_d555b87105415a89a8b64907cee"/>
       <parentin hlink="_d55290d7fa5149dbcfdd4219bc0"/>
     </person>
-    <person handle="_d552935863759675af59739436a" change="1466544717" id="I0018">
+    <person handle="_d552935863759675af59739436a" change="1588547511" id="I0018">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Clara</first>
         <surname>Nyman</surname>
       </name>
       <eventref hlink="_d5529381e237cad11d6b1f955ed" role="Primary"/>
+      <eventref hlink="_e729eae02af461cf9ca030a0d4c" role="Primary"/>
+      <eventref hlink="_e729df746e839a6f7f827693a26" role="Primary"/>
       <childof hlink="_d55290d7fa5149dbcfdd4219bc0"/>
     </person>
     <person handle="_d5529930c8755be1a3e596c7f49" change="1466544717" id="I0019">
@@ -2398,7 +2417,7 @@
     </person>
   </people>
   <families>
-    <family handle="_cfcf2ec39c105718f81" change="1588543968" id="F0000">
+    <family handle="_cfcf2ec39c105718f81" change="1588547170" id="F0000">
       <rel type="Married"/>
       <father hlink="_cfcf2f0accb0fef1bb6"/>
       <mother hlink="_cfcf31d6de109edc716"/>
@@ -2406,6 +2425,7 @@
       <eventref hlink="_d55224025e4b8b51511701ff9f" role="Family"/>
       <eventref hlink="_d55225fd3d857dd5b3e0a015371" role="Family"/>
       <eventref hlink="_e72853ec73963b71062eab0e70b" role="Family"/>
+      <eventref hlink="_e729eae02af461cf9ca030a0d4c" role="Family"/>
       <eventref hlink="_e729df746e839a6f7f827693a26" role="Family"/>
       <eventref hlink="_e72977f60c33605687d2b55d0f7" role="Family"/>
       <childref hlink="_cfcf328c2542400af2a"/>
@@ -3523,6 +3543,34 @@
       <noteref hlink="_e729df4e235f31ac6ddcee59ed"/>
       <sourceref hlink="_e729dd498b8169c181f926da86f"/>
     </citation>
+    <citation handle="_e729e59e145627d953802fd1ad1" change="1588544575" id="C0143">
+      <page>1920/599</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e729e4e1e48786583f8de3306d2"/>
+      <noteref hlink="_e729e59aa4b3862972a9b57da2"/>
+      <sourceref hlink="_e729e4a4bf52b559bdeacf3a73"/>
+    </citation>
+    <citation handle="_e729e92bdef5373876ce5bc3a7a" change="1588544947" id="C0144">
+      <page>1916/822</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e729e77245c4123be72453117c7"/>
+      <noteref hlink="_e729e8365e41de6aeb27474e75e"/>
+      <sourceref hlink="_e729e4a4bf52b559bdeacf3a73"/>
+    </citation>
+    <citation handle="_e729ee3cb52289cbb96c7b316a2" change="1588545478" id="C0145">
+      <page>H:239/67</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e729ec9140139cc283555876f06"/>
+      <noteref hlink="_e729ee1265173ca7ccd48f65b1a"/>
+      <sourceref hlink="_e729ebdd35de188f00036ab0e2"/>
+    </citation>
+    <citation handle="_e729fe11cc87824e01be76f9ae7" change="1588547139" id="C0146">
+      <page>H:248/228,229</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e729fa6a1876c174a780e042b0"/>
+      <noteref hlink="_e729fe0a89e17cb2dccf68ae7ac"/>
+      <sourceref hlink="_e729fa19ade75d6a05e52b4ca4d"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cfcf2cc3be07b4ceb0a" change="1588502483" id="S0000">
@@ -3962,13 +4010,27 @@
       <sauthor>Hämeen lääni</sauthor>
       <reporef hlink="_d552379f32e5d6bafe27cdf6eea" medium="Book"/>
     </source>
+    <source handle="_e729e4a4bf52b559bdeacf3a73" change="1588544472" id="S0087">
+      <stitle>Tampereen osoite-, kauppa- ja ammattikalenteri</stitle>
+      <reporef hlink="_dccd46ff6f55e81325860132a48" medium="Book"/>
+    </source>
+    <source handle="_e729ebdd35de188f00036ab0e2" change="1588545230" id="S0088">
+      <stitle>Häme Henkikirja 1917</stitle>
+      <sauthor>Hämeen lääni</sauthor>
+      <reporef hlink="_d552379f32e5d6bafe27cdf6eea" medium="Book"/>
+    </source>
+    <source handle="_e729fa19ade75d6a05e52b4ca4d" change="1588546722" id="S0089">
+      <stitle>Häme Henkikirja 1918</stitle>
+      <sauthor>Hämeen lääni</sauthor>
+      <reporef hlink="_d552379f32e5d6bafe27cdf6eea" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cfcf2b878383fc95f39" change="1466532481" id="P0000" type="Country">
       <pname value="Suomi"/>
       <pname value="Finland" lang="sv"/>
     </placeobj>
-    <placeobj handle="_cfcf2ba409031044428" change="1588543646" id="P0001" type="Parish">
+    <placeobj handle="_cfcf2ba409031044428" change="1588545164" id="P0001" type="Parish">
       <pname value="Tampere"/>
       <pname value="Tammerfors" lang="se"/>
       <placeref hlink="_cfcf2b878383fc95f39"/>
@@ -4248,17 +4310,26 @@
       <pname value="Satamakatu 7"/>
       <placeref hlink="_e729dcc4e6b709ed9aeef103460"/>
     </placeobj>
+    <placeobj handle="_e729eb3eb7752fa8ae39041ad8e" change="1588545171" id="P0068" type="Borough">
+      <pname value="10. kaupunginosa"/>
+      <placeref hlink="_cfcf2ba409031044428"/>
+    </placeobj>
+    <placeobj handle="_e729eb4f8032e23fb7785fad1a9" change="1588545172" id="P0069" type="Building">
+      <code>1</code>
+      <pname value="Satakunnankatu 16"/>
+      <placeref hlink="_e729eb3eb7752fa8ae39041ad8e"/>
+    </placeobj>
   </places>
   <repositories>
     <repository handle="_cfcf2cbb463653e2b72" change="1588515129" id="R0000">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Archive</type>
     </repository>
-    <repository handle="_d552379f32e5d6bafe27cdf6eea" change="1588543699" id="R0001">
+    <repository handle="_d552379f32e5d6bafe27cdf6eea" change="1588546719" id="R0001">
       <rname>Arkistolaitos - Digitaaliarkisto</rname>
       <type>Library</type>
     </repository>
-    <repository handle="_dccd46ff6f55e81325860132a48" change="1588534001" id="R0002">
+    <repository handle="_dccd46ff6f55e81325860132a48" change="1588544468" id="R0002">
       <rname>Kansalliskirjaston digitoidut aineistot</rname>
       <type>Library</type>
       <url  href="https://digi.kansalliskirjasto.fi/" type="Web Home"/>
@@ -5250,6 +5321,66 @@ III                   57        Satamakatu 7
                                                                        &quot;                 Maria Sofia 50 yl ik
                                                                       Nyman, Klara                53  &quot;       neiti
 </text>
+    </note>
+    <note handle="_e729e4e1e48786583f8de3306d2" change="1588544498" id="N0158" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1161831?page=703</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1161831?page=703">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_e729e59aa4b3862972a9b57da2" change="1588544573" id="N0159" type="Transcript">
+      <text>Viitanen
+- Karl Evert, ent palomest., Sa-
+         tamakatu 7, p. 293.</text>
+    </note>
+    <note handle="_e729e77245c4123be72453117c7" change="1588544766" id="N0160" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1161830?page=898</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1161830?page=898">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_e729e8365e41de6aeb27474e75e" change="1588544847" id="N0161" type="Citation">
+      <text>Viitanen
+- Karl Evert, palomest., Satakunnankatu 16, p. 293.
+- Maria Sofia, rouva, Satakunnankatu 16, p. 293.</text>
+    </note>
+    <note handle="_e729ec9140139cc283555876f06" change="1588545303" id="N0162" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=73677674</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=73677674">
+        <range start="0" end="46"/>
+      </style>
+    </note>
+    <note handle="_e729ee1265173ca7ccd48f65b1a" change="1588545461" id="N0163" type="Transcript" format="1">
+      <text>10 1 Satakunnank. 16    Tal.omist. Tampereen kaupunki Paloasema
+                                                 Vuokr. Viitanen, Karl Evert 62 palomestari vmo
+                                                                                    Maria Sofia 50 yl.
+                                                                      &quot;            Ossian Evert 87 ylioppilas
+                                                                 Nyman, Klara 53 neiti
+                                     </text>
+    </note>
+    <note handle="_e729fa6a1876c174a780e042b0" change="1588546904" id="N0164" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=77139110
+http://digi.narc.fi/digi/view.ka?kuid=77139005</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=77139110">
+        <range start="0" end="46"/>
+      </style>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=77139005">
+        <range start="47" end="93"/>
+      </style>
+    </note>
+    <note handle="_e729fb34e443e0789760d74fd94" change="1588546838" id="N0165" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=77139005</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=77139005">
+        <range start="0" end="46"/>
+      </style>
+    </note>
+    <note handle="_e729fe0a89e17cb2dccf68ae7ac" change="1588547136" id="N0166" type="Transcript" format="1">
+      <text>III 57 Satamakatu 7
+                                                    Viitanen, Karl Evert 62 taloustireht. vmo
+[sivu vaihtuu]
+                                                    Vuokr. Viitanen, Maria Sofia 50 yl. ik.
+                                                                    &quot;                 Ossian Evert 87 yliopp. on Saksassa
+                                                                    Nyman Klara                   53 yl. ik.     neiti</text>
     </note>
   </notes>
 </database>
