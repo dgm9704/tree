@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2020-05-04" version="5.1.2"/>
+    <created date="2020-05-05" version="5.1.2"/>
     <researcher>
     </researcher>
   </header>
@@ -102,11 +102,12 @@
       <type>Birth</type>
       <datestr val="19.5"/>
     </event>
-    <event handle="_d55219cef861e075a230883588c" change="1588544185" id="E0018">
+    <event handle="_d55219cef861e075a230883588c" change="1588689637" id="E0018">
       <type>Marriage</type>
       <dateval val="1883-10-04"/>
       <place hlink="_cfcf2ba409031044428"/>
       <citationref hlink="_cfcf30666691acecc72"/>
+      <citationref hlink="_e72f4ceafcd75f761244aa11ba7"/>
     </event>
     <event handle="_d55224025e4b8b51511701ff9f" change="1465929913" id="E0019">
       <type>Residence</type>
@@ -1379,7 +1380,7 @@
       <place hlink="_cfd03d0678a092a610f"/>
       <citationref hlink="_e729fe11cc87824e01be76f9ae7"/>
     </event>
-    <event handle="_e72c009eb386718556c26381c4e" change="1588616120" id="E0227">
+    <event handle="_e72c009eb386718556c26381c4e" change="1588690550" id="E0227">
       <type>Residence</type>
       <datespan start="1900" stop="1910"/>
       <place hlink="_e72bfec894145a2a742ef8e026"/>
@@ -3690,6 +3691,13 @@
       <noteref hlink="_e72c816f9d664a79d178fd263b"/>
       <sourceref hlink="_e72c7fc122274f28dab86ffd4b2"/>
     </citation>
+    <citation handle="_e72f4ceafcd75f761244aa11ba7" change="1588689624" id="C0161">
+      <page>10-11</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e72f4ae480f7d61541adabf5a21"/>
+      <noteref hlink="_e72f4ce753f438f3840e1784036"/>
+      <sourceref hlink="_e72f4ab713179a3b267869c79a4"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cfcf2cc3be07b4ceb0a" change="1588502483" id="S0000">
@@ -4197,6 +4205,11 @@
       <sauthor>Hämeen lääni</sauthor>
       <reporef hlink="_d552379f32e5d6bafe27cdf6eea" medium="Book"/>
     </source>
+    <source handle="_e72f4ab713179a3b267869c79a4" change="1588689393" id="S0101">
+      <stitle>Tampere Vihityt 1883-1889</stitle>
+      <sauthor>Tampereen tuomiokirkkoseurakunta</sauthor>
+      <reporef hlink="_cfcf2cbb463653e2b72" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cfcf2b878383fc95f39" change="1466532481" id="P0000" type="Country">
@@ -4500,7 +4513,7 @@
     </placeobj>
   </places>
   <repositories>
-    <repository handle="_cfcf2cbb463653e2b72" change="1588515129" id="R0000">
+    <repository handle="_cfcf2cbb463653e2b72" change="1588689391" id="R0000">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Archive</type>
     </repository>
@@ -5745,6 +5758,27 @@ Tontti 48½
 Läntinen Pitkäkatu
 Omist Sorvari Kaarle Evert Wiitanen
 </text>
+    </note>
+    <note handle="_e72f4ae480f7d61541adabf5a21" change="1588689412" id="N0195" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31617&amp;pnum=7</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31617&amp;pnum=7">
+        <range start="0" end="76"/>
+      </style>
+    </note>
+    <note handle="_e72f4ce753f438f3840e1784036" change="1588689623" id="N0196" type="Transcript" format="1">
+      <text>                                                                 1883
+
+October  4  Svarfvaremäst., ungk. Karl Evert Wiitanen o.    1412  21  62-50
+                        Strykerskan Maria Sofia Nyman                                            33
+                                                                 K. A. E. Tällqvist</text>
+      <style name="bold">
+        <range start="65" end="69"/>
+      </style>
+      <style name="underline">
+        <range start="71" end="78"/>
+        <range start="105" end="124"/>
+        <range start="183" end="200"/>
+      </style>
     </note>
   </notes>
 </database>
