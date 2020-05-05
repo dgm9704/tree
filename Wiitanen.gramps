@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2020-05-05" version="5.1.2"/>
+    <created date="2020-05-06" version="5.1.2"/>
     <researcher>
     </researcher>
   </header>
@@ -102,14 +102,14 @@
       <type>Birth</type>
       <datestr val="19.5"/>
     </event>
-    <event handle="_d55219cef861e075a230883588c" change="1588689637" id="E0018">
+    <event handle="_d55219cef861e075a230883588c" change="1588709084" id="E0018">
       <type>Marriage</type>
       <dateval val="1883-10-04"/>
       <place hlink="_cfcf2ba409031044428"/>
       <citationref hlink="_cfcf30666691acecc72"/>
       <citationref hlink="_e72f4ceafcd75f761244aa11ba7"/>
     </event>
-    <event handle="_d55224025e4b8b51511701ff9f" change="1465929913" id="E0019">
+    <event handle="_d55224025e4b8b51511701ff9f" change="1588713030" id="E0019">
       <type>Residence</type>
       <datespan start="1883" stop="1887"/>
       <place hlink="_cfcf2ba409031044428"/>
@@ -937,11 +937,13 @@
       <place hlink="_cfcf2ba409031044428"/>
       <citationref hlink="_d574b6790a62cb5fd8c8344ee5c"/>
     </event>
-    <event handle="_d574b908d99636f01a55f5d8c3d" change="1466858160" id="E0155">
+    <event handle="_d574b908d99636f01a55f5d8c3d" change="1588713062" id="E0155">
       <type>Residence</type>
-      <datespan start="1877-04-21" stop="1877"/>
-      <place hlink="_cfcf2ba409031044428"/>
+      <datespan start="1877-04-21" stop="1882-11-07"/>
+      <place hlink="_e73025fc4944a1f592090a04ee3"/>
       <citationref hlink="_d574b8d9b7a6f95858de0fb7773"/>
+      <citationref hlink="_e7302711c274eb8030f81b255c"/>
+      <citationref hlink="_d574b6790a62cb5fd8c8344ee5c"/>
     </event>
     <event handle="_d574bad150a38eb2c6de2226d80" change="1466861429" id="E0156">
       <type>Residence</type>
@@ -1410,7 +1412,7 @@
       <childof hlink="_cfcf2ec39c105718f81"/>
       <parentin hlink="_cfd267b9fa13a7ccef2"/>
     </person>
-    <person handle="_cfcf2f0accb0fef1bb6" change="1588514482" id="I0001">
+    <person handle="_cfcf2f0accb0fef1bb6" change="1588713106" id="I0001">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Karl Evert</first>
@@ -1419,7 +1421,6 @@
       <eventref hlink="_cfcf30716194d8d72f3" role="Primary"/>
       <eventref hlink="_d574bad150a38eb2c6de2226d80" role="Primary"/>
       <eventref hlink="_d574b908d99636f01a55f5d8c3d" role="Primary"/>
-      <eventref hlink="_d574b67f3561edbbae53adef18e" role="Primary"/>
       <eventref hlink="_e728908a372513289ad70196b49" role="Primary"/>
       <childof hlink="_d575ca326306945b8e520b7efaa"/>
       <parentin hlink="_cfcf2ec39c105718f81"/>
@@ -3698,6 +3699,12 @@
       <noteref hlink="_e72f4ce753f438f3840e1784036"/>
       <sourceref hlink="_e72f4ab713179a3b267869c79a4"/>
     </citation>
+    <citation handle="_e7302711c274eb8030f81b255c" change="1588712499" id="C0162">
+      <page>H:57/7734</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e73026ee2726f790b57cb71ea97"/>
+      <sourceref hlink="_e73026a984467023e805b8c10e8"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cfcf2cc3be07b4ceb0a" change="1588502483" id="S0000">
@@ -4210,6 +4217,11 @@
       <sauthor>Tampereen tuomiokirkkoseurakunta</sauthor>
       <reporef hlink="_cfcf2cbb463653e2b72" medium="Book"/>
     </source>
+    <source handle="_e73026a984467023e805b8c10e8" change="1588712456" id="S0102">
+      <stitle>Häme Henkikirja 1878</stitle>
+      <sauthor>Hämeen lääni</sauthor>
+      <reporef hlink="_d552379f32e5d6bafe27cdf6eea" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cfcf2b878383fc95f39" change="1466532481" id="P0000" type="Country">
@@ -4488,7 +4500,7 @@
       <pname value="Mikonkatu 22 D"/>
       <placeref hlink="_e729789ed0133a8588ad6c766dd"/>
     </placeobj>
-    <placeobj handle="_e729dcc4e6b709ed9aeef103460" change="1588543647" id="P0066" type="Borough">
+    <placeobj handle="_e729dcc4e6b709ed9aeef103460" change="1588712363" id="P0066" type="Borough">
       <pname value="3. kaupunginosa"/>
       <placeref hlink="_cfcf2ba409031044428"/>
     </placeobj>
@@ -4511,13 +4523,21 @@
       <pname value="Puutarhakatu 14"/>
       <placeref hlink="_d5522c9c1d751e3b9702242a6af"/>
     </placeobj>
+    <placeobj handle="_e730083a7de568a371025305af3" change="1588709265" id="P0071" type="Building">
+      <pname value="60"/>
+      <placeref hlink="_e729dcc4e6b709ed9aeef103460"/>
+    </placeobj>
+    <placeobj handle="_e73025fc4944a1f592090a04ee3" change="1588712385" id="P0072" type="Neighborhood">
+      <pname value="Qvarter 97"/>
+      <placeref hlink="_e729dcc4e6b709ed9aeef103460"/>
+    </placeobj>
   </places>
   <repositories>
     <repository handle="_cfcf2cbb463653e2b72" change="1588689391" id="R0000">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Archive</type>
     </repository>
-    <repository handle="_d552379f32e5d6bafe27cdf6eea" change="1588614421" id="R0001">
+    <repository handle="_d552379f32e5d6bafe27cdf6eea" change="1588712453" id="R0001">
       <rname>Arkistolaitos - Digitaaliarkisto</rname>
       <type>Library</type>
     </repository>
@@ -5778,6 +5798,12 @@ October  4  Svarfvaremäst., ungk. Karl Evert Wiitanen o.    1412  21  62-50
         <range start="71" end="78"/>
         <range start="105" end="124"/>
         <range start="183" end="200"/>
+      </style>
+    </note>
+    <note handle="_e73026ee2726f790b57cb71ea97" change="1588712484" id="N0197" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=74388613</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=74388613">
+        <range start="0" end="46"/>
       </style>
     </note>
   </notes>
