@@ -109,7 +109,7 @@
       <citationref hlink="_cfcf30666691acecc72"/>
       <citationref hlink="_e72f4ceafcd75f761244aa11ba7"/>
     </event>
-    <event handle="_d55224025e4b8b51511701ff9f" change="1588802561" id="E0019">
+    <event handle="_d55224025e4b8b51511701ff9f" change="1588805141" id="E0019">
       <type>Residence</type>
       <datespan start="1883" stop="1887"/>
       <place hlink="_cfcf2ba409031044428"/>
@@ -1419,9 +1419,21 @@
       <place hlink="_e73382585b6304ff7666e665cd4"/>
       <citationref hlink="_e7338369b1699e1aadfae0f18"/>
     </event>
+    <event handle="_e73388bcc1c613eb8eadaa3d099" change="1588803271" id="E0231">
+      <type>Residence</type>
+      <dateval val="1886"/>
+      <place hlink="_e73382585b6304ff7666e665cd4"/>
+      <citationref hlink="_e73388b8769516d1017501b4481"/>
+    </event>
+    <event handle="_e7338aa23df19ccbd8f822556b6" change="1588803470" id="E0232">
+      <type>Residence</type>
+      <dateval val="1884"/>
+      <place hlink="_e73389f19343f3a03bf47977d35"/>
+      <citationref hlink="_e7338a9e63835c09ccb19fdf027"/>
+    </event>
   </events>
   <people>
-    <person handle="_cfcf2d6f80f4798ccdc" change="1588802744" id="I0000">
+    <person handle="_cfcf2d6f80f4798ccdc" change="1588805142" id="I0000">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Ossian Evert</first>
@@ -1466,7 +1478,7 @@
       <childof hlink="_d55290d7fa5149dbcfdd4219bc0"/>
       <parentin hlink="_cfcf2ec39c105718f81"/>
     </person>
-    <person handle="_cfcf328c2542400af2a" change="1588802744" id="I0003">
+    <person handle="_cfcf328c2542400af2a" change="1588805142" id="I0003">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Karl Alexander</first>
@@ -1476,7 +1488,7 @@
       <eventref hlink="_cfcf34e661b478d26b7" role="Primary"/>
       <childof hlink="_cfcf2ec39c105718f81"/>
     </person>
-    <person handle="_cfcf3347c8a0d78cd49" change="1588802744" id="I0004">
+    <person handle="_cfcf3347c8a0d78cd49" change="1588805142" id="I0004">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Hilja Maria</first>
@@ -2461,12 +2473,14 @@
     </person>
   </people>
   <families>
-    <family handle="_cfcf2ec39c105718f81" change="1588802744" id="F0000">
+    <family handle="_cfcf2ec39c105718f81" change="1588805142" id="F0000">
       <rel type="Married"/>
       <father hlink="_cfcf2f0accb0fef1bb6"/>
       <mother hlink="_cfcf31d6de109edc716"/>
       <eventref hlink="_d55219cef861e075a230883588c" role="Family"/>
       <eventref hlink="_d55224025e4b8b51511701ff9f" role="Family"/>
+      <eventref hlink="_e7338aa23df19ccbd8f822556b6" role="Family"/>
+      <eventref hlink="_e73388bcc1c613eb8eadaa3d099" role="Family"/>
       <eventref hlink="_e733836e3c577b6a31f309c1caf" role="Family"/>
       <eventref hlink="_e73381368d27a959efb38487613" role="Family"/>
       <eventref hlink="_d55225fd3d857dd5b3e0a015371" role="Family"/>
@@ -3751,6 +3765,20 @@
       <noteref hlink="_e733835d1b94cc7f618200c645b"/>
       <sourceref hlink="_e73382c9eb4563e2f8a26bf68b9"/>
     </citation>
+    <citation handle="_e73388b8769516d1017501b4481" change="1588803269" id="C0166">
+      <page>1886/64</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e7338800ac640f890183f8cc571"/>
+      <noteref hlink="_e73388af6e43f62d656ea06e11a"/>
+      <sourceref hlink="_e733800dfa44707ef03df3fb00a"/>
+    </citation>
+    <citation handle="_e7338a9e63835c09ccb19fdf027" change="1588803468" id="C0167">
+      <page>1884/46</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e7338a40c8e3128b2d459b788c6"/>
+      <noteref hlink="_e7338a944377fcae83bb5066468"/>
+      <sourceref hlink="_e733800dfa44707ef03df3fb00a"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cfcf2cc3be07b4ceb0a" change="1588502483" id="S0000">
@@ -4287,7 +4315,7 @@
       <pname value="Suomi"/>
       <pname value="Finland" lang="sv"/>
     </placeobj>
-    <placeobj handle="_cfcf2ba409031044428" change="1588802599" id="P0001" type="Parish">
+    <placeobj handle="_cfcf2ba409031044428" change="1588803396" id="P0001" type="Parish">
       <pname value="Tampere"/>
       <pname value="Tammerfors" lang="se"/>
       <placeref hlink="_cfcf2b878383fc95f39"/>
@@ -4596,6 +4624,10 @@
     </placeobj>
     <placeobj handle="_e73382585b6304ff7666e665cd4" change="1588802601" id="P0074" type="Building">
       <pname value="Puutarhakatu 16"/>
+      <placeref hlink="_cfcf2ba409031044428"/>
+    </placeobj>
+    <placeobj handle="_e73389f19343f3a03bf47977d35" change="1588803397" id="P0075" type="Building">
+      <pname value="Puutarhakatu 10"/>
       <placeref hlink="_cfcf2ba409031044428"/>
     </placeobj>
   </places>
@@ -5929,6 +5961,25 @@ Sedelhafvanden bor fol 112</text>
     </note>
     <note handle="_e733835d1b94cc7f618200c645b" change="1588802707" id="N0204" type="Transcript" format="1">
       <text>Wiitanen, Karl E., sorvari. Puutarhak. 16</text>
+    </note>
+    <note handle="_e7338800ac640f890183f8cc571" change="1588803194" id="N0205" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1161826?page=68</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1161826?page=68">
+        <range start="0" end="67"/>
+      </style>
+    </note>
+    <note handle="_e73388af6e43f62d656ea06e11a" change="1588803265" id="N0206" type="Transcript" format="1">
+      <text>Wiitanen, Karl E sorvari. Puutarhak. 16
+        &quot;            J. G.            &quot;         Kuninkaank. 13</text>
+    </note>
+    <note handle="_e7338a40c8e3128b2d459b788c6" change="1588803430" id="N0207" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1161825?page=48</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1161825?page=48">
+        <range start="0" end="67"/>
+      </style>
+    </note>
+    <note handle="_e7338a944377fcae83bb5066468" change="1588803464" id="N0208" type="Transcript" format="1">
+      <text>Wiitanen, K. E., sorvari, Puutarhakatu 10.</text>
     </note>
   </notes>
 </database>
