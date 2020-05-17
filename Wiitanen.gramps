@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2020-05-07" version="5.1.2"/>
+    <created date="2020-05-17" version="5.1.2"/>
     <researcher>
     </researcher>
   </header>
@@ -102,7 +102,7 @@
       <type>Birth</type>
       <datestr val="19.5"/>
     </event>
-    <event handle="_d55219cef861e075a230883588c" change="1588709084" id="E0018">
+    <event handle="_d55219cef861e075a230883588c" change="1589724192" id="E0018">
       <type>Marriage</type>
       <dateval val="1883-10-04"/>
       <place hlink="_cfcf2ba409031044428"/>
@@ -1348,7 +1348,7 @@
       <description>Helsinki?</description>
       <citationref hlink="_e728c79967d69784e5ef713fc39"/>
     </event>
-    <event handle="_e72977f60c33605687d2b55d0f7" change="1588786590" id="E0223">
+    <event handle="_e72977f60c33605687d2b55d0f7" change="1589724232" id="E0223">
       <type>Residence</type>
       <datespan start="1920" stop="1928"/>
       <place hlink="_e7297d531943952b7e99ffd0684"/>
@@ -1358,7 +1358,7 @@
       <citationref hlink="_e729844e1982a0fddbe52d25ad5"/>
       <citationref hlink="_e729856ed1e219d1230abae5f8e"/>
     </event>
-    <event handle="_e729df746e839a6f7f827693a26" change="1588786584" id="E0224">
+    <event handle="_e729df746e839a6f7f827693a26" change="1589724224" id="E0224">
       <type>Residence</type>
       <datespan start="1918" stop="1920"/>
       <place hlink="_e729dccd3a611449df2235b7c3c"/>
@@ -1366,7 +1366,7 @@
       <citationref hlink="_e729df63ae548b45db52e1677a"/>
       <citationref hlink="_e729e59e145627d953802fd1ad1"/>
     </event>
-    <event handle="_e729eae02af461cf9ca030a0d4c" change="1588786580" id="E0225">
+    <event handle="_e729eae02af461cf9ca030a0d4c" change="1589724219" id="E0225">
       <type>Residence</type>
       <datespan start="1910" stop="1917"/>
       <place hlink="_e729eb4f8032e23fb7785fad1a9"/>
@@ -1383,7 +1383,7 @@
       <place hlink="_cfd03d0678a092a610f"/>
       <citationref hlink="_e729fe11cc87824e01be76f9ae7"/>
     </event>
-    <event handle="_e72c009eb386718556c26381c4e" change="1588800956" id="E0227">
+    <event handle="_e72c009eb386718556c26381c4e" change="1589724213" id="E0227">
       <type>Residence</type>
       <datespan start="1900" stop="1910"/>
       <place hlink="_e72bfec894145a2a742ef8e026"/>
@@ -1407,33 +1407,38 @@
       <place hlink="_cfcf2ba409031044428"/>
       <citationref hlink="_cfcf30666691acecc72"/>
     </event>
-    <event handle="_e73381368d27a959efb38487613" change="1588866513" id="E0229">
+    <event handle="_e73381368d27a959efb38487613" change="1589724375" id="E0229">
       <type>Residence</type>
       <dateval val="1888"/>
       <place hlink="_e7337f8cc3940827c7af9884a5f"/>
       <citationref hlink="_e7338058d423c396e182d0ac1b1"/>
+      <citationref hlink="_cfcf2d46b6642aced58"/>
     </event>
-    <event handle="_e733836e3c577b6a31f309c1caf" change="1588802714" id="E0230">
+    <event handle="_e733836e3c577b6a31f309c1caf" change="1589724139" id="E0230">
       <type>Residence</type>
       <dateval val="1887"/>
       <place hlink="_e73382585b6304ff7666e665cd4"/>
       <citationref hlink="_e7338369b1699e1aadfae0f18"/>
+      <citationref hlink="_cfcf30666691acecc72"/>
     </event>
-    <event handle="_e73388bcc1c613eb8eadaa3d099" change="1588873909" id="E0231">
+    <event handle="_e73388bcc1c613eb8eadaa3d099" change="1589724365" id="E0231">
       <type>Residence</type>
-      <dateval val="1886"/>
+      <datespan start="1886" stop="1887"/>
       <place hlink="_e73382585b6304ff7666e665cd4"/>
+      <citationref hlink="_cfcf30666691acecc72"/>
       <citationref hlink="_e73388b8769516d1017501b4481"/>
+      <citationref hlink="_e7338369b1699e1aadfae0f18"/>
     </event>
-    <event handle="_e7338aa23df19ccbd8f822556b6" change="1588866739" id="E0232">
+    <event handle="_e7338aa23df19ccbd8f822556b6" change="1589724159" id="E0232">
       <type>Residence</type>
       <dateval val="1884"/>
       <place hlink="_e73389f19343f3a03bf47977d35"/>
       <citationref hlink="_e7338a9e63835c09ccb19fdf027"/>
+      <citationref hlink="_cfcf30666691acecc72"/>
     </event>
   </events>
   <people>
-    <person handle="_cfcf2d6f80f4798ccdc" change="1588805142" id="I0000">
+    <person handle="_cfcf2d6f80f4798ccdc" change="1589724386" id="I0000">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Ossian Evert</first>
@@ -1478,7 +1483,7 @@
       <childof hlink="_d55290d7fa5149dbcfdd4219bc0"/>
       <parentin hlink="_cfcf2ec39c105718f81"/>
     </person>
-    <person handle="_cfcf328c2542400af2a" change="1588805142" id="I0003">
+    <person handle="_cfcf328c2542400af2a" change="1589724386" id="I0003">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Karl Alexander</first>
@@ -1488,7 +1493,7 @@
       <eventref hlink="_cfcf34e661b478d26b7" role="Primary"/>
       <childof hlink="_cfcf2ec39c105718f81"/>
     </person>
-    <person handle="_cfcf3347c8a0d78cd49" change="1588805142" id="I0004">
+    <person handle="_cfcf3347c8a0d78cd49" change="1589724386" id="I0004">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Hilja Maria</first>
@@ -2473,18 +2478,14 @@
     </person>
   </people>
   <families>
-    <family handle="_cfcf2ec39c105718f81" change="1588805142" id="F0000">
+    <family handle="_cfcf2ec39c105718f81" change="1589724386" id="F0000">
       <rel type="Married"/>
       <father hlink="_cfcf2f0accb0fef1bb6"/>
       <mother hlink="_cfcf31d6de109edc716"/>
       <eventref hlink="_d55219cef861e075a230883588c" role="Family"/>
-      <eventref hlink="_d55224025e4b8b51511701ff9f" role="Family"/>
       <eventref hlink="_e7338aa23df19ccbd8f822556b6" role="Family"/>
       <eventref hlink="_e73388bcc1c613eb8eadaa3d099" role="Family"/>
-      <eventref hlink="_e733836e3c577b6a31f309c1caf" role="Family"/>
       <eventref hlink="_e73381368d27a959efb38487613" role="Family"/>
-      <eventref hlink="_d55225fd3d857dd5b3e0a015371" role="Family"/>
-      <eventref hlink="_e72853ec73963b71062eab0e70b" role="Family"/>
       <eventref hlink="_e72c009eb386718556c26381c4e" role="Family"/>
       <eventref hlink="_e729eae02af461cf9ca030a0d4c" role="Family"/>
       <eventref hlink="_e729df746e839a6f7f827693a26" role="Family"/>
