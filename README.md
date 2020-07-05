@@ -19,6 +19,6 @@
 - git add, git commit, git push
 
 ### web site
-- fenerate "Narrated Web Site" report into /docs
+- generate "Narrated Web Site" report into /docs
 - git add, git commit, git push
 - github copies it to https://dgm9704.github.io/tree/
