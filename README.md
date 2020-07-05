@@ -22,3 +22,13 @@
 - generate "Narrated Web Site" report into /docs
 - git add, git commit, git push
 - github copies it to https://dgm9704.github.io/tree/
+
+## looking for
+
+### a way to generate the web pages automatically
+- running the plugin as a github action?
+- triggering the plugin on client based on changed files?
+
+### automating git around gramps
+- a plugin that does git pull, commit, push automatically?
+- a script for starting gramps that does git stuff before and after?
