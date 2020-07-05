@@ -167,7 +167,7 @@
       <type>Death</type>
       <dateval val="1946-12-18"/>
     </event>
-    <event handle="_cb589cc8a6b4de5dc52" change="1533205579" id="E0132">
+    <event handle="_cb589cc8a6b4de5dc52" change="1593955074" id="E0132">
       <type>Birth</type>
       <dateval val="1916-07-06"/>
       <place hlink="_cb589cc823618ba6dad"/>
@@ -1263,9 +1263,15 @@
       <dateval val="1917-05-01" quality="estimated"/>
       <place hlink="_df214b4636d4e85a2ea0bff6bec"/>
     </event>
+    <event handle="_e7f36c9eea81d339aca5dcf5f79" change="1593954915" id="E0007">
+      <type>Residence</type>
+      <datespan start="1909" stop="1910"/>
+      <place hlink="_cb589cc823618ba6dad"/>
+      <citationref hlink="_e7f36c9c688255009aa2da164db"/>
+    </event>
   </events>
   <people home="_cb589cc7fd941e4faf4">
-    <person handle="_cb589cc7fd941e4faf4" change="1533333675" id="I0113">
+    <person handle="_cb589cc7fd941e4faf4" change="1593955029" id="I0113">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Rauha Katri</first>
@@ -1329,7 +1335,7 @@
       <parentin hlink="_cb589cc821d1ec9f954"/>
       <parentin hlink="_cb589cc7ff015b9b45f"/>
     </person>
-    <person handle="_cb589cc822c0a11a09b" change="1533213542" id="I0200">
+    <person handle="_cb589cc822c0a11a09b" change="1593955029" id="I0200">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Irja Sanelma</first>
@@ -1343,7 +1349,7 @@
       <eventref hlink="_cb589cc82307d4577af" role="Primary"/>
       <childof hlink="_cb589cc7ff015b9b45f"/>
     </person>
-    <person handle="_cb589cc824e51a1192b" change="1533215465" id="I0114">
+    <person handle="_cb589cc824e51a1192b" change="1593955029" id="I0114">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Reino Kalervo</first>
@@ -1353,7 +1359,7 @@
       <eventref hlink="_cb589cc825107a10fb3" role="Primary"/>
       <childof hlink="_cb589cc7ff015b9b45f"/>
     </person>
-    <person handle="_cb589cc82703b8aad28" change="1533212959" id="I0126">
+    <person handle="_cb589cc82703b8aad28" change="1593955029" id="I0126">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Vieno Ilta Tuulikki</first>
@@ -1367,7 +1373,7 @@
       <eventref hlink="_cb589cc827463b287ab" role="Primary"/>
       <childof hlink="_cb589cc7ff015b9b45f"/>
     </person>
-    <person handle="_cb589cc828e39e0b56c" change="1533333716" id="I0201">
+    <person handle="_cb589cc828e39e0b56c" change="1593955029" id="I0201">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Kirsti Kyllikki</first>
@@ -1382,7 +1388,7 @@
       <eventref hlink="_df1c946723513f5c6571a83eefd" role="Primary"/>
       <childof hlink="_cb589cc7ff015b9b45f"/>
     </person>
-    <person handle="_cb589cc82ad2aec4207" change="1533211219" id="I0107">
+    <person handle="_cb589cc82ad2aec4207" change="1593955029" id="I0107">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Unto Kauko</first>
@@ -1450,7 +1456,7 @@
       <eventref hlink="_cb589cc8a0a25fc93a3" role="Primary"/>
       <childof hlink="_cb589cc81ed0dd3ee46"/>
     </person>
-    <person handle="_cb589cc8a222c8fa7b8" change="1533212838" id="I0127">
+    <person handle="_cb589cc8a222c8fa7b8" change="1593955029" id="I0127">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Pauli Voitto Olavi Iidanpoika</first>
@@ -1459,8 +1465,9 @@
       <eventref hlink="_cb589cc8a6b4de5dc52" role="Primary"/>
       <eventref hlink="_df1c5d0173db304041e86af623" role="Primary"/>
       <childof hlink="_cb589cc821d1ec9f954"/>
+      <childof hlink="_cb589cc7ff015b9b45f"/>
     </person>
-    <person handle="_cb589cc8a67141d3c50" change="1533207270" id="I0166">
+    <person handle="_cb589cc8a67141d3c50" change="1593955029" id="I0166">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Kaino Arvo Päiviö Iidanpoika</first>
@@ -1469,6 +1476,7 @@
       <eventref hlink="_cb589cc8a6b4de5dc52" role="Primary"/>
       <eventref hlink="_cb589cc8a732dc47d78" role="Primary"/>
       <childof hlink="_cb589cc821d1ec9f954"/>
+      <childof hlink="_cb589cc7ff015b9b45f"/>
     </person>
     <person handle="_cb589cc8a935fbe3634" change="1439481312" id="I0167">
       <gender>F</gender>
@@ -2529,16 +2537,19 @@
       <eventref hlink="_df1cc2a88ee4e03932854277b09" role="Family"/>
       <eventref hlink="_df1cc35b9e676d4c26823d0ccb9" role="Family"/>
     </family>
-    <family handle="_cb589cc7ff015b9b45f" change="1439120428" id="F0033">
+    <family handle="_cb589cc7ff015b9b45f" change="1593955029" id="F0033">
       <rel type="Married"/>
       <father hlink="_cb589cc81d26d21e00f"/>
       <mother hlink="_cb589cc81fd22dc191b"/>
       <eventref hlink="_cb589cfbce519e985e0" role="Family"/>
       <eventref hlink="_d16b63a9b59340dc29a" role="Family"/>
+      <eventref hlink="_e7f36c9eea81d339aca5dcf5f79" role="Family"/>
       <childref hlink="_cb589cc7fd941e4faf4"/>
       <childref hlink="_cb589cc822c0a11a09b"/>
       <childref hlink="_cb589cc824e51a1192b"/>
       <childref hlink="_cb589cc82703b8aad28"/>
+      <childref hlink="_cb589cc8a222c8fa7b8" frel="Unknown"/>
+      <childref hlink="_cb589cc8a67141d3c50" frel="Unknown"/>
       <childref hlink="_cb589cc828e39e0b56c"/>
       <childref hlink="_cb589cc82ad2aec4207"/>
     </family>
@@ -3272,6 +3283,13 @@
       <noteref hlink="_e171499848a5707baf0425a1f45"/>
       <sourceref hlink="_e171484c9fc103b3a6b3abd68ec"/>
     </citation>
+    <citation handle="_e7f36c9c688255009aa2da164db" change="1593954912" id="C0003">
+      <page>762-763</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e7f36c90d183853967405f2335f"/>
+      <noteref hlink="_e7f372918a31036e87a4065d88a"/>
+      <sourceref hlink="_e7f36c324d76b68d449966ffe84"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdcfc23e89e2b9f42c7" change="1439140669" id="S0025">
@@ -3501,6 +3519,11 @@
     </source>
     <source handle="_e171484c9fc103b3a6b3abd68ec" change="1549229128" id="S0047">
       <stitle>Hiitola Kuolleet 1915-1941</stitle>
+      <sauthor>Hiitolan seurakunta</sauthor>
+      <reporef hlink="_cfa6fb12c7c665292c0" medium="Book"/>
+    </source>
+    <source handle="_e7f36c324d76b68d449966ffe84" change="1593954239" id="S0003">
+      <stitle>Hiitola Lastenkirja 1909-1910</stitle>
       <sauthor>Hiitolan seurakunta</sauthor>
       <reporef hlink="_cfa6fb12c7c665292c0" medium="Book"/>
     </source>
@@ -3746,7 +3769,7 @@
     </placeobj>
   </places>
   <repositories>
-    <repository handle="_cfa6fb12c7c665292c0" change="1549229121" id="R0000">
+    <repository handle="_cfa6fb12c7c665292c0" change="1593954235" id="R0000">
       <rname>Arkistolaitos Digitaaliarkisto</rname>
       <type>Archive</type>
       <url  href="http://digi.narc.fi" type="Web Home"/>
@@ -4406,6 +4429,29 @@ Lunastus [6] mk 												käännä
 										&lt;allekirjoitus&gt;
 										arkistonhoitaja
 										Kyösti Väänänen)</text>
+    </note>
+    <note handle="_e7f36c90d183853967405f2335f" change="1593954278" id="N0004" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=3169395</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=3169395">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_e7f372918a31036e87a4065d88a" change="1593954907" id="N0023" type="Transcript" format="1">
+      <text>Weijala No 9			763
+
+  Talp. Juho Kähkönen, s 1978, ja Iida Emiilia Matarainen, s 23/6 1881
+
+T. Rauha Katri                                        27/2 1907 Hiitola Wk.s.686 Uk.s.1160
+T. Irja Sanelma                                        2/4 1909   &quot;               &quot;
+P. Reino Kalervo                                   20/9 1910   &quot;
+T. Vieno Ilta Tuulikki                             11/4 1913   &quot;
+P. Pauli Voitto Olavi Matarainen	 6/7 1916   &quot;                                  vaimon äpärä
+P. Kaino Arvo Päiviö Matarainen    6/7 1916   &quot;                                  vaimon äpärä
+T. Kirsti Kyllikki                                      10/4 1919   &quot;
+
+Talp. Eemil Paavonp. Kähkönen  23/6 1899 Hiitola Wk.s.686
+Talp. Wäinö Paavonp. Kähkönen 22/8 1901   &quot;
+</text>
     </note>
   </notes>
 </database>
