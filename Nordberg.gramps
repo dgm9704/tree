@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2020-05-02" version="5.1.2"/>
+    <created date="2020-07-19" version="5.1.2"/>
     <researcher>
     </researcher>
   </header>
@@ -10707,13 +10707,14 @@
       <citationref hlink="_dcdd58882376f47b4bea8ac9e5a"/>
       <citationref hlink="_dcdd51182971028831bd07194e6"/>
     </event>
-    <event handle="_dcddbf5d1c2395bf0482e9e2601" change="1549711936" id="E2365">
+    <event handle="_dcddbf5d1c2395bf0482e9e2601" change="1595156796" id="E2365">
       <type>Death</type>
       <dateval val="1925-11-16"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_dcddbf5959466c925b090ae2f14"/>
+      <citationref hlink="_e820357ba58360b35e64e09c244"/>
     </event>
-    <event handle="_dcddc381ecc266604265b08c85c" change="1517781776" id="E2366">
+    <event handle="_dcddc381ecc266604265b08c85c" change="1595155310" id="E2366">
       <type>Death</type>
       <dateval val="1929-03-04"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
@@ -13412,6 +13413,20 @@
       <citationref hlink="_d007585432e69f66109"/>
       <citationref hlink="_e725052fa0192a9307d405e326"/>
     </event>
+    <event handle="_e82029c63404588753fd8a876b4" change="1595156049" id="E0045">
+      <type>Burial</type>
+      <dateval val="1929-03-10"/>
+      <place hlink="_e82029a50ec36629ca48da3ab9c"/>
+      <citationref hlink="_dcddc5150652c4063ac1a5d4244"/>
+      <citationref hlink="_e8202e3469d4e673d1b4813b859"/>
+    </event>
+    <event handle="_e8203932b2a22b7e3c551923892" change="1595156851" id="E0046">
+      <type>Burial</type>
+      <dateval val="1925-11-22"/>
+      <place hlink="_e82029a50ec36629ca48da3ab9c"/>
+      <citationref hlink="_e820357ba58360b35e64e09c244"/>
+      <citationref hlink="_e8202e3469d4e673d1b4813b859"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1548617779" id="I3858">
@@ -13548,7 +13563,7 @@
       <childof hlink="_cb589cc83ea4c947ebd"/>
       <parentin hlink="_cb589cc803c2012656f"/>
     </person>
-    <person handle="_cb589cc84347c619504" change="1549670976" id="I4402">
+    <person handle="_cb589cc84347c619504" change="1595156859" id="I4402">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Charlotta Wilhelmina</first>
@@ -13557,6 +13572,7 @@
       <eventref hlink="_cb589cc843a611773b4" role="Primary"/>
       <eventref hlink="_e181bdc2a1079499c7ccae9ddfd" role="Primary"/>
       <eventref hlink="_dcddbf5d1c2395bf0482e9e2601" role="Primary"/>
+      <eventref hlink="_e8203932b2a22b7e3c551923892" role="Primary"/>
       <childof hlink="_cb589cc803c2012656f"/>
       <parentin hlink="_cb589cc844867fcce24"/>
     </person>
@@ -23329,7 +23345,7 @@
       <eventref hlink="_cf969b6e8d8284cf775" role="Primary"/>
       <childof hlink="_cf96992702661bf2917"/>
     </person>
-    <person handle="_cf99bf30a9136795670" change="1549809205" id="I1454">
+    <person handle="_cf99bf30a9136795670" change="1595155443" id="I1454">
       <gender>M</gender>
       <name type="Also Known As">
         <first>Karl Fredrik</first>
@@ -23341,6 +23357,7 @@
       </name>
       <eventref hlink="_cf99bf1272504b65536" role="Primary"/>
       <eventref hlink="_dcddc381ecc266604265b08c85c" role="Primary"/>
+      <eventref hlink="_e82029c63404588753fd8a876b4" role="Primary"/>
       <childof hlink="_cf99bfe17cb65ecde12"/>
       <parentin hlink="_cb589cc844867fcce24"/>
     </person>
@@ -31413,11 +31430,12 @@
       <noteref hlink="_dcdd588347017859d6cbdc0042e"/>
       <sourceref hlink="_dcdd507efe6530d1b60fce4c7ca"/>
     </citation>
-    <citation handle="_dcddbf5959466c925b090ae2f14" change="1517782403" id="C0532">
+    <citation handle="_dcddbf5959466c925b090ae2f14" change="1595156223" id="C0532">
       <dateval val="1925-11-25"/>
       <page>322/10</page>
       <confidence>2</confidence>
       <noteref hlink="_dcddbf5167376bbc65945e9eae1"/>
+      <noteref hlink="_e820331f40621ba1f869b70675c"/>
       <sourceref hlink="_cdea76d18dc4cf3ac19"/>
     </citation>
     <citation handle="_dcddc37ebc41865bd8a31ffaaf5" change="1517781410" id="C0533">
@@ -34811,6 +34829,22 @@
       <noteref hlink="_e726019a93829b4d68d554d853"/>
       <sourceref hlink="_e725fbe0e3f7296cf49a5814bfb"/>
     </citation>
+    <citation handle="_e8202e3469d4e673d1b4813b859" change="1595156044" id="C0644">
+      <dateval val="2014-08-15"/>
+      <page>26003878</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e8202cfcf397c30d5d63247d343"/>
+      <noteref hlink="_e8203116ef831ec9c673b747290"/>
+      <sourceref hlink="_e8202c821c32e3b2d589c20a45c"/>
+    </citation>
+    <citation handle="_e820357ba58360b35e64e09c244" change="1595156778" id="C0646">
+      <dateval val="1925-11-19"/>
+      <page>316/1</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e820355c01e4be3cb8380bca902"/>
+      <noteref hlink="_e82038749794de86d3ded725742"/>
+      <sourceref hlink="_cdea76d18dc4cf3ac19"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -37214,9 +37248,12 @@
       <sauthor>Tuusulan seurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
+    <source handle="_e8202c821c32e3b2d589c20a45c" change="1595155520" id="S0076">
+      <stitle>BillionGraves</stitle>
+    </source>
   </sources>
   <places>
-    <placeobj handle="_cb589cc7f8d1b88b055" change="1549833072" id="P0000" type="City">
+    <placeobj handle="_cb589cc7f8d1b88b055" change="1595155217" id="P0000" type="City">
       <ptitle>Helsingfors, Finland</ptitle>
       <pname value="Helsinki" lang="se"/>
       <pname value="Helsingfors" lang="se"/>
@@ -39671,6 +39708,10 @@
     <placeobj handle="_e37e11731be2b71897b1255e881" change="1563316238" id="P0730" type="Building">
       <pname value="Smeden"/>
       <placeref hlink="_cea130ab1076a8a160f"/>
+    </placeobj>
+    <placeobj handle="_e82029a50ec36629ca48da3ab9c" change="1595155220" id="P0045" type="Cemetery">
+      <pname value="Malmin hautausmaa"/>
+      <placeref hlink="_cb589cc7f8d1b88b055"/>
     </placeobj>
   </places>
   <repositories>
@@ -49338,6 +49379,82 @@ Talon itselliset
 	Itsell Otto Vilhelm Nordbergin l.vo Anna Karolina Johantytär 1840
 Maria Olivia		20/3 1878	Tuusula	Kansakoulussa 91		93	f. GB 82B	Rippik 674 93
 August Teodor	13/6 1880	do									95 do			rippik 674 95</text>
+    </note>
+    <note handle="_e8202cfcf397c30d5d63247d343" change="1595155571" id="N0062" type="Link">
+      <text>https://billiongraves.com/grave/Karl-Fredrik-Stordell/26003878</text>
+      <style name="link" value="https://billiongraves.com/grave/Karl-Fredrik-Stordell/26003878">
+        <range start="0" end="62"/>
+      </style>
+    </note>
+    <note handle="_e8203116ef831ec9c673b747290" change="1595156001" id="N0063" type="Transcript" format="1">
+      <text>MALMELIN
+
+MARTIN WILLIAM
+* 13.3.1891  † 9.5.1966
+
+MARIA CECILIA
+* 24.9.1891  † 15.9.1970
+
+STORDELL
+
+MARIA CHARLOTTA
+* 7.6.1873  † 16.11.1925
+
+KARL FREDRIK
+* 25.3.1867  † 4.3.1929</text>
+      <style name="bold">
+        <range start="0" end="8"/>
+        <range start="90" end="98"/>
+      </style>
+      <style name="fontsize" value="12">
+        <range start="0" end="8"/>
+        <range start="90" end="98"/>
+      </style>
+    </note>
+    <note handle="_e820331f40621ba1f869b70675c" change="1595156214" id="N0064" type="Transcript">
+      <text>Döda.
+[...]
+Sörnäs sv.:
+[...]
+fru Maria Charlotta Wilhelmina Stordell 52 år 5 m 9 d.</text>
+      <style name="bold">
+        <range start="0" end="5"/>
+        <range start="12" end="23"/>
+      </style>
+    </note>
+    <note handle="_e820355c01e4be3cb8380bca902" change="1595156448" id="N0065" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/1397606?page=1</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/sanomalehti/binding/1397606?page=1">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_e82038749794de86d3ded725742" change="1595156773" id="N0066" type="Transcript" format="1">
+      <text>      †
+Min älskade hustru
+Sofia Charlotta
+Wilhelmina Stordell
+född 9. 7. 1873,
+död 16. 11. 1925.
+Älskad - Saknad.
+                           De egna.
+-----------------------
+   Begravningen försiggår de 22
+på Malms begravningsplats, efter
+kl. 1.</text>
+      <style name="fontsize" value="24">
+        <range start="0" end="8"/>
+      </style>
+      <style name="fontsize" value="10">
+        <range start="8" end="12"/>
+      </style>
+      <style name="bold">
+        <range start="27" end="63"/>
+        <range start="142" end="150"/>
+        <range start="151" end="174"/>
+      </style>
+      <style name="fontsize" value="12">
+        <range start="27" end="63"/>
+      </style>
     </note>
   </notes>
 </database>
