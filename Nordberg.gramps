@@ -13415,7 +13415,7 @@
       <citationref hlink="_d007585432e69f66109"/>
       <citationref hlink="_e725052fa0192a9307d405e326"/>
     </event>
-    <event handle="_e82029c63404588753fd8a876b4" change="1595156049" id="E0045">
+    <event handle="_e82029c63404588753fd8a876b4" change="1595170904" id="E0045">
       <type>Burial</type>
       <dateval val="1929-03-10"/>
       <place hlink="_e82029a50ec36629ca48da3ab9c"/>
@@ -13428,6 +13428,56 @@
       <place hlink="_e82029a50ec36629ca48da3ab9c"/>
       <citationref hlink="_e820357ba58360b35e64e09c244"/>
       <citationref hlink="_e8202e3469d4e673d1b4813b859"/>
+    </event>
+    <event handle="_e820c48e5c317ea2203c80cf6f" change="1595171464" id="E0047">
+      <type>Birth</type>
+      <dateval val="1891-09-24"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_e820c47a7031f1513849fc2e983"/>
+    </event>
+    <event handle="_e820c56bd2d649cea6d02073cae" change="1595173571" id="E0048">
+      <type>Birth</type>
+      <dateval val="1854-08-05"/>
+      <citationref hlink="_e820c47a7031f1513849fc2e983"/>
+      <citationref hlink="_e820d63a60252188d735631bae7"/>
+    </event>
+    <event handle="_e820c69274f48f61a6e4d55661" change="1595171681" id="E0049">
+      <type>Death</type>
+      <dateval val="1970-09-15"/>
+      <citationref hlink="_e8202e3469d4e673d1b4813b859"/>
+    </event>
+    <event handle="_e820c6dc1ae424b3d1fb27fdad1" change="1595171705" id="E0050">
+      <type>Burial</type>
+      <place hlink="_e82029a50ec36629ca48da3ab9c"/>
+      <citationref hlink="_e8202e3469d4e673d1b4813b859"/>
+    </event>
+    <event handle="_e820c8a133211e24f46241856f5" change="1595171891" id="E0051">
+      <type>Birth</type>
+      <dateval val="1891-03-13"/>
+      <citationref hlink="_e8202e3469d4e673d1b4813b859"/>
+    </event>
+    <event handle="_e820c8e81954b96c5b4647117f5" change="1595171920" id="E0052">
+      <type>Death</type>
+      <dateval val="1966-05-09"/>
+      <citationref hlink="_e8202e3469d4e673d1b4813b859"/>
+    </event>
+    <event handle="_e820c91192e20916ebc04f8969e" change="1595171937" id="E0053">
+      <type>Burial</type>
+      <place hlink="_e82029a50ec36629ca48da3ab9c"/>
+      <citationref hlink="_e8202e3469d4e673d1b4813b859"/>
+    </event>
+    <event handle="_e820d1f614b115c02a3c65393ba" change="1595172869" id="E0054">
+      <type>Marriage</type>
+      <dateval val="1891-03-07"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_e820d137ec479af7b09e681190e"/>
+    </event>
+    <event handle="_e820d8274ab33fb8c13cec55807" change="1595173519" id="E0055">
+      <type>Death</type>
+      <dateval val="1896-08-19"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_e820d80cef87b534e119f4a79d2"/>
+      <citationref hlink="_e820d63a60252188d735631bae7"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -23347,7 +23397,7 @@
       <eventref hlink="_cf969b6e8d8284cf775" role="Primary"/>
       <childof hlink="_cf96992702661bf2917"/>
     </person>
-    <person handle="_cf99bf30a9136795670" change="1595155443" id="I1454">
+    <person handle="_cf99bf30a9136795670" change="1595171566" id="I1454">
       <gender>M</gender>
       <name type="Also Known As">
         <first>Karl Fredrik</first>
@@ -23362,6 +23412,7 @@
       <eventref hlink="_e82029c63404588753fd8a876b4" role="Primary"/>
       <childof hlink="_cf99bfe17cb65ecde12"/>
       <parentin hlink="_cb589cc844867fcce24"/>
+      <parentin hlink="_e820bf510f63e8b7a42c91d3cc4"/>
     </person>
     <person handle="_cf99c0ba42a1b623166" change="1549820157" id="I1455">
       <gender>M</gender>
@@ -24795,6 +24846,39 @@
       </name>
       <eventref hlink="_e389890558069afd81c79798400" role="Primary"/>
       <eventref hlink="_e3898989b1046ec9858935bc7be" role="Primary"/>
+    </person>
+    <person handle="_e820bf91e7159e5183e46e425ed" change="1595173573" id="I0004">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Maria Matilda</first>
+        <surname>Finnberg</surname>
+      </name>
+      <eventref hlink="_e820c56bd2d649cea6d02073cae" role="Primary"/>
+      <eventref hlink="_e820d8274ab33fb8c13cec55807" role="Primary"/>
+      <parentin hlink="_e820bf510f63e8b7a42c91d3cc4"/>
+    </person>
+    <person handle="_e820bffcb0417beb1d9e61ccbba" change="1595172881" id="I0005">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Maria Cecilia</first>
+        <surname>Stordell</surname>
+      </name>
+      <eventref hlink="_e820c48e5c317ea2203c80cf6f" role="Primary"/>
+      <eventref hlink="_e820c69274f48f61a6e4d55661" role="Primary"/>
+      <eventref hlink="_e820c6dc1ae424b3d1fb27fdad1" role="Primary"/>
+      <childof hlink="_e820bf510f63e8b7a42c91d3cc4"/>
+      <parentin hlink="_e820c7577682ec41f433a25620f"/>
+    </person>
+    <person handle="_e820c826bcf4a4710d089130cfe" change="1595171944" id="I0006">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Martin William</first>
+        <surname>Malmelin</surname>
+      </name>
+      <eventref hlink="_e820c8a133211e24f46241856f5" role="Primary"/>
+      <eventref hlink="_e820c8e81954b96c5b4647117f5" role="Primary"/>
+      <eventref hlink="_e820c91192e20916ebc04f8969e" role="Primary"/>
+      <parentin hlink="_e820c7577682ec41f433a25620f"/>
     </person>
   </people>
   <families>
@@ -27924,6 +28008,18 @@
       <childref hlink="_e3895adaeb25d3cace20dc4a544"/>
       <childref hlink="_e3895bbe1b045f26fcf4f3bf2a3"/>
       <childref hlink="_e3895cec6d7386ef8492378f6a"/>
+    </family>
+    <family handle="_e820bf510f63e8b7a42c91d3cc4" change="1595172881" id="F0001">
+      <rel type="Married"/>
+      <father hlink="_cf99bf30a9136795670"/>
+      <mother hlink="_e820bf91e7159e5183e46e425ed"/>
+      <eventref hlink="_e820d1f614b115c02a3c65393ba" role="Family"/>
+      <childref hlink="_e820bffcb0417beb1d9e61ccbba"/>
+    </family>
+    <family handle="_e820c7577682ec41f433a25620f" change="1595171944" id="F0002">
+      <rel type="Married"/>
+      <father hlink="_e820c826bcf4a4710d089130cfe"/>
+      <mother hlink="_e820bffcb0417beb1d9e61ccbba"/>
     </family>
   </families>
   <citations>
@@ -34859,6 +34955,36 @@
       <noteref hlink="_e820640762a60213e4c9466be15"/>
       <sourceref hlink="_dcde088884844f55819d0fcc103"/>
     </citation>
+    <citation handle="_e820c47a7031f1513849fc2e983" change="1595171455" id="C1085">
+      <page>kuva 607</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e820c0ed02a5295609ee65a95e4"/>
+      <noteref hlink="_e820c2ca06f599e1187caa97dd1"/>
+      <sourceref hlink="_d002fa78042096897c6"/>
+    </citation>
+    <citation handle="_e820d137ec479af7b09e681190e" change="1595172791" id="C1086">
+      <dateval val="1891-03-09"/>
+      <page>56/1</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e820d05c4c22065d9c6b9dadff"/>
+      <noteref hlink="_e820d12cf9375e33219327ac4d8"/>
+      <sourceref hlink="_e820d01069a345fcfed7e10cb7a"/>
+    </citation>
+    <citation handle="_e820d63a60252188d735631bae7" change="1595173317" id="C1087">
+      <page>kuva 254</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e820d5250b4418340c0c10d8fca"/>
+      <noteref hlink="_e820d620ad43e23dacfc120b4a5"/>
+      <sourceref hlink="_cdeaa816732553f721f"/>
+    </citation>
+    <citation handle="_e820d80cef87b534e119f4a79d2" change="1595173508" id="C1088">
+      <dateval val="1896-08-24"/>
+      <page>195/1</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e820d747f6a29cab164af5a889d"/>
+      <noteref hlink="_e820d7f737d1efc3335779b6d71"/>
+      <sourceref hlink="_e820d70203a2f32fb16fa942ac"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -37264,6 +37390,14 @@
     </source>
     <source handle="_e8202c821c32e3b2d589c20a45c" change="1595155520" id="S0076">
       <stitle>BillionGraves</stitle>
+    </source>
+    <source handle="_e820d01069a345fcfed7e10cb7a" change="1595172670" id="S0364">
+      <stitle>Folkwännen</stitle>
+      <reporef hlink="_cdea68c6afd7d08bd3f" medium="Book"/>
+    </source>
+    <source handle="_e820d70203a2f32fb16fa942ac" change="1595173398" id="S0375">
+      <stitle>Aftonposten</stitle>
+      <reporef hlink="_cdea68c6afd7d08bd3f" medium="Book"/>
     </source>
   </sources>
   <places>
@@ -39739,7 +39873,7 @@
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
     </repository>
-    <repository handle="_cdea68c6afd7d08bd3f" change="1549828883" id="R0003">
+    <repository handle="_cdea68c6afd7d08bd3f" change="1595173397" id="R0003">
       <rname>Kansalliskirjasto digitoidut aineistot</rname>
       <type>Web site</type>
       <url  href="http://digi.lib.helsinki.fi/" type="Web Home"/>
@@ -49532,6 +49666,62 @@ Thölö Sockerbruk
 
 Arb. Karl Adolf Stordell     24/4 1832    f.i. Thusby { att no 700_1868 fr. Esbo
 Hu Maria Sofia Backman 29/9 1834    f.i. Esbo     {</text>
+    </note>
+    <note handle="_e820c0ed02a5295609ee65a95e4" change="1595171083" id="N0074" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=9390&amp;pnum=607</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=9390&amp;pnum=607">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_e820c2ca06f599e1187caa97dd1" change="1595171278" id="N0075" type="Transcript" format="1">
+      <text>September 1891
+
+Maria Cecilia                       24  26  Fldr: Mur. Karl Fredrik Stordell mhu Maria Mat. Finnberg 24/37(1-847)
+döpt af L. Bengelsdorff                  Fddr: Elev. Sofie Eskola; Wilhelmina Stenberg</text>
+      <style name="underline">
+        <range start="16" end="29"/>
+      </style>
+    </note>
+    <note handle="_e820d05c4c22065d9c6b9dadff" change="1595172701" id="N0076" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/514204?page=1</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/sanomalehti/binding/514204?page=1">
+        <range start="0" end="67"/>
+      </style>
+    </note>
+    <note handle="_e820d12cf9375e33219327ac4d8" change="1595172787" id="N0077" type="Transcript" format="1">
+      <text>- Wigde:
+[...]             d. 7 mureriarb. Karl Fredr.
+Stordell o. kokerskan Maria Matilda
+Finnberg;</text>
+      <style name="bold">
+        <range start="0" end="9"/>
+      </style>
+    </note>
+    <note handle="_e820d5250b4418340c0c10d8fca" change="1595173203" id="N0078" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15373&amp;pnum=254</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15373&amp;pnum=254">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_e820d620ad43e23dacfc120b4a5" change="1595173306" id="N0079" type="Transcript" format="1">
+      <text>Augusti 1896
+
+19  Maria Matilda Stordell    arbhu  gift  lungsot  5/8 1854  42    14 1-847</text>
+    </note>
+    <note handle="_e820d747f6a29cab164af5a889d" change="1595173427" id="N0080" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/503082?page=1</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/sanomalehti/binding/503082?page=1">
+        <range start="0" end="67"/>
+      </style>
+    </note>
+    <note handle="_e820d7f737d1efc3335779b6d71" change="1595173499" id="N0081" type="Transcript" format="1">
+      <text>Döde:
+[...]
+arb. hustr. Maria Mathilda Stordell 42 år 
+14 d.</text>
+      <style name="bold">
+        <range start="0" end="6"/>
+      </style>
     </note>
   </notes>
 </database>
