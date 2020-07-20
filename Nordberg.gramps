@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2020-07-19" version="5.1.2"/>
+    <created date="2020-07-20" version="5.1.2"/>
     <researcher>
     </researcher>
   </header>
@@ -404,9 +404,10 @@
       <place hlink="_cde633071333d6ede5b"/>
       <citationref hlink="_df6770fe7d64a91a93761ee1c97"/>
     </event>
-    <event handle="_cb589cc945d2b39f6f0" change="1414285226" id="E5185">
+    <event handle="_cb589cc945d2b39f6f0" change="1595271381" id="E5185">
       <type>Birth</type>
-      <noteref hlink="_cdce398a73376f8b674"/>
+      <dateval val="1911" quality="calculated"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
     </event>
     <event handle="_cb589cc949e7cfd7e43" change="1426337811" id="E0234">
       <type>Birth</type>
@@ -13479,6 +13480,52 @@
       <citationref hlink="_e820d80cef87b534e119f4a79d2"/>
       <citationref hlink="_e820d63a60252188d735631bae7"/>
     </event>
+    <event handle="_e8247b713b745a8642c90ed2f55" change="1595271171" id="E0056">
+      <type>Birth</type>
+      <dateval val="1881-06-02"/>
+      <place hlink="_e82478dea7034bf7ec557d7af65"/>
+      <citationref hlink="_e8247b6908878621be351566ba4"/>
+    </event>
+    <event handle="_e8247d003eb530c37599f597d11" change="1595271404" id="E0057">
+      <type>Birth</type>
+      <dateval val="1913" quality="calculated"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+    </event>
+    <event handle="_e8247dfac64b637bc3f3604c91" change="1595271447" id="E0058">
+      <type>Death</type>
+      <dateval val="1915" quality="calculated"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+    </event>
+    <event handle="_e824887f0f549e233da43838c9a" change="1595272730" id="E0059">
+      <type>Death</type>
+      <dateval val="1938-06-13"/>
+      <citationref hlink="_e824887bec430f33eca9b1ca32f"/>
+    </event>
+    <event handle="_e8248aea4c25a3b9e50870b3610" change="1595272794" id="E0060">
+      <type>Death</type>
+      <dateval val="1959-10-22"/>
+      <citationref hlink="_e824887bec430f33eca9b1ca32f"/>
+    </event>
+    <event handle="_e8248bf96c91d7fa978d849f9f7" change="1595272905" id="E0061">
+      <type>Burial</type>
+      <place hlink="_e82029a50ec36629ca48da3ab9c"/>
+      <citationref hlink="_e824887bec430f33eca9b1ca32f"/>
+    </event>
+    <event handle="_e8248c486427845e1ec0bf8c1b2" change="1595272937" id="E0062">
+      <type>Burial</type>
+      <place hlink="_e82029a50ec36629ca48da3ab9c"/>
+      <citationref hlink="_e824887bec430f33eca9b1ca32f"/>
+    </event>
+    <event handle="_e824abc4bdd1eaa0dcd7603485f" change="1595277023" id="E0063">
+      <type>Residence</type>
+      <datespan start="1916" stop="1920"/>
+      <place hlink="_e824abc19bc77fc179d9636c49f"/>
+      <citationref hlink="_e824b00d61039ea83701a13822b"/>
+      <citationref hlink="_e824b103e9175297cc3e80b68e2"/>
+      <citationref hlink="_e824b1a8c2a5e108231c92c3a72"/>
+      <citationref hlink="_e824b27c8c7326772f1f209b4a8"/>
+      <citationref hlink="_e824b33b6e56556250cf08d0ad1"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1548617779" id="I3858">
@@ -13638,7 +13685,7 @@
       <eventref hlink="_cb589cc8465559787e9" role="Primary"/>
       <childof hlink="_cb589cc803c2012656f"/>
     </person>
-    <person handle="_cb589cc847f6455821b" change="1549665962" id="I3762">
+    <person handle="_cb589cc847f6455821b" change="1595272910" id="I3762">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Elin Maria</first>
@@ -13652,6 +13699,8 @@
       <eventref hlink="_d3f865019692009b88a1b64f05" role="Primary"/>
       <eventref hlink="_d48d980e27d49e6ce4a70c73347" role="Witness"/>
       <eventref hlink="_e1818d6e22a1e8a684c647e2937" role="Primary"/>
+      <eventref hlink="_e8248aea4c25a3b9e50870b3610" role="Primary"/>
+      <eventref hlink="_e8248bf96c91d7fa978d849f9f7" role="Primary"/>
       <childof hlink="_cb589cc803c2012656f"/>
       <parentin hlink="_cb589cc849649a1de75"/>
     </person>
@@ -13979,7 +14028,7 @@
       <eventref hlink="_cb589cc936310db0145" role="Primary"/>
       <childof hlink="_cb589cc83ea4c947ebd"/>
     </person>
-    <person handle="_cb589cc945367eb70ef" change="1488132662" id="I5332" priv="1">
+    <person handle="_cb589cc945367eb70ef" change="1595276243" id="I5332" priv="1">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Ragnar</first>
@@ -22881,12 +22930,15 @@
       <eventref hlink="_cea5cc6a8707d25790e" role="Primary"/>
       <parentin hlink="_cb589cd838930e5fcfd"/>
     </person>
-    <person handle="_cea5cca2afb352181a9" change="1420071865" id="I1401">
+    <person handle="_cea5cca2afb352181a9" change="1595272946" id="I1401">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Viktor Vilhelm</first>
         <surname>Nyström</surname>
       </name>
+      <eventref hlink="_e8247b713b745a8642c90ed2f55" role="Primary"/>
+      <eventref hlink="_e824887f0f549e233da43838c9a" role="Primary"/>
+      <eventref hlink="_e8248c486427845e1ec0bf8c1b2" role="Primary"/>
       <parentin hlink="_cb589cc849649a1de75"/>
     </person>
     <person handle="_cea5ce599ff38d3575a" change="1535227861" id="I1402">
@@ -24880,6 +24932,16 @@
       <eventref hlink="_e820c91192e20916ebc04f8969e" role="Primary"/>
       <parentin hlink="_e820c7577682ec41f433a25620f"/>
     </person>
+    <person handle="_e8247c386c229de09d431edfd08" change="1595276243" id="I0007">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Helge</first>
+        <surname>Nyström</surname>
+      </name>
+      <eventref hlink="_e8247d003eb530c37599f597d11" role="Primary"/>
+      <eventref hlink="_e8247dfac64b637bc3f3604c91" role="Primary"/>
+      <childof hlink="_cb589cc849649a1de75"/>
+    </person>
   </people>
   <families>
     <family handle="_cb589cc7f9c792dc427" change="1548617779" id="F1472">
@@ -24998,12 +25060,14 @@
       <eventref hlink="_e187b683bf12f482e2907384131" role="Family"/>
       <noteref hlink="_e187c8a2b7c230b0b788ece617b"/>
     </family>
-    <family handle="_cb589cc849649a1de75" change="1420071865" id="F1535">
+    <family handle="_cb589cc849649a1de75" change="1595276243" id="F1535">
       <rel type="Married"/>
       <father hlink="_cea5cca2afb352181a9"/>
       <mother hlink="_cb589cc847f6455821b"/>
       <eventref hlink="_cb589cfbfba4c2d037b" role="Family"/>
+      <eventref hlink="_e824abc4bdd1eaa0dcd7603485f" role="Family"/>
       <childref hlink="_cb589cc945367eb70ef"/>
+      <childref hlink="_e8247c386c229de09d431edfd08"/>
     </family>
     <family handle="_cb589cc84d73779eb0c" change="1534270241" id="F1765">
       <rel type="Married"/>
@@ -25244,8 +25308,8 @@
       <childref hlink="_cb589ccc450050bcad3"/>
       <childref hlink="_cb589ccc4845e52a937"/>
     </family>
-    <family handle="_cb589cc947140ff72b2" change="1420071125" id="F2513">
-      <rel type="Unknown"/>
+    <family handle="_cb589cc947140ff72b2" change="1595273039" id="F2513">
+      <rel type="Married"/>
       <father hlink="_cb589cc945367eb70ef"/>
       <mother hlink="_cea5c58f2224fbd6a49"/>
     </family>
@@ -34985,6 +35049,50 @@
       <noteref hlink="_e820d7f737d1efc3335779b6d71"/>
       <sourceref hlink="_e820d70203a2f32fb16fa942ac"/>
     </citation>
+    <citation handle="_e8247b6908878621be351566ba4" change="1595271168" id="C1089">
+      <page>369/370</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e82479dd1cf385dad137b0c4cbf"/>
+      <noteref hlink="_e8247b5927573bcf6054d9469ae"/>
+      <sourceref hlink="_e82479a1fc16674e302154fe46a"/>
+    </citation>
+    <citation handle="_e824887bec430f33eca9b1ca32f" change="1595272539" id="C1090">
+      <page>28825141</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e8248718e3153bbe942e6e4a1b7"/>
+      <noteref hlink="_e82488750ff856bd5369519e9a"/>
+      <sourceref hlink="_e8202c821c32e3b2d589c20a45c"/>
+    </citation>
+    <citation handle="_e824b00d61039ea83701a13822b" change="1595276688" id="C1091">
+      <page>U:341/4129</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e824b00aa73d070c7c7913025c"/>
+      <sourceref hlink="_e824afb41187bd142c543e4a576"/>
+    </citation>
+    <citation handle="_e824b103e9175297cc3e80b68e2" change="1595276789" id="C1092">
+      <page>U:356/3772</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e824b0fa0812d6e7692d2f12f7c"/>
+      <sourceref hlink="_e824b0bd38f250626a9b79a328d"/>
+    </citation>
+    <citation handle="_e824b1a8c2a5e108231c92c3a72" change="1595276856" id="C1093">
+      <page>U:370/3851</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e824b1a34bd3817b5cb4b58c6e1"/>
+      <sourceref hlink="_e187980ac952b12b9ebab94f0f8"/>
+    </citation>
+    <citation handle="_e824b27c8c7326772f1f209b4a8" change="1595276943" id="C1094">
+      <page>U:383/2684</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e824b27813a2d499d6724a4c6d4"/>
+      <sourceref hlink="_e824b23c86751e06c3388d8c74e"/>
+    </citation>
+    <citation handle="_e824b33b6e56556250cf08d0ad1" change="1595277021" id="C1095">
+      <page>U:394/2825</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e824b338970279e6e722d005867"/>
+      <sourceref hlink="_e824b2efe1c236c92cc8837c1c7"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -37399,9 +37507,34 @@
       <stitle>Aftonposten</stitle>
       <reporef hlink="_cdea68c6afd7d08bd3f" medium="Book"/>
     </source>
+    <source handle="_e82479a1fc16674e302154fe46a" change="1595270982" id="S0381">
+      <stitle>Kirkkonummi Syntyneet 1853-1884</stitle>
+      <sauthor>Kirkkonummen seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_e824afb41187bd142c543e4a576" change="1595276651" id="S0478">
+      <stitle>Uusimaa Henkikirja 1916</stitle>
+      <sauthor>Uudenmaan lääni</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
+    <source handle="_e824b0bd38f250626a9b79a328d" change="1595276760" id="S0484">
+      <stitle>Uusimaa Henkikirja 1917</stitle>
+      <sauthor>Uudenmaan lääni</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
+    <source handle="_e824b23c86751e06c3388d8c74e" change="1595276917" id="S0485">
+      <stitle>Uusimaa Henkikirja 1919</stitle>
+      <sauthor>Uudenmaan lääni</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
+    <source handle="_e824b2efe1c236c92cc8837c1c7" change="1595276990" id="S0486">
+      <stitle>Uusimaa Henkikirja 1920</stitle>
+      <sauthor>Uudenmaan lääni</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
   </sources>
   <places>
-    <placeobj handle="_cb589cc7f8d1b88b055" change="1595155217" id="P0000" type="City">
+    <placeobj handle="_cb589cc7f8d1b88b055" change="1595276508" id="P0000" type="City">
       <ptitle>Helsingfors, Finland</ptitle>
       <pname value="Helsinki" lang="se"/>
       <pname value="Helsingfors" lang="se"/>
@@ -39861,14 +39994,31 @@
       <pname value="Malmin hautausmaa"/>
       <placeref hlink="_cb589cc7f8d1b88b055"/>
     </placeobj>
+    <placeobj handle="_e82478dea7034bf7ec557d7af65" change="1595270902" id="P0046" type="Parish">
+      <pname value="Kirkkonummi"/>
+      <pname value="Kyrkslätt" lang="sv"/>
+    </placeobj>
+    <placeobj handle="_e824abc19bc77fc179d9636c49f" change="1595276513" id="P0047" type="Building">
+      <pname value="Skeppsredaregatan 3"/>
+      <placeref hlink="_e824ae5e1bc272c1d142f413481"/>
+    </placeobj>
+    <placeobj handle="_e824ae5b00d248ba235e4fd2ebe" change="1595276536" id="P0048" type="Borough">
+      <pname value="7. Stadsdelen"/>
+      <placeref hlink="_cb589cc7f8d1b88b055"/>
+    </placeobj>
+    <placeobj handle="_e824ae5e1bc272c1d142f413481" change="1595276537" id="P0049" type="Neighborhood">
+      <code>129</code>
+      <pname value="Löjan"/>
+      <placeref hlink="_e824ae5b00d248ba235e4fd2ebe"/>
+    </placeobj>
   </places>
   <repositories>
-    <repository handle="_cdea29a49637c6553bc" change="1563734638" id="R0001">
+    <repository handle="_cdea29a49637c6553bc" change="1595276989" id="R0001">
       <rname>Arkistolaitos Digitaaliarkisto</rname>
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1588439532" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1595270980" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -49721,6 +49871,81 @@ arb. hustr. Maria Mathilda Stordell 42 år
 14 d.</text>
       <style name="bold">
         <range start="0" end="6"/>
+      </style>
+    </note>
+    <note handle="_e82479dd1cf385dad137b0c4cbf" change="1595271006" id="N0082" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29146&amp;pnum=190</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29146&amp;pnum=190">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_e8247b5927573bcf6054d9469ae" change="1595271161" id="N0083" type="Transcript" format="1">
+      <text>1881
+
+Junii  2  5 657 Par: Träskby Torparen Eric Johan Nyström och
+                                        hu. Maria Sofia                                                               40_45
+                                                            Victor Wilhelm
+                              Test: Torp. Karl Gustaf Strömberg och hu Maria
+                                           Charlotta                                             af Lybeck</text>
+      <style name="bold">
+        <range start="191" end="266"/>
+      </style>
+      <style name="italic">
+        <range start="191" end="251"/>
+      </style>
+      <style name="underline">
+        <range start="251" end="266"/>
+      </style>
+    </note>
+    <note handle="_e8248718e3153bbe942e6e4a1b7" change="1595272393" id="N0084" type="Link">
+      <text>https://billiongraves.com/grave/Viktor-Wilhelm-Nystr%C3%B6m/28825141</text>
+      <style name="link" value="https://billiongraves.com/grave/Viktor-Wilhelm-Nystr%C3%B6m/28825141">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_e82488750ff856bd5369519e9a" change="1595272722" id="N0085" type="Transcript" format="1">
+      <text>    NYSTRÖM
+
+VIKTOR WILHELM
+*2.6.1881  +13.6.1938
+
+      ELIN MARIA 
+*13.7.1877 +22.10.1959
+
+
+</text>
+      <style name="fontsize" value="12">
+        <range start="0" end="11"/>
+      </style>
+    </note>
+    <note handle="_e824b00aa73d070c7c7913025c" change="1595276687" id="N0086" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=74339688</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=74339688">
+        <range start="0" end="46"/>
+      </style>
+    </note>
+    <note handle="_e824b0fa0812d6e7692d2f12f7c" change="1595276785" id="N0087" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=73304006</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=73304006">
+        <range start="0" end="46"/>
+      </style>
+    </note>
+    <note handle="_e824b1a34bd3817b5cb4b58c6e1" change="1595276854" id="N0088" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=77317824</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=77317824">
+        <range start="0" end="46"/>
+      </style>
+    </note>
+    <note handle="_e824b27813a2d499d6724a4c6d4" change="1595276941" id="N0089" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=77270414</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=77270414">
+        <range start="0" end="46"/>
+      </style>
+    </note>
+    <note handle="_e824b338970279e6e722d005867" change="1595277020" id="N0090" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=21091331</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=21091331">
+        <range start="0" end="46"/>
       </style>
     </note>
   </notes>
