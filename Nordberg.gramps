@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2020-07-20" version="5.1.2"/>
+    <created date="2020-07-21" version="5.1.2"/>
     <researcher>
     </researcher>
   </header>
@@ -404,10 +404,15 @@
       <place hlink="_cde633071333d6ede5b"/>
       <citationref hlink="_df6770fe7d64a91a93761ee1c97"/>
     </event>
-    <event handle="_cb589cc945d2b39f6f0" change="1595271381" id="E5185">
+    <event handle="_cb589cc945d2b39f6f0" change="1595280073" id="E5185">
       <type>Birth</type>
       <dateval val="1911" quality="calculated"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_e824c7aeee32e587ffe4bbe067c"/>
+      <citationref hlink="_e824c37295c42a278de3dfedcff"/>
+      <citationref hlink="_e824bd2dd0425c2f114b125ccc2"/>
+      <citationref hlink="_e824cce85b43d4ea37cfe14e441"/>
+      <citationref hlink="_e824bdf079a4196ca3fbd78b1da"/>
     </event>
     <event handle="_cb589cc949e7cfd7e43" change="1426337811" id="E0234">
       <type>Birth</type>
@@ -13486,15 +13491,25 @@
       <place hlink="_e82478dea7034bf7ec557d7af65"/>
       <citationref hlink="_e8247b6908878621be351566ba4"/>
     </event>
-    <event handle="_e8247d003eb530c37599f597d11" change="1595271404" id="E0057">
+    <event handle="_e8247d003eb530c37599f597d11" change="1595279989" id="E0057">
       <type>Birth</type>
       <dateval val="1913" quality="calculated"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_e824c7aeee32e587ffe4bbe067c"/>
+      <citationref hlink="_e824c37295c42a278de3dfedcff"/>
+      <citationref hlink="_e824bd2dd0425c2f114b125ccc2"/>
+      <citationref hlink="_e824cce85b43d4ea37cfe14e441"/>
+      <citationref hlink="_e824bdf079a4196ca3fbd78b1da"/>
     </event>
-    <event handle="_e8247dfac64b637bc3f3604c91" change="1595271447" id="E0058">
+    <event handle="_e8247dfac64b637bc3f3604c91" change="1595280008" id="E0058">
       <type>Death</type>
       <dateval val="1915" quality="calculated"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_e824c7aeee32e587ffe4bbe067c"/>
+      <citationref hlink="_e824c37295c42a278de3dfedcff"/>
+      <citationref hlink="_e824bd2dd0425c2f114b125ccc2"/>
+      <citationref hlink="_e824cce85b43d4ea37cfe14e441"/>
+      <citationref hlink="_e824bdf079a4196ca3fbd78b1da"/>
     </event>
     <event handle="_e824887f0f549e233da43838c9a" change="1595272730" id="E0059">
       <type>Death</type>
@@ -13516,7 +13531,7 @@
       <place hlink="_e82029a50ec36629ca48da3ab9c"/>
       <citationref hlink="_e824887bec430f33eca9b1ca32f"/>
     </event>
-    <event handle="_e824abc4bdd1eaa0dcd7603485f" change="1595277023" id="E0063">
+    <event handle="_e824abc4bdd1eaa0dcd7603485f" change="1595277939" id="E0063">
       <type>Residence</type>
       <datespan start="1916" stop="1920"/>
       <place hlink="_e824abc19bc77fc179d9636c49f"/>
@@ -13525,6 +13540,34 @@
       <citationref hlink="_e824b1a8c2a5e108231c92c3a72"/>
       <citationref hlink="_e824b27c8c7326772f1f209b4a8"/>
       <citationref hlink="_e824b33b6e56556250cf08d0ad1"/>
+      <citationref hlink="_e824b55c4a723016f6dab657cd2"/>
+      <citationref hlink="_e824b61f7ba3795acff14dba468"/>
+      <citationref hlink="_e824b69cf4f3b5d9976ca27fdca"/>
+      <citationref hlink="_e824b6fb11b75e2a1615e9e9de3"/>
+      <citationref hlink="_e824b77347e3ab97dc5ac3b5635"/>
+    </event>
+    <event handle="_e824ba0383c5f31f367ae34416d" change="1595278219" id="E0064">
+      <type>Residence</type>
+      <datespan start="1914" stop="1915"/>
+      <place hlink="_e824b9e8cd933684f85e9148680"/>
+      <citationref hlink="_e824bd2dd0425c2f114b125ccc2"/>
+      <citationref hlink="_e824bdf079a4196ca3fbd78b1da"/>
+      <citationref hlink="_e824bea161f54f66aaefd94f331"/>
+    </event>
+    <event handle="_e824c23795a7b4635e7572db56d" change="1595278757" id="E0065">
+      <type>Residence</type>
+      <dateval val="1913"/>
+      <place hlink="_e824c220330790265b46bd3514"/>
+      <citationref hlink="_e824c37295c42a278de3dfedcff"/>
+      <citationref hlink="_e824c3b98e45294e1c656000ee3"/>
+    </event>
+    <event handle="_e824c5d7def3feebfade6247365" change="1595279215" id="E0066">
+      <type>Residence</type>
+      <datespan start="1911" stop="1912"/>
+      <place hlink="_e824c5cd07c6c47d763f376f448"/>
+      <citationref hlink="_e824c7102543d4cceeca4b0d4c"/>
+      <citationref hlink="_e824c7aeee32e587ffe4bbe067c"/>
+      <citationref hlink="_e824c8229f16f1009b357333e9b"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -14028,7 +14071,7 @@
       <eventref hlink="_cb589cc936310db0145" role="Primary"/>
       <childof hlink="_cb589cc83ea4c947ebd"/>
     </person>
-    <person handle="_cb589cc945367eb70ef" change="1595276243" id="I5332" priv="1">
+    <person handle="_cb589cc945367eb70ef" change="1595279220" id="I5332" priv="1">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Ragnar</first>
@@ -24932,7 +24975,7 @@
       <eventref hlink="_e820c91192e20916ebc04f8969e" role="Primary"/>
       <parentin hlink="_e820c7577682ec41f433a25620f"/>
     </person>
-    <person handle="_e8247c386c229de09d431edfd08" change="1595276243" id="I0007">
+    <person handle="_e8247c386c229de09d431edfd08" change="1595279220" id="I0007">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Helge</first>
@@ -25060,11 +25103,14 @@
       <eventref hlink="_e187b683bf12f482e2907384131" role="Family"/>
       <noteref hlink="_e187c8a2b7c230b0b788ece617b"/>
     </family>
-    <family handle="_cb589cc849649a1de75" change="1595276243" id="F1535">
+    <family handle="_cb589cc849649a1de75" change="1595279220" id="F1535">
       <rel type="Married"/>
       <father hlink="_cea5cca2afb352181a9"/>
       <mother hlink="_cb589cc847f6455821b"/>
       <eventref hlink="_cb589cfbfba4c2d037b" role="Family"/>
+      <eventref hlink="_e824c5d7def3feebfade6247365" role="Family"/>
+      <eventref hlink="_e824c23795a7b4635e7572db56d" role="Family"/>
+      <eventref hlink="_e824ba0383c5f31f367ae34416d" role="Family"/>
       <eventref hlink="_e824abc4bdd1eaa0dcd7603485f" role="Family"/>
       <childref hlink="_cb589cc945367eb70ef"/>
       <childref hlink="_e8247c386c229de09d431edfd08"/>
@@ -35093,6 +35139,93 @@
       <noteref hlink="_e824b338970279e6e722d005867"/>
       <sourceref hlink="_e824b2efe1c236c92cc8837c1c7"/>
     </citation>
+    <citation handle="_e824b55c4a723016f6dab657cd2" change="1595277244" id="C1096">
+      <page>1915/610</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e824b5563fa671010ed52ca1934"/>
+      <sourceref hlink="_dcde088884844f55819d0fcc103"/>
+    </citation>
+    <citation handle="_e824b61f7ba3795acff14dba468" change="1595277324" id="C1097">
+      <page>1916/660</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e824b61c2f92838a9f72d66215a"/>
+      <sourceref hlink="_dcde088884844f55819d0fcc103"/>
+    </citation>
+    <citation handle="_e824b69cf4f3b5d9976ca27fdca" change="1595277376" id="C1098">
+      <page>1917/710</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e824b698ee877fc13693ed62f7d"/>
+      <sourceref hlink="_dcde088884844f55819d0fcc103"/>
+    </citation>
+    <citation handle="_e824b6fb11b75e2a1615e9e9de3" change="1595277414" id="C1099">
+      <page>1918/648</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e824b6f7db987bc61c4d9258b7"/>
+      <sourceref hlink="_dcde088884844f55819d0fcc103"/>
+    </citation>
+    <citation handle="_e824b77347e3ab97dc5ac3b5635" change="1595277464" id="C1100">
+      <page>1919/645</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e824b770a8524cdcbe84aa30ca9"/>
+      <sourceref hlink="_dcde088884844f55819d0fcc103"/>
+    </citation>
+    <citation handle="_e824bd2dd0425c2f114b125ccc2" change="1595279888" id="C1101">
+      <page>U:311/1881</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e824bd2672123248ee91f417568"/>
+      <noteref hlink="_e824ce8fc9f251e74038d6f0762"/>
+      <sourceref hlink="_e824bce3f1b4ac1c80202118134"/>
+    </citation>
+    <citation handle="_e824bdf079a4196ca3fbd78b1da" change="1595279961" id="C1102">
+      <page>U:323/1883</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e824bded628559861f7f8509131"/>
+      <noteref hlink="_e824cf3e0de3f43b4f966c37a15"/>
+      <sourceref hlink="_dce11b97c267f78788634f92175"/>
+    </citation>
+    <citation handle="_e824bea161f54f66aaefd94f331" change="1595278216" id="C1103">
+      <page>1913/449</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e824be9775f1a0712a77aa88d7b"/>
+      <sourceref hlink="_dcde088884844f55819d0fcc103"/>
+    </citation>
+    <citation handle="_e824c37295c42a278de3dfedcff" change="1595279806" id="C1104">
+      <page>U:301/3998</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e824c3108022bb00166552a160"/>
+      <noteref hlink="_e824cdbf4fc1c0ad621b23c0248"/>
+      <sourceref hlink="_e824c2d64de341418829e9eeb9"/>
+    </citation>
+    <citation handle="_e824c3b98e45294e1c656000ee3" change="1595278751" id="C1105">
+      <page>1912/478</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e824c3b6ac111fd30551eb1bfd5"/>
+      <sourceref hlink="_dcde088884844f55819d0fcc103"/>
+    </citation>
+    <citation handle="_e824c7102543d4cceeca4b0d4c" change="1595279101" id="C1106">
+      <page>U:272/3158</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e824c70d9705901c4e917355d38"/>
+      <sourceref hlink="_e824c6ca8f7600fae5ed7bfe79e"/>
+    </citation>
+    <citation handle="_e824c7aeee32e587ffe4bbe067c" change="1595279386" id="C1107">
+      <page>U:288/3249</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e824c7ab17c1f4cc0f71202138"/>
+      <noteref hlink="_e824c987263143d3aeee0379dd6"/>
+      <sourceref hlink="_e824c76d63063029e69dd4fcd7d"/>
+    </citation>
+    <citation handle="_e824c8229f16f1009b357333e9b" change="1595279213" id="C1108">
+      <page>1911/469</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e824c81fd7958b5c225373c74d6"/>
+      <sourceref hlink="_dcde088884844f55819d0fcc103"/>
+    </citation>
+    <citation handle="_e824cce85b43d4ea37cfe14e441" change="1595279714" id="C1109">
+      <confidence>2</confidence>
+      <noteref hlink="_e824ccd23e51ba67e6b75a743f8"/>
+      <sourceref hlink="_e824cc1253131c6f52425a036ca"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -37532,9 +37665,33 @@
       <sauthor>Uudenmaan lääni</sauthor>
       <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
     </source>
+    <source handle="_e824bce3f1b4ac1c80202118134" change="1595278034" id="S0487">
+      <stitle>Uusimaa Henkikirja 1914</stitle>
+      <sauthor>Uudenmaan lääni</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
+    <source handle="_e824c2d64de341418829e9eeb9" change="1595278658" id="S0488">
+      <stitle>Uusimaa Henkikirja 1913</stitle>
+      <sauthor>Uudenmaan lääni</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
+    <source handle="_e824c6ca8f7600fae5ed7bfe79e" change="1595279072" id="S0489">
+      <stitle>Uusimaa Henkikirja 1911</stitle>
+      <sauthor>Uudenmaan lääni</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
+    <source handle="_e824c76d63063029e69dd4fcd7d" change="1595279139" id="S0490">
+      <stitle>Uusimaa Henkikirja 1912</stitle>
+      <sauthor>Uudenmaan lääni</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
+    <source handle="_e824cc1253131c6f52425a036ca" change="1595279626" id="S0491">
+      <stitle>Valokuva: Ragnar ja Helge Nyström</stitle>
+      <reporef hlink="_dcdca3f7d3b161a6bf5b6f5e9d0" medium="Photo"/>
+    </source>
   </sources>
   <places>
-    <placeobj handle="_cb589cc7f8d1b88b055" change="1595276508" id="P0000" type="City">
+    <placeobj handle="_cb589cc7f8d1b88b055" change="1595277718" id="P0000" type="City">
       <ptitle>Helsingfors, Finland</ptitle>
       <pname value="Helsinki" lang="se"/>
       <pname value="Helsingfors" lang="se"/>
@@ -40002,7 +40159,7 @@
       <pname value="Skeppsredaregatan 3"/>
       <placeref hlink="_e824ae5e1bc272c1d142f413481"/>
     </placeobj>
-    <placeobj handle="_e824ae5b00d248ba235e4fd2ebe" change="1595276536" id="P0048" type="Borough">
+    <placeobj handle="_e824ae5b00d248ba235e4fd2ebe" change="1595278965" id="P0048" type="Borough">
       <pname value="7. Stadsdelen"/>
       <placeref hlink="_cb589cc7f8d1b88b055"/>
     </placeobj>
@@ -40011,9 +40168,40 @@
       <pname value="Löjan"/>
       <placeref hlink="_e824ae5b00d248ba235e4fd2ebe"/>
     </placeobj>
+    <placeobj handle="_e824b9e31f66c7e1e6f1def5cc7" change="1595277719" id="P0050" type="Borough">
+      <pname value="4. Stadsdelen"/>
+      <placeref hlink="_cb589cc7f8d1b88b055"/>
+    </placeobj>
+    <placeobj handle="_e824b9e5a45702561a846971dfb" change="1595277720" id="P0051" type="Neighborhood">
+      <code>156</code>
+      <pname value="Doppingen"/>
+      <placeref hlink="_e824b9e31f66c7e1e6f1def5cc7"/>
+    </placeobj>
+    <placeobj handle="_e824b9e8cd933684f85e9148680" change="1595277721" id="P0052" type="Building">
+      <pname value="Eriksgatan 29"/>
+      <placeref hlink="_e824b9e5a45702561a846971dfb"/>
+    </placeobj>
+    <placeobj handle="_e824c21b86130668bcba8b21e8" change="1595278581" id="P0053" type="Neighborhood">
+      <code>185</code>
+      <pname value="Hvitlingen"/>
+      <placeref hlink="_e824ae5b00d248ba235e4fd2ebe"/>
+    </placeobj>
+    <placeobj handle="_e824c220330790265b46bd3514" change="1595278583" id="P0054" type="Building">
+      <pname value="Skepparegatan 21"/>
+      <placeref hlink="_e824c21b86130668bcba8b21e8"/>
+    </placeobj>
+    <placeobj handle="_e824c5c89ed3e1810449a39b31c" change="1595278967" id="P0055" type="Neighborhood">
+      <code>108</code>
+      <pname value="Simpan"/>
+      <placeref hlink="_e824ae5b00d248ba235e4fd2ebe"/>
+    </placeobj>
+    <placeobj handle="_e824c5cd07c6c47d763f376f448" change="1595278968" id="P0056" type="Building">
+      <pname value="Jägaregatan 13"/>
+      <placeref hlink="_e824c5c89ed3e1810449a39b31c"/>
+    </placeobj>
   </places>
   <repositories>
-    <repository handle="_cdea29a49637c6553bc" change="1595276989" id="R0001">
+    <repository handle="_cdea29a49637c6553bc" change="1595279138" id="R0001">
       <rname>Arkistolaitos Digitaaliarkisto</rname>
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
@@ -40067,7 +40255,7 @@
       <type>Library</type>
       <url  href="https://www.moms.mn.gov/Search" type="Web Search" description="Search for a Marriage Certificate"/>
     </repository>
-    <repository handle="_dcdca3f7d3b161a6bf5b6f5e9d0" change="1533203842" id="R0004">
+    <repository handle="_dcdca3f7d3b161a6bf5b6f5e9d0" change="1595279615" id="R0004">
       <rname>Oma arkisto</rname>
       <type>Archive</type>
     </repository>
@@ -49946,6 +50134,105 @@ VIKTOR WILHELM
       <text>http://digi.narc.fi/digi/view.ka?kuid=21091331</text>
       <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=21091331">
         <range start="0" end="46"/>
+      </style>
+    </note>
+    <note handle="_e824b5563fa671010ed52ca1934" change="1595277242" id="N0091" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1156468?page=850</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1156468?page=850">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_e824b61c2f92838a9f72d66215a" change="1595277323" id="N0092" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1156467?page=910</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1156467?page=910">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_e824b698ee877fc13693ed62f7d" change="1595277374" id="N0093" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1156466?page=968</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1156466?page=968">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_e824b6f7db987bc61c4d9258b7" change="1595277413" id="N0094" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1156465?page=852</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1156465?page=852">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_e824b770a8524cdcbe84aa30ca9" change="1595277463" id="N0095" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1155509?page=763</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1155509?page=763">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_e824bd2672123248ee91f417568" change="1595278061" id="N0096" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=76690760</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=76690760">
+        <range start="0" end="46"/>
+      </style>
+    </note>
+    <note handle="_e824bded628559861f7f8509131" change="1595278143" id="N0097" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=21072127</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=21072127">
+        <range start="0" end="46"/>
+      </style>
+    </note>
+    <note handle="_e824be9775f1a0712a77aa88d7b" change="1595278212" id="N0098" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1156469?page=685</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1156469?page=685">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_e824c3108022bb00166552a160" change="1595278681" id="N0099" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=74310124</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=74310124">
+        <range start="0" end="46"/>
+      </style>
+    </note>
+    <note handle="_e824c3b6ac111fd30551eb1bfd5" change="1595278749" id="N0100" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1155513?page=699</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1155513?page=699">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_e824c70d9705901c4e917355d38" change="1595279100" id="N0101" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=73320251</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=73320251">
+        <range start="0" end="46"/>
+      </style>
+    </note>
+    <note handle="_e824c7ab17c1f4cc0f71202138" change="1595279164" id="N0102" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=74317692</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=74317692">
+        <range start="0" end="46"/>
+      </style>
+    </note>
+    <note handle="_e824c81fd7958b5c225373c74d6" change="1595279212" id="N0103" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1155512?page=679</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1155512?page=679">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_e824c987263143d3aeee0379dd6" change="1595279359" id="N0104" type="Transcript" format="1">
+      <text>E.o. postiljonen Viktor Vilhelm Nyström 81  h. Elin 78 B 1-0</text>
+    </note>
+    <note handle="_e824ccd23e51ba67e6b75a743f8" change="1595279711" id="N0105" type="Transcript" format="1">
+      <text>Helge 1 år 5 månader
+Ragnar 3 år 3 månader</text>
+    </note>
+    <note handle="_e824cdbf4fc1c0ad621b23c0248" change="1595279802" id="N0106" type="Transcript" format="1">
+      <text>E.o. postiljonen Viktor Vilhelm Nyström 81 h. Elsa [sic] 77 B 2-0</text>
+    </note>
+    <note handle="_e824ce8fc9f251e74038d6f0762" change="1595279887" id="N0107" type="Transcript" format="1">
+      <text>Postiljooni Viktor Vilhelm Nyström 81, v. Elin 77 L 2-0</text>
+    </note>
+    <note handle="_e824cf3e0de3f43b4f966c37a15" change="1595279958" id="N0108" type="Transcript" format="1">
+      <text>Postiljooni Viktor Wilhelm Nyström 81, v. Elin 77 L 1-0
+p Sigrid Amanda Nyström 96
+</text>
+      <style name="underline">
+        <range start="56" end="57"/>
       </style>
     </note>
   </notes>
