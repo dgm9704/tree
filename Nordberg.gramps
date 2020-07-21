@@ -14,7 +14,7 @@
     <tag handle="_cea28692a6471f03f64" change="1419983986" name="REMOVE" color="#000000000000" priority="0"/>
   </tags>
   <events>
-    <event handle="_cb589cc7f88790c0d85" change="1517754158" id="E0006">
+    <event handle="_cb589cc7f88790c0d85" change="1595348152" id="E0006">
       <type>Birth</type>
       <dateval val="1906-01-13"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
@@ -7061,16 +7061,18 @@
       <place hlink="_cdf82fb91b45aadb551"/>
       <citationref hlink="_d6ca953fc294dae2785844359a8"/>
     </event>
-    <event handle="_cb589cfbfb040f0b4a8" change="1595159776" id="E7058">
+    <event handle="_cb589cfbfb040f0b4a8" change="1595348535" id="E7058">
       <type>Marriage Banns</type>
       <dateval val="1907-06-02"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
+      <noteref hlink="_e187c8a2b7c230b0b788ece617b"/>
       <citationref hlink="_e1865381659243739e61bb9df81"/>
     </event>
-    <event handle="_cb589cfbfba4c2d037b" change="1397384070" id="E7059">
+    <event handle="_cb589cfbfba4c2d037b" change="1595350463" id="E7059">
       <type>Marriage</type>
-      <dateval val="1910-06-06" type="after"/>
+      <dateval val="1910-06-04" type="about"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_e8276d48c812c820cbe176bab83"/>
     </event>
     <event handle="_cb589cfbfed7ace7a5a" change="1534109573" id="E7060">
       <type>Marriage</type>
@@ -10765,12 +10767,11 @@
       <citationref hlink="_dcde150e7026f20b82f7ba24862"/>
       <citationref hlink="_dce11bc6d573d106fca8fe60611"/>
     </event>
-    <event handle="_dce08030f565715d5ac50fce16" change="1549792249" id="E2390">
+    <event handle="_dce08030f565715d5ac50fce16" change="1595348469" id="E2390">
       <type>Residence</type>
       <dateval val="1915"/>
       <place hlink="_e1861aea5b724b49c89f05e9c3a"/>
       <description>Ö. Chaussèn 5</description>
-      <noteref hlink="_e18642a014861f2d79acf8acd91"/>
       <citationref hlink="_dcde15709dd63677a1d128fa97e"/>
       <citationref hlink="_dcde15c2a5760859ec09ebab3c8"/>
     </event>
@@ -13531,7 +13532,7 @@
       <place hlink="_e82029a50ec36629ca48da3ab9c"/>
       <citationref hlink="_e824887bec430f33eca9b1ca32f"/>
     </event>
-    <event handle="_e824abc4bdd1eaa0dcd7603485f" change="1595277939" id="E0063">
+    <event handle="_e824abc4bdd1eaa0dcd7603485f" change="1595349115" id="E0063">
       <type>Residence</type>
       <datespan start="1916" stop="1920"/>
       <place hlink="_e824abc19bc77fc179d9636c49f"/>
@@ -13546,7 +13547,7 @@
       <citationref hlink="_e824b6fb11b75e2a1615e9e9de3"/>
       <citationref hlink="_e824b77347e3ab97dc5ac3b5635"/>
     </event>
-    <event handle="_e824ba0383c5f31f367ae34416d" change="1595278219" id="E0064">
+    <event handle="_e824ba0383c5f31f367ae34416d" change="1595349181" id="E0064">
       <type>Residence</type>
       <datespan start="1914" stop="1915"/>
       <place hlink="_e824b9e8cd933684f85e9148680"/>
@@ -13554,14 +13555,14 @@
       <citationref hlink="_e824bdf079a4196ca3fbd78b1da"/>
       <citationref hlink="_e824bea161f54f66aaefd94f331"/>
     </event>
-    <event handle="_e824c23795a7b4635e7572db56d" change="1595278757" id="E0065">
+    <event handle="_e824c23795a7b4635e7572db56d" change="1595349257" id="E0065">
       <type>Residence</type>
       <dateval val="1913"/>
       <place hlink="_e824c220330790265b46bd3514"/>
       <citationref hlink="_e824c37295c42a278de3dfedcff"/>
       <citationref hlink="_e824c3b98e45294e1c656000ee3"/>
     </event>
-    <event handle="_e824c5d7def3feebfade6247365" change="1595279215" id="E0066">
+    <event handle="_e824c5d7def3feebfade6247365" change="1595349354" id="E0066">
       <type>Residence</type>
       <datespan start="1911" stop="1912"/>
       <place hlink="_e824c5cd07c6c47d763f376f448"/>
@@ -25090,7 +25091,7 @@
       <childref hlink="_cb589cc92dd6232fd94"/>
       <childref hlink="_cb589cc935141d977cb"/>
     </family>
-    <family handle="_cb589cc844867fcce24" change="1549833144" id="F2216">
+    <family handle="_cb589cc844867fcce24" change="1595348549" id="F2216">
       <rel type="Married"/>
       <father hlink="_cf99bf30a9136795670"/>
       <mother hlink="_cb589cc84347c619504"/>
@@ -25101,7 +25102,6 @@
       <eventref hlink="_dce08030f565715d5ac50fce16" role="Family"/>
       <eventref hlink="_e18799971c749a4c24509817fa0" role="Family"/>
       <eventref hlink="_e187b683bf12f482e2907384131" role="Family"/>
-      <noteref hlink="_e187c8a2b7c230b0b788ece617b"/>
     </family>
     <family handle="_cb589cc849649a1de75" change="1595279220" id="F1535">
       <rel type="Married"/>
@@ -35109,64 +35109,74 @@
       <noteref hlink="_e82488750ff856bd5369519e9a"/>
       <sourceref hlink="_e8202c821c32e3b2d589c20a45c"/>
     </citation>
-    <citation handle="_e824b00d61039ea83701a13822b" change="1595276688" id="C1091">
+    <citation handle="_e824b00d61039ea83701a13822b" change="1595348768" id="C1091">
       <page>U:341/4129</page>
       <confidence>2</confidence>
       <noteref hlink="_e824b00aa73d070c7c7913025c"/>
+      <noteref hlink="_e8275f72f861216eb839cf90b7a"/>
       <sourceref hlink="_e824afb41187bd142c543e4a576"/>
     </citation>
-    <citation handle="_e824b103e9175297cc3e80b68e2" change="1595276789" id="C1092">
+    <citation handle="_e824b103e9175297cc3e80b68e2" change="1595348749" id="C1092">
       <page>U:356/3772</page>
       <confidence>2</confidence>
       <noteref hlink="_e824b0fa0812d6e7692d2f12f7c"/>
+      <noteref hlink="_e8275f42dbb31a315227b89a1c5"/>
       <sourceref hlink="_e824b0bd38f250626a9b79a328d"/>
     </citation>
-    <citation handle="_e824b1a8c2a5e108231c92c3a72" change="1595276856" id="C1093">
+    <citation handle="_e824b1a8c2a5e108231c92c3a72" change="1595348730" id="C1093">
       <page>U:370/3851</page>
       <confidence>2</confidence>
       <noteref hlink="_e824b1a34bd3817b5cb4b58c6e1"/>
+      <noteref hlink="_e8275f16afac173654f6de49ad"/>
       <sourceref hlink="_e187980ac952b12b9ebab94f0f8"/>
     </citation>
-    <citation handle="_e824b27c8c7326772f1f209b4a8" change="1595276943" id="C1094">
+    <citation handle="_e824b27c8c7326772f1f209b4a8" change="1595348715" id="C1094">
       <page>U:383/2684</page>
       <confidence>2</confidence>
       <noteref hlink="_e824b27813a2d499d6724a4c6d4"/>
+      <noteref hlink="_e8275ef2df94df751d649935d27"/>
       <sourceref hlink="_e824b23c86751e06c3388d8c74e"/>
     </citation>
-    <citation handle="_e824b33b6e56556250cf08d0ad1" change="1595277021" id="C1095">
+    <citation handle="_e824b33b6e56556250cf08d0ad1" change="1595348700" id="C1095">
       <page>U:394/2825</page>
       <confidence>2</confidence>
       <noteref hlink="_e824b338970279e6e722d005867"/>
+      <noteref hlink="_e8275ec9d3c68913a2dcbe3c1f8"/>
       <sourceref hlink="_e824b2efe1c236c92cc8837c1c7"/>
     </citation>
-    <citation handle="_e824b55c4a723016f6dab657cd2" change="1595277244" id="C1096">
+    <citation handle="_e824b55c4a723016f6dab657cd2" change="1595348919" id="C1096">
       <page>1915/610</page>
       <confidence>2</confidence>
       <noteref hlink="_e824b5563fa671010ed52ca1934"/>
+      <noteref hlink="_e82760ddb78486abf693bf9ca9c"/>
       <sourceref hlink="_dcde088884844f55819d0fcc103"/>
     </citation>
-    <citation handle="_e824b61f7ba3795acff14dba468" change="1595277324" id="C1097">
+    <citation handle="_e824b61f7ba3795acff14dba468" change="1595349002" id="C1097">
       <page>1916/660</page>
       <confidence>2</confidence>
       <noteref hlink="_e824b61c2f92838a9f72d66215a"/>
+      <noteref hlink="_e82761abb8819e3ec873a518a6d"/>
       <sourceref hlink="_dcde088884844f55819d0fcc103"/>
     </citation>
-    <citation handle="_e824b69cf4f3b5d9976ca27fdca" change="1595277376" id="C1098">
+    <citation handle="_e824b69cf4f3b5d9976ca27fdca" change="1595349027" id="C1098">
       <page>1917/710</page>
       <confidence>2</confidence>
       <noteref hlink="_e824b698ee877fc13693ed62f7d"/>
+      <noteref hlink="_e82761eb6f457bb0c71faf4e7d9"/>
       <sourceref hlink="_dcde088884844f55819d0fcc103"/>
     </citation>
-    <citation handle="_e824b6fb11b75e2a1615e9e9de3" change="1595277414" id="C1099">
+    <citation handle="_e824b6fb11b75e2a1615e9e9de3" change="1595349075" id="C1099">
       <page>1918/648</page>
       <confidence>2</confidence>
       <noteref hlink="_e824b6f7db987bc61c4d9258b7"/>
+      <noteref hlink="_e827624d54d5ebed70fa4dbceab"/>
       <sourceref hlink="_dcde088884844f55819d0fcc103"/>
     </citation>
-    <citation handle="_e824b77347e3ab97dc5ac3b5635" change="1595277464" id="C1100">
+    <citation handle="_e824b77347e3ab97dc5ac3b5635" change="1595349105" id="C1100">
       <page>1919/645</page>
       <confidence>2</confidence>
       <noteref hlink="_e824b770a8524cdcbe84aa30ca9"/>
+      <noteref hlink="_e82762a8dd631b4d6fdd0e8797e"/>
       <sourceref hlink="_dcde088884844f55819d0fcc103"/>
     </citation>
     <citation handle="_e824bd2dd0425c2f114b125ccc2" change="1595279888" id="C1101">
@@ -35183,10 +35193,11 @@
       <noteref hlink="_e824cf3e0de3f43b4f966c37a15"/>
       <sourceref hlink="_dce11b97c267f78788634f92175"/>
     </citation>
-    <citation handle="_e824bea161f54f66aaefd94f331" change="1595278216" id="C1103">
+    <citation handle="_e824bea161f54f66aaefd94f331" change="1595349178" id="C1103">
       <page>1913/449</page>
       <confidence>2</confidence>
       <noteref hlink="_e824be9775f1a0712a77aa88d7b"/>
+      <noteref hlink="_e827635adae6b96ccf0322a6338"/>
       <sourceref hlink="_dcde088884844f55819d0fcc103"/>
     </citation>
     <citation handle="_e824c37295c42a278de3dfedcff" change="1595279806" id="C1104">
@@ -35196,16 +35207,18 @@
       <noteref hlink="_e824cdbf4fc1c0ad621b23c0248"/>
       <sourceref hlink="_e824c2d64de341418829e9eeb9"/>
     </citation>
-    <citation handle="_e824c3b98e45294e1c656000ee3" change="1595278751" id="C1105">
+    <citation handle="_e824c3b98e45294e1c656000ee3" change="1595349256" id="C1105">
       <page>1912/478</page>
       <confidence>2</confidence>
       <noteref hlink="_e824c3b6ac111fd30551eb1bfd5"/>
+      <noteref hlink="_e827641716825eb079ed928670c"/>
       <sourceref hlink="_dcde088884844f55819d0fcc103"/>
     </citation>
-    <citation handle="_e824c7102543d4cceeca4b0d4c" change="1595279101" id="C1106">
+    <citation handle="_e824c7102543d4cceeca4b0d4c" change="1595349284" id="C1106">
       <page>U:272/3158</page>
       <confidence>2</confidence>
       <noteref hlink="_e824c70d9705901c4e917355d38"/>
+      <noteref hlink="_e827645f736425d4b9111255174"/>
       <sourceref hlink="_e824c6ca8f7600fae5ed7bfe79e"/>
     </citation>
     <citation handle="_e824c7aeee32e587ffe4bbe067c" change="1595279386" id="C1107">
@@ -35215,16 +35228,25 @@
       <noteref hlink="_e824c987263143d3aeee0379dd6"/>
       <sourceref hlink="_e824c76d63063029e69dd4fcd7d"/>
     </citation>
-    <citation handle="_e824c8229f16f1009b357333e9b" change="1595279213" id="C1108">
+    <citation handle="_e824c8229f16f1009b357333e9b" change="1595349352" id="C1108">
       <page>1911/469</page>
       <confidence>2</confidence>
       <noteref hlink="_e824c81fd7958b5c225373c74d6"/>
+      <noteref hlink="_e82765041a84b53166a34fe8c82"/>
       <sourceref hlink="_dcde088884844f55819d0fcc103"/>
     </citation>
     <citation handle="_e824cce85b43d4ea37cfe14e441" change="1595279714" id="C1109">
       <confidence>2</confidence>
       <noteref hlink="_e824ccd23e51ba67e6b75a743f8"/>
       <sourceref hlink="_e824cc1253131c6f52425a036ca"/>
+    </citation>
+    <citation handle="_e8276d48c812c820cbe176bab83" change="1595350461" id="C1110">
+      <dateval val="1910-06-06"/>
+      <page>151</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e8276d44a163218ad165a40bbc6"/>
+      <noteref hlink="_e8276f8827d7ae954e9d62cb24c"/>
+      <sourceref hlink="_cdea76d18dc4cf3ac19"/>
     </citation>
   </citations>
   <sources>
@@ -41431,10 +41453,13 @@ döpt af A. W. Kuusisto		Fddr: Eva S. Korhonen, Wilho Korhonen</text>
         <range start="0" end="77"/>
       </style>
     </note>
-    <note handle="_d003055e12e0cda700c" change="1460653937" id="N0216" type="Transcript" format="1">
+    <note handle="_d003055e12e0cda700c" change="1595348109" id="N0216" type="Transcript" format="1">
       <text>Januari 1906
 Aliisa Siviä Eliina	13	21/2	Fldr: Plåtsl. Emil Ferdin. Nordberg mhu Hilda Maria Korhonen	35/37	(2-34)
 döpt af Arv. Wallenius		Fddr: Elin M. Nordberg, filar V. Korhonen</text>
+      <style name="link" value="gramps://Person/handle/cb589cc847f6455821b">
+        <range start="145" end="161"/>
+      </style>
     </note>
     <note handle="_d007407f613162184d6" change="1429559783" id="N0217" type="Link">
       <text>http://digi.kansalliskirjasto.fi/sanomalehti/binding/703702#?page=51</text>
@@ -50233,6 +50258,110 @@ p Sigrid Amanda Nyström 96
 </text>
       <style name="underline">
         <range start="56" end="57"/>
+      </style>
+    </note>
+    <note handle="_e8275ec9d3c68913a2dcbe3c1f8" change="1595348697" id="N0109" type="Transcript">
+      <text>Postiljonen Viktor Vilhelm Nyström 81, h. Elin 77, B 1-0</text>
+    </note>
+    <note handle="_e8275ef2df94df751d649935d27" change="1595348714" id="N0110" type="Transcript">
+      <text>Postiljonen Viktor Wilhelm Nyström 81, h. Elin 77, B 1-0</text>
+    </note>
+    <note handle="_e8275f16afac173654f6de49ad" change="1595348729" id="N0111" type="Transcript">
+      <text>Postiljonen Victor Vilhelm Nyström 81, h. Elin 77, B 1-0</text>
+    </note>
+    <note handle="_e8275f42dbb31a315227b89a1c5" change="1595348747" id="N0112" type="Transcript">
+      <text>Postiljonen Victor Wilhelm Nyström 81, h. Elin 77, B 1-0</text>
+    </note>
+    <note handle="_e8275f72f861216eb839cf90b7a" change="1595348767" id="N0113" type="Transcript">
+      <text>Postiljonen Viktor Vilhelm Nyström 81, h. Elin 77, B 1-0</text>
+    </note>
+    <note handle="_e82760ddb78486abf693bf9ca9c" change="1595348915" id="N0114" type="Transcript">
+      <text>Nyström
+- Viktor W., postiljon, Skeppsredareg. 3 tr D l 50</text>
+      <style name="bold">
+        <range start="0" end="7"/>
+        <range start="10" end="19"/>
+      </style>
+    </note>
+    <note handle="_e82761abb8819e3ec873a518a6d" change="1595349000" id="N0115" type="Transcript" format="1">
+      <text>Nyström
+ - Viktor W., postiljon, Skeppsredareg. 3 tr D l 50.</text>
+      <style name="bold">
+        <range start="0" end="21"/>
+      </style>
+    </note>
+    <note handle="_e82761eb6f457bb0c71faf4e7d9" change="1595349026" id="N0116" type="Transcript" format="1">
+      <text>Nyström
+ - Viktor W., postiljon, Skeppsredareg. 3 tr D l 50.</text>
+      <style name="bold">
+        <range start="0" end="20"/>
+      </style>
+    </note>
+    <note handle="_e827624d54d5ebed70fa4dbceab" change="1595349066" id="N0117" type="Transcript" format="1">
+      <text>Nyström
+ - Viktor W., postiljon, Skeppsredareg. 3 tr D l 50.</text>
+      <style name="bold">
+        <range start="0" end="21"/>
+      </style>
+    </note>
+    <note handle="_e82762a8dd631b4d6fdd0e8797e" change="1595349103" id="N0118" type="Transcript" format="1">
+      <text>Nyström
+ - Viktor W., postiljon, Skeppsredareg. 3 tr D l 50.</text>
+      <style name="bold">
+        <range start="0" end="21"/>
+      </style>
+    </note>
+    <note handle="_e827635adae6b96ccf0322a6338" change="1595349176" id="N0119" type="Transcript" format="1">
+      <text>Nyström
+ - Viktor W., postiljon, Eriksg. 27.</text>
+      <style name="bold">
+        <range start="0" end="21"/>
+      </style>
+    </note>
+    <note handle="_e827641716825eb079ed928670c" change="1595349253" id="N0120" type="Transcript" format="1">
+      <text>Nyström
+ - Viktor W., postilj., gårdsk., Skeppareg. 21.</text>
+      <style name="bold">
+        <range start="0" end="21"/>
+      </style>
+    </note>
+    <note handle="_e827645f736425d4b9111255174" change="1595349283" id="N0121" type="Transcript" format="1">
+      <text>E.o. postiljonen Viktor Vilhelm Nyström 81, h. Elin 78 </text>
+    </note>
+    <note handle="_e82765041a84b53166a34fe8c82" change="1595349350" id="N0122" type="Transcript" format="1">
+      <text>Nyström
+ - Viktor W., postilj., Jägareg. 13 tr F.</text>
+      <style name="bold">
+        <range start="0" end="22"/>
+      </style>
+    </note>
+    <note handle="_e8276d44a163218ad165a40bbc6" change="1595350216" id="N0123" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/768311?page=7</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/sanomalehti/binding/768311?page=7">
+        <range start="0" end="67"/>
+      </style>
+    </note>
+    <note handle="_e8276f8827d7ae954e9d62cb24c" change="1595350453" id="N0124" type="Transcript" format="1">
+      <text>Måndagen den 6 juni     HUFVUDSTADSBLADET      1910 - N:o 151 - 7
+Meddelanden från pastorskanslierna.
+Vigda.
+S.F.
+postiljon  Viktor Vilhelm Nyström o. Elin Maria Nordberg.</text>
+      <style name="bold">
+        <range start="0" end="114"/>
+      </style>
+      <style name="fontsize" value="14">
+        <range start="0" end="65"/>
+      </style>
+      <style name="fontsize" value="13">
+        <range start="66" end="101"/>
+      </style>
+      <style name="fontsize" value="12">
+        <range start="102" end="108"/>
+      </style>
+      <style name="fontsize" value="11">
+        <range start="109" end="113"/>
+        <range start="114" end="171"/>
       </style>
     </note>
   </notes>
