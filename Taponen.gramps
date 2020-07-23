@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2020-07-22" version="5.1.2"/>
+    <created date="2020-07-23" version="5.1.2"/>
     <researcher>
     </researcher>
     <mediapath>/home/john/3Taponen_2014-10-29.gpkg.media</mediapath>
@@ -150,7 +150,7 @@
       <citationref hlink="_d32c556700e554b048d"/>
       <citationref hlink="_da7bf1e12fae7162dae75fcd05"/>
     </event>
-    <event handle="_cca1691384735bf6855" change="1502023472" id="E0027">
+    <event handle="_cca1691384735bf6855" change="1595521819" id="E0027">
       <type>Death</type>
       <dateval val="1952-12-29"/>
       <place hlink="_cca1691056519fef9d5"/>
@@ -652,7 +652,7 @@
       <citationref hlink="_d01455b60f1053dd61f"/>
       <citationref hlink="_d0145824a873dc9ae2d"/>
     </event>
-    <event handle="_d017296e34e013b1cf6" change="1502017925" id="E0128">
+    <event handle="_d017296e34e013b1cf6" change="1595521101" id="E0128">
       <type>Burial</type>
       <dateval val="1953-01-11"/>
       <place hlink="_d01729565d7470b50be"/>
@@ -1058,6 +1058,27 @@
       <place hlink="_cdcdbfd839c44c3f4eb"/>
       <citationref hlink="_da92bef7bf15c876d63d36b76e"/>
       <citationref hlink="_da92b219eab696b3eba581ea5fd"/>
+    </event>
+    <event handle="_e82ad6eae8016df57659dda0ce" change="1595442269" id="E0003">
+      <type>Residence</type>
+      <dateval val="1926"/>
+      <place hlink="_e82ad45bdd85f278af7915fb714"/>
+      <description>Ludvikinkatu 1, as. 5.</description>
+      <citationref hlink="_e82ad5d56487583ea6f92bac30b"/>
+    </event>
+    <event handle="_e82ad9148fe2ea45e9cf3e410cc" change="1595442307" id="E0021">
+      <type>Residence</type>
+      <dateval val="1927"/>
+      <place hlink="_e82ad7668a11043645a641c568c"/>
+      <description>Ludviginkatu 6, as. 4.</description>
+      <citationref hlink="_e82ad7dab4b4f7c84c3a7b4e3b"/>
+    </event>
+    <event handle="_e82adaab4f9684c7be391d6cb49" change="1595442312" id="E0030">
+      <type>Residence</type>
+      <dateval val="1929"/>
+      <place hlink="_e82ad7668a11043645a641c568c"/>
+      <description>Ludviginkatu 6, as. 4.</description>
+      <citationref hlink="_e82adaa64ba2ef059e03748d902"/>
     </event>
   </events>
   <people home="_cca1691b7c53559cc53">
@@ -1888,10 +1909,13 @@
       <eventref hlink="_cca16d1ddd034493a5d" role="Family"/>
       <childref hlink="_cca16d66b34550400e5"/>
     </family>
-    <family handle="_cdcdbfe443a73c3bb82" change="1426877769" id="F0019">
+    <family handle="_cdcdbfe443a73c3bb82" change="1595442323" id="F0019">
       <rel type="Married"/>
       <father hlink="_cca1691b7c53559cc53"/>
       <mother hlink="_cfa356c7ed1469fab5f"/>
+      <eventref hlink="_e82ad6eae8016df57659dda0ce" role="Family"/>
+      <eventref hlink="_e82ad9148fe2ea45e9cf3e410cc" role="Family"/>
+      <eventref hlink="_e82adaab4f9684c7be391d6cb49" role="Family"/>
     </family>
     <family handle="_cdd04c17d361b0cf5c4" change="1414342907" id="F0026">
       <rel type="Married"/>
@@ -2341,20 +2365,23 @@
       <noteref hlink="_d32c634979d2993c4e2"/>
       <sourceref hlink="_d01456605995eda85ed"/>
     </citation>
-    <citation handle="_d0169be00b702b26569" change="1502023401" id="C0054">
+    <citation handle="_d0169be00b702b26569" change="1595521422" id="C0054">
       <dateval val="1953-02-27"/>
       <page>0</page>
       <confidence>2</confidence>
+      <noteref hlink="_e82dcdf5af46abdd1d21a546412"/>
       <sourceref hlink="_d0169b060d41cb59e44"/>
     </citation>
-    <citation handle="_d01722866804fe2d09e" change="1502023472" id="C0055">
+    <citation handle="_d01722866804fe2d09e" change="1595521089" id="C0055">
       <page>0</page>
       <confidence>2</confidence>
+      <noteref hlink="_e82dcad3b2f45df3f4b6c3b920a"/>
       <sourceref hlink="_d01721ca75c2db913cd"/>
     </citation>
-    <citation handle="_d01727fae192634bb01" change="1502023420" id="C0056">
+    <citation handle="_d01727fae192634bb01" change="1595521043" id="C0056">
       <page>0</page>
       <confidence>2</confidence>
+      <noteref hlink="_e82dca6310745f9b55b357b14c3"/>
       <sourceref hlink="_d017275104a2ae6f7da"/>
     </citation>
     <citation handle="_d0191e766085f58a5ed" change="1430162524" id="C0059">
@@ -2580,11 +2607,12 @@
       <noteref hlink="_da7cbc33d921cd83f13b2c3e7a5"/>
       <sourceref hlink="_cdd3b3e8e60650d5cd6"/>
     </citation>
-    <citation handle="_da7cd18958d75a53b3b89af47e7" change="1502017807" id="C0092">
+    <citation handle="_da7cd18958d75a53b3b89af47e7" change="1595520927" id="C0092">
       <dateval val="2014-08-13"/>
       <page>0</page>
       <confidence>2</confidence>
       <noteref hlink="_da7cd18513e2fd7ee0a260c5027"/>
+      <noteref hlink="_e82dc937c593ef80d67d6f3a8a2"/>
       <sourceref hlink="_da7cd105eaa437f39d9cfcb1a75"/>
     </citation>
     <citation handle="_da7cd6ca7a033c4adf75b352285" change="1501435714" id="C0093">
@@ -2718,6 +2746,27 @@
       <confidence>2</confidence>
       <noteref hlink="_da92bef4e8721fe7bd9c3fd3374"/>
       <sourceref hlink="_da92beab9ad5b5977cf5b13d1e0"/>
+    </citation>
+    <citation handle="_e82ad5d56487583ea6f92bac30b" change="1595441823" id="C0057">
+      <page>1926/574</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e82ad5c65951042acb7836af534"/>
+      <noteref hlink="_e82ad6da2ae34b0db55900572b"/>
+      <sourceref hlink="_e82ad58872527dff35572d193fd"/>
+    </citation>
+    <citation handle="_e82ad7dab4b4f7c84c3a7b4e3b" change="1595442050" id="C0058">
+      <page>1927/515</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e82ad7d7e6823bf26870af5e155"/>
+      <noteref hlink="_e82ad8c4c29690f1a5e187f4e39"/>
+      <sourceref hlink="_e82ad58872527dff35572d193fd"/>
+    </citation>
+    <citation handle="_e82adaa64ba2ef059e03748d902" change="1595442216" id="C0115">
+      <page>1929/632</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e82ad9bd2892b7790ddf1ee10df"/>
+      <noteref hlink="_e82ada9e2746d6833678a794aa0"/>
+      <sourceref hlink="_e82ad58872527dff35572d193fd"/>
     </citation>
   </citations>
   <sources>
@@ -3006,6 +3055,10 @@
       <sauthor>Kerimäen seurakunta</sauthor>
       <reporef hlink="_cdd40c4a391713e0c40" medium="Book"/>
     </source>
+    <source handle="_e82ad58872527dff35572d193fd" change="1595441679" id="S0056">
+      <stitle>Viipurin kaupungin osoitekalenteri ja liikehakemisto</stitle>
+      <reporef hlink="_e82ad582ccf1a5bb6c285c46da3" medium="Electronic"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cca1691056519fef9d5" change="1430173690" id="P0001" type="Town">
@@ -3097,7 +3150,7 @@
       <pname value="Kerimäki"/>
       <placeref hlink="_cdbd00250510bf9a5de"/>
     </placeobj>
-    <placeobj handle="_cdd6fcd85ab77adcf9f" change="1414520304" id="P0029" type="Town">
+    <placeobj handle="_cdd6fcd85ab77adcf9f" change="1595441874" id="P0029" type="Town">
       <ptitle>Viipuri, Suomi</ptitle>
       <pname value="Viipuri"/>
       <placeref hlink="_cdbd00250510bf9a5de"/>
@@ -3206,6 +3259,14 @@
       <pname value="3"/>
       <placeref hlink="_cdd428293086534ef7a"/>
     </placeobj>
+    <placeobj handle="_e82ad45bdd85f278af7915fb714" change="1595441556" id="P0010" type="Building">
+      <pname value="Ludvikinkatu 1"/>
+      <placeref hlink="_cdd6fcd85ab77adcf9f"/>
+    </placeobj>
+    <placeobj handle="_e82ad7668a11043645a641c568c" change="1595441875" id="P0011" type="Building">
+      <pname value="Ludviginkatu 6"/>
+      <placeref hlink="_cdd6fcd85ab77adcf9f"/>
+    </placeobj>
   </places>
   <repositories>
     <repository handle="_cdd40c4a391713e0c40" change="1502023741" id="R0000">
@@ -3246,6 +3307,10 @@
       <rname>BillionGraves</rname>
       <type>Web site</type>
       <url  href="https://billiongraves.com" type="Web Home"/>
+    </repository>
+    <repository handle="_e82ad582ccf1a5bb6c285c46da3" change="1595441677" id="R0006">
+      <rname>Kansalliskirjasto Digitaaliset Aineistot</rname>
+      <type>Web site</type>
     </repository>
   </repositories>
   <notes>
@@ -4283,6 +4348,191 @@ Hu	Maria Rehuin	1804		}  -1838-</text>
       <text>http://digi.narc.fi/digi/view.ka?kuid=6610752</text>
       <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=6610752">
         <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_e82ad5c65951042acb7836af534" change="1595441705" id="N0002" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1262791?page=598</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1262791?page=598">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_e82ad6da2ae34b0db55900572b" change="1595441818" id="N0003" type="Transcript" format="1">
+      <text>Taponen
+ - Heikki, poliisikonstaapeli, Ludvikinkatu 1, as. 5.
+ - Maikki, vaimo, Ludvikinkatu 1, as. 5.</text>
+      <style name="bold">
+        <range start="0" end="19"/>
+        <range start="62" end="73"/>
+      </style>
+    </note>
+    <note handle="_e82ad7d7e6823bf26870af5e155" change="1595441922" id="N0004" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1262790?page=539</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1262790?page=539">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_e82ad8c4c29690f1a5e187f4e39" change="1595442019" id="N0005" type="Transcript" format="1">
+      <text>Taponen
+ - Heikki, konstaap., Ludvigink. 6, as. 4.
+ - Maikki, vaimo, Ludvigink. 6, as. 4.</text>
+      <style name="bold">
+        <range start="0" end="7"/>
+        <range start="8" end="18"/>
+        <range start="52" end="61"/>
+      </style>
+    </note>
+    <note handle="_e82ad9bd2892b7790ddf1ee10df" change="1595442120" id="N0091" type="Transcript" format="1">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1262789?page=758</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1262789?page=758">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_e82ada9e2746d6833678a794aa0" change="1595442212" id="N0132" type="Transcript" format="1">
+      <text>Taponen
+ - Heikki, konst., Ludviginkatu 6, as. 4.
+ - Maikki, rouva, Ludvigink. 6, as. 4.</text>
+      <style name="bold">
+        <range start="0" end="7"/>
+        <range start="8" end="18"/>
+        <range start="50" end="60"/>
+      </style>
+    </note>
+    <note handle="_e82dc937c593ef80d67d6f3a8a2" change="1595520919" id="N0155" type="Transcript" format="1">
+      <text>          TAPONEN
+
+             HEIKKI
+*2.7.1896  +29.12.1952
+
+              MARIA
+*13.8.1894  +22.11.1965</text>
+      <style name="fontsize" value="10">
+        <range start="0" end="106"/>
+      </style>
+    </note>
+    <note handle="_e82dca6310745f9b55b357b14c3" change="1595521041" id="N0156" type="Transcript" format="1">
+      <text>    Rakkaamme
+
+    HEIKKI TAPONEN
+
+synt. 1896 Rääkkylässä, kuoli 29.12. 52 Helsingissä
+
+    Syvästi kaivaten
+    Maria (o.s. Konttinen)
+    Onerva, Soini, Arja, Marjatta ja (o.s. Taponen) Leena Kotilainen
+
+Ei tunne tietänsä ihminen, 
+elo on kuin hiukkanen hetkinen.
+Valot varjot vuoroin täyttää sen, 
+kuka tietää päivänsä viimeisenm
+
+Siunaus toimitetaan 11.1.1953 klo 10.50 Malmin pikkukappelissa. 
+Vainajan muistoia viettämään pyydetään saapumaan NNKY saliin P. Rautatienk. 23, 
+joka täten ainoastaan kutsuna ilmoitetaan.
+</text>
+    </note>
+    <note handle="_e82dcad3b2f45df3f4b6c3b920a" change="1595521087" id="N0157" type="Transcript">
+      <text>Konstaapeli Heikki Taponen kuollut.
+
+Joulukuun 29 päivänä 1952 kuoli virkatehtäviään suorittaessaan Helsingin 
+poliisilaitoksen huolto-osaston vanhempi konstaapeli Heikki Taponen. 
+Hän oli syntynyt 2.7.1896 Rääkkylässä ja oli tullut Viipurin poliisilaitoksen 
+palvelukseen 1.11.1919. Hänet siirrettiin 4.5.1940 Helsingin poliisilaitokseen 
+ja palveli hän ensin Töölön poliisiasemalla ja 30.7.1944 alkaen huolto-osastolla.
+Hänelle oli myönnetty sodan 1939-1940 muistomitali, Vm 2 ja saanut 
+poliisimestarin tunnustukset 25 ja 30 vuotisesta palveluksesta.
+Taponen oli esimiestensä ja palvelustovereidensa keskuudessa pidetty poliisimies, 
+jonka palvelualttius oli esimerkillistä. Hänen äkillinen poismenonsa tuli 
+tyrmistyttävänä tietona työtovereille.
+Sunnuntaina 11.1.1953 saatettiin Taposen maallinen tomu viimeiseen lepopaikkaansa
+Malmin hautausmaalle omaisten, ystävien ja palvelustovereiden saattamana. 
+Siunaustilaisuudessa lauloi Helsingin poliisien laulajista muodostettu kvartetti.
+Omaisten tuotua seppeleensä laskivat apulaispoliisimestari O. Kosonen ja huolto-
+osaston johtaja K. Hyppölä Helsingin poliisilaitoksen seppeleen ensiksimainitun
+puhuessa pitkän poliisityön suorittaneen vaimajan muistolle. Huolto-osaston 
+seppeleen laskivat osaston johtaja K. Hyppölä, komisario A. Raami ja 
+konstaapeli I. Pulli, komisario Raamin puhuessa.
+
+K. N:nen
+</text>
+    </note>
+    <note handle="_e82dcdf5af46abdd1d21a546412" change="1595521421" id="N0158" type="Transcript" format="1">
+      <text>Alempana mainitusta henkilöstä tilataan virkatodistus:
+
+Sukunimi:    [Taponen]
+Ristimänimet:    [Heikki]
+        [Onko kuollut 29.12.52?]
+Syntymäaika ja -paikka     [4.7.1896 Rääkkylä]
+Elinkeino tai ammatti    [Tarkastuskonstaapeli]
+Kirjoilla:    [H:gin] kaupungin [et suom] seurakunnassa
+Kirkonkirjan ___ sivu ___ Siviilirekisterin N:o ___
+
+Isä:    [Juho]
+Äiti:
+
+[Hgissä, 19] p:nä [helmikuuta] 19[53]
+
+[Tstoups    &lt;allekirjoitus&gt;
+Luutn    Olavi Liekoski]
+
+Virkatodistus
+tuomioistuinta varten.
+[Viranomaisen] pyynnöstä.
+
+N:o___ V:na 19[53] K:kirja [13], sivu [1058] Rikosrekisterin n:o ___
+    Siviirekisteri ___
+
+Sukunimi: [Taponen]
+Ristimänimet, sekä isän    }    [Heikki Juhonp] (miespuol.)
+(äidin) ristimänimi:    }
+
+Syntynyt avioliitossa, [2/7 1896 Rääkkylässä]
+Asuinpaikka (maalla: kylä)    [kuollut 29/12 1952]
+naimisissa, rippikoulunkäy___
+kirjoitustaitoinen, käynyt ___ koulu___
+Elinkeino tai ammatti: [konstaapeli]
+Nauttii, ei nauti kansalaisluottamusta.
+Todistajaksi kelpaamaton.
+Maan palvelukseen kelpaamaton.
+Ehdollisesti tuomittu _/_19_, koetusaika __ vuotta*)
+
+Todistaa [Helsingin eteläisen suomalaisen seurakunnan Kirkkoherranvirastossa]
+virastossa [27] p [helmi]kuuta 19[53]
+
+&lt;allekirjoitus&gt;
+[Juhani Rekola]
+
+*) Merkittävä koetusaikana ja vielä kahden vuoden aikana sen päättymisestä
+
+5069-49.
+</text>
+      <style name="italic">
+        <range start="70" end="77"/>
+        <range start="97" end="103"/>
+        <range start="114" end="136"/>
+        <range start="166" end="183"/>
+        <range start="211" end="231"/>
+        <range start="248" end="253"/>
+        <range start="266" end="273"/>
+        <range start="351" end="355"/>
+        <range start="365" end="375"/>
+        <range start="383" end="393"/>
+        <range start="398" end="400"/>
+        <range start="404" end="454"/>
+        <range start="495" end="507"/>
+        <range start="536" end="538"/>
+        <range start="549" end="551"/>
+        <range start="560" end="564"/>
+        <range start="625" end="632"/>
+        <range start="667" end="680"/>
+        <range start="745" end="765"/>
+        <range start="798" end="816"/>
+        <range start="912" end="923"/>
+        <range start="1086" end="1152"/>
+        <range start="1166" end="1168"/>
+        <range start="1173" end="1178"/>
+        <range start="1188" end="1190"/>
+        <range start="1193" end="1208"/>
+        <range start="1210" end="1223"/>
       </style>
     </note>
   </notes>
