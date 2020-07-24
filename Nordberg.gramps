@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2020-07-22" version="5.1.2"/>
+    <created date="2020-07-24" version="5.1.2"/>
     <researcher>
     </researcher>
   </header>
@@ -8662,7 +8662,7 @@
       <place hlink="_ce849d0239c081d788f"/>
       <citationref hlink="_d0075cce7e97edddd9b"/>
     </event>
-    <event handle="_d0075fda2f1395c0024" change="1429565351" id="E3266">
+    <event handle="_d0075fda2f1395c0024" change="1595526818" id="E3266">
       <type>Residence</type>
       <datespan start="1883" stop="1889"/>
       <place hlink="_d0075fd672c08537a4e"/>
@@ -13242,7 +13242,7 @@
       <citationref hlink="_e186e43f90bcd42e4baadf50ab"/>
       <citationref hlink="_e1875d5d7c767fd483b88a888b6"/>
     </event>
-    <event handle="_e18799971c749a4c24509817fa0" change="1549830863" id="E2876">
+    <event handle="_e18799971c749a4c24509817fa0" change="1595618319" id="E2876">
       <type>Residence</type>
       <datespan start="1917" stop="1918"/>
       <place hlink="_e18797b614b73932acbfd6ef8b1"/>
@@ -13250,11 +13250,16 @@
       <citationref hlink="_e187999307873242e347e888bea"/>
       <citationref hlink="_e187a3ef6a21b047131065fc28"/>
     </event>
-    <event handle="_e187b683bf12f482e2907384131" change="1549833078" id="E2877">
+    <event handle="_e187b683bf12f482e2907384131" change="1595619659" id="E2877">
       <type>Residence</type>
-      <dateval val="1918"/>
+      <datespan start="1919" stop="1922"/>
       <place hlink="_e187c7ce5104c896bcf2f27de21"/>
+      <description>Maringatan 4 D 29</description>
       <citationref hlink="_e187b4267a46ea932e3aca6aa23"/>
+      <citationref hlink="_e831692fd48716fbb36d6ef443b"/>
+      <citationref hlink="_e8316eeed3a5075d82b9f796e0b"/>
+      <citationref hlink="_e831706ae1a1364138f7b8d1626"/>
+      <citationref hlink="_e83176d781e38f6b10ed71cde9f"/>
     </event>
     <event handle="_e35fec0a84e292fabd4a17715ef" change="1562507009" id="E2878">
       <type>Residence</type>
@@ -23497,14 +23502,10 @@
       <eventref hlink="_cf969b6e8d8284cf775" role="Primary"/>
       <childof hlink="_cf96992702661bf2917"/>
     </person>
-    <person handle="_cf99bf30a9136795670" change="1595171566" id="I1454">
+    <person handle="_cf99bf30a9136795670" change="1595616086" id="I1454">
       <gender>M</gender>
-      <name type="Also Known As">
+      <name type="Birth Name">
         <first>Karl Fredrik</first>
-        <surname>Stordell</surname>
-      </name>
-      <name alt="1" type="Birth Name">
-        <first>Carl Fredrik</first>
         <surname>Stordell</surname>
       </name>
       <eventref hlink="_cf99bf1272504b65536" role="Primary"/>
@@ -35280,6 +35281,34 @@
       <noteref hlink="_e827b4595cc7ec888c0f8ed4e85"/>
       <sourceref hlink="_dcde088884844f55819d0fcc103"/>
     </citation>
+    <citation handle="_e831692fd48716fbb36d6ef443b" change="1595618223" id="C1115">
+      <page>U:384/3000</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e831688113840969556b87b3822"/>
+      <noteref hlink="_e8316914c3f676881dd0d27e552"/>
+      <sourceref hlink="_e824b23c86751e06c3388d8c74e"/>
+    </citation>
+    <citation handle="_e8316eeed3a5075d82b9f796e0b" change="1595618826" id="C1116">
+      <page>1919/811</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e8316cf6a9b1212116fe8b26572"/>
+      <noteref hlink="_e8316d7c686799e81fadf8d11ee"/>
+      <sourceref hlink="_dcde088884844f55819d0fcc103"/>
+    </citation>
+    <citation handle="_e831706ae1a1364138f7b8d1626" change="1595618981" id="C1117">
+      <page>U:395/3173</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e8316f793ac7ef3132c9bac54d1"/>
+      <noteref hlink="_e831705a3866e841feeb786ea48"/>
+      <sourceref hlink="_e824b2efe1c236c92cc8837c1c7"/>
+    </citation>
+    <citation handle="_e83176d781e38f6b10ed71cde9f" change="1595619655" id="C1118">
+      <page>1922/745</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e8317650edd5d0c72947b9a3dd3"/>
+      <noteref hlink="_e83176ce4955264c4a10dfb4a27"/>
+      <sourceref hlink="_dcde088884844f55819d0fcc103"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -37745,7 +37774,7 @@
     </source>
   </sources>
   <places>
-    <placeobj handle="_cb589cc7f8d1b88b055" change="1595277718" id="P0000" type="City">
+    <placeobj handle="_cb589cc7f8d1b88b055" change="1595618071" id="P0000" type="City">
       <ptitle>Helsingfors, Finland</ptitle>
       <pname value="Helsinki" lang="se"/>
       <pname value="Helsingfors" lang="se"/>
@@ -40185,9 +40214,9 @@
       <pname value="Djurgårdsvillan 10"/>
       <placeref hlink="_e1818e2c5c74b3d5f6a1ad1072d"/>
     </placeobj>
-    <placeobj handle="_e187c7ce5104c896bcf2f27de21" change="1549833074" id="P0728" type="Building">
-      <pname value="Mariankatu 4"/>
-      <placeref hlink="_cb589cc7f8d1b88b055"/>
+    <placeobj handle="_e187c7ce5104c896bcf2f27de21" change="1595618080" id="P0728" type="Building">
+      <pname value="Maringatan 4"/>
+      <placeref hlink="_e83167c21997fbd2c2893802c5d"/>
     </placeobj>
     <placeobj handle="_e37e0e3b6df617f2fec1a952ece" change="1563315901" id="P0601" type="Village">
       <pname value="Kullo"/>
@@ -40252,6 +40281,15 @@
     <placeobj handle="_e824c5cd07c6c47d763f376f448" change="1595278968" id="P0056" type="Building">
       <pname value="Jägaregatan 13"/>
       <placeref hlink="_e824c5c89ed3e1810449a39b31c"/>
+    </placeobj>
+    <placeobj handle="_e83167bf848523e42d5b27a5c6c" change="1595618072" id="P0057" type="Borough">
+      <pname value="8. Stadsdelen"/>
+      <placeref hlink="_cb589cc7f8d1b88b055"/>
+    </placeobj>
+    <placeobj handle="_e83167c21997fbd2c2893802c5d" change="1595618073" id="P0058" type="Neighborhood">
+      <code>147</code>
+      <pname value="Lärkträdet"/>
+      <placeref hlink="_e83167bf848523e42d5b27a5c6c"/>
     </placeobj>
   </places>
   <repositories>
@@ -49692,18 +49730,18 @@ Ut
         <range start="0" end="69"/>
       </style>
     </note>
-    <note handle="_e187b65f8f0644d087911c1854b" change="1549831228" id="N1455" type="Transcript" format="1">
+    <note handle="_e187b65f8f0644d087911c1854b" change="1595618340" id="N1455" type="Transcript" format="1">
       <text>Stordell, Jenny M., nti, muotiomp., Lapinlahdenk. 19 pr B h 6.
- - K. Fredrik, talonm., Mariank. 4 pr D h 29.
+ - K. Fredrik, talonm., Mariank.[sic] 4 pr D h 29.
  - Karl E., sokeriteht:työntek., L. Viert., Töölön Sokeritehdas pr B h 17.
  - Maria C., nti, kauppa-apul., Vladimirink. 55 pr A h 6.
  - Sigrid E., tehtaal., Punavuorenk. 15 pr E h 25.</text>
       <style name="bold">
         <range start="0" end="19"/>
         <range start="66" end="77"/>
-        <range start="112" end="120"/>
-        <range start="187" end="196"/>
-        <range start="245" end="255"/>
+        <range start="117" end="125"/>
+        <range start="192" end="201"/>
+        <range start="250" end="260"/>
       </style>
     </note>
     <note handle="_e187c8a2b7c230b0b788ece617b" change="1549912648" id="N1456" type="Research">
@@ -50446,6 +50484,59 @@ postiljon  Viktor Vilhelm Nyström o. Elin Maria Nordberg.</text>
  - Viktor W., postiljon, Skeppsredareg. 3 D 50</text>
       <style name="bold">
         <range start="0" end="21"/>
+      </style>
+    </note>
+    <note handle="_e831688113840969556b87b3822" change="1595618152" id="N0133" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=77294590</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=77294590">
+        <range start="0" end="46"/>
+      </style>
+    </note>
+    <note handle="_e8316914c3f676881dd0d27e552" change="1595618464" id="N0134" type="Transcript" format="1">
+      <text>147 Lärkträdet  4    Maring. 4
+                                                                                   H. Muraren Karl Fredrik Stordell 67, h. Maria 73</text>
+      <style name="underline">
+        <range start="0" end="14"/>
+      </style>
+    </note>
+    <note handle="_e8316cf6a9b1212116fe8b26572" change="1595618619" id="N0135" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1155509?page=937</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1155509?page=937">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_e8316d7c686799e81fadf8d11ee" change="1595618674" id="N0136" type="Transcript" format="1">
+      <text>Stordell
+ - K. Fredrik, gårdsk., Maring. 4 D 29.</text>
+      <style name="bold">
+        <range start="0" end="23"/>
+      </style>
+    </note>
+    <note handle="_e8316f793ac7ef3132c9bac54d1" change="1595618882" id="N0137" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=21133419</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=21133419">
+        <range start="0" end="46"/>
+      </style>
+    </note>
+    <note handle="_e831705a3866e841feeb786ea48" change="1595618975" id="N0138" type="Transcript" format="1">
+      <text>147 Lärkträdet 4    Maring. 4
+                                                                    H. Gårdskarlen, muraren Karl Fredrik
+                                                                    Stordell 67, h. Wilhelmina 73</text>
+      <style name="underline">
+        <range start="0" end="14"/>
+      </style>
+    </note>
+    <note handle="_e8317650edd5d0c72947b9a3dd3" change="1595619600" id="N0139" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1155508?page=851</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1155508?page=851">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_e83176ce4955264c4a10dfb4a27" change="1595619651" id="N0140" type="Transcript" format="1">
+      <text>Stordell
+ - K. Fredrik, gårdsk., Maring. 4 D 29.</text>
+      <style name="bold">
+        <range start="0" end="23"/>
       </style>
     </note>
   </notes>
