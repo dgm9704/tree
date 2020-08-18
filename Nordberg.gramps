@@ -10716,7 +10716,7 @@
       <citationref hlink="_dcdd58882376f47b4bea8ac9e5a"/>
       <citationref hlink="_dcdd51182971028831bd07194e6"/>
     </event>
-    <event handle="_dcddbf5d1c2395bf0482e9e2601" change="1595156796" id="E2365">
+    <event handle="_dcddbf5d1c2395bf0482e9e2601" change="1595620690" id="E2365">
       <type>Death</type>
       <dateval val="1925-11-16"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
@@ -13434,7 +13434,7 @@
       <citationref hlink="_dcddc5150652c4063ac1a5d4244"/>
       <citationref hlink="_e8202e3469d4e673d1b4813b859"/>
     </event>
-    <event handle="_e8203932b2a22b7e3c551923892" change="1595156851" id="E0046">
+    <event handle="_e8203932b2a22b7e3c551923892" change="1595620720" id="E0046">
       <type>Burial</type>
       <dateval val="1925-11-22"/>
       <place hlink="_e82029a50ec36629ca48da3ab9c"/>
@@ -13578,6 +13578,13 @@
       <citationref hlink="_e824c7102543d4cceeca4b0d4c"/>
       <citationref hlink="_e824c7aeee32e587ffe4bbe067c"/>
       <citationref hlink="_e824c8229f16f1009b357333e9b"/>
+    </event>
+    <event handle="_e8317d3e2a9388d41cff1fa363b" change="1595620635" id="E0070">
+      <type>Residence</type>
+      <dateval val="1924"/>
+      <place hlink="_e8317d07b832f57ae0a50f136d5"/>
+      <description>Högbergsgatan 21 D 2</description>
+      <citationref hlink="_e831802b56160570ed442a50342"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -25096,7 +25103,7 @@
       <childref hlink="_cb589cc92dd6232fd94"/>
       <childref hlink="_cb589cc935141d977cb"/>
     </family>
-    <family handle="_cb589cc844867fcce24" change="1595348549" id="F2216">
+    <family handle="_cb589cc844867fcce24" change="1595620724" id="F2216">
       <rel type="Married"/>
       <father hlink="_cf99bf30a9136795670"/>
       <mother hlink="_cb589cc84347c619504"/>
@@ -25107,6 +25114,7 @@
       <eventref hlink="_dce08030f565715d5ac50fce16" role="Family"/>
       <eventref hlink="_e18799971c749a4c24509817fa0" role="Family"/>
       <eventref hlink="_e187b683bf12f482e2907384131" role="Family"/>
+      <eventref hlink="_e8317d3e2a9388d41cff1fa363b" role="Family"/>
     </family>
     <family handle="_cb589cc849649a1de75" change="1595279220" id="F1535">
       <rel type="Married"/>
@@ -35309,6 +35317,13 @@
       <noteref hlink="_e83176ce4955264c4a10dfb4a27"/>
       <sourceref hlink="_dcde088884844f55819d0fcc103"/>
     </citation>
+    <citation handle="_e831802b56160570ed442a50342" change="1595620633" id="C1119">
+      <page>1924/857</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e8317f93c3750a3d527122f0c5a"/>
+      <noteref hlink="_e8317ffaf4e4f510081fc12a759"/>
+      <sourceref hlink="_dcde088884844f55819d0fcc103"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -40282,7 +40297,7 @@
       <pname value="Jägaregatan 13"/>
       <placeref hlink="_e824c5c89ed3e1810449a39b31c"/>
     </placeobj>
-    <placeobj handle="_e83167bf848523e42d5b27a5c6c" change="1595618072" id="P0057" type="Borough">
+    <placeobj handle="_e83167bf848523e42d5b27a5c6c" change="1595620301" id="P0057" type="Borough">
       <pname value="8. Stadsdelen"/>
       <placeref hlink="_cb589cc7f8d1b88b055"/>
     </placeobj>
@@ -40290,6 +40305,15 @@
       <code>147</code>
       <pname value="Lärkträdet"/>
       <placeref hlink="_e83167bf848523e42d5b27a5c6c"/>
+    </placeobj>
+    <placeobj handle="_e8317d04a9642a864f8bcce2a3" change="1595620303" id="P0059" type="Neighborhood">
+      <code>104</code>
+      <pname value="Guldfisken"/>
+      <placeref hlink="_e83167bf848523e42d5b27a5c6c"/>
+    </placeobj>
+    <placeobj handle="_e8317d07b832f57ae0a50f136d5" change="1595620304" id="P0060" type="Building">
+      <pname value="Högbergsgatan 21"/>
+      <placeref hlink="_e8317d04a9642a864f8bcce2a3"/>
     </placeobj>
   </places>
   <repositories>
@@ -50535,6 +50559,19 @@ postiljon  Viktor Vilhelm Nyström o. Elin Maria Nordberg.</text>
     <note handle="_e83176ce4955264c4a10dfb4a27" change="1595619651" id="N0140" type="Transcript" format="1">
       <text>Stordell
  - K. Fredrik, gårdsk., Maring. 4 D 29.</text>
+      <style name="bold">
+        <range start="0" end="23"/>
+      </style>
+    </note>
+    <note handle="_e8317f93c3750a3d527122f0c5a" change="1595620571" id="N0141" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1158697?page=941</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1158697?page=941">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_e8317ffaf4e4f510081fc12a759" change="1595620632" id="N0142" type="Transcript" format="1">
+      <text>Stordell
+ - K. Fredrik, gårdsk. Högbärgsg. 21 D 2.</text>
       <style name="bold">
         <range start="0" end="23"/>
       </style>
