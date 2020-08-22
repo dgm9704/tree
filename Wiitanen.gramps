@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2020-05-17" version="5.1.2"/>
+    <created date="2020-08-23" version="5.1.2"/>
     <researcher>
     </researcher>
   </header>
@@ -1336,16 +1336,14 @@
       <place hlink="_cfcf2ba409031044428"/>
       <citationref hlink="_e72853ea117745d0c3861969b37"/>
     </event>
-    <event handle="_e728908a372513289ad70196b49" change="1588532696" id="E0221">
+    <event handle="_e728908a372513289ad70196b49" change="1597768536" id="E0221">
       <type>Death</type>
       <dateval val="1943-10-26"/>
-      <description>Helsinki?</description>
       <citationref hlink="_e7289086cca783f96462723e395"/>
     </event>
-    <event handle="_e728c79eaa42c7dd5444120736d" change="1588544087" id="E0222">
+    <event handle="_e728c79eaa42c7dd5444120736d" change="1597768780" id="E0222">
       <type>Death</type>
       <dateval val="1934-08-20"/>
-      <description>Helsinki?</description>
       <citationref hlink="_e728c79967d69784e5ef713fc39"/>
     </event>
     <event handle="_e72977f60c33605687d2b55d0f7" change="1589724232" id="E0223">
@@ -1383,7 +1381,7 @@
       <place hlink="_cfd03d0678a092a610f"/>
       <citationref hlink="_e729fe11cc87824e01be76f9ae7"/>
     </event>
-    <event handle="_e72c009eb386718556c26381c4e" change="1589724213" id="E0227">
+    <event handle="_e72c009eb386718556c26381c4e" change="1589738266" id="E0227">
       <type>Residence</type>
       <datespan start="1900" stop="1910"/>
       <place hlink="_e72bfec894145a2a742ef8e026"/>
@@ -1392,6 +1390,7 @@
       <citationref hlink="_e72c817ac6035eb8bb38584a957"/>
       <citationref hlink="_e72c68ccf911f6cda78f03d5d48"/>
       <citationref hlink="_e72c664fc705ca4b0e3280962ec"/>
+      <citationref hlink="_e7564842f9b3f29531549a6c5ce"/>
       <citationref hlink="_e72c360d20c62b3330d9b64e90a"/>
       <citationref hlink="_e72c33e01ba37d343f96e17edae"/>
       <citationref hlink="_e72c320511549cc263a989fdc26"/>
@@ -1407,7 +1406,7 @@
       <place hlink="_cfcf2ba409031044428"/>
       <citationref hlink="_cfcf30666691acecc72"/>
     </event>
-    <event handle="_e73381368d27a959efb38487613" change="1589724375" id="E0229">
+    <event handle="_e73381368d27a959efb38487613" change="1589737084" id="E0229">
       <type>Residence</type>
       <dateval val="1888"/>
       <place hlink="_e7337f8cc3940827c7af9884a5f"/>
@@ -1436,9 +1435,48 @@
       <citationref hlink="_e7338a9e63835c09ccb19fdf027"/>
       <citationref hlink="_cfcf30666691acecc72"/>
     </event>
+    <event handle="_e75648464ff662b132fc9e83ec5" change="1589736036" id="E0233">
+      <type>Residence</type>
+      <dateval val="1904"/>
+      <place hlink="_e72bfec894145a2a742ef8e026"/>
+      <citationref hlink="_e7564842f9b3f29531549a6c5ce"/>
+    </event>
+    <event handle="_e7564be2560763957528e7b9b93" change="1589738487" id="E0234">
+      <type>Residence</type>
+      <dateval val="1899"/>
+      <place hlink="_e7564ae7ee239e1b89915ecca12"/>
+      <citationref hlink="_e7564bde5623298445d93f19b7f"/>
+      <citationref hlink="_e72853ea117745d0c3861969b37"/>
+    </event>
+    <event handle="_e881865404416474cf2957ab034" change="1597768762" id="E0235">
+      <type>Burial</type>
+      <dateval val="1943"/>
+      <place hlink="_e8818552e59102fcbcf21cf6eb4"/>
+      <citationref hlink="_e7289086cca783f96462723e395"/>
+    </event>
+    <event handle="_e88186daeb06d10ae37f0a0f824" change="1597768818" id="E0236">
+      <type>Burial</type>
+      <dateval val="1934"/>
+      <place hlink="_e8818552e59102fcbcf21cf6eb4"/>
+      <citationref hlink="_e728c79967d69784e5ef713fc39"/>
+    </event>
+    <event handle="_e88d9d3abe12f6d95022917e2d3" change="1598115322" id="E0237">
+      <type>Residence</type>
+      <datespan start="1870" stop="1872-05-26"/>
+      <place hlink="_d574d7e9ef87c9d967b2ea578f"/>
+      <citationref hlink="_d574d8b0d6f318df2c2fabcc0c4"/>
+      <citationref hlink="_e88e6f585bd25b112aa82ac58ab"/>
+    </event>
+    <event handle="_e88d9d93edcfbf2f50c880384f" change="1598115357" id="E0238">
+      <type>Residence</type>
+      <dateval val="1872-05-26" type="after"/>
+      <place hlink="_cfcf2ba409031044428"/>
+      <citationref hlink="_d574d8b0d6f318df2c2fabcc0c4"/>
+      <citationref hlink="_e88e6f585bd25b112aa82ac58ab"/>
+    </event>
   </events>
   <people>
-    <person handle="_cfcf2d6f80f4798ccdc" change="1589724386" id="I0000">
+    <person handle="_cfcf2d6f80f4798ccdc" change="1589736839" id="I0000">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Ossian Evert</first>
@@ -1450,7 +1488,7 @@
       <childof hlink="_cfcf2ec39c105718f81"/>
       <parentin hlink="_cfd267b9fa13a7ccef2"/>
     </person>
-    <person handle="_cfcf2f0accb0fef1bb6" change="1588802746" id="I0001">
+    <person handle="_cfcf2f0accb0fef1bb6" change="1597768768" id="I0001">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Karl Evert</first>
@@ -1461,10 +1499,11 @@
       <eventref hlink="_d574b908d99636f01a55f5d8c3d" role="Primary"/>
       <eventref hlink="_e73370fd7663f9fe64a1a98fd87" role="Primary"/>
       <eventref hlink="_e728908a372513289ad70196b49" role="Primary"/>
+      <eventref hlink="_e881865404416474cf2957ab034" role="Primary"/>
       <childof hlink="_d575ca326306945b8e520b7efaa"/>
       <parentin hlink="_cfcf2ec39c105718f81"/>
     </person>
-    <person handle="_cfcf31d6de109edc716" change="1588514596" id="I0002">
+    <person handle="_cfcf31d6de109edc716" change="1597768827" id="I0002">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Sofia</first>
@@ -1480,10 +1519,11 @@
       <eventref hlink="_d5522a2d3c33d6aa60533bb0866" role="Primary"/>
       <eventref hlink="_d55228a687c66e126b86e89eca6" role="Primary"/>
       <eventref hlink="_e728c79eaa42c7dd5444120736d" role="Primary"/>
+      <eventref hlink="_e88186daeb06d10ae37f0a0f824" role="Primary"/>
       <childof hlink="_d55290d7fa5149dbcfdd4219bc0"/>
       <parentin hlink="_cfcf2ec39c105718f81"/>
     </person>
-    <person handle="_cfcf328c2542400af2a" change="1589724386" id="I0003">
+    <person handle="_cfcf328c2542400af2a" change="1589736839" id="I0003">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Karl Alexander</first>
@@ -1493,7 +1533,7 @@
       <eventref hlink="_cfcf34e661b478d26b7" role="Primary"/>
       <childof hlink="_cfcf2ec39c105718f81"/>
     </person>
-    <person handle="_cfcf3347c8a0d78cd49" change="1589724386" id="I0004">
+    <person handle="_cfcf3347c8a0d78cd49" change="1589736839" id="I0004">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Hilja Maria</first>
@@ -2154,13 +2194,15 @@
       <eventref hlink="_d575cc18a036c1e90d66c27b32b" role="Primary"/>
       <childof hlink="_d575ca326306945b8e520b7efaa"/>
     </person>
-    <person handle="_d575cc330a43599862771bae45b" change="1466958479" id="I0072">
+    <person handle="_d575cc330a43599862771bae45b" change="1598115362" id="I0072">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Henrik</first>
         <surname derivation="Patronymic">Johansson</surname>
       </name>
       <eventref hlink="_d575cc6552c1212965a5051162e" role="Primary"/>
+      <eventref hlink="_e88d9d3abe12f6d95022917e2d3" role="Primary"/>
+      <eventref hlink="_e88d9d93edcfbf2f50c880384f" role="Primary"/>
       <childof hlink="_d575ca326306945b8e520b7efaa"/>
     </person>
     <person handle="_d575ccdd8d93e72e04680caacdb" change="1466958479" id="I0073">
@@ -2478,7 +2520,7 @@
     </person>
   </people>
   <families>
-    <family handle="_cfcf2ec39c105718f81" change="1589724386" id="F0000">
+    <family handle="_cfcf2ec39c105718f81" change="1589736839" id="F0000">
       <rel type="Married"/>
       <father hlink="_cfcf2f0accb0fef1bb6"/>
       <mother hlink="_cfcf31d6de109edc716"/>
@@ -2486,6 +2528,7 @@
       <eventref hlink="_e7338aa23df19ccbd8f822556b6" role="Family"/>
       <eventref hlink="_e73388bcc1c613eb8eadaa3d099" role="Family"/>
       <eventref hlink="_e73381368d27a959efb38487613" role="Family"/>
+      <eventref hlink="_e7564be2560763957528e7b9b93" role="Family"/>
       <eventref hlink="_e72c009eb386718556c26381c4e" role="Family"/>
       <eventref hlink="_e729eae02af461cf9ca030a0d4c" role="Family"/>
       <eventref hlink="_e729df746e839a6f7f827693a26" role="Family"/>
@@ -3780,6 +3823,26 @@
       <noteref hlink="_e7338a944377fcae83bb5066468"/>
       <sourceref hlink="_e733800dfa44707ef03df3fb00a"/>
     </citation>
+    <citation handle="_e7564842f9b3f29531549a6c5ce" change="1589736527" id="C0168">
+      <page>1904/174</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e756483f5d3f58b5b112fc0b0f"/>
+      <noteref hlink="_e7564ce5077460ae7249a6efa7a"/>
+      <sourceref hlink="_e72bffd359266eb835888dcccb3"/>
+    </citation>
+    <citation handle="_e7564bde5623298445d93f19b7f" change="1589736745" id="C0169">
+      <page>1899/88</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e7564bd9f4a18e3848da5ac222e"/>
+      <noteref hlink="_e7564efdc9113a63c27d67451ff"/>
+      <sourceref hlink="_e7564b7743a3b5403ea04b841c9"/>
+    </citation>
+    <citation handle="_e88e6f585bd25b112aa82ac58ab" change="1598115319" id="C0170">
+      <page>277-278</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e88e6f38b7f3cc59205d320b6f6"/>
+      <sourceref hlink="_d574c4967f1327d1c57c08328d1"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cfcf2cc3be07b4ceb0a" change="1588502483" id="S0000">
@@ -4310,13 +4373,17 @@
       <stitle>Tampereen kaupungin kunnallinen osoite- ja ilmoituskalenteri</stitle>
       <reporef hlink="_dccd46ff6f55e81325860132a48" medium="Book"/>
     </source>
+    <source handle="_e7564b7743a3b5403ea04b841c9" change="1589736370" id="S0106">
+      <stitle>Tampereen osoite- ja ilmoituskirja</stitle>
+      <reporef hlink="_dccd46ff6f55e81325860132a48" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cfcf2b878383fc95f39" change="1466532481" id="P0000" type="Country">
       <pname value="Suomi"/>
       <pname value="Finland" lang="sv"/>
     </placeobj>
-    <placeobj handle="_cfcf2ba409031044428" change="1588803396" id="P0001" type="Parish">
+    <placeobj handle="_cfcf2ba409031044428" change="1597768651" id="P0001" type="Parish">
       <pname value="Tampere"/>
       <pname value="Tammerfors" lang="se"/>
       <placeref hlink="_cfcf2b878383fc95f39"/>
@@ -4631,6 +4698,14 @@
       <pname value="Puutarhakatu 10"/>
       <placeref hlink="_cfcf2ba409031044428"/>
     </placeobj>
+    <placeobj handle="_e7564ae7ee239e1b89915ecca12" change="1589736311" id="P0076" type="Building">
+      <pname value="Läntinen Pitkäkatu 19"/>
+      <placeref hlink="_cfcf2ba409031044428"/>
+    </placeobj>
+    <placeobj handle="_e8818552e59102fcbcf21cf6eb4" change="1597768657" id="P0077" type="Cemetery">
+      <pname value="Kalevankankaan hautausmaa"/>
+      <placeref hlink="_cfcf2ba409031044428"/>
+    </placeobj>
   </places>
   <repositories>
     <repository handle="_cfcf2cbb463653e2b72" change="1588799152" id="R0000">
@@ -4641,7 +4716,7 @@
       <rname>Arkistolaitos - Digitaaliarkisto</rname>
       <type>Library</type>
     </repository>
-    <repository handle="_dccd46ff6f55e81325860132a48" change="1588802646" id="R0002">
+    <repository handle="_dccd46ff6f55e81325860132a48" change="1589736369" id="R0002">
       <rname>Kansalliskirjaston digitoidut aineistot</rname>
       <type>Library</type>
       <url  href="https://digi.kansalliskirjasto.fi/" type="Web Home"/>
@@ -5981,6 +6056,44 @@ Sedelhafvanden bor fol 112</text>
     </note>
     <note handle="_e7338a944377fcae83bb5066468" change="1588803464" id="N0208" type="Transcript" format="1">
       <text>Wiitanen, K. E., sorvari, Puutarhakatu 10.</text>
+    </note>
+    <note handle="_e75645e833e1ee8a2322a2a35b3" change="1589735787" id="N0209" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1262781?page=178</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1262781?page=178">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_e75646f62945b121d4a79c35297" change="1589735898" id="N0210" type="Transcript" format="1">
+      <text>Wiitanen 
+        &quot;                      K. E., talonom., v. t. palomest., Puutarhak. 14. 
+                                  Telef. 293.</text>
+    </note>
+    <note handle="_e756483f5d3f58b5b112fc0b0f" change="1589736033" id="N0211" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1262781?page=178</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1262781?page=178">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_e7564bd9f4a18e3848da5ac222e" change="1589736411" id="N0212" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1262779?page=92</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1262779?page=92">
+        <range start="0" end="67"/>
+      </style>
+    </note>
+    <note handle="_e7564ce5077460ae7249a6efa7a" change="1589736520" id="N0213" type="Transcript" format="1">
+      <text>Wiitanen
+          &quot;            K. E , talonom., v. t. palomest., Puutarhak. 14.
+                           Telef. 293</text>
+    </note>
+    <note handle="_e7564efdc9113a63c27d67451ff" change="1589736740" id="N0214" type="Transcript" format="1">
+      <text>Wiitanen
+ ----  K. E., sorvari, Länt Pitkäk. 19. T 293</text>
+    </note>
+    <note handle="_e88e6f38b7f3cc59205d320b6f6" change="1598115306" id="N0215" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=12735145</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=12735145">
+        <range start="0" end="46"/>
+      </style>
     </note>
   </notes>
 </database>
