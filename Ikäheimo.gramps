@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2020-08-18" version="5.1.2"/>
+    <created date="2020-08-28" version="5.1.2"/>
     <researcher>
       <resname>John Nordberg</resname>
     </researcher>
@@ -14,16 +14,16 @@
     <format number="-1" name="Surname, Given Patronymic" fmt_str="surname, given patronymic" active="1"/>
   </name-formats>
   <events>
-    <event handle="_ca7456e2f0b557d8207" change="1549396629" id="E0000">
+    <event handle="_ca7456e2f0b557d8207" change="1598608435" id="E0000">
       <type>Birth</type>
       <dateval val="1916-06-15"/>
       <place hlink="_ca78692dbfe37164d90"/>
-      <citationref hlink="_de2eaa2854e102dfd5a1e7e8e2"/>
+      <citationref hlink="_ca745d92adf3b84c3f2"/>
     </event>
-    <event handle="_ca74580329c2f01acbe" change="1549396641" id="E0001">
+    <event handle="_ca74580329c2f01acbe" change="1598608412" id="E0001">
       <type>Death</type>
       <dateval val="1985-03-17"/>
-      <citationref hlink="_de2eaa55d1b3091b50152c1082d"/>
+      <citationref hlink="_ca745d92adf3b84c3f2"/>
     </event>
     <event handle="_ca74986382451b424b8" change="1483289451" id="E0002">
       <type>Birth</type>
@@ -44,13 +44,13 @@
       <place hlink="_ca7b994d7033ab58915"/>
       <citationref hlink="_ca788fd23f63e4ab186"/>
     </event>
-    <event handle="_ca7869344186d394643" change="1440285121" id="E0005">
+    <event handle="_ca7869344186d394643" change="1598529001" id="E0005">
       <type>Marriage</type>
       <dateval val="1908-09-06"/>
       <place hlink="_ca78692dbfe37164d90"/>
       <citationref hlink="_ca7e12ac6de3709a1a6"/>
     </event>
-    <event handle="_ca786d9a13a7e500c6c" change="1526813425" id="E0006">
+    <event handle="_ca786d9a13a7e500c6c" change="1598545797" id="E0006">
       <type>Residence</type>
       <dateval val="1908-11-24" type="after"/>
       <place hlink="_ca786d8a1e71f3d1bee"/>
@@ -273,14 +273,14 @@
       <place hlink="_d18d464cc702cec6830"/>
       <citationref hlink="_d18d4731907256c00d4"/>
     </event>
-    <event handle="_d18d1045fe96db5ee5e" change="1440024656" id="E0049">
+    <event handle="_d18d1045fe96db5ee5e" change="1598605437" id="E0049">
       <type>Residence</type>
       <dateval val="1905-03-30"/>
       <place hlink="_ca78692dbfe37164d90"/>
       <description>muutto Helsinkiin</description>
       <citationref hlink="_d18d100201a263e0f64"/>
     </event>
-    <event handle="_d18d10e5fe25aacb99c" change="1440024339" id="E0050">
+    <event handle="_d18d10e5fe25aacb99c" change="1598605773" id="E0050">
       <type>Name change</type>
       <dateval val="1906-06-25"/>
       <place hlink="_ca78692dbfe37164d90"/>
@@ -301,7 +301,7 @@
       <description>muutto Helsinkiin</description>
       <citationref hlink="_d18d188c988124c9923"/>
     </event>
-    <event handle="_d18d1e7d9ba7cad1bdd" change="1440025200" id="E0053">
+    <event handle="_d18d1e7d9ba7cad1bdd" change="1598529161" id="E0053">
       <type>Residence</type>
       <dateval val="1905-03-02"/>
       <place hlink="_ca78692dbfe37164d90"/>
@@ -1257,7 +1257,7 @@
       <datespan start="1999" stop="2012"/>
       <place hlink="_ca78692dbfe37164d90"/>
     </event>
-    <event handle="_e1779957d1f7b5299e20aea2926" change="1549402254" id="E0213">
+    <event handle="_e1779957d1f7b5299e20aea2926" change="1598529135" id="E0213">
       <type>Residence</type>
       <datespan start="1914" stop="1916"/>
       <place hlink="_e177a12cb5259e5ab174b5d6007"/>
@@ -1265,7 +1265,7 @@
       <citationref hlink="_e177b5aa824527c8d6810c37fd"/>
       <citationref hlink="_e177b9aa1862dffec9599ceaf6d"/>
     </event>
-    <event handle="_e177d03cf0d405164ed5813f213" change="1549404443" id="E0214">
+    <event handle="_e177d03cf0d405164ed5813f213" change="1598526824" id="E0214">
       <type>Residence</type>
       <dateval val="1916"/>
       <place hlink="_e177cf8af45ab304a41fff72af"/>
@@ -1328,7 +1328,7 @@
     </event>
   </events>
   <people>
-    <person handle="_ca7457061a433c0054f" change="1549404454" id="I0000">
+    <person handle="_ca7457061a433c0054f" change="1598528497" id="I0000">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Unto Veikko Valdemar</first>
@@ -1351,20 +1351,20 @@
       <childof hlink="_ca7497c32140b26fe5d"/>
       <parentin hlink="_ca745aaff3628198726"/>
     </person>
-    <person handle="_ca745940f9e3cc8d9e8" change="1526825271" id="I0002">
+    <person handle="_ca745940f9e3cc8d9e8" change="1598605868" id="I0002">
       <gender>F</gender>
-      <name type="Birth Name">
-        <first>Hilja Aliina</first>
-        <surname prim="0" derivation="Inherited">Borgman</surname>
-        <surname derivation="Taken">Suomela</surname>
-      </name>
-      <name alt="1" type="Also Known As">
+      <name type="Also Known As">
         <first>Hilja Aliina</first>
         <surname derivation="Taken">Suomela</surname>
+        <citationref hlink="_d18d13fb190569c7613"/>
       </name>
       <name alt="1" type="Also Known As">
         <first>Hilja Aliina</first>
         <surname derivation="Unknown ">Lähteenmäki</surname>
+      </name>
+      <name alt="1" type="Birth Name">
+        <first>Hilja Aliina</first>
+        <surname derivation="Inherited">Borgman</surname>
       </name>
       <eventref hlink="_d18bd7feb430f87bcc6" role="Primary"/>
       <eventref hlink="_d18d1045fe96db5ee5e" role="Primary"/>
@@ -2356,7 +2356,7 @@
       <eventref hlink="_d7d9652af172e09afb844894586" role="Primary"/>
       <childof hlink="_d7d8d83b855211b3cf55d3fac2e"/>
     </person>
-    <person handle="_de2e452ecf81d9df75621ab8dc0" change="1549404454" id="I0101">
+    <person handle="_de2e452ecf81d9df75621ab8dc0" change="1598528497" id="I0101">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Lempi</first>
@@ -2413,7 +2413,7 @@
     </person>
   </people>
   <families>
-    <family handle="_ca745aaff3628198726" change="1549404454" id="F0000">
+    <family handle="_ca745aaff3628198726" change="1598528497" id="F0000">
       <rel type="Married"/>
       <father hlink="_ca7459053ab4e6ce392"/>
       <mother hlink="_ca745940f9e3cc8d9e8"/>
@@ -2422,8 +2422,8 @@
       <eventref hlink="_de2e3cdade17c41ef3b8591fefb" role="Family"/>
       <eventref hlink="_e1779957d1f7b5299e20aea2926" role="Family"/>
       <eventref hlink="_e177d03cf0d405164ed5813f213" role="Family"/>
-      <childref hlink="_ca7457061a433c0054f"/>
       <childref hlink="_de2e452ecf81d9df75621ab8dc0"/>
+      <childref hlink="_ca7457061a433c0054f"/>
     </family>
     <family handle="_ca7497c32140b26fe5d" change="1439752415" id="F0001">
       <rel type="Married"/>
@@ -2744,11 +2744,12 @@
       <noteref hlink="_ca8e748f87d5e3c70ac"/>
       <sourceref hlink="_ca7bffd4de0274b8ad9"/>
     </citation>
-    <citation handle="_ca7e12ac6de3709a1a6" change="1440285116" id="C0007">
+    <citation handle="_ca7e12ac6de3709a1a6" change="1598528998" id="C0007">
       <dateval val="1908-09-08"/>
       <page>206/8</page>
       <confidence>2</confidence>
       <noteref hlink="_ca9244687fa76439d5d"/>
+      <noteref hlink="_e89dd857c47dc7645a28550809"/>
       <sourceref hlink="_ca7e12ac6cf1b7d1fd0"/>
     </citation>
     <citation handle="_ca81d5c345672ab7819" change="1391618662" id="C0009">
@@ -2947,11 +2948,12 @@
       <noteref hlink="_d182e9730630fc83ff7"/>
       <sourceref hlink="_ca82260ff9e64a139f4"/>
     </citation>
-    <citation handle="_d18336ecfe44de3e339" change="1482843643" id="C0041">
+    <citation handle="_d18336ecfe44de3e339" change="1598529461" id="C0041">
       <dateval val="1908-11-24"/>
       <page>179/1</page>
       <confidence>2</confidence>
       <noteref hlink="_d18336e33cf34b590be"/>
+      <noteref hlink="_e89ddce03e83907d0500a545ca7"/>
       <sourceref hlink="_d18336646a65b424e5f"/>
     </citation>
     <citation handle="_d18353cf9e142ebf3f5" change="1549398712" id="C0042">
@@ -3088,17 +3090,19 @@
       <noteref hlink="_d18bdf133e642b68967"/>
       <sourceref hlink="_d18bdede5c303e0dcb3"/>
     </citation>
-    <citation handle="_d18d100201a263e0f64" change="1440023709" id="C0064">
+    <citation handle="_d18d100201a263e0f64" change="1598605434" id="C0064">
       <page>216</page>
       <confidence>2</confidence>
       <noteref hlink="_d18d1041fbb6c924d70"/>
+      <noteref hlink="_e8a0b14a57b41813e25113d9abe"/>
       <sourceref hlink="_d18d0fc23c95ec2c7b2"/>
     </citation>
-    <citation handle="_d18d13fb190569c7613" change="1440024384" id="C0065">
+    <citation handle="_d18d13fb190569c7613" change="1598605771" id="C0065">
       <dateval val="1906-06-25"/>
       <page>144/4</page>
       <confidence>2</confidence>
       <noteref hlink="_d18d13f7de026bba182"/>
+      <noteref hlink="_e8a0b476e1852fccd7a3a4a102e"/>
       <sourceref hlink="_d18d1363b1a4dc83bbc"/>
     </citation>
     <citation handle="_d18d188c988124c9923" change="1440024599" id="C0066">
@@ -3816,14 +3820,6 @@
       <noteref hlink="_e17788a3990451d1c36b24e0099"/>
       <sourceref hlink="_de2e3c8f84a7fa7772ae6dc24c3"/>
     </citation>
-    <citation handle="_de2eaa2854e102dfd5a1e7e8e2" change="1526825028" id="C0179">
-      <confidence>2</confidence>
-      <sourceref hlink="_ca745c8796520229d69"/>
-    </citation>
-    <citation handle="_de2eaa55d1b3091b50152c1082d" change="1526825047" id="C0180">
-      <confidence>2</confidence>
-      <sourceref hlink="_ca745c8796520229d69"/>
-    </citation>
     <citation handle="_e1778d9f18e7407b312437af675" change="1549397458" id="C0181">
       <page>21</page>
       <confidence>2</confidence>
@@ -3851,11 +3847,12 @@
       <noteref hlink="_e177b9a5efc11c8e7b09ea4b1b0"/>
       <sourceref hlink="_e177b89128f58c7fa85807a2ebb"/>
     </citation>
-    <citation handle="_e177d03999d2dbe249e5b8caca3" change="1549404442" id="C0185">
+    <citation handle="_e177d03999d2dbe249e5b8caca3" change="1598526823" id="C0185">
       <dateval val="1916"/>
       <page>1916/597</page>
       <confidence>2</confidence>
       <noteref hlink="_e177d03774a84c5974b568af6e"/>
+      <noteref hlink="_e89dc3a848856704cdf7965b782"/>
       <sourceref hlink="_d18353544ae7315801b"/>
     </citation>
     <citation handle="_e2a8e670aa88f2edbdfdfe586b" change="1557594053" id="C0186">
@@ -4753,10 +4750,10 @@
         <range start="0" end="100"/>
       </style>
     </note>
-    <note handle="_ca9244687fa76439d5d" change="1439758076" id="N0034" type="URL">
-      <text>http://digi.lib.helsinki.fi/sanomalehti/secure/showPage.html?action=page&amp;type=lq&amp;conversationId=1&amp;id=800174&amp;pageFrame_currPage=8</text>
-      <style name="link" value="http://digi.lib.helsinki.fi/sanomalehti/secure/showPage.html?action=page&amp;type=lq&amp;conversationId=1&amp;id=800174&amp;pageFrame_currPage=8">
-        <range start="0" end="128"/>
+    <note handle="_ca9244687fa76439d5d" change="1598528844" id="N0034" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/800174?page=8</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/sanomalehti/binding/800174?page=8">
+        <range start="0" end="67"/>
       </style>
     </note>
     <note handle="_ca924b253814ea40907" change="1439843809" id="N0035" type="URL">
@@ -4854,10 +4851,10 @@ Yliviivaus	Ei</text>
         <range start="0" end="45"/>
       </style>
     </note>
-    <note handle="_d18336e33cf34b590be" change="1439759323" id="N0040" type="URL">
-      <text>http://digi.kansalliskirjasto.fi/sanomalehti/binding/671840?term=Ik%C3%A4heimonen#?page=1</text>
-      <style name="link" value="http://digi.kansalliskirjasto.fi/sanomalehti/binding/671840?term=Ik%C3%A4heimonen#?page=1">
-        <range start="0" end="89"/>
+    <note handle="_d18336e33cf34b590be" change="1598529322" id="N0040" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/671840?page=1</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/sanomalehti/binding/671840?page=1">
+        <range start="0" end="67"/>
       </style>
     </note>
     <note handle="_d18353c24746eeb013e" change="1549398908" id="N0041" type="URL">
@@ -4884,7 +4881,7 @@ Yliviivaus	Ei</text>
         <range start="0" end="76"/>
       </style>
     </note>
-    <note handle="_d18654e09bd346ca7f0" change="1439842998" id="N0045" type="Transcript" format="1">
+    <note handle="_d18654e09bd346ca7f0" change="1598608361" id="N0045" type="Transcript" format="1">
       <text>Ikäheimo, Unto Veikko Valdemar;
 2432, maj, s. 15.6.16 Hki, k. 17.3.85.
 Vht rakmest Ernst Valdemar I ja
@@ -4903,14 +4900,14 @@ ptrinpääll Karj kann ja Itä-K Maaselkä KTR1 42-42 ja 43-44.
 Haav vaik Tammisuolla 40. Vammalan kaup valt j 55-. Vänr
 39, ltn 41, kapt 47, maj 64, VR3mk, VR4tlk, VR4mk, SL R1,
 Mm39-40, Mm41-45.</text>
-      <style name="italic">
-        <range start="10" end="14"/>
+      <style name="bold">
+        <range start="0" end="32"/>
       </style>
       <style name="fontface" value="Sans">
         <range start="0" end="742"/>
       </style>
-      <style name="bold">
-        <range start="0" end="32"/>
+      <style name="italic">
+        <range start="10" end="14"/>
       </style>
     </note>
     <note handle="_d186601082c37d59d33" change="1439844171" id="N0046" type="URL">
@@ -5027,10 +5024,10 @@ Mm39-40, Mm41-45.</text>
         <range start="0" end="77"/>
       </style>
     </note>
-    <note handle="_d18d13f7de026bba182" change="1440024097" id="N0065" type="URL">
-      <text>http://digi.kansalliskirjasto.fi/sanomalehti/binding/703725?#?page=4</text>
-      <style name="link" value="http://digi.kansalliskirjasto.fi/sanomalehti/binding/703725?#?page=4">
-        <range start="0" end="68"/>
+    <note handle="_d18d13f7de026bba182" change="1598605514" id="N0065" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/703725?page=4</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/sanomalehti/binding/703725?page=4">
+        <range start="0" end="67"/>
       </style>
     </note>
     <note handle="_d18d18b7b5e24d1227c" change="1440024595" id="N0066" type="URL">
@@ -5876,7 +5873,7 @@ Kirkonkirjan sivu	3/458</text>
         <range start="0" end="46"/>
       </style>
     </note>
-    <note handle="_e177b5a519929d13920343a2c7f" change="1549401655" id="N0190" type="Transcript">
+    <note handle="_e177b5a519929d13920343a2c7f" change="1598526475" id="N0190" type="Transcript" format="1">
       <text>23 Fåret	5	Brobärgsg[atan] 6	H Rakennusmestari Ernst Wal-
 										demar Ikäheimo 82 v. HIlja 87
 										L 0-1 p. Olga Mathilda
@@ -5888,7 +5885,7 @@ Kirkonkirjan sivu	3/458</text>
         <range start="0" end="46"/>
       </style>
     </note>
-    <note handle="_e177b9a5efc11c8e7b09ea4b1b0" change="1549402075" id="N0192" type="Transcript">
+    <note handle="_e177b9a5efc11c8e7b09ea4b1b0" change="1598526485" id="N0192" type="Transcript" format="1">
       <text>23 Fåret	5	Brobärgsg[atan]	6	H Rakennusmestari Ernst Wal-
 										demar Ikäheimo 82, v. Hilja 87,
 										L 0-1</text>
@@ -5916,6 +5913,53 @@ Kirkonkirjan sivu	3/458</text>
       <style name="link" value="https://www.sukuhistoria.fi/sshy/kirjat/Kirkonkirjat/artjarvi/rippikirja_1822-1832_tk797/126.htm">
         <range start="0" end="96"/>
       </style>
+    </note>
+    <note handle="_e89dc3a848856704cdf7965b782" change="1598526813" id="N0197" type="Transcript" format="1">
+      <text>Ikäheimo
+ - Ernst W., byggmäst., Sörnäs Strandväg 3.
+    T 67 20; inh. Suomen Halko- ja Puutavara-
+    keskusliike - Finl. Ved- o. Trävaru-Central- 
+    sff.
+</text>
+      <style name="bold">
+        <range start="0" end="21"/>
+      </style>
+    </note>
+    <note handle="_e89dd857c47dc7645a28550809" change="1598528982" id="N0198" type="Transcript" format="1">
+      <text>8 - Nro 206 - 1908    UUSI SUOMETAR    Tiistaina Syyskuun 8 pnä
+
+Kirkollisia ilmoituksia.
+
+Wihittyjä:
+
+työm. Ernst Waldemar Ikäheimonen ja Hilja ALiina Suomela</text>
+    </note>
+    <note handle="_e89ddce03e83907d0500a545ca7" change="1598529457" id="N0199" type="Transcript" format="1">
+      <text>Tiistaina Marraskuun 24 p:nä 
+LAHTI
+Suomenmielinen, kansanvaltainen sanomalehti.
+No 179    1908
+
+Seurakunnallisia tiedonantoja
+
+Muuttokirjansa ovat seurakuntaan jättäneet:
+
+Ernst Valdemar Ikäheimonen perheineen Helsingistä.</text>
+    </note>
+    <note handle="_e8a0b14a57b41813e25113d9abe" change="1598605417" id="N0200" type="Transcript" format="1">
+      <text>Mars 1905
+
+[30.]    1126    Borgman, Hilja Alina Kallesdr    jfr         1    6-308</text>
+    </note>
+    <note handle="_e8a0b476e1852fccd7a3a4a102e" change="1598605750" id="N0201" type="Transcript">
+      <text>N:o 144    SUOMALAINEN WIRALLINEN LEHTI    Maanantaina 25 p:nä Kesäkuuta 1906.
+
+Nimien suomalaistuttamiskomitea ilmoittaa seuraavat nimenmuutokset:
+
+Helsinki.
+
+Borgman Hilja Aliina - Suomela
+Borgman Kaarlo Edvard - Laine</text>
     </note>
   </notes>
   <namemaps>
