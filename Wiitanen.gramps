@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2020-08-24" version="5.1.2"/>
+    <created date="2020-08-30" version="5.1.2"/>
     <researcher>
     </researcher>
   </header>
@@ -1476,9 +1476,31 @@
       <citationref hlink="_e88e6f585bd25b112aa82ac58ab"/>
       <citationref hlink="_e890a41b094522b17704fe81699"/>
     </event>
+    <event handle="_e8a82b5ebfb12eea6c4c1f6e7e0" change="1598806677" id="E0239">
+      <type>Death</type>
+      <dateval val="1965-11-09"/>
+      <citationref hlink="_e8a82d68d996f22308030fd7a59"/>
+    </event>
+    <event handle="_e8a82e5631961e8d7a6e68454f6" change="1598806534" id="E0240">
+      <type>Death</type>
+      <dateval val="1967-10-26"/>
+      <citationref hlink="_e8a82e51baa5591f723fbcd4a22"/>
+    </event>
+    <event handle="_e8a83403d845745fb9db437cd1a" change="1598807215" id="E0241">
+      <type>Burial</type>
+      <dateval val="1965"/>
+      <place hlink="_e8a834017ac2ddd2ceec3e90dd1"/>
+      <citationref hlink="_e8a82d68d996f22308030fd7a59"/>
+    </event>
+    <event handle="_e8a8348bc11551e6557c3c946a" change="1598807226" id="E0242">
+      <type>Burial</type>
+      <dateval val="1967"/>
+      <place hlink="_e8a834017ac2ddd2ceec3e90dd1"/>
+      <citationref hlink="_e8a82e51baa5591f723fbcd4a22"/>
+    </event>
   </events>
   <people>
-    <person handle="_cfcf2d6f80f4798ccdc" change="1589736839" id="I0000">
+    <person handle="_cfcf2d6f80f4798ccdc" change="1598807169" id="I0000">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Ossian Evert</first>
@@ -1487,6 +1509,8 @@
       <eventref hlink="_cfcf2d4a7b0720c6594" role="Primary"/>
       <eventref hlink="_cfd03da8a1b41dcf08d" role="Primary"/>
       <eventref hlink="_e729ff368787210807492d478df" role="Primary"/>
+      <eventref hlink="_e8a82b5ebfb12eea6c4c1f6e7e0" role="Primary"/>
+      <eventref hlink="_e8a83403d845745fb9db437cd1a" role="Primary"/>
       <childof hlink="_cfcf2ec39c105718f81"/>
       <parentin hlink="_cfd267b9fa13a7ccef2"/>
     </person>
@@ -1545,13 +1569,15 @@
       <eventref hlink="_cfcf345ddb07d3a1236" role="Primary"/>
       <childof hlink="_cfcf2ec39c105718f81"/>
     </person>
-    <person handle="_cfd267d56400dce2153" change="1517338775" id="I0005">
+    <person handle="_cfd267d56400dce2153" change="1598807091" id="I0005">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Olga Margarete Anna</first>
         <surname>Thiess</surname>
       </name>
       <eventref hlink="_d5281c8a261872a0f1bae7e46d" role="Primary"/>
+      <eventref hlink="_e8a82e5631961e8d7a6e68454f6" role="Primary"/>
+      <eventref hlink="_e8a8348bc11551e6557c3c946a" role="Primary"/>
       <childof hlink="_d51ea5a564351879fe186f9155a"/>
       <parentin hlink="_cfd267b9fa13a7ccef2"/>
     </person>
@@ -3856,6 +3882,16 @@
       <noteref hlink="_e890a3f92151e1fa2a21adf9fbb"/>
       <sourceref hlink="_e890a2b31ca6fbc46fd0f304833"/>
     </citation>
+    <citation handle="_e8a82d68d996f22308030fd7a59" change="1598806496" id="C0172">
+      <page>Ossian Evert</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_e8a82c3ea5e7f50afb920db47a2"/>
+    </citation>
+    <citation handle="_e8a82e51baa5591f723fbcd4a22" change="1598806533" id="C0173">
+      <page>Anny O.M.</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_e8a82c3ea5e7f50afb920db47a2"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cfcf2cc3be07b4ceb0a" change="1588502483" id="S0000">
@@ -4265,8 +4301,8 @@
       <sauthor>Tampereen tuomiokirkkoseurakunta</sauthor>
       <reporef hlink="_cfcf2cbb463653e2b72" medium="Book"/>
     </source>
-    <source handle="_e72883f5a5d75d8fe69c45b4cbe" change="1588515455" id="S0081">
-      <stitle>Hautakivi Wiitanen</stitle>
+    <source handle="_e72883f5a5d75d8fe69c45b4cbe" change="1598806169" id="S0081">
+      <stitle>Hautakivi Wiitanen Kalevankangas</stitle>
       <noteref hlink="_e72890836041c5fb6c0f5212b80"/>
       <noteref hlink="_e7288484f3c2beb3a96b163bb24"/>
       <reporef hlink="_e728834a41754e2c49273e3c085" medium="Tombstone"/>
@@ -4395,9 +4431,13 @@
       <sauthor>Tampereen tuomiokirkkoseurakunta</sauthor>
       <reporef hlink="_cfcf2cbb463653e2b72" medium="Book"/>
     </source>
+    <source handle="_e8a82c3ea5e7f50afb920db47a2" change="1598806333" id="S0108">
+      <stitle>Hautakivi Wiitanen Honkanummi</stitle>
+      <noteref hlink="_e8a82d48f8f2c4a49d048e5ba5e"/>
+    </source>
   </sources>
   <places>
-    <placeobj handle="_cfcf2b878383fc95f39" change="1466532481" id="P0000" type="Country">
+    <placeobj handle="_cfcf2b878383fc95f39" change="1598807022" id="P0000" type="Country">
       <pname value="Suomi"/>
       <pname value="Finland" lang="sv"/>
     </placeobj>
@@ -4723,6 +4763,26 @@
     <placeobj handle="_e8818552e59102fcbcf21cf6eb4" change="1597768657" id="P0077" type="Cemetery">
       <pname value="Kalevankankaan hautausmaa"/>
       <placeref hlink="_cfcf2ba409031044428"/>
+    </placeobj>
+    <placeobj handle="_e8a833f4d36ce1976ddec63311" change="1598807023" id="P0078" type="City">
+      <pname value="Vantaa"/>
+      <placeref hlink="_cfcf2b878383fc95f39"/>
+    </placeobj>
+    <placeobj handle="_e8a833f896722069f99b03e52f7" change="1598807025" id="P0079" type="Cemetery">
+      <pname value="Honkanummen hautausmaa"/>
+      <placeref hlink="_e8a833f4d36ce1976ddec63311"/>
+    </placeobj>
+    <placeobj handle="_e8a833fb55036daa9013d5c467b" change="1598807026" id="P0080" type="Area">
+      <pname value="kortteli 41"/>
+      <placeref hlink="_e8a833f896722069f99b03e52f7"/>
+    </placeobj>
+    <placeobj handle="_e8a833fda645d2cd0c73f94bace" change="1598807027" id="P0081" type="Path">
+      <pname value="polku 32"/>
+      <placeref hlink="_e8a833fb55036daa9013d5c467b"/>
+    </placeobj>
+    <placeobj handle="_e8a834017ac2ddd2ceec3e90dd1" change="1598807029" id="P0082" type="Grave">
+      <pname value="hauta 601"/>
+      <placeref hlink="_e8a833fda645d2cd0c73f94bace"/>
     </placeobj>
   </places>
   <repositories>
@@ -6141,6 +6201,15 @@ Sedelhafvanden bor fol 112</text>
                                              Henrik Mattsson och hans hustru Maria Stina Mattsodotter. Ka-
                                              tinhäntä drengen Gustaf Mickelsson och piga Henrika Erics(?)
                                              dotter. Döpt af                                                ? ??????</text>
+    </note>
+    <note handle="_e8a82d48f8f2c4a49d048e5ba5e" change="1598806324" id="N0222" type="Transcript">
+      <text>WIITANEN
+
+OSSIAN EVERT
+*24.2.1887     +9.11.1965
+
+ANNY O.M.
+*28.7.1895     +26.10.1967</text>
     </note>
   </notes>
 </database>
