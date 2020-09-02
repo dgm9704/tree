@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2020-08-30" version="5.1.2"/>
+    <created date="2020-09-02" version="5.1.2"/>
     <researcher>
     </researcher>
   </header>
@@ -981,7 +981,7 @@
       <citationref hlink="_d578690049f73c8839eeccc4bce"/>
       <citationref hlink="_d574d8b0d6f318df2c2fabcc0c4"/>
     </event>
-    <event handle="_d575ce429c8478602aa7f75f61d" change="1466887206" id="E0161">
+    <event handle="_d575ce429c8478602aa7f75f61d" change="1599061900" id="E0161">
       <type>Residence</type>
       <datespan start="1870" stop="1879"/>
       <place hlink="_d574d7e9ef87c9d967b2ea578f"/>
@@ -1015,13 +1015,13 @@
       <citationref hlink="_d5787260d9568f092db32c9be5d"/>
       <citationref hlink="_d575db12da72694fc61566de67b"/>
     </event>
-    <event handle="_d57874b3ebeab7f511230a6990" change="1467132328" id="E0166">
+    <event handle="_d57874b3ebeab7f511230a6990" change="1599060502" id="E0166">
       <type>Residence</type>
       <datespan start="1853" stop="1860"/>
       <place hlink="_d574d7e9ef87c9d967b2ea578f"/>
       <citationref hlink="_d575d93299852c7b13cc16f9a78"/>
     </event>
-    <event handle="_d578755d3c5156cdb19cfbe66c2" change="1598173278" id="E0167">
+    <event handle="_d578755d3c5156cdb19cfbe66c2" change="1599061207" id="E0167">
       <type>Residence</type>
       <datespan start="1860" stop="1870"/>
       <place hlink="_d574d7e9ef87c9d967b2ea578f"/>
@@ -1324,7 +1324,7 @@
       <place hlink="_d574d7e9ef87c9d967b2ea578f"/>
       <citationref hlink="_d58593e086f3d3760d1e51f0bcc"/>
     </event>
-    <event handle="_dccd4bdfc72790bd65adc1d5db0" change="1588500559" id="E0219">
+    <event handle="_dccd4bdfc72790bd65adc1d5db0" change="1598968523" id="E0219">
       <type>Marriage Banns</type>
       <dateval val="1920-06-21"/>
       <place hlink="_dccd4bc81bc5bf540a7f8eb1101"/>
@@ -3403,22 +3403,25 @@
       <noteref hlink="_d574c4d6c7710e48d56f6156d7a"/>
       <sourceref hlink="_d574c4967f1327d1c57c08328d1"/>
     </citation>
-    <citation handle="_d574d8b0d6f318df2c2fabcc0c4" change="1466888087" id="C0098">
+    <citation handle="_d574d8b0d6f318df2c2fabcc0c4" change="1599061899" id="C0098">
       <page>484</page>
       <confidence>2</confidence>
       <noteref hlink="_d574d8ad0089a53a9afbb63b1"/>
+      <noteref hlink="_e8b1b29a1ef43265855e5f0dcb0"/>
       <sourceref hlink="_d574d880fc755d1e0f82982649f"/>
     </citation>
-    <citation handle="_d575d93299852c7b13cc16f9a78" change="1467132327" id="C0099">
+    <citation handle="_d575d93299852c7b13cc16f9a78" change="1599060500" id="C0099">
       <page>525</page>
       <confidence>2</confidence>
       <noteref hlink="_d575d92f0791d9e352f778e9b4f"/>
+      <noteref hlink="_e8b1a540c424e858c89cfed1ebb"/>
       <sourceref hlink="_d575d8d05bc2093bc95991c3a4e"/>
     </citation>
-    <citation handle="_d575db12da72694fc61566de67b" change="1466958384" id="C0100">
+    <citation handle="_d575db12da72694fc61566de67b" change="1599061052" id="C0100">
       <page>578</page>
       <confidence>2</confidence>
       <noteref hlink="_d575db0fe8a14abaa3995d9123d"/>
+      <noteref hlink="_e8b1aa86c3a5d2e9cc820f6de28"/>
       <sourceref hlink="_d575dad37d56a9c42c0e2fc7d8f"/>
     </citation>
     <citation handle="_d5778cd8fc177434da45ec4e221" change="1466934005" id="C0101">
@@ -4434,6 +4437,10 @@
     <source handle="_e8a82c3ea5e7f50afb920db47a2" change="1598806333" id="S0108">
       <stitle>Hautakivi Wiitanen Honkanummi</stitle>
       <noteref hlink="_e8a82d48f8f2c4a49d048e5ba5e"/>
+    </source>
+    <source handle="_e8a839dc2a076134fad3937f02c" change="1598807642" id="S0109">
+      <stitle>Hautakivi Viitanen Honkanummi</stitle>
+      <noteref hlink="_e8a839d570112bca527b98413cc"/>
     </source>
   </sources>
   <places>
@@ -6210,6 +6217,75 @@ OSSIAN EVERT
 
 ANNY O.M.
 *28.7.1895     +26.10.1967</text>
+    </note>
+    <note handle="_e8a839d570112bca527b98413cc" change="1598807640" id="N0223" type="Transcript" format="1">
+      <text>                               VIITANEN
+
+          SINIKKA                            ERKKI
+TERTTU HELLIKKI    OSSIAN WALDEMAR
+    *11.6.1926                    *14.??.????     
+    +26.6.20??                   +23.??.????</text>
+    </note>
+    <note handle="_e8b1a540c424e858c89cfed1ebb" change="1599060495" id="N0224" type="Transcript" format="1">
+      <text>525               Tiihala
+
+no9 Katinhäntä
+
+Bonden  Johan Gustaf Simonsson   23/3  1827
+Hutru   Gustava Mattsdotter      9/6   1825
+Dotter  Vilhelmina               8/5   1850
+Dotter  Amanda Gustava           27/3  1853
+Son     Johan Gustaf             23/4  1856
+Son     Henrik                   5/6   1859
+
+             Syster
+Bondedottern Hedvig Simonsdotter 5/12  1833
+Dotter Gustava                   6/2   1839
+Dotter Johanna Carolina          14/11 1841
+Dotter Henrica                   13/8  1844</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="503"/>
+      </style>
+    </note>
+    <note handle="_e8b1aa86c3a5d2e9cc820f6de28" change="1599061206" id="N0225" type="Transcript" format="1">
+      <text>578               Tiihala
+
+no9 Katinhäntä
+
+                   Sexman
+Bonden Johan Gustaf Simonsson  23/3  1827             död 6/4 1868
+ Enkan
+Hustru Gustava Mattsdotter     9/6   1825
+Dotter Vilhelmina              8/5   1850             68 p. 360
+Dotter Amanda Gustava          27/3  1853
+Son Johan Gustaf               23/4  1856
+Son Henrik                     5/6   1859
+Son Carl Evert                 8/8   1862
+Dotter Hilda Serafia            19/2  1866
+
+ Syster            Simonsdotter
+Bondedottern Johanna Carolina  14/11 1841
+Ditto Henrika Simonsdotter     13/8  1844</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="576"/>
+      </style>
+    </note>
+    <note handle="_e8b1b29a1ef43265855e5f0dcb0" change="1599061895" id="N0226" type="Transcript" format="1">
+      <text>484               Tiihala
+
+no9 Katinhäntä
+
+Förra b. enkan
+Gustava Mattsdotter               9/6   1825  71 f.1305
+Dotter Amanda Gustava Gustafssd   27/3  1853  71 Messuby
+Son Johan Gustaf do               23/4  1856  71 Messuby
+Son Henrik                        5/6   1859  72 Tammerfors
+Son Carl Evert                    8/8   1862  13/4 1877 Tfors
+Dotter Hilda Serafia               19/2  1866  1878 fol.423
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="410"/>
+      </style>
     </note>
   </notes>
 </database>
