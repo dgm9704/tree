@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2020-07-24" version="5.1.2"/>
+    <created date="2020-09-21" version="5.1.2"/>
     <researcher>
     </researcher>
   </header>
@@ -7722,7 +7722,7 @@
       <type>Marriage</type>
       <dateval val="1907-12-23"/>
     </event>
-    <event handle="_cde63e4926106c5528d" change="1488123883" id="E5230">
+    <event handle="_cde63e4926106c5528d" change="1595776998" id="E5230">
       <type>Residence</type>
       <datespan start="1865" stop="1867"/>
       <place hlink="_cde63ef594578576769"/>
@@ -7736,7 +7736,7 @@
       <description>handelsbetjänt</description>
       <citationref hlink="_cde63fce2565b4c89bf"/>
     </event>
-    <event handle="_cde6467ef0e24042c3c" change="1548798598" id="E5244">
+    <event handle="_cde6467ef0e24042c3c" change="1595776534" id="E5244">
       <type>Residence</type>
       <datespan start="1867-02-11" stop="1869-11-26"/>
       <place hlink="_cde645dff4827c02e3d"/>
@@ -12957,7 +12957,7 @@
       <place hlink="_cb589cd851a2637b2c6"/>
       <citationref hlink="_df87851418f315eac02ba338436"/>
     </event>
-    <event handle="_df8789399854d85b75a0889d5e6" change="1536082598" id="E2823">
+    <event handle="_df8789399854d85b75a0889d5e6" change="1600686378" id="E2823">
       <type>Residence</type>
       <datespan start="1844" stop="1847"/>
       <place hlink="_cb589cd851a2637b2c6"/>
@@ -20089,7 +20089,7 @@
       <eventref hlink="_cb589cdf3bf1a6d816c" role="Primary"/>
       <childof hlink="_cb589cd83c605a3885d"/>
     </person>
-    <person handle="_cb589cdf4285693996f" change="1426530491" id="I4968">
+    <person handle="_cb589cdf4285693996f" change="1600685414" id="I4968">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Sofia Lovisa</first>
@@ -26703,12 +26703,13 @@
       <childref hlink="_cb589cdf3881fceaae6"/>
       <childref hlink="_cb589cdf3ad7f66951d"/>
     </family>
-    <family handle="_cb589cd844945b4bc76" change="1420070321" id="F1687">
+    <family handle="_cb589cd844945b4bc76" change="1600685414" id="F1687">
       <rel type="Married"/>
       <father hlink="_cb589cd842d7d79f472"/>
       <mother hlink="_cea5bdd36ee6d8e76f8"/>
       <eventref hlink="_cb589cfee643de2a3c7" role="Family"/>
       <childref hlink="_cb589cdf4285693996f"/>
+      <citationref hlink="_e8ee2da89754589e97eb00a0f9e"/>
     </family>
     <family handle="_cb589cd847b49cf1ace" change="1426444188" id="F1395">
       <rel type="Married"/>
@@ -34530,10 +34531,11 @@
       <noteref hlink="_df878234cf267ce812720790da4"/>
       <sourceref hlink="_db8a970c451636eb9c5ac647cbd"/>
     </citation>
-    <citation handle="_df87851418f315eac02ba338436" change="1536082164" id="C1005">
+    <citation handle="_df87851418f315eac02ba338436" change="1600686366" id="C1005">
       <page>290</page>
       <confidence>2</confidence>
       <noteref hlink="_df8784fa5b737aa13e4bc1f5419"/>
+      <noteref hlink="_e8ee368ff8d2e65d5f1d7adba34"/>
       <sourceref hlink="_db7f1b5c6071ba83807beed0bfa"/>
     </citation>
     <citation handle="_df878bac36c3a350813e5a86d4e" change="1536082855" id="C1006">
@@ -35323,6 +35325,15 @@
       <noteref hlink="_e8317f93c3750a3d527122f0c5a"/>
       <noteref hlink="_e8317ffaf4e4f510081fc12a759"/>
       <sourceref hlink="_dcde088884844f55819d0fcc103"/>
+    </citation>
+    <citation handle="_e8ee2da89754589e97eb00a0f9e" change="1600685411" id="C1120">
+      <page>KO b:20/541</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e8ee2c958cc5dc0dbe523dc344a"/>
+      <noteref hlink="_e8ee2ceb0194130976b25a6f404"/>
+      <noteref hlink="_e8ee2d5dd117f6c00b6ff3f71da"/>
+      <noteref hlink="_e8ee2d9a3de6b8cc4c2c613b76f"/>
+      <sourceref hlink="_e8ee2b20e50532734c0a41bebb6"/>
     </citation>
   </citations>
   <sources>
@@ -37786,6 +37797,11 @@
     <source handle="_e824cc1253131c6f52425a036ca" change="1595279626" id="S0491">
       <stitle>Valokuva: Ragnar ja Helge Nyström</stitle>
       <reporef hlink="_dcdca3f7d3b161a6bf5b6f5e9d0" medium="Photo"/>
+    </source>
+    <source handle="_e8ee2b20e50532734c0a41bebb6" change="1600685225" id="S0492">
+      <stitle>Porvoon tuomiokunnan renovoidut tuomiokirjat - Ilmoitusasioiden pöytäkirjat 1870-1870</stitle>
+      <sauthor>Porvoon tuomiokunta</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
     </source>
   </sources>
   <places>
@@ -40317,7 +40333,7 @@
     </placeobj>
   </places>
   <repositories>
-    <repository handle="_cdea29a49637c6553bc" change="1595279138" id="R0001">
+    <repository handle="_cdea29a49637c6553bc" change="1600685143" id="R0001">
       <rname>Arkistolaitos Digitaaliarkisto</rname>
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
@@ -50575,6 +50591,131 @@ postiljon  Viktor Vilhelm Nyström o. Elin Maria Nordberg.</text>
       <style name="bold">
         <range start="0" end="23"/>
       </style>
+    </note>
+    <note handle="_e8ee2c958cc5dc0dbe523dc344a" change="1600685299" id="N0143" type="Citation">
+      <text>Porvoon tuomiokunnan renovoidut tuomiokirjat - Ilmoitusasioiden pöytäkirjat 1870-1870 (KO b:20), jakso 544; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=47439649 / Viitattu 21.9.2020</text>
+    </note>
+    <note handle="_e8ee2ceb0194130976b25a6f404" change="1600685334" id="N0144" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=47439649</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=47439649">
+        <range start="0" end="46"/>
+      </style>
+    </note>
+    <note handle="_e8ee2d5dd117f6c00b6ff3f71da" change="1600685381" id="N0145" type="Link">
+      <text>https://tuomiokirjat.narc.fi/detail/PjoMbc1J?term=nordberg&amp;search=eyJ0ZXJtIjoibm9yZGJlcmciLCJkaXN0cmljdCI6IlBvcnZvb24gdHVvbWlva3VubmFuIHJlbm92b2lkdXQgdHVvbWlva2lyamF0In0</text>
+      <style name="link" value="https://tuomiokirjat.narc.fi/detail/PjoMbc1J?term=nordberg&amp;search=eyJ0ZXJtIjoibm9yZGJlcmciLCJkaXN0cmljdCI6IlBvcnZvb24gdHVvbWlva3VubmFuIHJlbm92b2lkdXQgdHVvbWlva2lyamF0In0">
+        <range start="0" end="169"/>
+      </style>
+    </note>
+    <note handle="_e8ee2d9a3de6b8cc4c2c613b76f" change="1600685405" id="N0146" type="Transcript">
+      <text>3dja Uppbudet å
+halfva Nybys
+Skatte inthåll
+i Rullo by och
+Borgå socken.
+
+godt godkänna ifrågavarande Köpslut såmdn
+detsamma rörde omyndige Johan Ediets och Rean
+ka Alexandras andelar i lägenheten.
+Sedan sökanden förmält sig icke hafva någon
+vidare utredning i ärendet att tillgå, tillsades
+honom att jemte öfrige vederbörande afträde
+innan öfverläggningen till följande
+Utslag:
+Som sökanden Johan Willchad Andersson
+Jaakela icke kunnat Styrka sine företräda‐
+res åtkomst till ifrågavarande hemmansdelar.
+alltså kan den sökta lagfarten honom icke
+meddelas; men finner Häradsrätten dock jodt
+att, i Stöd af Kejserliga Förodningen den 141.
+Mars 1864. om huru vid ansökning om lagfart
+förfaras Skall då sökanden icke kan tillför=
+litligen utreda sin företrädares åtkomst till lä‐
+genheten, tillåta sökanden att genom trenne
+gånger i landets officiella såväl på svenska
+som finska sjuråket utkommande tidningar in‐
+förande annons uppmana den eller dem, som
+to sig ega fog till klander af ifrågavarande
+jordefåns, att sin Klandertalan inom nad
+och år efler det annonsen varit tredje glngen
+i tidningarne införd, vid denna Häradsrätt an‐
+måla och utföra vid äfventyr att den sök‐
+ta lagfarten eljest meddelas. Hvilket å in‐
+kallandet afsades.
+SS: 30.
+I egenskap os lagligen befullmiiktigadt
+ombud för Rusthållaren Karl Gustaf Matts‐
+son Nybys, från Fullo by i Borgå socken, an‐
+höll Skallfogden August Sullberg att Karl=
+Gustaf Matsson Nybys måtte meddelas tre=
+dje uppbudet å halfva nisbys kätternsshäll
+
+i berörde by, hvilken lägenhet sökanden dels
+vrst efter sin fader Rusthållaren Matts Matts‐
+son och dels efter å densamma aisalt värde af
+fyratusen åttahundra mark, den 31. Oktober 1865.
+tillhandlat sig af sin moder Bondeenkan Helena
+Andersdotter, såsom dess oförsörjda dotter Sofia
+Lovisa Mattssdotters rättsbevakare samt följande
+öfrige samalfna nemligen: bröderne Matts och
+Anders Johan Mattssöner samt syster Anna Str=
+Stina Mattsdotter jemte hennes man Bonden
+Johan Wordberg Antas, emot till hvardera af
+bröderna erlagd utlösen os ettusen tvåhundra
+mark öd, till hvardera af systrarne af sex=
+hundra mark eller tillsammans tretusen sex=
+hundra mark, förutom fullgörande af andra
+vilkor öd sytningsbeting; inlemnande ombudet kuu=
+berg i omförmäldt afseende utdrag ur denne Härads=
+rätts vid närtvikene 1869. års lagtima höstling den
+1. September under SS: 17. och innevarande 1870. års
+lrgtima vinterling den 1. Februari under SS: 18. i lag=
+fartärender förde protokoll, af hvilka vid ge=
+nomläsandet inhemtades att Karl Gustaf Matts=
+son Nybys nämnde dagar meddelats det för‐
+sta och andra klanderfria uppbudet å ifråga‐
+varande rusthållshälft, men ålligt att, innan
+tredje uppbudet icke allenast styrka lägen‐
+hetens nummer, jordnatur och mantalsstorlek,
+utan ock tillförtitligen iteda det krigsmans=
+hns och Karta sigilleta rekognitions afgifterne
+för sökandens tillträde till rusthållshälften
+blifvit erlagde, äfvensom, derest rusthålls hälften
+vore intecknad till säkerhet för penningelan ur
+Finlands bank, Finska militärens, giil= eller ek=
+Klesias tik staternes enke - och pupill Kassor, fö=
+rete bevis derom att lånet antingen blifvit in‐
+
+36.
+541.</text>
+    </note>
+    <note handle="_e8ee368ff8d2e65d5f1d7adba34" change="1600686345" id="N0147" type="Transcript">
+      <text>290 Norrveckoski
+
+Hannusas
+
+2a
+
+Bonde; Uppsyningsmannen Kan Smedarbete. [??????????]
+Gustaf Staffansson Nordberg	2/10 1794
+hu Anna Gretha Johansdr 22/6 1797
+
+Doter 1844 till p. 332 Den 4 sept. 1841 lysning med Gustaf Johansson p. 332  1841 till.p. 332
+Christina Sofia Nordberg 25/5 1818
+
+Doter
+Anna Margaretha Nordberg 29/11 1819 Adm d. 6 October 1841
+Son
+Gustaf Nordberg 18/5 1825
+
+Son 1845 till pag 132 Adm d. 6 October 1841
+Carl Nordberg 28/2 1827
+
+Son 1847 till p. 162 Adm den 12 October 1844
+Johan Nordberg 9/1 1829
+
+Son Adm.d: 13 Junii 1846
+Fredrik Nordberg 9/12 1830</text>
     </note>
   </notes>
 </database>
