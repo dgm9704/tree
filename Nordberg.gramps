@@ -13598,6 +13598,12 @@
       <place hlink="_cb589cd83d929db3d64"/>
       <citationref hlink="_e8eeb3fbe87305fa3b7b85a92c"/>
     </event>
+    <event handle="_e8eed6bb0ef6e31b868c69ad22b" change="1600704045" id="E0082">
+      <type>Residence</type>
+      <datespan start="1850" stop="1851"/>
+      <place hlink="_e8eed6b5a8828a20462e33920fa"/>
+      <citationref hlink="_e8eedf574cd347d8672a91be59d"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1548617779" id="I3858">
@@ -18531,7 +18537,7 @@
       <eventref hlink="_cb589cd841170d5d78f" role="Primary"/>
       <childof hlink="_cb589cd2762703e1249"/>
     </person>
-    <person handle="_cb589cd842d7d79f472" change="1600700356" id="I4585">
+    <person handle="_cb589cd842d7d79f472" change="1600704046" id="I4585">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Johannes</first>
@@ -18541,6 +18547,7 @@
       <eventref hlink="_cb589cd84343b0aef0a" role="Primary"/>
       <eventref hlink="_df8789399854d85b75a0889d5e6" role="Primary"/>
       <eventref hlink="_e8eeba7577644e56c5d5fc47c02" role="Primary"/>
+      <eventref hlink="_e8eed6bb0ef6e31b868c69ad22b" role="Primary"/>
       <eventref hlink="_df87a2bbc8d673c1c7b3cad5025" role="Primary"/>
       <eventref hlink="_cb589cd84311cf8f74f" role="Primary"/>
       <childof hlink="_cb589cd2762703e1249"/>
@@ -35356,6 +35363,13 @@
       <noteref hlink="_e8eeba5f18afb5e8d2472824fc"/>
       <sourceref hlink="_db7f1d99179967edd7fa10f675"/>
     </citation>
+    <citation handle="_e8eedf574cd347d8672a91be59d" change="1600704043" id="C1122">
+      <page>432</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e8eed7511b11e8ec79294ced68e"/>
+      <noteref hlink="_e8eedf47ed15e30a39b46b2c228"/>
+      <sourceref hlink="_db7f1d99179967edd7fa10f675"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -38729,7 +38743,7 @@
       <pname value="Bredvik"/>
       <placeref hlink="_cea12af8565247eda3d"/>
     </placeobj>
-    <placeobj handle="_cea130ab1076a8a160f" change="1563316237" id="P0534" type="Village">
+    <placeobj handle="_cea130ab1076a8a160f" change="1600703135" id="P0534" type="Village">
       <ptitle>Söderveckoski, Borgå, Finland</ptitle>
       <pname value="Söderveckoski"/>
       <placeref hlink="_cb589cc90f055fc9f0c"/>
@@ -40351,6 +40365,10 @@
     <placeobj handle="_e8317d07b832f57ae0a50f136d5" change="1595620304" id="P0060" type="Building">
       <pname value="Högbergsgatan 21"/>
       <placeref hlink="_e8317d04a9642a864f8bcce2a3"/>
+    </placeobj>
+    <placeobj handle="_e8eed6b5a8828a20462e33920fa" change="1600703138" id="P0061" type="Farm">
+      <pname value="Erikas"/>
+      <placeref hlink="_cea130ab1076a8a160f"/>
     </placeobj>
   </places>
   <repositories>
@@ -50782,6 +50800,52 @@ Piga Sofia Eklund 28/7 1835
 </text>
       <style name="link" value="gramps://Person/handle/cb589cd84543096b0fa">
         <range start="754" end="776"/>
+      </style>
+    </note>
+    <note handle="_e8eed7511b11e8ec79294ced68e" change="1600703201" id="N0150" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7961712</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=7961712">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_e8eedf47ed15e30a39b46b2c228" change="1600704036" id="N0151" type="Transcript">
+      <text>432 Söderveckoski
+Erikas Skattehemman 1/2 ,
+fe(?) Gamla Erikas
+
+Bonde och Lagmans Nämdemans Enka (?)
+Ea Maria Andersdotter 13/3 1794
+
+Son Bonde Lagman Nämndeman (?)
+Gustaf Mattson v.h.(?) Malmberg 1/5 1820
+Hu Edla Sofia Skogster(?) 14/12 1831
+
+Dotter Maria Mattsdotter 6/11 1821
+Dotter Lena Sofia Mattsdotter 10/7 1832
+Dotter Anna Gretha Mattsdotter 9/7 1835
+Bror Adolf(?) Andersson Pihlström 19/2 1806
+
+Dreng Karl Henriksson 6/8 1835
+Piga Sofia Lovisa Mattsdotter 11/12 1833
+???? Anders Johan Björklund 2/6 1838
+Dreng Carl Gustaf Sjöman 2/7 1828
+Dreng Gustaf Gustafsson 22/5 1819
+Dreng Johan Nordberg 9/1 1829
+Dreng Johan Henrik ???? 7/12 1828
+Dreng Henrik Henriksson v.h. Lindros 3/11 1832
+Piha Lena Sofia Stjernberg 29/8 1832
+Piga Helena Carlsdotter 5/3 1839
+Dreng Adolf Henriksson 8/8 1842
+
+?? Sp. Torp. Ea
+?? Maria Mattsdotter 22/7 1793
+Son, Snickare Gesäll
+Erik Eriksson 21/12 1825
+
+
+</text>
+      <style name="link" value="gramps://Person/handle/cb589cd842d7d79f472">
+        <range start="587" end="601"/>
       </style>
     </note>
   </notes>
