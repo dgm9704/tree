@@ -3894,7 +3894,7 @@
     <event handle="_cb589cd84311cf8f74f" change="1397384056" id="E2578">
       <type>Death</type>
     </event>
-    <event handle="_cb589cd84343b0aef0a" change="1536079792" id="E2579">
+    <event handle="_cb589cd84343b0aef0a" change="1600704947" id="E2579">
       <type>Birth</type>
       <dateval val="1829-01-09"/>
       <place hlink="_cb589cd851a2637b2c6"/>
@@ -18537,11 +18537,15 @@
       <eventref hlink="_cb589cd841170d5d78f" role="Primary"/>
       <childof hlink="_cb589cd2762703e1249"/>
     </person>
-    <person handle="_cb589cd842d7d79f472" change="1600704046" id="I4585">
+    <person handle="_cb589cd842d7d79f472" change="1600705042" id="I4585">
       <gender>M</gender>
-      <name type="Birth Name">
+      <name type="Also Known As">
+        <first>Johan</first>
+        <surname derivation="Inherited">Nordberg</surname>
+      </name>
+      <name alt="1" type="Birth Name">
         <first>Johannes</first>
-        <surname>Nordberg</surname>
+        <surname derivation="Inherited">Nordberg</surname>
         <nick>Johannes</nick>
       </name>
       <eventref hlink="_cb589cd84343b0aef0a" role="Primary"/>
@@ -34498,10 +34502,11 @@
       <noteref hlink="_df876909e2b78ff3897decfd6b9"/>
       <sourceref hlink="_db7f15f20625e2c9b2369407e7e"/>
     </citation>
-    <citation handle="_df876e6da37277780c3a7feaf3e" change="1536079789" id="C0996">
+    <citation handle="_df876e6da37277780c3a7feaf3e" change="1600704946" id="C0996">
       <page>jakso 113</page>
       <confidence>2</confidence>
       <noteref hlink="_df876e64bc24f5a7cb6800dadf8"/>
+      <noteref hlink="_e8eee757e1b701508768fa225de"/>
       <sourceref hlink="_db7f15f20625e2c9b2369407e7e"/>
     </citation>
     <citation handle="_df876f6770e29ac3ea632df4e" change="1536079891" id="C0997">
@@ -50846,6 +50851,26 @@ Erik Eriksson 21/12 1825
 </text>
       <style name="link" value="gramps://Person/handle/cb589cd842d7d79f472">
         <range start="587" end="601"/>
+      </style>
+    </note>
+    <note handle="_e8eee757e1b701508768fa225de" change="1600704944" id="N0152" type="Transcript" format="1">
+      <text>Födde År 1829
+Januari månad
+9.  11. Johannes    Par: Bonde, Gustaf        Testes: Smeden Johan Nordberg
+        döpt af     Nordberg                  från Norrveckoski med hu Hedda
+        ????        Hu Anna Gretha Jo=        Johansdr, Smedsonen Carl Nord=
+                    hansdr x 32               berg fn Hindhår Smeds, Land=
+                                              bondesonen Gustaf Lassas
+                    Norrveckoski Hannusas     från Hindhår, pigan Maria
+                                              Carlsdr från Norrveckoski Han=
+                                              nusas</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="604"/>
+      </style>
+      <style name="underline">
+        <range start="14" end="28"/>
+        <range start="36" end="44"/>
+        <range start="424" end="445"/>
       </style>
     </note>
   </notes>
