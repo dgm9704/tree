@@ -12957,7 +12957,7 @@
       <place hlink="_cb589cd851a2637b2c6"/>
       <citationref hlink="_df87851418f315eac02ba338436"/>
     </event>
-    <event handle="_df8789399854d85b75a0889d5e6" change="1600686378" id="E2823">
+    <event handle="_df8789399854d85b75a0889d5e6" change="1600699047" id="E2823">
       <type>Residence</type>
       <datespan start="1844" stop="1847"/>
       <place hlink="_cb589cd851a2637b2c6"/>
@@ -12994,7 +12994,7 @@
       <place hlink="_cb589cd851a2637b2c6"/>
       <citationref hlink="_df878bac36c3a350813e5a86d4e"/>
     </event>
-    <event handle="_df87a173f4735b78a277eeb8d14" change="1536085139" id="E2836">
+    <event handle="_df87a173f4735b78a277eeb8d14" change="1600700260" id="E2836">
       <type>Residence</type>
       <datespan start="1849" stop="1852"/>
       <place hlink="_cb589cd851a2637b2c6"/>
@@ -13585,6 +13585,18 @@
       <place hlink="_e8317d07b832f57ae0a50f136d5"/>
       <description>Högbergsgatan 21 D 2</description>
       <citationref hlink="_e831802b56160570ed442a50342"/>
+    </event>
+    <event handle="_e8eeba7577644e56c5d5fc47c02" change="1600700355" id="E0074">
+      <type>Residence</type>
+      <datespan start="1849" stop="1850"/>
+      <place hlink="_cb589cd83d929db3d64"/>
+      <citationref hlink="_e8eeb3fbe87305fa3b7b85a92c"/>
+    </event>
+    <event handle="_e8eebd30a142d41620b418a23f2" change="1600700462" id="E0078">
+      <type>Residence</type>
+      <datespan start="1852" stop="1854"/>
+      <place hlink="_cb589cd83d929db3d64"/>
+      <citationref hlink="_e8eeb3fbe87305fa3b7b85a92c"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -18519,7 +18531,7 @@
       <eventref hlink="_cb589cd841170d5d78f" role="Primary"/>
       <childof hlink="_cb589cd2762703e1249"/>
     </person>
-    <person handle="_cb589cd842d7d79f472" change="1536085323" id="I4585">
+    <person handle="_cb589cd842d7d79f472" change="1600700356" id="I4585">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Johannes</first>
@@ -18528,12 +18540,13 @@
       </name>
       <eventref hlink="_cb589cd84343b0aef0a" role="Primary"/>
       <eventref hlink="_df8789399854d85b75a0889d5e6" role="Primary"/>
+      <eventref hlink="_e8eeba7577644e56c5d5fc47c02" role="Primary"/>
       <eventref hlink="_df87a2bbc8d673c1c7b3cad5025" role="Primary"/>
       <eventref hlink="_cb589cd84311cf8f74f" role="Primary"/>
       <childof hlink="_cb589cd2762703e1249"/>
       <parentin hlink="_cb589cd844945b4bc76"/>
     </person>
-    <person handle="_cb589cd84543096b0fa" change="1536085208" id="I5508">
+    <person handle="_cb589cd84543096b0fa" change="1600700469" id="I5508">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Anders Herman</first>
@@ -18541,6 +18554,7 @@
       </name>
       <eventref hlink="_cb589cd8458092f8ba8" role="Primary"/>
       <eventref hlink="_df87a173f4735b78a277eeb8d14" role="Primary"/>
+      <eventref hlink="_e8eebd30a142d41620b418a23f2" role="Primary"/>
       <eventref hlink="_df87a1e37546d5df2c877fb2691" role="Primary"/>
       <eventref hlink="_cb589cd8465635cc5d3" role="Primary"/>
       <childof hlink="_cb589cd2762703e1249"/>
@@ -35335,6 +35349,13 @@
       <noteref hlink="_e8ee2d9a3de6b8cc4c2c613b76f"/>
       <sourceref hlink="_e8ee2b20e50532734c0a41bebb6"/>
     </citation>
+    <citation handle="_e8eeb3fbe87305fa3b7b85a92c" change="1600700170" id="C1121">
+      <page>162</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e8eeb3f10215db24edd5ca586d"/>
+      <noteref hlink="_e8eeba5f18afb5e8d2472824fc"/>
+      <sourceref hlink="_db7f1d99179967edd7fa10f675"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -50716,6 +50737,52 @@ Johan Nordberg 9/1 1829
 
 Son Adm.d: 13 Junii 1846
 Fredrik Nordberg 9/12 1830</text>
+    </note>
+    <note handle="_e8eeb3f10215db24edd5ca586d" change="1600699492" id="N0148" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7961463</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=7961463">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_e8eeba5f18afb5e8d2472824fc" change="1600700352" id="N0149" type="Transcript">
+      <text>162 Hindhår
+
+No 5
+Lassas Frälsehemman
+
+Landbonde f.d Uppsyningsman
+Gustaf Johansson 21/8 1809
+Hu Maria Andersdotter Stjernberg(?) 9/6 1822
+
+
+Mor. Landbond. Enka
+Ea Greta Johansdotter 9/7 1770
+systerson
+Johan Nordberg 9/1 1829
+Stadsdreng(?) 
+Carl Vilhelm Ekholm 28/9 1826
+Hu Anna Cajsa Andersdotter 14/10 1830
+
+Dreng Carl Fredric Johansson 27/7 1824
+Piga Anna Fredrika Wahlberg 22/4 1828
+Piga Stina Ericsdotter Ekblom 18/8 1826
+QP Piga Maria Christina Ericsdotter 26/7 1826
+Piga Maria Lovisa ??? 2/2 1833
+Dreng Petter Johan Björkroth 10/5 1832
+Piga Helena Gustafsdotter 19/7 1833
+Dreng Anders JohanJordman 7/4 1804
+Piga Hedda Lena Blomqvist 26/9 1834
+Dreng Johan Snäll 1/7 1831
+Dreng Matts Johansson 22/12 1830
+Dreng Carl Johan Gustafsson 24/6 1832
+Dreng Anders Herman Nordberg 27/11 1835
+Piga Sofia Eklund 28/7 1835
+
+
+</text>
+      <style name="link" value="gramps://Person/handle/cb589cd84543096b0fa">
+        <range start="754" end="776"/>
+      </style>
     </note>
   </notes>
 </database>
