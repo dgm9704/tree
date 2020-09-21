@@ -7534,7 +7534,7 @@
       <dateval val="1854-10-09"/>
       <citationref hlink="_df878bac36c3a350813e5a86d4e"/>
     </event>
-    <event handle="_cb589cfee643de2a3c7" change="1536085308" id="E7259">
+    <event handle="_cb589cfee643de2a3c7" change="1600715564" id="E7259">
       <type>Marriage</type>
       <dateval val="1851-11-04"/>
       <citationref hlink="_df878bac36c3a350813e5a86d4e"/>
@@ -13006,9 +13006,9 @@
       <place hlink="_cb589cd851a2637b2c6"/>
       <citationref hlink="_df878bac36c3a350813e5a86d4e"/>
     </event>
-    <event handle="_df87a2bbc8d673c1c7b3cad5025" change="1600713983" id="E2838">
+    <event handle="_df87a2bbc8d673c1c7b3cad5025" change="1600715376" id="E2838">
       <type>Residence</type>
-      <datespan start="1851" stop="1854"/>
+      <dateval val="1851"/>
       <place hlink="_cb589cd851a2637b2c6"/>
       <citationref hlink="_df878bac36c3a350813e5a86d4e"/>
     </event>
@@ -13603,6 +13603,15 @@
       <datespan start="1850" stop="1851"/>
       <place hlink="_e8eed6b5a8828a20462e33920fa"/>
       <citationref hlink="_e8eedf574cd347d8672a91be59d"/>
+    </event>
+    <event handle="_e8ef4bc8d411f413a1bd5fa465b" change="1600715414" id="E0086">
+      <type>Burial</type>
+    </event>
+    <event handle="_e8ef6139e4c4ec0daa61d9ae570" change="1600717712" id="E0090">
+      <type>Residence</type>
+      <datespan start="1851" stop="1858"/>
+      <place hlink="_e8ef61b1a4f456fa3fab2fbf00b"/>
+      <citationref hlink="_e8ef6135c5c23057c0b4003d9ad"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -18537,7 +18546,7 @@
       <eventref hlink="_cb589cd841170d5d78f" role="Primary"/>
       <childof hlink="_cb589cd2762703e1249"/>
     </person>
-    <person handle="_cb589cd842d7d79f472" change="1600705042" id="I4585">
+    <person handle="_cb589cd842d7d79f472" change="1600715557" id="I4585">
       <gender>M</gender>
       <name type="Also Known As">
         <first>Johan</first>
@@ -18553,7 +18562,6 @@
       <eventref hlink="_e8eeba7577644e56c5d5fc47c02" role="Primary"/>
       <eventref hlink="_e8eed6bb0ef6e31b868c69ad22b" role="Primary"/>
       <eventref hlink="_df87a2bbc8d673c1c7b3cad5025" role="Primary"/>
-      <eventref hlink="_cb589cd84311cf8f74f" role="Primary"/>
       <childof hlink="_cb589cd2762703e1249"/>
       <parentin hlink="_cb589cd844945b4bc76"/>
     </person>
@@ -20114,7 +20122,7 @@
       <eventref hlink="_cb589cdf3bf1a6d816c" role="Primary"/>
       <childof hlink="_cb589cd83c605a3885d"/>
     </person>
-    <person handle="_cb589cdf4285693996f" change="1600685414" id="I4968">
+    <person handle="_cb589cdf4285693996f" change="1600717717" id="I4968">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Sofia Lovisa</first>
@@ -26728,11 +26736,12 @@
       <childref hlink="_cb589cdf3881fceaae6"/>
       <childref hlink="_cb589cdf3ad7f66951d"/>
     </family>
-    <family handle="_cb589cd844945b4bc76" change="1600685414" id="F1687">
+    <family handle="_cb589cd844945b4bc76" change="1600717717" id="F1687">
       <rel type="Married"/>
       <father hlink="_cb589cd842d7d79f472"/>
       <mother hlink="_cea5bdd36ee6d8e76f8"/>
       <eventref hlink="_cb589cfee643de2a3c7" role="Family"/>
+      <eventref hlink="_e8ef6139e4c4ec0daa61d9ae570" role="Family"/>
       <childref hlink="_cb589cdf4285693996f"/>
       <citationref hlink="_e8ee2da89754589e97eb00a0f9e"/>
     </family>
@@ -35376,6 +35385,13 @@
       <noteref hlink="_e8eedf47ed15e30a39b46b2c228"/>
       <sourceref hlink="_db7f1d99179967edd7fa10f675"/>
     </citation>
+    <citation handle="_e8ef6135c5c23057c0b4003d9ad" change="1600717660" id="C1123">
+      <page>3</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e8ef4e0892b69511232ac908a49"/>
+      <noteref hlink="_e8ef61299f751211704f610c274"/>
+      <sourceref hlink="_db7f1d99179967edd7fa10f675"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -38182,7 +38198,7 @@
       <pname value="Mehtäknuuttila"/>
       <placeref hlink="_cea14452de22b37c1c0"/>
     </placeobj>
-    <placeobj handle="_cb589cd2ade491812fc" change="1508355092" id="P0202" type="Village">
+    <placeobj handle="_cb589cd2ade491812fc" change="1600717710" id="P0202" type="Village">
       <ptitle>Andersböle, Borgå, Finland</ptitle>
       <pname value="Andersböle" lang="se"/>
       <placeref hlink="_cb589cc90f055fc9f0c"/>
@@ -40375,6 +40391,10 @@
     <placeobj handle="_e8eed6b5a8828a20462e33920fa" change="1600703138" id="P0061" type="Farm">
       <pname value="Erikas"/>
       <placeref hlink="_cea130ab1076a8a160f"/>
+    </placeobj>
+    <placeobj handle="_e8ef61b1a4f456fa3fab2fbf00b" change="1600717711" id="P0064" type="Farm">
+      <pname value="Nygrannas"/>
+      <placeref hlink="_cb589cd2ade491812fc"/>
     </placeobj>
   </places>
   <repositories>
@@ -50900,6 +50920,79 @@ Piga Anna Stina Nordström 6/8 1826  1852 till p. 283                  1850 fr p
 
 Kyrkfattig
 ?? Greta Lisa Henricsdotter 1796    dog den 4 october 1847 För stöd fått ???????????</text>
+    </note>
+    <note handle="_e8ef4e0892b69511232ac908a49" change="1600715650" id="N0154" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7961288</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=7961288">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_e8ef61299f751211704f610c274" change="1600717655" id="N0155" type="Transcript">
+      <text>3 Andersböle
+
+No 1.
+Nygrannas Skattehemman 1/3 mantal
+
+vice Länsmans enka
+Ea Helena Isaksdotter Backman 4/4 1779 Dog dn 17 April 1856
+
+Förvall??? 
+Johan Nordberg 9/1 1829  1851 fr. p. 290 vigd 4/11 1851
+
+Son; Bonde
+Anders Backman 7/12 1816 Undergått ???????? Död d: 30 Sept 1850
+
+2. ggen gift
+Hu Anna Christina Mattsdotter 22/5 1819 d: 29 Sept 1851 lysning med Johan Nordberg p. 290
+
+Son Anders Wilhelm Backman 4/6 1841
+
+Piga Adolfina Dahlqvist 19/6 1842
+Piga Maria Sofia Nyholm 29/5 1841
+Piga Maria Sofia Häggblom 10/5 1830 1858 5/6 fått lysning med Gustaf Adolf Lax se nedan
+Dreng Gustaf Adolf Lax 6/12 1834           1858 5/6 fått lysning med Maria Sofia Häggblom se ofvan
+Dreng Anders Herman Nordberg 27/11 1835     1857 till pag. 290
+Piga Hedda Sofia Bärlund 14/6 1839
+Piga Maria Sodia Bärlund 17/6 1837
+Dreng Gustaf Gustafsson 2/1 1810
+Dreng Johan Weckman 20/7 1828
+Dreng Anders Gustaf Säälström 12/9 1819
+Dreng Eric Ericsson Wah???? 28/9 1811
+Piga Maria Charlotta Johansdotter 14/5 1821
+Piga Sofia Wilhelmina Isaksdotter 10/2 1832
+Piga Stiina Lovisa Törnqvist 19/12 1828
+Piga Lovisa B???? 19/8 1829
+Dreng Anders Gustaf Gustafsson 27/2 1817
+Dreng Johan Gabrielsson Gröndahl 13/7 1823
+Piga Helena Sofia Sjöström 14/9 1826
+Dreng Johan Weckman 20/7 1828
+Dreng Anders Johan Åberg 11/6 1806
+Piga Anna Stina Andersdotter 29/10 1824
+Piga Q.P. Lena Sofia Hurtig 25/12 1827
+Dreng ???? Gustaf Rosenström 27/6 1811
+Dreng Erik Johan Weckström 28/7 1833
+Piga Hedvig Maria Dahlqvist 3/3 1836
+Dreng Victor Lindström 30/8 1830
+Dreng Herman Wilhelm Weckström 28/3 1835
+Piga Wilhelmina Backman 8/11 1828
+Piga Maria Sofia Häggblom 10/5 1830
+Piga Maria Weckström 3/3 1837
+
+
+
+
+
+
+</text>
+      <style name="link" value="gramps://Person/handle/cb589cd842d7d79f472">
+        <range start="147" end="161"/>
+      </style>
+      <style name="link" value="gramps://Person/handle/cea5bdd36ee6d8e76f8">
+        <range start="296" end="322"/>
+      </style>
+      <style name="link" value="gramps://Person/handle/cb589cd84543096b0fa">
+        <range start="682" end="704"/>
+      </style>
     </note>
   </notes>
 </database>
