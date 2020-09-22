@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2020-09-21" version="5.1.2"/>
+    <created date="2020-09-22" version="5.1.2"/>
     <researcher>
     </researcher>
   </header>
@@ -5073,10 +5073,11 @@
       <dateval val="1868-08-16"/>
       <place hlink="_cb589cd851a2637b2c6"/>
     </event>
-    <event handle="_cb589cdf42b13c0faec" change="1426530435" id="E3602">
+    <event handle="_cb589cdf42b13c0faec" change="1600763717" id="E3602">
       <type>Birth</type>
       <dateval val="1857-04-08"/>
-      <place hlink="_cb589cd2ade491812fc"/>
+      <place hlink="_e8ef61b1a4f456fa3fab2fbf00b"/>
+      <citationref hlink="_e8f114ff453603c3209570bdb66"/>
     </event>
     <event handle="_cb589cdf44736428b8e" change="1426530446" id="E3603">
       <type>Death</type>
@@ -6197,10 +6198,9 @@
     <event handle="_cb589ce91084a36eec1" change="1397384063" id="E4886">
       <type>Death</type>
     </event>
-    <event handle="_cb589ce910b2c3b376d" change="1397384063" id="E4887">
+    <event handle="_cb589ce910b2c3b376d" change="1600763748" id="E4887">
       <type>Birth</type>
       <dateval val="1887-03-31"/>
-      <place hlink="_cb589cc7f8d1b88b055"/>
     </event>
     <event handle="_cb589ce91a457161db8" change="1397384063" id="E4890">
       <type>Birth</type>
@@ -7534,10 +7534,11 @@
       <dateval val="1854-10-09"/>
       <citationref hlink="_df878bac36c3a350813e5a86d4e"/>
     </event>
-    <event handle="_cb589cfee643de2a3c7" change="1600715564" id="E7259">
+    <event handle="_cb589cfee643de2a3c7" change="1600762603" id="E7259">
       <type>Marriage</type>
       <dateval val="1851-11-04"/>
       <citationref hlink="_df878bac36c3a350813e5a86d4e"/>
+      <citationref hlink="_e8f10dcc647aa62da63f2f4628"/>
     </event>
     <event handle="_cb589cfee735eb81793" change="1426444172" id="E7260">
       <type>Marriage</type>
@@ -13006,7 +13007,7 @@
       <place hlink="_cb589cd851a2637b2c6"/>
       <citationref hlink="_df878bac36c3a350813e5a86d4e"/>
     </event>
-    <event handle="_df87a2bbc8d673c1c7b3cad5025" change="1600715376" id="E2838">
+    <event handle="_df87a2bbc8d673c1c7b3cad5025" change="1600761969" id="E2838">
       <type>Residence</type>
       <dateval val="1851"/>
       <place hlink="_cb589cd851a2637b2c6"/>
@@ -13607,11 +13608,36 @@
     <event handle="_e8ef4bc8d411f413a1bd5fa465b" change="1600715414" id="E0086">
       <type>Burial</type>
     </event>
-    <event handle="_e8ef6139e4c4ec0daa61d9ae570" change="1600717712" id="E0090">
+    <event handle="_e8ef6139e4c4ec0daa61d9ae570" change="1600763564" id="E0090">
       <type>Residence</type>
       <datespan start="1851" stop="1858"/>
       <place hlink="_e8ef61b1a4f456fa3fab2fbf00b"/>
       <citationref hlink="_e8ef6135c5c23057c0b4003d9ad"/>
+      <citationref hlink="_e8f114ff453603c3209570bdb66"/>
+    </event>
+    <event handle="_e8f116580f26903970298e8a536" change="1600763497" id="E0092">
+      <type>Birth</type>
+      <dateval val="1853-01-07"/>
+      <place hlink="_e8ef61b1a4f456fa3fab2fbf00b"/>
+      <citationref hlink="_e8f114ff453603c3209570bdb66"/>
+    </event>
+    <event handle="_e8f116b33256974e73fbb0819dc" change="1600763535" id="E0094">
+      <type>Death</type>
+      <dateval val="1854-01-12"/>
+      <place hlink="_e8ef61b1a4f456fa3fab2fbf00b"/>
+      <citationref hlink="_e8f114ff453603c3209570bdb66"/>
+    </event>
+    <event handle="_e8f1176e60c1227d9a012562ee2" change="1600763611" id="E0096">
+      <type>Birth</type>
+      <dateval val="1854-11-03"/>
+      <place hlink="_e8ef61b1a4f456fa3fab2fbf00b"/>
+      <citationref hlink="_e8f114ff453603c3209570bdb66"/>
+    </event>
+    <event handle="_e8f117da2e63f65a05b02e128ce" change="1600763655" id="E0097">
+      <type>Death</type>
+      <dateval val="1855-03-31"/>
+      <place hlink="_e8ef61b1a4f456fa3fab2fbf00b"/>
+      <citationref hlink="_e8f114ff453603c3209570bdb66"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -20122,7 +20148,7 @@
       <eventref hlink="_cb589cdf3bf1a6d816c" role="Primary"/>
       <childof hlink="_cb589cd83c605a3885d"/>
     </person>
-    <person handle="_cb589cdf4285693996f" change="1600717717" id="I4968">
+    <person handle="_cb589cdf4285693996f" change="1600763788" id="I4968">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Sofia Lovisa</first>
@@ -21602,13 +21628,12 @@
       <eventref hlink="_cb589ce909937fae6c6" role="Primary"/>
       <childof hlink="_cb589cdf358646b8e3c"/>
     </person>
-    <person handle="_cb589ce910508c2675d" change="1414284937" id="I5728">
+    <person handle="_cb589ce910508c2675d" change="1600763756" id="I5728">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Elin Anna Otilia</first>
         <surname>Nordberg</surname>
       </name>
-      <eventref hlink="_cb589ce91084a36eec1" role="Primary"/>
       <eventref hlink="_cb589ce910b2c3b376d" role="Primary"/>
       <childof hlink="_cb589cdf46957af49f5"/>
     </person>
@@ -25031,6 +25056,26 @@
       <eventref hlink="_e8247dfac64b637bc3f3604c91" role="Primary"/>
       <childof hlink="_cb589cc849649a1de75"/>
     </person>
+    <person handle="_e8f1153ebec4386760e7e6d9b2a" change="1600763788" id="I0008">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Anna Lovisa</first>
+        <surname derivation="Inherited">Nordberg</surname>
+      </name>
+      <eventref hlink="_e8f116580f26903970298e8a536" role="Primary"/>
+      <eventref hlink="_e8f116b33256974e73fbb0819dc" role="Primary"/>
+      <childof hlink="_cb589cd844945b4bc76"/>
+    </person>
+    <person handle="_e8f1170c35764a9e1e4c8371c14" change="1600763788" id="I0009">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Lovisa Wilhelmina</first>
+        <surname derivation="Inherited">Nordberg</surname>
+      </name>
+      <eventref hlink="_e8f1176e60c1227d9a012562ee2" role="Primary"/>
+      <eventref hlink="_e8f117da2e63f65a05b02e128ce" role="Primary"/>
+      <childof hlink="_cb589cd844945b4bc76"/>
+    </person>
   </people>
   <families>
     <family handle="_cb589cc7f9c792dc427" change="1548617779" id="F1472">
@@ -26736,12 +26781,14 @@
       <childref hlink="_cb589cdf3881fceaae6"/>
       <childref hlink="_cb589cdf3ad7f66951d"/>
     </family>
-    <family handle="_cb589cd844945b4bc76" change="1600717717" id="F1687">
+    <family handle="_cb589cd844945b4bc76" change="1600763788" id="F1687">
       <rel type="Married"/>
       <father hlink="_cb589cd842d7d79f472"/>
       <mother hlink="_cea5bdd36ee6d8e76f8"/>
       <eventref hlink="_cb589cfee643de2a3c7" role="Family"/>
       <eventref hlink="_e8ef6139e4c4ec0daa61d9ae570" role="Family"/>
+      <childref hlink="_e8f1153ebec4386760e7e6d9b2a"/>
+      <childref hlink="_e8f1170c35764a9e1e4c8371c14"/>
       <childref hlink="_cb589cdf4285693996f"/>
       <citationref hlink="_e8ee2da89754589e97eb00a0f9e"/>
     </family>
@@ -35391,6 +35438,20 @@
       <noteref hlink="_e8ef4e0892b69511232ac908a49"/>
       <noteref hlink="_e8ef61299f751211704f610c274"/>
       <sourceref hlink="_db7f1d99179967edd7fa10f675"/>
+    </citation>
+    <citation handle="_e8f10dcc647aa62da63f2f4628" change="1600762601" id="C1124">
+      <page>jakso 39</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e8f109ad546477f1439a7ade814"/>
+      <noteref hlink="_e8f10db92af65e2877406497f97"/>
+      <sourceref hlink="_cf932f76149565a5899"/>
+    </citation>
+    <citation handle="_e8f114ff453603c3209570bdb66" change="1600763356" id="C1125">
+      <page>2-3</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e8f110edd2c223f95871f705a08"/>
+      <noteref hlink="_e8f114f4d0950f08297751577fc"/>
+      <sourceref hlink="_db8a9276e0643ec55c8ba3c3182"/>
     </citation>
   </citations>
   <sources>
@@ -50927,7 +50988,7 @@ Kyrkfattig
         <range start="0" end="45"/>
       </style>
     </note>
-    <note handle="_e8ef61299f751211704f610c274" change="1600717655" id="N0155" type="Transcript">
+    <note handle="_e8ef61299f751211704f610c274" change="1600762867" id="N0155" type="Transcript">
       <text>3 Andersböle
 
 No 1.
@@ -50936,7 +50997,7 @@ Nygrannas Skattehemman 1/3 mantal
 vice Länsmans enka
 Ea Helena Isaksdotter Backman 4/4 1779 Dog dn 17 April 1856
 
-Förvall??? 
+Förvaltaren
 Johan Nordberg 9/1 1829  1851 fr. p. 290 vigd 4/11 1851
 
 Son; Bonde
@@ -50993,6 +51054,47 @@ Piga Maria Weckström 3/3 1837
       <style name="link" value="gramps://Person/handle/cb589cd84543096b0fa">
         <range start="682" end="704"/>
       </style>
+    </note>
+    <note handle="_e8f109ad546477f1439a7ade814" change="1600762169" id="N0156" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7977158</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=7977158">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_e8f10db92af65e2877406497f97" change="1600762593" id="N0157" type="Transcript">
+      <text>Wigde år 1851 
+November månad
+52.  4.    
+Johan Nordberg och Anna Christina Backman
+Brudg. Bondeson, ungkarl fr Norrveckoski Hannusas
+Brud Bonde Enka fr Andersböle Nygrans - 30</text>
+      <style name="fontface" value="Cantarell">
+        <range start="0" end="176"/>
+      </style>
+    </note>
+    <note handle="_e8f110edd2c223f95871f705a08" change="1600762929" id="N0158" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7966509</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=7966509">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_e8f114f4d0950f08297751577fc" change="1600763352" id="N0159" type="Transcript">
+      <text>Andersböle 3
+Nygrannas Skattehemman
+
+	aflede bonden Anders Backmans barn med Anna Stina Mattsdr f. 1819   ? bet 14/10 1849 till ????
+Anders Wilhelm Backman 14/6 1841
+Carl Gustaf Backman  13/4 1843 Dog den 18 Maj 1849
+Adolf Edvin Backman 22/8 1845
+Victor Ferdinand Backman 9/1 1847
+Anna Lovisa Backman  22/8 1849 Dog den 28. November 1850
+
+	Förvaltaren Johan Nordbergs barn med Anna Stina Mattsdotter f. 18 22/5 19
+Anna Lovisa Nordberg 7/1 1853 dog den 12 Januari 1854
+Lovisa Wilhelmina Nordberg 3/11 1854 dog d. 31 Mars 1855
+Sofia Lovisa Nordberg 8/4 1857
+
+</text>
     </note>
   </notes>
 </database>
