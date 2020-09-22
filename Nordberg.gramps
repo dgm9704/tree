@@ -8,7 +8,6 @@
     </researcher>
   </header>
   <name-formats>
-    <format number="-1" name="NotPatronymic Given Patronymic" fmt_str="Notpatronymic given patronymic" active="1"/>
     <format number="-2" name="Primary[sur] (NotPatronymic) Primary[con] Given Patronymic[sur] Suffix" fmt_str="primary[sur] (notpatronymic) primary[con] given patronymic[sur] suffix" active="1"/>
   </name-formats>
   <tags>
@@ -13693,6 +13692,19 @@
       <place hlink="_e8ef61b1a4f456fa3fab2fbf00b"/>
       <citationref hlink="_e8f114ff453603c3209570bdb66"/>
     </event>
+    <event handle="_e8f19b344747f4d168934aaba4" change="1600794278" id="E0107">
+      <type>Residence</type>
+      <datespan start="1859" stop="1868"/>
+      <place hlink="_e8ef61b1a4f456fa3fab2fbf00b"/>
+      <citationref hlink="_e8f18cf556c3456b4e3a0d7012"/>
+      <citationref hlink="_e8f114ff453603c3209570bdb66"/>
+    </event>
+    <event handle="_e8f244d0e1e3cf617e763463a9b" change="1600795214" id="E0108">
+      <type>Residence</type>
+      <datespan start="1869" stop="1878"/>
+      <place hlink="_e8ef61b1a4f456fa3fab2fbf00b"/>
+      <citationref hlink="_e8f244c4a0462b755c2959a72e0"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1548617779" id="I3858">
@@ -20202,7 +20214,7 @@
       <eventref hlink="_cb589cdf3bf1a6d816c" role="Primary"/>
       <childof hlink="_cb589cd83c605a3885d"/>
     </person>
-    <person handle="_cb589cdf4285693996f" change="1600765305" id="I4968">
+    <person handle="_cb589cdf4285693996f" change="1600795217" id="I4968">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Sofia Lovisa</first>
@@ -25111,7 +25123,7 @@
       <eventref hlink="_e8247dfac64b637bc3f3604c91" role="Primary"/>
       <childof hlink="_cb589cc849649a1de75"/>
     </person>
-    <person handle="_e8f1153ebec4386760e7e6d9b2a" change="1600765305" id="I0008">
+    <person handle="_e8f1153ebec4386760e7e6d9b2a" change="1600795217" id="I0008">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anna Lovisa</first>
@@ -25121,7 +25133,7 @@
       <eventref hlink="_e8f116b33256974e73fbb0819dc" role="Primary"/>
       <childof hlink="_cb589cd844945b4bc76"/>
     </person>
-    <person handle="_e8f1170c35764a9e1e4c8371c14" change="1600765305" id="I0009">
+    <person handle="_e8f1170c35764a9e1e4c8371c14" change="1600795217" id="I0009">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Lovisa Wilhelmina</first>
@@ -25141,7 +25153,7 @@
       <eventref hlink="_e8f1234d5f410ba42e93fd5d2c8" role="Primary"/>
       <parentin hlink="_e8f1209e5774ff3209bff52671"/>
     </person>
-    <person handle="_e8f12378afb1276487f39048716" change="1600765305" id="I0011">
+    <person handle="_e8f12378afb1276487f39048716" change="1600795217" id="I0011">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Anders Wilhelm</first>
@@ -25161,7 +25173,7 @@
       <eventref hlink="_e8f124e01a571a8f8ca1b424576" role="Primary"/>
       <childof hlink="_e8f1209e5774ff3209bff52671"/>
     </person>
-    <person handle="_e8f124fc9e7496f09fa2383b74d" change="1600765823" id="I0013">
+    <person handle="_e8f124fc9e7496f09fa2383b74d" change="1600795217" id="I0013">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Adolf Edvard</first>
@@ -25171,7 +25183,7 @@
       <childof hlink="_e8f1209e5774ff3209bff52671"/>
       <childof hlink="_cb589cd844945b4bc76"/>
     </person>
-    <person handle="_e8f12572e90b77c01e528f48fc" change="1600765305" id="I0014">
+    <person handle="_e8f12572e90b77c01e528f48fc" change="1600795217" id="I0014">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Victor Ferdinand</first>
@@ -26896,12 +26908,14 @@
       <childref hlink="_cb589cdf3881fceaae6"/>
       <childref hlink="_cb589cdf3ad7f66951d"/>
     </family>
-    <family handle="_cb589cd844945b4bc76" change="1600765305" id="F1687">
+    <family handle="_cb589cd844945b4bc76" change="1600795217" id="F1687">
       <rel type="Married"/>
       <father hlink="_cb589cd842d7d79f472"/>
       <mother hlink="_cea5bdd36ee6d8e76f8"/>
       <eventref hlink="_cb589cfee643de2a3c7" role="Family"/>
       <eventref hlink="_e8ef6139e4c4ec0daa61d9ae570" role="Family"/>
+      <eventref hlink="_e8f19b344747f4d168934aaba4" role="Family"/>
+      <eventref hlink="_e8f244d0e1e3cf617e763463a9b" role="Family"/>
       <childref hlink="_e8f12378afb1276487f39048716" frel="Stepchild"/>
       <childref hlink="_e8f124fc9e7496f09fa2383b74d" frel="Stepchild"/>
       <childref hlink="_e8f12572e90b77c01e528f48fc" frel="Stepchild"/>
@@ -35580,6 +35594,20 @@
       <noteref hlink="_e8f110edd2c223f95871f705a08"/>
       <noteref hlink="_e8f114f4d0950f08297751577fc"/>
       <sourceref hlink="_db8a9276e0643ec55c8ba3c3182"/>
+    </citation>
+    <citation handle="_e8f18cf556c3456b4e3a0d7012" change="1600777425" id="C1126">
+      <page>Länsi/3</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e8f18cdab1545fcfcb8809301be"/>
+      <noteref hlink="_e8f19b281b15a36b924c1210094"/>
+      <sourceref hlink="_d6cda20a4443c79320f8ff5ffff"/>
+    </citation>
+    <citation handle="_e8f244c4a0462b755c2959a72e0" change="1600795209" id="C1127">
+      <page>3</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e8f240d21a338efac9312d1082b"/>
+      <noteref hlink="_e8f244aca3a5382d9275ba1e249"/>
+      <sourceref hlink="_db8ab6037e9d25a7461400cbae"/>
     </citation>
   </citations>
   <sources>
@@ -51222,6 +51250,69 @@ Anna Lovisa Nordberg 7/1 1853 dog den 12 Januari 1854
 Lovisa Wilhelmina Nordberg 3/11 1854 dog d. 31 Mars 1855
 Sofia Lovisa Nordberg 8/4 1857
 
+</text>
+    </note>
+    <note handle="_e8f18cdab1545fcfcb8809301be" change="1600775924" id="N0160" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7961797</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=7961797">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_e8f19b281b15a36b924c1210094" change="1600777424" id="N0161" type="Transcript">
+      <text>3	Andersböle
+No 1
+Nygrannas Skattehemman 1/3 mantal
+Förvaltaren Johan Nordberg 9/1 1829
+Hu Anna Krisitna Mattsdotter 22/5 1819 2dra ggen gift
+
+Son till afl. Länsman
+Anders Wilhelm Backman 4/6 1841 ?? till lysning med ??? Eva Stina Stjernberg fr.p. 275 863 till p. 298   wigde 18 29/7 63 
+Hu Eva Stina Stjernberg 21/12 1839 1860 fr.p. 275
+Stjufson till Nordberg
+Adolf Edvard Backman 22/8 1845
+Stjufson 
+Wiktor Ferdinand Backman 9/1 1847
+
+Piga Q.P. Anna Sofia Fremling 3/12 1835 66 t.p. 44
+Piga Henrika Dahlqvist 1/1 1847 Sibbo
+Dreng Anders Gustaf Pihlström 29/11 1846
+Piga Helena Sjöblom 10/7 1843
+Piga Maria Henriksdotter 4/1 1824
+Dreng Gustaf Adolf Gustafsson v.h. Lindfors 29/5 1842
+Piga Lena Sofia Grönman(?) 15/1 1842
+Piga Maria Sofia Nyholm 29/5 1841
+Piga Adolfina Dahlqvist 19/6 1842
+Dreng Gustaf Adolf Lax 6/12 1834
+Piga Maria Sofia Häggblom 10/5 1830
+Piga Helena Wilhelmina  Lundén 9/7 1836
+Piga Sofia Wilhelmina Wallenius 20/4 1842
+Piga Maria Christina ??? 19/9 1822
+Piga Christina Lena Pihlström 25/9 1843
+??? Matts
+Dreng ??? 28/7 1842
+Piga Q.P. Helena Sjöblom 10/7 1843
+Piga Q.P. Christina Lovisa Käck 27/7 1843
+Piga Christina Wilhelmina Weckman 29/10 1849
+</text>
+    </note>
+    <note handle="_e8f240d21a338efac9312d1082b" change="1600794795" id="N0162" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/kirjat/Kirkonkirjat/porvoo/rippikirja_1869-1878_ruotksrk_mko422-457/3.htm</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/kirjat/Kirkonkirjat/porvoo/rippikirja_1869-1878_ruotksrk_mko422-457/3.htm">
+        <range start="0" end="106"/>
+      </style>
+    </note>
+    <note handle="_e8f244aca3a5382d9275ba1e249" change="1600795199" id="N0163" type="Transcript">
+      <text>3. Andersböle
+Nygrannas skattehemman 1/3 mant
+Förvaltaren, Stjuffar
+Johan Nordberg 9/1 1829
+2de ggen gift
+Hu Maria Christina Mattsdotter 22/5 1819
+Dotter Sofia Lovisa Nordberg 8/4 1857
+Stjufson Bonde
+Adolf Edvard Backman 22/8 1845  27/5 1871 lysning med Maria Fredrika Gustafsdr p. 405 vigde 4/5 1871
+Hu Maria Fredrika Gustafsdr 6/2 1847  1871 fr. p. 405
+Stjufson  Viktor Ferdinand Backman 9/1 1847 1871 t.p. 436
 </text>
     </note>
   </notes>
