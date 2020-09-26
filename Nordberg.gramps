@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2020-09-25" version="5.1.2"/>
+    <created date="2020-09-27" version="5.1.2"/>
     <researcher>
     </researcher>
   </header>
@@ -289,7 +289,7 @@
       <place hlink="_cdfa144c48f5f32c9ad"/>
       <citationref hlink="_d896b90d92a364c82b12ab0ff3e"/>
     </event>
-    <event handle="_cb589cc90ed374a06c7" change="1508367532" id="E0207">
+    <event handle="_cb589cc90ed374a06c7" change="1601113375" id="E0207">
       <type>Birth</type>
       <dateval val="1812-10-22"/>
       <place hlink="_cdf82fb91b45aadb551"/>
@@ -1608,12 +1608,13 @@
       <place hlink="_cb589ccbc8775a4d7d2"/>
       <citationref hlink="_cdccc3f39ef4acce289"/>
     </event>
-    <event handle="_cb589ccec537103c0bf" change="1476203370" id="E1026">
+    <event handle="_cb589ccec537103c0bf" change="1601113892" id="E1026">
       <type>Birth</type>
       <dateval val="1740"/>
       <citationref hlink="_d6ce20c9ab514fd6a8746a89488"/>
+      <citationref hlink="_d6d0db76f4a3b74401d88a317bf"/>
     </event>
-    <event handle="_cb589ccec57109bd359" change="1563271879" id="E1027">
+    <event handle="_cb589ccec57109bd359" change="1601113875" id="E1027">
       <type>Death</type>
       <dateval val="1798-12-01"/>
       <place hlink="_d6d4c9a6ea11b074476c2f15124"/>
@@ -9071,7 +9072,7 @@
       <place hlink="_cdf82fb91b45aadb551"/>
       <citationref hlink="_d6cdc2f2a3f349fd1fed86b7d09"/>
     </event>
-    <event handle="_d6cdd008068b522d91e952acf0" change="1476121542" id="E1984">
+    <event handle="_d6cdd008068b522d91e952acf0" change="1601113528" id="E1984">
       <type>Residence</type>
       <datespan start="1803" stop="1808"/>
       <place hlink="_cb589ccbc8775a4d7d2"/>
@@ -9140,7 +9141,7 @@
       <citationref hlink="_d6d49b74f404d7830edc98ab423"/>
       <citationref hlink="_cdbd0dc1efa1d31833b"/>
     </event>
-    <event handle="_d6ce20cf0fa98b8785dddd209a" change="1535888918" id="E2002">
+    <event handle="_d6ce20cf0fa98b8785dddd209a" change="1601114656" id="E2002">
       <type>Residence</type>
       <datespan start="1771" stop="1776"/>
       <place hlink="_d6d4c9a6ea11b074476c2f15124"/>
@@ -15752,7 +15753,7 @@
       <childof hlink="_cb589ccec4041260320"/>
       <parentin hlink="_cb589ccbca636502f22"/>
     </person>
-    <person handle="_cb589ccec504a61ee7c" change="1476645671" id="I4690">
+    <person handle="_cb589ccec504a61ee7c" change="1601156965" id="I4690">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Johan</first>
@@ -15762,6 +15763,7 @@
       <eventref hlink="_cb589ccec57109bd359" role="Primary"/>
       <childof hlink="_cb589ccec6565681a23"/>
       <parentin hlink="_cb589ccbca636502f22"/>
+      <noteref hlink="_e8fe6b240ef1a056a19af188a60"/>
     </person>
     <person handle="_cb589ccec7571fa64c7" change="1535047043" id="I3397">
       <gender>M</gender>
@@ -29726,16 +29728,18 @@
       <noteref hlink="_d6ce1e63f091ef4741a041a2872"/>
       <sourceref hlink="_d6ce1e32504608c072239f4321b"/>
     </citation>
-    <citation handle="_d6ce20c9ab514fd6a8746a89488" change="1476203367" id="C0204">
+    <citation handle="_d6ce20c9ab514fd6a8746a89488" change="1601113717" id="C0204">
       <page>114</page>
       <confidence>2</confidence>
       <noteref hlink="_d6ce20c6a4c443eae86b24ba8a7"/>
+      <noteref hlink="_e8fe223d7816e5caaee5d79ec27"/>
       <sourceref hlink="_d6ce208ff563b4301d682b6a32a"/>
     </citation>
-    <citation handle="_d6ce564113f6786c860d7585d2b" change="1476135616" id="C0205">
+    <citation handle="_d6ce564113f6786c860d7585d2b" change="1601113221" id="C0205">
       <page>kuva 147</page>
       <confidence>2</confidence>
       <noteref hlink="_d6ce563b3ca5df7741778d7daf4"/>
+      <noteref hlink="_e8fe1d814bc726d4ea6e8d43940"/>
       <sourceref hlink="_d6cdacb25a48d6a1cbd4dbcd73"/>
     </citation>
     <citation handle="_d6ce57c1870337fd8b7dfb5aa10" change="1476135774" id="C0206">
@@ -51523,6 +51527,38 @@ November månad
       <text>Döde år 1858
 Januarii Månad
 28    7/2    Anna Stina Sundman    Smed enka    79    ålderdom    Kullo Sisbacka</text>
+    </note>
+    <note handle="_e8fe1d814bc726d4ea6e8d43940" change="1601113372" id="N0186" type="Transcript">
+      <text>Födde år 1812
+October
+
+22    23    Carl Johan
+Par. Soknesmeden Johan Nordberg hu Hedwig Johansdotter 21 x Norrveckoski
+Test. Smeden Staffan Nordberg, Dess son Gustaf Nordberg, hu Lena Abrahamsdr Clemets, Anna Henricsdotter ifr Söderveckoski Ulas</text>
+      <style name="link" value="gramps://Person/handle/cb589ccecb9359c7dc0">
+        <range start="132" end="148"/>
+      </style>
+      <style name="link" value="gramps://Person/handle/cb589cd273c0aa05090">
+        <range start="159" end="174"/>
+      </style>
+    </note>
+    <note handle="_e8fe223d7816e5caaee5d79ec27" change="1601113711" id="N0187" type="Citation">
+      <text>Smed Joh Matths 1740
+hu Carin Henricsdr 1750
+pig Caisa Andersdr 1761</text>
+    </note>
+    <note handle="_e8fe6b240ef1a056a19af188a60" change="1601156964" id="N0188" type="Research">
+      <text>Ei ole käytettävissä syntyneiden tietoja tai lastenkirjoja joista etsiä.
+Käydään läpi rippikirjaa 1749-1759 jossa pitäisi olla merkittynä 9-19 vuotiaana
+- Aloitettu Hindhår gård s. 70 
+- Hindhår Caus ?
+- Ei löydy Norrweckoski
+- Ei löydy Andersböle
+- Ei löydy Söderweckoski
+- Michelsböle Snickars?
+- Ei löydy Kullo
+- Swartzå Kåskos?
+- Päästy tähän asti: Örrby Simons</text>
     </note>
   </notes>
 </database>
