@@ -13942,6 +13942,13 @@
       <citationref hlink="_e908b357ae0425ebce75868ce25"/>
       <citationref hlink="_e908db70e8c2830879c67646c40"/>
     </event>
+    <event handle="_e9097416ab12a8ccf7f4a96bb60" change="1601417764" id="E0148">
+      <type>Residence</type>
+      <datespan start="1849" stop="1858"/>
+      <place hlink="_e37e0e3f53b3d29ddafbb93feec"/>
+      <citationref hlink="_e90974120554c222a8242265a5f"/>
+      <citationref hlink="_e90906e3aae2bf9a77388af6001"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1548617779" id="I3858">
@@ -25596,7 +25603,7 @@
       <eventref hlink="_e908df471d71984273f245bc2de" role="Primary"/>
       <parentin hlink="_e908de8823946302bb4b7fd0deb"/>
     </person>
-    <person handle="_e908dfa1e6019d6f7d11fb9ebcc" change="1601413693" id="I0033">
+    <person handle="_e908dfa1e6019d6f7d11fb9ebcc" change="1601417764" id="I0033">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Frans Gustaf</first>
@@ -25605,7 +25612,7 @@
       <eventref hlink="_e908e024c9b20c07c8f842726bb" role="Primary"/>
       <childof hlink="_e908de8823946302bb4b7fd0deb"/>
     </person>
-    <person handle="_e909030c6bc24f73b8cd4079f3b" change="1601413693" id="I0034">
+    <person handle="_e909030c6bc24f73b8cd4079f3b" change="1601417764" id="I0034">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Carl</first>
@@ -25615,7 +25622,7 @@
       <eventref hlink="_e90906ff55b7305834541f33ad9" role="Primary"/>
       <childof hlink="_e908de8823946302bb4b7fd0deb"/>
     </person>
-    <person handle="_e909073539c2d591541173103ed" change="1601413693" id="I0035">
+    <person handle="_e909073539c2d591541173103ed" change="1601417764" id="I0035">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Amanda Josefina</first>
@@ -28830,12 +28837,13 @@
       <eventref hlink="_e908b6788c0322b50a96513412f" role="Family"/>
       <childref hlink="_e908b733bf261ac1e3d1edaf1ef"/>
     </family>
-    <family handle="_e908de8823946302bb4b7fd0deb" change="1601413693" id="F0008">
+    <family handle="_e908de8823946302bb4b7fd0deb" change="1601417764" id="F0008">
       <rel type="Married"/>
       <father hlink="_e908931435d354a5e2a026b371c"/>
       <mother hlink="_e908deba4db6b6f5bce522a03cf"/>
       <eventref hlink="_e9094d342563dbcd7e3ffdefdea" role="Family"/>
       <eventref hlink="_e9094f0258263bdef6487b21225" role="Family"/>
+      <eventref hlink="_e9097416ab12a8ccf7f4a96bb60" role="Family"/>
       <childref hlink="_e908dfa1e6019d6f7d11fb9ebcc"/>
       <childref hlink="_e909030c6bc24f73b8cd4079f3b"/>
       <childref hlink="_e909073539c2d591541173103ed"/>
@@ -36217,6 +36225,13 @@
       <noteref hlink="_e9094a6a33846de7f08827de110"/>
       <noteref hlink="_e9094d0b2573c491aa12cc5bd52"/>
       <sourceref hlink="_e90949f79c772df14277d4c3985"/>
+    </citation>
+    <citation handle="_e90974120554c222a8242265a5f" change="1601417570" id="C1145">
+      <page>227</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e9095669bd56d3930b70f2e3c52"/>
+      <noteref hlink="_e90974091c94dfef80d4b60538"/>
+      <sourceref hlink="_db7f1d99179967edd7fa10f675"/>
     </citation>
   </citations>
   <sources>
@@ -52508,6 +52523,30 @@ Flyttar nu till Kullo i Borgå Socken
 Gustaf Gustafsson Stjernberg ifrån Kullo Sisbacka af Borgå Socken
 
 Attesteres Sibbo den 8de November 1843</text>
+    </note>
+    <note handle="_e9095669bd56d3930b70f2e3c52" change="1601414460" id="N0296" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7961524</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=7961524">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_e90974091c94dfef80d4b60538" change="1601417567" id="N0297" type="Transcript">
+      <text>227 Kullo Nyby
+Sisbacka Rusthåll
+Rusthållares enka
+Ea Maria Henriksdotter 12/6 1793    Dog den 11 Juni 1849
+
+Far; Gammal Rusthållaren
+Enkl. Henric Henricsson 1763    Dog den 28 Sept 1848
+Son. Rusthållaren 2de ggen gift
+enkl Gustaf Gustafsson Stjernberg 28/3 1816    vigd 12/10 1858
+Hu anna Lovisa Eskolin 20/5 1826    Dog d 18 Mars? 1857
+
+Son Bror
+Carl Gustafsson Stjernberg 2/1 1832    1844 d 13/5 till lysning med Hedda Lovisa Stjermberg fr pag 275?    1854 till p. 7    vigd 22/5 1857
+Dotter
+Lovisa Wilhelmina Gustafsdr 15/3 1841
+</text>
     </note>
   </notes>
 </database>
