@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2020-09-29" version="5.1.2"/>
+    <created date="2020-09-30" version="5.1.2"/>
     <researcher>
     </researcher>
   </header>
@@ -13928,6 +13928,20 @@
       <place hlink="_e37e0e3f53b3d29ddafbb93feec"/>
       <citationref hlink="_e90906e3aae2bf9a77388af6001"/>
     </event>
+    <event handle="_e9094d342563dbcd7e3ffdefdea" change="1601413495" id="E0146">
+      <type>Marriage</type>
+      <dateval val="1843-10-26"/>
+      <place hlink="_cea11f0929a42eefca3"/>
+      <citationref hlink="_e90948d566d4964698970b62d7b"/>
+      <citationref hlink="_e9094d13b8c6109c9b284ba63f1"/>
+    </event>
+    <event handle="_e9094f0258263bdef6487b21225" change="1601413684" id="E0147">
+      <type>Residence</type>
+      <datespan start="1843" stop="1848"/>
+      <place hlink="_e37e0e3f53b3d29ddafbb93feec"/>
+      <citationref hlink="_e908b357ae0425ebce75868ce25"/>
+      <citationref hlink="_e908db70e8c2830879c67646c40"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1548617779" id="I3858">
@@ -25582,7 +25596,7 @@
       <eventref hlink="_e908df471d71984273f245bc2de" role="Primary"/>
       <parentin hlink="_e908de8823946302bb4b7fd0deb"/>
     </person>
-    <person handle="_e908dfa1e6019d6f7d11fb9ebcc" change="1601406214" id="I0033">
+    <person handle="_e908dfa1e6019d6f7d11fb9ebcc" change="1601413693" id="I0033">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Frans Gustaf</first>
@@ -25591,7 +25605,7 @@
       <eventref hlink="_e908e024c9b20c07c8f842726bb" role="Primary"/>
       <childof hlink="_e908de8823946302bb4b7fd0deb"/>
     </person>
-    <person handle="_e909030c6bc24f73b8cd4079f3b" change="1601406720" id="I0034">
+    <person handle="_e909030c6bc24f73b8cd4079f3b" change="1601413693" id="I0034">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Carl</first>
@@ -25601,7 +25615,7 @@
       <eventref hlink="_e90906ff55b7305834541f33ad9" role="Primary"/>
       <childof hlink="_e908de8823946302bb4b7fd0deb"/>
     </person>
-    <person handle="_e909073539c2d591541173103ed" change="1601406214" id="I0035">
+    <person handle="_e909073539c2d591541173103ed" change="1601413693" id="I0035">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Amanda Josefina</first>
@@ -28816,10 +28830,12 @@
       <eventref hlink="_e908b6788c0322b50a96513412f" role="Family"/>
       <childref hlink="_e908b733bf261ac1e3d1edaf1ef"/>
     </family>
-    <family handle="_e908de8823946302bb4b7fd0deb" change="1601411441" id="F0008">
+    <family handle="_e908de8823946302bb4b7fd0deb" change="1601413693" id="F0008">
       <rel type="Married"/>
       <father hlink="_e908931435d354a5e2a026b371c"/>
       <mother hlink="_e908deba4db6b6f5bce522a03cf"/>
+      <eventref hlink="_e9094d342563dbcd7e3ffdefdea" role="Family"/>
+      <eventref hlink="_e9094f0258263bdef6487b21225" role="Family"/>
       <childref hlink="_e908dfa1e6019d6f7d11fb9ebcc"/>
       <childref hlink="_e909030c6bc24f73b8cd4079f3b"/>
       <childref hlink="_e909073539c2d591541173103ed"/>
@@ -36188,6 +36204,20 @@
       <noteref hlink="_e90906df21f2a0d3f199369817e"/>
       <sourceref hlink="_db8a9276e0643ec55c8ba3c3182"/>
     </citation>
+    <citation handle="_e90948d566d4964698970b62d7b" change="1601413037" id="C1143">
+      <page>58-59</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e90946646f750a50d4933017ef2"/>
+      <noteref hlink="_e90948b769f6d89d3b0cbfa5849"/>
+      <sourceref hlink="_db74777041c4359196a9a5f04c7"/>
+    </citation>
+    <citation handle="_e9094d13b8c6109c9b284ba63f1" change="1601413481" id="C1144">
+      <page>1843/442</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e9094a6a33846de7f08827de110"/>
+      <noteref hlink="_e9094d0b2573c491aa12cc5bd52"/>
+      <sourceref hlink="_e90949f79c772df14277d4c3985"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -38659,6 +38689,11 @@
     <source handle="_e904b5aa9e65a0900e554e27c7b" change="1601290231" id="S0493">
       <stitle>Porvoo suom Rippikirja 1747-1770</stitle>
       <sauthor>Porvoon suomalainen seurakunta</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
+    <source handle="_e90949f79c772df14277d4c3985" change="1601413492" id="S0494">
+      <stitle>Porvoo rtksrk Muuttokirjat 1843-1844</stitle>
+      <sauthor>Porvoon ruotsalainen tuomiokirkkoseurakunta</sauthor>
       <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
     </source>
   </sources>
@@ -41211,7 +41246,7 @@
     </placeobj>
   </places>
   <repositories>
-    <repository handle="_cdea29a49637c6553bc" change="1601290229" id="R0001">
+    <repository handle="_cdea29a49637c6553bc" change="1601413154" id="R0001">
       <rname>Arkistolaitos Digitaaliarkisto</rname>
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
@@ -52437,6 +52472,42 @@ Amanda Josefina Stjernberg 10/2 1850
 af tredje giftet med Sofia Lovisa Blomqvist 18 19/10 23
 Anna Stjernberg
 </text>
+    </note>
+    <note handle="_e90946646f750a50d4933017ef2" change="1601412781" id="N0292" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=9513270</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=9513270">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_e90948b769f6d89d3b0cbfa5849" change="1601413024" id="N0293" type="Transcript">
+      <text>59
+[Wigde i Sibbo År 1843]
+
+October
+19    30    26
+Gustaf Gustafsson Stjernberg    Rusthållaren    Enkl    Kullo Sisbacka i Borgå Scn
+Anna Lovisa Eriksdr Eskolin    Rusthållaredotter        Mårtensby Eskos</text>
+    </note>
+    <note handle="_e9094a6a33846de7f08827de110" change="1601413202" id="N0294" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7945149</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=7945149">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_e9094d0b2573c491aa12cc5bd52" change="1601413478" id="N0295" type="Transcript">
+      <text>No 442
+
+Rusthållaredottren Anna Lovisa Eskolin ifrån Mårtensby Eskos af denna församling är
+född den 20 Maji Aderton  Hundra Tjugo Sex |1826|
+uti Sibbo
+Flyttar nu till Kullo i Borgå Socken
+
+
+
+Är till äktenskap sammanvigd den 26 october 1843 med Rusthållaresonen, enkl. 
+Gustaf Gustafsson Stjernberg ifrån Kullo Sisbacka af Borgå Socken
+
+Attesteres Sibbo den 8de November 1843</text>
     </note>
   </notes>
 </database>
