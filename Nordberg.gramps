@@ -13782,6 +13782,18 @@
       <dateval val="1847-02-10"/>
       <citationref hlink="_e908288286756cb9346417e427c"/>
     </event>
+    <event handle="_e90861597104c07dbb0d0ff8871" change="1601388764" id="E0121">
+      <type>Marriage</type>
+      <dateval val="1869-10-14"/>
+      <place hlink="_e37e0e3b6df617f2fec1a952ece"/>
+      <citationref hlink="_e908614a30df4cc38b67a09f80"/>
+    </event>
+    <event handle="_e9086373e4a5943d92fd6af4c78" change="1601388984" id="E0122">
+      <type>Residence</type>
+      <datespan start="1869" stop="1878"/>
+      <place hlink="_e37e0e3f53b3d29ddafbb93feec"/>
+      <citationref hlink="_e908288286756cb9346417e427c"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1548617779" id="I3858">
@@ -28490,10 +28502,12 @@
       <eventref hlink="_e907c30a88b66b57cc142fd13d8" role="Family"/>
       <childref hlink="_e90577c74d147ffd733c7936c06"/>
     </family>
-    <family handle="_e907f69914f37c604d734a4c850" change="1601382814" id="F0005">
-      <rel type="Unknown"/>
+    <family handle="_e907f69914f37c604d734a4c850" change="1601388987" id="F0005">
+      <rel type="Married"/>
       <father hlink="_e907f6c56873b0302e981f93548"/>
       <mother hlink="_e90577c74d147ffd733c7936c06"/>
+      <eventref hlink="_e90861597104c07dbb0d0ff8871" role="Family"/>
+      <eventref hlink="_e9086373e4a5943d92fd6af4c78" role="Family"/>
     </family>
   </families>
   <citations>
@@ -35823,6 +35837,13 @@
       <noteref hlink="_e90826b148a62d976e15101b6d5"/>
       <noteref hlink="_e908287edca99f319d316f7f0d"/>
       <sourceref hlink="_db8ab6037e9d25a7461400cbae"/>
+    </citation>
+    <citation handle="_e908614a30df4cc38b67a09f80" change="1601388757" id="C1138">
+      <page>jakso 106</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e9085fca6f321f1122034cc8ef6"/>
+      <noteref hlink="_e908613251929f235bc38fac435"/>
+      <sourceref hlink="_cf932f76149565a5899"/>
     </citation>
   </citations>
   <sources>
@@ -51963,6 +51984,21 @@ Johannes Stjernberg 19/1 1863
       <text>Maria Sofian sukunimi muuttuu tänne muuttaessa Sunnman -&gt; Sundman.
 Kyseessä on kuitenkin sama henkilö koska etunimet, syntymäaika, lähtösivu täsmää, 
 ja lähtösivulla sekä kihlatun nimi ja sivunumero täsmää.</text>
+    </note>
+    <note handle="_e9085fca6f321f1122034cc8ef6" change="1601388606" id="N0282" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7977221</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=7977221">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_e908613251929f235bc38fac435" change="1601388748" id="N0283" type="Transcript">
+      <text>Wigde år 1869
+Oktober Månad
+
+36    14    Carl Stjernberg och Maria Sofia Sundman
+Brudg. Rusthållareson, ungk fr Kullo Sisbacka
+Brud Smeddotter, ogift fr Kullo
+1    60    vigde as t.f. Pastor Moberg    Coll: 6 mk 32p</text>
     </note>
   </notes>
 </database>
