@@ -13366,7 +13366,7 @@
       <citationref hlink="_e38959fdd693de6f9158162e46d"/>
       <citationref hlink="_e3896691b3124eae95450c552d0"/>
     </event>
-    <event handle="_e38977fc508124363689be7f445" change="1601301458" id="E2902">
+    <event handle="_e38977fc508124363689be7f445" change="1601376911" id="E2902">
       <type>Residence</type>
       <datespan start="1849" stop="1858"/>
       <place hlink="_e37e0e3f53b3d29ddafbb93feec"/>
@@ -13746,7 +13746,7 @@
       <place hlink="_e907b877d2b1db6e4df486119ae"/>
       <citationref hlink="_e907bce224a92e1de46b835765"/>
     </event>
-    <event handle="_e907c30a88b66b57cc142fd13d8" change="1601372219" id="E0115">
+    <event handle="_e907c30a88b66b57cc142fd13d8" change="1601377125" id="E0115">
       <type>Residence</type>
       <datespan start="1869" stop="1878"/>
       <place hlink="_e37e0e3b6df617f2fec1a952ece"/>
@@ -13764,6 +13764,23 @@
       <dateval val="1879-10-01"/>
       <place hlink="_e37e0e3b6df617f2fec1a952ece"/>
       <citationref hlink="_e907c2f47f22ba90de0d9301f5f"/>
+    </event>
+    <event handle="_e907f30b1421352238176b0e284" change="1601377197" id="E0118">
+      <type>Death</type>
+      <dateval val="1876-05-18"/>
+      <place hlink="_e37e0e3b6df617f2fec1a952ece"/>
+      <citationref hlink="_e907c2f47f22ba90de0d9301f5f"/>
+    </event>
+    <event handle="_e907f46116650a307921c94277" change="1601377337" id="E0119">
+      <type>Residence</type>
+      <dateval val="1869"/>
+      <place hlink="_e37e0e3b6df617f2fec1a952ece"/>
+      <citationref hlink="_e907c2f47f22ba90de0d9301f5f"/>
+    </event>
+    <event handle="_e9082889b6d21656e11fb2b8f85" change="1601382807" id="E0120">
+      <type>Birth</type>
+      <dateval val="1847-02-10"/>
+      <citationref hlink="_e908288286756cb9346417e427c"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -25102,7 +25119,7 @@
       <eventref hlink="_e38978ec96f201f38ff0e28d85" role="Primary"/>
       <parentin hlink="_e37e1214d415bbb698cd4599bb3"/>
     </person>
-    <person handle="_e3895adaeb25d3cace20dc4a544" change="1563622297" id="I1025">
+    <person handle="_e3895adaeb25d3cace20dc4a544" change="1601377201" id="I1025">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anna Stina</first>
@@ -25110,6 +25127,7 @@
         <surname prim="0" derivation="Patronymic">Fredriscdotter</surname>
       </name>
       <eventref hlink="_e3895b95d0f2957e70858de2a7c" role="Primary"/>
+      <eventref hlink="_e907f30b1421352238176b0e284" role="Primary"/>
       <childof hlink="_e37e1214d415bbb698cd4599bb3"/>
     </person>
     <person handle="_e3895bbe1b045f26fcf4f3bf2a3" change="1601372516" id="I1026">
@@ -25275,14 +25293,25 @@
       <eventref hlink="_e90571fc6396063657fa336ff98" role="Primary"/>
       <parentin hlink="_e9056c62c75211e1137eee6cae"/>
     </person>
-    <person handle="_e90577c74d147ffd733c7936c06" change="1601372903" id="I0017">
+    <person handle="_e90577c74d147ffd733c7936c06" change="1601382814" id="I0017">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Sofia</first>
         <surname derivation="Inherited">Sunnman</surname>
       </name>
       <eventref hlink="_e905781db41345dbc6830d7525f" role="Primary"/>
+      <eventref hlink="_e907f46116650a307921c94277" role="Primary"/>
       <childof hlink="_e9056c62c75211e1137eee6cae"/>
+      <parentin hlink="_e907f69914f37c604d734a4c850"/>
+    </person>
+    <person handle="_e907f6c56873b0302e981f93548" change="1601382814" id="I0018">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Carl</first>
+        <surname derivation="Inherited">Stjernberg</surname>
+      </name>
+      <eventref hlink="_e9082889b6d21656e11fb2b8f85" role="Primary"/>
+      <parentin hlink="_e907f69914f37c604d734a4c850"/>
     </person>
   </people>
   <families>
@@ -28460,6 +28489,11 @@
       <eventref hlink="_e907bce85bb5f823b9de35b6237" role="Family"/>
       <eventref hlink="_e907c30a88b66b57cc142fd13d8" role="Family"/>
       <childref hlink="_e90577c74d147ffd733c7936c06"/>
+    </family>
+    <family handle="_e907f69914f37c604d734a4c850" change="1601382814" id="F0005">
+      <rel type="Unknown"/>
+      <father hlink="_e907f6c56873b0302e981f93548"/>
+      <mother hlink="_e90577c74d147ffd733c7936c06"/>
     </family>
   </families>
   <citations>
@@ -35781,6 +35815,14 @@
       <noteref hlink="_e907c538d1e4787fd05513a166"/>
       <noteref hlink="_e907c6226fb710245feb8910799"/>
       <sourceref hlink="_d6cd9d482e462331073f995d4a4"/>
+    </citation>
+    <citation handle="_e908288286756cb9346417e427c" change="1601382804" id="C1137">
+      <page>230</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e907f78206c6ff4767259d0a8ce"/>
+      <noteref hlink="_e90826b148a62d976e15101b6d5"/>
+      <noteref hlink="_e908287edca99f319d316f7f0d"/>
+      <sourceref hlink="_db8ab6037e9d25a7461400cbae"/>
     </citation>
   </citations>
   <sources>
@@ -51887,6 +51929,40 @@ Dotter Maria Sofia Sunnman 13/7 1846    1869 till p. 230    17/7 1869 lysning me
 Februari månad
 
 15    27    Anders Gustaf Sunnman    Sockesmed uppl.    58 3/12    Lungsota    Kullo p 261</text>
+    </note>
+    <note handle="_e907f78206c6ff4767259d0a8ce" change="1601377665" id="N0207" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/kirjat/Kirkonkirjat/porvoo/rippikirja_1869-1878_ruotksrk_mko422-457/192.htm</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/kirjat/Kirkonkirjat/porvoo/rippikirja_1869-1878_ruotksrk_mko422-457/192.htm">
+        <range start="0" end="108"/>
+      </style>
+    </note>
+    <note handle="_e90826b148a62d976e15101b6d5" change="1601382613" id="N0268" type="Transcript">
+      <text>230 Kullo Nyby
+Sisbacka Rusthåll 5/12 mant
+fd Rusthållare, ??? 3dje ggen gift
+Gustaf Gustafsson Stjernberg 28/3 1816
+2de ggen gift
+Hu Sofia Lovisa Blomqvist 19/10 1829    Dog den 24 Juli 1874
+
+Son
+Frans Gustaf Stjernberg 29/6 1845    1869 till Lovisa m.b. No 181 ???
+Dotter
+Anna Stjernberg 31/5 1859
+Son, rusthållare                                          17/7 1869 lysning med Maria Sofia Sundman fr p. 261
+Carl Stjernberg 10/2 1847                                                             } vigde 14/10 1869
+Hu Maria Sofia Sundman 13/7 1846    1869 fr.p. 261       }    
+Stjufson, Hruns af första giftet, sjöman
+Gustaf Adolf Wilkman 16/10 1859
+Dotter
+Sofia Stjernberg 25/12 1860
+Son
+Johannes Stjernberg 19/1 1863
+</text>
+    </note>
+    <note handle="_e908287edca99f319d316f7f0d" change="1601382802" id="N0281" type="Research">
+      <text>Maria Sofian sukunimi muuttuu tänne muuttaessa Sunnman -&gt; Sundman.
+Kyseessä on kuitenkin sama henkilö koska etunimet, syntymäaika, lähtösivu täsmää, 
+ja lähtösivulla sekä kihlatun nimi ja sivunumero täsmää.</text>
     </note>
   </notes>
 </database>
