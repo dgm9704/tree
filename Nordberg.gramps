@@ -13796,7 +13796,7 @@
       <citationref hlink="_e908288286756cb9346417e427c"/>
       <citationref hlink="_e9088ecb47359ee3748c031d5b"/>
     </event>
-    <event handle="_e90893a75677c136be64bda980c" change="1601394038" id="E0123">
+    <event handle="_e90893a75677c136be64bda980c" change="1601411460" id="E0123">
       <type>Birth</type>
       <dateval val="1816-03-28"/>
       <citationref hlink="_e908288286756cb9346417e427c"/>
@@ -13871,10 +13871,11 @@
       <citationref hlink="_e908288286756cb9346417e427c"/>
       <citationref hlink="_e9088ecb47359ee3748c031d5b"/>
     </event>
-    <event handle="_e908b37ac302f3d1c8c5c739067" change="1601397444" id="E0136">
+    <event handle="_e908b37ac302f3d1c8c5c739067" change="1601411471" id="E0136">
       <type>Birth</type>
       <dateval val="1816-03-28"/>
       <citationref hlink="_e908b357ae0425ebce75868ce25"/>
+      <citationref hlink="_e908288286756cb9346417e427c"/>
     </event>
     <event handle="_e908b59f06f70df929adb8a6b1b" change="1601397600" id="E0137">
       <type>Birth</type>
@@ -25458,15 +25459,17 @@
       <eventref hlink="_e9082889b6d21656e11fb2b8f85" role="Primary"/>
       <parentin hlink="_e907f69914f37c604d734a4c850"/>
     </person>
-    <person handle="_e908931435d354a5e2a026b371c" change="1601394274" id="I0019">
+    <person handle="_e908931435d354a5e2a026b371c" change="1601411500" id="I0019">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Gustaf</first>
         <surname prim="0" derivation="Patronymic">Gustafsson</surname>
         <surname>Stjernberg</surname>
       </name>
-      <eventref hlink="_e90893a75677c136be64bda980c" role="Primary"/>
+      <eventref hlink="_e908b37ac302f3d1c8c5c739067" role="Primary"/>
       <parentin hlink="_e908930fa623aab84d895704875"/>
+      <parentin hlink="_e908ad64809650ae2763552f734"/>
+      <parentin hlink="_e908de8823946302bb4b7fd0deb"/>
     </person>
     <person handle="_e90893c0a5cd0fe9c9c7ac3d13" change="1601394274" id="I0020">
       <gender>F</gender>
@@ -25550,17 +25553,6 @@
       </name>
       <eventref hlink="_e908978c45575a7699482466b9c" role="Primary"/>
       <childof hlink="_e907f69914f37c604d734a4c850"/>
-    </person>
-    <person handle="_e908ad683f31a6cfc83c34bfd34" change="1601406249" id="I0029">
-      <gender>M</gender>
-      <name type="Birth Name">
-        <first>Gustaf</first>
-        <surname prim="0" derivation="Patronymic">Gustafsson</surname>
-        <surname>Stjernberg</surname>
-      </name>
-      <eventref hlink="_e908b37ac302f3d1c8c5c739067" role="Primary"/>
-      <parentin hlink="_e908ad64809650ae2763552f734"/>
-      <parentin hlink="_e908de8823946302bb4b7fd0deb"/>
     </person>
     <person handle="_e908b555c4846db2c292a5ae18e" change="1601401599" id="I0030">
       <gender>F</gender>
@@ -28816,17 +28808,17 @@
       <childref hlink="_e908953505e6f8bdc3f9085b3f0"/>
       <childref hlink="_e9089574f5e3759eca6e9b2e1bd"/>
     </family>
-    <family handle="_e908ad64809650ae2763552f734" change="1601406349" id="F0007">
+    <family handle="_e908ad64809650ae2763552f734" change="1601411441" id="F0007">
       <rel type="Married"/>
-      <father hlink="_e908ad683f31a6cfc83c34bfd34"/>
+      <father hlink="_e908931435d354a5e2a026b371c"/>
       <mother hlink="_e908b555c4846db2c292a5ae18e"/>
       <eventref hlink="_e908b6bd7337c16594794adae27" role="Family"/>
       <eventref hlink="_e908b6788c0322b50a96513412f" role="Family"/>
       <childref hlink="_e908b733bf261ac1e3d1edaf1ef"/>
     </family>
-    <family handle="_e908de8823946302bb4b7fd0deb" change="1601406214" id="F0008">
+    <family handle="_e908de8823946302bb4b7fd0deb" change="1601411441" id="F0008">
       <rel type="Married"/>
-      <father hlink="_e908ad683f31a6cfc83c34bfd34"/>
+      <father hlink="_e908931435d354a5e2a026b371c"/>
       <mother hlink="_e908deba4db6b6f5bce522a03cf"/>
       <childref hlink="_e908dfa1e6019d6f7d11fb9ebcc"/>
       <childref hlink="_e909030c6bc24f73b8cd4079f3b"/>
