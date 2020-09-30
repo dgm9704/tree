@@ -13801,9 +13801,9 @@
       <dateval val="1816-03-28"/>
       <citationref hlink="_e908288286756cb9346417e427c"/>
     </event>
-    <event handle="_e9089412a16672b017eed62198f" change="1601394082" id="E0124">
+    <event handle="_e9089412a16672b017eed62198f" change="1601473843" id="E0124">
       <type>Birth</type>
-      <dateval val="1829-10-19"/>
+      <dateval val="1823-10-19"/>
       <citationref hlink="_e908288286756cb9346417e427c"/>
     </event>
     <event handle="_e908945f9067d1c4aff4b05d558" change="1601394114" id="E0125">
@@ -13960,6 +13960,26 @@
       <type>Death</type>
       <dateval val="1857-03-18"/>
       <citationref hlink="_e90974120554c222a8242265a5f"/>
+    </event>
+    <event handle="_e90b875fe3e95a013ff04fd060" change="1601473685" id="E0151">
+      <type>Marriage</type>
+      <dateval val="1858-10-18"/>
+      <place hlink="_cb589cc90f055fc9f0c"/>
+      <citationref hlink="_e90974120554c222a8242265a5f"/>
+      <citationref hlink="_e90b8b32f40105f1dba779f8d78"/>
+    </event>
+    <event handle="_e90b95613496e13df33ae109bd" change="1601474750" id="E0152">
+      <type>Residence</type>
+      <datespan start="1859" stop="1868"/>
+      <place hlink="_e37e0e3f53b3d29ddafbb93feec"/>
+      <citationref hlink="_e90b0e3d42a73e6f86b0feed37b"/>
+      <citationref hlink="_e90906e3aae2bf9a77388af6001"/>
+      <citationref hlink="_e90b9558ec1e73da5f4c878a1a"/>
+    </event>
+    <event handle="_e90b9649df22ab1d5b4a08b4e8b" change="1601474845" id="E0153">
+      <type>Birth</type>
+      <dateval val="1853-10-16"/>
+      <citationref hlink="_e90b9558ec1e73da5f4c878a1a"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -25518,7 +25538,7 @@
       <eventref hlink="_e908945f9067d1c4aff4b05d558" role="Primary"/>
       <parentin hlink="_e908930fa623aab84d895704875"/>
     </person>
-    <person handle="_e908949db30a4ea3997880ac3b" change="1601394559" id="I0021">
+    <person handle="_e908949db30a4ea3997880ac3b" change="1601474965" id="I0021">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anna</first>
@@ -25527,7 +25547,7 @@
       <eventref hlink="_e90894dc1b95af5e707af6560b0" role="Primary"/>
       <childof hlink="_e908930fa623aab84d895704875"/>
     </person>
-    <person handle="_e90894f3f2a56436e31a3a5ca86" change="1601394559" id="I0022">
+    <person handle="_e90894f3f2a56436e31a3a5ca86" change="1601474965" id="I0022">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Sofia</first>
@@ -25536,7 +25556,7 @@
       <eventref hlink="_e90895243bf2479d3471e7b182" role="Primary"/>
       <childof hlink="_e908930fa623aab84d895704875"/>
     </person>
-    <person handle="_e908953505e6f8bdc3f9085b3f0" change="1601394559" id="I0023">
+    <person handle="_e908953505e6f8bdc3f9085b3f0" change="1601474965" id="I0023">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Johannes</first>
@@ -25545,7 +25565,7 @@
       <eventref hlink="_e90895628b51c5c21618cb26499" role="Primary"/>
       <childof hlink="_e908930fa623aab84d895704875"/>
     </person>
-    <person handle="_e9089574f5e3759eca6e9b2e1bd" change="1601394559" id="I0024">
+    <person handle="_e9089574f5e3759eca6e9b2e1bd" change="1601474965" id="I0024">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Edward</first>
@@ -25636,6 +25656,15 @@
       </name>
       <eventref hlink="_e909079a4671805a9fdca2a7673" role="Primary"/>
       <childof hlink="_e908de8823946302bb4b7fd0deb"/>
+    </person>
+    <person handle="_e90b95cc28d370e017f9c3893f6" change="1601474965" id="I0036">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Gustaf Adolf</first>
+        <surname>Wilkman</surname>
+      </name>
+      <eventref hlink="_e90b9649df22ab1d5b4a08b4e8b" role="Primary"/>
+      <childof hlink="_e908930fa623aab84d895704875"/>
     </person>
   </people>
   <families>
@@ -28825,11 +28854,14 @@
       <childref hlink="_e90896f470b13d8140618308092"/>
       <childref hlink="_e9089754bf94e569d83a677a9fb"/>
     </family>
-    <family handle="_e908930fa623aab84d895704875" change="1601394559" id="F0006">
+    <family handle="_e908930fa623aab84d895704875" change="1601474965" id="F0006">
       <rel type="Married"/>
       <father hlink="_e908931435d354a5e2a026b371c"/>
       <mother hlink="_e90893c0a5cd0fe9c9c7ac3d13"/>
+      <eventref hlink="_e90b875fe3e95a013ff04fd060" role="Family"/>
+      <eventref hlink="_e90b95613496e13df33ae109bd" role="Family"/>
       <eventref hlink="_e90898956a66ba3f0cf666228d" role="Family"/>
+      <childref hlink="_e90b95cc28d370e017f9c3893f6" frel="Stepchild"/>
       <childref hlink="_e908949db30a4ea3997880ac3b"/>
       <childref hlink="_e90894f3f2a56436e31a3a5ca86"/>
       <childref hlink="_e908953505e6f8bdc3f9085b3f0"/>
@@ -36252,6 +36284,20 @@
       <noteref hlink="_e90b22fcc2b15a7e9684342f854"/>
       <noteref hlink="_e90b26c3a2554ed47cf04ab3b54"/>
       <sourceref hlink="_db8a970c451636eb9c5ac647cbd"/>
+    </citation>
+    <citation handle="_e90b8b32f40105f1dba779f8d78" change="1601473683" id="C1148">
+      <page>jakso 64</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e90b886cce81506fa3cd52168a7"/>
+      <noteref hlink="_e90b8b2db25583bea4ade07f547"/>
+      <sourceref hlink="_cf932f76149565a5899"/>
+    </citation>
+    <citation handle="_e90b9558ec1e73da5f4c878a1a" change="1601474747" id="C1149">
+      <page>226-227</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e90b8f13ca1109202758a8cb3e9"/>
+      <noteref hlink="_e90b9553c6c2a57f6db7db704a2"/>
+      <sourceref hlink="_db7170159ec6d39e88bc913b496"/>
     </citation>
   </citations>
   <sources>
@@ -52370,13 +52416,13 @@ Februari månad
         <range start="0" end="108"/>
       </style>
     </note>
-    <note handle="_e90826b148a62d976e15101b6d5" change="1601382613" id="N0268" type="Transcript">
+    <note handle="_e90826b148a62d976e15101b6d5" change="1601473839" id="N0268" type="Transcript">
       <text>230 Kullo Nyby
 Sisbacka Rusthåll 5/12 mant
 fd Rusthållare, ??? 3dje ggen gift
 Gustaf Gustafsson Stjernberg 28/3 1816
 2de ggen gift
-Hu Sofia Lovisa Blomqvist 19/10 1829    Dog den 24 Juli 1874
+Hu Sofia Lovisa Blomqvist 19/10 1823    Dog den 24 Juli 1874
 
 Son
 Frans Gustaf Stjernberg 29/6 1845    1869 till Lovisa m.b. No 181 ???
@@ -52615,6 +52661,44 @@ Väärä syntymäpäivä on todennäköisesti kopioitu väärin lastenkirjasta r
 Seuraavalla rivillä lastenkirjassa on ollut nuorempi sisko jonka syntymäpäivä on 2/10
 Porvoo syntyneistä ei löytynyt 2/10 Carl Gustafssonia.
 </text>
+    </note>
+    <note handle="_e90b886cce81506fa3cd52168a7" change="1601473392" id="N0516" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7977181</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=7977181">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_e90b8b2db25583bea4ade07f547" change="1601473680" id="N0517" type="Transcript">
+      <text>Wigde år 1858
+Oktober månad
+
+29.    12.    Gustaf Gustafsson Stjernberg och Sofia Lovisa Blomqvist
+Brudg: Rusthållare, Enkl. fr. Kullo Sisbacka
+Brud: Mjölnare Enka fr: Pirlax
+vigde af v. pastor Forsblom    Koll. 1 Rb 44 Kp Sv
+</text>
+    </note>
+    <note handle="_e90b8f13ca1109202758a8cb3e9" change="1601474089" id="N0802" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/kirjat/Kirkonkirjat/porvoo/lastenkirja_1860-1868_ruotksrk_mko541-560/106.htm</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/kirjat/Kirkonkirjat/porvoo/lastenkirja_1860-1868_ruotksrk_mko541-560/106.htm">
+        <range start="0" end="109"/>
+      </style>
+    </note>
+    <note handle="_e90b9553c6c2a57f6db7db704a2" change="1601474745" id="N0976" type="Transcript">
+      <text>Kullo Nyby 227
+Sisbacka Rusthåll
+
+    Rusthållaren Gustaf Gustafsson Stjernbergs barn af tidigare gift med Anna Lovisa Eskolin f 1826
+Frans Gustaf Gustafsson 29/6 1843               Elev vid Lägre Elementalskolan
+Carl Gustafssn 27/7 1847                                     Elev vid Lägre Elementalskolan
+Amanda Josefina Stjernberg 10/2 1850
+
+    af tredje giftet med Sofia Lovisa Blomqvist f 18 19/10 23
+Anna Stjernberg 31/3 1859
+Sofia Stjernberg 25/12 1860
+stjufson Gustaf Adolf Wilkman 16/10 1853    1861 fr. pag 354 Pirlax
+Johanna Stjernberg 19/1 1863
+Edvard Stjernberg 13/2 1866</text>
     </note>
   </notes>
 </database>
