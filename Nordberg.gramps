@@ -13864,7 +13864,7 @@
       <place hlink="_e37e0e3f53b3d29ddafbb93feec"/>
       <citationref hlink="_e9088ecb47359ee3748c031d5b"/>
     </event>
-    <event handle="_e90898956a66ba3f0cf666228d" change="1601394555" id="E0135">
+    <event handle="_e90898956a66ba3f0cf666228d" change="1601462516" id="E0135">
       <type>Residence</type>
       <datespan start="1869" stop="1878"/>
       <place hlink="_e37e0e3f53b3d29ddafbb93feec"/>
@@ -13917,10 +13917,11 @@
       <place hlink="_e37e0e3f53b3d29ddafbb93feec"/>
       <citationref hlink="_e908db70e8c2830879c67646c40"/>
     </event>
-    <event handle="_e90906ff55b7305834541f33ad9" change="1601406133" id="E0144">
+    <event handle="_e90906ff55b7305834541f33ad9" change="1601463160" id="E0144">
       <type>Birth</type>
       <dateval val="1847-07-27"/>
       <citationref hlink="_e90906e3aae2bf9a77388af6001"/>
+      <citationref hlink="_e90b26d27c130872e03fe750cec"/>
     </event>
     <event handle="_e909079a4671805a9fdca2a7673" change="1601406197" id="E0145">
       <type>Birth</type>
@@ -13935,19 +13936,30 @@
       <citationref hlink="_e90948d566d4964698970b62d7b"/>
       <citationref hlink="_e9094d13b8c6109c9b284ba63f1"/>
     </event>
-    <event handle="_e9094f0258263bdef6487b21225" change="1601413684" id="E0147">
+    <event handle="_e9094f0258263bdef6487b21225" change="1601461721" id="E0147">
       <type>Residence</type>
       <datespan start="1843" stop="1848"/>
       <place hlink="_e37e0e3f53b3d29ddafbb93feec"/>
       <citationref hlink="_e908b357ae0425ebce75868ce25"/>
       <citationref hlink="_e908db70e8c2830879c67646c40"/>
     </event>
-    <event handle="_e9097416ab12a8ccf7f4a96bb60" change="1601417764" id="E0148">
+    <event handle="_e9097416ab12a8ccf7f4a96bb60" change="1601462616" id="E0148">
       <type>Residence</type>
       <datespan start="1849" stop="1858"/>
       <place hlink="_e37e0e3f53b3d29ddafbb93feec"/>
       <citationref hlink="_e90974120554c222a8242265a5f"/>
       <citationref hlink="_e90906e3aae2bf9a77388af6001"/>
+    </event>
+    <event handle="_e90b14ec40c3c05748e0e61295f" change="1601463237" id="E0149">
+      <type>Residence</type>
+      <datespan start="1863" stop="1868"/>
+      <place hlink="_e37e0e3f53b3d29ddafbb93feec"/>
+      <citationref hlink="_e90b0e3d42a73e6f86b0feed37b"/>
+    </event>
+    <event handle="_e90b1d8868918832be2c7dd4753" change="1601462183" id="E0150">
+      <type>Death</type>
+      <dateval val="1857-03-18"/>
+      <citationref hlink="_e90974120554c222a8242265a5f"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -25471,14 +25483,18 @@
       <childof hlink="_e9056c62c75211e1137eee6cae"/>
       <parentin hlink="_e907f69914f37c604d734a4c850"/>
     </person>
-    <person handle="_e907f6c56873b0302e981f93548" change="1601382814" id="I0018">
+    <person handle="_e907f6c56873b0302e981f93548" change="1601463876" id="I0018">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Carl</first>
         <surname derivation="Inherited">Stjernberg</surname>
+        <surname prim="0" derivation="Patronymic">Gustafsson</surname>
       </name>
-      <eventref hlink="_e9082889b6d21656e11fb2b8f85" role="Primary"/>
+      <eventref hlink="_e90906ff55b7305834541f33ad9" role="Primary"/>
+      <eventref hlink="_e90b14ec40c3c05748e0e61295f" role="Primary"/>
+      <childof hlink="_e908de8823946302bb4b7fd0deb"/>
       <parentin hlink="_e907f69914f37c604d734a4c850"/>
+      <noteref hlink="_e90b2d9137a22bbd833e00d7fad"/>
     </person>
     <person handle="_e908931435d354a5e2a026b371c" change="1601411500" id="I0019">
       <gender>M</gender>
@@ -25610,16 +25626,6 @@
         <surname derivation="Patronymic">Gustafsson</surname>
       </name>
       <eventref hlink="_e908e024c9b20c07c8f842726bb" role="Primary"/>
-      <childof hlink="_e908de8823946302bb4b7fd0deb"/>
-    </person>
-    <person handle="_e909030c6bc24f73b8cd4079f3b" change="1601417764" id="I0034">
-      <gender>M</gender>
-      <name type="Birth Name">
-        <first>Carl</first>
-        <surname derivation="Patronymic">Gustafsson</surname>
-        <group>Stjernberg</group>
-      </name>
-      <eventref hlink="_e90906ff55b7305834541f33ad9" role="Primary"/>
       <childof hlink="_e908de8823946302bb4b7fd0deb"/>
     </person>
     <person handle="_e909073539c2d591541173103ed" change="1601417764" id="I0035">
@@ -28837,7 +28843,7 @@
       <eventref hlink="_e908b6788c0322b50a96513412f" role="Family"/>
       <childref hlink="_e908b733bf261ac1e3d1edaf1ef"/>
     </family>
-    <family handle="_e908de8823946302bb4b7fd0deb" change="1601417764" id="F0008">
+    <family handle="_e908de8823946302bb4b7fd0deb" change="1601463610" id="F0008">
       <rel type="Married"/>
       <father hlink="_e908931435d354a5e2a026b371c"/>
       <mother hlink="_e908deba4db6b6f5bce522a03cf"/>
@@ -28845,7 +28851,7 @@
       <eventref hlink="_e9094f0258263bdef6487b21225" role="Family"/>
       <eventref hlink="_e9097416ab12a8ccf7f4a96bb60" role="Family"/>
       <childref hlink="_e908dfa1e6019d6f7d11fb9ebcc"/>
-      <childref hlink="_e909030c6bc24f73b8cd4079f3b"/>
+      <childref hlink="_e907f6c56873b0302e981f93548"/>
       <childref hlink="_e909073539c2d591541173103ed"/>
     </family>
   </families>
@@ -36232,6 +36238,20 @@
       <noteref hlink="_e9095669bd56d3930b70f2e3c52"/>
       <noteref hlink="_e90974091c94dfef80d4b60538"/>
       <sourceref hlink="_db7f1d99179967edd7fa10f675"/>
+    </citation>
+    <citation handle="_e90b0e3d42a73e6f86b0feed37b" change="1601460580" id="C1146">
+      <page>227</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e90b01bd204785e7fb2b260538b"/>
+      <noteref hlink="_e90b0e3185961dcd1559ef1bc3d"/>
+      <sourceref hlink="_d6cda20a4443c79320f8ff5ffff"/>
+    </citation>
+    <citation handle="_e90b26d27c130872e03fe750cec" change="1601463157" id="C1147">
+      <page>jakso 194</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e90b22fcc2b15a7e9684342f854"/>
+      <noteref hlink="_e90b26c3a2554ed47cf04ab3b54"/>
+      <sourceref hlink="_db8a970c451636eb9c5ac647cbd"/>
     </citation>
   </citations>
   <sources>
@@ -52472,7 +52492,7 @@ Carl Gustafsson 27/7 1847
         <range start="0" end="45"/>
       </style>
     </note>
-    <note handle="_e90906df21f2a0d3f199369817e" change="1601406120" id="N0291" type="Transcript">
+    <note handle="_e90906df21f2a0d3f199369817e" change="1601461798" id="N0291" type="Transcript">
       <text>Kullo Nyby 227
 Sisbacka Rusthåll
 
@@ -52485,7 +52505,7 @@ Carl Gustafsson 27/7 1847
 Amanda Josefina Stjernberg 10/2 1850
 
 af tredje giftet med Sofia Lovisa Blomqvist 18 19/10 23
-Anna Stjernberg
+Anna Stjernberg  31/5 1859
 </text>
     </note>
     <note handle="_e90946646f750a50d4933017ef2" change="1601412781" id="N0292" type="Link">
@@ -52530,7 +52550,7 @@ Attesteres Sibbo den 8de November 1843</text>
         <range start="0" end="45"/>
       </style>
     </note>
-    <note handle="_e90974091c94dfef80d4b60538" change="1601417567" id="N0297" type="Transcript">
+    <note handle="_e90974091c94dfef80d4b60538" change="1601462450" id="N0297" type="Transcript">
       <text>227 Kullo Nyby
 Sisbacka Rusthåll
 Rusthållares enka
@@ -52538,14 +52558,62 @@ Ea Maria Henriksdotter 12/6 1793    Dog den 11 Juni 1849
 
 Far; Gammal Rusthållaren
 Enkl. Henric Henricsson 1763    Dog den 28 Sept 1848
-Son. Rusthållaren 2de ggen gift
-enkl Gustaf Gustafsson Stjernberg 28/3 1816    vigd 12/10 1858
+Son. Rusthållaren 2de ggen gift    1858 till lys med Sofia Lovisa Blomqvist fr. Prestgb 354?    vigd 12/10 1858
+enkl Gustaf Gustafsson Stjernberg 28/3 1816    
 Hu anna Lovisa Eskolin 20/5 1826    Dog d 18 Mars? 1857
 
 Son Bror
-Carl Gustafsson Stjernberg 2/1 1832    1844 d 13/5 till lysning med Hedda Lovisa Stjermberg fr pag 275?    1854 till p. 7    vigd 22/5 1857
+Carl Gustafsson Stjernberg 2/1 1832    1844 d 13/5 till lysning med Hedda Lovisa Stjernberg fr pag 275?    1854 till p. 7    vigd 22/5 1857
 Dotter
 Lovisa Wilhelmina Gustafsdr 15/3 1841
+</text>
+    </note>
+    <note handle="_e90b01bd204785e7fb2b260538b" change="1601459269" id="N0352" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7962029</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=7962029">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_e90b0e3185961dcd1559ef1bc3d" change="1601461276" id="N0360" type="Transcript">
+      <text>227 Kullo Nyby
+Sisbacka Rusthåll
+Rusthållaren Gustaf Gustafsson Stjernberg 28/3 1816
+2 gn gift
+Hu Sofia Lovisa Blomqvist 19/10 1823    1858 fr ???? p. 1?4
+
+Dotter Rusth.son Anders Joh Weckströms enka    1868 till Prestg[årds]b[acken] p. 586
+Ea Lovisa Wilhelmina Gustafsdr 15/3 1841                Den 21/3 68 ? i lysn m. Anders Weckström, Lomböle p. 282   ?? ??  vigde d. 12/5 1868
+Son Ivar Gustaf Gustafsson  29/6 1845
+
+Son Karl Gustafsson Stjernberg 10/2 1847 [päiväys väärin?]
+Dotter Amanda Josefina Stjernberg 10/2 1850    1868 till H[elsing]fors m.b. d 21/11 No 200
+</text>
+      <style name="link" value="gramps://Person/handle/e909073539c2d591541173103ed">
+        <range start="487" end="514"/>
+      </style>
+    </note>
+    <note handle="_e90b22fcc2b15a7e9684342f854" change="1601462755" id="N0371" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7970104</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=7970104">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_e90b26c3a2554ed47cf04ab3b54" change="1601463151" id="N0413" type="Transcript">
+      <text>Födde år 1847
+Julii månad
+
+27    1/8    Carl
+Par. rusthållaren Gustaf Stjernberg, hu Anna Lovisa Ericsdotter x 21 Kullo Nyby Sisbacka
+Testes: Bonden Isak Gustafsson Smeds?; Nämdenmannen Carl Boström if Backas med hu Lovisa Gustafsdotter; 
+    Bonde dottren Stina Andersdotter fr Lillbengts; Rusthållareson Carl Gustafsson, Drengen Gabriel Boström och Pigan Maria Kullberg, dess fr Ribacka; alla fr Kullo
+Coll 29 6/7 kop Sv</text>
+    </note>
+    <note handle="_e90b2d9137a22bbd833e00d7fad" change="1601463865" id="N0510" type="Person Note">
+      <text>Carl Gustafsson Stjernberg on syntynyt 27/7 1847.
+Rippikirjoissa syntymäpäivänä on 2/10.
+Väärä syntymäpäivä on todennäköisesti kopioitu väärin lastenkirjasta rippikirjaan.
+Seuraavalla rivillä lastenkirjassa on ollut nuorempi sisko jonka syntymäpäivä on 2/10
+Porvoo syntyneistä ei löytynyt 2/10 Carl Gustafssonia.
 </text>
     </note>
   </notes>
