@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2020-10-05" version="5.1.2"/>
+    <created date="2020-10-06" version="5.1.2"/>
     <researcher>
     </researcher>
   </header>
@@ -107,9 +107,41 @@
       <place hlink="_e91c3a60a1429ba4f7e450e50c3"/>
       <citationref hlink="_e91c37d935f2121e1b41fa465f1"/>
     </event>
+    <event handle="_e91caaf259a7bd6574a96b8e36" change="1601934441" id="E0017">
+      <type>Residence</type>
+      <datespan start="1814" stop="1815"/>
+      <place hlink="_e91bc31feab259091e8d05dbb69"/>
+      <citationref hlink="_e91caaee39c27c19f973d73348e"/>
+    </event>
+    <event handle="_e91cb0a26a85d4a3dde86d840f4" change="1601933948" id="E0018">
+      <type>Birth</type>
+      <dateval val="1758"/>
+      <citationref hlink="_e91caaee39c27c19f973d73348e"/>
+    </event>
+    <event handle="_e91cb213fe52346a420663a9865" change="1601934100" id="E0019">
+      <type>Birth</type>
+      <dateval val="1753"/>
+      <citationref hlink="_e91caaee39c27c19f973d73348e"/>
+    </event>
+    <event handle="_e91cb280d6d609c1b2d1abd25ad" change="1601934144" id="E0020">
+      <type>Residence</type>
+      <place hlink="_e91bc31feab259091e8d05dbb69"/>
+      <citationref hlink="_e91caaee39c27c19f973d73348e"/>
+    </event>
+    <event handle="_e91cb314e1d226b92734cc6a94a" change="1601934205" id="E0021">
+      <type>Birth</type>
+      <dateval val="1777"/>
+      <citationref hlink="_e91caaee39c27c19f973d73348e"/>
+    </event>
+    <event handle="_e91cb5423df69ccff064a5c2282" change="1601934433" id="E0022">
+      <type>Residence</type>
+      <datespan start="1813" stop="1814"/>
+      <place hlink="_e91cb42379e14fbecbc20593f68"/>
+      <citationref hlink="_e91cb53e7004e277d2214f93f6e"/>
+    </event>
   </events>
   <people>
-    <person handle="_e91bafdf7c362022d944b271886" change="1601921817" id="I0000">
+    <person handle="_e91bafdf7c362022d944b271886" change="1601934150" id="I0000">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anna</first>
@@ -132,7 +164,7 @@
       <eventref hlink="_e91c3a7c2ab25901822346de685" role="Primary"/>
       <childof hlink="_e91bbc4e59b569a0b893d0606e1"/>
     </person>
-    <person handle="_e91bbc70f0d6e511b14a155539" change="1601909337" id="I0001">
+    <person handle="_e91bbc70f0d6e511b14a155539" change="1601934449" id="I0001">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Anders</first>
@@ -140,8 +172,9 @@
       </name>
       <eventref hlink="_e91bc2ad35c2e88072648037553" role="Primary"/>
       <childof hlink="_e91bbc4e59b569a0b893d0606e1"/>
+      <parentin hlink="_e91cb2b0f3e3818256dad189d00"/>
     </person>
-    <person handle="_e91bc3e78ef406a20fb9b357b" change="1601909337" id="I0002">
+    <person handle="_e91bc3e78ef406a20fb9b357b" change="1601934150" id="I0002">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Johan</first>
@@ -151,7 +184,7 @@
       <eventref hlink="_e91bc45b2d57c37531623f4c1a0" role="Primary"/>
       <childof hlink="_e91bbc4e59b569a0b893d0606e1"/>
     </person>
-    <person handle="_e91bc4918df411fe7d7d583111a" change="1601909337" id="I0003">
+    <person handle="_e91bc4918df411fe7d7d583111a" change="1601934150" id="I0003">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Henric</first>
@@ -160,7 +193,7 @@
       <eventref hlink="_e91bc4bf4293f737efce732abed" role="Primary"/>
       <childof hlink="_e91bbc4e59b569a0b893d0606e1"/>
     </person>
-    <person handle="_e91bc54a5a026ecf2edf720b96a" change="1601909337" id="I0004">
+    <person handle="_e91bc54a5a026ecf2edf720b96a" change="1601934150" id="I0004">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Lena</first>
@@ -169,7 +202,7 @@
       <eventref hlink="_e91bc57a08659b6f2a9c894276" role="Primary"/>
       <childof hlink="_e91bbc4e59b569a0b893d0606e1"/>
     </person>
-    <person handle="_e91bc5965c1502d37763f385065" change="1601909337" id="I0005">
+    <person handle="_e91bc5965c1502d37763f385065" change="1601934150" id="I0005">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Gräta</first>
@@ -178,17 +211,54 @@
       <eventref hlink="_e91bc5ca9c41670de0498eb8beb" role="Primary"/>
       <childof hlink="_e91bbc4e59b569a0b893d0606e1"/>
     </person>
+    <person handle="_e91cb05b8e7334f20806c700d3b" change="1601934103" id="I0006">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Göran</first>
+        <surname>Arv</surname>
+      </name>
+      <eventref hlink="_e91cb0a26a85d4a3dde86d840f4" role="Primary"/>
+      <parentin hlink="_e91bbc4e59b569a0b893d0606e1"/>
+    </person>
+    <person handle="_e91cb1ccb09cba93e5fc7126aa" change="1601934103" id="I0007">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Am C</first>
+        <surname>Löf</surname>
+      </name>
+      <eventref hlink="_e91cb213fe52346a420663a9865" role="Primary"/>
+      <parentin hlink="_e91bbc4e59b569a0b893d0606e1"/>
+    </person>
+    <person handle="_e91cb2cff243150cf5fbcd89031" change="1601934215" id="I0008">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Helena</first>
+        <surname derivation="Patronymic">Andersdotter</surname>
+      </name>
+      <eventref hlink="_e91cb314e1d226b92734cc6a94a" role="Primary"/>
+      <parentin hlink="_e91cb2b0f3e3818256dad189d00"/>
+    </person>
   </people>
   <families>
-    <family handle="_e91bbc4e59b569a0b893d0606e1" change="1601909337" id="F0000">
+    <family handle="_e91bbc4e59b569a0b893d0606e1" change="1601934150" id="F0000">
       <rel type="Unknown"/>
+      <father hlink="_e91cb05b8e7334f20806c700d3b"/>
+      <mother hlink="_e91cb1ccb09cba93e5fc7126aa"/>
       <eventref hlink="_e91bc3c866473ae75bf02d861e4" role="Family"/>
+      <eventref hlink="_e91cb280d6d609c1b2d1abd25ad" role="Family"/>
       <childref hlink="_e91bbc70f0d6e511b14a155539"/>
       <childref hlink="_e91bc3e78ef406a20fb9b357b"/>
       <childref hlink="_e91bafdf7c362022d944b271886"/>
       <childref hlink="_e91bc4918df411fe7d7d583111a"/>
       <childref hlink="_e91bc54a5a026ecf2edf720b96a"/>
       <childref hlink="_e91bc5965c1502d37763f385065"/>
+    </family>
+    <family handle="_e91cb2b0f3e3818256dad189d00" change="1601934462" id="F0001">
+      <rel type="Unknown"/>
+      <father hlink="_e91bbc70f0d6e511b14a155539"/>
+      <mother hlink="_e91cb2cff243150cf5fbcd89031"/>
+      <eventref hlink="_e91cb5423df69ccff064a5c2282" role="Family"/>
+      <eventref hlink="_e91caaf259a7bd6574a96b8e36" role="Unknown"/>
     </family>
   </families>
   <citations>
@@ -282,6 +352,22 @@
       <noteref hlink="_e91c7d3fd65694819620c41f2af"/>
       <sourceref hlink="_e91c7b3ea51133fc2f641e6ece8"/>
     </citation>
+    <citation handle="_e91caaee39c27c19f973d73348e" change="1601933350" id="C0011">
+      <page>196</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e91ca63c82a59eff81b1e7604e7"/>
+      <noteref hlink="_e91ca6732f13487a542a5c43446"/>
+      <noteref hlink="_e91caadae2d281ca24232aa48b9"/>
+      <sourceref hlink="_e91bdeb9c3d21433c277010ca23"/>
+    </citation>
+    <citation handle="_e91cb53e7004e277d2214f93f6e" change="1601934432" id="C0012">
+      <page>17</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e91cb45dd961b6a78c1a00d9dde"/>
+      <noteref hlink="_e91cb488640645996d35b5fd2e6"/>
+      <noteref hlink="_e91cb537b6b77c34707b8e3439"/>
+      <sourceref hlink="_e91bdeb9c3d21433c277010ca23"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_e91bb9b6dad10638e0cb31b1670" change="1601908057" id="S0000">
@@ -330,7 +416,7 @@
       <pname value="Finland"/>
       <pname value="Suomi" lang="fi"/>
     </placeobj>
-    <placeobj handle="_e91bb1063fc38c17d5d9e1fd8d8" change="1601911896" id="P0001" type="Parish">
+    <placeobj handle="_e91bb1063fc38c17d5d9e1fd8d8" change="1601934312" id="P0001" type="Parish">
       <pname value="Sibbo"/>
       <pname value="Sipoo" lang="fi"/>
       <placeref hlink="_e91bb10207913f799258e2c656e"/>
@@ -393,6 +479,14 @@
     <placeobj handle="_e91c513c4281ca0c6db897e82c8" change="1601923945" id="P0016" type="Parish">
       <pname value="Maria Magdalena"/>
       <placeref hlink="_e91c387c10e26f436a0700244d2"/>
+    </placeobj>
+    <placeobj handle="_e91cb41f1456369d617dfd26077" change="1601934314" id="P0017" type="Village">
+      <pname value="Borgby"/>
+      <placeref hlink="_e91bb1063fc38c17d5d9e1fd8d8"/>
+    </placeobj>
+    <placeobj handle="_e91cb42379e14fbecbc20593f68" change="1601934316" id="P0018" type="Farm">
+      <pname value="Sällis"/>
+      <placeref hlink="_e91cb41f1456369d617dfd26077"/>
     </placeobj>
   </places>
   <repositories>
@@ -574,6 +668,44 @@ Piga Anna Arv   1783    [från]Sibbo    [hus hvilker]Capt: Funk?</text>
 1811
 Juni
 [13]    ??? Anna Arv    1783    Sibbo    Sibbo</text>
+    </note>
+    <note handle="_e91ca63c82a59eff81b1e7604e7" change="1601932858" id="N0033" type="Citation">
+      <text>Sipoon ruotsalaisen seurakunnan arkisto - Rippikirja 1804-1815, jakso 199, sivu 196: Massby; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=6343267 / Viitattu 6.10.2020</text>
+    </note>
+    <note handle="_e91ca6732f13487a542a5c43446" change="1601932880" id="N0034" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=6343267</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=6343267">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_e91caadae2d281ca24232aa48b9" change="1601933342" id="N0035" type="Transcript">
+      <text>196
+Massby
+
+ 1758    Göran Arv
+ 1753    hu Am:C: Löf?
++1792    Greta dot                   död d. 26 Mars 1808
+
+
+ 1781    Anders Arv                  } p .17. på Gumbå
+ 1777    Helena Andersdr    }</text>
+    </note>
+    <note handle="_e91cb45dd961b6a78c1a00d9dde" change="1601934340" id="N0036" type="Citation">
+      <text>Sipoon ruotsalaisen seurakunnan arkisto - Rippikirja 1804-1815, jakso 19, sivu 17: Borgby, Sällis; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=6343077 / Viitattu 6.10.2020</text>
+    </note>
+    <note handle="_e91cb488640645996d35b5fd2e6" change="1601934357" id="N0037" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=6343077</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=6343077">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_e91cb537b6b77c34707b8e3439" change="1601934429" id="N0038" type="Transcript">
+      <text>17
+Borgby
+Sälls
+
+-1781     Anders Arv                          vide p. 196
+-1777    Helena Andersdr</text>
     </note>
   </notes>
 </database>
