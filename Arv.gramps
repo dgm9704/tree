@@ -139,9 +139,45 @@
       <place hlink="_e91cb42379e14fbecbc20593f68"/>
       <citationref hlink="_e91cb53e7004e277d2214f93f6e"/>
     </event>
+    <event handle="_e91ee3e6e211bf1e6f7cbbb20a3" change="1601993011" id="E0023">
+      <type>Birth</type>
+      <dateval val="1790-03-25"/>
+      <citationref hlink="_e91ee3e154b4fc058bfc5212504"/>
+    </event>
+    <event handle="_e91ee4cdf3a3f49356774214d3f" change="1601993106" id="E0024">
+      <type>Residence</type>
+      <datespan start="1826" stop="1835"/>
+      <place hlink="_e91c3a60a1429ba4f7e450e50c3"/>
+      <citationref hlink="_e91ee3e154b4fc058bfc5212504"/>
+    </event>
+    <event handle="_e91ee55b90d7b067936ecb0fca3" change="1601993484" id="E0025">
+      <type>Marriage</type>
+      <dateval val="1818-04-10"/>
+      <place hlink="_e91c3a60a1429ba4f7e450e50c3"/>
+      <citationref hlink="_e91ee3e154b4fc058bfc5212504"/>
+      <citationref hlink="_e91ee836a426626d6d924fde077"/>
+    </event>
+    <event handle="_e91eea917ab70d9c9f7ed1c47d8" change="1601993710" id="E0026">
+      <type>Birth</type>
+      <dateval val="1819-03-28"/>
+      <place hlink="_e91c3a60a1429ba4f7e450e50c3"/>
+      <citationref hlink="_e91eea762e64d7cad72ba316c53"/>
+    </event>
+    <event handle="_e91eebd502b25c25fce5174eed7" change="1601993843" id="E0027">
+      <type>Birth</type>
+      <dateval val="1820-10-05"/>
+      <place hlink="_e91c3a60a1429ba4f7e450e50c3"/>
+      <citationref hlink="_e91eebd1c9b32e802a2954fd3a"/>
+    </event>
+    <event handle="_e91eecffa503e686199b17427bb" change="1601993965" id="E0028">
+      <type>Birth</type>
+      <dateval val="1822-12-26"/>
+      <place hlink="_e91c3a60a1429ba4f7e450e50c3"/>
+      <citationref hlink="_e91eecfb66c47e29da1b159b95"/>
+    </event>
   </events>
   <people>
-    <person handle="_e91bafdf7c362022d944b271886" change="1601934150" id="I0000">
+    <person handle="_e91bafdf7c362022d944b271886" change="1601993108" id="I0000">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anna</first>
@@ -163,6 +199,7 @@
       <eventref hlink="_e91c37dbe0b4eb0aa0005304167" role="Primary"/>
       <eventref hlink="_e91c3a7c2ab25901822346de685" role="Primary"/>
       <childof hlink="_e91bbc4e59b569a0b893d0606e1"/>
+      <parentin hlink="_e91ee17e1756a6f0ecbd0abd8b2"/>
     </person>
     <person handle="_e91bbc70f0d6e511b14a155539" change="1601934449" id="I0001">
       <gender>M</gender>
@@ -238,6 +275,42 @@
       <eventref hlink="_e91cb314e1d226b92734cc6a94a" role="Primary"/>
       <parentin hlink="_e91cb2b0f3e3818256dad189d00"/>
     </person>
+    <person handle="_e91ee19146791a4b4cc3bf0034" change="1601993108" id="I0009">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Nils</first>
+        <surname>Andersson</surname>
+      </name>
+      <eventref hlink="_e91ee3e6e211bf1e6f7cbbb20a3" role="Primary"/>
+      <parentin hlink="_e91ee17e1756a6f0ecbd0abd8b2"/>
+    </person>
+    <person handle="_e91ee8c69ae3b50629a0940d91c" change="1601993982" id="I0010">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Elias August</first>
+        <surname>Andersson</surname>
+      </name>
+      <eventref hlink="_e91eea917ab70d9c9f7ed1c47d8" role="Primary"/>
+      <childof hlink="_e91ee17e1756a6f0ecbd0abd8b2"/>
+    </person>
+    <person handle="_e91eeb18ba5419757af2e883ed8" change="1601993982" id="I0011">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Johan August</first>
+        <surname>Andersson</surname>
+      </name>
+      <eventref hlink="_e91eebd502b25c25fce5174eed7" role="Primary"/>
+      <childof hlink="_e91ee17e1756a6f0ecbd0abd8b2"/>
+    </person>
+    <person handle="_e91eec0597c6dee741dfa874e27" change="1601993982" id="I0012">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Sofia Carolina</first>
+        <surname>Andersson</surname>
+      </name>
+      <eventref hlink="_e91eecffa503e686199b17427bb" role="Primary"/>
+      <childof hlink="_e91ee17e1756a6f0ecbd0abd8b2"/>
+    </person>
   </people>
   <families>
     <family handle="_e91bbc4e59b569a0b893d0606e1" change="1601934150" id="F0000">
@@ -259,6 +332,16 @@
       <mother hlink="_e91cb2cff243150cf5fbcd89031"/>
       <eventref hlink="_e91cb5423df69ccff064a5c2282" role="Family"/>
       <eventref hlink="_e91caaf259a7bd6574a96b8e36" role="Unknown"/>
+    </family>
+    <family handle="_e91ee17e1756a6f0ecbd0abd8b2" change="1601993982" id="F0002">
+      <rel type="Married"/>
+      <father hlink="_e91ee19146791a4b4cc3bf0034"/>
+      <mother hlink="_e91bafdf7c362022d944b271886"/>
+      <eventref hlink="_e91ee55b90d7b067936ecb0fca3" role="Family"/>
+      <eventref hlink="_e91ee4cdf3a3f49356774214d3f" role="Family"/>
+      <childref hlink="_e91ee8c69ae3b50629a0940d91c"/>
+      <childref hlink="_e91eeb18ba5419757af2e883ed8"/>
+      <childref hlink="_e91eec0597c6dee741dfa874e27"/>
     </family>
   </families>
   <citations>
@@ -368,6 +451,46 @@
       <noteref hlink="_e91cb537b6b77c34707b8e3439"/>
       <sourceref hlink="_e91bdeb9c3d21433c277010ca23"/>
     </citation>
+    <citation handle="_e91ee3e154b4fc058bfc5212504" change="1601993009" id="C0013">
+      <page>66</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e91ee32e9575ecf278e912fabf1"/>
+      <noteref hlink="_e91ee3694c36d24ba2923d5661b"/>
+      <noteref hlink="_e91ee3c9c491b7538e2a4fc03f3"/>
+      <sourceref hlink="_e91ee2fcda76dd6cd0122898211"/>
+    </citation>
+    <citation handle="_e91ee836a426626d6d924fde077" change="1601993463" id="C0014">
+      <page>60</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e91ee76202022bd980b7c86a20b"/>
+      <noteref hlink="_e91ee79e61e2e7c1ae78eca2d1b"/>
+      <noteref hlink="_e91ee7dac003d618b9b32b3ad28"/>
+      <sourceref hlink="_e91ee72d19a2cc488b849bda608"/>
+    </citation>
+    <citation handle="_e91eea762e64d7cad72ba316c53" change="1601993699" id="C0015">
+      <page>14</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e91eea10e0962bdfdc8015c10e6"/>
+      <noteref hlink="_e91eea4d30c2e905c7a51bf2457"/>
+      <noteref hlink="_e91eea6d1b36be43de3f1a321e4"/>
+      <sourceref hlink="_e91ee9606c850579b8b7445678"/>
+    </citation>
+    <citation handle="_e91eebd1c9b32e802a2954fd3a" change="1601993841" id="C0016">
+      <page>20</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e91eeb8a074498b907b6a71a222"/>
+      <noteref hlink="_e91eebaf0281249621fc4e71e99"/>
+      <noteref hlink="_e91eebcb79252a855f7621f2e23"/>
+      <sourceref hlink="_e91ee9606c850579b8b7445678"/>
+    </citation>
+    <citation handle="_e91eecfb66c47e29da1b159b95" change="1601993963" id="C0017">
+      <page>28</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e91eec926282d8e2534961dbbb3"/>
+      <noteref hlink="_e91eecbc80253d121a7e569e0d7"/>
+      <noteref hlink="_e91eecf1ef0569be2ca3a1b1ae"/>
+      <sourceref hlink="_e91ee9606c850579b8b7445678"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_e91bb9b6dad10638e0cb31b1670" change="1601908057" id="S0000">
@@ -408,6 +531,21 @@
     <source handle="_e91c7b3ea51133fc2f641e6ece8" change="1601928350" id="S0007">
       <stitle>Maria Magdalena Utflyttningslängderna 1808-1815</stitle>
       <sauthor>Maria Magdalena kyrkoarkiv</sauthor>
+      <reporef hlink="_e91c3744e7a481d5b1ef35aa6f" medium="Book"/>
+    </source>
+    <source handle="_e91ee2fcda76dd6cd0122898211" change="1601992915" id="S0008">
+      <stitle>Nya Varvet Husförhörslängder 1826-1835</stitle>
+      <sauthor>Nya Varvet kyrkoarkiv</sauthor>
+      <reporef hlink="_e91c3744e7a481d5b1ef35aa6f" medium="Book"/>
+    </source>
+    <source handle="_e91ee72d19a2cc488b849bda608" change="1601993354" id="S0009">
+      <stitle>Nya Varvet Vigsel 1816-1860</stitle>
+      <sauthor>Nya Varvets kyrkoarkiv</sauthor>
+      <reporef hlink="_e91c3744e7a481d5b1ef35aa6f" medium="Book"/>
+    </source>
+    <source handle="_e91ee9606c850579b8b7445678" change="1601993585" id="S0010">
+      <stitle>Nya Varvet Födelse 1816-1831</stitle>
+      <sauthor>Nya Varvets kyrkoarkiv</sauthor>
       <reporef hlink="_e91c3744e7a481d5b1ef35aa6f" medium="Book"/>
     </source>
   </sources>
@@ -494,7 +632,7 @@
       <rname>Kansallisarkisto</rname>
       <type>Archive</type>
     </repository>
-    <repository handle="_e91c3744e7a481d5b1ef35aa6f" change="1601928348" id="R0001">
+    <repository handle="_e91c3744e7a481d5b1ef35aa6f" change="1601993584" id="R0001">
       <rname>Riksarkivet</rname>
       <type>Archive</type>
     </repository>
@@ -706,6 +844,112 @@ Sälls
 
 -1781     Anders Arv                          vide p. 196
 -1777    Helena Andersdr</text>
+    </note>
+    <note handle="_e91ee32e9575ecf278e912fabf1" change="1601992936" id="N0039" type="Citation">
+      <text>Nya Varvets kyrkoarkiv, Husförhörslängder, SE/GLA/13407/A I/1 (1826-1835), bildid: C0040367_00071, sida 66</text>
+    </note>
+    <note handle="_e91ee3694c36d24ba2923d5661b" change="1601992960" id="N0040" type="Link">
+      <text>https://sok.riksarkivet.se/bildvisning/C0040367_00071</text>
+      <style name="link" value="https://sok.riksarkivet.se/bildvisning/C0040367_00071">
+        <range start="0" end="53"/>
+      </style>
+    </note>
+    <note handle="_e91ee3c9c491b7538e2a4fc03f3" change="1601992999" id="N0041" type="Transcript">
+      <text>B.15 Andersson, Nils, Skepps.Timmerm. No 10    17 25/3 90
+B.16 Ds hustru Anna Arf, f.i. Sibbo i Finland, vigde d. 4/10 18    1783
+     Ds barn: Sophia Carolina, f.i. församl.  18 15/12 22
+              Emilia Maria, do                18 9/7 27</text>
+    </note>
+    <note handle="_e91ee76202022bd980b7c86a20b" change="1601993376" id="N0042" type="Citation">
+      <text>Nya Varvets kyrkoarkiv, Födelse- och dopböcker, SE/GLA/13407/C/1 (1816-1831), bildid: C0040377_00038, sida 60</text>
+    </note>
+    <note handle="_e91ee79e61e2e7c1ae78eca2d1b" change="1601993401" id="N0043" type="Link">
+      <text>https://sok.riksarkivet.se/bildvisning/C0040377_00038</text>
+      <style name="link" value="https://sok.riksarkivet.se/bildvisning/C0040377_00038">
+        <range start="0" end="53"/>
+      </style>
+    </note>
+    <note handle="_e91ee7dac003d618b9b32b3ad28" change="1601993426" id="N0044" type="Transcript">
+      <text>1818
+6 Sept    4 Oct    Ordin: ??? Nils Andersson och Johanna Arf    Vigde af ????</text>
+    </note>
+    <note handle="_e91ee9833b4201cb1672e89b0ff" change="1601993599" id="N0045" type="Citation">
+      <text>Nya Varvets kyrkoarkiv, Husförhörslängder, SE/GLA/13407/A I/1 (1826-1835), bildid: C0040367_00071, sida 66</text>
+    </note>
+    <note handle="_e91ee9ac7516bc6bc12e59d711e" change="1601993616" id="N0046" type="Link">
+      <text>https://sok.riksarkivet.se/bildvisning/C0040367_00071</text>
+      <style name="link" value="https://sok.riksarkivet.se/bildvisning/C0040367_00071">
+        <range start="0" end="53"/>
+      </style>
+    </note>
+    <note handle="_e91eea10e0962bdfdc8015c10e6" change="1601993657" id="N0047" type="Citation">
+      <text>Nya Varvets kyrkoarkiv, Födelse- och dopböcker, SE/GLA/13407/C/1 (1816-1831), bildid: C0040377_00015, sida 14</text>
+    </note>
+    <note handle="_e91eea4d30c2e905c7a51bf2457" change="1601993682" id="N0048" type="Link">
+      <text>https://sok.riksarkivet.se/bildvisning/C0040377_00015</text>
+      <style name="link" value="https://sok.riksarkivet.se/bildvisning/C0040377_00015">
+        <range start="0" end="53"/>
+      </style>
+    </note>
+    <note handle="_e91eea6d1b36be43de3f1a321e4" change="1601993695" id="N0049" type="Transcript">
+      <text>Nya Warfs församlingen År 1819 Födde
+Mars 
+26    28    Elias August + Andersson
+Fadr. Ord. timmermannen Nils Andersson 
+Modr. dess hustru Anna Arf    35 år
+Dopvittn. 
+Hustr. Anna Br. Olsson, 
+Pig. Anna Börjesson, 
+do Anna Gr. Nyberg, 
+Timmerm. And. Larsson, 
+do And. Andersson, 
+do And. Larsson</text>
+    </note>
+    <note handle="_e91eeb8a074498b907b6a71a222" change="1601993812" id="N0050" type="Citation">
+      <text>Nya Varvets kyrkoarkiv, Födelse- och dopböcker, SE/GLA/13407/C/1 (1816-1831), bildid: C0040377_00018, sida 20</text>
+    </note>
+    <note handle="_e91eebaf0281249621fc4e71e99" change="1601993827" id="N0051" type="Link">
+      <text>https://sok.riksarkivet.se/bildvisning/C0040377_00018</text>
+      <style name="link" value="https://sok.riksarkivet.se/bildvisning/C0040377_00018">
+        <range start="0" end="53"/>
+      </style>
+    </note>
+    <note handle="_e91eebcb79252a855f7621f2e23" change="1601993839" id="N0052" type="Transcript">
+      <text>Nya Warfs Församlingen År 1820 födde
+Sept
+28    Okt 5    Johan August + Andersson
+Fadr. Timmerm. Nils Andersson
+Modr. dess hustru Anna Arf    36 år
+Faddr. Timmerm. And. Andersson, 
+Hemmansbru? Elis Eliasson,
+sokne kom. Erik Andersson, 
+Hustru Anna Jonsson, 
+do Ing. Eliasson, 
+Pigan Anna Br. Larsdr</text>
+    </note>
+    <note handle="_e91eec926282d8e2534961dbbb3" change="1601993920" id="N0053" type="Citation">
+      <text>Nya Varvets kyrkoarkiv, Födelse- och dopböcker, SE/GLA/13407/C/1 (1816-1831), bildid: C0040377_00022, sida 28</text>
+    </note>
+    <note handle="_e91eecbc80253d121a7e569e0d7" change="1601993937" id="N0054" type="Link">
+      <text>https://sok.riksarkivet.se/bildvisning/C0040377_00022</text>
+      <style name="link" value="https://sok.riksarkivet.se/bildvisning/C0040377_00022">
+        <range start="0" end="53"/>
+      </style>
+    </note>
+    <note handle="_e91eecf1ef0569be2ca3a1b1ae" change="1601993959" id="N0055" type="Transcript">
+      <text>Nya Warfs Församlingen År 1822 Födde 
+Decemb.
+15    26    Sofia Carolina Andersson
+Fadr. Timmerm. Nils Andersson
+Modr. dess hustru Anna Arf    39 år
+Dopvittn. Hemmansbru? And. Andersson,
+do Erik Eliasson, 
+Socken Skomak. Erik Andersson,
+Warfsmeden Elias Tengström, 
+Hustr. Inga Petersdr,
+do Anna Peterdr,
+Pigan Cath. Wallman,
+do Cath. Lundqvist</text>
     </note>
   </notes>
 </database>
