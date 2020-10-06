@@ -175,6 +175,24 @@
       <place hlink="_e91c3a60a1429ba4f7e450e50c3"/>
       <citationref hlink="_e91eecfb66c47e29da1b159b95"/>
     </event>
+    <event handle="_e91f6cdf672391b5916c8093266" change="1602007373" id="E0029">
+      <type>Birth</type>
+      <dateval val="1825-06-21"/>
+      <place hlink="_e91c3a60a1429ba4f7e450e50c3"/>
+      <citationref hlink="_e91f6cda8a7aad2bdf2761e27a"/>
+    </event>
+    <event handle="_e91f6df305455e0121c01845e1d" change="1602007534" id="E0030">
+      <type>Birth</type>
+      <dateval val="1827-07-12"/>
+      <place hlink="_e91c3a60a1429ba4f7e450e50c3"/>
+      <citationref hlink="_e91f6defc385a50a1226ac902fc"/>
+    </event>
+    <event handle="_e91f6eb168647e3674f43dca786" change="1602007564" id="E0031">
+      <type>Death</type>
+      <dateval val="1827-07-12"/>
+      <place hlink="_e91c3a60a1429ba4f7e450e50c3"/>
+      <citationref hlink="_e91f6defc385a50a1226ac902fc"/>
+    </event>
   </events>
   <people>
     <person handle="_e91bafdf7c362022d944b271886" change="1601993108" id="I0000">
@@ -284,7 +302,7 @@
       <eventref hlink="_e91ee3e6e211bf1e6f7cbbb20a3" role="Primary"/>
       <parentin hlink="_e91ee17e1756a6f0ecbd0abd8b2"/>
     </person>
-    <person handle="_e91ee8c69ae3b50629a0940d91c" change="1601993982" id="I0010">
+    <person handle="_e91ee8c69ae3b50629a0940d91c" change="1602007605" id="I0010">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Elias August</first>
@@ -293,7 +311,7 @@
       <eventref hlink="_e91eea917ab70d9c9f7ed1c47d8" role="Primary"/>
       <childof hlink="_e91ee17e1756a6f0ecbd0abd8b2"/>
     </person>
-    <person handle="_e91eeb18ba5419757af2e883ed8" change="1601993982" id="I0011">
+    <person handle="_e91eeb18ba5419757af2e883ed8" change="1602007605" id="I0011">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Johan August</first>
@@ -302,13 +320,41 @@
       <eventref hlink="_e91eebd502b25c25fce5174eed7" role="Primary"/>
       <childof hlink="_e91ee17e1756a6f0ecbd0abd8b2"/>
     </person>
-    <person handle="_e91eec0597c6dee741dfa874e27" change="1601993982" id="I0012">
+    <person handle="_e91eec0597c6dee741dfa874e27" change="1602007605" id="I0012">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Sofia Carolina</first>
         <surname>Andersson</surname>
       </name>
       <eventref hlink="_e91eecffa503e686199b17427bb" role="Primary"/>
+      <childof hlink="_e91ee17e1756a6f0ecbd0abd8b2"/>
+    </person>
+    <person handle="_e91eed994965a10b4c4e69da38" change="1602007605" id="I0013">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Andreas</first>
+        <surname>Andersson</surname>
+      </name>
+      <eventref hlink="_e91f6cdf672391b5916c8093266" role="Primary"/>
+      <childof hlink="_e91ee17e1756a6f0ecbd0abd8b2"/>
+    </person>
+    <person handle="_e91f6d06ffb68adcfb3e7a60da4" change="1602007605" id="I0014">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Emilia Maria</first>
+        <surname>Andersson</surname>
+      </name>
+      <eventref hlink="_e91f6df305455e0121c01845e1d" role="Primary"/>
+      <childof hlink="_e91ee17e1756a6f0ecbd0abd8b2"/>
+    </person>
+    <person handle="_e91f6e1e18216af2a642a9b6da5" change="1602007605" id="I0015">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>dödfött flickebarn</first>
+        <surname>Andersson</surname>
+      </name>
+      <eventref hlink="_e91f6df305455e0121c01845e1d" role="Primary"/>
+      <eventref hlink="_e91f6eb168647e3674f43dca786" role="Primary"/>
       <childof hlink="_e91ee17e1756a6f0ecbd0abd8b2"/>
     </person>
   </people>
@@ -333,7 +379,7 @@
       <eventref hlink="_e91cb5423df69ccff064a5c2282" role="Family"/>
       <eventref hlink="_e91caaf259a7bd6574a96b8e36" role="Unknown"/>
     </family>
-    <family handle="_e91ee17e1756a6f0ecbd0abd8b2" change="1601993982" id="F0002">
+    <family handle="_e91ee17e1756a6f0ecbd0abd8b2" change="1602007605" id="F0002">
       <rel type="Married"/>
       <father hlink="_e91ee19146791a4b4cc3bf0034"/>
       <mother hlink="_e91bafdf7c362022d944b271886"/>
@@ -342,6 +388,9 @@
       <childref hlink="_e91ee8c69ae3b50629a0940d91c"/>
       <childref hlink="_e91eeb18ba5419757af2e883ed8"/>
       <childref hlink="_e91eec0597c6dee741dfa874e27"/>
+      <childref hlink="_e91eed994965a10b4c4e69da38"/>
+      <childref hlink="_e91f6d06ffb68adcfb3e7a60da4"/>
+      <childref hlink="_e91f6e1e18216af2a642a9b6da5"/>
     </family>
   </families>
   <citations>
@@ -489,6 +538,22 @@
       <noteref hlink="_e91eec926282d8e2534961dbbb3"/>
       <noteref hlink="_e91eecbc80253d121a7e569e0d7"/>
       <noteref hlink="_e91eecf1ef0569be2ca3a1b1ae"/>
+      <sourceref hlink="_e91ee9606c850579b8b7445678"/>
+    </citation>
+    <citation handle="_e91f6cda8a7aad2bdf2761e27a" change="1602007371" id="C0018">
+      <page>36</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e91f6c8bcc9487f0c382a430b5f"/>
+      <noteref hlink="_e91f6cb63946b61d8e646845d55"/>
+      <noteref hlink="_e91f6cd5ba97b7898944cc8d941"/>
+      <sourceref hlink="_e91ee9606c850579b8b7445678"/>
+    </citation>
+    <citation handle="_e91f6defc385a50a1226ac902fc" change="1602007485" id="C0019">
+      <page>42</page>
+      <confidence>2</confidence>
+      <noteref hlink="_e91f6da10ff72c1e0eb0a962e8c"/>
+      <noteref hlink="_e91f6dcafdc19099cbce1095e55"/>
+      <noteref hlink="_e91f6dec5fa4b05837502131854"/>
       <sourceref hlink="_e91ee9606c850579b8b7445678"/>
     </citation>
   </citations>
@@ -950,6 +1015,47 @@ Hustr. Inga Petersdr,
 do Anna Peterdr,
 Pigan Cath. Wallman,
 do Cath. Lundqvist</text>
+    </note>
+    <note handle="_e91f6c8bcc9487f0c382a430b5f" change="1602007339" id="N0056" type="Citation">
+      <text>Nya Varvets kyrkoarkiv, Födelse- och dopböcker, SE/GLA/13407/C/1 (1816-1831), bildid: C0040377_00026, sida 36</text>
+    </note>
+    <note handle="_e91f6cb63946b61d8e646845d55" change="1602007357" id="N0057" type="Link">
+      <text>https://sok.riksarkivet.se/bildvisning/C0040377_00026</text>
+      <style name="link" value="https://sok.riksarkivet.se/bildvisning/C0040377_00026">
+        <range start="0" end="53"/>
+      </style>
+    </note>
+    <note handle="_e91f6cd5ba97b7898944cc8d941" change="1602007370" id="N0058" type="Transcript">
+      <text>Nya Warfs Församlingen År 1825 Födde 
+Juni
+21    21    Andreas + Andersson
+Fadr. Ord. Timmerm. Nils Andersson
+Modr. dess hustru Anna Arf    41 år
+Dopvittn. Mad. C.C.Tengström,
+hustru Helena Samuelsdr</text>
+    </note>
+    <note handle="_e91f6da10ff72c1e0eb0a962e8c" change="1602007453" id="N0059" type="Citation">
+      <text>Nya Varvets kyrkoarkiv, Födelse- och dopböcker, SE/GLA/13407/C/1 (1816-1831), bildid: C0040377_00029, sida 42</text>
+    </note>
+    <note handle="_e91f6dcafdc19099cbce1095e55" change="1602007470" id="N0060" type="Link">
+      <text>https://sok.riksarkivet.se/bildvisning/C0040377_00029</text>
+      <style name="link" value="https://sok.riksarkivet.se/bildvisning/C0040377_00029">
+        <range start="0" end="53"/>
+      </style>
+    </note>
+    <note handle="_e91f6dec5fa4b05837502131854" change="1602007484" id="N0061" type="Transcript">
+      <text>42 År 1827 Födde I Nya Warfs Församlingen
+Juli 
+9    12    Emilia Maria (jemts ett dödfött flickebarn, Tvillingar) Anderson
+Fddr. Timmerm. Nils Anderson
+Modr. dess hustru Anna Arf    43 år
+Dopvittn. 
+Hemmansbru? Anders Jönsson,
+Erkges. P. Breding, 
+Timmerm. And Larsson,
+Mad. M. Börjesson, 
+Pigan Br. Andersdr,
+do A.C.Olsdr</text>
     </note>
   </notes>
 </database>
