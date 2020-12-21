@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2020-10-02" version="5.1.2"/>
+    <created date="2020-12-21" version="5.1.3"/>
     <researcher>
     </researcher>
   </header>
@@ -8179,7 +8179,7 @@
       <place hlink="_cea2947e34111bbc398"/>
       <citationref hlink="_ceaab5e151d18c91084"/>
     </event>
-    <event handle="_ceb8059d63a0a6bc9ce" change="1548617935" id="E3122">
+    <event handle="_ceb8059d63a0a6bc9ce" change="1608547722" id="E3122">
       <type>Residence</type>
       <datespan start="1910" stop="1913"/>
       <place hlink="_ceb806e164e1fd44577"/>
@@ -10705,7 +10705,7 @@
       <place hlink="_dcdcc546fbc30fd171f461b11bb"/>
       <citationref hlink="_dcdcc40e48270e12c17516bca00"/>
     </event>
-    <event handle="_dcdce96d789173900fb6b4bb90a" change="1549192175" id="E0042">
+    <event handle="_dcdce96d789173900fb6b4bb90a" change="1608547740" id="E0042">
       <type>Residence</type>
       <datespan start="1917" stop="1929"/>
       <place hlink="_dcdce9ecdd32efeeffa23a7b1ef"/>
@@ -13173,7 +13173,7 @@
       <place hlink="_e10c216106e761d03c131abecef"/>
       <citationref hlink="_e10c2206758440d21adf6393d2a"/>
     </event>
-    <event handle="_e1595a9714338ca5d2884056bfc" change="1548617423" id="E2870">
+    <event handle="_e1595a9714338ca5d2884056bfc" change="1608547730" id="E2870">
       <type>Residence</type>
       <datespan start="1914" stop="1916"/>
       <place hlink="_ceb8106fa553c8e316f"/>
@@ -35439,10 +35439,11 @@
       <noteref hlink="_e16feac039774c9978c1ce3a9f7"/>
       <sourceref hlink="_e1592cef836303f347111395f2"/>
     </citation>
-    <citation handle="_e1592fa500b7150280d023d1ecf" change="1548582298" id="C1030">
+    <citation handle="_e1592fa500b7150280d023d1ecf" change="1608547664" id="C1030">
       <page>193-194</page>
       <confidence>2</confidence>
       <noteref hlink="_e1592f9e27c1a5651e3cc783b48"/>
+      <noteref hlink="_ea1311c99ac6bd1ad00c0dd9147"/>
       <sourceref hlink="_e1592e7a0cd46d33969024f31a1"/>
     </citation>
     <citation handle="_e159395102511e6af1155aae301" change="1549192894" id="C1031">
@@ -52746,6 +52747,16 @@ Son Johan Jonason 1780
 Dotter Lena Jonaedr 1783
 Dotter Lena Jonaedr 1783
 </text>
+    </note>
+    <note handle="_ea1311c99ac6bd1ad00c0dd9147" change="1608547648" id="N1061" type="Transcript" format="1">
+      <text>Nordberg        1913  1914  1915  1916  1917  1918
+Emil &amp; Hilda    33/3  23/9  23/9  23/9  93/3  93/3</text>
+      <style name="bold">
+        <range start="0" end="50"/>
+      </style>
+      <style name="fontface" value="Liberation Mono">
+        <range start="0" end="101"/>
+      </style>
     </note>
   </notes>
 </database>
