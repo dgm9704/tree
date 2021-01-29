@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2020-07-23" version="5.1.2"/>
+    <created date="2021-01-29" version="5.1.3"/>
     <researcher>
     </researcher>
     <mediapath>/home/john/3Taponen_2014-10-29.gpkg.media</mediapath>
@@ -142,13 +142,17 @@
       <place hlink="_cdd10d9b4b80ba1c482"/>
       <citationref hlink="_d019a9f62104f8b9fae"/>
     </event>
-    <event handle="_cca168bd25d133ff856" change="1502023454" id="E0026">
+    <event handle="_cca168bd25d133ff856" change="1611936693" id="E0026">
       <type>Birth</type>
       <dateval val="1896-07-02"/>
       <place hlink="_cdd1051b4c648ad7ac8"/>
       <citationref hlink="_d00da1609956993adc8"/>
       <citationref hlink="_d32c556700e554b048d"/>
       <citationref hlink="_da7bf1e12fae7162dae75fcd05"/>
+      <citationref hlink="_d01727fae192634bb01"/>
+      <citationref hlink="_d01722866804fe2d09e"/>
+      <citationref hlink="_d0169be00b702b26569"/>
+      <citationref hlink="_da7cd18958d75a53b3b89af47e7"/>
     </event>
     <event handle="_cca1691384735bf6855" change="1595521819" id="E0027">
       <type>Death</type>
@@ -2545,10 +2549,11 @@
       <noteref hlink="_d0206bb535d623dfa15"/>
       <sourceref hlink="_cdd044203935b79cba4"/>
     </citation>
-    <citation handle="_d32c556700e554b048d" change="1502023453" id="C0082">
+    <citation handle="_d32c556700e554b048d" change="1611936817" id="C0082">
       <page>130-131</page>
       <confidence>2</confidence>
       <noteref hlink="_d32c55cbfd41ff9d3d2"/>
+      <noteref hlink="_d00da2c75fb7056334d"/>
       <sourceref hlink="_d32c55274ff602643fe"/>
     </citation>
     <citation handle="_d32c694ce9b483a09fe" change="1451173116" id="C0083">
@@ -3851,7 +3856,7 @@ lapset	Anna Maria		-1	17/8 1882	VK403b		98/l. 326
 		Heikki			1-	2/7   1896
 		Hilma			1-	4/6   1899</text>
     </note>
-    <note handle="_d01a182c29b16c92a7f" change="1451171409" id="N0098" type="Transcript" format="1">
+    <note handle="_d01a182c29b16c92a7f" change="1611936398" id="N0098" type="Transcript" format="1">
       <text>T
 994
 
@@ -3889,7 +3894,7 @@ vo	Lovisa Matintr Kosonen		-1	3/12  1870	15/3 1897 tuli Savorann.
 10	Tapanen Heikki Niilonp		1-	27/11 1867	99/l.718
 wo	Anna Tiina Heikintr Sallinen	-1	6/9   1876	99/l.260</text>
       <style name="fontface" value="Droid Sans Mono">
-        <range start="0" end="1127"/>
+        <range start="0" end="1124"/>
       </style>
     </note>
     <note handle="_d01a268916761125aba" change="1430067089" id="N0099" type="Url">
