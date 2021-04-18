@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2020-12-29" version="5.1.3"/>
+    <created date="2021-04-18" version="5.1.3"/>
     <researcher>
     </researcher>
   </header>
@@ -783,9 +783,10 @@
       <citationref hlink="_db74b1cf6af2fd29b8e5ef899c1"/>
       <citationref hlink="_db74b6b78b449cd1535c74c51"/>
     </event>
-    <event handle="_cb589ccbd9c7f601920" change="1526395237" id="E0522">
+    <event handle="_cb589ccbd9c7f601920" change="1618777674" id="E0522">
       <type>Birth</type>
-      <dateval val="1776"/>
+      <dateval val="1778"/>
+      <noteref hlink="_eb8efee71323b30146ef7e18f87"/>
       <citationref hlink="_d92df3447626dd8fab166162664"/>
       <citationref hlink="_d94b050caff781f0d57751752e1"/>
     </event>
@@ -5090,10 +5091,9 @@
       <dateval val="1861-11-04"/>
       <place hlink="_cdf82fb91b45aadb551"/>
     </event>
-    <event handle="_cb589cdf4c906be8b4c" change="1397384059" id="E3607">
+    <event handle="_cb589cdf4c906be8b4c" change="1609244879" id="E3607">
       <type>Death</type>
       <dateval val="1938-10-15"/>
-      <place hlink="_cb589cc7f8d1b88b055"/>
     </event>
     <event handle="_cb589cdf5050acafd8e" change="1426442399" id="E3609">
       <type>Birth</type>
@@ -9687,7 +9687,7 @@
       <citationref hlink="_d94ae16ca442cc4f85554c82446"/>
       <citationref hlink="_d93464ea3663c340ae15176ed21"/>
     </event>
-    <event handle="_d94b05614a917324d02c56e736" change="1526395059" id="E2140">
+    <event handle="_d94b05614a917324d02c56e736" change="1618773877" id="E2140">
       <type>Residence</type>
       <datespan start="1777" stop="1782"/>
       <place hlink="_cb589ccbcc064822ed4"/>
@@ -9700,7 +9700,7 @@
       <place hlink="_cb589ccbcc064822ed4"/>
       <citationref hlink="_d94ae16ca442cc4f85554c82446"/>
     </event>
-    <event handle="_d94b08ac0ed5f32a67fe422c6bc" change="1493226820" id="E2142">
+    <event handle="_d94b08ac0ed5f32a67fe422c6bc" change="1618772051" id="E2142">
       <type>Residence</type>
       <datespan start="1771" stop="1776"/>
       <place hlink="_cb589ccbcc064822ed4"/>
@@ -11108,7 +11108,7 @@
       <place hlink="_cde62768b9e01659bdc"/>
       <citationref hlink="_defd44c9ebe5ff223a1fb123a1f"/>
     </event>
-    <event handle="_defd4628db01e256deeef0e12e1" change="1533211123" id="E2453">
+    <event handle="_defd4628db01e256deeef0e12e1" change="1609244856" id="E2453">
       <type>Estate Inventory</type>
       <dateval val="1937-05-02"/>
       <place hlink="_cde62768b9e01659bdc"/>
@@ -11260,7 +11260,7 @@
       <place hlink="_df3d2162b6f154bfaa853e42012"/>
       <citationref hlink="_df3d21ce2c651e30bb4388cecf8"/>
     </event>
-    <event handle="_df3d24e902a68918a1c71de5fec" change="1534085657" id="E2480">
+    <event handle="_df3d24e902a68918a1c71de5fec" change="1617030499" id="E2480">
       <type>Residence</type>
       <dateval val="1866"/>
       <place hlink="_df3d2469a16323399a88cf0b117"/>
@@ -31150,10 +31150,11 @@
       <noteref hlink="_d94b031c22954195549170bb4df"/>
       <sourceref hlink="_d6ce1e32504608c072239f4321b"/>
     </citation>
-    <citation handle="_d94b050caff781f0d57751752e1" change="1526395231" id="C0334">
+    <citation handle="_d94b050caff781f0d57751752e1" change="1618777643" id="C0334">
       <page>1-2</page>
       <confidence>2</confidence>
       <noteref hlink="_d94b050954d4100794f61b6c95f"/>
+      <noteref hlink="_eb902a951183074e52b57d5f2fc"/>
       <sourceref hlink="_d6d0b8750ba3461d04df9858de4"/>
     </citation>
     <citation handle="_d94b08797ad7f1f43aa29215227" change="1493226799" id="C0335">
@@ -52757,6 +52758,19 @@ Emil &amp; Hilda    33/3  23/9  23/9  23/9  93/3  93/3</text>
       <style name="fontface" value="Liberation Mono">
         <range start="0" end="101"/>
       </style>
+    </note>
+    <note handle="_eb8efee71323b30146ef7e18f87" change="1618746215" id="N1268" type="Research">
+      <text>Ei löydy Porvoo rtksrk kastetut 1775-12 .. 1777-01</text>
+    </note>
+    <note handle="_eb902a951183074e52b57d5f2fc" change="1618777638" id="N1504" type="Transcript" format="1">
+      <text>Norrveckoski
+Cnuts
+
+Mats Hinderss	72
++ Anna do			74
+    Lena do			76
+    Stina do			78
+    Maria			80</text>
     </note>
   </notes>
 </database>
