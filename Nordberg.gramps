@@ -13987,11 +13987,24 @@
       <place hlink="_e90fdb4e392319fcf5a796c692"/>
       <citationref hlink="_e90fe2b286d28d0eba141e0ac19"/>
     </event>
-    <event handle="_eba569c2cce61038777b470580" change="1619347978" id="E0155">
+    <event handle="_eba569c2cce61038777b470580" change="1619348534" id="E0155">
       <type>Residence</type>
       <dateval val="1819" type="before"/>
       <place hlink="_cdf82fb91b45aadb551"/>
       <citationref hlink="_d6cdbfec25f792bc18962fdc877"/>
+    </event>
+    <event handle="_eba571b6945242646297f476abc" change="1619348812" id="E0156">
+      <type>Residence</type>
+      <dateval val="1819-01-17" type="after"/>
+      <place hlink="_cdf82fb91b45aadb551"/>
+      <citationref hlink="_d6cdbfec25f792bc18962fdc877"/>
+      <citationref hlink="_eba5705c48d2f338816974d8148"/>
+    </event>
+    <event handle="_eba579246dd33181ea9216143e7" change="1619349591" id="E0157">
+      <type>Residence</type>
+      <dateval val="1818-12-28" type="before"/>
+      <place hlink="_cea11f0929a42eefca3"/>
+      <citationref hlink="_eba5792146356feb86ecdd3313f"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -24241,13 +24254,15 @@
       <eventref hlink="_d8aa968b8e2294d6746b69c94b1" role="Primary"/>
       <childof hlink="_d8aa951fc2323c6af2fd43501ee"/>
     </person>
-    <person handle="_d931beb3f7a1dbda52852432a19" change="1492550456" id="I0914">
+    <person handle="_d931beb3f7a1dbda52852432a19" change="1619349591" id="I0914">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Göran</first>
         <surname derivation="Patronymic">Johansson</surname>
       </name>
       <eventref hlink="_d931c5a586b5b92e9b78dd821a3" role="Primary"/>
+      <eventref hlink="_eba571b6945242646297f476abc" role="Primary"/>
+      <eventref hlink="_eba579246dd33181ea9216143e7" role="Primary"/>
       <parentin hlink="_d931bead2cf11ace1f80f921800"/>
     </person>
     <person handle="_d931e91d09a11db2e3532e99fe1" change="1619347997" id="I0915">
@@ -36324,6 +36339,21 @@
       <noteref hlink="_e90fe2aad3123b49da7309b1a97"/>
       <sourceref hlink="_d6cdda448716a020f78957f81cf"/>
     </citation>
+    <citation handle="_eba5705c48d2f338816974d8148" change="1619348810" id="C1151">
+      <page>jakso 91</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eba5702b75c964f7398fce266f"/>
+      <noteref hlink="_eba57056daa2c81817146cddaeb"/>
+      <noteref hlink="_eba57198129775c2f00add2029d"/>
+      <sourceref hlink="_db74fe24dbf7525c14f98f33fc0"/>
+    </citation>
+    <citation handle="_eba5792146356feb86ecdd3313f" change="1619349589" id="C1152">
+      <page>jakso 171</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eba578fa2527a8f973140923727"/>
+      <noteref hlink="_eba5791eaa43f134c627f37c2c0"/>
+      <sourceref hlink="_eba578c4c1a68ca1b9df78e7054"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -38801,6 +38831,9 @@
       <stitle>Porvoo rtksrk Muuttokirjat 1843-1844</stitle>
       <sauthor>Porvoon ruotsalainen tuomiokirkkoseurakunta</sauthor>
       <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
+    <source handle="_eba578c4c1a68ca1b9df78e7054" change="1619349551" id="S0495">
+      <stitle>Porvoo Muuttokirjat 1819-1820</stitle>
     </source>
   </sources>
   <places>
@@ -52804,6 +52837,24 @@ Göran Johansson                          1799
 Fästmö LB Enka                                                               ?? ?? sig häranteknad ?
                                                                                                    1819 fn p 226
 Stina Johans dotter                     1761</text>
+    </note>
+    <note handle="_eba5702b75c964f7398fce266f" change="1619348650" id="N1508" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Seurakuntaan muuttaneiden luettelot 1796-1857, jakso 91: 1819; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=7971826 / Viitattu 25.4.2021</text>
+    </note>
+    <note handle="_eba57056daa2c81817146cddaeb" change="1619348667" id="N1509" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7971826</text>
+    </note>
+    <note handle="_eba57198129775c2f00add2029d" change="1619348799" id="N1510" type="Transcript">
+      <text>Till Borgå landsförsamling inflytade år 1819
+
+20    [Jan]    17    228    Norrveckoski    Johansson, Göran    [Sibbo]    18.12.1818    1 [Mies]
+</text>
+    </note>
+    <note handle="_eba578fa2527a8f973140923727" change="1619349573" id="N1511" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Seurakunnista saapuneet muuttokirjat 1819-1820 (Kaupunkiseurakunta), jakso 171: 1819; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=10067636 / Viitattu 25.4.2021</text>
+    </note>
+    <note handle="_eba5791eaa43f134c627f37c2c0" change="1619349588" id="N1512" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=10067636</text>
     </note>
   </notes>
 </database>
