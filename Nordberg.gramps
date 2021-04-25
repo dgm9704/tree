@@ -13993,17 +13993,25 @@
       <place hlink="_cdf82fb91b45aadb551"/>
       <citationref hlink="_d6cdbfec25f792bc18962fdc877"/>
     </event>
-    <event handle="_eba571b6945242646297f476abc" change="1619348812" id="E0156">
+    <event handle="_eba571b6945242646297f476abc" change="1619360016" id="E0156">
       <type>Residence</type>
       <dateval val="1819-01-17" type="after"/>
       <place hlink="_cdf82fb91b45aadb551"/>
       <citationref hlink="_d6cdbfec25f792bc18962fdc877"/>
       <citationref hlink="_eba5705c48d2f338816974d8148"/>
     </event>
-    <event handle="_eba579246dd33181ea9216143e7" change="1619349591" id="E0157">
+    <event handle="_eba579246dd33181ea9216143e7" change="1619360123" id="E0157">
       <type>Residence</type>
-      <dateval val="1818-12-28" type="before"/>
+      <datespan start="1806" stop="1818-12-28"/>
       <place hlink="_cea11f0929a42eefca3"/>
+      <citationref hlink="_eba5792146356feb86ecdd3313f"/>
+      <citationref hlink="_eba5705c48d2f338816974d8148"/>
+      <citationref hlink="_d6cdbfec25f792bc18962fdc877"/>
+    </event>
+    <event handle="_eba5daaacd76f90386feaa125fd" change="1619359845" id="E0158">
+      <type>Residence</type>
+      <dateval val="1806" type="before"/>
+      <place hlink="_eba5da9b5b05e1cfb94c10bd6c0"/>
       <citationref hlink="_eba5792146356feb86ecdd3313f"/>
     </event>
   </events>
@@ -24254,15 +24262,16 @@
       <eventref hlink="_d8aa968b8e2294d6746b69c94b1" role="Primary"/>
       <childof hlink="_d8aa951fc2323c6af2fd43501ee"/>
     </person>
-    <person handle="_d931beb3f7a1dbda52852432a19" change="1619349591" id="I0914">
+    <person handle="_d931beb3f7a1dbda52852432a19" change="1619360129" id="I0914">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Göran</first>
         <surname derivation="Patronymic">Johansson</surname>
       </name>
       <eventref hlink="_d931c5a586b5b92e9b78dd821a3" role="Primary"/>
-      <eventref hlink="_eba571b6945242646297f476abc" role="Primary"/>
+      <eventref hlink="_eba5daaacd76f90386feaa125fd" role="Primary"/>
       <eventref hlink="_eba579246dd33181ea9216143e7" role="Primary"/>
+      <eventref hlink="_eba571b6945242646297f476abc" role="Primary"/>
       <parentin hlink="_d931bead2cf11ace1f80f921800"/>
     </person>
     <person handle="_d931e91d09a11db2e3532e99fe1" change="1619347997" id="I0915">
@@ -36347,11 +36356,12 @@
       <noteref hlink="_eba57198129775c2f00add2029d"/>
       <sourceref hlink="_db74fe24dbf7525c14f98f33fc0"/>
     </citation>
-    <citation handle="_eba5792146356feb86ecdd3313f" change="1619349589" id="C1152">
+    <citation handle="_eba5792146356feb86ecdd3313f" change="1619359127" id="C1152">
       <page>jakso 171</page>
       <confidence>2</confidence>
       <noteref hlink="_eba578fa2527a8f973140923727"/>
       <noteref hlink="_eba5791eaa43f134c627f37c2c0"/>
+      <noteref hlink="_eba5d40406d3801fe6d5fa10ab1"/>
       <sourceref hlink="_eba578c4c1a68ca1b9df78e7054"/>
     </citation>
   </citations>
@@ -41386,6 +41396,13 @@
     <placeobj handle="_e90fdb4e392319fcf5a796c692" change="1601589456" id="P0069" type="Farm">
       <pname value="Stens"/>
       <placeref hlink="_cb589ce8cd6584aa7c0"/>
+    </placeobj>
+    <placeobj handle="_eba5da8b0ee3de727b76dc930d4" change="1619359804" id="P0074" type="Country">
+      <pname value="Venäjä"/>
+    </placeobj>
+    <placeobj handle="_eba5da9b5b05e1cfb94c10bd6c0" change="1619359810" id="P0078" type="Province">
+      <pname value="Liivinmaa"/>
+      <placeref hlink="_eba5da8b0ee3de727b76dc930d4"/>
     </placeobj>
   </places>
   <repositories>
@@ -52855,6 +52872,30 @@ Stina Johans dotter                     1761</text>
     </note>
     <note handle="_eba5791eaa43f134c627f37c2c0" change="1619349588" id="N1512" type="Link">
       <text>http://digi.narc.fi/digi/view.ka?kuid=10067636</text>
+    </note>
+    <note handle="_eba5d40406d3801fe6d5fa10ab1" change="1619359119" id="N1513" type="Transcript">
+      <text>No 20 för 1819
+
+Spanmåls torparen Göran Johansson, som
+??? ??? flyttat till Weckoski i Borgå
+socken, är född i Estland 1779 (födelseda
+gen är icke antecknad), kom från Liffland 
+år 1806, äser någorlunda i bok och ur min
+net ??? i luth: lilla catechej, äger enfall
+igt christendom begrep, och har un
+der stilla och ??? ??? ???
+??? begått ??? ??? nattvard ???
+??? den 30/3 detta år. ??? år han
+hinderslös till ägtenskap; men om han
+är det ifrån Liffland känner jag ic
+ke. Han säger sig haft smitt koppor.
+Sibbo den 28 December 1818
+??? Joh: Wallgrén
+pastor
+
+
+Norrveckoski p. 228
+uppteck? den 17 Januarii 1819</text>
     </note>
   </notes>
 </database>
