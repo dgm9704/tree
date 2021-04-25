@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2021-04-18" version="5.1.3"/>
+    <created date="2021-04-25" version="5.1.3"/>
     <researcher>
     </researcher>
   </header>
@@ -9623,7 +9623,7 @@
       <citationref hlink="_d92e54f8b8a7cb18360eacca8f0"/>
       <citationref hlink="_d92e6eb21741b50a1543c539418"/>
     </event>
-    <event handle="_d931c5a586b5b92e9b78dd821a3" change="1492548703" id="E2128">
+    <event handle="_d931c5a586b5b92e9b78dd821a3" change="1619345974" id="E2128">
       <type>Birth</type>
       <dateval val="1779"/>
       <citationref hlink="_d931c5973da597df3c18ad9cca"/>
@@ -9654,20 +9654,20 @@
       <citationref hlink="_d931e7ace76acf7bf105f48511"/>
       <citationref hlink="_d931ef3fe462d40493fd1807574"/>
     </event>
-    <event handle="_d9342ff967a5fb5201ceff2ba83" change="1493131148" id="E2135">
+    <event handle="_d9342ff967a5fb5201ceff2ba83" change="1619025634" id="E2135">
       <type>Residence</type>
       <datespan start="1829" stop="1834"/>
       <place hlink="_d931d1d39ca3cbe5529d4f63a4d"/>
       <citationref hlink="_d9342ff63f0771d4b840a91d4e5"/>
     </event>
-    <event handle="_d9344365d2846020a0f6321668e" change="1493132609" id="E2136">
+    <event handle="_d9344365d2846020a0f6321668e" change="1618840780" id="E2136">
       <type>Residence</type>
       <datespan start="1803" stop="1812"/>
       <place hlink="_cb589ccbcc064822ed4"/>
       <citationref hlink="_d92df3447626dd8fab166162664"/>
       <citationref hlink="_d92e5f6ca4425599013743b5938"/>
     </event>
-    <event handle="_d934507593c3f307b8951729158" change="1493222304" id="E2137">
+    <event handle="_d934507593c3f307b8951729158" change="1618840766" id="E2137">
       <type>Residence</type>
       <datespan start="1795" stop="1802"/>
       <place hlink="_cb589ccbcc064822ed4"/>
@@ -9679,7 +9679,7 @@
       <dateval val="1792"/>
       <citationref hlink="_d93464ea3663c340ae15176ed21"/>
     </event>
-    <event handle="_d94add47ce87d95014421ee0e4d" change="1493226093" id="E2139">
+    <event handle="_d94add47ce87d95014421ee0e4d" change="1618840753" id="E2139">
       <type>Residence</type>
       <datespan start="1786" stop="1794"/>
       <place hlink="_cb589ccbcc064822ed4"/>
@@ -9687,7 +9687,7 @@
       <citationref hlink="_d94ae16ca442cc4f85554c82446"/>
       <citationref hlink="_d93464ea3663c340ae15176ed21"/>
     </event>
-    <event handle="_d94b05614a917324d02c56e736" change="1618773877" id="E2140">
+    <event handle="_d94b05614a917324d02c56e736" change="1618840739" id="E2140">
       <type>Residence</type>
       <datespan start="1777" stop="1782"/>
       <place hlink="_cb589ccbcc064822ed4"/>
@@ -13987,6 +13987,12 @@
       <place hlink="_e90fdb4e392319fcf5a796c692"/>
       <citationref hlink="_e90fe2b286d28d0eba141e0ac19"/>
     </event>
+    <event handle="_eba569c2cce61038777b470580" change="1619347978" id="E0155">
+      <type>Residence</type>
+      <dateval val="1819" type="before"/>
+      <place hlink="_cdf82fb91b45aadb551"/>
+      <citationref hlink="_d6cdbfec25f792bc18962fdc877"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1548617779" id="I3858">
@@ -14392,7 +14398,7 @@
       <childof hlink="_cb589cc914557c71ce2"/>
       <parentin hlink="_cb589cc83ea4c947ebd"/>
     </person>
-    <person handle="_cb589cc91586733b724" change="1562507015" id="I4836">
+    <person handle="_cb589cc91586733b724" change="1619347997" id="I4836">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anna</first>
@@ -14404,8 +14410,8 @@
       <eventref hlink="_d48624320337ba9bd2d6e6f19b4" role="Primary"/>
       <eventref hlink="_cb589cc916a5f1f02b7" role="Primary"/>
       <eventref hlink="_e35fec0a84e292fabd4a17715ef" role="Primary"/>
-      <childof hlink="_d931bead2cf11ace1f80f921800"/>
       <childof hlink="_cb589cc9178116184c2"/>
+      <childof hlink="_d931bead2cf11ace1f80f921800"/>
       <parentin hlink="_cb589cc83ea4c947ebd"/>
       <noteref hlink="_d6ca9b232a43da6c157e6dc0208"/>
     </person>
@@ -23408,7 +23414,7 @@
       <eventref hlink="_e8248c486427845e1ec0bf8c1b2" role="Primary"/>
       <parentin hlink="_cb589cc849649a1de75"/>
     </person>
-    <person handle="_cea5ce599ff38d3575a" change="1535227861" id="I1402">
+    <person handle="_cea5ce599ff38d3575a" change="1619347997" id="I1402">
       <gender>M</gender>
       <name type="Also Known As">
         <first>Johan</first>
@@ -23421,8 +23427,8 @@
       </name>
       <eventref hlink="_cb589ccbe1a7fa589cb" role="Primary"/>
       <eventref hlink="_cea5ce5489e3bfef865" role="Primary"/>
-      <childof hlink="_d931bead2cf11ace1f80f921800"/>
       <childof hlink="_cb589cc9178116184c2"/>
+      <childof hlink="_d931bead2cf11ace1f80f921800"/>
       <parentin hlink="_cb589ccbd1b3ff24ca2"/>
     </person>
     <person handle="_cf837ee34744d06198d" change="1519929882" id="I1403">
@@ -24244,7 +24250,7 @@
       <eventref hlink="_d931c5a586b5b92e9b78dd821a3" role="Primary"/>
       <parentin hlink="_d931bead2cf11ace1f80f921800"/>
     </person>
-    <person handle="_d931e91d09a11db2e3532e99fe1" change="1492613698" id="I0915">
+    <person handle="_d931e91d09a11db2e3532e99fe1" change="1619347997" id="I0915">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Lena Sofia</first>
@@ -28516,10 +28522,11 @@
       <eventref hlink="_d8aa98ff0d05cbc9f3f00934764" role="Family"/>
       <childref hlink="_d8aa963218b227d58817a1a394d"/>
     </family>
-    <family handle="_d931bead2cf11ace1f80f921800" change="1492613698" id="F0374">
+    <family handle="_d931bead2cf11ace1f80f921800" change="1619347997" id="F0374">
       <rel type="Married"/>
       <father hlink="_d931beb3f7a1dbda52852432a19"/>
       <mother hlink="_cb589ccbd96066ca75c"/>
+      <eventref hlink="_eba569c2cce61038777b470580" role="Family"/>
       <eventref hlink="_d931d1287079c244b40abc90cf" role="Family"/>
       <eventref hlink="_d931d216fd13ef1001da9daa21c" role="Family"/>
       <eventref hlink="_d931e7af3136d39c0ac05b39ec6" role="Family"/>
@@ -30202,10 +30209,12 @@
       <noteref hlink="_d6cdb72b4f44f1e796f7e35fe8b"/>
       <sourceref hlink="_d6cdb6e892b39137797a08ac81d"/>
     </citation>
-    <citation handle="_d6cdbfec25f792bc18962fdc877" change="1492547335" id="C0197">
+    <citation handle="_d6cdbfec25f792bc18962fdc877" change="1619347975" id="C0197">
       <page>228</page>
       <confidence>2</confidence>
       <noteref hlink="_d6cdbfe5ce672e3207b8119f32c"/>
+      <noteref hlink="_eba55a5cea07373890b0882bbaa"/>
+      <noteref hlink="_eba569b2e32786f162df72e7322"/>
       <sourceref hlink="_d6cdbfbe30416ec646fdadfa39a"/>
     </citation>
     <citation handle="_d6cdc2f2a3f349fd1fed86b7d09" change="1476121317" id="C0198">
@@ -45663,7 +45672,7 @@ N.	4.	7.	Lena Sofia			Par. Mölnaren		Testes: Bonden Matts Mattsson Jonnas från
         <range start="0" end="45"/>
       </style>
     </note>
-    <note handle="_d9342fef1d2705e52e622a69dc0" change="1562507007" id="N0637" type="Transcript" format="1">
+    <note handle="_d9342fef1d2705e52e622a69dc0" change="1619025632" id="N0637" type="Transcript" format="1">
       <text>302	Norrveckoski
 Qvarnstugan
 
@@ -45682,11 +45691,8 @@ Johan Johansson Weckström	31/12 1815
 
 Stjufson	Hette förut Weckström		1834 till Borgnäs med betyg af\	1833 fr pag. 296. 
 Johan Johansson Forsblom	31/12 1815	d 23 Oct			f.i. Norrveckoski. Vacc.</text>
-      <style name="fontface" value="Adobe New Century Schoolbook">
-        <range start="0" end="3"/>
-      </style>
-      <style name="fontface" value="Z003">
-        <range start="3" end="800"/>
+      <style name="fontface" value="Liberation Mono">
+        <range start="0" end="800"/>
       </style>
     </note>
     <note handle="_d93445ab72c102fd3bb8f3d8362" change="1492615814" id="N0638" type="Link">
@@ -52771,6 +52777,33 @@ Mats Hinderss	72
     Lena do			76
     Stina do			78
     Maria			80</text>
+    </note>
+    <note handle="_eba559a57774859e0b8a0000e46" change="1619346288" id="N1505" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Rippikirjat 1813-1820 (Läntinen osa), jakso 231, sivu 228: Norrveckoski; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=7959642 / Viitattu 25.4.2021</text>
+    </note>
+    <note handle="_eba55a5cea07373890b0882bbaa" change="1619346363" id="N1506" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Rippikirjat 1813-1820 (Läntinen osa), jakso 231, sivu 228: Norrveckoski; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=7959642 / Viitattu 25.4.2021</text>
+    </note>
+    <note handle="_eba569b2e32786f162df72e7322" change="1619347971" id="N1507" type="Transcript" format="1">
+      <text>228	Norrweckoski
+Hörande till Byn
+
+Qvarnstugan [yliviivattu]
+
+...
+
+Sockne smed
+Johan Johansson Nordberg    1784
+ho Hedwig Johansdr	           13/4 1792
+
+...
+Mölnare                                                                                Den 29 Januarii 1820 fått lysning med Stina Henriksdotter p. 826 
+                                                                                                    Est från Sibbo med bet af d 28/12 18 No 20 för 1819
+                                                                                                    1819 till p 230
+Göran Johansson                          1799
+Fästmö LB Enka                                                               ?? ?? sig häranteknad ?
+                                                                                                   1819 fn p 226
+Stina Johans dotter                     1761</text>
     </note>
   </notes>
 </database>
