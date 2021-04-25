@@ -13995,12 +13995,13 @@
       <place hlink="_cdf82fb91b45aadb551"/>
       <citationref hlink="_d6cdbfec25f792bc18962fdc877"/>
     </event>
-    <event handle="_eba571b6945242646297f476abc" change="1619360016" id="E0156">
+    <event handle="_eba571b6945242646297f476abc" change="1619370842" id="E0156">
       <type>Residence</type>
       <dateval val="1819-01-17" type="after"/>
       <place hlink="_cdf82fb91b45aadb551"/>
-      <citationref hlink="_d6cdbfec25f792bc18962fdc877"/>
       <citationref hlink="_eba5705c48d2f338816974d8148"/>
+      <citationref hlink="_eba5792146356feb86ecdd3313f"/>
+      <citationref hlink="_d6cdbfec25f792bc18962fdc877"/>
     </event>
     <event handle="_eba579246dd33181ea9216143e7" change="1619363046" id="E0157">
       <type>Residence</type>
@@ -14027,6 +14028,25 @@
       <datespan start="1811" stop="1812"/>
       <place hlink="_eba617d80073f5eb071fb05c17b"/>
       <citationref hlink="_eba6184dea5528a5369a715849a"/>
+    </event>
+    <event handle="_eba635e0ae47b9119d1d3e78101" change="1619369440" id="E0161">
+      <type>Residence</type>
+      <datespan start="1815" stop="1816"/>
+      <place hlink="_eba63542c517343d237486cebad"/>
+      <citationref hlink="_eba635dc8ff445765ed8e2ea44"/>
+    </event>
+    <event handle="_eba640a2945263b14bea4d63ef4" change="1619370509" id="E0162">
+      <type>Residence</type>
+      <datespan start="1816" stop="1818"/>
+      <place hlink="_eba63fc25bc4c6f248324ea26d3"/>
+      <citationref hlink="_eba6409cb13103dcbec6b7d9573"/>
+    </event>
+    <event handle="_eba64256e78323c74df88b50e73" change="1619370851" id="E0163">
+      <type>Residence</type>
+      <datespan start="1818" stop="1818-12-28"/>
+      <place hlink="_eba641d5e0c22e7ec48eae0499e"/>
+      <citationref hlink="_eba642541e2315490fb7add3347"/>
+      <citationref hlink="_eba5792146356feb86ecdd3313f"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -24276,7 +24296,7 @@
       <eventref hlink="_d8aa968b8e2294d6746b69c94b1" role="Primary"/>
       <childof hlink="_d8aa951fc2323c6af2fd43501ee"/>
     </person>
-    <person handle="_d931beb3f7a1dbda52852432a19" change="1619366349" id="I0914">
+    <person handle="_d931beb3f7a1dbda52852432a19" change="1619370760" id="I0914">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Göran</first>
@@ -24287,6 +24307,9 @@
       <eventref hlink="_eba579246dd33181ea9216143e7" role="Primary"/>
       <eventref hlink="_eba618512a632dcd76c5eedc26" role="Primary"/>
       <eventref hlink="_eba615cca3c5d3329572c234fbc" role="Primary"/>
+      <eventref hlink="_eba635e0ae47b9119d1d3e78101" role="Primary"/>
+      <eventref hlink="_eba640a2945263b14bea4d63ef4" role="Primary"/>
+      <eventref hlink="_eba64256e78323c74df88b50e73" role="Primary"/>
       <eventref hlink="_eba571b6945242646297f476abc" role="Primary"/>
       <parentin hlink="_d931bead2cf11ace1f80f921800"/>
     </person>
@@ -36394,6 +36417,27 @@
       <noteref hlink="_eba6184a66354cff24780595a39"/>
       <sourceref hlink="_eba6153da1eacbcfab4eef5506"/>
     </citation>
+    <citation handle="_eba635dc8ff445765ed8e2ea44" change="1619369379" id="C1155">
+      <page>293</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eba635ad1d72957dfbb06c58bde"/>
+      <noteref hlink="_eba635cdf704f0cb5b8ab6aa08a"/>
+      <sourceref hlink="_eba6153da1eacbcfab4eef5506"/>
+    </citation>
+    <citation handle="_eba6409cb13103dcbec6b7d9573" change="1619370506" id="C1156">
+      <page>118</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eba6406d7d66f17eb279e3f2175"/>
+      <noteref hlink="_eba640943b956d216f3c0b34995"/>
+      <sourceref hlink="_eba6403f8734352d144f7b34560"/>
+    </citation>
+    <citation handle="_eba642541e2315490fb7add3347" change="1619370686" id="C1157">
+      <page>91</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eba6422ec4670c1e7868075df4c"/>
+      <noteref hlink="_eba64251cc536e7602f04e41de4"/>
+      <sourceref hlink="_eba6403f8734352d144f7b34560"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -38872,11 +38916,17 @@
       <sauthor>Porvoon ruotsalainen tuomiokirkkoseurakunta</sauthor>
       <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
     </source>
-    <source handle="_eba578c4c1a68ca1b9df78e7054" change="1619349551" id="S0495">
+    <source handle="_eba578c4c1a68ca1b9df78e7054" change="1619370829" id="S0495">
       <stitle>Porvoo Muuttokirjat 1819-1820</stitle>
+      <sauthor>Porvoon ruotsalainen seurakunta</sauthor>
     </source>
     <source handle="_eba6153da1eacbcfab4eef5506" change="1619365959" id="S0496">
       <stitle>Sipoo Rippikirja 1804-1815</stitle>
+      <sauthor>Sipoon ruotsalainen seurakunta</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
+    <source handle="_eba6403f8734352d144f7b34560" change="1619370468" id="S0497">
+      <stitle>Sipoo Rippikirja 1816-1826</stitle>
       <sauthor>Sipoon ruotsalainen seurakunta</sauthor>
       <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
     </source>
@@ -39753,7 +39803,7 @@
       <pname value="Mäntsälä"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
     </placeobj>
-    <placeobj handle="_cea11f0929a42eefca3" change="1619366228" id="P0519" type="Parish">
+    <placeobj handle="_cea11f0929a42eefca3" change="1619370632" id="P0519" type="Parish">
       <ptitle>Sibbo, Finland</ptitle>
       <pname value="Sibbo" lang="se"/>
       <pname value="Sipoo" lang="fi"/>
@@ -41458,9 +41508,29 @@
       <pname value="Gl. Kärr"/>
       <placeref hlink="_eba617d26291938818757d21892"/>
     </placeobj>
+    <placeobj handle="_eba635402177dbbac13ed307d8e" change="1619370416" id="P0090" type="Village">
+      <pname value="Pigby"/>
+      <placeref hlink="_cea11f0929a42eefca3"/>
+    </placeobj>
+    <placeobj handle="_eba63542c517343d237486cebad" change="1619369316" id="P0092" type="Farm">
+      <pname value="Petas"/>
+      <placeref hlink="_eba635402177dbbac13ed307d8e"/>
+    </placeobj>
+    <placeobj handle="_eba63fc25bc4c6f248324ea26d3" change="1619370417" id="P0093" type="Farm">
+      <pname value="Garfvaren"/>
+      <placeref hlink="_eba635402177dbbac13ed307d8e"/>
+    </placeobj>
+    <placeobj handle="_eba641d1c287ecdaee84890475e" change="1619370633" id="P0095" type="Village">
+      <pname value="Gesterby"/>
+      <placeref hlink="_cea11f0929a42eefca3"/>
+    </placeobj>
+    <placeobj handle="_eba641d5e0c22e7ec48eae0499e" change="1619370635" id="P0096" type="Farm">
+      <pname value="Nilsas"/>
+      <placeref hlink="_eba641d1c287ecdaee84890475e"/>
+    </placeobj>
   </places>
   <repositories>
-    <repository handle="_cdea29a49637c6553bc" change="1619365957" id="R0001">
+    <repository handle="_cdea29a49637c6553bc" change="1619370467" id="R0001">
       <rname>Arkistolaitos Digitaaliarkisto</rname>
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
@@ -52962,6 +53032,24 @@ uppteck? den 17 Januarii 1819</text>
     </note>
     <note handle="_eba6184a66354cff24780595a39" change="1619366278" id="N1517" type="Link">
       <text>http://digi.narc.fi/digi/view.ka?kuid=6343402</text>
+    </note>
+    <note handle="_eba635ad1d72957dfbb06c58bde" change="1619369360" id="N1518" type="Citation">
+      <text>Sipoon ruotsalaisen seurakunnan arkisto - Rippikirja 1804-1815, jakso 296, sivu 293: Pigby Petas; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=6343359 / Viitattu 25.4.2021</text>
+    </note>
+    <note handle="_eba635cdf704f0cb5b8ab6aa08a" change="1619369373" id="N1519" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=6343359</text>
+    </note>
+    <note handle="_eba6406d7d66f17eb279e3f2175" change="1619370487" id="N1520" type="Citation">
+      <text>Sipoon ruotsalaisen seurakunnan arkisto - Rippikirja 1816-1826, jakso 395, sivu 118: Pigby, Garfvaren; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=6343868 / Viitattu 25.4.2021</text>
+    </note>
+    <note handle="_eba640943b956d216f3c0b34995" change="1619370503" id="N1521" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=6343868</text>
+    </note>
+    <note handle="_eba6422ec4670c1e7868075df4c" change="1619370671" id="N1522" type="Citation">
+      <text>Sipoon ruotsalaisen seurakunnan arkisto - Rippikirja 1816-1826, jakso 93, sivu 91: Gesterby, öfrige åboer å Nilsas; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=6343557 / Viitattu 25.4.2021</text>
+    </note>
+    <note handle="_eba64251cc536e7602f04e41de4" change="1619370685" id="N1523" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=6343557</text>
     </note>
   </notes>
 </database>
