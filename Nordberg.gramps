@@ -9623,10 +9623,12 @@
       <citationref hlink="_d92e54f8b8a7cb18360eacca8f0"/>
       <citationref hlink="_d92e6eb21741b50a1543c539418"/>
     </event>
-    <event handle="_d931c5a586b5b92e9b78dd821a3" change="1619345974" id="E2128">
+    <event handle="_d931c5a586b5b92e9b78dd821a3" change="1619362573" id="E2128">
       <type>Birth</type>
       <dateval val="1779"/>
+      <place hlink="_eba5f4ef20049c1972aff5f8931"/>
       <citationref hlink="_d931c5973da597df3c18ad9cca"/>
+      <citationref hlink="_eba5792146356feb86ecdd3313f"/>
     </event>
     <event handle="_d931d1287079c244b40abc90cf" change="1492549910" id="E2129">
       <type>Marriage</type>
@@ -14000,7 +14002,7 @@
       <citationref hlink="_d6cdbfec25f792bc18962fdc877"/>
       <citationref hlink="_eba5705c48d2f338816974d8148"/>
     </event>
-    <event handle="_eba579246dd33181ea9216143e7" change="1619360123" id="E0157">
+    <event handle="_eba579246dd33181ea9216143e7" change="1619363046" id="E0157">
       <type>Residence</type>
       <datespan start="1806" stop="1818-12-28"/>
       <place hlink="_cea11f0929a42eefca3"/>
@@ -14013,6 +14015,18 @@
       <dateval val="1806" type="before"/>
       <place hlink="_eba5da9b5b05e1cfb94c10bd6c0"/>
       <citationref hlink="_eba5792146356feb86ecdd3313f"/>
+    </event>
+    <event handle="_eba615cca3c5d3329572c234fbc" change="1619366017" id="E0159">
+      <type>Residence</type>
+      <datespan start="1813" stop="1815"/>
+      <place hlink="_eba614ac41b4dddcb265a360c57"/>
+      <citationref hlink="_eba615c71c652f8f048b75b24f8"/>
+    </event>
+    <event handle="_eba618512a632dcd76c5eedc26" change="1619366281" id="E0160">
+      <type>Residence</type>
+      <datespan start="1811" stop="1812"/>
+      <place hlink="_eba617d80073f5eb071fb05c17b"/>
+      <citationref hlink="_eba6184dea5528a5369a715849a"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -24262,7 +24276,7 @@
       <eventref hlink="_d8aa968b8e2294d6746b69c94b1" role="Primary"/>
       <childof hlink="_d8aa951fc2323c6af2fd43501ee"/>
     </person>
-    <person handle="_d931beb3f7a1dbda52852432a19" change="1619360129" id="I0914">
+    <person handle="_d931beb3f7a1dbda52852432a19" change="1619366349" id="I0914">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Göran</first>
@@ -24271,6 +24285,8 @@
       <eventref hlink="_d931c5a586b5b92e9b78dd821a3" role="Primary"/>
       <eventref hlink="_eba5daaacd76f90386feaa125fd" role="Primary"/>
       <eventref hlink="_eba579246dd33181ea9216143e7" role="Primary"/>
+      <eventref hlink="_eba618512a632dcd76c5eedc26" role="Primary"/>
+      <eventref hlink="_eba615cca3c5d3329572c234fbc" role="Primary"/>
       <eventref hlink="_eba571b6945242646297f476abc" role="Primary"/>
       <parentin hlink="_d931bead2cf11ace1f80f921800"/>
     </person>
@@ -36364,6 +36380,20 @@
       <noteref hlink="_eba5d40406d3801fe6d5fa10ab1"/>
       <sourceref hlink="_eba578c4c1a68ca1b9df78e7054"/>
     </citation>
+    <citation handle="_eba615c71c652f8f048b75b24f8" change="1619366015" id="C1153">
+      <page>136</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eba6157c54c4718f66d7e499c4c"/>
+      <noteref hlink="_eba615a2e9641a0b04b0d435023"/>
+      <sourceref hlink="_eba6153da1eacbcfab4eef5506"/>
+    </citation>
+    <citation handle="_eba6184dea5528a5369a715849a" change="1619366280" id="C1154">
+      <page>337</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eba618218fa1b047be16a81e141"/>
+      <noteref hlink="_eba6184a66354cff24780595a39"/>
+      <sourceref hlink="_eba6153da1eacbcfab4eef5506"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -38845,6 +38875,11 @@
     <source handle="_eba578c4c1a68ca1b9df78e7054" change="1619349551" id="S0495">
       <stitle>Porvoo Muuttokirjat 1819-1820</stitle>
     </source>
+    <source handle="_eba6153da1eacbcfab4eef5506" change="1619365959" id="S0496">
+      <stitle>Sipoo Rippikirja 1804-1815</stitle>
+      <sauthor>Sipoon ruotsalainen seurakunta</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1595618071" id="P0000" type="City">
@@ -39718,7 +39753,7 @@
       <pname value="Mäntsälä"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
     </placeobj>
-    <placeobj handle="_cea11f0929a42eefca3" change="1535836220" id="P0519" type="Parish">
+    <placeobj handle="_cea11f0929a42eefca3" change="1619366228" id="P0519" type="Parish">
       <ptitle>Sibbo, Finland</ptitle>
       <pname value="Sibbo" lang="se"/>
       <pname value="Sipoo" lang="fi"/>
@@ -41404,9 +41439,28 @@
       <pname value="Liivinmaa"/>
       <placeref hlink="_eba5da8b0ee3de727b76dc930d4"/>
     </placeobj>
+    <placeobj handle="_eba5f4ef20049c1972aff5f8931" change="1619362571" id="P0081" type="Country">
+      <pname value="Viro"/>
+    </placeobj>
+    <placeobj handle="_eba614a762f686df5512d9e2c51" change="1619365897" id="P0082" type="Village">
+      <pname value="Immersby"/>
+      <placeref hlink="_cea11f0929a42eefca3"/>
+    </placeobj>
+    <placeobj handle="_eba614ac41b4dddcb265a360c57" change="1619365899" id="P0085" type="Farm">
+      <pname value="Grisas"/>
+      <placeref hlink="_eba614a762f686df5512d9e2c51"/>
+    </placeobj>
+    <placeobj handle="_eba617d26291938818757d21892" change="1619366229" id="P0086" type="Village">
+      <pname value="Östersundom"/>
+      <placeref hlink="_cea11f0929a42eefca3"/>
+    </placeobj>
+    <placeobj handle="_eba617d80073f5eb071fb05c17b" change="1619366232" id="P0087" type="Farm">
+      <pname value="Gl. Kärr"/>
+      <placeref hlink="_eba617d26291938818757d21892"/>
+    </placeobj>
   </places>
   <repositories>
-    <repository handle="_cdea29a49637c6553bc" change="1601413154" id="R0001">
+    <repository handle="_cdea29a49637c6553bc" change="1619365957" id="R0001">
       <rname>Arkistolaitos Digitaaliarkisto</rname>
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
@@ -52873,19 +52927,19 @@ Stina Johans dotter                     1761</text>
     <note handle="_eba5791eaa43f134c627f37c2c0" change="1619349588" id="N1512" type="Link">
       <text>http://digi.narc.fi/digi/view.ka?kuid=10067636</text>
     </note>
-    <note handle="_eba5d40406d3801fe6d5fa10ab1" change="1619359119" id="N1513" type="Transcript">
+    <note handle="_eba5d40406d3801fe6d5fa10ab1" change="1619362915" id="N1513" type="Transcript">
       <text>No 20 för 1819
 
 Spanmåls torparen Göran Johansson, som
 ??? ??? flyttat till Weckoski i Borgå
 socken, är född i Estland 1779 (födelseda
 gen är icke antecknad), kom från Liffland 
-år 1806, äser någorlunda i bok och ur min
+år 1806, läser någorlunda i bok och ur min
 net ??? i luth: lilla catechej, äger enfall
 igt christendom begrep, och har un
 der stilla och ??? ??? ???
 ??? begått ??? ??? nattvard ???
-??? den 30/3 detta år. ??? år han
+??? den 30/3 detta år. Härifrånn år han
 hinderslös till ägtenskap; men om han
 är det ifrån Liffland känner jag ic
 ke. Han säger sig haft smitt koppor.
@@ -52896,6 +52950,18 @@ pastor
 
 Norrveckoski p. 228
 uppteck? den 17 Januarii 1819</text>
+    </note>
+    <note handle="_eba6157c54c4718f66d7e499c4c" change="1619365984" id="N1514" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=6343210</text>
+    </note>
+    <note handle="_eba615a2e9641a0b04b0d435023" change="1619366000" id="N1515" type="Citation">
+      <text>Sipoon ruotsalaisen seurakunnan arkisto - Rippikirja 1804-1815, jakso 139, sivu 136: Immersby, Grisas; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=6343210 / Viitattu 25.4.2021</text>
+    </note>
+    <note handle="_eba618218fa1b047be16a81e141" change="1619366262" id="N1516" type="Citation">
+      <text>Sipoon ruotsalaisen seurakunnan arkisto - Rippikirja 1804-1815, jakso 341, sivu 337: Östersundom, Gl. Kärr; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=6343402 / Viitattu 25.4.2021</text>
+    </note>
+    <note handle="_eba6184a66354cff24780595a39" change="1619366278" id="N1517" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=6343402</text>
     </note>
   </notes>
 </database>
