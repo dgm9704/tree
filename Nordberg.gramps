@@ -14053,11 +14053,17 @@
       <place hlink="_eba932e2f2b79b8c277926799e1"/>
       <citationref hlink="_eba93e82c8e17a64814474c2e99"/>
     </event>
-    <event handle="_eba952046e85f9e5da136e0c1f0" change="1619452862" id="E0165">
+    <event handle="_eba952046e85f9e5da136e0c1f0" change="1619461150" id="E0165">
       <type>Residence</type>
       <datespan start="1807" stop="1812"/>
       <place hlink="_eba932e2f2b79b8c277926799e1"/>
       <citationref hlink="_eba951fbcf338727389f70133ca"/>
+    </event>
+    <event handle="_eba9b3b5bb2f61355ca190cbb6" change="1619470084" id="E0166">
+      <type>Residence</type>
+      <datespan start="1801" stop="1806"/>
+      <place hlink="_eba932e2f2b79b8c277926799e1"/>
+      <citationref hlink="_eba9b3a421e3d0460409c1bfdba"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -14362,7 +14368,7 @@
       <childof hlink="_cb589cc80670f6bf5c4"/>
       <parentin hlink="_cb589cc862d4af32061"/>
     </person>
-    <person handle="_cb589cc8ec053a33e4e" change="1619452870" id="I3943">
+    <person handle="_cb589cc8ec053a33e4e" change="1619470133" id="I3943">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Gustaf Adolph</first>
@@ -14890,7 +14896,7 @@
       <childof hlink="_cb589ccb933003a56ef"/>
       <parentin hlink="_cb589cc8edf633eea11"/>
     </person>
-    <person handle="_cb589ccb9444e6f7f6f" change="1619452870" id="I5838">
+    <person handle="_cb589ccb9444e6f7f6f" change="1619470133" id="I5838">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Eva Stina</first>
@@ -14900,7 +14906,7 @@
       <eventref hlink="_cb589ccb95814f75dc6" role="Primary"/>
       <childof hlink="_cb589cc8edf633eea11"/>
     </person>
-    <person handle="_cb589ccb97a1bce9a33" change="1619452870" id="I5697">
+    <person handle="_cb589ccb97a1bce9a33" change="1619470133" id="I5697">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Hans Henric</first>
@@ -14910,7 +14916,7 @@
       <eventref hlink="_cb589ccb9812828d539" role="Primary"/>
       <childof hlink="_cb589cc8edf633eea11"/>
     </person>
-    <person handle="_cb589ccb9a04c9e78c4" change="1619452870" id="I4270">
+    <person handle="_cb589ccb9a04c9e78c4" change="1619470133" id="I4270">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Lars Fredric</first>
@@ -14920,7 +14926,7 @@
       <eventref hlink="_cb589ccb9b4098f55ff" role="Primary"/>
       <childof hlink="_cb589cc8edf633eea11"/>
     </person>
-    <person handle="_cb589ccb9d63abd8961" change="1619452870" id="I3699">
+    <person handle="_cb589ccb9d63abd8961" change="1619470133" id="I3699">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Eva Carolina</first>
@@ -14930,7 +14936,7 @@
       <eventref hlink="_cb589ccb9df26ffa648" role="Primary"/>
       <childof hlink="_cb589cc8edf633eea11"/>
     </person>
-    <person handle="_cb589ccb9ff143d021d" change="1619452870" id="I3656">
+    <person handle="_cb589ccb9ff143d021d" change="1619470133" id="I3656">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Sophia Wilhelmina</first>
@@ -14942,7 +14948,7 @@
       <childof hlink="_cb589cc8edf633eea11"/>
       <parentin hlink="_cb589ccba12407f3e0c"/>
     </person>
-    <person handle="_cb589ccba1f3ffeddce" change="1619452870" id="I5989">
+    <person handle="_cb589ccba1f3ffeddce" change="1619470133" id="I5989">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Carl Adam</first>
@@ -25958,11 +25964,12 @@
       <eventref hlink="_cb589cfc0a91ab9f9e8" role="Family"/>
       <eventref hlink="_d48dade66252b13b318aa2388d8" role="Family"/>
     </family>
-    <family handle="_cb589cc8edf633eea11" change="1619452870" id="F1412">
+    <family handle="_cb589cc8edf633eea11" change="1619470133" id="F1412">
       <rel type="Married"/>
       <father hlink="_cb589ccb8e61c75d89b"/>
       <mother hlink="_cb589ccb91866738787"/>
       <eventref hlink="_cb589cfc37a08e2e14a" role="Family"/>
+      <eventref hlink="_eba9b3b5bb2f61355ca190cbb6" role="Family"/>
       <eventref hlink="_eba952046e85f9e5da136e0c1f0" role="Family"/>
       <eventref hlink="_eba93eadba27367bb9adac7b8f4" role="Family"/>
       <childref hlink="_cb589ccb9444e6f7f6f"/>
@@ -36466,6 +36473,14 @@
       <noteref hlink="_eba94a5c8b234cb087db8cd95e2"/>
       <noteref hlink="_eba94a7cf5d332c20a11b18bdba"/>
       <noteref hlink="_eba951cd2921f27d90a0f358b45"/>
+      <sourceref hlink="_eba94a394f827a4cd4c66f92ce5"/>
+    </citation>
+    <citation handle="_eba9b3a421e3d0460409c1bfdba" change="1619469590" id="C1160">
+      <page>128</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eba9a1ae7253080a98e684d5234"/>
+      <noteref hlink="_eba9a1d57802e4909321de73582"/>
+      <noteref hlink="_eba9f18315a6b1570187e50b973"/>
       <sourceref hlink="_eba94a394f827a4cd4c66f92ce5"/>
     </citation>
   </citations>
@@ -53116,10 +53131,10 @@ Son Gustaf Adolph        1/6 1816 Dansko</text>
     <note handle="_eba94a7cf5d332c20a11b18bdba" change="1619452073" id="N1529" type="Link">
       <text>http://digi.narc.fi/digi/view.ka?kuid=8882755</text>
     </note>
-    <note handle="_eba951cd2921f27d90a0f358b45" change="1619452840" id="N1530" type="Transcript" format="1">
+    <note handle="_eba951cd2921f27d90a0f358b45" change="1619460931" id="N1530" type="Transcript" format="1">
       <text>292 Dansko Byviken 
 
-Torp Sigfrid Hansson      29/7 1749
+Torp Sigfrid Larsson      29/7 1749
 ho Greta Johans dr        6/10 1750    10/2 1811
 hon Henric Holmström      2/4 1777
 ho Greta Hansdr           5/4 1781
@@ -53134,6 +53149,31 @@ sn Fredric } gemini       24/6 1812
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="405"/>
+      </style>
+    </note>
+    <note handle="_eba9a1ae7253080a98e684d5234" change="1619461216" id="N1531" type="Citation">
+      <text>Tammisaaren seurakunnan arkisto - Rippikirjat 1801-1812, jakso 138, sivu 128: Ekö torp; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=8882592 / Viitattu 26.4.2021</text>
+    </note>
+    <note handle="_eba9a1d57802e4909321de73582" change="1619461232" id="N1532" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=8882592</text>
+    </note>
+    <note handle="_eba9f18315a6b1570187e50b973" change="1619469586" id="N1533" type="Transcript" format="1">
+      <text>128 Ekö torp
+
+...
+
+Byvik
+Sigf Larsson                    1749
+ho Greta Johansdr               1750
+son Hinric Holmström      2/4   1777
+pig Greta Hallenberg född 19/10 1788
+dr Greta Sophia           21/10 1781
+ho Greta Hansdr           15/4  1781
+son Hans Hinric           14/9  1805
+
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="285"/>
       </style>
     </note>
   </notes>
