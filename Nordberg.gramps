@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2021-04-25" version="5.1.3"/>
+    <created date="2021-04-26" version="5.1.3"/>
     <researcher>
     </researcher>
   </header>
@@ -222,7 +222,7 @@
       <citationref hlink="_dcf2dda66fd13c3a6fc9b8f74f"/>
       <citationref hlink="_dd0a49136901abdeb18f4e8ff28"/>
     </event>
-    <event handle="_cb589cc8ec36829242d" change="1488391447" id="E0191">
+    <event handle="_cb589cc8ec36829242d" change="1619449498" id="E0191">
       <type>Birth</type>
       <dateval val="1816-06-01"/>
       <place hlink="_cb589cc8ec66a725c6d"/>
@@ -642,7 +642,7 @@
       <type>Death</type>
       <dateval val="1819-12-01"/>
     </event>
-    <event handle="_cb589ccb91d25b4dd7d" change="1426338293" id="E0474">
+    <event handle="_cb589ccb91d25b4dd7d" change="1619448956" id="E0474">
       <type>Birth</type>
       <dateval val="1781-04-05"/>
       <place hlink="_cb589ccb92173869ea2"/>
@@ -7095,10 +7095,9 @@
       <citationref hlink="_d48dcfb86843c89714b0d40ce77"/>
       <citationref hlink="_d48dde38f3f6055a0c8cfda56e6"/>
     </event>
-    <event handle="_cb589cfc37a08e2e14a" change="1397384070" id="E7076">
+    <event handle="_cb589cfc37a08e2e14a" change="1619449511" id="E7076">
       <type>Marriage</type>
       <dateval val="1801-12-29"/>
-      <place hlink="_cb589cc7f8d1b88b055"/>
     </event>
     <event handle="_cb589cfc3bf61510d5c" change="1488731049" id="E7077">
       <type>Marriage</type>
@@ -9265,13 +9264,13 @@
       <place hlink="_cdfa144c48f5f32c9ad"/>
       <citationref hlink="_d893eaaccc144e7f44dbb46ef32"/>
     </event>
-    <event handle="_d896ce955801ab9d63bab8ef1ef" change="1488392357" id="E2053">
+    <event handle="_d896ce955801ab9d63bab8ef1ef" change="1619448544" id="E2053">
       <type>Residence</type>
       <datespan start="1847" stop="1854"/>
       <place hlink="_d896d467f9f5b29069c4f45180f"/>
       <citationref hlink="_d896ce893f31c3e54244abe259"/>
     </event>
-    <event handle="_d896db2a472446e8117b46ec79f" change="1488395869" id="E2054">
+    <event handle="_d896db2a472446e8117b46ec79f" change="1619448627" id="E2054">
       <type>Residence</type>
       <datespan start="1840" stop="1846"/>
       <place hlink="_d896d467f9f5b29069c4f45180f"/>
@@ -9630,7 +9629,7 @@
       <citationref hlink="_d931c5973da597df3c18ad9cca"/>
       <citationref hlink="_eba5792146356feb86ecdd3313f"/>
     </event>
-    <event handle="_d931d1287079c244b40abc90cf" change="1492549910" id="E2129">
+    <event handle="_d931d1287079c244b40abc90cf" change="1619377749" id="E2129">
       <type>Marriage</type>
       <dateval val="1820-03-20"/>
       <place hlink="_cdf82fb91b45aadb551"/>
@@ -9650,7 +9649,7 @@
       <citationref hlink="_d931e3d97fd6932da81e75cd541"/>
       <citationref hlink="_d931e7ace76acf7bf105f48511"/>
     </event>
-    <event handle="_d931ef445ea34406a1af5d397ab" change="1492553067" id="E2132">
+    <event handle="_d931ef445ea34406a1af5d397ab" change="1619448370" id="E2132">
       <type>Birth</type>
       <dateval val="1823-01-04"/>
       <citationref hlink="_d931e7ace76acf7bf105f48511"/>
@@ -14023,7 +14022,7 @@
       <place hlink="_eba614ac41b4dddcb265a360c57"/>
       <citationref hlink="_eba615c71c652f8f048b75b24f8"/>
     </event>
-    <event handle="_eba618512a632dcd76c5eedc26" change="1619366281" id="E0160">
+    <event handle="_eba618512a632dcd76c5eedc26" change="1619379342" id="E0160">
       <type>Residence</type>
       <datespan start="1811" stop="1812"/>
       <place hlink="_eba617d80073f5eb071fb05c17b"/>
@@ -14047,6 +14046,18 @@
       <place hlink="_eba641d5e0c22e7ec48eae0499e"/>
       <citationref hlink="_eba642541e2315490fb7add3347"/>
       <citationref hlink="_eba5792146356feb86ecdd3313f"/>
+    </event>
+    <event handle="_eba93eadba27367bb9adac7b8f4" change="1619450834" id="E0164">
+      <type>Residence</type>
+      <datespan start="1813" stop="1819"/>
+      <place hlink="_eba932e2f2b79b8c277926799e1"/>
+      <citationref hlink="_eba93e82c8e17a64814474c2e99"/>
+    </event>
+    <event handle="_eba952046e85f9e5da136e0c1f0" change="1619452862" id="E0165">
+      <type>Residence</type>
+      <datespan start="1807" stop="1812"/>
+      <place hlink="_eba932e2f2b79b8c277926799e1"/>
+      <citationref hlink="_eba951fbcf338727389f70133ca"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -14351,7 +14362,7 @@
       <childof hlink="_cb589cc80670f6bf5c4"/>
       <parentin hlink="_cb589cc862d4af32061"/>
     </person>
-    <person handle="_cb589cc8ec053a33e4e" change="1488391455" id="I3943">
+    <person handle="_cb589cc8ec053a33e4e" change="1619452870" id="I3943">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Gustaf Adolph</first>
@@ -14879,7 +14890,7 @@
       <childof hlink="_cb589ccb933003a56ef"/>
       <parentin hlink="_cb589cc8edf633eea11"/>
     </person>
-    <person handle="_cb589ccb9444e6f7f6f" change="1414284937" id="I5838">
+    <person handle="_cb589ccb9444e6f7f6f" change="1619452870" id="I5838">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Eva Stina</first>
@@ -14889,7 +14900,7 @@
       <eventref hlink="_cb589ccb95814f75dc6" role="Primary"/>
       <childof hlink="_cb589cc8edf633eea11"/>
     </person>
-    <person handle="_cb589ccb97a1bce9a33" change="1414284937" id="I5697">
+    <person handle="_cb589ccb97a1bce9a33" change="1619452870" id="I5697">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Hans Henric</first>
@@ -14899,7 +14910,7 @@
       <eventref hlink="_cb589ccb9812828d539" role="Primary"/>
       <childof hlink="_cb589cc8edf633eea11"/>
     </person>
-    <person handle="_cb589ccb9a04c9e78c4" change="1414284936" id="I4270">
+    <person handle="_cb589ccb9a04c9e78c4" change="1619452870" id="I4270">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Lars Fredric</first>
@@ -14909,7 +14920,7 @@
       <eventref hlink="_cb589ccb9b4098f55ff" role="Primary"/>
       <childof hlink="_cb589cc8edf633eea11"/>
     </person>
-    <person handle="_cb589ccb9d63abd8961" change="1414284935" id="I3699">
+    <person handle="_cb589ccb9d63abd8961" change="1619452870" id="I3699">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Eva Carolina</first>
@@ -14919,7 +14930,7 @@
       <eventref hlink="_cb589ccb9df26ffa648" role="Primary"/>
       <childof hlink="_cb589cc8edf633eea11"/>
     </person>
-    <person handle="_cb589ccb9ff143d021d" change="1414284935" id="I3656">
+    <person handle="_cb589ccb9ff143d021d" change="1619452870" id="I3656">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Sophia Wilhelmina</first>
@@ -14931,7 +14942,7 @@
       <childof hlink="_cb589cc8edf633eea11"/>
       <parentin hlink="_cb589ccba12407f3e0c"/>
     </person>
-    <person handle="_cb589ccba1f3ffeddce" change="1414284937" id="I5989">
+    <person handle="_cb589ccba1f3ffeddce" change="1619452870" id="I5989">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Carl Adam</first>
@@ -25947,11 +25958,13 @@
       <eventref hlink="_cb589cfc0a91ab9f9e8" role="Family"/>
       <eventref hlink="_d48dade66252b13b318aa2388d8" role="Family"/>
     </family>
-    <family handle="_cb589cc8edf633eea11" change="1414284937" id="F1412">
+    <family handle="_cb589cc8edf633eea11" change="1619452870" id="F1412">
       <rel type="Married"/>
       <father hlink="_cb589ccb8e61c75d89b"/>
       <mother hlink="_cb589ccb91866738787"/>
       <eventref hlink="_cb589cfc37a08e2e14a" role="Family"/>
+      <eventref hlink="_eba952046e85f9e5da136e0c1f0" role="Family"/>
+      <eventref hlink="_eba93eadba27367bb9adac7b8f4" role="Family"/>
       <childref hlink="_cb589ccb9444e6f7f6f"/>
       <childref hlink="_cb589ccb97a1bce9a33"/>
       <childref hlink="_cb589ccb9a04c9e78c4"/>
@@ -30724,11 +30737,12 @@
       <noteref hlink="_d896e206945247c165d6885f46e"/>
       <sourceref hlink="_d896dd250513eee79d149a635d7"/>
     </citation>
-    <citation handle="_d896e6f32b21c2bf0738d770e65" change="1488391446" id="C0262">
+    <citation handle="_d896e6f32b21c2bf0738d770e65" change="1619449474" id="C0262">
       <page>jakso 108</page>
       <confidence>2</confidence>
       <noteref hlink="_d896e4f735f52f67a15fc61e02b"/>
       <noteref hlink="_d896e6ef9581d130113f039c151"/>
+      <noteref hlink="_eba931a02f73b889faf977d3663"/>
       <sourceref hlink="_d896e4cb3d84a6501df19f982bb"/>
     </citation>
     <citation handle="_d896eed87a77262e0ace1b99b94" change="1488732286" id="C0263">
@@ -36438,6 +36452,22 @@
       <noteref hlink="_eba64251cc536e7602f04e41de4"/>
       <sourceref hlink="_eba6403f8734352d144f7b34560"/>
     </citation>
+    <citation handle="_eba93e82c8e17a64814474c2e99" change="1619450817" id="C1158">
+      <page>94</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eba933c631b616d7e5642439803"/>
+      <noteref hlink="_eba933e789d1342843584cb1f79"/>
+      <noteref hlink="_eba93e793803f80ad3a211cfe70"/>
+      <sourceref hlink="_eba9338e046585b351cf9fdc567"/>
+    </citation>
+    <citation handle="_eba951fbcf338727389f70133ca" change="1619452859" id="C1159">
+      <page>292</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eba94a5c8b234cb087db8cd95e2"/>
+      <noteref hlink="_eba94a7cf5d332c20a11b18bdba"/>
+      <noteref hlink="_eba951cd2921f27d90a0f358b45"/>
+      <sourceref hlink="_eba94a394f827a4cd4c66f92ce5"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -38930,6 +38960,16 @@
       <sauthor>Sipoon ruotsalainen seurakunta</sauthor>
       <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
     </source>
+    <source handle="_eba9338e046585b351cf9fdc567" change="1619449668" id="S0498">
+      <stitle>Tammisaari Rippikirja 1813-1819</stitle>
+      <sauthor>Tammisaaren seurakunta</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
+    <source handle="_eba94a394f827a4cd4c66f92ce5" change="1619452045" id="S0499">
+      <stitle>Tammisaari Rippikirja 1801-1812</stitle>
+      <sauthor>Tammisaaren seurakunta</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1595618071" id="P0000" type="City">
@@ -38954,18 +38994,10 @@
       <pname value="Leppäselkä"/>
       <placeref hlink="_cea12a3218232cd56c8"/>
     </placeobj>
-    <placeobj handle="_cb589cc8ec66a725c6d" change="1419947335" id="P0018" type="Village">
+    <placeobj handle="_cb589cc8ec66a725c6d" change="1619449594" id="P0018" type="Village">
       <ptitle>Danskog, Ekenäs, Finland</ptitle>
       <pname value="Danskog"/>
       <placeref hlink="_cb589cc83b65110951c"/>
-      <location city="Ekenäs"/>
-      <location city="Ekenäs Lf"/>
-      <location city="Ekenäs Lf" country="Finland"/>
-      <location country="Finland"/>
-      <location city="Ekenäs lf" country="Finland"/>
-      <location city="[object Object]"/>
-      <location city="Ekenäs lf"/>
-      <location city="Ekenäs lf."/>
     </placeobj>
     <placeobj handle="_cb589cc8fe4003a3ccf" change="1419972919" id="P0019" type="Village">
       <ptitle>Öby, Bromarf, Finland</ptitle>
@@ -41528,9 +41560,13 @@
       <pname value="Nilsas"/>
       <placeref hlink="_eba641d1c287ecdaee84890475e"/>
     </placeobj>
+    <placeobj handle="_eba932e2f2b79b8c277926799e1" change="1619449598" id="P0097" type="Farm">
+      <pname value="Byviken"/>
+      <placeref hlink="_cb589cc8ec66a725c6d"/>
+    </placeobj>
   </places>
   <repositories>
-    <repository handle="_cdea29a49637c6553bc" change="1619370467" id="R0001">
+    <repository handle="_cdea29a49637c6553bc" change="1619452044" id="R0001">
       <rname>Arkistolaitos Digitaaliarkisto</rname>
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
@@ -45758,10 +45794,10 @@ Stina Henriks doter	1776		 1819 fn p 226</text>
         <range start="0" end="45"/>
       </style>
     </note>
-    <note handle="_d931d12166615180d50ebd76a4" change="1492549907" id="N0627" type="Transcript" format="1">
+    <note handle="_d931d12166615180d50ebd76a4" change="1619377740" id="N0627" type="Transcript" format="1">
       <text>Vigde år 1820
 	No	dd		I Februari månad
-N	3.	20.	Göran Johansson		Brudg. Mölnare, ungkarl				Vigde as Kapellanen Henrik
+N	3.	20.	Göran Johansson		Brudg. Mölnare, ungkarl				Vigde af Kapellanen Henrik
 				och					från Norrveckoski					Sandberg
 			Christina Henriksdotter	Bruden: Enka; från Norr				Coll. 22 Kop. Bko af och
 									veckoski Jontas				_	36	22 skil. Sv Bko</text>
@@ -53050,6 +53086,55 @@ uppteck? den 17 Januarii 1819</text>
     </note>
     <note handle="_eba64251cc536e7602f04e41de4" change="1619370685" id="N1523" type="Link">
       <text>http://digi.narc.fi/digi/view.ka?kuid=6343557</text>
+    </note>
+    <note handle="_eba931a02f73b889faf977d3663" change="1619449466" id="N1524" type="Citation">
+      <text>Tammisaaren seurakunnan arkisto - Syntyneiden ja kastettujen luettelot 1797-1834, jakso 108: 1816; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=8885558 / Viitattu 26.4.2021</text>
+    </note>
+    <note handle="_eba933c631b616d7e5642439803" change="1619449691" id="N1525" type="Citation">
+      <text>Tammisaaren seurakunnan arkisto - Rippikirjat 1813-1819, jakso 94, sivu 94: Dansko Byviken; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=8869922 / Viitattu 26.4.2021</text>
+    </note>
+    <note handle="_eba933e789d1342843584cb1f79" change="1619449705" id="N1526" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=8869922</text>
+    </note>
+    <note handle="_eba93e793803f80ad3a211cfe70" change="1619450813" id="N1527" type="Transcript" format="1">
+      <text>94    Dansko    Torpare
+
+Byviken
+
+Torp Henric Holmström    2/4 1777 Dansko
+Hust Greta Hansdr        5/4 1781 Odensö
+Son Hans Henric          14/9 1805 Dansko
+Dott Sophia wilhelmina   19/10 1812 Dansko
+Son Gustaf Adolph        1/6 1816 Dansko</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="241"/>
+      </style>
+    </note>
+    <note handle="_eba94a5c8b234cb087db8cd95e2" change="1619452059" id="N1528" type="Citation">
+      <text>Tammisaaren seurakunnan arkisto - Rippikirjat 1801-1812, jakso 310, sivu 292: Dansko Bywiken; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=8882755 / Viitattu 26.4.2021</text>
+    </note>
+    <note handle="_eba94a7cf5d332c20a11b18bdba" change="1619452073" id="N1529" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=8882755</text>
+    </note>
+    <note handle="_eba951cd2921f27d90a0f358b45" change="1619452840" id="N1530" type="Transcript" format="1">
+      <text>292 Dansko Byviken 
+
+Torp Sigfrid Hansson      29/7 1749
+ho Greta Johans dr        6/10 1750    10/2 1811
+hon Henric Holmström      2/4 1777
+ho Greta Hansdr           5/4 1781
+son Hans Henric           14/9 1805
+dr Eva Carolina           14/1 1811    26/2 1811
+
+hu Hedvig Henricsdr       27/2 1777
+pig Greta Stina Hellegren 9/10 1788
+son Johannes Sigfridsson  24/6 1812
+sn Fredric } gemini       24/6 1812
+
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="405"/>
+      </style>
     </note>
   </notes>
 </database>
