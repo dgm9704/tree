@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2021-04-26" version="5.1.3"/>
+    <created date="2021-04-27" version="5.1.3"/>
     <researcher>
     </researcher>
   </header>
@@ -633,14 +633,19 @@
       <dateval val="1914"/>
       <place hlink="_cea2947e34111bbc398"/>
     </event>
-    <event handle="_cb589ccb8eb7da7f5e3" change="1426338248" id="E0472">
+    <event handle="_cb589ccb8eb7da7f5e3" change="1619536670" id="E0472">
       <type>Birth</type>
-      <dateval val="1777-04-02"/>
+      <dateval val="1777-04-08"/>
       <place hlink="_cb589cc8ec66a725c6d"/>
+      <citationref hlink="_eba9b3a421e3d0460409c1bfdba"/>
+      <citationref hlink="_ebac712ee68569edec70d0600a4"/>
     </event>
-    <event handle="_cb589ccb8fa550a973a" change="1397384050" id="E0473">
+    <event handle="_cb589ccb8fa550a973a" change="1619536182" id="E0473">
       <type>Death</type>
-      <dateval val="1819-12-01"/>
+      <dateval val="1819-09-15"/>
+      <place hlink="_eba932e2f2b79b8c277926799e1"/>
+      <citationref hlink="_ebac34cf93464613788cc6c39eb"/>
+      <citationref hlink="_ebac6c4420661f3b668aedac227"/>
     </event>
     <event handle="_cb589ccb91d25b4dd7d" change="1619448956" id="E0474">
       <type>Birth</type>
@@ -7095,9 +7100,11 @@
       <citationref hlink="_d48dcfb86843c89714b0d40ce77"/>
       <citationref hlink="_d48dde38f3f6055a0c8cfda56e6"/>
     </event>
-    <event handle="_cb589cfc37a08e2e14a" change="1619449511" id="E7076">
+    <event handle="_cb589cfc37a08e2e14a" change="1619529281" id="E7076">
       <type>Marriage</type>
       <dateval val="1801-12-29"/>
+      <place hlink="_eba932e2f2b79b8c277926799e1"/>
+      <citationref hlink="_ebac29b4f5c74a79e5cbf7d4094"/>
     </event>
     <event handle="_cb589cfc3bf61510d5c" change="1488731049" id="E7077">
       <type>Marriage</type>
@@ -14047,23 +14054,29 @@
       <citationref hlink="_eba642541e2315490fb7add3347"/>
       <citationref hlink="_eba5792146356feb86ecdd3313f"/>
     </event>
-    <event handle="_eba93eadba27367bb9adac7b8f4" change="1619450834" id="E0164">
+    <event handle="_eba93eadba27367bb9adac7b8f4" change="1619528771" id="E0164">
       <type>Residence</type>
       <datespan start="1813" stop="1819"/>
       <place hlink="_eba932e2f2b79b8c277926799e1"/>
       <citationref hlink="_eba93e82c8e17a64814474c2e99"/>
     </event>
-    <event handle="_eba952046e85f9e5da136e0c1f0" change="1619461150" id="E0165">
+    <event handle="_eba952046e85f9e5da136e0c1f0" change="1619528768" id="E0165">
       <type>Residence</type>
       <datespan start="1807" stop="1812"/>
       <place hlink="_eba932e2f2b79b8c277926799e1"/>
       <citationref hlink="_eba951fbcf338727389f70133ca"/>
     </event>
-    <event handle="_eba9b3b5bb2f61355ca190cbb6" change="1619470084" id="E0166">
+    <event handle="_eba9b3b5bb2f61355ca190cbb6" change="1619528763" id="E0166">
       <type>Residence</type>
       <datespan start="1801" stop="1806"/>
       <place hlink="_eba932e2f2b79b8c277926799e1"/>
       <citationref hlink="_eba9b3a421e3d0460409c1bfdba"/>
+    </event>
+    <event handle="_ebac34d2fc069dd537a7feb4537" change="1619530332" id="E0167">
+      <type>Residence</type>
+      <datespan start="1819" stop="1821"/>
+      <place hlink="_eba932e2f2b79b8c277926799e1"/>
+      <citationref hlink="_ebac34cf93464613788cc6c39eb"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -14368,7 +14381,7 @@
       <childof hlink="_cb589cc80670f6bf5c4"/>
       <parentin hlink="_cb589cc862d4af32061"/>
     </person>
-    <person handle="_cb589cc8ec053a33e4e" change="1619470133" id="I3943">
+    <person handle="_cb589cc8ec053a33e4e" change="1619536691" id="I3943">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Gustaf Adolph</first>
@@ -14896,7 +14909,7 @@
       <childof hlink="_cb589ccb933003a56ef"/>
       <parentin hlink="_cb589cc8edf633eea11"/>
     </person>
-    <person handle="_cb589ccb9444e6f7f6f" change="1619470133" id="I5838">
+    <person handle="_cb589ccb9444e6f7f6f" change="1619536691" id="I5838">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Eva Stina</first>
@@ -14906,7 +14919,7 @@
       <eventref hlink="_cb589ccb95814f75dc6" role="Primary"/>
       <childof hlink="_cb589cc8edf633eea11"/>
     </person>
-    <person handle="_cb589ccb97a1bce9a33" change="1619470133" id="I5697">
+    <person handle="_cb589ccb97a1bce9a33" change="1619536691" id="I5697">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Hans Henric</first>
@@ -14916,7 +14929,7 @@
       <eventref hlink="_cb589ccb9812828d539" role="Primary"/>
       <childof hlink="_cb589cc8edf633eea11"/>
     </person>
-    <person handle="_cb589ccb9a04c9e78c4" change="1619470133" id="I4270">
+    <person handle="_cb589ccb9a04c9e78c4" change="1619536691" id="I4270">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Lars Fredric</first>
@@ -14926,7 +14939,7 @@
       <eventref hlink="_cb589ccb9b4098f55ff" role="Primary"/>
       <childof hlink="_cb589cc8edf633eea11"/>
     </person>
-    <person handle="_cb589ccb9d63abd8961" change="1619470133" id="I3699">
+    <person handle="_cb589ccb9d63abd8961" change="1619536691" id="I3699">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Eva Carolina</first>
@@ -14936,7 +14949,7 @@
       <eventref hlink="_cb589ccb9df26ffa648" role="Primary"/>
       <childof hlink="_cb589cc8edf633eea11"/>
     </person>
-    <person handle="_cb589ccb9ff143d021d" change="1619470133" id="I3656">
+    <person handle="_cb589ccb9ff143d021d" change="1619536691" id="I3656">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Sophia Wilhelmina</first>
@@ -14948,7 +14961,7 @@
       <childof hlink="_cb589cc8edf633eea11"/>
       <parentin hlink="_cb589ccba12407f3e0c"/>
     </person>
-    <person handle="_cb589ccba1f3ffeddce" change="1619470133" id="I5989">
+    <person handle="_cb589ccba1f3ffeddce" change="1619536691" id="I5989">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Carl Adam</first>
@@ -25964,7 +25977,7 @@
       <eventref hlink="_cb589cfc0a91ab9f9e8" role="Family"/>
       <eventref hlink="_d48dade66252b13b318aa2388d8" role="Family"/>
     </family>
-    <family handle="_cb589cc8edf633eea11" change="1619470133" id="F1412">
+    <family handle="_cb589cc8edf633eea11" change="1619536691" id="F1412">
       <rel type="Married"/>
       <father hlink="_cb589ccb8e61c75d89b"/>
       <mother hlink="_cb589ccb91866738787"/>
@@ -25972,6 +25985,7 @@
       <eventref hlink="_eba9b3b5bb2f61355ca190cbb6" role="Family"/>
       <eventref hlink="_eba952046e85f9e5da136e0c1f0" role="Family"/>
       <eventref hlink="_eba93eadba27367bb9adac7b8f4" role="Family"/>
+      <eventref hlink="_ebac34d2fc069dd537a7feb4537" role="Family"/>
       <childref hlink="_cb589ccb9444e6f7f6f"/>
       <childref hlink="_cb589ccb97a1bce9a33"/>
       <childref hlink="_cb589ccb9a04c9e78c4"/>
@@ -36483,6 +36497,38 @@
       <noteref hlink="_eba9f18315a6b1570187e50b973"/>
       <sourceref hlink="_eba94a394f827a4cd4c66f92ce5"/>
     </citation>
+    <citation handle="_ebac29b4f5c74a79e5cbf7d4094" change="1619529166" id="C1161">
+      <page>44-45</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebac27b094249e1fb504a31cb25"/>
+      <noteref hlink="_ebac27db63bb3c3895dd85657"/>
+      <noteref hlink="_ebac29a580461abe8126e56dcba"/>
+      <sourceref hlink="_d896bc786f62562b7ea9cb0935e"/>
+    </citation>
+    <citation handle="_ebac34cf93464613788cc6c39eb" change="1619530330" id="C1162">
+      <page>188</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebac31ea3a967bc334da243c31c"/>
+      <noteref hlink="_ebac3207f0b7ff48bf651c4077d"/>
+      <noteref hlink="_ebac34c0a144b2eaeec2022448"/>
+      <sourceref hlink="_d8a13208251119b1becfbbab702"/>
+    </citation>
+    <citation handle="_ebac6c4420661f3b668aedac227" change="1619536145" id="C1163">
+      <page>jakso 8</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebac6a983c768b541cd6a13af0a"/>
+      <noteref hlink="_ebac6ab1fa51646a9054f5d7e2"/>
+      <noteref hlink="_ebac6c38c1918b5cb0fd0d56825"/>
+      <sourceref hlink="_d896dd250513eee79d149a635d7"/>
+    </citation>
+    <citation handle="_ebac712ee68569edec70d0600a4" change="1619536661" id="C1164">
+      <page>160-161</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebac6f376b019b657e9eaaf7164"/>
+      <noteref hlink="_ebac6f504376db57482eabb423f"/>
+      <noteref hlink="_ebac710f8f84c22bc07adbb7664"/>
+      <sourceref hlink="_ebac6f21b235e2839ae07698c10"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -38982,6 +39028,11 @@
     </source>
     <source handle="_eba94a394f827a4cd4c66f92ce5" change="1619452045" id="S0499">
       <stitle>Tammisaari Rippikirja 1801-1812</stitle>
+      <sauthor>Tammisaaren seurakunta</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
+    <source handle="_ebac6f21b235e2839ae07698c10" change="1619536446" id="S0500">
+      <stitle>Tammisaari Syntyneet 1762-1796</stitle>
       <sauthor>Tammisaaren seurakunta</sauthor>
       <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
     </source>
@@ -41581,7 +41632,7 @@
     </placeobj>
   </places>
   <repositories>
-    <repository handle="_cdea29a49637c6553bc" change="1619452044" id="R0001">
+    <repository handle="_cdea29a49637c6553bc" change="1619536444" id="R0001">
       <rname>Arkistolaitos Digitaaliarkisto</rname>
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
@@ -53175,6 +53226,68 @@ son Hans Hinric           14/9  1805
       <style name="fontface" value="Monospace">
         <range start="0" end="285"/>
       </style>
+    </note>
+    <note handle="_ebac27b094249e1fb504a31cb25" change="1619528954" id="N1534" type="Citation">
+      <text>Tammisaaren seurakunnan arkisto - Vihittyjen luettelot 1779-1849, jakso 23, sivu 44-45: 1799-1800-1801; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=8885959 / Viitattu 27.4.2021</text>
+    </note>
+    <note handle="_ebac27db63bb3c3895dd85657" change="1619528972" id="N1535" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=8885959</text>
+    </note>
+    <note handle="_ebac29a580461abe8126e56dcba" change="1619529160" id="N1536" type="Transcript">
+      <text>44
+
+December
+29 Wigdes hemma siöman Hinric Holmström ifr Dansko
+bondedotter Greta Söderlund ifr Odensö af Joh: Nordlund</text>
+    </note>
+    <note handle="_ebac31ea3a967bc334da243c31c" change="1619530027" id="N1537" type="Citation">
+      <text>Tammisaaren seurakunnan arkisto - Rippikirjat 1819-1825, jakso 190, sivu 188: Dansko Torpare och Inhysingar Byviken; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=8882989 / Viitattu 27.4.2021</text>
+    </note>
+    <note handle="_ebac3207f0b7ff48bf651c4077d" change="1619530039" id="N1538" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=8882989</text>
+    </note>
+    <note handle="_ebac34c0a144b2eaeec2022448" change="1619530324" id="N1539" type="Transcript" format="1">
+      <text>188 Dansko Torpare och Inhysingar
+
+Byviken 
+
++torp Henric Holmström      2/4   1777 Dansko    1819
+enkl hust Greta Hansdotter  5/4   1781 Odensö    }
+son Hans Henric             14/4  1805 Dansko    }
+dott Sophia Wilhelmina      19/10 1812 do        }pag 198
+son Gustaf Adolph           1/6   1816 do        }
+son Carl Adam               27/1  1820 do        }</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="360"/>
+      </style>
+    </note>
+    <note handle="_ebac6a983c768b541cd6a13af0a" change="1619535970" id="N1540" type="Citation">
+      <text>Tammisaaren seurakunnan arkisto - Kuolleiden ja haudattujen luettelot 1813-1884, jakso 8: 1819; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=8731334 / Viitattu 27.4.2021</text>
+    </note>
+    <note handle="_ebac6ab1fa51646a9054f5d7e2" change="1619535980" id="N1541" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=8731334</text>
+    </note>
+    <note handle="_ebac6c38c1918b5cb0fd0d56825" change="1619536141" id="N1542" type="Transcript" format="1">
+      <text>Döde och Begrafne År 1819
+
+Septemb:
+
+15.  17.  Dansko Torp: Henric Holmström    Kroppvärk  42</text>
+    </note>
+    <note handle="_ebac6f376b019b657e9eaaf7164" change="1619536455" id="N1543" type="Citation">
+      <text>Tammisaaren seurakunnan arkisto - Syntyneiden ja kastettujen luettelot 1762-1796, jakso 88: 1777; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=8885319 / Viitattu 27.4.2021</text>
+    </note>
+    <note handle="_ebac6f504376db57482eabb423f" change="1619536465" id="N1544" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=8885319</text>
+    </note>
+    <note handle="_ebac710f8f84c22bc07adbb7664" change="1619536648" id="N1545" type="Transcript">
+      <text>160    1777
+
+April    den 8. född: och den 12 döpte Henric, P: Sigfrid
+Larsson, M: Maria Henricsdr ifr Danskog, T: Henric
+Lindgrén, Carl Berggrén, ho Greta Larsdr och 
+Anna Henricsdr ?? ???
+</text>
     </note>
   </notes>
 </database>
