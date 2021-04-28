@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2021-04-27" version="5.1.3"/>
+    <created date="2021-04-29" version="5.1.3"/>
     <researcher>
     </researcher>
   </header>
@@ -669,10 +669,12 @@
     <event handle="_cb589ccb97d2b1d4d95" change="1397384050" id="E0478">
       <type>Death</type>
     </event>
-    <event handle="_cb589ccb9812828d539" change="1426338317" id="E0479">
+    <event handle="_cb589ccb9812828d539" change="1619647224" id="E0479">
       <type>Birth</type>
       <dateval val="1805-09-14"/>
       <place hlink="_cb589cc8ec66a725c6d"/>
+      <citationref hlink="_eba9b3a421e3d0460409c1bfdba"/>
+      <citationref hlink="_ebb08f941cf46e5e973ca364158"/>
     </event>
     <event handle="_cb589ccb9a41eaa55b1" change="1426338326" id="E0480">
       <type>Birth</type>
@@ -14066,7 +14068,7 @@
       <place hlink="_eba932e2f2b79b8c277926799e1"/>
       <citationref hlink="_eba951fbcf338727389f70133ca"/>
     </event>
-    <event handle="_eba9b3b5bb2f61355ca190cbb6" change="1619528763" id="E0166">
+    <event handle="_eba9b3b5bb2f61355ca190cbb6" change="1619646440" id="E0166">
       <type>Residence</type>
       <datespan start="1801" stop="1806"/>
       <place hlink="_eba932e2f2b79b8c277926799e1"/>
@@ -14084,11 +14086,29 @@
       <place hlink="_cb589cd08d3123f1df7"/>
       <citationref hlink="_ebac75dd252415a59339193a8a"/>
     </event>
-    <event handle="_ebad18481f33be344612e4a59fb" change="1619555328" id="E0169">
+    <event handle="_ebad18481f33be344612e4a59fb" change="1619645758" id="E0169">
       <type>Residence</type>
       <datespan start="1826" stop="1830"/>
-      <place hlink="_cb589cd08d3123f1df7"/>
+      <place hlink="_ebb0804f8de1434dbff6853826e"/>
       <citationref hlink="_ebad1844160fff534ba61fbb92"/>
+    </event>
+    <event handle="_ebb08130226591c91d552608ab9" change="1619645713" id="E0170">
+      <type>Residence</type>
+      <datespan start="1826" stop="1829"/>
+      <place hlink="_ebb0804f8de1434dbff6853826e"/>
+      <citationref hlink="_ebad1844160fff534ba61fbb92"/>
+    </event>
+    <event handle="_ebb087422fd37e05e73e2d2a0ac" change="1619646350" id="E0171">
+      <type>Residence</type>
+      <datespan start="1830" stop="1832"/>
+      <place hlink="_cb589cc83b65110951c"/>
+      <citationref hlink="_ebb087313b02553b9a32761789"/>
+    </event>
+    <event handle="_ebb087bb5c4d97caa16c42c839" change="1619646399" id="E0172">
+      <type>Residence</type>
+      <datespan start="1829" stop="1830"/>
+      <place hlink="_cb589cc83b65110951c"/>
+      <citationref hlink="_ebb087313b02553b9a32761789"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -14393,7 +14413,7 @@
       <childof hlink="_cb589cc80670f6bf5c4"/>
       <parentin hlink="_cb589cc862d4af32061"/>
     </person>
-    <person handle="_cb589cc8ec053a33e4e" change="1619554200" id="I3943">
+    <person handle="_cb589cc8ec053a33e4e" change="1619647249" id="I3943">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Gustaf Adolph</first>
@@ -14921,7 +14941,7 @@
       <childof hlink="_cb589ccb933003a56ef"/>
       <parentin hlink="_cb589cc8edf633eea11"/>
     </person>
-    <person handle="_cb589ccb9444e6f7f6f" change="1619554200" id="I5838">
+    <person handle="_cb589ccb9444e6f7f6f" change="1619647249" id="I5838">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Eva Stina</first>
@@ -14931,17 +14951,18 @@
       <eventref hlink="_cb589ccb95814f75dc6" role="Primary"/>
       <childof hlink="_cb589cc8edf633eea11"/>
     </person>
-    <person handle="_cb589ccb97a1bce9a33" change="1619554200" id="I5697">
+    <person handle="_cb589ccb97a1bce9a33" change="1619647249" id="I5697">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Hans Henric</first>
         <surname>Holmström</surname>
       </name>
-      <eventref hlink="_cb589ccb97d2b1d4d95" role="Primary"/>
       <eventref hlink="_cb589ccb9812828d539" role="Primary"/>
+      <eventref hlink="_ebb08130226591c91d552608ab9" role="Primary"/>
+      <eventref hlink="_ebb087bb5c4d97caa16c42c839" role="Primary"/>
       <childof hlink="_cb589cc8edf633eea11"/>
     </person>
-    <person handle="_cb589ccb9a04c9e78c4" change="1619554200" id="I4270">
+    <person handle="_cb589ccb9a04c9e78c4" change="1619647249" id="I4270">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Lars Fredric</first>
@@ -14951,7 +14972,7 @@
       <eventref hlink="_cb589ccb9b4098f55ff" role="Primary"/>
       <childof hlink="_cb589cc8edf633eea11"/>
     </person>
-    <person handle="_cb589ccb9d63abd8961" change="1619554200" id="I3699">
+    <person handle="_cb589ccb9d63abd8961" change="1619647249" id="I3699">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Eva Carolina</first>
@@ -14961,7 +14982,7 @@
       <eventref hlink="_cb589ccb9df26ffa648" role="Primary"/>
       <childof hlink="_cb589cc8edf633eea11"/>
     </person>
-    <person handle="_cb589ccb9ff143d021d" change="1619554200" id="I3656">
+    <person handle="_cb589ccb9ff143d021d" change="1619647249" id="I3656">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Sophia Wilhelmina</first>
@@ -14973,7 +14994,7 @@
       <childof hlink="_cb589cc8edf633eea11"/>
       <parentin hlink="_cb589ccba12407f3e0c"/>
     </person>
-    <person handle="_cb589ccba1f3ffeddce" change="1619554200" id="I5989">
+    <person handle="_cb589ccba1f3ffeddce" change="1619647249" id="I5989">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Carl Adam</first>
@@ -25989,7 +26010,7 @@
       <eventref hlink="_cb589cfc0a91ab9f9e8" role="Family"/>
       <eventref hlink="_d48dade66252b13b318aa2388d8" role="Family"/>
     </family>
-    <family handle="_cb589cc8edf633eea11" change="1619554200" id="F1412">
+    <family handle="_cb589cc8edf633eea11" change="1619647249" id="F1412">
       <rel type="Married"/>
       <father hlink="_cb589ccb8e61c75d89b"/>
       <mother hlink="_cb589ccb91866738787"/>
@@ -26000,6 +26021,7 @@
       <eventref hlink="_ebac34d2fc069dd537a7feb4537" role="Family"/>
       <eventref hlink="_ebac7af9df329515aaf661c0883" role="Family"/>
       <eventref hlink="_ebad18481f33be344612e4a59fb" role="Family"/>
+      <eventref hlink="_ebb087422fd37e05e73e2d2a0ac" role="Family"/>
       <childref hlink="_cb589ccb9444e6f7f6f"/>
       <childref hlink="_cb589ccb97a1bce9a33"/>
       <childref hlink="_cb589ccb9a04c9e78c4"/>
@@ -36559,6 +36581,22 @@
       <noteref hlink="_ebad1818a5235f2574310b5b52"/>
       <sourceref hlink="_ebad031808a228f727f512fb4ce"/>
     </citation>
+    <citation handle="_ebb087313b02553b9a32761789" change="1619646343" id="C1167">
+      <page>225</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebb0837d1887d9c5a869549f014"/>
+      <noteref hlink="_ebb0839561f5190c775bca929d8"/>
+      <noteref hlink="_ebb0871c69022e5dffe5fe39b39"/>
+      <sourceref hlink="_ebad031808a228f727f512fb4ce"/>
+    </citation>
+    <citation handle="_ebb08f941cf46e5e973ca364158" change="1619647222" id="C1168">
+      <page>84-85</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebb08a5ab976e88a1a8bf804366"/>
+      <noteref hlink="_ebb08a747c842604c4d132ca63c"/>
+      <noteref hlink="_ebb08f8d38e5562c4d2c48da1de"/>
+      <sourceref hlink="_d896e4cb3d84a6501df19f982bb"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -40034,7 +40072,7 @@
       <pname value="Joentaka"/>
       <placeref hlink="_cea1d382fcb2a203436"/>
     </placeobj>
-    <placeobj handle="_cea1d55d4700d0b26f8" change="1488747417" id="P0565" type="Village">
+    <placeobj handle="_cea1d55d4700d0b26f8" change="1619645620" id="P0565" type="Village">
       <pname value="Elgö"/>
       <placeref hlink="_cb589cc83b65110951c"/>
     </placeobj>
@@ -41664,6 +41702,10 @@
     <placeobj handle="_eba932e2f2b79b8c277926799e1" change="1619449598" id="P0097" type="Farm">
       <pname value="Byviken"/>
       <placeref hlink="_cb589cc8ec66a725c6d"/>
+    </placeobj>
+    <placeobj handle="_ebb0804f8de1434dbff6853826e" change="1619645621" id="P0098" type="Unknown">
+      <pname value="Lökholm"/>
+      <placeref hlink="_cea1d55d4700d0b26f8"/>
     </placeobj>
   </places>
   <repositories>
@@ -53370,6 +53412,48 @@ sn Carl Adam                   27/1 1820    Ibm       }</text>
       <style name="fontface" value="Monospace">
         <range start="0" end="383"/>
       </style>
+    </note>
+    <note handle="_ebb0837d1887d9c5a869549f014" change="1619645954" id="N1553" type="Citation">
+      <text>Tammisaaren seurakunnan arkisto - Rippikirjat 1826-1832, jakso 221, sivu 225: Getskär Hemman; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=8883308 / Viitattu 29.4.2021</text>
+    </note>
+    <note handle="_ebb0839561f5190c775bca929d8" change="1619645964" id="N1554" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=8883308</text>
+    </note>
+    <note handle="_ebb0871c69022e5dffe5fe39b39" change="1619646334" id="N1555" type="Transcript" format="1">
+      <text>225
+
+Fiskarna
+...
+
+?Torp Hans Henric Holmström  14/9 1805 Danskog   ?????????? 1830 Till ????
+
+
+
+Enk mor Greta Hansdr          5/4 1781 Odensö
+dr Sofia Wilhelmina Holmström 9/10 1812 Danskog
+sn Gustaf Adolf               1/6 1816 Ibm
+sn Carl Adam                 27/1 1820 Ibm</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="276"/>
+      </style>
+    </note>
+    <note handle="_ebb08a5ab976e88a1a8bf804366" change="1619646674" id="N1556" type="Citation">
+      <text>Tammisaaren seurakunnan arkisto - Syntyneiden ja kastettujen luettelot 1797-1834, jakso 44: 1805; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=8885497 / Viitattu 29.4.2021</text>
+    </note>
+    <note handle="_ebb08a747c842604c4d132ca63c" change="1619646685" id="N1557" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=8885497</text>
+    </note>
+    <note handle="_ebb08f8d38e5562c4d2c48da1de" change="1619647219" id="N1558" type="Transcript" format="1">
+      <text>84    1805
+...
+September
+....
+No 52                     14    Föddes d 15 döptes Dansko torparen Henric Sigfridsson og ho Greta Hans
+Dansko                           dotter barn: Hans Henric. Wittnen ??tiollanen Högström. Fendric? 
+Hans Henric                Lars Sihatelovitz Odensö Södergård Bonden Carl Gustaf Hans
+                                             son. Dito enkl Tim Bodin. Mademoiselle Stina Caisa Bodin
+                                             Dito Ebba Sihatelovitz. Bondeho Hedwig Eliasdotter if Söder
+                                             gården i Odensö</text>
     </note>
   </notes>
 </database>
