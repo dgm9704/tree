@@ -14064,13 +14064,13 @@
       <place hlink="_eba932e2f2b79b8c277926799e1"/>
       <citationref hlink="_eba93e82c8e17a64814474c2e99"/>
     </event>
-    <event handle="_eba952046e85f9e5da136e0c1f0" change="1619528768" id="E0165">
+    <event handle="_eba952046e85f9e5da136e0c1f0" change="1619723720" id="E0165">
       <type>Residence</type>
       <datespan start="1807" stop="1812"/>
       <place hlink="_eba932e2f2b79b8c277926799e1"/>
       <citationref hlink="_eba951fbcf338727389f70133ca"/>
     </event>
-    <event handle="_eba9b3b5bb2f61355ca190cbb6" change="1619649288" id="E0166">
+    <event handle="_eba9b3b5bb2f61355ca190cbb6" change="1619723494" id="E0166">
       <type>Residence</type>
       <datespan start="1801" stop="1806"/>
       <place hlink="_eba932e2f2b79b8c277926799e1"/>
@@ -14112,15 +14112,23 @@
       <place hlink="_cb589cc83b65110951c"/>
       <citationref hlink="_ebb087313b02553b9a32761789"/>
     </event>
-    <event handle="_ebb0a602870e2d797a9ef3885" change="1619649640" id="E0173">
+    <event handle="_ebb0a602870e2d797a9ef3885" change="1619723792" id="E0173">
       <type>Birth</type>
-      <dateval val="1749"/>
+      <dateval val="1749-07-24"/>
       <citationref hlink="_eba9b3a421e3d0460409c1bfdba"/>
+      <citationref hlink="_eba951fbcf338727389f70133ca"/>
     </event>
-    <event handle="_ebb0a623eb865549ea862bdab54" change="1619649650" id="E0174">
+    <event handle="_ebb0a623eb865549ea862bdab54" change="1619723827" id="E0174">
       <type>Birth</type>
-      <dateval val="1750"/>
+      <dateval val="1750-10-06"/>
       <citationref hlink="_eba9b3a421e3d0460409c1bfdba"/>
+      <citationref hlink="_eba951fbcf338727389f70133ca"/>
+    </event>
+    <event handle="_ebb36a79e5e219220a75217f938" change="1619724199" id="E0175">
+      <type>Death</type>
+      <dateval val="1811-02-10"/>
+      <place hlink="_eba932e2f2b79b8c277926799e1"/>
+      <citationref hlink="_eba951fbcf338727389f70133ca"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -14928,7 +14936,7 @@
       <eventref hlink="_cb589cc9c7941e51f81" role="Primary"/>
       <childof hlink="_cb589cc8521134956b2"/>
     </person>
-    <person handle="_cb589ccb8e61c75d89b" change="1619649725" id="I5192">
+    <person handle="_cb589ccb8e61c75d89b" change="1619723866" id="I5192">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Henric</first>
@@ -25832,7 +25840,7 @@
         <surname derivation="Patronymic">Larsson</surname>
       </name>
     </person>
-    <person handle="_ebb0a5009a4205bca7113657956" change="1619649579" id="I0039">
+    <person handle="_ebb0a5009a4205bca7113657956" change="1619724217" id="I0039">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Sigfrid</first>
@@ -25841,13 +25849,14 @@
       <eventref hlink="_ebb0a602870e2d797a9ef3885" role="Primary"/>
       <parentin hlink="_ebb0a4c516f187f61905b122cde"/>
     </person>
-    <person handle="_ebb0a58377737ed4b8c6631c764" change="1619649591" id="I0040">
+    <person handle="_ebb0a58377737ed4b8c6631c764" change="1619724202" id="I0040">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Greta</first>
         <surname derivation="Patronymic">Johansdotter</surname>
       </name>
       <eventref hlink="_ebb0a623eb865549ea862bdab54" role="Primary"/>
+      <eventref hlink="_ebb36a79e5e219220a75217f938" role="Unknown"/>
       <parentin hlink="_ebb0a4c516f187f61905b122cde"/>
     </person>
   </people>
@@ -29082,10 +29091,12 @@
       <rel type="Unknown"/>
       <father hlink="_ebb0a396c802c0a736345b976d"/>
     </family>
-    <family handle="_ebb0a4c516f187f61905b122cde" change="1619649725" id="F0010">
+    <family handle="_ebb0a4c516f187f61905b122cde" change="1619723866" id="F0010">
       <rel type="Married"/>
       <father hlink="_ebb0a5009a4205bca7113657956"/>
       <mother hlink="_ebb0a58377737ed4b8c6631c764"/>
+      <eventref hlink="_eba9b3b5bb2f61355ca190cbb6" role="Unknown"/>
+      <eventref hlink="_eba952046e85f9e5da136e0c1f0" role="Unknown"/>
       <childref hlink="_cb589ccb8e61c75d89b"/>
     </family>
   </families>
