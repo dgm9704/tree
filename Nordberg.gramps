@@ -14070,7 +14070,7 @@
       <place hlink="_eba932e2f2b79b8c277926799e1"/>
       <citationref hlink="_eba951fbcf338727389f70133ca"/>
     </event>
-    <event handle="_eba9b3b5bb2f61355ca190cbb6" change="1619723494" id="E0166">
+    <event handle="_eba9b3b5bb2f61355ca190cbb6" change="1619724973" id="E0166">
       <type>Residence</type>
       <datespan start="1801" stop="1806"/>
       <place hlink="_eba932e2f2b79b8c277926799e1"/>
@@ -14129,6 +14129,22 @@
       <dateval val="1811-02-10"/>
       <place hlink="_eba932e2f2b79b8c277926799e1"/>
       <citationref hlink="_eba951fbcf338727389f70133ca"/>
+    </event>
+    <event handle="_ebb37b976b230b4931f56563d98" change="1619725657" id="E0176">
+      <type>Residence</type>
+      <datespan start="1793" stop="1800"/>
+      <place hlink="_ebb375b181c3f0bc9bb34e02845"/>
+      <citationref hlink="_ebb37b8dda05a3a7d9bb0d6bdab"/>
+    </event>
+    <event handle="_ebb37ee70cd5d39ddff743a0804" change="1619727195" id="E0177">
+      <type>Birth</type>
+      <dateval val="1774-12-01"/>
+      <citationref hlink="_ebb37b8dda05a3a7d9bb0d6bdab"/>
+    </event>
+    <event handle="_ebb3820c4b9277e858c8a2d5e49" change="1619726334" id="E0178">
+      <type>Birth</type>
+      <dateval val="1781"/>
+      <citationref hlink="_ebb37b8dda05a3a7d9bb0d6bdab"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -14936,7 +14952,7 @@
       <eventref hlink="_cb589cc9c7941e51f81" role="Primary"/>
       <childof hlink="_cb589cc8521134956b2"/>
     </person>
-    <person handle="_cb589ccb8e61c75d89b" change="1619723866" id="I5192">
+    <person handle="_cb589ccb8e61c75d89b" change="1619726336" id="I5192">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Henric</first>
@@ -25859,6 +25875,24 @@
       <eventref hlink="_ebb36a79e5e219220a75217f938" role="Unknown"/>
       <parentin hlink="_ebb0a4c516f187f61905b122cde"/>
     </person>
+    <person handle="_ebb37e689933d964afbef757ad2" change="1619726336" id="I0041">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Jacob</first>
+        <surname derivation="Patronymic">Sigfridsson</surname>
+      </name>
+      <eventref hlink="_ebb37ee70cd5d39ddff743a0804" role="Primary"/>
+      <childof hlink="_ebb0a4c516f187f61905b122cde"/>
+    </person>
+    <person handle="_ebb381bd0d43dc1eb47b60d4739" change="1619726336" id="I0042">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Greta Sophia</first>
+        <surname derivation="Patronymic">Sigfridsdotter</surname>
+      </name>
+      <eventref hlink="_ebb3820c4b9277e858c8a2d5e49" role="Primary"/>
+      <childof hlink="_ebb0a4c516f187f61905b122cde"/>
+    </person>
   </people>
   <families>
     <family handle="_cb589cc7f9c792dc427" change="1548617779" id="F1472">
@@ -29091,13 +29125,16 @@
       <rel type="Unknown"/>
       <father hlink="_ebb0a396c802c0a736345b976d"/>
     </family>
-    <family handle="_ebb0a4c516f187f61905b122cde" change="1619723866" id="F0010">
+    <family handle="_ebb0a4c516f187f61905b122cde" change="1619726336" id="F0010">
       <rel type="Married"/>
       <father hlink="_ebb0a5009a4205bca7113657956"/>
       <mother hlink="_ebb0a58377737ed4b8c6631c764"/>
+      <eventref hlink="_ebb37b976b230b4931f56563d98" role="Family"/>
       <eventref hlink="_eba9b3b5bb2f61355ca190cbb6" role="Unknown"/>
       <eventref hlink="_eba952046e85f9e5da136e0c1f0" role="Unknown"/>
       <childref hlink="_cb589ccb8e61c75d89b"/>
+      <childref hlink="_ebb37e689933d964afbef757ad2"/>
+      <childref hlink="_ebb381bd0d43dc1eb47b60d4739"/>
     </family>
   </families>
   <citations>
@@ -36663,6 +36700,14 @@
       <noteref hlink="_ebb08f8d38e5562c4d2c48da1de"/>
       <sourceref hlink="_d896e4cb3d84a6501df19f982bb"/>
     </citation>
+    <citation handle="_ebb37b8dda05a3a7d9bb0d6bdab" change="1619725653" id="C1169">
+      <page>108</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebb37663f403ea3a612051d05a4"/>
+      <noteref hlink="_ebb37682b7141169a4eb9e7d9df"/>
+      <noteref hlink="_ebb37b8420a4f6677334b2ad1d7"/>
+      <sourceref hlink="_ebb3763990d53a6e9a9f93ccd6d"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -39175,6 +39220,11 @@
       <sauthor>Tammisaaren seurakunta</sauthor>
       <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
     </source>
+    <source handle="_ebb3763990d53a6e9a9f93ccd6d" change="1619725094" id="S0502">
+      <stitle>Tammisaari Rippikirja 1793-1800</stitle>
+      <sauthor>Tammisaaren seurakunta</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1595618071" id="P0000" type="City">
@@ -39188,7 +39238,7 @@
       <pname value="Rautalampi"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
     </placeobj>
-    <placeobj handle="_cb589cc83b65110951c" change="1508355147" id="P0008" type="Parish">
+    <placeobj handle="_cb589cc83b65110951c" change="1619725038" id="P0008" type="Parish">
       <ptitle>Ekenäs, Finland</ptitle>
       <pname value="Ekenäs" lang="se"/>
       <pname value="Tammisaari" lang="fi"/>
@@ -41773,9 +41823,13 @@
       <pname value="Lökholm"/>
       <placeref hlink="_cea1d55d4700d0b26f8"/>
     </placeobj>
+    <placeobj handle="_ebb375b181c3f0bc9bb34e02845" change="1619725039" id="P0099" type="Unknown">
+      <pname value="Ekön"/>
+      <placeref hlink="_cb589cc83b65110951c"/>
+    </placeobj>
   </places>
   <repositories>
-    <repository handle="_cdea29a49637c6553bc" change="1619551959" id="R0001">
+    <repository handle="_cdea29a49637c6553bc" change="1619725093" id="R0001">
       <rname>Arkistolaitos Digitaaliarkisto</rname>
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
@@ -53535,6 +53589,30 @@ Hans Henric                Lars Sihatelovitz Odensö Södergård Bonden Carl Gus
                                              son. Dito enkl Tim Bodin. Mademoiselle Stina Caisa Bodin
                                              Dito Ebba Sihatelovitz. Bondeho Hedwig Eliasdotter if Söder
                                              gården i Odensö</text>
+    </note>
+    <note handle="_ebb37663f403ea3a612051d05a4" change="1619725112" id="N1559" type="Citation">
+      <text>Tammisaaren seurakunnan arkisto - Rippikirjat 1793-1800, jakso 112, sivu 108: Ekön; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=8882389 / Viitattu 29.4.2021</text>
+    </note>
+    <note handle="_ebb37682b7141169a4eb9e7d9df" change="1619725124" id="N1560" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=8882389</text>
+    </note>
+    <note handle="_ebb37b8420a4f6677334b2ad1d7" change="1619725649" id="N1561" type="Transcript">
+      <text>108
+Ekön
+...
+Sigfr Larsson              1749
+ho Greta Johansdr          1750
+son Jacob             1/12 1774
+son Henric            2/4  1777
+dr Greta Sophia            1781
+
+[Jacobin vaimo?]
+?ho Hedwig Majasdr?   16/9 1769
+son Eric Johan        25/8 1795
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="255"/>
+      </style>
     </note>
   </notes>
 </database>
