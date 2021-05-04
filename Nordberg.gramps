@@ -1313,10 +1313,11 @@
     <event handle="_cb589ccdff9147cb8c1" change="1397384051" id="E0900">
       <type>Death</type>
     </event>
-    <event handle="_cb589ccdffd577d0632" change="1426527774" id="E0901">
+    <event handle="_cb589ccdffd577d0632" change="1620146016" id="E0901">
       <type>Birth</type>
       <dateval val="1774-12-01"/>
       <place hlink="_cb589cce00029594047"/>
+      <citationref hlink="_ebb37b8dda05a3a7d9bb0d6bdab"/>
     </event>
     <event handle="_cb589cce0737d67eb37" change="1397384051" id="E0906">
       <type>Birth</type>
@@ -7159,7 +7160,7 @@
       <type>Marriage</type>
       <dateval val="1884-06-21"/>
     </event>
-    <event handle="_cb589cfc8d4634f80b4" change="1620143513" id="E7100">
+    <event handle="_cb589cfc8d4634f80b4" change="1620146838" id="E7100">
       <type>Marriage</type>
       <dateval val="1773-01-24"/>
     </event>
@@ -14135,15 +14136,16 @@
       <place hlink="_ebb375b181c3f0bc9bb34e02845"/>
       <citationref hlink="_ebb37b8dda05a3a7d9bb0d6bdab"/>
     </event>
-    <event handle="_ebb37ee70cd5d39ddff743a0804" change="1619727195" id="E0177">
-      <type>Birth</type>
-      <dateval val="1774-12-01"/>
-      <citationref hlink="_ebb37b8dda05a3a7d9bb0d6bdab"/>
-    </event>
     <event handle="_ebb3820c4b9277e858c8a2d5e49" change="1619726334" id="E0178">
       <type>Birth</type>
       <dateval val="1781"/>
       <citationref hlink="_ebb37b8dda05a3a7d9bb0d6bdab"/>
+    </event>
+    <event handle="_ebc330c77733f0d50c98deaf541" change="1620147309" id="E0179">
+      <type>Marriage</type>
+      <dateval val="1773-01-24"/>
+      <place hlink="_cb589cc83b65110951c"/>
+      <citationref hlink="_ebc330c19516fd2d01db9abac07"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -15829,7 +15831,7 @@
       <eventref hlink="_cb589ccca1c092450f5" role="Primary"/>
       <childof hlink="_cb589cc97743822baae"/>
     </person>
-    <person handle="_cb589ccdff5447ddc1f" change="1620143544" id="I3628">
+    <person handle="_cb589ccdff5447ddc1f" change="1620146888" id="I3628">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Jacob</first>
@@ -15842,8 +15844,6 @@
       </name>
       <eventref hlink="_cb589ccdff9147cb8c1" role="Primary"/>
       <eventref hlink="_cb589ccdffd577d0632" role="Primary"/>
-      <eventref hlink="_ebb37ee70cd5d39ddff743a0804" role="Primary"/>
-      <attribute type="Merged Gramps ID" value="I0041"/>
       <childof hlink="_ebb0a4c516f187f61905b122cde"/>
       <parentin hlink="_cb589cce01127c54303"/>
     </person>
@@ -25853,21 +25853,16 @@
       </name>
       <parentin hlink="_ebb0a3927d63751c3ed748c8bbb"/>
     </person>
-    <person handle="_ebb0a3eaf01282dd390365f988c" change="1619649412" id="I0037">
-      <gender>M</gender>
-      <name type="Birth Name">
-        <first>Sigfrid</first>
-        <surname derivation="Patronymic">Larsson</surname>
-      </name>
-    </person>
-    <person handle="_ebb0a5009a4205bca7113657956" change="1620143180" id="I0039">
+    <person handle="_ebb0a5009a4205bca7113657956" change="1620147313" id="I0039">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Sigfrid</first>
         <surname derivation="Patronymic">Larsson</surname>
       </name>
       <eventref hlink="_ebb0a602870e2d797a9ef3885" role="Primary"/>
+      <attribute type="Merged Gramps ID" value="I0037"/>
       <parentin hlink="_ebb0a4c516f187f61905b122cde"/>
+      <parentin hlink="_ebc32da4ce3239de1becc5fef10"/>
     </person>
     <person handle="_ebb0a58377737ed4b8c6631c764" change="1620143180" id="I0040">
       <gender>F</gender>
@@ -25887,6 +25882,14 @@
       </name>
       <eventref hlink="_ebb3820c4b9277e858c8a2d5e49" role="Primary"/>
       <childof hlink="_ebb0a4c516f187f61905b122cde"/>
+    </person>
+    <person handle="_ebc32dd0e3b5f3bbf2e85854eec" change="1620147313" id="I0043">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Maria</first>
+        <surname>Kurlander</surname>
+      </name>
+      <parentin hlink="_ebc32da4ce3239de1becc5fef10"/>
     </person>
   </people>
   <families>
@@ -29125,6 +29128,12 @@
       <childref hlink="_cb589ccdff5447ddc1f"/>
       <childref hlink="_cb589ccb8e61c75d89b"/>
       <childref hlink="_ebb381bd0d43dc1eb47b60d4739"/>
+    </family>
+    <family handle="_ebc32da4ce3239de1becc5fef10" change="1620147313" id="F0011">
+      <rel type="Married"/>
+      <father hlink="_ebb0a5009a4205bca7113657956"/>
+      <mother hlink="_ebc32dd0e3b5f3bbf2e85854eec"/>
+      <eventref hlink="_ebc330c77733f0d50c98deaf541" role="Family"/>
     </family>
   </families>
   <citations>
@@ -36698,6 +36707,15 @@
       <noteref hlink="_ebb37b8420a4f6677334b2ad1d7"/>
       <sourceref hlink="_ebb3763990d53a6e9a9f93ccd6d"/>
     </citation>
+    <citation handle="_ebc330c19516fd2d01db9abac07" change="1620147307" id="C1170">
+      <page>kuva 204</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebc32f5a5d13a43f2af6f80d263"/>
+      <noteref hlink="_ebc32f778ec69a8d64feb496723"/>
+      <noteref hlink="_ebc330075dc48d5842eda8d5c71"/>
+      <noteref hlink="_ebc330ab0ef7a94b20ce80d1da0"/>
+      <sourceref hlink="_ebc32f1afb55b7b58cb6695ab8f"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -39214,6 +39232,11 @@
       <stitle>Tammisaari Rippikirja 1793-1800</stitle>
       <sauthor>Tammisaaren seurakunta</sauthor>
       <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
+    <source handle="_ebc32f1afb55b7b58cb6695ab8f" change="1620147134" id="S0503">
+      <stitle>Tammisaari Vihityt 1762-1796</stitle>
+      <sauthor>Tammisaaren seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
   </sources>
   <places>
@@ -41824,7 +41847,7 @@
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1595270980" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1620147131" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -53603,6 +53626,20 @@ son Eric Johan        25/8 1795
       <style name="fontface" value="Monospace">
         <range start="0" end="255"/>
       </style>
+    </note>
+    <note handle="_ebc32f5a5d13a43f2af6f80d263" change="1620147160" id="N1562" type="Citation">
+      <text>Tammisaari syntyneet-vihityt 1762-1796 (AP I C:2)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34731&amp;pnum=204 / Viitattu 04.05.2021</text>
+    </note>
+    <note handle="_ebc32f778ec69a8d64feb496723" change="1620147171" id="N1563" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34731&amp;pnum=204</text>
+    </note>
+    <note handle="_ebc330075dc48d5842eda8d5c71" change="1620147230" id="N1564" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/kirjat/Kirkonkirjat/tammisaari/syntyneet-vihityt_1762-1796_kk85/208.htm</text>
+    </note>
+    <note handle="_ebc330ab0ef7a94b20ce80d1da0" change="1620147297" id="N1565" type="Transcript">
+      <text>Anno 1773
+...
+[Januari] d. 24. Wigde Sigfrid Larsson med pigan Maria Kurlander</text>
     </note>
   </notes>
 </database>
