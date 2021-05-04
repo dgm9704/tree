@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2021-04-29" version="5.1.3"/>
+    <created date="2021-05-04" version="5.1.3"/>
     <researcher>
     </researcher>
   </header>
@@ -7159,10 +7159,9 @@
       <type>Marriage</type>
       <dateval val="1884-06-21"/>
     </event>
-    <event handle="_cb589cfc8d4634f80b4" change="1397384070" id="E7100">
+    <event handle="_cb589cfc8d4634f80b4" change="1620143513" id="E7100">
       <type>Marriage</type>
       <dateval val="1773-01-24"/>
-      <place hlink="_cb589cc7f8d1b88b055"/>
     </event>
     <event handle="_cb589cfc914592189fc" change="1397384070" id="E7101">
       <type>Marriage</type>
@@ -14112,13 +14111,13 @@
       <place hlink="_cb589cc83b65110951c"/>
       <citationref hlink="_ebb087313b02553b9a32761789"/>
     </event>
-    <event handle="_ebb0a602870e2d797a9ef3885" change="1619723792" id="E0173">
+    <event handle="_ebb0a602870e2d797a9ef3885" change="1620143531" id="E0173">
       <type>Birth</type>
       <dateval val="1749-07-24"/>
       <citationref hlink="_eba9b3a421e3d0460409c1bfdba"/>
       <citationref hlink="_eba951fbcf338727389f70133ca"/>
     </event>
-    <event handle="_ebb0a623eb865549ea862bdab54" change="1619723827" id="E0174">
+    <event handle="_ebb0a623eb865549ea862bdab54" change="1620143541" id="E0174">
       <type>Birth</type>
       <dateval val="1750-10-06"/>
       <citationref hlink="_eba9b3a421e3d0460409c1bfdba"/>
@@ -14952,7 +14951,7 @@
       <eventref hlink="_cb589cc9c7941e51f81" role="Primary"/>
       <childof hlink="_cb589cc8521134956b2"/>
     </person>
-    <person handle="_cb589ccb8e61c75d89b" change="1619726336" id="I5192">
+    <person handle="_cb589ccb8e61c75d89b" change="1620143544" id="I5192">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Henric</first>
@@ -14961,7 +14960,6 @@
       </name>
       <eventref hlink="_cb589ccb8eb7da7f5e3" role="Primary"/>
       <eventref hlink="_cb589ccb8fa550a973a" role="Primary"/>
-      <childof hlink="_cb589ccb9053648534f"/>
       <childof hlink="_ebb0a4c516f187f61905b122cde"/>
       <parentin hlink="_cb589cc8edf633eea11"/>
     </person>
@@ -15831,16 +15829,22 @@
       <eventref hlink="_cb589ccca1c092450f5" role="Primary"/>
       <childof hlink="_cb589cc97743822baae"/>
     </person>
-    <person handle="_cb589ccdff5447ddc1f" change="1535043249" id="I3628">
+    <person handle="_cb589ccdff5447ddc1f" change="1620143544" id="I3628">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Jacob</first>
         <surname>Holmström</surname>
         <surname prim="0" derivation="Patronymic">Sigfridsson</surname>
       </name>
+      <name alt="1" type="Birth Name">
+        <first>Jacob</first>
+        <surname derivation="Patronymic">Sigfridsson</surname>
+      </name>
       <eventref hlink="_cb589ccdff9147cb8c1" role="Primary"/>
       <eventref hlink="_cb589ccdffd577d0632" role="Primary"/>
-      <childof hlink="_cb589ccb9053648534f"/>
+      <eventref hlink="_ebb37ee70cd5d39ddff743a0804" role="Primary"/>
+      <attribute type="Merged Gramps ID" value="I0041"/>
+      <childof hlink="_ebb0a4c516f187f61905b122cde"/>
       <parentin hlink="_cb589cce01127c54303"/>
     </person>
     <person handle="_cb589cce0702a0dfce5" change="1535041883" id="I5039">
@@ -25856,7 +25860,7 @@
         <surname derivation="Patronymic">Larsson</surname>
       </name>
     </person>
-    <person handle="_ebb0a5009a4205bca7113657956" change="1619724217" id="I0039">
+    <person handle="_ebb0a5009a4205bca7113657956" change="1620143180" id="I0039">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Sigfrid</first>
@@ -25865,7 +25869,7 @@
       <eventref hlink="_ebb0a602870e2d797a9ef3885" role="Primary"/>
       <parentin hlink="_ebb0a4c516f187f61905b122cde"/>
     </person>
-    <person handle="_ebb0a58377737ed4b8c6631c764" change="1619724202" id="I0040">
+    <person handle="_ebb0a58377737ed4b8c6631c764" change="1620143180" id="I0040">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Greta</first>
@@ -25875,16 +25879,7 @@
       <eventref hlink="_ebb36a79e5e219220a75217f938" role="Unknown"/>
       <parentin hlink="_ebb0a4c516f187f61905b122cde"/>
     </person>
-    <person handle="_ebb37e689933d964afbef757ad2" change="1619726336" id="I0041">
-      <gender>M</gender>
-      <name type="Birth Name">
-        <first>Jacob</first>
-        <surname derivation="Patronymic">Sigfridsson</surname>
-      </name>
-      <eventref hlink="_ebb37ee70cd5d39ddff743a0804" role="Primary"/>
-      <childof hlink="_ebb0a4c516f187f61905b122cde"/>
-    </person>
-    <person handle="_ebb381bd0d43dc1eb47b60d4739" change="1619726336" id="I0042">
+    <person handle="_ebb381bd0d43dc1eb47b60d4739" change="1620143544" id="I0042">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Greta Sophia</first>
@@ -26348,12 +26343,6 @@
       <father hlink="_cea296f0fed2cabb9e6"/>
       <mother hlink="_cb589cc9a314d4c5b11"/>
       <childref hlink="_cea298043ab0df64e0f"/>
-    </family>
-    <family handle="_cb589ccb9053648534f" change="1461488626" id="F1849">
-      <rel type="Married"/>
-      <eventref hlink="_cb589cfc8d4634f80b4" role="Family"/>
-      <childref hlink="_cb589ccdff5447ddc1f"/>
-      <childref hlink="_cb589ccb8e61c75d89b"/>
     </family>
     <family handle="_cb589ccb933003a56ef" change="1414284937" id="F1982">
       <rel type="Married"/>
@@ -29125,15 +29114,16 @@
       <rel type="Unknown"/>
       <father hlink="_ebb0a396c802c0a736345b976d"/>
     </family>
-    <family handle="_ebb0a4c516f187f61905b122cde" change="1619726336" id="F0010">
+    <family handle="_ebb0a4c516f187f61905b122cde" change="1620143544" id="F0010">
       <rel type="Married"/>
       <father hlink="_ebb0a5009a4205bca7113657956"/>
       <mother hlink="_ebb0a58377737ed4b8c6631c764"/>
+      <eventref hlink="_cb589cfc8d4634f80b4" role="Family"/>
       <eventref hlink="_ebb37b976b230b4931f56563d98" role="Family"/>
       <eventref hlink="_eba9b3b5bb2f61355ca190cbb6" role="Unknown"/>
       <eventref hlink="_eba952046e85f9e5da136e0c1f0" role="Unknown"/>
+      <childref hlink="_cb589ccdff5447ddc1f"/>
       <childref hlink="_cb589ccb8e61c75d89b"/>
-      <childref hlink="_ebb37e689933d964afbef757ad2"/>
       <childref hlink="_ebb381bd0d43dc1eb47b60d4739"/>
     </family>
   </families>
