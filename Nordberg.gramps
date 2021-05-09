@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2021-05-09" version="5.1.3"/>
+    <created date="2021-05-10" version="5.1.3"/>
     <researcher>
     </researcher>
   </header>
@@ -14143,7 +14143,7 @@
       <dateval val="1781"/>
       <citationref hlink="_ebb37b8dda05a3a7d9bb0d6bdab"/>
     </event>
-    <event handle="_ebc330c77733f0d50c98deaf541" change="1620147309" id="E0179">
+    <event handle="_ebc330c77733f0d50c98deaf541" change="1620592678" id="E0179">
       <type>Marriage</type>
       <dateval val="1773-01-24"/>
       <place hlink="_cb589cc83b65110951c"/>
@@ -14161,11 +14161,12 @@
       <place hlink="_eba932e2f2b79b8c277926799e1"/>
       <citationref hlink="_ebd38c94b294e1818c9583eda73"/>
     </event>
-    <event handle="_ebd38d8dbc465a0a1d5db44b82c" change="1620586534" id="E0182">
+    <event handle="_ebd38d8dbc465a0a1d5db44b82c" change="1620597800" id="E0182">
       <type>Death</type>
-      <dateval val="1784-05-08"/>
+      <dateval val="1784-08-05"/>
       <place hlink="_eba932e2f2b79b8c277926799e1"/>
       <citationref hlink="_ebd38c94b294e1818c9583eda73"/>
+      <citationref hlink="_ebd3f1e84c46c6d9fe09f040ce7"/>
     </event>
     <event handle="_ebd38dcbba53f8e150b3fa590b2" change="1620586559" id="E0183">
       <type>Birth</type>
@@ -14183,6 +14184,24 @@
       <dateval val="1784"/>
       <place hlink="_eba932e2f2b79b8c277926799e1"/>
       <citationref hlink="_ebd38c94b294e1818c9583eda73"/>
+    </event>
+    <event handle="_ebd3f71334954f37b5e1775c9fc" change="1620597599" id="E0186">
+      <type>Birth</type>
+      <dateval val="1784-07-22" type="about"/>
+      <place hlink="_eba932e2f2b79b8c277926799e1"/>
+      <citationref hlink="_ebd3f1e84c46c6d9fe09f040ce7"/>
+    </event>
+    <event handle="_ebd3f8004103870d925ac3cb639" change="1620597696" id="E0187">
+      <type>Death</type>
+      <dateval val="1784-07-22" type="about"/>
+      <place hlink="_eba932e2f2b79b8c277926799e1"/>
+      <citationref hlink="_ebd3f1e84c46c6d9fe09f040ce7"/>
+    </event>
+    <event handle="_ebd3f86954b5e16d0c2f2ed5bfc" change="1620597775" id="E0188">
+      <type>Burial</type>
+      <dateval val="1784-07-25"/>
+      <place hlink="_cb589cc83b65110951c"/>
+      <citationref hlink="_ebd3f1e84c46c6d9fe09f040ce7"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -14990,7 +15009,7 @@
       <eventref hlink="_cb589cc9c7941e51f81" role="Primary"/>
       <childof hlink="_cb589cc8521134956b2"/>
     </person>
-    <person handle="_cb589ccb8e61c75d89b" change="1620587204" id="I5192">
+    <person handle="_cb589ccb8e61c75d89b" change="1620597700" id="I5192">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Henric</first>
@@ -14999,7 +15018,6 @@
       </name>
       <eventref hlink="_cb589ccb8eb7da7f5e3" role="Primary"/>
       <eventref hlink="_cb589ccb8fa550a973a" role="Primary"/>
-      <childof hlink="_ebb0a4c516f187f61905b122cde"/>
       <childof hlink="_ebc32da4ce3239de1becc5fef10"/>
       <parentin hlink="_cb589cc8edf633eea11"/>
     </person>
@@ -15869,7 +15887,7 @@
       <eventref hlink="_cb589ccca1c092450f5" role="Primary"/>
       <childof hlink="_cb589cc97743822baae"/>
     </person>
-    <person handle="_cb589ccdff5447ddc1f" change="1620587204" id="I3628">
+    <person handle="_cb589ccdff5447ddc1f" change="1620597700" id="I3628">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Jacob</first>
@@ -15882,7 +15900,6 @@
       </name>
       <eventref hlink="_cb589ccdff9147cb8c1" role="Primary"/>
       <eventref hlink="_cb589ccdffd577d0632" role="Primary"/>
-      <childof hlink="_ebb0a4c516f187f61905b122cde"/>
       <childof hlink="_ebc32da4ce3239de1becc5fef10"/>
       <parentin hlink="_cb589cce01127c54303"/>
     </person>
@@ -25892,7 +25909,7 @@
       </name>
       <parentin hlink="_ebb0a3927d63751c3ed748c8bbb"/>
     </person>
-    <person handle="_ebb0a5009a4205bca7113657956" change="1620147313" id="I0039">
+    <person handle="_ebb0a5009a4205bca7113657956" change="1620589844" id="I0039">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Sigfrid</first>
@@ -25900,8 +25917,8 @@
       </name>
       <eventref hlink="_ebb0a602870e2d797a9ef3885" role="Primary"/>
       <attribute type="Merged Gramps ID" value="I0037"/>
-      <parentin hlink="_ebb0a4c516f187f61905b122cde"/>
       <parentin hlink="_ebc32da4ce3239de1becc5fef10"/>
+      <parentin hlink="_ebb0a4c516f187f61905b122cde"/>
     </person>
     <person handle="_ebb0a58377737ed4b8c6631c764" change="1620143180" id="I0040">
       <gender>F</gender>
@@ -25913,27 +25930,27 @@
       <eventref hlink="_ebb36a79e5e219220a75217f938" role="Unknown"/>
       <parentin hlink="_ebb0a4c516f187f61905b122cde"/>
     </person>
-    <person handle="_ebb381bd0d43dc1eb47b60d4739" change="1620587204" id="I0042">
+    <person handle="_ebb381bd0d43dc1eb47b60d4739" change="1620597700" id="I0042">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Greta Sophia</first>
         <surname derivation="Patronymic">Sigfridsdotter</surname>
       </name>
       <eventref hlink="_ebb3820c4b9277e858c8a2d5e49" role="Primary"/>
-      <childof hlink="_ebb0a4c516f187f61905b122cde"/>
       <childof hlink="_ebc32da4ce3239de1becc5fef10"/>
     </person>
-    <person handle="_ebc32dd0e3b5f3bbf2e85854eec" change="1620586567" id="I0043">
+    <person handle="_ebc32dd0e3b5f3bbf2e85854eec" change="1620597142" id="I0043">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria</first>
         <surname>Kurlander</surname>
+        <surname prim="0" derivation="Patronymic">Henricsdotter</surname>
       </name>
       <eventref hlink="_ebd38dcbba53f8e150b3fa590b2" role="Primary"/>
       <eventref hlink="_ebd38d8dbc465a0a1d5db44b82c" role="Primary"/>
       <parentin hlink="_ebc32da4ce3239de1becc5fef10"/>
     </person>
-    <person handle="_ebd392ad526742c9d9e368d9c6" change="1620587204" id="I0044">
+    <person handle="_ebd392ad526742c9d9e368d9c6" change="1620597700" id="I0044">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Carl</first>
@@ -25941,6 +25958,17 @@
       </name>
       <eventref hlink="_ebd3933bb878dfdf8301a2d323" role="Primary"/>
       <eventref hlink="_ebd393b566875369f2cde33cd5f" role="Primary"/>
+      <childof hlink="_ebc32da4ce3239de1becc5fef10"/>
+    </person>
+    <person handle="_ebd3f61e6cf623f1961d7ec3908" change="1620597779" id="I0045">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>†</first>
+        <surname derivation="Patronymic">Sigfridsson</surname>
+      </name>
+      <eventref hlink="_ebd3f71334954f37b5e1775c9fc" role="Primary"/>
+      <eventref hlink="_ebd3f8004103870d925ac3cb639" role="Primary"/>
+      <eventref hlink="_ebd3f86954b5e16d0c2f2ed5bfc" role="Primary"/>
       <childof hlink="_ebc32da4ce3239de1becc5fef10"/>
     </person>
   </people>
@@ -29169,7 +29197,7 @@
       <rel type="Unknown"/>
       <father hlink="_ebb0a396c802c0a736345b976d"/>
     </family>
-    <family handle="_ebb0a4c516f187f61905b122cde" change="1620587058" id="F0010">
+    <family handle="_ebb0a4c516f187f61905b122cde" change="1620592375" id="F0010">
       <rel type="Married"/>
       <father hlink="_ebb0a5009a4205bca7113657956"/>
       <mother hlink="_ebb0a58377737ed4b8c6631c764"/>
@@ -29178,11 +29206,8 @@
       <eventref hlink="_ebb37b976b230b4931f56563d98" role="Family"/>
       <eventref hlink="_eba9b3b5bb2f61355ca190cbb6" role="Unknown"/>
       <eventref hlink="_eba952046e85f9e5da136e0c1f0" role="Unknown"/>
-      <childref hlink="_cb589ccdff5447ddc1f" mrel="Stepchild"/>
-      <childref hlink="_cb589ccb8e61c75d89b" mrel="Stepchild"/>
-      <childref hlink="_ebb381bd0d43dc1eb47b60d4739" mrel="Stepchild"/>
     </family>
-    <family handle="_ebc32da4ce3239de1becc5fef10" change="1620587204" id="F0011">
+    <family handle="_ebc32da4ce3239de1becc5fef10" change="1620597700" id="F0011">
       <rel type="Married"/>
       <father hlink="_ebb0a5009a4205bca7113657956"/>
       <mother hlink="_ebc32dd0e3b5f3bbf2e85854eec"/>
@@ -29192,6 +29217,7 @@
       <childref hlink="_cb589ccb8e61c75d89b"/>
       <childref hlink="_ebd392ad526742c9d9e368d9c6"/>
       <childref hlink="_ebb381bd0d43dc1eb47b60d4739"/>
+      <childref hlink="_ebd3f61e6cf623f1961d7ec3908"/>
     </family>
   </families>
   <citations>
@@ -36798,6 +36824,14 @@
       <noteref hlink="_ebd38c8822275143d6b830dba2e"/>
       <sourceref hlink="_ebd3895bf401efe839d78a5c5ba"/>
     </citation>
+    <citation handle="_ebd3f1e84c46c6d9fe09f040ce7" change="1620597057" id="C1174">
+      <page>6-7</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebd3ef3154c59a621f7cc943cd3"/>
+      <noteref hlink="_ebd3ef4cd4a4df3170471ebd976"/>
+      <noteref hlink="_ebd3f1df2fd24b0d7e503c8f0a8"/>
+      <sourceref hlink="_ebd3ef0cec473b2d49500c946e8"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -39327,6 +39361,11 @@
     </source>
     <source handle="_ebd3895bf401efe839d78a5c5ba" change="1620586094" id="S0505">
       <stitle>Tammisaari Rippikirja 1774-1785</stitle>
+      <sauthor>Tammisaaren seurakunta</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
+    <source handle="_ebd3ef0cec473b2d49500c946e8" change="1620596757" id="S0506">
+      <stitle>Tammisaari Kuolleet 1765-1813</stitle>
       <sauthor>Tammisaaren seurakunta</sauthor>
       <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
     </source>
@@ -41934,7 +41973,7 @@
     </placeobj>
   </places>
   <repositories>
-    <repository handle="_cdea29a49637c6553bc" change="1620586075" id="R0001">
+    <repository handle="_cdea29a49637c6553bc" change="1620596748" id="R0001">
       <rname>Arkistolaitos Digitaaliarkisto</rname>
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
@@ -53812,7 +53851,7 @@ Februari  d. 7. Wigde hemma torparen Sigfrid Larsson ifr
     <note handle="_ebd389bc2cd6aac2b792259af29" change="1620586133" id="N1574" type="Link">
       <text>http://digi.narc.fi/digi/view.ka?kuid=8882051</text>
     </note>
-    <note handle="_ebd38c8822275143d6b830dba2e" change="1620586427" id="N1575" type="Transcript">
+    <note handle="_ebd38c8822275143d6b830dba2e" change="1620587542" id="N1575" type="Transcript" format="1">
       <text>296 Henric Danberg
 
 ...
@@ -53829,6 +53868,21 @@ pig Beata
       <style name="fontface" value="Monospace">
         <range start="0" end="260"/>
       </style>
+    </note>
+    <note handle="_ebd3ef3154c59a621f7cc943cd3" change="1620596772" id="N1576" type="Citation">
+      <text>Tammisaaren seurakunnan arkisto - Kuolleiden ja haudattujen luettelot 1765-1813 (1765-1779, 1783-1813), jakso 31: 1784; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=8731290 / Viitattu 10.5.2021</text>
+    </note>
+    <note handle="_ebd3ef4cd4a4df3170471ebd976" change="1620596783" id="N1577" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=8731290</text>
+    </note>
+    <note handle="_ebd3f1df2fd24b0d7e503c8f0a8" change="1620597053" id="N1578" type="Transcript">
+      <text>6    1784
+
+...
+[Juli]  25. Begrafs Byvik Torp: Sigfr: Larsson dödfödda son
+...
+August  8  Begrafs Torp: Sigfrids hustru Maria
+                        Henrics dotter, död d. 5. i barnsäng 35 år gl.</text>
     </note>
   </notes>
 </database>
