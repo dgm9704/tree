@@ -14138,10 +14138,12 @@
       <place hlink="_eba932e2f2b79b8c277926799e1"/>
       <citationref hlink="_ebb37b8dda05a3a7d9bb0d6bdab"/>
     </event>
-    <event handle="_ebb3820c4b9277e858c8a2d5e49" change="1619726334" id="E0178">
+    <event handle="_ebb3820c4b9277e858c8a2d5e49" change="1620599591" id="E0178">
       <type>Birth</type>
-      <dateval val="1781"/>
+      <dateval val="1781-10-21"/>
+      <place hlink="_eba932e2f2b79b8c277926799e1"/>
       <citationref hlink="_ebb37b8dda05a3a7d9bb0d6bdab"/>
+      <citationref hlink="_ebd409f45965f54d0df78cd44e5"/>
     </event>
     <event handle="_ebc330c77733f0d50c98deaf541" change="1620592678" id="E0179">
       <type>Marriage</type>
@@ -14173,17 +14175,19 @@
       <dateval val="1750"/>
       <citationref hlink="_ebd38c94b294e1818c9583eda73"/>
     </event>
-    <event handle="_ebd3933bb878dfdf8301a2d323" change="1620587129" id="E0184">
+    <event handle="_ebd3933bb878dfdf8301a2d323" change="1620600528" id="E0184">
       <type>Birth</type>
-      <dateval val="1779-08-06"/>
-      <place hlink="_eba932e2f2b79b8c277926799e1"/>
+      <dateval val="1779-06-08"/>
+      <place hlink="_cb589cce00029594047"/>
       <citationref hlink="_ebd38c94b294e1818c9583eda73"/>
+      <citationref hlink="_ebd412bdfd750c7e4d5b4cb0456"/>
     </event>
-    <event handle="_ebd393b566875369f2cde33cd5f" change="1620587179" id="E0185">
+    <event handle="_ebd393b566875369f2cde33cd5f" change="1620599014" id="E0185">
       <type>Death</type>
-      <dateval val="1784"/>
+      <dateval val="1784-04-08"/>
       <place hlink="_eba932e2f2b79b8c277926799e1"/>
       <citationref hlink="_ebd38c94b294e1818c9583eda73"/>
+      <citationref hlink="_ebd4048e16b52f84e6cc0e8026d"/>
     </event>
     <event handle="_ebd3f71334954f37b5e1775c9fc" change="1620597599" id="E0186">
       <type>Birth</type>
@@ -14202,6 +14206,12 @@
       <dateval val="1784-07-25"/>
       <place hlink="_cb589cc83b65110951c"/>
       <citationref hlink="_ebd3f1e84c46c6d9fe09f040ce7"/>
+    </event>
+    <event handle="_ebd418b178426c85e037848ccb0" change="1620601124" id="E0189">
+      <type>Residence</type>
+      <datespan start="1775" stop="1779"/>
+      <place hlink="_ebd414cc3ba183c64f67b6d32cf"/>
+      <citationref hlink="_ebd418ab23b5dc64e643b5b0135"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -15009,7 +15019,7 @@
       <eventref hlink="_cb589cc9c7941e51f81" role="Primary"/>
       <childof hlink="_cb589cc8521134956b2"/>
     </person>
-    <person handle="_cb589ccb8e61c75d89b" change="1620597700" id="I5192">
+    <person handle="_cb589ccb8e61c75d89b" change="1620601132" id="I5192">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Henric</first>
@@ -15887,7 +15897,7 @@
       <eventref hlink="_cb589ccca1c092450f5" role="Primary"/>
       <childof hlink="_cb589cc97743822baae"/>
     </person>
-    <person handle="_cb589ccdff5447ddc1f" change="1620597700" id="I3628">
+    <person handle="_cb589ccdff5447ddc1f" change="1620601132" id="I3628">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Jacob</first>
@@ -25930,7 +25940,7 @@
       <eventref hlink="_ebb36a79e5e219220a75217f938" role="Unknown"/>
       <parentin hlink="_ebb0a4c516f187f61905b122cde"/>
     </person>
-    <person handle="_ebb381bd0d43dc1eb47b60d4739" change="1620597700" id="I0042">
+    <person handle="_ebb381bd0d43dc1eb47b60d4739" change="1620601132" id="I0042">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Greta Sophia</first>
@@ -25950,7 +25960,7 @@
       <eventref hlink="_ebd38d8dbc465a0a1d5db44b82c" role="Primary"/>
       <parentin hlink="_ebc32da4ce3239de1becc5fef10"/>
     </person>
-    <person handle="_ebd392ad526742c9d9e368d9c6" change="1620597700" id="I0044">
+    <person handle="_ebd392ad526742c9d9e368d9c6" change="1620601132" id="I0044">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Carl</first>
@@ -25960,7 +25970,7 @@
       <eventref hlink="_ebd393b566875369f2cde33cd5f" role="Primary"/>
       <childof hlink="_ebc32da4ce3239de1becc5fef10"/>
     </person>
-    <person handle="_ebd3f61e6cf623f1961d7ec3908" change="1620597779" id="I0045">
+    <person handle="_ebd3f61e6cf623f1961d7ec3908" change="1620601132" id="I0045">
       <gender>M</gender>
       <name type="Birth Name">
         <first>†</first>
@@ -29207,11 +29217,12 @@
       <eventref hlink="_eba9b3b5bb2f61355ca190cbb6" role="Unknown"/>
       <eventref hlink="_eba952046e85f9e5da136e0c1f0" role="Unknown"/>
     </family>
-    <family handle="_ebc32da4ce3239de1becc5fef10" change="1620597700" id="F0011">
+    <family handle="_ebc32da4ce3239de1becc5fef10" change="1620601132" id="F0011">
       <rel type="Married"/>
       <father hlink="_ebb0a5009a4205bca7113657956"/>
       <mother hlink="_ebc32dd0e3b5f3bbf2e85854eec"/>
       <eventref hlink="_ebc330c77733f0d50c98deaf541" role="Family"/>
+      <eventref hlink="_ebd418b178426c85e037848ccb0" role="Family"/>
       <eventref hlink="_ebd38c98f677333022e23b3f855" role="Family"/>
       <childref hlink="_cb589ccdff5447ddc1f"/>
       <childref hlink="_cb589ccb8e61c75d89b"/>
@@ -36832,6 +36843,38 @@
       <noteref hlink="_ebd3f1df2fd24b0d7e503c8f0a8"/>
       <sourceref hlink="_ebd3ef0cec473b2d49500c946e8"/>
     </citation>
+    <citation handle="_ebd4048e16b52f84e6cc0e8026d" change="1620599012" id="C1175">
+      <page>4-5</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebd402d5b3b2e99549f67d97a90"/>
+      <noteref hlink="_ebd402f7e1a7d27396369e3ec73"/>
+      <noteref hlink="_ebd4048456e4867ac5a1e30e3da"/>
+      <sourceref hlink="_ebd3ef0cec473b2d49500c946e8"/>
+    </citation>
+    <citation handle="_ebd409f45965f54d0df78cd44e5" change="1620599578" id="C1176">
+      <page>222-223</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebd4066789b3daf501361180e04"/>
+      <noteref hlink="_ebd4068aaad2cfdfdd3c9a2b0da"/>
+      <noteref hlink="_ebd409ebfce30a818bd067cd433"/>
+      <sourceref hlink="_ebac6f21b235e2839ae07698c10"/>
+    </citation>
+    <citation handle="_ebd412bdfd750c7e4d5b4cb0456" change="1620600500" id="C1177">
+      <page>188-189</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebd40d876c8392ca659b28375f3"/>
+      <noteref hlink="_ebd40da76979292f07a6c4e90c"/>
+      <noteref hlink="_ebd412ab9112002d137db6cc6d8"/>
+      <sourceref hlink="_ebac6f21b235e2839ae07698c10"/>
+    </citation>
+    <citation handle="_ebd418ab23b5dc64e643b5b0135" change="1620601121" id="C1178">
+      <page>120</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebd41586fdf37c4654b2083ea4b"/>
+      <noteref hlink="_ebd415a1a1728d1dd5f5bbd8f7e"/>
+      <noteref hlink="_ebd41889c823b066017850ecd17"/>
+      <sourceref hlink="_ebd3895bf401efe839d78a5c5ba"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -39570,7 +39613,7 @@
       <pname value="Haapamäki"/>
       <placeref hlink="_cb589cc805307692607"/>
     </placeobj>
-    <placeobj handle="_cb589cce00029594047" change="1420126793" id="P0108" type="Village">
+    <placeobj handle="_cb589cce00029594047" change="1620600714" id="P0108" type="Village">
       <ptitle>Skåldö, Ekenäs, Finland</ptitle>
       <pname value="Skåldö"/>
       <placeref hlink="_cb589cc83b65110951c"/>
@@ -41970,6 +42013,10 @@
     <placeobj handle="_ebb375b181c3f0bc9bb34e02845" change="1619725039" id="P0099" type="Unknown">
       <pname value="Ekön"/>
       <placeref hlink="_cb589cc83b65110951c"/>
+    </placeobj>
+    <placeobj handle="_ebd414cc3ba183c64f67b6d32cf" change="1620600715" id="P0100" type="Farm">
+      <pname value="Wästergård"/>
+      <placeref hlink="_cb589cce00029594047"/>
     </placeobj>
   </places>
   <repositories>
@@ -53883,6 +53930,70 @@ pig Beata
 ...
 August  8  Begrafs Torp: Sigfrids hustru Maria
                         Henrics dotter, död d. 5. i barnsäng 35 år gl.</text>
+    </note>
+    <note handle="_ebd402d5b3b2e99549f67d97a90" change="1620598832" id="N1579" type="Citation">
+      <text>Tammisaaren seurakunnan arkisto - Kuolleiden ja haudattujen luettelot 1765-1813 (1765-1779, 1783-1813), jakso 30: 1784; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=8731289 / Viitattu 10.5.2021</text>
+    </note>
+    <note handle="_ebd402f7e1a7d27396369e3ec73" change="1620598846" id="N1580" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=8731289</text>
+    </note>
+    <note handle="_ebd4048456e4867ac5a1e30e3da" change="1620599008" id="N1581" type="Transcript">
+      <text>1784    5
+...
+[April]    12    Begrafs Dansko Torp: Sigfrid Larssons son Carl, död
+                             d 8. apr af host og bröstvärk    5 år gl
+</text>
+    </note>
+    <note handle="_ebd4066789b3daf501361180e04" change="1620599206" id="N1582" type="Citation">
+      <text>Tammisaaren seurakunnan arkisto - Syntyneiden ja kastettujen luettelot 1762-1796, jakso 122, sivu 222-223: 1781; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=8885361 / Viitattu 10.5.2021</text>
+    </note>
+    <note handle="_ebd4068aaad2cfdfdd3c9a2b0da" change="1620599220" id="N1583" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=8885361</text>
+    </note>
+    <note handle="_ebd409ebfce30a818bd067cd433" change="1620599575" id="N1584" type="Transcript">
+      <text>1781    223
+...
+October den 21. födde och d. 22 döptas  samma? af
+ Joh: Widberg Greta Sophia, ????? Sig-
+ frid Larsson Mater Maja Henr;dr irf By-
+vik. Testes Jacob Larsson, Jonas Dann, ho Gre
+ta Larsdr og Sophia Henricsdr</text>
+    </note>
+    <note handle="_ebd40d876c8392ca659b28375f3" change="1620599953" id="N1585" type="Citation">
+      <text>Tammisaaren seurakunnan arkisto - Syntyneiden ja kastettujen luettelot 1762-1796, jakso 103, sivu 188 - 189: 1779; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=8885333 / Viitattu 10.5.2021</text>
+    </note>
+    <note handle="_ebd40da76979292f07a6c4e90c" change="1620599966" id="N1586" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=8885333</text>
+    </note>
+    <note handle="_ebd412ab9112002d137db6cc6d8" change="1620600492" id="N1587" type="Transcript">
+      <text>188    1779
+...
+Carl    den 8 föddad och den 8 döptas samma? 
+             af Agricola Carl, P: Sigfrid Larsson
+Juni    M: Maria Henricsdr ifr Skåldö</text>
+    </note>
+    <note handle="_ebd41586fdf37c4654b2083ea4b" change="1620600792" id="N1588" type="Citation">
+      <text>Tammisaaren seurakunnan arkisto - Rippikirjat 1774-1785, jakso 119, sivu 120: Skåldö Vestergård; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=8881861 / Viitattu 10.5.2021</text>
+    </note>
+    <note handle="_ebd415a1a1728d1dd5f5bbd8f7e" change="1620600803" id="N1589" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=8881861</text>
+    </note>
+    <note handle="_ebd41889c823b066017850ecd17" change="1620601107" id="N1590" type="Transcript">
+      <text>120
+Skåldö Wästergård
+...
+Sigfrid Larsson             5/15 1749
+Maja Henricsdr ho
+Jacob son                   12/1 1774
+Henric son                   4/  1777
+Sigfrid Larsson
+ho Maria Hind:dr
+Jacob son
+Hindric son
+Lars Sommardahl?                 1716     4/30 1777</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="264"/>
+      </style>
     </note>
   </notes>
 </database>
