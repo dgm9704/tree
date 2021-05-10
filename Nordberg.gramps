@@ -14214,6 +14214,22 @@
       <place hlink="_ebd414cc3ba183c64f67b6d32cf"/>
       <citationref hlink="_ebd418ab23b5dc64e643b5b0135"/>
     </event>
+    <event handle="_ebd64a7c41da5d22612df1217a" change="1620660032" id="E0190">
+      <type>Residence</type>
+      <datespan start="1762" stop="1766"/>
+      <place hlink="_cb589cd965c515a4420"/>
+      <citationref hlink="_ebd64a299525c8c4121a78ce893"/>
+    </event>
+    <event handle="_ebd64aebd127bf812bf69bb0dc" change="1620660078" id="E0193">
+      <type>Birth</type>
+      <dateval val="1716"/>
+      <citationref hlink="_ebd64a299525c8c4121a78ce893"/>
+    </event>
+    <event handle="_ebd64b2a73f5d39e4b4033e4af4" change="1620660103" id="E0197">
+      <type>Birth</type>
+      <dateval val="1721"/>
+      <citationref hlink="_ebd64a299525c8c4121a78ce893"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1548617779" id="I3858">
@@ -25920,7 +25936,7 @@
       </name>
       <parentin hlink="_ebb0a3927d63751c3ed748c8bbb"/>
     </person>
-    <person handle="_ebb0a5009a4205bca7113657956" change="1620602551" id="I0039">
+    <person handle="_ebb0a5009a4205bca7113657956" change="1620660040" id="I0039">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Sigfrid</first>
@@ -25983,20 +25999,22 @@
       <eventref hlink="_ebd3f86954b5e16d0c2f2ed5bfc" role="Primary"/>
       <childof hlink="_ebc32da4ce3239de1becc5fef10"/>
     </person>
-    <person handle="_ebd425a22fa140b0f528978abc6" change="1620602551" id="I0046">
+    <person handle="_ebd425a22fa140b0f528978abc6" change="1620660082" id="I0046">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Lars</first>
         <surname derivation="Occupation">Sommardahl</surname>
       </name>
+      <eventref hlink="_ebd64aebd127bf812bf69bb0dc" role="Primary"/>
       <parentin hlink="_ebd425977333dbe83639394bc94"/>
     </person>
-    <person handle="_ebd425f4bdf7a6e6076dd537ac7" change="1620602551" id="I0047">
+    <person handle="_ebd425f4bdf7a6e6076dd537ac7" change="1620660104" id="I0047">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anna</first>
         <surname derivation="Patronymic">Larsdotter</surname>
       </name>
+      <eventref hlink="_ebd64b2a73f5d39e4b4033e4af4" role="Primary"/>
       <parentin hlink="_ebd425977333dbe83639394bc94"/>
     </person>
   </people>
@@ -29248,10 +29266,11 @@
       <childref hlink="_ebb381bd0d43dc1eb47b60d4739"/>
       <childref hlink="_ebd3f61e6cf623f1961d7ec3908"/>
     </family>
-    <family handle="_ebd425977333dbe83639394bc94" change="1620602551" id="F0012">
+    <family handle="_ebd425977333dbe83639394bc94" change="1620660040" id="F0012">
       <rel type="Married"/>
       <father hlink="_ebd425a22fa140b0f528978abc6"/>
       <mother hlink="_ebd425f4bdf7a6e6076dd537ac7"/>
+      <eventref hlink="_ebd64a7c41da5d22612df1217a" role="Family"/>
       <childref hlink="_ebb0a5009a4205bca7113657956"/>
     </family>
   </families>
@@ -36907,6 +36926,14 @@
       <noteref hlink="_ebd4249ac214dc24fb72725d519"/>
       <sourceref hlink="_ebd41f5cf3372054acc064cc976"/>
     </citation>
+    <citation handle="_ebd64a299525c8c4121a78ce893" change="1620659998" id="C1180">
+      <page>88</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebd648f964b44d58031ba3545b7"/>
+      <noteref hlink="_ebd6491a23449cc9ef202bce82e"/>
+      <noteref hlink="_ebd64a03377281d6df3cc7f2c7b"/>
+      <sourceref hlink="_ebd648d4c912d4009142956a0a3"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -39446,6 +39473,11 @@
     </source>
     <source handle="_ebd41f5cf3372054acc064cc976" change="1620601823" id="S0507">
       <stitle>Tammisaari Syntyneet 1724-1761</stitle>
+      <sauthor>Tammisaaren seurakunta</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
+    <source handle="_ebd648d4c912d4009142956a0a3" change="1620659858" id="S0508">
+      <stitle>Tammisaari Rippikirja 1762-1773</stitle>
       <sauthor>Tammisaaren seurakunta</sauthor>
       <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
     </source>
@@ -42057,7 +42089,7 @@
     </placeobj>
   </places>
   <repositories>
-    <repository handle="_cdea29a49637c6553bc" change="1620601820" id="R0001">
+    <repository handle="_cdea29a49637c6553bc" change="1620659856" id="R0001">
       <rname>Arkistolaitos Digitaaliarkisto</rname>
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
@@ -54046,6 +54078,24 @@ den 15 födde och samma dag döptad
 Sigfridus P: soldat? Lars Sommar
 dahl M: Anna Larsdotter ????
 </text>
+    </note>
+    <note handle="_ebd648f964b44d58031ba3545b7" change="1620659873" id="N1594" type="Citation">
+      <text>Tammisaaren seurakunnan arkisto - Rippikirjat 1762-1773, jakso 96, sivu 88: Tvärminne lotsen, Norrgård; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=76555596 / Viitattu 10.5.2021</text>
+    </note>
+    <note handle="_ebd6491a23449cc9ef202bce82e" change="1620659887" id="N1595" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=76555596</text>
+    </note>
+    <note handle="_ebd64a03377281d6df3cc7f2c7b" change="1620659982" id="N1596" type="Transcript">
+      <text>88
+
+...
+
+gl sold Lars Sommardahl    1716
+        Anna Larsdr ho     1721
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="73"/>
+      </style>
     </note>
   </notes>
 </database>
