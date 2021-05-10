@@ -14272,6 +14272,18 @@
       <place hlink="_cb589cc8ec66a725c6d"/>
       <citationref hlink="_ebd70ee777974de7a1a6fc1c312"/>
     </event>
+    <event handle="_ebd715f4c3936b506fd446f458b" change="1620681367" id="E0229">
+      <type>Residence</type>
+      <datespan start="1745" stop="1747"/>
+      <place hlink="_cb589cc8ec66a725c6d"/>
+      <citationref hlink="_ebd715d77f72c053b0867cf600f"/>
+    </event>
+    <event handle="_ebd72b71cf23933b2da136d824b" change="1620683621" id="E0230">
+      <type>Marriage</type>
+      <dateval val="1745-03-17"/>
+      <place hlink="_cb589cc8ec66a725c6d"/>
+      <citationref hlink="_ebd72b688c36296e53b39bf8fc7"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1548617779" id="I3858">
@@ -29344,10 +29356,12 @@
       <eventref hlink="_ebd64a7c41da5d22612df1217a" role="Family"/>
       <childref hlink="_ebb0a5009a4205bca7113657956"/>
     </family>
-    <family handle="_ebd6f29209d32d99fad4d30f084" change="1620680706" id="F0013">
+    <family handle="_ebd6f29209d32d99fad4d30f084" change="1620683640" id="F0013">
       <rel type="Married"/>
       <father hlink="_ebd6f2952ab329f7cd89b2d33cf"/>
       <mother hlink="_ebd6f62c00c7dd77db2a60b7c8b"/>
+      <eventref hlink="_ebd72b71cf23933b2da136d824b" role="Family"/>
+      <eventref hlink="_ebd715f4c3936b506fd446f458b" role="Family"/>
       <eventref hlink="_ebd70c3879e722af11962a5fb7a" role="Family"/>
       <eventref hlink="_ebd7001a29c15e2e8e737b83c63" role="Family"/>
       <eventref hlink="_ebd70eeb1594ab5322e740140aa" role="Family"/>
@@ -37060,6 +37074,23 @@
       <noteref hlink="_ebd70ed92474b0b5af85e901fb4"/>
       <sourceref hlink="_ebd648d4c912d4009142956a0a3"/>
     </citation>
+    <citation handle="_ebd715d77f72c053b0867cf600f" change="1620681355" id="C1186">
+      <page>102</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebd71394cd81e6081edb25538da"/>
+      <noteref hlink="_ebd713b1d3a2d7b4861e0f26756"/>
+      <noteref hlink="_ebd715d0754269c38b3edd3cf19"/>
+      <sourceref hlink="_ebd6fe72a5edc3773d32001e25"/>
+    </citation>
+    <citation handle="_ebd72b688c36296e53b39bf8fc7" change="1620683617" id="C1187">
+      <page>kuva 160</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebd7284ec7d225ce3ec1b5d26b9"/>
+      <noteref hlink="_ebd72879a1b3f91ea81fd19f74c"/>
+      <noteref hlink="_ebd7289f3211f4f1fadc4db09fc"/>
+      <noteref hlink="_ebd72b5d5bd1482b80b7f54497a"/>
+      <sourceref hlink="_ebd727f804f4d3ca85d2195837"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -39611,6 +39642,11 @@
       <stitle>Tammisaari Rippikirja 1741-1761</stitle>
       <sauthor>Tammisaaren seurakunta</sauthor>
       <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
+    <source handle="_ebd727f804f4d3ca85d2195837" change="1620683256" id="S0510">
+      <stitle>Tammisaari Vihityt 1724-1762</stitle>
+      <sauthor>Tammisaaren seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
   </sources>
   <places>
@@ -42225,7 +42261,7 @@
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1620147131" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1620683253" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -54319,6 +54355,41 @@ Carl son               3/25 1751</text>
       <style name="fontface" value="Monospace">
         <range start="0" end="113"/>
       </style>
+    </note>
+    <note handle="_ebd71394cd81e6081edb25538da" change="1620681118" id="N1612" type="Citation">
+      <text>Tammisaaren seurakunnan arkisto - Rippikirjat 1741-1761, jakso 107, sivu 102: Danskog ; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=8881283 / Viitattu 11.5.2021</text>
+    </note>
+    <note handle="_ebd713b1d3a2d7b4861e0f26756" change="1620681130" id="N1613" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=8881283</text>
+    </note>
+    <note handle="_ebd715d0754269c38b3edd3cf19" change="1620681352" id="N1614" type="Transcript" format="1">
+      <text>102
+Danskog
+...
+Dragon Henr
+Curlander              1697
+Maja Hindricsdr ho     1685
+Caisa Jonasdr ho</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="100"/>
+      </style>
+    </note>
+    <note handle="_ebd7284ec7d225ce3ec1b5d26b9" change="1620683292" id="N1615" type="Citation">
+      <text>Tammisaari syntyneet-vihityt 1724-1762 (AP I C:1)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34730&amp;pnum=160 / Viitattu 10.05.2021</text>
+    </note>
+    <note handle="_ebd72879a1b3f91ea81fd19f74c" change="1620683309" id="N1616" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34730&amp;pnum=160</text>
+    </note>
+    <note handle="_ebd7289f3211f4f1fadc4db09fc" change="1620683325" id="N1617" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/kirjat/Kirkonkirjat/tammisaari/syntyneet-vihityt_1724-1762_kk84-85/170.htm</text>
+    </note>
+    <note handle="_ebd72b5d5bd1482b80b7f54497a" change="1620683612" id="N1618" type="Transcript">
+      <text>1745
+...
+Mars
+17 Wigdad dragon Henr: Curlander med 
+       ??? Carin Jonas dr ifrån Dan
+      skog ??? ??????</text>
     </note>
   </notes>
 </database>
