@@ -14146,7 +14146,7 @@
       <citationref hlink="_ebb37b8dda05a3a7d9bb0d6bdab"/>
       <citationref hlink="_ebd409f45965f54d0df78cd44e5"/>
     </event>
-    <event handle="_ebc330c77733f0d50c98deaf541" change="1620592678" id="E0179">
+    <event handle="_ebc330c77733f0d50c98deaf541" change="1620666019" id="E0179">
       <type>Marriage</type>
       <dateval val="1773-01-24"/>
       <place hlink="_cb589cc83b65110951c"/>
@@ -14164,17 +14164,19 @@
       <place hlink="_eba932e2f2b79b8c277926799e1"/>
       <citationref hlink="_ebd38c94b294e1818c9583eda73"/>
     </event>
-    <event handle="_ebd38d8dbc465a0a1d5db44b82c" change="1620597800" id="E0182">
+    <event handle="_ebd38d8dbc465a0a1d5db44b82c" change="1620665987" id="E0182">
       <type>Death</type>
       <dateval val="1784-08-05"/>
       <place hlink="_eba932e2f2b79b8c277926799e1"/>
       <citationref hlink="_ebd38c94b294e1818c9583eda73"/>
       <citationref hlink="_ebd3f1e84c46c6d9fe09f040ce7"/>
     </event>
-    <event handle="_ebd38dcbba53f8e150b3fa590b2" change="1620586559" id="E0183">
+    <event handle="_ebd38dcbba53f8e150b3fa590b2" change="1620677603" id="E0183">
       <type>Birth</type>
-      <dateval val="1750"/>
+      <dateval val="1749-03-17"/>
+      <place hlink="_cb589cc8ec66a725c6d"/>
       <citationref hlink="_ebd38c94b294e1818c9583eda73"/>
+      <citationref hlink="_ebd6f2002cd4389750d0f3ef172"/>
     </event>
     <event handle="_ebd3933bb878dfdf8301a2d323" change="1620600528" id="E0184">
       <type>Birth</type>
@@ -14229,6 +14231,28 @@
       <type>Birth</type>
       <dateval val="1721"/>
       <citationref hlink="_ebd64a299525c8c4121a78ce893"/>
+    </event>
+    <event handle="_ebd6f5947867d9cdf976928e60a" change="1620677972" id="E0199">
+      <type>Birth</type>
+      <dateval val="1697"/>
+      <citationref hlink="_ebd6f5708407c569316e109cdf"/>
+    </event>
+    <event handle="_ebd6f609dd8195905285fb26934" change="1620678021" id="E0203">
+      <type>Death</type>
+      <dateval val="1768-08-20"/>
+      <place hlink="_cb589cc8ec66a725c6d"/>
+      <citationref hlink="_ebd6f5708407c569316e109cdf"/>
+    </event>
+    <event handle="_ebd6f6b1d581ce0833f11df4e70" change="1620678089" id="E0205">
+      <type>Birth</type>
+      <dateval val="1717"/>
+      <citationref hlink="_ebd6f5708407c569316e109cdf"/>
+    </event>
+    <event handle="_ebd6f720be01e4658bce24e0824" change="1620678135" id="E0218">
+      <type>Residence</type>
+      <datespan start="1768" stop="1773"/>
+      <place hlink="_cb589cc8ec66a725c6d"/>
+      <citationref hlink="_ebd6f5708407c569316e109cdf"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -25967,11 +25991,11 @@
       <eventref hlink="_ebb3820c4b9277e858c8a2d5e49" role="Primary"/>
       <childof hlink="_ebc32da4ce3239de1becc5fef10"/>
     </person>
-    <person handle="_ebc32dd0e3b5f3bbf2e85854eec" change="1620597142" id="I0043">
+    <person handle="_ebc32dd0e3b5f3bbf2e85854eec" change="1620677638" id="I0043">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria</first>
-        <surname>Kurlander</surname>
+        <surname>Curlander</surname>
         <surname prim="0" derivation="Patronymic">Henricsdotter</surname>
       </name>
       <eventref hlink="_ebd38dcbba53f8e150b3fa590b2" role="Primary"/>
@@ -26016,6 +26040,25 @@
       </name>
       <eventref hlink="_ebd64b2a73f5d39e4b4033e4af4" role="Primary"/>
       <parentin hlink="_ebd425977333dbe83639394bc94"/>
+    </person>
+    <person handle="_ebd6f2952ab329f7cd89b2d33cf" change="1620678150" id="I0048">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Henric</first>
+        <surname>Curlander</surname>
+      </name>
+      <eventref hlink="_ebd6f5947867d9cdf976928e60a" role="Primary"/>
+      <eventref hlink="_ebd6f609dd8195905285fb26934" role="Primary"/>
+      <parentin hlink="_ebd6f29209d32d99fad4d30f084"/>
+    </person>
+    <person handle="_ebd6f62c00c7dd77db2a60b7c8b" change="1620678150" id="I0049">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Caisa</first>
+        <surname derivation="Patronymic">Jonadotter</surname>
+      </name>
+      <eventref hlink="_ebd6f6b1d581ce0833f11df4e70" role="Primary"/>
+      <parentin hlink="_ebd6f29209d32d99fad4d30f084"/>
     </person>
   </people>
   <families>
@@ -29272,6 +29315,12 @@
       <mother hlink="_ebd425f4bdf7a6e6076dd537ac7"/>
       <eventref hlink="_ebd64a7c41da5d22612df1217a" role="Family"/>
       <childref hlink="_ebb0a5009a4205bca7113657956"/>
+    </family>
+    <family handle="_ebd6f29209d32d99fad4d30f084" change="1620678200" id="F0013">
+      <rel type="Married"/>
+      <father hlink="_ebd6f2952ab329f7cd89b2d33cf"/>
+      <mother hlink="_ebd6f62c00c7dd77db2a60b7c8b"/>
+      <eventref hlink="_ebd6f720be01e4658bce24e0824" role="Family"/>
     </family>
   </families>
   <citations>
@@ -36932,6 +36981,22 @@
       <noteref hlink="_ebd648f964b44d58031ba3545b7"/>
       <noteref hlink="_ebd6491a23449cc9ef202bce82e"/>
       <noteref hlink="_ebd64a03377281d6df3cc7f2c7b"/>
+      <sourceref hlink="_ebd648d4c912d4009142956a0a3"/>
+    </citation>
+    <citation handle="_ebd6f2002cd4389750d0f3ef172" change="1620677597" id="C1181">
+      <page>jakso 90</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebd6ee1cc57520bc324325fef99"/>
+      <noteref hlink="_ebd6ee377c91c4f4416dd377da2"/>
+      <noteref hlink="_ebd6f1f0bc32557072eba5b5156"/>
+      <sourceref hlink="_ebd41f5cf3372054acc064cc976"/>
+    </citation>
+    <citation handle="_ebd6f5708407c569316e109cdf" change="1620677958" id="C1182">
+      <page>218</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebd6f361bb0fbb5a1ea108cbd5"/>
+      <noteref hlink="_ebd6f37e6ce75a9111998bab186"/>
+      <noteref hlink="_ebd6f5667fe4939a66cfc813177"/>
       <sourceref hlink="_ebd648d4c912d4009142956a0a3"/>
     </citation>
   </citations>
@@ -54095,6 +54160,45 @@ gl sold Lars Sommardahl    1716
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="73"/>
+      </style>
+    </note>
+    <note handle="_ebd6ee1cc57520bc324325fef99" change="1620677189" id="N1597" type="Citation">
+      <text>Tammisaaren seurakunnan arkisto - Syntyneiden ja kastettujen luettelot 1724-1761, jakso 90: Syntyneet ja kastetut 1749; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=8885138 / Viitattu 10.5.2021</text>
+    </note>
+    <note handle="_ebd6ee377c91c4f4416dd377da2" change="1620677200" id="N1598" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=8885138</text>
+    </note>
+    <note handle="_ebd6f1f0bc32557072eba5b5156" change="1620677591" id="N1599" type="Transcript">
+      <text>Martii
+d:17 dito Maria ifn Danskog P Henric
+                       Curlander M. Catharina Johs dr
+                      döpt af 18 ejusdem. Testes
+                      Borg: Henric Willas, Bonden 
+                      Henric Jöransson if Sommaröö
+                     ho Maria Johansdr if smeden? ho
+                      Beatha Mathsdr if Sommaröö
+                      och Borg: dottern Maria Nyman</text>
+    </note>
+    <note handle="_ebd6f361bb0fbb5a1ea108cbd5" change="1620677742" id="N1600" type="Citation">
+      <text>Tammisaaren seurakunnan arkisto - Rippikirjat 1762-1773, jakso 227, sivu 218: Dragon på Dansko, Odensiö Södergård; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=76555396 / Viitattu 10.5.2021</text>
+    </note>
+    <note handle="_ebd6f37e6ce75a9111998bab186" change="1620677754" id="N1601" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=76555396</text>
+    </note>
+    <note handle="_ebd6f5667fe4939a66cfc813177" change="1620678065" id="N1602" type="Transcript" format="1">
+      <text>218
+Dragon på Danskog
+...
+
+gl Drag Henr Curlander    1697      8/20 1768
+Caisa Jonadr ho           1717
+Gabr son                  1758      5/23 1768
+Greta dr                  4/1 1761
+Jonas son                4/28 1754
+
+...</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="224"/>
       </style>
     </note>
   </notes>
