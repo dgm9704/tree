@@ -14284,6 +14284,35 @@
       <place hlink="_cb589cc8ec66a725c6d"/>
       <citationref hlink="_ebd72b688c36296e53b39bf8fc7"/>
     </event>
+    <event handle="_ebd72ee3a8e36febe46155eb6f2" change="1620683982" id="E0231">
+      <type>Birth</type>
+      <dateval val="1685"/>
+      <citationref hlink="_ebd715d77f72c053b0867cf600f"/>
+    </event>
+    <event handle="_ebd72f609f8258c6d704bf6cdc1" change="1620685331" id="E0232">
+      <type>Death</type>
+      <dateval val="1743"/>
+      <place hlink="_cb589cc8ec66a725c6d"/>
+      <citationref hlink="_ebd715d77f72c053b0867cf600f"/>
+    </event>
+    <event handle="_ebd7304daac1556834d4ea8fd1d" change="1620684130" id="E0233">
+      <type>Residence</type>
+      <datespan start="1741" stop="1743"/>
+      <place hlink="_cb589cc8ec66a725c6d"/>
+      <citationref hlink="_ebd715d77f72c053b0867cf600f"/>
+    </event>
+    <event handle="_ebd736046625988e492b773087a" change="1620684729" id="E0235">
+      <type>Residence</type>
+      <datespan start="1738" stop="1740"/>
+      <place hlink="_cb589cc8ec66a725c6d"/>
+      <citationref hlink="_ebd735ffe5966ff7bf605adce99"/>
+    </event>
+    <event handle="_ebd73b429731064e9cc866dd589" change="1620685303" id="E0237">
+      <type>Marriage</type>
+      <dateval val="1737-04-17"/>
+      <place hlink="_cb589cc83b65110951c"/>
+      <citationref hlink="_ebd73b3dc6e6eeaa02bfddf7e4e"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1548617779" id="I3858">
@@ -26072,7 +26101,7 @@
       <eventref hlink="_ebd64b2a73f5d39e4b4033e4af4" role="Primary"/>
       <parentin hlink="_ebd425977333dbe83639394bc94"/>
     </person>
-    <person handle="_ebd6f2952ab329f7cd89b2d33cf" change="1620678393" id="I0048">
+    <person handle="_ebd6f2952ab329f7cd89b2d33cf" change="1620684163" id="I0048">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Henric</first>
@@ -26080,6 +26109,7 @@
       </name>
       <eventref hlink="_ebd6f5947867d9cdf976928e60a" role="Primary"/>
       <eventref hlink="_ebd6f609dd8195905285fb26934" role="Primary"/>
+      <parentin hlink="_ebd72e307cc37249076c7ee07da"/>
       <parentin hlink="_ebd6f29209d32d99fad4d30f084"/>
       <parentin hlink="_ebd6f8db7895c78738863132a31"/>
     </person>
@@ -26099,6 +26129,16 @@
         <surname derivation="Patronymic">Johansdotter</surname>
       </name>
       <parentin hlink="_ebd6f8db7895c78738863132a31"/>
+    </person>
+    <person handle="_ebd72e50d9e26d37402264eb5db" change="1620684040" id="I0051">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Maja</first>
+        <surname derivation="Patronymic">Hindricsdotter</surname>
+      </name>
+      <eventref hlink="_ebd72ee3a8e36febe46155eb6f2" role="Primary"/>
+      <eventref hlink="_ebd72f609f8258c6d704bf6cdc1" role="Primary"/>
+      <parentin hlink="_ebd72e307cc37249076c7ee07da"/>
     </person>
   </people>
   <families>
@@ -29372,6 +29412,14 @@
       <father hlink="_ebd6f2952ab329f7cd89b2d33cf"/>
       <mother hlink="_ebd6f9009525e9a748a51f0e3b9"/>
       <childref hlink="_ebc32dd0e3b5f3bbf2e85854eec"/>
+    </family>
+    <family handle="_ebd72e307cc37249076c7ee07da" change="1620685343" id="F0015">
+      <rel type="Married"/>
+      <father hlink="_ebd6f2952ab329f7cd89b2d33cf"/>
+      <mother hlink="_ebd72e50d9e26d37402264eb5db"/>
+      <eventref hlink="_ebd73b429731064e9cc866dd589" role="Family"/>
+      <eventref hlink="_ebd736046625988e492b773087a" role="Family"/>
+      <eventref hlink="_ebd7304daac1556834d4ea8fd1d" role="Family"/>
     </family>
   </families>
   <citations>
@@ -37091,6 +37139,23 @@
       <noteref hlink="_ebd72b5d5bd1482b80b7f54497a"/>
       <sourceref hlink="_ebd727f804f4d3ca85d2195837"/>
     </citation>
+    <citation handle="_ebd735ffe5966ff7bf605adce99" change="1620684727" id="C1188">
+      <page>jakso 177</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebd7351f60a108f41af3096a958"/>
+      <noteref hlink="_ebd7353eb3e65da8320b0534788"/>
+      <noteref hlink="_ebd735e2e3a1b722852e96119c3"/>
+      <sourceref hlink="_ebd734d1b627723bd9fc2535370"/>
+    </citation>
+    <citation handle="_ebd73b3dc6e6eeaa02bfddf7e4e" change="1620685277" id="C1189">
+      <page>kuva 156</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebd739d147417bc3ad5dc918df7"/>
+      <noteref hlink="_ebd739ef3d532ccc9739d0028e9"/>
+      <noteref hlink="_ebd73a6a30162bdbc0e99534f5d"/>
+      <noteref hlink="_ebd73b373fb58d8c71f2adce0b3"/>
+      <sourceref hlink="_ebd727f804f4d3ca85d2195837"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -39647,6 +39712,11 @@
       <stitle>Tammisaari Vihityt 1724-1762</stitle>
       <sauthor>Tammisaaren seurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_ebd734d1b627723bd9fc2535370" change="1620684604" id="S0511">
+      <stitle>Tammisaari Rippikirja 1698-1740</stitle>
+      <sauthor>Tammisaaren seurakunta</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
     </source>
   </sources>
   <places>
@@ -42256,7 +42326,7 @@
     </placeobj>
   </places>
   <repositories>
-    <repository handle="_cdea29a49637c6553bc" change="1620678900" id="R0001">
+    <repository handle="_cdea29a49637c6553bc" change="1620684601" id="R0001">
       <rname>Arkistolaitos Digitaaliarkisto</rname>
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
@@ -54390,6 +54460,37 @@ Mars
 17 Wigdad dragon Henr: Curlander med 
        ??? Carin Jonas dr ifrån Dan
       skog ??? ??????</text>
+    </note>
+    <note handle="_ebd7351f60a108f41af3096a958" change="1620684635" id="N1619" type="Citation">
+      <text>Tammisaaren seurakunnan arkisto - Rippikirjat 1698-1740, jakso 177: Danskoo; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=8881151 / Viitattu 11.5.2021</text>
+    </note>
+    <note handle="_ebd7353eb3e65da8320b0534788" change="1620684648" id="N1620" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=8881151</text>
+    </note>
+    <note handle="_ebd735e2e3a1b722852e96119c3" change="1620684715" id="N1621" type="Transcript" format="1">
+      <text>Danskoo
+...
+Dragon Henric Curlander      ???6
+Maja ho</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="53"/>
+      </style>
+    </note>
+    <note handle="_ebd739d147417bc3ad5dc918df7" change="1620685128" id="N1622" type="Citation">
+      <text>Tammisaari syntyneet-vihityt 1724-1762 (AP I C:1)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34730&amp;pnum=156 / Viitattu 11.05.2021</text>
+    </note>
+    <note handle="_ebd739ef3d532ccc9739d0028e9" change="1620685140" id="N1623" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34730&amp;pnum=156</text>
+    </note>
+    <note handle="_ebd73a6a30162bdbc0e99534f5d" change="1620685190" id="N1624" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/kirjat/Kirkonkirjat/tammisaari/syntyneet-vihityt_1724-1762_kk84-85/166.htm</text>
+    </note>
+    <note handle="_ebd73b373fb58d8c71f2adce0b3" change="1620685274" id="N1625" type="Transcript">
+      <text>...
+1737
+...
+d 17 Aprilis wigde drag: Henrich Curlander ifr Danskog och
+             pig Maria Hindricsdr</text>
     </note>
   </notes>
 </database>
