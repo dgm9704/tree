@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2021-05-10" version="5.1.3"/>
+    <created date="2021-05-11" version="5.1.3"/>
     <researcher>
     </researcher>
   </header>
@@ -14254,6 +14254,24 @@
       <place hlink="_cb589cc8ec66a725c6d"/>
       <citationref hlink="_ebd6f5708407c569316e109cdf"/>
     </event>
+    <event handle="_ebd7001a29c15e2e8e737b83c63" change="1620680816" id="E0220">
+      <type>Residence</type>
+      <datespan start="1755" stop="1761"/>
+      <place hlink="_cb589cc8ec66a725c6d"/>
+      <citationref hlink="_ebd6ffdde351bc2bf090d809e69"/>
+    </event>
+    <event handle="_ebd70c3879e722af11962a5fb7a" change="1620680347" id="E0224">
+      <type>Residence</type>
+      <datespan start="1748" stop="1754"/>
+      <place hlink="_cb589cc8ec66a725c6d"/>
+      <citationref hlink="_ebd70c33a5f4adeb2b00b666585"/>
+    </event>
+    <event handle="_ebd70eeb1594ab5322e740140aa" change="1620680629" id="E0228">
+      <type>Residence</type>
+      <datespan start="1762" stop="1767"/>
+      <place hlink="_cb589cc8ec66a725c6d"/>
+      <citationref hlink="_ebd70ee777974de7a1a6fc1c312"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1548617779" id="I3858">
@@ -25991,7 +26009,7 @@
       <eventref hlink="_ebb3820c4b9277e858c8a2d5e49" role="Primary"/>
       <childof hlink="_ebc32da4ce3239de1becc5fef10"/>
     </person>
-    <person handle="_ebc32dd0e3b5f3bbf2e85854eec" change="1620677638" id="I0043">
+    <person handle="_ebc32dd0e3b5f3bbf2e85854eec" change="1620678393" id="I0043">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria</first>
@@ -26000,6 +26018,7 @@
       </name>
       <eventref hlink="_ebd38dcbba53f8e150b3fa590b2" role="Primary"/>
       <eventref hlink="_ebd38d8dbc465a0a1d5db44b82c" role="Primary"/>
+      <childof hlink="_ebd6f8db7895c78738863132a31"/>
       <parentin hlink="_ebc32da4ce3239de1becc5fef10"/>
     </person>
     <person handle="_ebd392ad526742c9d9e368d9c6" change="1620601132" id="I0044">
@@ -26041,7 +26060,7 @@
       <eventref hlink="_ebd64b2a73f5d39e4b4033e4af4" role="Primary"/>
       <parentin hlink="_ebd425977333dbe83639394bc94"/>
     </person>
-    <person handle="_ebd6f2952ab329f7cd89b2d33cf" change="1620678150" id="I0048">
+    <person handle="_ebd6f2952ab329f7cd89b2d33cf" change="1620678393" id="I0048">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Henric</first>
@@ -26050,15 +26069,24 @@
       <eventref hlink="_ebd6f5947867d9cdf976928e60a" role="Primary"/>
       <eventref hlink="_ebd6f609dd8195905285fb26934" role="Primary"/>
       <parentin hlink="_ebd6f29209d32d99fad4d30f084"/>
+      <parentin hlink="_ebd6f8db7895c78738863132a31"/>
     </person>
-    <person handle="_ebd6f62c00c7dd77db2a60b7c8b" change="1620678150" id="I0049">
+    <person handle="_ebd6f62c00c7dd77db2a60b7c8b" change="1620678767" id="I0049">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Caisa</first>
-        <surname derivation="Patronymic">Jonadotter</surname>
+        <surname derivation="Patronymic">Jonasdotter</surname>
       </name>
       <eventref hlink="_ebd6f6b1d581ce0833f11df4e70" role="Primary"/>
       <parentin hlink="_ebd6f29209d32d99fad4d30f084"/>
+    </person>
+    <person handle="_ebd6f9009525e9a748a51f0e3b9" change="1620678393" id="I0050">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Catharina</first>
+        <surname derivation="Patronymic">Johansdotter</surname>
+      </name>
+      <parentin hlink="_ebd6f8db7895c78738863132a31"/>
     </person>
   </people>
   <families>
@@ -29316,11 +29344,20 @@
       <eventref hlink="_ebd64a7c41da5d22612df1217a" role="Family"/>
       <childref hlink="_ebb0a5009a4205bca7113657956"/>
     </family>
-    <family handle="_ebd6f29209d32d99fad4d30f084" change="1620678200" id="F0013">
+    <family handle="_ebd6f29209d32d99fad4d30f084" change="1620680706" id="F0013">
       <rel type="Married"/>
       <father hlink="_ebd6f2952ab329f7cd89b2d33cf"/>
       <mother hlink="_ebd6f62c00c7dd77db2a60b7c8b"/>
+      <eventref hlink="_ebd70c3879e722af11962a5fb7a" role="Family"/>
+      <eventref hlink="_ebd7001a29c15e2e8e737b83c63" role="Family"/>
+      <eventref hlink="_ebd70eeb1594ab5322e740140aa" role="Family"/>
       <eventref hlink="_ebd6f720be01e4658bce24e0824" role="Family"/>
+    </family>
+    <family handle="_ebd6f8db7895c78738863132a31" change="1620678393" id="F0014">
+      <rel type="Unknown"/>
+      <father hlink="_ebd6f2952ab329f7cd89b2d33cf"/>
+      <mother hlink="_ebd6f9009525e9a748a51f0e3b9"/>
+      <childref hlink="_ebc32dd0e3b5f3bbf2e85854eec"/>
     </family>
   </families>
   <citations>
@@ -36999,6 +37036,30 @@
       <noteref hlink="_ebd6f5667fe4939a66cfc813177"/>
       <sourceref hlink="_ebd648d4c912d4009142956a0a3"/>
     </citation>
+    <citation handle="_ebd6ffdde351bc2bf090d809e69" change="1620679051" id="C1183">
+      <page>55</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebd6febfa543e5dc53a85af0902"/>
+      <noteref hlink="_ebd6fedd4cf4d6951914a0ab94"/>
+      <noteref hlink="_ebd6ff6c4d9598b17fa43461ea3"/>
+      <sourceref hlink="_ebd6fe72a5edc3773d32001e25"/>
+    </citation>
+    <citation handle="_ebd70c33a5f4adeb2b00b666585" change="1620680345" id="C1184">
+      <page>83</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebd70afa9f71bf023753a924333"/>
+      <noteref hlink="_ebd70b15a2a708bbad310790b4e"/>
+      <noteref hlink="_ebd70c27f171d2154419c24ecc8"/>
+      <sourceref hlink="_ebd6fe72a5edc3773d32001e25"/>
+    </citation>
+    <citation handle="_ebd70ee777974de7a1a6fc1c312" change="1620680628" id="C1185">
+      <page>84</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebd70d6cc92492cdc9720b54dde"/>
+      <noteref hlink="_ebd70d85c2f28630a42824ca41"/>
+      <noteref hlink="_ebd70ed92474b0b5af85e901fb4"/>
+      <sourceref hlink="_ebd648d4c912d4009142956a0a3"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -39543,6 +39604,11 @@
     </source>
     <source handle="_ebd648d4c912d4009142956a0a3" change="1620659858" id="S0508">
       <stitle>Tammisaari Rippikirja 1762-1773</stitle>
+      <sauthor>Tammisaaren seurakunta</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
+    <source handle="_ebd6fe72a5edc3773d32001e25" change="1620678902" id="S0509">
+      <stitle>Tammisaari Rippikirja 1741-1761</stitle>
       <sauthor>Tammisaaren seurakunta</sauthor>
       <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
     </source>
@@ -42154,7 +42220,7 @@
     </placeobj>
   </places>
   <repositories>
-    <repository handle="_cdea29a49637c6553bc" change="1620659856" id="R0001">
+    <repository handle="_cdea29a49637c6553bc" change="1620678900" id="R0001">
       <rname>Arkistolaitos Digitaaliarkisto</rname>
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
@@ -54199,6 +54265,59 @@ Jonas son                4/28 1754
 ...</text>
       <style name="fontface" value="Monospace">
         <range start="0" end="224"/>
+      </style>
+    </note>
+    <note handle="_ebd6febfa543e5dc53a85af0902" change="1620678934" id="N1603" type="Citation">
+      <text>Tammisaaren seurakunnan arkisto - Rippikirjat 1741-1761, jakso 302, sivu 55: Danskog; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=8881483 / Viitattu 10.5.2021</text>
+    </note>
+    <note handle="_ebd6fedd4cf4d6951914a0ab94" change="1620678946" id="N1604" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=8881483</text>
+    </note>
+    <note handle="_ebd6ff6c4d9598b17fa43461ea3" change="1620679005" id="N1605" type="Transcript">
+      <text>55
+Danskog
+...
+Henr Curlander    1697
+Caisa Jonasdr ho
+Johan son
+...</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="11"/>
+      </style>
+    </note>
+    <note handle="_ebd70afa9f71bf023753a924333" change="1620680216" id="N1606" type="Citation">
+      <text>Tammisaaren seurakunnan arkisto - Rippikirjat 1741-1761, jakso 219, sivu N.83: Danskog fendrecken, Dragon, ? Petter Schatelovictz 1686, h. fru Ebba Spar?, serg. Hans Henricsson, Petter son, Anna Helena , Inspector Gudmund Bergklint 1711, Maja Stina Schakelovitz 10.7.1726, ...&gt;; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=8881404 / Viitattu 10.5.2021</text>
+    </note>
+    <note handle="_ebd70b15a2a708bbad310790b4e" change="1620680227" id="N1607" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=8881404</text>
+    </note>
+    <note handle="_ebd70c27f171d2154419c24ecc8" change="1620680340" id="N1608" type="Transcript" format="1">
+      <text>N.83.
+Danskog
+...
+Dragon
+Henric Curlander    1697
+Caisa Jonasdr ho
+Johan son           1732</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="91"/>
+      </style>
+    </note>
+    <note handle="_ebd70d6cc92492cdc9720b54dde" change="1620680473" id="N1609" type="Citation">
+      <text>Tammisaaren seurakunnan arkisto - Rippikirjat 1762-1773, jakso 92, sivu 84: Danskog; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=76555487 / Viitattu 11.5.2021</text>
+    </note>
+    <note handle="_ebd70d85c2f28630a42824ca41" change="1620680483" id="N1610" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=76555487</text>
+    </note>
+    <note handle="_ebd70ed92474b0b5af85e901fb4" change="1620680622" id="N1611" type="Transcript" format="1">
+      <text>84
+Danskog
+...
+?? Henr: Curlander          1697
+Caisa Jonadr ho        11/6 1715
+Carl son               3/25 1751</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="113"/>
       </style>
     </note>
   </notes>
