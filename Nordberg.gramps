@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2021-05-13" version="5.1.3"/>
+    <created date="2021-05-14" version="5.1.3"/>
     <researcher>
     </researcher>
   </header>
@@ -14171,7 +14171,7 @@
       <citationref hlink="_ebd38c94b294e1818c9583eda73"/>
       <citationref hlink="_ebd3f1e84c46c6d9fe09f040ce7"/>
     </event>
-    <event handle="_ebd38dcbba53f8e150b3fa590b2" change="1620677603" id="E0183">
+    <event handle="_ebd38dcbba53f8e150b3fa590b2" change="1620940583" id="E0183">
       <type>Birth</type>
       <dateval val="1749-03-17"/>
       <place hlink="_cb589cc8ec66a725c6d"/>
@@ -14313,13 +14313,13 @@
       <place hlink="_cb589cc83b65110951c"/>
       <citationref hlink="_ebd73b3dc6e6eeaa02bfddf7e4e"/>
     </event>
-    <event handle="_ebd9b4013d212b1f09a8e464a45" change="1620900918" id="E0239">
+    <event handle="_ebd9b4013d212b1f09a8e464a45" change="1620939508" id="E0239">
       <type>Birth</type>
       <dateval val="1732-03-19"/>
       <place hlink="_cb589cc8ec66a725c6d"/>
       <citationref hlink="_ebd9ad438191bb3b697f2a6f803"/>
     </event>
-    <event handle="_ebd9e4a9c113d5c56880de9a0ad" change="1620756729" id="E0241">
+    <event handle="_ebd9e4a9c113d5c56880de9a0ad" change="1620939570" id="E0241">
       <type>Birth</type>
       <dateval val="1735-04-24"/>
       <place hlink="_cb589cc8ec66a725c6d"/>
@@ -14336,6 +14336,14 @@
       <dateval val="1752-10-22"/>
       <place hlink="_cb589cc83b65110951c"/>
       <citationref hlink="_ebdf6f1d14961c53bca6446dc4a"/>
+    </event>
+    <event handle="_ebe0babc1351140f9b5dbcf493a" change="1620940303" id="E0265">
+      <type>Death</type>
+      <dateval val="1736" type="about" quality="estimated"/>
+    </event>
+    <event handle="_ebe0bb1fa1a33db08a69fb7802a" change="1620940311" id="E0266">
+      <type>Marriage</type>
+      <dateval val="1730" type="about" quality="estimated"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -26165,7 +26173,7 @@
       <eventref hlink="_ebd72f609f8258c6d704bf6cdc1" role="Primary"/>
       <parentin hlink="_ebd72e307cc37249076c7ee07da"/>
     </person>
-    <person handle="_ebd9abf90fe73dec4247db6d676" change="1620756737" id="I0052">
+    <person handle="_ebd9abf90fe73dec4247db6d676" change="1620940312" id="I0052">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Johan</first>
@@ -26174,15 +26182,16 @@
       <eventref hlink="_ebd9b4013d212b1f09a8e464a45" role="Primary"/>
       <childof hlink="_ebd9c33039b63919eaa5d037965"/>
     </person>
-    <person handle="_ebd9c34715d7d6ef57044ad5df9" change="1620753296" id="I0053">
+    <person handle="_ebd9c34715d7d6ef57044ad5df9" change="1620940240" id="I0053">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria</first>
         <surname></surname>
       </name>
+      <eventref hlink="_ebe0babc1351140f9b5dbcf493a" role="Primary"/>
       <parentin hlink="_ebd9c33039b63919eaa5d037965"/>
     </person>
-    <person handle="_ebd9e0e1d43428f01cf2024dc10" change="1620756737" id="I0054">
+    <person handle="_ebd9e0e1d43428f01cf2024dc10" change="1620940312" id="I0054">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Henric</first>
@@ -29493,10 +29502,11 @@
       <eventref hlink="_ebd736046625988e492b773087a" role="Family"/>
       <eventref hlink="_ebd7304daac1556834d4ea8fd1d" role="Family"/>
     </family>
-    <family handle="_ebd9c33039b63919eaa5d037965" change="1620756737" id="F0016">
+    <family handle="_ebd9c33039b63919eaa5d037965" change="1620940312" id="F0016">
       <rel type="Married"/>
       <father hlink="_ebd6f2952ab329f7cd89b2d33cf"/>
       <mother hlink="_ebd9c34715d7d6ef57044ad5df9"/>
+      <eventref hlink="_ebe0bb1fa1a33db08a69fb7802a" role="Family"/>
       <childref hlink="_ebd9abf90fe73dec4247db6d676"/>
       <childref hlink="_ebd9e0e1d43428f01cf2024dc10"/>
     </family>
