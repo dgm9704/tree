@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2021-05-11" version="5.1.3"/>
+    <created date="2021-05-13" version="5.1.3"/>
     <researcher>
     </researcher>
   </header>
@@ -14313,7 +14313,7 @@
       <place hlink="_cb589cc83b65110951c"/>
       <citationref hlink="_ebd73b3dc6e6eeaa02bfddf7e4e"/>
     </event>
-    <event handle="_ebd9b4013d212b1f09a8e464a45" change="1620751627" id="E0239">
+    <event handle="_ebd9b4013d212b1f09a8e464a45" change="1620900918" id="E0239">
       <type>Birth</type>
       <dateval val="1732-03-19"/>
       <place hlink="_cb589cc8ec66a725c6d"/>
@@ -14324,6 +14324,18 @@
       <dateval val="1735-04-24"/>
       <place hlink="_cb589cc8ec66a725c6d"/>
       <citationref hlink="_ebd9e4a61831af7cfe7d78115df"/>
+    </event>
+    <event handle="_ebdf695b3a37310fb6c293215de" change="1620904861" id="E0249">
+      <type>Birth</type>
+      <dateval val="1751-03-25"/>
+      <place hlink="_cb589cc83b65110951c"/>
+      <citationref hlink="_ebdf69526be6323d63d25c3330d"/>
+    </event>
+    <event handle="_ebdf6f209ba94eaa12a5167d9d" change="1620905466" id="E0251">
+      <type>Birth</type>
+      <dateval val="1752-10-22"/>
+      <place hlink="_cb589cc83b65110951c"/>
+      <citationref hlink="_ebdf6f1d14961c53bca6446dc4a"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -26179,6 +26191,25 @@
       <eventref hlink="_ebd9e4a9c113d5c56880de9a0ad" role="Primary"/>
       <childof hlink="_ebd9c33039b63919eaa5d037965"/>
     </person>
+    <person handle="_ebdf6504f11256de9c7fc748f9a" change="1620906090" id="I0055">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Carolus</first>
+        <surname>Henricsson</surname>
+        <nick>Carl</nick>
+      </name>
+      <eventref hlink="_ebdf695b3a37310fb6c293215de" role="Primary"/>
+      <childof hlink="_ebd6f29209d32d99fad4d30f084"/>
+    </person>
+    <person handle="_ebdf6c9b9b1a8a5b0179f70b7d" change="1620906090" id="I0056">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Hedwig</first>
+        <surname>Henricsdotter</surname>
+      </name>
+      <eventref hlink="_ebdf6f209ba94eaa12a5167d9d" role="Primary"/>
+      <childof hlink="_ebd6f29209d32d99fad4d30f084"/>
+    </person>
   </people>
   <families>
     <family handle="_cb589cc7f9c792dc427" change="1548617779" id="F1472">
@@ -29435,7 +29466,7 @@
       <eventref hlink="_ebd64a7c41da5d22612df1217a" role="Family"/>
       <childref hlink="_ebb0a5009a4205bca7113657956"/>
     </family>
-    <family handle="_ebd6f29209d32d99fad4d30f084" change="1620683640" id="F0013">
+    <family handle="_ebd6f29209d32d99fad4d30f084" change="1620906090" id="F0013">
       <rel type="Married"/>
       <father hlink="_ebd6f2952ab329f7cd89b2d33cf"/>
       <mother hlink="_ebd6f62c00c7dd77db2a60b7c8b"/>
@@ -29445,6 +29476,8 @@
       <eventref hlink="_ebd7001a29c15e2e8e737b83c63" role="Family"/>
       <eventref hlink="_ebd70eeb1594ab5322e740140aa" role="Family"/>
       <eventref hlink="_ebd6f720be01e4658bce24e0824" role="Family"/>
+      <childref hlink="_ebdf6504f11256de9c7fc748f9a"/>
+      <childref hlink="_ebdf6c9b9b1a8a5b0179f70b7d"/>
     </family>
     <family handle="_ebd6f8db7895c78738863132a31" change="1620678393" id="F0014">
       <rel type="Unknown"/>
@@ -37217,6 +37250,22 @@
       <noteref hlink="_ebd9e1a5ee26dd5a549642a04e4"/>
       <noteref hlink="_ebd9e1bf0223dd640d022218447"/>
       <noteref hlink="_ebd9e48cb72141c3154f4a2a2a7"/>
+      <sourceref hlink="_ebd41f5cf3372054acc064cc976"/>
+    </citation>
+    <citation handle="_ebdf69526be6323d63d25c3330d" change="1620904857" id="C1192">
+      <page>kuva 99</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebdf66e265e41fce077f0a1bf18"/>
+      <noteref hlink="_ebdf66fb86660fc6313252ad4f8"/>
+      <noteref hlink="_ebdf694ad9e71e02bf429acf8e9"/>
+      <sourceref hlink="_ebd41f5cf3372054acc064cc976"/>
+    </citation>
+    <citation handle="_ebdf6f1d14961c53bca6446dc4a" change="1620905465" id="C1193">
+      <page>kuva 107</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebdf6d61bfa247dc4cb86f5ef29"/>
+      <noteref hlink="_ebdf6d86b25a237585ab4177c0"/>
+      <noteref hlink="_ebdf6f10ac83fc4d8f265acf834"/>
       <sourceref hlink="_ebd41f5cf3372054acc064cc976"/>
     </citation>
   </citations>
@@ -54592,6 +54641,39 @@ d 24 April Dragonens Henric Curlander och hust Maria
                   bond: Matts ?son ifr Odensiö   } pigan Sophia Mattsdr
                   bond: ??? ??? ibidem                       }              ifr Odensiö
 </text>
+    </note>
+    <note handle="_ebdf66e265e41fce077f0a1bf18" change="1620904602" id="N1633" type="Citation">
+      <text>Tammisaari syntyneet-vihityt 1724-1762 (AP I C:1)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34730&amp;pnum=99 / Viitattu 13.05.2021</text>
+    </note>
+    <note handle="_ebdf66fb86660fc6313252ad4f8" change="1620904612" id="N1634" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34730&amp;pnum=99</text>
+    </note>
+    <note handle="_ebdf694ad9e71e02bf429acf8e9" change="1620904854" id="N1635" type="Transcript">
+      <text>1751
+Martii
+den 25 föddes och den 26 do döptas Carolus
+                  P. gl dragon Henr. Curlander. M
+                  Caisa Jonasdr T. ???? Andreas
+                  Österman dragon And Österbäck dn Hans
+                 Hansson ifn Danskog ho Maja Willas
+                 Borg dottern Anna Stina ????</text>
+    </note>
+    <note handle="_ebdf6d61bfa247dc4cb86f5ef29" change="1620905283" id="N1636" type="Citation">
+      <text>Tammisaari syntyneet-vihityt 1724-1762 (AP I C:1)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34730&amp;pnum=107 / Viitattu 13.05.2021</text>
+    </note>
+    <note handle="_ebdf6d86b25a237585ab4177c0" change="1620905298" id="N1637" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34730&amp;pnum=107</text>
+    </note>
+    <note handle="_ebdf6f10ac83fc4d8f265acf834" change="1620905459" id="N1638" type="Transcript">
+      <text>1752
+October
+...
+den 22 föddas och den 23do döptas Hedwig
+P. dragon Henr. Curlander M. Catharina
+ Jonasdr T dragon Eric Dangren
+dn Johan  ??? if Danskog
+ho Walborg Matsdr if Gulö pn
+Lisa And dr????</text>
     </note>
   </notes>
 </database>
