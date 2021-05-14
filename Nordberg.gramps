@@ -14345,6 +14345,24 @@
       <type>Marriage</type>
       <dateval val="1730" type="about" quality="estimated"/>
     </event>
+    <event handle="_ebe39abd5c078a98c4c172b5f79" change="1621017413" id="E0267">
+      <type>Birth</type>
+      <dateval val="1745-08-02"/>
+      <place hlink="_cb589cce00029594047"/>
+      <citationref hlink="_ebe39ab92666431d6be6cb8bd80"/>
+    </event>
+    <event handle="_ebe3d43edcc138bcbfff308c0e8" change="1621023443" id="E0273">
+      <type>Birth</type>
+      <dateval val="1746-01-07"/>
+      <place hlink="_cb589cc83b65110951c"/>
+      <citationref hlink="_ebe3d439abc1fac1a2ed2fe972c"/>
+    </event>
+    <event handle="_ebe3dbc24dc249bef1c3ce89d16" change="1621024231" id="E0275">
+      <type>Birth</type>
+      <dateval val="1747-12-26"/>
+      <place hlink="_cb589cc83b65110951c"/>
+      <citationref hlink="_ebe3dbc04a1abc4c07ef331e3c"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1548617779" id="I3858">
@@ -26051,7 +26069,7 @@
       </name>
       <parentin hlink="_ebb0a3927d63751c3ed748c8bbb"/>
     </person>
-    <person handle="_ebb0a5009a4205bca7113657956" change="1620660040" id="I0039">
+    <person handle="_ebb0a5009a4205bca7113657956" change="1621017460" id="I0039">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Sigfrid</first>
@@ -26133,11 +26151,11 @@
       <eventref hlink="_ebd64b2a73f5d39e4b4033e4af4" role="Primary"/>
       <parentin hlink="_ebd425977333dbe83639394bc94"/>
     </person>
-    <person handle="_ebd6f2952ab329f7cd89b2d33cf" change="1620753296" id="I0048">
+    <person handle="_ebd6f2952ab329f7cd89b2d33cf" change="1621017939" id="I0048">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Henric</first>
-        <surname>Curlander</surname>
+        <surname derivation="Occupation">Curlander</surname>
       </name>
       <eventref hlink="_ebd6f5947867d9cdf976928e60a" role="Primary"/>
       <eventref hlink="_ebd6f609dd8195905285fb26934" role="Primary"/>
@@ -26200,23 +26218,52 @@
       <eventref hlink="_ebd9e4a9c113d5c56880de9a0ad" role="Primary"/>
       <childof hlink="_ebd9c33039b63919eaa5d037965"/>
     </person>
-    <person handle="_ebdf6504f11256de9c7fc748f9a" change="1620906090" id="I0055">
+    <person handle="_ebdf6504f11256de9c7fc748f9a" change="1621025222" id="I0055">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Carolus</first>
-        <surname>Henricsson</surname>
+        <surname derivation="Patronymic">Henricsson</surname>
         <nick>Carl</nick>
       </name>
       <eventref hlink="_ebdf695b3a37310fb6c293215de" role="Primary"/>
       <childof hlink="_ebd6f29209d32d99fad4d30f084"/>
     </person>
-    <person handle="_ebdf6c9b9b1a8a5b0179f70b7d" change="1620906090" id="I0056">
+    <person handle="_ebdf6c9b9b1a8a5b0179f70b7d" change="1621025222" id="I0056">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Hedwig</first>
-        <surname>Henricsdotter</surname>
+        <surname derivation="Patronymic">Henricsdotter</surname>
       </name>
       <eventref hlink="_ebdf6f209ba94eaa12a5167d9d" role="Primary"/>
+      <childof hlink="_ebd6f29209d32d99fad4d30f084"/>
+    </person>
+    <person handle="_ebe3984a8e937095c6a2e6086f3" change="1621017460" id="I0057">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Jacobus</first>
+        <surname derivation="Patronymic">Larsson</surname>
+        <nick>Jacob</nick>
+      </name>
+      <eventref hlink="_ebe39abd5c078a98c4c172b5f79" role="Primary"/>
+      <childof hlink="_ebd425977333dbe83639394bc94"/>
+    </person>
+    <person handle="_ebe3d1d32ab6a672ab61b73513f" change="1621025222" id="I0058">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Henricus</first>
+        <surname derivation="Patronymic">Henricsson</surname>
+        <nick>Henric</nick>
+      </name>
+      <eventref hlink="_ebe3d43edcc138bcbfff308c0e8" role="Primary"/>
+      <childof hlink="_ebd6f29209d32d99fad4d30f084"/>
+    </person>
+    <person handle="_ebe3d9569733643f60de6ed0314" change="1621025222" id="I0059">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Helena</first>
+        <surname derivation="Patronymic">Henricsdotter</surname>
+      </name>
+      <eventref hlink="_ebe3dbc24dc249bef1c3ce89d16" role="Primary"/>
       <childof hlink="_ebd6f29209d32d99fad4d30f084"/>
     </person>
   </people>
@@ -29468,14 +29515,15 @@
       <childref hlink="_ebb381bd0d43dc1eb47b60d4739"/>
       <childref hlink="_ebd3f61e6cf623f1961d7ec3908"/>
     </family>
-    <family handle="_ebd425977333dbe83639394bc94" change="1620660040" id="F0012">
+    <family handle="_ebd425977333dbe83639394bc94" change="1621017460" id="F0012">
       <rel type="Married"/>
       <father hlink="_ebd425a22fa140b0f528978abc6"/>
       <mother hlink="_ebd425f4bdf7a6e6076dd537ac7"/>
       <eventref hlink="_ebd64a7c41da5d22612df1217a" role="Family"/>
+      <childref hlink="_ebe3984a8e937095c6a2e6086f3"/>
       <childref hlink="_ebb0a5009a4205bca7113657956"/>
     </family>
-    <family handle="_ebd6f29209d32d99fad4d30f084" change="1620906090" id="F0013">
+    <family handle="_ebd6f29209d32d99fad4d30f084" change="1621025222" id="F0013">
       <rel type="Married"/>
       <father hlink="_ebd6f2952ab329f7cd89b2d33cf"/>
       <mother hlink="_ebd6f62c00c7dd77db2a60b7c8b"/>
@@ -29485,6 +29533,8 @@
       <eventref hlink="_ebd7001a29c15e2e8e737b83c63" role="Family"/>
       <eventref hlink="_ebd70eeb1594ab5322e740140aa" role="Family"/>
       <eventref hlink="_ebd6f720be01e4658bce24e0824" role="Family"/>
+      <childref hlink="_ebe3d1d32ab6a672ab61b73513f"/>
+      <childref hlink="_ebe3d9569733643f60de6ed0314"/>
       <childref hlink="_ebdf6504f11256de9c7fc748f9a"/>
       <childref hlink="_ebdf6c9b9b1a8a5b0179f70b7d"/>
     </family>
@@ -37276,6 +37326,30 @@
       <noteref hlink="_ebdf6d61bfa247dc4cb86f5ef29"/>
       <noteref hlink="_ebdf6d86b25a237585ab4177c0"/>
       <noteref hlink="_ebdf6f10ac83fc4d8f265acf834"/>
+      <sourceref hlink="_ebd41f5cf3372054acc064cc976"/>
+    </citation>
+    <citation handle="_ebe39ab92666431d6be6cb8bd80" change="1621017412" id="C1194">
+      <page>127-128</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebe3994b8853276af407c82bd19"/>
+      <noteref hlink="_ebe3996b4193263d253b29d08ef"/>
+      <noteref hlink="_ebe39aaab5646618cd40523d127"/>
+      <sourceref hlink="_ebd41f5cf3372054acc064cc976"/>
+    </citation>
+    <citation handle="_ebe3d439abc1fac1a2ed2fe972c" change="1621023441" id="C1195">
+      <page>kuva 70</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebe3d2f99302c3941d78fdef246"/>
+      <noteref hlink="_ebe3d31e5ed13cce9395d5f3504"/>
+      <noteref hlink="_ebe3d4209017436a75e232614d4"/>
+      <sourceref hlink="_ebd41f5cf3372054acc064cc976"/>
+    </citation>
+    <citation handle="_ebe3dbc04a1abc4c07ef331e3c" change="1621024230" id="C1196">
+      <page>kuva 81</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebe3da79fab5baa4b2dbcaa8973"/>
+      <noteref hlink="_ebe3da9d096357745f4c8a8d9b"/>
+      <noteref hlink="_ebe3dbb849e1fc504f0af5021b9"/>
       <sourceref hlink="_ebd41f5cf3372054acc064cc976"/>
     </citation>
   </citations>
@@ -54684,6 +54758,53 @@ P. dragon Henr. Curlander M. Catharina
 dn Johan  ??? if Danskog
 ho Walborg Matsdr if Gulö pn
 Lisa And dr????</text>
+    </note>
+    <note handle="_ebe3994b8853276af407c82bd19" change="1621017262" id="N1639" type="Citation">
+      <text>Tammisaari syntyneet-vihityt 1724-1762 (AP I C:1)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34730&amp;pnum=65 / Viitattu 14.05.2021</text>
+    </note>
+    <note handle="_ebe3996b4193263d253b29d08ef" change="1621017275" id="N1640" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34730&amp;pnum=65</text>
+    </note>
+    <note handle="_ebe39aaab5646618cd40523d127" change="1621017406" id="N1641" type="Transcript">
+      <text>128
+1745
+Aug
+2 föddas och den 8 do döptas ???
+Lars Sommardahl och ho Anna Larsdr
+ ??? ifrfån Skåldö ???
+Jacobus ???
+???
+</text>
+    </note>
+    <note handle="_ebe3d2f99302c3941d78fdef246" change="1621023310" id="N1642" type="Citation">
+      <text>Tammisaari syntyneet-vihityt 1724-1762 (AP I C:1)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34730&amp;pnum=70 / Viitattu 14.05.2021</text>
+    </note>
+    <note handle="_ebe3d31e5ed13cce9395d5f3504" change="1621023325" id="N1643" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34730&amp;pnum=70</text>
+    </note>
+    <note handle="_ebe3d4209017436a75e232614d4" change="1621023431" id="N1644" type="Transcript">
+      <text>1746
+Jan
+...
+den 7 föddas och den 8de döptas dra
+gon Henr. Curlanders och hos Caisa
+Jonasdr ????
+Henricus ????????</text>
+    </note>
+    <note handle="_ebe3da79fab5baa4b2dbcaa8973" change="1621024097" id="N1645" type="Citation">
+      <text>Tammisaari syntyneet-vihityt 1724-1762 (AP I C:1)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34730&amp;pnum=81 / Viitattu 14.05.2021</text>
+    </note>
+    <note handle="_ebe3da9d096357745f4c8a8d9b" change="1621024111" id="N1646" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34730&amp;pnum=81</text>
+    </note>
+    <note handle="_ebe3dbb849e1fc504f0af5021b9" change="1621024227" id="N1647" type="Transcript">
+      <text>1747
+December
+...
+den 26 föddas och den 24 do döptas dragons
+                 Henric Curlanders och hos Caisa Jonasdrs
+??? ??? Helena ????
+</text>
     </note>
   </notes>
 </database>
