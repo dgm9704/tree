@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2021-05-14" version="5.1.3"/>
+    <created date="2021-05-15" version="5.1.3"/>
     <researcher>
     </researcher>
   </header>
@@ -14363,6 +14363,24 @@
       <place hlink="_cb589cc83b65110951c"/>
       <citationref hlink="_ebe3dbc04a1abc4c07ef331e3c"/>
     </event>
+    <event handle="_ebe57d928a125e27671bc251b7f" change="1621068042" id="E0281">
+      <type>Birth</type>
+      <dateval val="1754-04-28"/>
+      <place hlink="_cb589cc8ec66a725c6d"/>
+      <citationref hlink="_ebe57d8f5016d69e9719ef6324f"/>
+    </event>
+    <event handle="_ebe5800bebc7e5a6a10be2d5c34" change="1621068301" id="E0285">
+      <type>Death</type>
+      <dateval val="1757-01-11"/>
+      <place hlink="_cb589cc8ec66a725c6d"/>
+      <citationref hlink="_ebd6ffdde351bc2bf090d809e69"/>
+    </event>
+    <event handle="_ebe58683ce61d1bed934a1c54f7" change="1621068980" id="E0287">
+      <type>Birth</type>
+      <dateval val="1756-03-28"/>
+      <place hlink="_cb589cc83b65110951c"/>
+      <citationref hlink="_ebe586808f52cce684e7affdf71"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1548617779" id="I3858">
@@ -26100,7 +26118,7 @@
       <eventref hlink="_ebb3820c4b9277e858c8a2d5e49" role="Primary"/>
       <childof hlink="_ebc32da4ce3239de1becc5fef10"/>
     </person>
-    <person handle="_ebc32dd0e3b5f3bbf2e85854eec" change="1621025874" id="I0043">
+    <person handle="_ebc32dd0e3b5f3bbf2e85854eec" change="1621068987" id="I0043">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria</first>
@@ -26183,13 +26201,14 @@
       <eventref hlink="_ebd72f609f8258c6d704bf6cdc1" role="Primary"/>
       <parentin hlink="_ebd72e307cc37249076c7ee07da"/>
     </person>
-    <person handle="_ebd9abf90fe73dec4247db6d676" change="1620940312" id="I0052">
+    <person handle="_ebd9abf90fe73dec4247db6d676" change="1621068308" id="I0052">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Johan</first>
         <surname derivation="Patronymic">Henricsson</surname>
       </name>
       <eventref hlink="_ebd9b4013d212b1f09a8e464a45" role="Primary"/>
+      <eventref hlink="_ebe5800bebc7e5a6a10be2d5c34" role="Primary"/>
       <childof hlink="_ebd9c33039b63919eaa5d037965"/>
     </person>
     <person handle="_ebd9c34715d7d6ef57044ad5df9" change="1620940240" id="I0053">
@@ -26210,7 +26229,7 @@
       <eventref hlink="_ebd9e4a9c113d5c56880de9a0ad" role="Primary"/>
       <childof hlink="_ebd9c33039b63919eaa5d037965"/>
     </person>
-    <person handle="_ebdf6504f11256de9c7fc748f9a" change="1621025828" id="I0055">
+    <person handle="_ebdf6504f11256de9c7fc748f9a" change="1621068987" id="I0055">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Carolus</first>
@@ -26220,7 +26239,7 @@
       <eventref hlink="_ebdf695b3a37310fb6c293215de" role="Primary"/>
       <childof hlink="_ebd6f29209d32d99fad4d30f084"/>
     </person>
-    <person handle="_ebdf6c9b9b1a8a5b0179f70b7d" change="1621025828" id="I0056">
+    <person handle="_ebdf6c9b9b1a8a5b0179f70b7d" change="1621068987" id="I0056">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Hedwig</first>
@@ -26239,7 +26258,7 @@
       <eventref hlink="_ebe39abd5c078a98c4c172b5f79" role="Primary"/>
       <childof hlink="_ebd425977333dbe83639394bc94"/>
     </person>
-    <person handle="_ebe3d1d32ab6a672ab61b73513f" change="1621025828" id="I0058">
+    <person handle="_ebe3d1d32ab6a672ab61b73513f" change="1621068987" id="I0058">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Henricus</first>
@@ -26249,13 +26268,31 @@
       <eventref hlink="_ebe3d43edcc138bcbfff308c0e8" role="Primary"/>
       <childof hlink="_ebd6f29209d32d99fad4d30f084"/>
     </person>
-    <person handle="_ebe3d9569733643f60de6ed0314" change="1621025828" id="I0059">
+    <person handle="_ebe3d9569733643f60de6ed0314" change="1621068987" id="I0059">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Helena</first>
         <surname derivation="Patronymic">Henricsdotter</surname>
       </name>
       <eventref hlink="_ebe3dbc24dc249bef1c3ce89d16" role="Primary"/>
+      <childof hlink="_ebd6f29209d32d99fad4d30f084"/>
+    </person>
+    <person handle="_ebe57b1eeda47d501b545c4b638" change="1621068987" id="I0060">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Jonas</first>
+        <surname derivation="Patronymic">Henricsson</surname>
+      </name>
+      <eventref hlink="_ebe57d928a125e27671bc251b7f" role="Primary"/>
+      <childof hlink="_ebd6f29209d32d99fad4d30f084"/>
+    </person>
+    <person handle="_ebe584b585839939337128e3569" change="1621068987" id="I0061">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Anica</first>
+        <surname derivation="Patronymic">Henricsdotter</surname>
+      </name>
+      <eventref hlink="_ebe58683ce61d1bed934a1c54f7" role="Primary"/>
       <childof hlink="_ebd6f29209d32d99fad4d30f084"/>
     </person>
   </people>
@@ -29515,7 +29552,7 @@
       <childref hlink="_ebe3984a8e937095c6a2e6086f3"/>
       <childref hlink="_ebb0a5009a4205bca7113657956"/>
     </family>
-    <family handle="_ebd6f29209d32d99fad4d30f084" change="1621025828" id="F0013">
+    <family handle="_ebd6f29209d32d99fad4d30f084" change="1621068987" id="F0013">
       <rel type="Married"/>
       <father hlink="_ebd6f2952ab329f7cd89b2d33cf"/>
       <mother hlink="_ebd6f62c00c7dd77db2a60b7c8b"/>
@@ -29530,6 +29567,8 @@
       <childref hlink="_ebc32dd0e3b5f3bbf2e85854eec"/>
       <childref hlink="_ebdf6504f11256de9c7fc748f9a"/>
       <childref hlink="_ebdf6c9b9b1a8a5b0179f70b7d"/>
+      <childref hlink="_ebe57b1eeda47d501b545c4b638"/>
+      <childref hlink="_ebe584b585839939337128e3569"/>
     </family>
     <family handle="_ebd72e307cc37249076c7ee07da" change="1620753301" id="F0015">
       <rel type="Married"/>
@@ -37338,6 +37377,23 @@
       <noteref hlink="_ebe3da79fab5baa4b2dbcaa8973"/>
       <noteref hlink="_ebe3da9d096357745f4c8a8d9b"/>
       <noteref hlink="_ebe3dbb849e1fc504f0af5021b9"/>
+      <sourceref hlink="_ebd41f5cf3372054acc064cc976"/>
+    </citation>
+    <citation handle="_ebe57d8f5016d69e9719ef6324f" change="1621068041" id="C1197">
+      <page>kuva 114</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebe57be871559937f6c5af323b"/>
+      <noteref hlink="_ebe57c0711a5ba202f2fd08a99"/>
+      <noteref hlink="_ebe57ced9822e2a805c5fe35f0c"/>
+      <noteref hlink="_ebe57d8ce422857db9f4c608fd5"/>
+      <sourceref hlink="_ebd41f5cf3372054acc064cc976"/>
+    </citation>
+    <citation handle="_ebe586808f52cce684e7affdf71" change="1621068978" id="C1198">
+      <page>kuva 125</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebe585940c4642bd6cf6ff1f4a7"/>
+      <noteref hlink="_ebe585abda04b71e31a666a3b60"/>
+      <noteref hlink="_ebe586795567e7d61a6c2218d6d"/>
       <sourceref hlink="_ebd41f5cf3372054acc064cc976"/>
     </citation>
   </citations>
@@ -54564,13 +54620,13 @@ Jonas son                4/28 1754
     <note handle="_ebd6fedd4cf4d6951914a0ab94" change="1620678946" id="N1604" type="Link">
       <text>http://digi.narc.fi/digi/view.ka?kuid=8881483</text>
     </note>
-    <note handle="_ebd6ff6c4d9598b17fa43461ea3" change="1620679005" id="N1605" type="Transcript">
+    <note handle="_ebd6ff6c4d9598b17fa43461ea3" change="1621068298" id="N1605" type="Transcript">
       <text>55
 Danskog
 ...
 Henr Curlander    1697
 Caisa Jonasdr ho
-Johan son
+Johan son                                        död 1/11 1757
 ...</text>
       <style name="fontface" value="Monospace">
         <range start="0" end="11"/>
@@ -54797,6 +54853,39 @@ den 26 föddas och den 24 do döptas dragons
     <note handle="_ebe3eaeaed7467dcead24392877" change="1621025821" id="N1648" type="Research">
       <text>Syntyneiden luettelossa oleva äidin patronyymi Johansdotter näyttää olevan kirjausvirhe,
 ja pitäisi olla Jonasdotter. </text>
+    </note>
+    <note handle="_ebe57be871559937f6c5af323b" change="1621067867" id="N1649" type="Citation">
+      <text>Tammisaari syntyneet-vihityt 1724-1762 (AP I C:1)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34730&amp;pnum=114 / Viitattu 15.05.2021</text>
+    </note>
+    <note handle="_ebe57c0711a5ba202f2fd08a99" change="1621067880" id="N1650" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34730&amp;pnum=114</text>
+    </note>
+    <note handle="_ebe57ced9822e2a805c5fe35f0c" change="1621067974" id="N1651" type="Transcript">
+      <text>1754
+April
+...
+den 28
+föddas och den 5 maij döptas Jonas
+P: gl dragon Henric Curlander M. Caisa Matsdr
+ifrån Danskog T:?????</text>
+    </note>
+    <note handle="_ebe57d8ce422857db9f4c608fd5" change="1621068040" id="N1652" type="Research">
+      <text>Näyttää että äidin patronyymi on väärin kirjattu Matsdotter kun pitäisi olla Jonasdotter.</text>
+    </note>
+    <note handle="_ebe585940c4642bd6cf6ff1f4a7" change="1621068881" id="N1653" type="Citation">
+      <text>Tammisaari syntyneet-vihityt 1724-1762 (AP I C:1)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34730&amp;pnum=125 / Viitattu 15.05.2021</text>
+    </note>
+    <note handle="_ebe585abda04b71e31a666a3b60" change="1621068891" id="N1654" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34730&amp;pnum=125</text>
+    </note>
+    <note handle="_ebe586795567e7d61a6c2218d6d" change="1621068975" id="N1655" type="Transcript">
+      <text>1756
+Mars
+...
+den 28
+föddas och samma dag döptas Anica
+P gl dragon Henric Curlander M. Caisa Jonasdr
+T Borgaren  ?????</text>
     </note>
   </notes>
 </database>
