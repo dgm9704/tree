@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2021-05-15" version="5.1.3"/>
+    <created date="2021-05-16" version="5.1.3"/>
     <researcher>
     </researcher>
   </header>
@@ -14248,7 +14248,7 @@
       <dateval val="1717"/>
       <citationref hlink="_ebd6f5708407c569316e109cdf"/>
     </event>
-    <event handle="_ebd6f720be01e4658bce24e0824" change="1620678135" id="E0218">
+    <event handle="_ebd6f720be01e4658bce24e0824" change="1621079532" id="E0218">
       <type>Residence</type>
       <datespan start="1768" stop="1773"/>
       <place hlink="_cb589cc8ec66a725c6d"/>
@@ -14404,6 +14404,19 @@
       <dateval val="1761-04-01"/>
       <place hlink="_cb589cc8ec66a725c6d"/>
       <citationref hlink="_ebe5be6c86c1d20273636f62e37"/>
+    </event>
+    <event handle="_ebe5edd9e342de770c5dfbc19d6" change="1621079815" id="E0293">
+      <type>Residence</type>
+      <datespan start="1774" stop="1775"/>
+      <place hlink="_cb589cc8ec66a725c6d"/>
+      <citationref hlink="_ebe5edc239858aca2f2330baee8"/>
+    </event>
+    <event handle="_ebe5f0c7b3112f70cdd7b06d52f" change="1621080122" id="E0294">
+      <type>Death</type>
+      <dateval val="1775-11-06"/>
+      <place hlink="_cb589cc8ec66a725c6d"/>
+      <citationref hlink="_ebe5edc239858aca2f2330baee8"/>
+      <citationref hlink="_ebe5f0c1b5b2e3f41d449919865"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -26142,7 +26155,7 @@
       <eventref hlink="_ebb3820c4b9277e858c8a2d5e49" role="Primary"/>
       <childof hlink="_ebc32da4ce3239de1becc5fef10"/>
     </person>
-    <person handle="_ebc32dd0e3b5f3bbf2e85854eec" change="1621074872" id="I0043">
+    <person handle="_ebc32dd0e3b5f3bbf2e85854eec" change="1621079938" id="I0043">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria</first>
@@ -26193,7 +26206,7 @@
       <eventref hlink="_ebd64b2a73f5d39e4b4033e4af4" role="Primary"/>
       <parentin hlink="_ebd425977333dbe83639394bc94"/>
     </person>
-    <person handle="_ebd6f2952ab329f7cd89b2d33cf" change="1621025874" id="I0048">
+    <person handle="_ebd6f2952ab329f7cd89b2d33cf" change="1621117407" id="I0048">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Henric</first>
@@ -26201,11 +26214,11 @@
       </name>
       <eventref hlink="_ebd6f5947867d9cdf976928e60a" role="Primary"/>
       <eventref hlink="_ebd6f609dd8195905285fb26934" role="Primary"/>
+      <parentin hlink="_ebd9c33039b63919eaa5d037965"/>
       <parentin hlink="_ebd72e307cc37249076c7ee07da"/>
       <parentin hlink="_ebd6f29209d32d99fad4d30f084"/>
-      <parentin hlink="_ebd9c33039b63919eaa5d037965"/>
     </person>
-    <person handle="_ebd6f62c00c7dd77db2a60b7c8b" change="1621025849" id="I0049">
+    <person handle="_ebd6f62c00c7dd77db2a60b7c8b" change="1621080688" id="I0049">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Catharina</first>
@@ -26213,6 +26226,7 @@
         <nick>Caisa</nick>
       </name>
       <eventref hlink="_ebd6f6b1d581ce0833f11df4e70" role="Primary"/>
+      <eventref hlink="_ebe5f0c7b3112f70cdd7b06d52f" role="Primary"/>
       <parentin hlink="_ebd6f29209d32d99fad4d30f084"/>
     </person>
     <person handle="_ebd72e50d9e26d37402264eb5db" change="1620684040" id="I0051">
@@ -26253,7 +26267,7 @@
       <eventref hlink="_ebd9e4a9c113d5c56880de9a0ad" role="Primary"/>
       <childof hlink="_ebd9c33039b63919eaa5d037965"/>
     </person>
-    <person handle="_ebdf6504f11256de9c7fc748f9a" change="1621074872" id="I0055">
+    <person handle="_ebdf6504f11256de9c7fc748f9a" change="1621079938" id="I0055">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Carolus</first>
@@ -26263,7 +26277,7 @@
       <eventref hlink="_ebdf695b3a37310fb6c293215de" role="Primary"/>
       <childof hlink="_ebd6f29209d32d99fad4d30f084"/>
     </person>
-    <person handle="_ebdf6c9b9b1a8a5b0179f70b7d" change="1621074872" id="I0056">
+    <person handle="_ebdf6c9b9b1a8a5b0179f70b7d" change="1621079938" id="I0056">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Hedwig</first>
@@ -26282,7 +26296,7 @@
       <eventref hlink="_ebe39abd5c078a98c4c172b5f79" role="Primary"/>
       <childof hlink="_ebd425977333dbe83639394bc94"/>
     </person>
-    <person handle="_ebe3d1d32ab6a672ab61b73513f" change="1621074872" id="I0058">
+    <person handle="_ebe3d1d32ab6a672ab61b73513f" change="1621079938" id="I0058">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Henricus</first>
@@ -26292,7 +26306,7 @@
       <eventref hlink="_ebe3d43edcc138bcbfff308c0e8" role="Primary"/>
       <childof hlink="_ebd6f29209d32d99fad4d30f084"/>
     </person>
-    <person handle="_ebe3d9569733643f60de6ed0314" change="1621074872" id="I0059">
+    <person handle="_ebe3d9569733643f60de6ed0314" change="1621079938" id="I0059">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Helena</first>
@@ -26301,7 +26315,7 @@
       <eventref hlink="_ebe3dbc24dc249bef1c3ce89d16" role="Primary"/>
       <childof hlink="_ebd6f29209d32d99fad4d30f084"/>
     </person>
-    <person handle="_ebe57b1eeda47d501b545c4b638" change="1621074872" id="I0060">
+    <person handle="_ebe57b1eeda47d501b545c4b638" change="1621079938" id="I0060">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Jonas</first>
@@ -26310,7 +26324,7 @@
       <eventref hlink="_ebe57d928a125e27671bc251b7f" role="Primary"/>
       <childof hlink="_ebd6f29209d32d99fad4d30f084"/>
     </person>
-    <person handle="_ebe584b585839939337128e3569" change="1621074872" id="I0061">
+    <person handle="_ebe584b585839939337128e3569" change="1621079938" id="I0061">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anica</first>
@@ -26320,7 +26334,7 @@
       <eventref hlink="_ebe5b2b57b9612bcc7d7e87ba10" role="Primary"/>
       <childof hlink="_ebd6f29209d32d99fad4d30f084"/>
     </person>
-    <person handle="_ebe58913f923b10c7a33ac47cac" change="1621074872" id="I0062">
+    <person handle="_ebe58913f923b10c7a33ac47cac" change="1621079938" id="I0062">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Elisabetha</first>
@@ -26329,7 +26343,7 @@
       <eventref hlink="_ebe58b6f99d6e2a2bffdeb7e261" role="Primary"/>
       <childof hlink="_ebd6f29209d32d99fad4d30f084"/>
     </person>
-    <person handle="_ebe5ad8646013a94b7dbb1fc352" change="1621074872" id="I0063">
+    <person handle="_ebe5ad8646013a94b7dbb1fc352" change="1621079938" id="I0063">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anica</first>
@@ -26338,7 +26352,7 @@
       <eventref hlink="_ebe5afe11607f23b85f5349e415" role="Primary"/>
       <childof hlink="_ebd6f29209d32d99fad4d30f084"/>
     </person>
-    <person handle="_ebe5b0128373ef230264ac52cea" change="1621074872" id="I0064">
+    <person handle="_ebe5b0128373ef230264ac52cea" change="1621079938" id="I0064">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Gabriel</first>
@@ -26347,7 +26361,7 @@
       <eventref hlink="_ebe5afe11607f23b85f5349e415" role="Primary"/>
       <childof hlink="_ebd6f29209d32d99fad4d30f084"/>
     </person>
-    <person handle="_ebe5bc8a226136a6c954c261171" change="1621074872" id="I0065">
+    <person handle="_ebe5bc8a226136a6c954c261171" change="1621079938" id="I0065">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Margaretha</first>
@@ -29613,7 +29627,7 @@
       <childref hlink="_ebe3984a8e937095c6a2e6086f3"/>
       <childref hlink="_ebb0a5009a4205bca7113657956"/>
     </family>
-    <family handle="_ebd6f29209d32d99fad4d30f084" change="1621074872" id="F0013">
+    <family handle="_ebd6f29209d32d99fad4d30f084" change="1621079938" id="F0013">
       <rel type="Married"/>
       <father hlink="_ebd6f2952ab329f7cd89b2d33cf"/>
       <mother hlink="_ebd6f62c00c7dd77db2a60b7c8b"/>
@@ -29623,6 +29637,7 @@
       <eventref hlink="_ebd7001a29c15e2e8e737b83c63" role="Family"/>
       <eventref hlink="_ebd70eeb1594ab5322e740140aa" role="Family"/>
       <eventref hlink="_ebd6f720be01e4658bce24e0824" role="Family"/>
+      <eventref hlink="_ebe5edd9e342de770c5dfbc19d6" role="Family"/>
       <childref hlink="_ebe3d1d32ab6a672ab61b73513f"/>
       <childref hlink="_ebe3d9569733643f60de6ed0314"/>
       <childref hlink="_ebc32dd0e3b5f3bbf2e85854eec"/>
@@ -37488,6 +37503,22 @@
       <noteref hlink="_ebe5bd22b696d7bda29ce397944"/>
       <noteref hlink="_ebe5be64ddc688052f2a00ab60b"/>
       <sourceref hlink="_ebd41f5cf3372054acc064cc976"/>
+    </citation>
+    <citation handle="_ebe5edc239858aca2f2330baee8" change="1621079806" id="C1203">
+      <page>144</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebe5ec8df6e103420beacb7ffee"/>
+      <noteref hlink="_ebe5eca61a62d28ff9e77469630"/>
+      <noteref hlink="_ebe5edaecfc5a995c8e59350cbd"/>
+      <sourceref hlink="_ebd3895bf401efe839d78a5c5ba"/>
+    </citation>
+    <citation handle="_ebe5f0c1b5b2e3f41d449919865" change="1621080120" id="C1204">
+      <page>kuva 15</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebe5efdd4738c74fe81b0ddd75"/>
+      <noteref hlink="_ebe5effd4e024922e6a4e2c5f92"/>
+      <noteref hlink="_ebe5f0b9e3c1f7a742c2c2757db"/>
+      <sourceref hlink="_ebd3ef0cec473b2d49500c946e8"/>
     </citation>
   </citations>
   <sources>
@@ -55028,6 +55059,35 @@ on todennäköistä että vanhempi saman niminen lapsi on kuollut ennen nuoremma
 April d 1 föddas och den 2 ??? döptas Margaretha ifr Danskog
 P drag Henric Curlander M Catharina Jonadr Testes B:
 Eric ???</text>
+    </note>
+    <note handle="_ebe5ec8df6e103420beacb7ffee" change="1621079679" id="N1666" type="Citation">
+      <text>Tammisaari rippikirja 1774-1785 (AP)  Sivu 144 Danskog ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=30631&amp;pnum=141 / Viitattu 15.05.2021</text>
+    </note>
+    <note handle="_ebe5eca61a62d28ff9e77469630" change="1621079689" id="N1667" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=30631&amp;pnum=141</text>
+    </note>
+    <note handle="_ebe5edaecfc5a995c8e59350cbd" change="1621079798" id="N1668" type="Transcript" format="1">
+      <text>144
+Danskog
+...
+Caisa Jonadr          1717    11/6 1775
+Henric Henricson dg
+Maria Humble ho
+Sophia Hindricsdr     1757</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="118"/>
+      </style>
+    </note>
+    <note handle="_ebe5efdd4738c74fe81b0ddd75" change="1621080026" id="N1669" type="Citation">
+      <text>Tammisaari kuolleet 1765-1813 (AP I F:1)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34738&amp;pnum=15 / Viitattu 15.05.2021</text>
+    </note>
+    <note handle="_ebe5effd4e024922e6a4e2c5f92" change="1621080039" id="N1670" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34738&amp;pnum=15</text>
+    </note>
+    <note handle="_ebe5f0b9e3c1f7a742c2c2757db" change="1621080117" id="N1671" type="Transcript">
+      <text>[1775]
+...
+[September] dn 6 Kurlanders enka ????</text>
     </note>
   </notes>
 </database>
