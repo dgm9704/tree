@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2021-05-16" version="5.1.3"/>
+    <created date="2021-05-17" version="5.1.3"/>
     <researcher>
     </researcher>
   </header>
@@ -14456,6 +14456,72 @@
       <place hlink="_cb589cce00029594047"/>
       <citationref hlink="_ebe9b073c41273a0b50f89873e4"/>
     </event>
+    <event handle="_ebe9bb79194636bd142be9678d2" change="1621182459" id="E0301">
+      <type>Birth</type>
+      <dateval val="1759-06-01"/>
+      <citationref hlink="_ebe9b073c41273a0b50f89873e4"/>
+      <citationref hlink="_ebe9c0b200e1b1d7f67b5eb77f5"/>
+    </event>
+    <event handle="_ebe9bbfa62b3c42f7709dd383d2" change="1621184251" id="E0302">
+      <type>Birth</type>
+      <dateval val="1762-04-26"/>
+      <citationref hlink="_ebe9b073c41273a0b50f89873e4"/>
+      <citationref hlink="_ebe9d1cf8986b9cfa74ccb6fb43"/>
+    </event>
+    <event handle="_ebe9bd555106a969563119bfd47" change="1621182102" id="E0303">
+      <type>Death</type>
+      <dateval val="1772-04-13"/>
+      <place hlink="_cb589cce00029594047"/>
+      <citationref hlink="_ebe9b073c41273a0b50f89873e4"/>
+    </event>
+    <event handle="_ebea3deb2d258a9a759a048cddd" change="1621195585" id="E0304">
+      <type>Birth</type>
+      <dateval val="1746-10-06"/>
+      <place hlink="_cb589cce00029594047"/>
+      <citationref hlink="_ebea3de7a9f7d232292b63b8a52"/>
+    </event>
+    <event handle="_ebea41e3e1840005438d033e676" change="1621196002" id="E0305">
+      <type>Birth</type>
+      <dateval val="1747-12-07"/>
+      <place hlink="_cb589cc83b65110951c"/>
+      <citationref hlink="_ebea41dcf5360b07f85b774e864"/>
+    </event>
+    <event handle="_ebea46128b056b4ca929e029127" change="1621196440" id="E0306">
+      <type>Birth</type>
+      <dateval val="1751-08-10"/>
+      <place hlink="_cb589cc83b65110951c"/>
+      <citationref hlink="_ebea460e3a1745ca342010f8ae8"/>
+    </event>
+    <event handle="_ebea489c2de4d97e7a9ee5367c8" change="1621196706" id="E0307">
+      <type>Birth</type>
+      <dateval val="1753-10-03"/>
+      <place hlink="_cb589cc83b65110951c"/>
+      <citationref hlink="_ebea4897e68501719e38b33912f"/>
+    </event>
+    <event handle="_ebea53ebd972d8bc4f594e097bb" change="1621197892" id="E0308">
+      <type>Birth</type>
+      <dateval val="1755-01-07"/>
+      <place hlink="_cb589cc83b65110951c"/>
+      <citationref hlink="_ebea53e96b97a47a515aaeb48cc"/>
+    </event>
+    <event handle="_ebea56a91ea21b5a3f7971e4b62" change="1621198179" id="E0309">
+      <type>Birth</type>
+      <dateval val="1756-10-13"/>
+      <place hlink="_cb589cc83b65110951c"/>
+      <citationref hlink="_ebea563e8511ec4db4cd511f3a3"/>
+    </event>
+    <event handle="_ebea6584c8d11df669aac1e7fa3" change="1621199889" id="E0310">
+      <type>Birth</type>
+      <dateval val="1758-03-26"/>
+      <place hlink="_cb589cc83b65110951c"/>
+      <citationref hlink="_ebea66f3396c6ea997c68970f9"/>
+    </event>
+    <event handle="_ebea6af20ec75e5d611d507a6c1" change="1621200307" id="E0311">
+      <type>Birth</type>
+      <dateval val="1764-07-02"/>
+      <place hlink="_cb589cc83b65110951c"/>
+      <citationref hlink="_ebea6aef0bb475129ef5c5d8950"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1548617779" id="I3858">
@@ -26162,7 +26228,7 @@
       </name>
       <parentin hlink="_ebb0a3927d63751c3ed748c8bbb"/>
     </person>
-    <person handle="_ebb0a5009a4205bca7113657956" change="1621180779" id="I0039">
+    <person handle="_ebb0a5009a4205bca7113657956" change="1621202292" id="I0039">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Sigfrid</first>
@@ -26236,13 +26302,14 @@
       <eventref hlink="_ebe997db31c56f8bf525bdaf5e9" role="Primary"/>
       <parentin hlink="_ebd425977333dbe83639394bc94"/>
     </person>
-    <person handle="_ebd425f4bdf7a6e6076dd537ac7" change="1620660104" id="I0047">
+    <person handle="_ebd425f4bdf7a6e6076dd537ac7" change="1621182106" id="I0047">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anna</first>
         <surname derivation="Patronymic">Larsdotter</surname>
       </name>
       <eventref hlink="_ebd64b2a73f5d39e4b4033e4af4" role="Primary"/>
+      <eventref hlink="_ebe9bd555106a969563119bfd47" role="Primary"/>
       <parentin hlink="_ebd425977333dbe83639394bc94"/>
     </person>
     <person handle="_ebd6f2952ab329f7cd89b2d33cf" change="1621117407" id="I0048">
@@ -26325,7 +26392,7 @@
       <eventref hlink="_ebdf6f209ba94eaa12a5167d9d" role="Primary"/>
       <childof hlink="_ebd6f29209d32d99fad4d30f084"/>
     </person>
-    <person handle="_ebe3984a8e937095c6a2e6086f3" change="1621180779" id="I0057">
+    <person handle="_ebe3984a8e937095c6a2e6086f3" change="1621202292" id="I0057">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Jacobus</first>
@@ -26408,6 +26475,97 @@
       </name>
       <eventref hlink="_ebe5be70a965fe247972b1a5640" role="Primary"/>
       <childof hlink="_ebd6f29209d32d99fad4d30f084"/>
+    </person>
+    <person handle="_ebe9bac62d3127fd1aa240240c" change="1621202292" id="I0066">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Christina</first>
+        <surname derivation="Patronymic">Larsdotter</surname>
+        <nick>Stina</nick>
+      </name>
+      <eventref hlink="_ebe9bb79194636bd142be9678d2" role="Primary"/>
+      <childof hlink="_ebd425977333dbe83639394bc94"/>
+    </person>
+    <person handle="_ebe9bba23067cecebe9eefd8559" change="1621202292" id="I0067">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Lars</first>
+        <surname derivation="Patronymic">Larsson</surname>
+      </name>
+      <eventref hlink="_ebe9bbfa62b3c42f7709dd383d2" role="Primary"/>
+      <childof hlink="_ebd425977333dbe83639394bc94"/>
+    </person>
+    <person handle="_ebea3af45956d44bb26e5526ee9" change="1621202292" id="I0068">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Maria</first>
+        <surname derivation="Patronymic">Larsdotter</surname>
+      </name>
+      <eventref hlink="_ebea3deb2d258a9a759a048cddd" role="Primary"/>
+      <childof hlink="_ebd425977333dbe83639394bc94"/>
+    </person>
+    <person handle="_ebea3fdc83b26d36493dcfefd0e" change="1621202292" id="I0069">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Anica</first>
+        <surname derivation="Patronymic">Larsdotter</surname>
+      </name>
+      <eventref hlink="_ebea41e3e1840005438d033e676" role="Primary"/>
+      <childof hlink="_ebd425977333dbe83639394bc94"/>
+    </person>
+    <person handle="_ebea446488324af262028dcf597" change="1621202292" id="I0070">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Margaretha</first>
+        <surname derivation="Patronymic">Larsdotter</surname>
+      </name>
+      <eventref hlink="_ebea46128b056b4ca929e029127" role="Primary"/>
+      <childof hlink="_ebd425977333dbe83639394bc94"/>
+    </person>
+    <person handle="_ebea471583c4fbc63f642e83e58" change="1621202292" id="I0071">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Catharina</first>
+        <surname derivation="Patronymic">Larsdotter</surname>
+      </name>
+      <eventref hlink="_ebea489c2de4d97e7a9ee5367c8" role="Primary"/>
+      <childof hlink="_ebd425977333dbe83639394bc94"/>
+    </person>
+    <person handle="_ebea525493a601c662fb72a1564" change="1621202292" id="I0072">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Maria</first>
+        <surname derivation="Patronymic">Larsdotter</surname>
+      </name>
+      <eventref hlink="_ebea53ebd972d8bc4f594e097bb" role="Primary"/>
+      <childof hlink="_ebd425977333dbe83639394bc94"/>
+    </person>
+    <person handle="_ebea54b5ded57786a340b9337f5" change="1621202292" id="I0073">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Johannes</first>
+        <surname derivation="Patronymic">Larsson</surname>
+      </name>
+      <eventref hlink="_ebea56a91ea21b5a3f7971e4b62" role="Primary"/>
+      <childof hlink="_ebd425977333dbe83639394bc94"/>
+    </person>
+    <person handle="_ebea655a5d76b69358850f3a1c" change="1621202292" id="I0074">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Ericus</first>
+        <surname derivation="Patronymic">Larsson</surname>
+      </name>
+      <eventref hlink="_ebea6584c8d11df669aac1e7fa3" role="Primary"/>
+      <childof hlink="_ebd425977333dbe83639394bc94"/>
+    </person>
+    <person handle="_ebea6842ce03f22661e782a9535" change="1621202292" id="I0075">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Hans</first>
+        <surname derivation="Patronymic">Larsson</surname>
+      </name>
+      <eventref hlink="_ebea6af20ec75e5d611d507a6c1" role="Primary"/>
+      <childof hlink="_ebd425977333dbe83639394bc94"/>
     </person>
   </people>
   <families>
@@ -29658,7 +29816,7 @@
       <childref hlink="_ebb381bd0d43dc1eb47b60d4739"/>
       <childref hlink="_ebd3f61e6cf623f1961d7ec3908"/>
     </family>
-    <family handle="_ebd425977333dbe83639394bc94" change="1621180779" id="F0012">
+    <family handle="_ebd425977333dbe83639394bc94" change="1621202292" id="F0012">
       <rel type="Married"/>
       <father hlink="_ebd425a22fa140b0f528978abc6"/>
       <mother hlink="_ebd425f4bdf7a6e6076dd537ac7"/>
@@ -29669,7 +29827,17 @@
       <eventref hlink="_ebd64a7c41da5d22612df1217a" role="Family"/>
       <eventref hlink="_ebe9b07656c69b0bd8004929374" role="Family"/>
       <childref hlink="_ebe3984a8e937095c6a2e6086f3"/>
+      <childref hlink="_ebea3af45956d44bb26e5526ee9"/>
+      <childref hlink="_ebea3fdc83b26d36493dcfefd0e"/>
       <childref hlink="_ebb0a5009a4205bca7113657956"/>
+      <childref hlink="_ebea446488324af262028dcf597"/>
+      <childref hlink="_ebea471583c4fbc63f642e83e58"/>
+      <childref hlink="_ebea525493a601c662fb72a1564"/>
+      <childref hlink="_ebea54b5ded57786a340b9337f5"/>
+      <childref hlink="_ebea655a5d76b69358850f3a1c"/>
+      <childref hlink="_ebe9bac62d3127fd1aa240240c"/>
+      <childref hlink="_ebe9bba23067cecebe9eefd8559"/>
+      <childref hlink="_ebea6842ce03f22661e782a9535"/>
     </family>
     <family handle="_ebd6f29209d32d99fad4d30f084" change="1621079938" id="F0013">
       <rel type="Married"/>
@@ -37605,6 +37773,87 @@
       <noteref hlink="_ebe9af3f3b44a14372d16a61145"/>
       <noteref hlink="_ebe9b06bafc6593532757b39176"/>
       <sourceref hlink="_ebd648d4c912d4009142956a0a3"/>
+    </citation>
+    <citation handle="_ebe9c0b200e1b1d7f67b5eb77f5" change="1621182454" id="C1210">
+      <page>kuva 140</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebe9bf0d50a392cb54a2c4890f9"/>
+      <noteref hlink="_ebe9bf286b77b4639048ac654ae"/>
+      <noteref hlink="_ebe9c09f2c422744e10eb561eab"/>
+      <sourceref hlink="_ebd41f5cf3372054acc064cc976"/>
+    </citation>
+    <citation handle="_ebe9d1cf8986b9cfa74ccb6fb43" change="1621184249" id="C1211">
+      <page>4-5</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebe9c3d570e30d2a026bea5de79"/>
+      <noteref hlink="_ebe9c3ec5252806d9da3e1bc000"/>
+      <noteref hlink="_ebe9d1c009058a9a4bea1289c05"/>
+      <sourceref hlink="_ebac6f21b235e2839ae07698c10"/>
+    </citation>
+    <citation handle="_ebea3de7a9f7d232292b63b8a52" change="1621195584" id="C1212">
+      <page>kuva 75</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebea3cae7616c27136f5790630a"/>
+      <noteref hlink="_ebea3cc962125eeb08e5205fef2"/>
+      <noteref hlink="_ebea3de01d9375abb5ad942724"/>
+      <sourceref hlink="_ebd41f5cf3372054acc064cc976"/>
+    </citation>
+    <citation handle="_ebea41dcf5360b07f85b774e864" change="1621195999" id="C1213">
+      <page>kuva 80</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebea40919b12a8f05433d2d14d9"/>
+      <noteref hlink="_ebea40a94a245971279f22cef3f"/>
+      <noteref hlink="_ebea41d5dee6172a7970ce22141"/>
+      <sourceref hlink="_ebd41f5cf3372054acc064cc976"/>
+    </citation>
+    <citation handle="_ebea460e3a1745ca342010f8ae8" change="1621196438" id="C1214">
+      <page>kuva 101</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebea455f89d13060d35b938dbed"/>
+      <noteref hlink="_ebea457b9f446a8c60fed6f6de9"/>
+      <noteref hlink="_ebea4607e1d1540d777f4fd3bd7"/>
+      <sourceref hlink="_ebd41f5cf3372054acc064cc976"/>
+    </citation>
+    <citation handle="_ebea4897e68501719e38b33912f" change="1621196704" id="C1215">
+      <page>kuva 111</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebea47b87202af89bd76380fc0b"/>
+      <noteref hlink="_ebea47cf92a21a099362308fad8"/>
+      <noteref hlink="_ebea488f29a4216c1cb269c4ea2"/>
+      <sourceref hlink="_ebd41f5cf3372054acc064cc976"/>
+    </citation>
+    <citation handle="_ebea53e96b97a47a515aaeb48cc" change="1621197891" id="C1216">
+      <page>kuva 119</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebea5319cb1faf29df37b183f5"/>
+      <noteref hlink="_ebea5330dd5451f3742fad554f1"/>
+      <noteref hlink="_ebea53e2e2c4af2afa8b7468b06"/>
+      <sourceref hlink="_ebd41f5cf3372054acc064cc976"/>
+    </citation>
+    <citation handle="_ebea563e8511ec4db4cd511f3a3" change="1621198178" id="C1217">
+      <page>kuva 127</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebea552b5406ff93d38f9784afa"/>
+      <noteref hlink="_ebea55444e978d79d72e95af693"/>
+      <noteref hlink="_ebea5635d1e7ff2aec6b7b2fa00"/>
+      <noteref hlink="_ebea569f39366147edbbd896fc4"/>
+      <sourceref hlink="_ebd41f5cf3372054acc064cc976"/>
+    </citation>
+    <citation handle="_ebea66f3396c6ea997c68970f9" change="1621199888" id="C1218">
+      <page>kuva 134</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebea66118fddf43113fc0e820d"/>
+      <noteref hlink="_ebea6629037673ac85f6b2d94df"/>
+      <noteref hlink="_ebea66e613974f48f55fed3e8a7"/>
+      <sourceref hlink="_ebd41f5cf3372054acc064cc976"/>
+    </citation>
+    <citation handle="_ebea6aef0bb475129ef5c5d8950" change="1621200305" id="C1219">
+      <page>22-23</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebea6920be36f42da642461a611"/>
+      <noteref hlink="_ebea693e16a4d09b3ffda320a31"/>
+      <noteref hlink="_ebea6ae7278557980665acbf923"/>
+      <sourceref hlink="_ebac6f21b235e2839ae07698c10"/>
     </citation>
   </citations>
   <sources>
@@ -55266,6 +55515,144 @@ Lars son          4/26 1762 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="158"/>
       </style>
+    </note>
+    <note handle="_ebe9bf0d50a392cb54a2c4890f9" change="1621182282" id="N1689" type="Citation">
+      <text>Tammisaari syntyneet-vihityt 1724-1762 (AP I C:1)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34730&amp;pnum=140 / Viitattu 16.05.2021</text>
+    </note>
+    <note handle="_ebe9bf286b77b4639048ac654ae" change="1621182293" id="N1690" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34730&amp;pnum=140</text>
+    </note>
+    <note handle="_ebe9c09f2c422744e10eb561eab" change="1621182447" id="N1691" type="Transcript">
+      <text>Anno 1759
+...
+Junii d 1. föddas och döptas d 3 ejusdem Christina ifr Skåldö
+Pat: Lars Sommardahl modern Anna Larsdr Testes
+Borg Johan Torström, Bonden And Andersson
+...</text>
+    </note>
+    <note handle="_ebe9c3d570e30d2a026bea5de79" change="1621182784" id="N1692" type="Citation">
+      <text>Tammisaari syntyneet-vihityt 1762-1796 (AP I C:2)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34731&amp;pnum=8 / Viitattu 16.05.2021</text>
+    </note>
+    <note handle="_ebe9c3ec5252806d9da3e1bc000" change="1621182793" id="N1693" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34731&amp;pnum=8</text>
+    </note>
+    <note handle="_ebe9d1c009058a9a4bea1289c05" change="1621184243" id="N1694" type="Transcript">
+      <text>5
+Aprill
+...
+d 26 föddes och den 1 Maji ??? Lars P: gl soldaten
+Lars Sommardalh M Anna Larsdr witnen ...
+</text>
+    </note>
+    <note handle="_ebea3cae7616c27136f5790630a" change="1621195455" id="N1695" type="Citation">
+      <text>Tammisaari syntyneet-vihityt 1724-1762 (AP I C:1)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34730&amp;pnum=75 / Viitattu 16.05.2021</text>
+    </note>
+    <note handle="_ebea3cc962125eeb08e5205fef2" change="1621195466" id="N1696" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34730&amp;pnum=75</text>
+    </note>
+    <note handle="_ebea3de01d9375abb5ad942724" change="1621195581" id="N1697" type="Transcript">
+      <text>1746
+...
+October
+d 6 föddas och d 7 christnades soldaten
+         Lars Sommardahls och hos Anna Larsdr
+         ? ifr Skåldö. ...</text>
+    </note>
+    <note handle="_ebea40919b12a8f05433d2d14d9" change="1621195863" id="N1698" type="Citation">
+      <text>Tammisaari syntyneet-vihityt 1724-1762 (AP I C:1)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34730&amp;pnum=80 / Viitattu 16.05.2021</text>
+    </note>
+    <note handle="_ebea40a94a245971279f22cef3f" change="1621195873" id="N1699" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34730&amp;pnum=80</text>
+    </note>
+    <note handle="_ebea41d5dee6172a7970ce22141" change="1621195996" id="N1700" type="Transcript">
+      <text>1747
+...
+December
+...
+d 7 föddes och den 13 do döptes såldatens Lars
+       Sommardahls och hos Anna Larsdr ???
+       ??? Anica. ....</text>
+    </note>
+    <note handle="_ebea455f89d13060d35b938dbed" change="1621196367" id="N1701" type="Citation">
+      <text>Tammisaari syntyneet-vihityt 1724-1762 (AP I C:1)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34730&amp;pnum=101 / Viitattu 16.05.2021</text>
+    </note>
+    <note handle="_ebea457b9f446a8c60fed6f6de9" change="1621196378" id="N1702" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34730&amp;pnum=101</text>
+    </note>
+    <note handle="_ebea4607e1d1540d777f4fd3bd7" change="1621196436" id="N1703" type="Transcript">
+      <text>1757
+Aug
+10 föddes och den 11 döptas Margaretha
+P. soldaten Lars Sommardahl M. Anna Larsdr
+...</text>
+    </note>
+    <note handle="_ebea47b87202af89bd76380fc0b" change="1621196613" id="N1704" type="Citation">
+      <text>Tammisaari syntyneet-vihityt 1724-1762 (AP I C:1)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34730&amp;pnum=111 / Viitattu 16.05.2021</text>
+    </note>
+    <note handle="_ebea47cf92a21a099362308fad8" change="1621196622" id="N1705" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34730&amp;pnum=111</text>
+    </note>
+    <note handle="_ebea488f29a4216c1cb269c4ea2" change="1621196701" id="N1706" type="Transcript">
+      <text>1753
+October
+den 3 föddes och den 4 do döptes Catharina
+             P. soldaten Lars Sommardahl M. Anna Larsdr
+            ...</text>
+    </note>
+    <note handle="_ebea5319cb1faf29df37b183f5" change="1621197806" id="N1707" type="Citation">
+      <text>Tammisaari syntyneet-vihityt 1724-1762 (AP I C:1)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34730&amp;pnum=119 / Viitattu 16.05.2021</text>
+    </note>
+    <note handle="_ebea5330dd5451f3742fad554f1" change="1621197816" id="N1708" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34730&amp;pnum=119</text>
+    </note>
+    <note handle="_ebea53e2e2c4af2afa8b7468b06" change="1621197889" id="N1709" type="Transcript">
+      <text>1755
+Januari
+den 7 föddes och den 8 döptes Maria
+              P. soldaten Lars Sommardahl M. Anna
+              Larsdr ...</text>
+    </note>
+    <note handle="_ebea552b5406ff93d38f9784afa" change="1621198023" id="N1710" type="Citation">
+      <text>Tammisaari syntyneet-vihityt 1724-1762 (AP I C:1)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34730&amp;pnum=127 / Viitattu 16.05.2021</text>
+    </note>
+    <note handle="_ebea55444e978d79d72e95af693" change="1621198033" id="N1711" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34730&amp;pnum=127</text>
+    </note>
+    <note handle="_ebea5635d1e7ff2aec6b7b2fa00" change="1621198132" id="N1712" type="Transcript">
+      <text>1756
+October
+den 13 föddes och samma dag döptes Johannes
+                 P. soldaten Lars Sommardahl M. Anica?
+                 Larsdr ifrån Skåldö. ... 
+                 </text>
+    </note>
+    <note handle="_ebea569f39366147edbbd896fc4" change="1621198175" id="N1713" type="Research">
+      <text>Äidin nimi näyttää olevan väärin, &quot;Anica&quot; kun p.o. &quot;Anna&quot;?</text>
+    </note>
+    <note handle="_ebea66118fddf43113fc0e820d" change="1621199795" id="N1714" type="Citation">
+      <text>Tammisaari syntyneet-vihityt 1724-1762 (AP I C:1)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34730&amp;pnum=134 / Viitattu 16.05.2021</text>
+    </note>
+    <note handle="_ebea6629037673ac85f6b2d94df" change="1621199805" id="N1715" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34730&amp;pnum=134</text>
+    </note>
+    <note handle="_ebea66e613974f48f55fed3e8a7" change="1621199882" id="N1716" type="Transcript">
+      <text>Mars 1758
+...
+den 26 föddes och den 27 do döptes Ericus
+P. soldaten Lars Sommardahl. ho Anna Larsdr
+...</text>
+    </note>
+    <note handle="_ebea6920be36f42da642461a611" change="1621200116" id="N1717" type="Citation">
+      <text>Tammisaari syntyneet-vihityt 1762-1796 (AP I C:2)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34731&amp;pnum=17 / Viitattu 16.05.2021</text>
+    </note>
+    <note handle="_ebea693e16a4d09b3ffda320a31" change="1621200128" id="N1718" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=34731&amp;pnum=17</text>
+    </note>
+    <note handle="_ebea6ae7278557980665acbf923" change="1621200302" id="N1719" type="Transcript">
+      <text>1764
+...
+Julii d 2 föddes och d 3 döptes gl soldatens ifrån Skåldö Lars Sommardahls och ? ho
+                   Anna Lars dotters barn. nomen Hans ...</text>
     </note>
   </notes>
 </database>
