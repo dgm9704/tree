@@ -1864,14 +1864,15 @@
       <type>Birth</type>
       <dateval val="1788-10-20"/>
     </event>
-    <event handle="_cb589ccf3cf12ed6f2e" change="1426527619" id="E1090">
+    <event handle="_cb589ccf3cf12ed6f2e" change="1621541528" id="E1090">
       <type>Birth</type>
       <dateval val="1754-07-20"/>
       <place hlink="_cb589ccf3d30de73a94"/>
     </event>
-    <event handle="_cb589ccf3df0260b192" change="1397384052" id="E1091">
+    <event handle="_cb589ccf3df0260b192" change="1621541522" id="E1091">
       <type>Death</type>
       <dateval val="1796-02-25"/>
+      <citationref hlink="_ebf71cf0a7f5098b26ae3313a47"/>
     </event>
     <event handle="_cb589ccf3f739e3bab7" change="1397384052" id="E1092">
       <type>Death</type>
@@ -14551,6 +14552,25 @@
       <citationref hlink="_ebf6fa8fc573958bb13fe3f36af"/>
       <citationref hlink="_ebf6f72e38f64ac9e564c2adaeb"/>
     </event>
+    <event handle="_ebf70dc5d9e7fc8528c912703cc" change="1621539503" id="E0316">
+      <type>Residence</type>
+      <datespan start="1799" stop="1801"/>
+      <place hlink="_ebf70c2952468b2c0ce77a20044"/>
+      <citationref hlink="_ebf70dc253b88d7eefbf1aa368"/>
+    </event>
+    <event handle="_ebf71d01f71275a3ae09ee00416" change="1621541100" id="E0317">
+      <type>Residence</type>
+      <datespan start="1797" stop="1799"/>
+      <place hlink="_cb589ccf3d30de73a94"/>
+      <citationref hlink="_ebf71cf0a7f5098b26ae3313a47"/>
+    </event>
+    <event handle="_ebf720e84fb10e189da0173321b" change="1621543123" id="E0318">
+      <type>Residence</type>
+      <datespan start="1795" stop="1802"/>
+      <place hlink="_cb589ccf3d30de73a94"/>
+      <citationref hlink="_ebf71cf0a7f5098b26ae3313a47"/>
+      <citationref hlink="_ebf7303b1516608c0fa0484593d"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1548617779" id="I3858">
@@ -15559,7 +15579,7 @@
       <parentin hlink="_cb589cc9178116184c2"/>
       <parentin hlink="_d931bead2cf11ace1f80f921800"/>
     </person>
-    <person handle="_cb589ccbdb316711b7a" change="1621537499" id="I3332">
+    <person handle="_cb589ccbdb316711b7a" change="1621541511" id="I3332">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Johannes</first>
@@ -15568,6 +15588,8 @@
         <nick>Johan</nick>
       </name>
       <eventref hlink="_cb589ccbdb76b668673" role="Primary"/>
+      <eventref hlink="_ebf71d01f71275a3ae09ee00416" role="Primary"/>
+      <eventref hlink="_ebf70dc5d9e7fc8528c912703cc" role="Primary"/>
       <eventref hlink="_ebf6f7323315cda50067fe57621" role="Primary"/>
       <eventref hlink="_ebf6eda820216e4c90654bfef55" role="Primary"/>
       <eventref hlink="_ebf65c3ad9f5b618d816d53b3a0" role="Primary"/>
@@ -16947,7 +16969,7 @@
       <childof hlink="_cb589ccf3ff2e11b1e3"/>
       <parentin hlink="_cb589ccbdce7695dea1"/>
     </person>
-    <person handle="_cb589ccf40e49b1bb59" change="1621345149" id="I4816">
+    <person handle="_cb589ccf40e49b1bb59" change="1621541511" id="I4816">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Stina</first>
@@ -16957,7 +16979,7 @@
       <eventref hlink="_cb589ccbdb76b668673" role="Primary"/>
       <childof hlink="_cb589ccbdce7695dea1"/>
     </person>
-    <person handle="_cb589ccf4314c5216e4" change="1621345042" id="I5143">
+    <person handle="_cb589ccf4314c5216e4" change="1621541511" id="I5143">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Gustaf</first>
@@ -16967,7 +16989,7 @@
       <eventref hlink="_cb589ccf4371428d309" role="Primary"/>
       <childof hlink="_cb589ccbdce7695dea1"/>
     </person>
-    <person handle="_cb589ccf45416280914" change="1621345137" id="I6174">
+    <person handle="_cb589ccf45416280914" change="1621541511" id="I6174">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria</first>
@@ -16977,7 +16999,7 @@
       <eventref hlink="_cb589ccf45b50c559cd" role="Primary"/>
       <childof hlink="_cb589ccbdce7695dea1"/>
     </person>
-    <person handle="_cb589ccf4776112efa2" change="1535045565" id="I5990">
+    <person handle="_cb589ccf4776112efa2" change="1621541511" id="I5990">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anna</first>
@@ -27227,10 +27249,11 @@
       <childref hlink="_cb589ccf3b017332488"/>
       <childref hlink="_d934610bbf6653194afc96dab63"/>
     </family>
-    <family handle="_cb589ccbdce7695dea1" change="1414284937" id="F1926">
+    <family handle="_cb589ccbdce7695dea1" change="1621541511" id="F1926">
       <rel type="Unknown"/>
       <father hlink="_cb589ccf3cc6e815710"/>
       <mother hlink="_cb589ccf3f451e7d793"/>
+      <eventref hlink="_ebf720e84fb10e189da0173321b" role="Family"/>
       <childref hlink="_cb589ccbdb316711b7a"/>
       <childref hlink="_cb589ccf40e49b1bb59"/>
       <childref hlink="_cb589ccf4314c5216e4"/>
@@ -37951,6 +37974,30 @@
       <noteref hlink="_ebf6fa879076402631acf89e9af"/>
       <sourceref hlink="_d6cdda448716a020f78957f81cf"/>
     </citation>
+    <citation handle="_ebf70dc253b88d7eefbf1aa368" change="1621539501" id="C1227">
+      <page>129</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebf70cda579277ea0262c05e8eb"/>
+      <noteref hlink="_ebf70cf5b0b4c5eecbb0496393e"/>
+      <noteref hlink="_ebf70dbad337e2a8ff91b01dab"/>
+      <sourceref hlink="_d6cdda448716a020f78957f81cf"/>
+    </citation>
+    <citation handle="_ebf71cf0a7f5098b26ae3313a47" change="1621541093" id="C1228">
+      <page>145</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebf719fdbba48f0aaa14199766c"/>
+      <noteref hlink="_ebf71a1709a1d7495db35626ec2"/>
+      <noteref hlink="_ebf71ce92a15c1a24ae61ae7260"/>
+      <sourceref hlink="_d6cdda448716a020f78957f81cf"/>
+    </citation>
+    <citation handle="_ebf7303b1516608c0fa0484593d" change="1621543116" id="C1229">
+      <page>188-189</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebf72c3c71a6fc9b7f48574fd3b"/>
+      <noteref hlink="_ebf72c5d4ff4d32745540482965"/>
+      <noteref hlink="_ebf730313be11e09cf6ddaff287"/>
+      <sourceref hlink="_d6d0c4bb5b07cb81f05866cea91"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -41411,7 +41458,7 @@
       <pname value="Bredvik"/>
       <placeref hlink="_cea12af8565247eda3d"/>
     </placeobj>
-    <placeobj handle="_cea130ab1076a8a160f" change="1600703135" id="P0534" type="Village">
+    <placeobj handle="_cea130ab1076a8a160f" change="1621539331" id="P0534" type="Village">
       <ptitle>Söderveckoski, Borgå, Finland</ptitle>
       <pname value="Söderveckoski"/>
       <placeref hlink="_cb589cc90f055fc9f0c"/>
@@ -43124,6 +43171,10 @@
     <placeobj handle="_ebf6f62e1c3262d4c5bcf398eed" change="1621537029" id="P0101" type="Farm">
       <pname value="Smeds"/>
       <placeref hlink="_cb589cd2ade491812fc"/>
+    </placeobj>
+    <placeobj handle="_ebf70c2952468b2c0ce77a20044" change="1621539334" id="P0102" type="Farm">
+      <pname value="Utegårds"/>
+      <placeref hlink="_cea130ab1076a8a160f"/>
     </placeobj>
   </places>
   <repositories>
@@ -55863,6 +55914,56 @@ dreng Johan Isaksson Weckström    1781 10/5    tilp 319
 Smeds Skatte
 ...
 2a dräng Johan Isacsson Weckströn    10/5 1781    801 ifr.p.129</text>
+    </note>
+    <note handle="_ebf70cda579277ea0262c05e8eb" change="1621539406" id="N1742" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Rippikirjat 1792-1802 (Läntinen osa), jakso 136, sivu 129: Söderweckoski Utegårds hemman; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=7958873 / Viitattu 20.5.2021</text>
+    </note>
+    <note handle="_ebf70cf5b0b4c5eecbb0496393e" change="1621539417" id="N1743" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7958873</text>
+    </note>
+    <note handle="_ebf70dbad337e2a8ff91b01dab" change="1621539498" id="N1744" type="Transcript">
+      <text>129    Söderweckoski
+Utegårds Hemman
+...
+dreng Johan Isaacss. Weckström    1781    til p.15.    99 if.p.145</text>
+    </note>
+    <note handle="_ebf719fdbba48f0aaa14199766c" change="1621540784" id="N1745" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Rippikirjat 1792-1802 (Läntinen osa), jakso 152, sivu 145: Söderweckoski Keldas hemman; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=7958888 / Viitattu 20.5.2021</text>
+    </note>
+    <note handle="_ebf71a1709a1d7495db35626ec2" change="1621540794" id="N1746" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7958888</text>
+    </note>
+    <note handle="_ebf71ce92a15c1a24ae61ae7260" change="1621541090" id="N1747" type="Transcript" format="1">
+      <text>145    Soderweckoski
+Keldas Hemman
+...
+??? ??? ??? 
+dreng Isaac Mattsson Weckström           död d 25/2 96
+??? pig ho  Anna Eliasdr         1749                    till p. 129
+sn dreng Johan Isaacss.Weckström 1781    adm d29/3 97    fått ????    tillp. 129</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="256"/>
+      </style>
+    </note>
+    <note handle="_ebf72c3c71a6fc9b7f48574fd3b" change="1621542697" id="N1748" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Lastenkirjat 1791-1803 (Maaseurakunta), jakso 103, sivu 188-189: Söderweckoski Gelas, Keldas; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=7953985 / Viitattu 20.5.2021</text>
+    </note>
+    <note handle="_ebf72c5d4ff4d32745540482965" change="1621542711" id="N1749" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7953985</text>
+    </note>
+    <note handle="_ebf730313be11e09cf6ddaff287" change="1621543112" id="N1750" type="Transcript" format="1">
+      <text>Söderveckoski    189
+Keldas
+???? Weckström
+Johan Isaacsson         81    adm d29/3 97
+Gustaf do          14/6 83    till Sibbo Mårtensby ??? d21/10 98
+Maria do                85    till pag 207 ? 95 till Sibbo ????   hör till gården 97
+Anna do                 88    till p.5?  
+Anna Isaacsdr           88?   till p.8        ??? ifr p. 8
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="337"/>
+      </style>
     </note>
   </notes>
 </database>
