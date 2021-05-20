@@ -14532,11 +14532,24 @@
       <place hlink="_cb589cce00029594047"/>
       <citationref hlink="_ebea8d17f2a5da957210045813b"/>
     </event>
-    <event handle="_ebf65c3ad9f5b618d816d53b3a0" change="1621520886" id="E0313">
+    <event handle="_ebf65c3ad9f5b618d816d53b3a0" change="1621535893" id="E0313">
       <type>Residence</type>
       <datespan start="1807" stop="1808"/>
       <place hlink="_db8abf24cba5ff6b476b6aeb6cd"/>
       <citationref hlink="_ebf3efe2cc9721db84c7369f161"/>
+    </event>
+    <event handle="_ebf6eda820216e4c90654bfef55" change="1621536135" id="E0314">
+      <type>Residence</type>
+      <datespan start="1803" stop="1804"/>
+      <place hlink="_e8eed6b5a8828a20462e33920fa"/>
+      <citationref hlink="_ebf6eda53523a883a84eebe51fe"/>
+    </event>
+    <event handle="_ebf6f7323315cda50067fe57621" change="1621537497" id="E0315">
+      <type>Residence</type>
+      <datespan start="1801" stop="1803"/>
+      <place hlink="_ebf6f62e1c3262d4c5bcf398eed"/>
+      <citationref hlink="_ebf6fa8fc573958bb13fe3f36af"/>
+      <citationref hlink="_ebf6f72e38f64ac9e564c2adaeb"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -15546,7 +15559,7 @@
       <parentin hlink="_cb589cc9178116184c2"/>
       <parentin hlink="_d931bead2cf11ace1f80f921800"/>
     </person>
-    <person handle="_cb589ccbdb316711b7a" change="1621520900" id="I3332">
+    <person handle="_cb589ccbdb316711b7a" change="1621537499" id="I3332">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Johannes</first>
@@ -15555,6 +15568,8 @@
         <nick>Johan</nick>
       </name>
       <eventref hlink="_cb589ccbdb76b668673" role="Primary"/>
+      <eventref hlink="_ebf6f7323315cda50067fe57621" role="Primary"/>
+      <eventref hlink="_ebf6eda820216e4c90654bfef55" role="Primary"/>
       <eventref hlink="_ebf65c3ad9f5b618d816d53b3a0" role="Primary"/>
       <eventref hlink="_cb589ccbdbc1a7672f6" role="Primary"/>
       <eventref hlink="_de1bdc74250f89976d5628752f" role="Primary"/>
@@ -37912,6 +37927,30 @@
       <noteref hlink="_ebf3efd3e12180d551cea2de2ea"/>
       <sourceref hlink="_d6cdc2a86263f2f0fee504a4247"/>
     </citation>
+    <citation handle="_ebf6eda53523a883a84eebe51fe" change="1621536134" id="C1224">
+      <page>319</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebf6ec701e666d79b0cd2cc0c49"/>
+      <noteref hlink="_ebf6ec8ce3957a9986115e867e0"/>
+      <noteref hlink="_ebf6ed9da2c424104738fa0ddcd"/>
+      <sourceref hlink="_d6cdc2a86263f2f0fee504a4247"/>
+    </citation>
+    <citation handle="_ebf6f72e38f64ac9e564c2adaeb" change="1621537134" id="C1225">
+      <page>7</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebf6f66b8203698697762d6b93c"/>
+      <noteref hlink="_ebf6f684fd01e763ed3c10ae04a"/>
+      <noteref hlink="_ebf6f72567d6adf82535e924e9d"/>
+      <sourceref hlink="_d6cdc2a86263f2f0fee504a4247"/>
+    </citation>
+    <citation handle="_ebf6fa8fc573958bb13fe3f36af" change="1621537488" id="C1226">
+      <page>15</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebf6f99cecc580bdd4a25899115"/>
+      <noteref hlink="_ebf6f9b32f53d57e61f2152d016"/>
+      <noteref hlink="_ebf6fa879076402631acf89e9af"/>
+      <sourceref hlink="_d6cdda448716a020f78957f81cf"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -40805,7 +40844,7 @@
       <pname value="Mehtäknuuttila"/>
       <placeref hlink="_cea14452de22b37c1c0"/>
     </placeobj>
-    <placeobj handle="_cb589cd2ade491812fc" change="1600717710" id="P0202" type="Village">
+    <placeobj handle="_cb589cd2ade491812fc" change="1621537027" id="P0202" type="Village">
       <ptitle>Andersböle, Borgå, Finland</ptitle>
       <pname value="Andersböle" lang="se"/>
       <placeref hlink="_cb589cc90f055fc9f0c"/>
@@ -43081,6 +43120,10 @@
     <placeobj handle="_ebd414cc3ba183c64f67b6d32cf" change="1620600715" id="P0100" type="Farm">
       <pname value="Wästergård"/>
       <placeref hlink="_cb589cce00029594047"/>
+    </placeobj>
+    <placeobj handle="_ebf6f62e1c3262d4c5bcf398eed" change="1621537029" id="P0101" type="Farm">
+      <pname value="Smeds"/>
+      <placeref hlink="_cb589cd2ade491812fc"/>
     </placeobj>
   </places>
   <repositories>
@@ -55783,6 +55826,43 @@ Frälse hemman ???
 ...
 dräng
 Johan Isakss: Weckström     1781    1/10 fått lysn med Stina Henriksdr p211    807 ifr p216    808 till p 211</text>
+    </note>
+    <note handle="_ebf6ec701e666d79b0cd2cc0c49" change="1621536007" id="N1733" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Rippikirjat 1803-1812 (Läntinen osa), jakso 328, sivu 319: Söderveckoski, Erickas; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=7959338 / Viitattu 20.5.2021</text>
+    </note>
+    <note handle="_ebf6ec8ce3957a9986115e867e0" change="1621536019" id="N1734" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7959338</text>
+    </note>
+    <note handle="_ebf6ed9da2c424104738fa0ddcd" change="1621536131" id="N1735" type="Transcript">
+      <text>319 Söderveckoski
+Erikas Skatte
+...
+dreng Johan Isaacsson Weckström    10/5 1781    till pag 211    803 ifr.p. 7.</text>
+    </note>
+    <note handle="_ebf6f66b8203698697762d6b93c" change="1621537054" id="N1736" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Rippikirjat 1803-1812 (Läntinen osa), jakso 8, sivu 7: Andersböle, Smeds; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=7959016 / Viitattu 20.5.2021</text>
+    </note>
+    <note handle="_ebf6f684fd01e763ed3c10ae04a" change="1621537064" id="N1737" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7959016</text>
+    </note>
+    <note handle="_ebf6f72567d6adf82535e924e9d" change="1621537130" id="N1738" type="Transcript">
+      <text>7 Andersböle
+Smeds
+...
+dreng Johan Isaksson Weckström    1781 10/5    tilp 319
+...</text>
+    </note>
+    <note handle="_ebf6f99cecc580bdd4a25899115" change="1621537389" id="N1739" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Rippikirjat 1792-1802 (Läntinen osa), jakso 17, sivu 15: Andersböhle, Smeds; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=7958747 / Viitattu 20.5.2021</text>
+    </note>
+    <note handle="_ebf6f9b32f53d57e61f2152d016" change="1621537398" id="N1740" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7958747</text>
+    </note>
+    <note handle="_ebf6fa879076402631acf89e9af" change="1621537485" id="N1741" type="Transcript">
+      <text>15    Andersböhle
+Smeds Skatte
+...
+2a dräng Johan Isacsson Weckströn    10/5 1781    801 ifr.p.129</text>
     </note>
   </notes>
 </database>
