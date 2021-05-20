@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2021-05-17" version="5.1.3"/>
+    <created date="2021-05-20" version="5.1.3"/>
     <researcher>
     </researcher>
   </header>
@@ -799,9 +799,11 @@
       <citationref hlink="_d92df3447626dd8fab166162664"/>
       <citationref hlink="_d94b050caff781f0d57751752e1"/>
     </event>
-    <event handle="_cb589ccbdb76b668673" change="1397384051" id="E0523">
+    <event handle="_cb589ccbdb76b668673" change="1621285068" id="E0523">
       <type>Birth</type>
       <dateval val="1781-05-10"/>
+      <place hlink="_cea130ab1076a8a160f"/>
+      <citationref hlink="_ebed92499bc644b8fa96478e0d6"/>
     </event>
     <event handle="_cb589ccbdbc1a7672f6" change="1492456422" id="E0524">
       <type>Death</type>
@@ -1881,7 +1883,7 @@
     <event handle="_cb589ccf411072e684d" change="1397384052" id="E1094">
       <type>Death</type>
     </event>
-    <event handle="_cb589ccf415332f5981" change="1426527620" id="E1095">
+    <event handle="_cb589ccf415332f5981" change="1621285010" id="E1095">
       <type>Birth</type>
       <dateval val="1781-05-10"/>
       <place hlink="_cea130ab1076a8a160f"/>
@@ -1889,15 +1891,16 @@
     <event handle="_cb589ccf4340ddd17c1" change="1397384052" id="E1096">
       <type>Death</type>
     </event>
-    <event handle="_cb589ccf4371428d309" change="1426527620" id="E1097">
+    <event handle="_cb589ccf4371428d309" change="1621345123" id="E1097">
       <type>Birth</type>
-      <dateval val="1783"/>
+      <dateval val="1783-06-14"/>
       <place hlink="_cea130ab1076a8a160f"/>
+      <citationref hlink="_ebeda8823da65014e4efdf8cf53"/>
     </event>
     <event handle="_cb589ccf45714eac1d5" change="1397384052" id="E1098">
       <type>Death</type>
     </event>
-    <event handle="_cb589ccf45b50c559cd" change="1426527620" id="E1099">
+    <event handle="_cb589ccf45b50c559cd" change="1621345763" id="E1099">
       <type>Birth</type>
       <dateval val="1785"/>
       <place hlink="_cea130ab1076a8a160f"/>
@@ -9616,7 +9619,7 @@
       <place hlink="_cb589cceabb69678069"/>
       <citationref hlink="_d8a75e3ea9078eecc23ce3d4b00"/>
     </event>
-    <event handle="_d92df34991b448e1886431a73fc" change="1493131966" id="E2125">
+    <event handle="_d92df34991b448e1886431a73fc" change="1621520705" id="E2125">
       <type>Residence</type>
       <datespan start="1808" stop="1812"/>
       <place hlink="_cb589ccbcc064822ed4"/>
@@ -11111,7 +11114,7 @@
       <citationref hlink="_de18ee141c22cc0d3f2288f7c1e"/>
       <citationref hlink="_d94b050caff781f0d57751752e1"/>
     </event>
-    <event handle="_de1bdc74250f89976d5628752f" change="1526321230" id="E2451">
+    <event handle="_de1bdc74250f89976d5628752f" change="1621345108" id="E2451">
       <type>Estate Inventory</type>
       <dateval val="1819-12-20"/>
       <place hlink="_cb589cc90f055fc9f0c"/>
@@ -14529,6 +14532,12 @@
       <place hlink="_cb589cce00029594047"/>
       <citationref hlink="_ebea8d17f2a5da957210045813b"/>
     </event>
+    <event handle="_ebf65c3ad9f5b618d816d53b3a0" change="1621520886" id="E0313">
+      <type>Residence</type>
+      <datespan start="1807" stop="1808"/>
+      <place hlink="_db8abf24cba5ff6b476b6aeb6cd"/>
+      <citationref hlink="_ebf3efe2cc9721db84c7369f161"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1548617779" id="I3858">
@@ -15537,15 +15546,16 @@
       <parentin hlink="_cb589cc9178116184c2"/>
       <parentin hlink="_d931bead2cf11ace1f80f921800"/>
     </person>
-    <person handle="_cb589ccbdb316711b7a" change="1526322848" id="I3332">
+    <person handle="_cb589ccbdb316711b7a" change="1621520900" id="I3332">
       <gender>M</gender>
       <name type="Birth Name">
-        <first>Johan</first>
+        <first>Johannes</first>
         <surname>Weckström</surname>
         <surname prim="0" derivation="Patronymic">Isaacsson</surname>
-        <nick>Johannes</nick>
+        <nick>Johan</nick>
       </name>
       <eventref hlink="_cb589ccbdb76b668673" role="Primary"/>
+      <eventref hlink="_ebf65c3ad9f5b618d816d53b3a0" role="Primary"/>
       <eventref hlink="_cb589ccbdbc1a7672f6" role="Primary"/>
       <eventref hlink="_de1bdc74250f89976d5628752f" role="Primary"/>
       <childof hlink="_cb589ccbdce7695dea1"/>
@@ -16922,36 +16932,33 @@
       <childof hlink="_cb589ccf3ff2e11b1e3"/>
       <parentin hlink="_cb589ccbdce7695dea1"/>
     </person>
-    <person handle="_cb589ccf40e49b1bb59" change="1535045580" id="I4816">
+    <person handle="_cb589ccf40e49b1bb59" change="1621345149" id="I4816">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Stina</first>
         <surname>Weckström</surname>
         <surname prim="0" derivation="Patronymic">Isaacsdotter</surname>
       </name>
-      <eventref hlink="_cb589ccf411072e684d" role="Primary"/>
-      <eventref hlink="_cb589ccf415332f5981" role="Primary"/>
+      <eventref hlink="_cb589ccbdb76b668673" role="Primary"/>
       <childof hlink="_cb589ccbdce7695dea1"/>
     </person>
-    <person handle="_cb589ccf4314c5216e4" change="1535041836" id="I5143">
+    <person handle="_cb589ccf4314c5216e4" change="1621345042" id="I5143">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Gustaf</first>
         <surname>Weckström</surname>
         <surname prim="0" derivation="Patronymic">Isaacsson</surname>
       </name>
-      <eventref hlink="_cb589ccf4340ddd17c1" role="Primary"/>
       <eventref hlink="_cb589ccf4371428d309" role="Primary"/>
       <childof hlink="_cb589ccbdce7695dea1"/>
     </person>
-    <person handle="_cb589ccf45416280914" change="1535045594" id="I6174">
+    <person handle="_cb589ccf45416280914" change="1621345137" id="I6174">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria</first>
         <surname>Weckström</surname>
         <surname prim="0" derivation="Patronymic">Isaacsdotter</surname>
       </name>
-      <eventref hlink="_cb589ccf45714eac1d5" role="Primary"/>
       <eventref hlink="_cb589ccf45b50c559cd" role="Primary"/>
       <childof hlink="_cb589ccbdce7695dea1"/>
     </person>
@@ -37881,6 +37888,30 @@
       <noteref hlink="_ebea8d14af861b51f70057fbb90"/>
       <sourceref hlink="_ebd41f5cf3372054acc064cc976"/>
     </citation>
+    <citation handle="_ebed92499bc644b8fa96478e0d6" change="1621284962" id="C1221">
+      <page>jakso 39</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebed8ff00653e3997aa6dd9d6b9"/>
+      <noteref hlink="_ebed90149e428fad6495acb640d"/>
+      <noteref hlink="_ebed9240143869f03d48c7fc90"/>
+      <sourceref hlink="_de191cd15dfc08af758240d56b"/>
+    </citation>
+    <citation handle="_ebeda8823da65014e4efdf8cf53" change="1621287293" id="C1222">
+      <page>jakso 72</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebeda6cea4020f71a117b5d0e88"/>
+      <noteref hlink="_ebeda6eb6d48f30aadd35ba88"/>
+      <noteref hlink="_ebeda8798f63e1f959dacb628b2"/>
+      <sourceref hlink="_de191cd15dfc08af758240d56b"/>
+    </citation>
+    <citation handle="_ebf3efe2cc9721db84c7369f161" change="1621455838" id="C1223">
+      <page>214</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebf3e856f201a7f9648e7e3dc36"/>
+      <noteref hlink="_ebf3e86d6702599b45cc1ab8e8c"/>
+      <noteref hlink="_ebf3efd3e12180d551cea2de2ea"/>
+      <sourceref hlink="_d6cdc2a86263f2f0fee504a4247"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -55701,6 +55732,57 @@ ennen ja jälkeen Saran muodostavat vakuuttavan jatkumon
 - Sopivan ikäistä Hinric Sommardahlia ei ole tullut vastaan
 - Äidin nimi kuitenkin täsmää
 </text>
+    </note>
+    <note handle="_ebed8ff00653e3997aa6dd9d6b9" change="1621284716" id="N1724" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Syntyneiden ja kastettujen luettelot 1779-1795, jakso 39: 1781 April - Maij; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=24568943 / Viitattu 17.5.2021</text>
+    </note>
+    <note handle="_ebed90149e428fad6495acb640d" change="1621284731" id="N1725" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=24568943</text>
+    </note>
+    <note handle="_ebed9240143869f03d48c7fc90" change="1621284959" id="N1726" type="Transcript" format="1">
+      <text>1781
+Maij
+...
+10  11  Johannes    Isaac Matsson    Anna Eliasdr  32  S.Weckkoski
+                    Johan Eliasson   Anna Siberg       Keldas
+        gemini      Carl Ström       Hedw: Österman
+                    Johan Matsson    Maria Eliasdr
+        Stina       Johan Petterson  Caisa Staphansdr
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="300"/>
+      </style>
+    </note>
+    <note handle="_ebeda6cea4020f71a117b5d0e88" change="1621287114" id="N1727" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Syntyneiden ja kastettujen luettelot 1779-1795, jakso 72: födde 1783 maj jun; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=24568976 / Viitattu 18.5.2021</text>
+    </note>
+    <note handle="_ebeda6eb6d48f30aadd35ba88" change="1621287126" id="N1728" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=24568976</text>
+    </note>
+    <note handle="_ebeda8798f63e1f959dacb628b2" change="1621287289" id="N1729" type="Transcript" format="1">
+      <text>[1783]
+Junii
+...
+14  15  Gustaf    Isaac Matsson        Anna Eliasdr    34    S:Weckoski Keldas
+                  T: Mats Andersson    Anna Matsdr
+                  Eric Johansson       Caisa Matsdr</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="198"/>
+      </style>
+    </note>
+    <note handle="_ebf3e856f201a7f9648e7e3dc36" change="1621455047" id="N1730" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Rippikirjat 1803-1812 (Läntinen osa), jakso 222, sivu 214: Norrveckoski, Gästgifvars eller Henrikas; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=7959237 / Viitattu 19.5.2021</text>
+    </note>
+    <note handle="_ebf3e86d6702599b45cc1ab8e8c" change="1621455056" id="N1731" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7959237</text>
+    </note>
+    <note handle="_ebf3efd3e12180d551cea2de2ea" change="1621455832" id="N1732" type="Citation">
+      <text>214 Norrweckoski
+Gästgifvars eller Henrikas
+Frälse hemman ???
+...
+dräng
+Johan Isakss: Weckström     1781    1/10 fått lysn med Stina Henriksdr p211    807 ifr p216    808 till p 211</text>
     </note>
   </notes>
 </database>
