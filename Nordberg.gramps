@@ -13201,7 +13201,7 @@
       <citationref hlink="_df9ac8641f6282243ca4157e89d"/>
       <citationref hlink="_df9accafa984ca9bc11b0bbec18"/>
     </event>
-    <event handle="_e10c2270c9611795f4776f2d016" change="1621779553" id="E2867">
+    <event handle="_e10c2270c9611795f4776f2d016" change="1621788270" id="E2867">
       <type>Residence</type>
       <datespan start="1749" stop="1759"/>
       <place hlink="_e10c216106e761d03c131abecef"/>
@@ -14665,23 +14665,35 @@
       <dateval val="1689" quality="calculated"/>
       <citationref hlink="_e10c2206758440d21adf6393d2a"/>
     </event>
-    <event handle="_ec0003fa88030b33c62115f017b" change="1621780068" id="E0332">
+    <event handle="_ec0003fa88030b33c62115f017b" change="1621786709" id="E0332">
       <type>Residence</type>
       <datespan start="1749" stop="1759"/>
       <place hlink="_e10c216106e761d03c131abecef"/>
       <citationref hlink="_e10c2206758440d21adf6393d2a"/>
     </event>
-    <event handle="_ec00091991b72edab07cec3268c" change="1621780605" id="E0333">
+    <event handle="_ec00091991b72edab07cec3268c" change="1621788163" id="E0333">
       <type>Residence</type>
       <datespan start="1754" stop="1765"/>
       <place hlink="_e10c216106e761d03c131abecef"/>
       <citationref hlink="_ec00090ba582b491e77a42ff926"/>
     </event>
-    <event handle="_ec0009818b3374343894e96afcb" change="1621780647" id="E0334">
+    <event handle="_ec0009818b3374343894e96afcb" change="1621788303" id="E0334">
       <type>Residence</type>
       <datespan start="1754" stop="1770"/>
       <place hlink="_e10c216106e761d03c131abecef"/>
       <citationref hlink="_ec00090ba582b491e77a42ff926"/>
+    </event>
+    <event handle="_ec0045a6c5521ef2fd7099d0e76" change="1621786954" id="E0335">
+      <type>Death</type>
+      <dateval val="1765-01-23"/>
+      <place hlink="_cb589ccf3d30de73a94"/>
+      <citationref hlink="_ec00090ba582b491e77a42ff926"/>
+    </event>
+    <event handle="_ec005a00325665c18e6cbd8cfcf" change="1621789745" id="E0336">
+      <type>Residence</type>
+      <datespan start="1771" stop="1776"/>
+      <place hlink="_e10c216106e761d03c131abecef"/>
+      <citationref hlink="_ec0059c57a624a88c58896495d1"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -16722,7 +16734,7 @@
       <childof hlink="_cb589cceaf224ab31fa"/>
       <parentin hlink="_cb589ccbb656852f0db"/>
     </person>
-    <person handle="_cb589ccec366d226d64" change="1621780648" id="I3127">
+    <person handle="_cb589ccec366d226d64" change="1621789091" id="I3127">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Catharina</first>
@@ -26737,13 +26749,14 @@
       <eventref hlink="_ebea8d19f7f300c898c97f25af2" role="Primary"/>
       <childof hlink="_ebd425977333dbe83639394bc94"/>
     </person>
-    <person handle="_ec00020f95ef8bca201db78ac3" change="1621779959" id="I0077">
+    <person handle="_ec00020f95ef8bca201db78ac3" change="1621788186" id="I0077">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Mats</first>
         <surname derivation="Patronymic">Claesson</surname>
       </name>
       <eventref hlink="_ec000288ca56d7274cbb3edb0d3" role="Primary"/>
+      <eventref hlink="_ec0045a6c5521ef2fd7099d0e76" role="Primary"/>
       <parentin hlink="_ec0001f309a5cb87a06ac0bbaa"/>
     </person>
     <person handle="_ec00029b896270a220b21f3c3a1" change="1621779959" id="I0078">
@@ -27622,12 +27635,13 @@
       <childref hlink="_cb589cd3e572ec86505"/>
       <childref hlink="_cb589cd3e851b890138"/>
     </family>
-    <family handle="_cb589ccec4041260320" change="1621780648" id="F1927">
+    <family handle="_cb589ccec4041260320" change="1621789091" id="F1927">
       <rel type="Unknown"/>
       <father hlink="_cb589cd26eb525e6be4"/>
       <mother hlink="_cdcccf793e44637bd23"/>
       <eventref hlink="_e10c2270c9611795f4776f2d016" role="Family"/>
       <eventref hlink="_ec0009818b3374343894e96afcb" role="Family"/>
+      <eventref hlink="_ec005a00325665c18e6cbd8cfcf" role="Family"/>
       <childref hlink="_cb589ccec366d226d64"/>
     </family>
     <family handle="_cb589ccec6565681a23" change="1420168056" id="F2717">
@@ -38268,6 +38282,14 @@
       <noteref hlink="_ec00055e3d05450fb1e837c528"/>
       <noteref hlink="_ec000903af64cc4434adb445975"/>
       <sourceref hlink="_d6e4395cc5c7786a314c1b36829"/>
+    </citation>
+    <citation handle="_ec0059c57a624a88c58896495d1" change="1621789292" id="C1245">
+      <page>125</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ec0053570fcbe99da3d4040114"/>
+      <noteref hlink="_ec005373c4153d7995e2d9c7cfa"/>
+      <noteref hlink="_ec005bec09d136167956da3aa86"/>
+      <sourceref hlink="_d6ce208ff563b4301d682b6a32a"/>
     </citation>
   </citations>
   <sources>
@@ -54399,11 +54421,11 @@ Käydään läpi rippikirjaa 1749-1759 jossa pitäisi olla merkittynä 9-19 vuot
 
 </text>
     </note>
-    <note handle="_e9024cc0fec3533b7ce8e4a5264" change="1601245065" id="N0189" type="Transcript">
+    <note handle="_e9024cc0fec3533b7ce8e4a5264" change="1621786702" id="N0189" type="Transcript">
       <text>81
 Caus Hem
 
-Matts Claasson? 70
+Matts Claesson 70
 Hu Anna Hinddr 60
 
 Son Hindr Matson 35
@@ -56524,11 +56546,11 @@ ho Anna johans       20</text>
     <note handle="_ec00055e3d05450fb1e837c528" change="1621780213" id="N1798" type="Link">
       <text>http://digi.narc.fi/digi/view.ka?kuid=7957796</text>
     </note>
-    <note handle="_ec000903af64cc4434adb445975" change="1621780596" id="N1799" type="Transcript" format="1">
+    <note handle="_ec000903af64cc4434adb445975" change="1621786906" id="N1799" type="Transcript" format="1">
       <text>247
 Caus hem
 Matts Claesson                     75    död d 23 Jan 1765
-ho Anna Hansdr                     65                      l. 1763
+ho Anna Hansdr                     65              l. 1763
 Bdn
 Son Hindhrich Mattss               40
 ho Anna Johansdr                   39
@@ -56539,7 +56561,33 @@ dr Carin do                     65 15
 
 </text>
       <style name="fontface" value="Monospace">
-        <range start="0" end="362"/>
+        <range start="0" end="354"/>
+      </style>
+    </note>
+    <note handle="_ec0053570fcbe99da3d4040114" change="1621788389" id="N1800" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Rippikirjat 1771-1776, jakso 131, sivu 125: Caus; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=7958026 / Viitattu 23.5.2021</text>
+    </note>
+    <note handle="_ec005373c4153d7995e2d9c7cfa" change="1621788401" id="N1801" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7958026</text>
+    </note>
+    <note handle="_ec005bec09d136167956da3aa86" change="1621789741" id="N1802" type="Transcript" format="1">
+      <text>125 
+Caus hemman
+Bn Henric Matthss      1714
+ho Anna johansdr       1715
+son Matths Henricsson  1741
+ho Maria Ericsdr       1747
+dr Ebba Henricsdr      1752
+dg Johan Johansson     1750
+dr Maria Henricsdr     1755
+dg Joh: Eskilsson      1750
+son Johan Sahlman?     1757
+dg Johan Jöransson     1754
+pig Anna Claasdr  
+drg ???? Johansson     1758
+dg Johan Claasson      1756</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="371"/>
       </style>
     </note>
   </notes>
