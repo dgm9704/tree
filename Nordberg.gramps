@@ -2992,12 +2992,13 @@
       <type>Birth</type>
       <dateval val="1729"/>
     </event>
-    <event handle="_cb589cd2e250f5f4f7c" change="1426527619" id="E1754">
+    <event handle="_cb589cd2e250f5f4f7c" change="1621727034" id="E1754">
       <type>Birth</type>
       <dateval val="1752-08-09"/>
       <place hlink="_cb589ccf3d30de73a94"/>
+      <citationref hlink="_ebfe048a0fb17b57e448c3a217b"/>
     </event>
-    <event handle="_cb589cd2e3327e0ca1d" change="1426527619" id="E1755">
+    <event handle="_cb589cd2e3327e0ca1d" change="1621726705" id="E1755">
       <type>Death</type>
       <dateval val="1754-05-24"/>
       <place hlink="_cb589ccf3d30de73a94"/>
@@ -14613,6 +14614,18 @@
       <place hlink="_cb589cc90f055fc9f0c"/>
       <citationref hlink="_ebfd306f6485668d6e1969c846a"/>
     </event>
+    <event handle="_ebfe106f38b2f21869e06aac244" change="1621727687" id="E0324">
+      <type>Residence</type>
+      <datespan start="1754" stop="1770"/>
+      <place hlink="_cb589ccf3d30de73a94"/>
+      <citationref hlink="_ebfe106b34725e2a7304a045a08"/>
+    </event>
+    <event handle="_ebfe168f95627c794b4bb3a3780" change="1621728333" id="E0325">
+      <type>Residence</type>
+      <datespan start="1771" stop="1776"/>
+      <place hlink="_cb589ccf3d30de73a94"/>
+      <citationref hlink="_ebfe168b8a3646a97360b36ac49"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1548617779" id="I3858">
@@ -16988,7 +17001,7 @@
       <eventref hlink="_cb589ccf3b779cd64ec" role="Primary"/>
       <childof hlink="_cb589ccbda25595f21c"/>
     </person>
-    <person handle="_cb589ccf3cc6e815710" change="1621700164" id="I4509">
+    <person handle="_cb589ccf3cc6e815710" change="1621728338" id="I4509">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Isaac</first>
@@ -18381,7 +18394,7 @@
       <eventref hlink="_cb589cd2e1323456790" role="Primary"/>
       <parentin hlink="_cb589ccf3e44c4eecc1"/>
     </person>
-    <person handle="_cb589cd2e237c44dd7d" change="1621700164" id="I4405">
+    <person handle="_cb589cd2e237c44dd7d" change="1621728338" id="I4405">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Andreas</first>
@@ -18391,7 +18404,7 @@
       <eventref hlink="_cb589cd2e3327e0ca1d" role="Primary"/>
       <childof hlink="_cb589ccf3e44c4eecc1"/>
     </person>
-    <person handle="_cb589cd2e4d3b2cf69d" change="1621700164" id="I4417">
+    <person handle="_cb589cd2e4d3b2cf69d" change="1621728338" id="I4417">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anna</first>
@@ -18401,7 +18414,7 @@
       <eventref hlink="_cb589cd2e502998f5ee" role="Primary"/>
       <childof hlink="_cb589ccf3e44c4eecc1"/>
     </person>
-    <person handle="_cb589cd2e726f4381af" change="1621700164" id="I3484">
+    <person handle="_cb589cd2e726f4381af" change="1621728338" id="I3484">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria</first>
@@ -18411,7 +18424,7 @@
       <eventref hlink="_cb589cd2e7b798cf56f" role="Primary"/>
       <childof hlink="_cb589ccf3e44c4eecc1"/>
     </person>
-    <person handle="_cb589cd2e976a002483" change="1621700164" id="I5830">
+    <person handle="_cb589cd2e976a002483" change="1621728338" id="I5830">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Johan</first>
@@ -18420,7 +18433,7 @@
       <eventref hlink="_cb589cd2e9d653699e4" role="Primary"/>
       <childof hlink="_cb589ccf3e44c4eecc1"/>
     </person>
-    <person handle="_cb589cd2eba29315445" change="1621700164" id="I3468">
+    <person handle="_cb589cd2eba29315445" change="1621728338" id="I3468">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Thomas</first>
@@ -18430,7 +18443,7 @@
       <eventref hlink="_cb589cd2ec14437e49e" role="Primary"/>
       <childof hlink="_cb589ccf3e44c4eecc1"/>
     </person>
-    <person handle="_cb589cd2edd0fd146d1" change="1621700164" id="I3150">
+    <person handle="_cb589cd2edd0fd146d1" change="1621728338" id="I3150">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Catharina</first>
@@ -27676,11 +27689,13 @@
       <father hlink="_cb589ccf354099b052c"/>
       <eventref hlink="_cb589cfd4e1646f453e" role="Family"/>
     </family>
-    <family handle="_cb589ccf3e44c4eecc1" change="1621700164" id="F2417">
+    <family handle="_cb589ccf3e44c4eecc1" change="1621728338" id="F2417">
       <rel type="Married"/>
       <father hlink="_cb589cd2de87e9d426d"/>
       <mother hlink="_cb589cd2e0e595df650"/>
       <eventref hlink="_cb589cfd4ed04316c7b" role="Family"/>
+      <eventref hlink="_ebfe106f38b2f21869e06aac244" role="Family"/>
+      <eventref hlink="_ebfe168f95627c794b4bb3a3780" role="Family"/>
       <eventref hlink="_ebfd06174391d94a2f9f0fcdd33" role="Family"/>
       <childref hlink="_cb589cd2e237c44dd7d"/>
       <childref hlink="_cb589ccf3cc6e815710"/>
@@ -38115,6 +38130,30 @@
       <noteref hlink="_ebfdf47271a2edd22a528b653c8"/>
       <noteref hlink="_ebfdf6bac8416874e72761cfe8"/>
       <sourceref hlink="_de191cd15dfc08af758240d56b"/>
+    </citation>
+    <citation handle="_ebfe048a0fb17b57e448c3a217b" change="1621726439" id="C1239">
+      <page>jakso 181</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebfdfc9a78d337f6de237f17183"/>
+      <noteref hlink="_ebfdfcb3b6871e06fcb429d3315"/>
+      <noteref hlink="_ebfe048076566b54816c9b85f80"/>
+      <sourceref hlink="_cdccc33aada5d1bc81c"/>
+    </citation>
+    <citation handle="_ebfe106b34725e2a7304a045a08" change="1621727685" id="C1240">
+      <page>213</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebfe0f6b2f05f5665b309c153b0"/>
+      <noteref hlink="_ebfe0f874f610d82d1c682b15db"/>
+      <noteref hlink="_ebfe10613017a938b9d63265df2"/>
+      <sourceref hlink="_d6e4395cc5c7786a314c1b36829"/>
+    </citation>
+    <citation handle="_ebfe168b8a3646a97360b36ac49" change="1621728327" id="C1241">
+      <page>151</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ebfe12d326133caaba33749ab2c"/>
+      <noteref hlink="_ebfe12e8bb0642d08c6fa45562a"/>
+      <noteref hlink="_ebfe16878e743edbc1cde941954"/>
+      <sourceref hlink="_d6ce208ff563b4301d682b6a32a"/>
     </citation>
   </citations>
   <sources>
@@ -56248,6 +56287,67 @@ Anna do              88</text>
                 Johan Matson     Maria Isacsdr         ??</text>
       <style name="fontface" value="Monospace">
         <range start="0" end="214"/>
+      </style>
+    </note>
+    <note handle="_ebfdfc9a78d337f6de237f17183" change="1621725607" id="N1779" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Syntyneiden ja kastettujen luettelot 1742-1756, jakso 181: 1752 aug sep; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=7967847 / Viitattu 23.5.2021</text>
+    </note>
+    <note handle="_ebfdfcb3b6871e06fcb429d3315" change="1621725618" id="N1780" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7967847</text>
+    </note>
+    <note handle="_ebfe048076566b54816c9b85f80" change="1621726435" id="N1781" type="Transcript" format="1">
+      <text>1752 in Augusto
+...
+173  9.  11.  Andreas  Matts Mårtensson     Anna Johansdr          }
+                       T. Nils? Kihlström?  T. ho Hanna? Mårtensdr } Söderväkosk
+                       Johan Johansson      ? Anna Olofsdr         }
+                       Claus? Hindricsson                          }
+                         
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="334"/>
+      </style>
+    </note>
+    <note handle="_ebfe0f6b2f05f5665b309c153b0" change="1621727580" id="N1782" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Rippikirjat 1754-1770, jakso 215, sivu 213: Söderweckoski Kieldas; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=7957765 / Viitattu 23.5.2021</text>
+    </note>
+    <note handle="_ebfe0f874f610d82d1c682b15db" change="1621727592" id="N1783" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7957765</text>
+    </note>
+    <note handle="_ebfe10613017a938b9d63265df2" change="1621727681" id="N1784" type="Transcript" format="1">
+      <text>213
+???
+Kieldas
+Bdn Matts Mårtensson    30
+ho Anna Johansdr        25</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="69"/>
+      </style>
+    </note>
+    <note handle="_ebfe12d326133caaba33749ab2c" change="1621727937" id="N1785" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Rippikirjat 1771-1776, jakso 158, sivu 151: Söderveckoski Gielas, Keldas; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=7958052 / Viitattu 23.5.2021</text>
+    </note>
+    <note handle="_ebfe12e8bb0642d08c6fa45562a" change="1621727946" id="N1786" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7958052</text>
+    </note>
+    <note handle="_ebfe16878e743edbc1cde941954" change="1621728326" id="N1787" type="Transcript" format="1">
+      <text>151
+...
+Keldas
+Bn Matts Mårtensson                  1724
+ho Anna Johansdr                     1729
+dg Simon SImonsson                   1709
+ho Maria Johansdr                    1712
+pig Carin Matthsdr                   1745
+dg Eric Ericsson enkl med bet if ??? 1729
+son Isaac Mattss
+?? Anna Johansdr ifrån Kulå Nygrannas ????
+...
+? Maria Mattsdr                      1750
+Anna Matsdr                          1756
+dr Maria Mattsdr ???                 1758?                        </text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="481"/>
       </style>
     </note>
   </notes>
