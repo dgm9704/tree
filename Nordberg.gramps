@@ -2679,9 +2679,8 @@
       <type>Death</type>
       <dateval val="1902-03-01"/>
     </event>
-    <event handle="_cb589cd26ee28c5d40f" change="1414285225" id="E5126">
+    <event handle="_cb589cd26ee28c5d40f" change="1621779227" id="E5126">
       <type>Birth</type>
-      <noteref hlink="_cdce398a73376f8b674"/>
     </event>
     <event handle="_cb589cd26f155893c86" change="1397384053" id="E1654">
       <type>Death</type>
@@ -13202,7 +13201,7 @@
       <citationref hlink="_df9ac8641f6282243ca4157e89d"/>
       <citationref hlink="_df9accafa984ca9bc11b0bbec18"/>
     </event>
-    <event handle="_e10c2270c9611795f4776f2d016" change="1601245092" id="E2867">
+    <event handle="_e10c2270c9611795f4776f2d016" change="1621779553" id="E2867">
       <type>Residence</type>
       <datespan start="1749" stop="1759"/>
       <place hlink="_e10c216106e761d03c131abecef"/>
@@ -13380,7 +13379,7 @@
       <citationref hlink="_e384aa531986e78f590ba852aec"/>
       <citationref hlink="_e8fb28723e1565d963a61b7a972"/>
     </event>
-    <event handle="_e3895b95d0f2957e70858de2a7c" change="1601296726" id="E2891">
+    <event handle="_e3895b95d0f2957e70858de2a7c" change="1621779128" id="E2891">
       <type>Birth</type>
       <dateval val="1806-02-25"/>
       <place hlink="_e37e0e3f53b3d29ddafbb93feec"/>
@@ -14645,6 +14644,44 @@
       <datespan start="1786" stop="1794"/>
       <place hlink="_cb589ccf3d30de73a94"/>
       <citationref hlink="_ebf991df9a25c0b963d12612913"/>
+    </event>
+    <event handle="_ebffff8c97e10db4f3f1d0fe0a5" change="1621779603" id="E0328">
+      <type>Birth</type>
+      <dateval val="1714" quality="calculated"/>
+      <citationref hlink="_e10c2206758440d21adf6393d2a"/>
+    </event>
+    <event handle="_ebffffd560c3c3c45968144497" change="1621779633" id="E0329">
+      <type>Birth</type>
+      <dateval val="1715" quality="calculated"/>
+      <citationref hlink="_e10c2206758440d21adf6393d2a"/>
+    </event>
+    <event handle="_ec000288ca56d7274cbb3edb0d3" change="1621779916" id="E0330">
+      <type>Birth</type>
+      <dateval val="1679" quality="calculated"/>
+      <citationref hlink="_e10c2206758440d21adf6393d2a"/>
+    </event>
+    <event handle="_ec0002e3cea508d7517bd08cb4e" change="1621779953" id="E0331">
+      <type>Birth</type>
+      <dateval val="1689" quality="calculated"/>
+      <citationref hlink="_e10c2206758440d21adf6393d2a"/>
+    </event>
+    <event handle="_ec0003fa88030b33c62115f017b" change="1621780068" id="E0332">
+      <type>Residence</type>
+      <datespan start="1749" stop="1759"/>
+      <place hlink="_e10c216106e761d03c131abecef"/>
+      <citationref hlink="_e10c2206758440d21adf6393d2a"/>
+    </event>
+    <event handle="_ec00091991b72edab07cec3268c" change="1621780605" id="E0333">
+      <type>Residence</type>
+      <datespan start="1754" stop="1765"/>
+      <place hlink="_e10c216106e761d03c131abecef"/>
+      <citationref hlink="_ec00090ba582b491e77a42ff926"/>
+    </event>
+    <event handle="_ec0009818b3374343894e96afcb" change="1621780647" id="E0334">
+      <type>Residence</type>
+      <datespan start="1754" stop="1770"/>
+      <place hlink="_e10c216106e761d03c131abecef"/>
+      <citationref hlink="_ec00090ba582b491e77a42ff926"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -16685,7 +16722,7 @@
       <childof hlink="_cb589cceaf224ab31fa"/>
       <parentin hlink="_cb589ccbb656852f0db"/>
     </person>
-    <person handle="_cb589ccec366d226d64" change="1546513965" id="I3127">
+    <person handle="_cb589ccec366d226d64" change="1621780648" id="I3127">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Catharina</first>
@@ -18046,14 +18083,14 @@
       <childof hlink="_cb589cce7d9073fdcf7"/>
       <parentin hlink="_cb589cd20ec413fad9c"/>
     </person>
-    <person handle="_cb589cd26eb525e6be4" change="1414284936" id="I4616">
+    <person handle="_cb589cd26eb525e6be4" change="1621780609" id="I4616">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Hinrich</first>
         <surname derivation="Patronymic">Matsson</surname>
       </name>
-      <eventref hlink="_cb589cd26ee28c5d40f" role="Primary"/>
-      <eventref hlink="_cb589cd26f155893c86" role="Primary"/>
+      <eventref hlink="_ebffff8c97e10db4f3f1d0fe0a5" role="Primary"/>
+      <childof hlink="_ec0001f309a5cb87a06ac0bbaa"/>
       <parentin hlink="_cb589ccec4041260320"/>
     </person>
     <person handle="_cb589cd273c0aa05090" change="1535999439" id="I6008">
@@ -23682,12 +23719,13 @@
       </name>
       <childof hlink="_cb589cee2f11c53c210"/>
     </person>
-    <person handle="_cdcccf793e44637bd23" change="1414247116" id="I4484">
+    <person handle="_cdcccf793e44637bd23" change="1621779634" id="I4484">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anna</first>
         <surname derivation="Patronymic">Johansdotter</surname>
       </name>
+      <eventref hlink="_ebffffd560c3c3c45968144497" role="Primary"/>
       <parentin hlink="_cb589ccec4041260320"/>
     </person>
     <person handle="_ce8259444127a2fadb4" change="1534588379" id="I3110">
@@ -26699,6 +26737,24 @@
       <eventref hlink="_ebea8d19f7f300c898c97f25af2" role="Primary"/>
       <childof hlink="_ebd425977333dbe83639394bc94"/>
     </person>
+    <person handle="_ec00020f95ef8bca201db78ac3" change="1621779959" id="I0077">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Mats</first>
+        <surname derivation="Patronymic">Claesson</surname>
+      </name>
+      <eventref hlink="_ec000288ca56d7274cbb3edb0d3" role="Primary"/>
+      <parentin hlink="_ec0001f309a5cb87a06ac0bbaa"/>
+    </person>
+    <person handle="_ec00029b896270a220b21f3c3a1" change="1621779959" id="I0078">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Anna</first>
+        <surname derivation="Patronymic">Hansdotter</surname>
+      </name>
+      <eventref hlink="_ec0002e3cea508d7517bd08cb4e" role="Primary"/>
+      <parentin hlink="_ec0001f309a5cb87a06ac0bbaa"/>
+    </person>
   </people>
   <families>
     <family handle="_cb589cc7f9c792dc427" change="1548617779" id="F1472">
@@ -27566,11 +27622,12 @@
       <childref hlink="_cb589cd3e572ec86505"/>
       <childref hlink="_cb589cd3e851b890138"/>
     </family>
-    <family handle="_cb589ccec4041260320" change="1546513965" id="F1927">
+    <family handle="_cb589ccec4041260320" change="1621780648" id="F1927">
       <rel type="Unknown"/>
       <father hlink="_cb589cd26eb525e6be4"/>
       <mother hlink="_cdcccf793e44637bd23"/>
       <eventref hlink="_e10c2270c9611795f4776f2d016" role="Family"/>
+      <eventref hlink="_ec0009818b3374343894e96afcb" role="Family"/>
       <childref hlink="_cb589ccec366d226d64"/>
     </family>
     <family handle="_cb589ccec6565681a23" change="1420168056" id="F2717">
@@ -30019,6 +30076,14 @@
       <eventref hlink="_ebe0bb1fa1a33db08a69fb7802a" role="Family"/>
       <childref hlink="_ebd9abf90fe73dec4247db6d676"/>
       <childref hlink="_ebd9e0e1d43428f01cf2024dc10"/>
+    </family>
+    <family handle="_ec0001f309a5cb87a06ac0bbaa" change="1621780609" id="F0017">
+      <rel type="Married"/>
+      <father hlink="_ec00020f95ef8bca201db78ac3"/>
+      <mother hlink="_ec00029b896270a220b21f3c3a1"/>
+      <eventref hlink="_ec0003fa88030b33c62115f017b" role="Family"/>
+      <eventref hlink="_ec00091991b72edab07cec3268c" role="Family"/>
+      <childref hlink="_cb589cd26eb525e6be4"/>
     </family>
   </families>
   <citations>
@@ -38195,6 +38260,14 @@
       <noteref hlink="_ebfe1f26fd775eb654a6e5eb8ff"/>
       <noteref hlink="_ebfe21ba8a03307e3ce39db9f1f"/>
       <sourceref hlink="_ebfe1eda0d456bb4ebfb23b45cb"/>
+    </citation>
+    <citation handle="_ec00090ba582b491e77a42ff926" change="1621780599" id="C1244">
+      <page>247</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ec0005446c96f86056ca3e522ce"/>
+      <noteref hlink="_ec00055e3d05450fb1e837c528"/>
+      <noteref hlink="_ec000903af64cc4434adb445975"/>
+      <sourceref hlink="_d6e4395cc5c7786a314c1b36829"/>
     </citation>
   </citations>
   <sources>
@@ -56444,6 +56517,30 @@ ho Anna johans       20</text>
     </note>
     <note handle="_ebffee35fa9716ba6f5ca283ee5" change="1621777785" id="N1796" type="Research">
       <text>Kuolleista ei löydy sopivaa Matts Mårtenssonia vuosilta 1790-1791</text>
+    </note>
+    <note handle="_ec0005446c96f86056ca3e522ce" change="1621780203" id="N1797" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Rippikirjat 1754-1770, jakso 248, sivu 247: Hindhår Kaus, Skrattas; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=7957796 / Viitattu 23.5.2021</text>
+    </note>
+    <note handle="_ec00055e3d05450fb1e837c528" change="1621780213" id="N1798" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7957796</text>
+    </note>
+    <note handle="_ec000903af64cc4434adb445975" change="1621780596" id="N1799" type="Transcript" format="1">
+      <text>247
+Caus hem
+Matts Claesson                     75    död d 23 Jan 1765
+ho Anna Hansdr                     65                      l. 1763
+Bdn
+Son Hindhrich Mattss               40
+ho Anna Johansdr                   39
+?? Anna Andersdr  vide infra
+dr Anna Henricsdr               58 19
+son Mats Hinderss               61 20
+dr Carin do                     65 15
+
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="362"/>
+      </style>
     </note>
   </notes>
 </database>
