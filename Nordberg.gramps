@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2021-05-23" version="5.1.3"/>
+    <created date="2021-05-26" version="5.1.3"/>
     <researcher>
     </researcher>
   </header>
@@ -14086,7 +14086,7 @@
       <place hlink="_eba932e2f2b79b8c277926799e1"/>
       <citationref hlink="_eba93e82c8e17a64814474c2e99"/>
     </event>
-    <event handle="_eba952046e85f9e5da136e0c1f0" change="1619723720" id="E0165">
+    <event handle="_eba952046e85f9e5da136e0c1f0" change="1621974616" id="E0165">
       <type>Residence</type>
       <datespan start="1807" stop="1812"/>
       <place hlink="_eba932e2f2b79b8c277926799e1"/>
@@ -14694,6 +14694,30 @@
       <datespan start="1771" stop="1776"/>
       <place hlink="_e10c216106e761d03c131abecef"/>
       <citationref hlink="_ec0059c57a624a88c58896495d1"/>
+    </event>
+    <event handle="_ec00d9865da2bc30a05bb0dcea2" change="1621802460" id="E0337">
+      <type>Birth</type>
+      <dateval val="1734" quality="calculated"/>
+      <citationref hlink="_e10c2206758440d21adf6393d2a"/>
+      <citationref hlink="_ec00090ba582b491e77a42ff926"/>
+    </event>
+    <event handle="_ec073911df35e6faf079423b516" change="1621975290" id="E0338">
+      <type>Death</type>
+      <dateval val="1813-10-25"/>
+      <place hlink="_eba932e2f2b79b8c277926799e1"/>
+      <citationref hlink="_eba93e82c8e17a64814474c2e99"/>
+      <citationref hlink="_ec0749b6f4024b3a66818236f42"/>
+    </event>
+    <event handle="_ec0750a576d41b9edf4cab88981" change="1621976012" id="E0339">
+      <type>Birth</type>
+      <dateval val="1777-09-24"/>
+      <citationref hlink="_eba93e82c8e17a64814474c2e99"/>
+    </event>
+    <event handle="_ec075bbdc379d7c331514d6aeb" change="1621977373" id="E0340">
+      <type>Birth</type>
+      <dateval val="1812-06-24"/>
+      <place hlink="_eba932e2f2b79b8c277926799e1"/>
+      <citationref hlink="_ec075bbb1534c7674aa20636b6a"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -18095,7 +18119,7 @@
       <childof hlink="_cb589cce7d9073fdcf7"/>
       <parentin hlink="_cb589cd20ec413fad9c"/>
     </person>
-    <person handle="_cb589cd26eb525e6be4" change="1621780609" id="I4616">
+    <person handle="_cb589cd26eb525e6be4" change="1621803256" id="I4616">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Hinrich</first>
@@ -26401,17 +26425,19 @@
       </name>
       <parentin hlink="_ebb0a3927d63751c3ed748c8bbb"/>
     </person>
-    <person handle="_ebb0a5009a4205bca7113657956" change="1621204133" id="I0039">
+    <person handle="_ebb0a5009a4205bca7113657956" change="1621977227" id="I0039">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Sigfrid</first>
-        <surname derivation="Patronymic">Larsson</surname>
+        <surname prim="0" derivation="Patronymic">Larsson</surname>
+        <surname derivation="Inherited">Sommardahl</surname>
       </name>
       <eventref hlink="_ebb0a602870e2d797a9ef3885" role="Primary"/>
-      <attribute type="Merged Gramps ID" value="I0037"/>
+      <eventref hlink="_ec073911df35e6faf079423b516" role="Primary"/>
       <childof hlink="_ebd425977333dbe83639394bc94"/>
       <parentin hlink="_ebc32da4ce3239de1becc5fef10"/>
       <parentin hlink="_ebb0a4c516f187f61905b122cde"/>
+      <parentin hlink="_ec0750ed93de2c2013396389da"/>
     </person>
     <person handle="_ebb0a58377737ed4b8c6631c764" change="1620143180" id="I0040">
       <gender>F</gender>
@@ -26767,6 +26793,69 @@
       </name>
       <eventref hlink="_ec0002e3cea508d7517bd08cb4e" role="Primary"/>
       <parentin hlink="_ec0001f309a5cb87a06ac0bbaa"/>
+    </person>
+    <person handle="_ec00c45de461172dd20da102a2d" change="1621803256" id="I0079">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Johanna</first>
+        <surname derivation="Patronymic">Matsdotter</surname>
+      </name>
+      <childof hlink="_ec0001f309a5cb87a06ac0bbaa"/>
+    </person>
+    <person handle="_ec00c4a3d9d13c44f52ae99af85" change="1621803256" id="I0080">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Caisa</first>
+        <surname derivation="Patronymic">Matsdotter</surname>
+      </name>
+      <eventref hlink="_ec00d9865da2bc30a05bb0dcea2" role="Primary"/>
+      <childof hlink="_ec0001f309a5cb87a06ac0bbaa"/>
+    </person>
+    <person handle="_ec00c62bd3f3bcb1ccf43e59b6a" change="1621803256" id="I0081">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Johan</first>
+        <surname derivation="Patronymic">Matsson</surname>
+      </name>
+      <childof hlink="_ec0001f309a5cb87a06ac0bbaa"/>
+    </person>
+    <person handle="_ec00c7228bcea09f88619ebf43" change="1621803256" id="I0082">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Helena</first>
+        <surname derivation="Patronymic">Matsdotter</surname>
+      </name>
+      <childof hlink="_ec0001f309a5cb87a06ac0bbaa"/>
+    </person>
+    <person handle="_ec074ff027a5647c718b58a9668" change="1621976050" id="I0083">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Hedwig</first>
+        <surname derivation="Patronymic">Henricsdotter</surname>
+      </name>
+      <eventref hlink="_ec0750a576d41b9edf4cab88981" role="Primary"/>
+      <parentin hlink="_ec074e8655928e939d9784071bb"/>
+      <parentin hlink="_ec0750ed93de2c2013396389da"/>
+    </person>
+    <person handle="_ec0755225742e0bed56f3e13064" change="1621977430" id="I0084">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Johannes</first>
+        <surname prim="0" derivation="Patronymic">Larsson</surname>
+        <surname derivation="Inherited">Sommardahl</surname>
+      </name>
+      <eventref hlink="_ec075bbdc379d7c331514d6aeb" role="Primary"/>
+      <childof hlink="_ec0750ed93de2c2013396389da"/>
+    </person>
+    <person handle="_ec075c5805c678d95874a2dfb39" change="1621977458" id="I0085">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Fredric</first>
+        <surname derivation="Inherited">Sommardahl</surname>
+        <surname prim="0" derivation="Patronymic">Larsson</surname>
+      </name>
+      <eventref hlink="_ec075bbdc379d7c331514d6aeb" role="Primary"/>
+      <childof hlink="_ec0750ed93de2c2013396389da"/>
     </person>
   </people>
   <families>
@@ -30091,13 +30180,38 @@
       <childref hlink="_ebd9abf90fe73dec4247db6d676"/>
       <childref hlink="_ebd9e0e1d43428f01cf2024dc10"/>
     </family>
-    <family handle="_ec0001f309a5cb87a06ac0bbaa" change="1621780609" id="F0017">
+    <family handle="_ec0001f309a5cb87a06ac0bbaa" change="1621803256" id="F0017">
       <rel type="Married"/>
       <father hlink="_ec00020f95ef8bca201db78ac3"/>
       <mother hlink="_ec00029b896270a220b21f3c3a1"/>
       <eventref hlink="_ec0003fa88030b33c62115f017b" role="Family"/>
       <eventref hlink="_ec00091991b72edab07cec3268c" role="Family"/>
-      <childref hlink="_cb589cd26eb525e6be4"/>
+      <childref hlink="_cb589cd26eb525e6be4">
+        <citationref hlink="_e10c2206758440d21adf6393d2a"/>
+      </childref>
+      <childref hlink="_ec00c45de461172dd20da102a2d">
+        <citationref hlink="_e10c2206758440d21adf6393d2a"/>
+      </childref>
+      <childref hlink="_ec00c4a3d9d13c44f52ae99af85">
+        <citationref hlink="_e10c2206758440d21adf6393d2a"/>
+      </childref>
+      <childref hlink="_ec00c62bd3f3bcb1ccf43e59b6a">
+        <citationref hlink="_e10c2206758440d21adf6393d2a"/>
+      </childref>
+      <childref hlink="_ec00c7228bcea09f88619ebf43">
+        <citationref hlink="_e10c2206758440d21adf6393d2a"/>
+      </childref>
+    </family>
+    <family handle="_ec074e8655928e939d9784071bb" change="1621976031" id="F0018">
+      <rel type="Unknown"/>
+      <mother hlink="_ec074ff027a5647c718b58a9668"/>
+    </family>
+    <family handle="_ec0750ed93de2c2013396389da" change="1621977376" id="F0019">
+      <rel type="Unknown"/>
+      <father hlink="_ebb0a5009a4205bca7113657956"/>
+      <mother hlink="_ec074ff027a5647c718b58a9668"/>
+      <childref hlink="_ec0755225742e0bed56f3e13064"/>
+      <childref hlink="_ec075c5805c678d95874a2dfb39"/>
     </family>
   </families>
   <citations>
@@ -38290,6 +38404,22 @@
       <noteref hlink="_ec005373c4153d7995e2d9c7cfa"/>
       <noteref hlink="_ec005bec09d136167956da3aa86"/>
       <sourceref hlink="_d6ce208ff563b4301d682b6a32a"/>
+    </citation>
+    <citation handle="_ec0749b6f4024b3a66818236f42" change="1621975285" id="C1246">
+      <page>jakso 1</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ec07482fa4ab4aa126d315ce21"/>
+      <noteref hlink="_ec0748551597a383aa8e32db1e2"/>
+      <noteref hlink="_ec0749a207e3d12c63a8bbf7308"/>
+      <sourceref hlink="_d896dd250513eee79d149a635d7"/>
+    </citation>
+    <citation handle="_ec075bbb1534c7674aa20636b6a" change="1621977174" id="C1247">
+      <page>146-147</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ec0755f9fc576c9603e39c41c52"/>
+      <noteref hlink="_ec075614f6720796126bdea218"/>
+      <noteref hlink="_ec075bb0a9b7812c43bd9e0877"/>
+      <sourceref hlink="_d896e4cb3d84a6501df19f982bb"/>
     </citation>
   </citations>
   <sources>
@@ -55025,18 +55155,22 @@ uppteck? den 17 Januarii 1819</text>
     <note handle="_eba933e789d1342843584cb1f79" change="1619449705" id="N1526" type="Link">
       <text>http://digi.narc.fi/digi/view.ka?kuid=8869922</text>
     </note>
-    <note handle="_eba93e793803f80ad3a211cfe70" change="1619450813" id="N1527" type="Transcript" format="1">
+    <note handle="_eba93e793803f80ad3a211cfe70" change="1621973535" id="N1527" type="Transcript" format="1">
       <text>94    Dansko    Torpare
 
 Byviken
+Torp: Sigfrid Larsson    27/7  1749              1813
+enka Hedvig Henricsdr    24/9  1777 Nabb
+Dott Sophia              22/12 1798 Nabb
+Son Johannes                   1812 Byvinken
 
-Torp Henric Holmström    2/4 1777 Dansko
-Hust Greta Hansdr        5/4 1781 Odensö
-Son Hans Henric          14/9 1805 Dansko
+Torp Henric Holmström    2/4   1777 Dansko
+Hust Greta Hansdr        5/4   1781 Odensö
+Son Hans Henric          14/9  1805 Dansko
 Dott Sophia wilhelmina   19/10 1812 Dansko
-Son Gustaf Adolph        1/6 1816 Dansko</text>
+Son Gustaf Adolph        1/6   1816 Dansko</text>
       <style name="fontface" value="Monospace">
-        <range start="0" end="241"/>
+        <range start="0" end="429"/>
       </style>
     </note>
     <note handle="_eba94a5c8b234cb087db8cd95e2" change="1619452059" id="N1528" type="Citation">
@@ -56546,7 +56680,7 @@ ho Anna johans       20</text>
     <note handle="_ec00055e3d05450fb1e837c528" change="1621780213" id="N1798" type="Link">
       <text>http://digi.narc.fi/digi/view.ka?kuid=7957796</text>
     </note>
-    <note handle="_ec000903af64cc4434adb445975" change="1621786906" id="N1799" type="Transcript" format="1">
+    <note handle="_ec000903af64cc4434adb445975" change="1621802450" id="N1799" type="Transcript" format="1">
       <text>247
 Caus hem
 Matts Claesson                     75    död d 23 Jan 1765
@@ -56558,10 +56692,11 @@ ho Anna Johansdr                   39
 dr Anna Henricsdr               58 19
 son Mats Hinderss               61 20
 dr Carin do                     65 15
-
+dr ???p245
+? Caisa Mattsdr                    20
 </text>
       <style name="fontface" value="Monospace">
-        <range start="0" end="354"/>
+        <range start="0" end="403"/>
       </style>
     </note>
     <note handle="_ec0053570fcbe99da3d4040114" change="1621788389" id="N1800" type="Citation">
@@ -56588,6 +56723,46 @@ drg ???? Johansson     1758
 dg Johan Claasson      1756</text>
       <style name="fontface" value="Monospace">
         <range start="0" end="371"/>
+      </style>
+    </note>
+    <note handle="_ec07482fa4ab4aa126d315ce21" change="1621975125" id="N1803" type="Citation">
+      <text>Tammisaaren seurakunnan arkisto - Kuolleiden ja haudattujen luettelot 1813-1884, jakso 1: 1813; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=8731327 / Viitattu 25.5.2021</text>
+    </note>
+    <note handle="_ec0748551597a383aa8e32db1e2" change="1621975140" id="N1804" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=8731327</text>
+    </note>
+    <note handle="_ec0749a207e3d12c63a8bbf7308" change="1621975276" id="N1805" type="Transcript">
+      <text>Döde och Begrafne för År 1813
+...
+Octob:
+...
+    25  31  Dansko Torparen Sigfrid Sommardahl    ????    64</text>
+    </note>
+    <note handle="_ec0755f9fc576c9603e39c41c52" change="1621976571" id="N1806" type="Citation">
+      <text>Tammisaaren seurakunnan arkisto - Syntyneiden ja kastettujen luettelot 1797-1834, jakso 77, sivu 146-147: 1812; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=8885529 / Viitattu 26.5.2021</text>
+    </note>
+    <note handle="_ec075614f6720796126bdea218" change="1621976582" id="N1807" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=8885529</text>
+    </note>
+    <note handle="_ec075bb0a9b7812c43bd9e0877" change="1621977369" id="N1808" type="Transcript" format="1">
+      <text>146                                     År 1812
+...
+39    24    26    Dansko    Johannes    
+                  gem       et
+                            Fredric     Föräldr Torp: Sigfrid Sommardahl och dess hust
+
+                                        År 1812                                   147
+                                        Hedwig Henricsdotter Faddr: Dansko Byvik Torp
+                                        Abrah: Örnmark, borg son Hans Henric Lindholm
+                                        och Gässon? Gustaf Holm ifrån Ekenäs, Byvik
+                                        topr: Sven Högström och dess hust Anna Örn-
+                                        mark Byvik topr hust Maja Lisa Nordberg,
+                                        Dansko Brannäs pig Lovisa GRanroth och Byvik
+                                        torp dott Eva Stina Örnmark
+                                        
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="913"/>
       </style>
     </note>
   </notes>
