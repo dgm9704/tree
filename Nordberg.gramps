@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2021-05-26" version="5.1.3"/>
+    <created date="2021-06-28" version="5.1.3"/>
     <researcher>
     </researcher>
   </header>
@@ -7773,7 +7773,7 @@
       <citationref hlink="_cde6467a9b6259cdd03"/>
       <citationref hlink="_e1613e087d426ec272ab167bac7"/>
     </event>
-    <event handle="_cde651903760f109cbd" change="1548801423" id="E5251">
+    <event handle="_cde651903760f109cbd" change="1624827536" id="E5251">
       <type>Residence</type>
       <datespan start="1870" stop="1875"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
@@ -11095,12 +11095,15 @@
       <citationref hlink="_dd212d48d4661140518c4f7654f"/>
       <citationref hlink="_dd212f95c6c3878ee252892bedf"/>
     </event>
-    <event handle="_de1203b01f44b7dbcd137b647b6" change="1548798144" id="E2446">
+    <event handle="_de1203b01f44b7dbcd137b647b6" change="1624830334" id="E2446">
       <type>Residence</type>
       <datespan start="1875" stop="1876"/>
-      <place hlink="_de120263cd54721e1fcfc29b661"/>
+      <place hlink="_ec7193e062379f0bc495579bc4a"/>
       <citationref hlink="_de120380b2979d27bc59610212c"/>
       <citationref hlink="_e1613a186524411084c20582dc0"/>
+      <citationref hlink="_cde65183e49656a79fd"/>
+      <citationref hlink="_cdeaa4cbe6c5f279b84"/>
+      <citationref hlink="_ec719aa8d923ea3b5bad0fc7aa"/>
     </event>
     <event handle="_de17eaeb91f5cac19a33fe982bf" change="1526214608" id="E2447">
       <type>Death</type>
@@ -13224,11 +13227,12 @@
       <citationref hlink="_e161434d8715411e00ee00f4f8d"/>
       <citationref hlink="_cdf7bb284d13fa038d2"/>
     </event>
-    <event handle="_e16159cb0d9d67c9f1f2db6c72" change="1548801465" id="E2868">
+    <event handle="_e16159cb0d9d67c9f1f2db6c72" change="1624827526" id="E2868">
       <type>Residence</type>
       <datespan start="1876" stop="1881"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_cde65183e49656a79fd"/>
+      <citationref hlink="_cdeaa4cbe6c5f279b84"/>
     </event>
     <event handle="_e1818d6e22a1e8a684c647e2937" change="1595357920" id="E2869">
       <type>Residence</type>
@@ -14718,6 +14722,12 @@
       <dateval val="1812-06-24"/>
       <place hlink="_eba932e2f2b79b8c277926799e1"/>
       <citationref hlink="_ec075bbb1534c7674aa20636b6a"/>
+    </event>
+    <event handle="_ec07bb8819b71b5dc98268f339b" change="1621987219" id="E0341">
+      <type>Birth</type>
+      <dateval val="1798-12-22"/>
+      <place hlink="_ec076c65e4a6260039f6db1ba3"/>
+      <citationref hlink="_ec07bb7b3ef3deea3214ea96825"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -26837,25 +26847,34 @@
       <parentin hlink="_ec074e8655928e939d9784071bb"/>
       <parentin hlink="_ec0750ed93de2c2013396389da"/>
     </person>
-    <person handle="_ec0755225742e0bed56f3e13064" change="1621977430" id="I0084">
+    <person handle="_ec0755225742e0bed56f3e13064" change="1621978449" id="I0084">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Johannes</first>
-        <surname prim="0" derivation="Patronymic">Larsson</surname>
+        <surname prim="0" derivation="Patronymic">Sigfridsson</surname>
         <surname derivation="Inherited">Sommardahl</surname>
       </name>
       <eventref hlink="_ec075bbdc379d7c331514d6aeb" role="Primary"/>
       <childof hlink="_ec0750ed93de2c2013396389da"/>
     </person>
-    <person handle="_ec075c5805c678d95874a2dfb39" change="1621977458" id="I0085">
+    <person handle="_ec075c5805c678d95874a2dfb39" change="1621978460" id="I0085">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Fredric</first>
         <surname derivation="Inherited">Sommardahl</surname>
-        <surname prim="0" derivation="Patronymic">Larsson</surname>
+        <surname prim="0" derivation="Patronymic">Sigfridsson</surname>
       </name>
       <eventref hlink="_ec075bbdc379d7c331514d6aeb" role="Primary"/>
       <childof hlink="_ec0750ed93de2c2013396389da"/>
+    </person>
+    <person handle="_ec076bf0e92ff01993df8cff7a" change="1621987222" id="I0086">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Sophia</first>
+        <surname></surname>
+      </name>
+      <eventref hlink="_ec07bb8819b71b5dc98268f339b" role="Primary"/>
+      <childof hlink="_ec074e8655928e939d9784071bb"/>
     </person>
   </people>
   <families>
@@ -30202,9 +30221,10 @@
         <citationref hlink="_e10c2206758440d21adf6393d2a"/>
       </childref>
     </family>
-    <family handle="_ec074e8655928e939d9784071bb" change="1621976031" id="F0018">
+    <family handle="_ec074e8655928e939d9784071bb" change="1621987222" id="F0018">
       <rel type="Unknown"/>
       <mother hlink="_ec074ff027a5647c718b58a9668"/>
+      <childref hlink="_ec076bf0e92ff01993df8cff7a"/>
     </family>
     <family handle="_ec0750ed93de2c2013396389da" change="1621977376" id="F0019">
       <rel type="Unknown"/>
@@ -34364,10 +34384,11 @@
       <noteref hlink="_dd212f8cf24340e654cd04c200b"/>
       <sourceref hlink="_cfcd61aa99f30e2c4ea"/>
     </citation>
-    <citation handle="_de120380b2979d27bc59610212c" change="1595358261" id="C0633">
+    <citation handle="_de120380b2979d27bc59610212c" change="1624828953" id="C0633">
       <page>U:75/1300</page>
       <confidence>2</confidence>
       <noteref hlink="_de12037506630ec676c9dc73974"/>
+      <noteref hlink="_ec71981ee3560d518f312c78594"/>
       <sourceref hlink="_de1203029595a742f64657e5cc2"/>
     </citation>
     <citation handle="_de17eae76b11a8dfad0d8c3ceb7" change="1526214416" id="C0634">
@@ -38421,6 +38442,20 @@
       <noteref hlink="_ec075bb0a9b7812c43bd9e0877"/>
       <sourceref hlink="_d896e4cb3d84a6501df19f982bb"/>
     </citation>
+    <citation handle="_ec07bb7b3ef3deea3214ea96825" change="1621987214" id="C1248">
+      <page>22-23</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ec076df84ff3b04971edbae09b4"/>
+      <noteref hlink="_ec076e1f2f023e8dfff51d0bb10"/>
+      <sourceref hlink="_d896e4cb3d84a6501df19f982bb"/>
+    </citation>
+    <citation handle="_ec719aa8d923ea3b5bad0fc7aa" change="1624830071" id="C1249">
+      <page>1875/110</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ec719a8da5b5ace88b840c969dd"/>
+      <noteref hlink="_ec719bc54aab872ae9e496537a"/>
+      <sourceref hlink="_ec7199ba958ccdf89b93baf6ec"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -40989,6 +41024,11 @@
       <sauthor>Porvoon ruotsalainen tuomiokirkkoseurakunta</sauthor>
       <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
     </source>
+    <source handle="_ec7199ba958ccdf89b93baf6ec" change="1624829091" id="S0513">
+      <stitle>Adresskalender för Helsingfors stad</stitle>
+      <spubinfo>G. W. Edlund 1862-1896.</spubinfo>
+      <reporef hlink="_cdea68c6afd7d08bd3f" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1595618071" id="P0000" type="City">
@@ -41002,7 +41042,7 @@
       <pname value="Rautalampi"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
     </placeobj>
-    <placeobj handle="_cb589cc83b65110951c" change="1619725038" id="P0008" type="Parish">
+    <placeobj handle="_cb589cc83b65110951c" change="1621978917" id="P0008" type="Parish">
       <ptitle>Ekenäs, Finland</ptitle>
       <pname value="Ekenäs" lang="se"/>
       <pname value="Tammisaari" lang="fi"/>
@@ -42991,7 +43031,7 @@
       <pname value="Hytölä"/>
       <placeref hlink="_cfcd68df95862c2cdfb"/>
     </placeobj>
-    <placeobj handle="_de120263cd54721e1fcfc29b661" change="1526055817" id="P0622" type="Neighborhood">
+    <placeobj handle="_de120263cd54721e1fcfc29b661" change="1624828473" id="P0622" type="Neighborhood">
       <pname value="Hwalfisken"/>
       <placeref hlink="_cdf7c4057334cbaf3c2"/>
     </placeobj>
@@ -43604,6 +43644,18 @@
       <pname value="Utegårds"/>
       <placeref hlink="_cea130ab1076a8a160f"/>
     </placeobj>
+    <placeobj handle="_ec076c65e4a6260039f6db1ba3" change="1621978922" id="P0103" type="Village">
+      <pname value="Nabb"/>
+      <placeref hlink="_cb589cc83b65110951c"/>
+    </placeobj>
+    <placeobj handle="_ec7193d941f7ae07606844463ce" change="1624830087" id="P0104" type="Street">
+      <pname value="Västra Kajen"/>
+      <placeref hlink="_de120263cd54721e1fcfc29b661"/>
+    </placeobj>
+    <placeobj handle="_ec7193e062379f0bc495579bc4a" change="1624828477" id="P0105" type="Number">
+      <pname value="14"/>
+      <placeref hlink="_ec7193d941f7ae07606844463ce"/>
+    </placeobj>
   </places>
   <repositories>
     <repository handle="_cdea29a49637c6553bc" change="1621729197" id="R0001">
@@ -43616,7 +43668,7 @@
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
     </repository>
-    <repository handle="_cdea68c6afd7d08bd3f" change="1595173397" id="R0003">
+    <repository handle="_cdea68c6afd7d08bd3f" change="1624829089" id="R0003">
       <rname>Kansalliskirjasto digitoidut aineistot</rname>
       <type>Web site</type>
       <url  href="http://digi.lib.helsinki.fi/" type="Web Home"/>
@@ -56763,6 +56815,54 @@ Octob:
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="913"/>
+      </style>
+    </note>
+    <note handle="_ec076df84ff3b04971edbae09b4" change="1621979086" id="N1809" type="Citation">
+      <text>Tammisaaren seurakunnan arkisto - Syntyneiden ja kastettujen luettelot 1797-1834, jakso 13: 1798 Dec/1799 Jan; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=8885468 / Viitattu 26.5.2021</text>
+    </note>
+    <note handle="_ec076e1f2f023e8dfff51d0bb10" change="1621979102" id="N1810" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=8885468</text>
+    </note>
+    <note handle="_ec07bb80f182d963b1988b79b4e" change="1621987216" id="N1811" type="Transcript" format="1">
+      <text>1798    22
+December
+...
+No 77          22    föddes d 23 döptes Pigan Hedwig Henricsdotters barn
+Nabb Wäster          Sophia, Wittnen Nabb Wästergårds bonden Göran An-
+Sophia               derson, Lexwalls torparen Fredric Ersson, ???
+                     Gabriel Lindström, ??? Nabb Wästergårds bondedr
+                     Stina Henricsdotter, Pigan Lisa Hagström ifrån
+                     Ekenäs</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="399"/>
+      </style>
+    </note>
+    <note handle="_ec71981ee3560d518f312c78594" change="1624828922" id="N1812" type="Transcript" format="1">
+      <text>Hwalfisken
+    3    15/14    -  ?    In och utrikes Handl: A. F. Wasenius h Matilda 
+
+{ B 3-2 pig (Sofia Blomqvist ??) (Catha-
+{ rina Fageholm öfå) Wilhelmina Wickström
+{ Emelie Wickström, Ida Långström, Fredrika
+{ Ekberg, Dreng Ferdinand Nordberg h Wilhel
+{ mina b 1-1
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="270"/>
+      </style>
+    </note>
+    <note handle="_ec719a8da5b5ace88b840c969dd" change="1624829177" id="N1813" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1154553?page=112</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1154553?page=112">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_ec719bc54aab872ae9e496537a" change="1624829305" id="N1814" type="Transcript" format="1">
+      <text>110
+[...]
+Wasenius, A. F., handlande. V. Kajen 14.</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="50"/>
       </style>
     </note>
   </notes>
