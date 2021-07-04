@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2021-07-04" version="5.1.3"/>
+    <created date="2021-07-05" version="5.1.3"/>
     <researcher>
     </researcher>
   </header>
@@ -7767,7 +7767,7 @@
       <description>handelsbetjänt</description>
       <citationref hlink="_cde63fce2565b4c89bf"/>
     </event>
-    <event handle="_cde6467ef0e24042c3c" change="1625073361" id="E5244">
+    <event handle="_cde6467ef0e24042c3c" change="1625387352" id="E5244">
       <type>Residence</type>
       <datespan start="1867-02-11" stop="1869-11-26"/>
       <place hlink="_cde645dff4827c02e3d"/>
@@ -14733,16 +14733,23 @@
       <place hlink="_ec076c65e4a6260039f6db1ba3"/>
       <citationref hlink="_ec07bb7b3ef3deea3214ea96825"/>
     </event>
-    <event handle="_ec7e311dfbd60d482c373fb948" change="1625347672" id="E0342">
+    <event handle="_ec7e311dfbd60d482c373fb948" change="1625432256" id="E0342">
       <type>Residence</type>
       <datespan start="1880" stop="1886"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
       <noteref hlink="_ec83b3bcb0d132cdf984bbf683"/>
+      <noteref hlink="_ec868cb3939261c2b83741ecce9"/>
       <citationref hlink="_ec7e3b1ef9c5630ecf49d8a8a28"/>
       <citationref hlink="_d0011348d0e71c0b3f2"/>
       <citationref hlink="_cfcd1c65b240ae6a980"/>
       <citationref hlink="_cdeaa8308fe28f04ac2"/>
       <citationref hlink="_ec84ac70dab36a9da3ab7aab693"/>
+    </event>
+    <event handle="_ec867c86ed129363c8187502300" change="1625389743" id="E0343">
+      <type>Residence</type>
+      <datespan start="1863" stop="1865"/>
+      <place hlink="_ce821888790688c9a04"/>
+      <citationref hlink="_cf8f2d5c80d6194fbb4"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -14861,7 +14868,7 @@
       <childof hlink="_cb589cc83c13dd8e6b9"/>
       <parentin hlink="_cb589cc803c2012656f"/>
     </person>
-    <person handle="_cb589cc83d1028d9fef" change="1548801506" id="I4183">
+    <person handle="_cb589cc83d1028d9fef" change="1625389795" id="I4183">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Ferdinand</first>
@@ -14871,6 +14878,7 @@
       <eventref hlink="_ce84f3571f429485f3c" role="Primary"/>
       <eventref hlink="_ce84f86974b66b1695e" role="Primary"/>
       <eventref hlink="_ce855355fb605fe82f2" role="Primary"/>
+      <eventref hlink="_ec867c86ed129363c8187502300" role="Primary"/>
       <eventref hlink="_cde63e4926106c5528d" role="Primary"/>
       <eventref hlink="_cde641569d96d18caad" role="Primary"/>
       <eventref hlink="_cde6467ef0e24042c3c" role="Primary"/>
@@ -41831,7 +41839,7 @@
       <pname value="Träskända malm"/>
       <placeref hlink="_cb589cc912732a4072e"/>
     </placeobj>
-    <placeobj handle="_cdf8317ba511056ad52" change="1534435012" id="P0467" type="Village">
+    <placeobj handle="_cdf8317ba511056ad52" change="1625389631" id="P0467" type="Village">
       <ptitle>Nackskog, Tusby, Finland</ptitle>
       <pname value="Nackskog"/>
       <pname value="Nahkela" lang="fi"/>
@@ -57076,36 +57084,8 @@ hu Hilda Maria Korhonen    17/8 1869    Rautalampi    121-1893
         <range start="0" end="244"/>
       </style>
     </note>
-    <note handle="_ec83b3bcb0d132cdf984bbf683" change="1625336028" id="N1831" type="Research">
-      <text>Tutkitaan onko niin että ovat kirkonkirjoissa Helsingin puolella, mutta henkikirjoissa Helsingin pitäjän puolella.
-Etsitään Uudenmaan lääniin henkikirja 1884 Helsingin pitäjän alueelta
-ei ole:
-Baggböle
-Biskopsblöe
-Bothby
-Brutuby
-Brändö
-Degerö
-Dickursby
-Domarby
-Drumsjö
-Fastböle
-Forsby
-Gumtäckt
-Sörnäs
-Hanaböle
-Haxböle
-Hindersnäs
-Håkansböle
-Härtonäs
-Kyrkoby
-Kånala
-Kårböle
-Kottby
-Käinby
-
-Qvarnbacka
-Ågelby
+    <note handle="_ec83b3bcb0d132cdf984bbf683" change="1625414735" id="N1831" type="Research">
+      <text>Ei löydy Uudenmaan läänin henkikirjasta 1884 Helsingin pitäjän alueelta
 
 
 </text>
@@ -57137,6 +57117,25 @@ St. Petersburg
 Nordberg, Ferdinand, dykare 48</text>
       <style name="fontface" value="Monospace">
         <range start="0" end="227"/>
+      </style>
+    </note>
+    <note handle="_ec868cb3939261c2b83741ecce9" change="1625436086" id="N1836" type="Research">
+      <text>Käydään läpi Henkikirja 1883 Helsingin osalta
+http://digihakemisto.appspot.com/index_ay?amnimeke=Uudenmaan+l%C3%A4%C3%A4nin+henkikirjat&amp;sarnimi=Henkikirjat&amp;aynimi=Henkikirja+1883-1883+%28U%3A96%29&amp;ay=1781933&amp;sartun=225866.KA&amp;atun=316316.KA&amp;ay2=423880
+...205
+Åttonde stadsdelen
+Skatudden
+...
+Savila
+
+
+
+Mejlans
+...
+Stansvik
+jne. ym muut paikkakunnat</text>
+      <style name="link" value="http://digihakemisto.appspot.com/index_ay?amnimeke=Uudenmaan+l%C3%A4%C3%A4nin+henkikirjat&amp;sarnimi=Henkikirjat&amp;aynimi=Henkikirja+1883-1883+%28U%3A96%29&amp;ay=1781933&amp;sartun=225866.KA&amp;atun=316316.KA&amp;ay2=423880">
+        <range start="46" end="250"/>
       </style>
     </note>
   </notes>
