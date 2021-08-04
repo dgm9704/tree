@@ -14723,6 +14723,12 @@
       <place hlink="_ce9a9fdc1a3005f117a"/>
       <noteref hlink="_ece8e3c6e754e54ee0efc87e677"/>
     </event>
+    <event handle="_eceb509d7c02e95db02f64b322e" change="1628096337" id="E0349">
+      <type>Residence</type>
+      <dateval val="1915"/>
+      <place hlink="_eceb4eb4c7c36aac40436645c03"/>
+      <citationref hlink="_eceb50931a2631780a9f0179b8d"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1548617779" id="I3858">
@@ -18413,7 +18419,7 @@
       <eventref hlink="_cb589cd2c6e5a6d3621" role="Primary"/>
       <childof hlink="_cb589ccf02d04708651"/>
     </person>
-    <person handle="_cb589cd2cb16e530514" change="1508366495" id="I4645">
+    <person handle="_cb589cd2cb16e530514" change="1628096340" id="I4645">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Frans Pietari</first>
@@ -18423,7 +18429,7 @@
       <eventref hlink="_cb589cd2cc2047ace01" role="Primary"/>
       <childof hlink="_cb589ccf0543e184100"/>
     </person>
-    <person handle="_cb589cd2ce33616538c" change="1627998483" id="I5383">
+    <person handle="_cb589cd2ce33616538c" change="1628096340" id="I5383">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Hjalmar Ferdinand</first>
@@ -18440,7 +18446,7 @@
       <eventref hlink="_ece7aab987040e90f4062118035" role="Primary"/>
       <childof hlink="_cb589ccf0543e184100"/>
     </person>
-    <person handle="_cb589cd2d0b50c43415" change="1508366495" id="I4404">
+    <person handle="_cb589cd2d0b50c43415" change="1628096340" id="I4404">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Aleksander Nikolai</first>
@@ -18450,7 +18456,7 @@
       <eventref hlink="_cb589cd2d21493e45a5" role="Primary"/>
       <childof hlink="_cb589ccf0543e184100"/>
     </person>
-    <person handle="_cb589cd2d424fe28e76" change="1508366495" id="I4171">
+    <person handle="_cb589cd2d424fe28e76" change="1628096340" id="I4171">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Olga Aleksandra</first>
@@ -18459,7 +18465,7 @@
       <eventref hlink="_cb589cd2d492d2312bc" role="Primary"/>
       <childof hlink="_cb589ccf0543e184100"/>
     </person>
-    <person handle="_cb589cd2d6a3dc236e3" change="1628033850" id="I4392">
+    <person handle="_cb589cd2d6a3dc236e3" change="1628096340" id="I4392">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Herman</first>
@@ -18469,7 +18475,7 @@
       <eventref hlink="_ece8e3cb0a01c6baaef46664db1" role="Primary"/>
       <childof hlink="_cb589ccf0543e184100"/>
     </person>
-    <person handle="_cb589cd2d93428803ee" change="1508366495" id="I4734">
+    <person handle="_cb589cd2d93428803ee" change="1628096340" id="I4734">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Alma Aurora</first>
@@ -27870,7 +27876,7 @@
       <childref hlink="_cb589cd2c2c0fd05375"/>
       <childref hlink="_cb589cd2c683e5aa3a8"/>
     </family>
-    <family handle="_cb589ccf0543e184100" change="1508366495" id="F2291">
+    <family handle="_cb589ccf0543e184100" change="1628096340" id="F2291">
       <rel type="Married"/>
       <father hlink="_cb589ccf0387502cd29"/>
       <mother hlink="_cea12275cdd132f5c61"/>
@@ -27878,6 +27884,7 @@
       <eventref hlink="_db7ee25a0135547652e471f7ca6" role="Family"/>
       <eventref hlink="_db7eecf6682762476861e846a" role="Family"/>
       <eventref hlink="_db7ef88f854329e8fee7a096964" role="Family"/>
+      <eventref hlink="_eceb509d7c02e95db02f64b322e" role="Family"/>
       <childref hlink="_cb589cd2cb16e530514"/>
       <childref hlink="_cb589cd2ce33616538c"/>
       <childref hlink="_cb589cd2d0b50c43415"/>
@@ -38547,6 +38554,14 @@
       <noteref hlink="_eceb36366a66030b5dced6d8a71"/>
       <sourceref hlink="_eceb34d101f66c4c8f588366c8b"/>
     </citation>
+    <citation handle="_eceb50931a2631780a9f0179b8d" change="1628096333" id="C1262">
+      <page>H:216/44</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eceb4f4ad762d05ce44e0b91d2a"/>
+      <noteref hlink="_eceb4f906fa78d499d5f687de32"/>
+      <noteref hlink="_eceb5084cf5b198c43a18bd3fa"/>
+      <sourceref hlink="_eceb4f368544f3fe31602a9b6a5"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -41174,6 +41189,11 @@
       <sauthor>Hämeen lääni</sauthor>
       <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
     </source>
+    <source handle="_eceb4f368544f3fe31602a9b6a5" change="1628096190" id="S0525">
+      <stitle>Häme Henkikirja 1915</stitle>
+      <sauthor>Hämeen lääni</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1595618071" id="P0000" type="City">
@@ -42912,7 +42932,7 @@
       <pname value="Härkälä"/>
       <placeref hlink="_ce9a9fdc1a3005f117a"/>
     </placeobj>
-    <placeobj handle="_db7edba33a070fea96eb55b869c" change="1508362311" id="P0559" type="Village">
+    <placeobj handle="_db7edba33a070fea96eb55b869c" change="1628096136" id="P0559" type="Village">
       <pname value="Joensuu"/>
       <placeref hlink="_ce9a9fdc1a3005f117a"/>
     </placeobj>
@@ -43797,9 +43817,13 @@
       <pname value="14"/>
       <placeref hlink="_ec7193d941f7ae07606844463ce"/>
     </placeobj>
+    <placeobj handle="_eceb4eb4c7c36aac40436645c03" change="1628096137" id="P0106" type="Farm">
+      <pname value="Sievän palstatila"/>
+      <placeref hlink="_db7edba33a070fea96eb55b869c"/>
+    </placeobj>
   </places>
   <repositories>
-    <repository handle="_cdea29a49637c6553bc" change="1628093420" id="R0001">
+    <repository handle="_cdea29a49637c6553bc" change="1628096189" id="R0001">
       <rname>Arkistolaitos Digitaaliarkisto</rname>
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
@@ -57325,6 +57349,25 @@ Yli-Aukusti   Otto Nordberg 59 mtpl, v. Serafia 60 L Hjalmar 90,Olga 96, 1-2
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="205"/>
+      </style>
+    </note>
+    <note handle="_eceb4f4ad762d05ce44e0b91d2a" change="1628096198" id="N1862" type="Citation">
+      <text>Hämeen läänin henkikirjat - Henkikirja 1915-1915 (H:216), jakso 395, sivu 44: Somero: Joensuu; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=22091896 / Viitattu 4.8.2021</text>
+    </note>
+    <note handle="_eceb4f906fa78d499d5f687de32" change="1628096227" id="N1863" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=22091896</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=22091896">
+        <range start="0" end="46"/>
+      </style>
+    </note>
+    <note handle="_eceb5084cf5b198c43a18bd3fa" change="1628096327" id="N1864" type="Transcript" format="1">
+      <text>&lt;Hämeen&gt; läänin &lt;Tammelan&gt; kihlakunnassa olevan &lt;Someron&gt; pitäjän henkikirja vuonna 19&lt;12&gt;     Siv. 47
+
+Joensuu    
+Sievän palstatila, Rakennusmies Otto Nordberg 59 v. Serafia 60, L. Jalmari 90, Olga 96, 1-1
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="208"/>
       </style>
     </note>
   </notes>
