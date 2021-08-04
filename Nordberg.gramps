@@ -10256,9 +10256,9 @@
       <place hlink="_db7edff94ee77607b8e81650c2"/>
       <citationref hlink="_db7eecf36574159b0db9a20fef2"/>
     </event>
-    <event handle="_db7ef88f854329e8fee7a096964" change="1628090843" id="E2264">
+    <event handle="_db7ef88f854329e8fee7a096964" change="1628093625" id="E2264">
       <type>Residence</type>
-      <datespan start="1900" stop="1913"/>
+      <datespan start="1900" stop="1914"/>
       <place hlink="_db7edff94ee77607b8e81650c2"/>
       <citationref hlink="_db7ef86f7552c9d48207c68510c"/>
       <citationref hlink="_eceb013ef1646703f9c008f755d"/>
@@ -10268,6 +10268,7 @@
       <citationref hlink="_eceb0d82e0c4299dcf84533fdbb"/>
       <citationref hlink="_eceb10d68214ed3d4c10aff2c08"/>
       <citationref hlink="_eceb1bef8b7568b681ba747950a"/>
+      <citationref hlink="_eceb36ad673d34607d209b8292"/>
     </event>
     <event handle="_db7f013dea83ad1ca94d3d0da4e" change="1627916448" id="E2265">
       <type>Death</type>
@@ -38539,6 +38540,13 @@
       <noteref hlink="_eceb1bdecf221b60463ed3d3ee1"/>
       <sourceref hlink="_eceb1992bdf7561bfe8bb3c1ac6"/>
     </citation>
+    <citation handle="_eceb36ad673d34607d209b8292" change="1628093617" id="C1261">
+      <page>H:207/47</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eceb352035021ca3b319fc4e476"/>
+      <noteref hlink="_eceb36366a66030b5dced6d8a71"/>
+      <sourceref hlink="_eceb34d101f66c4c8f588366c8b"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -41158,6 +41166,11 @@
     </source>
     <source handle="_eceb1992bdf7561bfe8bb3c1ac6" change="1628090565" id="S0523">
       <stitle>Häme Henkikirja 1913</stitle>
+      <sauthor>Hämeen lääni</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
+    <source handle="_eceb34d101f66c4c8f588366c8b" change="1628093422" id="S0524">
+      <stitle>Häme Henkikirja 1914</stitle>
       <sauthor>Hämeen lääni</sauthor>
       <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
     </source>
@@ -43786,7 +43799,7 @@
     </placeobj>
   </places>
   <repositories>
-    <repository handle="_cdea29a49637c6553bc" change="1628090564" id="R0001">
+    <repository handle="_cdea29a49637c6553bc" change="1628093420" id="R0001">
       <rname>Arkistolaitos Digitaaliarkisto</rname>
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
@@ -57296,6 +57309,22 @@ Yli-Aukusti    Otto Nordberg 59 mtpl. v. Serafia 60 L. Hjalmar 90, Olga 96, 1-1
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="210"/>
+      </style>
+    </note>
+    <note handle="_eceb352035021ca3b319fc4e476" change="1628093454" id="N1860" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=76706021</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=76706021">
+        <range start="0" end="46"/>
+      </style>
+    </note>
+    <note handle="_eceb36366a66030b5dced6d8a71" change="1628093568" id="N1861" type="Transcript" format="1">
+      <text>&lt;Hämeen&gt; läänin &lt;Tammelan&gt; kihlakunnassa olevan &lt;Someron&gt; pitäjän henkikirja vuonna 19&lt;12&gt;     Siv. 47
+
+Joensuu    [Tilattomat] 
+Yli-Aukusti   Otto Nordberg 59 mtpl, v. Serafia 60 L Hjalmar 90,Olga 96, 1-2
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="205"/>
       </style>
     </note>
   </notes>
