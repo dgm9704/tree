@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2021-08-04" version="5.1.3"/>
+    <created date="2021-08-05" version="5.1.3"/>
     <researcher>
     </researcher>
   </header>
@@ -14731,13 +14731,14 @@
       <citationref hlink="_eceb7d6f9882965c06d9b617cce"/>
       <citationref hlink="_eceb50931a2631780a9f0179b8d"/>
     </event>
-    <event handle="_eceb82b7f6f41de99dead2f0283" change="1628103467" id="E0350">
+    <event handle="_eceb82b7f6f41de99dead2f0283" change="1628113734" id="E0350">
       <type>Residence</type>
-      <datespan start="1916" stop="1918"/>
+      <datespan start="1916" stop="1919"/>
       <place hlink="_eceb80d71fa1070a46fdd502dbc"/>
       <citationref hlink="_eceb82aec6115c9ff9e7ac7440b"/>
       <citationref hlink="_eceb8ce4198345caba2679e602c"/>
       <citationref hlink="_eceb9496e372384d687bf283d00"/>
+      <citationref hlink="_ecebf680c9a2430742b1bd98ea1"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -38604,6 +38605,14 @@
       <noteref hlink="_eceb948ebb4202ffd7c416c9e8e"/>
       <sourceref hlink="_eceb93c578d18b4292fa1d6649f"/>
     </citation>
+    <citation handle="_ecebf680c9a2430742b1bd98ea1" change="1628113731" id="C1267">
+      <page>H:257/40</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ecebf55640e2cf0906396cbf1db"/>
+      <noteref hlink="_ecebf58c02e1ad70757890b2633"/>
+      <noteref hlink="_ecebf64db97710cbf803834575f"/>
+      <sourceref hlink="_ecebf52bbf5e5295491cdfd9"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -41251,6 +41260,11 @@
       <sauthor>Hämeen lääni</sauthor>
       <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
     </source>
+    <source handle="_ecebf52bbf5e5295491cdfd9" change="1628113592" id="S0529">
+      <stitle>Häme Henkikirja 1919</stitle>
+      <sauthor>Hämeen lääni</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1595618071" id="P0000" type="City">
@@ -43884,7 +43898,7 @@
     </placeobj>
   </places>
   <repositories>
-    <repository handle="_cdea29a49637c6553bc" change="1628103377" id="R0001">
+    <repository handle="_cdea29a49637c6553bc" change="1628113470" id="R0001">
       <rname>Arkistolaitos Digitaaliarkisto</rname>
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
@@ -57499,6 +57513,24 @@ Joensuu
 Kaunelan palstatila, Palstatilallinen Otto Nordberg 59 v. Serafia 60 L. Jalmar Wuori 90, Olga 96, Herman 99, 0-1</text>
       <style name="fontface" value="Monospace">
         <range start="0" end="224"/>
+      </style>
+    </note>
+    <note handle="_ecebf55640e2cf0906396cbf1db" change="1628113609" id="N1876" type="Citation">
+      <text>Hämeen läänin henkikirjat - Henkikirja 1919-1919 (H:257), jakso 382, sivu 40: Somero: Joensuu; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=77144762 / Viitattu 5.8.2021</text>
+    </note>
+    <note handle="_ecebf58c02e1ad70757890b2633" change="1628113631" id="N1877" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=77144762</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=77144762">
+        <range start="0" end="46"/>
+      </style>
+    </note>
+    <note handle="_ecebf64db97710cbf803834575f" change="1628113710" id="N1878" type="Transcript" format="1">
+      <text>&lt;Hämeen&gt; läänin &lt;Tammelan&gt; kihlakunnassa olevan &lt;Someron&gt; pitäjän henkikirja vuonna 19&lt;19&gt;     Siv. 40
+
+Joensuu
+Kaunelan palstatila, Tilallinen Otto Nordberg 59 v. Serafia 60 L. Olga 96, Herman 99, 0-1</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="201"/>
       </style>
     </note>
   </notes>
