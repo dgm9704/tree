@@ -10256,9 +10256,9 @@
       <place hlink="_db7edff94ee77607b8e81650c2"/>
       <citationref hlink="_db7eecf36574159b0db9a20fef2"/>
     </event>
-    <event handle="_db7ef88f854329e8fee7a096964" change="1628089687" id="E2264">
+    <event handle="_db7ef88f854329e8fee7a096964" change="1628090843" id="E2264">
       <type>Residence</type>
-      <datespan start="1900" stop="1912"/>
+      <datespan start="1900" stop="1913"/>
       <place hlink="_db7edff94ee77607b8e81650c2"/>
       <citationref hlink="_db7ef86f7552c9d48207c68510c"/>
       <citationref hlink="_eceb013ef1646703f9c008f755d"/>
@@ -10267,6 +10267,7 @@
       <citationref hlink="_eceb0aed2d537565dd1f7bdf438"/>
       <citationref hlink="_eceb0d82e0c4299dcf84533fdbb"/>
       <citationref hlink="_eceb10d68214ed3d4c10aff2c08"/>
+      <citationref hlink="_eceb1bef8b7568b681ba747950a"/>
     </event>
     <event handle="_db7f013dea83ad1ca94d3d0da4e" change="1627916448" id="E2265">
       <type>Death</type>
@@ -38530,6 +38531,14 @@
       <noteref hlink="_eceb10c622665a21a71e35cc55f"/>
       <sourceref hlink="_eceb0fa0a0b6945ad69406db8d5"/>
     </citation>
+    <citation handle="_eceb1bef8b7568b681ba747950a" change="1628090813" id="C1260">
+      <page>H:200/44</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eceb19a364632444fbe30204941"/>
+      <noteref hlink="_eceb1a0dce876bf46e01a4da97c"/>
+      <noteref hlink="_eceb1bdecf221b60463ed3d3ee1"/>
+      <sourceref hlink="_eceb1992bdf7561bfe8bb3c1ac6"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -41144,6 +41153,11 @@
     </source>
     <source handle="_eceb0fa0a0b6945ad69406db8d5" change="1628089685" id="S0522">
       <stitle>Häme Henkikirja 1912</stitle>
+      <sauthor>Hämeen lääni</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
+    <source handle="_eceb1992bdf7561bfe8bb3c1ac6" change="1628090565" id="S0523">
+      <stitle>Häme Henkikirja 1913</stitle>
       <sauthor>Hämeen lääni</sauthor>
       <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
     </source>
@@ -43772,7 +43786,7 @@
     </placeobj>
   </places>
   <repositories>
-    <repository handle="_cdea29a49637c6553bc" change="1628089521" id="R0001">
+    <repository handle="_cdea29a49637c6553bc" change="1628090564" id="R0001">
       <rname>Arkistolaitos Digitaaliarkisto</rname>
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
@@ -57263,6 +57277,25 @@ Joensuu    Yli-Aukusti
       <text>http://digi.narc.fi/digi/view.ka?kuid=73961260</text>
       <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=73961260">
         <range start="0" end="46"/>
+      </style>
+    </note>
+    <note handle="_eceb19a364632444fbe30204941" change="1628090572" id="N1857" type="Citation">
+      <text>Hämeen läänin henkikirjat - Henkikirja 1913-1913 (H:200), jakso 1165, sivu 44: Somero: Joensuu; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=74278056 / Viitattu 4.8.2021</text>
+    </note>
+    <note handle="_eceb1a0dce876bf46e01a4da97c" change="1628090616" id="N1858" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=74278056</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=74278056">
+        <range start="0" end="46"/>
+      </style>
+    </note>
+    <note handle="_eceb1bdecf221b60463ed3d3ee1" change="1628090806" id="N1859" type="Transcript" format="1">
+      <text>[Hämeen] läänin [Tammelan] kihlakunnassa olevan [Someron] pitäjän henkikirja vuonna 19[13]     Siv. &lt;44&gt;
+
+Joensuu    [Tilattomia]
+Yli-Aukusti    Otto Nordberg 59 mtpl. v. Serafia 60 L. Hjalmar 90, Olga 96, 1-1
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="210"/>
       </style>
     </note>
   </notes>
