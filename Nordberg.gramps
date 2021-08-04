@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2021-08-03" version="5.1.3"/>
+    <created date="2021-08-04" version="5.1.3"/>
     <researcher>
     </researcher>
   </header>
@@ -9236,7 +9236,7 @@
       <citationref hlink="_d7d8bd9d3a91ec704dd842a8573"/>
       <citationref hlink="_dcdc6642eb089c5ec66f941565"/>
     </event>
-    <event handle="_d7d8b7fb17b63dcf4cd32f3987d" change="1532374554" id="E2050">
+    <event handle="_d7d8b7fb17b63dcf4cd32f3987d" change="1628017752" id="E2050">
       <type>Burial</type>
       <dateval val="1928-02-18"/>
       <place hlink="_d7d8b7f8178184b23eb245fa824"/>
@@ -10256,11 +10256,17 @@
       <place hlink="_db7edff94ee77607b8e81650c2"/>
       <citationref hlink="_db7eecf36574159b0db9a20fef2"/>
     </event>
-    <event handle="_db7ef88f854329e8fee7a096964" change="1627916664" id="E2264">
+    <event handle="_db7ef88f854329e8fee7a096964" change="1628089687" id="E2264">
       <type>Residence</type>
-      <datespan start="1900" stop="1909"/>
+      <datespan start="1900" stop="1912"/>
       <place hlink="_db7edff94ee77607b8e81650c2"/>
       <citationref hlink="_db7ef86f7552c9d48207c68510c"/>
+      <citationref hlink="_eceb013ef1646703f9c008f755d"/>
+      <citationref hlink="_eceb03e33893807ab1968c4536"/>
+      <citationref hlink="_eceb083568b7bd390c9f83b04b2"/>
+      <citationref hlink="_eceb0aed2d537565dd1f7bdf438"/>
+      <citationref hlink="_eceb0d82e0c4299dcf84533fdbb"/>
+      <citationref hlink="_eceb10d68214ed3d4c10aff2c08"/>
     </event>
     <event handle="_db7f013dea83ad1ca94d3d0da4e" change="1627916448" id="E2265">
       <type>Death</type>
@@ -10667,7 +10673,7 @@
       <citationref hlink="_db8bdbd04363938f472f552196d"/>
       <citationref hlink="_db8bdd83fce41410ae10e60fc32"/>
     </event>
-    <event handle="_dcdc4fb197d2563db24863a1995" change="1608549017" id="E0037">
+    <event handle="_dcdc4fb197d2563db24863a1995" change="1628017744" id="E0037">
       <type>Death</type>
       <dateval val="1928-02-13"/>
       <place hlink="_cde62768b9e01659bdc"/>
@@ -13410,7 +13416,7 @@
       <place hlink="_ce849d0239c081d788f"/>
       <citationref hlink="_e725052fa0192a9307d405e326"/>
     </event>
-    <event handle="_e72507d7c94232d8ca793683dd6" change="1588414846" id="E0010">
+    <event handle="_e72507d7c94232d8ca793683dd6" change="1628017523" id="E0010">
       <type>Death</type>
       <dateval val="1920-02-02"/>
       <place hlink="_ce849d0239c081d788f"/>
@@ -13430,7 +13436,7 @@
       <citationref hlink="_d007585432e69f66109"/>
       <citationref hlink="_e725052fa0192a9307d405e326"/>
     </event>
-    <event handle="_e82029c63404588753fd8a876b4" change="1595170904" id="E0045">
+    <event handle="_e82029c63404588753fd8a876b4" change="1628022245" id="E0045">
       <type>Burial</type>
       <dateval val="1929-03-10"/>
       <place hlink="_e82029a50ec36629ca48da3ab9c"/>
@@ -14708,6 +14714,12 @@
       <place hlink="_db7edff94ee77607b8e81650c2"/>
       <description>Vuori</description>
       <citationref hlink="_db7ef86f7552c9d48207c68510c"/>
+    </event>
+    <event handle="_ece8e3cb0a01c6baaef46664db1" change="1628031239" id="E0348">
+      <type>Death</type>
+      <dateval val="1977-03-11"/>
+      <place hlink="_ce9a9fdc1a3005f117a"/>
+      <noteref hlink="_ece8e3c6e754e54ee0efc87e677"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -18445,13 +18457,14 @@
       <eventref hlink="_cb589cd2d492d2312bc" role="Primary"/>
       <childof hlink="_cb589ccf0543e184100"/>
     </person>
-    <person handle="_cb589cd2d6a3dc236e3" change="1526212518" id="I4392">
+    <person handle="_cb589cd2d6a3dc236e3" change="1628033850" id="I4392">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Herman</first>
         <surname>Nordberg</surname>
       </name>
       <eventref hlink="_cb589cd2d7149cf5555" role="Primary"/>
+      <eventref hlink="_ece8e3cb0a01c6baaef46664db1" role="Primary"/>
       <childof hlink="_cb589ccf0543e184100"/>
     </person>
     <person handle="_cb589cd2d93428803ee" change="1508366495" id="I4734">
@@ -38469,6 +38482,54 @@
       <noteref hlink="_ec84ac6644f495dd3d8d7554ef"/>
       <sourceref hlink="_ec84a8e4f5547bb63d25501e579"/>
     </citation>
+    <citation handle="_eceb013ef1646703f9c008f755d" change="1628088014" id="C1254">
+      <page>H:163/23</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eceafee4d0a503ece0a6aca87bf"/>
+      <noteref hlink="_eceaff2dba1536513d5996aeedc"/>
+      <noteref hlink="_eceb012e1a655fd9a873dfde8c2"/>
+      <sourceref hlink="_eceafea4186429e7fed8ae43136"/>
+    </citation>
+    <citation handle="_eceb03e33893807ab1968c4536" change="1628088291" id="C1255">
+      <page>H:170/25</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eceb031b68858550a303198e091"/>
+      <noteref hlink="_eceb034d31c24d56841eb820d9f"/>
+      <noteref hlink="_eceb03d1b182cc36db823d373c"/>
+      <sourceref hlink="_eceb02d116f56a9c4f01890e517"/>
+    </citation>
+    <citation handle="_eceb083568b7bd390c9f83b04b2" change="1628088744" id="C1256">
+      <page>H.176/28</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eceb07210b577c32f4da69cd39e"/>
+      <noteref hlink="_eceb0750cc7b3ec0aab9b1a277"/>
+      <noteref hlink="_eceb082b2e415e6a78eae5010c"/>
+      <sourceref hlink="_eceb06eb1662a231a90f05880f5"/>
+    </citation>
+    <citation handle="_eceb0aed2d537565dd1f7bdf438" change="1628089029" id="C1257">
+      <page>H:182/26</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eceb09da2167c83fe7038255125"/>
+      <noteref hlink="_eceb0a6dafb5dac8bf2780cd47c"/>
+      <noteref hlink="_eceb0ae54d56b6f826f2e8fb2d9"/>
+      <sourceref hlink="_eceb0a0e84c5959267ad2e2aa6e"/>
+    </citation>
+    <citation handle="_eceb0d82e0c4299dcf84533fdbb" change="1628089317" id="C1258">
+      <page>H:188/27</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eceb0cdf77c3266dfcc3722d306"/>
+      <noteref hlink="_eceb0d37baf66723075a3af15ab"/>
+      <noteref hlink="_eceb0d711b13ffb79029bf64cc3"/>
+      <sourceref hlink="_eceb0c640d5699ca26f4d2662ee"/>
+    </citation>
+    <citation handle="_eceb10d68214ed3d4c10aff2c08" change="1628089649" id="C1259">
+      <page>H:194/31</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eceb1051a34767fedd867e7d984"/>
+      <noteref hlink="_eceb108070c17eb9607595d7ee4"/>
+      <noteref hlink="_eceb10c622665a21a71e35cc55f"/>
+      <sourceref hlink="_eceb0fa0a0b6945ad69406db8d5"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -41055,6 +41116,35 @@
     <source handle="_ec84a8e4f5547bb63d25501e579" change="1625340708" id="S0516">
       <stitle>Uusimaa Henkikirja 1884</stitle>
       <sauthor>Uudenmaan lääni</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
+    <source handle="_eceafea4186429e7fed8ae43136" change="1628087741" id="S0517">
+      <stitle>Häme Henkikirja 1907</stitle>
+      <sauthor>Hämeen lääni</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
+    <source handle="_eceb02d116f56a9c4f01890e517" change="1628088179" id="S0518">
+      <stitle>Häme Henkikirja 1908</stitle>
+      <sauthor>Hämeen lääni</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
+    <source handle="_eceb06eb1662a231a90f05880f5" change="1628088609" id="S0519">
+      <stitle>Häme Henkikirja 1909</stitle>
+      <sauthor>Hämeen lääni</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
+    <source handle="_eceb0a0e84c5959267ad2e2aa6e" change="1628088938" id="S0520">
+      <stitle>Häme Henkikirja 1910</stitle>
+      <sauthor>Hämeen lääni</sauthor>
+    </source>
+    <source handle="_eceb0c640d5699ca26f4d2662ee" change="1628089183" id="S0521">
+      <stitle>Häme Henkikirja 1911</stitle>
+      <sauthor>Hämeen lääni</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
+    <source handle="_eceb0fa0a0b6945ad69406db8d5" change="1628089685" id="S0522">
+      <stitle>Häme Henkikirja 1912</stitle>
+      <sauthor>Hämeen lääni</sauthor>
       <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
     </source>
   </sources>
@@ -43682,7 +43772,7 @@
     </placeobj>
   </places>
   <repositories>
-    <repository handle="_cdea29a49637c6553bc" change="1625340707" id="R0001">
+    <repository handle="_cdea29a49637c6553bc" change="1628089521" id="R0001">
       <rname>Arkistolaitos Digitaaliarkisto</rname>
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
@@ -57055,6 +57145,124 @@ tr Alma Aurora                       6/3   1904    &quot;
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="579"/>
+      </style>
+    </note>
+    <note handle="_ece8e3c6e754e54ee0efc87e677" change="1628031237" id="N1838" type="Link">
+      <text>https://www.facebook.com/photo/?fbid=10159006874103257&amp;set=oa.783756509081541</text>
+    </note>
+    <note handle="_eceafee4d0a503ece0a6aca87bf" change="1628087768" id="N1839" type="Citation">
+      <text>Hämeen läänin henkikirjat - Henkikirja 1907-1907 (H:163), jakso 93, sivu 23: Joensuu; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=73262964 / Viitattu 4.8.2021</text>
+    </note>
+    <note handle="_eceaff2dba1536513d5996aeedc" change="1628087798" id="N1840" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=73262964</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=73262964">
+        <range start="0" end="46"/>
+      </style>
+    </note>
+    <note handle="_eceb012e1a655fd9a873dfde8c2" change="1628088007" id="N1841" type="Transcript" format="1">
+      <text>&lt;Hämeen&gt; läänin &lt;Tammelan&gt; kihlakunnassa olevan &lt;Someron&gt; pitäjän henkikirja vuonna 19&lt;07&gt;     23
+
+Joensuu    [Yli-Aukusti]
+[Mtpl]    Otto Nordberg 59, v. Serafia 60 L Hjalmar 90, 1-2
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="184"/>
+      </style>
+    </note>
+    <note handle="_eceb031b68858550a303198e091" change="1628088209" id="N1842" type="Citation">
+      <text>Hämeen läänin henkikirjat - Henkikirja 1908-1908 (H:170), jakso 260; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=73956755 / Viitattu 4.8.2021</text>
+    </note>
+    <note handle="_eceb034d31c24d56841eb820d9f" change="1628088230" id="N1843" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=73956755</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=73956755">
+        <range start="0" end="46"/>
+      </style>
+    </note>
+    <note handle="_eceb03d1b182cc36db823d373c" change="1628088674" id="N1844" type="Transcript" format="1">
+      <text>&lt;Hämeen&gt; läänin &lt;Tammelan&gt; kihlakunnassa olevan &lt;Someron&gt; pitäjän henkikirja vuonna 19&lt;08&gt;     23
+
+Joensuu    [Yli-Aukusti]
+[Mtpl]    Otto Nordberg 59, v. Serafia 60 L Hjalmar 90, 1-2
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="184"/>
+      </style>
+    </note>
+    <note handle="_eceb07210b577c32f4da69cd39e" change="1628088631" id="N1845" type="Citation">
+      <text>Hämeen läänin henkikirjat - Henkikirja 1909-1909 (H:176), jakso 33, sivu 28: Someron pitäjä. Jaatila ; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=73958315 / Viitattu 4.8.2021</text>
+    </note>
+    <note handle="_eceb0750cc7b3ec0aab9b1a277" change="1628088651" id="N1846" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=73958315</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=73958315">
+        <range start="0" end="46"/>
+      </style>
+    </note>
+    <note handle="_eceb082b2e415e6a78eae5010c" change="1628088740" id="N1847" type="Transcript" format="1">
+      <text>&lt;Hämeen&gt; läänin &lt;Tammelan&gt; kihlakunnassa olevan &lt;Someron&gt; pitäjän henkikirja vuonna 19&lt;09&gt;     28
+
+[Joensuu]    [Yli-Aukusti]
+Jaatila [HUOM väärin kirjattu]
+[Mtpl]    Otto Nordberg 59, v. Serafia 60 L Hjalmar 90, 1-2
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="217"/>
+      </style>
+    </note>
+    <note handle="_eceb09da2167c83fe7038255125" change="1628088917" id="N1848" type="Transcript" format="1">
+      <text>&lt;Hämeen&gt; läänin &lt;Tammelan&gt; kihlakunnassa olevan &lt;Someron&gt; pitäjän henkikirja vuonna 19&lt;10&gt;     26
+
+Joensuu    [Yli-Aukusti]
+[Mtpl]    Otto Nordberg 59, v. Serafia 60 L Hjalmar 90, 1-2
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="184"/>
+      </style>
+    </note>
+    <note handle="_eceb0a6dafb5dac8bf2780cd47c" change="1628088977" id="N1849" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=22098341</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=22098341">
+        <range start="0" end="46"/>
+      </style>
+    </note>
+    <note handle="_eceb0ae54d56b6f826f2e8fb2d9" change="1628089026" id="N1850" type="Citation">
+      <text>Hämeen läänin henkikirjat - Henkikirja 1910-1910 (H:182), jakso 218, sivu 26: Somero: Joensuu; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=22098341 / Viitattu 4.8.2021</text>
+    </note>
+    <note handle="_eceb0cdf77c3266dfcc3722d306" change="1628089234" id="N1851" type="Transcript" format="1">
+      <text>&lt;Hämeen&gt; läänin &lt;Tammelan&gt; kihlakunnassa olevan &lt;Someron&gt; pitäjän henkikirja vuonna 19&lt;11&gt;     Siv. 27
+
+Joensuu    [Yli-Aukusti]
+[Mtpl]    Otto Nordberg 59, v. Serafia 60 L Hjalmar 90, 1-2
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="189"/>
+      </style>
+    </note>
+    <note handle="_eceb0d37baf66723075a3af15ab" change="1628089270" id="N1852" type="Citation">
+      <text>Hämeen läänin henkikirjat - Henkikirja 1911-1911 (H:188), jakso 267, sivu 27: Somero: Joensuu; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=73960097 / Viitattu 4.8.2021</text>
+    </note>
+    <note handle="_eceb0d711b13ffb79029bf64cc3" change="1628089293" id="N1853" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=73960097</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=73960097">
+        <range start="0" end="46"/>
+      </style>
+    </note>
+    <note handle="_eceb1051a34767fedd867e7d984" change="1628089595" id="N1854" type="Transcript" format="1">
+      <text>&lt;Hämeen&gt; läänin &lt;Tammelan&gt; kihlakunnassa olevan &lt;Someron&gt; pitäjän henkikirja vuonna 19&lt;12&gt;     Siv. 31
+
+Joensuu    Yli-Aukusti
+[Mtpl]    Otto Nordberg 59, v. Serafia 60 L Hjalmar 90, 1-2
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="187"/>
+      </style>
+    </note>
+    <note handle="_eceb108070c17eb9607595d7ee4" change="1628089614" id="N1855" type="Citation">
+      <text>Hämeen läänin henkikirjat - Henkikirja 1912-1912 (H:194), jakso 230, sivu 31: Somero: Jaatila, Joensuu; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=73961260 / Viitattu 4.8.2021</text>
+    </note>
+    <note handle="_eceb10c622665a21a71e35cc55f" change="1628089643" id="N1856" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=73961260</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=73961260">
+        <range start="0" end="46"/>
       </style>
     </note>
   </notes>
