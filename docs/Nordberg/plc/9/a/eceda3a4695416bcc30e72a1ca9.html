@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
 <head lang="en-US">
-	<title>Nordberg - Events</title>
+	<title>Nordberg - Places</title>
 	<meta charset="UTF-8" />
 	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
@@ -12,7 +12,7 @@
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
 </head>
-<body>
+<body  onload = "initialize();" >
 	<div id="outerwrapper">
 		<div id="header">
 			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
@@ -24,8 +24,8 @@
 					<li><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
 					<li><a href="../../../families.html" title="Families">Families</a></li>
-					<li class = "CurrentSection"><a href="../../../events.html" title="Events">Events</a></li>
-					<li><a href="../../../places.html" title="Places">Places</a></li>
+					<li><a href="../../../events.html" title="Events">Events</a></li>
+					<li class = "CurrentSection"><a href="../../../places.html" title="Places">Places</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
 					<li><a href="../../../media.html" title="Media">Media</a></li>
@@ -35,54 +35,77 @@
 				</ul>
 			</div>
 		</div>
-		<div class="content" id="EventDetail">
-			<h3>Death</h3>
-			<table class="infolist eventlist">
-				<tbody>
-					<tr>
-						<td class="ColumnAttribute">Date</td>
-						<td class="ColumnColumnDate">
-						1964-06-02
-						</td>
-					</tr>
-					<tr>
-						<td class="ColumnAttribute">Place</td>
-						<td class="ColumnColumnPlace">
-							<a href="../../../plc/5/5/cb589cc7f8d1b88b055.html" title="Helsinki, Suomi">
-							Helsinki, Suomi
-							</a>
-						</td>
-					</tr>
-				</tbody>
-			</table>
-			<div class="subsection" id="sourcerefs">
-				<h4>Source References</h4>
-				<ol>
-					<li>
-						<a href="../../../src/1/1/dcdca40243a6a2622f77575711.html" title="tuntematon: Lehtileike" name ="sref1">
-						tuntematon: Lehtileike
-						</a>
-						<ol>
-							<li id="sref1a">
-								<ul>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://drive.google.com/drive/folders/0B2JbCJkLtH0DaXBJWVF6NHR5cXc">https://drive.google.com/drive/folders/0B2JbCJkLtH0DaXBJWVF6NHR5cXc</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p>[risti]<br />					 &nbsp; &nbsp; KAPTEENI evp.<br />					 &nbsp; &nbsp; &nbsp; &nbsp;Paul W. W.<br />					 &nbsp; &nbsp; &nbsp;NOROVUORI<br />					* 30. 8. 1908 Viipurissa<br />					† &nbsp; &nbsp;2. 6. 1964 Helsingissä</p><p>					 &nbsp; &nbsp;Rakkaudella muistaen<br />					 &nbsp; &nbsp;Alli o.s. Wahrman<br />					 &nbsp; &nbsp;Paavo, Anita ja Pentti<br />					 &nbsp; &nbsp;Marjatta sekä<br />					 &nbsp; &nbsp;muut omaiset<br />-------------------------------------------------------------<br />Siunaustilaisuus pidetään Lohjan siunauskappelissa kesä-<br />kuun 13 pnä klo 14.00, joka ainoastaan täten ystävällisenä<br />kutsuna ilmoitetaan.</p></div>
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-				</ol>
+		<div class="content" id="PlaceDetail">
+			<h3>Rauhankallio, Oinasjärvi, Somerniemi, Suomi</h3>
+			<div id="summaryarea">
+				<table class="infolist place">
+					<tbody>
+						<tr>
+							<td class="ColumnAttribute">Church Parish</td>
+							<td class="ColumnValue">Somerniemi</td>
+						</tr>
+						<tr>
+							<td class="ColumnAttribute">Country</td>
+							<td class="ColumnValue">Suomi</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+							&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<th class="ColumnAttribute" colspan="1">Alternate Names</th>
+							<th class="ColumnAttribute" colspan="1">Language</th>
+							<th class="ColumnAttribute" colspan="1">Date range in which the name is valid.</th>
+						</tr>
+						<tr>
+							<td class="ColumnValue">Jussila</td>
+							<td class="ColumnValue"></td>
+							<td class="ColumnValue"></td>
+						</tr>
+						<tr>
+							<td>
+							&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<th class="ColumnAttribute">Enclosed By</th>
+						</tr>
+						<tr>
+							<td class="ColumnValue">Oinasjärvi</td>
+						</tr>
+						<tr>
+							<td>
+							&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<th class="ColumnAttribute">Place Encloses</th>
+						</tr>
+					</tbody>
+				</table>
 			</div>
+			<div id="popup"></div>
 			<div class="subsection" id="references">
 				<h4>References</h4>
 				<ol class="Col1" role="Volume-n-Page" type=1>
 					<li>
-						<a href="../../../ppl/8/2/cb589cc80b85ba4f528.html">
-						Norovuori Paul Wilhelm Waldemar
+						<a href="../../../ppl/2/f/eced977b6a957f4acc3034c06f2.html">
+						Sandra
+						
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../fam/9/2/eced97242ef3ee2770424bafd29.html">
+						Family of Nordberg Hjalmar Ferdinand and Sandra
+						
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/c/8/cb589cd2ce33616538c.html">
+						Nordberg Hjalmar Ferdinand
 						
 						
 						</a>
@@ -93,7 +116,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.3<br />Last change was the 2021-08-05 11:17:20
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.3<br />Last change was the 2021-08-05 13:19:26
 			</p>
 			<p id="copyright">
 			
