@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2021-08-05" version="5.1.3"/>
+    <created date="2021-08-06" version="5.1.3"/>
     <researcher>
     </researcher>
   </header>
@@ -1674,7 +1674,7 @@
       <citationref hlink="_d6d13d35a8334bdd319ba18d23"/>
       <citationref hlink="_d6d0b9ac6e0434535ea516761e1"/>
     </event>
-    <event handle="_cb589cced2a142d7043" change="1601296224" id="E1036">
+    <event handle="_cb589cced2a142d7043" change="1628251252" id="E1036">
       <type>Birth</type>
       <dateval val="1776-03-11"/>
       <place hlink="_cea5bfbbe2a7982e275"/>
@@ -9103,7 +9103,7 @@
       <citationref hlink="_d6d0c6a35899f6a678f3311f15"/>
       <citationref hlink="_e38da14199ceb6e77083721de3"/>
     </event>
-    <event handle="_d6ce14f0edd43994a67b1a76357" change="1563734732" id="E1990">
+    <event handle="_d6ce14f0edd43994a67b1a76357" change="1628274459" id="E1990">
       <type>Residence</type>
       <datespan start="1786" stop="1794"/>
       <place hlink="_d6d4c9a6ea11b074476c2f15124"/>
@@ -9143,7 +9143,7 @@
       <citationref hlink="_d6d48807592161911581193dc85"/>
       <citationref hlink="_cdbd0dc1efa1d31833b"/>
     </event>
-    <event handle="_d6d0d83877b2ec4819f743fc5ad" change="1476620835" id="E2007">
+    <event handle="_d6d0d83877b2ec4819f743fc5ad" change="1628274466" id="E2007">
       <type>Residence</type>
       <datespan start="1795" stop="1802"/>
       <place hlink="_d6d4c9a6ea11b074476c2f15124"/>
@@ -13305,7 +13305,7 @@
       <place hlink="_e37e11731be2b71897b1255e881"/>
       <citationref hlink="_e380da902af111f2cc06557a3ea"/>
     </event>
-    <event handle="_e3811f8086d2956cc8226f3f869" change="1621778615" id="E2884">
+    <event handle="_e3811f8086d2956cc8226f3f869" change="1628270966" id="E2884">
       <type>Residence</type>
       <datespan start="1791" stop="1793"/>
       <place hlink="_cea5bfbbe2a7982e275"/>
@@ -13374,7 +13374,7 @@
       <citationref hlink="_e38959fdd693de6f9158162e46d"/>
       <citationref hlink="_e3896691b3124eae95450c552d0"/>
     </event>
-    <event handle="_e38977fc508124363689be7f445" change="1601376911" id="E2902">
+    <event handle="_e38977fc508124363689be7f445" change="1628246002" id="E2902">
       <type>Residence</type>
       <datespan start="1849" stop="1858"/>
       <place hlink="_e37e0e3f53b3d29ddafbb93feec"/>
@@ -26129,15 +26129,15 @@
       <eventref hlink="_e186c8ec254463738a873cad9a9" role="Primary"/>
       <childof hlink="_cf99bfe17cb65ecde12"/>
     </person>
-    <person handle="_e37e1309827750365ce2ab68e5b" change="1601590259" id="I1024">
+    <person handle="_e37e1309827750365ce2ab68e5b" change="1628246015" id="I1024">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anna Stina</first>
         <surname derivation="Patronymic">Jonaedotter</surname>
       </name>
       <eventref hlink="_e37e1386e0653769900f7fc4a44" role="Primary"/>
-      <eventref hlink="_e38978ec96f201f38ff0e28d85" role="Primary"/>
       <eventref hlink="_e90fe2b61e91577ee969671183e" role="Primary"/>
+      <eventref hlink="_e38978ec96f201f38ff0e28d85" role="Primary"/>
       <parentin hlink="_e37e1214d415bbb698cd4599bb3"/>
     </person>
     <person handle="_e3895adaeb25d3cace20dc4a544" change="1601377201" id="I1025">
@@ -37216,10 +37216,11 @@
       <noteref hlink="_e38988f2fe11bb01f72863aff7a"/>
       <sourceref hlink="_e38988a40e27fc0b0cd6562cddc"/>
     </citation>
-    <citation handle="_e38da14199ceb6e77083721de3" change="1563733970" id="C1082">
+    <citation handle="_e38da14199ceb6e77083721de3" change="1628274453" id="C1082">
       <page>jakso 63</page>
       <confidence>2</confidence>
       <noteref hlink="_e38da07e0225d569e8843698e32"/>
+      <noteref hlink="_ecf1f33a0647b447bda13710617"/>
       <sourceref hlink="_e38da010b6d71ca285f0e8d9557"/>
     </citation>
     <citation handle="_e38da7f0bb819d770977004efcd" change="1563734671" id="C1083">
@@ -53524,7 +53525,7 @@ poika Fredrich, jonka syntymäajaksi lastenkirjassa merkitty vuosi 1776</text>
         <range start="0" end="46"/>
       </style>
     </note>
-    <note handle="_e38126542957b16313e6892e0ed" change="1621778461" id="N1475" type="Research">
+    <note handle="_e38126542957b16313e6892e0ed" change="1628250931" id="N1475" type="Research">
       <text>Fredric Johansson asuu rippikirjan 1786-1794 mukaan 
 isänsä seppä Johan Mattssonin luona Hindhår:ssa.
 Hänen syntymäajaksi on merkitty 1776.
@@ -53535,6 +53536,8 @@ Seuraavassa rippikirjassa Fredric ei ole merkittynä
 muun perheen yhteyteen.
 Tästä voi päätellä että Henric on joko kuollut tai 
 muuttanut pois maaliskuun alun 1793 jälkeen.
+
+Seurakunnasta pois muuttaneiden tietoja ei ole tuolta ajalta helposti saatavilla.
 
 Kuolleista löytyy HisKin perusteella vuosilta 1793-1794 
 neljä henkilöä joilla etunimenä Fredric (kaikki itse asiassa Carl Fredric) 
@@ -53549,7 +53552,8 @@ Tälle on merkitty ehtoolliskäyntejä alkaen 13.4.1794
 Tämä täsmäisi siihen, että seppä Johan Mattssonin poika 
 Fredric on mennyt toisen sepän oppipojaksi.
 
-1776 syntyi HisKin mukaan neljä Fredric Johanssonia.</text>
+1776 on seurakunnassa kirjattu syntyneeksi neljä Fredric Johanssonia:
+</text>
     </note>
     <note handle="_e384a437ce1a9dbafd65f5ff35" change="1600947360" id="N1476" type="Link">
       <text>http://digi.narc.fi/digi/view.ka?kuid=7958811</text>
@@ -54734,7 +54738,7 @@ Stjufson  Viktor Ferdinand Backman 9/1 1847 1871 t.p. 436
         <range start="0" end="107"/>
       </style>
     </note>
-    <note handle="_e8f76a1349f69a72b45ebdcc978" change="1600933413" id="N0165" type="Transcript">
+    <note handle="_e8f76a1349f69a72b45ebdcc978" change="1628251244" id="N0165" type="Transcript">
       <text>Martius 1776
 
 11	12	Fredrich
@@ -54742,6 +54746,9 @@ Johan Erichsson	Cathrina Henricsdotter	Hindhår Smeden
 Johan B????	Anna Henricsdr
 Johan B????	Maria Henricsdr
 Johan Johansson</text>
+      <style name="italic">
+        <range start="35" end="44"/>
+      </style>
     </note>
     <note handle="_e8f76ca2c767763ce9f19fc34b" change="1600933607" id="N0166" type="Link">
       <text>https://www.sukuhistoria.fi/sshy/kirjat/Kirkonkirjat/porvoo/rippikirja_1786-1794_ruotksrk_es278/171.htm</text>
@@ -54890,19 +54897,23 @@ Lydande under Sisbacka
 Sokne Smeden Anders Gustaf Sunnmans barn med Maja Lena Gustafsdr f. 1812
 Maria Sofia Sunnman 13/7 1846</text>
     </note>
-    <note handle="_e8fb2b5c4454dde0db67cb73246" change="1601296670" id="N0183" type="Transcript">
+    <note handle="_e8fb2b5c4454dde0db67cb73246" change="1628246000" id="N0183" type="Transcript" format="1">
       <text>228 Kullo Nyby
 Sisbacka
 
 Sokne Smed
-Fredric Johansson Sunnman 1776 Dog den 29 November 1857  Har egna hus
-Hu Anna Stina Jonaedr 1778 Dog den 28 Februarii 1858
-Son Anders Gustaf Sunnman 15/5 1811
-Hu Maja Lena Gustasdotter 18/4 1812
+Fredric Johansson Sunnman 	1776 Dog den 29 November 1857  Har egna hus
+Hu Anna Stina Jonaedr 		1778 Dog den 28 Februarii 1858
+Son Anders Gustaf Sunnman  15/5 1811
+Hu Maja Lena Gustasdotter  18/4 1812
 Son[yliviivattu] Bror 
-Johan Sunnman 29/7 1813
+Johan Sunnman              29/7 1813
 Dotter[yliviivattu] Syster 
-Anna Stina Sunnman 25/2 1806</text>
+Anna Stina Sunnman         25/2 1806
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="361"/>
+      </style>
     </note>
     <note handle="_e8fb33b25c5245176f6d057b947" change="1601035011" id="N0184" type="Transcript">
       <text>Döde år 1857
@@ -57720,6 +57731,10 @@ Oinasjärvi
     Maanviljelijä lautamies Kaarlo Rauhankallio 62, v. Amanda 59, L. Eeva 88, Kasvatti Wihtori Aalto 96;
     Puuseppä Jalmari Pohjanvuori 90, v. Sandra 94, L. 0-1
 </text>
+    </note>
+    <note handle="_ecf1f33a0647b447bda13710617" change="1628274449" id="N1891" type="Transcript">
+      <text>Hindhår
+Skomakaren Grönholm, Lena ho Smeden Johan, Caisa ho, Staffan sn</text>
     </note>
   </notes>
 </database>
