@@ -1620,7 +1620,7 @@
       <citationref hlink="_d6e0f52608854bc7f7f513815c1"/>
       <citationref hlink="_d6e0f29cb214ee91e1b373bd27e"/>
     </event>
-    <event handle="_cb589ccec3c2b9c8a09" change="1621283197" id="E1025">
+    <event handle="_cb589ccec3c2b9c8a09" change="1628689954" id="E1025">
       <type>Birth</type>
       <dateval val="1748-09-16"/>
       <place hlink="_cb589ccbc8775a4d7d2"/>
@@ -13184,7 +13184,7 @@
       <citationref hlink="_df9ac8641f6282243ca4157e89d"/>
       <citationref hlink="_df9accafa984ca9bc11b0bbec18"/>
     </event>
-    <event handle="_e10c2270c9611795f4776f2d016" change="1621788270" id="E2867">
+    <event handle="_e10c2270c9611795f4776f2d016" change="1628688559" id="E2867">
       <type>Residence</type>
       <datespan start="1749" stop="1759"/>
       <place hlink="_e10c216106e761d03c131abecef"/>
@@ -14639,7 +14639,7 @@
       <place hlink="_e10c216106e761d03c131abecef"/>
       <citationref hlink="_ec00090ba582b491e77a42ff926"/>
     </event>
-    <event handle="_ec0009818b3374343894e96afcb" change="1621788303" id="E0334">
+    <event handle="_ec0009818b3374343894e96afcb" change="1628689464" id="E0334">
       <type>Residence</type>
       <datespan start="1754" stop="1770"/>
       <place hlink="_e10c216106e761d03c131abecef"/>
@@ -14651,7 +14651,7 @@
       <place hlink="_cb589ccf3d30de73a94"/>
       <citationref hlink="_ec00090ba582b491e77a42ff926"/>
     </event>
-    <event handle="_ec005a00325665c18e6cbd8cfcf" change="1628678812" id="E0336">
+    <event handle="_ec005a00325665c18e6cbd8cfcf" change="1628689372" id="E0336">
       <type>Residence</type>
       <datespan start="1771" stop="1776"/>
       <place hlink="_e10c216106e761d03c131abecef"/>
@@ -14864,11 +14864,17 @@
       <place hlink="_ed00deaf98a6721411940202047"/>
       <citationref hlink="_ed00de080bb6338ef3f5fae42dd"/>
     </event>
-    <event handle="_ed0129f137158fd0c144392b6c5" change="1628682840" id="E0371">
+    <event handle="_ed0129f137158fd0c144392b6c5" change="1628688887" id="E0371">
       <type>Residence</type>
       <datespan start="1777" stop="1782"/>
       <place hlink="_e10c216106e761d03c131abecef"/>
       <citationref hlink="_ed0129d77ae600ee9cf9da072b6"/>
+    </event>
+    <event handle="_ed0191c78ba690926f4216540e6" change="1628693728" id="E0372">
+      <type>Birth</type>
+      <dateval val="1751-07-31"/>
+      <place hlink="_cb589ccbc8775a4d7d2"/>
+      <citationref hlink="_ed0191c306c6d057b21f70673ef"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -16910,7 +16916,7 @@
       <childof hlink="_cb589cceaf224ab31fa"/>
       <parentin hlink="_cb589ccbb656852f0db"/>
     </person>
-    <person handle="_cb589ccec366d226d64" change="1628682854" id="I3127">
+    <person handle="_cb589ccec366d226d64" change="1628693737" id="I3127">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Catharina</first>
@@ -27128,6 +27134,15 @@
       <eventref hlink="_ed00e1d43c03b31eb9939f08a0f" role="Primary"/>
       <childof hlink="_cb589ccf3ff2e11b1e3"/>
     </person>
+    <person handle="_ed01836de4b4fc716b6b2380358" change="1628693737" id="I0097">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Ebba</first>
+        <surname derivation="Patronymic">Henricsdotter</surname>
+      </name>
+      <eventref hlink="_ed0191c78ba690926f4216540e6" role="Primary"/>
+      <childof hlink="_cb589ccec4041260320"/>
+    </person>
   </people>
   <families>
     <family handle="_cb589cc7f9c792dc427" change="1548617779" id="F1472">
@@ -27997,7 +28012,7 @@
       <childref hlink="_cb589cd3e572ec86505"/>
       <childref hlink="_cb589cd3e851b890138"/>
     </family>
-    <family handle="_cb589ccec4041260320" change="1628682854" id="F1927">
+    <family handle="_cb589ccec4041260320" change="1628693737" id="F1927">
       <rel type="Unknown"/>
       <father hlink="_cb589cd26eb525e6be4"/>
       <mother hlink="_cdcccf793e44637bd23"/>
@@ -28006,6 +28021,7 @@
       <eventref hlink="_ec005a00325665c18e6cbd8cfcf" role="Family"/>
       <eventref hlink="_ed0129f137158fd0c144392b6c5" role="Family"/>
       <childref hlink="_cb589ccec366d226d64"/>
+      <childref hlink="_ed01836de4b4fc716b6b2380358"/>
     </family>
     <family handle="_cb589ccec6565681a23" change="1420168056" id="F2717">
       <rel type="Unknown"/>
@@ -38995,6 +39011,14 @@
       <noteref hlink="_ed0129d03cc385c3f7b6bca3ef3"/>
       <sourceref hlink="_d6ce1e32504608c072239f4321b"/>
     </citation>
+    <citation handle="_ed0191c306c6d057b21f70673ef" change="1628693726" id="C1284">
+      <page>jakso 162</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ed018653a6665ba3e667b0d8606"/>
+      <noteref hlink="_ed0186836607b1b72ce0f92fe49"/>
+      <noteref hlink="_ed0191b2dc9504d73505d9ceba5"/>
+      <sourceref hlink="_cdccc33aada5d1bc81c"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -46964,11 +46988,16 @@ Smeden Johan, Caisa hu</text>
 gård
 Skomakare Grönholm, Lena hu, Smeden Johan, Caisa hu, Staffan sn, Caisa hu</text>
     </note>
-    <note handle="_d6dfe9391974fed5901ecb5df2b" change="1476607368" id="N0437" type="Transcript" format="1">
-      <text>159.	dd [16.]	dd[18.]	Catharina	Hinrich Matsson	Anna Johansdr	}
-									Johan Johansson	hu Elsa Kullman	} Hindhår
-									Johan Matsson	Catharina		}
-									Hans Johansson	Degerman		}</text>
+    <note handle="_d6dfe9391974fed5901ecb5df2b" change="1628689940" id="N0437" type="Transcript" format="1">
+      <text>[1748]
+[September månad]
+159.	dd[16.]	dd[18.]	Catharina	Hinrich Matsson	Anna Johansdr	}
+					Johan Johansson	hu Elsa Kullman	} Hindhår
+					Johan Matsson	Catharina	}
+					Hans Johansson	Degerman	}</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="196"/>
+      </style>
     </note>
     <note handle="_d6e06b13c241e5add38f30023cf" change="1476620984" id="N0438" type="Link">
       <text>http://digi.narc.fi/digi/view.ka?kuid=8399644</text>
@@ -58345,6 +58374,26 @@ sn Hans Johansson ??? 1763
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="439"/>
+      </style>
+    </note>
+    <note handle="_ed018653a6665ba3e667b0d8606" change="1628692527" id="N1929" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Syntyneiden ja kastettujen luettelot 1742-1756, jakso 162: 1751 jul; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=7967829 / Viitattu 11.8.2021</text>
+    </note>
+    <note handle="_ed0186836607b1b72ce0f92fe49" change="1628692546" id="N1930" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7967829</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=7967829">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_ed0191b2dc9504d73505d9ceba5" change="1628693719" id="N1931" type="Transcript" format="1">
+      <text>[Nati Anno 1751]
+[Julius]
+29.  31.  Ebba   Henrik Mattsson      Anna Johansdr
+                 T: Petter Mölberg    T: Maria Harberg    Hindhår
+                 Joh: Johansson       Maria Johansdr
+                                      Carin? Mattsdr</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="249"/>
       </style>
     </note>
   </notes>
