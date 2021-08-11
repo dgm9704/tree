@@ -14651,7 +14651,7 @@
       <place hlink="_cb589ccf3d30de73a94"/>
       <citationref hlink="_ec00090ba582b491e77a42ff926"/>
     </event>
-    <event handle="_ec005a00325665c18e6cbd8cfcf" change="1621789745" id="E0336">
+    <event handle="_ec005a00325665c18e6cbd8cfcf" change="1628678812" id="E0336">
       <type>Residence</type>
       <datespan start="1771" stop="1776"/>
       <place hlink="_e10c216106e761d03c131abecef"/>
@@ -14863,6 +14863,12 @@
       <datespan start="1770" stop="1776"/>
       <place hlink="_ed00deaf98a6721411940202047"/>
       <citationref hlink="_ed00de080bb6338ef3f5fae42dd"/>
+    </event>
+    <event handle="_ed0129f137158fd0c144392b6c5" change="1628682840" id="E0371">
+      <type>Residence</type>
+      <datespan start="1777" stop="1782"/>
+      <place hlink="_e10c216106e761d03c131abecef"/>
+      <citationref hlink="_ed0129d77ae600ee9cf9da072b6"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -16904,7 +16910,7 @@
       <childof hlink="_cb589cceaf224ab31fa"/>
       <parentin hlink="_cb589ccbb656852f0db"/>
     </person>
-    <person handle="_cb589ccec366d226d64" change="1621789091" id="I3127">
+    <person handle="_cb589ccec366d226d64" change="1628682854" id="I3127">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Catharina</first>
@@ -27991,13 +27997,14 @@
       <childref hlink="_cb589cd3e572ec86505"/>
       <childref hlink="_cb589cd3e851b890138"/>
     </family>
-    <family handle="_cb589ccec4041260320" change="1621789091" id="F1927">
+    <family handle="_cb589ccec4041260320" change="1628682854" id="F1927">
       <rel type="Unknown"/>
       <father hlink="_cb589cd26eb525e6be4"/>
       <mother hlink="_cdcccf793e44637bd23"/>
       <eventref hlink="_e10c2270c9611795f4776f2d016" role="Family"/>
       <eventref hlink="_ec0009818b3374343894e96afcb" role="Family"/>
       <eventref hlink="_ec005a00325665c18e6cbd8cfcf" role="Family"/>
+      <eventref hlink="_ed0129f137158fd0c144392b6c5" role="Family"/>
       <childref hlink="_cb589ccec366d226d64"/>
     </family>
     <family handle="_cb589ccec6565681a23" change="1420168056" id="F2717">
@@ -38979,6 +38986,14 @@
       <noteref hlink="_ed00d98f97c768b2476064ea390"/>
       <noteref hlink="_ed00ddff02638b8c12740c12567"/>
       <sourceref hlink="_d6ce208ff563b4301d682b6a32a"/>
+    </citation>
+    <citation handle="_ed0129d77ae600ee9cf9da072b6" change="1628682829" id="C1283">
+      <page>126</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ed0104f72b728a9c3efecf0af66"/>
+      <noteref hlink="_ed01051b0625bd2620bb95ea38d"/>
+      <noteref hlink="_ed0129d03cc385c3f7b6bca3ef3"/>
+      <sourceref hlink="_d6ce1e32504608c072239f4321b"/>
     </citation>
   </citations>
   <sources>
@@ -58296,6 +58311,40 @@ son Mats Eliason                                        1759
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="642"/>
+      </style>
+    </note>
+    <note handle="_ed0104f72b728a9c3efecf0af66" change="1628678962" id="N1926" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Rippikirjat 1777-1782, jakso 130, sivu 126: Hindhår, Caus; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=7958428 / Viitattu 11.8.2021</text>
+    </note>
+    <note handle="_ed01051b0625bd2620bb95ea38d" change="1628678977" id="N1927" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7958428</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=7958428">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_ed0129d03cc385c3f7b6bca3ef3" change="1628682826" id="N1928" type="Transcript" format="1">
+      <text>126
+Caus hemman
+Bn Henrich Matsson    1714
+Ho Anna johansdr      1715    1781
+son Mats Henrichsson  1741
+ho Maria Ericsdr      1747    1778
+dr Ebba Henrichsdr    1752
+dr Maria Henrichsdr   1755
+dreng Johan Carlsson  1756
+Stina Ersdr           1760
+? Maja Ersdr          1759
+ho Anna Matsdr        1755
+?? Anna Gustafsdr     1763
+dg Fredric ?ierna?    1761
+dg Johan Ericsson     1760
+ho Lena Johansdr      1753
+sn Hans Johansson ??? 1763
+
+
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="439"/>
       </style>
     </note>
   </notes>
