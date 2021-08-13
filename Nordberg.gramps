@@ -745,10 +745,11 @@
       <place hlink="_cdf82fb91b45aadb551"/>
       <citationref hlink="_d6cda12e7f356111b9567a6b138"/>
     </event>
-    <event handle="_cb589ccbcbb17f1ea08" change="1426528344" id="E0513">
+    <event handle="_cb589ccbcbb17f1ea08" change="1628868087" id="E0513">
       <type>Birth</type>
       <dateval val="1792-04-13"/>
       <place hlink="_cb589ccbcc064822ed4"/>
+      <citationref hlink="_d6cdc2f2a3f349fd1fed86b7d09"/>
     </event>
     <event handle="_cb589ccbccb59153b33" change="1426528432" id="E0514">
       <type>Death</type>
@@ -1693,15 +1694,19 @@
       <type>Birth</type>
       <dateval val="1753"/>
     </event>
-    <event handle="_cb589cced752661b140" change="1426528343" id="E1039">
+    <event handle="_cb589cced752661b140" change="1628876862" id="E1039">
       <type>Death</type>
       <dateval val="1813-01-13"/>
       <place hlink="_cb589ccedbc19380200"/>
     </event>
-    <event handle="_cb589cced9a06a5c120" change="1397384052" id="E1040">
+    <event handle="_cb589cced9a06a5c120" change="1628878293" id="E1040">
       <type>Death</type>
+      <dateval val="1819-01-30"/>
+      <place hlink="_cb589ccedbc19380200"/>
+      <citationref hlink="_ed086adc0c55eac2d0f55566f6a"/>
+      <citationref hlink="_ed0871e92ae387651a327752b90"/>
     </event>
-    <event handle="_cb589cced9d5b121664" change="1628866791" id="E1041">
+    <event handle="_cb589cced9d5b121664" change="1628878521" id="E1041">
       <type>Birth</type>
       <dateval val="1751-03-22"/>
       <citationref hlink="_ed080439e4d101fea161594ccc"/>
@@ -9054,7 +9059,7 @@
       <description>sockne smed</description>
       <citationref hlink="_d6cdbfec25f792bc18962fdc877"/>
     </event>
-    <event handle="_d6cdca68819395f583f6be3dab4" change="1628360991" id="E1981">
+    <event handle="_d6cdca68819395f583f6be3dab4" change="1628868031" id="E1981">
       <type>Residence</type>
       <datespan start="1811" stop="1812"/>
       <place hlink="_d931b6000526da55be8f896a04b"/>
@@ -14923,6 +14928,18 @@
       <place hlink="_e10c216106e761d03c131abecef"/>
       <citationref hlink="_ed04b952b4012ed1fed7809eb47"/>
     </event>
+    <event handle="_ed086cfe40f61528eef6269eddc" change="1628877775" id="E0380">
+      <type>Residence</type>
+      <datespan start="1813" stop="1819"/>
+      <place hlink="_cb589ccedbc19380200"/>
+      <citationref hlink="_ed086adc0c55eac2d0f55566f6a"/>
+    </event>
+    <event handle="_ed088593cff3590d3c876b491b0" change="1628880368" id="E0381">
+      <type>Residence</type>
+      <datespan start="1803" stop="1812"/>
+      <place hlink="_cb589ccedbc19380200"/>
+      <citationref hlink="_ed08858fe7a4b44bd45ca486ff1"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1548617779" id="I3858">
@@ -15868,7 +15885,7 @@
       <childof hlink="_cb589ccbca636502f22"/>
       <parentin hlink="_cb589cc914557c71ce2"/>
     </person>
-    <person handle="_cb589ccbcb82fdc1632" change="1492422642" id="I6030">
+    <person handle="_cb589ccbcb82fdc1632" change="1628880355" id="I6030">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Hedwig</first>
@@ -17060,18 +17077,19 @@
       <childof hlink="_cb589cced863635e161"/>
       <parentin hlink="_cb589ccbcdb69d25d84"/>
     </person>
-    <person handle="_cb589cced973d0ae18a" change="1628866793" id="I4337">
+    <person handle="_cb589cced973d0ae18a" change="1628877806" id="I4337">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Lena</first>
         <surname derivation="Patronymic">Ericsdotter</surname>
       </name>
       <eventref hlink="_cb589cced9d5b121664" role="Primary"/>
+      <eventref hlink="_ed086cfe40f61528eef6269eddc" role="Primary"/>
       <eventref hlink="_cb589cced9a06a5c120" role="Primary"/>
       <childof hlink="_cb589cceda100d58561"/>
       <parentin hlink="_cb589ccbcdb69d25d84"/>
     </person>
-    <person handle="_cb589ccedb22f8e6a37" change="1427580240" id="I4200">
+    <person handle="_cb589ccedb22f8e6a37" change="1628880355" id="I4200">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Johan</first>
@@ -17080,7 +17098,7 @@
       <eventref hlink="_cb589ccedb851986cd2" role="Primary"/>
       <childof hlink="_cb589ccbcdb69d25d84"/>
     </person>
-    <person handle="_cb589ccedd56d6a3225" change="1420167890" id="I4445">
+    <person handle="_cb589ccedd56d6a3225" change="1628880355" id="I4445">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Henric</first>
@@ -17091,7 +17109,7 @@
       <eventref hlink="_cb589cceddc6c4c429c" role="Primary"/>
       <childof hlink="_cb589ccbcdb69d25d84"/>
     </person>
-    <person handle="_cb589ccedf829c98867" change="1420167474" id="I6003">
+    <person handle="_cb589ccedf829c98867" change="1628880355" id="I6003">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Carl</first>
@@ -17102,7 +17120,7 @@
       <childof hlink="_cb589ccbcdb69d25d84"/>
       <parentin hlink="_cb589ccee0700d23e37"/>
     </person>
-    <person handle="_cb589ccee122f1a5b62" change="1420235479" id="I4590">
+    <person handle="_cb589ccee122f1a5b62" change="1628880355" id="I4590">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Isaac</first>
@@ -17112,7 +17130,7 @@
       <eventref hlink="_cb589ccee18708ec54e" role="Primary"/>
       <childof hlink="_cb589ccbcdb69d25d84"/>
     </person>
-    <person handle="_cb589ccee3575ef9a2f" change="1420209560" id="I4272">
+    <person handle="_cb589ccee3575ef9a2f" change="1628880355" id="I4272">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Gustaf</first>
@@ -17122,7 +17140,7 @@
       <eventref hlink="_cb589ccee3a265ed581" role="Primary"/>
       <childof hlink="_cb589ccbcdb69d25d84"/>
     </person>
-    <person handle="_cb589ccee5823bf7bfe" change="1535041136" id="I4538">
+    <person handle="_cb589ccee5823bf7bfe" change="1628880355" id="I4538">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Henric</first>
@@ -27750,11 +27768,12 @@
       <childref hlink="_cb589ccbc7f6a601fb2"/>
       <noteref hlink="_e90476f94db51505ffcc41c6dea"/>
     </family>
-    <family handle="_cb589ccbcdb69d25d84" change="1414284937" id="F1983">
+    <family handle="_cb589ccbcdb69d25d84" change="1628880355" id="F1983">
       <rel type="Married"/>
       <father hlink="_cb589cced6c188d19a3"/>
       <mother hlink="_cb589cced973d0ae18a"/>
       <eventref hlink="_cb589cfcb4d77da7c63" role="Family"/>
+      <eventref hlink="_ed088593cff3590d3c876b491b0" role="Family"/>
       <childref hlink="_cb589ccedb22f8e6a37"/>
       <childref hlink="_cb589ccedd56d6a3225"/>
       <childref hlink="_cb589ccedf829c98867"/>
@@ -31912,10 +31931,11 @@
       <noteref hlink="_eba569b2e32786f162df72e7322"/>
       <sourceref hlink="_d6cdbfbe30416ec646fdadfa39a"/>
     </citation>
-    <citation handle="_d6cdc2f2a3f349fd1fed86b7d09" change="1476121317" id="C0198">
+    <citation handle="_d6cdc2f2a3f349fd1fed86b7d09" change="1628868009" id="C0198">
       <page>223</page>
       <confidence>2</confidence>
       <noteref hlink="_d6cdc2ebcf558d452ab9d5d2ffc"/>
+      <noteref hlink="_ed080fcc0ed6658b8483580c8d0"/>
       <sourceref hlink="_d6cdc2a86263f2f0fee504a4247"/>
     </citation>
     <citation handle="_d6cdcff849d4110be5405581bc2" change="1476635609" id="C0199">
@@ -39112,6 +39132,30 @@
       <noteref hlink="_ed0801f8ff15a04720a7928b203"/>
       <noteref hlink="_ed080430ee543356f1dc0321f97"/>
       <sourceref hlink="_cdccc33aada5d1bc81c"/>
+    </citation>
+    <citation handle="_ed086adc0c55eac2d0f55566f6a" change="1628877552" id="C1289">
+      <page>224</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ed0864da7eb748b3bb3c12c2da1"/>
+      <noteref hlink="_ed086502e792ad7228df18db74f"/>
+      <noteref hlink="_ed086ad41253618644a6a00ae3"/>
+      <sourceref hlink="_d6cdbfbe30416ec646fdadfa39a"/>
+    </citation>
+    <citation handle="_ed0871e92ae387651a327752b90" change="1628878291" id="C1290">
+      <page>jakso 3</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ed08705de217eceed9eda80e591"/>
+      <noteref hlink="_ed08708b88323a4e9b60a719ccf"/>
+      <noteref hlink="_ed0871dfed476b44a1d2ab41d7a"/>
+      <sourceref hlink="_df8764f4e433ea46497acb4bb7e"/>
+    </citation>
+    <citation handle="_ed08858fe7a4b44bd45ca486ff1" change="1628880352" id="C1291">
+      <page>218</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ed0877e4cb44695759f0eb45f"/>
+      <noteref hlink="_ed08782e807172387d34c4534a4"/>
+      <noteref hlink="_ed08858425d4099c228128a96bd"/>
+      <sourceref hlink="_d6cdc2a86263f2f0fee504a4247"/>
     </citation>
   </citations>
   <sources>
@@ -58572,6 +58616,109 @@ September
                                       Johanna Johansdr,</text>
       <style name="fontface" value="Monospace">
         <range start="0" end="247"/>
+      </style>
+    </note>
+    <note handle="_ed080fcc0ed6658b8483580c8d0" change="1628868003" id="N1945" type="Transcript" format="1">
+      <text>223    Norrveckoski
+
+
+Smed
+
+Fredrik Ersson          1747                                                                                811 til p 10
+Helena Mattsdr          1751                                                  död d. 5/5 808
+smed           Nordberg    sockne smed har landhöfde? constitutorial?         d. 30/11 811 f lysning med    808 ifr p 112
+Johan Johansson         1784                                                  Hedda Johansdr pag 218
+ho Hedwig Johansdr 13/4 1792                                                                                811 f p 218
+[...]</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="590"/>
+      </style>
+    </note>
+    <note handle="_ed0864da7eb748b3bb3c12c2da1" change="1628876922" id="N1946" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Rippikirjat 1813-1820 (Läntinen osa), jakso 227, sivu 224: Norrveckoski Clemets; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=7959638 / Viitattu 13.8.2021</text>
+    </note>
+    <note handle="_ed086502e792ad7228df18db74f" change="1628876938" id="N1947" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7959638</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=7959638">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_ed086ad41253618644a6a00ae3" change="1628877548" id="N1948" type="Transcript" format="1">
+      <text>224    Norrveckoski
+
+Clemets Frälse
+G.L.B Carl Johansson    21/3 1778
+ho HElena Abrahamsdr         1772
+mor F.L.B Enka                    dog den 30 Januari 1819
+Helena Ericsdr          22/3 1751
+
+Dotter
+Anna Stina Carlsdotter  12/5 1804                          adm d. 3 Junii 189
+
+Bror                                                       d. 27/11 813 fått lys
+Henric Johansson        14/7 1789                          ning med Helena infra    1819 till p. 229
+
+
+[...]</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="472"/>
+      </style>
+    </note>
+    <note handle="_ed08705de217eceed9eda80e591" change="1628878129" id="N1949" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Kuolleiden ja haudattujen luettelot 1819-1831, jakso 3: döde  1819; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=8399665 / Viitattu 13.8.2021</text>
+    </note>
+    <note handle="_ed08708b88323a4e9b60a719ccf" change="1628878148" id="N1950" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=8399665</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=8399665">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_ed0871dfed476b44a1d2ab41d7a" change="1628878287" id="N1951" type="Transcript" format="1">
+      <text>Döde år 1819
+
+Januarii månad
+
+N  30  2/2  Helena Eriksdotter    Norrveckoski    Gammal handtverkare
+b.                                Clemets         Enka, 68 år gammal     Bröstfeber
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="184"/>
+      </style>
+    </note>
+    <note handle="_ed0877e4cb44695759f0eb45f" change="1628878918" id="N1952" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Rippikirjat 1803-1812 (Läntinen osa), jakso 226, sivu 218: Norrveckoski Clemets; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=7959241 / Viitattu 13.8.2021</text>
+    </note>
+    <note handle="_ed08782e807172387d34c4534a4" change="1628878948" id="N1953" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7959241</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=7959241">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_ed08858425d4099c228128a96bd" change="1628880347" id="N1954" type="Transcript" format="1">
+      <text>218    Norrveckoski
+
+Clemets Frälse
+
+F.B. Åldrig
+Johan Henriksson         1753                   död d. 13/1 1813
+Enk
+ho Lena Eriksdr          1751 22/3              är född d. 22/3 1751
+son ???
+Carl Johansson      21/3 1778
+ho Lena Abrahamsdr       1772                                                                          803 ifr p 213
+son                                     fått skilnad                 
+Isak Johansson           1780 27/10     se skilje????  175f ? 1810     d: ? fått lysning till äkten    804 till p 134
+                                                                       skap med torpsdotter ifr Kiala
+                                                                       smeds Maria Carlsdotter
+Son
+Henrik Johansson    14/7 1789                                          ???
+Son                                                                    wide supero                     809 från Askola
+Isak Johansson     27/10 1780                          11/8 810 fått lysning med Anna Caisa            810 til p 83
+                                                       ??? pag 77                                      809 til pag 12
+Bror     ogift ??????                                  ????
+Matts Henriksdon         1763                          ????</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="1278"/>
       </style>
     </note>
   </notes>
