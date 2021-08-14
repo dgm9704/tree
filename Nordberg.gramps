@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2021-08-13" version="5.1.3"/>
+    <created date="2021-08-14" version="5.1.3"/>
     <researcher>
     </researcher>
   </header>
@@ -14934,11 +14934,17 @@
       <place hlink="_cb589ccedbc19380200"/>
       <citationref hlink="_ed086adc0c55eac2d0f55566f6a"/>
     </event>
-    <event handle="_ed088593cff3590d3c876b491b0" change="1628880368" id="E0381">
+    <event handle="_ed088593cff3590d3c876b491b0" change="1628931945" id="E0381">
       <type>Residence</type>
       <datespan start="1803" stop="1812"/>
       <place hlink="_cb589ccedbc19380200"/>
       <citationref hlink="_ed08858fe7a4b44bd45ca486ff1"/>
+    </event>
+    <event handle="_ed0a767b88e499478e9a08270a4" change="1628932457" id="E0382">
+      <type>Residence</type>
+      <datespan start="1795" stop="1802"/>
+      <place hlink="_cb589ccedbc19380200"/>
+      <citationref hlink="_ed0a76786d5678cfa0e2f8d1984"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -15885,7 +15891,7 @@
       <childof hlink="_cb589ccbca636502f22"/>
       <parentin hlink="_cb589cc914557c71ce2"/>
     </person>
-    <person handle="_cb589ccbcb82fdc1632" change="1628880355" id="I6030">
+    <person handle="_cb589ccbcb82fdc1632" change="1628932464" id="I6030">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Hedwig</first>
@@ -17089,7 +17095,7 @@
       <childof hlink="_cb589cceda100d58561"/>
       <parentin hlink="_cb589ccbcdb69d25d84"/>
     </person>
-    <person handle="_cb589ccedb22f8e6a37" change="1628880355" id="I4200">
+    <person handle="_cb589ccedb22f8e6a37" change="1628932464" id="I4200">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Johan</first>
@@ -17098,7 +17104,7 @@
       <eventref hlink="_cb589ccedb851986cd2" role="Primary"/>
       <childof hlink="_cb589ccbcdb69d25d84"/>
     </person>
-    <person handle="_cb589ccedd56d6a3225" change="1628880355" id="I4445">
+    <person handle="_cb589ccedd56d6a3225" change="1628932464" id="I4445">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Henric</first>
@@ -17109,7 +17115,7 @@
       <eventref hlink="_cb589cceddc6c4c429c" role="Primary"/>
       <childof hlink="_cb589ccbcdb69d25d84"/>
     </person>
-    <person handle="_cb589ccedf829c98867" change="1628880355" id="I6003">
+    <person handle="_cb589ccedf829c98867" change="1628932464" id="I6003">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Carl</first>
@@ -17120,7 +17126,7 @@
       <childof hlink="_cb589ccbcdb69d25d84"/>
       <parentin hlink="_cb589ccee0700d23e37"/>
     </person>
-    <person handle="_cb589ccee122f1a5b62" change="1628880355" id="I4590">
+    <person handle="_cb589ccee122f1a5b62" change="1628932464" id="I4590">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Isaac</first>
@@ -17130,7 +17136,7 @@
       <eventref hlink="_cb589ccee18708ec54e" role="Primary"/>
       <childof hlink="_cb589ccbcdb69d25d84"/>
     </person>
-    <person handle="_cb589ccee3575ef9a2f" change="1628880355" id="I4272">
+    <person handle="_cb589ccee3575ef9a2f" change="1628932464" id="I4272">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Gustaf</first>
@@ -17140,7 +17146,7 @@
       <eventref hlink="_cb589ccee3a265ed581" role="Primary"/>
       <childof hlink="_cb589ccbcdb69d25d84"/>
     </person>
-    <person handle="_cb589ccee5823bf7bfe" change="1628880355" id="I4538">
+    <person handle="_cb589ccee5823bf7bfe" change="1628932464" id="I4538">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Henric</first>
@@ -27768,11 +27774,12 @@
       <childref hlink="_cb589ccbc7f6a601fb2"/>
       <noteref hlink="_e90476f94db51505ffcc41c6dea"/>
     </family>
-    <family handle="_cb589ccbcdb69d25d84" change="1628880355" id="F1983">
+    <family handle="_cb589ccbcdb69d25d84" change="1628932464" id="F1983">
       <rel type="Married"/>
       <father hlink="_cb589cced6c188d19a3"/>
       <mother hlink="_cb589cced973d0ae18a"/>
       <eventref hlink="_cb589cfcb4d77da7c63" role="Family"/>
+      <eventref hlink="_ed0a767b88e499478e9a08270a4" role="Family"/>
       <eventref hlink="_ed088593cff3590d3c876b491b0" role="Family"/>
       <childref hlink="_cb589ccedb22f8e6a37"/>
       <childref hlink="_cb589ccedd56d6a3225"/>
@@ -39156,6 +39163,14 @@
       <noteref hlink="_ed08782e807172387d34c4534a4"/>
       <noteref hlink="_ed08858425d4099c228128a96bd"/>
       <sourceref hlink="_d6cdc2a86263f2f0fee504a4247"/>
+    </citation>
+    <citation handle="_ed0a76786d5678cfa0e2f8d1984" change="1628932456" id="C1292">
+      <page>6</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ed0a7261ed8275326b22cff3f86"/>
+      <noteref hlink="_ed0a728f74d186ae8ba4287f2d4"/>
+      <noteref hlink="_ed0a7670d9b4d3a534994622744"/>
+      <sourceref hlink="_d6cdda448716a020f78957f81cf"/>
     </citation>
   </citations>
   <sources>
@@ -58694,7 +58709,7 @@ b.                                Clemets         Enka, 68 år gammal     Bröst
         <range start="0" end="45"/>
       </style>
     </note>
-    <note handle="_ed08858425d4099c228128a96bd" change="1628880347" id="N1954" type="Transcript" format="1">
+    <note handle="_ed08858425d4099c228128a96bd" change="1628880674" id="N1954" type="Transcript" format="1">
       <text>218    Norrveckoski
 
 Clemets Frälse
@@ -58716,9 +58731,49 @@ Son                                                                    wide supe
 Isak Johansson     27/10 1780                          11/8 810 fått lysning med Anna Caisa            810 til p 83
                                                        ??? pag 77                                      809 til pag 12
 Bror     ogift ??????                                  ????
-Matts Henriksdon         1763                          ????</text>
+Matts Henriksdon         1763                          ????
+
+Dotter                                                                                                 d 30/11 811 f lysning
+Hedwig Johansdotter 13/4 1792           811 till p 283  =adm 21/5 803                                  med Johan Nordberg pag 223
+
+[+lisää perheeseen liittyvi tietoja!]
+</text>
       <style name="fontface" value="Monospace">
-        <range start="0" end="1278"/>
+        <range start="0" end="1574"/>
+      </style>
+    </note>
+    <note handle="_ed0a7261ed8275326b22cff3f86" change="1628932027" id="N1955" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Rippikirjat 1792-1802 (Läntinen osa), jakso 7, sivu 6: Norrweckoski, Clemets; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=7958737 / Viitattu 14.8.2021</text>
+    </note>
+    <note handle="_ed0a728f74d186ae8ba4287f2d4" change="1628932046" id="N1956" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7958737</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=7958737">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_ed0a7670d9b4d3a534994622744" change="1628932453" id="N1957" type="Transcript" format="1">
+      <text>Norrveckoski
+
+Clemets 1/3 Frälse under ??? ???
+
+Johan Henricson       1753
+ho Lena Ericsdr       1754
+sn Johan Johanson     1773     801 til p 180
+
+sn Carl Johanson      1783     adm 11/10 96          fått ägt lys af 20/3 803 med Lena Abrahamsdr vid p 2?
+
+sn Isaac Johansson    1780     adm 29/3 94
+
+bror        ogift
+Matts Henricsson      1763                           801 ifr p 153
+
+pig Caisa Ersdr       1781     til p 95              99 ifr p 2?
+pig Maja Mattsdr 19/2 1785                           802 ifr p 11
+
+
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="519"/>
       </style>
     </note>
   </notes>
