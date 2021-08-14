@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2021-08-14" version="5.1.3"/>
+    <created date="2021-08-15" version="5.1.3"/>
     <researcher>
     </researcher>
   </header>
@@ -1700,42 +1700,46 @@
       <dateval val="1813-01-13"/>
       <place hlink="_cb589ccedbc19380200"/>
     </event>
-    <event handle="_cb589cced9a06a5c120" change="1628878293" id="E1040">
+    <event handle="_cb589cced9a06a5c120" change="1628942726" id="E1040">
       <type>Death</type>
       <dateval val="1819-01-30"/>
       <place hlink="_cb589ccedbc19380200"/>
       <citationref hlink="_ed086adc0c55eac2d0f55566f6a"/>
       <citationref hlink="_ed0871e92ae387651a327752b90"/>
     </event>
-    <event handle="_cb589cced9d5b121664" change="1628878521" id="E1041">
+    <event handle="_cb589cced9d5b121664" change="1628942722" id="E1041">
       <type>Birth</type>
       <dateval val="1751-03-22"/>
       <citationref hlink="_ed080439e4d101fea161594ccc"/>
     </event>
-    <event handle="_cb589ccedb851986cd2" change="1628939391" id="E1043">
+    <event handle="_cb589ccedb851986cd2" change="1628977839" id="E1043">
       <type>Birth</type>
       <dateval val="1773-12-24"/>
       <place hlink="_cb589ccedbc19380200"/>
       <citationref hlink="_ed0ab81caa44032e3a6fe2319c9"/>
+      <citationref hlink="_ed0add7fab75e8535ad98025699"/>
     </event>
-    <event handle="_cb589ccedd856615993" change="1628940235" id="E1044">
+    <event handle="_cb589ccedd856615993" change="1628961911" id="E1044">
       <type>Death</type>
-      <daterange start="1775" stop="1789"/>
+      <daterange start="1781" stop="1789"/>
       <place hlink="_cb589ccedbc19380200"/>
     </event>
-    <event handle="_cb589cceddc6c4c429c" change="1628939413" id="E1045">
+    <event handle="_cb589cceddc6c4c429c" change="1628977846" id="E1045">
       <type>Birth</type>
       <dateval val="1775-12-07"/>
       <place hlink="_cb589ccedbc19380200"/>
       <citationref hlink="_ed0ab81caa44032e3a6fe2319c9"/>
+      <citationref hlink="_ed0afd2f1e41b0847878536033"/>
     </event>
     <event handle="_cb589ccedfa475e08c7" change="1397384052" id="E1046">
       <type>Death</type>
     </event>
-    <event handle="_cb589ccedfd53b271c9" change="1628939432" id="E1047">
+    <event handle="_cb589ccedfd53b271c9" change="1628978170" id="E1047">
       <type>Birth</type>
       <dateval val="1778-03-21"/>
+      <place hlink="_cb589ccedbc19380200"/>
       <citationref hlink="_ed0ab81caa44032e3a6fe2319c9"/>
+      <citationref hlink="_ed0c2a68fd5474d407258d144f4"/>
     </event>
     <event handle="_cb589ccee150903f898" change="1397384052" id="E1048">
       <type>Death</type>
@@ -1746,11 +1750,12 @@
       <place hlink="_cb589ccedbc19380200"/>
       <citationref hlink="_ed0ab81caa44032e3a6fe2319c9"/>
     </event>
-    <event handle="_cb589ccee3713fec005" change="1628940021" id="E1050">
+    <event handle="_cb589ccee3713fec005" change="1628977823" id="E1050">
       <type>Death</type>
-      <dateval val="1786"/>
+      <dateval val="1786-12-24"/>
       <place hlink="_cb589ccedbc19380200"/>
       <citationref hlink="_ed0abe180186ee69be45fdf0bd9"/>
+      <citationref hlink="_ed0c25be489321588e150aed8ae"/>
     </event>
     <event handle="_cb589ccee3a265ed581" change="1628940000" id="E1051">
       <type>Birth</type>
@@ -14940,23 +14945,26 @@
       <place hlink="_e10c216106e761d03c131abecef"/>
       <citationref hlink="_ed04b952b4012ed1fed7809eb47"/>
     </event>
-    <event handle="_ed086cfe40f61528eef6269eddc" change="1628877775" id="E0380">
+    <event handle="_ed086cfe40f61528eef6269eddc" change="1628942733" id="E0380">
       <type>Residence</type>
       <datespan start="1813" stop="1819"/>
       <place hlink="_cb589ccedbc19380200"/>
       <citationref hlink="_ed086adc0c55eac2d0f55566f6a"/>
     </event>
-    <event handle="_ed088593cff3590d3c876b491b0" change="1628931945" id="E0381">
+    <event handle="_ed088593cff3590d3c876b491b0" change="1628942703" id="E0381">
       <type>Residence</type>
       <datespan start="1803" stop="1812"/>
       <place hlink="_cb589ccedbc19380200"/>
       <citationref hlink="_ed08858fe7a4b44bd45ca486ff1"/>
+      <citationref hlink="_ed0ac2cf29d114871172a2881be"/>
+      <citationref hlink="_ed0ad82590898ec4e6634ac875"/>
     </event>
-    <event handle="_ed0a767b88e499478e9a08270a4" change="1628932457" id="E0382">
+    <event handle="_ed0a767b88e499478e9a08270a4" change="1628941989" id="E0382">
       <type>Residence</type>
       <datespan start="1795" stop="1802"/>
       <place hlink="_cb589ccedbc19380200"/>
       <citationref hlink="_ed0a76786d5678cfa0e2f8d1984"/>
+      <citationref hlink="_ed0ac2cf29d114871172a2881be"/>
     </event>
     <event handle="_ed0a80b0f253ea67fbb991a392c" change="1628940467" id="E0383">
       <type>Residence</type>
@@ -39258,6 +39266,46 @@
       <noteref hlink="_ed0ac2bc3ae15bc8b0a165f7b81"/>
       <sourceref hlink="_d6d0c4bb5b07cb81f05866cea91"/>
     </citation>
+    <citation handle="_ed0ad82590898ec4e6634ac875" change="1628942698" id="C1299">
+      <page>länsi/220-221</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ed0ad269ece39053b7b4a733310"/>
+      <noteref hlink="_ed0ad293df053e9e1ed7de55acb"/>
+      <noteref hlink="_ed0ad81817f708f97937176dbc9"/>
+      <sourceref hlink="_d92e5dd42e222de60753238ab5e"/>
+    </citation>
+    <citation handle="_ed0add7fab75e8535ad98025699" change="1628943259" id="C1300">
+      <page>jakso 242</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ed0ada09eb02272309525adf9b8"/>
+      <noteref hlink="_ed0ada2f8baf41aece1faa95ad"/>
+      <noteref hlink="_ed0add71b8768ba702eaf1f9c69"/>
+      <sourceref hlink="_d6d0f6d6deb45654ad708990e0"/>
+    </citation>
+    <citation handle="_ed0afd2f1e41b0847878536033" change="1628946582" id="C1301">
+      <page>jakso 271</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ed0afb3561e1991f104da96e1f5"/>
+      <noteref hlink="_ed0afb5e27083071b1eb924656"/>
+      <noteref hlink="_ed0afd26da5667063bdc67126b0"/>
+      <sourceref hlink="_d6d0f6d6deb45654ad708990e0"/>
+    </citation>
+    <citation handle="_ed0c25be489321588e150aed8ae" change="1628977821" id="C1302">
+      <page>jakso 71</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ed0c25cf0556b59e27af6ed0f27"/>
+      <noteref hlink="_ed0c25fad6a11b613398ba79ac7"/>
+      <noteref hlink="_ed0c271587d6377e813cada4b1"/>
+      <sourceref hlink="_d6d0d9df696356e482e7c6c443f"/>
+    </citation>
+    <citation handle="_ed0c2a68fd5474d407258d144f4" change="1628978168" id="C1303">
+      <page>jakso 299</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ed0c289a0486972bb4c17c024b7"/>
+      <noteref hlink="_ed0c28c468c17753be0a2c8f3bd"/>
+      <noteref hlink="_ed0c2a5d0e411788481640100ae"/>
+      <sourceref hlink="_d6d0f6d6deb45654ad708990e0"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -59020,6 +59068,115 @@ Hedwig do             92
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="220"/>
+      </style>
+    </note>
+    <note handle="_ed0ad269ece39053b7b4a733310" change="1628942097" id="N1976" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Lastenkirjat 1803-1820 (Maaseurakunnan läntinen osa), jakso 110, sivu 220-221: Norrveckoski Klemets, Mattas; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=7975494 / Viitattu 14.8.2021</text>
+    </note>
+    <note handle="_ed0ad293df053e9e1ed7de55acb" change="1628942114" id="N1977" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7975494</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=7975494">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_ed0ad81817f708f97937176dbc9" change="1628942693" id="N1978" type="Transcript" format="1">
+      <text>220    Norrveckoski
+Klemets Fr Hn
+Fr.R.B.b.
+Henrik Johansson         14/7    89   adm 1/10 806  ???????
+Hedwig Johansdr          13/4    92   adm 21/8 807
+son t. Fr.B.b
+Anna Stina Carlsdr       12/5   804                 adm d. 3 Junii 1819
+Carl Gustaf Carlsson     7/6    808
+Maria Helena Carlsdr     21/3   811                 Maria vaccin 813 Ceder
+Hedda Sofia Carlsdr       22/1   814                 vacc 1819 af Forsblom
+
+Bonde sonen Henrik Johansson b.
+Fredrika Henriksdotter   30/12  818   1819 till p 226
+
+Bror Henriks b.
+Fredrika Henriksdr       18/9   815  död den 20/7 816
+
+Sp. Torp. b.
+Johan Henriksson         9/2    805                      81 ifr p 191  19 til p 214
+
+dräng jäg? Carl Nords barn
+Maria Helena Carlsdr     22/3   807     19 till p 376     vacc 1819 af Ekholm</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="788"/>
+      </style>
+    </note>
+    <note handle="_ed0ada09eb02272309525adf9b8" change="1628942897" id="N1979" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Syntyneiden ja kastettujen luettelot 1757-1778, jakso 242: födde 1773 dec 1774 Januarius; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=7968176 / Viitattu 14.8.2021</text>
+    </note>
+    <note handle="_ed0ada2f8baf41aece1faa95ad" change="1628942912" id="N1980" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7968176</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=7968176">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_ed0add71b8768ba702eaf1f9c69" change="1628943254" id="N1981" type="Transcript" format="1">
+      <text>1773
+[December]
+24  26  Johan  Johan Henr:      Lena Ericsdr        N.veckoski
+               T. Matts Ersson  Caisa &amp; Ebba Ers    Mölnaren
+               Henric Ersson    dottrar</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="179"/>
+      </style>
+    </note>
+    <note handle="_ed0afb3561e1991f104da96e1f5" change="1628946375" id="N1982" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Syntyneiden ja kastettujen luettelot 1757-1778, jakso 271: 1775 nov dec; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=7968204 / Viitattu 14.8.2021</text>
+    </note>
+    <note handle="_ed0afb5e27083071b1eb924656" change="1628946391" id="N1983" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7968204</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=7968204">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_ed0afd26da5667063bdc67126b0" change="1628946578" id="N1984" type="Transcript" format="1">
+      <text>1775
+December
+7    8    Hinrich    Johan Henrichsson    Lena Ersdr        21    Norrveckoski
+                     T. Hans Beckman      Maria Johansdr          Clemets
+                     mats Jonason         Caisa Abramsdr</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="223"/>
+      </style>
+    </note>
+    <note handle="_ed0c25cf0556b59e27af6ed0f27" change="1628977685" id="N1985" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Kuolleiden ja haudattujen luettelot 1770-1804, jakso 71: 1786 aug - dec; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=8399282 / Viitattu 15.8.2021</text>
+    </note>
+    <note handle="_ed0c25fad6a11b613398ba79ac7" change="1628977703" id="N1986" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=8399282</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=8399282">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_ed0c271587d6377e813cada4b1" change="1628977819" id="N1987" type="Transcript" format="1">
+      <text>December [1786]
+24  26  Gust. Johs.    Bondes.    Nveckoski Clemets    2  4    halssjuk?</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="88"/>
+      </style>
+    </note>
+    <note handle="_ed0c289a0486972bb4c17c024b7" change="1628977978" id="N1988" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Syntyneiden ja kastettujen luettelot 1757-1778, jakso 299: 1778 Feb - Mar; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=7968231 / Viitattu 15.8.2021</text>
+    </note>
+    <note handle="_ed0c28c468c17753be0a2c8f3bd" change="1628977995" id="N1989" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7968231</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=7968231">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_ed0c2a5d0e411788481640100ae" change="1628978163" id="N1990" type="Transcript" format="1">
+      <text>1778
+[Martius]
+21  22  Carolus    Johan Henr:       Lena Ersdr    25    N.veckoski
+                   T. Simon Ersson   Lena Henr:dr        Clemets
+                   Eric Johansson    Anna Mattsdr</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="197"/>
       </style>
     </note>
   </notes>
