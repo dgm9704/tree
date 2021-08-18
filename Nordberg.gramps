@@ -1708,7 +1708,7 @@
       <citationref hlink="_ed086adc0c55eac2d0f55566f6a"/>
       <citationref hlink="_ed0871e92ae387651a327752b90"/>
     </event>
-    <event handle="_cb589cced9d5b121664" change="1629286947" id="E1041">
+    <event handle="_cb589cced9d5b121664" change="1629288450" id="E1041">
       <type>Birth</type>
       <dateval val="1751-03-22"/>
       <place hlink="_ed0ded5d4bfc3e008a11979c69"/>
@@ -15015,20 +15015,40 @@
       <place hlink="_cb589ccedbc19380200"/>
       <citationref hlink="_ed0c5c6d71116bb9f989a5456d7"/>
     </event>
-    <event handle="_ed142ae093c2ada135fd125b2b2" change="1629192965" id="E0388">
+    <event handle="_ed142ae093c2ada135fd125b2b2" change="1629289854" id="E0388">
       <type>Birth</type>
-      <dateval val="1749"/>
+      <dateval val="1746-05-02"/>
+      <place hlink="_ed0ded5d4bfc3e008a11979c69"/>
+      <noteref hlink="_ed17c6d50e36e9d1c0e53aca631"/>
       <citationref hlink="_ed142adccc660360a2cd45947ef"/>
+      <citationref hlink="_ed17c65089c4c44467c690714a8"/>
     </event>
     <event handle="_ed142bb979b40604a7410313336" change="1629193054" id="E0389">
       <type>Birth</type>
       <dateval val="1757"/>
       <citationref hlink="_ed142adccc660360a2cd45947ef"/>
     </event>
-    <event handle="_ed144f81de3646b0d6dee5a0f16" change="1629196806" id="E0390">
+    <event handle="_ed144f81de3646b0d6dee5a0f16" change="1629288398" id="E0390">
       <type>Residence</type>
       <datespan start="1754" stop="1770"/>
       <place hlink="_ed0ded5d4bfc3e008a11979c69"/>
+      <citationref hlink="_ed144f77a3712a3407f185d1d99"/>
+      <citationref hlink="_ed142adccc660360a2cd45947ef"/>
+    </event>
+    <event handle="_ed17b65054a7caeabf3534e317f" change="1629288117" id="E0391">
+      <type>Birth</type>
+      <dateval val="1703" type="about" quality="calculated"/>
+      <citationref hlink="_ed144f77a3712a3407f185d1d99"/>
+    </event>
+    <event handle="_ed17b69e8952a06ad70492893b7" change="1629288149" id="E0392">
+      <type>Death</type>
+      <dateval val="1763-03-11"/>
+      <place hlink="_ed0ded5d4bfc3e008a11979c69"/>
+      <citationref hlink="_ed144f77a3712a3407f185d1d99"/>
+    </event>
+    <event handle="_ed17b6f3957ed4d12cbc87563f" change="1629288184" id="E0393">
+      <type>Birth</type>
+      <dateval val="1712" type="about" quality="calculated"/>
       <citationref hlink="_ed144f77a3712a3407f185d1d99"/>
     </event>
   </events>
@@ -17168,7 +17188,7 @@
       <childof hlink="_cb589cced863635e161"/>
       <parentin hlink="_cb589ccbcdb69d25d84"/>
     </person>
-    <person handle="_cb589cced973d0ae18a" change="1629236051" id="I4337">
+    <person handle="_cb589cced973d0ae18a" change="1629289882" id="I4337">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Helena</first>
@@ -27322,23 +27342,26 @@
       <eventref hlink="_ed0c5c72001219a9ab8ad2a5ca9" role="Primary"/>
       <childof hlink="_cb589ccbcdb69d25d84"/>
     </person>
-    <person handle="_ed14284edc2b94ab6220f430e9" change="1629193089" id="I0100">
+    <person handle="_ed14284edc2b94ab6220f430e9" change="1629288154" id="I0100">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Eric</first>
         <surname derivation="Patronymic">Mattsson</surname>
       </name>
+      <eventref hlink="_ed17b65054a7caeabf3534e317f" role="Primary"/>
+      <eventref hlink="_ed17b69e8952a06ad70492893b7" role="Primary"/>
       <parentin hlink="_cb589cceda100d58561"/>
     </person>
-    <person handle="_ed1428675536225e1b7b7b87a34" change="1629193089" id="I0101">
+    <person handle="_ed1428675536225e1b7b7b87a34" change="1629288203" id="I0101">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anna</first>
         <surname derivation="Patronymic">Mattsdotter</surname>
       </name>
+      <eventref hlink="_ed17b6f3957ed4d12cbc87563f" role="Primary"/>
       <parentin hlink="_cb589cceda100d58561"/>
     </person>
-    <person handle="_ed1428ce5ab2467de6b63f1424b" change="1629236051" id="I0102">
+    <person handle="_ed1428ce5ab2467de6b63f1424b" change="1629289882" id="I0102">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Erich</first>
@@ -27347,7 +27370,7 @@
       <eventref hlink="_ed142ae093c2ada135fd125b2b2" role="Primary"/>
       <childof hlink="_cb589cceda100d58561"/>
     </person>
-    <person handle="_ed142b02e6672f81d9848afdb80" change="1629236051" id="I0103">
+    <person handle="_ed142b02e6672f81d9848afdb80" change="1629289882" id="I0103">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Ebba</first>
@@ -28277,13 +28300,13 @@
       <childref hlink="_cb589cced6c188d19a3"/>
       <childref hlink="_cb589cd28010c948bec"/>
     </family>
-    <family handle="_cb589cceda100d58561" change="1629236051" id="F2579">
-      <rel type="Unknown"/>
+    <family handle="_cb589cceda100d58561" change="1629289882" id="F2579">
+      <rel type="Married"/>
       <father hlink="_ed14284edc2b94ab6220f430e9"/>
       <mother hlink="_ed1428675536225e1b7b7b87a34"/>
       <eventref hlink="_ed144f81de3646b0d6dee5a0f16" role="Family"/>
-      <childref hlink="_cb589cced973d0ae18a"/>
       <childref hlink="_ed1428ce5ab2467de6b63f1424b"/>
+      <childref hlink="_cb589cced973d0ae18a"/>
       <childref hlink="_ed142b02e6672f81d9848afdb80"/>
     </family>
     <family handle="_cb589ccee0700d23e37" change="1414284937" id="F1984">
@@ -39471,6 +39494,22 @@
       <noteref hlink="_ed142df6a1e6e90f5b6253b4af6"/>
       <noteref hlink="_ed144f66a2655fd99609561983b"/>
       <sourceref hlink="_d6e4395cc5c7786a314c1b36829"/>
+    </citation>
+    <citation handle="_ed17bc52a2e51146c370073fedb" change="1629288747" id="C1313">
+      <page>jakso 178</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ed17baafa52524290d108f6dd1c"/>
+      <noteref hlink="_ed17badafe93f8cd8187b82d923"/>
+      <noteref hlink="_ed17bc4dafb130655d22ecb0e48"/>
+      <sourceref hlink="_d6d0f6d6deb45654ad708990e0"/>
+    </citation>
+    <citation handle="_ed17c65089c4c44467c690714a8" change="1629289794" id="C1314">
+      <page>jakso 68</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ed17c42260f68986665b83388eb"/>
+      <noteref hlink="_ed17c44aa3d53af576021194032"/>
+      <noteref hlink="_ed17c64b4882d5428678b3063e5"/>
+      <sourceref hlink="_cdccc33aada5d1bc81c"/>
     </citation>
   </citations>
   <sources>
@@ -59564,6 +59603,50 @@ Ea Anna Johansdr  död    77
       <style name="fontface" value="Monospace">
         <range start="0" end="449"/>
       </style>
+    </note>
+    <note handle="_ed17baafa52524290d108f6dd1c" change="1629288575" id="N2021" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Syntyneiden ja kastettujen luettelot 1757-1778, jakso 178: födde 1769 mar apr; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=7968116 / Viitattu 18.8.2021</text>
+    </note>
+    <note handle="_ed17badafe93f8cd8187b82d923" change="1629288593" id="N2022" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7968116</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=7968116">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_ed17bc4dafb130655d22ecb0e48" change="1629288745" id="N2023" type="Transcript" format="1">
+      <text>1769 Aprilis
+
+1  3  Erich  Mats Ehrsson        Johanna Ehrsdr    Michelsböle
+             T. Mats Jonasson    Stina Ehrsdr      Hornhattas
+             Mats Erichsson      Stina Johansdr
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="187"/>
+      </style>
+    </note>
+    <note handle="_ed17c42260f68986665b83388eb" change="1629289566" id="N2024" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Syntyneiden ja kastettujen luettelot 1742-1756, jakso 68: 1746 Aprli - Majo; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=7967728 / Viitattu 18.8.2021</text>
+    </note>
+    <note handle="_ed17c44aa3d53af576021194032" change="1629289582" id="N2025" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7967728</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=7967728">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_ed17c64b4882d5428678b3063e5" change="1629289792" id="N2026" type="Transcript" format="1">
+      <text>Nati in Majus 1746
+
+114  2  4  Fadern Erich Mattson    Modern ho Anna Matsdr      Michels
+           Test Abraham Öholm      Test ho Christin Ehrsdr    böle
+           Hindrich Matsson        Christin Johansdr          Hornhat
+           Hindrich Simonsson      
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="263"/>
+      </style>
+    </note>
+    <note handle="_ed17c6d50e36e9d1c0e53aca631" change="1629289849" id="N2027" type="Research">
+      <text>Ericin syntymäaika merkitty lastenkirjaan 3 vuotta pieleen</text>
     </note>
   </notes>
 </database>
