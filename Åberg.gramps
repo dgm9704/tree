@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE database PUBLIC "-//Gramps//DTD Gramps XML 1.7.1//EN"
+"http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
+<database xmlns="http://gramps-project.org/xml/1.7.1/">
+  <header>
+    <created date="2021-11-29" version="5.1.4"/>
+    <researcher>
+      <resname>John Nordberg</resname>
+      <resemail>john.nordberg@gmail.com</resemail>
+    </researcher>
+  </header>
+  <events>
+    <event handle="_ee615250b7c10580fdcfe3b5e51" change="1638136534" id="E0000">
+      <type>Birth</type>
+      <dateval val="1894-01-29"/>
+      <place hlink="_ee6151725623cff8add84bf4f4b"/>
+      <citationref hlink="_ee61523fc74371accd739366520"/>
+      <citationref hlink="_ee6157515e76e15ea22cab70472"/>
+    </event>
+    <event handle="_ee615e7c7517260a91dd4c3f94b" change="1638137277" id="E0001">
+      <type>Residence</type>
+      <dateval val="1898" type="before"/>
+      <place hlink="_ee6159d865f411d39d88678c0b0"/>
+      <citationref hlink="_ee615e797d674fb1f99171006dd"/>
+    </event>
+    <event handle="_ee615f58b6d49483cec7d06e35" change="1638137368" id="E0002">
+      <type>Birth</type>
+      <dateval val="1860"/>
+      <citationref hlink="_ee615e797d674fb1f99171006dd"/>
+      <citationref hlink="_ee6157515e76e15ea22cab70472"/>
+    </event>
+  </events>
+  <people>
+    <person handle="_ee6150a01922f386922afbf79" change="1638137379" id="I0000">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Anna Anselmiina</first>
+        <surname derivation="Inherited">Åberg</surname>
+      </name>
+      <eventref hlink="_ee615250b7c10580fdcfe3b5e51" role="Primary"/>
+      <childof hlink="_ee61579fd2864532fd765c550a9"/>
+    </person>
+    <person handle="_ee6157afdc32c8a5dda9e9be429" change="1638136625" id="I0001">
+      <gender>M</gender>
+      <name type="Unknown">
+        <first>Lauri</first>
+        <surname derivation="Unknown ">Åberg</surname>
+      </name>
+      <parentin hlink="_ee61579fd2864532fd765c550a9"/>
+    </person>
+    <person handle="_ee6157e3c3659afb3b209e4411c" change="1638137376" id="I0002">
+      <gender>F</gender>
+      <name type="Unknown">
+        <first>Kustaava Karoliina</first>
+        <surname derivation="Unknown ">Koponen</surname>
+      </name>
+      <eventref hlink="_ee615f58b6d49483cec7d06e35" role="Primary"/>
+      <parentin hlink="_ee61579fd2864532fd765c550a9"/>
+    </person>
+  </people>
+  <families>
+    <family handle="_ee61579fd2864532fd765c550a9" change="1638137379" id="F0000">
+      <rel type="Married"/>
+      <father hlink="_ee6157afdc32c8a5dda9e9be429"/>
+      <mother hlink="_ee6157e3c3659afb3b209e4411c"/>
+      <eventref hlink="_ee615e7c7517260a91dd4c3f94b" role="Family"/>
+      <childref hlink="_ee6150a01922f386922afbf79">
+        <citationref hlink="_ee6157515e76e15ea22cab70472"/>
+      </childref>
+      <citationref hlink="_ee6157515e76e15ea22cab70472"/>
+    </family>
+  </families>
+  <citations>
+    <citation handle="_ee61523fc74371accd739366520" change="1638135994" id="C0000">
+      <confidence>2</confidence>
+      <sourceref hlink="_ee61523c21276c9b6703bb659e"/>
+    </citation>
+    <citation handle="_ee6157515e76e15ea22cab70472" change="1638136526" id="C0001">
+      <page>MKO32-40/50</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ee6154b967c1ce47a39e57f1ef"/>
+      <noteref hlink="_ee6154e9be06e13b01c8e9e8d2f"/>
+      <noteref hlink="_ee615737ed860f24467a00bb739"/>
+      <sourceref hlink="_ee6154397506930ca1918a82ff2"/>
+    </citation>
+    <citation handle="_ee615e797d674fb1f99171006dd" change="1638137276" id="C0002">
+      <page>MKO183-219/1559-1560</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ee615aa3bc21d1ad479bfd96096"/>
+      <noteref hlink="_ee615adb6551586784b4f3f0c98"/>
+      <noteref hlink="_ee615e5748423ab061ec5981ddf"/>
+      <sourceref hlink="_ee615a95a6e6f2f4825b464e105"/>
+    </citation>
+  </citations>
+  <sources>
+    <source handle="_ee61523c21276c9b6703bb659e" change="1638135993" id="S0000">
+      <stitle>Kurssitehtävä</stitle>
+      <sauthor>Ritva Sampio</sauthor>
+    </source>
+    <source handle="_ee6154397506930ca1918a82ff2" change="1638136201" id="S0001">
+      <stitle>Leppävirta Syntyneet 1892-1900</stitle>
+      <sauthor>Leppävirran seurakunta</sauthor>
+      <sabbrev>MKO32-40</sabbrev>
+      <reporef hlink="_ee6153fcc4b10b267598dc745fb" medium="Book"/>
+    </source>
+    <source handle="_ee615a95a6e6f2f4825b464e105" change="1638136868" id="S0002">
+      <stitle>Leppävirta Lastenkirja 1894-1900</stitle>
+      <sauthor>Leppävirran seurakunta</sauthor>
+      <reporef hlink="_ee6153fcc4b10b267598dc745fb" medium="Book"/>
+    </source>
+  </sources>
+  <places>
+    <placeobj handle="_ee6151725623cff8add84bf4f4b" change="1638136787" id="P0000" type="Parish">
+      <pname value="Leppävirta"/>
+    </placeobj>
+    <placeobj handle="_ee6159d865f411d39d88678c0b0" change="1638136791" id="P0001" type="Village">
+      <pname value="Sorsakoski"/>
+      <placeref hlink="_ee6151725623cff8add84bf4f4b"/>
+    </placeobj>
+  </places>
+  <repositories>
+    <repository handle="_ee6153fcc4b10b267598dc745fb" change="1638136865" id="R0000">
+      <rname>SSHY Digiarkisto</rname>
+      <type>Web site</type>
+    </repository>
+  </repositories>
+  <notes>
+    <note handle="_ee6154b967c1ce47a39e57f1ef" change="1638136254" id="N0000" type="Citation">
+      <text>Leppävirta syntyneet 1892-1900 (MKO32-40)  Sivu 50 1894 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7389&amp;pnum=46 / Viitattu 28.11.2021</text>
+    </note>
+    <note handle="_ee6154e9be06e13b01c8e9e8d2f" change="1638136274" id="N0001" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7389&amp;pnum=46</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7389&amp;pnum=46">
+        <range start="0" end="76"/>
+      </style>
+    </note>
+    <note handle="_ee615737ed860f24467a00bb739" change="1638136682" id="N0002" type="Transcript" format="1">
+      <text>Syntyneet ja Kastetut Leppävirran seurakunnassa
+Tammikuussa v. 1894						50
+[...]
+24?	29/1	1559	Anna Anselmiina Vt: Saharenki Lauri Åberg ja v.		1[N]	33[äidin ikä]
+			Kustaava Karoliina Koponen, Sorsakoski Kmt: Pek-
+			ka Rigt Sahar. tr Wilhelmiina Åberg
+						kastoi: Juho Korhonen
+</text>
+      <style name="underline">
+        <range start="96" end="111"/>
+      </style>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="283"/>
+      </style>
+    </note>
+    <note handle="_ee615aa3bc21d1ad479bfd96096" change="1638136874" id="N0003" type="Citation">
+      <text>Leppävirta lastenkirja 1894-1900 (MKO183-219)  Sivu 1559 Sorsakoski ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7096&amp;pnum=690 / Viitattu 28.11.2021</text>
+    </note>
+    <note handle="_ee615adb6551586784b4f3f0c98" change="1638136897" id="N0004" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7096&amp;pnum=690</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7096&amp;pnum=690">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_ee615e5748423ab061ec5981ddf" change="1638137262" id="N0005" type="Transcript" format="1">
+      <text>1559	Sorsakoski
+1891-1900
+
+[...]
+Saharki. Lauri Åbergin ja vmo Kustaava Karoliina Koposen s. 1860
+Tr. Aliina 		[n]	24/6 1882				kuuromykkä
+Pk. Juho Rutrik		[m]	15/1 1887 täällä			}
+Tr. Elna Maria		[n]	22/7 1889   &quot;				} 2382/98
+Tr. Hilda Elisabeth	[m]	3/6  1891   &quot;				}
+Tr. Anna Anselmiina	[n]	21/1 1894   &quot;				}
+Pa  Lauri Wiktor	[m]	20/3 1896   &quot;				}</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="353"/>
+      </style>
+    </note>
+  </notes>
+</database>
