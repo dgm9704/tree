@@ -10,18 +10,21 @@
     </researcher>
   </header>
   <events>
-    <event handle="_ee615250b7c10580fdcfe3b5e51" change="1638136534" id="E0000">
+    <event handle="_ee615250b7c10580fdcfe3b5e51" change="1638139144" id="E0000">
       <type>Birth</type>
-      <dateval val="1894-01-29"/>
+      <dateval val="1894-01-21"/>
       <place hlink="_ee6151725623cff8add84bf4f4b"/>
+      <noteref hlink="_ee616ca2c1d20d67ab9fa5c8e34"/>
       <citationref hlink="_ee61523fc74371accd739366520"/>
       <citationref hlink="_ee6157515e76e15ea22cab70472"/>
+      <citationref hlink="_ee615e797d674fb1f99171006dd"/>
     </event>
-    <event handle="_ee615e7c7517260a91dd4c3f94b" change="1638137277" id="E0001">
+    <event handle="_ee615e7c7517260a91dd4c3f94b" change="1638139293" id="E0001">
       <type>Residence</type>
-      <dateval val="1898" type="before"/>
+      <datespan start="1894" stop="1898"/>
       <place hlink="_ee6159d865f411d39d88678c0b0"/>
       <citationref hlink="_ee615e797d674fb1f99171006dd"/>
+      <citationref hlink="_ee616f95280190a847967c02369"/>
     </event>
     <event handle="_ee615f58b6d49483cec7d06e35" change="1638137368" id="E0002">
       <type>Birth</type>
@@ -29,9 +32,23 @@
       <citationref hlink="_ee615e797d674fb1f99171006dd"/>
       <citationref hlink="_ee6157515e76e15ea22cab70472"/>
     </event>
+    <event handle="_ee6174ab3932da0ff189d1d5869" change="1638140483" id="E0003">
+      <type>Residence</type>
+      <dateval val="1898"/>
+      <place hlink="_ee6151725623cff8add84bf4f4b"/>
+      <citationref hlink="_ee6174a3a1d1e6932121181495b"/>
+      <citationref hlink="_ee617cf577e61010521219b6e46"/>
+    </event>
+    <event handle="_ee61755e3d27f2b0a94e1297e1f" change="1638140519" id="E0004">
+      <type>Residence</type>
+      <dateval val="1899-02-04" type="after"/>
+      <place hlink="_ee61753d84755a6ddcf631fd07a"/>
+      <citationref hlink="_ee6174a3a1d1e6932121181495b"/>
+      <citationref hlink="_ee617cf577e61010521219b6e46"/>
+    </event>
   </events>
   <people>
-    <person handle="_ee6150a01922f386922afbf79" change="1638137379" id="I0000">
+    <person handle="_ee6150a01922f386922afbf79" change="1638140521" id="I0000">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anna Anselmiina</first>
@@ -59,11 +76,13 @@
     </person>
   </people>
   <families>
-    <family handle="_ee61579fd2864532fd765c550a9" change="1638137379" id="F0000">
+    <family handle="_ee61579fd2864532fd765c550a9" change="1638140521" id="F0000">
       <rel type="Married"/>
       <father hlink="_ee6157afdc32c8a5dda9e9be429"/>
       <mother hlink="_ee6157e3c3659afb3b209e4411c"/>
       <eventref hlink="_ee615e7c7517260a91dd4c3f94b" role="Family"/>
+      <eventref hlink="_ee6174ab3932da0ff189d1d5869" role="Family"/>
+      <eventref hlink="_ee61755e3d27f2b0a94e1297e1f" role="Family"/>
       <childref hlink="_ee6150a01922f386922afbf79">
         <citationref hlink="_ee6157515e76e15ea22cab70472"/>
       </childref>
@@ -91,6 +110,30 @@
       <noteref hlink="_ee615e5748423ab061ec5981ddf"/>
       <sourceref hlink="_ee615a95a6e6f2f4825b464e105"/>
     </citation>
+    <citation handle="_ee616f95280190a847967c02369" change="1638139070" id="C0003">
+      <page>MKO267-333/1559</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ee616e396bc7e35304d4fbbd096"/>
+      <noteref hlink="_ee616e6feda1473d4c7afc04fbe"/>
+      <noteref hlink="_ee616f821ef60b27f93286ba64a"/>
+      <sourceref hlink="_ee616dce06a24e330828307f7ce"/>
+    </citation>
+    <citation handle="_ee6174a3a1d1e6932121181495b" change="1638139600" id="C0004">
+      <page>MKO267-333/2382</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ee61731aaf41ed367e60aa813b9"/>
+      <noteref hlink="_ee6173774b31f4c6509f923bf1a"/>
+      <noteref hlink="_ee61749481c5cf4a4013089871b"/>
+      <sourceref hlink="_ee616dce06a24e330828307f7ce"/>
+    </citation>
+    <citation handle="_ee617cf577e61010521219b6e46" change="1638140512" id="C0005">
+      <page>MKO183-219/2382-2383</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ee61759eb91aaa84e7d8bde731"/>
+      <noteref hlink="_ee6175f9b273c485c453393a36b"/>
+      <noteref hlink="_ee617cea4b57194b0bf7a606934"/>
+      <sourceref hlink="_ee615a95a6e6f2f4825b464e105"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_ee61523c21276c9b6703bb659e" change="1638135993" id="S0000">
@@ -108,6 +151,11 @@
       <sauthor>Leppävirran seurakunta</sauthor>
       <reporef hlink="_ee6153fcc4b10b267598dc745fb" medium="Book"/>
     </source>
+    <source handle="_ee616dce06a24e330828307f7ce" change="1638138884" id="S0003">
+      <stitle>Leppävirta Rippikirja 1894-1900</stitle>
+      <sauthor>Leppävirran seurakunta</sauthor>
+      <reporef hlink="_ee6153fcc4b10b267598dc745fb" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_ee6151725623cff8add84bf4f4b" change="1638136787" id="P0000" type="Parish">
@@ -117,9 +165,17 @@
       <pname value="Sorsakoski"/>
       <placeref hlink="_ee6151725623cff8add84bf4f4b"/>
     </placeobj>
+    <placeobj handle="_ee61753881243c22e3581ddb787" change="1638139661" id="P0002" type="Country">
+      <pname value="Suomi" lang="fi"/>
+      <pname value="Finland" lang="se"/>
+    </placeobj>
+    <placeobj handle="_ee61753d84755a6ddcf631fd07a" change="1638139663" id="P0003" type="Parish">
+      <pname value="Ruokolahti"/>
+      <placeref hlink="_ee61753881243c22e3581ddb787"/>
+    </placeobj>
   </places>
   <repositories>
-    <repository handle="_ee6153fcc4b10b267598dc745fb" change="1638136865" id="R0000">
+    <repository handle="_ee6153fcc4b10b267598dc745fb" change="1638138876" id="R0000">
       <rname>SSHY Digiarkisto</rname>
       <type>Web site</type>
     </repository>
@@ -173,6 +229,75 @@ Tr. Anna Anselmiina	[n]	21/1 1894   &quot;				}
 Pa  Lauri Wiktor	[m]	20/3 1896   &quot;				}</text>
       <style name="fontface" value="Monospace">
         <range start="0" end="353"/>
+      </style>
+    </note>
+    <note handle="_ee616ca2c1d20d67ab9fa5c8e34" change="1638138761" id="N0006" type="Event Note" format="1">
+      <text>Näyttää siltä että oikea syntymäpäivä on 21.1.1894, sillä tehtävänannossa oleva 29.1 
+täsmää ainoan tammikuussa syntyneeksi merkittyn Anna Anselmiinan kastepäivään.
+</text>
+    </note>
+    <note handle="_ee616e396bc7e35304d4fbbd096" change="1638138928" id="N0007" type="Citation">
+      <text>Leppävirta rippikirja 1894-1900 (MKO267-333)  Sivu 1559 Sorsakoski ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7094&amp;pnum=1223 / Viitattu 28.11.2021</text>
+    </note>
+    <note handle="_ee616e6feda1473d4c7afc04fbe" change="1638138950" id="N0008" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7094&amp;pnum=1223</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7094&amp;pnum=1223">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_ee616f821ef60b27f93286ba64a" change="1638139062" id="N0009" type="Transcript" format="1">
+      <text>1559		Sorsakoski
+
+[...]
+Poika, sahar Lauri Åberg	[m]	22/10 1854 Täällä		2382/98
+vmo Kustaava Karoliina Koponen	[n]	11/10 1860    &quot;</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="130"/>
+      </style>
+    </note>
+    <note handle="_ee61731aaf41ed367e60aa813b9" change="1638139439" id="N0010" type="Citation">
+      <text>Leppävirta rippikirja 1894-1900 (MKO267-333)  Sivu 2382 Åberg ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7094&amp;pnum=1905 / Viitattu 28.11.2021</text>
+    </note>
+    <note handle="_ee6173774b31f4c6509f923bf1a" change="1638139477" id="N0011" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7094&amp;pnum=1905</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7094&amp;pnum=1905">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_ee61749481c5cf4a4013089871b" change="1638139594" id="N0012" type="Transcript" format="1">
+      <text>2382		Å
+
+	????
+lähtö?	Åberg, Lauri			[m]	29/10 1854 täällä	98 p. 1559	} Ruokolah
+	vmo Kustaava Karoliina Koponen	[n]	11/10 1860   &quot;				} delle 4/2 1899</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="151"/>
+      </style>
+    </note>
+    <note handle="_ee61759eb91aaa84e7d8bde731" change="1638139703" id="N0013" type="Citation">
+      <text>Leppävirta lastenkirja 1894-1900 (MKO183-219)  Sivu 2382 Loisia Åb ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7096&amp;pnum=1046 / Viitattu 28.11.2021</text>
+    </note>
+    <note handle="_ee6175f9b273c485c453393a36b" change="1638139740" id="N0014" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7096&amp;pnum=1046</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7096&amp;pnum=1046">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_ee617cea4b57194b0bf7a606934" change="1638140468" id="N0015" type="Transcript" format="1">
+      <text>2382		Å
+?????
+1	Åbergin Laurin ja vmo Kust Karol Koposen s 1860
+Läht	Tyt Aliina		[n]	24/6 1882 täällä	1559/98		Ruokolahdelle 4/2 1899 kuuromykkä
++	Pk Juho Rutrikki	[m]	15/1 1887   &quot;				Kuoli 10/12 1898
++	Tr Elna Maria		[n]	22/7 1889   &quot;				Kuoli 22/10 1898
+Läht	Hilda Elisabet		[n]	3/6  1891   &quot;				Ruokolahdelle 4/12 1899
++	Anna Anselmina		[n]	21/1 1894   &quot;				Kuoli 26/12 1898
+Läht	Pk Lauri Wiktor		[m]	28/3 1896   &quot;				Ruokolahdelle 4/12 1899
++	Lauri   }		[m]	21/6 1898 Ruokolahti			Kuoli 6/11 1898
++	Pietari } kaksoset	[m]						Kuoli 6/12 1898
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="548"/>
       </style>
     </note>
   </notes>
