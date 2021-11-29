@@ -32,12 +32,13 @@
       <citationref hlink="_ee615e797d674fb1f99171006dd"/>
       <citationref hlink="_ee6157515e76e15ea22cab70472"/>
     </event>
-    <event handle="_ee6174ab3932da0ff189d1d5869" change="1638140483" id="E0003">
+    <event handle="_ee6174ab3932da0ff189d1d5869" change="1638218696" id="E0003">
       <type>Residence</type>
-      <dateval val="1898"/>
-      <place hlink="_ee6151725623cff8add84bf4f4b"/>
+      <datespan start="1898" stop="1899"/>
+      <place hlink="_ee645c33fac23b4a2ab4df134f1"/>
       <citationref hlink="_ee6174a3a1d1e6932121181495b"/>
       <citationref hlink="_ee617cf577e61010521219b6e46"/>
+      <citationref hlink="_ee64617736038a914379478059b"/>
     </event>
     <event handle="_ee61755e3d27f2b0a94e1297e1f" change="1638140519" id="E0004">
       <type>Residence</type>
@@ -53,9 +54,44 @@
       <citationref hlink="_ee617cf577e61010521219b6e46"/>
       <citationref hlink="_ee64617736038a914379478059b"/>
     </event>
+    <event handle="_ee6463fc9191d00fc87db5e3756" change="1638218385" id="E0006">
+      <type>Birth</type>
+      <dateval val="1882-06-24"/>
+      <citationref hlink="_ee615e797d674fb1f99171006dd"/>
+    </event>
+    <event handle="_ee6464b120c45a5bc050e7c8da" change="1638218459" id="E0007">
+      <type>Birth</type>
+      <dateval val="1887-01-15"/>
+      <place hlink="_ee6151725623cff8add84bf4f4b"/>
+      <citationref hlink="_ee615e797d674fb1f99171006dd"/>
+    </event>
+    <event handle="_ee646563b18599a4ff57984e006" change="1638218532" id="E0008">
+      <type>Birth</type>
+      <dateval val="1889-07-22"/>
+      <place hlink="_ee6151725623cff8add84bf4f4b"/>
+      <citationref hlink="_ee615e797d674fb1f99171006dd"/>
+    </event>
+    <event handle="_ee6465e9192507c9aa10ee78e3b" change="1638218586" id="E0009">
+      <type>Birth</type>
+      <dateval val="1891-06-03"/>
+      <place hlink="_ee6151725623cff8add84bf4f4b"/>
+      <citationref hlink="_ee615e797d674fb1f99171006dd"/>
+    </event>
+    <event handle="_ee6466a531157cd6a1b548fbb2c" change="1638218664" id="E0010">
+      <type>Birth</type>
+      <dateval val="1896-03-20"/>
+      <place hlink="_ee6151725623cff8add84bf4f4b"/>
+      <citationref hlink="_ee615e797d674fb1f99171006dd"/>
+    </event>
+    <event handle="_ee646a6929f5c2c46eeaf7ada6" change="1638219180" id="E0011">
+      <type>Birth</type>
+      <dateval val="1898-06-21"/>
+      <place hlink="_ee61753d84755a6ddcf631fd07a"/>
+      <citationref hlink="_ee617cf577e61010521219b6e46"/>
+    </event>
   </events>
   <people>
-    <person handle="_ee6150a01922f386922afbf79" change="1638218124" id="I0000">
+    <person handle="_ee6150a01922f386922afbf79" change="1638219162" id="I0000">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anna Anselmiina</first>
@@ -82,18 +118,88 @@
       <eventref hlink="_ee615f58b6d49483cec7d06e35" role="Primary"/>
       <parentin hlink="_ee61579fd2864532fd765c550a9"/>
     </person>
+    <person handle="_ee64636aabb17a363ee72b87057" change="1638219162" id="I0003">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Aliina</first>
+        <surname derivation="Unknown ">Åberg</surname>
+      </name>
+      <eventref hlink="_ee6463fc9191d00fc87db5e3756" role="Primary"/>
+      <childof hlink="_ee61579fd2864532fd765c550a9"/>
+    </person>
+    <person handle="_ee64644a7076bf88f3304448491" change="1638219162" id="I0004">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Juho Rutrik</first>
+        <surname derivation="Inherited">Åberg</surname>
+      </name>
+      <eventref hlink="_ee6464b120c45a5bc050e7c8da" role="Primary"/>
+      <childof hlink="_ee61579fd2864532fd765c550a9"/>
+    </person>
+    <person handle="_ee6464f0566bcddcebb99cc91b" change="1638219162" id="I0005">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Elna Maria</first>
+        <surname derivation="Inherited">Åberg</surname>
+      </name>
+      <eventref hlink="_ee646563b18599a4ff57984e006" role="Primary"/>
+      <childof hlink="_ee61579fd2864532fd765c550a9"/>
+    </person>
+    <person handle="_ee6465949c478672e694540db01" change="1638219162" id="I0006">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Hilda Elisabeth</first>
+        <surname derivation="Unknown ">Åberg</surname>
+      </name>
+      <eventref hlink="_ee6465e9192507c9aa10ee78e3b" role="Primary"/>
+      <childof hlink="_ee61579fd2864532fd765c550a9"/>
+    </person>
+    <person handle="_ee64665a6fe158fa3db8eca5bba" change="1638219162" id="I0007">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Lauri Wiktor</first>
+        <surname derivation="Unknown ">Åberg</surname>
+      </name>
+      <eventref hlink="_ee6466a531157cd6a1b548fbb2c" role="Primary"/>
+      <childof hlink="_ee61579fd2864532fd765c550a9"/>
+    </person>
+    <person handle="_ee6469e4f6025d3bbe73593e6f2" change="1638219162" id="I0008">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Lauri</first>
+        <surname derivation="Inherited">Åberg</surname>
+      </name>
+      <eventref hlink="_ee646a6929f5c2c46eeaf7ada6" role="Primary"/>
+      <childof hlink="_ee61579fd2864532fd765c550a9"/>
+    </person>
+    <person handle="_ee646b1846554885cb2d391edfd" change="1638219182" id="I0009">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Pietari</first>
+        <surname derivation="Inherited">Åberg</surname>
+      </name>
+      <eventref hlink="_ee646a6929f5c2c46eeaf7ada6" role="Primary"/>
+      <childof hlink="_ee61579fd2864532fd765c550a9"/>
+    </person>
   </people>
   <families>
-    <family handle="_ee61579fd2864532fd765c550a9" change="1638140521" id="F0000">
+    <family handle="_ee61579fd2864532fd765c550a9" change="1638219162" id="F0000">
       <rel type="Married"/>
       <father hlink="_ee6157afdc32c8a5dda9e9be429"/>
       <mother hlink="_ee6157e3c3659afb3b209e4411c"/>
       <eventref hlink="_ee615e7c7517260a91dd4c3f94b" role="Family"/>
       <eventref hlink="_ee6174ab3932da0ff189d1d5869" role="Family"/>
       <eventref hlink="_ee61755e3d27f2b0a94e1297e1f" role="Family"/>
+      <childref hlink="_ee64636aabb17a363ee72b87057"/>
+      <childref hlink="_ee64644a7076bf88f3304448491"/>
+      <childref hlink="_ee6464f0566bcddcebb99cc91b"/>
+      <childref hlink="_ee6465949c478672e694540db01"/>
       <childref hlink="_ee6150a01922f386922afbf79">
         <citationref hlink="_ee6157515e76e15ea22cab70472"/>
       </childref>
+      <childref hlink="_ee64665a6fe158fa3db8eca5bba"/>
+      <childref hlink="_ee6469e4f6025d3bbe73593e6f2"/>
+      <childref hlink="_ee646b1846554885cb2d391edfd"/>
       <citationref hlink="_ee6157515e76e15ea22cab70472"/>
     </family>
   </families>
