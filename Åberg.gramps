@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2021-11-29" version="5.1.4"/>
+    <created date="2021-11-30" version="5.1.4"/>
     <researcher>
       <resname>John Nordberg</resname>
       <resemail>john.nordberg@gmail.com</resemail>
@@ -19,7 +19,7 @@
       <citationref hlink="_ee6157515e76e15ea22cab70472"/>
       <citationref hlink="_ee615e797d674fb1f99171006dd"/>
     </event>
-    <event handle="_ee615e7c7517260a91dd4c3f94b" change="1638139293" id="E0001">
+    <event handle="_ee615e7c7517260a91dd4c3f94b" change="1638222609" id="E0001">
       <type>Residence</type>
       <datespan start="1894" stop="1898"/>
       <place hlink="_ee6159d865f411d39d88678c0b0"/>
@@ -32,7 +32,7 @@
       <citationref hlink="_ee615e797d674fb1f99171006dd"/>
       <citationref hlink="_ee6157515e76e15ea22cab70472"/>
     </event>
-    <event handle="_ee6174ab3932da0ff189d1d5869" change="1638218696" id="E0003">
+    <event handle="_ee6174ab3932da0ff189d1d5869" change="1638222614" id="E0003">
       <type>Residence</type>
       <datespan start="1898" stop="1899"/>
       <place hlink="_ee645c33fac23b4a2ab4df134f1"/>
@@ -40,7 +40,7 @@
       <citationref hlink="_ee617cf577e61010521219b6e46"/>
       <citationref hlink="_ee64617736038a914379478059b"/>
     </event>
-    <event handle="_ee61755e3d27f2b0a94e1297e1f" change="1638140519" id="E0004">
+    <event handle="_ee61755e3d27f2b0a94e1297e1f" change="1638222617" id="E0004">
       <type>Residence</type>
       <dateval val="1899-02-04" type="after"/>
       <place hlink="_ee61753d84755a6ddcf631fd07a"/>
@@ -89,16 +89,40 @@
       <place hlink="_ee61753d84755a6ddcf631fd07a"/>
       <citationref hlink="_ee617cf577e61010521219b6e46"/>
     </event>
-    <event handle="_ee6473ae1f8615425721b3bbb31" change="1638220539" id="E0012">
+    <event handle="_ee6473ae1f8615425721b3bbb31" change="1638222605" id="E0012">
       <type>Residence</type>
       <datespan start="1884" stop="1893"/>
       <place hlink="_ee6159d865f411d39d88678c0b0"/>
       <citationref hlink="_ee647367eb062b1a6a9eca18cdb"/>
       <citationref hlink="_ee64782332230fc0e800cde86dd"/>
     </event>
+    <event handle="_ee6488ac52d48c181c1844837b4" change="1638222676" id="E0013">
+      <type>Residence</type>
+      <datespan start="1880" stop="1883"/>
+      <place hlink="_ee6159d865f411d39d88678c0b0"/>
+      <citationref hlink="_ee6488a73ad7ddd9d6440847779"/>
+      <citationref hlink="_ee648c2b4e3577a994332ba6feb"/>
+    </event>
+    <event handle="_ee649067bca1c8ba19ac0d45b7e" change="1638223042" id="E0014">
+      <type>Marriage</type>
+      <dateval val="1880-11-07"/>
+      <place hlink="_ee6151725623cff8add84bf4f4b"/>
+      <citationref hlink="_ee6488a73ad7ddd9d6440847779"/>
+      <citationref hlink="_ee648fe8cd1180ec2d2bb3b5c63"/>
+    </event>
+    <event handle="_ee649114cc16098571d2e605ba0" change="1638223113" id="E0015">
+      <type>Birth</type>
+      <dateval val="1854-10-29"/>
+      <citationref hlink="_ee6488a73ad7ddd9d6440847779"/>
+    </event>
+    <event handle="_ee6491b07a77345ad5fca3eff23" change="1638223204" id="E0016">
+      <type>Birth</type>
+      <dateval val="1860-10-11"/>
+      <citationref hlink="_ee6488a73ad7ddd9d6440847779"/>
+    </event>
   </events>
   <people>
-    <person handle="_ee6150a01922f386922afbf79" change="1638220545" id="I0000">
+    <person handle="_ee6150a01922f386922afbf79" change="1638223045" id="I0000">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anna Anselmiina</first>
@@ -108,24 +132,25 @@
       <eventref hlink="_ee645c5876e625eaa5ba702ea3b" role="Primary"/>
       <childof hlink="_ee61579fd2864532fd765c550a9"/>
     </person>
-    <person handle="_ee6157afdc32c8a5dda9e9be429" change="1638136625" id="I0001">
+    <person handle="_ee6157afdc32c8a5dda9e9be429" change="1638223116" id="I0001">
       <gender>M</gender>
       <name type="Unknown">
         <first>Lauri</first>
         <surname derivation="Unknown ">Åberg</surname>
       </name>
+      <eventref hlink="_ee649114cc16098571d2e605ba0" role="Primary"/>
       <parentin hlink="_ee61579fd2864532fd765c550a9"/>
     </person>
-    <person handle="_ee6157e3c3659afb3b209e4411c" change="1638137376" id="I0002">
+    <person handle="_ee6157e3c3659afb3b209e4411c" change="1638223210" id="I0002">
       <gender>F</gender>
       <name type="Unknown">
         <first>Kustaava Karoliina</first>
         <surname derivation="Unknown ">Koponen</surname>
       </name>
-      <eventref hlink="_ee615f58b6d49483cec7d06e35" role="Primary"/>
+      <eventref hlink="_ee6491b07a77345ad5fca3eff23" role="Primary"/>
       <parentin hlink="_ee61579fd2864532fd765c550a9"/>
     </person>
-    <person handle="_ee64636aabb17a363ee72b87057" change="1638220545" id="I0003">
+    <person handle="_ee64636aabb17a363ee72b87057" change="1638223045" id="I0003">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Aliina</first>
@@ -134,16 +159,16 @@
       <eventref hlink="_ee6463fc9191d00fc87db5e3756" role="Primary"/>
       <childof hlink="_ee61579fd2864532fd765c550a9"/>
     </person>
-    <person handle="_ee64644a7076bf88f3304448491" change="1638220545" id="I0004">
+    <person handle="_ee64644a7076bf88f3304448491" change="1638223128" id="I0004">
       <gender>M</gender>
       <name type="Birth Name">
-        <first>Juho Rutrik</first>
+        <first>Juho Fredrik</first>
         <surname derivation="Inherited">Åberg</surname>
       </name>
       <eventref hlink="_ee6464b120c45a5bc050e7c8da" role="Primary"/>
       <childof hlink="_ee61579fd2864532fd765c550a9"/>
     </person>
-    <person handle="_ee6464f0566bcddcebb99cc91b" change="1638220545" id="I0005">
+    <person handle="_ee6464f0566bcddcebb99cc91b" change="1638223045" id="I0005">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Elna Maria</first>
@@ -152,7 +177,7 @@
       <eventref hlink="_ee646563b18599a4ff57984e006" role="Primary"/>
       <childof hlink="_ee61579fd2864532fd765c550a9"/>
     </person>
-    <person handle="_ee6465949c478672e694540db01" change="1638220545" id="I0006">
+    <person handle="_ee6465949c478672e694540db01" change="1638223045" id="I0006">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Hilda Elisabeth</first>
@@ -161,7 +186,7 @@
       <eventref hlink="_ee6465e9192507c9aa10ee78e3b" role="Primary"/>
       <childof hlink="_ee61579fd2864532fd765c550a9"/>
     </person>
-    <person handle="_ee64665a6fe158fa3db8eca5bba" change="1638220545" id="I0007">
+    <person handle="_ee64665a6fe158fa3db8eca5bba" change="1638223045" id="I0007">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Lauri Wiktor</first>
@@ -170,7 +195,7 @@
       <eventref hlink="_ee6466a531157cd6a1b548fbb2c" role="Primary"/>
       <childof hlink="_ee61579fd2864532fd765c550a9"/>
     </person>
-    <person handle="_ee6469e4f6025d3bbe73593e6f2" change="1638220545" id="I0008">
+    <person handle="_ee6469e4f6025d3bbe73593e6f2" change="1638223045" id="I0008">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Lauri</first>
@@ -179,7 +204,7 @@
       <eventref hlink="_ee646a6929f5c2c46eeaf7ada6" role="Primary"/>
       <childof hlink="_ee61579fd2864532fd765c550a9"/>
     </person>
-    <person handle="_ee646b1846554885cb2d391edfd" change="1638220545" id="I0009">
+    <person handle="_ee646b1846554885cb2d391edfd" change="1638223045" id="I0009">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Pietari</first>
@@ -190,14 +215,16 @@
     </person>
   </people>
   <families>
-    <family handle="_ee61579fd2864532fd765c550a9" change="1638220545" id="F0000">
+    <family handle="_ee61579fd2864532fd765c550a9" change="1638223045" id="F0000">
       <rel type="Married"/>
       <father hlink="_ee6157afdc32c8a5dda9e9be429"/>
       <mother hlink="_ee6157e3c3659afb3b209e4411c"/>
+      <eventref hlink="_ee6488ac52d48c181c1844837b4" role="Family"/>
       <eventref hlink="_ee6473ae1f8615425721b3bbb31" role="Family"/>
       <eventref hlink="_ee615e7c7517260a91dd4c3f94b" role="Family"/>
       <eventref hlink="_ee6174ab3932da0ff189d1d5869" role="Family"/>
       <eventref hlink="_ee61755e3d27f2b0a94e1297e1f" role="Family"/>
+      <eventref hlink="_ee649067bca1c8ba19ac0d45b7e" role="Family"/>
       <childref hlink="_ee64636aabb17a363ee72b87057"/>
       <childref hlink="_ee64644a7076bf88f3304448491"/>
       <childref hlink="_ee6464f0566bcddcebb99cc91b"/>
@@ -280,6 +307,30 @@
       <noteref hlink="_ee64781c8fb4a8a728b5af6b6d"/>
       <sourceref hlink="_ee64745c3605ae6749268eaa02d"/>
     </citation>
+    <citation handle="_ee6488a73ad7ddd9d6440847779" change="1638222230" id="C0009">
+      <page>MKO151-202/1705</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ee6483aee073085a3b96b0ba447"/>
+      <noteref hlink="_ee64840fe042679bd53b3532bba"/>
+      <noteref hlink="_ee648898b2c1229b80315158434"/>
+      <sourceref hlink="_ee648370b33115af91db7a5d988"/>
+    </citation>
+    <citation handle="_ee648c2b4e3577a994332ba6feb" change="1638222598" id="C0010">
+      <page>Ab:14-16/816_1704-817_1705</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ee648a658aa2323fa4e46f2de02"/>
+      <noteref hlink="_ee648b1d13a3c09674e97a60f4b"/>
+      <noteref hlink="_ee648c235db67f0a7e58c70ff2b"/>
+      <sourceref hlink="_ee648a421e54252a1614592ab85"/>
+    </citation>
+    <citation handle="_ee648fe8cd1180ec2d2bb3b5c63" change="1638222990" id="C0011">
+      <page>MKO10/7</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ee648db2a4e68d54adbdc855544"/>
+      <noteref hlink="_ee648e2ff267ba22bcb23081067"/>
+      <noteref hlink="_ee648fdf5046513fa30fbb38a72"/>
+      <sourceref hlink="_ee648d9880e797a57cc6ead47ad"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_ee61523c21276c9b6703bb659e" change="1638135993" id="S0000">
@@ -317,6 +368,21 @@
       <sauthor>Leppävirran seurakunta</sauthor>
       <reporef hlink="_ee6153fcc4b10b267598dc745fb" medium="Book"/>
     </source>
+    <source handle="_ee648370b33115af91db7a5d988" change="1638221683" id="S0007">
+      <stitle>Leppävirta Rippikirja 1877-1883</stitle>
+      <sauthor>Leppävirran seurakunta</sauthor>
+      <reporef hlink="_ee6153fcc4b10b267598dc745fb" medium="Book"/>
+    </source>
+    <source handle="_ee648a421e54252a1614592ab85" change="1638222398" id="S0008">
+      <stitle>Leppävirta Lastenkirja 1877-1883</stitle>
+      <sauthor>Leppävirran seurakunta</sauthor>
+      <reporef hlink="_ee6153fcc4b10b267598dc745fb" medium="Book"/>
+    </source>
+    <source handle="_ee648d9880e797a57cc6ead47ad" change="1638222748" id="S0009">
+      <stitle>Leppävirta Vihityt 1880-1881</stitle>
+      <sauthor>Leppävirran seurakunta</sauthor>
+      <reporef hlink="_ee6153fcc4b10b267598dc745fb" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_ee6151725623cff8add84bf4f4b" change="1638217567" id="P0000" type="Parish">
@@ -341,7 +407,7 @@
     </placeobj>
   </places>
   <repositories>
-    <repository handle="_ee6153fcc4b10b267598dc745fb" change="1638220100" id="R0000">
+    <repository handle="_ee6153fcc4b10b267598dc745fb" change="1638222733" id="R0000">
       <rname>SSHY Digiarkisto</rname>
       <type>Web site</type>
     </repository>
@@ -538,6 +604,64 @@ Sahar Åbergin, Lauri ja vmo Kustaava Karol Koposen, s. 11/10 1860
     </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="288"/>
+      </style>
+    </note>
+    <note handle="_ee6483aee073085a3b96b0ba447" change="1638221708" id="N0025" type="Citation">
+      <text>Leppävirta rippikirja 1877-1883 (MKO151-202)  Sivu 1705 Sorsakosken Saharengit ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=3791&amp;pnum=1497 / Viitattu 29.11.2021</text>
+    </note>
+    <note handle="_ee64840fe042679bd53b3532bba" change="1638221748" id="N0026" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=3791&amp;pnum=1497</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=3791&amp;pnum=1497">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_ee648898b2c1229b80315158434" change="1638222224" id="N0027" type="Transcript" format="1">
+      <text>1705
+Sorsakosken Saharengit
+[...]
+Pk Åberg, Lauri			29/10 1854			Pro conj. 17/8 -80 mp 1695	Wihittiin 7/11 80
+vmo Gustava Karolina Koponen	11/10 1860		1695/80
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="159"/>
+      </style>
+    </note>
+    <note handle="_ee648a658aa2323fa4e46f2de02" change="1638222412" id="N0028" type="Citation">
+      <text>Leppävirta lastenkirja 1877-1883 (MKO93-120 1 Ab:14-16)  Sivu 816 Sorsakosken Saharengit 1704 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=3792&amp;pnum=397 / Viitattu 29.11.2021</text>
+    </note>
+    <note handle="_ee648b1d13a3c09674e97a60f4b" change="1638222487" id="N0029" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=3792&amp;pnum=397</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=3792&amp;pnum=397">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_ee648c235db67f0a7e58c70ff2b" change="1638222595" id="N0030" type="Transcript" format="1">
+      <text>Sorsakosken Saharengit
+[...]
+Sahar Åbergin Lauri ja Kustaava Karoliina Koponen synt 11/10 1860
+Tr Aliina	24/6 1882</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="114"/>
+      </style>
+    </note>
+    <note handle="_ee648db2a4e68d54adbdc855544" change="1638222758" id="N0031" type="Citation">
+      <text>Leppävirta vihityt 1880-1881 (MKO10)  1880 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=1017&amp;pnum=8 / Viitattu 29.11.2021</text>
+    </note>
+    <note handle="_ee648e2ff267ba22bcb23081067" change="1638222810" id="N0032" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=1017&amp;pnum=8</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=1017&amp;pnum=8">
+        <range start="0" end="75"/>
+      </style>
+    </note>
+    <note handle="_ee648fdf5046513fa30fbb38a72" change="1638222986" id="N0033" type="Transcript" format="1">
+      <text>				vuonna 1880			siv 7
+Awioliittoon wihityt Leppävirran Seurakunnassa
+[...]
+[marraskuu]	7	1705	Sahark.pka. Lauri Åberg, Sorsakoski ja		26	[kaksi naimatonta]
+				piika Gustava Karol. Koponen, ibidem		19
+						vihki Josef Holmström</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="230"/>
       </style>
     </note>
   </notes>
