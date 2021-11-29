@@ -46,15 +46,23 @@
       <citationref hlink="_ee6174a3a1d1e6932121181495b"/>
       <citationref hlink="_ee617cf577e61010521219b6e46"/>
     </event>
+    <event handle="_ee645c5876e625eaa5ba702ea3b" change="1638218123" id="E0005">
+      <type>Death</type>
+      <dateval val="1898-12-26"/>
+      <place hlink="_ee645c33fac23b4a2ab4df134f1"/>
+      <citationref hlink="_ee617cf577e61010521219b6e46"/>
+      <citationref hlink="_ee64617736038a914379478059b"/>
+    </event>
   </events>
   <people>
-    <person handle="_ee6150a01922f386922afbf79" change="1638140521" id="I0000">
+    <person handle="_ee6150a01922f386922afbf79" change="1638218124" id="I0000">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anna Anselmiina</first>
         <surname derivation="Inherited">Åberg</surname>
       </name>
       <eventref hlink="_ee615250b7c10580fdcfe3b5e51" role="Primary"/>
+      <eventref hlink="_ee645c5876e625eaa5ba702ea3b" role="Primary"/>
       <childof hlink="_ee61579fd2864532fd765c550a9"/>
     </person>
     <person handle="_ee6157afdc32c8a5dda9e9be429" change="1638136625" id="I0001">
@@ -134,6 +142,14 @@
       <noteref hlink="_ee617cea4b57194b0bf7a606934"/>
       <sourceref hlink="_ee615a95a6e6f2f4825b464e105"/>
     </citation>
+    <citation handle="_ee64617736038a914379478059b" change="1638218120" id="C0006">
+      <page>MKO15-20/16-17</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ee645dbc9e247475ca15a530fe1"/>
+      <noteref hlink="_ee645deac0c45d7d06ba772fe4c"/>
+      <noteref hlink="_ee64615d9ad1f19a20756fd91a4"/>
+      <sourceref hlink="_ee645d4e5765a1b71895bd1943b"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_ee61523c21276c9b6703bb659e" change="1638135993" id="S0000">
@@ -156,16 +172,22 @@
       <sauthor>Leppävirran seurakunta</sauthor>
       <reporef hlink="_ee6153fcc4b10b267598dc745fb" medium="Book"/>
     </source>
+    <source handle="_ee645d4e5765a1b71895bd1943b" change="1638217684" id="S0004">
+      <stitle>Leppävirta Kuolleet 1887-1900</stitle>
+      <sauthor>Leppävirran seurakunta</sauthor>
+      <reporef hlink="_ee6153fcc4b10b267598dc745fb" medium="Book"/>
+    </source>
   </sources>
   <places>
-    <placeobj handle="_ee6151725623cff8add84bf4f4b" change="1638136787" id="P0000" type="Parish">
+    <placeobj handle="_ee6151725623cff8add84bf4f4b" change="1638217567" id="P0000" type="Parish">
       <pname value="Leppävirta"/>
+      <placeref hlink="_ee61753881243c22e3581ddb787"/>
     </placeobj>
     <placeobj handle="_ee6159d865f411d39d88678c0b0" change="1638136791" id="P0001" type="Village">
       <pname value="Sorsakoski"/>
       <placeref hlink="_ee6151725623cff8add84bf4f4b"/>
     </placeobj>
-    <placeobj handle="_ee61753881243c22e3581ddb787" change="1638139661" id="P0002" type="Country">
+    <placeobj handle="_ee61753881243c22e3581ddb787" change="1638217565" id="P0002" type="Country">
       <pname value="Suomi" lang="fi"/>
       <pname value="Finland" lang="se"/>
     </placeobj>
@@ -173,9 +195,13 @@
       <pname value="Ruokolahti"/>
       <placeref hlink="_ee61753881243c22e3581ddb787"/>
     </placeobj>
+    <placeobj handle="_ee645c33fac23b4a2ab4df134f1" change="1638217569" id="P0004" type="Village">
+      <pname value="Osmajärvi"/>
+      <placeref hlink="_ee6151725623cff8add84bf4f4b"/>
+    </placeobj>
   </places>
   <repositories>
-    <repository handle="_ee6153fcc4b10b267598dc745fb" change="1638138876" id="R0000">
+    <repository handle="_ee6153fcc4b10b267598dc745fb" change="1638217681" id="R0000">
       <rname>SSHY Digiarkisto</rname>
       <type>Web site</type>
     </repository>
@@ -298,6 +324,31 @@ Läht	Pk Lauri Wiktor		[m]	28/3 1896   &quot;				Ruokolahdelle 4/12 1899
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="548"/>
+      </style>
+    </note>
+    <note handle="_ee645dbc9e247475ca15a530fe1" change="1638217729" id="N0016" type="Citation">
+      <text>Leppävirta kuolleet 1887-1900 (MKO15-20)  1898-1899. ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7391&amp;pnum=142 / Viitattu 29.11.2021</text>
+    </note>
+    <note handle="_ee645deac0c45d7d06ba772fe4c" change="1638217748" id="N0017" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7391&amp;pnum=142</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7391&amp;pnum=142">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_ee64615d9ad1f19a20756fd91a4" change="1638218110" id="N0018" type="Citation" format="1">
+      <text>Kuolleet ja Haudatut Leppävirran seurakunnassa		16
+		Joulukuussa v. 1898
+
+[...]
+26	[1/1 99]	2382	Loistr Anna Anselmina Åberg
+				Osmajärveltä			[tuntem]	4[v] 11[kk] 5[pv]	1894	[lapsi]	[n]
+
+6	11		&quot;	Loispk Pekka Laurinpk Åberg
+				Osmajärveltä			kuume		_    5      15		1898	&quot;	[m]
+
+10	18		&quot;	Loispk Juho Fredrik Laurinpk Å-	   &quot;		11   10     25		1887	&quot;	[m]</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="352"/>
       </style>
     </note>
   </notes>
