@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2021-08-18" version="5.1.3"/>
+    <created date="2022-01-02" version="5.1.4"/>
     <researcher>
     </researcher>
   </header>
@@ -498,12 +498,14 @@
       <citationref hlink="_df3dde95fa0614b1ec392a8160a"/>
       <citationref hlink="_df3dd6fa4b724639c446d0b53d9"/>
     </event>
-    <event handle="_cb589cc95f00469bf3c" change="1426338128" id="E0253">
+    <event handle="_cb589cc95f00469bf3c" change="1641056806" id="E0253">
       <type>Birth</type>
       <dateval val="1803"/>
       <place hlink="_cb589cc95f37380d5d6"/>
+      <citationref hlink="_dcf4620c8186c92b3b1a1a622ba"/>
+      <citationref hlink="_dcf46c81f6e2a92153767efcd2b"/>
     </event>
-    <event handle="_cb589cc95fe2959c2aa" change="1518384951" id="E0254">
+    <event handle="_cb589cc95fe2959c2aa" change="1641055901" id="E0254">
       <type>Death</type>
       <dateval val="1871-11-09"/>
       <place hlink="_d956ffee65d1cdb6ea316a4b0f9"/>
@@ -1222,36 +1224,42 @@
       <type>Birth</type>
       <dateval val="1777"/>
     </event>
-    <event handle="_cb589ccc7e366b942dd" change="1426451215" id="E0629">
+    <event handle="_cb589ccc7e366b942dd" change="1641118045" id="E0629">
       <type>Death</type>
-      <dateval val="1809"/>
+      <dateval val="1809-01-10"/>
       <place hlink="_cb589cc95f37380d5d6"/>
+      <citationref hlink="_dcf46b8e58a6d5ffbea30028fd"/>
+      <citationref hlink="_eed0691733c1698067f0540a263"/>
     </event>
     <event handle="_cb589ccc804666eea9d" change="1397384051" id="E0630">
       <type>Death</type>
     </event>
-    <event handle="_cb589ccc8072a1a33dc" change="1426451220" id="E0631">
+    <event handle="_cb589ccc8072a1a33dc" change="1641055820" id="E0631">
       <type>Birth</type>
       <dateval val="1800-05-18"/>
       <place hlink="_cb589cc95f37380d5d6"/>
+      <citationref hlink="_dcf46c81f6e2a92153767efcd2b"/>
     </event>
     <event handle="_cb589ccc82c5e1df5b7" change="1397384051" id="E0632">
       <type>Death</type>
     </event>
-    <event handle="_cb589ccc8303bf55290" change="1518389013" id="E0633">
+    <event handle="_cb589ccc8303bf55290" change="1641055858" id="E0633">
       <type>Birth</type>
       <dateval val="1804-02-02"/>
       <place hlink="_cb589cc95f37380d5d6"/>
+      <citationref hlink="_dcf46c81f6e2a92153767efcd2b"/>
     </event>
-    <event handle="_cb589ccc8521ae8df69" change="1426451230" id="E0634">
+    <event handle="_cb589ccc8521ae8df69" change="1641055872" id="E0634">
       <type>Birth</type>
       <dateval val="1807-01-01"/>
       <place hlink="_cb589cc95f37380d5d6"/>
+      <citationref hlink="_dcf46c81f6e2a92153767efcd2b"/>
     </event>
-    <event handle="_cb589ccc8612cd91c28" change="1426451235" id="E0635">
+    <event handle="_cb589ccc8612cd91c28" change="1641055878" id="E0635">
       <type>Death</type>
       <dateval val="1808"/>
       <place hlink="_cb589cc95f37380d5d6"/>
+      <citationref hlink="_dcf46c81f6e2a92153767efcd2b"/>
     </event>
     <event handle="_cb589ccc8840fe67716" change="1397384051" id="E0636">
       <type>Birth</type>
@@ -10853,7 +10861,7 @@
       <citationref hlink="_dcf2d9bab4152eeb6bf4ace584b"/>
       <citationref hlink="_dcf2dda66fd13c3a6fc9b8f74f"/>
     </event>
-    <event handle="_dcf2e32cea42288f99671af57b9" change="1519590892" id="E2408">
+    <event handle="_dcf2e32cea42288f99671af57b9" change="1641054833" id="E2408">
       <type>Residence</type>
       <datespan start="1891" stop="1900"/>
       <place hlink="_cfcd68df95862c2cdfb"/>
@@ -10933,13 +10941,13 @@
       <place hlink="_cb589cc95f37380d5d6"/>
       <citationref hlink="_dcf4542da1214f051186cd4c1a7"/>
     </event>
-    <event handle="_dcf462107d671285ba29767226f" change="1518388596" id="E2420">
+    <event handle="_dcf462107d671285ba29767226f" change="1641117691" id="E2420">
       <type>Residence</type>
       <datespan start="1818" stop="1821"/>
       <place hlink="_cb589cc95f37380d5d6"/>
       <citationref hlink="_dcf4620c8186c92b3b1a1a622ba"/>
     </event>
-    <event handle="_dcf46b9213c2d494ca449915271" change="1518389745" id="E2421">
+    <event handle="_dcf46b9213c2d494ca449915271" change="1641118251" id="E2421">
       <type>Residence</type>
       <datespan start="1804" stop="1809"/>
       <place hlink="_cb589cc95f37380d5d6"/>
@@ -15054,6 +15062,25 @@
       <dateval val="1712" type="about" quality="calculated"/>
       <citationref hlink="_ed144f77a3712a3407f185d1d99"/>
     </event>
+    <event handle="_eed06c1aababd683c81f48fb9e" change="1641118749" id="E0394">
+      <type>Residence</type>
+      <datespan start="1810" stop="1814"/>
+      <place hlink="_cb589cc95f37380d5d6"/>
+      <citationref hlink="_dcf46b8e58a6d5ffbea30028fd"/>
+      <citationref hlink="_eed06ff41ce2ef50a2bc40f90af"/>
+    </event>
+    <event handle="_eed0791c84976108be54e68f94f" change="1641119703" id="E0395">
+      <type>Residence</type>
+      <datespan start="1804" stop="1809"/>
+      <place hlink="_eed078b17735678c60580eda295"/>
+      <citationref hlink="_eed07913c395de3c51b6abef42d"/>
+    </event>
+    <event handle="_eed080d68191f57800ae87af1a8" change="1641120537" id="E0396">
+      <type>Marriage</type>
+      <dateval val="1809-12-25"/>
+      <place hlink="_cb589cc805307692607"/>
+      <citationref hlink="_eed080cccf41b052904e75f62c8"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1548617779" id="I3858">
@@ -16590,12 +16617,12 @@
       <eventref hlink="_cb589ccc7991feaf702" role="Primary"/>
       <childof hlink="_cb589cc95036e757bc7"/>
     </person>
-    <person handle="_cb589ccc7ae38cea7cc" change="1535043282" id="I4660">
+    <person handle="_cb589ccc7ae38cea7cc" change="1641055555" id="I4660">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Samuel</first>
         <surname>Radikain</surname>
-        <surname prim="0" derivation="Patronymic">Samuelsson&gt;</surname>
+        <surname prim="0" derivation="Patronymic">Samuelsson</surname>
       </name>
       <eventref hlink="_cb589ccc7b137b0f11b" role="Primary"/>
       <eventref hlink="_cb589ccc7b452f3efd5" role="Primary"/>
@@ -16613,26 +16640,24 @@
       <eventref hlink="_cb589ccc7e366b942dd" role="Primary"/>
       <parentin hlink="_cb589cc96036fe0b2a2"/>
     </person>
-    <person handle="_cb589ccc80002dab074" change="1520264747" id="I4626">
+    <person handle="_cb589ccc80002dab074" change="1641055890" id="I4626">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Samuel</first>
         <surname>Radikain</surname>
         <surname prim="0" derivation="Patronymic">Samuelsson</surname>
       </name>
-      <eventref hlink="_cb589ccc804666eea9d" role="Primary"/>
       <eventref hlink="_cb589ccc8072a1a33dc" role="Primary"/>
       <childof hlink="_cb589cc96036fe0b2a2"/>
       <parentin hlink="_cb589ccc81c4338008e"/>
     </person>
-    <person handle="_cb589ccc8287a43e8e2" change="1520264783" id="I5494">
+    <person handle="_cb589ccc8287a43e8e2" change="1641055912" id="I5494">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Johan</first>
         <surname>Radikain</surname>
         <surname prim="0" derivation="Patronymic">Samuelsson</surname>
       </name>
-      <eventref hlink="_cb589ccc82c5e1df5b7" role="Primary"/>
       <eventref hlink="_cb589ccc8303bf55290" role="Primary"/>
       <childof hlink="_cb589cc96036fe0b2a2"/>
     </person>
@@ -17563,7 +17588,7 @@
       <eventref hlink="_cb589ccf593126f091e" role="Primary"/>
       <childof hlink="_cb589ccc61e09e182cb"/>
     </person>
-    <person handle="_cb589ccf5c34ae78feb" change="1420071619" id="I5775">
+    <person handle="_cb589ccf5c34ae78feb" change="1641120538" id="I5775">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Otto</first>
@@ -24463,13 +24488,14 @@
       <eventref hlink="_cea5c9e546268706200" role="Primary"/>
       <parentin hlink="_cb589ccf6cd57df964d"/>
     </person>
-    <person handle="_cea5ca4957a1aedbcda" change="1420071619" id="I1398">
+    <person handle="_cea5ca4957a1aedbcda" change="1641119820" id="I1398">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Judith</first>
         <surname>Huttuin</surname>
       </name>
       <eventref hlink="_cea5ca480c236a22df4" role="Primary"/>
+      <eventref hlink="_eed0791c84976108be54e68f94f" role="Primary"/>
       <parentin hlink="_cb589ccc7cc2507c976"/>
     </person>
     <person handle="_cea5ca9698377fd2d80" change="1519929845" id="I1399">
@@ -28072,10 +28098,12 @@
       <childref hlink="_cb589ccf6b3558a7fcd"/>
       <childref hlink="_cb589ccf6da6b4de964"/>
     </family>
-    <family handle="_cb589ccc7cc2507c976" change="1420071619" id="F1570">
+    <family handle="_cb589ccc7cc2507c976" change="1641120538" id="F1570">
       <rel type="Unknown"/>
       <father hlink="_cb589ccc7ae38cea7cc"/>
       <mother hlink="_cea5ca4957a1aedbcda"/>
+      <eventref hlink="_eed080d68191f57800ae87af1a8" role="Family"/>
+      <eventref hlink="_eed06c1aababd683c81f48fb9e" role="Family"/>
       <childref hlink="_cb589ccf5c34ae78feb"/>
     </family>
     <family handle="_cb589ccc81c4338008e" change="1420071662" id="F2540">
@@ -39523,6 +39551,34 @@
       <noteref hlink="_ed18898b0bf9588d5a3938cb53"/>
       <sourceref hlink="_cdccc33aada5d1bc81c"/>
     </citation>
+    <citation handle="_eed0691733c1698067f0540a263" change="1641118023" id="C1316">
+      <page>kuva 1</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eed068d7afa2337767e505ee649"/>
+      <noteref hlink="_eed06901d4b4a7d7e33f18f4f13"/>
+      <sourceref hlink="_eed0686ce8b7ddcaca599dc3a4e"/>
+    </citation>
+    <citation handle="_eed06ff41ce2ef50a2bc40f90af" change="1641118742" id="C1317">
+      <page>I/58-59</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eed06fbfe9a6bdbdfa271980925"/>
+      <noteref hlink="_eed06feb3bb3c8adec365b86d9e"/>
+      <sourceref hlink="_eed06f7a1d54ede06050c892fb2"/>
+    </citation>
+    <citation handle="_eed07913c395de3c51b6abef42d" change="1641119699" id="C1318">
+      <page>I/37</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eed078f67c4751d4d6e4fcf323a"/>
+      <noteref hlink="_eed079100e81e0d8a912ea067eb"/>
+      <sourceref hlink="_dcf46aef3f719f2af0357bdee03"/>
+    </citation>
+    <citation handle="_eed080cccf41b052904e75f62c8" change="1641120509" id="C1319">
+      <page>kuva 29</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eed080ad4316b93d4065f062545"/>
+      <noteref hlink="_eed080c98f117ede5f798eb8d67"/>
+      <sourceref hlink="_eed08084167507b3a75387a9ea2"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -42216,6 +42272,21 @@
       <sauthor>Porvoo ruotsalainen tuomiokirkkoseurakunta</sauthor>
       <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
     </source>
+    <source handle="_eed0686ce8b7ddcaca599dc3a4e" change="1641117953" id="S0538">
+      <stitle>Rautalampi Kuolleet 1795-1814</stitle>
+      <sauthor>Rautalammin seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_eed06f7a1d54ede06050c892fb2" change="1641118693" id="S0539">
+      <stitle>Rautalampi Lastenkirja 1814-1823</stitle>
+      <sauthor>Rautalammin seurakunta</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
+    <source handle="_eed08084167507b3a75387a9ea2" change="1641120479" id="S0540">
+      <stitle>Rautalampi Vihityt 1795-1814</stitle>
+      <sauthor>Rautalammin seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1595618071" id="P0000" type="City">
@@ -43484,7 +43555,7 @@
       <pname value="Espoo" lang="fi"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
     </placeobj>
-    <placeobj handle="_cfcd68df95862c2cdfb" change="1534085287" id="P0396" type="Village">
+    <placeobj handle="_cfcd68df95862c2cdfb" change="1641119651" id="P0396" type="Village">
       <pname value="Kerkonjoensuu"/>
       <placeref hlink="_cb589cc805307692607"/>
     </placeobj>
@@ -44877,14 +44948,18 @@
       <pname value="Hornhattas"/>
       <placeref hlink="_cb589ce8cd6584aa7c0"/>
     </placeobj>
+    <placeobj handle="_eed078b17735678c60580eda295" change="1641119659" id="P0120" type="Farm">
+      <pname value="Peckala"/>
+      <placeref hlink="_cfcd68df95862c2cdfb"/>
+    </placeobj>
   </places>
   <repositories>
-    <repository handle="_cdea29a49637c6553bc" change="1629192829" id="R0001">
+    <repository handle="_cdea29a49637c6553bc" change="1641118691" id="R0001">
       <rname>Arkistolaitos Digitaaliarkisto</rname>
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1628521830" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1641120477" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -59686,6 +59761,30 @@ Ea Anna Johansdr  död    77
     </note>
     <note handle="_ed188ad63d877c5eef75439407c" change="1629310401" id="N2032" type="Research">
       <text>Lasten syntymäajat on jostain syystä merkitty lastenkirjaan  2-3 vuotta pieleen</text>
+    </note>
+    <note handle="_eed068d7afa2337767e505ee649" change="1641117997" id="N2033" type="Citation">
+      <text>Rautalampi kuolleet 1795-1814 (TK1101)  1809 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=4636&amp;pnum=1 / Viitattu 02.01.2022</text>
+    </note>
+    <note handle="_eed06901d4b4a7d7e33f18f4f13" change="1641118014" id="N2034" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=4636&amp;pnum=1</text>
+    </note>
+    <note handle="_eed06fbfe9a6bdbdfa271980925" change="1641118721" id="N2035" type="Citation">
+      <text>Rautalammin seurakunnan arkisto - Lastenkirja I 1814-1823 (I Ab:4, Haapamäki-Rautalampi), jakso 31, sivu 58-59: Wekaranjemi - Nyb. Samuel Radikains Hn No 4; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=7134505 / Viitattu 2.1.2022</text>
+    </note>
+    <note handle="_eed06feb3bb3c8adec365b86d9e" change="1641118739" id="N2036" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7134505</text>
+    </note>
+    <note handle="_eed078f67c4751d4d6e4fcf323a" change="1641119687" id="N2037" type="Citation">
+      <text>Rautalammin seurakunnan arkisto - Rippikirja I 1804-1814 (I Aa:8), jakso 42, sivu 37: Kerkonjoensu No 5 Peckala; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=7128349 / Viitattu 2.1.2022</text>
+    </note>
+    <note handle="_eed079100e81e0d8a912ea067eb" change="1641119698" id="N2038" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=7128349</text>
+    </note>
+    <note handle="_eed080ad4316b93d4065f062545" change="1641120496" id="N2039" type="Citation">
+      <text>Rautalampi vihityt 1795-1814 (TK1101)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=4654&amp;pnum=29 / Viitattu 02.01.2022</text>
+    </note>
+    <note handle="_eed080c98f117ede5f798eb8d67" change="1641120508" id="N2040" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=4654&amp;pnum=29</text>
     </note>
   </notes>
 </database>
