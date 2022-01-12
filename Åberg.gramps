@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2021-11-30" version="5.1.4"/>
+    <created date="2022-01-12" version="5.1.4"/>
     <researcher>
       <resname>John Nordberg</resname>
       <resemail>john.nordberg@gmail.com</resemail>
@@ -110,15 +110,62 @@
       <citationref hlink="_ee6488a73ad7ddd9d6440847779"/>
       <citationref hlink="_ee648fe8cd1180ec2d2bb3b5c63"/>
     </event>
-    <event handle="_ee649114cc16098571d2e605ba0" change="1638223113" id="E0015">
+    <event handle="_ee649114cc16098571d2e605ba0" change="1641982035" id="E0015">
       <type>Birth</type>
       <dateval val="1854-10-29"/>
       <citationref hlink="_ee6488a73ad7ddd9d6440847779"/>
+      <citationref hlink="_eeecdef230742a528a8c07ff048"/>
+      <citationref hlink="_eef047b7ad82bd62626072bb0df"/>
     </event>
     <event handle="_ee6491b07a77345ad5fca3eff23" change="1638223204" id="E0016">
       <type>Birth</type>
       <dateval val="1860-10-11"/>
       <citationref hlink="_ee6488a73ad7ddd9d6440847779"/>
+    </event>
+    <event handle="_eef048401cc2428ffcc3996b93" change="1641979814" id="E0017">
+      <type>Residence</type>
+      <datespan start="1852" stop="1856"/>
+      <place hlink="_ee6159d865f411d39d88678c0b0"/>
+      <citationref hlink="_eef045b4697125c1eea93069805"/>
+      <citationref hlink="_eef047b7ad82bd62626072bb0df"/>
+    </event>
+    <event handle="_eef07e6e91861649ba49e59d49f" change="1641980391" id="E0018">
+      <type>Birth</type>
+      <dateval val="1852-01-25"/>
+      <place hlink="_ee6159d865f411d39d88678c0b0"/>
+      <noteref hlink="_eef0885446c14c69f7d47c853e1"/>
+      <citationref hlink="_eef047b7ad82bd62626072bb0df"/>
+      <citationref hlink="_eef086a884236add409b8f7418a"/>
+    </event>
+    <event handle="_eef07ee881945aad42df5a9b80c" change="1641979730" id="E0019">
+      <type>Death</type>
+      <dateval val="1856-02-15"/>
+      <place hlink="_ee6159d865f411d39d88678c0b0"/>
+      <citationref hlink="_eef047b7ad82bd62626072bb0df"/>
+      <citationref hlink="_eef0829248c1f5bed80c7f3fcce"/>
+    </event>
+    <event handle="_eef08eaca2529f571180decd9ce" change="1641980957" id="E0020">
+      <type>Marriage</type>
+      <dateval val="1851-07-06"/>
+      <place hlink="_ee6151725623cff8add84bf4f4b"/>
+      <citationref hlink="_eef08ea56433b46ea31187356f8"/>
+    </event>
+    <event handle="_eef09992faa2f4d2911d404fbdc" change="1641982100" id="E0021">
+      <type>Birth</type>
+      <dateval val="1828-09-19"/>
+      <citationref hlink="_eef045b4697125c1eea93069805"/>
+    </event>
+    <event handle="_eef099fb2fb6c5e02955d469387" change="1641982143" id="E0022">
+      <type>Birth</type>
+      <dateval val="1822-02-11"/>
+      <citationref hlink="_eef045b4697125c1eea93069805"/>
+    </event>
+    <event handle="_eef09c79e353b6d7280244ca27a" change="1641982743" id="E0023">
+      <type>Residence</type>
+      <datespan start="1857" stop="1866"/>
+      <place hlink="_ee6159d865f411d39d88678c0b0"/>
+      <citationref hlink="_eef09c73d88320c21e9eff836e7"/>
+      <citationref hlink="_eef09f5a39c5719625e2d31911a"/>
     </event>
   </events>
   <people>
@@ -132,13 +179,14 @@
       <eventref hlink="_ee645c5876e625eaa5ba702ea3b" role="Primary"/>
       <childof hlink="_ee61579fd2864532fd765c550a9"/>
     </person>
-    <person handle="_ee6157afdc32c8a5dda9e9be429" change="1638223116" id="I0001">
+    <person handle="_ee6157afdc32c8a5dda9e9be429" change="1641982751" id="I0001">
       <gender>M</gender>
-      <name type="Unknown">
-        <first>Lauri</first>
-        <surname derivation="Unknown ">Åberg</surname>
+      <name type="Birth Name">
+        <first>Lars</first>
+        <surname derivation="Inherited">Åberg</surname>
       </name>
       <eventref hlink="_ee649114cc16098571d2e605ba0" role="Primary"/>
+      <childof hlink="_eeecdf7d4ec1126d7bfe47296d9"/>
       <parentin hlink="_ee61579fd2864532fd765c550a9"/>
     </person>
     <person handle="_ee6157e3c3659afb3b209e4411c" change="1638223210" id="I0002">
@@ -213,6 +261,34 @@
       <eventref hlink="_ee646a6929f5c2c46eeaf7ada6" role="Primary"/>
       <childof hlink="_ee61579fd2864532fd765c550a9"/>
     </person>
+    <person handle="_eeecdfae6b724e3e4b47bf06d5e" change="1641982106" id="I0010">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Petter Wilhelm</first>
+        <surname derivation="Inherited">Åberg</surname>
+      </name>
+      <eventref hlink="_eef09992faa2f4d2911d404fbdc" role="Primary"/>
+      <parentin hlink="_eeecdf7d4ec1126d7bfe47296d9"/>
+    </person>
+    <person handle="_eeecdfcc962734449536f8ca5cb" change="1641982145" id="I0011">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Anna Stina</first>
+        <surname derivation="Inherited">Seppänen</surname>
+      </name>
+      <eventref hlink="_eef099fb2fb6c5e02955d469387" role="Primary"/>
+      <parentin hlink="_eeecdf7d4ec1126d7bfe47296d9"/>
+    </person>
+    <person handle="_eef07dfea8b594f0eb368711c67" change="1641982751" id="I0012">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Johan Wilhelm</first>
+        <surname derivation="Inherited">Åberg</surname>
+      </name>
+      <eventref hlink="_eef07e6e91861649ba49e59d49f" role="Primary"/>
+      <eventref hlink="_eef07ee881945aad42df5a9b80c" role="Primary"/>
+      <childof hlink="_eeecdf7d4ec1126d7bfe47296d9"/>
+    </person>
   </people>
   <families>
     <family handle="_ee61579fd2864532fd765c550a9" change="1638223045" id="F0000">
@@ -236,6 +312,16 @@
       <childref hlink="_ee6469e4f6025d3bbe73593e6f2"/>
       <childref hlink="_ee646b1846554885cb2d391edfd"/>
       <citationref hlink="_ee6157515e76e15ea22cab70472"/>
+    </family>
+    <family handle="_eeecdf7d4ec1126d7bfe47296d9" change="1641982751" id="F0001">
+      <rel type="Unknown"/>
+      <father hlink="_eeecdfae6b724e3e4b47bf06d5e"/>
+      <mother hlink="_eeecdfcc962734449536f8ca5cb"/>
+      <eventref hlink="_eef08eaca2529f571180decd9ce" role="Family"/>
+      <eventref hlink="_eef048401cc2428ffcc3996b93" role="Family"/>
+      <eventref hlink="_eef09c79e353b6d7280244ca27a" role="Family"/>
+      <childref hlink="_eef07dfea8b594f0eb368711c67"/>
+      <childref hlink="_ee6157afdc32c8a5dda9e9be429"/>
     </family>
   </families>
   <citations>
@@ -331,6 +417,63 @@
       <noteref hlink="_ee648fdf5046513fa30fbb38a72"/>
       <sourceref hlink="_ee648d9880e797a57cc6ead47ad"/>
     </citation>
+    <citation handle="_eeecdef230742a528a8c07ff048" change="1641882000" id="C0012">
+      <page>jakso 71</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eeecdcf0db679d207a54a2a4ad1"/>
+      <noteref hlink="_eeecdd071f210d84e1a213dd578"/>
+      <noteref hlink="_eeecdeed1bf3e1849d4ead9698f"/>
+      <sourceref hlink="_eeecdcbf1774e0cafe79a5424c6"/>
+    </citation>
+    <citation handle="_eef045b4697125c1eea93069805" change="1641973306" id="C0013">
+      <page>IV/1293</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eef04577b565e0b3e738259742e"/>
+      <noteref hlink="_eef04592c58195d312bcec81d82"/>
+      <sourceref hlink="_eef045436a91e22656a082b8085"/>
+    </citation>
+    <citation handle="_eef047b7ad82bd62626072bb0df" change="1641973517" id="C0014">
+      <page>II/1572-1573</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eef0477dca27e9e2d27c2b9e9b9"/>
+      <noteref hlink="_eef0479388e127b5ed27f52252e"/>
+      <sourceref hlink="_eef047561a4643e58a4767bcde7"/>
+    </citation>
+    <citation handle="_eef0829248c1f5bed80c7f3fcce" change="1641979688" id="C0015">
+      <page>jakso 4</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eef082512c849358013c5538e49"/>
+      <noteref hlink="_eef082801859af509c1ccd0b91"/>
+      <sourceref hlink="_eef082264f81e09d3a25c8e73b8"/>
+    </citation>
+    <citation handle="_eef086a884236add409b8f7418a" change="1641980117" id="C0016">
+      <page>jakso 22</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eef0867bc0449211472edccc08"/>
+      <noteref hlink="_eef086a5a4a6d6ba3648586ba8c"/>
+      <sourceref hlink="_eeecdcbf1774e0cafe79a5424c6"/>
+    </citation>
+    <citation handle="_eef08ea56433b46ea31187356f8" change="1641980954" id="C0017">
+      <page>jakso 75</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eef08e8084a6066642460e858ba"/>
+      <noteref hlink="_eef08ea19d42cc187d709fc7112"/>
+      <sourceref hlink="_eef08e4d08786a5b61b0000ea"/>
+    </citation>
+    <citation handle="_eef09c73d88320c21e9eff836e7" change="1641982402" id="C0018">
+      <page>IV/1740</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eef09c45edf6d0bd4141d0d2839"/>
+      <noteref hlink="_eef09c6d2e43ac7fb25fc94790a"/>
+      <sourceref hlink="_eef09c23e0f67d7713d6bbb0f8e"/>
+    </citation>
+    <citation handle="_eef09f5a39c5719625e2d31911a" change="1641982706" id="C0019">
+      <page>III/1852-1853</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eef09f1d6a756d54168d3a818ed"/>
+      <noteref hlink="_eef09f51fdda27e5215ab1dc93"/>
+      <sourceref hlink="_eef09dc7c681d33fd7efddc1f5c"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_ee61523c21276c9b6703bb659e" change="1638135993" id="S0000">
@@ -383,14 +526,49 @@
       <sauthor>Leppävirran seurakunta</sauthor>
       <reporef hlink="_ee6153fcc4b10b267598dc745fb" medium="Book"/>
     </source>
+    <source handle="_eeecdcbf1774e0cafe79a5424c6" change="1641881770" id="S0010">
+      <stitle>Leppävirta Syntyneet 1851-1859</stitle>
+      <sauthor>Leppävirran seurakunta</sauthor>
+      <reporef hlink="_eeecdcba8f32790b5c83fd78966" medium="Book"/>
+    </source>
+    <source handle="_eef045436a91e22656a082b8085" change="1641979804" id="S0011">
+      <stitle>Leppävirta Rippikirja 1847-1856</stitle>
+      <sauthor>Leppävirran seurakunta</sauthor>
+      <reporef hlink="_eeecdcba8f32790b5c83fd78966" medium="Book"/>
+    </source>
+    <source handle="_eef047561a4643e58a4767bcde7" change="1641973477" id="S0012">
+      <stitle>Leppävirta Lastenkirja 1842-1856</stitle>
+      <sauthor>Leppävirran seurakunta</sauthor>
+      <reporef hlink="_eeecdcba8f32790b5c83fd78966" medium="Book"/>
+    </source>
+    <source handle="_eef082264f81e09d3a25c8e73b8" change="1641979644" id="S0013">
+      <stitle>Leppävirta Kuolleet 1856-1878</stitle>
+      <sauthor>Leppävirran seurakunta</sauthor>
+      <reporef hlink="_eeecdcba8f32790b5c83fd78966" medium="Book"/>
+    </source>
+    <source handle="_eef08e4d08786a5b61b0000ea" change="1641980918" id="S0014">
+      <stitle>Leppävirta Vihityt 1829-1856</stitle>
+      <sauthor>Leppävirran seurakunta</sauthor>
+      <reporef hlink="_eeecdcba8f32790b5c83fd78966" medium="Book"/>
+    </source>
+    <source handle="_eef09c23e0f67d7713d6bbb0f8e" change="1641982727" id="S0015">
+      <stitle>Leppävirta Rippikirja 1857-1866</stitle>
+      <sauthor>Leppävirran seurakunta</sauthor>
+      <reporef hlink="_eeecdcba8f32790b5c83fd78966" medium="Book"/>
+    </source>
+    <source handle="_eef09dc7c681d33fd7efddc1f5c" change="1641982541" id="S0016">
+      <stitle>Leppävirta Lastenkirja 1857-1866</stitle>
+      <sauthor>Leppävirran seurakunta</sauthor>
+      <reporef hlink="_eeecdcba8f32790b5c83fd78966" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_ee6151725623cff8add84bf4f4b" change="1638217567" id="P0000" type="Parish">
       <pname value="Leppävirta"/>
       <placeref hlink="_ee61753881243c22e3581ddb787"/>
     </placeobj>
-    <placeobj handle="_ee6159d865f411d39d88678c0b0" change="1638136791" id="P0001" type="Village">
-      <pname value="Sorsakoski"/>
+    <placeobj handle="_ee6159d865f411d39d88678c0b0" change="1641982329" id="P0001" type="Village">
+      <pname value="Sorsakoski såg"/>
       <placeref hlink="_ee6151725623cff8add84bf4f4b"/>
     </placeobj>
     <placeobj handle="_ee61753881243c22e3581ddb787" change="1638217565" id="P0002" type="Country">
@@ -410,6 +588,10 @@
     <repository handle="_ee6153fcc4b10b267598dc745fb" change="1638222733" id="R0000">
       <rname>SSHY Digiarkisto</rname>
       <type>Web site</type>
+    </repository>
+    <repository handle="_eeecdcba8f32790b5c83fd78966" change="1641982539" id="R0001">
+      <rname>Kansallisarkisto Digitaaliarkisto</rname>
+      <type>Library</type>
     </repository>
   </repositories>
   <notes>
@@ -662,6 +844,88 @@ Awioliittoon wihityt Leppävirran Seurakunnassa
 						vihki Josef Holmström</text>
       <style name="fontface" value="Monospace">
         <range start="0" end="230"/>
+      </style>
+    </note>
+    <note handle="_eeecdcf0db679d207a54a2a4ad1" change="1641881790" id="N0034" type="Citation">
+      <text>Leppävirran seurakunnan arkisto - Syntyneiden ja kastettujen luettelot 1851-1859 (I C:5), jakso 71: 1854; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=8436669 / Viitattu 11.1.2022</text>
+    </note>
+    <note handle="_eeecdd071f210d84e1a213dd578" change="1641881799" id="N0035" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=8436669</text>
+    </note>
+    <note handle="_eeecdeed1bf3e1849d4ead9698f" change="1641972920" id="N0036" type="Transcript" format="1">
+      <text>1854
+
+Oktober
+
+17	29/10	25/11	32	Lars	sgdrg Petter Åberg	drg Staffan Koponen	Sorsakoski såg
+					Anna St Seppänen	drgdr Maja St Åberg	J.M. Lind?</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="144"/>
+      </style>
+    </note>
+    <note handle="_eef04577b565e0b3e738259742e" change="1641973281" id="N0037" type="Citation">
+      <text>Leppävirran seurakunnan arkisto - Pää- ja rippikirjat 1847-1856 (I Aa:24, IV), jakso 151, sivu 1293: Sågar: Sorsakoski arbetsfolk; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=6656460 / Viitattu 12.1.2022</text>
+    </note>
+    <note handle="_eef04592c58195d312bcec81d82" change="1641973292" id="N0038" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=6656460</text>
+    </note>
+    <note handle="_eef0477dca27e9e2d27c2b9e9b9" change="1641973493" id="N0039" type="Citation">
+      <text>Leppävirran seurakunnan arkisto - Lastenkirjat 1842-1856 (I Ab:8, II), jakso 386, sivu 1572-1573: Sågar Sorsakoski ; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=6814324 / Viitattu 12.1.2022</text>
+    </note>
+    <note handle="_eef0479388e127b5ed27f52252e" change="1641973516" id="N0040" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=6814324</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=6814324">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_eef082512c849358013c5538e49" change="1641979661" id="N0041" type="Citation">
+      <text>Leppävirran seurakunnan arkisto - Kuolleiden ja haudattujen luettelot 1856-1878 (I F:5), jakso 4: 1856 januari - februari; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=8494536 / Viitattu 12.1.2022</text>
+    </note>
+    <note handle="_eef082801859af509c1ccd0b91" change="1641979681" id="N0042" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=8494536</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=8494536">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_eef0867bc0449211472edccc08" change="1641980098" id="N0043" type="Citation">
+      <text>Leppävirran seurakunnan arkisto - Syntyneiden ja kastettujen luettelot 1851-1859 (I C:5), jakso 22: 1852 tammikuu; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=8436434 / Viitattu 12.1.2022</text>
+    </note>
+    <note handle="_eef086a5a4a6d6ba3648586ba8c" change="1641980116" id="N0044" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=8436434</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=8436434">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_eef0885446c14c69f7d47c853e1" change="1641980389" id="N0045" type="Event Note">
+      <text>Lastenkirjassa on jostain syystä hiukan väärä syntymäpäivä, joka ei täsmää kasteeseenkaan.
+voisi olla kyseessä kirjausvirhe, tai liittyykö vanhempien avioliiton ajankohtaan?
+Syntyneiden luettelossa äidin sukunimenä on Seppälä (po. Seppänen)</text>
+    </note>
+    <note handle="_eef08e8084a6066642460e858ba" change="1641980939" id="N0046" type="Citation">
+      <text>Leppävirran seurakunnan arkisto - Vihittyjen luettelot 1829-1856 (I Eb:5), jakso 75: 1851; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=8449998 / Viitattu 12.1.2022</text>
+    </note>
+    <note handle="_eef08ea19d42cc187d709fc7112" change="1641980953" id="N0047" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=8449998</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=8449998">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_eef09c45edf6d0bd4141d0d2839" change="1641982383" id="N0048" type="Citation">
+      <text>Leppävirran seurakunnan arkisto - Pää- ja rippikirjat 1857-1866 (I Aa:28, IV), jakso 400, sivu 1740: Sorsakoski Såg; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=6789157 / Viitattu 12.1.2022</text>
+    </note>
+    <note handle="_eef09c6d2e43ac7fb25fc94790a" change="1641982399" id="N0049" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=6789157</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=6789157">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_eef09f1d6a756d54168d3a818ed" change="1641982681" id="N0050" type="Citation">
+      <text>Leppävirran seurakunnan arkisto - Lastenkirjat 1857-1866 (I Ab:11, III), jakso 309, sivu 1852-1853: Sorsakoski Såg; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=6836247 / Viitattu 12.1.2022</text>
+    </note>
+    <note handle="_eef09f51fdda27e5215ab1dc93" change="1641982703" id="N0051" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=6836247</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=6836247">
+        <range start="0" end="45"/>
       </style>
     </note>
   </notes>
