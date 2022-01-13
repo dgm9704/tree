@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2022-01-12" version="5.1.4"/>
+    <created date="2022-01-13" version="5.1.4"/>
     <researcher>
       <resname>John Nordberg</resname>
       <resemail>john.nordberg@gmail.com</resemail>
@@ -150,15 +150,19 @@
       <place hlink="_ee6151725623cff8add84bf4f4b"/>
       <citationref hlink="_eef08ea56433b46ea31187356f8"/>
     </event>
-    <event handle="_eef09992faa2f4d2911d404fbdc" change="1641982100" id="E0021">
+    <event handle="_eef09992faa2f4d2911d404fbdc" change="1642056974" id="E0021">
       <type>Birth</type>
       <dateval val="1828-09-19"/>
       <citationref hlink="_eef045b4697125c1eea93069805"/>
+      <citationref hlink="_eef3625115f1e9029bf7ebb44d"/>
+      <citationref hlink="_eef363828445e95e83307535906"/>
     </event>
-    <event handle="_eef099fb2fb6c5e02955d469387" change="1641982143" id="E0022">
+    <event handle="_eef099fb2fb6c5e02955d469387" change="1642059335" id="E0022">
       <type>Birth</type>
       <dateval val="1822-02-11"/>
       <citationref hlink="_eef045b4697125c1eea93069805"/>
+      <citationref hlink="_eef378bd1811c08b73c14a785a3"/>
+      <citationref hlink="_eef37a1de0f203b0f5f173b7dfb"/>
     </event>
     <event handle="_eef09c79e353b6d7280244ca27a" change="1641982743" id="E0023">
       <type>Residence</type>
@@ -308,11 +312,15 @@
       <eventref hlink="_ee646a6929f5c2c46eeaf7ada6" role="Primary"/>
       <childof hlink="_ee61579fd2864532fd765c550a9"/>
     </person>
-    <person handle="_eeecdfae6b724e3e4b47bf06d5e" change="1641988408" id="I0010">
+    <person handle="_eeecdfae6b724e3e4b47bf06d5e" change="1642057012" id="I0010">
       <gender>M</gender>
       <name type="Birth Name">
-        <first>Petter Wilhelm</first>
+        <first>Petter</first>
         <surname derivation="Inherited">Åberg</surname>
+      </name>
+      <name alt="1" type="Also Known As">
+        <first>Petter Wilhelm</first>
+        <surname>Åberg</surname>
       </name>
       <name alt="1" type="Also Known As">
         <first>Pekka Vilho</first>
@@ -571,6 +579,34 @@
       <noteref hlink="_eef0d08faef5623a98e6c3d847b"/>
       <sourceref hlink="_eef0d044e38790ea196fe177d9b"/>
     </citation>
+    <citation handle="_eef3625115f1e9029bf7ebb44d" change="1642056837" id="C0022">
+      <page>jakso 401</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eef36219afe51582f5199753a97"/>
+      <noteref hlink="_eef3624a2154e733bdabbc67237"/>
+      <sourceref hlink="_eef361ea7437200bc683df1872f"/>
+    </citation>
+    <citation handle="_eef363828445e95e83307535906" change="1642056962" id="C0023">
+      <page>1446-1447</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eef363591055e3573206bceb699"/>
+      <noteref hlink="_eef3637f1f86a90a2495eb0bc35"/>
+      <sourceref hlink="_eef3632b1ca2275244e917c1331"/>
+    </citation>
+    <citation handle="_eef378bd1811c08b73c14a785a3" change="1642059188" id="C0024">
+      <page>jakso 115</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eef378643d342a2d41b4b566324"/>
+      <noteref hlink="_eef378998e94e96f9c916e404c5"/>
+      <sourceref hlink="_eef378451b97111dd6831742ede"/>
+    </citation>
+    <citation handle="_eef37a1de0f203b0f5f173b7dfb" change="1642059332" id="C0025">
+      <page>I/570-571</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eef379f2b7c45938f7547f74809"/>
+      <noteref hlink="_eef37a1a080ba48d1beb15cf56"/>
+      <sourceref hlink="_eef379af2422a9acb812ed9b72c"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_ee61523c21276c9b6703bb659e" change="1638135993" id="S0000">
@@ -668,6 +704,26 @@
       <sauthor>Leppävirran seurakunta</sauthor>
       <reporef hlink="_eeecdcba8f32790b5c83fd78966" medium="Book"/>
     </source>
+    <source handle="_eef361ea7437200bc683df1872f" change="1642056795" id="S0019">
+      <stitle>Leppävirta Syntyneet 1810-1828</stitle>
+      <sauthor>Leppävirran seurakunta</sauthor>
+      <reporef hlink="_eeecdcba8f32790b5c83fd78966" medium="Book"/>
+    </source>
+    <source handle="_eef3632b1ca2275244e917c1331" change="1642056926" id="S0020">
+      <stitle>Leppävirta Lastenkirja  1829-1841</stitle>
+      <sauthor>Leppävirran seurakunta</sauthor>
+      <reporef hlink="_eeecdcba8f32790b5c83fd78966" medium="Book"/>
+    </source>
+    <source handle="_eef378451b97111dd6831742ede" change="1642059139" id="S0021">
+      <stitle>Rantasalmi Syntyneet 1810-1822</stitle>
+      <sauthor>Rantasalmen seurakunta</sauthor>
+      <reporef hlink="_eeecdcba8f32790b5c83fd78966" medium="Book"/>
+    </source>
+    <source handle="_eef379af2422a9acb812ed9b72c" change="1642059287" id="S0022">
+      <stitle>Rantasalmi Lastenkirja 1818-1838</stitle>
+      <sauthor>Rantasalmen seurakunta</sauthor>
+      <reporef hlink="_eeecdcba8f32790b5c83fd78966" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_ee6151725623cff8add84bf4f4b" change="1638217567" id="P0000" type="Parish">
@@ -696,7 +752,7 @@
       <rname>SSHY Digiarkisto</rname>
       <type>Web site</type>
     </repository>
-    <repository handle="_eeecdcba8f32790b5c83fd78966" change="1641987834" id="R0001">
+    <repository handle="_eeecdcba8f32790b5c83fd78966" change="1642059285" id="R0001">
       <rname>Kansallisarkisto Digitaaliarkisto</rname>
       <type>Library</type>
     </repository>
@@ -1054,6 +1110,42 @@ Syntyneiden luettelossa äidin sukunimenä on Seppälä (po. Seppänen)</text>
       <text>http://digi.narc.fi/digi/view.ka?kuid=28122089</text>
       <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=28122089">
         <range start="0" end="46"/>
+      </style>
+    </note>
+    <note handle="_eef36219afe51582f5199753a97" change="1642056814" id="N0056" type="Citation">
+      <text>Leppävirran seurakunnan arkisto - Syntyneiden ja kastettujen luettelot 1810-1828 (I C:3), jakso 401: Syntyneet 1828; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=6835915 / Viitattu 13.1.2022</text>
+    </note>
+    <note handle="_eef3624a2154e733bdabbc67237" change="1642056834" id="N0057" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=6835915</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=6835915">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_eef363591055e3573206bceb699" change="1642056945" id="N0058" type="Citation">
+      <text>Leppävirran seurakunnan arkisto - Lastenkirjat 1829-1841 (I Ab:6), jakso 351, sivu 1446-1447: Sorsakoski; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=6815488 / Viitattu 13.1.2022</text>
+    </note>
+    <note handle="_eef3637f1f86a90a2495eb0bc35" change="1642056960" id="N0059" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=6815488</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=6815488">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_eef378643d342a2d41b4b566324" change="1642059151" id="N0060" type="Citation">
+      <text>Rantasalmen seurakunnan arkisto - Syntyneiden ja kastettujen luettelot 1810-1822 (I C:6), jakso 115: Syntyneet ja kastetut 1822 tammi-helmikuu; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=11920350 / Viitattu 13.1.2022</text>
+    </note>
+    <note handle="_eef378998e94e96f9c916e404c5" change="1642059173" id="N0061" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=11920350</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=11920350">
+        <range start="0" end="46"/>
+      </style>
+    </note>
+    <note handle="_eef379f2b7c45938f7547f74809" change="1642059315" id="N0062" type="Citation">
+      <text>Rantasalmen seurakunnan arkisto - Lastenkirjat I 1818-1838 (I Ab:4, Ahvensalmi - Parkumäki), jakso 289, sivu 570-571: Parkuinmäki No 18; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=8618150 / Viitattu 13.1.2022</text>
+    </note>
+    <note handle="_eef37a1a080ba48d1beb15cf56" change="1642059331" id="N0063" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=8618150</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=8618150">
+        <range start="0" end="45"/>
       </style>
     </note>
   </notes>
