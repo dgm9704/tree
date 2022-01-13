@@ -54,10 +54,11 @@
       <citationref hlink="_ee617cf577e61010521219b6e46"/>
       <citationref hlink="_ee64617736038a914379478059b"/>
     </event>
-    <event handle="_ee6463fc9191d00fc87db5e3756" change="1638218385" id="E0006">
+    <event handle="_ee6463fc9191d00fc87db5e3756" change="1642099329" id="E0006">
       <type>Birth</type>
       <dateval val="1882-06-24"/>
       <citationref hlink="_ee615e797d674fb1f99171006dd"/>
+      <citationref hlink="_eef4f789f8c787dd4c0a610e299"/>
     </event>
     <event handle="_ee6464b120c45a5bc050e7c8da" change="1641989208" id="E0007">
       <type>Birth</type>
@@ -89,7 +90,7 @@
       <place hlink="_ee61753d84755a6ddcf631fd07a"/>
       <citationref hlink="_ee617cf577e61010521219b6e46"/>
     </event>
-    <event handle="_ee6473ae1f8615425721b3bbb31" change="1638222605" id="E0012">
+    <event handle="_ee6473ae1f8615425721b3bbb31" change="1642099513" id="E0012">
       <type>Residence</type>
       <datespan start="1884" stop="1893"/>
       <place hlink="_ee6159d865f411d39d88678c0b0"/>
@@ -110,17 +111,19 @@
       <citationref hlink="_ee6488a73ad7ddd9d6440847779"/>
       <citationref hlink="_ee648fe8cd1180ec2d2bb3b5c63"/>
     </event>
-    <event handle="_ee649114cc16098571d2e605ba0" change="1641982035" id="E0015">
+    <event handle="_ee649114cc16098571d2e605ba0" change="1642098396" id="E0015">
       <type>Birth</type>
       <dateval val="1854-10-29"/>
       <citationref hlink="_ee6488a73ad7ddd9d6440847779"/>
       <citationref hlink="_eeecdef230742a528a8c07ff048"/>
       <citationref hlink="_eef047b7ad82bd62626072bb0df"/>
     </event>
-    <event handle="_ee6491b07a77345ad5fca3eff23" change="1638223204" id="E0016">
+    <event handle="_ee6491b07a77345ad5fca3eff23" change="1642098932" id="E0016">
       <type>Birth</type>
       <dateval val="1860-10-11"/>
+      <place hlink="_ee6151725623cff8add84bf4f4b"/>
       <citationref hlink="_ee6488a73ad7ddd9d6440847779"/>
+      <citationref hlink="_eef4f2567f5f0d72cf6161320d"/>
     </event>
     <event handle="_eef048401cc2428ffcc3996b93" change="1641979814" id="E0017">
       <type>Residence</type>
@@ -144,7 +147,7 @@
       <citationref hlink="_eef047b7ad82bd62626072bb0df"/>
       <citationref hlink="_eef0829248c1f5bed80c7f3fcce"/>
     </event>
-    <event handle="_eef08eaca2529f571180decd9ce" change="1641980957" id="E0020">
+    <event handle="_eef08eaca2529f571180decd9ce" change="1642097638" id="E0020">
       <type>Marriage</type>
       <dateval val="1851-07-06"/>
       <place hlink="_ee6151725623cff8add84bf4f4b"/>
@@ -213,9 +216,23 @@
       <dateval val="1880-11-07"/>
       <citationref hlink="_ee6488a73ad7ddd9d6440847779"/>
     </event>
+    <event handle="_eef4fc26b931fc98e387d7b93de" change="1642099811" id="E0031">
+      <type>Birth</type>
+      <dateval val="1885-01-08"/>
+      <place hlink="_ee6159d865f411d39d88678c0b0"/>
+      <citationref hlink="_ee64782332230fc0e800cde86dd"/>
+      <citationref hlink="_eef4fc1de0c113c6a57a8fe3649"/>
+    </event>
+    <event handle="_eef4fe13b4120ac4f99f701247f" change="1642100013" id="E0032">
+      <type>Death</type>
+      <dateval val="1886-04-02"/>
+      <place hlink="_ee6159d865f411d39d88678c0b0"/>
+      <citationref hlink="_ee64782332230fc0e800cde86dd"/>
+      <citationref hlink="_eef4fdfd1641f7c7754ebee6ea5"/>
+    </event>
   </events>
   <people>
-    <person handle="_ee6150a01922f386922afbf79" change="1641989008" id="I0000">
+    <person handle="_ee6150a01922f386922afbf79" change="1642100025" id="I0000">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anna Anselmiina</first>
@@ -240,16 +257,20 @@
       <childof hlink="_eeecdf7d4ec1126d7bfe47296d9"/>
       <parentin hlink="_ee61579fd2864532fd765c550a9"/>
     </person>
-    <person handle="_ee6157e3c3659afb3b209e4411c" change="1638223210" id="I0002">
+    <person handle="_ee6157e3c3659afb3b209e4411c" change="1642098889" id="I0002">
       <gender>F</gender>
-      <name type="Unknown">
-        <first>Kustaava Karoliina</first>
+      <name type="Birth Name">
+        <first>Gustafva Karolina</first>
         <surname derivation="Unknown ">Koponen</surname>
+      </name>
+      <name alt="1" type="Also Known As">
+        <first>Kustaava Karoliina</first>
+        <surname>Koponen</surname>
       </name>
       <eventref hlink="_ee6491b07a77345ad5fca3eff23" role="Primary"/>
       <parentin hlink="_ee61579fd2864532fd765c550a9"/>
     </person>
-    <person handle="_ee64636aabb17a363ee72b87057" change="1641989008" id="I0003">
+    <person handle="_ee64636aabb17a363ee72b87057" change="1642100025" id="I0003">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Aliina</first>
@@ -258,7 +279,7 @@
       <eventref hlink="_ee6463fc9191d00fc87db5e3756" role="Primary"/>
       <childof hlink="_ee61579fd2864532fd765c550a9"/>
     </person>
-    <person handle="_ee64644a7076bf88f3304448491" change="1641989008" id="I0004">
+    <person handle="_ee64644a7076bf88f3304448491" change="1642100025" id="I0004">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Juho Fredrik</first>
@@ -267,7 +288,7 @@
       <eventref hlink="_ee6464b120c45a5bc050e7c8da" role="Primary"/>
       <childof hlink="_ee61579fd2864532fd765c550a9"/>
     </person>
-    <person handle="_ee6464f0566bcddcebb99cc91b" change="1641989008" id="I0005">
+    <person handle="_ee6464f0566bcddcebb99cc91b" change="1642100025" id="I0005">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Elna Maria</first>
@@ -276,7 +297,7 @@
       <eventref hlink="_ee646563b18599a4ff57984e006" role="Primary"/>
       <childof hlink="_ee61579fd2864532fd765c550a9"/>
     </person>
-    <person handle="_ee6465949c478672e694540db01" change="1641989008" id="I0006">
+    <person handle="_ee6465949c478672e694540db01" change="1642100025" id="I0006">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Hilda Elisabeth</first>
@@ -285,7 +306,7 @@
       <eventref hlink="_ee6465e9192507c9aa10ee78e3b" role="Primary"/>
       <childof hlink="_ee61579fd2864532fd765c550a9"/>
     </person>
-    <person handle="_ee64665a6fe158fa3db8eca5bba" change="1641989008" id="I0007">
+    <person handle="_ee64665a6fe158fa3db8eca5bba" change="1642100025" id="I0007">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Lauri Wiktor</first>
@@ -294,7 +315,7 @@
       <eventref hlink="_ee6466a531157cd6a1b548fbb2c" role="Primary"/>
       <childof hlink="_ee61579fd2864532fd765c550a9"/>
     </person>
-    <person handle="_ee6469e4f6025d3bbe73593e6f2" change="1641989008" id="I0008">
+    <person handle="_ee6469e4f6025d3bbe73593e6f2" change="1642100025" id="I0008">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Lauri</first>
@@ -303,7 +324,7 @@
       <eventref hlink="_ee646a6929f5c2c46eeaf7ada6" role="Primary"/>
       <childof hlink="_ee61579fd2864532fd765c550a9"/>
     </person>
-    <person handle="_ee646b1846554885cb2d391edfd" change="1641989008" id="I0009">
+    <person handle="_ee646b1846554885cb2d391edfd" change="1642100025" id="I0009">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Pietari</first>
@@ -376,9 +397,19 @@
       <eventref hlink="_eef0a8fffc96915d944d408757f" role="Primary"/>
       <childof hlink="_eeecdf7d4ec1126d7bfe47296d9"/>
     </person>
+    <person handle="_eef4f96ebd323ab12bec00bbda" change="1642100025" id="I0016">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Elin Sofia</first>
+        <surname derivation="Inherited">Åberg</surname>
+      </name>
+      <eventref hlink="_eef4fc26b931fc98e387d7b93de" role="Primary"/>
+      <eventref hlink="_eef4fe13b4120ac4f99f701247f" role="Primary"/>
+      <childof hlink="_ee61579fd2864532fd765c550a9"/>
+    </person>
   </people>
   <families>
-    <family handle="_ee61579fd2864532fd765c550a9" change="1641989008" id="F0000">
+    <family handle="_ee61579fd2864532fd765c550a9" change="1642100025" id="F0000">
       <rel type="Married"/>
       <father hlink="_ee6157afdc32c8a5dda9e9be429"/>
       <mother hlink="_ee6157e3c3659afb3b209e4411c"/>
@@ -389,6 +420,7 @@
       <eventref hlink="_ee6174ab3932da0ff189d1d5869" role="Family"/>
       <eventref hlink="_ee61755e3d27f2b0a94e1297e1f" role="Family"/>
       <childref hlink="_ee64636aabb17a363ee72b87057"/>
+      <childref hlink="_eef4f96ebd323ab12bec00bbda"/>
       <childref hlink="_ee64644a7076bf88f3304448491"/>
       <childref hlink="_ee6464f0566bcddcebb99cc91b"/>
       <childref hlink="_ee6465949c478672e694540db01"/>
@@ -607,6 +639,34 @@
       <noteref hlink="_eef37a1a080ba48d1beb15cf56"/>
       <sourceref hlink="_eef379af2422a9acb812ed9b72c"/>
     </citation>
+    <citation handle="_eef4f2567f5f0d72cf6161320d" change="1642098782" id="C0026">
+      <page>jakso 14</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eef4f22aead61a65778e6045748"/>
+      <noteref hlink="_eef4f251e289d122f8e28855bb"/>
+      <sourceref hlink="_eef4f20732d11b08f56bc392a"/>
+    </citation>
+    <citation handle="_eef4f789f8c787dd4c0a610e299" change="1642099327" id="C0027">
+      <page>kuva 71</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eef4f7578926bc1f06428c66cab"/>
+      <noteref hlink="_eef4f786acc5af5d6150c5cf76b"/>
+      <sourceref hlink="_eef4f71cd9f6e0da4bbac8373ba"/>
+    </citation>
+    <citation handle="_eef4fc1de0c113c6a57a8fe3649" change="1642099807" id="C0028">
+      <page>kuva 26</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eef4fbea1251121990f4bd83f07"/>
+      <noteref hlink="_eef4fc1343c3498bb1f4ff28d97"/>
+      <sourceref hlink="_eef4fbb005f19e110f933eb9ce"/>
+    </citation>
+    <citation handle="_eef4fdfd1641f7c7754ebee6ea5" change="1642100004" id="C0029">
+      <page>kuva 17</page>
+      <confidence>2</confidence>
+      <noteref hlink="_eef4fdbc8fa5faf7c4e86020e01"/>
+      <noteref hlink="_eef4fde629e56ee4d404af7036d"/>
+      <sourceref hlink="_eef4fd8f3d371d063082effc58d"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_ee61523c21276c9b6703bb659e" change="1638135993" id="S0000">
@@ -724,6 +784,26 @@
       <sauthor>Rantasalmen seurakunta</sauthor>
       <reporef hlink="_eeecdcba8f32790b5c83fd78966" medium="Book"/>
     </source>
+    <source handle="_eef4f20732d11b08f56bc392a" change="1642098749" id="S0023">
+      <stitle>Leppävirta Syntyneet 1860-1873</stitle>
+      <sauthor>Leppävirran seurakunta</sauthor>
+      <reporef hlink="_eeecdcba8f32790b5c83fd78966" medium="Book"/>
+    </source>
+    <source handle="_eef4f71cd9f6e0da4bbac8373ba" change="1642099283" id="S0024">
+      <stitle>Leppävirta Syntyneet 1879-1883</stitle>
+      <sauthor>Leppävirran seurakunta</sauthor>
+      <reporef hlink="_ee6153fcc4b10b267598dc745fb" medium="Book"/>
+    </source>
+    <source handle="_eef4fbb005f19e110f933eb9ce" change="1642099762" id="S0025">
+      <stitle>Leppävirta Syntyneet 1884-1886</stitle>
+      <sauthor>Leppävirran seurakunta</sauthor>
+      <reporef hlink="_ee6153fcc4b10b267598dc745fb" medium="Book"/>
+    </source>
+    <source handle="_eef4fd8f3d371d063082effc58d" change="1642099959" id="S0026">
+      <stitle>Leppävirta Kuolleet 1884-1886</stitle>
+      <sauthor>Leppävirran seurakunta</sauthor>
+      <reporef hlink="_ee6153fcc4b10b267598dc745fb" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_ee6151725623cff8add84bf4f4b" change="1638217567" id="P0000" type="Parish">
@@ -748,11 +828,11 @@
     </placeobj>
   </places>
   <repositories>
-    <repository handle="_ee6153fcc4b10b267598dc745fb" change="1638222733" id="R0000">
+    <repository handle="_ee6153fcc4b10b267598dc745fb" change="1642099957" id="R0000">
       <rname>SSHY Digiarkisto</rname>
       <type>Web site</type>
     </repository>
-    <repository handle="_eeecdcba8f32790b5c83fd78966" change="1642059285" id="R0001">
+    <repository handle="_eeecdcba8f32790b5c83fd78966" change="1642098748" id="R0001">
       <rname>Kansallisarkisto Digitaaliarkisto</rname>
       <type>Library</type>
     </repository>
@@ -1146,6 +1226,42 @@ Syntyneiden luettelossa äidin sukunimenä on Seppälä (po. Seppänen)</text>
       <text>http://digi.narc.fi/digi/view.ka?kuid=8618150</text>
       <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=8618150">
         <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_eef4f22aead61a65778e6045748" change="1642098764" id="N0064" type="Citation">
+      <text>Leppävirran seurakunnan arkisto - Syntyneiden ja kastettujen luettelot 1860-1873 (I C:6), jakso 14: 1860 loka-marraskuu; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=8437168 / Viitattu 13.1.2022</text>
+    </note>
+    <note handle="_eef4f251e289d122f8e28855bb" change="1642098780" id="N0065" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=8437168</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=8437168">
+        <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_eef4f7578926bc1f06428c66cab" change="1642099307" id="N0066" type="Citation">
+      <text>Leppävirta syntyneet 1879-1883 (MKO18-21)  1882 Kesäkuu jatkoa syyskuun jälk ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6015&amp;pnum=71 / Viitattu 13.01.2022</text>
+    </note>
+    <note handle="_eef4f786acc5af5d6150c5cf76b" change="1642099326" id="N0067" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6015&amp;pnum=71</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6015&amp;pnum=71">
+        <range start="0" end="76"/>
+      </style>
+    </note>
+    <note handle="_eef4fbea1251121990f4bd83f07" change="1642099786" id="N0068" type="Citation">
+      <text>Leppävirta syntyneet 1884-1886 (MKO21-23)  1885 Tammikuu ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6016&amp;pnum=26 / Viitattu 13.01.2022</text>
+    </note>
+    <note handle="_eef4fc1343c3498bb1f4ff28d97" change="1642099803" id="N0069" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6016&amp;pnum=26</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6016&amp;pnum=26">
+        <range start="0" end="76"/>
+      </style>
+    </note>
+    <note handle="_eef4fdbc8fa5faf7c4e86020e01" change="1642099977" id="N0070" type="Citation">
+      <text>Leppävirta kuolleet 1884-1886 (MKO14)  v. 1886 Huhti-Toukokuu ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6166&amp;pnum=17 / Viitattu 13.01.2022</text>
+    </note>
+    <note handle="_eef4fde629e56ee4d404af7036d" change="1642099994" id="N0071" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6166&amp;pnum=17</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6166&amp;pnum=17">
+        <range start="0" end="76"/>
       </style>
     </note>
   </notes>
