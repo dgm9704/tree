@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2022-01-16" version="5.1.4"/>
+    <created date="2022-01-17" version="5.1.4"/>
     <researcher>
       <resname>John Nordberg</resname>
       <resemail>john.nordberg@gmail.com</resemail>
@@ -78,7 +78,7 @@
       <dateval val="1848-08-14"/>
       <citationref hlink="_eefe7c4ebe566c9c3294b3c4f4a"/>
     </event>
-    <event handle="_eefe7ffc6b8b276b5c20539ffc" change="1642355227" id="E0011">
+    <event handle="_eefe7ffc6b8b276b5c20539ffc" change="1642401240" id="E0011">
       <type>Marriage</type>
       <dateval val="1870-04-18"/>
       <place hlink="_eefe59de193660924831a7a0743"/>
@@ -91,12 +91,43 @@
       <place hlink="_eefe7bdd27271da227a56f49d57"/>
       <citationref hlink="_eefe7c4ebe566c9c3294b3c4f4a"/>
     </event>
-    <event handle="_eefe832b2665725c149749c963d" change="1642356099" id="E0013">
+    <event handle="_eefe832b2665725c149749c963d" change="1642402251" id="E0013">
       <type>Residence</type>
       <datespan start="1871" stop="1873"/>
       <place hlink="_eefe82c85a038fb65adf047e5bc"/>
       <citationref hlink="_eefe832616f69c0454686e2e016"/>
       <citationref hlink="_eefe8848eabd993808ea573a1"/>
+    </event>
+    <event handle="_ef003a4005b6d7ef7d60c60b4c" change="1642401622" id="E0014">
+      <type>Residence</type>
+      <datespan start="1873" stop="1877"/>
+      <place hlink="_eefe792bd6475daa1e1cf17baa7"/>
+      <citationref hlink="_ef003943e312899bc2edbac6275"/>
+      <citationref hlink="_ef003a39dea7e807dde63950c80"/>
+    </event>
+    <event handle="_ef0040ea8fc1c32fd8263d29e59" change="1642402610" id="E0015">
+      <type>Birth</type>
+      <dateval val="1871-07-22"/>
+      <place hlink="_eefe82c85a038fb65adf047e5bc"/>
+      <citationref hlink="_eefe8848eabd993808ea573a1"/>
+    </event>
+    <event handle="_ef0041747a4579847e6e4e3043e" change="1642402357" id="E0016">
+      <type>Death</type>
+      <dateval val="1871-08-31"/>
+      <place hlink="_eefe792bd6475daa1e1cf17baa7"/>
+      <citationref hlink="_eefe8848eabd993808ea573a1"/>
+    </event>
+    <event handle="_ef0042384507701a7ab650a3d1c" change="1642402437" id="E0017">
+      <type>Birth</type>
+      <dateval val="1874-09-25"/>
+      <place hlink="_eefe792bd6475daa1e1cf17baa7"/>
+      <citationref hlink="_ef003a39dea7e807dde63950c80"/>
+    </event>
+    <event handle="_ef0043ab29e49d0a17bf7ac3fe4" change="1642402589" id="E0018">
+      <type>Birth</type>
+      <dateval val="1876-12-23"/>
+      <place hlink="_eefe792bd6475daa1e1cf17baa7"/>
+      <citationref hlink="_ef003a39dea7e807dde63950c80"/>
     </event>
   </events>
   <people home="_eefe581e7551495f5db69b73e2f">
@@ -145,6 +176,43 @@
       <eventref hlink="_eefe7d72d6215d6a50710e58671" role="Primary"/>
       <parentin hlink="_eefe7caadfc304480fd68f50128"/>
     </person>
+    <person handle="_ef0040794fd2d2de863268567d0" change="1642402616" id="I0004">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Josef</first>
+        <surname>Nieminen</surname>
+      </name>
+      <eventref hlink="_ef0040ea8fc1c32fd8263d29e59" role="Primary"/>
+      <childof hlink="_eefe7caadfc304480fd68f50128"/>
+    </person>
+    <person handle="_ef0040fef5c83ad821bdccdf8c" change="1642402616" id="I0005">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Johannes</first>
+        <surname>Nieminen</surname>
+      </name>
+      <eventref hlink="_ef0040ea8fc1c32fd8263d29e59" role="Primary"/>
+      <eventref hlink="_ef0041747a4579847e6e4e3043e" role="Primary"/>
+      <childof hlink="_eefe7caadfc304480fd68f50128"/>
+    </person>
+    <person handle="_ef0041d48ac426176810e1b454" change="1642402616" id="I0006">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Hilma Josefina</first>
+        <surname>Nieminen</surname>
+      </name>
+      <eventref hlink="_ef0042384507701a7ab650a3d1c" role="Primary"/>
+      <childof hlink="_eefe7caadfc304480fd68f50128"/>
+    </person>
+    <person handle="_ef004264bb02639e0ddac2d168" change="1642402616" id="I0007">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Arvid</first>
+        <surname>Nieminen</surname>
+      </name>
+      <eventref hlink="_ef0043ab29e49d0a17bf7ac3fe4" role="Primary"/>
+      <childof hlink="_eefe7caadfc304480fd68f50128"/>
+    </person>
   </people>
   <families>
     <family handle="_eefe5746bee2e512d9a2b6f2e82" change="1642353392" id="F0000">
@@ -156,13 +224,18 @@
       <eventref hlink="_eefe6e74d237551c92f20051028" role="Family"/>
       <childref hlink="_eefe581e7551495f5db69b73e2f"/>
     </family>
-    <family handle="_eefe7caadfc304480fd68f50128" change="1642356107" id="F0001">
+    <family handle="_eefe7caadfc304480fd68f50128" change="1642402616" id="F0001">
       <rel type="Unknown"/>
       <father hlink="_eefe581e7551495f5db69b73e2f"/>
       <mother hlink="_eefe7cf36f84a25eda551036978"/>
       <eventref hlink="_eefe7ffc6b8b276b5c20539ffc" role="Family"/>
       <eventref hlink="_eefe80f9b3875892167996bdaad" role="Family"/>
       <eventref hlink="_eefe832b2665725c149749c963d" role="Family"/>
+      <eventref hlink="_ef003a4005b6d7ef7d60c60b4c" role="Family"/>
+      <childref hlink="_ef0040794fd2d2de863268567d0"/>
+      <childref hlink="_ef0040fef5c83ad821bdccdf8c"/>
+      <childref hlink="_ef0041d48ac426176810e1b454"/>
+      <childref hlink="_ef004264bb02639e0ddac2d168"/>
     </family>
   </families>
   <citations>
@@ -248,6 +321,20 @@
       <confidence>2</confidence>
       <noteref hlink="_eefe88117fc7690867b1d778da9"/>
       <noteref hlink="_eefe8844ed47bda9986a68fada9"/>
+      <sourceref hlink="_eefe87ebca22d1d514ce89e25ec"/>
+    </citation>
+    <citation handle="_ef003943e312899bc2edbac6275" change="1642401498" id="C0012">
+      <page>232</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ef003913bbf6eb170eade7eb4b6"/>
+      <noteref hlink="_ef0039406b55be49e4cf914f6b0"/>
+      <sourceref hlink="_eefe77aa2d89e26546001c0de2"/>
+    </citation>
+    <citation handle="_ef003a39dea7e807dde63950c80" change="1642401599" id="C0013">
+      <page>231-232</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ef003a0c64e4a15cdcb386ef156"/>
+      <noteref hlink="_ef003a362fe2c6ebe5545c593c9"/>
       <sourceref hlink="_eefe87ebca22d1d514ce89e25ec"/>
     </citation>
   </citations>
@@ -449,6 +536,24 @@
     <note handle="_eefe8844ed47bda9986a68fada9" change="1642356095" id="N0023" type="Link">
       <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=18069&amp;pnum=119</text>
       <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=18069&amp;pnum=119">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_ef003913bbf6eb170eade7eb4b6" change="1642401478" id="N0024" type="Citation">
+      <text>Taipalsaari rippikirja 1867-1877 (MKO14-27)  Sivu 232 Njemis (Niemi, Nieminen) ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=18067&amp;pnum=232 / Viitattu 17.01.2022</text>
+    </note>
+    <note handle="_ef0039406b55be49e4cf914f6b0" change="1642401497" id="N0025" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=18067&amp;pnum=232</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=18067&amp;pnum=232">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_ef003a0c64e4a15cdcb386ef156" change="1642401580" id="N0026" type="Citation">
+      <text>Taipalsaari lastenkirja 1867-1877 (MKO15-21)  Sivu 231 Niemis (Nieminen) ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=18069&amp;pnum=116 / Viitattu 17.01.2022</text>
+    </note>
+    <note handle="_ef003a362fe2c6ebe5545c593c9" change="1642401597" id="N0027" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=18069&amp;pnum=116</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=18069&amp;pnum=116">
         <range start="0" end="78"/>
       </style>
     </note>
