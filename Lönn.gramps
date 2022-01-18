@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE database PUBLIC "-//Gramps//DTD Gramps XML 1.7.1//EN"
+"http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
+<database xmlns="http://gramps-project.org/xml/1.7.1/">
+  <header>
+    <created date="2022-01-18" version="5.1.4"/>
+    <researcher>
+      <resname>John Nordberg</resname>
+      <resemail>john.nordberg@gmail.com</resemail>
+    </researcher>
+  </header>
+  <events>
+    <event handle="_ef037d9b875428c2a169ccfb0ed" change="1642489195" id="E0000">
+      <type>Birth</type>
+      <dateval val="1872-05-19"/>
+      <place hlink="_ef037c62d1735afaf9762a3e99b"/>
+      <citationref hlink="_ef037d897f67c02ce92362f1b62"/>
+    </event>
+    <event handle="_ef0380235134dd96598c47e13e2" change="1642489460" id="E0001">
+      <type>Birth</type>
+      <dateval val="1846-10-06"/>
+      <place hlink="_ef037f3ad6e22b8c07e5feacdb"/>
+      <citationref hlink="_ef037ff1a27735227c82ea32165"/>
+    </event>
+    <event handle="_ef0380ecf3218e3bbf00956abf2" change="1642489543" id="E0002">
+      <type>Birth</type>
+      <dateval val="1838-02-20"/>
+      <place hlink="_ef0380d809859835c2eb87abcf2"/>
+      <citationref hlink="_ef037ff1a27735227c82ea32165"/>
+    </event>
+    <event handle="_ef04f0e92a16194afdc4afc9a4f" change="1642528413" id="E0003">
+      <type>Residence</type>
+      <datespan start="1873" stop="1877"/>
+      <place hlink="_ef037c62d1735afaf9762a3e99b"/>
+      <citationref hlink="_ef037ff1a27735227c82ea32165"/>
+    </event>
+    <event handle="_ef04f359fe9151bbcf11f93359b" change="1642528385" id="E0004">
+      <type>Residence</type>
+      <datespan start="1878" stop="1887"/>
+      <place hlink="_ef037c62d1735afaf9762a3e99b"/>
+      <citationref hlink="_ef04f355fa61a66ccf98ce64306"/>
+    </event>
+  </events>
+  <people>
+    <person handle="_ef037a3a4256f98e4256f5e581a" change="1642528415" id="I0000">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Olivia Mathilda</first>
+        <surname>Lönn</surname>
+        <nick>Wivi</nick>
+      </name>
+      <eventref hlink="_ef037d9b875428c2a169ccfb0ed" role="Primary"/>
+      <childof hlink="_ef037e9fa18191893dad814afcc"/>
+    </person>
+    <person handle="_ef037eaab0933b43b683e373c41" change="1642489548" id="I0001">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Emanuel Vilhelm</first>
+        <surname derivation="Inherited">Lönn</surname>
+        <surname prim="0" derivation="Patronymic">Emanuelsson</surname>
+      </name>
+      <eventref hlink="_ef0380235134dd96598c47e13e2" role="Primary"/>
+      <parentin hlink="_ef037e9fa18191893dad814afcc"/>
+    </person>
+    <person handle="_ef03804224983a9609422aa125" change="1642489548" id="I0002">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Maria Mathilda</first>
+        <surname derivation="Inherited">Sirén</surname>
+      </name>
+      <eventref hlink="_ef0380ecf3218e3bbf00956abf2" role="Primary"/>
+      <parentin hlink="_ef037e9fa18191893dad814afcc"/>
+    </person>
+  </people>
+  <families>
+    <family handle="_ef037e9fa18191893dad814afcc" change="1642528415" id="F0000">
+      <rel type="Unknown"/>
+      <father hlink="_ef037eaab0933b43b683e373c41"/>
+      <mother hlink="_ef03804224983a9609422aa125"/>
+      <eventref hlink="_ef04f0e92a16194afdc4afc9a4f" role="Family"/>
+      <eventref hlink="_ef04f359fe9151bbcf11f93359b" role="Family"/>
+      <childref hlink="_ef037a3a4256f98e4256f5e581a"/>
+    </family>
+  </families>
+  <citations>
+    <citation handle="_ef037d897f67c02ce92362f1b62" change="1642489188" id="C0000">
+      <page>253-254</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ef037d4616a2e01844c68e11a69"/>
+      <noteref hlink="_ef037d7dc789d2d474bc57abc6"/>
+      <sourceref hlink="_ef037d1837252ea4bd6d3dd771"/>
+    </citation>
+    <citation handle="_ef037ff1a27735227c82ea32165" change="1642489440" id="C0001">
+      <page>350</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ef037fc19ea7f2d266757e028fd"/>
+      <noteref hlink="_ef037fe70171fc67a326a4a0e2f"/>
+      <sourceref hlink="_ef037f963b5113ba8c7195b3c06"/>
+    </citation>
+    <citation handle="_ef04f355fa61a66ccf98ce64306" change="1642528383" id="C0002">
+      <page>687</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ef04f32b52668a343268ee53fe8"/>
+      <noteref hlink="_ef04f352bb620c75c67d9790f7f"/>
+      <sourceref hlink="_ef04f2fb9915252cb10ec915cc9"/>
+    </citation>
+  </citations>
+  <sources>
+    <source handle="_ef037d1837252ea4bd6d3dd771" change="1642489141" id="S0000">
+      <stitle>Tampere Syntyneet 1865-1874</stitle>
+      <sauthor>Tampereen tuomiokirkkoseurakunta</sauthor>
+      <reporef hlink="_ef037d0cfb06824b7143175b0d8" medium="Book"/>
+    </source>
+    <source handle="_ef037f963b5113ba8c7195b3c06" change="1642489403" id="S0001">
+      <stitle>Tampere Rippikirja 1867-1877</stitle>
+      <sauthor>Tampereen tuomiokirkkoseurakunta</sauthor>
+      <reporef hlink="_ef037d0cfb06824b7143175b0d8" medium="Book"/>
+    </source>
+    <source handle="_ef04f2fb9915252cb10ec915cc9" change="1642528346" id="S0002">
+      <stitle>Tampere Rippikirja 1878-1887</stitle>
+      <sauthor>Tampereen tuomiokirkkoseurakunta</sauthor>
+      <reporef hlink="_ef04f2f6512180e03be20ff562a" medium="Book"/>
+    </source>
+  </sources>
+  <places>
+    <placeobj handle="_ef037c34ec8fd0b2a1802d4680" change="1642489532" id="P0000" type="Country">
+      <pname value="Suomi"/>
+    </placeobj>
+    <placeobj handle="_ef037c573304b1fc68057f5289b" change="1642489062" id="P0001" type="Parish">
+      <pname value="Tampere"/>
+      <placeref hlink="_ef037c34ec8fd0b2a1802d4680"/>
+    </placeobj>
+    <placeobj handle="_ef037c5a5427b717628a957ab5b" change="1642489063" id="P0002" type="Village">
+      <pname value="Onkiniemi"/>
+      <placeref hlink="_ef037c573304b1fc68057f5289b"/>
+    </placeobj>
+    <placeobj handle="_ef037c62d1735afaf9762a3e99b" change="1642489067" id="P0003" type="Borough">
+      <pname value="Nya Ölbryggeriet"/>
+      <placeref hlink="_ef037c5a5427b717628a957ab5b"/>
+    </placeobj>
+    <placeobj handle="_ef037f3ad6e22b8c07e5feacdb" change="1642489365" id="P0004" type="Parish">
+      <pname value="Kangasala"/>
+      <placeref hlink="_ef037c34ec8fd0b2a1802d4680"/>
+    </placeobj>
+    <placeobj handle="_ef0380d809859835c2eb87abcf2" change="1642489534" id="P0005" type="Parish">
+      <pname value="Birkala"/>
+      <placeref hlink="_ef037c34ec8fd0b2a1802d4680"/>
+    </placeobj>
+  </places>
+  <repositories>
+    <repository handle="_ef037d0cfb06824b7143175b0d8" change="1642489401" id="R0000">
+      <rname>Kansallisarkisto Digitaaliarkisto</rname>
+      <type>Library</type>
+    </repository>
+    <repository handle="_ef04f2f6512180e03be20ff562a" change="1642528344" id="R0001">
+      <rname>SSHY Digiarkisto</rname>
+      <type>Library</type>
+    </repository>
+  </repositories>
+  <notes>
+    <note handle="_ef037d4616a2e01844c68e11a69" change="1642489160" id="N0000" type="Citation">
+      <text>Tampereen tuomiokirkkoseurakunnan arkisto - Syntyneiden ja kastettujen luettelot 1865-1874, jakso 136, sivu 253: 1872 Maj; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=13844669 / Viitattu 18.1.2022</text>
+    </note>
+    <note handle="_ef037d7dc789d2d474bc57abc6" change="1642489183" id="N0001" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=13844669</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=13844669">
+        <range start="0" end="46"/>
+      </style>
+    </note>
+    <note handle="_ef037fc19ea7f2d266757e028fd" change="1642489420" id="N0002" type="Citation">
+      <text>Tampereen tuomiokirkkoseurakunnan arkisto - Rippikirjat 1867-1877, jakso 262, sivu 350: Nya Ölbryggeriet; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=24652410 / Viitattu 18.1.2022</text>
+    </note>
+    <note handle="_ef037fe70171fc67a326a4a0e2f" change="1642489436" id="N0003" type="Link">
+      <text>http://digi.narc.fi/digi/view.ka?kuid=24652410</text>
+      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=24652410">
+        <range start="0" end="46"/>
+      </style>
+    </note>
+    <note handle="_ef04f32b52668a343268ee53fe8" change="1642528366" id="N0004" type="Citation">
+      <text>Tampereen tuomiokirkkoseurakunta rippikirja 1878-1887 (AP_I I Aa:17)  Sivu 687 Onkiniemi Ölbryggeri, Bryggmästare Lönn, Sirén. Pig Törnbom ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31628&amp;pnum=658 / Viitattu 18.01.2022</text>
+    </note>
+    <note handle="_ef04f352bb620c75c67d9790f7f" change="1642528382" id="N0005" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31628&amp;pnum=658</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31628&amp;pnum=658">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+  </notes>
+</database>
