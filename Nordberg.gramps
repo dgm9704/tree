@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2022-07-05" version="5.1.5"/>
+    <created date="2022-07-06" version="5.1.5"/>
     <researcher>
     </researcher>
   </header>
@@ -1214,9 +1214,6 @@
       <type>Birth</type>
       <dateval val="1861-11-01"/>
     </event>
-    <event handle="_cb589ccc7b137b0f11b" change="1397384051" id="E0626">
-      <type>Death</type>
-    </event>
     <event handle="_cb589ccc7b452f3efd5" change="1641159705" id="E0627">
       <type>Birth</type>
       <dateval val="1771-03-02"/>
@@ -1234,18 +1231,12 @@
       <citationref hlink="_dcf46b8e58a6d5ffbea30028fd"/>
       <citationref hlink="_eed0691733c1698067f0540a263"/>
     </event>
-    <event handle="_cb589ccc804666eea9d" change="1397384051" id="E0630">
-      <type>Death</type>
-    </event>
     <event handle="_cb589ccc8072a1a33dc" change="1641763852" id="E0631">
       <type>Birth</type>
       <dateval val="1800-05-18"/>
       <place hlink="_cb589cc95f37380d5d6"/>
       <citationref hlink="_eee87561a0375d6df6678e87fe4"/>
       <citationref hlink="_dcf46c81f6e2a92153767efcd2b"/>
-    </event>
-    <event handle="_cb589ccc82c5e1df5b7" change="1397384051" id="E0632">
-      <type>Death</type>
     </event>
     <event handle="_cb589ccc8303bf55290" change="1641055858" id="E0633">
       <type>Birth</type>
@@ -1862,10 +1853,6 @@
       <place hlink="_cb589cc91ba62696715"/>
       <citationref hlink="_db71baa6c032e2b1ab41c9941fe"/>
       <citationref hlink="_db71bd6cda71b0147dea1a62064"/>
-    </event>
-    <event handle="_cb589ccf04a43e27979" change="1397384052" id="E1077">
-      <type>Death</type>
-      <dateval val="1938-09-09"/>
     </event>
     <event handle="_cb589ccf06172baf7c4" change="1493387427" id="E1078">
       <type>Birth</type>
@@ -15132,7 +15119,7 @@
       <citationref hlink="_f121f98851d7f90aa1317b0e0fd"/>
       <citationref hlink="_f1220b0e3e449b0169263911e24"/>
     </event>
-    <event handle="_f122040e7d358a66fdaeb8b0faa" change="1657052495" id="E0150">
+    <event handle="_f122040e7d358a66fdaeb8b0faa" change="1657133988" id="E0150">
       <type>Residence</type>
       <datespan start="1780" stop="1785"/>
       <place hlink="_cb589cce2e8338b1e15"/>
@@ -15149,6 +15136,19 @@
       <datespan start="1770" stop="1773"/>
       <place hlink="_cb589cce2e8338b1e15"/>
       <citationref hlink="_f1220b0e3e449b0169263911e24"/>
+    </event>
+    <event handle="_f1250eb9c0e2dcd414bd708a6dd" change="1657134144" id="E0402">
+      <type>Residence</type>
+      <datespan start="1786" stop="1791"/>
+      <place hlink="_cb589cce2e8338b1e15"/>
+      <citationref hlink="_f1250ea34431d837fd0b7af2cd0"/>
+    </event>
+    <event handle="_f1251851e3e2c53bf3cda20bc44" change="1657135150" id="E0403">
+      <type>Death</type>
+      <dateval val="1790-02-21"/>
+      <place hlink="_cb589cce2e8338b1e15"/>
+      <citationref hlink="_f1250ea34431d837fd0b7af2cd0"/>
+      <citationref hlink="_f125182550467f26549cb18d6bb"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -16045,7 +16045,7 @@
       <eventref hlink="_cb589ccba28226904e0" role="Primary"/>
       <childof hlink="_cb589cc8edf633eea11"/>
     </person>
-    <person handle="_cb589ccba4b73517c27" change="1657053291" id="I4457">
+    <person handle="_cb589ccba4b73517c27" change="1657135152" id="I4457">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Henrik</first>
@@ -16984,7 +16984,7 @@
       <eventref hlink="_cb589cce24f20199420" role="Primary"/>
       <childof hlink="_cb589ccba12407f3e0c"/>
     </person>
-    <person handle="_cb589cce2df089a9958" change="1657053291" id="I5272">
+    <person handle="_cb589cce2df089a9958" change="1657135152" id="I5272">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Fredrik</first>
@@ -16999,7 +16999,7 @@
       <parentin hlink="_cb589cce30926fd83e0"/>
       <noteref hlink="_cb589cce30a65dd9031"/>
     </person>
-    <person handle="_cb589cce31a72a4d7f4" change="1657053291" id="I4016">
+    <person handle="_cb589cce31a72a4d7f4" change="1657135152" id="I4016">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria</first>
@@ -17009,7 +17009,7 @@
       <eventref hlink="_cb589cce32b0cd6d64b" role="Primary"/>
       <childof hlink="_cb589ccba734358673b"/>
     </person>
-    <person handle="_cb589cce33e62f52c74" change="1657053291" id="I3523">
+    <person handle="_cb589cce33e62f52c74" change="1657135152" id="I3523">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Margareta</first>
@@ -17021,7 +17021,7 @@
       <parentin hlink="_cb589cce36351a158af"/>
       <parentin hlink="_cb589cce36412c30292"/>
     </person>
-    <person handle="_cb589cce37066a36efd" change="1657053291" id="I5216">
+    <person handle="_cb589cce37066a36efd" change="1657135152" id="I5216">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anna</first>
@@ -17033,7 +17033,7 @@
       <childof hlink="_cb589ccba734358673b"/>
       <parentin hlink="_cb589cce396582737ec"/>
     </person>
-    <person handle="_cb589cce5982a8fd87c" change="1657053291" id="I4569">
+    <person handle="_cb589cce5982a8fd87c" change="1657135152" id="I4569">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Eric</first>
@@ -17045,7 +17045,7 @@
       <childof hlink="_cb589ccba734358673b"/>
       <parentin hlink="_cb589cce5e6376f503d"/>
     </person>
-    <person handle="_cb589cce5f038504c51" change="1657053291" id="I4199">
+    <person handle="_cb589cce5f038504c51" change="1657135152" id="I4199">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Elisabeth</first>
@@ -17055,7 +17055,7 @@
       <eventref hlink="_cb589cce60173bcaf62" role="Primary"/>
       <childof hlink="_cb589ccba734358673b"/>
     </person>
-    <person handle="_cb589cce62055722c43" change="1657053291" id="I3512">
+    <person handle="_cb589cce62055722c43" change="1657135152" id="I3512">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Anders</first>
@@ -22653,7 +22653,7 @@
       <childof hlink="_cb589cdbe2e2d8ae9ff"/>
       <parentin hlink="_cb589ce4d3e27c0a8e3"/>
     </person>
-    <person handle="_cb589ce4d4a596b4aef" change="1414284935" id="I3326">
+    <person handle="_cb589ce4d4a596b4aef" change="1657053718" id="I3326">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Fredrika</first>
@@ -22668,7 +22668,7 @@
       <childof hlink="_cb589cdbea40bec542e"/>
       <parentin hlink="_cb589ce4d5c13c76274"/>
     </person>
-    <person handle="_cb589ce4d680d56a462" change="1414284936" id="I4886">
+    <person handle="_cb589ce4d680d56a462" change="1657053718" id="I4886">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anna Cristina</first>
@@ -22683,7 +22683,7 @@
       <childof hlink="_cb589cdbea40bec542e"/>
       <parentin hlink="_cb589ce55c2689e0c6d"/>
     </person>
-    <person handle="_cb589ce55d040fb67e6" change="1414284936" id="I4004">
+    <person handle="_cb589ce55d040fb67e6" change="1657053718" id="I4004">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Eva Karolina</first>
@@ -22698,7 +22698,7 @@
       <childof hlink="_cb589cdbea40bec542e"/>
       <parentin hlink="_cb589ce55e25fc88c48"/>
     </person>
-    <person handle="_cb589ce55ee18e5ba60" change="1414284935" id="I3180">
+    <person handle="_cb589ce55ee18e5ba60" change="1657053718" id="I3180">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Wilhelmina</first>
@@ -22708,7 +22708,7 @@
       <eventref hlink="_cb589ce561170e86d66" role="Primary"/>
       <childof hlink="_cb589cdbea40bec542e"/>
     </person>
-    <person handle="_cb589ce564002604d83" change="1414284936" id="I4759">
+    <person handle="_cb589ce564002604d83" change="1657053718" id="I4759">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Engla</first>
@@ -27486,13 +27486,14 @@
       <eventref hlink="_f121f9a191f77c4656157bab404" role="Primary"/>
       <parentin hlink="_cb589ccba734358673b"/>
     </person>
-    <person handle="_f121f9c5d7147577ccfedd94065" change="1657051526" id="I0034">
+    <person handle="_f121f9c5d7147577ccfedd94065" change="1657135151" id="I0034">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Greta</first>
         <surname derivation="Patronymic">Hansdotter</surname>
       </name>
       <eventref hlink="_f121fa65009169e9f0b09c3d380" role="Primary"/>
+      <eventref hlink="_f1251851e3e2c53bf3cda20bc44" role="Primary"/>
       <parentin hlink="_cb589ccba734358673b"/>
     </person>
   </people>
@@ -27975,7 +27976,7 @@
       <childref hlink="_cb589cce22702527259"/>
       <childref hlink="_cb589cce24959101718"/>
     </family>
-    <family handle="_cb589ccba734358673b" change="1657053291" id="F1766">
+    <family handle="_cb589ccba734358673b" change="1657135152" id="F1766">
       <rel type="Married"/>
       <father hlink="_f121f7cc58a3bf2620df1e8d50a"/>
       <mother hlink="_f121f9c5d7147577ccfedd94065"/>
@@ -27983,6 +27984,7 @@
       <eventref hlink="_f1220b2244968821dcd51d4f936" role="Family"/>
       <eventref hlink="_f122072fff66e933b3c22474175" role="Family"/>
       <eventref hlink="_f122040e7d358a66fdaeb8b0faa" role="Family"/>
+      <eventref hlink="_f1250eb9c0e2dcd414bd708a6dd" role="Family"/>
       <childref hlink="_cb589cce2df089a9958"/>
       <childref hlink="_cb589cce31a72a4d7f4"/>
       <childref hlink="_cb589cce33e62f52c74"/>
@@ -29514,14 +29516,14 @@
       <eventref hlink="_cb589cff857250b8dc2" role="Family"/>
       <childref hlink="_cb589ce4d15405dca9f"/>
     </family>
-    <family handle="_cb589cdbea40bec542e" change="1461494589" id="F2721">
+    <family handle="_cb589cdbea40bec542e" change="1657053718" id="F2721">
       <rel type="Unknown"/>
       <father hlink="_cb589cdbe6f0d8900f1"/>
-      <childref hlink="_cb589ce4d4a596b4aef"/>
       <childref hlink="_cb589ce4d680d56a462"/>
-      <childref hlink="_cb589ce55d040fb67e6"/>
-      <childref hlink="_cb589ce55ee18e5ba60"/>
+      <childref hlink="_cb589ce4d4a596b4aef"/>
       <childref hlink="_cb589ce564002604d83"/>
+      <childref hlink="_cb589ce55ee18e5ba60"/>
+      <childref hlink="_cb589ce55d040fb67e6"/>
     </family>
     <family handle="_cb589cdbecd322c5937" change="1414284937" id="F2482">
       <rel type="Unknown"/>
@@ -39781,6 +39783,20 @@
       <noteref hlink="_f1220b07d7a4cdc636575637d29"/>
       <sourceref hlink="_f1220a724e21743f8138c05d80e"/>
     </citation>
+    <citation handle="_f1250ea34431d837fd0b7af2cd0" change="1657134442" id="C1331">
+      <page>I Aa:11/166</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f1250e33de0550188ce827e25ab"/>
+      <noteref hlink="_f1250e8aba22f6941545cd031fe"/>
+      <noteref hlink="_f125118120521bef04e7e94f74f"/>
+      <sourceref hlink="_f1250e1cb2810df1c7e7372b2fe"/>
+    </citation>
+    <citation handle="_f125182550467f26549cb18d6bb" change="1657135132" id="C1332">
+      <page>AP I Eb:1 / 62-63</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f125181ad835dd1292358b415eb"/>
+      <sourceref hlink="_f1251758bb074fb5910dbd6a8f1"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -42549,6 +42565,16 @@
       <sauthor>Tenholan seurakunta</sauthor>
       <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
     </source>
+    <source handle="_f1250e1cb2810df1c7e7372b2fe" change="1657134080" id="S0553">
+      <stitle>Tenhola Rippikirja 1786-1791</stitle>
+      <sauthor>Tenholan seurakunta</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
+    <source handle="_f1251758bb074fb5910dbd6a8f1" change="1657135048" id="S0554">
+      <stitle>Tenhola Vihityt-Kuolleet 1778-1821</stitle>
+      <sauthor>Tenholan seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1595618071" id="P0000" type="City">
@@ -45216,12 +45242,12 @@
     </placeobj>
   </places>
   <repositories>
-    <repository handle="_cdea29a49637c6553bc" change="1657053163" id="R0001">
+    <repository handle="_cdea29a49637c6553bc" change="1657134079" id="R0001">
       <rname>Arkistolaitos Digitaaliarkisto</rname>
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1657052025" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1657135044" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -62951,6 +62977,27 @@ kristinoppi (IX) 	hyväksytty</text>
       <text>https://astia.narc.fi/uusiastia/viewer/?fileId=6271880233&amp;aineistoId=1183079596</text>
       <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=6271880233&amp;aineistoId=1183079596">
         <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f1250e33de0550188ce827e25ab" change="1657134089" id="N2068" type="Citation">
+      <text>Tenholan seurakunnan arkisto - I Aa:11 Rippikirjat 1786-1791, jakso 168, sivu 166: Lappvik Grabbens; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=6271950875&amp;aineistoId=1183119754 / Viitattu 6.7.2022</text>
+    </note>
+    <note handle="_f1250e8aba22f6941545cd031fe" change="1657134125" id="N2069" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=6271950875&amp;aineistoId=1183119754</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=6271950875&amp;aineistoId=1183119754">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f125118120521bef04e7e94f74f" change="1657134435" id="N2070" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31106&amp;pnum=169</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31106&amp;pnum=169">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f125181ad835dd1292358b415eb" change="1657135128" id="N2071" type="Link">
+      <text>http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31126&amp;pnum=96</text>
+      <style name="link" value="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31126&amp;pnum=96">
+        <range start="0" end="76"/>
       </style>
     </note>
   </notes>
