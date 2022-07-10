@@ -1093,11 +1093,11 @@
       <place hlink="_f130b9b233b61a1735522db28e6"/>
       <citationref hlink="_f130bcffcfe497c9f6542a1a608"/>
     </event>
-    <event handle="_f131dc8b72f2040bf2d9ea91f7c" change="1657477848" id="E0043">
+    <event handle="_f131dc8b72f2040bf2d9ea91f7c" change="1657491544" id="E0043">
       <type>Marriage</type>
       <dateval val="1920-08-10"/>
       <place hlink="_cdd6fcd85ab77adcf9f"/>
-      <noteref hlink="_f131dc874a46bc88cf5dbc8517b"/>
+      <citationref hlink="_f1325adb4b969ddb5357892a47"/>
     </event>
     <event handle="_f131dd300e825d2a05d36e057d8" change="1657490231" id="E0045">
       <type>Birth</type>
@@ -1148,6 +1148,11 @@
       <place hlink="_cca1691056519fef9d5"/>
       <citationref hlink="_f13255155a420dcec1737732816"/>
       <citationref hlink="_d01727fae192634bb01"/>
+    </event>
+    <event handle="_f1325cca64c3a08ad42a853ca9d" change="1657491412" id="E0095">
+      <type>Conscription</type>
+      <datespan start="1818-08-08" stop="1919-10-15"/>
+      <citationref hlink="_f13242322b88b147207718fb43"/>
     </event>
   </events>
   <people home="_cca1691b7c53559cc53">
@@ -1361,13 +1366,14 @@
       <childof hlink="_cca167070917742a369"/>
       <parentin hlink="_cca16c73e9d13f8c0de"/>
     </person>
-    <person handle="_cca1691b7c53559cc53" change="1657488546" id="I0021">
+    <person handle="_cca1691b7c53559cc53" change="1657491547" id="I0021">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Heikki</first>
         <surname>Taponen</surname>
       </name>
       <eventref hlink="_cca168bd25d133ff856" role="Primary"/>
+      <eventref hlink="_f1325cca64c3a08ad42a853ca9d" role="Primary"/>
       <eventref hlink="_f1323c5361dc6499bd99e5ad8a" role="Primary"/>
       <eventref hlink="_cdd6fd51e087e594ea3" role="Primary"/>
       <eventref hlink="_cdd6fee780248c9481f" role="Primary"/>
@@ -2883,7 +2889,8 @@
       <noteref hlink="_f132229a6c93fbc8e8bfaf38b99"/>
       <sourceref hlink="_f1321a586f95e4299e9c0ca5ee5"/>
     </citation>
-    <citation handle="_f13242322b88b147207718fb43" change="1657488507" id="C0119">
+    <citation handle="_f13242322b88b147207718fb43" change="1657491295" id="C0119">
+      <page>0</page>
       <confidence>2</confidence>
       <noteref hlink="_f132421f15ce4bd2050a727968"/>
       <sourceref hlink="_f1323f9b95b3a9f158612b5158e"/>
@@ -2900,6 +2907,13 @@
       <confidence>2</confidence>
       <noteref hlink="_f13254d41044de327af749a9136"/>
       <noteref hlink="_f13255020ed20daaf4ce33c6106"/>
+      <sourceref hlink="_f1325192d846c66786c068286ce"/>
+    </citation>
+    <citation handle="_f1325adb4b969ddb5357892a47" change="1657491093" id="C0122">
+      <page>Heikki Taponen</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f1325a990f66d097e690b527927"/>
+      <noteref hlink="_f1325ac62c3dd40770d70e284"/>
       <sourceref hlink="_f1325192d846c66786c068286ce"/>
     </citation>
   </citations>
@@ -5110,8 +5124,11 @@ Numerolaatan N:o 128 [yliviivattu]
 Poliisikaavake N:o
 </text>
     </note>
-    <note handle="_f132421f15ce4bd2050a727968" change="1657488499" id="N0168" type="Transcript">
-      <text>h. Vapautettu 15/10 1919 Täysin palvelleena
+    <note handle="_f132421f15ce4bd2050a727968" change="1657491291" id="N0168" type="Transcript">
+      <text>e. Määrätty ast. vak. palvelukseen 8/8 1918
+f. Jk.os. johon määrätty: P.SR.
+g. Saapunut 8/8 1918, ja määrätty:
+h. Vapautettu 15/10 1919 Täysin palvelleena
 i. Palvelusaika: 1v 33kk
 j. Vakinainen asuinpaikka ja osoite kotiuttamisen jälkeen: 
 H:ki Merimiehenk. 21 H 19</text>
@@ -5159,6 +5176,24 @@ Hautaus	 Nokian hautausmaa</text>
     <note handle="_f13255020ed20daaf4ce33c6106" change="1657490480" id="N0173" type="Link">
       <text>https://www.myheritage.fi/research/collection-1/myheritage-sukupuut?itemId=378513581-1-500001&amp;action=showRecord</text>
       <style name="link" value="https://www.myheritage.fi/research/collection-1/myheritage-sukupuut?itemId=378513581-1-500001&amp;action=showRecord">
+        <range start="0" end="111"/>
+      </style>
+    </note>
+    <note handle="_f1325a990f66d097e690b527927" change="1657491066" id="N0174" type="Source text">
+      <text>Nimi	Heikki Taponen
+Syntymä	2. heinäkuuta 1896
+ Rääkkylä,Suomi
+Avioliitto	Avioliitto: Maria Konttinen
+10. elokuuta 1920
+ Viipuri
+Kuolema	29. joulukuuta 1952
+ Helsinki Suomi
+Halvaus
+Hautaus	 Malmin hautausmaa,Helsinki</text>
+    </note>
+    <note handle="_f1325ac62c3dd40770d70e284" change="1657491084" id="N0175" type="Link">
+      <text>https://www.myheritage.fi/research/collection-1/myheritage-sukupuut?itemId=378513581-1-500005&amp;action=showRecord</text>
+      <style name="link" value="https://www.myheritage.fi/research/collection-1/myheritage-sukupuut?itemId=378513581-1-500005&amp;action=showRecord">
         <range start="0" end="111"/>
       </style>
     </note>
