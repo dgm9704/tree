@@ -1083,7 +1083,7 @@
       <description>Ludviginkatu 6, as. 4.</description>
       <citationref hlink="_e82ad7dab4b4f7c84c3a7b4e3b"/>
     </event>
-    <event handle="_e82adaab4f9684c7be391d6cb49" change="1595442312" id="E0030">
+    <event handle="_e82adaab4f9684c7be391d6cb49" change="1657556034" id="E0030">
       <type>Residence</type>
       <dateval val="1929"/>
       <place hlink="_e82ad7668a11043645a641c568c"/>
@@ -1157,6 +1157,27 @@
       <datespan start="1818-08-08" stop="1919-10-15"/>
       <citationref hlink="_f13242322b88b147207718fb43"/>
       <citationref hlink="_f134a0cd623566308f4d7b8b98e"/>
+    </event>
+    <event handle="_f134c9957e734fd9b85c9a5278d" change="1657556391" id="E0096">
+      <type>Residence</type>
+      <dateval val="1931"/>
+      <place hlink="_f134c7329686c845ff56e686aaa"/>
+      <description>Keihäskuja 6. as. 4.</description>
+      <citationref hlink="_f134c9845e492dcb715ea441c4"/>
+    </event>
+    <event handle="_f134cc9451c5bf48e5c3be384ab" change="1657556705" id="E0097">
+      <type>Residence</type>
+      <dateval val="1936"/>
+      <place hlink="_f134cb27faa731c437b5a8fa110"/>
+      <description>Vahtitorninkatu 12 as. 7</description>
+      <citationref hlink="_f134cc8fada71aec1165eff0488"/>
+    </event>
+    <event handle="_f134cd62680408047b35ecbd944" change="1657556951" id="E0098">
+      <type>Residence</type>
+      <dateval val="1939"/>
+      <place hlink="_f134cb27faa731c437b5a8fa110"/>
+      <description>Vahtitorninkatu 12 as 7</description>
+      <citationref hlink="_f134cee3e3c2d5162a5c5263f44"/>
     </event>
   </events>
   <people home="_cca1691b7c53559cc53">
@@ -1886,7 +1907,7 @@
       <eventref hlink="_da92b39bfc4600552871f1bd378" role="Primary"/>
       <childof hlink="_da92b122a5a46c1ab39223f8115"/>
     </person>
-    <person handle="_f131dccb1452eff1785c6869d00" change="1657490653" id="I0042">
+    <person handle="_f131dccb1452eff1785c6869d00" change="1657556954" id="I0042">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Vuokko Onerva</first>
@@ -2007,7 +2028,7 @@
       <eventref hlink="_cca16d1ddd034493a5d" role="Family"/>
       <childref hlink="_cca16d66b34550400e5"/>
     </family>
-    <family handle="_cdcdbfe443a73c3bb82" change="1657478055" id="F0019">
+    <family handle="_cdcdbfe443a73c3bb82" change="1657556954" id="F0019">
       <rel type="Married"/>
       <father hlink="_cca1691b7c53559cc53"/>
       <mother hlink="_cfa356c7ed1469fab5f"/>
@@ -2015,6 +2036,9 @@
       <eventref hlink="_e82ad6eae8016df57659dda0ce" role="Family"/>
       <eventref hlink="_e82ad9148fe2ea45e9cf3e410cc" role="Family"/>
       <eventref hlink="_e82adaab4f9684c7be391d6cb49" role="Family"/>
+      <eventref hlink="_f134c9957e734fd9b85c9a5278d" role="Family"/>
+      <eventref hlink="_f134cc9451c5bf48e5c3be384ab" role="Family"/>
+      <eventref hlink="_f134cd62680408047b35ecbd944" role="Family"/>
       <childref hlink="_f131dccb1452eff1785c6869d00"/>
     </family>
     <family handle="_cdd04c17d361b0cf5c4" change="1414342907" id="F0026">
@@ -2934,6 +2958,30 @@
       <confidence>2</confidence>
       <sourceref hlink="_f13486cb07868fef70bbef67b29"/>
     </citation>
+    <citation handle="_f134c9845e492dcb715ea441c4" change="1657556384" id="C0126">
+      <page>1931/340</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f134c7f486321cd145a7ec40b3a"/>
+      <noteref hlink="_f134c8509896b4bba632aac09e"/>
+      <noteref hlink="_f134c96669c56eb15e463f83c10"/>
+      <sourceref hlink="_e82ad58872527dff35572d193fd"/>
+    </citation>
+    <citation handle="_f134cc8fada71aec1165eff0488" change="1657556703" id="C0127">
+      <page>1936/318</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f134cb81c38299ca8c7559d8dc8"/>
+      <noteref hlink="_f134cbcdc9934f86a717b399be8"/>
+      <noteref hlink="_f134cc8748713acec3a0fc2b332"/>
+      <sourceref hlink="_e82ad58872527dff35572d193fd"/>
+    </citation>
+    <citation handle="_f134cee3e3c2d5162a5c5263f44" change="1657556947" id="C0128">
+      <page>1939/528</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f134cdceb506fa777e5a3f1aab0"/>
+      <noteref hlink="_f134ce174b279d5f2afe6793d3f"/>
+      <noteref hlink="_f134cedb6e24de2a81d2816593d"/>
+      <sourceref hlink="_e82ad58872527dff35572d193fd"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdd044203935b79cba4" change="1429553707" id="S0000">
@@ -3259,7 +3307,7 @@
       <pname value="Liperi"/>
       <placeref hlink="_cdbd00250510bf9a5de"/>
     </placeobj>
-    <placeobj handle="_cdbd00250510bf9a5de" change="1657490414" id="P0003" type="Country">
+    <placeobj handle="_cdbd00250510bf9a5de" change="1657555740" id="P0003" type="Country">
       <ptitle>Suomi</ptitle>
       <pname value="Suomi"/>
     </placeobj>
@@ -3338,9 +3386,9 @@
       <pname value="Kerimäki"/>
       <placeref hlink="_cdbd00250510bf9a5de"/>
     </placeobj>
-    <placeobj handle="_cdd6fcd85ab77adcf9f" change="1657467678" id="P0029" type="Town">
+    <placeobj handle="_cdd6fcd85ab77adcf9f" change="1657556550" id="P0029" type="City">
       <ptitle>Viipuri, Suomi</ptitle>
-      <pname value="Viipuri"/>
+      <pname value="Viipuri" lang="fi"/>
       <placeref hlink="_cdbd00250510bf9a5de"/>
     </placeobj>
     <placeobj handle="_cdd70e98e0854ad935d" change="1430175286" id="P0030" type="Village">
@@ -3452,8 +3500,8 @@
       <placeref hlink="_f1317b96f8f27b81cc3695ea66a"/>
       <noteref hlink="_f131805d8d57fb85cc78699fd01"/>
     </placeobj>
-    <placeobj handle="_e82ad7668a11043645a641c568c" change="1657468200" id="P0011" type="Building">
-      <pname value="Ludviginkatu 6"/>
+    <placeobj handle="_e82ad7668a11043645a641c568c" change="1657556030" id="P0011" type="Building">
+      <pname value="Ludviginkatu 6" lang="fi"/>
       <placeref hlink="_f1317b96f8f27b81cc3695ea66a"/>
       <noteref hlink="_f13180864b36d02337ecb72e2df"/>
     </placeobj>
@@ -3469,7 +3517,7 @@
       <pname value="hauta 236"/>
       <placeref hlink="_f130b99d6aa26342771449cfde7"/>
     </placeobj>
-    <placeobj handle="_f1317b96f8f27b81cc3695ea66a" change="1657467709" id="P0022" type="Borough">
+    <placeobj handle="_f1317b96f8f27b81cc3695ea66a" change="1657556135" id="P0022" type="Borough">
       <pname value="Pantsarlahti"/>
       <placeref hlink="_cdd6fcd85ab77adcf9f"/>
     </placeobj>
@@ -3492,8 +3540,9 @@
       <pname value="Merimiehenkatu 21 A 19"/>
       <placeref hlink="_f1323c4c2ba1c92e024d0ab02eb"/>
     </placeobj>
-    <placeobj handle="_f1324f1f6274371b40fb0e6f0ee" change="1657489884" id="P0049" type="City">
+    <placeobj handle="_f1324f1f6274371b40fb0e6f0ee" change="1657555742" id="P0049" type="City">
       <pname value="Nokia"/>
+      <placeref hlink="_cdbd00250510bf9a5de"/>
     </placeobj>
     <placeobj handle="_f1324f5ab8f2e429cab21c7d9e2" change="1657489887" id="P0054" type="Cemetery">
       <pname value="Nokian hautausmaa"/>
@@ -3502,6 +3551,18 @@
     <placeobj handle="_f132545191439a468f999615ab2" change="1657490416" id="P0055" type="City">
       <pname value="Joutseno"/>
       <placeref hlink="_cdbd00250510bf9a5de"/>
+    </placeobj>
+    <placeobj handle="_f134c7329686c845ff56e686aaa" change="1657556141" id="P0056" type="Building">
+      <pname value="Keihäskuja 6"/>
+      <placeref hlink="_f1317b96f8f27b81cc3695ea66a"/>
+    </placeobj>
+    <placeobj handle="_f134cb1ed02697f7ae0f33cdb46" change="1657556552" id="P0057" type="Borough">
+      <pname value="Linnoitus" lang="fi"/>
+      <placeref hlink="_cdd6fcd85ab77adcf9f"/>
+    </placeobj>
+    <placeobj handle="_f134cb27faa731c437b5a8fa110" change="1657556556" id="P0058" type="Building">
+      <pname value="Vahtitorninkatu 12"/>
+      <placeref hlink="_f134cb1ed02697f7ae0f33cdb46"/>
     </placeobj>
   </places>
   <repositories>
@@ -5348,6 +5409,70 @@ Virkamerkin numero: 731
 Numerolaatan N:o 128 [yliviivattu]
 Poliisikaavake N:o
 </text>
+    </note>
+    <note handle="_f134c7f486321cd145a7ec40b3a" change="1657556220" id="N0178" type="Citation">
+      <text>Viipurin kaupungin osoitekalenteri ja liikehakemisto, 01.01.1931, s. 452
+https://digi.kansalliskirjasto.fi/aikakausi/binding/1262788?page=452
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f134c8509896b4bba632aac09e" change="1657556258" id="N0179" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1262788?page=452</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1262788?page=452">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_f134c96669c56eb15e463f83c10" change="1657556372" id="N0180" type="Transcript">
+      <text>Taponen, [...]
+- Heikki, konst. ,Keihäskuja 6. as. 4.
+[...]
+- Maikki, rouva. Keihäskuja 6. as .4</text>
+      <style name="bold">
+        <range start="0" end="7"/>
+        <range start="17" end="23"/>
+        <range start="62" end="69"/>
+      </style>
+    </note>
+    <note handle="_f134cb81c38299ca8c7559d8dc8" change="1657556592" id="N0181" type="Citation">
+      <text>Viipurin kaupungin osoitekalenteri ja liikehakemisto, 01.01.1936, s. 378
+https://digi.kansalliskirjasto.fi/aikakausi/binding/1262787?page=378
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f134cbcdc9934f86a717b399be8" change="1657556624" id="N0182" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1262787?page=378</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1262787?page=378">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_f134cc8748713acec3a0fc2b332" change="1657556700" id="N0183" type="Transcript">
+      <text>Taponen, [...]
+- Heikki, tark.konst., Vahtitornink. 12 as. 7
+[...]
+- Maikki, rva, Vahtitornink. 12 as. 7</text>
+    </note>
+    <note handle="_f134cdceb506fa777e5a3f1aab0" change="1657556834" id="N0184" type="Citation">
+      <text>Viipurin kaupungin osoitekalenteri ja liikehakemisto, 01.01.1939, s. 578
+https://digi.kansalliskirjasto.fi/aikakausi/binding/1262786?page=578
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f134ce174b279d5f2afe6793d3f" change="1657556863" id="N0185" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1262786?page=578</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1262786?page=578">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_f134cedb6e24de2a81d2816593d" change="1657556944" id="N0186" type="Transcript">
+      <text>Taponen, [...]
+- Heikki, tark.konst., Vahtitornink. 12 as. 7.
+[...]
+- Maikki, rva, Vahtitornink. 12 as 7.</text>
+      <style name="bold">
+        <range start="0" end="8"/>
+        <range start="17" end="24"/>
+        <range start="70" end="77"/>
+      </style>
     </note>
   </notes>
 </database>
