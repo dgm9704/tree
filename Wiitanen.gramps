@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2022-07-10" version="5.1.5"/>
+    <created date="2022-07-12" version="5.1.5"/>
     <researcher>
     </researcher>
   </header>
@@ -1500,6 +1500,52 @@
       <citationref hlink="_e8a82e51baa5591f723fbcd4a22"/>
       <citationref hlink="_f130c33e5c32bcd74c349af7d15"/>
     </event>
+    <event handle="_f137a4d2b23670a3991de4ae25b" change="1657633067" id="E0243">
+      <type>Birth</type>
+      <dateval val="1923-06-30"/>
+    </event>
+    <event handle="_f137a4e8aa3219a1b4117683df1" change="1657633076" id="E0244">
+      <type>Death</type>
+      <dateval val="2020-06-11"/>
+    </event>
+    <event handle="_f137a5395df667cb776aa68a697" change="1657633109" id="E0245">
+      <type>Birth</type>
+      <dateval val="1929-12-29"/>
+    </event>
+    <event handle="_f137a54bfd052ddb2bb990457a7" change="1657633116" id="E0246">
+      <type>Death</type>
+      <dateval val="2022-06-01"/>
+    </event>
+    <event handle="_f137a6305d43af675acca3b73f9" change="1657634223" id="E0247">
+      <type>Birth</type>
+      <dateval val="1921-10-14"/>
+      <citationref hlink="_f137afcac4d4b179e1865d9151c"/>
+    </event>
+    <event handle="_f137a65166c156fc55b418bcdd2" change="1657634234" id="E0248">
+      <type>Death</type>
+      <dateval val="2010-08-23"/>
+      <citationref hlink="_f137afcac4d4b179e1865d9151c"/>
+    </event>
+    <event handle="_f137a8302f164f338c5ad0875cb" change="1657634257" id="E0249">
+      <type>Birth</type>
+      <dateval val="1926-06-11"/>
+      <citationref hlink="_f137b02994d4e1830b0f23af9a9"/>
+    </event>
+    <event handle="_f137a849b7a146707958bc6debf" change="1657634266" id="E0250">
+      <type>Death</type>
+      <dateval val="2009-06-26"/>
+      <citationref hlink="_f137b02994d4e1830b0f23af9a9"/>
+    </event>
+    <event handle="_f137b1f711638a79575bc7e2849" change="1657634457" id="E0251">
+      <type>Burial</type>
+      <place hlink="_e8a834017ac2ddd2ceec3e90dd1"/>
+      <citationref hlink="_f137b1ef8d54bb54f38e486d18c"/>
+    </event>
+    <event handle="_f137b2b5759253b6fd1eb2c76de" change="1657634523" id="E0252">
+      <type>Burial</type>
+      <place hlink="_e8a834017ac2ddd2ceec3e90dd1"/>
+      <citationref hlink="_f137b2aad491e6c99ead63278c8"/>
+    </event>
   </events>
   <people>
     <person handle="_cfcf2d6f80f4798ccdc" change="1598807169" id="I0000">
@@ -2548,6 +2594,49 @@
       </name>
       <parentin hlink="_d51ea5a564351879fe186f9155a"/>
     </person>
+    <person handle="_f137a48982120b85fc0291c777b" change="1657634577" id="I0105">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Anna-Liisa Maria</first>
+        <surname>Viitanen</surname>
+      </name>
+      <eventref hlink="_f137a4d2b23670a3991de4ae25b" role="Primary"/>
+      <eventref hlink="_f137a4e8aa3219a1b4117683df1" role="Primary"/>
+      <childof hlink="_cfd267b9fa13a7ccef2"/>
+    </person>
+    <person handle="_f137a5154d25c6f578ffe08f5f0" change="1657633268" id="I0106">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Pirkko Tuulikki</first>
+        <surname>Wiitanen</surname>
+      </name>
+      <eventref hlink="_f137a5395df667cb776aa68a697" role="Primary"/>
+      <eventref hlink="_f137a54bfd052ddb2bb990457a7" role="Primary"/>
+      <childof hlink="_cfd267b9fa13a7ccef2"/>
+    </person>
+    <person handle="_f137a5fa2ee1b8aa0782535f350" change="1657634563" id="I0107">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Erkki Ossian Waldemar</first>
+        <surname>Viitanen</surname>
+      </name>
+      <eventref hlink="_f137a6305d43af675acca3b73f9" role="Primary"/>
+      <eventref hlink="_f137a65166c156fc55b418bcdd2" role="Primary"/>
+      <eventref hlink="_f137b1f711638a79575bc7e2849" role="Primary"/>
+      <childof hlink="_cfd267b9fa13a7ccef2"/>
+      <parentin hlink="_f137a7971bb41cca45dcb7f241f"/>
+    </person>
+    <person handle="_f137a7abe64aab2511c473e820" change="1657634526" id="I0108">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Sinikka Terttu Hellikki</first>
+        <surname derivation="Taken">Viitanen</surname>
+      </name>
+      <eventref hlink="_f137a8302f164f338c5ad0875cb" role="Primary"/>
+      <eventref hlink="_f137a849b7a146707958bc6debf" role="Primary"/>
+      <eventref hlink="_f137b2b5759253b6fd1eb2c76de" role="Primary"/>
+      <parentin hlink="_f137a7971bb41cca45dcb7f241f"/>
+    </person>
   </people>
   <families>
     <family handle="_cfcf2ec39c105718f81" change="1589736839" id="F0000">
@@ -2567,11 +2656,14 @@
       <childref hlink="_cfcf3347c8a0d78cd49"/>
       <childref hlink="_cfcf2d6f80f4798ccdc"/>
     </family>
-    <family handle="_cfd267b9fa13a7ccef2" change="1517339385" id="F0001">
+    <family handle="_cfd267b9fa13a7ccef2" change="1657633268" id="F0001">
       <rel type="Married"/>
       <father hlink="_cfcf2d6f80f4798ccdc"/>
       <mother hlink="_cfd267d56400dce2153"/>
       <eventref hlink="_dccd4bdfc72790bd65adc1d5db0" role="Family"/>
+      <childref hlink="_f137a5fa2ee1b8aa0782535f350"/>
+      <childref hlink="_f137a48982120b85fc0291c777b"/>
+      <childref hlink="_f137a5154d25c6f578ffe08f5f0"/>
       <citationref hlink="_dccd49fe69952ff75dc16dfae26"/>
     </family>
     <family handle="_cfd267f7f32447c8922" change="1428141455" id="F0002">
@@ -2812,6 +2904,11 @@
       <rel type="Married"/>
       <father hlink="_d585a0a83742f2ad308117914fd"/>
       <mother hlink="_d5859affdae2e53c852a4ba7e1b"/>
+    </family>
+    <family handle="_f137a7971bb41cca45dcb7f241f" change="1657633470" id="F0023">
+      <rel type="Married"/>
+      <father hlink="_f137a5fa2ee1b8aa0782535f350"/>
+      <mother hlink="_f137a7abe64aab2511c473e820"/>
     </family>
   </families>
   <citations>
@@ -3915,6 +4012,28 @@
       <noteref hlink="_f130c3d30de766e5992ea6caf2f"/>
       <sourceref hlink="_f130c2d98ed58809ef2b30a8ab5"/>
     </citation>
+    <citation handle="_f137afcac4d4b179e1865d9151c" change="1657634217" id="C0176">
+      <page>Erkki Ossian Waldemar</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_e8a839dc2a076134fad3937f02c"/>
+    </citation>
+    <citation handle="_f137b02994d4e1830b0f23af9a9" change="1657634256" id="C0177">
+      <page>Sinikka Terttu Hellikki</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_e8a839dc2a076134fad3937f02c"/>
+    </citation>
+    <citation handle="_f137b1ef8d54bb54f38e486d18c" change="1657634456" id="C0178">
+      <page>VIITANEN ERKKI OSSIAN WALDEMAR</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f137b1e4dde353f991c6537150"/>
+      <sourceref hlink="_f130c2d98ed58809ef2b30a8ab5"/>
+    </citation>
+    <citation handle="_f137b2aad491e6c99ead63278c8" change="1657634518" id="C0179">
+      <page>VIITANEN SINIKKA TERTTU HELLIKKI</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f137b2a12ba396692cd6e841e58"/>
+      <sourceref hlink="_f130c2d98ed58809ef2b30a8ab5"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cfcf2cc3be07b4ceb0a" change="1588502483" id="S0000">
@@ -4454,13 +4573,17 @@
       <sauthor>Tampereen tuomiokirkkoseurakunta</sauthor>
       <reporef hlink="_cfcf2cbb463653e2b72" medium="Book"/>
     </source>
-    <source handle="_e8a82c3ea5e7f50afb920db47a2" change="1598806333" id="S0108">
+    <source handle="_e8a82c3ea5e7f50afb920db47a2" change="1657634049" id="S0108">
       <stitle>Hautakivi Wiitanen Honkanummi</stitle>
       <noteref hlink="_e8a82d48f8f2c4a49d048e5ba5e"/>
+      <noteref hlink="_f137ad830e96a3118cb48313d1f"/>
+      <noteref hlink="_f137ae2b75758c0ac9cd2c90c6e"/>
     </source>
-    <source handle="_e8a839dc2a076134fad3937f02c" change="1598807642" id="S0109">
+    <source handle="_e8a839dc2a076134fad3937f02c" change="1657634105" id="S0109">
       <stitle>Hautakivi Viitanen Honkanummi</stitle>
       <noteref hlink="_e8a839d570112bca527b98413cc"/>
+      <noteref hlink="_f137ae7822436656ff657a28dc7"/>
+      <noteref hlink="_f137aeb47ef37ec434975a1c9b1"/>
     </source>
     <source handle="_f130c2d98ed58809ef2b30a8ab5" change="1657448311" id="S0110">
       <stitle>Hautahaku.fi</stitle>
@@ -6089,7 +6212,7 @@ https://astia.narc.fi/uusiastia/viewer/?fileId=5811666960&amp;aineistoId=1156222
         <range start="0" end="78"/>
       </style>
     </note>
-    <note handle="_e72849206d77bdec43c61f9ff80" change="1588501930" id="N0139" type="Transcript" format="1">
+    <note handle="_e72849206d77bdec43c61f9ff80" change="1657632942" id="N0139" type="Transcript" format="1">
       <text>Aufgebotsliste N:o 2237. 
 	Aufgebot.
   Es wird zur allgemeinen Kenntnis 
@@ -6122,6 +6245,18 @@ der Stadt Hannover
         <range start="108" end="130"/>
         <range start="287" end="313"/>
         <range start="872" end="876"/>
+      </style>
+      <style name="link" value="gramps://Person/handle/cfcf2d6f80f4798ccdc">
+        <range start="108" end="130"/>
+      </style>
+      <style name="link" value="gramps://Person/handle/cfd267d56400dce2153">
+        <range start="287" end="313"/>
+      </style>
+      <style name="link" value="gramps://Person/handle/d51ea5af22f7ca5f8e9b28bea1">
+        <range start="422" end="452"/>
+      </style>
+      <style name="link" value="gramps://Person/handle/dccd45ce4027c392a35543322e1">
+        <range start="456" end="495"/>
       </style>
     </note>
     <note handle="_e72853e1db0407aeb4f76cb5100" change="1588502450" id="N0140" type="Link">
@@ -6732,13 +6867,13 @@ OSSIAN EVERT
 ANNY O.M.
 *28.7.1895     +26.10.1967</text>
     </note>
-    <note handle="_e8a839d570112bca527b98413cc" change="1598807640" id="N0223" type="Transcript" format="1">
+    <note handle="_e8a839d570112bca527b98413cc" change="1657633911" id="N0223" type="Transcript" format="1">
       <text>                               VIITANEN
 
           SINIKKA                            ERKKI
 TERTTU HELLIKKI    OSSIAN WALDEMAR
-    *11.6.1926                    *14.??.????     
-    +26.6.20??                   +23.??.????</text>
+    *11.6.1926                    *14.10.1921     
+    +26.6.2009                   +23.8.2010</text>
     </note>
     <note handle="_e8b1a540c424e858c89cfed1ebb" change="1599060495" id="N0224" type="Transcript" format="1">
       <text>525               Tiihala
@@ -6893,5 +7028,62 @@ Kortteli	041
 Rivi	32
 Paikkanumero	00601</text>
     </note>
+    <note handle="_f137ad830e96a3118cb48313d1f" change="1657633978" id="N0235" type="Link">
+      <text>https://s3.amazonaws.com/images.billiongraves.com/headstones/images/20190602/26212401.jpg?t=2020-06-13+15%3A30%3A04</text>
+      <style name="link" value="https://s3.amazonaws.com/images.billiongraves.com/headstones/images/20190602/26212401.jpg?t=2020-06-13+15%3A30%3A04">
+        <range start="0" end="115"/>
+      </style>
+    </note>
+    <note handle="_f137ae2b75758c0ac9cd2c90c6e" change="1657634047" id="N0236" type="Link">
+      <text>https://billiongraves.com/grave/Ossian-Evert-Wiitanen/31571781</text>
+      <style name="link" value="https://billiongraves.com/grave/Ossian-Evert-Wiitanen/31571781">
+        <range start="0" end="62"/>
+      </style>
+    </note>
+    <note handle="_f137ae7822436656ff657a28dc7" change="1657634078" id="N0237" type="Link">
+      <text>https://billiongraves.com/grave/Erkki-Ossian-Waldemar-Viitanen/35735906</text>
+      <style name="link" value="https://billiongraves.com/grave/Erkki-Ossian-Waldemar-Viitanen/35735906">
+        <range start="0" end="71"/>
+      </style>
+    </note>
+    <note handle="_f137aeb47ef37ec434975a1c9b1" change="1657634103" id="N0238" type="Link">
+      <text>https://s3.amazonaws.com/images.billiongraves.com/headstones/images/20190602/26212402.jpg?t=2020-06-13+15%3A30%3A04</text>
+      <style name="link" value="https://s3.amazonaws.com/images.billiongraves.com/headstones/images/20190602/26212402.jpg?t=2020-06-13+15%3A30%3A04">
+        <range start="0" end="115"/>
+      </style>
+    </note>
+    <note handle="_f137b1e4dde353f991c6537150" change="1657634437" id="N0239" type="Source text">
+      <text>VIITANEN ERKKI OSSIAN VALDEMAR
+1921 - 2010
+Helsingin seurakuntayhtymä, Honkanummen hautausmaa
+Syntymävuosi	1921
+Kuolinvuosi	2010
+Hautausmaa	
+Honkanummen hautausmaa
+Vanha Porvoontie 225
+01380 Vantaa
+Alue	00
+Kortteli	041
+Rivi	32
+Paikkanumero	00601</text>
+    </note>
+    <note handle="_f137b2a12ba396692cd6e841e58" change="1657634515" id="N0240" type="Source text">
+      <text>VIITANEN SINIKKA TERTTU HELLIKKI
+1926 - 2009
+Helsingin seurakuntayhtymä, Honkanummen hautausmaa
+Syntymävuosi	1926
+Kuolinvuosi	2009
+Hautausmaa	
+Honkanummen hautausmaa
+Vanha Porvoontie 225
+01380 Vantaa
+Alue	00
+Kortteli	041
+Rivi	32
+Paikkanumero	00601</text>
+    </note>
   </notes>
+  <namemaps>
+    <map type="group_as" key="Viitanen" value="Wiitanen"/>
+  </namemaps>
 </database>
