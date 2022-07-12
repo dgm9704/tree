@@ -1564,6 +1564,11 @@
       <citationref hlink="_f137c7028671732d854249ca1b5"/>
       <citationref hlink="_e728c9aeed129bf6688dcc43d7b"/>
     </event>
+    <event handle="_f137d42b71f5727698eff3b6ccd" change="1657638031" id="E0255">
+      <type>Burial</type>
+      <dateval val="2020"/>
+      <place hlink="_f137d428491142954a8208f9dc4"/>
+    </event>
   </events>
   <people>
     <person handle="_cfcf2d6f80f4798ccdc" change="1598807169" id="I0000">
@@ -2614,7 +2619,7 @@
       </name>
       <parentin hlink="_d51ea5a564351879fe186f9155a"/>
     </person>
-    <person handle="_f137a48982120b85fc0291c777b" change="1657634577" id="I0105">
+    <person handle="_f137a48982120b85fc0291c777b" change="1657638094" id="I0105">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anna-Liisa Maria</first>
@@ -2622,6 +2627,7 @@
       </name>
       <eventref hlink="_f137a4d2b23670a3991de4ae25b" role="Primary"/>
       <eventref hlink="_f137a4e8aa3219a1b4117683df1" role="Primary"/>
+      <eventref hlink="_f137d42b71f5727698eff3b6ccd" role="Primary"/>
       <childof hlink="_cfd267b9fa13a7ccef2"/>
     </person>
     <person handle="_f137a5154d25c6f578ffe08f5f0" change="1657633268" id="I0106">
@@ -4630,7 +4636,7 @@
     </source>
   </sources>
   <places>
-    <placeobj handle="_cfcf2b878383fc95f39" change="1598807022" id="P0000" type="Country">
+    <placeobj handle="_cfcf2b878383fc95f39" change="1657638027" id="P0000" type="Country">
       <pname value="Suomi"/>
       <pname value="Finland" lang="sv"/>
     </placeobj>
@@ -4988,6 +4994,18 @@
     <placeobj handle="_f137c4d7f3b77676610cce6b8df" change="1657636431" id="P0085" type="Grave">
       <pname value="hauta 2"/>
       <placeref hlink="_f137c4cb92b35004ec2b5e4abd6"/>
+    </placeobj>
+    <placeobj handle="_f137d423be5662b3d42047454bd" change="1657638028" id="P0086" type="Town">
+      <pname value="Raasepori"/>
+      <placeref hlink="_cfcf2b878383fc95f39"/>
+    </placeobj>
+    <placeobj handle="_f137d4258cb34d101e6ddb07a2f" change="1657638029" id="P0087" type="Borough">
+      <pname value="Tammisaari"/>
+      <placeref hlink="_f137d423be5662b3d42047454bd"/>
+    </placeobj>
+    <placeobj handle="_f137d428491142954a8208f9dc4" change="1657638030" id="P0088" type="Cemetery">
+      <pname value="Tammisaaren uusi hautausmaa"/>
+      <placeref hlink="_f137d4258cb34d101e6ddb07a2f"/>
     </placeobj>
   </places>
   <repositories>
