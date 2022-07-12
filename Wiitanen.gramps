@@ -1448,11 +1448,12 @@
       <citationref hlink="_e7564bde5623298445d93f19b7f"/>
       <citationref hlink="_e72853ea117745d0c3861969b37"/>
     </event>
-    <event handle="_e881865404416474cf2957ab034" change="1597768762" id="E0235">
+    <event handle="_e881865404416474cf2957ab034" change="1657636541" id="E0235">
       <type>Burial</type>
       <dateval val="1943"/>
-      <place hlink="_e8818552e59102fcbcf21cf6eb4"/>
+      <place hlink="_f137c4d7f3b77676610cce6b8df"/>
       <citationref hlink="_e7289086cca783f96462723e395"/>
+      <citationref hlink="_f137c5c28cb6f976d11c1aebee2"/>
     </event>
     <event handle="_e88186daeb06d10ae37f0a0f824" change="1597768818" id="E0236">
       <type>Burial</type>
@@ -1546,6 +1547,17 @@
       <place hlink="_e8a834017ac2ddd2ceec3e90dd1"/>
       <citationref hlink="_f137b2aad491e6c99ead63278c8"/>
     </event>
+    <event handle="_f137c4eb06d73223c52c0cf002a" change="1657636432" id="E0253">
+      <type>Burial</type>
+      <place hlink="_f137c4d7f3b77676610cce6b8df"/>
+      <citationref hlink="_f137c3ff29c4448121608beefc"/>
+    </event>
+    <event handle="_f137c70b3617610c1638ff7ce25" change="1657636673" id="E0254">
+      <type>Burial</type>
+      <dateval val="1892"/>
+      <place hlink="_f137c4d7f3b77676610cce6b8df"/>
+      <citationref hlink="_f137c7028671732d854249ca1b5"/>
+    </event>
   </events>
   <people>
     <person handle="_cfcf2d6f80f4798ccdc" change="1598807169" id="I0000">
@@ -1597,7 +1609,7 @@
       <childof hlink="_d55290d7fa5149dbcfdd4219bc0"/>
       <parentin hlink="_cfcf2ec39c105718f81"/>
     </person>
-    <person handle="_cfcf328c2542400af2a" change="1589736839" id="I0003">
+    <person handle="_cfcf328c2542400af2a" change="1657636679" id="I0003">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Karl Alexander</first>
@@ -1605,9 +1617,10 @@
       </name>
       <eventref hlink="_cfcf328ae391393be80" role="Primary"/>
       <eventref hlink="_cfcf34e661b478d26b7" role="Primary"/>
+      <eventref hlink="_f137c70b3617610c1638ff7ce25" role="Primary"/>
       <childof hlink="_cfcf2ec39c105718f81"/>
     </person>
-    <person handle="_cfcf3347c8a0d78cd49" change="1589736839" id="I0004">
+    <person handle="_cfcf3347c8a0d78cd49" change="1657636452" id="I0004">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Hilja Maria</first>
@@ -1615,6 +1628,7 @@
       </name>
       <eventref hlink="_cfcf32ebdd9400294f3" role="Primary"/>
       <eventref hlink="_cfcf345ddb07d3a1236" role="Primary"/>
+      <eventref hlink="_f137c4eb06d73223c52c0cf002a" role="Primary"/>
       <childof hlink="_cfcf2ec39c105718f81"/>
     </person>
     <person handle="_cfd267d56400dce2153" change="1598807091" id="I0005">
@@ -4034,6 +4048,24 @@
       <noteref hlink="_f137b2a12ba396692cd6e841e58"/>
       <sourceref hlink="_f130c2d98ed58809ef2b30a8ab5"/>
     </citation>
+    <citation handle="_f137c3ff29c4448121608beefc" change="1657636336" id="C0180">
+      <page>VIITANEN HILJA MARIA</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f137c3f97b3d99f2106fb3f0ea"/>
+      <sourceref hlink="_f130c2d98ed58809ef2b30a8ab5"/>
+    </citation>
+    <citation handle="_f137c5c28cb6f976d11c1aebee2" change="1657636520" id="C0181">
+      <page>VIITANEN KAARLE EVERT</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f137c5bfc7139b719fe53c9f725"/>
+      <sourceref hlink="_f130c2d98ed58809ef2b30a8ab5"/>
+    </citation>
+    <citation handle="_f137c7028671732d854249ca1b5" change="1657636652" id="C0182">
+      <page>VIITANEN KALLE ALEKSANTE</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f137c6f9d4925e1e969012b0786"/>
+      <sourceref hlink="_f130c2d98ed58809ef2b30a8ab5"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cfcf2cc3be07b4ceb0a" change="1588502483" id="S0000">
@@ -4915,7 +4947,7 @@
       <pname value="Läntinen Pitkäkatu 19"/>
       <placeref hlink="_cfcf2ba409031044428"/>
     </placeobj>
-    <placeobj handle="_e8818552e59102fcbcf21cf6eb4" change="1597768657" id="P0077" type="Cemetery">
+    <placeobj handle="_e8818552e59102fcbcf21cf6eb4" change="1657636418" id="P0077" type="Cemetery">
       <pname value="Kalevankankaan hautausmaa"/>
       <placeref hlink="_cfcf2ba409031044428"/>
     </placeobj>
@@ -4938,6 +4970,18 @@
     <placeobj handle="_e8a834017ac2ddd2ceec3e90dd1" change="1598807029" id="P0082" type="Grave">
       <pname value="hauta 601"/>
       <placeref hlink="_e8a833fda645d2cd0c73f94bace"/>
+    </placeobj>
+    <placeobj handle="_f137c4c9d7322cc136dd3d913d3" change="1657636419" id="P0083" type="Area">
+      <pname value="kortteli 6"/>
+      <placeref hlink="_e8818552e59102fcbcf21cf6eb4"/>
+    </placeobj>
+    <placeobj handle="_f137c4cb92b35004ec2b5e4abd6" change="1657636419" id="P0084" type="Path">
+      <pname value="rivi 7"/>
+      <placeref hlink="_f137c4c9d7322cc136dd3d913d3"/>
+    </placeobj>
+    <placeobj handle="_f137c4d7f3b77676610cce6b8df" change="1657636431" id="P0085" type="Grave">
+      <pname value="hauta 2"/>
+      <placeref hlink="_f137c4cb92b35004ec2b5e4abd6"/>
     </placeobj>
   </places>
   <repositories>
@@ -7081,6 +7125,52 @@ Alue	00
 Kortteli	041
 Rivi	32
 Paikkanumero	00601</text>
+    </note>
+    <note handle="_f137c3f97b3d99f2106fb3f0ea" change="1657636333" id="N0241" type="Source text">
+      <text>VIITANEN HILJA MARIA
+- 1887
+Tampereen seurakuntayhtymä, Kalevankankaan hautausmaa
+Syntymävuosi	
+Kuolinvuosi	1887
+Hautausmaa	
+Kalevankankaan hautausmaa
+Hautausmaankatu 5
+33100 Tampere
+Alue	00
+Kortteli	006
+Rivi	07
+Paikkanumero	00002</text>
+    </note>
+    <note handle="_f137c5bfc7139b719fe53c9f725" change="1657636519" id="N0242" type="Source text">
+      <text>VIITANEN KAARLE EVERT
+-
+Tampereen seurakuntayhtymä, Kalevankankaan hautausmaa
+Syntymävuosi	
+Kuolinvuosi	
+Hautausmaa	
+Kalevankankaan hautausmaa
+Hautausmaankatu 5
+33100 Tampere
+Alue	00
+Kortteli	006
+Rivi	07
+Paikkanumero	00002
+</text>
+    </note>
+    <note handle="_f137c6f9d4925e1e969012b0786" change="1657636648" id="N0243" type="Source text">
+      <text>VIITANEN KALLE ALEKSANTE
+- 1892
+Tampereen seurakuntayhtymä, Kalevankankaan hautausmaa
+Syntymävuosi	
+Kuolinvuosi	1892
+Hautausmaa	
+Kalevankankaan hautausmaa
+Hautausmaankatu 5
+33100 Tampere
+Alue	00
+Kortteli	006
+Rivi	07
+Paikkanumero	00002</text>
     </note>
   </notes>
   <namemaps>
