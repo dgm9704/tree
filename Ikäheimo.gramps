@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2022-07-12" version="5.1.5"/>
+    <created date="2022-07-13" version="5.1.5"/>
     <researcher>
       <resname>John Nordberg</resname>
     </researcher>
@@ -1394,20 +1394,23 @@
       <childof hlink="_ca7497c32140b26fe5d"/>
       <parentin hlink="_ca745aaff3628198726"/>
     </person>
-    <person handle="_ca745940f9e3cc8d9e8" change="1657657410" id="I0002">
+    <person handle="_ca745940f9e3cc8d9e8" change="1657715059" id="I0002">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Hilja Aliina</first>
         <surname derivation="Inherited">Borgman</surname>
+        <datespan start="1887-08-10" stop="1906-06-25"/>
       </name>
       <name alt="1" type="Also Known As">
         <first>Hilja Aliina</first>
         <surname derivation="Taken">Suomela</surname>
+        <datespan start="1906-06-05" stop="1908-09-06"/>
         <citationref hlink="_d18d13fb190569c7613"/>
       </name>
       <name alt="1" type="Married Name">
         <first>Hilja Aliina</first>
         <surname derivation="Taken">Ikäheimo</surname>
+        <dateval val="1908-09-06" type="after"/>
       </name>
       <name alt="1" type="Married Name">
         <first>Hilja Aliina</first>
