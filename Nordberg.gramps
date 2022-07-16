@@ -15226,11 +15226,35 @@
       <place hlink="_f145bc01fe77d20b574f0689c58"/>
       <citationref hlink="_f145c5091c92d21a52bab21c649"/>
     </event>
-    <event handle="_f145c8cbff626de9489a3811547" change="1658013020" id="E0416">
+    <event handle="_f145c8cbff626de9489a3811547" change="1658013383" id="E0416">
       <type>Residence</type>
       <datespan start="1870" stop="1875"/>
       <place hlink="_f145c8c9676457d0611775528a9"/>
       <citationref hlink="_f145cc53d4859083b64684e4d5a"/>
+    </event>
+    <event handle="_f145d2cb9e93d76447598493477" change="1658013697" id="E0417">
+      <type>Residence</type>
+      <dateval val="1869"/>
+      <place hlink="_f145c8c9676457d0611775528a9"/>
+      <citationref hlink="_f145d2c6a716765b95240b9331"/>
+    </event>
+    <event handle="_f145d793df13d4f35649ef764bd" change="1658014198" id="E0418">
+      <type>Residence</type>
+      <datespan start="1868" stop="1869"/>
+      <place hlink="_f145d5dae571232083852044397"/>
+      <citationref hlink="_f145d78f59833406e063ec01e12"/>
+    </event>
+    <event handle="_f145dab590e78425aaf03212f0b" change="1658014559" id="E0419">
+      <type>Residence</type>
+      <datespan start="1868" stop="1869"/>
+      <place hlink="_f145daffe0314d88fa5524a0b0d"/>
+      <citationref hlink="_f145daadb0653dd48414ed20797"/>
+    </event>
+    <event handle="_f145e11c4911c63120d0f4c6b33" change="1658015198" id="E0420">
+      <type>Marriage</type>
+      <dateval val="1868-12-27"/>
+      <place hlink="_e82478dea7034bf7ec557d7af65"/>
+      <citationref hlink="_f145e112be244c1fd5be2420879"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -27595,22 +27619,24 @@
       <eventref hlink="_f145215418310090c87d2453e0c" role="Primary"/>
       <childof hlink="_cb589cc947140ff72b2"/>
     </person>
-    <person handle="_f145b326bd0fbcc9236cb35618" change="1658011682" id="I0041">
+    <person handle="_f145b326bd0fbcc9236cb35618" change="1658014206" id="I0041">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Eric Johan</first>
         <surname>Nyström</surname>
       </name>
       <eventref hlink="_f145bb4e3ff3fcca618b5c7a546" role="Primary"/>
+      <eventref hlink="_f145d793df13d4f35649ef764bd" role="Primary"/>
       <parentin hlink="_f145b30c9d43a62b284bb5f6504"/>
     </person>
-    <person handle="_f145bd077fc4556bfd054b354ee" change="1658011682" id="I0050">
+    <person handle="_f145bd077fc4556bfd054b354ee" change="1658014566" id="I0050">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Serafia</first>
         <surname>Vesterlund</surname>
       </name>
       <eventref hlink="_f145bd86bb22d92c676ee59e77b" role="Primary"/>
+      <eventref hlink="_f145dab590e78425aaf03212f0b" role="Primary"/>
       <parentin hlink="_f145b30c9d43a62b284bb5f6504"/>
     </person>
   </people>
@@ -31026,10 +31052,12 @@
       <eventref hlink="_ecfa52e877f4b888e219a4175b2" role="Family"/>
       <childref hlink="_e37e1309827750365ce2ab68e5b"/>
     </family>
-    <family handle="_f145b30c9d43a62b284bb5f6504" change="1658012652" id="F0009">
-      <rel type="Unknown"/>
+    <family handle="_f145b30c9d43a62b284bb5f6504" change="1658015213" id="F0009">
+      <rel type="Married"/>
       <father hlink="_f145b326bd0fbcc9236cb35618"/>
       <mother hlink="_f145bd077fc4556bfd054b354ee"/>
+      <eventref hlink="_f145e11c4911c63120d0f4c6b33" role="Family"/>
+      <eventref hlink="_f145d2cb9e93d76447598493477" role="Family"/>
       <eventref hlink="_f145c8cbff626de9489a3811547" role="Family"/>
       <eventref hlink="_f145c50c715638cf3f8ae795e21" role="Family"/>
       <eventref hlink="_f145bc3f0aa4672bb84cb6151c5" role="Family"/>
@@ -40003,6 +40031,38 @@
       <noteref hlink="_f145cc4bc2d267ac010df5d10ee"/>
       <sourceref hlink="_f145c0af6c4456ccfed6ffacf35"/>
     </citation>
+    <citation handle="_f145d2c6a716765b95240b9331" change="1658013695" id="C1345">
+      <page>436</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f145d0b497c44f77758a797cdb0"/>
+      <noteref hlink="_f145d0de0ac9e6a917a38e8c3d"/>
+      <noteref hlink="_f145d2ba90f1f2560ff1c7899dd"/>
+      <sourceref hlink="_f145d079b6f5f614d929cf2f2be"/>
+    </citation>
+    <citation handle="_f145d78f59833406e063ec01e12" change="1658014303" id="C1346">
+      <page>235</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f145d6208d854b75156ec40e3bc"/>
+      <noteref hlink="_f145d647803335341b1cd73aded"/>
+      <noteref hlink="_f145d7836382807d093e68512f8"/>
+      <sourceref hlink="_f145d079b6f5f614d929cf2f2be"/>
+    </citation>
+    <citation handle="_f145daadb0653dd48414ed20797" change="1658014524" id="C1347">
+      <page>339</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f145d91638b53a135e5b799e304"/>
+      <noteref hlink="_f145d95022d4213614266b76348"/>
+      <noteref hlink="_f145da9e1a562bcd83ce89459d0"/>
+      <sourceref hlink="_f145d079b6f5f614d929cf2f2be"/>
+    </citation>
+    <citation handle="_f145e112be244c1fd5be2420879" change="1658015194" id="C1348">
+      <page>388-389</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f145dde738543ff040117474061"/>
+      <noteref hlink="_f145de0f8ef28d5418948d43415"/>
+      <noteref hlink="_f145e10e52865051fe5120a7f9"/>
+      <sourceref hlink="_f145dd998674e051d215b9969cb"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -42805,6 +42865,16 @@
       <sauthor>Kirkkonummen seurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
+    <source handle="_f145d079b6f5f614d929cf2f2be" change="1658013454" id="S0560">
+      <stitle>Kirkkonummi Rippikirja 1863-1869</stitle>
+      <sauthor>Kirkkonummen seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f145dd998674e051d215b9969cb" change="1658014830" id="S0561">
+      <stitle>Kirkkonummi Vihityt 1819-1878</stitle>
+      <sauthor>Kirkkonummen seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1595618071" id="P0000" type="City">
@@ -45255,7 +45325,7 @@
       <pname value="Malmin hautausmaa"/>
       <placeref hlink="_cb589cc7f8d1b88b055"/>
     </placeobj>
-    <placeobj handle="_e82478dea7034bf7ec557d7af65" change="1658012701" id="P0046" type="Parish">
+    <placeobj handle="_e82478dea7034bf7ec557d7af65" change="1658014556" id="P0046" type="Parish">
       <pname value="Kirkkonummi" lang="fi"/>
       <pname value="Kyrkslätt" lang="sv"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
@@ -45493,8 +45563,25 @@
       <pname value="Träskby"/>
       <placeref hlink="_e82478dea7034bf7ec557d7af65"/>
     </placeobj>
-    <placeobj handle="_f145c8c9676457d0611775528a9" change="1658012647" id="P0131" type="Village">
-      <pname value="Säfvalls" lang="se"/>
+    <placeobj handle="_f145c8c9676457d0611775528a9" change="1658013381" id="P0131" type="Village">
+      <pname value="Säfvalls" lang="se">
+        <dateval val="1869" type="after"/>
+      </pname>
+      <pname value="Sevals" lang="se">
+        <dateval val="1870" type="before"/>
+      </pname>
+      <placeref hlink="_e82478dea7034bf7ec557d7af65"/>
+    </placeobj>
+    <placeobj handle="_f145d5d1373593640acee7b730a" change="1658014014" id="P0132" type="Village">
+      <pname value="Ingvaldsby"/>
+      <placeref hlink="_e82478dea7034bf7ec557d7af65"/>
+    </placeobj>
+    <placeobj handle="_f145d5dae571232083852044397" change="1658014018" id="P0133" type="Farm">
+      <pname value="Westergård"/>
+      <placeref hlink="_f145d5d1373593640acee7b730a"/>
+    </placeobj>
+    <placeobj handle="_f145daffe0314d88fa5524a0b0d" change="1658014557" id="P0134" type="Village">
+      <pname value="Långstrand" lang="se"/>
       <placeref hlink="_e82478dea7034bf7ec557d7af65"/>
     </placeobj>
   </places>
@@ -45504,7 +45591,7 @@
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1658011797" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1658014829" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -63455,6 +63542,87 @@ dr Maria Mathilda            24/11 1873  Ksl                      do
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="377"/>
+      </style>
+    </note>
+    <note handle="_f145d0b497c44f77758a797cdb0" change="1658013478" id="N2093" type="Citation">
+      <text>Kirkkonummi rippikirja 1863-1869 (AP I Aa:23)  Sivu 436 Sevals, Sytningstorparen ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29138&amp;pnum=438 / Viitattu 17.07.2022</text>
+    </note>
+    <note handle="_f145d0de0ac9e6a917a38e8c3d" change="1658013495" id="N2094" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29138&amp;pnum=438</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29138&amp;pnum=438">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f145d2ba90f1f2560ff1c7899dd" change="1658013690" id="N2095" type="Transcript">
+      <text>436 Sevals
+Sytningstorparen
+[...]
+spt Erik Johan Nyström       3/6   1843 Klätt  69 p 235
+Hu Maria Serafia Vesterlund  30/3  1839 Nummis 69 p 339    abs.b p 80
+Dr Alma wilhelmina           12/6    69 </text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="200"/>
+      </style>
+    </note>
+    <note handle="_f145d6208d854b75156ec40e3bc" change="1658014046" id="N2096" type="Citation">
+      <text>Kirkkonummi rippikirja 1863-1869 (AP I Aa:23)  Sivu 235 Ingvaldsby, Westergård 1/2 Rusthåll ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29138&amp;pnum=237 / Viitattu 17.07.2022</text>
+    </note>
+    <note handle="_f145d647803335341b1cd73aded" change="1658014062" id="N2097" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29138&amp;pnum=237</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29138&amp;pnum=237">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f145d7836382807d093e68512f8" change="1658014192" id="N2098" type="Transcript">
+      <text>235 Ingvaldsby
+Westergård 1/2 rusthåll
+[...]
+hustru 239
+Gift Drg Erik Johan Nyström    3/6   1843  Kslätt  68p244    lysn p 339    69 p 436
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="140"/>
+      </style>
+    </note>
+    <note handle="_f145d91638b53a135e5b799e304" change="1658014357" id="N2099" type="Citation">
+      <text>Kirkkonummi rippikirja 1863-1869 (AP I Aa:23)  Sivu 339 Långstrand ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29138&amp;pnum=341 / Viitattu 17.07.2022</text>
+    </note>
+    <note handle="_f145d95022d4213614266b76348" change="1658014380" id="N2100" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29138&amp;pnum=341</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29138&amp;pnum=341">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f145da9e1a562bcd83ce89459d0" change="1658014517" id="N2101" type="Transcript">
+      <text>339 Långstrand
+[...]
+dr Alma Wilhelmina            12/6  1869                                    69 p 436
+Hru 235
+Pig Maria Serafia Vesterlund  30/3  1839  Nummis  68 p 338    abs.B.p.80    do</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="192"/>
+      </style>
+    </note>
+    <note handle="_f145dde738543ff040117474061" change="1658014862" id="N2102" type="Citation">
+      <text>Kirkkonummi vihityt 1819-1878 (AP I Ec:1)  Sivu 388 1868 / 7 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29155&amp;pnum=200 / Viitattu 17.07.2022</text>
+    </note>
+    <note handle="_f145de0f8ef28d5418948d43415" change="1658014878" id="N2103" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29155&amp;pnum=200</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29155&amp;pnum=200">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f145e10e52865051fe5120a7f9" change="1658015192" id="N2104" type="Transcript">
+      <text>1868    389
+[...]
+15.  November 14.  Drengen, ungkarlen Erik Johan Nyström från Ingvaldsby och
+                   Pigan Maria Serafia Vesterlund från Longstrand, att afkunnas
+                   d. 15 Nov 1868 Såsom talman Torp. Karl Henr. Sund-
+                   holm från Långstrand. Vigde å Långstrand d. 27 Decemb 1868 af
+                   Imman Smedbergs
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="361"/>
       </style>
     </note>
   </notes>
