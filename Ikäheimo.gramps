@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2022-07-13" version="5.1.5"/>
+    <created date="2022-07-16" version="5.1.5"/>
     <researcher>
       <resname>John Nordberg</resname>
     </researcher>
@@ -1330,7 +1330,7 @@
       <place hlink="_e2a8e60b8ad49c62bcae5b7e562"/>
       <citationref hlink="_e2a902e94d1529696a572d7726a"/>
     </event>
-    <event handle="_f13883bab0068a86ea028a8221b" change="1657656440" id="E0225">
+    <event handle="_f13883bab0068a86ea028a8221b" change="1657957441" id="E0225">
       <type>Burial</type>
       <dateval val="2002"/>
       <place hlink="_f138831b19e5c9a596fe8c947dd"/>
@@ -1368,6 +1368,12 @@
       <place hlink="_f138831b19e5c9a596fe8c947dd"/>
       <citationref hlink="_f1388bac91c59745e1f8732e9bd"/>
       <citationref hlink="_f1388c457c94641cbeb8b8ff95a"/>
+    </event>
+    <event handle="_f143bd7b8a537cec892f3896b2e" change="1657957775" id="E0231">
+      <type>Marriage</type>
+      <dateval val="1935-10-05" type="about"/>
+      <place hlink="_ca78692dbfe37164d90"/>
+      <citationref hlink="_f143bd71a1f7a1822420e4580dc"/>
     </event>
   </events>
   <people>
@@ -2409,16 +2415,22 @@
       <eventref hlink="_d7d9652af172e09afb844894586" role="Primary"/>
       <childof hlink="_d7d8d83b855211b3cf55d3fac2e"/>
     </person>
-    <person handle="_de2e452ecf81d9df75621ab8dc0" change="1657656449" id="I0101">
+    <person handle="_de2e452ecf81d9df75621ab8dc0" change="1657958125" id="I0101">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Hilja Lempi</first>
         <surname derivation="Inherited">Ikäheimo</surname>
       </name>
+      <name alt="1" type="Married Name">
+        <first>Hilja Lempi</first>
+        <surname derivation="Taken">Nylund</surname>
+        <dateval val="1935-10-05" type="after"/>
+      </name>
       <eventref hlink="_de2e4569e324757e5ff4f47fa16" role="Primary"/>
       <eventref hlink="_de2ea957b2e2b086050391c48c7" role="Primary"/>
       <eventref hlink="_f13883bab0068a86ea028a8221b" role="Primary"/>
       <childof hlink="_ca745aaff3628198726"/>
+      <parentin hlink="_f143ba69f3e51ed450c53fb4f91"/>
     </person>
     <person handle="_e2a8e75703f6c6da5182be6d610" change="1557594318" id="I0102">
       <gender>M</gender>
@@ -2475,6 +2487,14 @@
       <eventref hlink="_f1388a298cc3d0e7be0f55600fa" role="Primary"/>
       <eventref hlink="_f1388a8617b5c06b1037be5a1ee" role="Primary"/>
       <parentin hlink="_f1388529fd319d0d6f78d5d8ed9"/>
+    </person>
+    <person handle="_f143bd8997723f6ae96b8bcd9a0" change="1657957801" id="I0108">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Carl Bertel</first>
+        <surname>Nylund</surname>
+      </name>
+      <parentin hlink="_f143ba69f3e51ed450c53fb4f91"/>
     </person>
   </people>
   <families>
@@ -2770,6 +2790,12 @@
       <rel type="Married"/>
       <father hlink="_f1388536fb624b75e54b8187305"/>
       <mother hlink="_ca745940f9e3cc8d9e8"/>
+    </family>
+    <family handle="_f143ba69f3e51ed450c53fb4f91" change="1657957801" id="F0025">
+      <rel type="Married"/>
+      <father hlink="_f143bd8997723f6ae96b8bcd9a0"/>
+      <mother hlink="_de2e452ecf81d9df75621ab8dc0"/>
+      <eventref hlink="_f143bd7b8a537cec892f3896b2e" role="Family"/>
     </family>
   </families>
   <citations>
@@ -3976,6 +4002,14 @@
       <confidence>2</confidence>
       <sourceref hlink="_f1387fe31524a4cea509bec27e8"/>
     </citation>
+    <citation handle="_f143bd71a1f7a1822420e4580dc" change="1657957771" id="C0193">
+      <dateval val="1935-10-07"/>
+      <page>232/2</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f143bc316c014753bc90c8c90b7"/>
+      <noteref hlink="_f143bd552392bc67e4486f9e"/>
+      <sourceref hlink="_f143bb7ac64490b882cb904b035"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_ca745c8796520229d69" change="1440109253" id="S0000">
@@ -4395,6 +4429,10 @@
       <noteref hlink="_f1387fcd5231e052e011befbaff"/>
       <noteref hlink="_f13883a36fa3e0e3db405361b79"/>
     </source>
+    <source handle="_f143bb7ac64490b882cb904b035" change="1657957565" id="S0081">
+      <stitle>Ilta-Sanomat</stitle>
+      <reporef hlink="_ca7e129d4941111a9fa" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_ca78692dbfe37164d90" change="1657656367" id="P0004" type="City">
@@ -4713,7 +4751,7 @@
       <rname>Oma kirjasto</rname>
       <type>Library</type>
     </repository>
-    <repository handle="_ca7e129d4941111a9fa" change="1440024034" id="R0004">
+    <repository handle="_ca7e129d4941111a9fa" change="1657957561" id="R0004">
       <rname>Kansalliskirjaston digitoidut aineistot</rname>
       <type>Web site</type>
       <url  href="http://digi.kansalliskirjasto.fi/" type="Web Home"/>
@@ -6528,6 +6566,20 @@ Alue	02
 Kortteli	13C
 Rivi	15
 Paikkanumero	00252</text>
+    </note>
+    <note handle="_f143bc316c014753bc90c8c90b7" change="1657957640" id="N0207" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/1991310?page=2</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/sanomalehti/binding/1991310?page=2">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_f143bd552392bc67e4486f9e" change="1657957759" id="N0208" type="Transcript">
+      <text>2 - N:o 232 - 1935          ILTA-SANOMAT          Maanantaina, lokakuun 7 p:nä
+Seurakunnat ja siviilirekisteri.
+Pohj. suomal. seurakunta.
+Vihityt: 
+[...]
+herra Carl Bertel Nylund ja Hilja Lempi Ikäheimo</text>
     </note>
   </notes>
   <namemaps>
