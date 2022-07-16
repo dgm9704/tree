@@ -15208,7 +15208,7 @@
       <place hlink="_e82478dea7034bf7ec557d7af65"/>
       <citationref hlink="_f145bb18dd459cbdef5b1f652d4"/>
     </event>
-    <event handle="_f145bc3f0aa4672bb84cb6151c5" change="1658011333" id="E0413">
+    <event handle="_f145bc3f0aa4672bb84cb6151c5" change="1658012530" id="E0413">
       <type>Residence</type>
       <datespan start="1878" stop="1887"/>
       <place hlink="_f145bc01fe77d20b574f0689c58"/>
@@ -15225,6 +15225,12 @@
       <datespan start="1875" stop="1879"/>
       <place hlink="_f145bc01fe77d20b574f0689c58"/>
       <citationref hlink="_f145c5091c92d21a52bab21c649"/>
+    </event>
+    <event handle="_f145c8cbff626de9489a3811547" change="1658013020" id="E0416">
+      <type>Residence</type>
+      <datespan start="1870" stop="1875"/>
+      <place hlink="_f145c8c9676457d0611775528a9"/>
+      <citationref hlink="_f145cc53d4859083b64684e4d5a"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -31020,10 +31026,11 @@
       <eventref hlink="_ecfa52e877f4b888e219a4175b2" role="Family"/>
       <childref hlink="_e37e1309827750365ce2ab68e5b"/>
     </family>
-    <family handle="_f145b30c9d43a62b284bb5f6504" change="1658012265" id="F0009">
+    <family handle="_f145b30c9d43a62b284bb5f6504" change="1658012652" id="F0009">
       <rel type="Unknown"/>
       <father hlink="_f145b326bd0fbcc9236cb35618"/>
       <mother hlink="_f145bd077fc4556bfd054b354ee"/>
+      <eventref hlink="_f145c8cbff626de9489a3811547" role="Family"/>
       <eventref hlink="_f145c50c715638cf3f8ae795e21" role="Family"/>
       <eventref hlink="_f145bc3f0aa4672bb84cb6151c5" role="Family"/>
     </family>
@@ -39988,6 +39995,14 @@
       <noteref hlink="_f145c4fd9f6db93dd4c64109a1"/>
       <sourceref hlink="_f145c0af6c4456ccfed6ffacf35"/>
     </citation>
+    <citation handle="_f145cc53d4859083b64684e4d5a" change="1658013019" id="C1344">
+      <page>494</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f145c9ceac15bbcb4e251c9b370"/>
+      <noteref hlink="_f145c9fd2bf20e8a87fe2fe4d8f"/>
+      <noteref hlink="_f145cc4bc2d267ac010df5d10ee"/>
+      <sourceref hlink="_f145c0af6c4456ccfed6ffacf35"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -43390,10 +43405,10 @@
       <pname value="Dragontorpet"/>
       <placeref hlink="_cb589ce61cd485912d1"/>
     </placeobj>
-    <placeobj handle="_cb589cf885f1253ed7a" change="1420241648" id="P0583" type="Village">
+    <placeobj handle="_cb589cf885f1253ed7a" change="1658012688" id="P0583" type="Village">
       <ptitle>Edis, Kyrkslätt, Finland</ptitle>
       <pname value="Edis"/>
-      <placeref hlink="_ceac1fc1fcc460481bd"/>
+      <placeref hlink="_e82478dea7034bf7ec557d7af65"/>
     </placeobj>
     <placeobj handle="_cb589cfa2975ec3d719" change="1419972937" id="P0590" type="Village">
       <ptitle>Orflax, Bromarf, Finland</ptitle>
@@ -43878,11 +43893,6 @@
       <ptitle>Björkö, Korpo, Finland</ptitle>
       <pname value="Björkö"/>
       <placeref hlink="_ceac1ef0ff45c1823be"/>
-    </placeobj>
-    <placeobj handle="_ceac1fc1fcc460481bd" change="1420241640" id="P0316" type="Parish">
-      <ptitle>Kyrkslätt, Finland</ptitle>
-      <pname value="Kyrkslätt"/>
-      <placeref hlink="_cb589cfeb254c33cda1"/>
     </placeobj>
     <placeobj handle="_ceb3b301f3f05ac49c3" change="1533490294" id="P0332" type="City">
       <ptitle>Virginia, Saint Louis, Minnesota, United States</ptitle>
@@ -45245,7 +45255,7 @@
       <pname value="Malmin hautausmaa"/>
       <placeref hlink="_cb589cc7f8d1b88b055"/>
     </placeobj>
-    <placeobj handle="_e82478dea7034bf7ec557d7af65" change="1658011306" id="P0046" type="Parish">
+    <placeobj handle="_e82478dea7034bf7ec557d7af65" change="1658012701" id="P0046" type="Parish">
       <pname value="Kirkkonummi" lang="fi"/>
       <pname value="Kyrkslätt" lang="sv"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
@@ -45481,6 +45491,10 @@
     </placeobj>
     <placeobj handle="_f145bc01fe77d20b574f0689c58" change="1658011308" id="P0130" type="Village">
       <pname value="Träskby"/>
+      <placeref hlink="_e82478dea7034bf7ec557d7af65"/>
+    </placeobj>
+    <placeobj handle="_f145c8c9676457d0611775528a9" change="1658012647" id="P0131" type="Village">
+      <pname value="Säfvalls" lang="se"/>
       <placeref hlink="_e82478dea7034bf7ec557d7af65"/>
     </placeobj>
   </places>
@@ -63377,7 +63391,7 @@ Paikkanumero	00257</text>
         <range start="0" end="78"/>
       </style>
     </note>
-    <note handle="_f145bb0dcd0e5338f568415757" change="1658011208" id="N2086" type="Transcript" format="1">
+    <note handle="_f145bb0dcd0e5338f568415757" change="1658012528" id="N2086" type="Transcript" format="1">
       <text>657 Träskby
 Torp. Inh. m. fl.
 [...]
@@ -63389,10 +63403,10 @@ flt dr Maria Mathilda          24/11 1873  do       do            N.G.B pg 810
     Sn Karl Johan                    1875  do                     
 flt Sn Gustaf Adolf            5/9   1877  do       do            do
 död dr Hanna Sofia             20/11 1878  do       do            död 14/1 82
-flt Sn Viktor Wilhelm          2/6   1881  do                     N.G.B
+flt Sn Viktor Wilhelm          2/6   1881  do                     N.G.B 810
 </text>
       <style name="fontface" value="Monospace">
-        <range start="0" end="695"/>
+        <range start="0" end="699"/>
       </style>
     </note>
     <note handle="_f145c0d84af36771f177d18ac6d" change="1658011815" id="N2087" type="Citation">
@@ -63418,6 +63432,29 @@ flt dr Hanna Sofia                20/11 1878  do                                
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="616"/>
+      </style>
+    </note>
+    <note handle="_f145c9ceac15bbcb4e251c9b370" change="1658012755" id="N2090" type="Citation">
+      <text>Kirkkonummi rippikirja 1870-1879 (AP I Aa:24)  Sivu 494 Säfvalls Sytn. Torparen ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29139&amp;pnum=497 / Viitattu 17.07.2022</text>
+    </note>
+    <note handle="_f145c9fd2bf20e8a87fe2fe4d8f" change="1658012774" id="N2091" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29139&amp;pnum=497</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29139&amp;pnum=497">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f145cc4bc2d267ac010df5d10ee" change="1658013015" id="N2092" type="Transcript">
+      <text>494 Säfvalls
+Torparen
+[...]
+Spt Erik Johan Nyström       3/6   1843  Ksl                      75/501
+hu Maria Serafia Vesterlund  30/3  1839  Nummis    abs. B.p 80    do
+dr Alma Vilhelmina           12/6  1869  Ksl                      do
+dr Hedvig Amanda             15/4  1871  Ksl                      do
+dr Maria Mathilda            24/11 1873  Ksl                      do
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="377"/>
       </style>
     </note>
   </notes>
