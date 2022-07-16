@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2022-07-10" version="5.1.5"/>
+    <created date="2022-07-16" version="5.1.5"/>
     <researcher>
     </researcher>
   </header>
@@ -7797,7 +7797,7 @@
       <place hlink="_cb589cc7f8d1b88b055"/>
       <description>dykeriarbetare, dykare</description>
     </event>
-    <event handle="_cdf7c4b653325ec5760" change="1518374720" id="E0005">
+    <event handle="_cdf7c4b653325ec5760" change="1657968694" id="E0005">
       <type>Residence</type>
       <datespan start="1869-11" stop="1870-06"/>
       <place hlink="_cdf7c4b28a34f8cc208"/>
@@ -7855,7 +7855,7 @@
       <place hlink="_cdf8317ba511056ad52"/>
       <citationref hlink="_ce821ac10096b61c6a9"/>
     </event>
-    <event handle="_ce83e56e7021c04d759" change="1535225835" id="E5304">
+    <event handle="_ce83e56e7021c04d759" change="1657969348" id="E5304">
       <type>Residence</type>
       <datespan start="1844" stop="1859"/>
       <place hlink="_cde633071333d6ede5b"/>
@@ -7866,6 +7866,7 @@
       <citationref hlink="_ce848dd1e067e064f71"/>
       <citationref hlink="_ce84833638d4f85f283"/>
       <citationref hlink="_ce83e1d093521648e47"/>
+      <citationref hlink="_f1442bae7a81bb83f12d19d98b9"/>
     </event>
     <event handle="_ce849c8b0c1593cd6f0" change="1429561340" id="E5305">
       <type>Birth</type>
@@ -13552,7 +13553,7 @@
       <citationref hlink="_e820d80cef87b534e119f4a79d2"/>
       <citationref hlink="_e820d63a60252188d735631bae7"/>
     </event>
-    <event handle="_e8247b713b745a8642c90ed2f55" change="1595271171" id="E0056">
+    <event handle="_e8247b713b745a8642c90ed2f55" change="1657968529" id="E0056">
       <type>Birth</type>
       <dateval val="1881-06-02"/>
       <place hlink="_e82478dea7034bf7ec557d7af65"/>
@@ -13588,7 +13589,7 @@
       <dateval val="1959-10-22"/>
       <citationref hlink="_e824887bec430f33eca9b1ca32f"/>
     </event>
-    <event handle="_e8248bf96c91d7fa978d849f9f7" change="1628541904" id="E0061">
+    <event handle="_e8248bf96c91d7fa978d849f9f7" change="1657965234" id="E0061">
       <type>Burial</type>
       <place hlink="_e82029a50ec36629ca48da3ab9c"/>
       <citationref hlink="_e824887bec430f33eca9b1ca32f"/>
@@ -39797,6 +39798,14 @@
       <noteref hlink="_f125181ad835dd1292358b415eb"/>
       <sourceref hlink="_f1251758bb074fb5910dbd6a8f1"/>
     </citation>
+    <citation handle="_f1442bae7a81bb83f12d19d98b9" change="1657969330" id="C1333">
+      <page>37</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f14429dafb916ea2a9db51c894d"/>
+      <noteref hlink="_f1442a11dc3348b9d294c39424"/>
+      <noteref hlink="_f1442b798c89c388bde9c71ea5"/>
+      <sourceref hlink="_f14429a7636bb68bffc88c574f"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -42575,6 +42584,12 @@
       <sauthor>Tenholan seurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
+    <source handle="_f14429a7636bb68bffc88c574f" change="1657969118" id="S0555">
+      <stitle>Kellokoski Lastenkirja 1858-1877</stitle>
+      <sauthor>Kellokosken seurakunta</sauthor>
+      <reporef hlink="_d00112dce232e7f4a7d" medium="Book"/>
+      <reporef hlink="_f14429a53db172a46e787c3034c" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1595618071" id="P0000" type="City">
@@ -45277,7 +45292,7 @@
       <type>Web site</type>
       <url  href="http://www.ironrangeresearchcenter.org/" type="Web Home"/>
     </repository>
-    <repository handle="_d00112dce232e7f4a7d" change="1625167730" id="R0000">
+    <repository handle="_d00112dce232e7f4a7d" change="1657969111" id="R0000">
       <rname>Kansallisarkisto</rname>
       <type>Library</type>
     </repository>
@@ -45310,6 +45325,9 @@
     </repository>
     <repository handle="_df69af5aa2f51c49a529c13f92f" change="1535283263" id="R0014">
       <rname>Suomen Sukututkimusseura HIStoriaKIrjat</rname>
+      <type>Library</type>
+    </repository>
+    <repository handle="_f14429a53db172a46e787c3034c" change="1657969117" id="R0015">
       <type>Library</type>
     </repository>
   </repositories>
@@ -62999,6 +63017,25 @@ kristinoppi (IX) 	hyväksytty</text>
       <style name="link" value="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31126&amp;pnum=96">
         <range start="0" end="76"/>
       </style>
+    </note>
+    <note handle="_f14429dafb916ea2a9db51c894d" change="1657969139" id="N2072" type="Citation">
+      <text>Marieforsin ruukinseurakunnan arkisto - Lastenkirjat 1858-1877, jakso 41, sivu 37: Gårdsfogdens, mjölnares och Spannmålsdrengars Barn ; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5873694750&amp;aineistoId=1160504731 / Viitattu 16.7.2022</text>
+    </note>
+    <note handle="_f1442a11dc3348b9d294c39424" change="1657969161" id="N2073" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5873694750&amp;aineistoId=1160504731</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5873694750&amp;aineistoId=1160504731">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f1442b798c89c388bde9c71ea5" change="1657969309" id="N2074" type="Transcript">
+      <text>37
+Gårdfogdens, mjölnares och spannmålsdrengars barn
+
+[...]
+
+Mjölnaren Karl Johan Nordbergs med hry Anna Weckström f.  1810
+Ferdinand           31/3 1848   svenska   } till njärvi d. 29/3 58.
+Otto Wilhelm   2/12 1850                        }</text>
     </note>
   </notes>
 </database>
