@@ -1375,6 +1375,43 @@
       <place hlink="_ca78692dbfe37164d90"/>
       <citationref hlink="_f143bd71a1f7a1822420e4580dc"/>
     </event>
+    <event handle="_f143c405314475936d763232b1a" change="1657960877" id="E0232">
+      <type>Birth</type>
+      <dateval val="1909-10-16"/>
+      <citationref hlink="_f143c4009066bbed330c7085c2f"/>
+      <citationref hlink="_f143da3f2405539823f2242532b"/>
+    </event>
+    <event handle="_f143c45ca1c65ea70914a4631b2" change="1657960859" id="E0233">
+      <type>Death</type>
+      <dateval val="1965-12-21"/>
+      <citationref hlink="_f143c4009066bbed330c7085c2f"/>
+      <citationref hlink="_f143da3f2405539823f2242532b"/>
+    </event>
+    <event handle="_f143c4803cf4108a33bd8776387" change="1657960893" id="E0234">
+      <type>Burial</type>
+      <dateval val="1966"/>
+      <place hlink="_f143c56dcc954d4f051e2799ad2"/>
+      <citationref hlink="_f143c4009066bbed330c7085c2f"/>
+      <citationref hlink="_f143da3f2405539823f2242532b"/>
+    </event>
+    <event handle="_f143dd303bc77942373e6d19cb0" change="1657961448" id="E0235">
+      <type>Birth</type>
+      <dateval val="1937-06-14"/>
+      <citationref hlink="_f143dd146a02a624bba9d3669e4"/>
+      <citationref hlink="_f143e0669cb5e8a3355f68d2158"/>
+    </event>
+    <event handle="_f143dd50c0d6f7334304502c252" change="1657961467" id="E0236">
+      <type>Death</type>
+      <dateval val="2002-05-25"/>
+      <citationref hlink="_f143dd146a02a624bba9d3669e4"/>
+      <citationref hlink="_f143e0669cb5e8a3355f68d2158"/>
+    </event>
+    <event handle="_f143dd86dee6abd3b8ed358a8db" change="1657961135" id="E0237">
+      <type>Burial</type>
+      <dateval val="2002"/>
+      <place hlink="_f143c56dcc954d4f051e2799ad2"/>
+      <citationref hlink="_f143dd146a02a624bba9d3669e4"/>
+    </event>
   </events>
   <people>
     <person handle="_ca7457061a433c0054f" change="1598528497" id="I0000">
@@ -2488,13 +2525,32 @@
       <eventref hlink="_f1388a8617b5c06b1037be5a1ee" role="Primary"/>
       <parentin hlink="_f1388529fd319d0d6f78d5d8ed9"/>
     </person>
-    <person handle="_f143bd8997723f6ae96b8bcd9a0" change="1657957801" id="I0108">
+    <person handle="_f143bd8997723f6ae96b8bcd9a0" change="1657960905" id="I0108">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Carl Bertel</first>
         <surname>Nylund</surname>
       </name>
+      <eventref hlink="_f143c405314475936d763232b1a" role="Primary"/>
+      <eventref hlink="_f143c45ca1c65ea70914a4631b2" role="Primary"/>
+      <eventref hlink="_f143c4803cf4108a33bd8776387" role="Primary"/>
       <parentin hlink="_f143ba69f3e51ed450c53fb4f91"/>
+    </person>
+    <person handle="_f143dc7808767ffd41b82372b29" change="1657961215" id="I0109">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Ulla Britta</first>
+        <surname derivation="Inherited">Nylund</surname>
+      </name>
+      <name alt="1" type="Married Name">
+        <first>Ulla Britta</first>
+        <surname derivation="Taken">Henningsen</surname>
+        <citationref hlink="_f143dd146a02a624bba9d3669e4"/>
+      </name>
+      <eventref hlink="_f143dd303bc77942373e6d19cb0" role="Primary"/>
+      <eventref hlink="_f143dd50c0d6f7334304502c252" role="Primary"/>
+      <eventref hlink="_f143dd86dee6abd3b8ed358a8db" role="Primary"/>
+      <childof hlink="_f143ba69f3e51ed450c53fb4f91"/>
     </person>
   </people>
   <families>
@@ -2791,11 +2847,12 @@
       <father hlink="_f1388536fb624b75e54b8187305"/>
       <mother hlink="_ca745940f9e3cc8d9e8"/>
     </family>
-    <family handle="_f143ba69f3e51ed450c53fb4f91" change="1657957801" id="F0025">
+    <family handle="_f143ba69f3e51ed450c53fb4f91" change="1657961153" id="F0025">
       <rel type="Married"/>
       <father hlink="_f143bd8997723f6ae96b8bcd9a0"/>
       <mother hlink="_de2e452ecf81d9df75621ab8dc0"/>
       <eventref hlink="_f143bd7b8a537cec892f3896b2e" role="Family"/>
+      <childref hlink="_f143dc7808767ffd41b82372b29"/>
     </family>
   </families>
   <citations>
@@ -4010,6 +4067,28 @@
       <noteref hlink="_f143bd552392bc67e4486f9e"/>
       <sourceref hlink="_f143bb7ac64490b882cb904b035"/>
     </citation>
+    <citation handle="_f143c4009066bbed330c7085c2f" change="1657958459" id="C0194">
+      <page>NYLUND CARL BERTEL</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f143c3fcb963b3b69d70f8886f8"/>
+      <sourceref hlink="_f1387e23c851333f4f2aa26d51d"/>
+    </citation>
+    <citation handle="_f143da3f2405539823f2242532b" change="1657960791" id="C0195">
+      <page>CARL BERTEL NYLUND</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_f143da0703c51ba45cef6c0268"/>
+    </citation>
+    <citation handle="_f143dd146a02a624bba9d3669e4" change="1657961088" id="C0196">
+      <page>HENNINGSEN ULLA BRITTA</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f143dd0fd8772048bcc656082a6"/>
+      <sourceref hlink="_f1387e23c851333f4f2aa26d51d"/>
+    </citation>
+    <citation handle="_f143e0669cb5e8a3355f68d2158" change="1657961437" id="C0197">
+      <page>ULLABRITTA HENNINGSEN</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_f143e044d80624fcb5bdde413cb"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_ca745c8796520229d69" change="1440109253" id="S0000">
@@ -4433,6 +4512,14 @@
       <stitle>Ilta-Sanomat</stitle>
       <reporef hlink="_ca7e129d4941111a9fa" medium="Book"/>
     </source>
+    <source handle="_f143da0703c51ba45cef6c0268" change="1657960768" id="S0082">
+      <stitle>Hautakivi Nylund Hietaniemi</stitle>
+      <noteref hlink="_f143da034bc2d24517400a9e968"/>
+    </source>
+    <source handle="_f143e044d80624fcb5bdde413cb" change="1657961423" id="S0083">
+      <stitle>Hautakivi Henningsen Hietaniemi</stitle>
+      <noteref hlink="_f143e03b507555db6ef1eac0995"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_ca78692dbfe37164d90" change="1657656367" id="P0004" type="City">
@@ -4724,7 +4811,7 @@
       <pname value="Hietanimen hautausmaa"/>
       <placeref hlink="_ca78692dbfe37164d90"/>
     </placeobj>
-    <placeobj handle="_f138830f6d230aba3362291a231" change="1657656370" id="P0070" type="Area">
+    <placeobj handle="_f138830f6d230aba3362291a231" change="1657958605" id="P0070" type="Area">
       <pname value="alue 02"/>
       <placeref hlink="_f138830ccba588b79439d3f8125"/>
     </placeobj>
@@ -4739,6 +4826,18 @@
     <placeobj handle="_f138831b19e5c9a596fe8c947dd" change="1657656375" id="P0073" type="Grave">
       <pname value="hauta 252"/>
       <placeref hlink="_f1388312763158839ff1e0ada3d"/>
+    </placeobj>
+    <placeobj handle="_f143c567a80779e72bb1d77ba28" change="1657958606" id="P0074" type="Block">
+      <pname value="kortteli 10"/>
+      <placeref hlink="_f138830f6d230aba3362291a231"/>
+    </placeobj>
+    <placeobj handle="_f143c56971e40ba6eda1986b440" change="1657958607" id="P0075" type="Row">
+      <pname value="rivi 6"/>
+      <placeref hlink="_f143c567a80779e72bb1d77ba28"/>
+    </placeobj>
+    <placeobj handle="_f143c56dcc954d4f051e2799ad2" change="1657958608" id="P0076" type="Grave">
+      <pname value="hauta 236"/>
+      <placeref hlink="_f143c56971e40ba6eda1986b440"/>
     </placeobj>
   </places>
   <repositories>
@@ -6580,6 +6679,53 @@ Pohj. suomal. seurakunta.
 Vihityt: 
 [...]
 herra Carl Bertel Nylund ja Hilja Lempi Ikäheimo</text>
+    </note>
+    <note handle="_f143c3fcb963b3b69d70f8886f8" change="1657958457" id="N0209" type="Source text">
+      <text>NYLUND CARL BERTEL
+1909 - 1965
+Helsingin seurakuntayhtymä, Hietaniemen hautausmaa
+Syntymävuosi	1909
+Kuolinvuosi	1965
+Hautausmaa	
+Hietaniemen hautausmaa
+Hietaniemenkatu 20
+00100 Helsinki
+Alue	02
+Kortteli	010
+Rivi	06
+Paikkanumero	00236</text>
+    </note>
+    <note handle="_f143da034bc2d24517400a9e968" change="1657960767" id="N0210" type="Transcript">
+      <text>CARL BERTEL NYLUND
+*  16.10.1909    + 21.12.1965
+
+EMMA NYLUND
+f. LITMANEN
+* 8.6.1912    + 9.2.1963</text>
+    </note>
+    <note handle="_f143dd0fd8772048bcc656082a6" change="1657961086" id="N0211" type="Source text">
+      <text>HENNINGSEN ULLA BRITTA
+1937 - 2002
+Helsingin seurakuntayhtymä, Hietaniemen hautausmaa
+Syntymävuosi	1937
+Kuolinvuosi	2002
+Hautausmaa	
+Hietaniemen hautausmaa
+Hietaniemenkatu 20
+00100 Helsinki
+Alue	02
+Kortteli	010
+Rivi	06
+Paikkanumero	00236</text>
+    </note>
+    <note handle="_f143e03b507555db6ef1eac0995" change="1657961419" id="N0212" type="Transcript">
+      <text>ULLABRITTA HENNINGSEN
+f. NYLUND
+* 14.6.1937    + 25.5.2002
+
+VI BÖRA ÄLSKA DE KORTA ÖGONBLICK
+DÅ ÖKNEN BLOMMAR
+(SÖDERGRAN)</text>
     </note>
   </notes>
   <namemaps>
