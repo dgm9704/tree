@@ -15208,7 +15208,7 @@
       <place hlink="_e82478dea7034bf7ec557d7af65"/>
       <citationref hlink="_f145bb18dd459cbdef5b1f652d4"/>
     </event>
-    <event handle="_f145bc3f0aa4672bb84cb6151c5" change="1658012530" id="E0413">
+    <event handle="_f145bc3f0aa4672bb84cb6151c5" change="1658046777" id="E0413">
       <type>Residence</type>
       <datespan start="1878" stop="1887"/>
       <place hlink="_f145bc01fe77d20b574f0689c58"/>
@@ -15255,6 +15255,50 @@
       <dateval val="1868-12-27"/>
       <place hlink="_e82478dea7034bf7ec557d7af65"/>
       <citationref hlink="_f145e112be244c1fd5be2420879"/>
+    </event>
+    <event handle="_f14711464073aef4899e0d71f52" change="1658047617" id="E0421">
+      <type>Death</type>
+      <dateval val="1889-11-06"/>
+      <place hlink="_f145bc01fe77d20b574f0689c58"/>
+      <citationref hlink="_f1471141de3570b1882aeed4bca"/>
+      <citationref hlink="_f147163465364a91eb72840e1f"/>
+    </event>
+    <event handle="_f14716fa6791653d0614614d313" change="1658047690" id="E0422">
+      <type>Residence</type>
+      <datespan start="1888" stop="1896"/>
+      <place hlink="_f145bc01fe77d20b574f0689c58"/>
+      <citationref hlink="_f147163465364a91eb72840e1f"/>
+    </event>
+    <event handle="_f14717f97625bb7fe2cfcbedb62" change="1658048482" id="E0423">
+      <type>Residence</type>
+      <dateval val="1897-10-12" type="before"/>
+      <place hlink="_f145bc01fe77d20b574f0689c58"/>
+      <citationref hlink="_f147163465364a91eb72840e1f"/>
+      <citationref hlink="_f1471b08dd443cfbc1be032f9e4"/>
+      <citationref hlink="_f1471e1172c665ac89cc1384e22"/>
+    </event>
+    <event handle="_f147183f5965edf857c861409b2" change="1658048912" id="E0424">
+      <type>Residence</type>
+      <datespan start="1897-10-14" stop="1900"/>
+      <place hlink="_f14720af5da5b0c1e02374e3093"/>
+      <citationref hlink="_f147163465364a91eb72840e1f"/>
+      <citationref hlink="_f1471b08dd443cfbc1be032f9e4"/>
+      <citationref hlink="_f1471e1172c665ac89cc1384e22"/>
+      <citationref hlink="_f147226d9eb49b08b06021aac29"/>
+    </event>
+    <event handle="_f147253819d12f2ecc13bdedc81" change="1658049547" id="E0425">
+      <type>Residence</type>
+      <datespan start="1900" stop="1902-12-14"/>
+      <place hlink="_f14723b0343d4391214cef3715"/>
+      <citationref hlink="_f147252731777989553eff82bfe"/>
+      <citationref hlink="_f14728942e04439333e239a01c1"/>
+    </event>
+    <event handle="_f147291623258495da1a6424226" change="1658049589" id="E0426">
+      <type>Residence</type>
+      <dateval val="1902-12-14" type="after"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_f147252731777989553eff82bfe"/>
+      <citationref hlink="_f14728942e04439333e239a01c1"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -24699,15 +24743,20 @@
       <eventref hlink="_cea5cc6a8707d25790e" role="Primary"/>
       <parentin hlink="_cb589cd838930e5fcfd"/>
     </person>
-    <person handle="_cea5cca2afb352181a9" change="1658010003" id="I1401">
+    <person handle="_cea5cca2afb352181a9" change="1658049602" id="I1401">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Viktor Wilhelm</first>
         <surname>Nyström</surname>
       </name>
       <eventref hlink="_e8247b713b745a8642c90ed2f55" role="Primary"/>
+      <eventref hlink="_f14717f97625bb7fe2cfcbedb62" role="Primary"/>
+      <eventref hlink="_f147183f5965edf857c861409b2" role="Primary"/>
+      <eventref hlink="_f147253819d12f2ecc13bdedc81" role="Primary"/>
+      <eventref hlink="_f147291623258495da1a6424226" role="Primary"/>
       <eventref hlink="_e824887f0f549e233da43838c9a" role="Primary"/>
       <eventref hlink="_e8248c486427845e1ec0bf8c1b2" role="Primary"/>
+      <childof hlink="_f145b30c9d43a62b284bb5f6504"/>
       <parentin hlink="_cb589cc849649a1de75"/>
     </person>
     <person handle="_cea5ce599ff38d3575a" change="1619347997" id="I1402">
@@ -27619,7 +27668,7 @@
       <eventref hlink="_f145215418310090c87d2453e0c" role="Primary"/>
       <childof hlink="_cb589cc947140ff72b2"/>
     </person>
-    <person handle="_f145b326bd0fbcc9236cb35618" change="1658014206" id="I0041">
+    <person handle="_f145b326bd0fbcc9236cb35618" change="1658047113" id="I0041">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Eric Johan</first>
@@ -27627,6 +27676,7 @@
       </name>
       <eventref hlink="_f145bb4e3ff3fcca618b5c7a546" role="Primary"/>
       <eventref hlink="_f145d793df13d4f35649ef764bd" role="Primary"/>
+      <eventref hlink="_f14711464073aef4899e0d71f52" role="Primary"/>
       <parentin hlink="_f145b30c9d43a62b284bb5f6504"/>
     </person>
     <person handle="_f145bd077fc4556bfd054b354ee" change="1658014566" id="I0050">
@@ -31052,7 +31102,7 @@
       <eventref hlink="_ecfa52e877f4b888e219a4175b2" role="Family"/>
       <childref hlink="_e37e1309827750365ce2ab68e5b"/>
     </family>
-    <family handle="_f145b30c9d43a62b284bb5f6504" change="1658015213" id="F0009">
+    <family handle="_f145b30c9d43a62b284bb5f6504" change="1658047694" id="F0009">
       <rel type="Married"/>
       <father hlink="_f145b326bd0fbcc9236cb35618"/>
       <mother hlink="_f145bd077fc4556bfd054b354ee"/>
@@ -31061,6 +31111,8 @@
       <eventref hlink="_f145c8cbff626de9489a3811547" role="Family"/>
       <eventref hlink="_f145c50c715638cf3f8ae795e21" role="Family"/>
       <eventref hlink="_f145bc3f0aa4672bb84cb6151c5" role="Family"/>
+      <eventref hlink="_f14716fa6791653d0614614d313" role="Family"/>
+      <childref hlink="_cea5cca2afb352181a9"/>
     </family>
   </families>
   <citations>
@@ -40063,6 +40115,62 @@
       <noteref hlink="_f145e10e52865051fe5120a7f9"/>
       <sourceref hlink="_f145dd998674e051d215b9969cb"/>
     </citation>
+    <citation handle="_f1471141de3570b1882aeed4bca" change="1658047090" id="C1349">
+      <page>18-19</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f1470f053a8474be63359f04a8e"/>
+      <noteref hlink="_f1470f2f7564c2f083b9e63b7d3"/>
+      <noteref hlink="_f147111fcb37c85205c0c9887a4"/>
+      <sourceref hlink="_f1470ee0918f0c4f269383846"/>
+    </citation>
+    <citation handle="_f147163465364a91eb72840e1f" change="1658047609" id="C1350">
+      <page>810</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f147126b6ef408e2cb1510ba7fa"/>
+      <noteref hlink="_f147129be072dc137dab2650c84"/>
+      <noteref hlink="_f147162cc477c3ee30fc5ddba53"/>
+      <sourceref hlink="_f1471236a2714bfaabe0929653f"/>
+    </citation>
+    <citation handle="_f1471b08dd443cfbc1be032f9e4" change="1658048115" id="C1351">
+      <page>317-318</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f14719a9e2277c72b3b907e7655"/>
+      <noteref hlink="_f1471a031d06cf2f0d85415950c"/>
+      <noteref hlink="_f1471af853f16c6036230f67135"/>
+      <sourceref hlink="_f147198dd794c9c527c045abfc8"/>
+    </citation>
+    <citation handle="_f1471e1172c665ac89cc1384e22" change="1658048433" id="C1352">
+      <page>kuva 36</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f1471d027fb7361bdd7b16bc688"/>
+      <noteref hlink="_f1471d2d37a39b9dcfc0532a1c4"/>
+      <noteref hlink="_f1471e058cf2342bd9684de9a26"/>
+      <sourceref hlink="_f1471c9930a29c9fc612627c02c"/>
+    </citation>
+    <citation handle="_f147226d9eb49b08b06021aac29" change="1658048891" id="C1353">
+      <page>532</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f14721310395ef24c0e7b53ea3d"/>
+      <noteref hlink="_f1472161ca614eacc92c8d02"/>
+      <noteref hlink="_f1472260e5d40fe4a076a89a2df"/>
+      <sourceref hlink="_f1472122b017d82016800745c49"/>
+    </citation>
+    <citation handle="_f147252731777989553eff82bfe" change="1658049176" id="C1354">
+      <page>469</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f14723dd4343ff8aa2e6b0d267e"/>
+      <noteref hlink="_f147240ed7d3295c606702b2d8c"/>
+      <noteref hlink="_f147251e9c223a19217e5fecb30"/>
+      <sourceref hlink="_f1472122b017d82016800745c49"/>
+    </citation>
+    <citation handle="_f14728942e04439333e239a01c1" change="1658049536" id="C1355">
+      <page>kuva 59</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f147272d9bc3bfde8c81c97a298"/>
+      <noteref hlink="_f1472756a26134d8d2b71c2ee17"/>
+      <noteref hlink="_f1472881bf34b2a772dfc90afa2"/>
+      <sourceref hlink="_f1471c9930a29c9fc612627c02c"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -42875,6 +42983,31 @@
       <sauthor>Kirkkonummen seurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
+    <source handle="_f1470ee0918f0c4f269383846" change="1658046841" id="S0562">
+      <stitle>Kirkkonummi Kuolleet 1887-1892</stitle>
+      <sauthor>Kirkkonummen seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f1471236a2714bfaabe0929653f" change="1658047190" id="S0563">
+      <stitle>Kirkkonummi Rippikirja 1888-1897</stitle>
+      <sauthor>Kirkkonummen seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f147198dd794c9c527c045abfc8" change="1658048471" id="S0564">
+      <stitle>Kirkkonummi Muuttaneet 1893-1910</stitle>
+      <sauthor>Kirkkonummen seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f1471c9930a29c9fc612627c02c" change="1658048279" id="S0565">
+      <stitle>Espoo Muuttaneet 1892-1926</stitle>
+      <sauthor>Espoon seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f1472122b017d82016800745c49" change="1658048902" id="S0566">
+      <stitle>Espoo Rippikirja 1894-1902</stitle>
+      <sauthor>Espoon seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1595618071" id="P0000" type="City">
@@ -44133,8 +44266,8 @@
       <pname value="Janakkala"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
     </placeobj>
-    <placeobj handle="_cf99bf0f22527758ac0" change="1549806370" id="P0395" type="Parish">
-      <pname value="Esbo"/>
+    <placeobj handle="_cf99bf0f22527758ac0" change="1658049021" id="P0395" type="Parish">
+      <pname value="Esbo" lang="se"/>
       <pname value="Espoo" lang="fi"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
     </placeobj>
@@ -45584,6 +45717,14 @@
       <pname value="Långstrand" lang="se"/>
       <placeref hlink="_e82478dea7034bf7ec557d7af65"/>
     </placeobj>
+    <placeobj handle="_f14720af5da5b0c1e02374e3093" change="1658048708" id="P0136" type="Farm">
+      <pname value="Prästgården" lang="se"/>
+      <placeref hlink="_cf99bf0f22527758ac0"/>
+    </placeobj>
+    <placeobj handle="_f14723b0343d4391214cef3715" change="1658049023" id="P0137" type="Village">
+      <pname value="Mäckylä"/>
+      <placeref hlink="_cf99bf0f22527758ac0"/>
+    </placeobj>
   </places>
   <repositories>
     <repository handle="_cdea29a49637c6553bc" change="1657134079" id="R0001">
@@ -45591,7 +45732,7 @@
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1658014829" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1658048754" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -63623,6 +63764,139 @@ Pig Maria Serafia Vesterlund  30/3  1839  Nummis  68 p 338    abs.B.p.80    do</
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="361"/>
+      </style>
+    </note>
+    <note handle="_f1470f053a8474be63359f04a8e" change="1658046856" id="N2105" type="Citation">
+      <text>Kirkkonummi kuolleet 1887-1892 (AP I F:2)  Sivu 18 1889 November ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29153&amp;pnum=12 / Viitattu 17.07.2022</text>
+    </note>
+    <note handle="_f1470f2f7564c2f083b9e63b7d3" change="1658046873" id="N2106" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29153&amp;pnum=12</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29153&amp;pnum=12">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f147111fcb37c85205c0c9887a4" change="1658047614" id="N2107" type="Transcript" format="1">
+      <text>18    1889
+[...]
+[Novemb.]  6  10  Träskby Torparen            fd 1843
+                          Eric Johan Nyström  Blodförgift  46  5  3</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="138"/>
+      </style>
+    </note>
+    <note handle="_f147126b6ef408e2cb1510ba7fa" change="1658047212" id="N2108" type="Citation">
+      <text>Kirkkonummi rippikirja 1888-1897 (AP_II I Aa:28)  Sivu 810 Träskby ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29143&amp;pnum=308 / Viitattu 17.07.2022</text>
+    </note>
+    <note handle="_f147129be072dc137dab2650c84" change="1658047232" id="N2109" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29143&amp;pnum=308</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29143&amp;pnum=308">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f147162cc477c3ee30fc5ddba53" change="1658047606" id="N2110" type="Transcript" format="1">
+      <text>810          Träskby
+Torpare m:fl:
+död Torp Eric Johan Nyström    3/4   1843    Ksltt    G.K.B pg 657               6/11 1889
+Inh Enk Maria Serafia          30/3  1839    Nummis   do               Död 11/11 1896
+flt dr Maria Mathilda          24/11 1873    Ksltt    do                         pag 95
+flt sn Karl Johan              ?     1875    do       do                         pg 320
+sn Gustaf Adolf                5/9   1877    do       do                         1893 p 320
+sn Victor Wilhelm              2/6   1881    do       do              Esbo 12/10 1897
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="566"/>
+      </style>
+    </note>
+    <note handle="_f1471984c9e2c33f2b28960af8b" change="1658047956" id="N2111" type="Source Note">
+      <text>Kirkkonummi muuttaneet 1893-1910 (AP I Ba:3)  Sivu 317 1897 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29157&amp;pnum=17 / Viitattu 17.07.2022</text>
+    </note>
+    <note handle="_f14719a9e2277c72b3b907e7655" change="1658047972" id="N2112" type="Citation">
+      <text>Kirkkonummi muuttaneet 1893-1910 (AP I Ba:3)  Sivu 317 1897 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29157&amp;pnum=17 / Viitattu 17.07.2022</text>
+    </note>
+    <note handle="_f1471a031d06cf2f0d85415950c" change="1658048008" id="N2113" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29157&amp;pnum=17</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29157&amp;pnum=17">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f1471af853f16c6036230f67135" change="1658048109" id="N2114" type="Transcript" format="1">
+      <text>1897          Utflyttade          318
+[...]
+[Nov]  12  97  Träskby Drg. Viktor Wilh. Nyström    1  -  Esbo    G.B 810</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="117"/>
+      </style>
+    </note>
+    <note handle="_f1471d027fb7361bdd7b16bc688" change="1658048322" id="N2115" type="Citation">
+      <text>Espoo muuttaneet 1892-1926 (AP I Bab:2, I Bb:3)  1897 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=30534&amp;pnum=36 / Viitattu 17.07.2022</text>
+    </note>
+    <note handle="_f1471d2d37a39b9dcfc0532a1c4" change="1658048340" id="N2116" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=30534&amp;pnum=36</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=30534&amp;pnum=36">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f1471e058cf2342bd9684de9a26" change="1658048429" id="N2117" type="Transcript" format="1">
+      <text>1897          Inflyttade
+[...]
+63  [November]  [14]  Dränggossen Viktor Wilhelm Nyström    Kyrkslätt  532  1  -
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="112"/>
+      </style>
+    </note>
+    <note handle="_f14721310395ef24c0e7b53ea3d" change="1658048761" id="N2118" type="Citation">
+      <text>Espoo rippikirja 1894-1902 (AP_II I Aa 10)  Sivu 532 Prestgården, boställe ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=30912&amp;pnum=189 / Viitattu 17.07.2022</text>
+    </note>
+    <note handle="_f1472161ca614eacc92c8d02" change="1658048781" id="N2119" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=30912&amp;pnum=189</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=30912&amp;pnum=189">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f1472260e5d40fe4a076a89a2df" change="1658048885" id="N2120" type="Citation" format="1">
+      <text>532          Prestgården
+boställe
+[...]
+Drg Viktor Wilhelm Nyström  2/6 1881    Kyrkslätt    Kyrkslätt 97 No63          1900/469</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="128"/>
+      </style>
+    </note>
+    <note handle="_f14723dd4343ff8aa2e6b0d267e" change="1658049041" id="N2121" type="Citation">
+      <text>Espoo rippikirja 1894-1902 (AP_II I Aa 10)  Sivu 469 Mäckylä, boställe ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=30912&amp;pnum=125 / Viitattu 17.07.2022</text>
+    </note>
+    <note handle="_f147240ed7d3295c606702b2d8c" change="1658049062" id="N2124" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=30912&amp;pnum=125</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=30912&amp;pnum=125">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f147251e9c223a19217e5fecb30" change="1658049173" id="N2125" type="Transcript" format="1">
+      <text>469          Mäckylä
+boställe
+Torp
+[...]
+Drg Viktor Wilhelm Nyström  2/6 1881  Kkslätt  1900/532          infd.    Hfors 1902 No 138</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="132"/>
+      </style>
+    </note>
+    <note handle="_f147272d9bc3bfde8c81c97a298" change="1658049389" id="N2126" type="Citation">
+      <text>Espoo muuttaneet 1892-1926 (AP I Bab:2, I Bb:3)  1902/ 1903 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=30534&amp;pnum=59 / Viitattu 17.07.2022</text>
+    </note>
+    <note handle="_f1472756a26134d8d2b71c2ee17" change="1658049406" id="N2127" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=30534&amp;pnum=59</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=30534&amp;pnum=59">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f1472881bf34b2a772dfc90afa2" change="1658049528" id="N2128" type="Transcript" format="1">
+      <text>[Utflyttade år] 1902
+[...]
+138  [December]  [14]  f.d.Drgn Viktor Wilhelm Nyström    [Hfors]  469  1  -</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="103"/>
       </style>
     </note>
   </notes>
