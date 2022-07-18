@@ -10770,12 +10770,14 @@
       <citationref hlink="_dcdd58882376f47b4bea8ac9e5a"/>
       <citationref hlink="_dcdd51182971028831bd07194e6"/>
     </event>
-    <event handle="_dcddbf5d1c2395bf0482e9e2601" change="1595620690" id="E2365">
+    <event handle="_dcddbf5d1c2395bf0482e9e2601" change="1658133924" id="E2365">
       <type>Death</type>
       <dateval val="1925-11-16"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_dcddbf5959466c925b090ae2f14"/>
       <citationref hlink="_e820357ba58360b35e64e09c244"/>
+      <citationref hlink="_f14a4a58e4221e18c4817b95965"/>
+      <citationref hlink="_f14a4c31e1426e383d701204239"/>
     </event>
     <event handle="_dcddc381ecc266604265b08c85c" change="1595159944" id="E2366">
       <type>Death</type>
@@ -13500,12 +13502,14 @@
       <citationref hlink="_dcddc5150652c4063ac1a5d4244"/>
       <citationref hlink="_e8202e3469d4e673d1b4813b859"/>
     </event>
-    <event handle="_e8203932b2a22b7e3c551923892" change="1595620720" id="E0046">
+    <event handle="_e8203932b2a22b7e3c551923892" change="1658133973" id="E0046">
       <type>Burial</type>
       <dateval val="1925-11-22"/>
-      <place hlink="_e82029a50ec36629ca48da3ab9c"/>
+      <place hlink="_f14a4b413a34a9d0f8d8ef59738"/>
+      <citationref hlink="_dcddbf5959466c925b090ae2f14"/>
+      <citationref hlink="_f14a4a58e4221e18c4817b95965"/>
+      <citationref hlink="_f14a4c31e1426e383d701204239"/>
       <citationref hlink="_e820357ba58360b35e64e09c244"/>
-      <citationref hlink="_e8202e3469d4e673d1b4813b859"/>
     </event>
     <event handle="_e820c48e5c317ea2203c80cf6f" change="1595171464" id="E0047">
       <type>Birth</type>
@@ -15482,11 +15486,16 @@
       <childof hlink="_cb589cc83ea4c947ebd"/>
       <parentin hlink="_cb589cc803c2012656f"/>
     </person>
-    <person handle="_cb589cc84347c619504" change="1625167619" id="I4402">
+    <person handle="_cb589cc84347c619504" change="1658134040" id="I4402">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Charlotta Wilhelmina</first>
         <surname>Nordberg</surname>
+      </name>
+      <name alt="1" type="Married Name">
+        <first>Maria Charlotta Wilhelmina</first>
+        <surname>Stordell</surname>
+        <dateval val="1906-06" type="after"/>
       </name>
       <eventref hlink="_cb589cc843a611773b4" role="Primary"/>
       <eventref hlink="_e181bdc2a1079499c7ccae9ddfd" role="Primary"/>
@@ -34689,10 +34698,11 @@
       <noteref hlink="_dcdd588347017859d6cbdc0042e"/>
       <sourceref hlink="_dcdd507efe6530d1b60fce4c7ca"/>
     </citation>
-    <citation handle="_dcddbf5959466c925b090ae2f14" change="1595156223" id="C0532">
+    <citation handle="_dcddbf5959466c925b090ae2f14" change="1658133186" id="C0532">
       <dateval val="1925-11-25"/>
       <page>322/10</page>
       <confidence>2</confidence>
+      <noteref hlink="_f14a463603157dd7faccfb0c652"/>
       <noteref hlink="_dcddbf5167376bbc65945e9eae1"/>
       <noteref hlink="_e820331f40621ba1f869b70675c"/>
       <sourceref hlink="_cdea76d18dc4cf3ac19"/>
@@ -38119,11 +38129,13 @@
       <noteref hlink="_e8203116ef831ec9c673b747290"/>
       <sourceref hlink="_e8202c821c32e3b2d589c20a45c"/>
     </citation>
-    <citation handle="_e820357ba58360b35e64e09c244" change="1595156778" id="C0646">
+    <citation handle="_e820357ba58360b35e64e09c244" change="1658133252" id="C0646">
       <dateval val="1925-11-19"/>
       <page>316/1</page>
       <confidence>2</confidence>
+      <noteref hlink="_f14a3e25a013e382cc4e4ea42e7"/>
       <noteref hlink="_e820355c01e4be3cb8380bca902"/>
+      <noteref hlink="_f14a450bf1a67cf7f5f4fe0b3ab"/>
       <noteref hlink="_e82038749794de86d3ded725742"/>
       <sourceref hlink="_cdea76d18dc4cf3ac19"/>
     </citation>
@@ -40415,6 +40427,17 @@
       <noteref hlink="_f14a2903f465118e8437d9f0c02"/>
       <noteref hlink="_f14a2a152973b90d55ce7daccce"/>
       <sourceref hlink="_dcde0a1be9d745544ed78a5f038"/>
+    </citation>
+    <citation handle="_f14a4a58e4221e18c4817b95965" change="1658133615" id="C1378">
+      <page>STORDELL MARIA CHARLOTTA WILHELMINA</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f14a4a477855b5009633d0f529e"/>
+      <sourceref hlink="_f14512880813e77217f42ad78d9"/>
+    </citation>
+    <citation handle="_f14a4c31e1426e383d701204239" change="1658133801" id="C1379">
+      <page>MARIA CHARLOTTA</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_f14a4c0bd5256252c989dc0019a"/>
     </citation>
   </citations>
   <sources>
@@ -43267,6 +43290,11 @@
       <stitle>Svenska Pressen</stitle>
       <reporef hlink="_cdea68c6afd7d08bd3f" medium="Book"/>
     </source>
+    <source handle="_f14a4c0bd5256252c989dc0019a" change="1658133785" id="S0570">
+      <stitle>Hautakivi Malmelin/Stordell Malmi</stitle>
+      <noteref hlink="_e8203116ef831ec9c673b747290"/>
+      <noteref hlink="_e8202cfcf397c30d5d63247d343"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1595618071" id="P0000" type="City">
@@ -45713,7 +45741,7 @@
       <pname value="Smeden"/>
       <placeref hlink="_cea130ab1076a8a160f"/>
     </placeobj>
-    <placeobj handle="_e82029a50ec36629ca48da3ab9c" change="1657995534" id="P0045" type="Cemetery">
+    <placeobj handle="_e82029a50ec36629ca48da3ab9c" change="1658133699" id="P0045" type="Cemetery">
       <pname value="Malmin hautausmaa"/>
       <placeref hlink="_cb589cc7f8d1b88b055"/>
     </placeobj>
@@ -45986,6 +46014,18 @@
     <placeobj handle="_f14723b0343d4391214cef3715" change="1658049023" id="P0137" type="Village">
       <pname value="Mäckylä"/>
       <placeref hlink="_cf99bf0f22527758ac0"/>
+    </placeobj>
+    <placeobj handle="_f14a4b3c490633fe94dae64ca70" change="1658133700" id="P0138" type="Block">
+      <pname value="kortteli 18"/>
+      <placeref hlink="_e82029a50ec36629ca48da3ab9c"/>
+    </placeobj>
+    <placeobj handle="_f14a4b3dcc853ccec4f775b780a" change="1658133701" id="P0140" type="Path">
+      <pname value="rivi 1"/>
+      <placeref hlink="_f14a4b3c490633fe94dae64ca70"/>
+    </placeobj>
+    <placeobj handle="_f14a4b413a34a9d0f8d8ef59738" change="1658133702" id="P0141" type="Grave">
+      <pname value="hauta 22"/>
+      <placeref hlink="_f14a4b3dcc853ccec4f775b780a"/>
     </placeobj>
   </places>
   <repositories>
@@ -57759,7 +57799,7 @@ KARL FREDRIK
         <range start="90" end="98"/>
       </style>
     </note>
-    <note handle="_e820331f40621ba1f869b70675c" change="1595156214" id="N0064" type="Transcript">
+    <note handle="_e820331f40621ba1f869b70675c" change="1658132188" id="N0064" type="Transcript" format="1">
       <text>Döda.
 [...]
 Sörnäs sv.:
@@ -57769,6 +57809,9 @@ fru Maria Charlotta Wilhelmina Stordell 52 år 5 m 9 d.</text>
         <range start="0" end="5"/>
         <range start="12" end="23"/>
       </style>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="84"/>
+      </style>
     </note>
     <note handle="_e820355c01e4be3cb8380bca902" change="1595156448" id="N0065" type="Link">
       <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/1397606?page=1</text>
@@ -57776,32 +57819,35 @@ fru Maria Charlotta Wilhelmina Stordell 52 år 5 m 9 d.</text>
         <range start="0" end="68"/>
       </style>
     </note>
-    <note handle="_e82038749794de86d3ded725742" change="1595156773" id="N0066" type="Transcript" format="1">
-      <text>      †
-Min älskade hustru
-Sofia Charlotta
+    <note handle="_e82038749794de86d3ded725742" change="1658132313" id="N0066" type="Transcript" format="1">
+      <text>    †
+      Min älskade hustru
+  Sofia Charlotta
 Wilhelmina Stordell
-född 9. 7. 1873,
-död 16. 11. 1925.
-Älskad - Saknad.
+       född 9. 7. 1873,
+       död 16. 11. 1925.
+        Älskad - Saknad.
                            De egna.
 -----------------------
    Begravningen försiggår de 22
 på Malms begravningsplats, efter
 kl. 1.</text>
       <style name="bold">
-        <range start="27" end="63"/>
-        <range start="142" end="150"/>
-        <range start="151" end="174"/>
+        <range start="31" end="69"/>
+        <range start="170" end="178"/>
+        <range start="179" end="202"/>
+      </style>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="274"/>
       </style>
       <style name="fontsize" value="10">
-        <range start="8" end="12"/>
+        <range start="12" end="16"/>
       </style>
       <style name="fontsize" value="12">
-        <range start="27" end="63"/>
+        <range start="31" end="69"/>
       </style>
       <style name="fontsize" value="24">
-        <range start="0" end="8"/>
+        <range start="0" end="6"/>
       </style>
     </note>
     <note handle="_e82056991c35fa96d1ebdf68010" change="1595159934" id="N0067" type="Transcript">
@@ -64746,6 +64792,44 @@ Kansalliskirjaston digitaaliset aineistot</text>
       <style name="fontface" value="Monospace">
         <range start="0" end="59"/>
       </style>
+    </note>
+    <note handle="_f14a3e25a013e382cc4e4ea42e7" change="1658132328" id="N2212" type="Citation">
+      <text>Hufvudstadsbladet, 19.11.1925, nro 316, s. 1
+https://digi.kansalliskirjasto.fi/sanomalehti/binding/1397606?page=1
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f14a450bf1a67cf7f5f4fe0b3ab" change="1658133148" id="N2216" type="Research">
+      <text>Kuolinilmoituksessa on käynyt ilmeisesti virhe 
+sekä etunimen kanssa  (po. Maria -&gt; Sofia)
+että syntymäajan kanssa (7.6 -&gt; 9.7 )
+
+Todennäköisesti kyseessä on kuitenkin sama henkilö; 
+- kaksi kolmesta etunimestä täsmää,
+- sukunimi täsmää,
+- syntymävuosi täsmää, 
+- kuolinpäivä täsmää</text>
+    </note>
+    <note handle="_f14a463603157dd7faccfb0c652" change="1658133173" id="N2217" type="Citation">
+      <text>Hufvudstadsbladet, 25.11.1925, nro 322, s. 10
+https://digi.kansalliskirjasto.fi/sanomalehti/binding/1397668?page=10
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f14a4a477855b5009633d0f529e" change="1658133600" id="N2218" type="Source text">
+      <text>STORDELL MARIA CHARLOTTA WILHELMINA
+1873 - 1925
+Helsingin seurakuntayhtymä, Malmin hautausmaa
+Syntymävuosi	1873
+Kuolinvuosi	1925
+Hautausmaa	
+Malmin hautausmaa
+Malmin kalmistotie
+00700 Helsinki
+Alue	00
+Kortteli	018
+Rivi	01
+Paikkanumero	00022</text>
     </note>
   </notes>
 </database>
