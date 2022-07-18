@@ -7089,7 +7089,7 @@
       <place hlink="_cdf82fb91b45aadb551"/>
       <citationref hlink="_d6ca953fc294dae2785844359a8"/>
     </event>
-    <event handle="_cb589cfbfb040f0b4a8" change="1595348535" id="E7058">
+    <event handle="_cb589cfbfb040f0b4a8" change="1658143435" id="E7058">
       <type>Marriage Banns</type>
       <dateval val="1907-06-02"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
@@ -10779,7 +10779,7 @@
       <citationref hlink="_f14a4a58e4221e18c4817b95965"/>
       <citationref hlink="_f14a4c31e1426e383d701204239"/>
     </event>
-    <event handle="_dcddc381ecc266604265b08c85c" change="1595159944" id="E2366">
+    <event handle="_dcddc381ecc266604265b08c85c" change="1658143517" id="E2366">
       <type>Death</type>
       <dateval val="1929-03-04"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
@@ -13495,12 +13495,13 @@
       <citationref hlink="_d007585432e69f66109"/>
       <citationref hlink="_e725052fa0192a9307d405e326"/>
     </event>
-    <event handle="_e82029c63404588753fd8a876b4" change="1628022245" id="E0045">
+    <event handle="_e82029c63404588753fd8a876b4" change="1658143628" id="E0045">
       <type>Burial</type>
       <dateval val="1929-03-10"/>
-      <place hlink="_e82029a50ec36629ca48da3ab9c"/>
+      <place hlink="_f14a4b413a34a9d0f8d8ef59738"/>
+      <citationref hlink="_f14aa97427c56a7c0b702878291"/>
+      <citationref hlink="_f14aa996a3515805ba20590d21d"/>
       <citationref hlink="_dcddc5150652c4063ac1a5d4244"/>
-      <citationref hlink="_e8202e3469d4e673d1b4813b859"/>
     </event>
     <event handle="_e8203932b2a22b7e3c551923892" change="1658134782" id="E0046">
       <type>Burial</type>
@@ -13553,7 +13554,7 @@
       <citationref hlink="_f14a687a31a6d74df9eff10e424"/>
       <citationref hlink="_f14a6806f7c3095f2a8e4cc3ec3"/>
     </event>
-    <event handle="_e820d1f614b115c02a3c65393ba" change="1595172869" id="E0054">
+    <event handle="_e820d1f614b115c02a3c65393ba" change="1658142275" id="E0054">
       <type>Marriage</type>
       <dateval val="1891-03-07"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
@@ -15364,6 +15365,12 @@
       <dateval val="1917-09-23"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_f14a6dceacb4768105e0af76e4b"/>
+    </event>
+    <event handle="_f14aa816c3458ec39156b8ce175" change="1658143485" id="E0433">
+      <type>Marriage</type>
+      <dateval val="1907-06"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_e1865381659243739e61bb9df81"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -27872,11 +27879,12 @@
       <childref hlink="_cb589cc92dd6232fd94"/>
       <childref hlink="_cb589cc935141d977cb"/>
     </family>
-    <family handle="_cb589cc844867fcce24" change="1595620724" id="F2216">
+    <family handle="_cb589cc844867fcce24" change="1658143648" id="F2216">
       <rel type="Married"/>
       <father hlink="_cf99bf30a9136795670"/>
       <mother hlink="_cb589cc84347c619504"/>
       <eventref hlink="_cb589cfbfb040f0b4a8" role="Family"/>
+      <eventref hlink="_f14aa816c3458ec39156b8ce175" role="Family"/>
       <eventref hlink="_dcde078f6407ba7e577c9643ae1" role="Family"/>
       <eventref hlink="_dcde091937862c54401a33fff5e" role="Family"/>
       <eventref hlink="_dcde0cc1bdf34680b1623a28849" role="Family"/>
@@ -40492,6 +40500,17 @@
       <noteref hlink="_f14a6c6a5dd6ff84d065d8a0abf"/>
       <noteref hlink="_f14a6dc05ef41af48b6ec92706a"/>
       <sourceref hlink="_cdea76d18dc4cf3ac19"/>
+    </citation>
+    <citation handle="_f14aa97427c56a7c0b702878291" change="1658143580" id="C1385">
+      <page>STORDELL KARL FREDRIK</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f14aa9619d9b853b089f3ffd75"/>
+      <sourceref hlink="_f14512880813e77217f42ad78d9"/>
+    </citation>
+    <citation handle="_f14aa996a3515805ba20590d21d" change="1658143594" id="C1386">
+      <page>KARL FREDRIK</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_f14a4c0bd5256252c989dc0019a"/>
     </citation>
   </citations>
   <sources>
@@ -64933,6 +64952,21 @@ Stordell;</text>
       <text>Aftonposten, 24.08.1896, nro 195, s. 1
 https://digi.kansalliskirjasto.fi/sanomalehti/binding/503082?page=1
 Kansalliskirjaston digitaaliset aineistot</text>
+    </note>
+    <note handle="_f14aa9619d9b853b089f3ffd75" change="1658143572" id="N2224" type="Source text">
+      <text>STORDELL KARL FREDRIK
+1868 - 1929
+Helsingin seurakuntayhtymä, Malmin hautausmaa
+Syntymävuosi	1868
+Kuolinvuosi	1929
+Hautausmaa	
+Malmin hautausmaa
+Malmin kalmistotie
+00700 Helsinki
+Alue	00
+Kortteli	018
+Rivi	01
+Paikkanumero	00022</text>
     </note>
   </notes>
 </database>
