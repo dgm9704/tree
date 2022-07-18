@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2022-07-17" version="5.1.5"/>
+    <created date="2022-07-18" version="5.1.5"/>
     <researcher>
     </researcher>
   </header>
@@ -13257,7 +13257,7 @@
       <citationref hlink="_cde65183e49656a79fd"/>
       <citationref hlink="_cdeaa4cbe6c5f279b84"/>
     </event>
-    <event handle="_e1818d6e22a1e8a684c647e2937" change="1595357920" id="E2869">
+    <event handle="_e1818d6e22a1e8a684c647e2937" change="1658131413" id="E2869">
       <type>Residence</type>
       <datespan start="1907" stop="1909"/>
       <place hlink="_e1818e3101f6eed82eb5ab19c2e"/>
@@ -13645,7 +13645,7 @@
       <citationref hlink="_e824c37295c42a278de3dfedcff"/>
       <citationref hlink="_e824c3b98e45294e1c656000ee3"/>
     </event>
-    <event handle="_e824c5d7def3feebfade6247365" change="1595349354" id="E0066">
+    <event handle="_e824c5d7def3feebfade6247365" change="1658130257" id="E0066">
       <type>Residence</type>
       <datespan start="1911" stop="1912"/>
       <place hlink="_e824c5cd07c6c47d763f376f448"/>
@@ -15325,6 +15325,25 @@
       <citationref hlink="_f14820f38066ea58e390c96cbc9"/>
       <citationref hlink="_f14798b27f16fd0a238d358d817"/>
       <citationref hlink="_f1481ee0b8949e9281eb2165689"/>
+    </event>
+    <event handle="_f148acc2c3b2f19ed52676912d8" change="1658090589" id="E0428">
+      <type>Marriage</type>
+      <daterange start="1937-07-23" stop="1937-08-19"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_f148afe76d53e8d29941ce7f6a4"/>
+      <citationref hlink="_f148ab6bd4f735ee4485afafa80"/>
+    </event>
+    <event handle="_f148afeb61f485332835267f37e" change="1658125218" id="E0429">
+      <type>Marriage Banns</type>
+      <dateval val="1937-07-23" type="before"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_f148afe76d53e8d29941ce7f6a4"/>
+    </event>
+    <event handle="_f14a2afbe707a18d1a469b84636" change="1658130318" id="E0430">
+      <type>Residence</type>
+      <dateval val="1910"/>
+      <place hlink="_e824c5cd07c6c47d763f376f448"/>
+      <citationref hlink="_f14a2a3c2aad66a3d38de63d2e"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -24701,11 +24720,11 @@
       <eventref hlink="_cea5c19ee174434494c" role="Primary"/>
       <parentin hlink="_cb589cc80ce75a0e92d"/>
     </person>
-    <person handle="_cea5c58f2224fbd6a49" change="1657994970" id="I1393">
+    <person handle="_cea5c58f2224fbd6a49" change="1658089557" id="I1393">
       <gender>F</gender>
-      <name type="Married Name">
+      <name type="Birth Name">
         <first>Elsa Maria</first>
-        <surname derivation="Taken">Nyström</surname>
+        <surname derivation="Inherited">Nyström</surname>
       </name>
       <eventref hlink="_f1451f979843d82de888b3abd2c" role="Primary"/>
       <eventref hlink="_f145200d8ea1c8164b4dc1e3c8a" role="Primary"/>
@@ -24769,7 +24788,7 @@
       <eventref hlink="_cea5cc6a8707d25790e" role="Primary"/>
       <parentin hlink="_cb589cd838930e5fcfd"/>
     </person>
-    <person handle="_cea5cca2afb352181a9" change="1658058994" id="I1401">
+    <person handle="_cea5cca2afb352181a9" change="1658131096" id="I1401">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Viktor Wilhelm</first>
@@ -24781,6 +24800,7 @@
       <eventref hlink="_f147253819d12f2ecc13bdedc81" role="Primary"/>
       <eventref hlink="_f147291623258495da1a6424226" role="Primary"/>
       <eventref hlink="_f14775e1de52c65166bc92b4791" role="Primary"/>
+      <eventref hlink="_f14a2afbe707a18d1a469b84636" role="Primary"/>
       <eventref hlink="_e824887f0f549e233da43838c9a" role="Primary"/>
       <eventref hlink="_e8248c486427845e1ec0bf8c1b2" role="Primary"/>
       <childof hlink="_f145b30c9d43a62b284bb5f6504"/>
@@ -27684,7 +27704,7 @@
       <eventref hlink="_f1251851e3e2c53bf3cda20bc44" role="Primary"/>
       <parentin hlink="_cb589ccba734358673b"/>
     </person>
-    <person handle="_f145205d9324bf78d163d7650df" change="1657995099" id="I0037">
+    <person handle="_f145205d9324bf78d163d7650df" change="1658090607" id="I0037">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Bo Håkan</first>
@@ -28094,10 +28114,12 @@
       <childref hlink="_cb589ccc450050bcad3"/>
       <childref hlink="_cb589ccc4845e52a937"/>
     </family>
-    <family handle="_cb589cc947140ff72b2" change="1657995099" id="F2513">
+    <family handle="_cb589cc947140ff72b2" change="1658090607" id="F2513">
       <rel type="Married"/>
       <father hlink="_cb589cc945367eb70ef"/>
       <mother hlink="_cea5c58f2224fbd6a49"/>
+      <eventref hlink="_f148afeb61f485332835267f37e" role="Family"/>
+      <eventref hlink="_f148acc2c3b2f19ed52676912d8" role="Family"/>
       <childref hlink="_f145205d9324bf78d163d7650df"/>
     </family>
     <family handle="_cb589cc94c27abe7a70" change="1414284937" id="F2121">
@@ -40368,6 +40390,32 @@
       <noteref hlink="_f148918ea92525f6e7df8aff042"/>
       <sourceref hlink="_cdea76d18dc4cf3ac19"/>
     </citation>
+    <citation handle="_f148ab6bd4f735ee4485afafa80" change="1658090099" id="C1375">
+      <dateval val="1937-08-19"/>
+      <page>189/4</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f148a9e39882ab374c509626a7a"/>
+      <noteref hlink="_f148aa293d632da03738f2585e8"/>
+      <noteref hlink="_f148ab67db05b582b512a2b2435"/>
+      <sourceref hlink="_f148a9c939a63134f66cd193449"/>
+    </citation>
+    <citation handle="_f148afe76d53e8d29941ce7f6a4" change="1658090569" id="C1376">
+      <dateval val="1937-07-23"/>
+      <page>194/11</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f148ae7f8851b3f3720e89adcfd"/>
+      <noteref hlink="_f148aea0f92278ef0684fec5247"/>
+      <noteref hlink="_f148afe471872444feaf71524bd"/>
+      <sourceref hlink="_cdea76d18dc4cf3ac19"/>
+    </citation>
+    <citation handle="_f14a2a3c2aad66a3d38de63d2e" change="1658130240" id="C1377">
+      <page>1910/460</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f14a28dcb937ca01b0048ce5e5b"/>
+      <noteref hlink="_f14a2903f465118e8437d9f0c02"/>
+      <noteref hlink="_f14a2a152973b90d55ce7daccce"/>
+      <sourceref hlink="_dcde0a1be9d745544ed78a5f038"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -43215,6 +43263,10 @@
       <sauthor>Suomen Postiljooniyhdistys</sauthor>
       <reporef hlink="_cdea68c6afd7d08bd3f" medium="Book"/>
     </source>
+    <source handle="_f148a9c939a63134f66cd193449" change="1658089927" id="S0569">
+      <stitle>Svenska Pressen</stitle>
+      <reporef hlink="_cdea68c6afd7d08bd3f" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1595618071" id="P0000" type="City">
@@ -45705,13 +45757,16 @@
       <pname value="Skepparegatan 21"/>
       <placeref hlink="_e824c21b86130668bcba8b21e8"/>
     </placeobj>
-    <placeobj handle="_e824c5c89ed3e1810449a39b31c" change="1595278967" id="P0055" type="Neighborhood">
+    <placeobj handle="_e824c5c89ed3e1810449a39b31c" change="1658127860" id="P0055" type="Neighborhood">
       <code>108</code>
-      <pname value="Simpan"/>
+      <pname value="Simpan" lang="se"/>
+      <pname value="Simppu" lang="fi"/>
       <placeref hlink="_e824ae5b00d248ba235e4fd2ebe"/>
     </placeobj>
-    <placeobj handle="_e824c5cd07c6c47d763f376f448" change="1595278968" id="P0056" type="Building">
-      <pname value="Jägaregatan 13"/>
+    <placeobj handle="_e824c5cd07c6c47d763f376f448" change="1658128427" id="P0056" type="Building">
+      <code>tontti 13</code>
+      <pname value="Jägaregatan 13" lang="se"/>
+      <pname value="Metsästäjänkatu 13" lang="fi"/>
       <placeref hlink="_e824c5c89ed3e1810449a39b31c"/>
     </placeobj>
     <placeobj handle="_e83167bf848523e42d5b27a5c6c" change="1595620301" id="P0057" type="Borough">
@@ -45944,7 +45999,7 @@
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
     </repository>
-    <repository handle="_cdea68c6afd7d08bd3f" change="1658057190" id="R0003">
+    <repository handle="_cdea68c6afd7d08bd3f" change="1658089924" id="R0003">
       <rname>Kansalliskirjasto digitoidut aineistot</rname>
       <type>Web site</type>
       <url  href="http://digi.lib.helsinki.fi/" type="Web Home"/>
@@ -64614,6 +64669,82 @@ härmed vårt djupt kända tack.
       </style>
       <style name="fontface" value="Monospace">
         <range start="0" end="265"/>
+      </style>
+    </note>
+    <note handle="_f148a9e39882ab374c509626a7a" change="1658089938" id="N2201" type="Citation">
+      <text>Svenska Pressen, 19.08.1937, nro 189, s. 4
+https://digi.kansalliskirjasto.fi/sanomalehti/binding/2216936?page=4
+Kansalliskirjaston digitaaliset aineistot</text>
+    </note>
+    <note handle="_f148aa293d632da03738f2585e8" change="1658089967" id="N2204" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/2216936?term=Ragnar%20Viktor%20Nystr%C3%B6m&amp;page=4</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/sanomalehti/binding/2216936?term=Ragnar%20Viktor%20Nystr%C3%B6m&amp;page=4">
+        <range start="0" end="104"/>
+      </style>
+    </note>
+    <note handle="_f148ab67db05b582b512a2b2435" change="1658090232" id="N2205" type="Transcript" format="1">
+      <text>             Vigda.
+[...]
+S[ödra] sv[enska]:[...]           konto-
+risten Ragnar Viktor Nyström o frk. Elsa
+Maria Nyström,</text>
+      <style name="bold">
+        <range start="0" end="19"/>
+        <range start="26" end="43"/>
+      </style>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="122"/>
+      </style>
+    </note>
+    <note handle="_f148ae7f8851b3f3720e89adcfd" change="1658090422" id="N2206" type="Citation">
+      <text>Hufvudstadsbladet, 23.07.1937, nro 194, s. 11
+https://digi.kansalliskirjasto.fi/sanomalehti/binding/2212725?page=11
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f148aea0f92278ef0684fec5247" change="1658090435" id="N2207" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/2212725?term=Ragnar%20Viktor%20Nystr%C3%B6m&amp;page=11</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/sanomalehti/binding/2212725?term=Ragnar%20Viktor%20Nystr%C3%B6m&amp;page=11">
+        <range start="0" end="105"/>
+      </style>
+    </note>
+    <note handle="_f148afe471872444feaf71524bd" change="1658090568" id="N2208" type="Transcript" format="1">
+      <text>Meddelanden från pastors-
+       kanslierna
+Lysningar.
+[...]
+Södra svenska: 
+[...]    kontoristen Rangar Viktor Ny-
+ström o. Elsa Maria Nyström,</text>
+      <style name="bold">
+        <range start="0" end="55"/>
+        <range start="61" end="76"/>
+      </style>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="144"/>
+      </style>
+    </note>
+    <note handle="_f14a28dcb937ca01b0048ce5e5b" change="1658130096" id="N2209" type="Citation">
+      <text>Helsingin ja ympäristön osote- ja ammattikalenteri, 01.01.1910, s. 688
+https://digi.kansalliskirjasto.fi/aikakausi/binding/1161977?page=688
+Kansalliskirjaston digitaaliset aineistot</text>
+    </note>
+    <note handle="_f14a2903f465118e8437d9f0c02" change="1658130112" id="N2210" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1161977?page=688</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1161977?page=688">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_f14a2a152973b90d55ce7daccce" change="1658130224" id="N2211" type="Transcript" format="1">
+      <text>Nyström
+[...]
+- Viktor W., postelj., Metsästäjänk. 13 pr F.</text>
+      <style name="bold">
+        <range start="0" end="7"/>
+        <range start="16" end="26"/>
+      </style>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="59"/>
       </style>
     </note>
   </notes>
