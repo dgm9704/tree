@@ -154,7 +154,7 @@
       <citationref hlink="_d0169be00b702b26569"/>
       <citationref hlink="_da7cd18958d75a53b3b89af47e7"/>
     </event>
-    <event handle="_cca1691384735bf6855" change="1657552190" id="E0027">
+    <event handle="_cca1691384735bf6855" change="1658173214" id="E0027">
       <type>Death</type>
       <dateval val="1952-12-29"/>
       <place hlink="_cca1691056519fef9d5"/>
@@ -542,9 +542,9 @@
       <citationref hlink="_f14b6e944ee637af0ce9abc6fc7"/>
       <citationref hlink="_f14b6f2044019aa40399280a3fa"/>
     </event>
-    <event handle="_cdd6fee780248c9481f" change="1657552173" id="E0193">
+    <event handle="_cdd6fee780248c9481f" change="1658174162" id="E0193">
       <type>Occupation</type>
-      <datespan start="1941-01-01" stop="1952-12-29"/>
+      <datespan start="1944-07-30" stop="1952-12-29"/>
       <place hlink="_cca1691056519fef9d5"/>
       <description>Poliisi</description>
       <citationref hlink="_f13222b85dc566eea2ca4a01ee3"/>
@@ -725,7 +725,7 @@
       <citationref hlink="_d01455b60f1053dd61f"/>
       <citationref hlink="_d0145824a873dc9ae2d"/>
     </event>
-    <event handle="_d017296e34e013b1cf6" change="1657447575" id="E0128">
+    <event handle="_d017296e34e013b1cf6" change="1658173245" id="E0128">
       <type>Burial</type>
       <dateval val="1953-01-11"/>
       <place hlink="_f130b9b233b61a1735522db28e6"/>
@@ -1216,9 +1216,10 @@
       <citationref hlink="_f13255155a420dcec1737732816"/>
       <citationref hlink="_d01727fae192634bb01"/>
     </event>
-    <event handle="_f1325cca64c3a08ad42a853ca9d" change="1657552117" id="E0095">
+    <event handle="_f1325cca64c3a08ad42a853ca9d" change="1658173775" id="E0095">
       <type>Conscription</type>
       <datespan start="1818-08-08" stop="1919-10-15"/>
+      <place hlink="_f14bc2980b3765239cd2a037b82"/>
       <citationref hlink="_f13242322b88b147207718fb43"/>
       <citationref hlink="_f134a0cd623566308f4d7b8b98e"/>
     </event>
@@ -1242,6 +1243,31 @@
       <place hlink="_f134cb27faa731c437b5a8fa110"/>
       <description>Vahtitorninkatu 12 as 7</description>
       <citationref hlink="_f134cee3e3c2d5162a5c5263f44"/>
+    </event>
+    <event handle="_f14bbea6570545f59efface3808" change="1658173193" id="E0099">
+      <type>Military Service</type>
+      <datespan start="1941-08-31" stop="1944-06-20"/>
+      <description>Viipurin sotilashallintopiirin esikunnan alainen poliisiosasto</description>
+      <citationref hlink="_f14bbea361a26f71219cd28d299"/>
+      <citationref hlink="_f14bc36f74726a099bb7c4e398b"/>
+    </event>
+    <event handle="_f14bc76cc4ccc912a8abb12463" change="1658173829" id="E0100">
+      <type>Military Service</type>
+      <datespan start="1939-12-08" stop="1940-03-04"/>
+      <description>97 Sotilaspiiri</description>
+      <citationref hlink="_f134a0cd623566308f4d7b8b98e"/>
+      <citationref hlink="_f14bc9e890c3c880202b416583a"/>
+    </event>
+    <event handle="_f14bca66b2a4f5ada1c6a80a25" change="1658173878" id="E0101">
+      <type>Military Service</type>
+      <datespan start="1940-03-05" stop="1940-05-23"/>
+      <description>Viipurin Sotapoliisipataljoona</description>
+    </event>
+    <event handle="_f14bcc788571113a2f9e350f981" change="1658174395" id="E0102">
+      <type>Military Service</type>
+      <datespan start="1944-06-21" stop="1944-07-29"/>
+      <description>PM:n Sotilashallinto-osasto</description>
+      <citationref hlink="_f14bcd5f941423f74c932310c8e"/>
     </event>
   </events>
   <people home="_cca1691b7c53559cc53">
@@ -1455,7 +1481,7 @@
       <childof hlink="_cca167070917742a369"/>
       <parentin hlink="_cca16c73e9d13f8c0de"/>
     </person>
-    <person handle="_cca1691b7c53559cc53" change="1657491547" id="I0021">
+    <person handle="_cca1691b7c53559cc53" change="1658174441" id="I0021">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Heikki</first>
@@ -1465,6 +1491,10 @@
       <eventref hlink="_f1325cca64c3a08ad42a853ca9d" role="Primary"/>
       <eventref hlink="_f1323c5361dc6499bd99e5ad8a" role="Primary"/>
       <eventref hlink="_cdd6fd51e087e594ea3" role="Primary"/>
+      <eventref hlink="_f14bc76cc4ccc912a8abb12463" role="Primary"/>
+      <eventref hlink="_f14bca66b2a4f5ada1c6a80a25" role="Primary"/>
+      <eventref hlink="_f14bbea6570545f59efface3808" role="Primary"/>
+      <eventref hlink="_f14bcc788571113a2f9e350f981" role="Primary"/>
       <eventref hlink="_cdd6fee780248c9481f" role="Primary"/>
       <eventref hlink="_cca1691384735bf6855" role="Primary"/>
       <eventref hlink="_d017296e34e013b1cf6" role="Primary"/>
@@ -2980,10 +3010,9 @@
       <confidence>2</confidence>
       <sourceref hlink="_f1321a586f95e4299e9c0ca5ee5"/>
     </citation>
-    <citation handle="_f13242322b88b147207718fb43" change="1657491295" id="C0119">
+    <citation handle="_f13242322b88b147207718fb43" change="1658173772" id="C0119">
       <page>0</page>
       <confidence>2</confidence>
-      <noteref hlink="_f132421f15ce4bd2050a727968"/>
       <sourceref hlink="_f1323f9b95b3a9f158612b5158e"/>
     </citation>
     <citation handle="_f13252159c56f6b1da175711a39" change="1657490293" id="C0120">
@@ -3558,6 +3587,24 @@
       <noteref hlink="_f14b6f1c9ad69e4bd450335caeb"/>
       <sourceref hlink="_f14b6ba3709d2b6e0855a34c16"/>
     </citation>
+    <citation handle="_f14bbea361a26f71219cd28d299" change="1658172645" id="C0193">
+      <dateval val="1944-08-19"/>
+      <page>1</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_f14bbe811d6294bb331053becc2"/>
+    </citation>
+    <citation handle="_f14bc36f74726a099bb7c4e398b" change="1658173148" id="C0194">
+      <confidence>2</confidence>
+      <sourceref hlink="_f1323f9b95b3a9f158612b5158e"/>
+    </citation>
+    <citation handle="_f14bc9e890c3c880202b416583a" change="1658173826" id="C0195">
+      <confidence>2</confidence>
+      <sourceref hlink="_f1323f9b95b3a9f158612b5158e"/>
+    </citation>
+    <citation handle="_f14bcd5f941423f74c932310c8e" change="1658174190" id="C0196">
+      <confidence>2</confidence>
+      <sourceref hlink="_f14bbe811d6294bb331053becc2"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdd044203935b79cba4" change="1429553707" id="S0000">
@@ -3795,9 +3842,8 @@
       <sauthor>Kansaneläkelaitos</sauthor>
       <reporef hlink="_cdd40c4a391713e0c40" medium="Book"/>
     </source>
-    <source handle="_da7cd105eaa437f39d9cfcb1a75" change="1502017832" id="S0006">
-      <stitle>Hautakivi Heikki Taponen/Maria Taponen</stitle>
-      <sauthor>Malmin hautausmaa, Helsinki</sauthor>
+    <source handle="_da7cd105eaa437f39d9cfcb1a75" change="1658173239" id="S0006">
+      <stitle>Hautakivi Taponen Malmi</stitle>
       <reporef hlink="_da7cd0f7c6f225d0238a32c59c9" medium="Book"/>
     </source>
     <source handle="_da86bf9faf6288ea41e2920fbfd" change="1501701721" id="S0047">
@@ -3859,8 +3905,10 @@
       <sauthor>Helsingin kaupungin poliisipiiri</sauthor>
       <noteref hlink="_f13495a2615b087a24acf9bff1"/>
     </source>
-    <source handle="_f1323f9b95b3a9f158612b5158e" change="1657552308" id="S0059">
+    <source handle="_f1323f9b95b3a9f158612b5158e" change="1658173769" id="S0059">
       <stitle>Taponen Heikki Sotilaskantakortti</stitle>
+      <sauthor>Puolustusvoimat</sauthor>
+      <noteref hlink="_f132421f15ce4bd2050a727968"/>
     </source>
     <source handle="_f1325192d846c66786c068286ce" change="1657490120" id="S0060">
       <stitle>MyHeritage</stitle>
@@ -3880,6 +3928,12 @@
       <stitle>Suomen Poliisilehti</stitle>
       <reporef hlink="_e82ad582ccf1a5bb6c285c46da3" medium="Book"/>
     </source>
+    <source handle="_f14bbe811d6294bb331053becc2" change="1658173162" id="S0064">
+      <stitle>Taponen Heikki Todistus palveluksesta</stitle>
+      <sauthor>Viipurin sotilashallintopiiri</sauthor>
+      <noteref hlink="_f14bbe744126dd7edc84ae9425a"/>
+      <reporef hlink="_d0168c6675349284408" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cca1691056519fef9d5" change="1657487885" id="P0001" type="Town">
@@ -3892,7 +3946,7 @@
       <pname value="Liperi"/>
       <placeref hlink="_cdbd00250510bf9a5de"/>
     </placeobj>
-    <placeobj handle="_cdbd00250510bf9a5de" change="1657555740" id="P0003" type="Country">
+    <placeobj handle="_cdbd00250510bf9a5de" change="1658173058" id="P0003" type="Country">
       <ptitle>Suomi</ptitle>
       <pname value="Suomi"/>
     </placeobj>
@@ -4149,7 +4203,16 @@
       <pname value="Vahtitorninkatu 12"/>
       <placeref hlink="_f134cb1ed02697f7ae0f33cdb46"/>
     </placeobj>
+    <placeobj handle="_f14bc2980b3765239cd2a037b82" change="1658173059" id="P0059" type="Military unit">
+      <pname value="Pohjois-Savon Rykmentti" lang="fi"/>
+      <placeref hlink="_cdbd00250510bf9a5de"/>
+    </placeobj>
   </places>
+  <objects>
+    <object handle="_f14bb3adc0e4dd9d59b0f43c23f" change="1658171495" id="O0000">
+      <file src="/home/john/2021-09-02-192001_3120x1920_scrot.png" mime="image/png" checksum="55d0f8f4f35be1f88b3fb9c4d5dd55be" description="2021-09-02-192001_3120x1920_scrot"/>
+    </object>
+  </objects>
   <repositories>
     <repository handle="_cdd40c4a391713e0c40" change="1502023741" id="R0000">
       <rname>Arkistolaitos Digitaaliarkisto</rname>
@@ -4181,7 +4244,7 @@
       <url  href="https://astia.narc.fi/astiaUi/" type="Web Home"/>
       <url  href="https://astia.narc.fi/astiaUi/search.php" type="Web Search"/>
     </repository>
-    <repository handle="_d0168c6675349284408" change="1657549360" id="R0004">
+    <repository handle="_d0168c6675349284408" change="1658172568" id="R0004">
       <rname>Omat arkistot</rname>
       <type>Archive</type>
     </repository>
@@ -5795,13 +5858,14 @@ Numerolaatan N:o 128 [yliviivattu]
 Poliisikaavake N:o
 </text>
     </note>
-    <note handle="_f132421f15ce4bd2050a727968" change="1657529597" id="N0168" type="Transcript">
+    <note handle="_f132421f15ce4bd2050a727968" change="1658173768" id="N0168" type="Transcript">
       <text>e. Määrätty ast. vak. palvelukseen 8/8 1918
 f. Jk.os. johon määrätty: P.SR.
 g. Saapunut 8/8 1918, ja määrätty:
 h. Vapautettu 15/10 1919 Täysin palvelleena
 i. Palvelusaika: 1v 3kk
-j. Vakinainen asuinpaikka ja osoite kotiuttamisen jälkeen: H:ki Merimiehenk. 21 A 19</text>
+j. Vakinainen asuinpaikka ja osoite kotiuttamisen jälkeen: H:ki Merimiehenk. 21 A 19
+</text>
     </note>
     <note handle="_f13250db43a1dc803f019ceb57b" change="1657490045" id="N0169" type="Link">
       <text>https://www.myheritage.fi/research/collection-1/myheritage-sukupuut?itemId=378513581-1-500002&amp;action=showRecord&amp;recordTitle=Vuokko+Onerva+Kotilainen+%28o.s.+Taponen%29</text>
@@ -6790,6 +6854,29 @@ Kansalliskirjaston digitaaliset aineistot</text>
       <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/904589?term=Taponen&amp;page=11</text>
       <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/904589?term=Taponen&amp;page=11">
         <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f14bbe744126dd7edc84ae9425a" change="1658172625" id="N0315" type="Transcript" format="1">
+      <text>               Vanhempi konstaapeli  Heikki  T a p o n e n  on
+palvellut Viipurin sotilashallintopiirin esikunnan alaisessa po-
+liisiosastossa 31.8.1941 ja 20.6.1944 välisen ajan sekä sen jäl-
+keen PM:n Sotilashallinto-osaston erikoistehtävissä aina Helsin-
+gin poliisilaitkseen komentamiseensa saakka.
+
+               Lappeenrannassa, elokuun 19 päivänä 1944.
+
+
+               Sotilahallintopäällikkö      &lt;Eemil Kokko&gt;
+                              Kapteeni_________________________
+                                             Eemil Kokko
+
+
+                       Toimistoupseeri     &lt;Arvo Salminen&gt;
+                            Luutnantti_________________________
+                                             Arvo Salminen
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="726"/>
       </style>
     </note>
   </notes>
