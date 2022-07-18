@@ -13502,7 +13502,7 @@
       <citationref hlink="_dcddc5150652c4063ac1a5d4244"/>
       <citationref hlink="_e8202e3469d4e673d1b4813b859"/>
     </event>
-    <event handle="_e8203932b2a22b7e3c551923892" change="1658133973" id="E0046">
+    <event handle="_e8203932b2a22b7e3c551923892" change="1658134782" id="E0046">
       <type>Burial</type>
       <dateval val="1925-11-22"/>
       <place hlink="_f14a4b413a34a9d0f8d8ef59738"/>
@@ -13517,21 +13517,24 @@
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_e820c47a7031f1513849fc2e983"/>
     </event>
-    <event handle="_e820c56bd2d649cea6d02073cae" change="1595173571" id="E0048">
+    <event handle="_e820c56bd2d649cea6d02073cae" change="1658137662" id="E0048">
       <type>Birth</type>
       <dateval val="1854-08-05"/>
       <citationref hlink="_e820c47a7031f1513849fc2e983"/>
       <citationref hlink="_e820d63a60252188d735631bae7"/>
     </event>
-    <event handle="_e820c69274f48f61a6e4d55661" change="1595171681" id="E0049">
+    <event handle="_e820c69274f48f61a6e4d55661" change="1658136145" id="E0049">
       <type>Death</type>
       <dateval val="1970-09-15"/>
-      <citationref hlink="_e8202e3469d4e673d1b4813b859"/>
+      <citationref hlink="_f14a61fb58c5037b17f1ba338fc"/>
+      <citationref hlink="_f14a625035b708428b1272122a9"/>
     </event>
-    <event handle="_e820c6dc1ae424b3d1fb27fdad1" change="1595171705" id="E0050">
+    <event handle="_e820c6dc1ae424b3d1fb27fdad1" change="1658136829" id="E0050">
       <type>Burial</type>
-      <place hlink="_e82029a50ec36629ca48da3ab9c"/>
-      <citationref hlink="_e8202e3469d4e673d1b4813b859"/>
+      <dateval val="1970"/>
+      <place hlink="_f14a4b413a34a9d0f8d8ef59738"/>
+      <citationref hlink="_f14a61fb58c5037b17f1ba338fc"/>
+      <citationref hlink="_f14a625035b708428b1272122a9"/>
     </event>
     <event handle="_e820c8a133211e24f46241856f5" change="1595171891" id="E0051">
       <type>Birth</type>
@@ -13543,10 +13546,12 @@
       <dateval val="1966-05-09"/>
       <citationref hlink="_e8202e3469d4e673d1b4813b859"/>
     </event>
-    <event handle="_e820c91192e20916ebc04f8969e" change="1595171937" id="E0053">
+    <event handle="_e820c91192e20916ebc04f8969e" change="1658136818" id="E0053">
       <type>Burial</type>
-      <place hlink="_e82029a50ec36629ca48da3ab9c"/>
-      <citationref hlink="_e8202e3469d4e673d1b4813b859"/>
+      <dateval val="1966"/>
+      <place hlink="_f14a4b413a34a9d0f8d8ef59738"/>
+      <citationref hlink="_f14a687a31a6d74df9eff10e424"/>
+      <citationref hlink="_f14a6806f7c3095f2a8e4cc3ec3"/>
     </event>
     <event handle="_e820d1f614b115c02a3c65393ba" change="1595172869" id="E0054">
       <type>Marriage</type>
@@ -13554,7 +13559,7 @@
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_e820d137ec479af7b09e681190e"/>
     </event>
-    <event handle="_e820d8274ab33fb8c13cec55807" change="1595173519" id="E0055">
+    <event handle="_e820d8274ab33fb8c13cec55807" change="1658137598" id="E0055">
       <type>Death</type>
       <dateval val="1896-08-19"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
@@ -15348,6 +15353,17 @@
       <dateval val="1910"/>
       <place hlink="_e824c5cd07c6c47d763f376f448"/>
       <citationref hlink="_f14a2a3c2aad66a3d38de63d2e"/>
+    </event>
+    <event handle="_f14a6df596b3373d9a96f7cb1e2" change="1658137341" id="E0431">
+      <type>Marriage</type>
+      <dateval val="1917-10"/>
+      <citationref hlink="_f14a6dceacb4768105e0af76e4b"/>
+    </event>
+    <event handle="_f14a6e9199e784e95c0962f3e38" change="1658137405" id="E0432">
+      <type>Marriage Banns</type>
+      <dateval val="1917-09-23"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_f14a6dceacb4768105e0af76e4b"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -26794,11 +26810,16 @@
       <eventref hlink="_e820d8274ab33fb8c13cec55807" role="Primary"/>
       <parentin hlink="_e820bf510f63e8b7a42c91d3cc4"/>
     </person>
-    <person handle="_e820bffcb0417beb1d9e61ccbba" change="1595172881" id="I0005">
+    <person handle="_e820bffcb0417beb1d9e61ccbba" change="1658137456" id="I0005">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Cecilia</first>
         <surname>Stordell</surname>
+      </name>
+      <name alt="1" type="Married Name">
+        <first>Maria Cecilia</first>
+        <surname derivation="Taken">Malmelin</surname>
+        <dateval val="1917-10" type="after"/>
       </name>
       <eventref hlink="_e820c48e5c317ea2203c80cf6f" role="Primary"/>
       <eventref hlink="_e820c69274f48f61a6e4d55661" role="Primary"/>
@@ -30959,10 +30980,12 @@
       <eventref hlink="_e820d1f614b115c02a3c65393ba" role="Family"/>
       <childref hlink="_e820bffcb0417beb1d9e61ccbba"/>
     </family>
-    <family handle="_e820c7577682ec41f433a25620f" change="1595171944" id="F0002">
+    <family handle="_e820c7577682ec41f433a25620f" change="1658137470" id="F0002">
       <rel type="Married"/>
       <father hlink="_e820c826bcf4a4710d089130cfe"/>
       <mother hlink="_e820bffcb0417beb1d9e61ccbba"/>
+      <eventref hlink="_f14a6e9199e784e95c0962f3e38" role="Family"/>
+      <eventref hlink="_f14a6df596b3373d9a96f7cb1e2" role="Family"/>
     </family>
     <family handle="_e8f1209e5774ff3209bff52671" change="1600765189" id="F0003">
       <rel type="Married"/>
@@ -38168,10 +38191,11 @@
       <noteref hlink="_e820d620ad43e23dacfc120b4a5"/>
       <sourceref hlink="_cdeaa816732553f721f"/>
     </citation>
-    <citation handle="_e820d80cef87b534e119f4a79d2" change="1595173508" id="C1088">
+    <citation handle="_e820d80cef87b534e119f4a79d2" change="1658137585" id="C1088">
       <dateval val="1896-08-24"/>
       <page>195/1</page>
       <confidence>2</confidence>
+      <noteref hlink="_f14a7033de7cc5891cdec233a7"/>
       <noteref hlink="_e820d747f6a29cab164af5a889d"/>
       <noteref hlink="_e820d7f737d1efc3335779b6d71"/>
       <sourceref hlink="_e820d70203a2f32fb16fa942ac"/>
@@ -40438,6 +40462,36 @@
       <page>MARIA CHARLOTTA</page>
       <confidence>2</confidence>
       <sourceref hlink="_f14a4c0bd5256252c989dc0019a"/>
+    </citation>
+    <citation handle="_f14a61fb58c5037b17f1ba338fc" change="1658136085" id="C1380">
+      <page>MALMELIN MARICA CECILIA</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_f14512880813e77217f42ad78d9"/>
+    </citation>
+    <citation handle="_f14a625035b708428b1272122a9" change="1658136120" id="C1381">
+      <page>MARIA CECILIA</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_f14a4c0bd5256252c989dc0019a"/>
+    </citation>
+    <citation handle="_f14a6806f7c3095f2a8e4cc3ec3" change="1658136719" id="C1382">
+      <page>MARTIN WILLIAM</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_f14a4c0bd5256252c989dc0019a"/>
+    </citation>
+    <citation handle="_f14a687a31a6d74df9eff10e424" change="1658136766" id="C1383">
+      <page>MALMELIN MARTIN WILLIAM</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f14a68776c81202e9a9073fc53b"/>
+      <sourceref hlink="_f14512880813e77217f42ad78d9"/>
+    </citation>
+    <citation handle="_f14a6dceacb4768105e0af76e4b" change="1658137325" id="C1384">
+      <dateval val="1917-09-26"/>
+      <page>1917-219/14</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f14a6c44c8e54be1ca1e1c4c033"/>
+      <noteref hlink="_f14a6c6a5dd6ff84d065d8a0abf"/>
+      <noteref hlink="_f14a6dc05ef41af48b6ec92706a"/>
+      <sourceref hlink="_cdea76d18dc4cf3ac19"/>
     </citation>
   </citations>
   <sources>
@@ -64799,9 +64853,9 @@ https://digi.kansalliskirjasto.fi/sanomalehti/binding/1397606?page=1
 Kansalliskirjaston digitaaliset aineistot
 </text>
     </note>
-    <note handle="_f14a450bf1a67cf7f5f4fe0b3ab" change="1658133148" id="N2216" type="Research">
+    <note handle="_f14a450bf1a67cf7f5f4fe0b3ab" change="1658134779" id="N2216" type="Research">
       <text>Kuolinilmoituksessa on käynyt ilmeisesti virhe 
-sekä etunimen kanssa  (po. Maria -&gt; Sofia)
+sekä etunimen kanssa  (Maria -&gt; Sofia)
 että syntymäajan kanssa (7.6 -&gt; 9.7 )
 
 Todennäköisesti kyseessä on kuitenkin sama henkilö; 
@@ -64830,6 +64884,55 @@ Alue	00
 Kortteli	018
 Rivi	01
 Paikkanumero	00022</text>
+    </note>
+    <note handle="_f14a68776c81202e9a9073fc53b" change="1658136765" id="N2219" type="Source text">
+      <text>MALMELIN MARTIN WILLIAM
+1891 - 1966
+Helsingin seurakuntayhtymä, Malmin hautausmaa
+Syntymävuosi	1891
+Kuolinvuosi	1966
+Hautausmaa	
+Malmin hautausmaa
+Malmin kalmistotie
+00700 Helsinki
+Alue	00
+Kortteli	018
+Rivi	01
+Paikkanumero	00022</text>
+    </note>
+    <note handle="_f14a6c44c8e54be1ca1e1c4c033" change="1658137164" id="N2220" type="Citation">
+      <text>Hufvudstadsbladet, 26.09.1917, nro 219, s. 14
+https://digi.kansalliskirjasto.fi/sanomalehti/binding/1199566?page=14
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f14a6c6a5dd6ff84d065d8a0abf" change="1658137179" id="N2221" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/1199566?term=Martin%20William%20Malmelin&amp;page=14</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/sanomalehti/binding/1199566?term=Martin%20William%20Malmelin&amp;page=14">
+        <range start="0" end="102"/>
+      </style>
+    </note>
+    <note handle="_f14a6dc05ef41af48b6ec92706a" change="1658137319" id="N2222" type="Transcript" format="1">
+      <text>Meddelanden från pastors-
+       kanslierna
+       
+       Förelysta.
+[...]
+Sörnäs svenska: verkmäst. Martin
+William Malmelin o Maria Cecilia
+Stordell;</text>
+      <style name="bold">
+        <range start="0" end="43"/>
+        <range start="44" end="69"/>
+      </style>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="151"/>
+      </style>
+    </note>
+    <note handle="_f14a7033de7cc5891cdec233a7" change="1658137577" id="N2223" type="Citation">
+      <text>Aftonposten, 24.08.1896, nro 195, s. 1
+https://digi.kansalliskirjasto.fi/sanomalehti/binding/503082?page=1
+Kansalliskirjaston digitaaliset aineistot</text>
     </note>
   </notes>
 </database>
