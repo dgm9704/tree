@@ -7052,7 +7052,7 @@
       <dateval val="1814-07-25"/>
       <place hlink="_cb589cf882d64650a63"/>
     </event>
-    <event handle="_cb589cfbc6279ba4d3f" change="1625168670" id="E7040">
+    <event handle="_cb589cfbc6279ba4d3f" change="1658145956" id="E7040">
       <type>Marriage</type>
       <dateval val="1899-10-08"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
@@ -8214,7 +8214,7 @@
       <place hlink="_cea2947e34111bbc398"/>
       <citationref hlink="_ceaab5e151d18c91084"/>
     </event>
-    <event handle="_ceb8059d63a0a6bc9ce" change="1608547722" id="E3122">
+    <event handle="_ceb8059d63a0a6bc9ce" change="1658155921" id="E3122">
       <type>Residence</type>
       <datespan start="1910" stop="1913"/>
       <place hlink="_ceb806e164e1fd44577"/>
@@ -9277,7 +9277,7 @@
       <place hlink="_d6d4c9a6ea11b074476c2f15124"/>
       <citationref hlink="_d6e439bdc354c0406c8b506e448"/>
     </event>
-    <event handle="_d7d8b68f55272071b30778f7ecc" change="1595161699" id="E2049">
+    <event handle="_d7d8b68f55272071b30778f7ecc" change="1658146012" id="E2049">
       <type>Burial</type>
       <dateval val="1921-02-27"/>
       <place hlink="_d7d8b67f77f16eb9560b1715918"/>
@@ -15372,6 +15372,11 @@
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_e1865381659243739e61bb9df81"/>
     </event>
+    <event handle="_f14ae90a6da6c2c25b390db11f8" change="1658150261" id="E0434">
+      <type>Military Service</type>
+      <daterange start="1893-11" stop="1896-11"/>
+      <citationref hlink="_f14ae8fea2e6a64fed64f9c2482"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1548617779" id="I3858">
@@ -15390,13 +15395,14 @@
       <eventref hlink="_defd56bc39e1b2d96008acf08b1" role="Primary"/>
       <childof hlink="_cb589cc7f9c792dc427"/>
     </person>
-    <person handle="_cb589cc80270f9c6988" change="1625167619" id="I4097">
+    <person handle="_cb589cc80270f9c6988" change="1658150262" id="I4097">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Emil Ferdinand</first>
         <surname>Nordberg</surname>
       </name>
       <eventref hlink="_cb589cc802a223e3fe7" role="Primary"/>
+      <eventref hlink="_f14ae90a6da6c2c25b390db11f8" role="Primary"/>
       <eventref hlink="_dcdc8f491822376639091aa1222" role="Primary"/>
       <eventref hlink="_d7d8b68f55272071b30778f7ecc" role="Primary"/>
       <childof hlink="_cb589cc803c2012656f"/>
@@ -40512,6 +40518,15 @@
       <confidence>2</confidence>
       <sourceref hlink="_f14a4c0bd5256252c989dc0019a"/>
     </citation>
+    <citation handle="_f14ae8fea2e6a64fed64f9c2482" change="1658150242" id="C1387">
+      <dateval val="1893-08-28"/>
+      <page>1893-58/3</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f14ae4c6c18284f7550957b88e4"/>
+      <noteref hlink="_f14ae4f2b2d26a70cef6e7c20e6"/>
+      <noteref hlink="_f14ae8f923571d337ed235c5c7c"/>
+      <sourceref hlink="_f14ae490b0575778059235932c7"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -43367,6 +43382,9 @@
       <stitle>Hautakivi Malmelin/Stordell Malmi</stitle>
       <noteref hlink="_e8203116ef831ec9c673b747290"/>
       <noteref hlink="_e8202cfcf397c30d5d63247d343"/>
+    </source>
+    <source handle="_f14ae490b0575778059235932c7" change="1658149778" id="S0571">
+      <stitle>Helsingfors Aftonblad</stitle>
     </source>
   </sources>
   <places>
@@ -52970,7 +52988,7 @@ o.s. Korhonen			Nordberg.</text>
         <range start="0" end="68"/>
       </style>
     </note>
-    <note handle="_dcdc67c2a1875fb8beb6a93470a" change="1517744948" id="N0048" type="Transcript">
+    <note handle="_dcdc67c2a1875fb8beb6a93470a" change="1658146008" id="N0048" type="Transcript">
       <text>- Hautauksia. Peltiseppä Emil
 Ferdinand N o r d b e r g i n ruu-
 mis saatettiin viime sunnuntaina
@@ -52981,6 +52999,9 @@ vihkimisen toimitti pastori A.
 Santavuori. Umpeen peitetylle
 haudalle laskettiin useita seppe-
 leitä ja kukkasia.</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="304"/>
+      </style>
     </note>
     <note handle="_dcdc8105899d6b815ecf514e35" change="1517747597" id="N0049" type="Link">
       <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/1408640/articles/2705609</text>
@@ -64967,6 +64988,40 @@ Alue	00
 Kortteli	018
 Rivi	01
 Paikkanumero	00022</text>
+    </note>
+    <note handle="_f14ae4c6c18284f7550957b88e4" change="1658149800" id="N2225" type="Citation">
+      <text>Helsingfors Aftonblad, 28.08.1893, nro 58, s. 3
+https://digi.kansalliskirjasto.fi/sanomalehti/binding/521960?page=3
+Kansalliskirjaston digitaaliset aineistot</text>
+    </note>
+    <note handle="_f14ae4f2b2d26a70cef6e7c20e6" change="1658149818" id="N2226" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/521960?term=Nordberg,%20Emil%20Ferdinand&amp;page=3</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/sanomalehti/binding/521960?term=Nordberg,%20Emil%20Ferdinand&amp;page=3">
+        <range start="0" end="101"/>
+      </style>
+    </note>
+    <note handle="_f14ae8f923571d337ed235c5c7c" change="1658150240" id="N2227" type="Transcript" format="1">
+      <text>Värnepliktige, kallade till ak-
+  tiv tjänstgöring den 1 no-
+         vember 1893.
+             ----
+Den värnepliktiges 
+ hemort och ut-
+  tagna lott-
+    nummer.                      Tjänstetid.
+[...]
+Vid 1:sta Nylands finska skarpskytte-
+       bataljon i Helsingfors.
+[H:fors]    25.    Nordberg, Emil Ferdinand,
+                   bleckslagaregesäll, 3 år.</text>
+      <style name="bold">
+        <range start="0" end="82"/>
+        <range start="96" end="100"/>
+        <range start="202" end="271"/>
+      </style>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="360"/>
+      </style>
     </note>
   </notes>
 </database>
