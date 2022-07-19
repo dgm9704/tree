@@ -10770,10 +10770,11 @@
       <citationref hlink="_dcdd58882376f47b4bea8ac9e5a"/>
       <citationref hlink="_dcdd51182971028831bd07194e6"/>
     </event>
-    <event handle="_dcddbf5d1c2395bf0482e9e2601" change="1658133924" id="E2365">
+    <event handle="_dcddbf5d1c2395bf0482e9e2601" change="1658227454" id="E2365">
       <type>Death</type>
       <dateval val="1925-11-16"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_f14dc941fe553fd0f4a1745fe3e"/>
       <citationref hlink="_dcddbf5959466c925b090ae2f14"/>
       <citationref hlink="_e820357ba58360b35e64e09c244"/>
       <citationref hlink="_f14a4a58e4221e18c4817b95965"/>
@@ -13573,7 +13574,7 @@
       <place hlink="_e82478dea7034bf7ec557d7af65"/>
       <citationref hlink="_e8247b6908878621be351566ba4"/>
     </event>
-    <event handle="_e8247d003eb530c37599f597d11" change="1658214514" id="E0057">
+    <event handle="_e8247d003eb530c37599f597d11" change="1658227021" id="E0057">
       <type>Birth</type>
       <dateval val="1912-08-16"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
@@ -13584,7 +13585,7 @@
       <citationref hlink="_e824cce85b43d4ea37cfe14e441"/>
       <citationref hlink="_e824bdf079a4196ca3fbd78b1da"/>
     </event>
-    <event handle="_e8247dfac64b637bc3f3604c91" change="1658212828" id="E0058">
+    <event handle="_e8247dfac64b637bc3f3604c91" change="1658220415" id="E0058">
       <type>Death</type>
       <dateval val="1914-08-22"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
@@ -13666,7 +13667,7 @@
       <citationref hlink="_e824c7aeee32e587ffe4bbe067c"/>
       <citationref hlink="_e824c8229f16f1009b357333e9b"/>
     </event>
-    <event handle="_e8317d3e2a9388d41cff1fa363b" change="1595620635" id="E0070">
+    <event handle="_e8317d3e2a9388d41cff1fa363b" change="1658228707" id="E0070">
       <type>Residence</type>
       <dateval val="1924"/>
       <place hlink="_e8317d07b832f57ae0a50f136d5"/>
@@ -15379,6 +15380,13 @@
       <type>Military Service</type>
       <daterange start="1893-11" stop="1896-11"/>
       <citationref hlink="_f14ae8fea2e6a64fed64f9c2482"/>
+    </event>
+    <event handle="_f14dd3ee84b3720c1f33b56e40b" change="1658228615" id="E0435">
+      <type>Residence</type>
+      <dateval val="1925"/>
+      <place hlink="_f14dd3e590c1400eee32408a9cb"/>
+      <description>Röddäldsgatan 4</description>
+      <citationref hlink="_f14dc941fe553fd0f4a1745fe3e"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -27888,7 +27896,7 @@
       <childref hlink="_cb589cc92dd6232fd94"/>
       <childref hlink="_cb589cc935141d977cb"/>
     </family>
-    <family handle="_cb589cc844867fcce24" change="1658143648" id="F2216">
+    <family handle="_cb589cc844867fcce24" change="1658228720" id="F2216">
       <rel type="Married"/>
       <father hlink="_cf99bf30a9136795670"/>
       <mother hlink="_cb589cc84347c619504"/>
@@ -27901,6 +27909,7 @@
       <eventref hlink="_e18799971c749a4c24509817fa0" role="Family"/>
       <eventref hlink="_e187b683bf12f482e2907384131" role="Family"/>
       <eventref hlink="_e8317d3e2a9388d41cff1fa363b" role="Family"/>
+      <eventref hlink="_f14dd3ee84b3720c1f33b56e40b" role="Family"/>
     </family>
     <family handle="_cb589cc849649a1de75" change="1595279220" id="F1535">
       <rel type="Married"/>
@@ -40538,6 +40547,14 @@
       <noteref hlink="_f14d4957c677296d432fbe2a7f1"/>
       <sourceref hlink="_f14d3a78d7c362d4fb10e22262e"/>
     </citation>
+    <citation handle="_f14dc941fe553fd0f4a1745fe3e" change="1658227445" id="C1389">
+      <page>1925 Stillman-Sundman Agnes / 7</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f14dc5ed939f584246403d64e"/>
+      <noteref hlink="_f14dc658ea0116ae81b54d14e7f"/>
+      <noteref hlink="_f14dc90effc4b11860817192c2d"/>
+      <sourceref hlink="_f14d3a78d7c362d4fb10e22262e"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -45861,7 +45878,7 @@
       <pname value="Skeppsredaregatan 3"/>
       <placeref hlink="_e824ae5e1bc272c1d142f413481"/>
     </placeobj>
-    <placeobj handle="_e824ae5b00d248ba235e4fd2ebe" change="1595278965" id="P0048" type="Borough">
+    <placeobj handle="_e824ae5b00d248ba235e4fd2ebe" change="1658228525" id="P0048" type="Borough">
       <pname value="7. Stadsdelen"/>
       <placeref hlink="_cb589cc7f8d1b88b055"/>
     </placeobj>
@@ -45918,9 +45935,9 @@
       <pname value="Guldfisken"/>
       <placeref hlink="_e83167bf848523e42d5b27a5c6c"/>
     </placeobj>
-    <placeobj handle="_e8317d07b832f57ae0a50f136d5" change="1595620304" id="P0060" type="Building">
+    <placeobj handle="_e8317d07b832f57ae0a50f136d5" change="1658228703" id="P0060" type="Building">
       <pname value="Högbergsgatan 21"/>
-      <placeref hlink="_e8317d04a9642a864f8bcce2a3"/>
+      <placeref hlink="_f14dd32ee921dd2e8237f6d0420"/>
     </placeobj>
     <placeobj handle="_e8eed6b5a8828a20462e33920fa" change="1600703138" id="P0061" type="Farm">
       <pname value="Erikas"/>
@@ -46133,6 +46150,17 @@
     <placeobj handle="_f14a4b413a34a9d0f8d8ef59738" change="1658133702" id="P0141" type="Grave">
       <pname value="hauta 22"/>
       <placeref hlink="_f14a4b3dcc853ccec4f775b780a"/>
+    </placeobj>
+    <placeobj handle="_f14dd32ee921dd2e8237f6d0420" change="1658228702" id="P0142" type="Block">
+      <code>kortteli 108</code>
+      <pname value="Guldfisken" lang="se"/>
+      <pname value="Kultakala" lang="fi"/>
+      <placeref hlink="_e824ae5b00d248ba235e4fd2ebe"/>
+    </placeobj>
+    <placeobj handle="_f14dd3e590c1400eee32408a9cb" change="1658228561" id="P0143" type="Building">
+      <code>tontti 19</code>
+      <pname value="Röddäldsgatan 4"/>
+      <placeref hlink="_f14dd32ee921dd2e8237f6d0420"/>
     </placeobj>
   </places>
   <repositories>
@@ -65069,6 +65097,34 @@ Kyrkskrifven i N.sv
 Afliden i H:fors</text>
       <style name="fontface" value="Monospace">
         <range start="0" end="264"/>
+      </style>
+    </note>
+    <note handle="_f14dc5ed939f584246403d64e" change="1658227096" id="N2231" type="Citation">
+      <text>Tilastotoimisto - Kuolleiden kortisto 1925 Stillman - Sundman Agnes; Helsingin kaupunginarkisto: http://yksa.fi/100211/157379935919200 / Viitattu 19.7.2022</text>
+    </note>
+    <note handle="_f14dc658ea0116ae81b54d14e7f" change="1658227140" id="N2232" type="Link">
+      <text>http://yksa.disec.fi/Yksa4/download/157379935919200/file/8fc1cdf1-e474-43f8-bd87-afb6e090d7db#page=7</text>
+      <style name="link" value="http://yksa.disec.fi/Yksa4/download/157379935919200/file/8fc1cdf1-e474-43f8-bd87-afb6e090d7db#page=7">
+        <range start="0" end="100"/>
+      </style>
+    </note>
+    <note handle="_f14dc90effc4b11860817192c2d" change="1658227424" id="N2236" type="Transcript">
+      <text>N:o 
+Namn Stordell, Sofia[yliviivattu] Maria Charlotta V
+Kön K
+Född: 18 7/6 73
+Död: 16 nov. 1925
+Ålder 52 år 5 mån 9 dag.
+Civilstånd g
+Dödsorsak: Tub. pulm.
+Nom. n:o 29a
+Yrke eller samhällsstänning: murarehu kaklungmak.hu
+Bostad: Röddäldsg 4
+Stadsdel VII
+Kyrkskriven i Sörnsv
+Avliden i Hfrs</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="290"/>
       </style>
     </note>
   </notes>
