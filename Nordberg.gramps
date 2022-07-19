@@ -10770,7 +10770,7 @@
       <citationref hlink="_dcdd58882376f47b4bea8ac9e5a"/>
       <citationref hlink="_dcdd51182971028831bd07194e6"/>
     </event>
-    <event handle="_dcddbf5d1c2395bf0482e9e2601" change="1658227454" id="E2365">
+    <event handle="_dcddbf5d1c2395bf0482e9e2601" change="1658248713" id="E2365">
       <type>Death</type>
       <dateval val="1925-11-16"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
@@ -10780,10 +10780,11 @@
       <citationref hlink="_f14a4a58e4221e18c4817b95965"/>
       <citationref hlink="_f14a4c31e1426e383d701204239"/>
     </event>
-    <event handle="_dcddc381ecc266604265b08c85c" change="1658143517" id="E2366">
+    <event handle="_dcddc381ecc266604265b08c85c" change="1658248661" id="E2366">
       <type>Death</type>
       <dateval val="1929-03-04"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_f14e90b3a607cdd03c889319c92"/>
       <citationref hlink="_dcddc37ebc41865bd8a31ffaaf5"/>
       <citationref hlink="_dcddc5150652c4063ac1a5d4244"/>
     </event>
@@ -15381,7 +15382,7 @@
       <daterange start="1893-11" stop="1896-11"/>
       <citationref hlink="_f14ae8fea2e6a64fed64f9c2482"/>
     </event>
-    <event handle="_f14dd3ee84b3720c1f33b56e40b" change="1658228615" id="E0435">
+    <event handle="_f14dd3ee84b3720c1f33b56e40b" change="1658245774" id="E0435">
       <type>Residence</type>
       <dateval val="1925"/>
       <place hlink="_f14dd3e590c1400eee32408a9cb"/>
@@ -40555,6 +40556,14 @@
       <noteref hlink="_f14dc90effc4b11860817192c2d"/>
       <sourceref hlink="_f14d3a78d7c362d4fb10e22262e"/>
     </citation>
+    <citation handle="_f14e90b3a607cdd03c889319c92" change="1658248358" id="C1390">
+      <page>1929 Strömberg-Suomi/9</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f14e8b36e4e2705fc074523ab3"/>
+      <noteref hlink="_f14e8bb2b7b44c5a8fed0208556"/>
+      <noteref hlink="_f14e90afd2c67d663bad872dd21"/>
+      <sourceref hlink="_f14d3a78d7c362d4fb10e22262e"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -45930,11 +45939,6 @@
       <pname value="Lärkträdet"/>
       <placeref hlink="_e83167bf848523e42d5b27a5c6c"/>
     </placeobj>
-    <placeobj handle="_e8317d04a9642a864f8bcce2a3" change="1595620303" id="P0059" type="Neighborhood">
-      <code>104</code>
-      <pname value="Guldfisken"/>
-      <placeref hlink="_e83167bf848523e42d5b27a5c6c"/>
-    </placeobj>
     <placeobj handle="_e8317d07b832f57ae0a50f136d5" change="1658228703" id="P0060" type="Building">
       <pname value="Högbergsgatan 21"/>
       <placeref hlink="_f14dd32ee921dd2e8237f6d0420"/>
@@ -46151,8 +46155,8 @@
       <pname value="hauta 22"/>
       <placeref hlink="_f14a4b3dcc853ccec4f775b780a"/>
     </placeobj>
-    <placeobj handle="_f14dd32ee921dd2e8237f6d0420" change="1658228702" id="P0142" type="Block">
-      <code>kortteli 108</code>
+    <placeobj handle="_f14dd32ee921dd2e8237f6d0420" change="1658228803" id="P0142" type="Block">
+      <code>kortteli 104</code>
       <pname value="Guldfisken" lang="se"/>
       <pname value="Kultakala" lang="fi"/>
       <placeref hlink="_e824ae5b00d248ba235e4fd2ebe"/>
@@ -65108,7 +65112,7 @@ Afliden i H:fors</text>
         <range start="0" end="100"/>
       </style>
     </note>
-    <note handle="_f14dc90effc4b11860817192c2d" change="1658227424" id="N2236" type="Transcript">
+    <note handle="_f14dc90effc4b11860817192c2d" change="1658248712" id="N2236" type="Transcript">
       <text>N:o 
 Namn Stordell, Sofia[yliviivattu] Maria Charlotta V
 Kön K
@@ -65122,9 +65126,41 @@ Yrke eller samhällsstänning: murarehu kaklungmak.hu
 Bostad: Röddäldsg 4
 Stadsdel VII
 Kyrkskriven i Sörnsv
-Avliden i Hfrs</text>
+Avliden i Hfrs
+
+</text>
       <style name="fontface" value="Monospace">
-        <range start="0" end="290"/>
+        <range start="0" end="292"/>
+      </style>
+    </note>
+    <note handle="_f14e8b36e4e2705fc074523ab3" change="1658247783" id="N2242" type="Citation">
+      <text>Tilastotoimisto - Kuolleiden kortisto 1929 Strömberg - Suomi; Helsingin kaupunginarkisto: http://yksa.fi/100211/157380218019200 / Viitattu 19.7.2022</text>
+    </note>
+    <note handle="_f14e8bb2b7b44c5a8fed0208556" change="1658247834" id="N2243" type="Link">
+      <text>https://yksa.disec.fi/Yksa4/download/157380218019200/file/a8530b60-3537-4f01-a6d8-f374a53516ac#page=9</text>
+      <style name="link" value="https://yksa.disec.fi/Yksa4/download/157380218019200/file/a8530b60-3537-4f01-a6d8-f374a53516ac#page=9">
+        <range start="0" end="101"/>
+      </style>
+    </note>
+    <note handle="_f14e90afd2c67d663bad872dd21" change="1658248357" id="N2244" type="Transcript">
+      <text>N:o
+Nimi:/Namn: Studell[yliviivattu] Stordell, Karl Fredrik
+Sukup.:/Kön: M.
+Syntynyt:/Född: 18 23/3 67
+Kuollut:/Död: 4 mars 1929
+Ikä:/Ålder: 61 vuotta/år 11 kuuk./mån. 9 päiv./dag
+Siviilisääty:/Civilstånd: änkl.
+Kuolemansyy:/Dödsorsak Hjärtfel
+Nim. n:o/Nom. n:o 62
+Ammatti tai yhteiskunta-asema:/Yrke eller samhällställning: murare
+Asunto:/Bostad: Baggböle
+Kaup. osa:/Stadsdel: ut.st.
+Kirkonkirjoissa:Kyrkskriven i Sörnes
+Kuollut:/Avliden i Hfors, sjukhus
+
+C. 714. b. 12. 27</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="474"/>
       </style>
     </note>
   </notes>
