@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2022-07-19" version="5.1.5"/>
+    <created date="2022-07-20" version="5.1.5"/>
     <researcher>
     </researcher>
   </header>
@@ -26,7 +26,7 @@
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_defd54a969344040669ad311bed"/>
     </event>
-    <event handle="_cb589cc802a223e3fe7" change="1486890219" id="E0014">
+    <event handle="_cb589cc802a223e3fe7" change="1658267998" id="E0014">
       <type>Birth</type>
       <dateval val="1871-01-19"/>
       <place hlink="_cde630ab53a2c774547"/>
@@ -15389,6 +15389,29 @@
       <description>Röddäldsgatan 4</description>
       <citationref hlink="_f14dc941fe553fd0f4a1745fe3e"/>
     </event>
+    <event handle="_f14f49cb91677a4802b7925c567" change="1658268186" id="E0436">
+      <type>Birth</type>
+      <dateval val="1823-10-20"/>
+      <place hlink="_cf99bf0f22527758ac0"/>
+      <citationref hlink="_f14f49ad2f7278ac56ef1ad866a"/>
+    </event>
+    <event handle="_f14f4a85fc6448c801b43950bb0" change="1658268508" id="E0437">
+      <type>Death</type>
+      <dateval val="1877-10-29"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_f14f49ad2f7278ac56ef1ad866a"/>
+    </event>
+    <event handle="_f14f4b322724af73dcaf28f9c51" change="1658267914" id="E0438">
+      <type>Birth</type>
+      <dateval val="1828-01-06"/>
+      <citationref hlink="_f14f49ad2f7278ac56ef1ad866a"/>
+    </event>
+    <event handle="_f14f4ec6a46567117437097c38e" change="1658268520" id="E0439">
+      <type>Residence</type>
+      <datespan start="1870" stop="1877"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_f14f49ad2f7278ac56ef1ad866a"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1548617779" id="I3858">
@@ -27791,6 +27814,25 @@
       <eventref hlink="_f145dab590e78425aaf03212f0b" role="Primary"/>
       <parentin hlink="_f145b30c9d43a62b284bb5f6504"/>
     </person>
+    <person handle="_f14f491a65a2c7be64eeafc3337" change="1658267920" id="I0104">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Karl Jakob</first>
+        <surname>Westerholm</surname>
+      </name>
+      <eventref hlink="_f14f49cb91677a4802b7925c567" role="Primary"/>
+      <eventref hlink="_f14f4a85fc6448c801b43950bb0" role="Primary"/>
+      <parentin hlink="_f14f48fe16113ce0450a9a5147b"/>
+    </person>
+    <person handle="_f14f4ab978352cd638bf5300b7b" change="1658267920" id="I0105">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Amalia Charlotta</first>
+        <surname>Malin</surname>
+      </name>
+      <eventref hlink="_f14f4b322724af73dcaf28f9c51" role="Primary"/>
+      <parentin hlink="_f14f48fe16113ce0450a9a5147b"/>
+    </person>
   </people>
   <families>
     <family handle="_cb589cc7f9c792dc427" change="1548617779" id="F1472">
@@ -31221,6 +31263,12 @@
       <eventref hlink="_f145bc3f0aa4672bb84cb6151c5" role="Family"/>
       <eventref hlink="_f14716fa6791653d0614614d313" role="Family"/>
       <childref hlink="_cea5cca2afb352181a9"/>
+    </family>
+    <family handle="_f14f48fe16113ce0450a9a5147b" change="1658268530" id="F0014">
+      <rel type="Unknown"/>
+      <father hlink="_f14f491a65a2c7be64eeafc3337"/>
+      <mother hlink="_f14f4ab978352cd638bf5300b7b"/>
+      <eventref hlink="_f14f4ec6a46567117437097c38e" role="Family"/>
     </family>
   </families>
   <citations>
@@ -40564,6 +40612,13 @@
       <noteref hlink="_f14e90afd2c67d663bad872dd21"/>
       <sourceref hlink="_f14d3a78d7c362d4fb10e22262e"/>
     </citation>
+    <citation handle="_f14f49ad2f7278ac56ef1ad866a" change="1658268232" id="C1391">
+      <page>III/584</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f14f4e08b1e260fc880d66e962a"/>
+      <noteref hlink="_f14f4e2da8f8ce25a782df4748"/>
+      <sourceref hlink="_cde65158bf529623e7b"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -49445,12 +49500,18 @@ Maria Charlotta Wilhelmina	7	22	Fldr. Arbetskarlen Ferdinand Nordberg mhu Sofia 
 									Fddr. fd. Underoff Alexander Harlin mhu Maria samt 
 									Forman Johan Fagerström mhu Helena</text>
     </note>
-    <note handle="_d85efa1c14a34cd62b1f7f6957d" change="1486890216" id="N0462" type="Transcript" format="1">
+    <note handle="_d85efa1c14a34cd62b1f7f6957d" change="1658267993" id="N0462" type="Transcript" format="1">
       <text>Januari 1871
 Emil Ferdinand	19	5/2	Fldr. Arbetskarlen Ferdinand Nordberg mhu Sofia
 						Wilhelmina Holmström, 24 x (3-731)
 						Fddr: Uppsyningsmannen Karl Jakob Westerholm
 						mhu Amalia Charlotta</text>
+      <style name="link" value="gramps://Person/handle/f14f491a65a2c7be64eeafc3337">
+        <range start="153" end="174"/>
+      </style>
+      <style name="link" value="gramps://Person/handle/f14f4ab978352cd638bf5300b7b">
+        <range start="185" end="201"/>
+      </style>
     </note>
     <note handle="_d88c33be60a99a7ac1d636906a" change="1488104219" id="N0463" type="Link">
       <text>http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23479&amp;pnum=181</text>
@@ -65161,6 +65222,15 @@ Kuollut:/Avliden i Hfors, sjukhus
 C. 714. b. 12. 27</text>
       <style name="fontface" value="Monospace">
         <range start="0" end="474"/>
+      </style>
+    </note>
+    <note handle="_f14f4e08b1e260fc880d66e962a" change="1658268211" id="N2251" type="Citation">
+      <text>Helsinki rippikirja 1870-1881 (MKO199-228 3P)  Sivu 584  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6957&amp;pnum=584 / Viitattu 20.07.2022</text>
+    </note>
+    <note handle="_f14f4e2da8f8ce25a782df4748" change="1658268227" id="N2252" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6957&amp;pnum=584</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6957&amp;pnum=584">
+        <range start="0" end="77"/>
       </style>
     </note>
   </notes>
