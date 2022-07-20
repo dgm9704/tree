@@ -15418,7 +15418,7 @@
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_cdea87f103a7a9dc9bc"/>
     </event>
-    <event handle="_f150ad0dcd620708e4c88f66329" change="1658305095" id="E0441">
+    <event handle="_f150ad0dcd620708e4c88f66329" change="1658308734" id="E0441">
       <type>Baptism</type>
       <dateval val="1873-06-22"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
@@ -15455,6 +15455,24 @@
       <dateval val="1871-05-11"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_f150c08f9404bf00746d9dd9443"/>
+    </event>
+    <event handle="_f150cf207ad1a009ec44ac777d" change="1658308591" id="E0448">
+      <type>Birth</type>
+      <dateval val="1816-04-23"/>
+      <place hlink="_f150ce5da0e5fb2c645f3198397"/>
+      <citationref hlink="_f150cf0af4817f1d153662632a2"/>
+    </event>
+    <event handle="_f150cf8b78b148a68702a57f295" change="1658308635" id="E0449">
+      <type>Birth</type>
+      <dateval val="1826-05-02"/>
+      <place hlink="_cea11e7c672589a5611"/>
+      <citationref hlink="_f150cf0af4817f1d153662632a2"/>
+    </event>
+    <event handle="_f150d00c5ee4779bf16dd0ef71e" change="1658308688" id="E0450">
+      <type>Residence</type>
+      <datespan start="1870" stop="1881"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_f150cf0af4817f1d153662632a2"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -27911,6 +27929,26 @@
       <eventref hlink="_f150c4bc1af524428763ed26112" role="Primary"/>
       <parentin hlink="_f150b73c784675f722d16ac44ab"/>
     </person>
+    <person handle="_f150cdb524e200b5b297b815a2e" change="1658308724" id="I0109">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Johan</first>
+        <surname>Fagerström</surname>
+      </name>
+      <eventref hlink="_f150cf207ad1a009ec44ac777d" role="Primary"/>
+      <eventref hlink="_f150ad0dcd620708e4c88f66329" role="Witness"/>
+      <parentin hlink="_f150cda8e462bab6943914aeb0e"/>
+    </person>
+    <person handle="_f150cf3ac5b376a51a471c3981" change="1658308736" id="I0110">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Anna Helena</first>
+        <surname>Tunberg</surname>
+      </name>
+      <eventref hlink="_f150cf8b78b148a68702a57f295" role="Primary"/>
+      <eventref hlink="_f150ad0dcd620708e4c88f66329" role="Witness"/>
+      <parentin hlink="_f150cda8e462bab6943914aeb0e"/>
+    </person>
   </people>
   <families>
     <family handle="_cb589cc7f9c792dc427" change="1548617779" id="F1472">
@@ -31360,6 +31398,12 @@
       <father hlink="_f150a2d991d3883684f326f0686"/>
       <mother hlink="_f150c32102b498369bb36e29c90"/>
       <eventref hlink="_f150c5492a17fd52e2f051ce41d" role="Family"/>
+    </family>
+    <family handle="_f150cda8e462bab6943914aeb0e" change="1658308700" id="F0024">
+      <rel type="Married"/>
+      <father hlink="_f150cdb524e200b5b297b815a2e"/>
+      <mother hlink="_f150cf3ac5b376a51a471c3981"/>
+      <eventref hlink="_f150d00c5ee4779bf16dd0ef71e" role="Family"/>
     </family>
   </families>
   <citations>
@@ -40724,6 +40768,13 @@
       <noteref hlink="_f150c4b245c7209ad6857e87087"/>
       <sourceref hlink="_cde63f91eee556ea9ee"/>
     </citation>
+    <citation handle="_f150cf0af4817f1d153662632a2" change="1658308582" id="C1394">
+      <page>III/232</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f150ced3cf11408bde0aee471ef"/>
+      <noteref hlink="_f150cefce4e22ec9cc5ba850370"/>
+      <sourceref hlink="_cde65158bf529623e7b"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -44203,7 +44254,7 @@
       <pname value="Biskopsnäs"/>
       <placeref hlink="_ceac1478b0919bf2446"/>
     </placeobj>
-    <placeobj handle="_cb589cfeb254c33cda1" change="1628158725" id="P0618" type="Country">
+    <placeobj handle="_cb589cfeb254c33cda1" change="1658308500" id="P0618" type="Country">
       <pname value="Suomi"/>
       <pname value="Finland" lang="sv"/>
     </placeobj>
@@ -46325,6 +46376,11 @@
       <code>tontti 19</code>
       <pname value="Röddäldsgatan 4"/>
       <placeref hlink="_f14dd32ee921dd2e8237f6d0420"/>
+    </placeobj>
+    <placeobj handle="_f150ce5da0e5fb2c645f3198397" change="1658308512" id="P0144" type="Parish">
+      <pname value="Perno" lang="se"/>
+      <pname value="Pernaja" lang="fi"/>
+      <placeref hlink="_cb589cfeb254c33cda1"/>
     </placeobj>
   </places>
   <repositories>
@@ -49598,7 +49654,7 @@ Viktor Leonard	13	21	Fldr: arb Ferdinand Nordberg mhu Sofia Wilhelmina Holm
 						Fddr: Snickm Alex Harlu mhu Maria, målarges Adolf
 						Eklund</text>
     </note>
-    <note handle="_d85ef8d01a479a051cbfb78369e" change="1658305157" id="N0461" type="Transcript" format="1">
+    <note handle="_d85ef8d01a479a051cbfb78369e" change="1658308787" id="N0461" type="Transcript" format="1">
       <text>Juni 1873
 Maria Charlotta Wilhelmina	7	22	Fldr. Arbetskarlen Ferdinand Nordberg mhu Sofia Wilhel
 									min Holmström, 27 x (3-731)
@@ -49609,6 +49665,12 @@ Maria Charlotta Wilhelmina	7	22	Fldr. Arbetskarlen Ferdinand Nordberg mhu Sofia 
       </style>
       <style name="link" value="gramps://Person/handle/f150a32e29e3c5a604d3aa3b936">
         <range start="183" end="188"/>
+      </style>
+      <style name="link" value="gramps://Person/handle/f150cdb524e200b5b297b815a2e">
+        <range start="211" end="227"/>
+      </style>
+      <style name="link" value="gramps://Person/handle/f150cf3ac5b376a51a471c3981">
+        <range start="232" end="238"/>
       </style>
     </note>
     <note handle="_d85efa1c14a34cd62b1f7f6957d" change="1658267993" id="N0462" type="Transcript" format="1">
@@ -65363,6 +65425,15 @@ C. 714. b. 12. 27</text>
       <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23470&amp;pnum=180</text>
       <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23470&amp;pnum=180">
         <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f150ced3cf11408bde0aee471ef" change="1658308560" id="N2267" type="Citation">
+      <text>Helsinki rippikirja 1870-1881 (MKO199-228 3P)  Sivu 232  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6957&amp;pnum=232 / Viitattu 20.07.2022</text>
+    </note>
+    <note handle="_f150cefce4e22ec9cc5ba850370" change="1658308577" id="N2271" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6957&amp;pnum=232</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6957&amp;pnum=232">
+        <range start="0" end="77"/>
       </style>
     </note>
   </notes>
