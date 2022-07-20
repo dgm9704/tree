@@ -134,7 +134,7 @@
       <citationref hlink="_d85edf9dae72df7791bb998d329"/>
       <citationref hlink="_d0011348d0e71c0b3f2"/>
     </event>
-    <event handle="_cb589cc84a63b5b0ca8" change="1486889160" id="E0077">
+    <event handle="_cb589cc84a63b5b0ca8" change="1658341860" id="E0077">
       <type>Birth</type>
       <dateval val="1882-02-19"/>
       <place hlink="_cde630ab53a2c774547"/>
@@ -15468,7 +15468,7 @@
       <place hlink="_cea11e7c672589a5611"/>
       <citationref hlink="_f150cf0af4817f1d153662632a2"/>
     </event>
-    <event handle="_f150d00c5ee4779bf16dd0ef71e" change="1658308688" id="E0450">
+    <event handle="_f150d00c5ee4779bf16dd0ef71e" change="1658343193" id="E0450">
       <type>Residence</type>
       <datespan start="1870" stop="1881"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
@@ -15544,6 +15544,22 @@
       <dateval val="1877-09-16"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_f1513bb8ec67d9b347da4086d9e"/>
+    </event>
+    <event handle="_f1520ceaadf737a9245acc4cbee" change="1658343172" id="E0463">
+      <type>Baptism</type>
+      <dateval val="1882-03-06"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_cdea966934f7972eb57"/>
+    </event>
+    <event handle="_f1520ea3821694ea26c1c804b42" change="1658342095" id="E0464">
+      <type>Birth</type>
+      <dateval val="1859-02-18"/>
+      <citationref hlink="_f150cf0af4817f1d153662632a2"/>
+    </event>
+    <event handle="_f152185c32b6e41cd2dd387c482" change="1658343120" id="E0465">
+      <type>Birth</type>
+      <dateval val="1855-02-14"/>
+      <citationref hlink="_f150cf0af4817f1d153662632a2"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -15735,13 +15751,14 @@
       <childof hlink="_cb589cc803c2012656f"/>
       <parentin hlink="_cb589cc849649a1de75"/>
     </person>
-    <person handle="_cb589cc84a03bdf266c" change="1625167619" id="I5331">
+    <person handle="_cb589cc84a03bdf266c" change="1658341941" id="I5331">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Viktor Ferdinand</first>
         <surname>Nordberg</surname>
       </name>
       <eventref hlink="_cb589cc84a63b5b0ca8" role="Primary"/>
+      <eventref hlink="_f1520ceaadf737a9245acc4cbee" role="Primary"/>
       <eventref hlink="_cb589cc84a37ac14af0" role="Primary"/>
       <childof hlink="_cb589cc803c2012656f"/>
     </person>
@@ -28075,6 +28092,27 @@
       <eventref hlink="_f1511c880fb312837d36881789d" role="Witness"/>
       <parentin hlink="_f1513a56b91101c79875bb06e2e"/>
     </person>
+    <person handle="_f1520d8f5773a1e67d96b71237" change="1658343174" id="I0116">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Anna Charlotta</first>
+        <surname>Fagerström</surname>
+      </name>
+      <eventref hlink="_f1520ea3821694ea26c1c804b42" role="Primary"/>
+      <eventref hlink="_f150d00c5ee4779bf16dd0ef71e" role="Family"/>
+      <eventref hlink="_f1520ceaadf737a9245acc4cbee" role="Witness"/>
+      <childof hlink="_f150cda8e462bab6943914aeb0e"/>
+    </person>
+    <person handle="_f15217564c742c378bdef8f784b" change="1658343206" id="I0117">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Johan Ferdinand</first>
+        <surname>Fagerström</surname>
+      </name>
+      <eventref hlink="_f152185c32b6e41cd2dd387c482" role="Primary"/>
+      <eventref hlink="_f150d00c5ee4779bf16dd0ef71e" role="Family"/>
+      <eventref hlink="_f1520ceaadf737a9245acc4cbee" role="Witness"/>
+    </person>
   </people>
   <families>
     <family handle="_cb589cc7f9c792dc427" change="1548617779" id="F1472">
@@ -31525,11 +31563,12 @@
       <mother hlink="_f150c32102b498369bb36e29c90"/>
       <eventref hlink="_f150c5492a17fd52e2f051ce41d" role="Family"/>
     </family>
-    <family handle="_f150cda8e462bab6943914aeb0e" change="1658308700" id="F0024">
+    <family handle="_f150cda8e462bab6943914aeb0e" change="1658342214" id="F0024">
       <rel type="Married"/>
       <father hlink="_f150cdb524e200b5b297b815a2e"/>
       <mother hlink="_f150cf3ac5b376a51a471c3981"/>
       <eventref hlink="_f150d00c5ee4779bf16dd0ef71e" role="Family"/>
+      <childref hlink="_f1520d8f5773a1e67d96b71237"/>
     </family>
     <family handle="_f15116a172d407415e6ce1fc24a" change="1658316606" id="F0025">
       <rel type="Married"/>
@@ -49793,12 +49832,18 @@ Elin Maria                  18 13/7 77	do	1893
         <range start="0" end="283"/>
       </style>
     </note>
-    <note handle="_d85ef001af028c71992cd0f7dc2" change="1486889157" id="N0458" type="Transcript" format="1">
+    <note handle="_d85ef001af028c71992cd0f7dc2" change="1658343609" id="N0458" type="Transcript" format="1">
       <text>Februari 1882
 
 Viktor Ferdinand	19	6/3	Fldr Arb Ferdinand Nordberg mhu Sofia Wilh Holmström 35 X 3-731
 						Fddr ju Anna Charl Fagerström, ju Anna Helena Fager
 						ström, Arb. Johan Ferdinand Fagerström</text>
+      <style name="link" value="gramps://Person/handle/f1520d8f5773a1e67d96b71237">
+        <range start="117" end="138"/>
+      </style>
+      <style name="link" value="gramps://Person/handle/f15217564c742c378bdef8f784b">
+        <range start="179" end="205"/>
+      </style>
     </note>
     <note handle="_d85ef383bba1ffbd757ecfb4123" change="1658320547" id="N0459" type="Transcript" format="1">
       <text>Juli 1877
