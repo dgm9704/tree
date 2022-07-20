@@ -15468,7 +15468,7 @@
       <place hlink="_cea11e7c672589a5611"/>
       <citationref hlink="_f150cf0af4817f1d153662632a2"/>
     </event>
-    <event handle="_f150d00c5ee4779bf16dd0ef71e" change="1658343193" id="E0450">
+    <event handle="_f150d00c5ee4779bf16dd0ef71e" change="1658344386" id="E0450">
       <type>Residence</type>
       <datespan start="1870" stop="1881"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
@@ -15551,14 +15551,22 @@
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_cdea966934f7972eb57"/>
     </event>
-    <event handle="_f1520ea3821694ea26c1c804b42" change="1658342095" id="E0464">
+    <event handle="_f1520ea3821694ea26c1c804b42" change="1658344982" id="E0464">
       <type>Birth</type>
       <dateval val="1859-02-18"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_f150cf0af4817f1d153662632a2"/>
+      <citationref hlink="_f1522a2a27bba1160101ae1541"/>
     </event>
     <event handle="_f152185c32b6e41cd2dd387c482" change="1658343120" id="E0465">
       <type>Birth</type>
       <dateval val="1855-02-14"/>
+      <citationref hlink="_f150cf0af4817f1d153662632a2"/>
+    </event>
+    <event handle="_f15223ce5254f6819364bea77f5" change="1658344314" id="E0466">
+      <type>Birth</type>
+      <dateval val="1861-09-12"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_f150cf0af4817f1d153662632a2"/>
     </event>
   </events>
@@ -28092,7 +28100,7 @@
       <eventref hlink="_f1511c880fb312837d36881789d" role="Witness"/>
       <parentin hlink="_f1513a56b91101c79875bb06e2e"/>
     </person>
-    <person handle="_f1520d8f5773a1e67d96b71237" change="1658343174" id="I0116">
+    <person handle="_f1520d8f5773a1e67d96b71237" change="1658345013" id="I0116">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anna Charlotta</first>
@@ -28103,7 +28111,7 @@
       <eventref hlink="_f1520ceaadf737a9245acc4cbee" role="Witness"/>
       <childof hlink="_f150cda8e462bab6943914aeb0e"/>
     </person>
-    <person handle="_f15217564c742c378bdef8f784b" change="1658343206" id="I0117">
+    <person handle="_f15217564c742c378bdef8f784b" change="1658345013" id="I0117">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Johan Ferdinand</first>
@@ -28112,6 +28120,26 @@
       <eventref hlink="_f152185c32b6e41cd2dd387c482" role="Primary"/>
       <eventref hlink="_f150d00c5ee4779bf16dd0ef71e" role="Family"/>
       <eventref hlink="_f1520ceaadf737a9245acc4cbee" role="Witness"/>
+      <childof hlink="_f150cda8e462bab6943914aeb0e"/>
+    </person>
+    <person handle="_f15223504715cec63572ba800d" change="1658345013" id="I0118">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Maria Sofia</first>
+        <surname>Fagerström</surname>
+      </name>
+      <eventref hlink="_f15223ce5254f6819364bea77f5" role="Primary"/>
+      <eventref hlink="_f150d00c5ee4779bf16dd0ef71e" role="Family"/>
+      <childof hlink="_f150cda8e462bab6943914aeb0e"/>
+    </person>
+    <person handle="_f15228df7271c211335ebf815c8" change="1658345013" id="I0119">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Amanda Karolina</first>
+        <surname>Fagerström</surname>
+      </name>
+      <eventref hlink="_f1520ea3821694ea26c1c804b42" role="Primary"/>
+      <childof hlink="_f150cda8e462bab6943914aeb0e"/>
     </person>
   </people>
   <families>
@@ -31563,12 +31591,15 @@
       <mother hlink="_f150c32102b498369bb36e29c90"/>
       <eventref hlink="_f150c5492a17fd52e2f051ce41d" role="Family"/>
     </family>
-    <family handle="_f150cda8e462bab6943914aeb0e" change="1658342214" id="F0024">
+    <family handle="_f150cda8e462bab6943914aeb0e" change="1658345013" id="F0024">
       <rel type="Married"/>
       <father hlink="_f150cdb524e200b5b297b815a2e"/>
       <mother hlink="_f150cf3ac5b376a51a471c3981"/>
       <eventref hlink="_f150d00c5ee4779bf16dd0ef71e" role="Family"/>
+      <childref hlink="_f15217564c742c378bdef8f784b"/>
       <childref hlink="_f1520d8f5773a1e67d96b71237"/>
+      <childref hlink="_f15228df7271c211335ebf815c8"/>
+      <childref hlink="_f15223504715cec63572ba800d"/>
     </family>
     <family handle="_f15116a172d407415e6ce1fc24a" change="1658316606" id="F0025">
       <rel type="Married"/>
@@ -40973,6 +41004,13 @@
       <noteref hlink="_f1513b8d575445cc1299e336004"/>
       <noteref hlink="_f1513bb29a0742dcad5d325c16b"/>
       <sourceref hlink="_cde65158bf529623e7b"/>
+    </citation>
+    <citation handle="_f1522a2a27bba1160101ae1541" change="1658344981" id="C1398">
+      <page>194</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f15229dc8403c01e53949b77f91"/>
+      <noteref hlink="_f1522a1120b7f77077d4f6ac899"/>
+      <sourceref hlink="_cdea877adb954644203"/>
     </citation>
   </citations>
   <sources>
@@ -65685,6 +65723,15 @@ C. 714. b. 12. 27</text>
     <note handle="_f1513bb29a0742dcad5d325c16b" change="1658319976" id="N2285" type="Link">
       <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6957&amp;pnum=173</text>
       <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6957&amp;pnum=173">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f15229dc8403c01e53949b77f91" change="1658344949" id="N2286" type="Citation">
+      <text>Helsinki syntyneet 1856-1884 (MKO1-40)  1859 Februari ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=8747&amp;pnum=194 / Viitattu 20.07.2022</text>
+    </note>
+    <note handle="_f1522a1120b7f77077d4f6ac899" change="1658344971" id="N2287" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=8747&amp;pnum=194</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=8747&amp;pnum=194">
         <range start="0" end="77"/>
       </style>
     </note>
