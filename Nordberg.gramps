@@ -15515,11 +15515,35 @@
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_f15119341301adeb9d3883bd422"/>
     </event>
-    <event handle="_f1511c880fb312837d36881789d" change="1658316883" id="E0458">
+    <event handle="_f1511c880fb312837d36881789d" change="1658320593" id="E0458">
       <type>Baptism</type>
       <dateval val="1877-08-09"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_cdea92807d340a20807"/>
+    </event>
+    <event handle="_f1513d35e7167d3770f9fcae1c1" change="1658320162" id="E0459">
+      <type>Birth</type>
+      <dateval val="1853-08-20"/>
+      <place hlink="_ceac01189c916d9d2ed"/>
+      <citationref hlink="_f1513bb8ec67d9b347da4086d9e"/>
+    </event>
+    <event handle="_f1513e262d3554e1956f4fc15f5" change="1658320233" id="E0460">
+      <type>Birth</type>
+      <dateval val="1854-05-12"/>
+      <place hlink="_cf99bf0f22527758ac0"/>
+      <citationref hlink="_f1513bb8ec67d9b347da4086d9e"/>
+    </event>
+    <event handle="_f1513f3b6307b15945957ca4f06" change="1658320346" id="E0461">
+      <type>Residence</type>
+      <datespan start="1877" stop="1881"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_f1513bb8ec67d9b347da4086d9e"/>
+    </event>
+    <event handle="_f1513f6bb242f37131fd3a5ca3b" change="1658320441" id="E0462">
+      <type>Marriage</type>
+      <dateval val="1877-09-16"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_f1513bb8ec67d9b347da4086d9e"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -28031,6 +28055,26 @@
       <eventref hlink="_f1511c880fb312837d36881789d" role="Witness"/>
       <parentin hlink="_f15116a172d407415e6ce1fc24a"/>
     </person>
+    <person handle="_f1513a714e07934f16eb114c2c" change="1658320483" id="I0114">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Johan Leonard</first>
+        <surname>Lax</surname>
+      </name>
+      <eventref hlink="_f1513d35e7167d3770f9fcae1c1" role="Primary"/>
+      <eventref hlink="_f1511c880fb312837d36881789d" role="Witness"/>
+      <parentin hlink="_f1513a56b91101c79875bb06e2e"/>
+    </person>
+    <person handle="_f1513d8e1714bef0a1a8d9aeb5" change="1658320493" id="I0115">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Amanda</first>
+        <surname>Wårström</surname>
+      </name>
+      <eventref hlink="_f1513e262d3554e1956f4fc15f5" role="Primary"/>
+      <eventref hlink="_f1511c880fb312837d36881789d" role="Witness"/>
+      <parentin hlink="_f1513a56b91101c79875bb06e2e"/>
+    </person>
   </people>
   <families>
     <family handle="_cb589cc7f9c792dc427" change="1548617779" id="F1472">
@@ -31492,6 +31536,13 @@
       <father hlink="_f15116b8ca023f7d8124e897a43"/>
       <mother hlink="_f1511a88336c4a0f0034cf44cf"/>
       <eventref hlink="_f1511b82707568973cb82a3620e" role="Family"/>
+    </family>
+    <family handle="_f1513a56b91101c79875bb06e2e" change="1658320443" id="F0026">
+      <rel type="Married"/>
+      <father hlink="_f1513a714e07934f16eb114c2c"/>
+      <mother hlink="_f1513d8e1714bef0a1a8d9aeb5"/>
+      <eventref hlink="_f1513f3b6307b15945957ca4f06" role="Family"/>
+      <eventref hlink="_f1513f6bb242f37131fd3a5ca3b" role="Family"/>
     </family>
   </families>
   <citations>
@@ -40877,6 +40928,13 @@
       <noteref hlink="_f151192b6e644d3c29c61307668"/>
       <sourceref hlink="_cde65158bf529623e7b"/>
     </citation>
+    <citation handle="_f1513bb8ec67d9b347da4086d9e" change="1658319978" id="C1397">
+      <page>III/173</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f1513b8d575445cc1299e336004"/>
+      <noteref hlink="_f1513bb29a0742dcad5d325c16b"/>
+      <sourceref hlink="_cde65158bf529623e7b"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -49742,17 +49800,23 @@ Viktor Ferdinand	19	6/3	Fldr Arb Ferdinand Nordberg mhu Sofia Wilh Holmström 35
 						Fddr ju Anna Charl Fagerström, ju Anna Helena Fager
 						ström, Arb. Johan Ferdinand Fagerström</text>
     </note>
-    <note handle="_d85ef383bba1ffbd757ecfb4123" change="1658316795" id="N0459" type="Transcript" format="1">
+    <note handle="_d85ef383bba1ffbd757ecfb4123" change="1658320547" id="N0459" type="Transcript" format="1">
       <text>Juli 1877
 Elin Maria	13	9/8	Fldr Dykeriarbetaren Ferdinand Nordberg mhu Sofia Wil
 					helmina Holmström 30 X (3-731)
 					Fddr: Muraren Albert Johansson mhu Mathilda, Ma
-					skinisten Johan Lax och Jfrun Amanda Hå???</text>
+					skinisten Johan Lax och jfrun Amanda Wårström</text>
       <style name="link" value="gramps://Person/handle/f15116b8ca023f7d8124e897a43">
         <range start="137" end="153"/>
       </style>
       <style name="link" value="gramps://Person/handle/f1511a88336c4a0f0034cf44cf">
         <range start="158" end="166"/>
+      </style>
+      <style name="link" value="gramps://Person/handle/f1513a714e07934f16eb114c2c">
+        <range start="186" end="195"/>
+      </style>
+      <style name="link" value="gramps://Person/handle/f1513d8e1714bef0a1a8d9aeb5">
+        <range start="206" end="221"/>
       </style>
     </note>
     <note handle="_d85ef66999c3eacc8e3c2abe345" change="1658313724" id="N0460" type="Transcript">
@@ -65567,6 +65631,15 @@ C. 714. b. 12. 27</text>
     <note handle="_f151192b6e644d3c29c61307668" change="1658316355" id="N2276" type="Link">
       <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6957&amp;pnum=330</text>
       <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6957&amp;pnum=330">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f1513b8d575445cc1299e336004" change="1658319961" id="N2277" type="Citation">
+      <text>Helsinki rippikirja 1870-1881 (MKO199-228 3P)  Sivu 173  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6957&amp;pnum=173 / Viitattu 20.07.2022</text>
+    </note>
+    <note handle="_f1513bb29a0742dcad5d325c16b" change="1658319976" id="N2285" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6957&amp;pnum=173</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6957&amp;pnum=173">
         <range start="0" end="77"/>
       </style>
     </note>
