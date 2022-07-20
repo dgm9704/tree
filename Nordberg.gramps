@@ -121,7 +121,7 @@
       <description>skarlakans feber</description>
       <citationref hlink="_cdea8e5fac64d1731b6"/>
     </event>
-    <event handle="_cb589cc848623f980ff" change="1625153849" id="E0075">
+    <event handle="_cb589cc848623f980ff" change="1658316716" id="E0075">
       <type>Birth</type>
       <dateval val="1877-07-13"/>
       <place hlink="_cde630ab53a2c774547"/>
@@ -15492,6 +15492,35 @@
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_f150f608e6e46e72d5f224268be"/>
     </event>
+    <event handle="_f1511a2a822ae5bdd664d810bd" change="1658316460" id="E0454">
+      <type>Birth</type>
+      <dateval val="1841-11-25"/>
+      <place hlink="_ce8221b72cd07b47c92"/>
+      <citationref hlink="_f15119341301adeb9d3883bd422"/>
+    </event>
+    <event handle="_f1511a740cf7d290100b59dd410" change="1658316490" id="E0455">
+      <type>Death</type>
+      <dateval val="1879-08-12"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_f15119341301adeb9d3883bd422"/>
+    </event>
+    <event handle="_f1511ad16c934a94934508e1f49" change="1658316528" id="E0456">
+      <type>Birth</type>
+      <dateval val="1842-12-15"/>
+      <citationref hlink="_f15119341301adeb9d3883bd422"/>
+    </event>
+    <event handle="_f1511b82707568973cb82a3620e" change="1658316601" id="E0457">
+      <type>Residence</type>
+      <datespan start="1870" stop="1879"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_f15119341301adeb9d3883bd422"/>
+    </event>
+    <event handle="_f1511c880fb312837d36881789d" change="1658316883" id="E0458">
+      <type>Baptism</type>
+      <dateval val="1877-08-09"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_cdea92807d340a20807"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1548617779" id="I3858">
@@ -15661,7 +15690,7 @@
       <eventref hlink="_cb589cc8465559787e9" role="Primary"/>
       <childof hlink="_cb589cc803c2012656f"/>
     </person>
-    <person handle="_cb589cc847f6455821b" change="1657969475" id="I3762">
+    <person handle="_cb589cc847f6455821b" change="1658316834" id="I3762">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Elin Maria</first>
@@ -15673,6 +15702,7 @@
         <dateval val="1910-06-04" type="after"/>
       </name>
       <eventref hlink="_cb589cc848623f980ff" role="Primary"/>
+      <eventref hlink="_f1511c880fb312837d36881789d" role="Primary"/>
       <eventref hlink="_d3f865019692009b88a1b64f05" role="Primary"/>
       <eventref hlink="_d48d980e27d49e6ce4a70c73347" role="Witness"/>
       <eventref hlink="_e1818d6e22a1e8a684c647e2937" role="Primary"/>
@@ -27980,6 +28010,27 @@
       <eventref hlink="_f150ff661c51e1220e0967ef0f7" role="Primary"/>
       <eventref hlink="_f150de3a0aeb635c5ecfc9a800" role="Witness"/>
     </person>
+    <person handle="_f15116b8ca023f7d8124e897a43" change="1658316871" id="I0112">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Albert</first>
+        <surname derivation="Patronymic">Johansson</surname>
+      </name>
+      <eventref hlink="_f1511a2a822ae5bdd664d810bd" role="Primary"/>
+      <eventref hlink="_f1511c880fb312837d36881789d" role="Witness"/>
+      <eventref hlink="_f1511a740cf7d290100b59dd410" role="Primary"/>
+      <parentin hlink="_f15116a172d407415e6ce1fc24a"/>
+    </person>
+    <person handle="_f1511a88336c4a0f0034cf44cf" change="1658316888" id="I0113">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Mathilda Charlotta</first>
+        <surname>Bäckström</surname>
+      </name>
+      <eventref hlink="_f1511ad16c934a94934508e1f49" role="Primary"/>
+      <eventref hlink="_f1511c880fb312837d36881789d" role="Witness"/>
+      <parentin hlink="_f15116a172d407415e6ce1fc24a"/>
+    </person>
   </people>
   <families>
     <family handle="_cb589cc7f9c792dc427" change="1548617779" id="F1472">
@@ -31435,6 +31486,12 @@
       <father hlink="_f150cdb524e200b5b297b815a2e"/>
       <mother hlink="_f150cf3ac5b376a51a471c3981"/>
       <eventref hlink="_f150d00c5ee4779bf16dd0ef71e" role="Family"/>
+    </family>
+    <family handle="_f15116a172d407415e6ce1fc24a" change="1658316606" id="F0025">
+      <rel type="Married"/>
+      <father hlink="_f15116b8ca023f7d8124e897a43"/>
+      <mother hlink="_f1511a88336c4a0f0034cf44cf"/>
+      <eventref hlink="_f1511b82707568973cb82a3620e" role="Family"/>
     </family>
   </families>
   <citations>
@@ -40813,6 +40870,13 @@
       <noteref hlink="_f150f604b9663d36d3a9d66c930"/>
       <sourceref hlink="_cde65158bf529623e7b"/>
     </citation>
+    <citation handle="_f15119341301adeb9d3883bd422" change="1658316359" id="C1396">
+      <page>III/330</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f151190b58316ae5bc76e2316e7"/>
+      <noteref hlink="_f151192b6e644d3c29c61307668"/>
+      <sourceref hlink="_cde65158bf529623e7b"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -49678,12 +49742,18 @@ Viktor Ferdinand	19	6/3	Fldr Arb Ferdinand Nordberg mhu Sofia Wilh Holmström 35
 						Fddr ju Anna Charl Fagerström, ju Anna Helena Fager
 						ström, Arb. Johan Ferdinand Fagerström</text>
     </note>
-    <note handle="_d85ef383bba1ffbd757ecfb4123" change="1486889525" id="N0459" type="Transcript" format="1">
+    <note handle="_d85ef383bba1ffbd757ecfb4123" change="1658316795" id="N0459" type="Transcript" format="1">
       <text>Juli 1877
 Elin Maria	13	9/8	Fldr Dykeriarbetaren Ferdinand Nordberg mhu Sofia Wil
 					helmina Holmström 30 X (3-731)
 					Fddr: Muraren Albert Johansson mhu Mathilda, Ma
 					skinisten Johan Lax och Jfrun Amanda Hå???</text>
+      <style name="link" value="gramps://Person/handle/f15116b8ca023f7d8124e897a43">
+        <range start="137" end="153"/>
+      </style>
+      <style name="link" value="gramps://Person/handle/f1511a88336c4a0f0034cf44cf">
+        <range start="158" end="166"/>
+      </style>
     </note>
     <note handle="_d85ef66999c3eacc8e3c2abe345" change="1658313724" id="N0460" type="Transcript">
       <text>November 1875
@@ -65488,6 +65558,15 @@ C. 714. b. 12. 27</text>
     <note handle="_f150f604b9663d36d3a9d66c930" change="1658312669" id="N2274" type="Link">
       <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6957&amp;pnum=614</text>
       <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6957&amp;pnum=614">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f151190b58316ae5bc76e2316e7" change="1658316342" id="N2275" type="Citation">
+      <text>Helsinki rippikirja 1870-1881 (MKO199-228 3P)  Sivu 330  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6957&amp;pnum=330 / Viitattu 20.07.2022</text>
+    </note>
+    <note handle="_f151192b6e644d3c29c61307668" change="1658316355" id="N2276" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6957&amp;pnum=330</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6957&amp;pnum=330">
         <range start="0" end="77"/>
       </style>
     </note>
