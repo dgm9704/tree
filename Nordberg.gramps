@@ -102,7 +102,7 @@
       <description>drunknad</description>
       <citationref hlink="_cdeaa8308fe28f04ac2"/>
     </event>
-    <event handle="_cb589cc843a611773b4" change="1595158943" id="E0071">
+    <event handle="_cb589cc843a611773b4" change="1658304989" id="E0071">
       <type>Birth</type>
       <dateval val="1873-06-07"/>
       <place hlink="_cde630ab53a2c774547"/>
@@ -15418,6 +15418,12 @@
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_cdea87f103a7a9dc9bc"/>
     </event>
+    <event handle="_f150ad0dcd620708e4c88f66329" change="1658305095" id="E0441">
+      <type>Baptism</type>
+      <dateval val="1873-06-22"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_cdea8b29a6c65d4ad01"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1548617779" id="I3858">
@@ -15557,7 +15563,7 @@
       <childof hlink="_cb589cc83ea4c947ebd"/>
       <parentin hlink="_cb589cc803c2012656f"/>
     </person>
-    <person handle="_cb589cc84347c619504" change="1658134040" id="I4402">
+    <person handle="_cb589cc84347c619504" change="1658305040" id="I4402">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Charlotta Wilhelmina</first>
@@ -15569,6 +15575,7 @@
         <dateval val="1906-06" type="after"/>
       </name>
       <eventref hlink="_cb589cc843a611773b4" role="Primary"/>
+      <eventref hlink="_f150ad0dcd620708e4c88f66329" role="Primary"/>
       <eventref hlink="_e181bdc2a1079499c7ccae9ddfd" role="Primary"/>
       <eventref hlink="_dcddbf5d1c2395bf0482e9e2601" role="Primary"/>
       <eventref hlink="_e8203932b2a22b7e3c551923892" role="Primary"/>
@@ -27842,20 +27849,22 @@
       <eventref hlink="_f150a4d349e5c59fb6a11613308" role="Witness"/>
       <parentin hlink="_f14f48fe16113ce0450a9a5147b"/>
     </person>
-    <person handle="_f150a2d991d3883684f326f0686" change="1658304023" id="I0106">
+    <person handle="_f150a2d991d3883684f326f0686" change="1658305069" id="I0106">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Alexander</first>
         <surname>Harlin</surname>
       </name>
+      <eventref hlink="_f150ad0dcd620708e4c88f66329" role="Witness"/>
       <parentin hlink="_f150a2d297622c1fce11def1c7a"/>
     </person>
-    <person handle="_f150a32e29e3c5a604d3aa3b936" change="1658304023" id="I0107">
+    <person handle="_f150a32e29e3c5a604d3aa3b936" change="1658305098" id="I0107">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria</first>
         <surname></surname>
       </name>
+      <eventref hlink="_f150ad0dcd620708e4c88f66329" role="Witness"/>
       <parentin hlink="_f150a2d297622c1fce11def1c7a"/>
     </person>
   </people>
@@ -49523,12 +49532,18 @@ Viktor Leonard	13	21	Fldr: arb Ferdinand Nordberg mhu Sofia Wilhelmina Holm
 						Fddr: Snickm Alex Harlu mhu Maria, målarges Adolf
 						Eklund</text>
     </note>
-    <note handle="_d85ef8d01a479a051cbfb78369e" change="1486890080" id="N0461" type="Transcript" format="1">
+    <note handle="_d85ef8d01a479a051cbfb78369e" change="1658305157" id="N0461" type="Transcript" format="1">
       <text>Juni 1873
 Maria Charlotta Wilhelmina	7	22	Fldr. Arbetskarlen Ferdinand Nordberg mhu Sofia Wilhel
 									min Holmström, 27 x (3-731)
 									Fddr. fd. Underoff Alexander Harlin mhu Maria samt 
 									Forman Johan Fagerström mhu Helena</text>
+      <style name="link" value="gramps://Person/handle/f150a2d991d3883684f326f0686">
+        <range start="162" end="178"/>
+      </style>
+      <style name="link" value="gramps://Person/handle/f150a32e29e3c5a604d3aa3b936">
+        <range start="183" end="188"/>
+      </style>
     </note>
     <note handle="_d85efa1c14a34cd62b1f7f6957d" change="1658267993" id="N0462" type="Transcript" format="1">
       <text>Januari 1871
