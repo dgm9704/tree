@@ -108,7 +108,7 @@
       <place hlink="_cde630ab53a2c774547"/>
       <citationref hlink="_cdea8b29a6c65d4ad01"/>
     </event>
-    <event handle="_cb589cc84575f835d35" change="1486889831" id="E0072">
+    <event handle="_cb589cc84575f835d35" change="1658310134" id="E0072">
       <type>Birth</type>
       <dateval val="1875-11-13"/>
       <place hlink="_cde630ab53a2c774547"/>
@@ -15474,6 +15474,12 @@
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_f150cf0af4817f1d153662632a2"/>
     </event>
+    <event handle="_f150de3a0aeb635c5ecfc9a800" change="1658310240" id="E0451">
+      <type>Baptism</type>
+      <dateval val="1875-11-21"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_cdea8c4dbeb0608c1c5"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1548617779" id="I3858">
@@ -15632,13 +15638,14 @@
       <childof hlink="_cb589cc803c2012656f"/>
       <parentin hlink="_cb589cc844867fcce24"/>
     </person>
-    <person handle="_cb589cc84532e6710cf" change="1625167619" id="I5642">
+    <person handle="_cb589cc84532e6710cf" change="1658310185" id="I5642">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Viktor Leonard</first>
         <surname>Nordberg</surname>
       </name>
       <eventref hlink="_cb589cc84575f835d35" role="Primary"/>
+      <eventref hlink="_f150de3a0aeb635c5ecfc9a800" role="Primary"/>
       <eventref hlink="_cb589cc8465559787e9" role="Primary"/>
       <childof hlink="_cb589cc803c2012656f"/>
     </person>
@@ -27899,7 +27906,7 @@
       <eventref hlink="_f150a4d349e5c59fb6a11613308" role="Witness"/>
       <parentin hlink="_f14f48fe16113ce0450a9a5147b"/>
     </person>
-    <person handle="_f150a2d991d3883684f326f0686" change="1658307211" id="I0106">
+    <person handle="_f150a2d991d3883684f326f0686" change="1658310226" id="I0106">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Alexander</first>
@@ -27907,10 +27914,11 @@
       </name>
       <eventref hlink="_f150c0ba92d2e8acf5aec464160" role="Primary"/>
       <eventref hlink="_f150ad0dcd620708e4c88f66329" role="Witness"/>
+      <eventref hlink="_f150de3a0aeb635c5ecfc9a800" role="Witness"/>
       <parentin hlink="_f150a2d297622c1fce11def1c7a"/>
       <parentin hlink="_f150b73c784675f722d16ac44ab"/>
     </person>
-    <person handle="_f150a32e29e3c5a604d3aa3b936" change="1658307159" id="I0107">
+    <person handle="_f150a32e29e3c5a604d3aa3b936" change="1658310243" id="I0107">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Gustava</first>
@@ -27918,6 +27926,7 @@
       </name>
       <eventref hlink="_f150c16542e65da654506f6aeb3" role="Primary"/>
       <eventref hlink="_f150ad0dcd620708e4c88f66329" role="Witness"/>
+      <eventref hlink="_f150de3a0aeb635c5ecfc9a800" role="Primary"/>
       <parentin hlink="_f150a2d297622c1fce11def1c7a"/>
     </person>
     <person handle="_f150c32102b498369bb36e29c90" change="1658307569" id="I0108">
@@ -49647,12 +49656,18 @@ Elin Maria	13	9/8	Fldr Dykeriarbetaren Ferdinand Nordberg mhu Sofia Wil
 					Fddr: Muraren Albert Johansson mhu Mathilda, Ma
 					skinisten Johan Lax och Jfrun Amanda Hå???</text>
     </note>
-    <note handle="_d85ef66999c3eacc8e3c2abe345" change="1486889829" id="N0460" type="Transcript">
+    <note handle="_d85ef66999c3eacc8e3c2abe345" change="1658310115" id="N0460" type="Transcript">
       <text>November 1875
 Viktor Leonard	13	21	Fldr: arb Ferdinand Nordberg mhu Sofia Wilhelmina Holm
 						ström 29 x (3-731)
-						Fddr: Snickm Alex Harlu mhu Maria, målarges Adolf
+						Fddr: Snickm Alex Harlin mhu Maria, målarges Adolf
 						Eklund</text>
+      <style name="link" value="gramps://Person/handle/f150a2d991d3883684f326f0686">
+        <range start="134" end="145"/>
+      </style>
+      <style name="link" value="gramps://Person/handle/f150a32e29e3c5a604d3aa3b936">
+        <range start="150" end="155"/>
+      </style>
     </note>
     <note handle="_d85ef8d01a479a051cbfb78369e" change="1658308787" id="N0461" type="Transcript" format="1">
       <text>Juni 1873
