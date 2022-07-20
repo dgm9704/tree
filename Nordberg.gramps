@@ -15424,6 +15424,38 @@
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_cdea8b29a6c65d4ad01"/>
     </event>
+    <event handle="_f150c0ba92d2e8acf5aec464160" change="1658307082" id="E0442">
+      <type>Birth</type>
+      <dateval val="1836"/>
+      <citationref hlink="_f150c08f9404bf00746d9dd9443"/>
+    </event>
+    <event handle="_f150c16542e65da654506f6aeb3" change="1658307151" id="E0443">
+      <type>Birth</type>
+      <dateval val="1842-12-30"/>
+      <citationref hlink="_f150c08f9404bf00746d9dd9443"/>
+    </event>
+    <event handle="_f150c1d7aeb67a82202ebe89828" change="1658307198" id="E0444">
+      <type>Residence</type>
+      <datespan start="1871" stop="1881"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_f150c08f9404bf00746d9dd9443"/>
+    </event>
+    <event handle="_f150c4bc1af524428763ed26112" change="1658307529" id="E0445">
+      <type>Birth</type>
+      <dateval val="1827-07-13"/>
+      <citationref hlink="_f150c4b795a3dfa03714772314b"/>
+    </event>
+    <event handle="_f150c5492a17fd52e2f051ce41d" change="1658307559" id="E0446">
+      <type>Marriage</type>
+      <dateval val="1859-04-29"/>
+      <citationref hlink="_f150c4b795a3dfa03714772314b"/>
+    </event>
+    <event handle="_f150c62516c2daeabee85cfb99f" change="1658307649" id="E0447">
+      <type>Marriage</type>
+      <dateval val="1871-05-11"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_f150c08f9404bf00746d9dd9443"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1548617779" id="I3858">
@@ -27849,23 +27881,35 @@
       <eventref hlink="_f150a4d349e5c59fb6a11613308" role="Witness"/>
       <parentin hlink="_f14f48fe16113ce0450a9a5147b"/>
     </person>
-    <person handle="_f150a2d991d3883684f326f0686" change="1658305069" id="I0106">
+    <person handle="_f150a2d991d3883684f326f0686" change="1658307211" id="I0106">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Alexander</first>
         <surname>Harlin</surname>
       </name>
+      <eventref hlink="_f150c0ba92d2e8acf5aec464160" role="Primary"/>
+      <eventref hlink="_f150ad0dcd620708e4c88f66329" role="Witness"/>
+      <parentin hlink="_f150a2d297622c1fce11def1c7a"/>
+      <parentin hlink="_f150b73c784675f722d16ac44ab"/>
+    </person>
+    <person handle="_f150a32e29e3c5a604d3aa3b936" change="1658307159" id="I0107">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Maria Gustava</first>
+        <surname>Wikström</surname>
+      </name>
+      <eventref hlink="_f150c16542e65da654506f6aeb3" role="Primary"/>
       <eventref hlink="_f150ad0dcd620708e4c88f66329" role="Witness"/>
       <parentin hlink="_f150a2d297622c1fce11def1c7a"/>
     </person>
-    <person handle="_f150a32e29e3c5a604d3aa3b936" change="1658305098" id="I0107">
+    <person handle="_f150c32102b498369bb36e29c90" change="1658307569" id="I0108">
       <gender>F</gender>
       <name type="Birth Name">
-        <first>Maria</first>
-        <surname></surname>
+        <first>Ulrika Charlotta</first>
+        <surname>Wikström</surname>
       </name>
-      <eventref hlink="_f150ad0dcd620708e4c88f66329" role="Witness"/>
-      <parentin hlink="_f150a2d297622c1fce11def1c7a"/>
+      <eventref hlink="_f150c4bc1af524428763ed26112" role="Primary"/>
+      <parentin hlink="_f150b73c784675f722d16ac44ab"/>
     </person>
   </people>
   <families>
@@ -31304,10 +31348,18 @@
       <mother hlink="_f14f4ab978352cd638bf5300b7b"/>
       <eventref hlink="_f14f4ec6a46567117437097c38e" role="Family"/>
     </family>
-    <family handle="_f150a2d297622c1fce11def1c7a" change="1658304023" id="F0022">
-      <rel type="Unknown"/>
+    <family handle="_f150a2d297622c1fce11def1c7a" change="1658307696" id="F0022">
+      <rel type="Married"/>
       <father hlink="_f150a2d991d3883684f326f0686"/>
       <mother hlink="_f150a32e29e3c5a604d3aa3b936"/>
+      <eventref hlink="_f150c62516c2daeabee85cfb99f" role="Family"/>
+      <eventref hlink="_f150c1d7aeb67a82202ebe89828" role="Family"/>
+    </family>
+    <family handle="_f150b73c784675f722d16ac44ab" change="1658307569" id="F0023">
+      <rel type="Married"/>
+      <father hlink="_f150a2d991d3883684f326f0686"/>
+      <mother hlink="_f150c32102b498369bb36e29c90"/>
+      <eventref hlink="_f150c5492a17fd52e2f051ce41d" role="Family"/>
     </family>
   </families>
   <citations>
@@ -40657,6 +40709,20 @@
       <noteref hlink="_f14f4e08b1e260fc880d66e962a"/>
       <noteref hlink="_f14f4e2da8f8ce25a782df4748"/>
       <sourceref hlink="_cde65158bf529623e7b"/>
+    </citation>
+    <citation handle="_f150c08f9404bf00746d9dd9443" change="1658307064" id="C1392">
+      <page>I/824</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f150c03ead3738319b9262a7ffe"/>
+      <noteref hlink="_f150c075aa139e5bcdf4b4b3f99"/>
+      <sourceref hlink="_cde65158bf529623e7b"/>
+    </citation>
+    <citation handle="_f150c4b795a3dfa03714772314b" change="1658307500" id="C1393">
+      <page>II/195</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f150c488bb538a1e7e783518213"/>
+      <noteref hlink="_f150c4b245c7209ad6857e87087"/>
+      <sourceref hlink="_cde63f91eee556ea9ee"/>
     </citation>
   </citations>
   <sources>
@@ -65276,6 +65342,27 @@ C. 714. b. 12. 27</text>
       <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6957&amp;pnum=584</text>
       <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6957&amp;pnum=584">
         <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f150c03ead3738319b9262a7ffe" change="1658307031" id="N2262" type="Citation">
+      <text>Helsinki rippikirja 1870-1881 (MKO136-169)  Sivu 824 Johan Oljelund ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=5832&amp;pnum=823 / Viitattu 20.07.2022</text>
+    </note>
+    <note handle="_f150c075aa139e5bcdf4b4b3f99" change="1658307053" id="N2263" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=5832&amp;pnum=823</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=5832&amp;pnum=823">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f150c42ab7b2fc444587e02438f" change="1658307442" id="N2264" type="Citation">
+      <text>Helsinki rippikirja 1870-1881 (MKO136-169)  Sivu 824 Johan Oljelund ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=5832&amp;pnum=823 / Viitattu 20.07.2022</text>
+    </note>
+    <note handle="_f150c488bb538a1e7e783518213" change="1658307481" id="N2265" type="Citation">
+      <text>Helsinki rippikirja 1856-1869 (MKO52-79 P 2)  Sivu 195 3:dje Stadsdelen, Qv Stören, Gården no 11 vid Kasern gatan ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23470&amp;pnum=180 / Viitattu 20.07.2022</text>
+    </note>
+    <note handle="_f150c4b245c7209ad6857e87087" change="1658307498" id="N2266" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23470&amp;pnum=180</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23470&amp;pnum=180">
+        <range start="0" end="78"/>
       </style>
     </note>
   </notes>
