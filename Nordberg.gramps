@@ -15474,11 +15474,23 @@
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_f150cf0af4817f1d153662632a2"/>
     </event>
-    <event handle="_f150de3a0aeb635c5ecfc9a800" change="1658310240" id="E0451">
+    <event handle="_f150de3a0aeb635c5ecfc9a800" change="1658313551" id="E0451">
       <type>Baptism</type>
       <dateval val="1875-11-21"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_cdea8c4dbeb0608c1c5"/>
+    </event>
+    <event handle="_f150f60d2b2d5d178155b20be2" change="1658313603" id="E0452">
+      <type>Birth</type>
+      <dateval val="1852-05-17"/>
+      <place hlink="_cea1539e33861a5d8a0"/>
+      <citationref hlink="_f150f608e6e46e72d5f224268be"/>
+    </event>
+    <event handle="_f150ff661c51e1220e0967ef0f7" change="1658313653" id="E0453">
+      <type>Residence</type>
+      <datespan start="1872" stop="1881"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_f150f608e6e46e72d5f224268be"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -27918,7 +27930,7 @@
       <parentin hlink="_f150a2d297622c1fce11def1c7a"/>
       <parentin hlink="_f150b73c784675f722d16ac44ab"/>
     </person>
-    <person handle="_f150a32e29e3c5a604d3aa3b936" change="1658310243" id="I0107">
+    <person handle="_f150a32e29e3c5a604d3aa3b936" change="1658312814" id="I0107">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Gustava</first>
@@ -27926,7 +27938,7 @@
       </name>
       <eventref hlink="_f150c16542e65da654506f6aeb3" role="Primary"/>
       <eventref hlink="_f150ad0dcd620708e4c88f66329" role="Witness"/>
-      <eventref hlink="_f150de3a0aeb635c5ecfc9a800" role="Primary"/>
+      <eventref hlink="_f150de3a0aeb635c5ecfc9a800" role="Witness"/>
       <parentin hlink="_f150a2d297622c1fce11def1c7a"/>
     </person>
     <person handle="_f150c32102b498369bb36e29c90" change="1658307569" id="I0108">
@@ -27957,6 +27969,16 @@
       <eventref hlink="_f150cf8b78b148a68702a57f295" role="Primary"/>
       <eventref hlink="_f150ad0dcd620708e4c88f66329" role="Witness"/>
       <parentin hlink="_f150cda8e462bab6943914aeb0e"/>
+    </person>
+    <person handle="_f150f5379394c691fa4f6ca38b3" change="1658313659" id="I0111">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Adolf</first>
+        <surname>Eklund</surname>
+      </name>
+      <eventref hlink="_f150f60d2b2d5d178155b20be2" role="Primary"/>
+      <eventref hlink="_f150ff661c51e1220e0967ef0f7" role="Primary"/>
+      <eventref hlink="_f150de3a0aeb635c5ecfc9a800" role="Witness"/>
     </person>
   </people>
   <families>
@@ -40784,6 +40806,13 @@
       <noteref hlink="_f150cefce4e22ec9cc5ba850370"/>
       <sourceref hlink="_cde65158bf529623e7b"/>
     </citation>
+    <citation handle="_f150f608e6e46e72d5f224268be" change="1658312671" id="C1395">
+      <page>III/614</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f150f5e6028131fa1349fb66fdf"/>
+      <noteref hlink="_f150f604b9663d36d3a9d66c930"/>
+      <sourceref hlink="_cde65158bf529623e7b"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -49656,17 +49685,19 @@ Elin Maria	13	9/8	Fldr Dykeriarbetaren Ferdinand Nordberg mhu Sofia Wil
 					Fddr: Muraren Albert Johansson mhu Mathilda, Ma
 					skinisten Johan Lax och Jfrun Amanda Hå???</text>
     </note>
-    <note handle="_d85ef66999c3eacc8e3c2abe345" change="1658310115" id="N0460" type="Transcript">
+    <note handle="_d85ef66999c3eacc8e3c2abe345" change="1658313724" id="N0460" type="Transcript">
       <text>November 1875
 Viktor Leonard	13	21	Fldr: arb Ferdinand Nordberg mhu Sofia Wilhelmina Holm
 						ström 29 x (3-731)
-						Fddr: Snickm Alex Harlin mhu Maria, målarges Adolf
-						Eklund</text>
+						Fddr: Snickm Alex Harlin mhu Maria, målarges Adolf Eklund</text>
       <style name="link" value="gramps://Person/handle/f150a2d991d3883684f326f0686">
         <range start="134" end="145"/>
       </style>
       <style name="link" value="gramps://Person/handle/f150a32e29e3c5a604d3aa3b936">
         <range start="150" end="155"/>
+      </style>
+      <style name="link" value="gramps://Person/handle/f150f5379394c691fa4f6ca38b3">
+        <range start="166" end="178"/>
       </style>
     </note>
     <note handle="_d85ef8d01a479a051cbfb78369e" change="1658308787" id="N0461" type="Transcript" format="1">
@@ -65448,6 +65479,15 @@ C. 714. b. 12. 27</text>
     <note handle="_f150cefce4e22ec9cc5ba850370" change="1658308577" id="N2271" type="Link">
       <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6957&amp;pnum=232</text>
       <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6957&amp;pnum=232">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f150f5e6028131fa1349fb66fdf" change="1658312657" id="N2272" type="Citation">
+      <text>Helsinki rippikirja 1870-1881 (MKO199-228 3P)  Sivu 614  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6957&amp;pnum=614 / Viitattu 20.07.2022</text>
+    </note>
+    <note handle="_f150f604b9663d36d3a9d66c930" change="1658312669" id="N2274" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6957&amp;pnum=614</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6957&amp;pnum=614">
         <range start="0" end="77"/>
       </style>
     </note>
