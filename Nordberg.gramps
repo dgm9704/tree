@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2022-07-20" version="5.1.5"/>
+    <created date="2022-07-21" version="5.1.5"/>
     <researcher>
     </researcher>
   </header>
@@ -15551,16 +15551,16 @@
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_cdea966934f7972eb57"/>
     </event>
-    <event handle="_f1520ea3821694ea26c1c804b42" change="1658344982" id="E0464">
+    <event handle="_f1520ea3821694ea26c1c804b42" change="1658431537" id="E0464">
       <type>Birth</type>
       <dateval val="1859-02-18"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_f150cf0af4817f1d153662632a2"/>
       <citationref hlink="_f1522a2a27bba1160101ae1541"/>
     </event>
-    <event handle="_f152185c32b6e41cd2dd387c482" change="1658343120" id="E0465">
+    <event handle="_f152185c32b6e41cd2dd387c482" change="1658431067" id="E0465">
       <type>Birth</type>
-      <dateval val="1855-02-14"/>
+      <dateval val="1855-04-14"/>
       <citationref hlink="_f150cf0af4817f1d153662632a2"/>
     </event>
     <event handle="_f15223ce5254f6819364bea77f5" change="1658344314" id="E0466">
@@ -15568,6 +15568,30 @@
       <dateval val="1861-09-12"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_f150cf0af4817f1d153662632a2"/>
+    </event>
+    <event handle="_f1555e838d228e964e92f6357be" change="1658431106" id="E0467">
+      <type>Residence</type>
+      <datespan start="1856" stop="1869"/>
+      <place hlink="_f1555dcf4fe3730dbb1a723390b"/>
+      <citationref hlink="_f1555e6adc3a76b867c5510a60"/>
+    </event>
+    <event handle="_f1556246a1c2a7d11200887c69e" change="1658431395" id="E0468">
+      <type>Birth</type>
+      <dateval val="1865-06-27"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_f15562293dc2bbd99c8b56b4278"/>
+    </event>
+    <event handle="_f15562a22846eb911f66ed96649" change="1658431433" id="E0469">
+      <type>Death</type>
+      <dateval val="1867-08-22"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_f15562293dc2bbd99c8b56b4278"/>
+    </event>
+    <event handle="_f1556b5c0322c983cfcdbb160" change="1658432348" id="E0470">
+      <type>Death</type>
+      <dateval val="1860-04-12"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_f1556b55007695bba0964aa99f0"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -28100,7 +28124,7 @@
       <eventref hlink="_f1511c880fb312837d36881789d" role="Witness"/>
       <parentin hlink="_f1513a56b91101c79875bb06e2e"/>
     </person>
-    <person handle="_f1520d8f5773a1e67d96b71237" change="1658345013" id="I0116">
+    <person handle="_f1520d8f5773a1e67d96b71237" change="1658432372" id="I0116">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anna Charlotta</first>
@@ -28111,18 +28135,19 @@
       <eventref hlink="_f1520ceaadf737a9245acc4cbee" role="Witness"/>
       <childof hlink="_f150cda8e462bab6943914aeb0e"/>
     </person>
-    <person handle="_f15217564c742c378bdef8f784b" change="1658345013" id="I0117">
+    <person handle="_f15217564c742c378bdef8f784b" change="1658432372" id="I0117">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Johan Ferdinand</first>
         <surname>Fagerström</surname>
       </name>
       <eventref hlink="_f152185c32b6e41cd2dd387c482" role="Primary"/>
+      <eventref hlink="_f1555e838d228e964e92f6357be" role="Family"/>
       <eventref hlink="_f150d00c5ee4779bf16dd0ef71e" role="Family"/>
       <eventref hlink="_f1520ceaadf737a9245acc4cbee" role="Witness"/>
       <childof hlink="_f150cda8e462bab6943914aeb0e"/>
     </person>
-    <person handle="_f15223504715cec63572ba800d" change="1658345013" id="I0118">
+    <person handle="_f15223504715cec63572ba800d" change="1658432372" id="I0118">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Sofia</first>
@@ -28132,13 +28157,24 @@
       <eventref hlink="_f150d00c5ee4779bf16dd0ef71e" role="Family"/>
       <childof hlink="_f150cda8e462bab6943914aeb0e"/>
     </person>
-    <person handle="_f15228df7271c211335ebf815c8" change="1658345013" id="I0119">
+    <person handle="_f15228df7271c211335ebf815c8" change="1658432372" id="I0119">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Amanda Karolina</first>
         <surname>Fagerström</surname>
       </name>
       <eventref hlink="_f1520ea3821694ea26c1c804b42" role="Primary"/>
+      <eventref hlink="_f1556b5c0322c983cfcdbb160" role="Primary"/>
+      <childof hlink="_f150cda8e462bab6943914aeb0e"/>
+    </person>
+    <person handle="_f15560b85a07ffd5b7fa8a95c35" change="1658432372" id="I0120">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Karl Gustaf</first>
+        <surname>Fagerström</surname>
+      </name>
+      <eventref hlink="_f1556246a1c2a7d11200887c69e" role="Primary"/>
+      <eventref hlink="_f15562a22846eb911f66ed96649" role="Primary"/>
       <childof hlink="_f150cda8e462bab6943914aeb0e"/>
     </person>
   </people>
@@ -31591,15 +31627,17 @@
       <mother hlink="_f150c32102b498369bb36e29c90"/>
       <eventref hlink="_f150c5492a17fd52e2f051ce41d" role="Family"/>
     </family>
-    <family handle="_f150cda8e462bab6943914aeb0e" change="1658345013" id="F0024">
+    <family handle="_f150cda8e462bab6943914aeb0e" change="1658432372" id="F0024">
       <rel type="Married"/>
       <father hlink="_f150cdb524e200b5b297b815a2e"/>
       <mother hlink="_f150cf3ac5b376a51a471c3981"/>
+      <eventref hlink="_f1555e838d228e964e92f6357be" role="Family"/>
       <eventref hlink="_f150d00c5ee4779bf16dd0ef71e" role="Family"/>
       <childref hlink="_f15217564c742c378bdef8f784b"/>
       <childref hlink="_f1520d8f5773a1e67d96b71237"/>
       <childref hlink="_f15228df7271c211335ebf815c8"/>
       <childref hlink="_f15223504715cec63572ba800d"/>
+      <childref hlink="_f15560b85a07ffd5b7fa8a95c35"/>
     </family>
     <family handle="_f15116a172d407415e6ce1fc24a" change="1658316606" id="F0025">
       <rel type="Married"/>
@@ -31718,15 +31756,16 @@
       <noteref hlink="_d85ef383bba1ffbd757ecfb4123"/>
       <sourceref hlink="_cdea877adb954644203"/>
     </citation>
-    <citation handle="_cdea966934f7972eb57" change="1486889159" id="C0038">
+    <citation handle="_cdea966934f7972eb57" change="1658407745" id="C0038">
       <page>1734</page>
       <confidence>2</confidence>
       <noteref hlink="_cdea9664318175c077a"/>
       <noteref hlink="_d85ef001af028c71992cd0f7dc2"/>
+      <noteref hlink="_f15480b03532408252e9f9adbe2"/>
       <sourceref hlink="_cdea877adb954644203"/>
     </citation>
-    <citation handle="_cdeaa4cbe6c5f279b84" change="1625154385" id="C0039">
-      <page>III/731</page>
+    <citation handle="_cdeaa4cbe6c5f279b84" change="1658432623" id="C0039">
+      <page>III/790-731</page>
       <confidence>2</confidence>
       <noteref hlink="_cdeaa4c757d3ea95d0b"/>
       <noteref hlink="_ec7db56d3657ae06391eed2b4f1"/>
@@ -38354,8 +38393,8 @@
       <noteref hlink="_e82099b8c5040ad2be204a59de"/>
       <sourceref hlink="_cde63f91eee556ea9ee"/>
     </citation>
-    <citation handle="_e1875d5d7c767fd483b88a888b6" change="1595166279" id="C1056">
-      <page>766-767</page>
+    <citation handle="_e1875d5d7c767fd483b88a888b6" change="1658432594" id="C1056">
+      <page>III/766-767</page>
       <confidence>2</confidence>
       <noteref hlink="_e1875d5945447701ef4bd67fe5a"/>
       <noteref hlink="_e82092dc47f8d2be35d223f781"/>
@@ -41011,6 +41050,27 @@
       <noteref hlink="_f15229dc8403c01e53949b77f91"/>
       <noteref hlink="_f1522a1120b7f77077d4f6ac899"/>
       <sourceref hlink="_cdea877adb954644203"/>
+    </citation>
+    <citation handle="_f1555e6adc3a76b867c5510a60" change="1658430991" id="C1399">
+      <page>III/232</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f1555e390e92e0a2b13d485f190"/>
+      <noteref hlink="_f1555e611b762beb777e6334fb8"/>
+      <sourceref hlink="_cde63f91eee556ea9ee"/>
+    </citation>
+    <citation handle="_f15562293dc2bbd99c8b56b4278" change="1658431383" id="C1400">
+      <page>III/232-233</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f15561fff8e35fb08e0a9492bf"/>
+      <noteref hlink="_f15562257a73c442874355ac40b"/>
+      <sourceref hlink="_f15561cd05d2af7d083fe019b0b"/>
+    </citation>
+    <citation handle="_f1556b55007695bba0964aa99f0" change="1658432345" id="C1401">
+      <page>kuva 90</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f1556b181b34aa49fcc9e15ab44"/>
+      <noteref hlink="_f1556b5123e6f47619d443ca4b6"/>
+      <sourceref hlink="_cfcd1c064c818e09da9"/>
     </citation>
   </citations>
   <sources>
@@ -43876,6 +43936,11 @@
       <sauthor>Tilastotoimisto</sauthor>
       <reporef hlink="_f14d3a7355967dab0946743b6fa" medium="Book"/>
     </source>
+    <source handle="_f15561cd05d2af7d083fe019b0b" change="1658431345" id="S0573">
+      <stitle>Helsinki Lastenkirja 1856-1869</stitle>
+      <sauthor>Helsingin ruotsalais-suomalainen seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1595618071" id="P0000" type="City">
@@ -45203,7 +45268,7 @@
       <pname value="Pantsarlahti"/>
       <placeref hlink="_cde62768b9e01659bdc"/>
     </placeobj>
-    <placeobj handle="_d3f864f0ee57824aeda48356a5c" change="1456654035" id="P0007" type="Neighborhood">
+    <placeobj handle="_d3f864f0ee57824aeda48356a5c" change="1658430923" id="P0007" type="Block">
       <code>91</code>
       <pname value="Höken"/>
       <placeref hlink="_d3f8948cd0d503cb5a55a61ad8"/>
@@ -46619,6 +46684,10 @@
       <pname value="Pernaja" lang="fi"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
     </placeobj>
+    <placeobj handle="_f1555dcf4fe3730dbb1a723390b" change="1658430927" id="P0145" type="Building">
+      <pname value="Gården No 15 vid Alberts gatan"/>
+      <placeref hlink="_d3f864f0ee57824aeda48356a5c"/>
+    </placeobj>
   </places>
   <repositories>
     <repository handle="_cdea29a49637c6553bc" change="1657134079" id="R0001">
@@ -46626,7 +46695,7 @@
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1658050088" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1658431344" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -65732,6 +65801,59 @@ C. 714. b. 12. 27</text>
     <note handle="_f1522a1120b7f77077d4f6ac899" change="1658344971" id="N2287" type="Link">
       <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=8747&amp;pnum=194</text>
       <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=8747&amp;pnum=194">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f15480b03532408252e9f9adbe2" change="1658407741" id="N2288" type="Research">
+      <text>Kummeiksi on kirjattu &quot;Ju Anna Charl. Fagerström, Ju Anna Helena Fagerström, Arb. Johan Ferdinand Fagerström&quot;
+Näistä Anna Charlotta (s.1859) ja Johan Ferdinand (s.1855) ovat sisarukset, mutta Anna Helena Fagerström ei näytä sopivan.
+Perheestä löytyy äiti Anna Helena Tunberg (s.1826) sekä tyttäret Maria Sofia (s.1861)  ja (Anna Charlotan kaksoissisko) Amanda Karolina (s.1859)
+Koska kaste on vuodelta 1886 ja &quot;Anna Helena Fagerström&quot; on merkitty olevan Ju[ngfru?] pidän todennäköisenä 
+että &quot;Anna Helena Fagerström&quot; on virhe (sotkettu äidin ja tyttären nimet) jonka tilalla kuuluisi olla kahden muun kummin sisko Maria Sofia Fagerström.
+(On myös mahdollista että kyseessä on esim. serkku, tätä en ole selvittänyt vielä lainkaan)</text>
+      <style name="link" value="gramps://Family/handle/f150cda8e462bab6943914aeb0e">
+        <range start="233" end="242"/>
+      </style>
+      <style name="link" value="gramps://Person/handle/f150cf3ac5b376a51a471c3981">
+        <range start="255" end="283"/>
+      </style>
+      <style name="link" value="gramps://Person/handle/f1520d8f5773a1e67d96b71237">
+        <range start="117" end="140"/>
+      </style>
+      <style name="link" value="gramps://Person/handle/f15217564c742c378bdef8f784b">
+        <range start="144" end="168"/>
+      </style>
+      <style name="link" value="gramps://Person/handle/f15223504715cec63572ba800d">
+        <range start="298" end="318"/>
+      </style>
+      <style name="link" value="gramps://Person/handle/f15228df7271c211335ebf815c8">
+        <range start="353" end="377"/>
+      </style>
+    </note>
+    <note handle="_f1555e390e92e0a2b13d485f190" change="1658430970" id="N2289" type="Citation">
+      <text>Helsinki rippikirja 1856-1869 (MKO94-121 3P)  Sivu 232 5te Stadsdelen Qv Höken Gården No 15 vid Alberts gatan ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6953&amp;pnum=224 / Viitattu 21.07.2022</text>
+    </note>
+    <note handle="_f1555e611b762beb777e6334fb8" change="1658430987" id="N2290" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6953&amp;pnum=224</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6953&amp;pnum=224">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f15561fff8e35fb08e0a9492bf" change="1658431366" id="N2293" type="Citation">
+      <text>Helsinki lastenkirja 1856-1869 (MKO122-135 3L)  Sivu 232 5te Stadsdelen Qv Höken Gården No 15 vid Alberts gatan ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6954&amp;pnum=118 / Viitattu 21.07.2022</text>
+    </note>
+    <note handle="_f15562257a73c442874355ac40b" change="1658431382" id="N2295" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6954&amp;pnum=118</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6954&amp;pnum=118">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f1556b181b34aa49fcc9e15ab44" change="1658432320" id="N2296" type="Citation">
+      <text>Helsinki kuolleet 1854-1885 (MKO14-23)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15372&amp;pnum=90 / Viitattu 21.07.2022</text>
+    </note>
+    <note handle="_f1556b5123e6f47619d443ca4b6" change="1658432343" id="N2299" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15372&amp;pnum=90</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15372&amp;pnum=90">
         <range start="0" end="77"/>
       </style>
     </note>
