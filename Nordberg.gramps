@@ -15434,7 +15434,7 @@
       <dateval val="1842-12-30"/>
       <citationref hlink="_f150c08f9404bf00746d9dd9443"/>
     </event>
-    <event handle="_f150c1d7aeb67a82202ebe89828" change="1658307198" id="E0444">
+    <event handle="_f150c1d7aeb67a82202ebe89828" change="1658583682" id="E0444">
       <type>Residence</type>
       <datespan start="1871" stop="1881"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
@@ -15468,11 +15468,12 @@
       <place hlink="_cea11e7c672589a5611"/>
       <citationref hlink="_f150cf0af4817f1d153662632a2"/>
     </event>
-    <event handle="_f150d00c5ee4779bf16dd0ef71e" change="1658344386" id="E0450">
+    <event handle="_f150d00c5ee4779bf16dd0ef71e" change="1658583470" id="E0450">
       <type>Residence</type>
       <datespan start="1870" stop="1881"/>
-      <place hlink="_cb589cc7f8d1b88b055"/>
+      <place hlink="_f1555dcf4fe3730dbb1a723390b"/>
       <citationref hlink="_f150cf0af4817f1d153662632a2"/>
+      <citationref hlink="_f15562293dc2bbd99c8b56b4278"/>
     </event>
     <event handle="_f150de3a0aeb635c5ecfc9a800" change="1658313551" id="E0451">
       <type>Baptism</type>
@@ -15534,11 +15535,12 @@
       <place hlink="_cf99bf0f22527758ac0"/>
       <citationref hlink="_f1513bb8ec67d9b347da4086d9e"/>
     </event>
-    <event handle="_f1513f3b6307b15945957ca4f06" change="1658320346" id="E0461">
+    <event handle="_f1513f3b6307b15945957ca4f06" change="1658583278" id="E0461">
       <type>Residence</type>
       <datespan start="1877" stop="1881"/>
-      <place hlink="_cb589cc7f8d1b88b055"/>
+      <place hlink="_f15b0ab83e2779f125639234456"/>
       <citationref hlink="_f1513bb8ec67d9b347da4086d9e"/>
+      <citationref hlink="_f15b04fced13b80aa62ce17bb9e"/>
     </event>
     <event handle="_f1513f6bb242f37131fd3a5ca3b" change="1658320441" id="E0462">
       <type>Marriage</type>
@@ -15608,6 +15610,24 @@
       <type>Birth</type>
       <dateval val="1870-09-23"/>
       <citationref hlink="_f157aa15e76c1e2d5e621541d6"/>
+    </event>
+    <event handle="_f15b05647d72c34cc1538207ded" change="1658582717" id="E0493">
+      <type>Birth</type>
+      <dateval val="1878-02-12"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_f15b04fced13b80aa62ce17bb9e"/>
+    </event>
+    <event handle="_f15b06c94714bc9cab529374e07" change="1658582863" id="E0494">
+      <type>Birth</type>
+      <dateval val="1880-11-14"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_f15b04fced13b80aa62ce17bb9e"/>
+    </event>
+    <event handle="_f15b06f6e5a69dbd7a3ae294d6c" change="1658582882" id="E0495">
+      <type>Death</type>
+      <dateval val="1881-05-02"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_f15b04fced13b80aa62ce17bb9e"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -28222,6 +28242,25 @@
       <eventref hlink="_f157ae3dea267cd114b7d89e17a" role="Primary"/>
       <childof hlink="_f15116a172d407415e6ce1fc24a"/>
     </person>
+    <person handle="_f15b052e2c63c0b77e14f163bd3" change="1658583286" id="I0124">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Axel Leonard</first>
+        <surname>Lax</surname>
+      </name>
+      <eventref hlink="_f15b05647d72c34cc1538207ded" role="Primary"/>
+      <childof hlink="_f1513a56b91101c79875bb06e2e"/>
+    </person>
+    <person handle="_f15b05ad2bd5e99ecaa3df98c7a" change="1658583286" id="I0125">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Elin Agnes Mathilda</first>
+        <surname>Lax</surname>
+      </name>
+      <eventref hlink="_f15b06c94714bc9cab529374e07" role="Primary"/>
+      <eventref hlink="_f15b06f6e5a69dbd7a3ae294d6c" role="Primary"/>
+      <childof hlink="_f1513a56b91101c79875bb06e2e"/>
+    </person>
   </people>
   <families>
     <family handle="_cb589cc7f9c792dc427" change="1548617779" id="F1472">
@@ -31693,12 +31732,14 @@
       <childref hlink="_f157ad989b011464b9006cf1f55"/>
       <childref hlink="_f157addf9457348f9d086e7c684"/>
     </family>
-    <family handle="_f1513a56b91101c79875bb06e2e" change="1658320443" id="F0026">
+    <family handle="_f1513a56b91101c79875bb06e2e" change="1658583286" id="F0026">
       <rel type="Married"/>
       <father hlink="_f1513a714e07934f16eb114c2c"/>
       <mother hlink="_f1513d8e1714bef0a1a8d9aeb5"/>
-      <eventref hlink="_f1513f3b6307b15945957ca4f06" role="Family"/>
       <eventref hlink="_f1513f6bb242f37131fd3a5ca3b" role="Family"/>
+      <eventref hlink="_f1513f3b6307b15945957ca4f06" role="Family"/>
+      <childref hlink="_f15b052e2c63c0b77e14f163bd3"/>
+      <childref hlink="_f15b05ad2bd5e99ecaa3df98c7a"/>
     </family>
   </families>
   <citations>
@@ -41126,6 +41167,13 @@
       <noteref hlink="_f157a9fc320298e50365065b679"/>
       <sourceref hlink="_cdeaa4afd5d553ac48f"/>
     </citation>
+    <citation handle="_f15b04fced13b80aa62ce17bb9e" change="1658582675" id="C1403">
+      <page>III/173</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f15b04c0cf66ab50cfffe2de204"/>
+      <noteref hlink="_f15b04f24f87e506b18a5dd093c"/>
+      <sourceref hlink="_cdeaa4afd5d553ac48f"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -45337,7 +45385,7 @@
       <pname value="Fredrikbergsgatan 42"/>
       <placeref hlink="_d3f8bb5877232ce08bacd8a326e"/>
     </placeobj>
-    <placeobj handle="_d3f8948cd0d503cb5a55a61ad8" change="1456653735" id="P0015" type="Borough">
+    <placeobj handle="_d3f8948cd0d503cb5a55a61ad8" change="1658583273" id="P0015" type="Borough">
       <pname value="5. Stadsdelen"/>
       <placeref hlink="_cb589cc7f8d1b88b055"/>
     </placeobj>
@@ -46748,6 +46796,14 @@
       <pname value="Skatudden" lang="se"/>
       <pname value="Katajanokka" lang="fi"/>
       <placeref hlink="_d3f9d03861542839974bbbf2026"/>
+    </placeobj>
+    <placeobj handle="_f15b0ab4ccb5541890eeba0fec6" change="1658583274" id="P0147" type="Block">
+      <pname value="Ugglan"/>
+      <placeref hlink="_d3f8948cd0d503cb5a55a61ad8"/>
+    </placeobj>
+    <placeobj handle="_f15b0ab83e2779f125639234456" change="1658583276" id="P0148" type="Building">
+      <pname value="Gården n:o 19 vid Nylands gatan"/>
+      <placeref hlink="_f15b0ab4ccb5541890eeba0fec6"/>
     </placeobj>
   </places>
   <repositories>
@@ -65923,6 +65979,15 @@ kutsuna ilmoitetaan.</text>
       <text>https://drive.google.com/drive/folders/0B2JbCJkLtH0DaXBJWVF6NHR5cXc</text>
       <style name="link" value="https://drive.google.com/drive/folders/0B2JbCJkLtH0DaXBJWVF6NHR5cXc">
         <range start="0" end="67"/>
+      </style>
+    </note>
+    <note handle="_f15b04c0cf66ab50cfffe2de204" change="1658582650" id="N2305" type="Citation">
+      <text>Helsingin ruotsalais-suomalaisen seurakunnan arkisto - Lastenkirja 1856-1881, jakso 496, sivu 172-173: 5. Stadsdelen qv. Ugglan Gården n:o 19 vid Nylands gatan; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=6227276360&amp;aineistoId=1846523234 / Viitattu 23.7.2022</text>
+    </note>
+    <note handle="_f15b04f24f87e506b18a5dd093c" change="1658582670" id="N2306" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=6227276360&amp;aineistoId=1846523234</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=6227276360&amp;aineistoId=1846523234">
+        <range start="0" end="79"/>
       </style>
     </note>
   </notes>
