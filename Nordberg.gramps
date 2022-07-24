@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2022-07-23" version="5.1.5"/>
+    <created date="2022-07-24" version="5.1.5"/>
     <researcher>
     </researcher>
   </header>
@@ -7778,10 +7778,11 @@
       <citationref hlink="_cde6467a9b6259cdd03"/>
       <citationref hlink="_e1613e087d426ec272ab167bac7"/>
     </event>
-    <event handle="_cde651903760f109cbd" change="1624827536" id="E5251">
+    <event handle="_cde651903760f109cbd" change="1658653960" id="E5251">
       <type>Residence</type>
       <datespan start="1870" stop="1875"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
+      <noteref hlink="_f15daccc3dcaaa69e849d4010"/>
       <citationref hlink="_cde65183e49656a79fd"/>
       <citationref hlink="_cdeaa4cbe6c5f279b84"/>
     </event>
@@ -11117,10 +11118,10 @@
       <citationref hlink="_dd212d48d4661140518c4f7654f"/>
       <citationref hlink="_dd212f95c6c3878ee252892bedf"/>
     </event>
-    <event handle="_de1203b01f44b7dbcd137b647b6" change="1624915672" id="E2446">
+    <event handle="_de1203b01f44b7dbcd137b647b6" change="1658652228" id="E2446">
       <type>Residence</type>
       <datespan start="1875" stop="1876"/>
-      <place hlink="_ec7193e062379f0bc495579bc4a"/>
+      <place hlink="_ec7193d941f7ae07606844463ce"/>
       <noteref hlink="_ec71baaf1e31fb89a881adecea3"/>
       <citationref hlink="_de120380b2979d27bc59610212c"/>
       <citationref hlink="_e1613a186524411084c20582dc0"/>
@@ -13253,7 +13254,7 @@
       <citationref hlink="_e161434d8715411e00ee00f4f8d"/>
       <citationref hlink="_cdf7bb284d13fa038d2"/>
     </event>
-    <event handle="_e16159cb0d9d67c9f1f2db6c72" change="1625934570" id="E2868">
+    <event handle="_e16159cb0d9d67c9f1f2db6c72" change="1658689301" id="E2868">
       <type>Residence</type>
       <datespan start="1876" stop="1881"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
@@ -15700,6 +15701,13 @@
       <dateval val="1866-10-08"/>
       <citationref hlink="_f15b6929d83789978c6a9e036ff"/>
     </event>
+    <event handle="_f15f02594867826a5b79c050032" change="1658690336" id="E0510">
+      <type>Residence</type>
+      <dateval val="1878"/>
+      <place hlink="_f15effd2956d6e7c37f6afb9d0"/>
+      <noteref hlink="_f15f07b64385b173fc63a31b789"/>
+      <citationref hlink="_f15f0253d0a4d6cf2f80a1ac586"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1548617779" id="I3858">
@@ -15718,7 +15726,7 @@
       <eventref hlink="_defd56bc39e1b2d96008acf08b1" role="Primary"/>
       <childof hlink="_cb589cc7f9c792dc427"/>
     </person>
-    <person handle="_cb589cc80270f9c6988" change="1658304166" id="I4097">
+    <person handle="_cb589cc80270f9c6988" change="1658689780" id="I4097">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Emil Ferdinand</first>
@@ -15839,7 +15847,7 @@
       <childof hlink="_cb589cc83ea4c947ebd"/>
       <parentin hlink="_cb589cc803c2012656f"/>
     </person>
-    <person handle="_cb589cc84347c619504" change="1658305040" id="I4402">
+    <person handle="_cb589cc84347c619504" change="1658689780" id="I4402">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Charlotta Wilhelmina</first>
@@ -15858,7 +15866,7 @@
       <childof hlink="_cb589cc803c2012656f"/>
       <parentin hlink="_cb589cc844867fcce24"/>
     </person>
-    <person handle="_cb589cc84532e6710cf" change="1658310185" id="I5642">
+    <person handle="_cb589cc84532e6710cf" change="1658689780" id="I5642">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Viktor Leonard</first>
@@ -15869,7 +15877,7 @@
       <eventref hlink="_cb589cc8465559787e9" role="Primary"/>
       <childof hlink="_cb589cc803c2012656f"/>
     </person>
-    <person handle="_cb589cc847f6455821b" change="1658316834" id="I3762">
+    <person handle="_cb589cc847f6455821b" change="1658689780" id="I3762">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Elin Maria</first>
@@ -15890,7 +15898,7 @@
       <childof hlink="_cb589cc803c2012656f"/>
       <parentin hlink="_cb589cc849649a1de75"/>
     </person>
-    <person handle="_cb589cc84a03bdf266c" change="1658341941" id="I5331">
+    <person handle="_cb589cc84a03bdf266c" change="1658689780" id="I5331">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Viktor Ferdinand</first>
@@ -28446,7 +28454,7 @@
       <childref hlink="_cb589cc80b85ba4f528"/>
       <childref hlink="_cb589cc80d910acb4b9"/>
     </family>
-    <family handle="_cb589cc803c2012656f" change="1625167619" id="F1411">
+    <family handle="_cb589cc803c2012656f" change="1658689780" id="F1411">
       <rel type="Married"/>
       <father hlink="_cb589cc83d1028d9fef"/>
       <mother hlink="_cb589cc83ac79e7ec2a"/>
@@ -28454,6 +28462,7 @@
       <eventref hlink="_cb589cfbd532c38747e" role="Family"/>
       <eventref hlink="_cde651903760f109cbd" role="Family"/>
       <eventref hlink="_de1203b01f44b7dbcd137b647b6" role="Family"/>
+      <eventref hlink="_f15f02594867826a5b79c050032" role="Family"/>
       <eventref hlink="_e16159cb0d9d67c9f1f2db6c72" role="Family"/>
       <eventref hlink="_ec7e311dfbd60d482c373fb948" role="Family"/>
       <childref hlink="_cb589cc80270f9c6988"/>
@@ -41354,6 +41363,14 @@
       <noteref hlink="_f15b69270704f8a1f22455c1bc6"/>
       <sourceref hlink="_cdeaa4afd5d553ac48f"/>
     </citation>
+    <citation handle="_f15f0253d0a4d6cf2f80a1ac586" change="1658689770" id="C1405">
+      <page>U:82/1957</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f15f00d20a65fae70327d339acc"/>
+      <noteref hlink="_f15f00ff4385039ef0bfa7f407f"/>
+      <noteref hlink="_f15f024926e3676b7cef3ba5011"/>
+      <sourceref hlink="_f15f008182d659ef53bc6da776d"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -44225,9 +44242,14 @@
       <sauthor>Helsingin ruotsalais-suomalainen seurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
+    <source handle="_f15f008182d659ef53bc6da776d" change="1658689579" id="S0574">
+      <stitle>Uusimaa Henkikirja 1878</stitle>
+      <sauthor>Uudenmaan lääni</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
   </sources>
   <places>
-    <placeobj handle="_cb589cc7f8d1b88b055" change="1658593688" id="P0000" type="City">
+    <placeobj handle="_cb589cc7f8d1b88b055" change="1658689505" id="P0000" type="City">
       <ptitle>Helsingfors, Finland</ptitle>
       <pname value="Helsinki" lang="se"/>
       <pname value="Helsingfors" lang="se"/>
@@ -46223,8 +46245,9 @@
       <pname value="Hytölä"/>
       <placeref hlink="_cfcd68df95862c2cdfb"/>
     </placeobj>
-    <placeobj handle="_de120263cd54721e1fcfc29b661" change="1624828473" id="P0622" type="Neighborhood">
-      <pname value="Hwalfisken"/>
+    <placeobj handle="_de120263cd54721e1fcfc29b661" change="1658652165" id="P0622" type="Block">
+      <code>kortteli 46</code>
+      <pname value="Hwalfisken" lang="se"/>
       <placeref hlink="_cdf7c4057334cbaf3c2"/>
     </placeobj>
     <placeobj handle="_defd5c6d6405d1404671b1b1bb7" change="1532374144" id="P0623" type="Cemetery">
@@ -46834,8 +46857,8 @@
       <pname value="Nabb"/>
       <placeref hlink="_cb589cc83b65110951c"/>
     </placeobj>
-    <placeobj handle="_ec7193d941f7ae07606844463ce" change="1624830087" id="P0104" type="Street">
-      <pname value="Västra Kajen"/>
+    <placeobj handle="_ec7193d941f7ae07606844463ce" change="1658652203" id="P0104" type="Building">
+      <pname value="Västra Kajen 14" lang="se"/>
       <placeref hlink="_de120263cd54721e1fcfc29b661"/>
     </placeobj>
     <placeobj handle="_ec7193e062379f0bc495579bc4a" change="1624828477" id="P0105" type="Number">
@@ -46993,9 +47016,13 @@
       <pname value="Gården no 4"/>
       <placeref hlink="_f15b6e070ab1dcbe80932420ba4"/>
     </placeobj>
+    <placeobj handle="_f15effd2956d6e7c37f6afb9d0" change="1658689507" id="P0151" type="Building">
+      <pname value="Villan Wallgård"/>
+      <placeref hlink="_cb589cc7f8d1b88b055"/>
+    </placeobj>
   </places>
   <repositories>
-    <repository handle="_cdea29a49637c6553bc" change="1657134079" id="R0001">
+    <repository handle="_cdea29a49637c6553bc" change="1658689574" id="R0001">
       <rname>Arkistolaitos Digitaaliarkisto</rname>
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
@@ -62690,15 +62717,19 @@ Wasenius, A. F., handlande. V. Kajen 14.</text>
         <range start="0" end="285"/>
       </style>
     </note>
-    <note handle="_ec71baaf1e31fb89a881adecea3" change="1624978123" id="N1816" type="Research">
+    <note handle="_ec71baaf1e31fb89a881adecea3" change="1658690406" id="N1816" type="Research">
       <text>1874 , 1877 Henkikirjoissa ei ole Waseniuksella
 1877-1880 henkikirja ei löydy Fastböle 
 
 1877 ei löydy Hvalfisken, Sköldpaddan, Tumlaren, Laxen, Gäddan, Svärdfisken, Stören
-Abboren 3 löytyy dreng Nordberg
-http://digihakemisto.appspot.com/edit?kuvanumero=501&amp;kuid=76583937&amp;amnimeke=Uudenmaan+l%C3%A4%C3%A4nin+henkikirjat&amp;sarnimi=Henkikirjat&amp;aynimi=Henkikirja+1877-1877+%28U%3A79%29&amp;ay=1777716&amp;sartun=225866.KA&amp;atun=316316.KA&amp;ay2=457586
-
-</text>
+1877 Abboren 3 löytyy dreng Nordberg
+Qvartert Abborren =  Kaupungiosa 3, kortteli 53, tontti 3 = Norra Magasinsgatan 4 / Unionsgatan 18
+https://astia.narc.fi/uusiastia/viewer/?fileId=5298926912&amp;aineistoId=2106935676
+1876 Ei löydy Abboren
+1878 Villan Wallagård</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5298926912&amp;aineistoId=2106935676">
+        <range start="309" end="388"/>
+      </style>
     </note>
     <note handle="_ec7760dfffe189d18c4e9c413d" change="1624994952" id="N1817" type="Research">
       <text>Ei löydy Helsinki ulosmuuttaneet 1873,1881
@@ -66186,6 +66217,36 @@ kutsuna ilmoitetaan.</text>
       <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=6954&amp;pnum=294">
         <range start="0" end="77"/>
       </style>
+    </note>
+    <note handle="_f15daccc3dcaaa69e849d4010" change="1658653958" id="N2310" type="Research">
+      <text>Ei löydy henkikirja 1871 3. kaupunginosa sivujen oikea puoli</text>
+    </note>
+    <note handle="_f15f00d20a65fae70327d339acc" change="1658689612" id="N2311" type="Citation">
+      <text>Uudenmaan läänin henkikirjat - U:82 Henkikirja 1878-1878, jakso 523, sivu 1957: Wallgård; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5249223383&amp;aineistoId=2106964281 / Viitattu 24.7.2022</text>
+    </note>
+    <note handle="_f15f00ff4385039ef0bfa7f407f" change="1658689630" id="N2312" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5249223383&amp;aineistoId=2106964281</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5249223383&amp;aineistoId=2106964281">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f15f024926e3676b7cef3ba5011" change="1658689765" id="N2313" type="Transcript" format="1">
+      <text>                                                                      1957
+
+[Wallgård]      1  [Hg]  [arbetaren] Ferdinand Nordberg med hustru    1  1    2  1    3  2  5  B.2-1
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="177"/>
+      </style>
+    </note>
+    <note handle="_f15f07b64385b173fc63a31b789" change="1658690334" id="N2314" type="Research">
+      <text>Lasten kohdalle on merkitty &quot;2-1&quot; l. 2 poikaa ja  1 tyttö, mikä ei täsmää: 
+Jos tiedot on kesäkuulta 1878 niin silloin perheessä on ollut elossa lapset
+Emil Ferdinand, Maria Charlotta Wilhelmina, ja Elin Maria, eli merkintä pitäisi olla toisin päin &quot;1-2&quot;
+(Viktor Leonard kuoli jo 1877 ja Viktor Ferdinand syntyi vasta 1882)
+
+Voi olla kirjausvirhe, mutta pitää huomioida ja tarkistaa että kyseessä ei ole väärä perhe,
+ tai että joku lapsi puuttuu tai tieodot on väärin.</text>
     </note>
   </notes>
 </database>
