@@ -13254,7 +13254,7 @@
       <citationref hlink="_e161434d8715411e00ee00f4f8d"/>
       <citationref hlink="_cdf7bb284d13fa038d2"/>
     </event>
-    <event handle="_e16159cb0d9d67c9f1f2db6c72" change="1658689301" id="E2868">
+    <event handle="_e16159cb0d9d67c9f1f2db6c72" change="1658691159" id="E2868">
       <type>Residence</type>
       <datespan start="1876" stop="1881"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
@@ -15701,12 +15701,12 @@
       <dateval val="1866-10-08"/>
       <citationref hlink="_f15b6929d83789978c6a9e036ff"/>
     </event>
-    <event handle="_f15f02594867826a5b79c050032" change="1658690336" id="E0510">
+    <event handle="_f15f02594867826a5b79c050032" change="1658691702" id="E0510">
       <type>Residence</type>
-      <dateval val="1878"/>
+      <datespan start="1878" stop="1879"/>
       <place hlink="_f15effd2956d6e7c37f6afb9d0"/>
-      <noteref hlink="_f15f07b64385b173fc63a31b789"/>
       <citationref hlink="_f15f0253d0a4d6cf2f80a1ac586"/>
+      <citationref hlink="_f15f11ccf614565f4a45b6f3f59"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -41363,13 +41363,23 @@
       <noteref hlink="_f15b69270704f8a1f22455c1bc6"/>
       <sourceref hlink="_cdeaa4afd5d553ac48f"/>
     </citation>
-    <citation handle="_f15f0253d0a4d6cf2f80a1ac586" change="1658689770" id="C1405">
+    <citation handle="_f15f0253d0a4d6cf2f80a1ac586" change="1658691427" id="C1405">
       <page>U:82/1957</page>
       <confidence>2</confidence>
       <noteref hlink="_f15f00d20a65fae70327d339acc"/>
       <noteref hlink="_f15f00ff4385039ef0bfa7f407f"/>
       <noteref hlink="_f15f024926e3676b7cef3ba5011"/>
+      <noteref hlink="_f15f07b64385b173fc63a31b789"/>
       <sourceref hlink="_f15f008182d659ef53bc6da776d"/>
+    </citation>
+    <citation handle="_f15f11ccf614565f4a45b6f3f59" change="1658691573" id="C1406">
+      <page>U:84/1861</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f15f1045c9322a7dc6bd26cba8b"/>
+      <noteref hlink="_f15f10771323e3a7cf6a5ab7e4d"/>
+      <noteref hlink="_f15f11c7e0c680bb23586be690e"/>
+      <noteref hlink="_f15f137b0cf45476bcc2b1d0773"/>
+      <sourceref hlink="_f15f10358887d7b94e7af19fc89"/>
     </citation>
   </citations>
   <sources>
@@ -44247,6 +44257,11 @@
       <sauthor>Uudenmaan lääni</sauthor>
       <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
     </source>
+    <source handle="_f15f10358887d7b94e7af19fc89" change="1658691225" id="S0575">
+      <stitle>Uusimaa Henkikirja 1879</stitle>
+      <sauthor>Uudenmaan lääni</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1658689505" id="P0000" type="City">
@@ -47022,7 +47037,7 @@
     </placeobj>
   </places>
   <repositories>
-    <repository handle="_cdea29a49637c6553bc" change="1658689574" id="R0001">
+    <repository handle="_cdea29a49637c6553bc" change="1658691211" id="R0001">
       <rname>Arkistolaitos Digitaaliarkisto</rname>
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
@@ -62717,18 +62732,19 @@ Wasenius, A. F., handlande. V. Kajen 14.</text>
         <range start="0" end="285"/>
       </style>
     </note>
-    <note handle="_ec71baaf1e31fb89a881adecea3" change="1658690406" id="N1816" type="Research">
+    <note handle="_ec71baaf1e31fb89a881adecea3" change="1658691158" id="N1816" type="Research">
       <text>1874 , 1877 Henkikirjoissa ei ole Waseniuksella
 1877-1880 henkikirja ei löydy Fastböle 
 
-1877 ei löydy Hvalfisken, Sköldpaddan, Tumlaren, Laxen, Gäddan, Svärdfisken, Stören
+1876 Ei löydy Abboren
+1877 ei löydy Hvalfisken, Sköldpaddan, Tumlaren, Laxen, Gäddan, Svärdfisken, Stören. Ei myöskään Wallgård
 1877 Abboren 3 löytyy dreng Nordberg
 Qvartert Abborren =  Kaupungiosa 3, kortteli 53, tontti 3 = Norra Magasinsgatan 4 / Unionsgatan 18
 https://astia.narc.fi/uusiastia/viewer/?fileId=5298926912&amp;aineistoId=2106935676
-1876 Ei löydy Abboren
-1878 Villan Wallagård</text>
+
+1878 Villan Wallgård</text>
       <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5298926912&amp;aineistoId=2106935676">
-        <range start="309" end="388"/>
+        <range start="353" end="432"/>
       </style>
     </note>
     <note handle="_ec7760dfffe189d18c4e9c413d" change="1624994952" id="N1817" type="Research">
@@ -66247,6 +66263,31 @@ Emil Ferdinand, Maria Charlotta Wilhelmina, ja Elin Maria, eli merkintä pitäis
 
 Voi olla kirjausvirhe, mutta pitää huomioida ja tarkistaa että kyseessä ei ole väärä perhe,
  tai että joku lapsi puuttuu tai tieodot on väärin.</text>
+    </note>
+    <note handle="_f15f1045c9322a7dc6bd26cba8b" change="1658691232" id="N2315" type="Citation">
+      <text>Uudenmaan läänin henkikirjat - U:84a Henkikirja 1879-1879, jakso 456: Wallgård; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5298915907&amp;aineistoId=2107000987 / Viitattu 24.7.2022</text>
+    </note>
+    <note handle="_f15f10771323e3a7cf6a5ab7e4d" change="1658691252" id="N2318" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5298915907&amp;aineistoId=2107000987</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5298915907&amp;aineistoId=2107000987">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f15f11c7e0c680bb23586be690e" change="1658691390" id="N2319" type="Transcript" format="1">
+      <text>                                             1861
+[Wallgård]      1  [Hg]  Brädgårdsarbetaren Ferdinand Nordberg
+                             h. Sofia                             1  1          1  1  2
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="201"/>
+      </style>
+    </note>
+    <note handle="_f15f137b0cf45476bcc2b1d0773" change="1658691699" id="N2320" type="Research">
+      <text>Lapsia ei ole nähdäkseni merkitty lainkaan, mikä ei täsmää siihen montako niitä pitäisi olla.
+Tosin koko muulla sivulla ei lapsia näy merkityn kuin kahdelle muulle riville mikä herättää epäilyksen että kirjaukset ovat puutteelliset.
+
+Ammatiksi on merkitty Brädgårdsarbetare. Vaikuttaa siltä että Dykeriarbetare joka on mm rippikirjaan merkitty, 
+todennäköisesti koskee vasta myöhempää aikaa.</text>
     </note>
   </notes>
 </database>
