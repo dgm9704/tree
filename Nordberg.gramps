@@ -13573,7 +13573,7 @@
       <citationref hlink="_e820d80cef87b534e119f4a79d2"/>
       <citationref hlink="_e820d63a60252188d735631bae7"/>
     </event>
-    <event handle="_e8247b713b745a8642c90ed2f55" change="1658009997" id="E0056">
+    <event handle="_e8247b713b745a8642c90ed2f55" change="1658790514" id="E0056">
       <type>Birth</type>
       <dateval val="1881-06-02"/>
       <place hlink="_e82478dea7034bf7ec557d7af65"/>
@@ -15744,12 +15744,22 @@
       <citationref hlink="_f162564a83eba6b7335cbfa89c"/>
       <citationref hlink="_f1624b1b8233cb95c17de3b9820"/>
     </event>
-    <event handle="_f1629d8628c4d44ff2d6c8f3e86" change="1658787350" id="E0535">
+    <event handle="_f1629d8628c4d44ff2d6c8f3e86" change="1658788985" id="E0535">
       <type>Residence</type>
-      <dateval val="1902"/>
+      <datespan start="1902" stop="1904"/>
       <place hlink="_f162970d7be18856a40104c1174"/>
-      <citationref hlink="_f1629ab4c3cc6207bc9cea9e49"/>
       <citationref hlink="_f1629d7ed7c499da97483abe469"/>
+      <citationref hlink="_f1629ab4c3cc6207bc9cea9e49"/>
+      <citationref hlink="_e82066e5d9a1a4a5bafb6115b22"/>
+      <citationref hlink="_f162ad6147131d51630010317ec"/>
+      <citationref hlink="_f162b11757026ef139fb00aad17"/>
+      <citationref hlink="_f162b47c2da6306505f5a0dbf9b"/>
+    </event>
+    <event handle="_f162b53066d3bdf622d0b78db71" change="1658789055" id="E0537">
+      <type>Residence</type>
+      <dateval val="1904"/>
+      <place hlink="_f162970d7be18856a40104c1174"/>
+      <citationref hlink="_f162b47c2da6306505f5a0dbf9b"/>
     </event>
   </events>
   <people home="_cb589cc847f6455821b">
@@ -15890,7 +15900,7 @@
       <childof hlink="_cb589cc83ea4c947ebd"/>
       <parentin hlink="_cb589cc803c2012656f"/>
     </person>
-    <person handle="_cb589cc84347c619504" change="1658695223" id="I4402">
+    <person handle="_cb589cc84347c619504" change="1658789066" id="I4402">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Charlotta Wilhelmina</first>
@@ -15904,6 +15914,7 @@
       <eventref hlink="_cb589cc843a611773b4" role="Primary"/>
       <eventref hlink="_f150ad0dcd620708e4c88f66329" role="Primary"/>
       <eventref hlink="_e181bdc2a1079499c7ccae9ddfd" role="Primary"/>
+      <eventref hlink="_f162b53066d3bdf622d0b78db71" role="Primary"/>
       <eventref hlink="_dcddbf5d1c2395bf0482e9e2601" role="Primary"/>
       <eventref hlink="_e8203932b2a22b7e3c551923892" role="Primary"/>
       <childof hlink="_cb589cc803c2012656f"/>
@@ -41521,6 +41532,30 @@
       <noteref hlink="_f1629cea9be1c4537a5cfcccdcb"/>
       <sourceref hlink="_dcde088884844f55819d0fcc103"/>
     </citation>
+    <citation handle="_f162ad6147131d51630010317ec" change="1658788237" id="C1418">
+      <page>U:200/3280</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f162aae8af44231928855306939"/>
+      <noteref hlink="_f162ab1903aeea60c0037f111b"/>
+      <noteref hlink="_f162ad5bc2158420d676ebfead0"/>
+      <sourceref hlink="_e181ba08249788ad9b1bde1687a"/>
+    </citation>
+    <citation handle="_f162b11757026ef139fb00aad17" change="1658788626" id="C1419">
+      <page>1904/368</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f162afc2dc24606bc740928eef3"/>
+      <noteref hlink="_f162aff675a3262fb53558e222f"/>
+      <noteref hlink="_f162b107a99ff82330d66d846f"/>
+      <sourceref hlink="_dcde088884844f55819d0fcc103"/>
+    </citation>
+    <citation handle="_f162b47c2da6306505f5a0dbf9b" change="1658788982" id="C1420">
+      <page>U:209/5133</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f162b1c9a676167efcf77febf7"/>
+      <noteref hlink="_f162b1ebf4c3f22468126543180"/>
+      <noteref hlink="_f162b470471558f9712ebf9db45"/>
+      <sourceref hlink="_e181cef685f5e2e3c48e5e678f1"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -59107,13 +59142,20 @@ den 4 mars, 61 år gammal.</text>
         <range start="0" end="68"/>
       </style>
     </note>
-    <note handle="_e820640762a60213e4c9466be15" change="1595161342" id="N0069" type="Transcript" format="1">
-      <text>Nordberg
+    <note handle="_e820640762a60213e4c9466be15" change="1658787915" id="N0069" type="Transcript" format="1">
+      <text>Nordberg[...]
+- E. F., bleckslagare, Albertsg. 20 tr F.
+- Elin M., frk., sömmerska, V. Chaussén, St. Fjälldal 2 kv 24 
 [...]
 - Maria, frk., butikbitr., Albertsg. 20 tr F.</text>
       <style name="bold">
         <range start="0" end="8"/>
-        <range start="17" end="23"/>
+        <range start="16" end="22"/>
+        <range start="58" end="72"/>
+        <range start="127" end="133"/>
+      </style>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="170"/>
       </style>
     </note>
     <note handle="_e820906895619124558db57ab1a" change="1595165996" id="N0070" type="Transcript">
@@ -66747,6 +66789,87 @@ Nordberg, [...]
 Vladimirinkatu 52 ei löydy henkikirjasta 1901 tai 1902 E Nordberg</text>
       <style name="fontface" value="Monospace">
         <range start="0" end="237"/>
+      </style>
+    </note>
+    <note handle="_f162aae8af44231928855306939" change="1658787977" id="N2371" type="Citation">
+      <text>Uudenmaan läänin henkikirjat - U:200 Henkikirja, huvilat, saaret, ym. 1903-1903, jakso 101, sivu 3280: Fjälldal Arbetarebostäderna 2dra flygeln rum 21..24; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5651956157&amp;aineistoId=2108901007 / Viitattu 26.7.2022</text>
+    </note>
+    <note handle="_f162ab1903aeea60c0037f111b" change="1658787997" id="N2372" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5651956157&amp;aineistoId=2108901007</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5651956157&amp;aineistoId=2108901007">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f162ad5bc2158420d676ebfead0" change="1658788234" id="N2373" type="Transcript" format="1">
+      <text>Fjälldal
+Arbetarebostäderna   [...]
+                     rum 24    H.  Sömmerskan Hil-
+                                   da Lönnberg 78
+                               H.  Arbeterskan Elin
+                                   Katarina Luckman
+                                   70
+                               H.  Sömmerskan E-
+                                   lin Maria Nordberg
+                                   78
+                               H.  Fabriksarbeterskan
+                                   Alma Törnström
+                                   80</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="561"/>
+      </style>
+    </note>
+    <note handle="_f162afc2dc24606bc740928eef3" change="1658788486" id="N2374" type="Citation">
+      <text>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1904, s. 516
+https://digi.kansalliskirjasto.fi/aikakausi/binding/1154556?page=516
+Kansalliskirjaston digitaaliset aineistot</text>
+    </note>
+    <note handle="_f162aff675a3262fb53558e222f" change="1658788507" id="N2375" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1154556?term=Nordberg&amp;page=516</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1154556?term=Nordberg&amp;page=516">
+        <range start="0" end="82"/>
+      </style>
+    </note>
+    <note handle="_f162b107a99ff82330d66d846f" change="1658788619" id="N2376" type="Transcript" format="1">
+      <text>Nordberg, [...]
+- Elin M., frk., sömm, V. Ch., St. Fjälldal2kv24</text>
+      <style name="bold">
+        <range start="18" end="26"/>
+      </style>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="64"/>
+      </style>
+    </note>
+    <note handle="_f162b1c9a676167efcf77febf7" change="1658788699" id="N2377" type="Citation">
+      <text>Uudenmaan läänin henkikirjat - U:209 Henkikirja, 11.-12. kaupunginosa, huvilat, saaret, ym. 1904-1904, jakso 756: Fjälldal Arbetarebostäderna Byggn. 2 Rum 23..25; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5652003523&amp;aineistoId=2109044862 / Viitattu 26.7.2022</text>
+    </note>
+    <note handle="_f162b1ebf4c3f22468126543180" change="1658788713" id="N2378" type="Link">
+      <text>https://digihakemisto.net/item/2109044862/5652003523/756</text>
+      <style name="link" value="https://digihakemisto.net/item/2109044862/5652003523/756">
+        <range start="0" end="56"/>
+      </style>
+    </note>
+    <note handle="_f162b470471558f9712ebf9db45" change="1658788977" id="N2379" type="Transcript" format="1">
+      <text>Fjälldal           Byggn.2 [...]
+Arbetarebo-
+städerna
+
+                           Rum 24    H.  Sömmerskan
+                                         Hilda Lönnberg
+                                         78
+                                     H.  Arbeterskan Elin
+                                         Katarina Luckman
+                                         70
+                                     H.  Sömmerskan E-
+                                         lin Maria Nordberg
+                                         78
+                                     H.  Fabriksarbeterskan
+                                         Alina Störström
+                                         80
+                                     H.  Strykerskan Maria
+                                         Charlotta Wilhelmina
+                                         Nordberg 73</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="860"/>
       </style>
     </note>
   </notes>
