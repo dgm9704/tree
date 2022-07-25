@@ -8819,7 +8819,7 @@
       <citationref hlink="_d3f853fa9fb5c49fb24d4a7d828"/>
       <citationref hlink="_e16faa8a68779250582d16adabd"/>
     </event>
-    <event handle="_d3f865019692009b88a1b64f05" change="1658776570" id="E0011">
+    <event handle="_d3f865019692009b88a1b64f05" change="1658777042" id="E0011">
       <type>Residence</type>
       <datespan start="1900" stop="1903"/>
       <place hlink="_d3f864f9e944466a6b4ba057832"/>
@@ -15718,14 +15718,15 @@
       <citationref hlink="_f15f354f1c66cbbf72e42a28f5c"/>
       <citationref hlink="_f16082a957b75e1ed1db77b9dd4"/>
     </event>
-    <event handle="_f1623c2cba14e8addca6d37f20c" change="1658776517" id="E0527">
+    <event handle="_f1623c2cba14e8addca6d37f20c" change="1658777006" id="E0527">
       <type>Residence</type>
-      <datespan start="1898" stop="1899"/>
+      <datespan start="1898" stop="1900"/>
       <place hlink="_f16232f6a715c65296b9d8ed767"/>
       <citationref hlink="_f1623bcced91795a1daaa288552"/>
       <citationref hlink="_f16235eafb3386c2c717fcf9442"/>
       <citationref hlink="_f1623d7cbdf311e80f0074ae57c"/>
       <citationref hlink="_f16237d3a717860cbc27de1e8aa"/>
+      <citationref hlink="_f162420d4a124834991e83576b1"/>
     </event>
   </events>
   <people home="_cb589cc847f6455821b">
@@ -15896,7 +15897,7 @@
       <eventref hlink="_cb589cc8465559787e9" role="Primary"/>
       <childof hlink="_cb589cc803c2012656f"/>
     </person>
-    <person handle="_cb589cc847f6455821b" change="1658776572" id="I3762">
+    <person handle="_cb589cc847f6455821b" change="1658777145" id="I3762">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Elin Maria</first>
@@ -15910,7 +15911,6 @@
       <eventref hlink="_cb589cc848623f980ff" role="Primary"/>
       <eventref hlink="_f1511c880fb312837d36881789d" role="Primary"/>
       <eventref hlink="_f1623c2cba14e8addca6d37f20c" role="Primary"/>
-      <eventref hlink="_d3f865019692009b88a1b64f05" role="Primary"/>
       <eventref hlink="_d48d980e27d49e6ce4a70c73347" role="Witness"/>
       <eventref hlink="_e1818d6e22a1e8a684c647e2937" role="Primary"/>
       <eventref hlink="_e8248aea4c25a3b9e50870b3610" role="Primary"/>
@@ -41453,6 +41453,14 @@
       <noteref hlink="_f1623d77fa358850e9e7c03d542"/>
       <sourceref hlink="_dcde088884844f55819d0fcc103"/>
     </citation>
+    <citation handle="_f162420d4a124834991e83576b1" change="1658776982" id="C1413">
+      <page>1900/381</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f16240bd1951d3c6c7473bc62d0"/>
+      <noteref hlink="_f16240dd7ce3796408acc0cef15"/>
+      <noteref hlink="_f16241ff09f102b3ccdb295f4c1"/>
+      <sourceref hlink="_dcde088884844f55819d0fcc103"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -66529,6 +66537,28 @@ Nordberg, [...]
 - E., fröken, sömmerska, Vladimirsg. 52</text>
       <style name="fontface" value="Monospace">
         <range start="0" end="60"/>
+      </style>
+    </note>
+    <note handle="_f16240bd1951d3c6c7473bc62d0" change="1658776845" id="N2352" type="Citation">
+      <text>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1900, s. 573
+https://digi.kansalliskirjasto.fi/aikakausi/binding/1154785?page=573
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f16240dd7ce3796408acc0cef15" change="1658776858" id="N2353" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1154785?term=Nordberg&amp;page=573</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1154785?term=Nordberg&amp;page=573">
+        <range start="0" end="82"/>
+      </style>
+    </note>
+    <note handle="_f16241ff09f102b3ccdb295f4c1" change="1658776977" id="N2354" type="Transcript">
+      <text>381
+
+Nordberg, [...]
+- E., fröken, sömmerska, Vladimirsg. 52.
+- E. F., bleckslagare, Albertsg. 20.</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="98"/>
       </style>
     </note>
   </notes>
