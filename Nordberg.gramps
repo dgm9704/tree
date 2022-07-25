@@ -11118,7 +11118,7 @@
       <citationref hlink="_dd212d48d4661140518c4f7654f"/>
       <citationref hlink="_dd212f95c6c3878ee252892bedf"/>
     </event>
-    <event handle="_de1203b01f44b7dbcd137b647b6" change="1658652228" id="E2446">
+    <event handle="_de1203b01f44b7dbcd137b647b6" change="1658729738" id="E2446">
       <type>Residence</type>
       <datespan start="1875" stop="1876"/>
       <place hlink="_ec7193d941f7ae07606844463ce"/>
@@ -15709,11 +15709,12 @@
       <citationref hlink="_f15f0253d0a4d6cf2f80a1ac586"/>
       <citationref hlink="_f15f11ccf614565f4a45b6f3f59"/>
     </event>
-    <event handle="_f15f3555bd6b49d503bdf7d06a" change="1658695118" id="E0521">
+    <event handle="_f15f3555bd6b49d503bdf7d06a" change="1658730077" id="E0521">
       <type>Residence</type>
       <dateval val="1877"/>
       <place hlink="_f15f2fdd8d518f686f5ef49401d"/>
       <citationref hlink="_f15f354f1c66cbbf72e42a28f5c"/>
+      <citationref hlink="_f16082a957b75e1ed1db77b9dd4"/>
     </event>
   </events>
   <people home="_cb589cc847f6455821b">
@@ -41396,6 +41397,14 @@
       <noteref hlink="_f15f34df1d0125d2e4412ed3840"/>
       <sourceref hlink="_f15f303d04766c39801d4dace9c"/>
     </citation>
+    <citation handle="_f16082a957b75e1ed1db77b9dd4" change="1658730070" id="C1408">
+      <page>1876/75</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f16081fb5b81d07372a50014f1a"/>
+      <noteref hlink="_f16082298e622c637f8a837496d"/>
+      <noteref hlink="_f16082a142d2a846e847ee29496"/>
+      <sourceref hlink="_ec7199ba958ccdf89b93baf6ec"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -46280,7 +46289,7 @@
       <pname value="Hytölä"/>
       <placeref hlink="_cfcd68df95862c2cdfb"/>
     </placeobj>
-    <placeobj handle="_de120263cd54721e1fcfc29b661" change="1658652165" id="P0622" type="Block">
+    <placeobj handle="_de120263cd54721e1fcfc29b661" change="1658729735" id="P0622" type="Block">
       <code>kortteli 46</code>
       <pname value="Hwalfisken" lang="se"/>
       <placeref hlink="_cdf7c4057334cbaf3c2"/>
@@ -46892,7 +46901,8 @@
       <pname value="Nabb"/>
       <placeref hlink="_cb589cc83b65110951c"/>
     </placeobj>
-    <placeobj handle="_ec7193d941f7ae07606844463ce" change="1658652203" id="P0104" type="Building">
+    <placeobj handle="_ec7193d941f7ae07606844463ce" change="1658729722" id="P0104" type="Building">
+      <code>tontti 3</code>
       <pname value="Västra Kajen 14" lang="se"/>
       <placeref hlink="_de120263cd54721e1fcfc29b661"/>
     </placeobj>
@@ -47060,9 +47070,9 @@
       <pname value="Abboren" lang="se"/>
       <placeref hlink="_cdf7c4057334cbaf3c2"/>
     </placeobj>
-    <placeobj handle="_f15f2fdd8d518f686f5ef49401d" change="1658694545" id="P0155" type="Building">
+    <placeobj handle="_f15f2fdd8d518f686f5ef49401d" change="1658729913" id="P0155" type="Building">
       <code>tontti 3</code>
-      <pname value="Norra Magasinsgatan 4 / Unionsgatan 18" lang="se"/>
+      <pname value="Norra Magasinsgatan 4" lang="se"/>
       <placeref hlink="_f15f2f873e4476a34448d938421"/>
     </placeobj>
   </places>
@@ -66335,6 +66345,24 @@ todennäköisesti koskee vasta myöhempää aikaa.</text>
     </note>
     <note handle="_f15f3a452814acb9b0b0eeb54c7" change="1658696448" id="N2330" type="Research">
       <text>Ei löydy 1880 Wallgård, Ei löydy 1883 Helsingin kaupungin alueelta, 1884 Helsingin pitäjän alueelta</text>
+    </note>
+    <note handle="_f16081fb5b81d07372a50014f1a" change="1658729999" id="N2331" type="Citation">
+      <text>Adresskalender för Helsingfors stad, 01.01.1876, s. 75
+https://digi.kansalliskirjasto.fi/aikakausi/binding/1154554?page=75
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f16082298e622c637f8a837496d" change="1658730018" id="N2332" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1154554?term=Juslenius&amp;page=75</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1154554?term=Juslenius&amp;page=75">
+        <range start="0" end="82"/>
+      </style>
+    </note>
+    <note handle="_f16082a142d2a846e847ee29496" change="1658730067" id="N2333" type="Citation">
+      <text>Juslenius, A. F., bagare. N. Magasinsgatan 4.</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="45"/>
+      </style>
     </note>
   </notes>
 </database>
