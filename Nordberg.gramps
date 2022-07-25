@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2022-07-25" version="5.1.5"/>
+    <created date="2022-07-26" version="5.1.5"/>
     <researcher>
     </researcher>
   </header>
@@ -15744,6 +15744,13 @@
       <citationref hlink="_f162564a83eba6b7335cbfa89c"/>
       <citationref hlink="_f1624b1b8233cb95c17de3b9820"/>
     </event>
+    <event handle="_f1629d8628c4d44ff2d6c8f3e86" change="1658787350" id="E0535">
+      <type>Residence</type>
+      <dateval val="1902"/>
+      <place hlink="_f162970d7be18856a40104c1174"/>
+      <citationref hlink="_f1629ab4c3cc6207bc9cea9e49"/>
+      <citationref hlink="_f1629d7ed7c499da97483abe469"/>
+    </event>
   </events>
   <people home="_cb589cc847f6455821b">
     <person handle="_cb589cc7f8356f9dc4a" change="1658732118" id="I3858">
@@ -15913,7 +15920,7 @@
       <eventref hlink="_cb589cc8465559787e9" role="Primary"/>
       <childof hlink="_cb589cc803c2012656f"/>
     </person>
-    <person handle="_cb589cc847f6455821b" change="1658779116" id="I3762">
+    <person handle="_cb589cc847f6455821b" change="1658787354" id="I3762">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Elin Maria</first>
@@ -15929,6 +15936,7 @@
       <eventref hlink="_f1623c2cba14e8addca6d37f20c" role="Primary"/>
       <eventref hlink="_f16251ad2e66932dc0e8d6694f9" role="Primary"/>
       <eventref hlink="_f1625463c725d329f59f96d0fe4" role="Primary"/>
+      <eventref hlink="_f1629d8628c4d44ff2d6c8f3e86" role="Primary"/>
       <eventref hlink="_d48d980e27d49e6ce4a70c73347" role="Witness"/>
       <eventref hlink="_e1818d6e22a1e8a684c647e2937" role="Primary"/>
       <eventref hlink="_e8248aea4c25a3b9e50870b3610" role="Primary"/>
@@ -41496,6 +41504,23 @@
       <noteref hlink="_f162563a6756371a1917094f949"/>
       <sourceref hlink="_dcde088884844f55819d0fcc103"/>
     </citation>
+    <citation handle="_f1629ab4c3cc6207bc9cea9e49" change="1658786278" id="C1416">
+      <page>U:191/3118</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f16297fc2641992bda9379b087f"/>
+      <noteref hlink="_f162982213642c76264f6849c4f"/>
+      <noteref hlink="_f1629a45c462e378a4912849a6c"/>
+      <noteref hlink="_f1629ab0f3a62a4c0fe12a4e2d3"/>
+      <sourceref hlink="_f16297db84267e379a93e909bb8"/>
+    </citation>
+    <citation handle="_f1629d7ed7c499da97483abe469" change="1658786571" id="C1417">
+      <page>1902/452</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f1629b03c8ac1c206576796b16"/>
+      <noteref hlink="_f1629b2a47a1bb5c16cbe41c5a4"/>
+      <noteref hlink="_f1629cea9be1c4537a5cfcccdcb"/>
+      <sourceref hlink="_dcde088884844f55819d0fcc103"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -44393,9 +44418,14 @@
       <sauthor>Uudenmaan lääni</sauthor>
       <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
     </source>
+    <source handle="_f16297db84267e379a93e909bb8" change="1658785980" id="S0579">
+      <stitle>Uusimaa Henkkirja 1902</stitle>
+      <sauthor>Uudenmaan lääni</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
   </sources>
   <places>
-    <placeobj handle="_cb589cc7f8d1b88b055" change="1658732289" id="P0000" type="City">
+    <placeobj handle="_cb589cc7f8d1b88b055" change="1658785890" id="P0000" type="City">
       <ptitle>Helsingfors, Finland</ptitle>
       <pname value="Helsinki" lang="se"/>
       <pname value="Helsingfors" lang="se"/>
@@ -47192,9 +47222,21 @@
       <pname value="Wladimirsgatan 52"/>
       <placeref hlink="_f16232f4657352a68f981c25670"/>
     </placeobj>
+    <placeobj handle="_f1629705a552946c61afce70f95" change="1658785892" id="P0161" type="Area">
+      <pname value="Tölö"/>
+      <placeref hlink="_cb589cc7f8d1b88b055"/>
+    </placeobj>
+    <placeobj handle="_f162970827a23f0eadc5ec3db75" change="1658785893" id="P0162" type="Building">
+      <pname value="St. Fjälldal 2"/>
+      <placeref hlink="_f1629705a552946c61afce70f95"/>
+    </placeobj>
+    <placeobj handle="_f162970d7be18856a40104c1174" change="1658785895" id="P0163" type="apartment">
+      <pname value="kv 24"/>
+      <placeref hlink="_f162970827a23f0eadc5ec3db75"/>
+    </placeobj>
   </places>
   <repositories>
-    <repository handle="_cdea29a49637c6553bc" change="1658775734" id="R0001">
+    <repository handle="_cdea29a49637c6553bc" change="1658785979" id="R0001">
       <rname>Arkistolaitos Digitaaliarkisto</rname>
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
@@ -66641,6 +66683,70 @@ Nordberg, [...]
 - E. F., bleckslagare, Albertsg. 20.</text>
       <style name="fontface" value="Monospace">
         <range start="0" end="98"/>
+      </style>
+    </note>
+    <note handle="_f16297fc2641992bda9379b087f" change="1658785993" id="N2363" type="Citation">
+      <text>Uudenmaan läänin henkikirjat - U:191 Henkikirja, 11.-12. kaupunginosa, huvilat, saaret 1902-1902, jakso 594, sivu 3118: Fjälldal Arbetare bostäderna 2dra flygeln rum 23..26; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5675619647&amp;aineistoId=2108775090 / Viitattu 26.7.2022</text>
+    </note>
+    <note handle="_f162982213642c76264f6849c4f" change="1658786009" id="N2364" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5675619647&amp;aineistoId=2108775090</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5675619647&amp;aineistoId=2108775090">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f1629a45c462e378a4912849a6c" change="1658786233" id="N2365" type="Transcript" format="1">
+      <text>3118
+
+Fjälldal      2dra flygeln    [...]
+Arbetare-
+bostäderna
+                              [rum] 24    H. Sömmerskan Hilda Lönn-
+                                             berg 78
+                                          H. Arbetarenkan Elin Kathari
+                                             ma Luckman 70
+                                          H. Sömmerskan Elin Maria
+                                             Nordberg 78
+                                          H.    do.     Aina Amanda An
+                                             delin 81</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="562"/>
+      </style>
+    </note>
+    <note handle="_f1629ab0f3a62a4c0fe12a4e2d3" change="1658786277" id="N2366" type="Research">
+      <text>Syntymävuosi 78 kun po 77</text>
+    </note>
+    <note handle="_f1629b03c8ac1c206576796b16" change="1658786311" id="N2367" type="Citation">
+      <text>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1902, s. 648
+https://digi.kansalliskirjasto.fi/aikakausi/binding/1154786?page=648
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f1629b2a47a1bb5c16cbe41c5a4" change="1658786327" id="N2368" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1154786?term=Nordberg&amp;page=648</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1154786?term=Nordberg&amp;page=648">
+        <range start="0" end="82"/>
+      </style>
+    </note>
+    <note handle="_f1629cea9be1c4537a5cfcccdcb" change="1658786510" id="N2369" type="Transcript" format="1">
+      <text>452
+
+Nordberg, [...]
+- E., fröken, sömmerska, Vladimirsg. 52.
+- E. F., bleckslagare, Albertsg. 20.
+[..]
+- Elin M., fröken, sömmerska, V. Chaussén, St. Fjälldal 2 kv 24.</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="168"/>
+      </style>
+    </note>
+    <note handle="_f162a310f1e1b835bbf7b0326a6" change="1658787155" id="N2370" type="Citation">
+      <text>Osoitteistosta löytyy samalta sivulta molemmat
+[Nordberg] E., fröken, sömmerska, Vladimirsg. 52.
+[Nordberg] Elin M., fröken, sömmerska, V. Chaussén, St. Fjälldal 2 kv 24.
+
+Vladimirinkatu 52 ei löydy henkikirjasta 1901 tai 1902 E Nordberg</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="237"/>
       </style>
     </note>
   </notes>
