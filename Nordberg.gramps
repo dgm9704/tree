@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2022-07-26" version="5.1.5"/>
+    <created date="2022-07-27" version="5.1.5"/>
     <researcher>
     </researcher>
   </header>
@@ -8215,7 +8215,7 @@
       <place hlink="_cea2947e34111bbc398"/>
       <citationref hlink="_ceaab5e151d18c91084"/>
     </event>
-    <event handle="_ceb8059d63a0a6bc9ce" change="1658155921" id="E3122">
+    <event handle="_ceb8059d63a0a6bc9ce" change="1658866659" id="E3122">
       <type>Residence</type>
       <datespan start="1910" stop="1913"/>
       <place hlink="_ceb806e164e1fd44577"/>
@@ -8811,7 +8811,7 @@
       <citationref hlink="_d1cd510cfe54b2af73d"/>
       <citationref hlink="_d1cd5b76ab021707574"/>
     </event>
-    <event handle="_d3f8508cece5b9c8d9b1928b664" change="1608549154" id="E0009">
+    <event handle="_d3f8508cece5b9c8d9b1928b664" change="1658866618" id="E0009">
       <type>Residence</type>
       <dateval val="1909"/>
       <place hlink="_d3f8482e6921ec29fcc409ce1e1"/>
@@ -10758,7 +10758,7 @@
       <place hlink="_dcdcc546fbc30fd171f461b11bb"/>
       <citationref hlink="_dcdcc40e48270e12c17516bca00"/>
     </event>
-    <event handle="_dcdce96d789173900fb6b4bb90a" change="1625152661" id="E0042">
+    <event handle="_dcdce96d789173900fb6b4bb90a" change="1658867743" id="E0042">
       <type>Residence</type>
       <datespan start="1917" stop="1929"/>
       <place hlink="_dcdce9ecdd32efeeffa23a7b1ef"/>
@@ -13238,15 +13238,15 @@
       <place hlink="_e10c216106e761d03c131abecef"/>
       <citationref hlink="_e10c2206758440d21adf6393d2a"/>
     </event>
-    <event handle="_e1595a9714338ca5d2884056bfc" change="1608547730" id="E2870">
+    <event handle="_e1595a9714338ca5d2884056bfc" change="1658866688" id="E2870">
       <type>Residence</type>
       <datespan start="1914" stop="1916"/>
       <place hlink="_ceb8106fa553c8e316f"/>
       <citationref hlink="_e1592fa500b7150280d023d1ecf"/>
       <citationref hlink="_e1595a8e6341c5c72606fd004d6"/>
       <citationref hlink="_ceb8114f25c75b3fd00"/>
-      <citationref hlink="_d6ca830c39444b5dc9f2fec4296"/>
       <citationref hlink="_dcdcf01d9171395a61151d6a616"/>
+      <citationref hlink="_d6ca830c39444b5dc9f2fec4296"/>
     </event>
     <event handle="_e161441d2cc223041c7441737a0" change="1548799741" id="E2665">
       <type>Residence</type>
@@ -15766,9 +15766,17 @@
       <citationref hlink="_f164e1f01b014f9cc951dabaaba"/>
       <citationref hlink="_f164ed032682d2b1f9716cdee2b"/>
     </event>
+    <event handle="_f165acc5dcc49d4e83b843596a" change="1658869214" id="E0551">
+      <type>Residence</type>
+      <datespan start="1931" stop="1939"/>
+      <place hlink="_dcdcc33d1ca3a963000cc467649"/>
+      <citationref hlink="_f165ac932b1614aaca2fd87538f"/>
+      <citationref hlink="_f165af297f82860ea96b8e7cf69"/>
+      <citationref hlink="_f165b197f243ea3054cc954406"/>
+    </event>
   </events>
   <people home="_cb589cc847f6455821b">
-    <person handle="_cb589cc7f8356f9dc4a" change="1658853938" id="I3858">
+    <person handle="_cb589cc7f8356f9dc4a" change="1658869228" id="I3858">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Alice Siviä Elina</first>
@@ -15816,7 +15824,7 @@
       <childof hlink="_cb589cc80670f6bf5c4"/>
       <parentin hlink="_cb589cc7f9c792dc427"/>
     </person>
-    <person handle="_cb589cc80776138fae0" change="1658853938" id="I4428">
+    <person handle="_cb589cc80776138fae0" change="1658869228" id="I4428">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Tyyni Elisabeth</first>
@@ -15828,7 +15836,7 @@
       <eventref hlink="_d7d8b7fb17b63dcf4cd32f3987d" role="Primary"/>
       <childof hlink="_cb589cc7f9c792dc427"/>
     </person>
-    <person handle="_cb589cc809a5eba8702" change="1658853938" id="I3793">
+    <person handle="_cb589cc809a5eba8702" change="1658869228" id="I3793">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Elvira Viola</first>
@@ -15841,7 +15849,7 @@
       <eventref hlink="_defd5053ddb439af1ea43226186" role="Primary"/>
       <childof hlink="_cb589cc7f9c792dc427"/>
     </person>
-    <person handle="_cb589cc80b85ba4f528" change="1658853938" id="I5313">
+    <person handle="_cb589cc80b85ba4f528" change="1658869228" id="I5313">
       <gender>M</gender>
       <name type="Also Known As">
         <first>Paul Wilhelm Waldemar</first>
@@ -15856,7 +15864,7 @@
       <childof hlink="_cb589cc7f9c792dc427"/>
       <parentin hlink="_cb589cc80ce75a0e92d"/>
     </person>
-    <person handle="_cb589cc80d910acb4b9" change="1658853938" id="I6156">
+    <person handle="_cb589cc80d910acb4b9" change="1658869228" id="I6156">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Edit Maria Adele</first>
@@ -28497,7 +28505,7 @@
     </person>
   </people>
   <families>
-    <family handle="_cb589cc7f9c792dc427" change="1658853938" id="F1472">
+    <family handle="_cb589cc7f9c792dc427" change="1658869228" id="F1472">
       <rel type="Married"/>
       <father hlink="_cb589cc80270f9c6988"/>
       <mother hlink="_cb589cc804b2d4cd313"/>
@@ -28511,6 +28519,7 @@
       <eventref hlink="_ceb8059d63a0a6bc9ce" role="Family"/>
       <eventref hlink="_e1595a9714338ca5d2884056bfc" role="Family"/>
       <eventref hlink="_dcdce96d789173900fb6b4bb90a" role="Family"/>
+      <eventref hlink="_f165acc5dcc49d4e83b843596a" role="Family"/>
       <childref hlink="_cb589cc80776138fae0"/>
       <childref hlink="_cb589cc809a5eba8702"/>
       <childref hlink="_cb589cc7f8356f9dc4a"/>
@@ -35471,12 +35480,14 @@
       <noteref hlink="_e16fec1703c5b28441d58eb0222"/>
       <sourceref hlink="_dcdceab42755aacf789154c85be"/>
     </citation>
-    <citation handle="_dcdced2e9b857c566302b3505f6" change="1517759168" id="C0526">
+    <citation handle="_dcdced2e9b857c566302b3505f6" change="1658866866" id="C0526">
       <dateval val="1921-01-01"/>
       <page>1921/410</page>
       <confidence>2</confidence>
       <noteref hlink="_dcdced178885eb39afd724934d3"/>
       <noteref hlink="_dcdcecc445e60d283624d36fda7"/>
+      <noteref hlink="_f1659a0fec5114b81be0e5859a8"/>
+      <noteref hlink="_f1659b278ee408a821b09fd0571"/>
       <sourceref hlink="_dcdcec255bd7d79316fb78de884"/>
     </citation>
     <citation handle="_dcdcf01d9171395a61151d6a616" change="1517759246" id="C0527">
@@ -35495,25 +35506,31 @@
       <noteref hlink="_dcdd4f0add756f383247e2929e2"/>
       <sourceref hlink="_dcdd4e63dde147ca35681e963fc"/>
     </citation>
-    <citation handle="_dcdd51182971028831bd07194e6" change="1517769415" id="C0529">
+    <citation handle="_dcdd51182971028831bd07194e6" change="1658867611" id="C0529">
       <dateval val="1929-01-01"/>
       <page>1929/537</page>
       <confidence>2</confidence>
+      <noteref hlink="_f1659f9b7612221486bb85a7492"/>
       <noteref hlink="_dcdd510e9216eb535c4629af85b"/>
+      <noteref hlink="_f165a2529596d3114e9a7d15601"/>
       <sourceref hlink="_dcdd507efe6530d1b60fce4c7ca"/>
     </citation>
-    <citation handle="_dcdd5676d5d753128e0fb29f8ee" change="1517769978" id="C0530">
+    <citation handle="_dcdd5676d5d753128e0fb29f8ee" change="1658867049" id="C0530">
       <dateval val="1926-01-01"/>
       <page>1926/390</page>
       <confidence>2</confidence>
+      <noteref hlink="_f1659ba1f0c38dab0b6f2ac2c39"/>
       <noteref hlink="_dcdd567197e1a6810679124671a"/>
+      <noteref hlink="_f1659ce66d012a52c6bdcd4d30d"/>
       <sourceref hlink="_dcdd507efe6530d1b60fce4c7ca"/>
     </citation>
-    <citation handle="_dcdd58882376f47b4bea8ac9e5a" change="1517770195" id="C0531">
+    <citation handle="_dcdd58882376f47b4bea8ac9e5a" change="1658867262" id="C0531">
       <dateval val="1927-01-01"/>
       <page>1927/363</page>
       <confidence>2</confidence>
+      <noteref hlink="_f1659d5d4be588f678f74ae66a7"/>
       <noteref hlink="_dcdd588347017859d6cbdc0042e"/>
+      <noteref hlink="_f1659efa4a5b200fae8eecc874"/>
       <sourceref hlink="_dcdd507efe6530d1b60fce4c7ca"/>
     </citation>
     <citation handle="_dcddbf5959466c925b090ae2f14" change="1658133186" id="C0532">
@@ -41600,6 +41617,30 @@
       <noteref hlink="_f1651c32c2f78af00b5ac3285fe"/>
       <noteref hlink="_f1651de013756f0b58eb86d4e7d"/>
       <sourceref hlink="_e1819659b836165c9f4f636d64"/>
+    </citation>
+    <citation handle="_f165ac932b1614aaca2fd87538f" change="1658868683" id="C1425">
+      <page>1931/219</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f165aa6c8fd1129d89b04bdd982"/>
+      <noteref hlink="_f165aa8ee8d5ed3e0c19ca4390a"/>
+      <noteref hlink="_f165ac8c712669a46f7da6a14ab"/>
+      <sourceref hlink="_dcdd507efe6530d1b60fce4c7ca"/>
+    </citation>
+    <citation handle="_f165af297f82860ea96b8e7cf69" change="1658868954" id="C1426">
+      <page>1936/210</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f165aee2487332870f8cce0390f"/>
+      <noteref hlink="_f165af11f47f6083300453e872"/>
+      <noteref hlink="_f165aecc7613f30482961cf0723"/>
+      <sourceref hlink="_dcdd507efe6530d1b60fce4c7ca"/>
+    </citation>
+    <citation handle="_f165b197f243ea3054cc954406" change="1658869209" id="C1427">
+      <page>1939/360</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f165b16b9f9197aa19d856bde65"/>
+      <noteref hlink="_f165b18dd5ee592f795e122b5f"/>
+      <noteref hlink="_f165b153b6d429c1672b28b6430"/>
+      <sourceref hlink="_dcdd507efe6530d1b60fce4c7ca"/>
     </citation>
   </citations>
   <sources>
@@ -49173,12 +49214,12 @@ https://astia.narc.fi/uusiastia/viewer/?fileId=6025382577&amp;aineistoId=3201262
         <range start="47" end="125"/>
       </style>
     </note>
-    <note handle="_d3f84e8db0d5946908f4ca6903e" change="1549185064" id="N0010" type="Transcript" format="1">
-      <text>                                                1908	1909	1910	1911	1912	1913
+    <note handle="_d3f84e8db0d5946908f4ca6903e" change="1658866061" id="N0010" type="Transcript" format="1">
+      <text>                1908    1909    1910    1911    1912    1913
 Nordberg
-Emil &amp; Hilda			48/11	33/3	33/3	33/3</text>
-      <style name="underline">
-        <range start="82" end="90"/>
+Emil &amp; Hilda            48/11   33/3    33/3    33/3</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="122"/>
       </style>
     </note>
     <note handle="_d3f852cc0d25d7ef491d63e7640" change="1456646840" id="N0011" type="Link">
@@ -49191,21 +49232,24 @@ https://astia.narc.fi/uusiastia/viewer/?fileId=6025379876&amp;aineistoId=3201193
         <range start="47" end="125"/>
       </style>
     </note>
-    <note handle="_d3f853daa6d23156b72ec2f4c18" change="1456646951" id="N0012" type="Transcript" format="1">
-      <text>Entinen linnoitus			1.
-Salakkalahti				2.
-Repola						3.
-Basaari ja Annan kruunu	4.
-Wiipurin esikaupunki		5.
-Saunalahti					6.
-Pietarin esikaupunki		7.
-Sotamies					8.
-Anina ~ Kaleva				9.
-Papula						10.
-Pantsarlahti				11.
-Havi						12.
-Hiekka						13.
-Paulovski					14.</text>
+    <note handle="_d3f853daa6d23156b72ec2f4c18" change="1658865932" id="N0012" type="Transcript" format="1">
+      <text>Entinen linnoitus        1.
+Salakkalahti             2.
+Repola                   3.
+Basaari ja Annan kruunu  4.
+Wiipurin esikaupunki     5.
+Saunalahti               6.
+Pietarin esikaupunki     7.
+Sotamies                 8.
+Anina ~ Kaleva           9.
+Papula                  10.
+Pantsarlahti            11.
+Havi                    12.
+Hiekka                  13.
+Paulovski               14.</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="391"/>
+      </style>
     </note>
     <note handle="_d3f88410fd33c5676ab4199fcd6" change="1456652006" id="N0013" type="Link">
       <text>http://digi.narc.fi/digi/view.ka?kuid=20820173
@@ -66994,6 +67038,183 @@ Kansalliskirjaston digitaaliset aineistot
                                       71 h. Hilda 69, B 0-3</text>
       <style name="fontface" value="Monospace">
         <range start="0" end="286"/>
+      </style>
+    </note>
+    <note handle="_f1659a0fec5114b81be0e5859a8" change="1658866742" id="N2396" type="Citation">
+      <text>Viipurin kaupungin ja sen lähimmän ympäristön osotekirja, 01.01.1921, s. 410
+https://digi.kansalliskirjasto.fi/aikakausi/binding/1262777?page=410
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f1659b278ee408a821b09fd0571" change="1658866856" id="N2397" type="Transcript" format="1">
+      <text>Nordberg, Emil, varast:hoit., Vis-
+  kaalink. 4, as. 1.
+- Hilda, rva, Viskaalink. 4, as. 1.</text>
+      <style name="bold">
+        <range start="0" end="15"/>
+        <range start="56" end="65"/>
+      </style>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="91"/>
+      </style>
+    </note>
+    <note handle="_f1659ba1f0c38dab0b6f2ac2c39" change="1658866906" id="N2398" type="Citation">
+      <text>Viipurin kaupungin osoitekalenteri ja liikehakemisto, 01.01.1926, s. 390
+https://digi.kansalliskirjasto.fi/aikakausi/binding/1262791?page=390
+Kansalliskirjaston digitaaliset aineistot</text>
+    </note>
+    <note handle="_f1659ce66d012a52c6bdcd4d30d" change="1658867039" id="N2399" type="Transcript" format="1">
+      <text>Nordberg, Alice S., neiti, Viskaalink. 4.
+ - Elvira M., neiti, Viskaalink. 4.
+ - Hilda M., leskirouva, Viskaalink. 4. 
+ - Tyyne, ylioppilas, Viskaalink. 4.</text>
+      <style name="bold">
+        <range start="0" end="19"/>
+        <range start="45" end="56"/>
+        <range start="81" end="90"/>
+        <range start="122" end="129"/>
+      </style>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="155"/>
+      </style>
+    </note>
+    <note handle="_f1659d5d4be588f678f74ae66a7" change="1658867088" id="N2400" type="Citation">
+      <text>Viipurin kaupungin osoitekalenteri ja liikehakemisto, 01.01.1926, s. 390
+https://digi.kansalliskirjasto.fi/aikakausi/binding/1262791?page=390
+Kansalliskirjaston digitaaliset aineistot</text>
+    </note>
+    <note handle="_f1659efa4a5b200fae8eecc874" change="1658867257" id="N2401" type="Transcript" format="1">
+      <text>Nordberg, Alice, neiti, Viskaalink. 4.
+ - Elviira Maria, konttoristi, Viskaa-
+   link. 4.
+ - Hilda Maria, rouva, Viskaalink. 4.
+ - Paul Vilhelm,  Viskaalink. 4.
+ - Tyyne Elisabeth, yliopp., Viskaalin-
+   katu 4.</text>
+      <style name="bold">
+        <range start="0" end="16"/>
+        <range start="42" end="56"/>
+        <range start="93" end="106"/>
+        <range start="132" end="145"/>
+        <range start="164" end="181"/>
+      </style>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="211"/>
+      </style>
+    </note>
+    <note handle="_f1659f9b7612221486bb85a7492" change="1658867323" id="N2402" type="Citation">
+      <text>Viipurin kaupungin osoitekalenteri ja liikehakemisto, 01.01.1929, s. 537
+https://digi.kansalliskirjasto.fi/aikakausi/binding/1262789?page=537
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f165a2529596d3114e9a7d15601" change="1658867608" id="N2403" type="Transcript" format="1">
+      <text>Nordberg, Alice S., neiti. Viskaa-
+  link. 4.
+- Edit M., neiti. Viskaalink. 4, 
+  as. 1.
+- Elviira, konttor., Viskaalink. 4, 
+  as. 1.
+- Hilda M., rouva. Viskaalink. 4,
+  as. 1.
+- Paul V., Viskaalink 4 as. 1.
+- Rauha. Sofiank. 7. Orpokoti.
+</text>
+      <style name="bold">
+        <range start="0" end="20"/>
+        <range start="48" end="57"/>
+        <range start="91" end="100"/>
+        <range start="137" end="146"/>
+        <range start="180" end="188"/>
+        <range start="211" end="218"/>
+      </style>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="240"/>
+      </style>
+    </note>
+    <note handle="_f165aa6c8fd1129d89b04bdd982" change="1658868457" id="N2404" type="Citation">
+      <text>Viipurin kaupungin osoitekalenteri ja liikehakemisto, 01.01.1931, s. 331
+https://digi.kansalliskirjasto.fi/aikakausi/binding/1262788?page=331
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f165aa8ee8d5ed3e0c19ca4390a" change="1658868471" id="N2405" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1262788?term=Nordberg&amp;page=331</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1262788?term=Nordberg&amp;page=331">
+        <range start="0" end="82"/>
+      </style>
+    </note>
+    <note handle="_f165ac8c712669a46f7da6a14ab" change="1658868680" id="N2406" type="Transcript" format="1">
+      <text>Nordberg, Alice S. E., neiti. Lallukank. 4.
+  as. 1.
+- Edit M. A., neiti. Lallukank. 4. as. 1.
+- Elvira M. V., kauppa-apul., Lallukank. 4.
+  as. 1.
+- Hilda M.,  rouva. Lallukank. 4. as. 1.
+- Paul V. V., Lallukank. 4. as 1.
+- Rauha S., neiti, Haminanportink. 7. Sti.
+  </text>
+      <style name="bold">
+        <range start="0" end="23"/>
+        <range start="53" end="67"/>
+        <range start="95" end="111"/>
+        <range start="148" end="160"/>
+        <range start="189" end="202"/>
+        <range start="223" end="234"/>
+      </style>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="268"/>
+      </style>
+    </note>
+    <note handle="_f165aecc7613f30482961cf0723" change="1658868916" id="N2407" type="Transcript" format="1">
+      <text>Nordberg, Alice S. E., neiti. Lallukank. 4. as. 1.
+- Edith, neiti, Lallukank. 4. as. 1.
+
+- Elviira, neiti, Lallukank. 4. as. 1.
+
+- Hilda, rva, Lallukank. 4. as. 1.
+
+  </text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="167"/>
+      </style>
+    </note>
+    <note handle="_f165aee2487332870f8cce0390f" change="1658868925" id="N2408" type="Citation">
+      <text>Viipurin kaupungin osoitekalenteri ja liikehakemisto, 01.01.1936, s. 270
+https://digi.kansalliskirjasto.fi/aikakausi/binding/1262787?page=270
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f165af11f47f6083300453e872" change="1658868944" id="N2409" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1262787?term=Nordberg&amp;page=270</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1262787?term=Nordberg&amp;page=270">
+        <range start="0" end="82"/>
+      </style>
+    </note>
+    <note handle="_f165b153b6d429c1672b28b6430" change="1658869181" id="N2410" type="Transcript" format="1">
+      <text>Nordberg, Alice Siviä, nti, Lallukank. 4 as. 1.
+  -- Edit Maria Adele, liikeap., Lallukank. 4.
+  -- Elvira Maria Viola, liikeap., Lallukank. 4.
+</text>
+      <style name="bold">
+        <range start="0" end="23"/>
+        <range start="50" end="70"/>
+        <range start="97" end="120"/>
+      </style>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="144"/>
+      </style>
+    </note>
+    <note handle="_f165b16b9f9197aa19d856bde65" change="1658869191" id="N2411" type="Citation">
+      <text>Viipurin kaupungin osoitekalenteri ja liikehakemisto, 01.01.1939, s. 410
+https://digi.kansalliskirjasto.fi/aikakausi/binding/1262786?page=410
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f165b18dd5ee592f795e122b5f" change="1658869205" id="N2412" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1262786?term=Nordberg&amp;page=410</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1262786?term=Nordberg&amp;page=410">
+        <range start="0" end="82"/>
       </style>
     </note>
   </notes>
