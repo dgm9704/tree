@@ -8850,12 +8850,13 @@
       <citationref hlink="_d3f972ec21f1a4ac57d712122e4"/>
       <citationref hlink="_ebfce3a890b345df6b9b7813b37"/>
     </event>
-    <event handle="_d3f9d047ed7163c31d7b4a42675" change="1658852553" id="E3331">
+    <event handle="_d3f9d047ed7163c31d7b4a42675" change="1658853886" id="E3331">
       <type>Residence</type>
-      <dateval val="1907"/>
-      <place hlink="_d3f9d03d9a71ed49b2cd5bf9baf"/>
-      <citationref hlink="_e18161688c24dd1c5d3c66e2c74"/>
+      <datespan start="1907" stop="1908"/>
+      <place hlink="_f1651f4eccd2405305fe2a83769"/>
       <citationref hlink="_ebfce3a890b345df6b9b7813b37"/>
+      <citationref hlink="_f1651b886263efde9f7dfe18f3"/>
+      <citationref hlink="_f1651de8d6f69002d099a8e2f78"/>
     </event>
     <event handle="_d486222c9ed5b311595b7ec5fba" change="1508624560" id="E3332">
       <type>Residence</type>
@@ -15767,7 +15768,7 @@
     </event>
   </events>
   <people home="_cb589cc847f6455821b">
-    <person handle="_cb589cc7f8356f9dc4a" change="1658847662" id="I3858">
+    <person handle="_cb589cc7f8356f9dc4a" change="1658853938" id="I3858">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Alice Siviä Elina</first>
@@ -15815,7 +15816,7 @@
       <childof hlink="_cb589cc80670f6bf5c4"/>
       <parentin hlink="_cb589cc7f9c792dc427"/>
     </person>
-    <person handle="_cb589cc80776138fae0" change="1658847662" id="I4428">
+    <person handle="_cb589cc80776138fae0" change="1658853938" id="I4428">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Tyyni Elisabeth</first>
@@ -15827,7 +15828,7 @@
       <eventref hlink="_d7d8b7fb17b63dcf4cd32f3987d" role="Primary"/>
       <childof hlink="_cb589cc7f9c792dc427"/>
     </person>
-    <person handle="_cb589cc809a5eba8702" change="1658847662" id="I3793">
+    <person handle="_cb589cc809a5eba8702" change="1658853938" id="I3793">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Elvira Viola</first>
@@ -15840,7 +15841,7 @@
       <eventref hlink="_defd5053ddb439af1ea43226186" role="Primary"/>
       <childof hlink="_cb589cc7f9c792dc427"/>
     </person>
-    <person handle="_cb589cc80b85ba4f528" change="1658847662" id="I5313">
+    <person handle="_cb589cc80b85ba4f528" change="1658853938" id="I5313">
       <gender>M</gender>
       <name type="Also Known As">
         <first>Paul Wilhelm Waldemar</first>
@@ -15855,7 +15856,7 @@
       <childof hlink="_cb589cc7f9c792dc427"/>
       <parentin hlink="_cb589cc80ce75a0e92d"/>
     </person>
-    <person handle="_cb589cc80d910acb4b9" change="1658847662" id="I6156">
+    <person handle="_cb589cc80d910acb4b9" change="1658853938" id="I6156">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Edit Maria Adele</first>
@@ -28496,7 +28497,7 @@
     </person>
   </people>
   <families>
-    <family handle="_cb589cc7f9c792dc427" change="1658847662" id="F1472">
+    <family handle="_cb589cc7f9c792dc427" change="1658853938" id="F1472">
       <rel type="Married"/>
       <father hlink="_cb589cc80270f9c6988"/>
       <mother hlink="_cb589cc804b2d4cd313"/>
@@ -28515,7 +28516,6 @@
       <childref hlink="_cb589cc7f8356f9dc4a"/>
       <childref hlink="_cb589cc80b85ba4f528"/>
       <childref hlink="_cb589cc80d910acb4b9"/>
-      <noteref hlink="_f16095bb5c24c49f8368ba4df10"/>
     </family>
     <family handle="_cb589cc803c2012656f" change="1658695223" id="F1411">
       <rel type="Married"/>
@@ -41585,6 +41585,22 @@
       <noteref hlink="_f164ecfdb2d15a31ccf04fff70f"/>
       <sourceref hlink="_dcde088884844f55819d0fcc103"/>
     </citation>
+    <citation handle="_f1651b886263efde9f7dfe18f3" change="1658853474" id="C1423">
+      <page>1907/480</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f1651a899f24bb50902784a54c9"/>
+      <noteref hlink="_f1651abde997d3a370bb2c569f8"/>
+      <noteref hlink="_f1651b80634547ba94345ba000b"/>
+      <sourceref hlink="_dcde088884844f55819d0fcc103"/>
+    </citation>
+    <citation handle="_f1651de8d6f69002d099a8e2f78" change="1658853723" id="C1424">
+      <page>U:239a/3513</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f1651bff5831c0e4608d8ba980a"/>
+      <noteref hlink="_f1651c32c2f78af00b5ac3285fe"/>
+      <noteref hlink="_f1651de013756f0b58eb86d4e7d"/>
+      <sourceref hlink="_e1819659b836165c9f4f636d64"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -44439,7 +44455,7 @@
     </source>
   </sources>
   <places>
-    <placeobj handle="_cb589cc7f8d1b88b055" change="1658785890" id="P0000" type="City">
+    <placeobj handle="_cb589cc7f8d1b88b055" change="1658853851" id="P0000" type="City">
       <ptitle>Helsingfors, Finland</ptitle>
       <pname value="Helsinki" lang="se"/>
       <pname value="Helsingfors" lang="se"/>
@@ -47255,6 +47271,19 @@
     <placeobj handle="_f164dd5a5ad267b91000912faef" change="1658846954" id="P0166" type="Building">
       <pname value="Holmgatan 2"/>
       <placeref hlink="_f164dd570c21607da84547b4ad2"/>
+    </placeobj>
+    <placeobj handle="_f1651f4162167b2fda071c32f75" change="1658853864" id="P0167" type="Borough">
+      <pname value="10. stadsdelen"/>
+      <placeref hlink="_cb589cc7f8d1b88b055"/>
+    </placeobj>
+    <placeobj handle="_f1651f461af3674f98c5e61b5da" change="1658853866" id="P0168" type="Block">
+      <pname value="284"/>
+      <placeref hlink="_f1651f4162167b2fda071c32f75"/>
+    </placeobj>
+    <placeobj handle="_f1651f4eccd2405305fe2a83769" change="1658853883" id="P0169" type="Building">
+      <code>tontti 1</code>
+      <pname value="Wilhelmsbärgsgatan 10"/>
+      <placeref hlink="_f1651f461af3674f98c5e61b5da"/>
     </placeobj>
   </places>
   <repositories>
@@ -66923,6 +66952,49 @@ Kansalliskirjaston digitaaliset aineistot
 https://digi.kansalliskirjasto.fi/aikakausi/binding/1154737?page=545
 Kansalliskirjaston digitaaliset aineistot
 </text>
+    </note>
+    <note handle="_f1651a899f24bb50902784a54c9" change="1658853370" id="N2390" type="Citation">
+      <text>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1907, s. 636
+https://digi.kansalliskirjasto.fi/aikakausi/binding/1154768?page=636
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f1651abde997d3a370bb2c569f8" change="1658853391" id="N2391" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1154768?term=Nordberg&amp;page=636</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1154768?term=Nordberg&amp;page=636">
+        <range start="0" end="82"/>
+      </style>
+    </note>
+    <note handle="_f1651b80634547ba94345ba000b" change="1658853471" id="N2392" type="Transcript" format="1">
+      <text>Nordberg, [...]
+- E. F., plåtslag., Vilhelmsbergsg. 10.</text>
+      <style name="bold">
+        <range start="0" end="9"/>
+        <range start="18" end="24"/>
+      </style>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="55"/>
+      </style>
+    </note>
+    <note handle="_f1651bff5831c0e4608d8ba980a" change="1658853523" id="N2393" type="Citation">
+      <text>Uudenmaan läänin henkikirjat - U:239a Henkikirja, 9.-11. kaupunginosa 1908-1908, jakso 54, sivu 3513: 284 1 Söderviksg 1/Wilhelmsbärgsg 10; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5273480295&amp;aineistoId=2109542089 / Viitattu 26.7.2022</text>
+    </note>
+    <note handle="_f1651c32c2f78af00b5ac3285fe" change="1658853544" id="N2394" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5273480295&amp;aineistoId=2109542089</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5273480295&amp;aineistoId=2109542089">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f1651de013756f0b58eb86d4e7d" change="1658853720" id="N2395" type="Transcript" format="1">
+      <text>284    1    Söderviksg 1         
+            Wilhelmsbärgsg 10
+                                  [...]
+                                  H.  Plåtslageriarbetaren E-
+                                      mil Ferdinand Nordberg
+                                      71 h. Hilda 69, B 0-3</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="286"/>
+      </style>
     </note>
   </notes>
 </database>
