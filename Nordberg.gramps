@@ -15771,6 +15771,22 @@
       <citationref hlink="_f165af297f82860ea96b8e7cf69"/>
       <citationref hlink="_f165b197f243ea3054cc954406"/>
     </event>
+    <event handle="_f167084fd5ee8e818e221517bd" change="1658905450" id="E0553">
+      <type>Name change</type>
+      <dateval val="1936-12-05"/>
+      <place hlink="_cb589cfeb254c33cda1"/>
+      <description>Nordberg - Norovuori</description>
+      <citationref hlink="_f16706680e42f462d7e5d8ef352"/>
+    </event>
+    <event handle="_f1670b1b8b55b362cf540441661" change="1658905567" id="E0554">
+      <type>Birth</type>
+      <dateval val="1933-03-30"/>
+      <place hlink="_cde62768b9e01659bdc"/>
+    </event>
+    <event handle="_f1670de0111413a3974dec1610d" change="1658905729" id="E0555">
+      <type>Death</type>
+      <dateval val="2019-04-21"/>
+    </event>
   </events>
   <people home="_cb589cc847f6455821b">
     <person handle="_cb589cc7f8356f9dc4a" change="1658869228" id="I3858">
@@ -15846,19 +15862,24 @@
       <eventref hlink="_defd5053ddb439af1ea43226186" role="Primary"/>
       <childof hlink="_cb589cc7f9c792dc427"/>
     </person>
-    <person handle="_cb589cc80b85ba4f528" change="1658869622" id="I5313">
+    <person handle="_cb589cc80b85ba4f528" change="1658905172" id="I5313">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Paul Wilhelm Waldemar</first>
         <surname derivation="Inherited">Nordberg</surname>
+        <dateval val="1936-05-12" type="before"/>
+        <citationref hlink="_f16706680e42f462d7e5d8ef352"/>
       </name>
       <name alt="1" type="Also Known As">
         <first>Paul Wilhelm Waldemar</first>
         <surname derivation="Taken">Norovuori</surname>
         <group>Nordberg</group>
+        <dateval val="1936-05-12" type="after"/>
+        <citationref hlink="_f16706680e42f462d7e5d8ef352"/>
       </name>
       <eventref hlink="_cb589cc80bc13411880" role="Primary"/>
       <eventref hlink="_cb589cc80c5504487cd" role="Primary"/>
+      <eventref hlink="_f167084fd5ee8e818e221517bd" role="Family"/>
       <childof hlink="_cb589cc7f9c792dc427"/>
       <parentin hlink="_cb589cc80ce75a0e92d"/>
     </person>
@@ -25144,7 +25165,7 @@
       <eventref hlink="_df80eadf55f4e52f88b7962cc00" role="Primary"/>
       <parentin hlink="_cb589ccecf0511c8c37"/>
     </person>
-    <person handle="_cea5c238f8e496d74db" change="1658580857" id="I1391">
+    <person handle="_cea5c238f8e496d74db" change="1658905329" id="I1391">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Alli Adele</first>
@@ -25157,10 +25178,18 @@
       </name>
       <name alt="1" type="Married Name">
         <first>Alli Adele</first>
-        <surname derivation="Married Name">Norovuori</surname>
-        <dateval val="1932-05-05" type="after"/>
+        <surname derivation="Married Name">Nordberg</surname>
+        <datespan start="1932-05-05" stop="1936-05-12"/>
+        <citationref hlink="_f16706680e42f462d7e5d8ef352"/>
+      </name>
+      <name alt="1" type="Married Name">
+        <first>Alii Adele</first>
+        <surname derivation="Taken">Norovuori</surname>
+        <dateval val="1936-05-12" type="after"/>
+        <citationref hlink="_f16706680e42f462d7e5d8ef352"/>
       </name>
       <eventref hlink="_cea5c1831ab1f45f4cf" role="Primary"/>
+      <eventref hlink="_f167084fd5ee8e818e221517bd" role="Family"/>
       <eventref hlink="_cea5c19ee174434494c" role="Primary"/>
       <parentin hlink="_cb589cc80ce75a0e92d"/>
     </person>
@@ -28501,6 +28530,23 @@
       <eventref hlink="_f15b6b630bc3c9f64263ccd6615" role="Primary"/>
       <childof hlink="_f14f48fe16113ce0450a9a5147b"/>
     </person>
+    <person handle="_f1670ad95187db22e5b0304a15a" change="1658905889" id="I0136">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Paavo Juhani</first>
+        <surname derivation="Inherited">Nordberg</surname>
+      </name>
+      <name alt="1" type="Also Known As">
+        <first>Paavo Juhani</first>
+        <surname>Norovuori</surname>
+        <dateval val="1936-05-12" type="after"/>
+        <citationref hlink="_f16706680e42f462d7e5d8ef352"/>
+      </name>
+      <eventref hlink="_f1670b1b8b55b362cf540441661" role="Primary"/>
+      <eventref hlink="_f167084fd5ee8e818e221517bd" role="Unknown"/>
+      <eventref hlink="_f1670de0111413a3974dec1610d" role="Primary"/>
+      <childof hlink="_cb589cc80ce75a0e92d"/>
+    </person>
   </people>
   <families>
     <family handle="_cb589cc7f9c792dc427" change="1658869228" id="F1472">
@@ -28560,11 +28606,12 @@
       <childref hlink="_cb589cc85f624f18676"/>
       <childref hlink="_cb589cc861266c77e32"/>
     </family>
-    <family handle="_cb589cc80ce75a0e92d" change="1420070870" id="F1949">
+    <family handle="_cb589cc80ce75a0e92d" change="1658905889" id="F1949">
       <rel type="Married"/>
       <father hlink="_cb589cc80b85ba4f528"/>
       <mother hlink="_cea5c238f8e496d74db"/>
       <eventref hlink="_cb589cfbddb6cde6610" role="Family"/>
+      <childref hlink="_f1670ad95187db22e5b0304a15a"/>
     </family>
     <family handle="_cb589cc83c13dd8e6b9" change="1518380691" id="F2354">
       <rel type="Married"/>
@@ -41642,6 +41689,15 @@
       <noteref hlink="_f165b18dd5ee592f795e122b5f"/>
       <noteref hlink="_f165b153b6d429c1672b28b6430"/>
       <sourceref hlink="_dcdd507efe6530d1b60fce4c7ca"/>
+    </citation>
+    <citation handle="_f16706680e42f462d7e5d8ef352" change="1658904946" id="C1428">
+      <dateval val="1936-05-12"/>
+      <page>1936-127/11</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f167033f20c581d4c61119fd5d9"/>
+      <noteref hlink="_f1670426e5611f82bf729f705a"/>
+      <noteref hlink="_f167065e7c31a128372980d6148"/>
+      <sourceref hlink="_dcdc4ca0db739edeedc803e49"/>
     </citation>
   </citations>
   <sources>
@@ -67216,6 +67272,29 @@ Kansalliskirjaston digitaaliset aineistot
       <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1262786?term=Nordberg&amp;page=410</text>
       <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1262786?term=Nordberg&amp;page=410">
         <range start="0" end="82"/>
+      </style>
+    </note>
+    <note handle="_f167033f20c581d4c61119fd5d9" change="1658904614" id="N2413" type="Citation">
+      <text>Karjala, 12.05.1936, nro 127, s. 11
+https://digi.kansalliskirjasto.fi/sanomalehti/binding/2004436?page=11
+Kansalliskirjaston digitaaliset aineistot</text>
+    </note>
+    <note handle="_f1670426e5611f82bf729f705a" change="1658904709" id="N2414" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/2004436?term=Nordberg&amp;page=11</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/sanomalehti/binding/2004436?term=Nordberg&amp;page=11">
+        <range start="0" end="83"/>
+      </style>
+    </note>
+    <note handle="_f167065e7c31a128372980d6148" change="1658904942" id="N2415" type="Transcript" format="1">
+      <text>Ilmoituksia
+Snellmanin päivän
+SUURNIMENMUUTTO.
+Maaherrojen päätöksiin nojautuen ilmoitetaan seuraavat nimenmuutot:
+[...]
+Paul Vilhelm, Alli Adele ja Paavo Juhani
+                    Nordberg - Norovuori</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="202"/>
       </style>
     </note>
   </notes>
