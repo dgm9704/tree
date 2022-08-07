@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2022-07-28" version="5.1.5"/>
+    <created date="2022-08-07" version="5.1.5"/>
     <researcher>
     </researcher>
   </header>
@@ -11167,12 +11167,13 @@
       <place hlink="_cb589cc90f055fc9f0c"/>
       <citationref hlink="_de1bdc71e0e47a15d3e18447633"/>
     </event>
-    <event handle="_defd44d5b6766aec46a1febba99" change="1651934417" id="E2452">
+    <event handle="_defd44d5b6766aec46a1febba99" change="1659178727" id="E2452">
       <type>Death</type>
       <dateval val="1937-02-04"/>
       <place hlink="_cde62768b9e01659bdc"/>
       <citationref hlink="_defd44c9ebe5ff223a1fb123a1f"/>
       <citationref hlink="_f063593c357e87a2f580ecd44e"/>
+      <citationref hlink="_f171387e0b011070d4f798ee57"/>
     </event>
     <event handle="_defd4628db01e256deeef0e12e1" change="1609244856" id="E2453">
       <type>Estate Inventory</type>
@@ -13340,13 +13341,13 @@
       <place hlink="_d931d1d39ca3cbe5529d4f63a4d"/>
       <citationref hlink="_d9342ff63f0771d4b840a91d4e5"/>
     </event>
-    <event handle="_e37e0f8937115a35eb0b38fec55" change="1621778692" id="E2879">
+    <event handle="_e37e0f8937115a35eb0b38fec55" change="1659874425" id="E2879">
       <type>Residence</type>
       <datespan start="1798" stop="1801"/>
       <place hlink="_e37e0e3f53b3d29ddafbb93feec"/>
       <citationref hlink="_e37e0f8564d3797b0c9d3dcda92"/>
     </event>
-    <event handle="_e37e11eb821775aeb87c049b34" change="1621778697" id="E2880">
+    <event handle="_e37e11eb821775aeb87c049b34" change="1659874336" id="E2880">
       <type>Residence</type>
       <datespan start="1795" stop="1798"/>
       <place hlink="_e37e11731be2b71897b1255e881"/>
@@ -13363,13 +13364,13 @@
       <place hlink="_cb589cc90f055fc9f0c"/>
       <citationref hlink="_e37e144e20744bcbc38647e7ec7"/>
     </event>
-    <event handle="_e380da94e55eec144d04ddcfa9" change="1621778605" id="E2883">
+    <event handle="_e380da94e55eec144d04ddcfa9" change="1659874173" id="E2883">
       <type>Residence</type>
       <dateval val="1794"/>
       <place hlink="_e37e11731be2b71897b1255e881"/>
       <citationref hlink="_e380da902af111f2cc06557a3ea"/>
     </event>
-    <event handle="_e3811f8086d2956cc8226f3f869" change="1628270966" id="E2884">
+    <event handle="_e3811f8086d2956cc8226f3f869" change="1659874126" id="E2884">
       <type>Residence</type>
       <datespan start="1791" stop="1793"/>
       <place hlink="_cea5bfbbe2a7982e275"/>
@@ -13445,7 +13446,7 @@
       <citationref hlink="_e38977f797cede3609f631e2b3"/>
       <citationref hlink="_e8fb28723e1565d963a61b7a972"/>
     </event>
-    <event handle="_e38978877148f5d5c86500ad74" change="1621778125" id="E2903">
+    <event handle="_e38978877148f5d5c86500ad74" change="1659874471" id="E2903">
       <type>Death</type>
       <dateval val="1857-11-29"/>
       <place hlink="_e37e0e3f53b3d29ddafbb93feec"/>
@@ -41898,6 +41899,14 @@
       <noteref hlink="_f16b6cb91b23560f1fa0a0a71ff"/>
       <sourceref hlink="_f16b68504f6759cc2ae8b2a1d8f"/>
     </citation>
+    <citation handle="_f171387e0b011070d4f798ee57" change="1659178633" id="C1440">
+      <page>K03Ab:24/4</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f17134978805e904adaac01262b"/>
+      <noteref hlink="_f17134e37133d4e8b9e2372a560"/>
+      <noteref hlink="_f171387912479612ba47be02dd5"/>
+      <sourceref hlink="_f171332d9e42b02a648e91798d4"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -44760,6 +44769,11 @@
       <sauthor>Porvoon kaupunkiseurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
+    <source handle="_f171332d9e42b02a648e91798d4" change="1659178120" id="S0582">
+      <stitle>Luettelot kuolleista 1936-1965</stitle>
+      <sauthor>Tilastollisen päätoimiston tilastoarkisto</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1658853851" id="P0000" type="City">
@@ -47610,7 +47624,7 @@
     </placeobj>
   </places>
   <repositories>
-    <repository handle="_cdea29a49637c6553bc" change="1658785979" id="R0001">
+    <repository handle="_cdea29a49637c6553bc" change="1659178073" id="R0001">
       <rname>Arkistolaitos Digitaaliarkisto</rname>
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
@@ -50383,14 +50397,17 @@ https://astia.narc.fi/uusiastia/viewer/?fileId=5869238003&amp;aineistoId=1168910
 April
 24	3	Johan Johss	Hindhår Smed:	Hindhår	-	1 3/4	???</text>
     </note>
-    <note handle="_d6d15312c9f6d26dd944b3b5994" change="1600935656" id="N0399" type="Transcript" format="1">
+    <note handle="_d6d15312c9f6d26dd944b3b5994" change="1659874121" id="N0399" type="Transcript" format="1">
       <text>165 Hindhår
-     Smed    Joh Matsson                1740
-     hu           Caisa Henrics             1750
-1   s              Staf Joh                          1770
-+  pg           Anna H Johansdr       1774
-+  s              Fredric Johansson    1776
-2  h             Caisa Hansdr               1771</text>
+   Smed Joh Matsson       1740
+   hu Caisa Henrics       1750
+1  s Staf Joh             1770
++  pg Anna H Johansdr     1774
++  s Fredric Johansson    1776
+2  h Caisa Hansdr         1771</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="197"/>
+      </style>
     </note>
     <note handle="_d6d462e50b240d69941576dc474" change="1476301201" id="N0400" type="Link">
       <text>http://digi.narc.fi/digi/view.ka?kuid=13312017
@@ -60572,30 +60589,39 @@ Johan Johansson</text>
         <range start="0" end="103"/>
       </style>
     </note>
-    <note handle="_e8f78a7ec64489558f14932d248" change="1600936738" id="N0167" type="Transcript" format="1">
+    <note handle="_e8f78a7ec64489558f14932d248" change="1659874170" id="N0167" type="Transcript" format="1">
       <text>206 Söderveckoski
 
-Smed  Isac Sundberg           1756
-hu         Caisa Henricsdr       1766
-Lg         Fredric Johansson   1776</text>
+Smed  Isac Sundberg        1756
+hu    Caisa Henricsdr      1766
+Lg    Fredric Johansson    1776</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="114"/>
+      </style>
     </note>
-    <note handle="_e8f78d6a4042b7ec096aa2be396" change="1601588146" id="N0168" type="Transcript">
+    <note handle="_e8f78d6a4042b7ec096aa2be396" change="1659874332" id="N0168" type="Transcript" format="1">
       <text>152 Söderveckoski
 
 Smeden
-Isaac Sundberg 1756
-ho Caisa Henricsdr 1766
-Lärgosse Fredric Johansson 1776                           til p.81.
+Isaac Sundberg                    1756
+ho Caisa Henricsdr                1766
+Lärgosse Fredric Johansson        1776                          til p.81.
 Lärgosse Jacob Andersson Lindfors 1770 til Sibbo m.b. d ?? 98   m.bet.ifr Sibbo af d. 9/1 98 No7</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="274"/>
+      </style>
     </note>
-    <note handle="_e8f7d93d8e13bf62553a2fcdba" change="1601589313" id="N0169" type="Transcript">
+    <note handle="_e8f7d93d8e13bf62553a2fcdba" change="1659874422" id="N0169" type="Transcript" format="1">
       <text>81. Kullo
 Sisbacka Rusthåll
 
 Sokne Smed gift Backstugohjon
 Fredric Johansson Sunnman 1776   ???? med Anna Stina Jonasdr vide p. 158    ifr p. 152
-ho Anna Stina Jonasdr 1778  ifr.p.158.
+ho Anna Stina Jonasdr     1778                        ifr.p.158.
 </text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="211"/>
+      </style>
     </note>
     <note handle="_e8f7e62efa389817db8b0d93d" change="1600946352" id="N0170" type="Transcript">
       <text>Vigde år 1801
@@ -60735,12 +60761,15 @@ Anna Stina Sunnman         25/2 1806
         <range start="0" end="361"/>
       </style>
     </note>
-    <note handle="_e8fb33b25c5245176f6d057b947" change="1601035011" id="N0184" type="Transcript">
+    <note handle="_e8fb33b25c5245176f6d057b947" change="1659874469" id="N0184" type="Transcript" format="1">
       <text>Döde år 1857
 November månad
 29    13/12    Fredrik Johansson Sunnman Sne Smed  uppl. [=körttiläinen?]    81    ålderdom    Kullo Nyby
 
 </text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="135"/>
+      </style>
     </note>
     <note handle="_e8fb35476c01a3224ac4f8170c5" change="1601035176" id="N0185" type="Transcript">
       <text>Döde år 1858
@@ -67076,8 +67105,8 @@ Nordberg, [...]
         <range start="0" end="98"/>
       </style>
     </note>
-    <note handle="_f16245b0dc7152818c9f362f8b3" change="1658778440" id="N2355" type="Research">
-      <text>Ei löydy 1900 henkikirjasta Wladimirsg 52, mutta löytyy Emil Ferdinandin kanssa </text>
+    <note handle="_f16245b0dc7152818c9f362f8b3" change="1659080726" id="N2355" type="Research">
+      <text>Ei löydy 1900 henkikirjasta Wladimirsg 52, mutta löytyy Emil Ferdinandin kanssa  Albertinkadulta</text>
     </note>
     <note handle="_f16249a4e7a2951a8f532307af" change="1658777778" id="N2356" type="Citation">
       <text>Uudenmaan läänin henkikirjat - U:182a Henkikirja, 3.-4. kaupunginosa 1901-1901, jakso 531, sivu 1071: 81. Sparfven 35 Vladimirsg 52; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5338673896&amp;aineistoId=2108642148 / Viitattu 25.7.2022</text>
@@ -68351,6 +68380,25 @@ Kansalliskirjaston digitaaliset aineistot</text>
 https://digi.kansalliskirjasto.fi/aikakausi/binding/1158699?page=467
 Kansalliskirjaston digitaaliset aineistot
 </text>
+    </note>
+    <note handle="_f17134978805e904adaac01262b" change="1659178224" id="N2519" type="Citation">
+      <text>Tilastollisen päätoimiston tilastoarkisto (KA) - K03Ab:24 Luettelot kuolleista , Viipurin lääni: Vahviala - Äyräpää; Kuopion lääni: Eno - Kitee  1937-1937, jakso 281, sivu 4: Kuolleet Viipurin tuomiokirkkoseurakunnassa v:n 1937 I:ltä neljänneksellä.; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=6869796008&amp;aineistoId=1093621726 / Viitattu 30.7.2022</text>
+    </note>
+    <note handle="_f17134e37133d4e8b9e2372a560" change="1659178255" id="N2520" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=6869796008&amp;aineistoId=1093621726</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=6869796008&amp;aineistoId=1093621726">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f171387912479612ba47be02dd5" change="1659178631" id="N2521" type="Transcript" format="1">
+      <text>                                                                         4
+Kuolleet Viipurin tuomiokirkkoseurakunnassa v:n 1937 I:ltä neljänneksellä.
+
+[Helmik] 4    2794    Nordberg, Hilda Maria, peltisep. leski    l.    1869  VIII 17    syöpä ihossa 7050    -  1
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="264"/>
+      </style>
     </note>
   </notes>
 </database>
