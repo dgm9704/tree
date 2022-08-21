@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2022-07-19" version="5.1.5"/>
+    <created date="2022-08-21" version="5.1.5"/>
     <researcher>
     </researcher>
   </header>
@@ -67,7 +67,7 @@
       <citationref hlink="_d39f0961e233fea5781"/>
       <citationref hlink="_d39fa86f3a7732a8ee5"/>
     </event>
-    <event handle="_d39f9ea24454620556c" change="1658182013" id="E0007">
+    <event handle="_d39f9ea24454620556c" change="1661091295" id="E0007">
       <type>Birth</type>
       <dateval val="1903-06-22"/>
       <place hlink="_d39fa3d104c4abc6a4d"/>
@@ -195,7 +195,7 @@
       <citationref hlink="_d3a039b773239ba8091"/>
       <citationref hlink="_d3a04269c9d1cf023b6"/>
     </event>
-    <event handle="_d3a04967f754cf1a371" change="1454283623" id="E0026">
+    <event handle="_d3a04967f754cf1a371" change="1661091305" id="E0026">
       <type>Death</type>
       <dateval val="1985-05-16"/>
       <place hlink="_d3a04958f390a723a1e"/>
@@ -342,7 +342,7 @@
       <place hlink="_d3acc2519d73e9bb104"/>
       <citationref hlink="_d3accbbf76c31d2a4cd"/>
     </event>
-    <event handle="_d3acd7165315cf30e4d" change="1500816980" id="E0050">
+    <event handle="_d3acd7165315cf30e4d" change="1661089923" id="E0050">
       <type>Death</type>
       <dateval val="1918-04-01"/>
       <place hlink="_d3acd77fdbc222d42b4"/>
@@ -367,13 +367,14 @@
       <citationref hlink="_da7359a24a84dcaed1a5e029a10"/>
       <citationref hlink="_da735b6ff7036c1ae1f8321a92"/>
     </event>
-    <event handle="_d3afa5e72d35afc6d13" change="1501181303" id="E0053">
+    <event handle="_d3afa5e72d35afc6d13" change="1661090500" id="E0053">
       <type>Residence</type>
       <datespan start="1916-01-23" stop="1918-06-13"/>
       <place hlink="_d3acd5ddb167d139bd2"/>
       <citationref hlink="_d3acf1c3b534c1bc2f3"/>
       <citationref hlink="_da735b6ff7036c1ae1f8321a92"/>
       <citationref hlink="_da7354612ec6cf6b0eb6a3646f9"/>
+      <citationref hlink="_f1b8712d3e3773a276abefedb73"/>
     </event>
     <event handle="_d3afa66aada6ac55457" change="1500817185" id="E0054">
       <type>Death</type>
@@ -3088,10 +3089,12 @@
       <noteref hlink="_d39f04afbb15f7c1a54"/>
       <sourceref hlink="_d39f0446de217f10266"/>
     </citation>
-    <citation handle="_d39f0961e233fea5781" change="1454617428" id="C0001">
+    <citation handle="_d39f0961e233fea5781" change="1661091287" id="C0001">
       <page>135-136</page>
       <confidence>2</confidence>
       <noteref hlink="_d39f095dbdf2cbcaa04"/>
+      <noteref hlink="_f1b878d06a34fb4d6d856f078ed"/>
+      <noteref hlink="_f1b878f09c67839b96db6e30e98"/>
       <sourceref hlink="_d39f08b42b23f5c6098"/>
     </citation>
     <citation handle="_d39fa27dadd35ac3ed1" change="1454267006" id="C0002">
@@ -3149,10 +3152,12 @@
       <noteref hlink="_d3a01870a756eca33c9"/>
       <sourceref hlink="_d3a01845dac0a8fb988"/>
     </citation>
-    <citation handle="_d3a01fee81d42b8c1e3" change="1454279443" id="C0011">
+    <citation handle="_d3a01fee81d42b8c1e3" change="1661091052" id="C0011">
       <page>344-345</page>
       <confidence>2</confidence>
       <noteref hlink="_d3a01fe8755144b45b0"/>
+      <noteref hlink="_f1b8743dd3461fa7b489785154a"/>
+      <noteref hlink="_f1b876b70806da1c233ed52d404"/>
       <sourceref hlink="_d39fa5f7fe55ebfaf1a"/>
     </citation>
     <citation handle="_d3a02a6a5ae5cd33010" change="1454280374" id="C0012">
@@ -4120,6 +4125,14 @@
       <noteref hlink="_df3447ee5043c2979c9af7b3a02"/>
       <sourceref hlink="_df3443e9cb57a60f2cca087962e"/>
     </citation>
+    <citation handle="_f1b8712d3e3773a276abefedb73" change="1661090469" id="C0074">
+      <page>I Aa:17 / 216</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f1b86d8d0d81ee8bf82249986ff"/>
+      <noteref hlink="_f1b86dbfe1929b87a3cd36f43d7"/>
+      <noteref hlink="_f1b870c7c903285be5f3bb46504"/>
+      <sourceref hlink="_f1b86d3f7cd52a5dd7bd7f9e6df"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_d39f0446de217f10266" change="1454249531" id="S0000">
@@ -4537,6 +4550,11 @@
       <stitle>Viitehaku</stitle>
       <reporef hlink="_d3b9565c1b53992bacd" medium="Book"/>
     </source>
+    <source handle="_f1b86d3f7cd52a5dd7bd7f9e6df" change="1661090057" id="S0084">
+      <stitle>Rautu Rippikirja 1910-1919</stitle>
+      <sauthor>Raudun seurakunta</sauthor>
+      <reporef hlink="_f1b86d395e01a7a263b0fbac8ff" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_d39f029900a70df4223" change="1533835028" id="P0000" type="Country">
@@ -4912,6 +4930,10 @@
     <repository handle="_df2a3fa4fd91c67279cd688e07b" change="1533578433" id="R0008">
       <rname>Find A Grave</rname>
       <type>Web site</type>
+    </repository>
+    <repository handle="_f1b86d395e01a7a263b0fbac8ff" change="1661090054" id="R0009">
+      <rname>Kansallisarkisto</rname>
+      <type>Library</type>
     </repository>
   </repositories>
   <notes>
@@ -6670,6 +6692,67 @@ HUOMAUTUS	Vanh: Esa ja Sanna (o.s. Ranttila) Luomala. Pso: Jani Kamppinen. LS: 1
       <style name="fontface" value="Monospace">
         <range start="0" end="439"/>
       </style>
+    </note>
+    <note handle="_f1b86d8d0d81ee8bf82249986ff" change="1661090088" id="N0205" type="Citation">
+      <text>Raudun seurakunnan arkisto - I Aa:17 Pää- ja rippikirjat 1910-1919, jakso 203, sivu 216: Leinikkälä No 5; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5765833326&amp;aineistoId=1227657801 / Viitattu 21.8.2022</text>
+    </note>
+    <note handle="_f1b86dbfe1929b87a3cd36f43d7" change="1661090109" id="N0206" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5765833326&amp;aineistoId=1227657801</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5765833326&amp;aineistoId=1227657801">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f1b870c7c903285be5f3bb46504" change="1661090427" id="N0207" type="Transcript">
+      <text>216                            Leinikkälä No 5
+
+Kylmän ojan Mylly, omistaa
+                   J. Kerminen Orjansaari
+
+[...]
+
+Työmies Matti Matinp. Kangasniemi    x       15/3 1872 Jalasjärvi    } Muuttok 23/1    Kuoli 1/4 1918         vihitty
+vo Maria Jaakontr                       x    27/7 1864 &quot;             } 1916 No 3       } Muuttok 6/6 1918     4/8 1895
+tr Hilja                                x    6/6  1901               } Hiitolasta      } Hiitolaan</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="460"/>
+      </style>
+    </note>
+    <note handle="_f1b8743dd3461fa7b489785154a" change="1661090790" id="N0208" type="Citation">
+      <text>Jaakkiman seurakunnan arkisto - I C:11 Syntyneiden ja kastettujen luettelot 1898-1907, jakso 171, sivu 344-345: 1903 kesäkuu; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5775610723&amp;aineistoId=1211588179 / Viitattu 21.8.2022</text>
+    </note>
+    <note handle="_f1b876b70806da1c233ed52d404" change="1661091049" id="N0209" type="Transcript" format="1">
+      <text>                                                                        344
+                               kesäkuussa v. 1903
+
+[...]
+
+22  12/7  135    Kuolleena syntynyt poikalapsi }
+                 Johannes                      } Vt. Läks.
+                 Matti Kangasniemi ja vo Maria Jaakontr
+                 Hätäkastoi kiertokouluopettaja Iisak Lätti
+                 Läsnä olivat vanhemmat, läksiäin Stiina Mat-
+                 tila.        Kt: Myll. Abr. Kuru ja vo Maria
+                              Hätäkasteen vahvisti K.K.Sarlin</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="543"/>
+      </style>
+    </note>
+    <note handle="_f1b878d06a34fb4d6d856f078ed" change="1661091270" id="N0210" type="Transcript" format="1">
+      <text>135                   Ihalanoja
+Läksiämiä
+
+Läks. Matti _p Kangasniemi (15/3 72) Vo Maria Jaakontytär (27/7 64)
+Tr Tyyne     1    14/6 1896
+Tr Lyyli     1    10/5 1898
+Tr Hilja     1    6/6  1901
+Pa Johannes 1     22/6 1903
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="223"/>
+      </style>
+    </note>
+    <note handle="_f1b878f09c67839b96db6e30e98" change="1661091283" id="N0211" type="Citation">
+      <text>Jaakkiman seurakunnan arkisto - I Ab:13 Lastenkirjat, Harvia - Meriä 1900-1909, jakso 68, sivu 135-136: Ihalanoja läksiämiä; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5774969619&amp;aineistoId=1211284866 / Viitattu 21.8.2022</text>
     </note>
   </notes>
 </database>
