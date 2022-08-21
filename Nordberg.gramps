@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2022-08-07" version="5.1.5"/>
+    <created date="2022-08-21" version="5.1.5"/>
     <researcher>
     </researcher>
   </header>
@@ -1691,12 +1691,12 @@
       <citationref hlink="_d6d13d35a8334bdd319ba18d23"/>
       <citationref hlink="_d6d0b9ac6e0434535ea516761e1"/>
     </event>
-    <event handle="_cb589cced2a142d7043" change="1628251252" id="E1036">
+    <event handle="_cb589cced2a142d7043" change="1660914156" id="E1036">
       <type>Birth</type>
       <dateval val="1776-03-11"/>
       <place hlink="_cea5bfbbe2a7982e275"/>
-      <citationref hlink="_d6d0b9ac6e0434535ea516761e1"/>
       <citationref hlink="_e37d034c4e06239163d57cd5045"/>
+      <citationref hlink="_d6d0b9ac6e0434535ea516761e1"/>
     </event>
     <event handle="_cb589cced6f271829d4" change="1397384052" id="E1038">
       <type>Birth</type>
@@ -13370,7 +13370,7 @@
       <place hlink="_e37e11731be2b71897b1255e881"/>
       <citationref hlink="_e380da902af111f2cc06557a3ea"/>
     </event>
-    <event handle="_e3811f8086d2956cc8226f3f869" change="1659879599" id="E2884">
+    <event handle="_e3811f8086d2956cc8226f3f869" change="1660933833" id="E2884">
       <type>Residence</type>
       <datespan start="1791" stop="1793"/>
       <place hlink="_cea5bfbbe2a7982e275"/>
@@ -17955,12 +17955,16 @@
       <eventref hlink="_cb589cced0a26308053" role="Primary"/>
       <childof hlink="_cb589ccbca636502f22"/>
     </person>
-    <person handle="_cb589cced27547f2ada" change="1601290587" id="I4237">
+    <person handle="_cb589cced27547f2ada" change="1660913398" id="I4237">
       <gender>M</gender>
-      <name type="Birth Name">
+      <name type="Also Known As">
         <first>Fredric</first>
         <surname prim="0" derivation="Patronymic">Johansson</surname>
         <surname derivation="Taken">Sunnman</surname>
+      </name>
+      <name alt="1" type="Birth Name">
+        <first>Johan</first>
+        <surname derivation="Patronymic">Mattsson</surname>
       </name>
       <eventref hlink="_cb589cced2a142d7043" role="Primary"/>
       <eventref hlink="_e3811f8086d2956cc8226f3f869" role="Primary"/>
@@ -33477,11 +33481,14 @@
       <noteref hlink="_d6ce57bcbb635a8f3a45c725081"/>
       <sourceref hlink="_d6ce578bcc53be09fa28b6d6627"/>
     </citation>
-    <citation handle="_d6d0b9ac6e0434535ea516761e1" change="1476733449" id="C0207">
+    <citation handle="_d6d0b9ac6e0434535ea516761e1" change="1660914137" id="C0207">
       <page>131-132</page>
       <confidence>2</confidence>
+      <noteref hlink="_f1b1de0968d4b56620435c72e41"/>
       <noteref hlink="_d6d0b8a264d7af364a8b1d23f02"/>
       <noteref hlink="_d6d0b997c763b54aa59341b5369"/>
+      <noteref hlink="_f1b1ded64095bc3142cb6a05bdd"/>
+      <noteref hlink="_f1b1defd318196d69118f4b59e"/>
       <sourceref hlink="_d6d0b8750ba3461d04df9858de4"/>
     </citation>
     <citation handle="_d6d0c0b0e793ba32789ae9e1213" change="1476200591" id="C0208">
@@ -38930,12 +38937,15 @@
       <noteref hlink="_f16b9d40fae46bb243fb064d1c8"/>
       <sourceref hlink="_dcde0a1be9d745544ed78a5f038"/>
     </citation>
-    <citation handle="_e37d034c4e06239163d57cd5045" change="1600933461" id="C1062">
-      <page>jakso 274</page>
+    <citation handle="_e37d034c4e06239163d57cd5045" change="1660913855" id="C1062">
+      <page>jakso 274; 540-541</page>
       <confidence>2</confidence>
+      <noteref hlink="_e37d0561a997f0e22dcd478b150"/>
+      <noteref hlink="_f1b1dbfcaa02a7ac5aa4ca13159"/>
       <noteref hlink="_e37d0339cc11055bef63c0f132"/>
       <noteref hlink="_e8f76a1349f69a72b45ebdcc978"/>
-      <noteref hlink="_e37d0561a997f0e22dcd478b150"/>
+      <noteref hlink="_f1b1dc51c6237691e52b60d9252"/>
+      <noteref hlink="_f1b1dc7fbb5371aaf31ba45c452"/>
       <sourceref hlink="_d6d0f6d6deb45654ad708990e0"/>
     </citation>
     <citation handle="_e37e0f8564d3797b0c9d3dcda92" change="1600967209" id="C1063">
@@ -50246,12 +50256,15 @@ https://astia.narc.fi/uusiastia/viewer/?fileId=5862737904&amp;aineistoId=1168222
         <range start="46" end="125"/>
       </style>
     </note>
-    <note handle="_d6d0b997c763b54aa59341b5369" change="1476732472" id="N0380" type="Transcript" format="1">
+    <note handle="_d6d0b997c763b54aa59341b5369" change="1660914018" id="N0380" type="Transcript" format="1">
       <text>131		[Hindhår]
 Smeden Johan
-Staphan Joh son	71
-+Johan do		74
-Fridrich do		76</text>
+Staphan Joh son    71
++Johan do          74
+Fridrich do        76</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="93"/>
+      </style>
     </note>
     <note handle="_d6d0c01e9ed1ce3ef43cbe898d4" change="1476200404" id="N0381" type="Link">
       <text>http://digi.narc.fi/digi/view.ka?kuid=7953736
@@ -60577,16 +60590,18 @@ Stjufson  Viktor Ferdinand Backman 9/1 1847 1871 t.p. 436
         <range start="0" end="107"/>
       </style>
     </note>
-    <note handle="_e8f76a1349f69a72b45ebdcc978" change="1628251244" id="N0165" type="Transcript">
+    <note handle="_e8f76a1349f69a72b45ebdcc978" change="1660913705" id="N0165" type="Transcript" format="1">
       <text>Martius 1776
 
-11	12	Fredrich
-Johan Erichsson	Cathrina Henricsdotter	Hindhår Smeden
-Johan B????	Anna Henricsdr
-Johan B????	Maria Henricsdr
-Johan Johansson</text>
+11    12    Fredrich    Johan Erichsson    Cathrina Henricsdotter    Hindhår
+                        Johan B????        Anna Henricsdr            Smeden
+                        Johan B????        Maria Henricsdr
+                        Johan Johansson</text>
       <style name="italic">
-        <range start="35" end="44"/>
+        <range start="44" end="57"/>
+      </style>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="265"/>
       </style>
     </note>
     <note handle="_e8f76ca2c767763ce9f19fc34b" change="1600933607" id="N0166" type="Link">
@@ -68404,6 +68419,30 @@ Kuolleet Viipurin tuomiokirkkoseurakunnassa v:n 1937 I:ltä neljänneksellä.
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="264"/>
+      </style>
+    </note>
+    <note handle="_f1b1dbfcaa02a7ac5aa4ca13159" change="1660913764" id="N2522" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Syntyneiden ja kastettujen luettelot 1757-1778, jakso 274: 1776 feb mar; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5862794839&amp;aineistoId=1168638126 / Viitattu 19.8.2022</text>
+    </note>
+    <note handle="_f1b1dc51c6237691e52b60d9252" change="1660913799" id="N2523" type="Citation">
+      <text>Porvoo syntyneet 1757-1778 (AP I C:2)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38709&amp;pnum=273 / Viitattu 19.08.2022</text>
+    </note>
+    <note handle="_f1b1dc7fbb5371aaf31ba45c452" change="1660913817" id="N2524" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38709&amp;pnum=273</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38709&amp;pnum=273">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f1b1de0968d4b56620435c72e41" change="1660913979" id="N2525" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Lastenkirjat, Maaseurakunta 1771-1781, jakso 67, sivu 131-132: Hindhår Smeden, n29 Drag, n.30 Drag; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5862737904&amp;aineistoId=1168222810 / Viitattu 19.8.2022</text>
+    </note>
+    <note handle="_f1b1ded64095bc3142cb6a05bdd" change="1660914063" id="N2526" type="Citation">
+      <text>Porvoo maaseurakunta lastenkirja 1771-1781 (AP I Ab:3)  Sivu 131 (Hindhår )Smeden, Skom. Jeppas torp, Storjeppas torp, Backas torp ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38672&amp;pnum=69 / Viitattu 19.08.2022</text>
+    </note>
+    <note handle="_f1b1defd318196d69118f4b59e" change="1660914079" id="N2527" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38672&amp;pnum=69</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38672&amp;pnum=69">
+        <range start="0" end="77"/>
       </style>
     </note>
   </notes>
