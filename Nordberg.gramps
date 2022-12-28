@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2022-08-21" version="5.1.5"/>
+    <created date="2022-12-28" version="5.1.5"/>
     <researcher>
     </researcher>
   </header>
@@ -14819,15 +14819,16 @@
       <citationref hlink="_eceb7d6f9882965c06d9b617cce"/>
       <citationref hlink="_eceb50931a2631780a9f0179b8d"/>
     </event>
-    <event handle="_eceb82b7f6f41de99dead2f0283" change="1628156975" id="E0350">
+    <event handle="_eceb82b7f6f41de99dead2f0283" change="1672242112" id="E0350">
       <type>Residence</type>
-      <datespan start="1916" stop="1920"/>
+      <datespan start="1916" stop="1921"/>
       <place hlink="_eceb80d71fa1070a46fdd502dbc"/>
       <citationref hlink="_eceb82aec6115c9ff9e7ac7440b"/>
       <citationref hlink="_eceb8ce4198345caba2679e602c"/>
       <citationref hlink="_eceb9496e372384d687bf283d00"/>
       <citationref hlink="_ecebf680c9a2430742b1bd98ea1"/>
       <citationref hlink="_eced4a0881b3a21e5b1a72c519d"/>
+      <citationref hlink="_f357df82a9f608c776aa8c5db73"/>
     </event>
     <event handle="_eced4c4cac46bfb72515df09b4a" change="1659005518" id="E0351">
       <type>Military Service</type>
@@ -15825,7 +15826,7 @@
       <citationref hlink="_f16a5f0f5e5649797ab99d78c3f"/>
     </event>
   </events>
-  <people home="_cb589cc847f6455821b">
+  <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1658869228" id="I3858">
       <gender>F</gender>
       <name type="Birth Name">
@@ -41917,6 +41918,14 @@
       <noteref hlink="_f171387912479612ba47be02dd5"/>
       <sourceref hlink="_f171332d9e42b02a648e91798d4"/>
     </citation>
+    <citation handle="_f357df82a9f608c776aa8c5db73" change="1672242109" id="C1441">
+      <page>H:278/38</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f357dd5a73c4e57b13fce1287d6"/>
+      <noteref hlink="_f357dd964e11fc06fca6a668b0a"/>
+      <noteref hlink="_f357df6dcda5c9961c0c4319b61"/>
+      <sourceref hlink="_f357dd1331c4223acea863ee9ff"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -44784,6 +44793,11 @@
       <sauthor>Tilastollisen päätoimiston tilastoarkisto</sauthor>
       <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
     </source>
+    <source handle="_f357dd1331c4223acea863ee9ff" change="1672241854" id="S0009">
+      <stitle>Häme Henkikirja 1921</stitle>
+      <sauthor>Hämeen lääni</sauthor>
+      <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1658853851" id="P0000" type="City">
@@ -47634,7 +47648,7 @@
     </placeobj>
   </places>
   <repositories>
-    <repository handle="_cdea29a49637c6553bc" change="1659178073" id="R0001">
+    <repository handle="_cdea29a49637c6553bc" change="1672241850" id="R0001">
       <rname>Arkistolaitos Digitaaliarkisto</rname>
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
@@ -54611,8 +54625,12 @@ sairaalasta asemalle, mistä juna klo
 maalle.</text>
     </note>
     <note handle="_dcdca45220725d795bcfed8a660" change="1658502986" id="N0052" type="Link">
+      <text>
+    </text>
     </note>
     <note handle="_dcdca72823ace0ef71c5db509f" change="1658502936" id="N0053" type="Transcript" format="1">
+      <text>
+    </text>
     </note>
     <note handle="_dcdcc47255b7ef23325d832113c" change="1517754667" id="N0054" type="Link">
       <text>https://drive.google.com/drive/folders/0B2JbCJkLtH0DUWx1U3FuZDk5UjA</text>
@@ -63573,6 +63591,8 @@ Nordberg, Ferdinand, dykare 48</text>
       </style>
     </note>
     <note handle="_ec868cb3939261c2b83741ecce9" change="1658696450" id="N1836" type="Research">
+      <text>
+    </text>
     </note>
     <note handle="_ece7aa8f65e26a621209aa5f510" change="1627998394" id="N1837" type="Transcript" format="1">
       <text>260 Joensuu
@@ -68443,6 +68463,27 @@ Kuolleet Viipurin tuomiokirkkoseurakunnassa v:n 1937 I:ltä neljänneksellä.
       <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38672&amp;pnum=69</text>
       <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38672&amp;pnum=69">
         <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f357dd5a73c4e57b13fce1287d6" change="1672241883" id="N2528" type="Citation">
+      <text>Hämeen läänin henkikirjat - H:278 Henkikirja 1921-1921, jakso 586, sivu 38: Somero, Joensuu; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=7458600099&amp;aineistoId=1712339027 / Viitattu 28.12.2022</text>
+    </note>
+    <note handle="_f357dd964e11fc06fca6a668b0a" change="1672241908" id="N2529" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=7458600099&amp;aineistoId=1712339027</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=7458600099&amp;aineistoId=1712339027">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f357df6dcda5c9961c0c4319b61" change="1672242101" id="N2530" type="Transcript" format="1">
+      <text>&lt;Hämeen&gt; läänin &lt;Tammelan&gt; kihlakunnassa olevan &lt;Someron&gt; pitäjän (kappelin) henkikirja vuonna 19&lt;21&gt;     Siv. &lt;38&gt;
+
+Joensuu
+        Kaunelan palstatila  Palstatilallinen 
+                 Otto Nordberg 59 v. Serafia
+                 60 L. Olga 96, Herman 99
+                 0-1</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="279"/>
       </style>
     </note>
   </notes>
