@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2022-12-29" version="5.1.5"/>
+    <created date="2022-12-30" version="5.1.5"/>
     <researcher>
     </researcher>
   </header>
@@ -12046,7 +12046,7 @@
       <place hlink="_cdf82fb91b45aadb551"/>
       <citationref hlink="_db8ab63f3cc3e624febf75ae929"/>
     </event>
-    <event handle="_df67dea24e475eab813faec49c2" change="1672250384" id="E2619">
+    <event handle="_df67dea24e475eab813faec49c2" change="1672419531" id="E2619">
       <type>Residence</type>
       <datespan start="1880" stop="1888"/>
       <place hlink="_cdf82fb91b45aadb551"/>
@@ -15840,7 +15840,7 @@
       <place hlink="_cb589cd851a2637b2c6"/>
       <citationref hlink="_f358f6a00154f6bea392d9c2156"/>
     </event>
-    <event handle="_f358f89317e478ffed40de4bd11" change="1672271581" id="E0569">
+    <event handle="_f358f89317e478ffed40de4bd11" change="1672417315" id="E0569">
       <type>Residence</type>
       <dateval val="1880"/>
       <place hlink="_cb589cd851a2637b2c6"/>
@@ -15869,6 +15869,30 @@
       <datespan start="1886" stop="1889"/>
       <place hlink="_cb589cd84693ecab842"/>
       <citationref hlink="_cf9322e89a632e72ead"/>
+    </event>
+    <event handle="_f35e67ab0c950950f902eb7644d" change="1672417710" id="E0578">
+      <type>Residence</type>
+      <dateval val="1880-11-01" type="before"/>
+      <place hlink="_db8abf24cba5ff6b476b6aeb6cd"/>
+      <citationref hlink="_f35e679316410f056d1b87fae62"/>
+      <citationref hlink="_f35e6a1e36161d6755dce70f8c8"/>
+    </event>
+    <event handle="_f35e6c88d563a6340367dbddc1c" change="1672419228" id="E0581">
+      <type>Residence</type>
+      <datespan start="1880-11-02" stop="1881-11-29"/>
+      <place hlink="_f35e6ff184c408e1e18e0fed3f5"/>
+      <citationref hlink="_f35e679316410f056d1b87fae62"/>
+      <citationref hlink="_f35e6a1e36161d6755dce70f8c8"/>
+      <citationref hlink="_f35e6c334e716550e5cc651bc09"/>
+      <citationref hlink="_f35e7106d923fb8a1d475884fdb"/>
+      <citationref hlink="_f35e75dad9222591087ecf7c237"/>
+    </event>
+    <event handle="_f35e7985ad9479be4bb367a42bd" change="1672419707" id="E0583">
+      <type>Residence</type>
+      <datespan start="1881-11" stop="1889"/>
+      <place hlink="_cdf82fb91b45aadb551"/>
+      <citationref hlink="_f35e75dad9222591087ecf7c237"/>
+      <citationref hlink="_df67de9f8dc6bcc6841c480fe42"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -18176,7 +18200,7 @@
       <childof hlink="_cb589ccbd52441fddb3"/>
       <parentin hlink="_cb589ccefb45aeec8ea"/>
     </person>
-    <person handle="_cb589ccefbf505bde1e" change="1672272950" id="I4186">
+    <person handle="_cb589ccefbf505bde1e" change="1672419489" id="I4186">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Anders Wilhelm</first>
@@ -18186,6 +18210,9 @@
       <eventref hlink="_f358f12107e7a9cfda9c5ca4b44" role="Primary"/>
       <eventref hlink="_f358f6a54a265b8c852323fd88e" role="Primary"/>
       <eventref hlink="_f358f89317e478ffed40de4bd11" role="Primary"/>
+      <eventref hlink="_f35e67ab0c950950f902eb7644d" role="Primary"/>
+      <eventref hlink="_f35e6c88d563a6340367dbddc1c" role="Primary"/>
+      <eventref hlink="_f35e7985ad9479be4bb367a42bd" role="Primary"/>
       <childof hlink="_cb589ccbd52441fddb3"/>
       <parentin hlink="_cb589ccefd92362ab16"/>
     </person>
@@ -32851,9 +32878,10 @@
       <noteref hlink="_cf931eb6ca26f555a5d"/>
       <sourceref hlink="_cf931e58e3d67d78067"/>
     </citation>
-    <citation handle="_cf9322e89a632e72ead" change="1672272885" id="C0004">
-      <page>306</page>
+    <citation handle="_cf9322e89a632e72ead" change="1672419763" id="C0004">
+      <page>Aa:27/306</page>
       <confidence>2</confidence>
+      <noteref hlink="_f35e7dabcea4afcff46eb64980f"/>
       <noteref hlink="_f35904e0dea4c7b075fea6ea523"/>
       <noteref hlink="_cf932327b8d6c197312"/>
       <sourceref hlink="_cf9322ce51178c4d1e5"/>
@@ -35403,11 +35431,12 @@
       <noteref hlink="_f16b3753b6be31a80d1ba65abb"/>
       <sourceref hlink="_db8ac50870266a0a0b9b1398317"/>
     </citation>
-    <citation handle="_db8af93afea369d524345077f49" change="1508687083" id="C0489">
+    <citation handle="_db8af93afea369d524345077f49" change="1672420264" id="C0489">
       <page>860</page>
       <confidence>2</confidence>
+      <noteref hlink="_f35e7f08a17520462f42d653459"/>
       <noteref hlink="_db8af93546b65ae56fd815af19b"/>
-      <sourceref hlink="_cf9322ce51178c4d1e5"/>
+      <sourceref hlink="_f35e8131f262e5b3b666aca39a5"/>
     </citation>
     <citation handle="_db8afbe9a697e83a8c0f04c3a49" change="1508687364" id="C0490">
       <page>859-860</page>
@@ -35415,11 +35444,12 @@
       <noteref hlink="_db8afbe780a53c35691991ed085"/>
       <sourceref hlink="_db8afbbe34252728d922ae86a8b"/>
     </citation>
-    <citation handle="_db8afe048dc65d1a6b28f4e4d06" change="1508708644" id="C0491">
+    <citation handle="_db8afe048dc65d1a6b28f4e4d06" change="1672420255" id="C0491">
       <page>84</page>
       <confidence>2</confidence>
+      <noteref hlink="_f35e7ed26f13f37de4bfcf530cd"/>
       <noteref hlink="_db8afdf90f62d4ca90abdab6259"/>
-      <sourceref hlink="_cf9322ce51178c4d1e5"/>
+      <sourceref hlink="_f35e8131f262e5b3b666aca39a5"/>
     </citation>
     <citation handle="_db8afe8f7cf477cc3d6c5d22c8e" change="1508687642" id="C0492">
       <page>84-85</page>
@@ -35541,19 +35571,20 @@
       <noteref hlink="_db8bc4d289531e8f1a8a63358b5"/>
       <sourceref hlink="_db8b1fb714d2047cf2a7a7c6c92"/>
     </citation>
-    <citation handle="_db8bcd8d13978d12a94271f5b1" change="1508709346" id="C0512">
+    <citation handle="_db8bcd8d13978d12a94271f5b1" change="1672420221" id="C0512">
       <page>194</page>
       <confidence>2</confidence>
+      <noteref hlink="_f35e7e52d2e7d1bb0f75e583f9"/>
       <noteref hlink="_db8bcd886d650ef1485904f4383"/>
-      <sourceref hlink="_cf9322ce51178c4d1e5"/>
+      <sourceref hlink="_f35e8131f262e5b3b666aca39a5"/>
     </citation>
-    <citation handle="_db8bcee49f7258acbfcc083c8af" change="1658993715" id="C0513">
+    <citation handle="_db8bcee49f7258acbfcc083c8af" change="1672420232" id="C0513">
       <page>349</page>
       <confidence>2</confidence>
       <noteref hlink="_f16a53d17fbe1d961173b06b4c"/>
       <noteref hlink="_db8bcedec103665425dbbdf674e"/>
       <noteref hlink="_f16a54f46a9673ffd46e4ac9775"/>
-      <sourceref hlink="_cf9322ce51178c4d1e5"/>
+      <sourceref hlink="_cf9325616952d40d6d2"/>
     </citation>
     <citation handle="_db8bd0dc7c338a6f0f72e492a37" change="1658993923" id="C0514">
       <page>1336</page>
@@ -37606,11 +37637,13 @@
       <noteref hlink="_df6770fb93c446ae4df98597e32"/>
       <sourceref hlink="_df676d9077c337543b7be8934d4"/>
     </citation>
-    <citation handle="_df67de9f8dc6bcc6841c480fe42" change="1672250364" id="C0838">
-      <page>316</page>
+    <citation handle="_df67de9f8dc6bcc6841c480fe42" change="1672419707" id="C0838">
+      <page>Aa:27/316</page>
       <confidence>2</confidence>
       <noteref hlink="_df67de9c7877ac9f5860c186700"/>
       <noteref hlink="_f3582e2a9fe2c82d6ef02f47c27"/>
+      <noteref hlink="_f35e7abf0531ad1f4748a8a0fec"/>
+      <noteref hlink="_f35e7adeb516631c3753f95cf3f"/>
       <sourceref hlink="_cf9322ce51178c4d1e5"/>
     </citation>
     <citation handle="_df67e3511683ea3b01c3f7d24c4" change="1535233052" id="C0839">
@@ -38441,11 +38474,12 @@
       <noteref hlink="_df81a3a70e47ba27b7b7dcb94ea"/>
       <sourceref hlink="_d6cda20a4443c79320f8ff5ffff"/>
     </citation>
-    <citation handle="_df81a61edde602aa0f9b42ff29d" change="1535924567" id="C0977">
+    <citation handle="_df81a61edde602aa0f9b42ff29d" change="1672420183" id="C0977">
       <page>149</page>
       <confidence>2</confidence>
+      <noteref hlink="_f35e7e0f29e7cb0654bd40b9fb6"/>
       <noteref hlink="_df81a60f0291e0f9e6d0ee52307"/>
-      <sourceref hlink="_cf9322ce51178c4d1e5"/>
+      <sourceref hlink="_f35e8131f262e5b3b666aca39a5"/>
     </citation>
     <citation handle="_df8429d13d67fa562fb4f7397" change="1535992064" id="C0978">
       <page>154</page>
@@ -38714,11 +38748,12 @@
       <noteref hlink="_df97af18f424111c5a670357604"/>
       <sourceref hlink="_cf931e58e3d67d78067"/>
     </citation>
-    <citation handle="_df97c42f1d61a5c32895006b9d6" change="1536518277" id="C1022">
+    <citation handle="_df97c42f1d61a5c32895006b9d6" change="1672420243" id="C1022">
       <page>445</page>
       <confidence>2</confidence>
+      <noteref hlink="_f35e7e9cca870e60b16df02ce54"/>
       <noteref hlink="_df97c41a0b8ef9701d26f2c2ae"/>
-      <sourceref hlink="_cf9322ce51178c4d1e5"/>
+      <sourceref hlink="_f35e8131f262e5b3b666aca39a5"/>
     </citation>
     <citation handle="_df97c4c2fc515ca3b2f779941a2" change="1536518338" id="C1023">
       <page>444-445</page>
@@ -41996,19 +42031,19 @@
       <noteref hlink="_f358f4db49e191c7cb931cb1bdd"/>
       <sourceref hlink="_db8ab6037e9d25a7461400cbae"/>
     </citation>
-    <citation handle="_f358f8523a43f91574ba413f3fc" change="1672271555" id="C1444">
+    <citation handle="_f358f8523a43f91574ba413f3fc" change="1672419571" id="C1444">
       <page>Aa:27/303</page>
       <confidence>2</confidence>
       <noteref hlink="_f358f82e04252dcc1a85a9c32cb"/>
       <noteref hlink="_f358f84efb67d686a59a27a9631"/>
-      <sourceref hlink="_f358f7b73c776c91b6aa071234a"/>
+      <sourceref hlink="_cf9322ce51178c4d1e5"/>
     </citation>
-    <citation handle="_f358fde9b7a7b971a466d036c3c" change="1672272141" id="C1445">
+    <citation handle="_f358fde9b7a7b971a466d036c3c" change="1672419571" id="C1445">
       <page>Aa:28/725</page>
       <confidence>2</confidence>
       <noteref hlink="_f358fdc404f1f61a0d56bd11f0f"/>
       <noteref hlink="_f358fde4ea23a569a8b144eb4b"/>
-      <sourceref hlink="_f358f7b73c776c91b6aa071234a"/>
+      <sourceref hlink="_cf9322ce51178c4d1e5"/>
     </citation>
     <citation handle="_f358ff8d64c1e865c321b5893d6" change="1672272313" id="C1446">
       <page>C:11/40</page>
@@ -42017,12 +42052,45 @@
       <noteref hlink="_f358ff8240323cc497968f2eab2"/>
       <sourceref hlink="_f358ff219b34d511a87e81104d3"/>
     </citation>
-    <citation handle="_f35902c189960386fa92b8d6821" change="1672272649" id="C1447">
+    <citation handle="_f35902c189960386fa92b8d6821" change="1672419571" id="C1447">
       <page>Aa:27/304</page>
       <confidence>2</confidence>
       <noteref hlink="_f3590288ba7258a93cbb01b1eae"/>
       <noteref hlink="_f35902b2bd35fa97f383c1560e2"/>
-      <sourceref hlink="_f358f7b73c776c91b6aa071234a"/>
+      <sourceref hlink="_cf9322ce51178c4d1e5"/>
+    </citation>
+    <citation handle="_f35e679316410f056d1b87fae62" change="1672419571" id="C1448">
+      <page>Aa:27/301</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f35e6769cc8430bd1b21ca74ce3"/>
+      <noteref hlink="_f35e678f9dc1ad477969697868"/>
+      <sourceref hlink="_cf9322ce51178c4d1e5"/>
+    </citation>
+    <citation handle="_f35e6a1e36161d6755dce70f8c8" change="1672417705" id="C1449">
+      <page>Bb:6/6-7</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f35e69e5358536867e89e7ea1f4"/>
+      <noteref hlink="_f35e6a14df674c029367b6d7d4f"/>
+      <sourceref hlink="_f35e697ddc8179667bb5744f2e2"/>
+    </citation>
+    <citation handle="_f35e6c334e716550e5cc651bc09" change="1672417923" id="C1450">
+      <page>Ba:5/4</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f35e6c0d26c4d0be1de4fc2a221"/>
+      <noteref hlink="_f35e6c2f96142e5825d42a486fd"/>
+      <sourceref hlink="_f35e6bcfdc332f01ece66889bdf"/>
+    </citation>
+    <citation handle="_f35e7106d923fb8a1d475884fdb" change="1672418429" id="C1451">
+      <page>Aa:12/207</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f35e70ce96b794117a40568934f"/>
+      <noteref hlink="_f35e70f363b55e348bdadc4a37"/>
+      <sourceref hlink="_ecfa7c0fb3dc8d136769c32b96"/>
+    </citation>
+    <citation handle="_f35e75dad9222591087ecf7c237" change="1672418935" id="C1452">
+      <page>Bb:6/24-25</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_f35e697ddc8179667bb5744f2e2"/>
     </citation>
   </citations>
   <sources>
@@ -42374,7 +42442,7 @@
       <stitle>Porvoo rtksrk Syntyneet 1861-1873</stitle>
       <sauthor>Porvoon ruotsalainen tuomiokirkkoseurakunta</sauthor>
     </source>
-    <source handle="_cf9322ce51178c4d1e5" change="1672272909" id="S0005">
+    <source handle="_cf9322ce51178c4d1e5" change="1672419571" id="S0005">
       <stitle>Porvoo msrk Rippikirja 1880-1889</stitle>
       <sauthor>Porvoon maaseurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
@@ -44876,8 +44944,8 @@
       <sauthor>Uudenmaan lääni</sauthor>
       <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
     </source>
-    <source handle="_f16a42ae9774b0ba5a082769407" change="1658991797" id="S0580">
-      <stitle>Porvoo maasrk Rippikirja 1900-1909</stitle>
+    <source handle="_f16a42ae9774b0ba5a082769407" change="1672419646" id="S0580">
+      <stitle>Porvoo msrk Rippikirja 1900-1909</stitle>
       <sauthor>Porvoon maaseurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
@@ -44896,19 +44964,29 @@
       <sauthor>Hämeen lääni</sauthor>
       <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
     </source>
-    <source handle="_f35831ab3617c8576da514630db" change="1672250737" id="S0010">
-      <stitle>Porvoo maasrk Kuolleet 1874-1889</stitle>
-      <sauthor>Porvoon maaseurakunta</sauthor>
-      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
-    </source>
-    <source handle="_f358f7b73c776c91b6aa071234a" change="1672271491" id="S0011">
-      <stitle>Porvoo msrk Rippikirja 1880-1889</stitle>
+    <source handle="_f35831ab3617c8576da514630db" change="1672419631" id="S0010">
+      <stitle>Porvoo msrk Kuolleet 1874-1889</stitle>
       <sauthor>Porvoon maaseurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
     <source handle="_f358ff219b34d511a87e81104d3" change="1672272269" id="S0012">
       <stitle>Porvoo msrk Syntyneet 1861-1873</stitle>
       <sauthor>Porvoo maaseurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f35e697ddc8179667bb5744f2e2" change="1672417639" id="S0013">
+      <stitle>Porvoo msrk Muuttaneet 1880-1900</stitle>
+      <sauthor>Porvoon maaseurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f35e6bcfdc332f01ece66889bdf" change="1672417882" id="S0113">
+      <stitle>Pornainen Muuttaneet 1874-1895</stitle>
+      <sauthor>Pornaisten seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f35e8131f262e5b3b666aca39a5" change="1672420278" id="S0461">
+      <stitle>Porvoo rtksrk Rippikirja 1880-1890</stitle>
+      <sauthor>Porvoon ruotsalainen tuomiokirkkoseurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
   </sources>
@@ -45626,7 +45704,7 @@
       <pname value="Knuts"/>
       <placeref hlink="_cdf7e90668430a801d0"/>
     </placeobj>
-    <placeobj handle="_cdf82ee48671ea8ed18" change="1508611628" id="P0455" type="Parish">
+    <placeobj handle="_cdf82ee48671ea8ed18" change="1672418285" id="P0455" type="Parish">
       <pname value="Borgnäs" lang="se"/>
       <pname value="Pornainen" lang="fi"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
@@ -46703,8 +46781,9 @@
       <pname value="Jonnas"/>
       <placeref hlink="_cdf82fb91b45aadb551"/>
     </placeobj>
-    <placeobj handle="_db8abf24cba5ff6b476b6aeb6cd" change="1508680992" id="P0013" type="Farm">
+    <placeobj handle="_db8abf24cba5ff6b476b6aeb6cd" change="1672417369" id="P0013" type="Farm">
       <pname value="Gästgifvars"/>
+      <pname value="Henrikas"/>
       <placeref hlink="_cdf82fb91b45aadb551"/>
     </placeobj>
     <placeobj handle="_db8ac0a5c8f5abbbee5aa61b405" change="1508681150" id="P0020" type="Number">
@@ -47767,6 +47846,15 @@
       <pname value="Mattas"/>
       <placeref hlink="_f358fd41b867cb8aec1f1201a97"/>
     </placeobj>
+    <placeobj handle="_f35e6faba714dd8c4ec43559e8d" change="1672418314" id="P0178" type="Village">
+      <pname value="Stor Lökkoski"/>
+      <placeref hlink="_cdf82ee48671ea8ed18"/>
+    </placeobj>
+    <placeobj handle="_f35e6ff184c408e1e18e0fed3f5" change="1672418316" id="P0179" type="Farm">
+      <pname value="Piltars"/>
+      <pname value="Tuombo"/>
+      <placeref hlink="_f35e6faba714dd8c4ec43559e8d"/>
+    </placeobj>
   </places>
   <repositories>
     <repository handle="_cdea29a49637c6553bc" change="1672241850" id="R0001">
@@ -47774,7 +47862,7 @@
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1672272267" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1672420116" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -68687,6 +68775,69 @@ Februari månad
       <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38662&amp;pnum=309">
         <range start="0" end="78"/>
       </style>
+    </note>
+    <note handle="_f35e6769cc8430bd1b21ca74ce3" change="1672417421" id="N2547" type="Citation">
+      <text>Porvoo maaseurakunta rippikirja 1880-1889 (AP_LÄNSI I Aa:27)  Sivu 301 Norrveckoski Gästgifvars el. Henrikas ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38662&amp;pnum=304 / Viitattu 30.12.2022</text>
+    </note>
+    <note handle="_f35e678f9dc1ad477969697868" change="1672417437" id="N2548" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38662&amp;pnum=304</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38662&amp;pnum=304">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f35e69e5358536867e89e7ea1f4" change="1672417681" id="N2549" type="Citation">
+      <text>Porvoo maaseurakunta muuttaneet 1880-1900 (AP I Bb:6)  Sivu 6  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38705&amp;pnum=7 / Viitattu 30.12.2022</text>
+    </note>
+    <note handle="_f35e6a14df674c029367b6d7d4f" change="1672417701" id="N2550" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38705&amp;pnum=7</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38705&amp;pnum=7">
+        <range start="0" end="76"/>
+      </style>
+    </note>
+    <note handle="_f35e6c0d26c4d0be1de4fc2a221" change="1672417907" id="N2551" type="Citation">
+      <text>Pornainen muuttaneet 1874-1895 (AP_SIS I Ba:5)  1879-1880 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31506&amp;pnum=4 / Viitattu 30.12.2022</text>
+    </note>
+    <note handle="_f35e6c2f96142e5825d42a486fd" change="1672417922" id="N2552" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31506&amp;pnum=4</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31506&amp;pnum=4">
+        <range start="0" end="76"/>
+      </style>
+    </note>
+    <note handle="_f35e70ce96b794117a40568934f" change="1672418406" id="N2553" type="Citation">
+      <text>Pornainen rippikirja 1881-1890 (AP I Aa:12)  Sivu 207 Stor Lökkoski; Piltars (Tuombo)  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31491&amp;pnum=210 / Viitattu 30.12.2022</text>
+    </note>
+    <note handle="_f35e70f363b55e348bdadc4a37" change="1672418421" id="N2554" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31491&amp;pnum=210</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31491&amp;pnum=210">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f35e7abf0531ad1f4748a8a0fec" change="1672419448" id="N2555" type="Citation">
+      <text>Porvoo maaseurakunta rippikirja 1880-1889 (AP_LÄNSI I Aa:27)  Sivu 316 Norrveckoski Handtverkare ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38662&amp;pnum=319 / Viitattu 30.12.2022</text>
+    </note>
+    <note handle="_f35e7adeb516631c3753f95cf3f" change="1672419461" id="N2556" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38662&amp;pnum=319</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38662&amp;pnum=319">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f35e7dabcea4afcff46eb64980f" change="1672419755" id="N2557" type="Citation">
+      <text>Porvoo maaseurakunta rippikirja 1880-1889 (AP_LÄNSI I Aa:27)  Sivu 306 Norrveckoski Henrikas el. Jontas ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38662&amp;pnum=309 / Viitattu 30.12.2022</text>
+    </note>
+    <note handle="_f35e7e0f29e7cb0654bd40b9fb6" change="1672419796" id="N2558" type="Citation">
+      <text>Porvoo Ruotsalainen tuomiokirkkoseurakunta rippikirja 1880-1889 (MKO458-495)  Sivu 149 Hindhår Hinthaara gårdens Handtverkare ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=11742&amp;pnum=123 / Viitattu 30.12.2022</text>
+    </note>
+    <note handle="_f35e7e52d2e7d1bb0f75e583f9" change="1672419823" id="N2559" type="Citation">
+      <text>Porvoo Ruotsalainen tuomiokirkkoseurakunta rippikirja 1880-1889 (MKO458-495)  Sivu 194 Kiala Kiiala gård Sptorpare ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=11742&amp;pnum=156 / Viitattu 30.12.2022</text>
+    </note>
+    <note handle="_f35e7e9cca870e60b16df02ce54" change="1672419854" id="N2560" type="Citation">
+      <text>Porvoo Ruotsalainen tuomiokirkkoseurakunta rippikirja 1880-1889 (MKO458-495)  Sivu 445 Svartså Mustijoki Handtverkare ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=11742&amp;pnum=381 / Viitattu 30.12.2022</text>
+    </note>
+    <note handle="_f35e7ed26f13f37de4bfcf530cd" change="1672419876" id="N2561" type="Citation">
+      <text>Porvoo Ruotsalainen tuomiokirkkoseurakunta rippikirja 1880-1889 (MKO458-495)  Sivu 84 Gammelbacka gård drengar ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=11742&amp;pnum=74 / Viitattu 30.12.2022</text>
+    </note>
+    <note handle="_f35e7f08a17520462f42d653459" change="1672419898" id="N2562" type="Citation">
+      <text>Porvoo Ruotsalainen tuomiokirkkoseurakunta rippikirja 1880-1889 (MKO458-495)  Sivu 860 Krogsnäs Kroksnäs Stor Krogsnäs drengar ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=11742&amp;pnum=723 / Viitattu 30.12.2022</text>
     </note>
   </notes>
 </database>
