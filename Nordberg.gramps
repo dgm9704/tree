@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2022-12-31" version="5.1.5"/>
+    <created date="2023-01-02" version="5.1.5"/>
     <researcher>
     </researcher>
   </header>
@@ -2840,7 +2840,7 @@
     <event handle="_cb589cd2a6a77660d74" change="1397384053" id="E1708">
       <type>Death</type>
     </event>
-    <event handle="_cb589cd2a6f03a2e402" change="1672439608" id="E1709">
+    <event handle="_cb589cd2a6f03a2e402" change="1672683645" id="E1709">
       <type>Birth</type>
       <dateval val="1891-05-17"/>
       <place hlink="_cdf82fb91b45aadb551"/>
@@ -15949,14 +15949,14 @@
       <place hlink="_cdf82fb91b45aadb551"/>
       <citationref hlink="_f35eebd7a82859c015689ca74e"/>
     </event>
-    <event handle="_f35eec8e7374ae0f4be5d7e2aab" change="1672438958" id="E0645">
+    <event handle="_f35eec8e7374ae0f4be5d7e2aab" change="1672683726" id="E0645">
       <type>Residence</type>
       <datespan start="1890" stop="1894"/>
       <place hlink="_cdf82fb91b45aadb551"/>
       <citationref hlink="_f35eebd7a82859c015689ca74e"/>
       <citationref hlink="_f35f34aa27d74c60cb26f5c36d9"/>
     </event>
-    <event handle="_f35eedb70ff2ad8f5c20dcc1218" change="1672439175" id="E0652">
+    <event handle="_f35eedb70ff2ad8f5c20dcc1218" change="1672683740" id="E0652">
       <type>Residence</type>
       <datespan start="1894" stop="1899"/>
       <place hlink="_ebf6f62e1c3262d4c5bcf398eed"/>
@@ -15969,7 +15969,7 @@
       <place hlink="_ebf6f62e1c3262d4c5bcf398eed"/>
       <citationref hlink="_f35eeff39a1795027bf4052795a"/>
     </event>
-    <event handle="_f35ef30bc3d62681b6b83f263c6" change="1672432063" id="E0654">
+    <event handle="_f35ef30bc3d62681b6b83f263c6" change="1672687767" id="E0654">
       <type>Residence</type>
       <datespan start="1900" stop="1909"/>
       <place hlink="_ebf6f62e1c3262d4c5bcf398eed"/>
@@ -16020,7 +16020,7 @@
       <dateval val="1940-01-12"/>
       <citationref hlink="_f35f56aa3d97dfea97de51cb7eb"/>
     </event>
-    <event handle="_f35f56f33e21ced33b2a2717c20" change="1672442538" id="E0666">
+    <event handle="_f35f56f33e21ced33b2a2717c20" change="1672685193" id="E0666">
       <type>Burial</type>
       <dateval val="1940-01-12" type="after"/>
       <place hlink="_f35f51bedaa5437a7ec124cc07"/>
@@ -16064,6 +16064,24 @@
       <datespan start="1907" stop="1916"/>
       <place hlink="_db7ebcf83ae47c5be4ce38b223e"/>
       <citationref hlink="_f360fa0f8c45ecafd2dee07be6b"/>
+    </event>
+    <event handle="_f3685b3a5823d21a1204efa72dc" change="1672684763" id="E0674">
+      <type>Residence</type>
+      <datespan start="1906" stop="1908"/>
+      <place hlink="_ebf6f62e1c3262d4c5bcf398eed"/>
+      <citationref hlink="_f35ef2f02964303bd3255f49c7d"/>
+    </event>
+    <event handle="_f3685ec7af21326319c8a83fb2c" change="1672684951" id="E0675">
+      <type>Residence</type>
+      <datespan start="1908" stop="1909"/>
+      <place hlink="_f3685ded4aa719365d4e13e6161"/>
+      <citationref hlink="_f3685e7fc29370e0f0bed4c45e7"/>
+    </event>
+    <event handle="_f36866201807a421d5f540d0774" change="1672685935" id="E0676">
+      <type>Marriage Banns</type>
+      <dateval val="1919-10-14"/>
+      <place hlink="_cb589cc90f055fc9f0c"/>
+      <citationref hlink="_f36866159a45f4f195e1bab1eed"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -19680,13 +19698,15 @@
       <eventref hlink="_cb589cd2a324baea9dd" role="Primary"/>
       <childof hlink="_cb589ccefb45aeec8ea"/>
     </person>
-    <person handle="_cb589cd2a672da6d13f" change="1672432337" id="I4431">
+    <person handle="_cb589cd2a672da6d13f" change="1672684966" id="I4431">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Hilda Adele</first>
         <surname>Nordberg</surname>
       </name>
       <eventref hlink="_cb589cd2a6f03a2e402" role="Primary"/>
+      <eventref hlink="_f3685b3a5823d21a1204efa72dc" role="Primary"/>
+      <eventref hlink="_f3685ec7af21326319c8a83fb2c" role="Primary"/>
       <childof hlink="_cb589ccefd92362ab16"/>
     </person>
     <person handle="_cb589cd2aa468338326" change="1672442548" id="I4238">
@@ -19710,7 +19730,7 @@
       <eventref hlink="_cb589cd2adb2d7bc31e" role="Primary"/>
       <childof hlink="_cb589ccefd92362ab16"/>
     </person>
-    <person handle="_cb589cd2af9699ca88e" change="1672443592" id="I6115">
+    <person handle="_cb589cd2af9699ca88e" change="1672685995" id="I6115">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Signe Lydia</first>
@@ -19719,6 +19739,7 @@
       <name alt="1" type="Married Name">
         <first>Signe Lydia</first>
         <surname derivation="Taken">Hjorth</surname>
+        <dateval val="1919-10-14" type="after" quality="estimated"/>
         <citationref hlink="_f35f57d345622af06812b6312a"/>
       </name>
       <eventref hlink="_cb589cd2aff1030b612" role="Primary"/>
@@ -32391,10 +32412,11 @@
       <childref hlink="_f15b052e2c63c0b77e14f163bd3"/>
       <childref hlink="_f15b05ad2bd5e99ecaa3df98c7a"/>
     </family>
-    <family handle="_f35f5c7fa782af3f6158ffab9f" change="1672443592" id="F0027">
+    <family handle="_f35f5c7fa782af3f6158ffab9f" change="1672685945" id="F0027">
       <rel type="Married"/>
       <father hlink="_f35f5dab0405949191dcd156695"/>
       <mother hlink="_cb589cd2af9699ca88e"/>
+      <eventref hlink="_f36866201807a421d5f540d0774" role="Family"/>
     </family>
   </families>
   <citations>
@@ -42474,6 +42496,22 @@
       <noteref hlink="_f360fa0b8a31ba0a638274246e0"/>
       <sourceref hlink="_f360f9af38f7e835c3e96212437"/>
     </citation>
+    <citation handle="_f3685e7fc29370e0f0bed4c45e7" change="1672684922" id="C1475">
+      <page>IV/2731</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f3685e5b97f1a29e45a8bc4fe50"/>
+      <noteref hlink="_f3685e7cf6158cb8ef2c2a0e8f1"/>
+      <sourceref hlink="_f16a42ae9774b0ba5a082769407"/>
+    </citation>
+    <citation handle="_f36866159a45f4f195e1bab1eed" change="1672685717" id="C1476">
+      <dateval val="1919-10-14"/>
+      <page>114/4</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f368652e2e4418d67da2e7f2ad0"/>
+      <noteref hlink="_f3686580856787f713ca3d2cb11"/>
+      <noteref hlink="_f36865fddfb71ff90190a201404"/>
+      <sourceref hlink="_f3686486c4e592b1d33dea5405c"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -45417,6 +45455,11 @@
       <sauthor>Koski TL seurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
+    <source handle="_f3686486c4e592b1d33dea5405c" change="1672685554" id="S0589">
+      <stitle>Borgåbladet</stitle>
+      <sauthor>Östra Nylands Tidningar Ab</sauthor>
+      <reporef hlink="_cdea68c6afd7d08bd3f" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1658853851" id="P0000" type="City">
@@ -46315,7 +46358,7 @@
       <pname value="Bredvik"/>
       <placeref hlink="_cea12af8565247eda3d"/>
     </placeobj>
-    <placeobj handle="_cea130ab1076a8a160f" change="1628674947" id="P0534" type="Village">
+    <placeobj handle="_cea130ab1076a8a160f" change="1672684860" id="P0534" type="Village">
       <ptitle>Söderveckoski, Borgå, Finland</ptitle>
       <pname value="Söderveckoski"/>
       <placeref hlink="_cb589cc90f055fc9f0c"/>
@@ -48287,6 +48330,10 @@
       <pname value="Näsinmäen hautausmaa"/>
       <placeref hlink="_cb589cc90f055fc9f0c"/>
     </placeobj>
+    <placeobj handle="_f3685ded4aa719365d4e13e6161" change="1672684862" id="P0181" type="Farm">
+      <pname value="Stor-Maris"/>
+      <placeref hlink="_cea130ab1076a8a160f"/>
+    </placeobj>
   </places>
   <repositories>
     <repository handle="_cdea29a49637c6553bc" change="1672241850" id="R0001">
@@ -48299,7 +48346,7 @@
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
     </repository>
-    <repository handle="_cdea68c6afd7d08bd3f" change="1658089924" id="R0003">
+    <repository handle="_cdea68c6afd7d08bd3f" change="1672685552" id="R0003">
       <rname>Kansalliskirjasto digitoidut aineistot</rname>
       <type>Web site</type>
       <url  href="http://digi.lib.helsinki.fi/" type="Web Home"/>
@@ -69572,6 +69619,33 @@ Scanningcenter
     </note>
     <note handle="_f36101fa6cc6d00d65b16d74aab" change="1672487316" id="N2611" type="Citation">
       <text>Lappi muuttaneet 1890-1912 (AP I Ba:3)  Sivu 75-76 1903 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=20646&amp;pnum=41 / Viitattu 31.12.2022</text>
+    </note>
+    <note handle="_f3685e5b97f1a29e45a8bc4fe50" change="1672684907" id="N2612" type="Citation">
+      <text>Porvoo maaseurakunta rippikirja 1900-1909 (AP_IV I Aa:34)  Sivu 2731 Söderweckoski Stor-Maris skatteh ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38669&amp;pnum=334 / Viitattu 02.01.2023</text>
+    </note>
+    <note handle="_f3685e7cf6158cb8ef2c2a0e8f1" change="1672684921" id="N2613" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38669&amp;pnum=334</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38669&amp;pnum=334">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f368652e2e4418d67da2e7f2ad0" change="1672685622" id="N2614" type="Citation">
+      <text>Borgåbladet, 14.10.1919, nro 114, s. 4
+https://digi.kansalliskirjasto.fi/sanomalehti/binding/1163947?page=4
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f3686580856787f713ca3d2cb11" change="1672685656" id="N2615" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/1163947?page=4</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/sanomalehti/binding/1163947?page=4">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_f36865fddfb71ff90190a201404" change="1672685708" id="N2616" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/1163947?term=Karl%20Alfons%20Hjorth&amp;term=Signe%20Lydia%20Nordberg&amp;page=4</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/sanomalehti/binding/1163947?term=Karl%20Alfons%20Hjorth&amp;term=Signe%20Lydia%20Nordberg&amp;page=4">
+        <range start="0" end="126"/>
+      </style>
     </note>
   </notes>
 </database>
