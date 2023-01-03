@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2023-01-02" version="5.1.5"/>
+    <created date="2023-01-03" version="5.1.5"/>
     <researcher>
     </researcher>
   </header>
@@ -16083,6 +16083,39 @@
       <place hlink="_cb589cc90f055fc9f0c"/>
       <citationref hlink="_f36866159a45f4f195e1bab1eed"/>
     </event>
+    <event handle="_f36b532aef95e1cde7840d8085" change="1672764264" id="E0677">
+      <type>Death</type>
+      <dateval val="1951-04-19"/>
+      <citationref hlink="_f36b5326af554ef108e93ccde49"/>
+    </event>
+    <event handle="_f36b57ee1ee79eb12dc1b8cbe18" change="1672764764" id="E0678">
+      <type>Burial</type>
+      <dateval val="1951-04-19" type="after"/>
+      <place hlink="_f35f51bedaa5437a7ec124cc07"/>
+      <citationref hlink="_f36b57dca1a16c4570c364cb65"/>
+    </event>
+    <event handle="_f36b5ac12fc2722e1897793d531" change="1672765060" id="E0679">
+      <type>Birth</type>
+      <dateval val="1890-12-16"/>
+      <citationref hlink="_f36b5a989537061fb51e8dfe7c0"/>
+    </event>
+    <event handle="_f36b5b8c9ec3223df4d08ba2bfb" change="1672765160" id="E0680">
+      <type>Death</type>
+      <dateval val="1979-03-15"/>
+      <citationref hlink="_f36b5a989537061fb51e8dfe7c0"/>
+    </event>
+    <event handle="_f36b5c719385e43473a6b9547e4" change="1672765237" id="E0681">
+      <type>Burial</type>
+      <dateval val="1979-03-15" type="after"/>
+      <place hlink="_f35f51bedaa5437a7ec124cc07"/>
+      <citationref hlink="_f36b5a989537061fb51e8dfe7c0"/>
+    </event>
+    <event handle="_f36b5e156ac3106f2d112f7f7fb" change="1672765409" id="E0682">
+      <type>Marriage Banns</type>
+      <dateval val="1936-05-07"/>
+      <place hlink="_cb589cc90f055fc9f0c"/>
+      <citationref hlink="_f36b5e10fee3b9c1bc6c6aa6eba"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1658869228" id="I3858">
@@ -19698,7 +19731,7 @@
       <eventref hlink="_cb589cd2a324baea9dd" role="Primary"/>
       <childof hlink="_cb589ccefb45aeec8ea"/>
     </person>
-    <person handle="_cb589cd2a672da6d13f" change="1672684966" id="I4431">
+    <person handle="_cb589cd2a672da6d13f" change="1672765440" id="I4431">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Hilda Adele</first>
@@ -19707,7 +19740,10 @@
       <eventref hlink="_cb589cd2a6f03a2e402" role="Primary"/>
       <eventref hlink="_f3685b3a5823d21a1204efa72dc" role="Primary"/>
       <eventref hlink="_f3685ec7af21326319c8a83fb2c" role="Primary"/>
+      <eventref hlink="_f36b532aef95e1cde7840d8085" role="Primary"/>
+      <eventref hlink="_f36b57ee1ee79eb12dc1b8cbe18" role="Primary"/>
       <childof hlink="_cb589ccefd92362ab16"/>
+      <parentin hlink="_f36b59b2da71f6ed1eca3569de7"/>
     </person>
     <person handle="_cb589cd2aa468338326" change="1672442548" id="I4238">
       <gender>F</gender>
@@ -28906,6 +28942,17 @@
       <eventref hlink="_f35f602981621687840620e2558" role="Primary"/>
       <parentin hlink="_f35f5c7fa782af3f6158ffab9f"/>
     </person>
+    <person handle="_f36b59ed55d7bfc28a6d4a73424" change="1672765440" id="I0140">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Gustaf Adolf Gunnar</first>
+        <surname>Bergvall</surname>
+      </name>
+      <eventref hlink="_f36b5ac12fc2722e1897793d531" role="Primary"/>
+      <eventref hlink="_f36b5b8c9ec3223df4d08ba2bfb" role="Primary"/>
+      <eventref hlink="_f36b5c719385e43473a6b9547e4" role="Primary"/>
+      <parentin hlink="_f36b59b2da71f6ed1eca3569de7"/>
+    </person>
   </people>
   <families>
     <family handle="_cb589cc7f9c792dc427" change="1658869228" id="F1472">
@@ -32417,6 +32464,12 @@
       <father hlink="_f35f5dab0405949191dcd156695"/>
       <mother hlink="_cb589cd2af9699ca88e"/>
       <eventref hlink="_f36866201807a421d5f540d0774" role="Family"/>
+    </family>
+    <family handle="_f36b59b2da71f6ed1eca3569de7" change="1672765440" id="F0028">
+      <rel type="Married"/>
+      <father hlink="_f36b59ed55d7bfc28a6d4a73424"/>
+      <mother hlink="_cb589cd2a672da6d13f"/>
+      <eventref hlink="_f36b5e156ac3106f2d112f7f7fb" role="Family"/>
     </family>
   </families>
   <citations>
@@ -42512,6 +42565,28 @@
       <noteref hlink="_f36865fddfb71ff90190a201404"/>
       <sourceref hlink="_f3686486c4e592b1d33dea5405c"/>
     </citation>
+    <citation handle="_f36b5326af554ef108e93ccde49" change="1672764263" id="C1477">
+      <page>BERGVALL HILDA ADELE</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_f36b5246734762689917a6d4f44"/>
+    </citation>
+    <citation handle="_f36b57dca1a16c4570c364cb65" change="1672764757" id="C1478">
+      <confidence>2</confidence>
+      <sourceref hlink="_f36b5246734762689917a6d4f44"/>
+    </citation>
+    <citation handle="_f36b5a989537061fb51e8dfe7c0" change="1672765057" id="C1479">
+      <page>BERGVALL GUSTAF ADOLF GUNNAR</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_f36b5246734762689917a6d4f44"/>
+    </citation>
+    <citation handle="_f36b5e10fee3b9c1bc6c6aa6eba" change="1672765407" id="C1480">
+      <dateval val="1936-05-07"/>
+      <page>51/3</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f36b5dbe1444178e9f7134b50fa"/>
+      <noteref hlink="_f36b5e0a5f3599cb972a2ce9050"/>
+      <sourceref hlink="_f3686486c4e592b1d33dea5405c"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -45459,6 +45534,11 @@
       <stitle>Borgåbladet</stitle>
       <sauthor>Östra Nylands Tidningar Ab</sauthor>
       <reporef hlink="_cdea68c6afd7d08bd3f" medium="Book"/>
+    </source>
+    <source handle="_f36b5246734762689917a6d4f44" change="1672764171" id="S0590">
+      <stitle>Hautakivi Bergvall/Lampenius Näsinmäki</stitle>
+      <noteref hlink="_f36b4c5662b33868dad336d8472"/>
+      <noteref hlink="_f36b522da5b7534352b9b551fcf"/>
     </source>
   </sources>
   <places>
@@ -69645,6 +69725,33 @@ Kansalliskirjaston digitaaliset aineistot
       <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/1163947?term=Karl%20Alfons%20Hjorth&amp;term=Signe%20Lydia%20Nordberg&amp;page=4</text>
       <style name="link" value="https://digi.kansalliskirjasto.fi/sanomalehti/binding/1163947?term=Karl%20Alfons%20Hjorth&amp;term=Signe%20Lydia%20Nordberg&amp;page=4">
         <range start="0" end="126"/>
+      </style>
+    </note>
+    <note handle="_f36b4c5662b33868dad336d8472" change="1672763548" id="N2617" type="Link">
+      <text>https://billiongraves.com/grave/Hilda-Ad%C3%A9le-Bergvall/33182516</text>
+      <style name="link" value="https://billiongraves.com/grave/Hilda-Ad%C3%A9le-Bergvall/33182516">
+        <range start="0" end="66"/>
+      </style>
+    </note>
+    <note handle="_f36b522da5b7534352b9b551fcf" change="1672764161" id="N2618" type="Source text">
+      <text>             BERGVALL                                               LAMPENIUS
+
+GUSTAF ADOLF GUNNAR                         GUSTAF EDVIN
+  *16.12.1890 +15.3.1979                     *9.12.1914 +5.6.1989
+
+          HILDA ADELE                                    GUNDBORG LOUISE
+   *17.5.1891 +19.4.1951                       *14.10.1919 +14.1.2006</text>
+    </note>
+    <note handle="_f36b5dbe1444178e9f7134b50fa" change="1672765373" id="N2619" type="Citation">
+      <text>Borgåbladet, 07.05.1936, nro 51, s. 3
+https://digi.kansalliskirjasto.fi/sanomalehti/binding/1961190?page=3
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f36b5e0a5f3599cb972a2ce9050" change="1672765404" id="N2620" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/1961190?page=3</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/sanomalehti/binding/1961190?page=3">
+        <range start="0" end="68"/>
       </style>
     </note>
   </notes>
