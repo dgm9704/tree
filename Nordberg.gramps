@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2023-01-03" version="5.1.5"/>
+    <created date="2023-01-04" version="5.1.5"/>
     <researcher>
     </researcher>
   </header>
@@ -5123,7 +5123,7 @@
       <place hlink="_e8ef61b1a4f456fa3fab2fbf00b"/>
       <citationref hlink="_e8f114ff453603c3209570bdb66"/>
     </event>
-    <event handle="_cb589cdf44736428b8e" change="1426530446" id="E3603">
+    <event handle="_cb589cdf44736428b8e" change="1672858207" id="E3603">
       <type>Death</type>
       <dateval val="1908-05-28"/>
       <place hlink="_cb589cd2ade491812fc"/>
@@ -6240,9 +6240,13 @@
       <dateval val="1923-02-25"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
     </event>
-    <event handle="_cb589ce910b2c3b376d" change="1600763748" id="E4887">
+    <event handle="_cb589ce910b2c3b376d" change="1672858178" id="E4887">
       <type>Birth</type>
       <dateval val="1887-03-31"/>
+      <place hlink="_cb589cd2ade491812fc"/>
+      <citationref hlink="_f36ebba41213d223c2ee14d8f5e"/>
+      <citationref hlink="_f36ebea06935de4c25137855a8a"/>
+      <citationref hlink="_f36eca7c395204f9445098047eb"/>
     </event>
     <event handle="_cb589ce91a457161db8" change="1397384063" id="E4890">
       <type>Birth</type>
@@ -13814,7 +13818,7 @@
       <citationref hlink="_e8f18cf556c3456b4e3a0d7012"/>
       <citationref hlink="_e8f114ff453603c3209570bdb66"/>
     </event>
-    <event handle="_e8f244d0e1e3cf617e763463a9b" change="1600795214" id="E0108">
+    <event handle="_e8f244d0e1e3cf617e763463a9b" change="1672773035" id="E0108">
       <type>Residence</type>
       <datespan start="1869" stop="1878"/>
       <place hlink="_e8ef61b1a4f456fa3fab2fbf00b"/>
@@ -16115,6 +16119,50 @@
       <dateval val="1936-05-07"/>
       <place hlink="_cb589cc90f055fc9f0c"/>
       <citationref hlink="_f36b5e10fee3b9c1bc6c6aa6eba"/>
+    </event>
+    <event handle="_f36b68740b435734139bf3e14a4" change="1672766509" id="E0683">
+      <type>Marriage</type>
+      <dateval val="1936-06-11" type="about"/>
+      <place hlink="_cb589cc90f055fc9f0c"/>
+      <citationref hlink="_f36b686fd622ba8433ceb6e15a3"/>
+    </event>
+    <event handle="_f36ba82ba5c6b5559e373c11682" change="1672773217" id="E0684">
+      <type>Residence</type>
+      <datespan start="1880" stop="1882"/>
+      <place hlink="_e8ef61b1a4f456fa3fab2fbf00b"/>
+      <citationref hlink="_f36ba807c6f41fed4e28b2f7f3"/>
+    </event>
+    <event handle="_f36ba977e7071e9f2834d0dad52" change="1672773314" id="E0685">
+      <type>Residence</type>
+      <datespan start="1882" stop="1889"/>
+      <place hlink="_e8ef61b1a4f456fa3fab2fbf00b"/>
+      <citationref hlink="_f36ba807c6f41fed4e28b2f7f3"/>
+    </event>
+    <event handle="_f36ba9f54ff4086a0e24e5f995f" change="1672855771" id="E0686">
+      <type>Residence</type>
+      <datespan start="1880" stop="1889"/>
+      <place hlink="_e8ef61b1a4f456fa3fab2fbf00b"/>
+      <citationref hlink="_f36ba807c6f41fed4e28b2f7f3"/>
+      <citationref hlink="_f36ebba41213d223c2ee14d8f5e"/>
+    </event>
+    <event handle="_f36badc7eaf107907aefd01c6e5" change="1672857083" id="E0687">
+      <type>Residence</type>
+      <datespan start="1890" stop="1899"/>
+      <place hlink="_e8ef61b1a4f456fa3fab2fbf00b"/>
+      <citationref hlink="_f36bada40324115b8072a72e894"/>
+      <citationref hlink="_f36ec7c778175dde6d6212600cc"/>
+    </event>
+    <event handle="_f36ecaa52054b4a70ce271aff2" change="1672857338" id="E0688">
+      <type>Residence</type>
+      <datespan start="1900" stop="1908"/>
+      <place hlink="_e8ef61b1a4f456fa3fab2fbf00b"/>
+      <citationref hlink="_f36eca7c395204f9445098047eb"/>
+    </event>
+    <event handle="_f36ecb9af27771a1cc242d8b6f" change="1672857424" id="E0689">
+      <type>Residence</type>
+      <datespan start="1902" stop="1909"/>
+      <place hlink="_e8ef61b1a4f456fa3fab2fbf00b"/>
+      <citationref hlink="_f36eca7c395204f9445098047eb"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -21124,7 +21172,7 @@
       <eventref hlink="_cb589cd841170d5d78f" role="Primary"/>
       <childof hlink="_cb589cd2762703e1249"/>
     </person>
-    <person handle="_cb589cd842d7d79f472" change="1600715557" id="I4585">
+    <person handle="_cb589cd842d7d79f472" change="1672774312" id="I4585">
       <gender>M</gender>
       <name type="Also Known As">
         <first>Johan</first>
@@ -21140,6 +21188,8 @@
       <eventref hlink="_e8eeba7577644e56c5d5fc47c02" role="Primary"/>
       <eventref hlink="_e8eed6bb0ef6e31b868c69ad22b" role="Primary"/>
       <eventref hlink="_df87a2bbc8d673c1c7b3cad5025" role="Primary"/>
+      <eventref hlink="_f36ba977e7071e9f2834d0dad52" role="Primary"/>
+      <eventref hlink="_f36badc7eaf107907aefd01c6e5" role="Primary"/>
       <childof hlink="_cb589cd2762703e1249"/>
       <parentin hlink="_cb589cd844945b4bc76"/>
     </person>
@@ -22701,13 +22751,16 @@
       <eventref hlink="_cb589cdf3bf1a6d816c" role="Primary"/>
       <childof hlink="_cb589cd83c605a3885d"/>
     </person>
-    <person handle="_cb589cdf4285693996f" change="1600795217" id="I4968">
+    <person handle="_cb589cdf4285693996f" change="1672858211" id="I4968">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Sofia Lovisa</first>
         <surname>Nordberg</surname>
       </name>
       <eventref hlink="_cb589cdf42b13c0faec" role="Primary"/>
+      <eventref hlink="_f36ba9f54ff4086a0e24e5f995f" role="Primary"/>
+      <eventref hlink="_f36badc7eaf107907aefd01c6e5" role="Family"/>
+      <eventref hlink="_f36ecaa52054b4a70ce271aff2" role="Primary"/>
       <eventref hlink="_cb589cdf44736428b8e" role="Primary"/>
       <childof hlink="_cb589cd844945b4bc76"/>
       <parentin hlink="_cb589cdf46957af49f5"/>
@@ -24185,13 +24238,14 @@
       <eventref hlink="_cb589ce909937fae6c6" role="Primary"/>
       <childof hlink="_cb589cdf358646b8e3c"/>
     </person>
-    <person handle="_cb589ce910508c2675d" change="1600763756" id="I5728">
+    <person handle="_cb589ce910508c2675d" change="1672857735" id="I5728">
       <gender>F</gender>
       <name type="Birth Name">
-        <first>Elin Anna Otilia</first>
+        <first>Elin Anna Ottilia</first>
         <surname>Nordberg</surname>
       </name>
       <eventref hlink="_cb589ce910b2c3b376d" role="Primary"/>
+      <eventref hlink="_f36ecb9af27771a1cc242d8b6f" role="Primary"/>
       <childof hlink="_cb589cdf46957af49f5"/>
     </person>
     <person handle="_cb589ce918f7a27ff05" change="1414284936" id="I4413">
@@ -27662,7 +27716,7 @@
       <eventref hlink="_e8247dfac64b637bc3f3604c91" role="Primary"/>
       <childof hlink="_cb589cc849649a1de75"/>
     </person>
-    <person handle="_e8f1153ebec4386760e7e6d9b2a" change="1600795217" id="I0008">
+    <person handle="_e8f1153ebec4386760e7e6d9b2a" change="1672773220" id="I0008">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anna Lovisa</first>
@@ -27672,7 +27726,7 @@
       <eventref hlink="_e8f116b33256974e73fbb0819dc" role="Primary"/>
       <childof hlink="_cb589cd844945b4bc76"/>
     </person>
-    <person handle="_e8f1170c35764a9e1e4c8371c14" change="1600795217" id="I0009">
+    <person handle="_e8f1170c35764a9e1e4c8371c14" change="1672773220" id="I0009">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Lovisa Wilhelmina</first>
@@ -27692,7 +27746,7 @@
       <eventref hlink="_e8f1234d5f410ba42e93fd5d2c8" role="Primary"/>
       <parentin hlink="_e8f1209e5774ff3209bff52671"/>
     </person>
-    <person handle="_e8f12378afb1276487f39048716" change="1600795217" id="I0011">
+    <person handle="_e8f12378afb1276487f39048716" change="1672773220" id="I0011">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Anders Wilhelm</first>
@@ -27712,7 +27766,7 @@
       <eventref hlink="_e8f124e01a571a8f8ca1b424576" role="Primary"/>
       <childof hlink="_e8f1209e5774ff3209bff52671"/>
     </person>
-    <person handle="_e8f124fc9e7496f09fa2383b74d" change="1600795217" id="I0013">
+    <person handle="_e8f124fc9e7496f09fa2383b74d" change="1672773220" id="I0013">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Adolf Edvard</first>
@@ -27722,7 +27776,7 @@
       <childof hlink="_e8f1209e5774ff3209bff52671"/>
       <childof hlink="_cb589cd844945b4bc76"/>
     </person>
-    <person handle="_e8f12572e90b77c01e528f48fc" change="1600795217" id="I0014">
+    <person handle="_e8f12572e90b77c01e528f48fc" change="1672773220" id="I0014">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Victor Ferdinand</first>
@@ -30733,7 +30787,7 @@
       <childref hlink="_cb589cdf3881fceaae6"/>
       <childref hlink="_cb589cdf3ad7f66951d"/>
     </family>
-    <family handle="_cb589cd844945b4bc76" change="1600795217" id="F1687">
+    <family handle="_cb589cd844945b4bc76" change="1672773220" id="F1687">
       <rel type="Married"/>
       <father hlink="_cb589cd842d7d79f472"/>
       <mother hlink="_cea5bdd36ee6d8e76f8"/>
@@ -30741,6 +30795,7 @@
       <eventref hlink="_e8ef6139e4c4ec0daa61d9ae570" role="Family"/>
       <eventref hlink="_e8f19b344747f4d168934aaba4" role="Family"/>
       <eventref hlink="_e8f244d0e1e3cf617e763463a9b" role="Family"/>
+      <eventref hlink="_f36ba82ba5c6b5559e373c11682" role="Family"/>
       <childref hlink="_e8f12378afb1276487f39048716" frel="Stepchild"/>
       <childref hlink="_e8f124fc9e7496f09fa2383b74d" frel="Stepchild"/>
       <childref hlink="_e8f12572e90b77c01e528f48fc" frel="Stepchild"/>
@@ -32465,11 +32520,12 @@
       <mother hlink="_cb589cd2af9699ca88e"/>
       <eventref hlink="_f36866201807a421d5f540d0774" role="Family"/>
     </family>
-    <family handle="_f36b59b2da71f6ed1eca3569de7" change="1672765440" id="F0028">
+    <family handle="_f36b59b2da71f6ed1eca3569de7" change="1672766512" id="F0028">
       <rel type="Married"/>
       <father hlink="_f36b59ed55d7bfc28a6d4a73424"/>
       <mother hlink="_cb589cd2a672da6d13f"/>
       <eventref hlink="_f36b5e156ac3106f2d112f7f7fb" role="Family"/>
+      <eventref hlink="_f36b68740b435734139bf3e14a4" role="Family"/>
     </family>
   </families>
   <citations>
@@ -39860,11 +39916,13 @@
       <noteref hlink="_e8f19b281b15a36b924c1210094"/>
       <sourceref hlink="_d6cda20a4443c79320f8ff5ffff"/>
     </citation>
-    <citation handle="_e8f244c4a0462b755c2959a72e0" change="1600795209" id="C1127">
+    <citation handle="_e8f244c4a0462b755c2959a72e0" change="1672772973" id="C1127">
       <page>3</page>
       <confidence>2</confidence>
-      <noteref hlink="_e8f240d21a338efac9312d1082b"/>
+      <noteref hlink="_f36ba5eec5a58276811be97aee"/>
+      <noteref hlink="_f36ba62334b6c7ac5572e1ed4f5"/>
       <noteref hlink="_e8f244aca3a5382d9275ba1e249"/>
+      <noteref hlink="_e8f240d21a338efac9312d1082b"/>
       <sourceref hlink="_db8ab6037e9d25a7461400cbae"/>
     </citation>
     <citation handle="_e8fb28723e1565d963a61b7a972" change="1601033831" id="C1128">
@@ -42586,6 +42644,56 @@
       <noteref hlink="_f36b5dbe1444178e9f7134b50fa"/>
       <noteref hlink="_f36b5e0a5f3599cb972a2ce9050"/>
       <sourceref hlink="_f3686486c4e592b1d33dea5405c"/>
+    </citation>
+    <citation handle="_f36b686fd622ba8433ceb6e15a3" change="1672766495" id="C1481">
+      <dateval val="1936-06-11"/>
+      <page>64/4</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f36b68327181fa4e65565e3346b"/>
+      <noteref hlink="_f36b6860a345d75e7ee22d84d61"/>
+      <sourceref hlink="_f3686486c4e592b1d33dea5405c"/>
+    </citation>
+    <citation handle="_f36ba807c6f41fed4e28b2f7f3" change="1672773163" id="C1482">
+      <page>Aa:27/3</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f36ba7dfcc53b6e30ed1c2bb9ad"/>
+      <noteref hlink="_f36ba804c341b1a211059fee91a"/>
+      <sourceref hlink="_cf9322ce51178c4d1e5"/>
+    </citation>
+    <citation handle="_f36bada40324115b8072a72e894" change="1672773751" id="C1483">
+      <page>Aa:29/3</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f36bad6f45d58632d6e4260b5ee"/>
+      <noteref hlink="_f36bad9a70b546e8a823e71434c"/>
+      <sourceref hlink="_f35ee4a782b1b14429fdeb1f256"/>
+    </citation>
+    <citation handle="_f36ebba41213d223c2ee14d8f5e" change="1672855750" id="C1484">
+      <page>Ab:18/2-4</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f36ebb77471c5c1aad255fc470"/>
+      <noteref hlink="_f36ebb9c9434f716f78523ab160"/>
+      <sourceref hlink="_f36ebb412316d9ab9d8fe25f21f"/>
+    </citation>
+    <citation handle="_f36ebea06935de4c25137855a8a" change="1672856063" id="C1485">
+      <page>C:13/362-363</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f36ebe3db5a12567d8b57e9f756"/>
+      <noteref hlink="_f36ebe612b87586b8d6fa1f4b20"/>
+      <sourceref hlink="_f36ebe18a83325c6086979b12af"/>
+    </citation>
+    <citation handle="_f36ec7c778175dde6d6212600cc" change="1672857023" id="C1486">
+      <page>Ab:20/2-3</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f36ec7993ad301f6bfacb859d"/>
+      <noteref hlink="_f36ec7c2f4f719da026524d8c0f"/>
+      <sourceref hlink="_f35f34546097021d962d6b10cd2"/>
+    </citation>
+    <citation handle="_f36eca7c395204f9445098047eb" change="1672857306" id="C1487">
+      <page>Aa:31/9</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f36eca44e794e4908525916f3a8"/>
+      <noteref hlink="_f36eca78e9634c32eba20a29206"/>
+      <sourceref hlink="_f16a42ae9774b0ba5a082769407"/>
     </citation>
   </citations>
   <sources>
@@ -45540,6 +45648,16 @@
       <noteref hlink="_f36b4c5662b33868dad336d8472"/>
       <noteref hlink="_f36b522da5b7534352b9b551fcf"/>
     </source>
+    <source handle="_f36ebb412316d9ab9d8fe25f21f" change="1672855709" id="S0591">
+      <stitle>Porvoo msrk Lastenkirja 1880-1889</stitle>
+      <sauthor>Porvoon maaseurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f36ebe18a83325c6086979b12af" change="1672856007" id="S0592">
+      <stitle>Porvoo msrk Syntyneet 1883-1888</stitle>
+      <sauthor>Porvoon maaseurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1658853851" id="P0000" type="City">
@@ -48421,7 +48539,7 @@
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1672486444" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1672856003" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -69752,6 +69870,84 @@ Kansalliskirjaston digitaaliset aineistot
       <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/1961190?page=3</text>
       <style name="link" value="https://digi.kansalliskirjasto.fi/sanomalehti/binding/1961190?page=3">
         <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_f36b68327181fa4e65565e3346b" change="1672766469" id="N2621" type="Citation">
+      <text>Borgåbladet, 11.06.1936, nro 64, s. 4
+https://digi.kansalliskirjasto.fi/sanomalehti/binding/1961254?page=4
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f36b6860a345d75e7ee22d84d61" change="1672766488" id="N2622" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/1961254?page=4</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/sanomalehti/binding/1961254?page=4">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_f36ba5eec5a58276811be97aee" change="1672772943" id="N2623" type="Citation">
+      <text>Porvoo maaseurakunta rippikirja 1869-1879 (AP_LÄNSI I Aa:25)  Sivu 3 Andersböle Nygrannas ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38660&amp;pnum=7 / Viitattu 03.01.2023</text>
+    </note>
+    <note handle="_f36ba62334b6c7ac5572e1ed4f5" change="1672772964" id="N2624" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38660&amp;pnum=7</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38660&amp;pnum=7">
+        <range start="0" end="76"/>
+      </style>
+    </note>
+    <note handle="_f36ba7dfcc53b6e30ed1c2bb9ad" change="1672773146" id="N2625" type="Citation">
+      <text>Porvoo maaseurakunta rippikirja 1880-1889 (AP_LÄNSI I Aa:27)  Sivu 3 Andersböle ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38662&amp;pnum=6 / Viitattu 03.01.2023</text>
+    </note>
+    <note handle="_f36ba804c341b1a211059fee91a" change="1672773162" id="N2626" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38662&amp;pnum=6</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38662&amp;pnum=6">
+        <range start="0" end="76"/>
+      </style>
+    </note>
+    <note handle="_f36bad6f45d58632d6e4260b5ee" change="1672773730" id="N2627" type="Citation">
+      <text>Porvoo maaseurakunta rippikirja 1890-1899 (AP_LÄNSI I Aa:29)  Sivu 3 Andersböle Nykrannas skatteh ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=10 / Viitattu 03.01.2023</text>
+    </note>
+    <note handle="_f36bad9a70b546e8a823e71434c" change="1672773747" id="N2628" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=10</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=10">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f36ebb77471c5c1aad255fc470" change="1672855731" id="N2629" type="Citation">
+      <text>Porvoo maaseurakunta lastenkirja 1880-1889 (AP_LÄNSI I Ab:18)  Sivu 2 Andersböle ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38687&amp;pnum=5 / Viitattu 04.01.2023</text>
+    </note>
+    <note handle="_f36ebb9c9434f716f78523ab160" change="1672855747" id="N2630" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38687&amp;pnum=5</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38687&amp;pnum=5">
+        <range start="0" end="76"/>
+      </style>
+    </note>
+    <note handle="_f36ebe3db5a12567d8b57e9f756" change="1672856022" id="N2631" type="Citation">
+      <text>Porvoo maaseurakunta syntyneet 1883-1888 (AP I C:13)  Sivu 362  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38694&amp;pnum=187 / Viitattu 04.01.2023</text>
+    </note>
+    <note handle="_f36ebe612b87586b8d6fa1f4b20" change="1672856037" id="N2632" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38694&amp;pnum=187</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38694&amp;pnum=187">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f36ec7993ad301f6bfacb859d" change="1672857004" id="N2633" type="Citation">
+      <text>Porvoo maaseurakunta lastenkirja 1890-1899 (AP_LÄNSI I Ab:20)  Sivu 2 Andersböle ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38689&amp;pnum=4 / Viitattu 04.01.2023</text>
+    </note>
+    <note handle="_f36ec7c2f4f719da026524d8c0f" change="1672857021" id="N2634" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38689&amp;pnum=4</text>
+      <style name="link" value="gramps://Person/handle/cb589ce910508c2675d">
+        <range start="0" end="76"/>
+      </style>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38689&amp;pnum=4">
+        <range start="0" end="76"/>
+      </style>
+    </note>
+    <note handle="_f36eca44e794e4908525916f3a8" change="1672857284" id="N2635" type="Citation">
+      <text>Porvoo maaseurakunta rippikirja 1900-1909 (AP_I I Aa:31)  Sivu 9 Andersböle Nygrannas ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38666&amp;pnum=12 / Viitattu 04.01.2023</text>
+    </note>
+    <note handle="_f36eca78e9634c32eba20a29206" change="1672857305" id="N2636" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38666&amp;pnum=12</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38666&amp;pnum=12">
+        <range start="0" end="77"/>
       </style>
     </note>
   </notes>
