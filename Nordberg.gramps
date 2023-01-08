@@ -5145,13 +5145,19 @@
       <place hlink="_cb589cd851a2637b2c6"/>
       <citationref hlink="_cf931ec6fe54a108355"/>
     </event>
-    <event handle="_cb589cdf55d5546f667" change="1397384059" id="E3612">
+    <event handle="_cb589cdf55d5546f667" change="1673201154" id="E3612">
       <type>Birth</type>
       <dateval val="1861-11-07"/>
+      <place hlink="_cb589cd84693ecab842"/>
+      <citationref hlink="_f37b97e29c832f9a291f62e49da"/>
+      <citationref hlink="_f358ff8d64c1e865c321b5893d6"/>
     </event>
-    <event handle="_cb589cdf5612b206d13" change="1397384059" id="E3613">
+    <event handle="_cb589cdf5612b206d13" change="1673201342" id="E3613">
       <type>Death</type>
       <dateval val="1862-06-28"/>
+      <place hlink="_cb589cd84693ecab842"/>
+      <citationref hlink="_f37b97e29c832f9a291f62e49da"/>
+      <citationref hlink="_f37b9b72fc33a52e480951e8dc"/>
     </event>
     <event handle="_cb589cdf59831abbda8" change="1397384059" id="E3616">
       <type>Birth</type>
@@ -7596,11 +7602,12 @@
       <citationref hlink="_df878bac36c3a350813e5a86d4e"/>
       <citationref hlink="_e8f10dcc647aa62da63f2f4628"/>
     </event>
-    <event handle="_cb589cfee735eb81793" change="1426444172" id="E7260">
+    <event handle="_cb589cfee735eb81793" change="1673199374" id="E7260">
       <type>Marriage</type>
       <dateval val="1860-10-23"/>
       <place hlink="_cdf82fb91b45aadb551"/>
       <citationref hlink="_cf932fb3ab01b6f4937"/>
+      <citationref hlink="_f37b887fb332f08504ef3a49c89"/>
     </event>
     <event handle="_cb589cfeeaa356071f4" change="1536087358" id="E7261">
       <type>Marriage</type>
@@ -8454,7 +8461,7 @@
       <place hlink="_ce821888790688c9a04"/>
       <citationref hlink="_cf8f2d5c80d6194fbb4"/>
     </event>
-    <event handle="_cf93234182c49cdde2d" change="1426442919" id="E0001">
+    <event handle="_cf93234182c49cdde2d" change="1673202837" id="E0001">
       <type>Residence</type>
       <datespan start="1880" stop="1889"/>
       <place hlink="_cb589cd84693ecab842"/>
@@ -16200,8 +16207,22 @@
       <place hlink="_cb589cd84693ecab842"/>
       <citationref hlink="_f37b7b9b6d25bc8044633d4fdbc"/>
     </event>
+    <event handle="_f37ba22b5e973a1952982fa6546" change="1673202348" id="E0696">
+      <type>Residence</type>
+      <datespan start="1860" stop="1868"/>
+      <place hlink="_cb589cd851a2637b2c6"/>
+      <citationref hlink="_f37b887fb332f08504ef3a49c89"/>
+      <citationref hlink="_f37b97e29c832f9a291f62e49da"/>
+    </event>
+    <event handle="_f37ba37604244e3e0411c073a8b" change="1673202626" id="E0697">
+      <type>Residence</type>
+      <datespan start="1869" stop="1879"/>
+      <place hlink="_cb589cd84693ecab842"/>
+      <citationref hlink="_f37ba3646462f5a498f443b7403"/>
+      <citationref hlink="_f37ba78f3c1300912a7e14f4a38"/>
+    </event>
   </events>
-  <people home="_cb589cc7f8356f9dc4a">
+  <people home="_cb589cd84543096b0fa">
     <person handle="_cb589cc7f8356f9dc4a" change="1658869228" id="I3858">
       <gender>F</gender>
       <name type="Birth Name">
@@ -22801,7 +22822,7 @@
       <childof hlink="_cb589cd844945b4bc76"/>
       <parentin hlink="_cb589cdf46957af49f5"/>
     </person>
-    <person handle="_cb589cdf4a353d7b321" change="1672272939" id="I3723">
+    <person handle="_cb589cdf4a353d7b321" change="1673202838" id="I3723">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Anders Herman</first>
@@ -22818,7 +22839,7 @@
       <childof hlink="_cb589cd847b49cf1ace"/>
       <parentin hlink="_cb589cdf4f00fd787fa"/>
     </person>
-    <person handle="_cb589cdf4fe6091c665" change="1673198453" id="I3143">
+    <person handle="_cb589cdf4fe6091c665" change="1673202838" id="I3143">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Hulda Maria</first>
@@ -22850,11 +22871,11 @@
       <childof hlink="_cb589cd856b02768e48"/>
       <parentin hlink="_cb589cdf5d647820119"/>
     </person>
-    <person handle="_cb589cdf5e30746d45f" change="1519929776" id="I3205">
+    <person handle="_cb589cdf5e30746d45f" change="1673202479" id="I3205">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Johan Herman</first>
-        <surname>Johansson</surname>
+        <surname derivation="Patronymic">Johansson</surname>
       </name>
       <eventref hlink="_cb589cdf5e60fa62618" role="Primary"/>
       <eventref hlink="_cb589cdf5f8144a0216" role="Primary"/>
@@ -30845,11 +30866,13 @@
       <childref hlink="_cb589cdf4285693996f"/>
       <citationref hlink="_e8ee2da89754589e97eb00a0f9e"/>
     </family>
-    <family handle="_cb589cd847b49cf1ace" change="1426444188" id="F1395">
+    <family handle="_cb589cd847b49cf1ace" change="1673202838" id="F1395">
       <rel type="Married"/>
       <father hlink="_cb589cd84543096b0fa"/>
       <mother hlink="_cea5b4fb1ec1ea14873"/>
       <eventref hlink="_cb589cfee735eb81793" role="Family"/>
+      <eventref hlink="_f37ba22b5e973a1952982fa6546" role="Family"/>
+      <eventref hlink="_f37ba37604244e3e0411c073a8b" role="Family"/>
       <eventref hlink="_cf93234182c49cdde2d" role="Family"/>
       <eventref hlink="_cf9325abe2a17a0c844" role="Family"/>
       <childref hlink="_cb589cdf4a353d7b321"/>
@@ -42466,8 +42489,8 @@
       <noteref hlink="_f358fde4ea23a569a8b144eb4b"/>
       <sourceref hlink="_cf9322ce51178c4d1e5"/>
     </citation>
-    <citation handle="_f358ff8d64c1e865c321b5893d6" change="1672272313" id="C1446">
-      <page>C:11/40</page>
+    <citation handle="_f358ff8d64c1e865c321b5893d6" change="1673201152" id="C1446">
+      <page>C:11/40-41</page>
       <confidence>2</confidence>
       <noteref hlink="_f358ff60fbf6a820760da5bc8e9"/>
       <noteref hlink="_f358ff8240323cc497968f2eab2"/>
@@ -42749,6 +42772,41 @@
       <noteref hlink="_f37b7b7689f58d8028075049428"/>
       <noteref hlink="_f37b7b96393623a9ad4984778a8"/>
       <sourceref hlink="_f16a42ae9774b0ba5a082769407"/>
+    </citation>
+    <citation handle="_f37b887fb332f08504ef3a49c89" change="1673199353" id="C1490">
+      <page>Aa:23/290</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f37b8857d5e34c8f061c84ef091"/>
+      <noteref hlink="_f37b887642b7ef655ee62b7fe38"/>
+      <sourceref hlink="_f37b881f41b18becbb98c7b75e1"/>
+    </citation>
+    <citation handle="_f37b97e29c832f9a291f62e49da" change="1673200967" id="C1491">
+      <page>Ab:14/290-291</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f37b97c09ba62ef5c309491b3c"/>
+      <noteref hlink="_f37b97dfb7215f1cb50ee504a48"/>
+      <sourceref hlink="_f37b977a7771af22d5595ea32c6"/>
+    </citation>
+    <citation handle="_f37b9b72fc33a52e480951e8dc" change="1673201340" id="C1492">
+      <page>F:8/184-185</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f37b9b4d5df495b0162ffd7a2cd"/>
+      <noteref hlink="_f37b9b6bced33cbcc583d0dbc07"/>
+      <sourceref hlink="_f37b9b0852b541f866dd4205bc5"/>
+    </citation>
+    <citation handle="_f37ba3646462f5a498f443b7403" change="1673202173" id="C1493">
+      <page>Aa:25/293</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f37ba33a3e72692390b39afc1c9"/>
+      <noteref hlink="_f37ba35f99444510d01ed8dfdb1"/>
+      <sourceref hlink="_f360ecbccf33bc61720bf6fec3"/>
+    </citation>
+    <citation handle="_f37ba78f3c1300912a7e14f4a38" change="1673202610" id="C1494">
+      <page>Ab:16/292-293</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f37ba7684f65935ba616d48826d"/>
+      <noteref hlink="_f37ba7899bd2337f9512fc80e33"/>
+      <sourceref hlink="_f37ba71e7c065897558ea0fac8c"/>
     </citation>
   </citations>
   <sources>
@@ -45713,6 +45771,26 @@
       <sauthor>Porvoon maaseurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
+    <source handle="_f37b881f41b18becbb98c7b75e1" change="1673202035" id="S0593">
+      <stitle>Porvoo msrk Rippikirja 1859-1868</stitle>
+      <sauthor>Porvoon maaseurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f37b977a7771af22d5595ea32c6" change="1673200924" id="S0594">
+      <stitle>Porvoo msrk Lastenkirja 1860-1868</stitle>
+      <sauthor>Porvoon maaseutakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f37b9b0852b541f866dd4205bc5" change="1673201297" id="S0595">
+      <stitle>Porvoo msrk Kuolleet 1852-1873</stitle>
+      <sauthor>Porvoon maaseurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f37ba71e7c065897558ea0fac8c" change="1673202564" id="S0596">
+      <stitle>Porvoo msrk Lastenkirja 1869-1879</stitle>
+      <sauthor>Porvoon maaseurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1658853851" id="P0000" type="City">
@@ -48594,7 +48672,7 @@
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1672856003" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1673202562" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -70020,6 +70098,51 @@ Kansalliskirjaston digitaaliset aineistot
     <note handle="_f37b7b96393623a9ad4984778a8" change="1673197999" id="N2640" type="Link">
       <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38668&amp;pnum=164</text>
       <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38668&amp;pnum=164">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f37b8857d5e34c8f061c84ef091" change="1673199337" id="N2641" type="Citation">
+      <text>Porvoo maaseurakunta rippikirja 1859-1868 (AP_LÄNSI I Aa:23)  Sivu 290 Norrveckoski ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38658&amp;pnum=293 / Viitattu 08.01.2023</text>
+    </note>
+    <note handle="_f37b887642b7ef655ee62b7fe38" change="1673199349" id="N2642" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38658&amp;pnum=293</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38658&amp;pnum=293">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f37b97c09ba62ef5c309491b3c" change="1673200953" id="N2643" type="Citation">
+      <text>Porvoo maaseurakunta lastenkirja 1860-1868 (AP_LÄNSI I Ab:14)  Sivu 290 (Norrveckoski )Hannusas #2, Henrikas ell. Jontas #1 (Storbondas) ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38683&amp;pnum=149 / Viitattu 08.01.2023</text>
+    </note>
+    <note handle="_f37b97dfb7215f1cb50ee504a48" change="1673200965" id="N2644" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38683&amp;pnum=149</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38683&amp;pnum=149">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f37b9b4d5df495b0162ffd7a2cd" change="1673201325" id="N2645" type="Citation">
+      <text>Porvoo maaseurakunta kuolleet 1852-1873 (AP I F:8)  Sivu 184 1862 Juni ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38702&amp;pnum=94 / Viitattu 08.01.2023</text>
+    </note>
+    <note handle="_f37b9b6bced33cbcc583d0dbc07" change="1673201337" id="N2646" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38702&amp;pnum=94</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38702&amp;pnum=94">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f37ba33a3e72692390b39afc1c9" change="1673202156" id="N2647" type="Citation">
+      <text>Porvoo maaseurakunta rippikirja 1869-1879 (AP_LÄNSI I Aa:25)  Sivu 293 Norrveckoski Henrikas el. Jontas ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38660&amp;pnum=297 / Viitattu 08.01.2023</text>
+    </note>
+    <note handle="_f37ba35f99444510d01ed8dfdb1" change="1673202171" id="N2648" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38660&amp;pnum=297</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38660&amp;pnum=297">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f37ba7684f65935ba616d48826d" change="1673202594" id="N2649" type="Citation">
+      <text>Porvoo maaseurakunta lastenkirja 1869-1879 (AP_LÄNSI I Ab:16)  Sivu 292 Norrweckoski ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38685&amp;pnum=149 / Viitattu 08.01.2023</text>
+    </note>
+    <note handle="_f37ba7899bd2337f9512fc80e33" change="1673202608" id="N2650" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38685&amp;pnum=149</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38685&amp;pnum=149">
         <range start="0" end="78"/>
       </style>
     </note>
