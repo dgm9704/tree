@@ -6264,7 +6264,7 @@
       <citationref hlink="_f37c1717b037b8dd0b13cc0b497"/>
       <citationref hlink="_f37c301048617f55dcfcec11f33"/>
     </event>
-    <event handle="_cb589ce91cb3ce9d7cf" change="1673292352" id="E4891">
+    <event handle="_cb589ce91cb3ce9d7cf" change="1673295754" id="E4891">
       <type>Death</type>
       <dateval val="1970"/>
       <citationref hlink="_f37efe6779e79a4cb91631a6091"/>
@@ -16262,9 +16262,9 @@
       <citationref hlink="_f37c19b5633137b1d2dae0ea242"/>
       <citationref hlink="_f37c1b037f33973fdca59e64297"/>
     </event>
-    <event handle="_f37c2797d665a54d75883f3cdc1" change="1673286532" id="E0703">
+    <event handle="_f37c2797d665a54d75883f3cdc1" change="1673298079" id="E0703">
       <type>Residence</type>
-      <dateval val="1900" type="after"/>
+      <datespan start="1900-??-01" stop="1902"/>
       <place hlink="_f37c283534a7e95dc15e42b18fa"/>
       <citationref hlink="_f37c2713f01158c9b92908c12f8"/>
     </event>
@@ -16314,6 +16314,32 @@
       <dateval val="1970" type="about"/>
       <place hlink="_f37f003b69d78f81ac3aaf55729"/>
       <citationref hlink="_f37efe6779e79a4cb91631a6091"/>
+    </event>
+    <event handle="_f37f324aa996affc74e0ad3b203" change="1673299555" id="E0712">
+      <type>Immigration</type>
+      <dateval val="1902"/>
+      <place hlink="_ce9b8f427c046131878"/>
+      <citationref hlink="_f37f3241eb033bf269370d4967a"/>
+      <citationref hlink="_f37f3fb2a792b564312ab001b3f"/>
+      <citationref hlink="_f37f4361907430a179d421545bb"/>
+    </event>
+    <event handle="_f37f3494d5d2267c06d43a8cf24" change="1673299572" id="E0713">
+      <type>Arrival</type>
+      <dateval val="1902-05-22"/>
+      <place hlink="_df260f45ea535c0fc155ebd9256"/>
+      <citationref hlink="_f37f3241eb033bf269370d4967a"/>
+    </event>
+    <event handle="_f37f35a44f2475e9b6dfe7218e5" change="1673299567" id="E0714">
+      <type>Departure</type>
+      <dateval val="1902-05-11"/>
+      <place hlink="_df2320d3bac7cc193318f95aff5"/>
+      <citationref hlink="_f37f3fb2a792b564312ab001b3f"/>
+    </event>
+    <event handle="_f37f37807b51c03be35f5adaf54" change="1673299607" id="E0715">
+      <type>Residence</type>
+      <dateval val="1913-01-25"/>
+      <place hlink="_f37f4154d277b63845624148aa1"/>
+      <citationref hlink="_f37f3fb2a792b564312ab001b3f"/>
     </event>
   </events>
   <people home="_cb589cd84543096b0fa">
@@ -24401,7 +24427,7 @@
       <eventref hlink="_f36ecb9af27771a1cc242d8b6f" role="Primary"/>
       <childof hlink="_cb589cdf46957af49f5"/>
     </person>
-    <person handle="_cb589ce918f7a27ff05" change="1673292537" id="I4413">
+    <person handle="_cb589ce918f7a27ff05" change="1673298315" id="I4413">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Hulda Adele</first>
@@ -24412,7 +24438,7 @@
       <eventref hlink="_f37f00fa0c23bfb3fbe76ea8900" role="Primary"/>
       <childof hlink="_cb589cdf4f00fd787fa"/>
     </person>
-    <person handle="_cb589ce91e44777aedd" change="1673282097" id="I5073">
+    <person handle="_cb589ce91e44777aedd" change="1673298315" id="I5073">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Anders Ivar</first>
@@ -24423,7 +24449,7 @@
       <eventref hlink="_cb589ce91f76a89d630" role="Primary"/>
       <childof hlink="_cb589cdf4f00fd787fa"/>
     </person>
-    <person handle="_cb589ce922c2465ae66" change="1673282097" id="I5607">
+    <person handle="_cb589ce922c2465ae66" change="1673298315" id="I5607">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria</first>
@@ -24432,7 +24458,7 @@
       <eventref hlink="_cb589ce9232331716b3" role="Primary"/>
       <childof hlink="_cb589cdf4f00fd787fa"/>
     </person>
-    <person handle="_cb589ce9266059e8e1c" change="1673282097" id="I3507">
+    <person handle="_cb589ce9266059e8e1c" change="1673298315" id="I3507">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Nellie Eliza</first>
@@ -29176,7 +29202,7 @@
       <eventref hlink="_f37e9854a5e32b84a9549b70052" role="Primary"/>
       <parentin hlink="_cb589cdf4f00fd787fa"/>
     </person>
-    <person handle="_f37e9934eb550d2815994157a66" change="1673282097" id="I0142">
+    <person handle="_f37e9934eb550d2815994157a66" change="1673298315" id="I0142">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Marie Gunhilde</first>
@@ -31439,7 +31465,7 @@
       <mother hlink="_cb589cdf4285693996f"/>
       <childref hlink="_cb589ce910508c2675d"/>
     </family>
-    <family handle="_cb589cdf4f00fd787fa" change="1673282097" id="F2619">
+    <family handle="_cb589cdf4f00fd787fa" change="1673298315" id="F2619">
       <rel type="Married"/>
       <father hlink="_cb589cdf4a353d7b321"/>
       <mother hlink="_f37c0ff34c53ba0b8598e359341"/>
@@ -31448,6 +31474,10 @@
       <eventref hlink="_f37c19bc7cc43c6131fd963e350" role="Family"/>
       <eventref hlink="_f37c295e6e027b0a8feb0659679" role="Family"/>
       <eventref hlink="_f37c2797d665a54d75883f3cdc1" role="Family"/>
+      <eventref hlink="_f37f324aa996affc74e0ad3b203" role="Family"/>
+      <eventref hlink="_f37f35a44f2475e9b6dfe7218e5" role="Family"/>
+      <eventref hlink="_f37f3494d5d2267c06d43a8cf24" role="Family"/>
+      <eventref hlink="_f37f37807b51c03be35f5adaf54" role="Family"/>
       <childref hlink="_cb589ce918f7a27ff05"/>
       <childref hlink="_cb589ce91e44777aedd"/>
       <childref hlink="_cb589ce922c2465ae66"/>
@@ -43060,6 +43090,30 @@
       <noteref hlink="_f37eff4313c4612bc19d26ce576"/>
       <sourceref hlink="_f37efdee1307601737c43e4df87"/>
     </citation>
+    <citation handle="_f37f3241eb033bf269370d4967a" change="1673298947" id="C1514">
+      <dateval val="1902-09-30"/>
+      <page>film 007498903, image 989</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f37f32395d127414e129fb48acc"/>
+      <noteref hlink="_f37f3214d0271a7a5cf218c2675"/>
+      <sourceref hlink="_f37f316674d3d1e393014902e54"/>
+    </citation>
+    <citation handle="_f37f3fb2a792b564312ab001b3f" change="1673299094" id="C1515">
+      <dateval val="1913-01-25"/>
+      <page>film 007498903, image 990</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f37f3f60ad428e8cc6f1fcfa019"/>
+      <noteref hlink="_f37f3f843b25bb7167abe3c8567"/>
+      <sourceref hlink="_f37f316674d3d1e393014902e54"/>
+    </citation>
+    <citation handle="_f37f4361907430a179d421545bb" change="1673299480" id="C1516">
+      <dateval val="1915-03-01"/>
+      <page>film 007498903, image 991</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f37f42de65e476cffaf2bb04d31"/>
+      <noteref hlink="_f37f43014015298261630285e27"/>
+      <sourceref hlink="_f37f316674d3d1e393014902e54"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -46059,6 +46113,12 @@
       <noteref hlink="_f37efe5119137d59dfbe4496ef4"/>
       <reporef hlink="_d1cd504ec3c69370a93" callno="29180672" medium="Book"/>
     </source>
+    <source handle="_f37f316674d3d1e393014902e54" change="1673297594" id="S0600">
+      <stitle>Massachusetts, Naturalization Records, 1906-1917</stitle>
+      <sauthor>United States. District Court (Massachusetts)</sauthor>
+      <spubinfo>Washington, D.C. : National Archives &amp; Records Administration, 1988</spubinfo>
+      <reporef hlink="_ce9b9687b8963ce76e7" medium="Fiche"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1658853851" id="P0000" type="City">
@@ -47281,7 +47341,7 @@
       <pname value="Norfolk"/>
       <placeref hlink="_cf9662b0ebb7cb925ec"/>
     </placeobj>
-    <placeobj handle="_cf9662bdbca64b0b77a" change="1673281501" id="P0380" type="City">
+    <placeobj handle="_cf9662bdbca64b0b77a" change="1673299261" id="P0380" type="City">
       <pname value="Quincy"/>
       <placeref hlink="_cf9662b4c8c45309aae"/>
     </placeobj>
@@ -48958,6 +49018,14 @@
       <pname value="Olivebridge"/>
       <placeref hlink="_f37f00374f27d28091846bec89"/>
     </placeobj>
+    <placeobj handle="_f37f414f2c92d7d594d45c53ec1" change="1673299263" id="P0191" type="Street">
+      <pname value="Suomi Road"/>
+      <placeref hlink="_cf9662bdbca64b0b77a"/>
+    </placeobj>
+    <placeobj handle="_f37f4154d277b63845624148aa1" change="1673299265" id="P0192" type="Number">
+      <pname value="53"/>
+      <placeref hlink="_f37f414f2c92d7d594d45c53ec1"/>
+    </placeobj>
   </places>
   <repositories>
     <repository handle="_cdea29a49637c6553bc" change="1672241850" id="R0001">
@@ -48975,7 +49043,7 @@
       <type>Web site</type>
       <url  href="http://digi.lib.helsinki.fi/" type="Web Home"/>
     </repository>
-    <repository handle="_ce9b9687b8963ce76e7" change="1533497612" id="R0005">
+    <repository handle="_ce9b9687b8963ce76e7" change="1673297458" id="R0005">
       <rname>FamilySearch</rname>
       <type>Web site</type>
       <url  href="https://familysearch.org/" type="Web Home"/>
@@ -70600,6 +70668,33 @@ Kansalliskirjaston digitaaliset aineistot
     </note>
     <note handle="_f37f049d9b821f8a42dafcc81ba" change="1673292898" id="N2686" type="Citation">
       <text> Find a Grave, database and images (https://www.findagrave.com/memorial/190311578/ettore-severino-rossi: accessed 9 January 2023), memorial page for Ettore Severino “Eddie” Rossi (18 Jun 1904–7 May 1991), Find a Grave Memorial ID 190311578, citing Mount Wollaston Cemetery, Quincy, Norfolk County, Massachusetts, USA; Maintained by C Prendiville (contributor 49240494). </text>
+    </note>
+    <note handle="_f37f3214d0271a7a5cf218c2675" change="1673298922" id="N2687" type="Link">
+      <text>https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9ZP-B2HV?i=988&amp;cc=2140604</text>
+      <style name="link" value="https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9ZP-B2HV?i=988&amp;cc=2140604">
+        <range start="0" end="75"/>
+      </style>
+    </note>
+    <note handle="_f37f32395d127414e129fb48acc" change="1673297681" id="N2688" type="Citation">
+      <text>&quot;Massachusetts, Naturalization Records, 1906-1917,&quot; database with images, FamilySearch (https://familysearch.org/ark:/61903/3:1:3QSQ-G9ZP-B2HV?cc=2140604&amp;wc=4DL5-S57%3A1599892321 : 10 January 2018), Naturalization records v. 39-40 27 Dec. 1912- 18 Feb. 1912 (NARA Series M1368, Roll 20) &gt; image 989 of 1319; citing NARA microfilm publication M1368 (Washington, D.C.: National Archives and Records Administration, n.d.).</text>
+    </note>
+    <note handle="_f37f3f60ad428e8cc6f1fcfa019" change="1673299060" id="N2689" type="Citation">
+      <text>&quot;Massachusetts, Naturalization Records, 1906-1917,&quot; database with images, FamilySearch (https://familysearch.org/ark:/61903/3:1:3QS7-89ZP-BGCM?cc=2140604&amp;wc=4DL5-S57%3A1599892321 : 10 January 2018), Naturalization records v. 39-40 27 Dec. 1912- 18 Feb. 1912 (NARA Series M1368, Roll 20) &gt; image 990 of 1319; citing NARA microfilm publication M1368 (Washington, D.C.: National Archives and Records Administration, n.d.).</text>
+    </note>
+    <note handle="_f37f3f843b25bb7167abe3c8567" change="1673299075" id="N2690" type="Link">
+      <text>https://www.familysearch.org/ark:/61903/3:1:3QS7-89ZP-BGCM?i=989&amp;cc=2140604</text>
+      <style name="link" value="https://www.familysearch.org/ark:/61903/3:1:3QS7-89ZP-BGCM?i=989&amp;cc=2140604">
+        <range start="0" end="75"/>
+      </style>
+    </note>
+    <note handle="_f37f42de65e476cffaf2bb04d31" change="1673299426" id="N2691" type="Citation">
+      <text>&quot;Massachusetts, Naturalization Records, 1906-1917,&quot; database with images, FamilySearch (https://familysearch.org/ark:/61903/3:1:3QSQ-G9ZP-B2SD?cc=2140604&amp;wc=4DL5-S57%3A1599892321 : 10 January 2018), Naturalization records v. 39-40 27 Dec. 1912- 18 Feb. 1912 (NARA Series M1368, Roll 20) &gt; image 991 of 1319; citing NARA microfilm publication M1368 (Washington, D.C.: National Archives and Records Administration, n.d.).</text>
+    </note>
+    <note handle="_f37f43014015298261630285e27" change="1673299440" id="N2692" type="Link">
+      <text>https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9ZP-B2SD?i=990&amp;cc=2140604</text>
+      <style name="link" value="https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9ZP-B2SD?i=990&amp;cc=2140604">
+        <range start="0" end="75"/>
+      </style>
     </note>
   </notes>
 </database>
