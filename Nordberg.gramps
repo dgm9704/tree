@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2023-01-09" version="5.1.5"/>
+    <created date="2023-01-10" version="5.1.5"/>
     <researcher>
     </researcher>
   </header>
@@ -16231,12 +16231,15 @@
       <citationref hlink="_f37ba3646462f5a498f443b7403"/>
       <citationref hlink="_f37ba78f3c1300912a7e14f4a38"/>
     </event>
-    <event handle="_f37c10d718b2857b8d31a63918b" change="1673213667" id="E0698">
+    <event handle="_f37c10d718b2857b8d31a63918b" change="1673368677" id="E0698">
       <type>Birth</type>
       <dateval val="1870-08-31"/>
+      <place hlink="_cb589cc90f055fc9f0c"/>
       <citationref hlink="_f37c10ccd43413f8da390aeca73"/>
+      <citationref hlink="_f381cee9ea07b205923b0fd48ec"/>
+      <citationref hlink="_f381d72d39f2ffc107aacb82202"/>
     </event>
-    <event handle="_f37c11a79884fbcaa1f153de246" change="1673213735" id="E0699">
+    <event handle="_f37c11a79884fbcaa1f153de246" change="1673368376" id="E0699">
       <type>Residence</type>
       <datespan start="1890" stop="1891"/>
       <place hlink="_cf9668826f303e10b9a"/>
@@ -16340,6 +16343,90 @@
       <dateval val="1913-01-25"/>
       <place hlink="_f37f4154d277b63845624148aa1"/>
       <citationref hlink="_f37f3fb2a792b564312ab001b3f"/>
+    </event>
+    <event handle="_f381cef258861ed8fc0f5fe0392" change="1673369257" id="E0716">
+      <type>Residence</type>
+      <datespan start="1889-11-08" stop="1890"/>
+      <place hlink="_db74eb30e1c5fa38ad20956a338"/>
+      <citationref hlink="_f381cee9ea07b205923b0fd48ec"/>
+      <citationref hlink="_f381d2cf29b19a72b0c3dbf321d"/>
+      <citationref hlink="_f381d72d39f2ffc107aacb82202"/>
+    </event>
+    <event handle="_f381d1a29b15323063185be8257" change="1673369774" id="E0717">
+      <type>Residence</type>
+      <datespan start="1886" stop="1889-10-12"/>
+      <place hlink="_f381e0a346a7f8067a20ba0f397"/>
+      <citationref hlink="_f381cee9ea07b205923b0fd48ec"/>
+      <citationref hlink="_f381d2cf29b19a72b0c3dbf321d"/>
+      <citationref hlink="_f381d72d39f2ffc107aacb82202"/>
+      <citationref hlink="_f381dad75581e70297c0e4cd1b1"/>
+    </event>
+    <event handle="_f381d870b2f265e11a08132a372" change="1673368797" id="E0718">
+      <type>Residence</type>
+      <dateval val="1886-01-09" type="after"/>
+      <place hlink="_f381d172793346da07f6e1f4982"/>
+      <citationref hlink="_f381d72d39f2ffc107aacb82202"/>
+    </event>
+    <event handle="_f381d8c92a2334182279d4751e1" change="1673368833" id="E0719">
+      <type>Residence</type>
+      <dateval val="1886-01-09" type="before"/>
+      <place hlink="_cb589cc90f055fc9f0c"/>
+      <citationref hlink="_f381d72d39f2ffc107aacb82202"/>
+    </event>
+    <event handle="_f381fe173117cda3d04ab67df0e" change="1673372745" id="E0720">
+      <type>Birth</type>
+      <dateval val="1823-10-09"/>
+      <place hlink="_cb589cc90f055fc9f0c"/>
+      <citationref hlink="_f381fe04f931471d610ac3441a9"/>
+    </event>
+    <event handle="_f381ff3f72c71da4b752d8536b9" change="1673372866" id="E0721">
+      <type>Birth</type>
+      <dateval val="1839-10-28"/>
+      <place hlink="_cb589cc90f055fc9f0c"/>
+      <citationref hlink="_f381fe04f931471d610ac3441a9"/>
+    </event>
+    <event handle="_f3820023c257d84c32c7514f420" change="1673372970" id="E0722">
+      <type>Birth</type>
+      <dateval val="1863-01-31"/>
+      <place hlink="_cb589cc90f055fc9f0c"/>
+      <citationref hlink="_f381fe04f931471d610ac3441a9"/>
+    </event>
+    <event handle="_f382010961118a96a21ba77fd6b" change="1673373054" id="E0723">
+      <type>Birth</type>
+      <dateval val="1865-05-02"/>
+      <place hlink="_cb589cc90f055fc9f0c"/>
+      <citationref hlink="_f381fe04f931471d610ac3441a9"/>
+    </event>
+    <event handle="_f382069e1522d0974dd119ca954" change="1673373639" id="E0724">
+      <type>Birth</type>
+      <dateval val="1875-02-16"/>
+      <place hlink="_cb589cc90f055fc9f0c"/>
+      <citationref hlink="_f3820669ed95bb8e789bc464983"/>
+    </event>
+    <event handle="_f382071cd7a24ac5719bcac2fc" change="1673373691" id="E0725">
+      <type>Birth</type>
+      <dateval val="1877-02-19"/>
+      <place hlink="_cb589cc90f055fc9f0c"/>
+      <citationref hlink="_f3820669ed95bb8e789bc464983"/>
+    </event>
+    <event handle="_f382078155b5eb52967277415e0" change="1673373732" id="E0726">
+      <type>Birth</type>
+      <dateval val="1881-07-30"/>
+      <place hlink="_cb589cc90f055fc9f0c"/>
+      <citationref hlink="_f3820669ed95bb8e789bc464983"/>
+    </event>
+    <event handle="_f38207cd0c7273623c6ecb6f93e" change="1673373763" id="E0727">
+      <type>Birth</type>
+      <dateval val="1884-05-08"/>
+      <place hlink="_cb589cc90f055fc9f0c"/>
+      <citationref hlink="_f3820669ed95bb8e789bc464983"/>
+    </event>
+    <event handle="_f38208f71ac1baf7d3803c8b8be" change="1673373885" id="E0728">
+      <type>Residence</type>
+      <datespan start="1886-01-09" stop="1889"/>
+      <place hlink="_f381e0a346a7f8067a20ba0f397"/>
+      <citationref hlink="_f381fe04f931471d610ac3441a9"/>
+      <citationref hlink="_f3820669ed95bb8e789bc464983"/>
     </event>
   </events>
   <people home="_cb589cd84543096b0fa">
@@ -29189,17 +29276,21 @@
       <eventref hlink="_f36b5c719385e43473a6b9547e4" role="Primary"/>
       <parentin hlink="_f36b59b2da71f6ed1eca3569de7"/>
     </person>
-    <person handle="_f37c0ff34c53ba0b8598e359341" change="1673282098" id="I0141">
+    <person handle="_f37c0ff34c53ba0b8598e359341" change="1673373891" id="I0141">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Hulda Maria</first>
-        <surname>Winqvist</surname>
+        <surname derivation="Inherited">Winqvist</surname>
       </name>
       <eventref hlink="_f37c10d718b2857b8d31a63918b" role="Primary"/>
+      <eventref hlink="_f381d8c92a2334182279d4751e1" role="Primary"/>
+      <eventref hlink="_f381d1a29b15323063185be8257" role="Primary"/>
+      <eventref hlink="_f381cef258861ed8fc0f5fe0392" role="Primary"/>
       <eventref hlink="_f37c11a79884fbcaa1f153de246" role="Primary"/>
       <eventref hlink="_f37c13634f158c23c01347c7cb4" role="Primary"/>
       <eventref hlink="_f37e971407c40d03dc7eb225d93" role="Primary"/>
       <eventref hlink="_f37e9854a5e32b84a9549b70052" role="Primary"/>
+      <childof hlink="_f381fc75c5520e22b4c75aceaac"/>
       <parentin hlink="_cb589cdf4f00fd787fa"/>
     </person>
     <person handle="_f37e9934eb550d2815994157a66" change="1673298315" id="I0142">
@@ -29212,6 +29303,79 @@
       <eventref hlink="_f37e9cdf8a556b81fea40b3bae9" role="Primary"/>
       <eventref hlink="_f37e9d12d1c70d16aa78cf37a15" role="Primary"/>
       <childof hlink="_cb589cdf4f00fd787fa"/>
+    </person>
+    <person handle="_f381fc7a5ee277730587e64c347" change="1673373774" id="I0143">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Karl Gustaf</first>
+        <surname prim="0" derivation="Patronymic">Gustafsson</surname>
+        <surname>Winqvist</surname>
+      </name>
+      <eventref hlink="_f381fe173117cda3d04ab67df0e" role="Primary"/>
+      <parentin hlink="_f381fc75c5520e22b4c75aceaac"/>
+    </person>
+    <person handle="_f381fea59d04253813667eadd3b" change="1673373774" id="I0144">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Emma Sofia</first>
+        <surname derivation="Patronymic">Andersdotter</surname>
+      </name>
+      <eventref hlink="_f381ff3f72c71da4b752d8536b9" role="Primary"/>
+      <parentin hlink="_f381fc75c5520e22b4c75aceaac"/>
+    </person>
+    <person handle="_f381ffd65a7703bf078a013c032" change="1673373891" id="I0145">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Sofia Lovisa</first>
+        <surname>Winqvist</surname>
+      </name>
+      <eventref hlink="_f3820023c257d84c32c7514f420" role="Primary"/>
+      <childof hlink="_f381fc75c5520e22b4c75aceaac"/>
+    </person>
+    <person handle="_f38200624a526c0306f46167110" change="1673373891" id="I0146">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Karl Gustaf</first>
+        <surname derivation="Inherited">Winqvist</surname>
+      </name>
+      <eventref hlink="_f382010961118a96a21ba77fd6b" role="Primary"/>
+      <childof hlink="_f381fc75c5520e22b4c75aceaac"/>
+    </person>
+    <person handle="_f38205439d45b3ada229e20ea95" change="1673373891" id="I0147">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Otto Julius</first>
+        <surname derivation="Inherited">Winqvist</surname>
+      </name>
+      <eventref hlink="_f382069e1522d0974dd119ca954" role="Primary"/>
+      <childof hlink="_f381fc75c5520e22b4c75aceaac"/>
+    </person>
+    <person handle="_f38206da5c75fc8ff3732af0b16" change="1673373891" id="I0148">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Elin Elvira</first>
+        <surname derivation="Inherited">Winqvist</surname>
+      </name>
+      <eventref hlink="_f382071cd7a24ac5719bcac2fc" role="Primary"/>
+      <childof hlink="_f381fc75c5520e22b4c75aceaac"/>
+    </person>
+    <person handle="_f3820737ea566e02a8316b0a23f" change="1673373891" id="I0149">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Arthur Hjalmar</first>
+        <surname derivation="Inherited">Winqvist</surname>
+      </name>
+      <eventref hlink="_f382078155b5eb52967277415e0" role="Primary"/>
+      <childof hlink="_f381fc75c5520e22b4c75aceaac"/>
+    </person>
+    <person handle="_f3820791a70223857d358af4ad1" change="1673373891" id="I0150">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Edla Emilia</first>
+        <surname derivation="Inherited">Winqvist</surname>
+      </name>
+      <eventref hlink="_f38207cd0c7273623c6ecb6f93e" role="Primary"/>
+      <childof hlink="_f381fc75c5520e22b4c75aceaac"/>
     </person>
   </people>
   <families>
@@ -32744,6 +32908,19 @@
       <mother hlink="_cb589cd2a672da6d13f"/>
       <eventref hlink="_f36b5e156ac3106f2d112f7f7fb" role="Family"/>
       <eventref hlink="_f36b68740b435734139bf3e14a4" role="Family"/>
+    </family>
+    <family handle="_f381fc75c5520e22b4c75aceaac" change="1673373891" id="F0029">
+      <rel type="Married"/>
+      <father hlink="_f381fc7a5ee277730587e64c347"/>
+      <mother hlink="_f381fea59d04253813667eadd3b"/>
+      <eventref hlink="_f38208f71ac1baf7d3803c8b8be" role="Family"/>
+      <childref hlink="_f381ffd65a7703bf078a013c032"/>
+      <childref hlink="_f38200624a526c0306f46167110"/>
+      <childref hlink="_f37c0ff34c53ba0b8598e359341"/>
+      <childref hlink="_f38205439d45b3ada229e20ea95"/>
+      <childref hlink="_f38206da5c75fc8ff3732af0b16"/>
+      <childref hlink="_f3820737ea566e02a8316b0a23f"/>
+      <childref hlink="_f3820791a70223857d358af4ad1"/>
     </family>
   </families>
   <citations>
@@ -43114,6 +43291,48 @@
       <noteref hlink="_f37f43014015298261630285e27"/>
       <sourceref hlink="_f37f316674d3d1e393014902e54"/>
     </citation>
+    <citation handle="_f381cee9ea07b205923b0fd48ec" change="1673367798" id="C1517">
+      <page>Aa:69/560</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f381cec2de97cb03fe1ac1b9519"/>
+      <noteref hlink="_f381cee3b324404d21d30a3d34b"/>
+      <sourceref hlink="_f381ce8d4b342aa543663235977"/>
+    </citation>
+    <citation handle="_f381d2cf29b19a72b0c3dbf321d" change="1673368207" id="C1518">
+      <page>Bb:10/114-115</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f381d27826e588e196040090d8d"/>
+      <noteref hlink="_f381d29b9862de71bc2da8443bb"/>
+      <sourceref hlink="_f381d251a5418f560921e5df5f0"/>
+    </citation>
+    <citation handle="_f381d72d39f2ffc107aacb82202" change="1673368664" id="C1519">
+      <page>Jba:81/432</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f381d702fdb6f1673ee0a96e1f6"/>
+      <noteref hlink="_f381d7250214b4d3408b785a967"/>
+      <sourceref hlink="_f381d6ad804556ddb06c551b04a"/>
+    </citation>
+    <citation handle="_f381dad75581e70297c0e4cd1b1" change="1673369049" id="C1520">
+      <page>46</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f381daae991140e0c470da3f255"/>
+      <noteref hlink="_f381dad177437d6e4204254890f"/>
+      <sourceref hlink="_f381da5445e25cc5b055fe98c7b"/>
+    </citation>
+    <citation handle="_f381fe04f931471d610ac3441a9" change="1673373140" id="C1521">
+      <page>72b</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f381fdc5aa24bc0457b381ac304"/>
+      <noteref hlink="_f381fdff2a74cf6d54dbb10a2ec"/>
+      <sourceref hlink="_f381fd9d34c25edddfea4f80b46"/>
+    </citation>
+    <citation handle="_f3820669ed95bb8e789bc464983" change="1673373618" id="C1522">
+      <page>72b-73b</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f3820646a8d245516880884f1a1"/>
+      <noteref hlink="_f3820666c67155bb6a4768c54e4"/>
+      <sourceref hlink="_f38205f6119676fe34b995a0933"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -46119,6 +46338,36 @@
       <spubinfo>Washington, D.C. : National Archives &amp; Records Administration, 1988</spubinfo>
       <reporef hlink="_ce9b9687b8963ce76e7" medium="Fiche"/>
     </source>
+    <source handle="_f381ce8d4b342aa543663235977" change="1673367760" id="S0601">
+      <stitle>Porvoo kaup Rippikirja 1890-1899</stitle>
+      <sauthor>Porvoo kaupunkiseurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f381d251a5418f560921e5df5f0" change="1673368155" id="S0602">
+      <stitle>Porvoo kaup Muuttaneet 1880-1900</stitle>
+      <sauthor>Porvoo kaupunkiseurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f381d6ad804556ddb06c551b04a" change="1673368612" id="S0603">
+      <stitle>Porvoo kaup Muuttokirjoja 1887-1890</stitle>
+      <sauthor>Porvoon kaupunkiseurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f381da5445e25cc5b055fe98c7b" change="1673368995" id="S0604">
+      <stitle>Sääminki Muuttaneet 1880-1898</stitle>
+      <sauthor>Säämingin seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f381fd9d34c25edddfea4f80b46" change="1673372695" id="S0605">
+      <stitle>Sääminki Rippikirja 1880-1889</stitle>
+      <sauthor>Säämingin seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f38205f6119676fe34b995a0933" change="1673373570" id="S0606">
+      <stitle>Sääminki Lastenkirja 1881-1890</stitle>
+      <sauthor>Säämingin seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1658853851" id="P0000" type="City">
@@ -46734,7 +46983,7 @@
       <pname value="Biskopsnäs"/>
       <placeref hlink="_ceac1478b0919bf2446"/>
     </placeobj>
-    <placeobj handle="_cb589cfeb254c33cda1" change="1658733537" id="P0618" type="Country">
+    <placeobj handle="_cb589cfeb254c33cda1" change="1673368062" id="P0618" type="Country">
       <pname value="Suomi"/>
       <pname value="Finland" lang="sv"/>
     </placeobj>
@@ -49026,6 +49275,19 @@
       <pname value="53"/>
       <placeref hlink="_f37f414f2c92d7d594d45c53ec1"/>
     </placeobj>
+    <placeobj handle="_f381d172793346da07f6e1f4982" change="1673369651" id="P0193" type="Parish">
+      <pname value="Sääminki"/>
+      <placeref hlink="_cb589cfeb254c33cda1"/>
+    </placeobj>
+    <placeobj handle="_f381e097a18530c9f605813afc1" change="1673369652" id="P0194" type="Village">
+      <pname value="Pihlajanniemi"/>
+      <placeref hlink="_f381d172793346da07f6e1f4982"/>
+    </placeobj>
+    <placeobj handle="_f381e0a346a7f8067a20ba0f397" change="1673369657" id="P0195" type="Farm">
+      <code>4</code>
+      <pname value="Kukkolanpelto"/>
+      <placeref hlink="_f381e097a18530c9f605813afc1"/>
+    </placeobj>
   </places>
   <repositories>
     <repository handle="_cdea29a49637c6553bc" change="1672241850" id="R0001">
@@ -49033,7 +49295,7 @@
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1673202562" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1673373568" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -70694,6 +70956,60 @@ Kansalliskirjaston digitaaliset aineistot
       <text>https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9ZP-B2SD?i=990&amp;cc=2140604</text>
       <style name="link" value="https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9ZP-B2SD?i=990&amp;cc=2140604">
         <range start="0" end="75"/>
+      </style>
+    </note>
+    <note handle="_f381cec2de97cb03fe1ac1b9519" change="1673367782" id="N2693" type="Citation">
+      <text>Porvoo kaupunkiseurakunta rippikirja 1890-1899 (AP I Aa:69)  Sivu 560  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38569&amp;pnum=564 / Viitattu 10.01.2023</text>
+    </note>
+    <note handle="_f381cee3b324404d21d30a3d34b" change="1673367795" id="N2694" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38569&amp;pnum=564</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38569&amp;pnum=564">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f381d27826e588e196040090d8d" change="1673368171" id="N2695" type="Citation">
+      <text>Porvoo kaupunkiseurakunta muuttaneet 1880-1900 (AP I Bb:10)  Sivu 114 1890 Sisäänmuuttaneet  1890 Ulosmuuttaneet ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38606&amp;pnum=60 / Viitattu 10.01.2023</text>
+    </note>
+    <note handle="_f381d29b9862de71bc2da8443bb" change="1673368185" id="N2696" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38606&amp;pnum=60</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38606&amp;pnum=60">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f381d702fdb6f1673ee0a96e1f6" change="1673368647" id="N2697" type="Citation">
+      <text>Porvoo kaupunkiseurakunta muuttokirjoja 1887-1890 (AP I Jba:81)  Winqvist ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38613&amp;pnum=432 / Viitattu 10.01.2023</text>
+    </note>
+    <note handle="_f381d7250214b4d3408b785a967" change="1673368661" id="N2698" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38613&amp;pnum=432</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38613&amp;pnum=432">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f381daae991140e0c470da3f255" change="1673369032" id="N2699" type="Citation">
+      <text>Sääminki muuttaneet 1880-1898 (MKO3-5)  Sivu 46  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7226&amp;pnum=45 / Viitattu 10.01.2023</text>
+    </note>
+    <note handle="_f381dad177437d6e4204254890f" change="1673369046" id="N2700" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7226&amp;pnum=45</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7226&amp;pnum=45">
+        <range start="0" end="76"/>
+      </style>
+    </note>
+    <note handle="_f381fdc5aa24bc0457b381ac304" change="1673372712" id="N2701" type="Citation">
+      <text>Sääminki rippikirja 1880-1889 (MKO89-117)  Sivu 72 Pihlajanniemi 4, torpparit ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7218&amp;pnum=544 / Viitattu 10.01.2023</text>
+    </note>
+    <note handle="_f381fdff2a74cf6d54dbb10a2ec" change="1673372735" id="N2702" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7218&amp;pnum=544</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7218&amp;pnum=544">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f3820646a8d245516880884f1a1" change="1673373603" id="N2703" type="Citation">
+      <text>Sääminki lastenkirja 1881-1890 (MKO30-45)  Sivu 72 Pihlajaniemi 4, Kukkolanpelto ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7222&amp;pnum=291 / Viitattu 10.01.2023</text>
+    </note>
+    <note handle="_f3820666c67155bb6a4768c54e4" change="1673373616" id="N2704" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7222&amp;pnum=291</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7222&amp;pnum=291">
+        <range start="0" end="77"/>
       </style>
     </note>
   </notes>
