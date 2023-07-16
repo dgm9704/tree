@@ -16660,6 +16660,20 @@
       <citationref hlink="_f5dc2ecc827284a7aecff6373c7"/>
       <citationref hlink="_f5dc5c526282f24b57d42bd911b"/>
     </event>
+    <event handle="_f5dc626372f4821c85484cbac70" change="1689543474" id="E0765">
+      <type>Residence</type>
+      <datespan start="1829" stop="1839"/>
+      <place hlink="_cb589cdf1a006f5082e"/>
+      <citationref hlink="_f5dc625a8771d89b73cf5ac785e"/>
+      <citationref hlink="_f5dc640de0f400c2c661731962d"/>
+    </event>
+    <event handle="_f5dc6c347d0b193865575bd0d7" change="1689544106" id="E0766">
+      <type>Birth</type>
+      <dateval val="1836-08-15"/>
+      <place hlink="_cb589cdf1a006f5082e"/>
+      <citationref hlink="_f5dc640de0f400c2c661731962d"/>
+      <citationref hlink="_f5dc6c2f00f7e75a4d8065f36d0"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1658869228" id="I3858">
@@ -29713,7 +29727,7 @@
       <eventref hlink="_f5dbf172a1842c93b32118266ef" role="Primary"/>
       <parentin hlink="_f5dbef6d3493008040063748cfa"/>
     </person>
-    <person handle="_f5dc1866a3424fd5779643cee76" change="1689538623" id="I0161">
+    <person handle="_f5dc1866a3424fd5779643cee76" change="1689544118" id="I0161">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Gustaf</first>
@@ -29724,7 +29738,7 @@
       <eventref hlink="_f5dc22a995010ce79ab4d066cc1" role="Primary"/>
       <childof hlink="_f5dbef6d3493008040063748cfa"/>
     </person>
-    <person handle="_f5dc2ff6829484e35a03e3aa561" change="1689538623" id="I0162">
+    <person handle="_f5dc2ff6829484e35a03e3aa561" change="1689544118" id="I0162">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Carl</first>
@@ -29734,7 +29748,7 @@
       <eventref hlink="_f5dc30bab5c698a1944bda095ab" role="Primary"/>
       <childof hlink="_f5dbef6d3493008040063748cfa"/>
     </person>
-    <person handle="_f5dc30cbfd71c573d83661ca2f0" change="1689538623" id="I0163">
+    <person handle="_f5dc30cbfd71c573d83661ca2f0" change="1689544118" id="I0163">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Gustaf</first>
@@ -29745,13 +29759,24 @@
       <eventref hlink="_f5dc315447756e1bc4e10b76839" role="Primary"/>
       <childof hlink="_f5dbef6d3493008040063748cfa"/>
     </person>
-    <person handle="_f5dc31788967631eacb6b43bd87" change="1689538623" id="I0164">
+    <person handle="_f5dc31788967631eacb6b43bd87" change="1689544118" id="I0164">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Lovisa</first>
         <surname derivation="Inherited">Kullberg</surname>
+        <surname prim="0" derivation="Patronymic">Gustafsdotter</surname>
       </name>
       <eventref hlink="_f5dc31ca8062e55fbaa33f80124" role="Primary"/>
+      <childof hlink="_f5dbef6d3493008040063748cfa"/>
+    </person>
+    <person handle="_f5dc669056f56d736a4249d542e" change="1689544118" id="I0165">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Johannes</first>
+        <surname derivation="Inherited">Kullberg</surname>
+        <surname prim="0" derivation="Patronymic">Gustafsson</surname>
+      </name>
+      <eventref hlink="_f5dc6c347d0b193865575bd0d7" role="Primary"/>
       <childof hlink="_f5dbef6d3493008040063748cfa"/>
     </person>
   </people>
@@ -33320,7 +33345,7 @@
       <childref hlink="_f3828a42ae04829243d09e2400b"/>
       <childref hlink="_f3828b5d564339fa562b79b2a71"/>
     </family>
-    <family handle="_f5dbef6d3493008040063748cfa" change="1689538623" id="F0031">
+    <family handle="_f5dbef6d3493008040063748cfa" change="1689544118" id="F0031">
       <rel type="Unknown"/>
       <father hlink="_f5dbefd42bfffb065d136c4c64"/>
       <mother hlink="_cb589cd276e459bbf65"/>
@@ -33328,10 +33353,12 @@
       <eventref hlink="_f5dbf2693ea796605e1698b40de" role="Family"/>
       <eventref hlink="_f5dbf314fc4143e70b6c7d1a98a" role="Family"/>
       <eventref hlink="_f5dbf3e917912fabd9107a92bf5" role="Family"/>
+      <eventref hlink="_f5dc626372f4821c85484cbac70" role="Family"/>
       <childref hlink="_f5dc1866a3424fd5779643cee76"/>
       <childref hlink="_f5dc2ff6829484e35a03e3aa561"/>
       <childref hlink="_f5dc30cbfd71c573d83661ca2f0"/>
       <childref hlink="_f5dc31788967631eacb6b43bd87"/>
+      <childref hlink="_f5dc669056f56d736a4249d542e"/>
     </family>
   </families>
   <citations>
@@ -43926,6 +43953,29 @@
       <noteref hlink="_f5dc5874ee0400c6f5edfeff3a2"/>
       <noteref hlink="_f5dc5c4db3e6da59e409063b090"/>
       <sourceref hlink="_db7f15f20625e2c9b2369407e7e"/>
+    </citation>
+    <citation handle="_f5dc625a8771d89b73cf5ac785e" change="1689543073" id="C1547">
+      <page>352</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f5dc621e7757cf535e93af0258b"/>
+      <noteref hlink="_f5dc62572a02f8367e1b0642d1e"/>
+      <sourceref hlink="_d6ca98778dc10e0561f9c06980f"/>
+    </citation>
+    <citation handle="_f5dc640de0f400c2c661731962d" change="1689543463" id="C1548">
+      <page>350-351</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f5dc63ed9bb41bf731c34d5885f"/>
+      <noteref hlink="_f5dc64012e549b9a83f517e09df"/>
+      <noteref hlink="_f5dc660ef1d1df54fa21336f1e1"/>
+      <sourceref hlink="_d6cac3ebefa7ac5b3c739d52590"/>
+    </citation>
+    <citation handle="_f5dc6c2f00f7e75a4d8065f36d0" change="1689544103" id="C1549">
+      <page>282-283</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f5dc6883853288fcd46e19e0e0d"/>
+      <noteref hlink="_f5dc68a035264056eea8c8c2154"/>
+      <noteref hlink="_f5dc6c2868526756037525d4974"/>
+      <sourceref hlink="_d6ce578bcc53be09fa28b6d6627"/>
     </citation>
   </citations>
   <sources>
@@ -72116,6 +72166,55 @@ N. 4  10  Maria Lovisa      Par: Soknesmeden         Testes: Smedsonen Carl Staf
                                                      Coll 15 kop ????</text>
       <style name="fontface" value="Monospace">
         <range start="0" end="862"/>
+      </style>
+    </note>
+    <note handle="_f5dc621e7757cf535e93af0258b" change="1689543048" id="N2772" type="Citation">
+      <text>Porvoo maaseurakunta rippikirja 1829-1839 (AP_LÄNSI I Aa:15)  Sivu 352 Saxby Handtverkare m.m. ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38651&amp;pnum=357 / Viitattu 16.07.2023</text>
+    </note>
+    <note handle="_f5dc62572a02f8367e1b0642d1e" change="1689543071" id="N2773" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38651&amp;pnum=357</text>
+    </note>
+    <note handle="_f5dc63ed9bb41bf731c34d5885f" change="1689543238" id="N2774" type="Citation">
+      <text>Porvoo maaseurakunta lastenkirja 1831-1848 (AP_LÄNSI I Ab:10)  Sivu 350 (Saxby )handtverkare ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38679&amp;pnum=179 / Viitattu 16.07.2023</text>
+    </note>
+    <note handle="_f5dc64012e549b9a83f517e09df" change="1689543246" id="N2775" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38679&amp;pnum=179</text>
+    </note>
+    <note handle="_f5dc660ef1d1df54fa21336f1e1" change="1689543461" id="N2776" type="Transcript" format="1">
+      <text>                    Saxby          351
+Handtverkare
+Soknesmeden Gustaf Eriksson Kullbergs barn med Maria Nordberg
+Carl Gustafsson Kullberg           25/9  1826
+Gustaf Gustafsson Kullberg         3/12  1828
+Maria Lovisa Gustafsdr Kullberg     4/4  1831
+Johannes Gustafsson Kullberg       15/8  1836</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="297"/>
+      </style>
+    </note>
+    <note handle="_f5dc6883853288fcd46e19e0e0d" change="1689543719" id="N2777" type="Citation">
+      <text>Porvoo syntyneet 1833-1840 (AP I C:8)  Sivu 282 1836 Augusti ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38715&amp;pnum=143 / Viitattu 16.07.2023</text>
+    </note>
+    <note handle="_f5dc68a035264056eea8c8c2154" change="1689543730" id="N2778" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38715&amp;pnum=143</text>
+    </note>
+    <note handle="_f5dc6c2868526756037525d4974" change="1689544101" id="N2779" type="Transcript" format="1">
+      <text>                                   Födde år 1836
+                                   Augusti månad
+
+N.  15.  18.  Johannes            Par Sokne Smeden     Testes: Skattfogden Fredrik Back
+              Döpt af             Gustaf Kullberg      man med hu Maja Stina An
+              Adjuncten Berner    hu Maria Nordberg    dersdotter, Murmästaren Ro
+                                                x37    senström med hu MAja Stina
+                                                       Eliasdotter, Smedlärlingen
+                                                       Wilhelm Stahlsted; dess från
+                                                       Saxby, Smedsonen Carl Nord
+                                                       berg från Hindhår, och pigan 
+                                                       Maria Johansdotter från Staden
+                                                       1. Qv No 11
+                                                       Coll 70 kop och ???</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="991"/>
       </style>
     </note>
   </notes>
