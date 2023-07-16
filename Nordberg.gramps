@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2023-01-10" version="5.1.5"/>
+    <created date="2023-07-16" version="5.1.6"/>
     <researcher>
     </researcher>
   </header>
@@ -1630,13 +1630,13 @@
       <citationref hlink="_d6e0f52608854bc7f7f513815c1"/>
       <citationref hlink="_d6e0f29cb214ee91e1b373bd27e"/>
     </event>
-    <event handle="_cb589ccec3c2b9c8a09" change="1628689954" id="E1025">
+    <event handle="_cb589ccec3c2b9c8a09" change="1688307760" id="E1025">
       <type>Birth</type>
       <dateval val="1748-09-16"/>
       <place hlink="_cb589ccbc8775a4d7d2"/>
       <citationref hlink="_cdccc3f39ef4acce289"/>
     </event>
-    <event handle="_cb589ccec537103c0bf" change="1628604159" id="E1026">
+    <event handle="_cb589ccec537103c0bf" change="1688307145" id="E1026">
       <type>Birth</type>
       <dateval val="1740"/>
       <citationref hlink="_e904b8e9c087c4787f67741da7e"/>
@@ -1649,7 +1649,7 @@
       <place hlink="_d6d4c9a6ea11b074476c2f15124"/>
       <citationref hlink="_d6d0db76f4a3b74401d88a317bf"/>
     </event>
-    <event handle="_cb589ccec784a68ff81" change="1621778057" id="E1028">
+    <event handle="_cb589ccec784a68ff81" change="1689522644" id="E1028">
       <type>Death</type>
       <dateval val="1770" type="about"/>
       <place hlink="_cb589cc90f055fc9f0c"/>
@@ -1657,7 +1657,7 @@
       <citationref hlink="_d6d47bd54093603735f54b552e3"/>
       <citationref hlink="_d6d4644d6d96f10c550bd2d7e4c"/>
     </event>
-    <event handle="_cb589ccec7b1bd41468" change="1621778051" id="E1029">
+    <event handle="_cb589ccec7b1bd41468" change="1689520450" id="E1029">
       <type>Birth</type>
       <dateval val="1768-10-01"/>
       <place hlink="_cb589ccbc8775a4d7d2"/>
@@ -9169,11 +9169,10 @@
       <citationref hlink="_d6cdcff849d4110be5405581bc2"/>
       <citationref hlink="_df8168f707a61969a294f7b5087"/>
     </event>
-    <event handle="_d6cdd39454e14d68185bfd15413" change="1476121934" id="E1986">
-      <type>Occupation</type>
+    <event handle="_d6cdd39454e14d68185bfd15413" change="1689523791" id="E1986">
+      <type>Residence</type>
       <datespan start="1803" stop="1812"/>
       <place hlink="_cb589ccbc8775a4d7d2"/>
-      <description>smed</description>
       <citationref hlink="_d6cdcff849d4110be5405581bc2"/>
     </event>
     <event handle="_d6cdd54236ea13f95aab88a73" change="1535998620" id="E1987">
@@ -9225,7 +9224,7 @@
       <citationref hlink="_d6d49b74f404d7830edc98ab423"/>
       <citationref hlink="_cdbd0dc1efa1d31833b"/>
     </event>
-    <event handle="_d6ce20cf0fa98b8785dddd209a" change="1628604349" id="E2002">
+    <event handle="_d6ce20cf0fa98b8785dddd209a" change="1689520513" id="E2002">
       <type>Residence</type>
       <datespan start="1771" stop="1776"/>
       <place hlink="_d6d4c9a6ea11b074476c2f15124"/>
@@ -9316,7 +9315,7 @@
       <place hlink="_cb589ccbc8775a4d7d2"/>
       <citationref hlink="_d6e0f29cb214ee91e1b373bd27e"/>
     </event>
-    <event handle="_d6e43a9b6c84d5211eaa244b91e" change="1628604234" id="E2048">
+    <event handle="_d6e43a9b6c84d5211eaa244b91e" change="1689520483" id="E2048">
       <type>Residence</type>
       <dateval val="1770"/>
       <place hlink="_d6d4c9a6ea11b074476c2f15124"/>
@@ -12897,7 +12896,7 @@
       <place hlink="_d6d4c9a6ea11b074476c2f15124"/>
       <citationref hlink="_df80eabe1582fe5c1994eb4415d"/>
     </event>
-    <event handle="_df80f092fd41eead0f9ad48c3eb" change="1535905531" id="E2767">
+    <event handle="_df80f092fd41eead0f9ad48c3eb" change="1689524499" id="E2767">
       <type>Residence</type>
       <datespan start="1849" stop="1855"/>
       <place hlink="_d6d4c9a6ea11b074476c2f15124"/>
@@ -14757,11 +14756,12 @@
       <place hlink="_e10c216106e761d03c131abecef"/>
       <citationref hlink="_ec00090ba582b491e77a42ff926"/>
     </event>
-    <event handle="_ec0009818b3374343894e96afcb" change="1628769724" id="E0334">
+    <event handle="_ec0009818b3374343894e96afcb" change="1688309765" id="E0334">
       <type>Residence</type>
       <datespan start="1754" stop="1770"/>
       <place hlink="_e10c216106e761d03c131abecef"/>
       <citationref hlink="_ec00090ba582b491e77a42ff926"/>
+      <citationref hlink="_f5ae7098aa65e174af84b8889da"/>
     </event>
     <event handle="_ec0045a6c5521ef2fd7099d0e76" change="1621786954" id="E0335">
       <type>Death</type>
@@ -16579,8 +16579,13 @@
       <place hlink="_f3827c4e6ed31b0049563beee0a"/>
       <citationref hlink="_f382877a2446ca353f67aa0d214"/>
     </event>
+    <event handle="_f5ae71c659e6bc038e68b4519e1" change="1688309908" id="E0753">
+      <type>Birth</type>
+      <dateval val="1757"/>
+      <citationref hlink="_f5ae7098aa65e174af84b8889da"/>
+    </event>
   </events>
-  <people home="_cb589cd84543096b0fa">
+  <people home="_cb589cdf4a353d7b321">
     <person handle="_cb589cc7f8356f9dc4a" change="1658869228" id="I3858">
       <gender>F</gender>
       <name type="Birth Name">
@@ -18642,7 +18647,7 @@
       <childof hlink="_cb589cceaf224ab31fa"/>
       <parentin hlink="_cb589ccbb656852f0db"/>
     </person>
-    <person handle="_cb589ccec366d226d64" change="1628845910" id="I3127">
+    <person handle="_cb589ccec366d226d64" change="1688310008" id="I3127">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Catharina</first>
@@ -28937,7 +28942,7 @@
       <eventref hlink="_ed00e1d43c03b31eb9939f08a0f" role="Primary"/>
       <childof hlink="_cb589ccf3ff2e11b1e3"/>
     </person>
-    <person handle="_ed01836de4b4fc716b6b2380358" change="1628847678" id="I0097">
+    <person handle="_ed01836de4b4fc716b6b2380358" change="1688310008" id="I0097">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Ebba</first>
@@ -28947,7 +28952,7 @@
       <eventref hlink="_ed074d38a6dc9d693aec37d0fa" role="Primary"/>
       <childof hlink="_cb589ccec4041260320"/>
     </person>
-    <person handle="_ed01cdb9ef168635ab1ffaa972e" change="1628845910" id="I0098">
+    <person handle="_ed01cdb9ef168635ab1ffaa972e" change="1688310008" id="I0098">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria</first>
@@ -29610,6 +29615,15 @@
       <eventref hlink="_f3828ba52e52454f15c9de328d8" role="Primary"/>
       <eventref hlink="_f3828bd699b32e10ebea731fb8a" role="Primary"/>
       <childof hlink="_f38280ad8d33e79568c54ac99b4"/>
+    </person>
+    <person handle="_f5ae71038c97fa177114366ddf1" change="1688310008" id="I0159">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Johan</first>
+        <surname derivation="Patronymic">Henricsson</surname>
+      </name>
+      <eventref hlink="_f5ae71c659e6bc038e68b4519e1" role="Primary"/>
+      <childof hlink="_cb589ccec4041260320"/>
     </person>
   </people>
   <families>
@@ -30511,7 +30525,7 @@
       <childref hlink="_cb589cd3e572ec86505"/>
       <childref hlink="_cb589cd3e851b890138"/>
     </family>
-    <family handle="_cb589ccec4041260320" change="1628845910" id="F1927">
+    <family handle="_cb589ccec4041260320" change="1688310008" id="F1927">
       <rel type="Married"/>
       <father hlink="_cb589cd26eb525e6be4"/>
       <mother hlink="_cdcccf793e44637bd23"/>
@@ -30523,6 +30537,7 @@
       <childref hlink="_cb589ccec366d226d64"/>
       <childref hlink="_ed01836de4b4fc716b6b2380358"/>
       <childref hlink="_ed01cdb9ef168635ab1ffaa972e"/>
+      <childref hlink="_f5ae71038c97fa177114366ddf1"/>
     </family>
     <family handle="_cb589ccec6565681a23" change="1420168056" id="F2717">
       <rel type="Unknown"/>
@@ -34522,9 +34537,10 @@
       <noteref hlink="_ed080fcc0ed6658b8483580c8d0"/>
       <sourceref hlink="_d6cdc2a86263f2f0fee504a4247"/>
     </citation>
-    <citation handle="_d6cdcff849d4110be5405581bc2" change="1476635609" id="C0199">
+    <citation handle="_d6cdcff849d4110be5405581bc2" change="1689523002" id="C0199">
       <page>112</page>
       <confidence>2</confidence>
+      <noteref hlink="_f5dba2d1eee68ac3c0eab169ada"/>
       <noteref hlink="_d6cdcfc4c885d52833b0e49637"/>
       <noteref hlink="_d6e0736d1c317331eafb02cd81d"/>
       <sourceref hlink="_d6cdc2a86263f2f0fee504a4247"/>
@@ -39411,10 +39427,12 @@
       <noteref hlink="_df80eab76c936ba4117c218f42b"/>
       <sourceref hlink="_db7f1b5c6071ba83807beed0bfa"/>
     </citation>
-    <citation handle="_df80f084c5b2f1d7daa9e9b4d27" change="1535905525" id="C0962">
+    <citation handle="_df80f084c5b2f1d7daa9e9b4d27" change="1689523769" id="C0962">
       <page>132</page>
       <confidence>2</confidence>
+      <noteref hlink="_f5dba3bd5bc51242fd9d6be41d8"/>
       <noteref hlink="_df80f07fdf47618884542b0864d"/>
+      <noteref hlink="_f5dbaa3ba58572949c1216b575c"/>
       <sourceref hlink="_db7f1d99179967edd7fa10f675"/>
     </citation>
     <citation handle="_df8168f707a61969a294f7b5087" change="1535918154" id="C0963">
@@ -43678,6 +43696,14 @@
       <noteref hlink="_f3828776c9f1b5d298c43ed9d1d"/>
       <sourceref hlink="_f3828726e33552238991a4f10e1"/>
     </citation>
+    <citation handle="_f5ae7098aa65e174af84b8889da" change="1688309763" id="C1536">
+      <page>I Ab:2/241-242</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f5ae6ea795d696bf00926ba6843"/>
+      <noteref hlink="_f5ae6ee1301363001ac185f5087"/>
+      <noteref hlink="_f5ae709080235048f77500d9f5a"/>
+      <sourceref hlink="_f5ae6df9bf869b343c4141410b"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -46727,6 +46753,11 @@
       <sauthor>Porvoon maaseurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
+    <source handle="_f5ae6df9bf869b343c4141410b" change="1688309872" id="S0610">
+      <stitle>Porvoon msrk Lastenkirja 1762-1771</stitle>
+      <sauthor>Porvoon maaseurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1658853851" id="P0000" type="City">
@@ -47361,10 +47392,11 @@
       <pname value="Viipuri"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
     </placeobj>
-    <placeobj handle="_cde630ab53a2c774547" change="1415400283" id="P0428" type="Building">
+    <placeobj handle="_cde630ab53a2c774547" change="1679238946" id="P0428" type="Building">
       <ptitle>Gula Willan, Helsingfors, Finland</ptitle>
       <pname value="Gula Willan"/>
       <placeref hlink="_cb589cc7f8d1b88b055"/>
+      <noteref hlink="_f45c867b0fe145d757dbec7089d"/>
     </placeobj>
     <placeobj handle="_cde633071333d6ede5b" change="1419114979" id="P0430" type="Neighborhood">
       <ptitle>Bruk, Mariefors, Finland</ptitle>
@@ -49662,7 +49694,7 @@
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1673387115" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1688309485" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -52365,12 +52397,15 @@ https://astia.narc.fi/uusiastia/viewer/?fileId=5862794530&amp;aineistoId=1168638
         <range start="46" end="125"/>
       </style>
     </note>
-    <note handle="_d6d0f8c149db67980e45beb765" change="1476206343" id="N0390" type="Transcript" format="1">
+    <note handle="_d6d0f8c149db67980e45beb765" change="1689520433" id="N0390" type="Transcript" format="1">
       <text>1768 
 October
-1	2	Johannes	Johan Mattsson		Carin Henr dr	Hindhår
-					T: Johan Johansson	Anna + Caisa	Smeden
-					Mats Henrss		Henrichs dr</text>
+1  2  Johannes  Johan Mattsson      Carin Henr dr  Hindhår
+                T: Johan Johansson  Anna + Caisa   Smeden
+                Mats Henrss         Henrichs dr</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="178"/>
+      </style>
     </note>
     <note handle="_d6d12a538f4361820f307cae3aa" change="1476211541" id="N0391" type="Link">
       <text>http://digi.narc.fi/digi/view.ka?kuid=7968152
@@ -52733,18 +52768,21 @@ N b.	7.	15.	Caisa Hansdr	Hindhår, Smeden	Smedhustru, gift med		Gammalt
 													Staffan Joh son Nordberg,	Venerisk.
 													47 år gammal.</text>
     </note>
-    <note handle="_d6e0736d1c317331eafb02cd81d" change="1476621881" id="N0440" type="Transcript" format="1">
+    <note handle="_d6e0736d1c317331eafb02cd81d" change="1689522971" id="N0440" type="Transcript" format="1">
       <text>112 				Hindhår
 Skomak. Backst
 [...]
 Smed
-	Staffan Johansson Nordberg	1770
-hu	Kaisa Hansdr				1771							Tilllemnat sundhetsbetyg ifr Tav.hus ??? 23/10 [1]803 ?????
+	Staffan Johansson Nordberg      1770
+hu	Kaisa Hansdr                    1771                  Tilllemnat sundhetsbetyg ifr Tav.hus ??? 23/10 [1]803 ?????
 mor Smeds enka ???
-Enka Kaisa Henriksdr			1740 16/9
-Bror Johan Johansson			1784
+Enka Kaisa Henriksdr                    1740 16/9
+Bror Johan Johansson                    1784
 Son ???
-Gustaf Staffansson				2/10 1794						Vaccin [1]803 adm 4/10 [1]809</text>
+Gustaf Staffansson                      2/10 1794             Vaccin [1]803 adm 4/10 [1]809</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="410"/>
+      </style>
     </note>
     <note handle="_d6e077273cb1cac1c47127dfd7f" change="1476622250" id="N0441" type="Link">
       <text>http://digi.narc.fi/digi/view.ka?kuid=7959512
@@ -71494,6 +71532,90 @@ Kansalliskirjaston digitaaliset aineistot
       <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38681&amp;pnum=143</text>
       <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38681&amp;pnum=143">
         <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f45c867b0fe145d757dbec7089d" change="1679238939" id="N2731" type="Source text">
+      <text>1830-luku oli Siltasaaressa muutosten aikaa. Vanha Hämeentie kunnostettiin ja sillat linjattiin Unioninkadun suoraksi jatkeeksi vuonna 1832. Tämä paransi saaren liikenneyhteyksiä ja houkutteli varakkaita porvareita rakentamaan sinne huviloita ja kesäasuntoja.
+
+Kuuluisin näistä huviloista oli Gula Villan (Keltainen huvila), jonka kauppias Johan Fredrik Hackman rakennutti vuonna 1848. Hän oli myös yksi Sveaborgin linnoituksen perustajista ja Suomen ensimmäisen höyrylaivan omistajista. Hän kuoli kuitenkin jo seuraavana vuonna.
+
+Gula Villan siirtyi Hackmanin kuoleman jälkeen useiden tunnettujen sukujen omistukseen, kuten von Wrighteille, Borgströmeille ja Lönnbohmeille. Se oli myös kulttuurinen keskus, jossa pidettiin kirjallisia salongeja, konsertteja ja näyttelyitä. Siellä vierailivat muun muassa Zacharias Topelius, Jean Sibelius ja Akseli Gallen-Kallela.
+
+Gula Villan purettiin vuonna 1913 Lars Sonckin suunnitteleman uuden asuinkerrostalon tieltä. Sen paikalla on nykyään osoite Hämeentie 2.
+</text>
+    </note>
+    <note handle="_f5ae6ea795d696bf00926ba6843" change="1688309559" id="N2732" type="Citation">
+      <text>Porvoo maaseurakunta lastenkirja 1762-1771 (AP I Ab:2)  Sivu 241 Hindhår Caus,  Kortisbacka, Norveckoski ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38671&amp;pnum=124 / Viitattu 02.07.2023</text>
+    </note>
+    <note handle="_f5ae6ee1301363001ac185f5087" change="1688309583" id="N2733" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38671&amp;pnum=124</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38671&amp;pnum=124">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f5ae709080235048f77500d9f5a" change="1688309760" id="N2734" type="Transcript" format="1">
+      <text>241
+
+Caus h.
+
+Caisa Hindersdr  51  +  ???
+Ebba do          53  +  ???
+Maria do         55  +  ???
+Johan do         57  +  ???
+
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="127"/>
+      </style>
+    </note>
+    <note handle="_f5dba2d1eee68ac3c0eab169ada" change="1689522989" id="N2735" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A Kirkon pääkirjat hakemistoineen. I Aa Pää- ja rippikirjat. Rippikirjat, Läntinen osa  (1803-1812). Tiedosto 116. Kansallisarkisto. Viitattu 16.7.2023.</text>
+    </note>
+    <note handle="_f5dba3bd5bc51242fd9d6be41d8" change="1689523085" id="N2736" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A Kirkon pääkirjat hakemistoineen. I Aa Pää- ja rippikirjat. Rippikirjat, Läntinen osa  (1849-1858). Tiedosto 133. Kansallisarkisto. Viitattu 16.7.2023.</text>
+    </note>
+    <note handle="_f5dba6d097c2923966c09260b23" change="1689523408" id="N2737" type="Transcript" format="1">
+      <text>132          Hindhår
+
+Gårdens Handtverkare
+[...]
+Gårds smed
+Carl Staffansson Nordberg     28/4   1809
+Hu Lena Sofia Frejborg        17/9   1809
+Son Carl Gustaf Nordberg      9/5    1835
+  Far f.d. smed ?? 2ra g gift ???
+Enkl Staffa Johanss Nordberg         1770
+
+Smed lärling Brorsonn
+Carl Nordberg</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="262"/>
+      </style>
+    </note>
+    <note handle="_f5dbaa3ba58572949c1216b575c" change="1689524496" id="N2738" type="Transcript" format="1">
+      <text>132          Hindhår
+Gårdens Handtverkare
+[...]
+Gårds smed 
+Carl Staffansson Nordberg        28/4  1809
+Hu Lena Sofia Frejborg           17/9  1809
+Son Carl Gutaf Nordberg           9/5  1835
+Far f.d. smed ???
+Enkl Staffan Johans Nordberg           1770  Dog den 16 April 1855
+
+smed lärling Brorson
+Carl Nordberg                     28/2 1827  1849 till p. 290
+smed lärling 
+Fredrik Nordberg                  9/12 1830  1854 till p. 418          1849 fr.p. 290
+piga hos Nordberg
+Anna Cajsa Carlsdotter           23/11 1829                            Haft veneriskt, frisk  1848 till p. 137
+Piga Lovisa Carlsdotter           16/3 1825                            Haft veneriskt  1848 till p. 148
+Piga Sofia Carolina Carlsdotter   24/5 1833  1850 till p. 244          1848 fr.p. 137
+Piga  Isaksdr
+Stina Erika Ekblom               12/8  1826  1851 till p. 157          1850 fr.p. 163  27/11 1854 lysing med Carl? Frejborg p. 137
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="925"/>
       </style>
     </note>
   </notes>
