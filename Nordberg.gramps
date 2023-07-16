@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2023-07-16" version="5.1.6"/>
+    <created date="2023-07-17" version="5.1.6"/>
     <researcher>
     </researcher>
   </header>
@@ -16639,24 +16639,26 @@
       <place hlink="_f5dc1530d085110bb2b989ab076"/>
       <citationref hlink="_f5dc21b7fc6a2a89fd0ae73f1"/>
     </event>
-    <event handle="_f5dc30bab5c698a1944bda095ab" change="1689538614" id="E0762">
+    <event handle="_f5dc30bab5c698a1944bda095ab" change="1689541305" id="E0762">
       <type>Birth</type>
       <dateval val="1826-09-25"/>
       <place hlink="_cb589cdf1a006f5082e"/>
       <citationref hlink="_f5dc2ecc827284a7aecff6373c7"/>
       <citationref hlink="_f5dc37cf7c521014b0f72ae4e75"/>
     </event>
-    <event handle="_f5dc315447756e1bc4e10b76839" change="1689537932" id="E0763">
+    <event handle="_f5dc315447756e1bc4e10b76839" change="1689541908" id="E0763">
       <type>Birth</type>
       <dateval val="1828-12-03"/>
       <place hlink="_cb589cdf1a006f5082e"/>
       <citationref hlink="_f5dc2ecc827284a7aecff6373c7"/>
+      <citationref hlink="_f5dc57396091d4ab4c0915ca3e0"/>
     </event>
-    <event handle="_f5dc31ca8062e55fbaa33f80124" change="1689537981" id="E0764">
+    <event handle="_f5dc31ca8062e55fbaa33f80124" change="1689542442" id="E0764">
       <type>Birth</type>
       <dateval val="1831-04-04"/>
       <place hlink="_cb589cdf1a006f5082e"/>
       <citationref hlink="_f5dc2ecc827284a7aecff6373c7"/>
+      <citationref hlink="_f5dc5c526282f24b57d42bd911b"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -43907,6 +43909,22 @@
       <noteref hlink="_f5dc34ab18c454fd873f2d84d41"/>
       <noteref hlink="_f5dc34bf85b519404ebfcb0c2ee"/>
       <noteref hlink="_f5dc37cb5ca54888a72137fa359"/>
+      <sourceref hlink="_db7f15f20625e2c9b2369407e7e"/>
+    </citation>
+    <citation handle="_f5dc57396091d4ab4c0915ca3e0" change="1689541906" id="C1545">
+      <page>212-213</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f5dc52ff2bd1de6b72416515725"/>
+      <noteref hlink="_f5dc5314d4543a33969d8186fe3"/>
+      <noteref hlink="_f5dc57361b16c142de23cd5bd79"/>
+      <sourceref hlink="_db7f15f20625e2c9b2369407e7e"/>
+    </citation>
+    <citation handle="_f5dc5c526282f24b57d42bd911b" change="1689542440" id="C1546">
+      <page>390-391</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f5dc585e5445cf9e0a196c604df"/>
+      <noteref hlink="_f5dc5874ee0400c6f5edfeff3a2"/>
+      <noteref hlink="_f5dc5c4db3e6da59e409063b090"/>
       <sourceref hlink="_db7f15f20625e2c9b2369407e7e"/>
     </citation>
   </citations>
@@ -72051,6 +72069,53 @@ N.  25.  28  Carl              Pax Sokne smeden Gustaf        Testes Bonden Gust
                                                                                              </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="618"/>
+      </style>
+    </note>
+    <note handle="_f5dc52ff2bd1de6b72416515725" change="1689541462" id="N2766" type="Citation">
+      <text>Porvoo syntyneet 1826-1832 (AP I C:7)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38714&amp;pnum=108 / Viitattu 16.07.2023</text>
+    </note>
+    <note handle="_f5dc5314d4543a33969d8186fe3" change="1689541471" id="N2767" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38714&amp;pnum=108</text>
+    </note>
+    <note handle="_f5dc57361b16c142de23cd5bd79" change="1689541904" id="N2768" type="Transcript" format="1">
+      <text>                                  Födde År 1828
+                                  December månad
+
+N.  3.  7.  Gustaf              Par: Sokne Smeden Gu-     Testes: Bonden Henric Henricsson
+            döpt af             staf Ericsson Kullberg    från Saxby Lassas, Bonden Gustaf
+            Pastor Gardberg     Hu Maria Staffans-        Nordberg fr Norrweckoski Hannusas
+                                dotter Nordberg           Bondesonen Henric Johansson med
+                                             x29          Hu Maja Johansdotter fr Saxby Hakas
+                                Saxby p. 290              Smedsonen Carl Nordberg fr Hindhår
+                                                          Smedlärgossen Carl Gustaf Wahlström
+                                                          fr Saxby, Bondedottern Maja Mattsdr
+                                                          ??? fr Saxby
+                                                          Coll: 10 kop ???</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="982"/>
+      </style>
+    </note>
+    <note handle="_f5dc585e5445cf9e0a196c604df" change="1689542026" id="N2769" type="Citation">
+      <text>Porvoo syntyneet 1826-1832 (AP I C:7)  Sivu 390 1831 Mars - April ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38714&amp;pnum=197 / Viitattu 16.07.2023</text>
+    </note>
+    <note handle="_f5dc5874ee0400c6f5edfeff3a2" change="1689542035" id="N2770" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38714&amp;pnum=197</text>
+    </note>
+    <note handle="_f5dc5c4db3e6da59e409063b090" change="1689542438" id="N2771" type="Transcript" format="1">
+      <text>                                  Födde År 1831
+                                   April månad
+
+N. 4  10  Maria Lovisa      Par: Soknesmeden         Testes: Smedsonen Carl Staffansson från
+              döpt af       Gustaf Ericsson Kull-    Hindhår, Gårdssmeden CArl Gustaf Wahl-
+          ???               berg                     ström ifrGAmmelgård med hustru Stina
+          v. Pastor Hirn    Hu Maria Staffans        Johansdotter, Smedlärlingen Carl Ericsson
+                            dotter Nordberg          fr Saxby, Bondeenkan Maria Henricsdr
+                                             x32     från Saxby Michels med dotter Lena
+                                    Saxby p. 352     Mattsdotter, Demoiselle Wendla Loh-
+                                                     tander
+                                                     Coll 15 kop ????</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="862"/>
       </style>
     </note>
   </notes>
