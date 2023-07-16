@@ -2719,7 +2719,7 @@
       <dateval val="1875-10-10"/>
       <place hlink="_cb589cdf1a006f5082e"/>
     </event>
-    <event handle="_cb589cd277408da7d16" change="1535918715" id="E1663">
+    <event handle="_cb589cd277408da7d16" change="1689526432" id="E1663">
       <type>Birth</type>
       <dateval val="1799-03-19"/>
       <place hlink="_cb589ccbc8775a4d7d2"/>
@@ -9162,7 +9162,7 @@
       <place hlink="_cb589ccbc8775a4d7d2"/>
       <citationref hlink="_d6cdcff849d4110be5405581bc2"/>
     </event>
-    <event handle="_d6cdd2c1a121b93cdb9d8abbd0e" change="1628543072" id="E1985">
+    <event handle="_d6cdd2c1a121b93cdb9d8abbd0e" change="1689526756" id="E1985">
       <type>Residence</type>
       <datespan start="1803" stop="1812"/>
       <place hlink="_cb589ccbc8775a4d7d2"/>
@@ -9267,13 +9267,13 @@
       <place hlink="_d6d4c9a6ea11b074476c2f15124"/>
       <citationref hlink="_d6d4aa3f2391ce8db63a57c91ba"/>
     </event>
-    <event handle="_d6e0ab070cc7d44488b2de9dfaa" change="1476635708" id="E2024">
+    <event handle="_d6e0ab070cc7d44488b2de9dfaa" change="1689527238" id="E2024">
       <type>Residence</type>
       <datespan start="1813" stop="1818"/>
       <place hlink="_cb589ccbc8775a4d7d2"/>
       <citationref hlink="_d6e0a93ca5aa11fff3c082b447"/>
     </event>
-    <event handle="_d6e0b16874653b2c1dc5fd81eae" change="1535921145" id="E2029">
+    <event handle="_d6e0b16874653b2c1dc5fd81eae" change="1689530827" id="E2029">
       <type>Residence</type>
       <datespan start="1821" stop="1829"/>
       <place hlink="_cb589ccbc8775a4d7d2"/>
@@ -16584,8 +16584,44 @@
       <dateval val="1757"/>
       <citationref hlink="_f5ae7098aa65e174af84b8889da"/>
     </event>
+    <event handle="_f5dbef02f5be42e478f08cfadf" change="1689531144" id="E0754">
+      <type>Residence</type>
+      <datespan start="1821" stop="1822"/>
+      <place hlink="_cb589ccbc8775a4d7d2"/>
+      <citationref hlink="_d6e0b16412641104391dae06d72"/>
+    </event>
+    <event handle="_f5dbf172a1842c93b32118266ef" change="1689531234" id="E0755">
+      <type>Birth</type>
+      <dateval val="1798-05-05"/>
+      <place hlink="_f5dbf16ad4a3df0e8483e3dc47"/>
+      <citationref hlink="_d6e0b16412641104391dae06d72"/>
+    </event>
+    <event handle="_f5dbf20d6771a1457aec2472c37" change="1689531297" id="E0756">
+      <type>Marriage</type>
+      <dateval val="1822-10-22"/>
+      <place hlink="_cb589cc90f055fc9f0c"/>
+      <citationref hlink="_d6e0b16412641104391dae06d72"/>
+    </event>
+    <event handle="_f5dbf2693ea796605e1698b40de" change="1689531335" id="E0757">
+      <type>Residence</type>
+      <dateval val="1822"/>
+      <place hlink="_cb589ccbc8775a4d7d2"/>
+      <citationref hlink="_d6e0b16412641104391dae06d72"/>
+    </event>
+    <event handle="_f5dbf314fc4143e70b6c7d1a98a" change="1689531422" id="E0758">
+      <type>Residence</type>
+      <datespan start="1822-11-17" stop="1824"/>
+      <place hlink="_cdf82ee48671ea8ed18"/>
+      <citationref hlink="_d6e0b16412641104391dae06d72"/>
+    </event>
+    <event handle="_f5dbf3e917912fabd9107a92bf5" change="1689531492" id="E0759">
+      <type>Residence</type>
+      <dateval val="1824" type="after"/>
+      <place hlink="_cb589cdf1a006f5082e"/>
+      <citationref hlink="_d6e0b16412641104391dae06d72"/>
+    </event>
   </events>
-  <people home="_cb589cdf4a353d7b321">
+  <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1658869228" id="I3858">
       <gender>F</gender>
       <name type="Birth Name">
@@ -20049,7 +20085,7 @@
       <childof hlink="_cb589cceced7a7aa1bd"/>
       <parentin hlink="_cb589cd2762703e1249"/>
     </person>
-    <person handle="_cb589cd276e459bbf65" change="1535918897" id="I5699">
+    <person handle="_cb589cd276e459bbf65" change="1689531125" id="I5699">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria</first>
@@ -20057,8 +20093,10 @@
         <surname prim="0" derivation="Patronymic">Staffansdotter</surname>
       </name>
       <eventref hlink="_cb589cd277408da7d16" role="Primary"/>
+      <eventref hlink="_f5dbef02f5be42e478f08cfadf" role="Primary"/>
       <eventref hlink="_cb589cd27716a20c750" role="Primary"/>
       <childof hlink="_cb589cceced7a7aa1bd"/>
+      <parentin hlink="_f5dbef6d3493008040063748cfa"/>
     </person>
     <person handle="_cb589cd27943eb804aa" change="1563624235" id="I4416">
       <gender>M</gender>
@@ -29625,6 +29663,16 @@
       <eventref hlink="_f5ae71c659e6bc038e68b4519e1" role="Primary"/>
       <childof hlink="_cb589ccec4041260320"/>
     </person>
+    <person handle="_f5dbefd42bfffb065d136c4c64" change="1689531241" id="I0160">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Gustaf</first>
+        <surname prim="0" derivation="Patronymic">Eriksson</surname>
+        <surname>Kullberg</surname>
+      </name>
+      <eventref hlink="_f5dbf172a1842c93b32118266ef" role="Primary"/>
+      <parentin hlink="_f5dbef6d3493008040063748cfa"/>
+    </person>
   </people>
   <families>
     <family handle="_cb589cc7f9c792dc427" change="1658869228" id="F1472">
@@ -33191,6 +33239,15 @@
       <childref hlink="_f3828a42ae04829243d09e2400b"/>
       <childref hlink="_f3828b5d564339fa562b79b2a71"/>
     </family>
+    <family handle="_f5dbef6d3493008040063748cfa" change="1689531497" id="F0031">
+      <rel type="Unknown"/>
+      <father hlink="_f5dbefd42bfffb065d136c4c64"/>
+      <mother hlink="_cb589cd276e459bbf65"/>
+      <eventref hlink="_f5dbf20d6771a1457aec2472c37" role="Family"/>
+      <eventref hlink="_f5dbf2693ea796605e1698b40de" role="Family"/>
+      <eventref hlink="_f5dbf314fc4143e70b6c7d1a98a" role="Family"/>
+      <eventref hlink="_f5dbf3e917912fabd9107a92bf5" role="Family"/>
+    </family>
   </families>
   <citations>
     <citation handle="_cdbd0dc1efa1d31833b" change="1476200558" id="C0023">
@@ -34792,9 +34849,11 @@
       <noteref hlink="_d6e06c6ad1635cb7e593f3af9c0"/>
       <sourceref hlink="_d6e06ad8e4e4dd78de64e865868"/>
     </citation>
-    <citation handle="_d6e0a93ca5aa11fff3c082b447" change="1476635705" id="C0235">
+    <citation handle="_d6e0a93ca5aa11fff3c082b447" change="1689527221" id="C0235">
       <page>112</page>
       <confidence>2</confidence>
+      <noteref hlink="_f5dbc80cdcb6835736ce6ffbaad"/>
+      <noteref hlink="_f5dbc7e41a72841f926b347223f"/>
       <noteref hlink="_d6e077273cb1cac1c47127dfd7f"/>
       <noteref hlink="_d6e07d9bb1e631110ec573db4f7"/>
       <sourceref hlink="_d6cdbfbe30416ec646fdadfa39a"/>
@@ -49196,7 +49255,7 @@
       <pname value="Maringatan 4"/>
       <placeref hlink="_e83167c21997fbd2c2893802c5d"/>
     </placeobj>
-    <placeobj handle="_e37e0e3b6df617f2fec1a952ece" change="1601371053" id="P0601" type="Village">
+    <placeobj handle="_e37e0e3b6df617f2fec1a952ece" change="1689531228" id="P0601" type="Village">
       <pname value="Kullo"/>
       <placeref hlink="_cb589cc90f055fc9f0c"/>
     </placeobj>
@@ -49686,6 +49745,10 @@
     <placeobj handle="_f3827c4e6ed31b0049563beee0a" change="1673385980" id="P0197" type="Farm">
       <pname value="Ellmattas"/>
       <placeref hlink="_cb589ce8cd6584aa7c0"/>
+    </placeobj>
+    <placeobj handle="_f5dbf16ad4a3df0e8483e3dc47" change="1689531230" id="P0201" type="Farm">
+      <pname value="Grejus"/>
+      <placeref hlink="_e37e0e3b6df617f2fec1a952ece"/>
     </placeobj>
   </places>
   <repositories>
@@ -52794,20 +52857,23 @@ https://astia.narc.fi/uusiastia/viewer/?fileId=5862629792&amp;aineistoId=1167794
         <range start="46" end="125"/>
       </style>
     </note>
-    <note handle="_d6e07d9bb1e631110ec573db4f7" change="1476628512" id="N0442" type="Transcript" format="1">
+    <note handle="_d6e07d9bb1e631110ec573db4f7" change="1689527217" id="N0442" type="Transcript" format="1">
       <text>[112			Hindhår
 Backstugu Boer
 Smedens Backstugu
 
 Gårds Smed
-1		Staffan Johansson Nordberg	1770			den 22/6 fått lysning med Maja Lisa Michelsdr p 297
-hu		Kaisa Hansdr				1771			dog 7/2 [1]818
+1 Staffan Johansson Nordberg	      1770   den 22/6 fått lysning med Maja Lisa Michelsdr p 297
+hu Kaisa Hansdr			      1771   dog 7/2 [1]818
 mor smed
-enka	Kaisa Henricsdr				16/9 1748
-son		Gustaf Staffansson Nordberg	2/10 1794		???													??? fått lysning med Anna p 110
-hu		Anna Gretha Johans dr		22/2 1794		1819 till p 110										814 irf p 110
-2 hu	Maja Lis Michelsdr			27/12 1766		1818 fr pag 297
-doter Maria Staffansdr Nordberg		19/3 1799		waccin == adm 5/10 [1]814</text>
+enka Kaisa Henricsdr            16/9  1748
+son Gustaf Staffansson Nordberg	2/10  1794   ??? ??? fått lysning med Anna p 110
+hu Anna Gretha Johans dr        22/2  1794   1819 till p 110	814 irf p 110
+2 hu Maja Lisa Michelsdr        27/12 1766   1818 fr pag 297
+doter Maria Staffansdr Nordberg 19/3  1799   waccin == adm 5/10 [1]814</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="539"/>
+      </style>
     </note>
     <note handle="_d6e0aba621e444de30b0d445907" change="1476627755" id="N0443" type="Link">
       <text>http://digi.narc.fi/digi/view.ka?kuid=7959946
@@ -52819,22 +52885,42 @@ https://astia.narc.fi/uusiastia/viewer/?fileId=5862637371&amp;aineistoId=1167853
         <range start="46" end="125"/>
       </style>
     </note>
-    <note handle="_d6e0b13ee9e17922a7cf07d03a9" change="1476628341" id="N0444" type="Transcript" format="1">
+    <note handle="_d6e0b13ee9e17922a7cf07d03a9" change="1689530825" id="N0444" type="Transcript" format="1">
       <text>128			Hindhår
 Backstuguboer
 [...]
 Gårds Smed andra gången gift
-	Staffan Joh son Nordberg		1770
-Hu	Maja Lisa Michelsdr			27/12 1766
+Staffan Joh son Nordberg                1770
+Hu Maja Lisa Michelsdr            27/12 1766
 
 Mor, Smed enka
-Ea	Caisa Henriksdotter			16/9 1748
+Ea Caisa Henriksdotter            16/9  1748
 
-Doter										Den 28 Sept 22 lysning med Gustaf	Till Borgnäs med betyg den 17 Nov 1822	= Vaccin			Sammanvigde
-	Maria Staffansdr Nordberg	19/3 1799	Eriksson ???																	f i Hindhår			d 27 oct 22
+Doter  
+Maria Staffansdr Nordberg         19/3  1799
+Den 28 Sept 22 lysning med Gustaf Eriksson infra
+Till Borgnäs med betyg den 17 Nov 1822
+f i Hindhår
+Sammanvigde d 27 oct 22			
+
 Son af första giftet
-	Carl Staffansson Nordberg	28/4 1809																				admit d ? Junii 1824
-																														Vaccin</text>
+Carl Staffansson Nordberg         28/4  1809
+admit d ? Junii 1824
+
+Drenggosse Gustaf Eriksson        31/8  1811    1828 fr.p. 110
+Piga Sofia Andersdotter           12/11 1802    1825 till pag 123  1823 från pag 120
+
+Lärgosse Gustaf Eriksson Kullberg  5/5  1798
+Den 28 sept 22 lysning med Maria Nordberg supra
+f.i. Kullo Grejes
+Till Borgnäs med bet. af den 17 Nov 1822
+Återkom 1824 och anteknades p. 290
+
+Lärgosse Michel Johansson               1799    1825 till pag 333    Finne 1822 ifr pag 158
+Piga Helena Sofia Henrikdoter     31/7  1800    1825 ifr.p. 235</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="976"/>
+      </style>
     </note>
     <note handle="_d6e0b97a0a934e9f8699069bd89" change="1476629205" id="N0445" type="Link">
       <text>http://digi.narc.fi/digi/view.ka?kuid=7970856
@@ -71617,6 +71703,15 @@ Stina Erika Ekblom               12/8  1826  1851 till p. 157          1850 fr.p
       <style name="fontface" value="Monospace">
         <range start="0" end="925"/>
       </style>
+    </note>
+    <note handle="_f5dbc7e41a72841f926b347223f" change="1689526876" id="N2739" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38647&amp;pnum=116</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38647&amp;pnum=116">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f5dbc80cdcb6835736ce6ffbaad" change="1689526893" id="N2740" type="Citation">
+      <text>Porvoo maaseurakunta rippikirja 1813-1820 (AP_LÄNSI I Aa:11)  Sivu 112 Hindhår Backstugu Boer ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38647&amp;pnum=116 / Viitattu 16.07.2023</text>
     </note>
   </notes>
 </database>
