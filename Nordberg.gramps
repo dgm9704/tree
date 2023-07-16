@@ -16608,17 +16608,55 @@
       <place hlink="_cb589ccbc8775a4d7d2"/>
       <citationref hlink="_d6e0b16412641104391dae06d72"/>
     </event>
-    <event handle="_f5dbf314fc4143e70b6c7d1a98a" change="1689531422" id="E0758">
+    <event handle="_f5dbf314fc4143e70b6c7d1a98a" change="1689536994" id="E0758">
       <type>Residence</type>
-      <datespan start="1822-11-17" stop="1824"/>
-      <place hlink="_cdf82ee48671ea8ed18"/>
+      <datespan start="1822-11-17" stop="1824-11-01"/>
+      <place hlink="_f5dc1530d085110bb2b989ab076"/>
       <citationref hlink="_d6e0b16412641104391dae06d72"/>
+      <citationref hlink="_f5dc0d4f1e179cd7c60093d1993"/>
+      <citationref hlink="_f5dc13f2702866f68aaec508d7"/>
+      <citationref hlink="_f5dc284c3d265561e08e45d7cdd"/>
     </event>
-    <event handle="_f5dbf3e917912fabd9107a92bf5" change="1689531492" id="E0759">
+    <event handle="_f5dbf3e917912fabd9107a92bf5" change="1689537677" id="E0759">
       <type>Residence</type>
-      <dateval val="1824" type="after"/>
+      <datespan start="1824-11-01" stop="1829"/>
       <place hlink="_cb589cdf1a006f5082e"/>
       <citationref hlink="_d6e0b16412641104391dae06d72"/>
+      <citationref hlink="_f5dc13f2702866f68aaec508d7"/>
+      <citationref hlink="_f5dc284c3d265561e08e45d7cdd"/>
+      <citationref hlink="_f5dc2c8f4221590057fe19e42a0"/>
+      <citationref hlink="_f5dc2ecc827284a7aecff6373c7"/>
+    </event>
+    <event handle="_f5dc1e6ae351af88044d1b8f622" change="1689536097" id="E0760">
+      <type>Birth</type>
+      <dateval val="1823-10-17"/>
+      <place hlink="_f5dc1530d085110bb2b989ab076"/>
+      <citationref hlink="_f5dc1e675758d3eb003372cfc4"/>
+    </event>
+    <event handle="_f5dc22a995010ce79ab4d066cc1" change="1689536394" id="E0761">
+      <type>Death</type>
+      <dateval val="1823-12-12"/>
+      <place hlink="_f5dc1530d085110bb2b989ab076"/>
+      <citationref hlink="_f5dc21b7fc6a2a89fd0ae73f1"/>
+    </event>
+    <event handle="_f5dc30bab5c698a1944bda095ab" change="1689538614" id="E0762">
+      <type>Birth</type>
+      <dateval val="1826-09-25"/>
+      <place hlink="_cb589cdf1a006f5082e"/>
+      <citationref hlink="_f5dc2ecc827284a7aecff6373c7"/>
+      <citationref hlink="_f5dc37cf7c521014b0f72ae4e75"/>
+    </event>
+    <event handle="_f5dc315447756e1bc4e10b76839" change="1689537932" id="E0763">
+      <type>Birth</type>
+      <dateval val="1828-12-03"/>
+      <place hlink="_cb589cdf1a006f5082e"/>
+      <citationref hlink="_f5dc2ecc827284a7aecff6373c7"/>
+    </event>
+    <event handle="_f5dc31ca8062e55fbaa33f80124" change="1689537981" id="E0764">
+      <type>Birth</type>
+      <dateval val="1831-04-04"/>
+      <place hlink="_cb589cdf1a006f5082e"/>
+      <citationref hlink="_f5dc2ecc827284a7aecff6373c7"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -29673,6 +29711,47 @@
       <eventref hlink="_f5dbf172a1842c93b32118266ef" role="Primary"/>
       <parentin hlink="_f5dbef6d3493008040063748cfa"/>
     </person>
+    <person handle="_f5dc1866a3424fd5779643cee76" change="1689538623" id="I0161">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Gustaf</first>
+        <surname derivation="Inherited">Kullberg</surname>
+        <suffix>¹</suffix>
+      </name>
+      <eventref hlink="_f5dc1e6ae351af88044d1b8f622" role="Primary"/>
+      <eventref hlink="_f5dc22a995010ce79ab4d066cc1" role="Primary"/>
+      <childof hlink="_f5dbef6d3493008040063748cfa"/>
+    </person>
+    <person handle="_f5dc2ff6829484e35a03e3aa561" change="1689538623" id="I0162">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Carl</first>
+        <surname derivation="Inherited">Kullberg</surname>
+        <surname prim="0" derivation="Patronymic">Gustafsson</surname>
+      </name>
+      <eventref hlink="_f5dc30bab5c698a1944bda095ab" role="Primary"/>
+      <childof hlink="_f5dbef6d3493008040063748cfa"/>
+    </person>
+    <person handle="_f5dc30cbfd71c573d83661ca2f0" change="1689538623" id="I0163">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Gustaf</first>
+        <surname derivation="Inherited">Kullberg</surname>
+        <surname prim="0" derivation="Patronymic">Gustafsson</surname>
+        <suffix>²</suffix>
+      </name>
+      <eventref hlink="_f5dc315447756e1bc4e10b76839" role="Primary"/>
+      <childof hlink="_f5dbef6d3493008040063748cfa"/>
+    </person>
+    <person handle="_f5dc31788967631eacb6b43bd87" change="1689538623" id="I0164">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Maria Lovisa</first>
+        <surname derivation="Inherited">Kullberg</surname>
+      </name>
+      <eventref hlink="_f5dc31ca8062e55fbaa33f80124" role="Primary"/>
+      <childof hlink="_f5dbef6d3493008040063748cfa"/>
+    </person>
   </people>
   <families>
     <family handle="_cb589cc7f9c792dc427" change="1658869228" id="F1472">
@@ -33239,7 +33318,7 @@
       <childref hlink="_f3828a42ae04829243d09e2400b"/>
       <childref hlink="_f3828b5d564339fa562b79b2a71"/>
     </family>
-    <family handle="_f5dbef6d3493008040063748cfa" change="1689531497" id="F0031">
+    <family handle="_f5dbef6d3493008040063748cfa" change="1689538623" id="F0031">
       <rel type="Unknown"/>
       <father hlink="_f5dbefd42bfffb065d136c4c64"/>
       <mother hlink="_cb589cd276e459bbf65"/>
@@ -33247,6 +33326,10 @@
       <eventref hlink="_f5dbf2693ea796605e1698b40de" role="Family"/>
       <eventref hlink="_f5dbf314fc4143e70b6c7d1a98a" role="Family"/>
       <eventref hlink="_f5dbf3e917912fabd9107a92bf5" role="Family"/>
+      <childref hlink="_f5dc1866a3424fd5779643cee76"/>
+      <childref hlink="_f5dc2ff6829484e35a03e3aa561"/>
+      <childref hlink="_f5dc30cbfd71c573d83661ca2f0"/>
+      <childref hlink="_f5dc31788967631eacb6b43bd87"/>
     </family>
   </families>
   <citations>
@@ -43763,6 +43846,69 @@
       <noteref hlink="_f5ae709080235048f77500d9f5a"/>
       <sourceref hlink="_f5ae6df9bf869b343c4141410b"/>
     </citation>
+    <citation handle="_f5dc0d4f1e179cd7c60093d1993" change="1689534155" id="C1537">
+      <page>kuva 69</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f5dc09e46ca7221e9743e6780f2"/>
+      <noteref hlink="_f5dc0a1549c2df2afa83a8f7daf"/>
+      <noteref hlink="_f5dc0d3b89223236432f0f05cbf"/>
+      <sourceref hlink="_f5dc092fc9174729608f921b0dc"/>
+    </citation>
+    <citation handle="_f5dc13f2702866f68aaec508d7" change="1689534867" id="C1538">
+      <page>67</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f5dc114671a6eb843afb474317a"/>
+      <noteref hlink="_f5dc117ff3e35524e1a9d9bf38c"/>
+      <noteref hlink="_f5dc13ed6a757758b355d98da76"/>
+      <sourceref hlink="_f5dc111f97b1394a28dafa236c8"/>
+    </citation>
+    <citation handle="_f5dc1e675758d3eb003372cfc4" change="1689535948" id="C1539">
+      <confidence>2</confidence>
+      <noteref hlink="_f5dc1a4eb4b6c6c5f3a8ed8f546"/>
+      <noteref hlink="_f5dc1a7689a7f00d60843380060"/>
+      <noteref hlink="_f5dc1e59e0b642f18fb401a32ba"/>
+      <sourceref hlink="_f5dc19f262328ae8c2a5a5c67ab"/>
+    </citation>
+    <citation handle="_f5dc21b7fc6a2a89fd0ae73f1" change="1689536392" id="C1540">
+      <page>kuva 157</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f5dc21a8a9829251754ae45ea06"/>
+      <noteref hlink="_f5dc216e08c42e2edeedb406c59"/>
+      <noteref hlink="_f5dc229a87120a801470a642248"/>
+      <sourceref hlink="_f5dc19f262328ae8c2a5a5c67ab"/>
+    </citation>
+    <citation handle="_f5dc284c3d265561e08e45d7cdd" change="1689536985" id="C1541">
+      <page>229</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f5dc2661461294177457215d7cb"/>
+      <noteref hlink="_f5dc268d9d16c7baf5f2a359b7d"/>
+      <noteref hlink="_f5dc28445ad3b6f0f697806eeed"/>
+      <sourceref hlink="_db74fe24dbf7525c14f98f33fc0"/>
+    </citation>
+    <citation handle="_f5dc2c8f4221590057fe19e42a0" change="1689537432" id="C1542">
+      <page>290</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f5dc2a1a6e5236a6eb13f692937"/>
+      <noteref hlink="_f5dc2a3176669a92df8efa666e1"/>
+      <noteref hlink="_f5dc2bf663d28623befeaf4aef0"/>
+      <sourceref hlink="_f5dc29f3d0b1aed13952012d3f9"/>
+    </citation>
+    <citation handle="_f5dc2ecc827284a7aecff6373c7" change="1689537667" id="C1543">
+      <page>290-291</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f5dc2d639b81cd05cf04d5f9d75"/>
+      <noteref hlink="_f5dc2d7aff33e1473ce79f3c89b"/>
+      <noteref hlink="_f5dc2ec58b53a9ca132e2cd2434"/>
+      <sourceref hlink="_d931e49e9d160c9da9b335a291d"/>
+    </citation>
+    <citation handle="_f5dc37cf7c521014b0f72ae4e75" change="1689538612" id="C1544">
+      <page>54-55</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f5dc34ab18c454fd873f2d84d41"/>
+      <noteref hlink="_f5dc34bf85b519404ebfcb0c2ee"/>
+      <noteref hlink="_f5dc37cb5ca54888a72137fa359"/>
+      <sourceref hlink="_db7f15f20625e2c9b2369407e7e"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -46817,6 +46963,26 @@
       <sauthor>Porvoon maaseurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
+    <source handle="_f5dc092fc9174729608f921b0dc" change="1689533723" id="S0611">
+      <stitle>Pornainen Muuttokirjat 1796-1842</stitle>
+      <sauthor>Pornaisten seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f5dc111f97b1394a28dafa236c8" change="1689534555" id="S0612">
+      <stitle>Pornainen Rippikirja 1821-1831</stitle>
+      <sauthor>Pornaisten seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f5dc19f262328ae8c2a5a5c67ab" change="1689536070" id="S0613">
+      <stitle>Pornainen Vihityt-Syntyneet-Kuolleet 1801-1825</stitle>
+      <sauthor>Pornaisten seurakunta</sauthor>
+      <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
+    </source>
+    <source handle="_f5dc29f3d0b1aed13952012d3f9" change="1689537159" id="S0614">
+      <stitle>Porvoo msrk Rippikirja 1821-1827</stitle>
+      <sauthor>Porvoon maaseurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1658853851" id="P0000" type="City">
@@ -46870,7 +47036,7 @@
       <pname value="Högfors" lang="se"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
     </placeobj>
-    <placeobj handle="_cb589cc91ba62696715" change="1628504843" id="P0029" type="Village">
+    <placeobj handle="_cb589cc91ba62696715" change="1689534980" id="P0029" type="Village">
       <pname value="Laha"/>
       <placeref hlink="_cdf82ee48671ea8ed18"/>
     </placeobj>
@@ -49750,6 +49916,10 @@
       <pname value="Grejus"/>
       <placeref hlink="_e37e0e3b6df617f2fec1a952ece"/>
     </placeobj>
+    <placeobj handle="_f5dc1530d085110bb2b989ab076" change="1689534982" id="P0205" type="Farm">
+      <pname value="Qvarnen"/>
+      <placeref hlink="_cb589cc91ba62696715"/>
+    </placeobj>
   </places>
   <repositories>
     <repository handle="_cdea29a49637c6553bc" change="1672241850" id="R0001">
@@ -49757,7 +49927,7 @@
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1688309485" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1689537157" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -49832,6 +50002,11 @@
     <repository handle="_f35f4d5eb724cfc665b452b3e63" change="1673293275" id="R0017">
       <rname>Billiongraves</rname>
       <type>Library</type>
+    </repository>
+    <repository handle="_f5dc19ee7d07e822ec5f7a37d7" change="1689535479" id="R0018">
+      <rname>Astia</rname>
+      <type>Library</type>
+      <url  href="https://astia.narc.fi/uusiastia/" type="Web Home"/>
     </repository>
   </repositories>
   <notes>
@@ -71712,6 +71887,171 @@ Stina Erika Ekblom               12/8  1826  1851 till p. 157          1850 fr.p
     </note>
     <note handle="_f5dbc80cdcb6835736ce6ffbaad" change="1689526893" id="N2740" type="Citation">
       <text>Porvoo maaseurakunta rippikirja 1813-1820 (AP_LÄNSI I Aa:11)  Sivu 112 Hindhår Backstugu Boer ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38647&amp;pnum=116 / Viitattu 16.07.2023</text>
+    </note>
+    <note handle="_f5dc09e46ca7221e9743e6780f2" change="1689533797" id="N2741" type="Citation">
+      <text>Pornainen muuttokirjoja 1796-1842 (AP I Jba:1)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31519&amp;pnum=69 / Viitattu 16.07.2023</text>
+    </note>
+    <note handle="_f5dc0a1549c2df2afa83a8f7daf" change="1689533817" id="N2742" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31519&amp;pnum=69</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31519&amp;pnum=69">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f5dc0d3b89223236432f0f05cbf" change="1689534147" id="N2743" type="Transcript">
+      <text>Mölnaren, f:d: Smed Lärlingen Gustaf Eriksson Kullberg, född
+den 5 maij 1798 och hans hustru Maria Staffansdotter
+Nordberg, född den 19 Martii 1799 (bägge födde i Nylands
+och Tavastehus län och Borgå moderkyrko församling) af-
+flytta nu härifrån till Borgnäs. De kunna bägge läsa
+rent i bok, äga nöjaktig Christendoms kunstkap, äro väl-
+frågade och hafva obehindradt begått Nattvarden, se-
+nast den 22 sistledne September. Hon är vaccinerad. Han
+har haft koppor. Borgå den 17 November 1822.
+H:J:Salenius, 
+Domkyrko Adjunkt.
+
+annoterad p: 67 23 </text>
+      <style name="fontface" value="Sans">
+        <range start="0" end="544"/>
+      </style>
+    </note>
+    <note handle="_f5dc114671a6eb843afb474317a" change="1689534571" id="N2744" type="Citation">
+      <text>Pornaisten seurakunnan arkisto - Rippikirja 1821-1831, jakso 70, sivu 67: Laha, Qvarnen, Kataja torp.; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=6294161247&amp;aineistoId=1167414943 / Viitattu 16.7.2023</text>
+    </note>
+    <note handle="_f5dc117ff3e35524e1a9d9bf38c" change="1689534595" id="N2745" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=6294161247&amp;aineistoId=1167414943</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=6294161247&amp;aineistoId=1167414943">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f5dc13ed6a757758b355d98da76" change="1689534849" id="N2746" type="Transcript" format="1">
+      <text>67          Laha By
+Qvarnen 
+till p. 69 fortsätning
+[...]
+Mölnare, f:d: Smed Lärling
+Gustaf Eriksson Kullberg     5/5  1798 } 1822 fr Borgå med betyg d 17 Nov 1822
+Hu Maria Staffansdr         19/3  1799 } till Borgå ?? 1/11 1824</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="228"/>
+      </style>
+    </note>
+    <note handle="_f5dc1a4eb4b6c6c5f3a8ed8f546" change="1689535518" id="N2747" type="Citation">
+      <text>Pornaisten seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I C Syntyneiden ja kastettujen luettelot. Syntyneiden luettelot  (1801-1825). Tiedosto 116. Kansallisarkisto. Viitattu 16.7.2023.</text>
+    </note>
+    <note handle="_f5dc1a7689a7f00d60843380060" change="1689535534" id="N2748" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=6294178566&amp;aineistoId=1167699606</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=6294178566&amp;aineistoId=1167699606">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f5dc1e59e0b642f18fb401a32ba" change="1689535942" id="N2749" type="Transcript" format="1">
+      <text>Födde 1823
+October
+
+46  17  22  Gustaf          Mölnaren Gust    Testes 
+            död 12/12 23    Ericss Kullberg  ???
+                            fr Laha Gård     Sophia ???
+                            Hu Maria Staf-   Bonde måg Gust
+                            fans dr Nord     Nordberg Hu Anna
+                            berg             Greta Johansdr
+                                  24 år      Eric Mattila Hu
+                                             Maja Stina Matsdr
+                                             ???      Wilhelmi
+                                             na ???</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="598"/>
+      </style>
+    </note>
+    <note handle="_f5dc2138404394cf066b72148ea" change="1689536243" id="N2750" type="Citation">
+      <text>Pornaisten seurakunnan arkisto - Syntyneiden luettelot 1801-1825, jakso 157: Döde 1823, 1824; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=6294178587&amp;aineistoId=1167699606 / Viitattu 16.7.2023</text>
+    </note>
+    <note handle="_f5dc216e08c42e2edeedb406c59" change="1689536265" id="N2751" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=6294178587&amp;aineistoId=1167699606</text>
+    </note>
+    <note handle="_f5dc21a8a9829251754ae45ea06" change="1689536289" id="N2752" type="Citation">
+      <text>Pornaisten seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I C Syntyneiden ja kastettujen luettelot. Syntyneiden luettelot  (1801-1825). Tiedosto 157. Kansallisarkisto. Viitattu 16.7.2023.</text>
+    </note>
+    <note handle="_f5dc229a87120a801470a642248" change="1689536388" id="N2753" type="Transcript" format="1">
+      <text>Döde år 1823
+
+
+December
+31  12.  21.  Gustaf Kullberg  Mölnare barn  und året  Diarhe</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="85"/>
+      </style>
+    </note>
+    <note handle="_f5dc2661461294177457215d7cb" change="1689536784" id="N2754" type="Citation">
+      <text>Porvoo muuttaneet 1796-1857 (AP_SIS I Ba:2)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38726&amp;pnum=119 / Viitattu 16.07.2023</text>
+    </note>
+    <note handle="_f5dc268d9d16c7baf5f2a359b7d" change="1689536802" id="N2755" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38726&amp;pnum=119</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38726&amp;pnum=119">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f5dc28445ad3b6f0f697806eeed" change="1689536982" id="N2756" type="Transcript">
+      <text>	                                   230
+Till Borgå lands-församling inflyttade år 1824
+345  [Nov]  7  290  Saxby  Kullberg, Gustaf  Borgnäs  1.11.1824        1  1
+
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="164"/>
+      </style>
+    </note>
+    <note handle="_f5dc2a1a6e5236a6eb13f692937" change="1689537174" id="N2757" type="Citation">
+      <text>Porvoo maaseurakunta rippikirja 1821-1827 (AP_LÄNSI I Aa:13)  Sivu 290 Saxby ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38649&amp;pnum=294 / Viitattu 16.07.2023</text>
+    </note>
+    <note handle="_f5dc2a3176669a92df8efa666e1" change="1689537184" id="N2758" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38649&amp;pnum=294</text>
+    </note>
+    <note handle="_f5dc2bf663d28623befeaf4aef0" change="1689537369" id="N2759" type="Transcript" format="1">
+      <text>290          Saxby
+Sokne Smed
+Gustaf Eriksson Kullberg       5/5  1798 } 1824 fr Borgnäs med bet. afd. 1/11 24 No345
+Hu Maria Staffansdr Nordberg  19/3  1799 } Bägge f?? anteknade p. 128</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="186"/>
+      </style>
+    </note>
+    <note handle="_f5dc2d639b81cd05cf04d5f9d75" change="1689537519" id="N2760" type="Citation">
+      <text>Porvoo maaseurakunta lastenkirja 1820-1831 (AP_LÄNSI I Ab:8)  Sivu 290 (Saxby ) / Sköldvik Gård ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38677&amp;pnum=148 / Viitattu 16.07.2023</text>
+    </note>
+    <note handle="_f5dc2d7aff33e1473ce79f3c89b" change="1689537529" id="N2761" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38677&amp;pnum=148</text>
+    </note>
+    <note handle="_f5dc2ec58b53a9ca132e2cd2434" change="1689537664" id="N2762" type="Transcript" format="1">
+      <text>290          Saxby
+Sockne Smeden Gustaf Eriksson Kullbergs barn med Maria Nordberg
+Carl Gustafsson Kullberg    25/9  826
+Gustaf Gustafsson Kullberg  3/12  828
+Maria Lovisa Kullberg       4/4   831
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="197"/>
+      </style>
+    </note>
+    <note handle="_f5dc34ab18c454fd873f2d84d41" change="1689538282" id="N2763" type="Citation">
+      <text>Porvoo syntyneet 1826-1832 (AP I C:7)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38714&amp;pnum=29 / Viitattu 16.07.2023</text>
+    </note>
+    <note handle="_f5dc34bf85b519404ebfcb0c2ee" change="1689538291" id="N2764" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38714&amp;pnum=29</text>
+    </note>
+    <note handle="_f5dc37cb5ca54888a72137fa359" change="1689538610" id="N2765" type="Transcript" format="1">
+      <text>Födda år 1826
+September månad
+N.  25.  28  Carl              Pax Sokne smeden Gustaf        Testes Bonden Gustaf Nordberg fr Norrveckoski;
+             döpt af           Eriksson Kullberg; Hu          smedsonen Carl Nordberg fr Hindhår; smed lär-
+             Kapellanen Vice   Maria Staffansdotter Nord-     gossen Gustaf Wahlström från Saxby; Bon
+             Pastor Gardberg   Berg                  x27      de enkan Maja Michels och Pigan Anna
+                                                              Mattsdotter; bägge från Saxby
+                               Saxby pag 290                  coll 42 kop ???
+                                                                                             </text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="618"/>
+      </style>
     </note>
   </notes>
 </database>
