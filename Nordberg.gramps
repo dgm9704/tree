@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2023-07-17" version="5.1.6"/>
+    <created date="2023-07-18" version="5.1.6"/>
     <researcher>
     </researcher>
   </header>
@@ -16706,7 +16706,7 @@
       <citationref hlink="_f5df3b3ff734560806e5965e978"/>
       <citationref hlink="_f5ded8666eb90f7f03dc59f505"/>
     </event>
-    <event handle="_f5df444b4cb3a3306c800a5468a" change="1689622115" id="E0772">
+    <event handle="_f5df444b4cb3a3306c800a5468a" change="1689628155" id="E0772">
       <type>Residence</type>
       <datespan start="1859" stop="1859-10-13"/>
       <place hlink="_cb589cdf1a006f5082e"/>
@@ -16715,7 +16715,7 @@
       <citationref hlink="_f5df5122aac1577b290bc3f2c86"/>
       <citationref hlink="_f5df53d68775e1d8e8032a3ea94"/>
     </event>
-    <event handle="_f5df44d601e1cab8a434f676635" change="1689622171" id="E0773">
+    <event handle="_f5df44d601e1cab8a434f676635" change="1689628850" id="E0773">
       <type>Residence</type>
       <dateval val="1859-10-28" type="after"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
@@ -16736,6 +16736,31 @@
       <citationref hlink="_f5df5b8005b6da7b99fadfe64c9"/>
       <citationref hlink="_f5df62f40726b8500aa9ec4bf8e"/>
       <citationref hlink="_f5df5ee17f74c5f29a0afee6cac"/>
+    </event>
+    <event handle="_f5df67e3a46599f117c07cffd23" change="1689624491" id="E0776">
+      <type>Residence</type>
+      <datespan start="1859-10-28" stop="1861-05-03"/>
+      <place hlink="_f5df67dd8eb2f2f54ec16c16c81"/>
+      <citationref hlink="_f5ded8666eb90f7f03dc59f505"/>
+      <citationref hlink="_f5df44461a633445819e0a9176"/>
+      <citationref hlink="_f5df5122aac1577b290bc3f2c86"/>
+      <citationref hlink="_f5df53d68775e1d8e8032a3ea94"/>
+      <citationref hlink="_f5df6ac830d1692de0a944d29ee"/>
+    </event>
+    <event handle="_f5df8adc42cecb27c975826537" change="1689628872" id="E0777">
+      <type>Residence</type>
+      <dateval val="1861-08-10" type="before"/>
+      <place hlink="_f5df67dd8eb2f2f54ec16c16c81"/>
+      <citationref hlink="_f5df5b8005b6da7b99fadfe64c9"/>
+      <citationref hlink="_f5df8a29f7712aaa50dd7d7b8fc"/>
+    </event>
+    <event handle="_f5df944554c173d30439d990a78" change="1689628964" id="E0778">
+      <type>Residence</type>
+      <dateval val="1861-08-10" type="after"/>
+      <place hlink="_cb589cdf1a006f5082e"/>
+      <citationref hlink="_f5df5b8005b6da7b99fadfe64c9"/>
+      <citationref hlink="_f5df8a29f7712aaa50dd7d7b8fc"/>
+      <citationref hlink="_f5df93f7bc573770640e52419b"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -29823,7 +29848,7 @@
       <eventref hlink="_f5dc315447756e1bc4e10b76839" role="Primary"/>
       <childof hlink="_f5dbef6d3493008040063748cfa"/>
     </person>
-    <person handle="_f5dc31788967631eacb6b43bd87" change="1689620517" id="I0164">
+    <person handle="_f5dc31788967631eacb6b43bd87" change="1689629589" id="I0164">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Lovisa</first>
@@ -29833,6 +29858,8 @@
       <eventref hlink="_f5dc31ca8062e55fbaa33f80124" role="Primary"/>
       <eventref hlink="_f5df444b4cb3a3306c800a5468a" role="Primary"/>
       <eventref hlink="_f5df44d601e1cab8a434f676635" role="Primary"/>
+      <eventref hlink="_f5df8adc42cecb27c975826537" role="Primary"/>
+      <eventref hlink="_f5df944554c173d30439d990a78" role="Primary"/>
       <childof hlink="_f5dbef6d3493008040063748cfa"/>
       <parentin hlink="_f5df36f49593875405d020dd26c"/>
     </person>
@@ -33440,11 +33467,12 @@
       <childref hlink="_f5dc31788967631eacb6b43bd87"/>
       <childref hlink="_f5dc669056f56d736a4249d542e"/>
     </family>
-    <family handle="_f5df36f49593875405d020dd26c" change="1689620518" id="F0032">
+    <family handle="_f5df36f49593875405d020dd26c" change="1689629590" id="F0032">
       <rel type="Married"/>
       <father hlink="_f5df374647151a9783f699504f"/>
       <mother hlink="_f5dc31788967631eacb6b43bd87"/>
       <eventref hlink="_f5df3b893b6253ec3542459f20a" role="Family"/>
+      <eventref hlink="_f5df67e3a46599f117c07cffd23" role="Family"/>
     </family>
   </families>
   <citations>
@@ -44151,6 +44179,29 @@
       <noteref hlink="_f5df62eda6356b27bb76e1e3073"/>
       <sourceref hlink="_cfcd1c064c818e09da9"/>
     </citation>
+    <citation handle="_f5df6ac830d1692de0a944d29ee" change="1689624487" id="C1561">
+      <page>I/882</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f5df6a3d4417533ca6450bfa8c8"/>
+      <noteref hlink="_f5df6a56c08419570b77d225bb3"/>
+      <noteref hlink="_f5df6ab874e24edf67b1dfd1a85"/>
+      <sourceref hlink="_f15561cd05d2af7d083fe019b0b"/>
+    </citation>
+    <citation handle="_f5df8a29f7712aaa50dd7d7b8fc" change="1689627845" id="C1562">
+      <page>kuva 70</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f5df89122081b25876d0fb89473"/>
+      <noteref hlink="_f5df895a206755744f4022bf35"/>
+      <noteref hlink="_f5df8ac884d2029521f08ba95c0"/>
+      <sourceref hlink="_f5df89073f241ccf8537154be4b"/>
+    </citation>
+    <citation handle="_f5df93f7bc573770640e52419b" change="1689628806" id="C1563">
+      <page>kuva 376</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f5df937274f3a79822241f545c1"/>
+      <noteref hlink="_f5df938b9a447242ec2e13a879c"/>
+      <sourceref hlink="_f5df92fc3cd7693dd68275f656c"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -47245,6 +47296,16 @@
       <sauthor>Helsingin ruotsalais-suomalainen seurakunta</sauthor>
       <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
     </source>
+    <source handle="_f5df89073f241ccf8537154be4b" change="1689627659" id="S0619">
+      <stitle>Helsinki Muuttaneet 1853-1887</stitle>
+      <sauthor>Helsingin ruotsalais-suomalainen seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f5df92fc3cd7693dd68275f656c" change="1689628703" id="S0620">
+      <stitle>Porvoo rtsrk Muuttokirjat 1860-1861</stitle>
+      <sauthor>Porvoon ruotsalainen tuomiokirkkoseurakunta</sauthor>
+      <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1658853851" id="P0000" type="City">
@@ -47890,7 +47951,7 @@
       <pname value="Bruk"/>
       <placeref hlink="_cb589cc922f7c0aaf59"/>
     </placeobj>
-    <placeobj handle="_cde63d718596ba2537d" change="1414929731" id="P0431" type="Borough">
+    <placeobj handle="_cde63d718596ba2537d" change="1689624179" id="P0431" type="Borough">
       <ptitle>2. Stadsdelen, Helsinki, Suomi</ptitle>
       <pname value="2. Stadsdelen"/>
       <placeref hlink="_cb589cc7f8d1b88b055"/>
@@ -50182,6 +50243,14 @@
       <pname value="Qvarnen"/>
       <placeref hlink="_cb589cc91ba62696715"/>
     </placeobj>
+    <placeobj handle="_f5df67d980b4b788cc2a9664cfc" change="1689624180" id="P0206" type="Block">
+      <pname value="Hästen"/>
+      <placeref hlink="_cde63d718596ba2537d"/>
+    </placeobj>
+    <placeobj handle="_f5df67dd8eb2f2f54ec16c16c81" change="1689624181" id="P0207" type="Building">
+      <pname value="Gården no 1 vid Unionsgatan"/>
+      <placeref hlink="_f5df67d980b4b788cc2a9664cfc"/>
+    </placeobj>
   </places>
   <repositories>
     <repository handle="_cdea29a49637c6553bc" change="1672241850" id="R0001">
@@ -50189,7 +50258,7 @@
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1689620089" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1689627653" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -50265,7 +50334,7 @@
       <rname>Billiongraves</rname>
       <type>Library</type>
     </repository>
-    <repository handle="_f5dc19ee7d07e822ec5f7a37d7" change="1689621914" id="R0018">
+    <repository handle="_f5dc19ee7d07e822ec5f7a37d7" change="1689628701" id="R0018">
       <rname>Astia</rname>
       <type>Library</type>
       <url  href="https://astia.narc.fi/uusiastia/" type="Web Home"/>
@@ -72605,6 +72674,45 @@ Hu Maria Lovisa Kullberg  7/4   1831   Fl att No 242-1861 t. Borgå
       <style name="fontface" value="Monospace">
         <range start="0" end="94"/>
       </style>
+    </note>
+    <note handle="_f5df6a3d4417533ca6450bfa8c8" change="1689624430" id="N2813" type="Citation">
+      <text>Helsinki lastenkirja 1856-1869 (MKO35-51 L1)  Sivu 882 2:dra stadsdelen, Qv Hästen, Gården no 1 vid Unions gatan ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23472&amp;pnum=442 / Viitattu 17.07.2023</text>
+    </note>
+    <note handle="_f5df6a56c08419570b77d225bb3" change="1689624441" id="N2814" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23472&amp;pnum=442</text>
+    </note>
+    <note handle="_f5df6ab874e24edf67b1dfd1a85" change="1689624481" id="N2815" type="Research">
+      <text>Ei merkitty lapsia Justus Österman ja/tai Maria Lovisa Kullberg</text>
+    </note>
+    <note handle="_f5df89122081b25876d0fb89473" change="1689627663" id="N2816" type="Citation">
+      <text>Helsinki muuttaneet 1853-1887 (MKO1-8)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19855&amp;pnum=70 / Viitattu 17.07.2023</text>
+    </note>
+    <note handle="_f5df895a206755744f4022bf35" change="1689627693" id="N2817" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19855&amp;pnum=70</text>
+    </note>
+    <note handle="_f5df8a3bc5a7e436651f980f49b" change="1689627785" id="N2818" type="Citation">
+      <text>1861
+Augusti
+
+10  142  Formansenka Maria Lovisa Österman  I-882  -  1  Borgå</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="76"/>
+      </style>
+    </note>
+    <note handle="_f5df8ac884d2029521f08ba95c0" change="1689627843" id="N2819" type="Transcript" format="1">
+      <text>1861
+Augusti
+
+10  242  Formansenka Maria Lovisa Österman  I-882  -  1  Borgå</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="76"/>
+      </style>
+    </note>
+    <note handle="_f5df937274f3a79822241f545c1" change="1689628751" id="N2820" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Seurakunnista saapuneet muuttokirjat 1860-1861, jakso 376; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5862454915&amp;aineistoId=1171315676 / Viitattu 18.7.2023</text>
+    </note>
+    <note handle="_f5df938b9a447242ec2e13a879c" change="1689628761" id="N2821" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5862454915&amp;aineistoId=1171315676</text>
     </note>
   </notes>
 </database>
