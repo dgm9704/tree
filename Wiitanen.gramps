@@ -3,16 +3,17 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2022-07-19" version="5.1.5"/>
+    <created date="2023-07-25" version="5.1.6"/>
     <researcher>
     </researcher>
   </header>
   <events>
-    <event handle="_cfcf2d4a7b0720c6594" change="1428054531" id="E0000">
+    <event handle="_cfcf2d4a7b0720c6594" change="1690293062" id="E0000">
       <type>Birth</type>
       <dateval val="1887-02-24"/>
       <place hlink="_cfcf2ba409031044428"/>
       <citationref hlink="_cfcf2d46b6642aced58"/>
+      <citationref hlink="_f5f851a54f5238de04422a887f2"/>
     </event>
     <event handle="_cfcf30716194d8d72f3" change="1598176892" id="E0001">
       <type>Birth</type>
@@ -21,7 +22,7 @@
       <citationref hlink="_d574b8d9b7a6f95858de0fb7773"/>
       <citationref hlink="_d5786ad04cc5e7b5526d0b991d9"/>
     </event>
-    <event handle="_cfcf31cf08a668f38ad" change="1465942309" id="E0002">
+    <event handle="_cfcf31cf08a668f38ad" change="1690301013" id="E0002">
       <type>Birth</type>
       <dateval val="1850-09-23"/>
       <place hlink="_d552922e5952b069856bdd48210"/>
@@ -1336,15 +1337,21 @@
       <place hlink="_cfcf2ba409031044428"/>
       <citationref hlink="_e72853ea117745d0c3861969b37"/>
     </event>
-    <event handle="_e728908a372513289ad70196b49" change="1597768536" id="E0221">
+    <event handle="_e728908a372513289ad70196b49" change="1690304858" id="E0221">
       <type>Death</type>
       <dateval val="1943-10-26"/>
+      <place hlink="_d55f93f4443dca8a69fb3b05e7"/>
       <citationref hlink="_e7289086cca783f96462723e395"/>
+      <citationref hlink="_f5f8c2e3ec8759020795eafc4e9"/>
     </event>
-    <event handle="_e728c79eaa42c7dd5444120736d" change="1597768780" id="E0222">
+    <event handle="_e728c79eaa42c7dd5444120736d" change="1690304891" id="E0222">
       <type>Death</type>
       <dateval val="1934-08-20"/>
+      <place hlink="_f5f8b603f875704e37620fdba56"/>
       <citationref hlink="_e728c79967d69784e5ef713fc39"/>
+      <citationref hlink="_f5f89c23ee11bb4d9dda4656dbb"/>
+      <citationref hlink="_f5f8a846c31737908e2eb32c796"/>
+      <citationref hlink="_f5f8aba3dd656ef1f3a7ff19d94"/>
     </event>
     <event handle="_e72977f60c33605687d2b55d0f7" change="1589724232" id="E0223">
       <type>Residence</type>
@@ -1448,18 +1455,21 @@
       <citationref hlink="_e7564bde5623298445d93f19b7f"/>
       <citationref hlink="_e72853ea117745d0c3861969b37"/>
     </event>
-    <event handle="_e881865404416474cf2957ab034" change="1657637542" id="E0235">
+    <event handle="_e881865404416474cf2957ab034" change="1690304819" id="E0235">
       <type>Burial</type>
-      <dateval val="1943"/>
+      <dateval val="1943-10-31"/>
       <place hlink="_f137c4d7f3b77676610cce6b8df"/>
       <citationref hlink="_e7289086cca783f96462723e395"/>
       <citationref hlink="_f137c5c28cb6f976d11c1aebee2"/>
+      <citationref hlink="_f5f8c2e3ec8759020795eafc4e9"/>
     </event>
-    <event handle="_e88186daeb06d10ae37f0a0f824" change="1597768818" id="E0236">
+    <event handle="_e88186daeb06d10ae37f0a0f824" change="1690304191" id="E0236">
       <type>Burial</type>
-      <dateval val="1934"/>
-      <place hlink="_e8818552e59102fcbcf21cf6eb4"/>
+      <dateval val="1934-08-24"/>
+      <place hlink="_f137c4d7f3b77676610cce6b8df"/>
       <citationref hlink="_e728c79967d69784e5ef713fc39"/>
+      <citationref hlink="_f5f89c23ee11bb4d9dda4656dbb"/>
+      <citationref hlink="_f5f8a846c31737908e2eb32c796"/>
     </event>
     <event handle="_e88d9d3abe12f6d95022917e2d3" change="1598175756" id="E0237">
       <type>Residence</type>
@@ -1501,21 +1511,25 @@
       <citationref hlink="_e8a82e51baa5591f723fbcd4a22"/>
       <citationref hlink="_f130c33e5c32bcd74c349af7d15"/>
     </event>
-    <event handle="_f137a4d2b23670a3991de4ae25b" change="1657633067" id="E0243">
+    <event handle="_f137a4d2b23670a3991de4ae25b" change="1690303691" id="E0243">
       <type>Birth</type>
       <dateval val="1923-06-30"/>
     </event>
-    <event handle="_f137a4e8aa3219a1b4117683df1" change="1657633076" id="E0244">
+    <event handle="_f137a4e8aa3219a1b4117683df1" change="1690303695" id="E0244">
       <type>Death</type>
       <dateval val="2020-06-11"/>
     </event>
-    <event handle="_f137a5395df667cb776aa68a697" change="1657633109" id="E0245">
+    <event handle="_f137a5395df667cb776aa68a697" change="1690303711" id="E0245">
       <type>Birth</type>
       <dateval val="1929-12-29"/>
+      <place hlink="_f5f8364d92145fe1954c4136542"/>
+      <citationref hlink="_f5f83b50f9627ad88c63388351b"/>
+      <citationref hlink="_f5f84308ee11f0c4db265069b5e"/>
     </event>
-    <event handle="_f137a54bfd052ddb2bb990457a7" change="1657633116" id="E0246">
+    <event handle="_f137a54bfd052ddb2bb990457a7" change="1690303715" id="E0246">
       <type>Death</type>
       <dateval val="2022-06-01"/>
+      <place hlink="_d55f93f4443dca8a69fb3b05e7"/>
     </event>
     <event handle="_f137a6305d43af675acca3b73f9" change="1657634223" id="E0247">
       <type>Birth</type>
@@ -1564,14 +1578,20 @@
       <citationref hlink="_f137c7028671732d854249ca1b5"/>
       <citationref hlink="_e728c9aeed129bf6688dcc43d7b"/>
     </event>
-    <event handle="_f137d42b71f5727698eff3b6ccd" change="1657638031" id="E0255">
+    <event handle="_f137d42b71f5727698eff3b6ccd" change="1690303699" id="E0255">
       <type>Burial</type>
       <dateval val="2020"/>
       <place hlink="_f137d428491142954a8208f9dc4"/>
     </event>
+    <event handle="_f5f8b75ca116445d7c4db6135a1" change="1690303606" id="E0256">
+      <type>Residence</type>
+      <dateval val="1934"/>
+      <place hlink="_e7297d531943952b7e99ffd0684"/>
+      <citationref hlink="_f5f8aba3dd656ef1f3a7ff19d94"/>
+    </event>
   </events>
   <people>
-    <person handle="_cfcf2d6f80f4798ccdc" change="1598807169" id="I0000">
+    <person handle="_cfcf2d6f80f4798ccdc" change="1690303609" id="I0000">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Ossian Evert</first>
@@ -1584,6 +1604,7 @@
       <eventref hlink="_e8a83403d845745fb9db437cd1a" role="Primary"/>
       <childof hlink="_cfcf2ec39c105718f81"/>
       <parentin hlink="_cfd267b9fa13a7ccef2"/>
+      <citationref hlink="_f5f851a54f5238de04422a887f2"/>
     </person>
     <person handle="_cfcf2f0accb0fef1bb6" change="1597768768" id="I0001">
       <gender>M</gender>
@@ -1600,11 +1621,17 @@
       <childof hlink="_d575ca326306945b8e520b7efaa"/>
       <parentin hlink="_cfcf2ec39c105718f81"/>
     </person>
-    <person handle="_cfcf31d6de109edc716" change="1597768827" id="I0002">
+    <person handle="_cfcf31d6de109edc716" change="1690300938" id="I0002">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Sofia</first>
-        <surname>Nyman</surname>
+        <surname derivation="Inherited">Nyman</surname>
+        <dateval val="1883-10-04" type="before"/>
+      </name>
+      <name alt="1" type="Married Name">
+        <first>Maria Sofia</first>
+        <surname derivation="Taken">Viitanen</surname>
+        <dateval val="1883-10-04" type="after"/>
       </name>
       <eventref hlink="_cfcf31cf08a668f38ad" role="Primary"/>
       <eventref hlink="_d55251b826d11d43816cfceeab" role="Primary"/>
@@ -1620,7 +1647,7 @@
       <childof hlink="_d55290d7fa5149dbcfdd4219bc0"/>
       <parentin hlink="_cfcf2ec39c105718f81"/>
     </person>
-    <person handle="_cfcf328c2542400af2a" change="1657636679" id="I0003">
+    <person handle="_cfcf328c2542400af2a" change="1690303609" id="I0003">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Karl Alexander</first>
@@ -1631,7 +1658,7 @@
       <eventref hlink="_f137c70b3617610c1638ff7ce25" role="Primary"/>
       <childof hlink="_cfcf2ec39c105718f81"/>
     </person>
-    <person handle="_cfcf3347c8a0d78cd49" change="1657636452" id="I0004">
+    <person handle="_cfcf3347c8a0d78cd49" change="1690303609" id="I0004">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Hilja Maria</first>
@@ -2630,7 +2657,7 @@
       <eventref hlink="_f137d42b71f5727698eff3b6ccd" role="Primary"/>
       <childof hlink="_cfd267b9fa13a7ccef2"/>
     </person>
-    <person handle="_f137a5154d25c6f578ffe08f5f0" change="1657633268" id="I0106">
+    <person handle="_f137a5154d25c6f578ffe08f5f0" change="1690293153" id="I0106">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Pirkko Tuulikki</first>
@@ -2639,6 +2666,8 @@
       <eventref hlink="_f137a5395df667cb776aa68a697" role="Primary"/>
       <eventref hlink="_f137a54bfd052ddb2bb990457a7" role="Primary"/>
       <childof hlink="_cfd267b9fa13a7ccef2"/>
+      <citationref hlink="_f5f83b50f9627ad88c63388351b"/>
+      <citationref hlink="_f5f84308ee11f0c4db265069b5e"/>
     </person>
     <person handle="_f137a5fa2ee1b8aa0782535f350" change="1657634563" id="I0107">
       <gender>M</gender>
@@ -2665,7 +2694,7 @@
     </person>
   </people>
   <families>
-    <family handle="_cfcf2ec39c105718f81" change="1589736839" id="F0000">
+    <family handle="_cfcf2ec39c105718f81" change="1690303609" id="F0000">
       <rel type="Married"/>
       <father hlink="_cfcf2f0accb0fef1bb6"/>
       <mother hlink="_cfcf31d6de109edc716"/>
@@ -2678,6 +2707,7 @@
       <eventref hlink="_e729eae02af461cf9ca030a0d4c" role="Family"/>
       <eventref hlink="_e729df746e839a6f7f827693a26" role="Family"/>
       <eventref hlink="_e72977f60c33605687d2b55d0f7" role="Family"/>
+      <eventref hlink="_f5f8b75ca116445d7c4db6135a1" role="Family"/>
       <childref hlink="_cfcf328c2542400af2a"/>
       <childref hlink="_cfcf3347c8a0d78cd49"/>
       <childref hlink="_cfcf2d6f80f4798ccdc"/>
@@ -4078,6 +4108,59 @@
       <noteref hlink="_f137c6f9d4925e1e969012b0786"/>
       <sourceref hlink="_f130c2d98ed58809ef2b30a8ab5"/>
     </citation>
+    <citation handle="_f5f83b50f9627ad88c63388351b" change="1690290917" id="C0183">
+      <page>II/290</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f5f83b3c52e656f65800f9344bf"/>
+      <noteref hlink="_f5f83e5230e7f90e049738ad1b8"/>
+      <sourceref hlink="_f5f838536ee5c05b54eb4611970"/>
+    </citation>
+    <citation handle="_f5f84308ee11f0c4db265069b5e" change="1690291787" id="C0184">
+      <page>II/307</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f5f843bf5cc113c284ceffef2ad"/>
+      <noteref hlink="_f5f846680aa386045180f57f7ad"/>
+      <sourceref hlink="_f5f8424e1694b523aa5c4341d32"/>
+    </citation>
+    <citation handle="_f5f851a54f5238de04422a887f2" change="1690293061" id="C0185">
+      <page>154</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f5f851a25a170794e1a6ea05dca"/>
+      <noteref hlink="_f5f852c6e306848f1c397bd1b1b"/>
+      <sourceref hlink="_f5f84ba8b3a6d564448d44d36f6"/>
+    </citation>
+    <citation handle="_f5f89c23ee11bb4d9dda4656dbb" change="1690300751" id="C0186">
+      <page>VIITANEN MARIA SOFIA</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f5f89c211b3138184a0815c6978"/>
+      <sourceref hlink="_f130c2d98ed58809ef2b30a8ab5"/>
+    </citation>
+    <citation handle="_f5f8a846c31737908e2eb32c796" change="1690302024" id="C0187">
+      <dateval val="1934-08-23"/>
+      <page>225/1</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f5f8a3f1ea264a5ad9a74db69e8"/>
+      <noteref hlink="_f5f8a44d799491c27826a1599ba"/>
+      <noteref hlink="_f5f8a7eef461a27973bc20109b8"/>
+      <sourceref hlink="_f5f8a3e62a02d6adb57626d9c0e"/>
+    </citation>
+    <citation handle="_f5f8aba3dd656ef1f3a7ff19d94" change="1690303373" id="C0188">
+      <page>1934 Welin Konstantin - Vikholm / 52</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f5f8aecd8fa7e75da4ccde4caae"/>
+      <noteref hlink="_f5f8aee446d60dc93284d5b2625"/>
+      <noteref hlink="_f5f8b51791b1b20d7010f3ab4a3"/>
+      <sourceref hlink="_f5f8aba2bfd7525906464e84f15"/>
+    </citation>
+    <citation handle="_f5f8c2e3ec8759020795eafc4e9" change="1690304815" id="C0189">
+      <dateval val="1943-10-30"/>
+      <page>293/2</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f5f8be6949321f67979043bda82"/>
+      <noteref hlink="_f5f8be84663292594b9bbcc1bcf"/>
+      <noteref hlink="_f5f8c2da079205941db95315b6e"/>
+      <sourceref hlink="_f5f8bde99352a0ccd965c04d207"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cfcf2cc3be07b4ceb0a" change="1588502483" id="S0000">
@@ -4634,10 +4717,41 @@
       <sauthor>Suomen ev.lut kirkko</sauthor>
       <reporef hlink="_f130c2d45aa663dc9c576752622" medium="Electronic"/>
     </source>
+    <source handle="_f5f838536ee5c05b54eb4611970" change="1690291822" id="S0111">
+      <stitle>Tyrvään Yhteiskoulu 1904-1954</stitle>
+      <spubinfo>Vammalan Kirjapaino Oy 1954, Vammala</spubinfo>
+      <reporef hlink="_f5f846f9585240462547cb57e05" medium="Book"/>
+    </source>
+    <source handle="_f5f8424e1694b523aa5c4341d32" change="1690291830" id="S0112">
+      <stitle>Tyrvään Yhteiskoulu - Vammalan Lukio 1904-1979</stitle>
+      <spubinfo>Vammalan Kirjapaino 1979, Vammala. ISBN 951-95031-7-X</spubinfo>
+      <reporef hlink="_f5f846f9585240462547cb57e05" medium="Book"/>
+    </source>
+    <source handle="_f5f84ba8b3a6d564448d44d36f6" change="1690292312" id="S0113">
+      <stitle>Tampereen Realilyseon ja Tampereen Lyseon Matrikkeli 1884-1934</stitle>
+      <spubinfo>Tampereen Kirjapaino-Osakeyhtiö 1939</spubinfo>
+      <reporef hlink="_f5f846f9585240462547cb57e05" medium="Book"/>
+    </source>
+    <source handle="_f5f8a3e62a02d6adb57626d9c0e" change="1690302020" id="S0114">
+      <stitle>Helsingin Sanomat</stitle>
+      <sauthor>Sanoma Oy</sauthor>
+      <spubinfo>Helsinki 07.07.1904 -</spubinfo>
+      <reporef hlink="_dccd46ff6f55e81325860132a48" medium="Book"/>
+    </source>
+    <source handle="_f5f8aba2bfd7525906464e84f15" change="1690302682" id="S0115">
+      <stitle>Helsinki Kuolleiden kortisto</stitle>
+      <sauthor>Helsingin kaupunki tilastotoimisto</sauthor>
+    </source>
+    <source handle="_f5f8bde99352a0ccd965c04d207" change="1690304293" id="S0116">
+      <stitle>Hufvudstadsbladet</stitle>
+      <sauthor>Hufvudstadsbladet Ab</sauthor>
+      <spubinfo>Helsingfors 05.12.1864 -</spubinfo>
+      <reporef hlink="_dccd46ff6f55e81325860132a48" medium="Book"/>
+    </source>
   </sources>
   <places>
-    <placeobj handle="_cfcf2b878383fc95f39" change="1657638027" id="P0000" type="Country">
-      <pname value="Suomi"/>
+    <placeobj handle="_cfcf2b878383fc95f39" change="1690303531" id="P0000" type="Country">
+      <pname value="Suomi" lang="fi"/>
       <pname value="Finland" lang="sv"/>
     </placeobj>
     <placeobj handle="_cfcf2ba409031044428" change="1597768651" id="P0001" type="Parish">
@@ -4817,7 +4931,7 @@
       <pname value="Östersundom"/>
       <placeref hlink="_d552b5c05846db5ba5d3a232ce8"/>
     </placeobj>
-    <placeobj handle="_d55f93f4443dca8a69fb3b05e7" change="1588533212" id="P0043" type="Parish">
+    <placeobj handle="_d55f93f4443dca8a69fb3b05e7" change="1690303532" id="P0043" type="Parish">
       <pname value="Helsingfors"/>
       <placeref hlink="_cfcf2b878383fc95f39"/>
     </placeobj>
@@ -5007,6 +5121,15 @@
       <pname value="Tammisaaren uusi hautausmaa"/>
       <placeref hlink="_f137d4258cb34d101e6ddb07a2f"/>
     </placeobj>
+    <placeobj handle="_f5f8364d92145fe1954c4136542" change="1690290073" id="P0089" type="Town">
+      <pname value="Kemi"/>
+      <placeref hlink="_cfcf2b878383fc95f39"/>
+    </placeobj>
+    <placeobj handle="_f5f8b603f875704e37620fdba56" change="1690303501" id="P0090" type="Hospital">
+      <pname value="Stengårds sjukhus" lang="sv"/>
+      <pname value="Kivelän sairaala" lang="fi"/>
+      <placeref hlink="_d55f93f4443dca8a69fb3b05e7"/>
+    </placeobj>
   </places>
   <repositories>
     <repository handle="_cfcf2cbb463653e2b72" change="1598174389" id="R0000">
@@ -5017,7 +5140,7 @@
       <rname>Arkistolaitos - Digitaaliarkisto</rname>
       <type>Library</type>
     </repository>
-    <repository handle="_dccd46ff6f55e81325860132a48" change="1589736369" id="R0002">
+    <repository handle="_dccd46ff6f55e81325860132a48" change="1690304289" id="R0002">
       <rname>Kansalliskirjaston digitoidut aineistot</rname>
       <type>Library</type>
       <url  href="https://digi.kansalliskirjasto.fi/" type="Web Home"/>
@@ -5030,6 +5153,10 @@
       <rname>Hautahaku.fi</rname>
       <type>Library</type>
       <url  href="https://www.hautahaku.fi" type="Web Search"/>
+    </repository>
+    <repository handle="_f5f846f9585240462547cb57e05" change="1690292309" id="R0005">
+      <rname>Oma arkisto</rname>
+      <type>Library</type>
     </repository>
   </repositories>
   <notes>
@@ -7196,8 +7323,174 @@ Kortteli	006
 Rivi	07
 Paikkanumero	00002</text>
     </note>
+    <note handle="_f5f83b3c52e656f65800f9344bf" change="1690290590" id="N0244" type="Transcript">
+      <text>2121. Viitanen, Pirkko Tuulikki. * Kemi
+29/12 29. Vmt pankinjohtaja Ossian Evert
+Wiitanen ja Olga Anna Margarethe 
+Thiess. - IV 46 Kemin tyttölyseosta - Y
+51. - Ollut va. opettajana Mouhijärvellä
+Häijään alakansakoulussa kev. 52, Tyr-
+vään yhteiskoulun matrikkelitoimikunnan
+sihteerinä 52-53, syksystä 53 pankkivir-
+kailijana Pohjoismaiden Yhdyspankissa
+Tampereella. - Harrastukset: voimistelu
+ja musiikki.</text>
+      <style name="bold">
+        <range start="0" end="32"/>
+      </style>
+    </note>
+    <note handle="_f5f83e5230e7f90e049738ad1b8" change="1690290914" id="N0245" type="Citation">
+      <text>Matrikkeli Tyrvään Yhteiskoulu 1904-1954 (Vammalan Kirjapaino Oy 1954 Vammala),  sivu 290, numero 2128</text>
+    </note>
+    <note handle="_f5f843bf5cc113c284ceffef2ad" change="1690291483" id="N0246" type="Citation">
+      <text>Matrikkeli Tyrvään Yhteiskoulu - Vammalan Lukio 1904-1979 (Vammalan Kirjapaino Oy 1979 Vammala, ISBN 951-95031-7-X),  sivu 307, numero 2128</text>
+    </note>
+    <note handle="_f5f846680aa386045180f57f7ad" change="1690291761" id="N0247" type="Transcript">
+      <text>2128. WIITANEN, Pirkko Tuulikki, Hhki - s 29.
+12. 29 Kemi. Vmt pankijoht Ossian Evert Wii-
+tanen ja Olga Anna Margarethe Thiess. - IV 46
+Kemin tyttöl - Y 51. - Va op Mouhijärvi Häijään
+alakansak 52, Tvään yk:n matrikkelitoimik:n
+siht 52-53, vsta 53 pankkivirk SYP, vsta 54
+toimien Hgissä. - Konttorin luottamusm 60-78,
+SYP:n luottamusneuv j 73-77. - H: voimistelu,
+kielet.</text>
+      <style name="bold">
+        <range start="0" end="31"/>
+      </style>
+    </note>
+    <note handle="_f5f851a25a170794e1a6ea05dca" change="1690292939" id="N0248" type="Transcript">
+      <text>550. Viitanen, Ossian Evert, * 1887 24/2 Tam-
+pereella. Vmt taloustirehtööri Karl Evert Vii-
+tanen, * 1862 8/8 Kangasalla, ja Maria Sofia
+Nyman, * 1850 23/9 Helsingissä, + Helsingin
+pit. Puoliso vsta 1920 Olga Margarethe Anna
+Thiess. Lapsia poika ja 3 tytärtä. - I lk:lle
+1898, yliopp. 1910, hämäl., opisk. kieliä Hel-
+singin yliopist. sekä Saksassa 1914-18. - 
+Pohjoismaiden Yhdyspankin virkam. Helsin-
+gissä 1918-22, Pohjoismaiden Yhdyspankin
+Raahen kontt. varaesimies 1922-1926, Kemin
+kontt. esimies 1925, Saksassa vt. matem.
+opett. Schweigers Einjährigen-Institut-oppil.
+Detmoldissa ja Nikolai-Schule-oppil. Hanno-
+verissa sekä Hannoversche Maschinenfabrik
+toiminimen ja erään vakuutuslait. kontt.
+- Kemin kaup. palolautak. jäs. vsta
+1928 ja puheenj. vsta 1929, kaup. rahavarojen
+tarkast. vsta 1928, uuden kansak. rakennus-
+lautak. jäs. ja Kemin kansallisseuran hallit.
+jäs., varapuheenj. 1928-29 ja rahastonhoit.
+vsta 1930.</text>
+      <style name="bold">
+        <range start="0" end="27"/>
+      </style>
+    </note>
+    <note handle="_f5f852c6e306848f1c397bd1b1b" change="1690293059" id="N0249" type="Citation">
+      <text>Tampereen Realilyseon ja Tampereen Lyseon Matrikkeli 1884-1934 (Tampereen Kirjapaino-Osakeyhtiö 1939),  sivu 154, numero 550</text>
+    </note>
+    <note handle="_f5f89c211b3138184a0815c6978" change="1690300750" id="N0250" type="Source text">
+      <text>VIITANEN MARIA SOFIA
+- 1934
+Tampereen seurakuntayhtymä, Kalevankankaan hautausmaa
+Syntymävuosi	
+Kuolinvuosi	1934
+Hautausmaa	
+Kalevankankaan hautausmaa
+Hautausmaankatu 5
+33100 Tampere
+Alue	00
+Kortteli	006
+Rivi	07
+Paikkanumero	00002</text>
+    </note>
+    <note handle="_f5f8a3f1ea264a5ad9a74db69e8" change="1690301570" id="N0251" type="Citation">
+      <text>Helsingin Sanomat, 23.08.1934, nro 225, s. 1
+https://digi.kansalliskirjasto.fi/sanomalehti/binding/1831380?page=1
+Kansalliskirjaston digitaaliset aineistot</text>
+    </note>
+    <note handle="_f5f8a44d799491c27826a1599ba" change="1690301607" id="N0252" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/1831380?page=1</text>
+    </note>
+    <note handle="_f5f8a7eef461a27973bc20109b8" change="1690301988" id="N0253" type="Transcript" format="1">
+      <text>  Hellästi rakastettu vaimoni
+    Maria Sofia Viitanen
+         o.s. Nyman
+ syntynyt 23/9 1850, kuoli 20/8
+1934.   Katkerasti    kaipaavat
+häntä minä, poikani perheineen,
+sukulaiset ja ystävät.
+      K. E. Viitanen.
+      Ossi Viitanen perheineen.
+-------------------------------
+   Vainaja viedään rautatiease-
+malta perjantaina 24 p. elokuu-
+ta  klo  9.20  ap. Tampereelle,
+jossa  ruumiinsiunaus  toimite-
+taan  junan  saavuttua klo 2.04
+j.p.p.  (14,04)</text>
+      <style name="bold">
+        <range start="30" end="54"/>
+      </style>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="455"/>
+      </style>
+    </note>
+    <note handle="_f5f8aecd8fa7e75da4ccde4caae" change="1690302708" id="N0254" type="Link">
+      <text>https://yksa.disec.fi/Yksa4/download/157562049272100/file/753a5009-19d2-489f-acb8-c148546ef9bd#page=52</text>
+    </note>
+    <note handle="_f5f8aee446d60dc93284d5b2625" change="1690302718" id="N0255" type="Citation">
+      <text>Tilastotoimisto - Kuolleiden kortisto 1934 Welin Konstantin - Vikholm; Helsingin kaupunginarkisto: http://yksa.fi/100211/157562049272100 / Viitattu 25.7.2023</text>
+    </note>
+    <note handle="_f5f8b51791b1b20d7010f3ab4a3" change="1690303368" id="N0256" type="Transcript">
+      <text>N:o 
+Nimi/Namn: Viitanen, Maria S
+Sukup./Kön: N.K.
+Syntynyt/Född: 18 23/9 50
+Kuollut/Död: 20 aug 1934
+Ikä/Ålder: 83 vuotta/år 10 kuuk./mån. 27 päiv./dag. Siviilisääty/Civilstånd: g
+Kuolemansyy/Dödsorsak: Pneumonia
+Nim.n:o/Nom.n:o: 65
+Ammati tai yhteiskunta-asema/Yrke eller samhällsställning:
+Asunto/Bostad: Mikaelsg. 22
+Kaup.osa/Stadsdel: II
+Kirkonkirjoissa/Kyrkskriven i: Nfi [Norra Finska?]
+Kuollut/Avliden i: Hfors, Steng[årds Sjukhus?]</text>
+    </note>
+    <note handle="_f5f8be6949321f67979043bda82" change="1690304345" id="N0257" type="Citation">
+      <text>Hufvudstadsbladet, 30.10.1943, nro 293, s. 2
+https://digi.kansalliskirjasto.fi/sanomalehti/binding/2251904?page=2
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f5f8be84663292594b9bbcc1bcf" change="1690304356" id="N0258" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/2251904?page=2</text>
+    </note>
+    <note handle="_f5f8c2da079205941db95315b6e" change="1690304811" id="N0259" type="Transcript" format="1">
+      <text>                         Vår älskade far och farfar,
+                        f.d. brandchefen i Tammerfors,
+                              ekonomiedirektören
+
+                             Karl Evert Wiitanen
+
+            född 8. 8. 1862  i Kangasala, insomnade fridfullt i
+            den eviga vilan 26.10.1943 i sitt hem i Helsingfors.
+
+                    Välsignat vare hans minne!
+
+                           Anny,    Ossian, Erkki,
+                           (f. Thiess)
+                           Anna-Liisa, Irma och Pirkko Wiitanen.
+----------------------------------------------------------------
+ Jordfästningen äger rum  i  kapellet  på  begravningsplatsen  i
+Tammerfors den 31 oktober 1943 kl. 16.00, varom släkt och vänner
+endast på detta sätt såsom inbjudan meddelas.</text>
+      <style name="bold">
+        <range start="158" end="207"/>
+      </style>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="781"/>
+      </style>
+    </note>
   </notes>
-  <namemaps>
-    <map type="group_as" key="Viitanen" value="Wiitanen"/>
-  </namemaps>
 </database>
