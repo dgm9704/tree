@@ -14854,9 +14854,9 @@
       <citationref hlink="_eceb7d6f9882965c06d9b617cce"/>
       <citationref hlink="_eceb50931a2631780a9f0179b8d"/>
     </event>
-    <event handle="_eceb82b7f6f41de99dead2f0283" change="1672242112" id="E0350">
+    <event handle="_eceb82b7f6f41de99dead2f0283" change="1690744939" id="E0350">
       <type>Residence</type>
-      <datespan start="1916" stop="1921"/>
+      <datespan start="1916" stop="1922"/>
       <place hlink="_eceb80d71fa1070a46fdd502dbc"/>
       <citationref hlink="_eceb82aec6115c9ff9e7ac7440b"/>
       <citationref hlink="_eceb8ce4198345caba2679e602c"/>
@@ -14864,6 +14864,7 @@
       <citationref hlink="_ecebf680c9a2430742b1bd98ea1"/>
       <citationref hlink="_eced4a0881b3a21e5b1a72c519d"/>
       <citationref hlink="_f357df82a9f608c776aa8c5db73"/>
+      <citationref hlink="_f609260660c705284c8c5b8308e"/>
     </event>
     <event handle="_eced4c4cac46bfb72515df09b4a" change="1672245985" id="E0351">
       <type>Military Service</type>
@@ -16881,6 +16882,12 @@
       <type>Burial</type>
       <place hlink="_f608c9914be71f2e5abb5449a41"/>
       <citationref hlink="_f608cdd3167725544f7f2aa4449"/>
+    </event>
+    <event handle="_f6090b552a44af6f4f4ee1d9780" change="1690741907" id="E0801">
+      <type>Birth</type>
+      <dateval val="1916-09-24"/>
+      <place hlink="_db7ebcf83ae47c5be4ce38b223e"/>
+      <citationref hlink="_f360fa0f8c45ecafd2dee07be6b"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -20627,7 +20634,7 @@
       <eventref hlink="_cb589cd2c4339d9f5ad" role="Primary"/>
       <childof hlink="_cb589ccf02d04708651"/>
     </person>
-    <person handle="_cb589cd2c683e5aa3a8" change="1672487231" id="I4788">
+    <person handle="_cb589cd2c683e5aa3a8" change="1690741933" id="I4788">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Amanda Katariina</first>
@@ -20636,6 +20643,7 @@
       </name>
       <eventref hlink="_cb589cd2c6e5a6d3621" role="Primary"/>
       <childof hlink="_cb589ccf02d04708651"/>
+      <parentin hlink="_f608dfecd8170356050430fe60b"/>
     </person>
     <person handle="_cb589cd2cb16e530514" change="1628102343" id="I4645">
       <gender>M</gender>
@@ -30085,6 +30093,15 @@
       <eventref hlink="_f608ce480dd786939ab25d04fa7" role="Primary"/>
       <parentin hlink="_f608cd51b0415dafe3c8206fb02"/>
     </person>
+    <person handle="_f608e0629004ba3a99302713ded" change="1690741933" id="I0173">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Kaino Alvar Adolf</first>
+        <surname>Nordberg</surname>
+      </name>
+      <eventref hlink="_f6090b552a44af6f4f4ee1d9780" role="Primary"/>
+      <childof hlink="_f608dfecd8170356050430fe60b"/>
+    </person>
   </people>
   <families>
     <family handle="_cb589cc7f9c792dc427" change="1658869228" id="F1472">
@@ -33694,6 +33711,11 @@
       <father hlink="_f608cd5c8ec5fa81019918ec95b"/>
       <mother hlink="_dd20e42fe441673d2e2b6b4b93e"/>
     </family>
+    <family handle="_f608dfecd8170356050430fe60b" change="1690741933" id="F0035">
+      <rel type="Unknown"/>
+      <mother hlink="_cb589cd2c683e5aa3a8"/>
+      <childref hlink="_f608e0629004ba3a99302713ded"/>
+    </family>
   </families>
   <citations>
     <citation handle="_cdbd0dc1efa1d31833b" change="1476200558" id="C0023">
@@ -34225,12 +34247,13 @@
       <noteref hlink="_ec7daa7403530e4bf9735bbb7a2"/>
       <sourceref hlink="_ceb8081a68400f5e654"/>
     </citation>
-    <citation handle="_ceb8114f25c75b3fd00" change="1476032956" id="C0091">
+    <citation handle="_ceb8114f25c75b3fd00" change="1690743777" id="C0091">
       <dateval val="1915"/>
       <page>s 190, jakso 7753</page>
       <confidence>2</confidence>
       <noteref hlink="_ceb8110cc8f78046fdf"/>
       <noteref hlink="_ceb81135224368a8f01"/>
+      <noteref hlink="_f6091d2645544cbe3fe3fd8f3f1"/>
       <sourceref hlink="_ceb810c144e6fa60836"/>
     </citation>
     <citation handle="_ceb81bd91ad61a810b0" change="1483287158" id="C0092">
@@ -43813,11 +43836,12 @@
       <confidence>2</confidence>
       <sourceref hlink="_f35f4d6226743390a87ce5222de"/>
     </citation>
-    <citation handle="_f360fa0f8c45ecafd2dee07be6b" change="1672486485" id="C1474">
+    <citation handle="_f360fa0f8c45ecafd2dee07be6b" change="1690738063" id="C1474">
       <page>Aa:22/536</page>
       <confidence>2</confidence>
       <noteref hlink="_f360f9e4e9a74af933f2df27535"/>
       <noteref hlink="_f360fa0b8a31ba0a638274246e0"/>
+      <noteref hlink="_f608e6a59121cc8082e8b84f938"/>
       <sourceref hlink="_f360f9af38f7e835c3e96212437"/>
     </citation>
     <citation handle="_f3685e7fc29370e0f0bed4c45e7" change="1672684922" id="C1475">
@@ -44630,6 +44654,14 @@
       <page>LAMPO LAURI</page>
       <confidence>2</confidence>
       <sourceref hlink="_f608c560c9d9945179e5c64572"/>
+    </citation>
+    <citation handle="_f609260660c705284c8c5b8308e" change="1690744887" id="C1587">
+      <page>H:289/36</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f60925e97fe34100812045a6257"/>
+      <noteref hlink="_f60925fe94a5780b354ef8fbe47"/>
+      <noteref hlink="_f60927bb0d63ee328b0f005b205"/>
+      <sourceref hlink="_f60925882df10be479f42f70135"/>
     </citation>
   </citations>
   <sources>
@@ -47789,6 +47821,11 @@
       <noteref hlink="_f608c85559e231d6caf3e69ebe6"/>
       <reporef hlink="_f608c551d791ac1d0ef4d1cc6ec" medium="Book"/>
     </source>
+    <source handle="_f60925882df10be479f42f70135" change="1690744655" id="S0631">
+      <stitle>Häme Henkikirja 1922</stitle>
+      <sauthor>Hämeen lääni</sauthor>
+      <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1658853851" id="P0000" type="City">
@@ -50841,7 +50878,7 @@
       <rname>Billiongraves</rname>
       <type>Library</type>
     </repository>
-    <repository handle="_f5dc19ee7d07e822ec5f7a37d7" change="1689793125" id="R0018">
+    <repository handle="_f5dc19ee7d07e822ec5f7a37d7" change="1690744652" id="R0018">
       <rname>Astia</rname>
       <type>Library</type>
       <url  href="https://astia.narc.fi/uusiastia/" type="Web Home"/>
@@ -73645,6 +73682,41 @@ heineen   Riihimäeltä Leppäkoskelle;</text>
       </style>
       <style name="fontface" value="Monospace">
         <range start="0" end="230"/>
+      </style>
+    </note>
+    <note handle="_f608e6a59121cc8082e8b84f938" change="1690738061" id="N2916" type="Transcript" format="1">
+      <text>536 Talola
+
+4. Seppä
+
+mtpl. Adolf Alarik Nordberg           8/9 1856 Sipoo  VK.331                              UK 580
+vmo Edla Juhont                      12/2 1855 Somero &quot;                                   &quot;
+P. Kustaa Adolf                     26/11 1878 &quot;      &quot;          arpa 3 Amerikassa 1906   &quot;
+Tr. Amanda Katariina                  2/4 1895 Koski  &quot;                                   &quot;
+Tr. Maria Wilhelmiina                 5/1 1885 Somero 1908/????                           &quot;
+Laps. pka Kaino Alvar Adolf Mandanp  24/9 1916 Koski                    ?????             &quot;</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="578"/>
+      </style>
+    </note>
+    <note handle="_f6091d2645544cbe3fe3fd8f3f1" change="1690743776" id="N2917" type="Citation">
+      <text>Viipurin läänin henkikirjat. Vi Henkikirjat. Vi:388 Henkikirja  (1915-1915). Tiedosto 7753. Kansallisarkisto. Viitattu 30.7.2023.</text>
+    </note>
+    <note handle="_f60925e97fe34100812045a6257" change="1690744694" id="N2918" type="Citation">
+      <text>Hämeen läänin henkikirjat. H Henkikirjat. H:289 Henkikirja  (1922-1922). Tiedosto 811. Kansallisarkisto. Viitattu 30.7.2023.</text>
+    </note>
+    <note handle="_f60925fe94a5780b354ef8fbe47" change="1690744703" id="N2919" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=8136205736&amp;aineistoId=1712347061</text>
+    </note>
+    <note handle="_f60927bb0d63ee328b0f005b205" change="1690744885" id="N2920" type="Transcript" format="1">
+      <text>Hämeen läänin Tammelan kihlakunnassa olevan Someron pitäjän (kappelin) henkikirja vuonna 1922     Siv. 36
+
+Joensuu
+        Kaunelan palstatila Palstatilallinen Otto Nord-
+                 berg 59 v. Serafia 60 L. Olga 96, Her-
+                 man 99 0-1</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="254"/>
       </style>
     </note>
   </notes>
