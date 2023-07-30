@@ -16837,6 +16837,51 @@
       <place hlink="_f608b1ff7945b092dcfe063571f"/>
       <citationref hlink="_f608b12199759b2fa80789a6539"/>
     </event>
+    <event handle="_f608c87521225036b9662196631" change="1690734895" id="E0792">
+      <type>Death</type>
+      <dateval val="1961-11-03"/>
+      <citationref hlink="_f608c86afd817aefaaf235f81b9"/>
+    </event>
+    <event handle="_f608c8f80b95516bf78dac62782" change="1690734949" id="E0793">
+      <type>Death</type>
+      <dateval val="1944-11-26"/>
+      <citationref hlink="_f608c8ef1cb21e7f4dada813fa5"/>
+    </event>
+    <event handle="_f608ca179337dd73223a8160031" change="1690735066" id="E0794">
+      <type>Burial</type>
+      <place hlink="_f608c9914be71f2e5abb5449a41"/>
+      <citationref hlink="_f608c8ef1cb21e7f4dada813fa5"/>
+    </event>
+    <event handle="_f608ca8c7fb463fed1492fc9177" change="1690735114" id="E0795">
+      <type>Burial</type>
+      <place hlink="_f608c9914be71f2e5abb5449a41"/>
+      <citationref hlink="_f608c86afd817aefaaf235f81b9"/>
+    </event>
+    <event handle="_f608cba27694f26dced72a08088" change="1690735228" id="E0796">
+      <type>Death</type>
+      <dateval val="1991-01-26"/>
+      <citationref hlink="_f608cb7d90f2fae6c66e75a1df7"/>
+    </event>
+    <event handle="_f608cbeb9227bcd79ee85b0271" change="1690735258" id="E0797">
+      <type>Burial</type>
+      <place hlink="_f608c9914be71f2e5abb5449a41"/>
+      <citationref hlink="_f608cb7d90f2fae6c66e75a1df7"/>
+    </event>
+    <event handle="_f608cdd8f9327526d890428d946" change="1690735460" id="E0798">
+      <type>Birth</type>
+      <dateval val="1895-04-04"/>
+      <citationref hlink="_f608cdd3167725544f7f2aa4449"/>
+    </event>
+    <event handle="_f608ce22b7bed32740a173214c" change="1690735490" id="E0799">
+      <type>Death</type>
+      <dateval val="1969-01-02"/>
+      <citationref hlink="_f608cdd3167725544f7f2aa4449"/>
+    </event>
+    <event handle="_f608ce480dd786939ab25d04fa7" change="1690735506" id="E0800">
+      <type>Burial</type>
+      <place hlink="_f608c9914be71f2e5abb5449a41"/>
+      <citationref hlink="_f608cdd3167725544f7f2aa4449"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1658869228" id="I3858">
@@ -17104,7 +17149,7 @@
       <eventref hlink="_cb589cc854b2617c514" role="Primary"/>
       <childof hlink="_cb589cc80670f6bf5c4"/>
     </person>
-    <person handle="_cb589cc8576658f573e" change="1690731756" id="I4247">
+    <person handle="_cb589cc8576658f573e" change="1690735143" id="I4247">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Daniel</first>
@@ -17117,6 +17162,8 @@
       <eventref hlink="_dd1fcf8fc2f386fda6e735a0d62" role="Primary"/>
       <eventref hlink="_dd1fd17d7e65963a104313fa0b5" role="Primary"/>
       <eventref hlink="_dd1fd1db058f08a85ae35e3651" role="Primary"/>
+      <eventref hlink="_f608c87521225036b9662196631" role="Primary"/>
+      <eventref hlink="_f608ca8c7fb463fed1492fc9177" role="Primary"/>
       <childof hlink="_cb589cc80670f6bf5c4"/>
       <parentin hlink="_dd20ac5986f6adad2d380c1b04"/>
       <citationref hlink="_f6082f262867cc28362db312836"/>
@@ -27581,13 +27628,20 @@
       <eventref hlink="_ece419e70025f8bbca5135ddfc2" role="Primary"/>
       <parentin hlink="_db8bd4c881c67d0077325a1c437"/>
     </person>
-    <person handle="_dd20ac6d3a16d45d4d0a9116920" change="1689793349" id="I0950">
+    <person handle="_dd20ac6d3a16d45d4d0a9116920" change="1690735569" id="I0950">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Amanda</first>
         <surname>Häll</surname>
       </name>
+      <name alt="1" type="Married Name">
+        <first>Amanda</first>
+        <surname derivation="Taken">Korhonen</surname>
+        <citationref hlink="_f608c8ef1cb21e7f4dada813fa5"/>
+      </name>
       <eventref hlink="_dd20ae5d9ce422e824b2fa554af" role="Primary"/>
+      <eventref hlink="_f608c8f80b95516bf78dac62782" role="Primary"/>
+      <eventref hlink="_f608ca179337dd73223a8160031" role="Primary"/>
       <childof hlink="_f5e5b3943e63861316469ddca15"/>
       <parentin hlink="_dd20ac5986f6adad2d380c1b04"/>
     </person>
@@ -27609,14 +27663,22 @@
       <eventref hlink="_dd20d915a6e76a2ab6362724af8" role="Primary"/>
       <childof hlink="_dd20ac5986f6adad2d380c1b04"/>
     </person>
-    <person handle="_dd20e42fe441673d2e2b6b4b93e" change="1690732904" id="I0953">
+    <person handle="_dd20e42fe441673d2e2b6b4b93e" change="1690735511" id="I0953">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Karin Irma Alexandra</first>
         <surname>Korhonen</surname>
       </name>
+      <name alt="1" type="Married Name">
+        <first>Karin Irma Aleksandra</first>
+        <surname derivation="Married Name">Lampo</surname>
+        <citationref hlink="_f608cb7d90f2fae6c66e75a1df7"/>
+      </name>
       <eventref hlink="_dd20e5c643b307d2113721961ff" role="Primary"/>
+      <eventref hlink="_f608cba27694f26dced72a08088" role="Primary"/>
+      <eventref hlink="_f608cbeb9227bcd79ee85b0271" role="Primary"/>
       <childof hlink="_dd20ac5986f6adad2d380c1b04"/>
+      <parentin hlink="_f608cd51b0415dafe3c8206fb02"/>
     </person>
     <person handle="_de1896e18ae16b00f7ffe4ad713" change="1526395194" id="I0954">
       <gender>F</gender>
@@ -30011,6 +30073,17 @@
       </name>
       <eventref hlink="_f5e5b4b43f15e2a6aefbc17bf4f" role="Primary"/>
       <parentin hlink="_f5e5b3943e63861316469ddca15"/>
+    </person>
+    <person handle="_f608cd5c8ec5fa81019918ec95b" change="1690735511" id="I0172">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Lauri</first>
+        <surname>Lampo</surname>
+      </name>
+      <eventref hlink="_f608cdd8f9327526d890428d946" role="Primary"/>
+      <eventref hlink="_f608ce22b7bed32740a173214c" role="Primary"/>
+      <eventref hlink="_f608ce480dd786939ab25d04fa7" role="Primary"/>
+      <parentin hlink="_f608cd51b0415dafe3c8206fb02"/>
     </person>
   </people>
   <families>
@@ -33615,6 +33688,11 @@
       <mother hlink="_f5e5b43a8c675d81c1ed107386b"/>
       <childref hlink="_dd20ac6d3a16d45d4d0a9116920"/>
       <citationref hlink="_f5e5b35c13510c725f7f57cb8be"/>
+    </family>
+    <family handle="_f608cd51b0415dafe3c8206fb02" change="1690735511" id="F0034">
+      <rel type="Unknown"/>
+      <father hlink="_f608cd5c8ec5fa81019918ec95b"/>
+      <mother hlink="_dd20e42fe441673d2e2b6b4b93e"/>
     </family>
   </families>
   <citations>
@@ -44533,6 +44611,26 @@
       <noteref hlink="_f608b11c519565f9f3962f6e290"/>
       <sourceref hlink="_f608af774b24620f7eda31b11f7"/>
     </citation>
+    <citation handle="_f608c86afd817aefaaf235f81b9" change="1690734891" id="C1583">
+      <page>KORHONEN DANIEL</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_f608c560c9d9945179e5c64572"/>
+    </citation>
+    <citation handle="_f608c8ef1cb21e7f4dada813fa5" change="1690734945" id="C1584">
+      <page>KORHONEN AMANDA</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_f608c560c9d9945179e5c64572"/>
+    </citation>
+    <citation handle="_f608cb7d90f2fae6c66e75a1df7" change="1690735213" id="C1585">
+      <page>LAMPO KARIN IRMA ALEKSANDRA</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_f608c560c9d9945179e5c64572"/>
+    </citation>
+    <citation handle="_f608cdd3167725544f7f2aa4449" change="1690735458" id="C1586">
+      <page>LAMPO LAURI</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_f608c560c9d9945179e5c64572"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -47686,6 +47784,11 @@
       <spubinfo>Hämeenlinna 04.12.1878 -</spubinfo>
       <reporef hlink="_cdea68c6afd7d08bd3f" medium="Book"/>
     </source>
+    <source handle="_f608c560c9d9945179e5c64572" change="1690734884" id="S0630">
+      <stitle>Hautakivi Korhonen/Lampo Riihimäki</stitle>
+      <noteref hlink="_f608c85559e231d6caf3e69ebe6"/>
+      <reporef hlink="_f608c551d791ac1d0ef4d1cc6ec" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1658853851" id="P0000" type="City">
@@ -50643,13 +50746,17 @@
       <pname value="Riihimäen asema"/>
       <placeref hlink="_d486cc4c67cb1e6b9b970daba4"/>
     </placeobj>
-    <placeobj handle="_f608adbe1bd20932549c7eb8300" change="1690732094" id="P0211" type="Parish">
+    <placeobj handle="_f608adbe1bd20932549c7eb8300" change="1690735010" id="P0211" type="Parish">
       <pname value="Riihimäki"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
     </placeobj>
     <placeobj handle="_f608b1ff7945b092dcfe063571f" change="1690732540" id="P0212" type="Village">
       <pname value="Leppäkoski"/>
       <placeref hlink="_cf9699fdd2e34c0b9a7"/>
+    </placeobj>
+    <placeobj handle="_f608c9914be71f2e5abb5449a41" change="1690735011" id="P0213" type="Cemetery">
+      <pname value="Riihimäen hautausmaa"/>
+      <placeref hlink="_f608adbe1bd20932549c7eb8300"/>
     </placeobj>
   </places>
   <repositories>
@@ -50738,6 +50845,12 @@
       <rname>Astia</rname>
       <type>Library</type>
       <url  href="https://astia.narc.fi/uusiastia/" type="Web Home"/>
+    </repository>
+    <repository handle="_f608c551d791ac1d0ef4d1cc6ec" change="1690734566" id="R0019">
+      <rname>Suomen kirkkoja ja hautausmaita</rname>
+      <type>Web site</type>
+      <url  href="https://asiakas.kotisivukone.com/files/suomenkirkkojajahautausmaita.kotisivukone.com/hakemisto15082022.pdf" type="Web Search" description="hakemisto"/>
+      <url  href="https://www.facebook.com/groups/473512779339429/" type="Facebook"/>
     </repository>
   </repositories>
   <notes>
@@ -73516,6 +73629,22 @@ heineen   Riihimäeltä Leppäkoskelle;</text>
       </style>
       <style name="fontface" value="Monospace">
         <range start="0" end="204"/>
+      </style>
+    </note>
+    <note handle="_f608c85559e231d6caf3e69ebe6" change="1690734882" id="N2915" type="Transcript" format="1">
+      <text>       KORHONEN                    LAMPO
+
+        DANIEL                     LAURI
+*3.7.1874 †3.11.1961        *4.4.1895 †2.1.1969
+
+        AMANDA              KARIN IRMA ALEXANDRA
+*8.8.1871 †26.11.1944       *7.12.1904 †26.1.1991</text>
+      <style name="bold">
+        <range start="0" end="15"/>
+        <range start="35" end="41"/>
+      </style>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="230"/>
       </style>
     </note>
   </notes>
