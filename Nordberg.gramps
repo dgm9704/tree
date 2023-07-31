@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2023-07-30" version="5.1.6"/>
+    <created date="2023-07-31" version="5.1.6"/>
     <researcher>
     </researcher>
   </header>
@@ -7447,7 +7447,7 @@
       <citationref hlink="_d6e0f29cb214ee91e1b373bd27e"/>
       <citationref hlink="_df818b4d2ec1fced1fed4698873"/>
     </event>
-    <event handle="_cb589cfdfe33d8fec63" change="1508360138" id="E7198">
+    <event handle="_cb589cfdfe33d8fec63" change="1690812774" id="E7198">
       <type>Marriage</type>
       <dateval val="1904-12-22"/>
       <place hlink="_cea0ca2bfb32dc3411e"/>
@@ -8431,7 +8431,7 @@
       <place hlink="_cf8ecc4d0f10db1b4d3"/>
       <citationref hlink="_cf8edec9fe178184cf8"/>
     </event>
-    <event handle="_cf8ee2160752301933f" change="1658989965" id="E3157">
+    <event handle="_cf8ee2160752301933f" change="1690789350" id="E3157">
       <type>Residence</type>
       <datespan start="1899" stop="1901"/>
       <place hlink="_cf8ee1104851319196b"/>
@@ -10221,7 +10221,7 @@
       <citationref hlink="_db784ca40413566bc8746ddf226"/>
       <citationref hlink="_db784c1550f3b1b1764537d9fc8"/>
     </event>
-    <event handle="_db78504841823d3037ff03e5f05" change="1508355956" id="E2239">
+    <event handle="_db78504841823d3037ff03e5f05" change="1690811780" id="E2239">
       <type>Residence</type>
       <datespan start="1891-11-14" stop="1896"/>
       <place hlink="_cb589cd2c720953c962"/>
@@ -10253,7 +10253,7 @@
       <place hlink="_cb589cd2c720953c962"/>
       <citationref hlink="_db7eb207c1f3d086a77d2e77b6e"/>
     </event>
-    <event handle="_db7eb8cca0c311ee8c22d070d9d" change="1508360358" id="E2246">
+    <event handle="_db7eb8cca0c311ee8c22d070d9d" change="1690813076" id="E2246">
       <type>Residence</type>
       <datespan start="1904" stop="1906"/>
       <place hlink="_db7eb8456aa3df3b58f99c78b2a"/>
@@ -11891,7 +11891,7 @@
       <citationref hlink="_cf8eccad03f3ab171ac"/>
       <citationref hlink="_df5ddececb32172a08eb2079774"/>
     </event>
-    <event handle="_df5a7e238be6ba49d6fb428174b" change="1534880579" id="E2559">
+    <event handle="_df5a7e238be6ba49d6fb428174b" change="1690795361" id="E2559">
       <type>Residence</type>
       <datespan start="1885-12-01" stop="1889-11-27"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
@@ -16889,6 +16889,45 @@
       <place hlink="_db7ebcf83ae47c5be4ce38b223e"/>
       <citationref hlink="_f360fa0f8c45ecafd2dee07be6b"/>
     </event>
+    <event handle="_f609329c64013e7431c21446515" change="1690746026" id="E0802">
+      <type>Death</type>
+      <dateval val="1922-12-04" quality="calculated"/>
+      <place hlink="_eceb80d71fa1070a46fdd502dbc"/>
+      <citationref hlink="_f6092f97dcc205505c1422def8a"/>
+    </event>
+    <event handle="_f60bb54a4de3e888f4a4edd4c7f" change="1690813416" id="E0803">
+      <type>Residence</type>
+      <datespan start="1907" stop="1908-10-06"/>
+      <place hlink="_db7eb8456aa3df3b58f99c78b2a"/>
+      <citationref hlink="_f60bb54685c2458f742e1ddd79b"/>
+    </event>
+    <event handle="_f60bb609e186e00012ee97e4f40" change="1690814591" id="E0804">
+      <type>Residence</type>
+      <dateval val="1908-10-06" type="after"/>
+      <place hlink="_f60bc07b62c55e5d499c02b214a"/>
+      <citationref hlink="_f60bb54685c2458f742e1ddd79b"/>
+      <citationref hlink="_f60bbbbb18148da44bf0538eb20"/>
+      <citationref hlink="_f60bbfa9d3b4aaf3a32eaa2876d"/>
+    </event>
+    <event handle="_f60bb6f734f1a1de46ada041542" change="1690813592" id="E0805">
+      <type>Birth</type>
+      <dateval val="1908-06-27"/>
+      <place hlink="_f60bb6e26832160ae2e9daa3691"/>
+      <citationref hlink="_f60bb54685c2458f742e1ddd79b"/>
+    </event>
+    <event handle="_f60bbffc219538d7857f75ce024" change="1690814541" id="E0806">
+      <type>Death</type>
+      <dateval val="1915-03-27"/>
+      <place hlink="_f60bb5cb5d34ac4a9ad3d28be02"/>
+      <citationref hlink="_f60bbfa9d3b4aaf3a32eaa2876d"/>
+    </event>
+    <event handle="_f60bc538097345ca7c7a7c6465e" change="1690815093" id="E0807">
+      <type>Birth</type>
+      <dateval val="1915-01-14"/>
+      <place hlink="_f60bb5cb5d34ac4a9ad3d28be02"/>
+      <citationref hlink="_f60bbfa9d3b4aaf3a32eaa2876d"/>
+      <citationref hlink="_f60bc53371bd5b038abf08aaca"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1658869228" id="I3858">
@@ -17354,12 +17393,11 @@
       <childof hlink="_cb589cc83ea4c947ebd"/>
       <parentin hlink="_cb589cc91a97a9ab738"/>
     </person>
-    <person handle="_cb589cc91b30ef77f45" change="1476135831" id="I4741">
+    <person handle="_cb589cc91b30ef77f45" change="1690784489" id="I4741">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Carl Johan</first>
         <surname>Nordberg</surname>
-        <suffix>jr</suffix>
       </name>
       <eventref hlink="_cb589cc91b71400b530" role="Primary"/>
       <eventref hlink="_cb589cc91c51e78397a" role="Primary"/>
@@ -18133,9 +18171,9 @@
       <eventref hlink="_df5a7982f156f8e0a23e93c03b3" role="Primary"/>
       <childof hlink="_cb589cc91fa5f6431de"/>
     </person>
-    <person handle="_cb589ccc3142d9ef4a4" change="1534877062" id="I3815">
+    <person handle="_cb589ccc3142d9ef4a4" change="1690794541" id="I3815">
       <gender>M</gender>
-      <name type="Birth Name">
+      <name type="Also Known As">
         <first>Otto Ferdinand</first>
         <surname derivation="Taken">Jokinen</surname>
         <citationref hlink="_cf8edec9fe178184cf8"/>
@@ -19238,7 +19276,7 @@
       <childof hlink="_cb589ccbd8a12edf1ad"/>
       <parentin hlink="_cb589ccf02d04708651"/>
     </person>
-    <person handle="_cb589ccf0387502cd29" change="1627916203" id="I3290">
+    <person handle="_cb589ccf0387502cd29" change="1690747352" id="I3290">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Otto Ferdinand</first>
@@ -19251,8 +19289,14 @@
       <eventref hlink="_db7edadb112598542f55d48791a" role="Primary"/>
       <eventref hlink="_db7edbfdf6343db4d9007197a3a" role="Primary"/>
       <eventref hlink="_db7ee05e3fd4af764a4b7d76131" role="Primary"/>
+      <eventref hlink="_f609329c64013e7431c21446515" role="Primary"/>
       <childof hlink="_cb589ccbd8a12edf1ad"/>
       <parentin hlink="_cb589ccf0543e184100"/>
+      <citationref hlink="_f60933e06143970c05655ed0034"/>
+      <citationref hlink="_f60936949591465ff1cbb297a3b"/>
+      <citationref hlink="_f60937926ce18bbd0dbeda588f3"/>
+      <citationref hlink="_f609393e57b705d6c33cc66b4e"/>
+      <citationref hlink="_f6093e5ad797e058f37e8875b1f"/>
     </person>
     <person handle="_cb589ccf05f327c59fd" change="1526334960" id="I4170">
       <gender>M</gender>
@@ -20645,7 +20689,7 @@
       <childof hlink="_cb589ccf02d04708651"/>
       <parentin hlink="_f608dfecd8170356050430fe60b"/>
     </person>
-    <person handle="_cb589cd2cb16e530514" change="1628102343" id="I4645">
+    <person handle="_cb589cd2cb16e530514" change="1690747089" id="I4645">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Frans Pietari</first>
@@ -20655,7 +20699,7 @@
       <eventref hlink="_cb589cd2cc2047ace01" role="Primary"/>
       <childof hlink="_cb589ccf0543e184100"/>
     </person>
-    <person handle="_cb589cd2ce33616538c" change="1628173793" id="I5383">
+    <person handle="_cb589cd2ce33616538c" change="1690747089" id="I5383">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Hjalmar Ferdinand</first>
@@ -20679,7 +20723,7 @@
       <childof hlink="_cb589ccf0543e184100"/>
       <parentin hlink="_eced97242ef3ee2770424bafd29"/>
     </person>
-    <person handle="_cb589cd2d0b50c43415" change="1628102343" id="I4404">
+    <person handle="_cb589cd2d0b50c43415" change="1690747089" id="I4404">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Aleksander Nikolai</first>
@@ -20689,7 +20733,7 @@
       <eventref hlink="_cb589cd2d21493e45a5" role="Primary"/>
       <childof hlink="_cb589ccf0543e184100"/>
     </person>
-    <person handle="_cb589cd2d424fe28e76" change="1628102343" id="I4171">
+    <person handle="_cb589cd2d424fe28e76" change="1690747089" id="I4171">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Olga Aleksandra</first>
@@ -20698,7 +20742,7 @@
       <eventref hlink="_cb589cd2d492d2312bc" role="Primary"/>
       <childof hlink="_cb589ccf0543e184100"/>
     </person>
-    <person handle="_cb589cd2d6a3dc236e3" change="1628150764" id="I4392">
+    <person handle="_cb589cd2d6a3dc236e3" change="1690747089" id="I4392">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Herman</first>
@@ -20710,7 +20754,7 @@
       <eventref hlink="_eced5778147414b318d9d7e684b" role="Primary"/>
       <childof hlink="_cb589ccf0543e184100"/>
     </person>
-    <person handle="_cb589cd2d93428803ee" change="1628102343" id="I4734">
+    <person handle="_cb589cd2d93428803ee" change="1690747089" id="I4734">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Alma Aurora</first>
@@ -26115,13 +26159,14 @@
       <childof hlink="_db77ef80e736d53eaf00766ded3"/>
       <parentin hlink="_cb589ccf02d04708651"/>
     </person>
-    <person handle="_cea0cb8b87f5b09de23" change="1519930340" id="I6225">
+    <person handle="_cea0cb8b87f5b09de23" change="1690814600" id="I6225">
       <gender>M</gender>
       <name type="Birth Name">
         <first>August Emil</first>
         <surname>Lindström</surname>
       </name>
       <eventref hlink="_cea0cb81b357272c3e6" role="Primary"/>
+      <eventref hlink="_f60bbffc219538d7857f75ce024" role="Primary"/>
       <parentin hlink="_cb589cd2b86404ed137"/>
     </person>
     <person handle="_cea11e992eb0f1ddc78" change="1508172434" id="I6226">
@@ -26140,11 +26185,15 @@
       <childof hlink="_db77ba2ca6c1fe8dce52738c7a8"/>
       <parentin hlink="_cb589ccbd8a12edf1ad"/>
     </person>
-    <person handle="_cea12275cdd132f5c61" change="1508362647" id="I6227">
+    <person handle="_cea12275cdd132f5c61" change="1690747007" id="I6227">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Serafia</first>
         <surname derivation="Patronymic">Juhontytär</surname>
+      </name>
+      <name alt="1" type="Married Name">
+        <first>Serafia</first>
+        <surname derivation="Married Name">Nordberg</surname>
       </name>
       <eventref hlink="_cea1225f4d6138e600d" role="Primary"/>
       <parentin hlink="_cb589ccf0543e184100"/>
@@ -27878,14 +27927,14 @@
       <eventref hlink="_df57d4f8e691256ff53a8d5eb6f" role="Primary"/>
       <childof hlink="_cb589cc91fa5f6431de"/>
     </person>
-    <person handle="_df57a9c49613d4df7caf57ae9b4" change="1534800853" id="I0973">
+    <person handle="_df57a9c49613d4df7caf57ae9b4" change="1690794787" id="I0973">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Henrika Paulina</first>
         <surname derivation="Patronymic">Ottosdotter</surname>
       </name>
-      <eventref hlink="_df57ab469dd4b44333aa20d4897" role="Primary"/>
       <eventref hlink="_df57ad4dbbf7f2f87e8d993871c" role="Primary"/>
+      <eventref hlink="_df57ab469dd4b44333aa20d4897" role="Primary"/>
       <childof hlink="_cb589cc91fa5f6431de"/>
     </person>
     <person handle="_df57c50fc8d441a7e3f92e0b0b" change="1534802195" id="I0974">
@@ -30102,6 +30151,24 @@
       <eventref hlink="_f6090b552a44af6f4f4ee1d9780" role="Primary"/>
       <childof hlink="_f608dfecd8170356050430fe60b"/>
     </person>
+    <person handle="_f60bb6654273ff6f9ce5a6d6d39" change="1690815100" id="I0174">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Lyyli Sofia</first>
+        <surname derivation="Inherited">Lindström</surname>
+      </name>
+      <eventref hlink="_f60bb6f734f1a1de46ada041542" role="Primary"/>
+      <childof hlink="_cb589cd2b86404ed137"/>
+    </person>
+    <person handle="_f60bc0ffac617e3f6c64db97f0e" change="1690815100" id="I0175">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Toivo August</first>
+        <surname>Lindström</surname>
+      </name>
+      <eventref hlink="_f60bc538097345ca7c7a7c6465e" role="Primary"/>
+      <childof hlink="_cb589cd2b86404ed137"/>
+    </person>
   </people>
   <families>
     <family handle="_cb589cc7f9c792dc427" change="1658869228" id="F1472">
@@ -31144,7 +31211,7 @@
       <childref hlink="_cb589cd2c2c0fd05375"/>
       <childref hlink="_cb589cd2c683e5aa3a8"/>
     </family>
-    <family handle="_cb589ccf0543e184100" change="1628102343" id="F2291">
+    <family handle="_cb589ccf0543e184100" change="1690747089" id="F2291">
       <rel type="Married"/>
       <father hlink="_cb589ccf0387502cd29"/>
       <mother hlink="_cea12275cdd132f5c61"/>
@@ -31160,6 +31227,7 @@
       <childref hlink="_cb589cd2d424fe28e76"/>
       <childref hlink="_cb589cd2d6a3dc236e3"/>
       <childref hlink="_cb589cd2d93428803ee"/>
+      <citationref hlink="_f6093cb7ebf1376a732371f21d6"/>
     </family>
     <family handle="_cb589ccf3660a6c0b39" change="1414284937" id="F1369">
       <rel type="Married"/>
@@ -31485,12 +31553,16 @@
       <childref hlink="_cb589cd85ea4722a2cc"/>
       <childref hlink="_cb589cd8634036d7914"/>
     </family>
-    <family handle="_cb589cd2b86404ed137" change="1508358225" id="F1370">
+    <family handle="_cb589cd2b86404ed137" change="1690815100" id="F1370">
       <rel type="Married"/>
       <father hlink="_cea0cb8b87f5b09de23"/>
       <mother hlink="_cb589cd2b69251ab8c6"/>
       <eventref hlink="_cb589cfdfe33d8fec63" role="Family"/>
       <eventref hlink="_db7eb8cca0c311ee8c22d070d9d" role="Family"/>
+      <eventref hlink="_f60bb54a4de3e888f4a4edd4c7f" role="Family"/>
+      <eventref hlink="_f60bb609e186e00012ee97e4f40" role="Family"/>
+      <childref hlink="_f60bb6654273ff6f9ce5a6d6d39"/>
+      <childref hlink="_f60bc0ffac617e3f6c64db97f0e"/>
     </family>
     <family handle="_cb589cd3e4c430f44da" change="1414284937" id="F2463">
       <rel type="Married"/>
@@ -36532,16 +36604,19 @@
       <noteref hlink="_db7eb205877394e374f47a424cf"/>
       <sourceref hlink="_db7eb1bca92b0340fc48a10c62"/>
     </citation>
-    <citation handle="_db7eb6ada4211739827575d59ae" change="1508357982" id="C0419">
+    <citation handle="_db7eb6ada4211739827575d59ae" change="1690812740" id="C0419">
       <page>53-54</page>
       <confidence>2</confidence>
       <noteref hlink="_db7eb6a59d535fd1c901fcd14c9"/>
+      <noteref hlink="_f60bac18b8b2b45a33244855f3c"/>
+      <noteref hlink="_f60baed17a67ba446cbb7f7806d"/>
       <sourceref hlink="_db7eb6802ff3dac643e21eaa829"/>
     </citation>
-    <citation handle="_db7eb8be75848f751ae32adcc24" change="1508360357" id="C0420">
+    <citation handle="_db7eb8be75848f751ae32adcc24" change="1690812148" id="C0420">
       <page>II/724</page>
       <confidence>2</confidence>
       <noteref hlink="_db7eb8bc7a137670cfcfefd8311"/>
+      <noteref hlink="_f60ba92da9727160151cd96d42"/>
       <sourceref hlink="_db7eb1bca92b0340fc48a10c62"/>
     </citation>
     <citation handle="_db7ebd48a9637cfd56a95002a94" change="1508358675" id="C0421">
@@ -36568,10 +36643,11 @@
       <noteref hlink="_db7ec3197fa751a0702dd5bc7e1"/>
       <sourceref hlink="_db78262c4904dc64af2da800d2a"/>
     </citation>
-    <citation handle="_db7ecb337f52f5326225813d9c7" change="1508360134" id="C0425">
+    <citation handle="_db7ecb337f52f5326225813d9c7" change="1690812437" id="C0425">
       <page>kuva 55</page>
       <confidence>2</confidence>
       <noteref hlink="_db7ecb31b01336e804524f7a174"/>
+      <noteref hlink="_f60baad31257728926f9bf3d3ca"/>
       <sourceref hlink="_db7ecaf4bff288c729da0672f63"/>
     </citation>
     <citation handle="_db7ed41bb27245da2d630e78bbc" change="1508361068" id="C0426">
@@ -44663,6 +44739,95 @@
       <noteref hlink="_f60927bb0d63ee328b0f005b205"/>
       <sourceref hlink="_f60925882df10be479f42f70135"/>
     </citation>
+    <citation handle="_f6092f97dcc205505c1422def8a" change="1690746751" id="C1588">
+      <dateval val="1922-12-12"/>
+      <page>1922-140/2</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f6092f2e3b65a6d0f73b91d8da6"/>
+      <noteref hlink="_f6092fc67d32611ae0358ec120b"/>
+      <noteref hlink="_f60932845603c4cae6cd28395ac"/>
+      <sourceref hlink="_f6092e747051d2cd8432d92a11d"/>
+    </citation>
+    <citation handle="_f60933e06143970c05655ed0034" change="1690746646" id="C1589">
+      <dateval val="1920-03-02"/>
+      <page>1920-17/4</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f60933c40e74883816f3efb3f9d"/>
+      <noteref hlink="_f60933db03d65be35252b2420b"/>
+      <sourceref hlink="_f6092e747051d2cd8432d92a11d"/>
+    </citation>
+    <citation handle="_f60936949591465ff1cbb297a3b" change="1690746655" id="C1590">
+      <dateval val="1920-09-09"/>
+      <page>1920-230/5</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f6093623f65689e0e3b2db51510"/>
+      <noteref hlink="_f609368d9105ad43d2cc5c723bb"/>
+      <sourceref hlink="_f60935a2f8c643304adc83df66f"/>
+    </citation>
+    <citation handle="_f60937926ce18bbd0dbeda588f3" change="1690746629" id="C1591">
+      <dateval val="1921-01-04"/>
+      <page>1921-1/4</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f6093721ba23858739933dea5a"/>
+      <noteref hlink="_f60937900e0b0d791641399bca"/>
+      <sourceref hlink="_f6092e747051d2cd8432d92a11d"/>
+    </citation>
+    <citation handle="_f609393e57b705d6c33cc66b4e" change="1690746722" id="C1592">
+      <dateval val="1922-05-11"/>
+      <page>1922-51/4</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f60938fd8021c895c1927ed01eb"/>
+      <noteref hlink="_f609393b18d6c5428ee2a78036"/>
+      <sourceref hlink="_f6092e747051d2cd8432d92a11d"/>
+    </citation>
+    <citation handle="_f6093cb7ebf1376a732371f21d6" change="1690747086" id="C1593">
+      <dateval val="1923-01-26"/>
+      <page>1923-11/2</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f6093c859142b07338a360c23ba"/>
+      <noteref hlink="_f6093c9d1d53dabdd45dc500668"/>
+      <sourceref hlink="_f6092e747051d2cd8432d92a11d"/>
+    </citation>
+    <citation handle="_f6093e5ad797e058f37e8875b1f" change="1690747257" id="C1594">
+      <dateval val="1923-04-27"/>
+      <page>1923-48B/4</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f6093e3e564c9135ad87abc0ea"/>
+      <noteref hlink="_f6093e54db575eed72a1aa6fecb"/>
+      <sourceref hlink="_f6092e747051d2cd8432d92a11d"/>
+    </citation>
+    <citation handle="_f60bb54685c2458f742e1ddd79b" change="1690813414" id="C1595">
+      <page>Aa:22/698</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f60bb2f73b6b3e18bfd950497"/>
+      <noteref hlink="_f60bb30c25d4519e8e34366a0f1"/>
+      <noteref hlink="_f60bb541ac1629e0fe73be4c953"/>
+      <sourceref hlink="_f360f9af38f7e835c3e96212437"/>
+    </citation>
+    <citation handle="_f60bbbbb18148da44bf0538eb20" change="1690814091" id="C1596">
+      <page>57-58</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f60bb93c7d86c86887ba19b945f"/>
+      <noteref hlink="_f60bb952ef975976f226e69d176"/>
+      <noteref hlink="_f60bba5cc593241289d5f2af4b5"/>
+      <sourceref hlink="_f60bb90ef48379140114b6a7f1e"/>
+    </citation>
+    <citation handle="_f60bbfa9d3b4aaf3a32eaa2876d" change="1690814504" id="C1597">
+      <page>437</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f60bbc6e04518bad59bbff1230c"/>
+      <noteref hlink="_f60bbc805dc6112da2f951f3445"/>
+      <noteref hlink="_f60bbfa435a3dc12230755b11e6"/>
+      <sourceref hlink="_f60bbc3bf6b4839fe9a30b35562"/>
+    </citation>
+    <citation handle="_f60bc53371bd5b038abf08aaca" change="1690815084" id="C1598">
+      <page>478-479</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f60bc2530b72d366aa0617991c8"/>
+      <noteref hlink="_f60bc266fed195264531926130e"/>
+      <noteref hlink="_f60bc52d5ca34921398528ac8bd"/>
+      <sourceref hlink="_f60bc22adc97a32b18eb3d8243"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -47826,6 +47991,33 @@
       <sauthor>Hämeen lääni</sauthor>
       <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
     </source>
+    <source handle="_f6092e747051d2cd8432d92a11d" change="1690745590" id="S0632">
+      <stitle>Forssan Lehti</stitle>
+      <sauthor>Forssan Kirjapaino Oy</sauthor>
+      <spubinfo>Forssa 29.11.1917 -</spubinfo>
+      <reporef hlink="_cdea68c6afd7d08bd3f" medium="Book"/>
+    </source>
+    <source handle="_f60935a2f8c643304adc83df66f" change="1690746343" id="S0633">
+      <stitle>Uusi Aura</stitle>
+      <sauthor>Uuden Auran Oy</sauthor>
+      <spubinfo>Turku 01.01.1897 - 17.05.1964</spubinfo>
+      <reporef hlink="_cdea68c6afd7d08bd3f" medium="Book"/>
+    </source>
+    <source handle="_f60bb90ef48379140114b6a7f1e" change="1690813811" id="S0634">
+      <stitle>Rymättylä Muuttaneet 1899-1908</stitle>
+      <sauthor>Rymättylä seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f60bbc3bf6b4839fe9a30b35562" change="1690814144" id="S0635">
+      <stitle>Rymättylä Rippikirja 1908-1917</stitle>
+      <sauthor>Rymättylän seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f60bc22adc97a32b18eb3d8243" change="1690814766" id="S0636">
+      <stitle>Rymättylä Syntyneet 1911-1917</stitle>
+      <sauthor>Rymättylän seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1658853851" id="P0000" type="City">
@@ -48441,7 +48633,7 @@
       <pname value="Biskopsnäs"/>
       <placeref hlink="_ceac1478b0919bf2446"/>
     </placeobj>
-    <placeobj handle="_cb589cfeb254c33cda1" change="1690732092" id="P0618" type="Country">
+    <placeobj handle="_cb589cfeb254c33cda1" change="1690813580" id="P0618" type="Country">
       <pname value="Suomi"/>
       <pname value="Finland" lang="sv"/>
     </placeobj>
@@ -50795,6 +50987,22 @@
       <pname value="Riihimäen hautausmaa"/>
       <placeref hlink="_f608adbe1bd20932549c7eb8300"/>
     </placeobj>
+    <placeobj handle="_f60bb5cb5d34ac4a9ad3d28be02" change="1690814587" id="P0214" type="Parish">
+      <pname value="Rymättylä"/>
+      <placeref hlink="_cb589cfeb254c33cda1"/>
+    </placeobj>
+    <placeobj handle="_f60bb6e26832160ae2e9daa3691" change="1690813583" id="P0215" type="Town">
+      <pname value="Turku"/>
+      <placeref hlink="_cb589cfeb254c33cda1"/>
+    </placeobj>
+    <placeobj handle="_f60bc077c014aee08acbadcd02a" change="1690814588" id="P0216" type="Village">
+      <pname value="Ruokorauma"/>
+      <placeref hlink="_f60bb5cb5d34ac4a9ad3d28be02"/>
+    </placeobj>
+    <placeobj handle="_f60bc07b62c55e5d499c02b214a" change="1690814589" id="P0217" type="Farm">
+      <pname value="Länsitalo"/>
+      <placeref hlink="_f60bc077c014aee08acbadcd02a"/>
+    </placeobj>
   </places>
   <repositories>
     <repository handle="_cdea29a49637c6553bc" change="1672241850" id="R0001">
@@ -50802,12 +51010,12 @@
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1689792143" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1690814765" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
     </repository>
-    <repository handle="_cdea68c6afd7d08bd3f" change="1690732273" id="R0003">
+    <repository handle="_cdea68c6afd7d08bd3f" change="1690746342" id="R0003">
       <rname>Kansalliskirjasto digitoidut aineistot</rname>
       <type>Web site</type>
       <url  href="http://digi.lib.helsinki.fi/" type="Web Home"/>
@@ -73717,6 +73925,193 @@ Joensuu
                  man 99 0-1</text>
       <style name="fontface" value="Monospace">
         <range start="0" end="254"/>
+      </style>
+    </note>
+    <note handle="_f6092f2e3b65a6d0f73b91d8da6" change="1690745666" id="N2921" type="Citation">
+      <text>Forssan Lehti, 12.12.1922, nro 140, s. 2
+https://digi.kansalliskirjasto.fi/sanomalehti/binding/1385252?page=2
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f6092fc67d32611ae0358ec120b" change="1690746839" id="N2922" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/1385252?term=Otto&amp;term=Ferdinand&amp;term=Nordberg&amp;page=2</text>
+    </note>
+    <note handle="_f60932845603c4cae6cd28395ac" change="1690746016" id="N2923" type="Transcript" format="1">
+      <text>2 - N:o 140  FORSSAN LEHTI Tiistaina joulukuun 12 p. 1922
+[...]
+Somero
+[...]
+- Someron kirkollisia uuti-
+sia.    Kuolleita: 
+[...] Palstat. rak.mestari
+Otto   Ferdinand   Nordberg
+Joensuun Kaunelasta 63 v. 3
+kk. 26 pv.
+</text>
+      <style name="bold">
+        <range start="64" end="70"/>
+        <range start="77" end="109"/>
+      </style>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="219"/>
+      </style>
+    </note>
+    <note handle="_f60933c40e74883816f3efb3f9d" change="1690746147" id="N2924" type="Citation">
+      <text>Forssan Lehti, 02.03.1920, nro 17, s. 4
+https://digi.kansalliskirjasto.fi/sanomalehti/binding/1168660?page=4
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f60933db03d65be35252b2420b" change="1690746157" id="N2925" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/1168660?page=4</text>
+    </note>
+    <note handle="_f6093623f65689e0e3b2db51510" change="1690746396" id="N2926" type="Citation">
+      <text>Uusi Aura, 09.09.1920, nro 106 (3-päiv. painos), s. 5
+https://digi.kansalliskirjasto.fi/sanomalehti/binding/1196042?page=5
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f609368d9105ad43d2cc5c723bb" change="1690746439" id="N2927" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/1196042?term=Otto&amp;term=Nordberg&amp;page=5</text>
+    </note>
+    <note handle="_f6093721ba23858739933dea5a" change="1690746500" id="N2928" type="Citation">
+      <text>Forssan Lehti, 04.01.1921, nro 1, s. 4
+https://digi.kansalliskirjasto.fi/sanomalehti/binding/1386343?page=4
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f60937900e0b0d791641399bca" change="1690746545" id="N2929" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/1386343?term=Nordberg&amp;term=Joensuusta&amp;page=4</text>
+    </note>
+    <note handle="_f60938fd8021c895c1927ed01eb" change="1690746695" id="N2930" type="Citation">
+      <text>Forssan Lehti, 11.05.1922, nro 51, s. 4
+https://digi.kansalliskirjasto.fi/sanomalehti/binding/1385346?page=4
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f609393b18d6c5428ee2a78036" change="1690746720" id="N2931" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/1385346?term=Otto&amp;term=Nordberg&amp;page=4</text>
+    </note>
+    <note handle="_f6093c859142b07338a360c23ba" change="1690747065" id="N2932" type="Citation">
+      <text>Forssan Lehti, 26.01.1923, nro 11, s. 2
+https://digi.kansalliskirjasto.fi/sanomalehti/binding/1385456?page=2
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f6093c9d1d53dabdd45dc500668" change="1690747075" id="N2933" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/1385456?term=Otto&amp;term=Serafia&amp;term=Nordberg&amp;page=2</text>
+    </note>
+    <note handle="_f6093e3e564c9135ad87abc0ea" change="1690747246" id="N2934" type="Citation">
+      <text>Forssan Lehti, 27.04.1923, nro 48 B, s. 4
+https://digi.kansalliskirjasto.fi/sanomalehti/binding/1385387?page=4
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f6093e54db575eed72a1aa6fecb" change="1690747255" id="N2935" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/1385387?term=Otto&amp;term=Nordberg&amp;page=4</text>
+    </note>
+    <note handle="_f60ba92da9727160151cd96d42" change="1690812146" id="N2936" type="Citation">
+      <text>Koski Tl rippikirja 1897-1906 (MKO86-94)  Sivu 724 Tuimala, Jalli ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=13644&amp;pnum=219 / Viitattu 31.07.2023</text>
+    </note>
+    <note handle="_f60baad31257728926f9bf3d3ca" change="1690812318" id="N2937" type="Citation">
+      <text>Koski Tl kuulutetut 1886-1909 (MKO63-65)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=13653&amp;pnum=55 / Viitattu 31.07.2023</text>
+    </note>
+    <note handle="_f60bac18b8b2b45a33244855f3c" change="1690812452" id="N2938" type="Citation">
+      <text>Koski Tl vihityt 1895-1905 (MKO84)  Sivu 53  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=13648&amp;pnum=28 / Viitattu 31.07.2023</text>
+    </note>
+    <note handle="_f60baed17a67ba446cbb7f7806d" change="1690812770" id="N2939" type="Transcript" format="1">
+      <text>Wuonna 1904 Avioliittoon wihityt Kosken seurakunnassa Sivu 53
+[...]
+20.  [Joulu]  724  Sahantyömies August Emil  32  23  [2 naimatonta]
+                   Lindström, Tuimalan Jal-
+                   lilta ja ompelija Edla
+              331  Sofia Nordberg, Kosken
+                   Kartanolta.
+                      Vihki: L. Nikander
+
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="337"/>
+      </style>
+    </note>
+    <note handle="_f60bb2f73b6b3e18bfd950497" change="1690813172" id="N2940" type="Citation">
+      <text>Koski Tl rippikirja 1907-1916 (AP_II I Aa:22)  Sivu 698 Tuimala. Jalli ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38866&amp;pnum=283 / Viitattu 31.07.2023</text>
+    </note>
+    <note handle="_f60bb30c25d4519e8e34366a0f1" change="1690813181" id="N2941" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38866&amp;pnum=283</text>
+    </note>
+    <note handle="_f60bb541ac1629e0fe73be4c953" change="1690813412" id="N2942" type="Transcript" format="1">
+      <text>698 Tuimala
+4. Jalli
+
+Työm August Emil Lindström   13/11 1872  Koski  VK.724    Vih 22/12-04    arpa 5    Rymättylä 6/10 1908
+Vmo  Edla Sofia (Nordberg)   11/12 1881  Somero &quot;         &quot;                         &quot;
+Tr   Lyyli Sofia             27/6  1908  Turku                                      &quot;
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="298"/>
+      </style>
+    </note>
+    <note handle="_f60bb93c7d86c86887ba19b945f" change="1690813830" id="N2943" type="Citation">
+      <text>Rymättylä muuttaneet 1899-1908 (MKO187)  Sivu 57 1908 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=20478&amp;pnum=29 / Viitattu 31.07.2023</text>
+    </note>
+    <note handle="_f60bb952ef975976f226e69d176" change="1690813839" id="N2944" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=20478&amp;pnum=29</text>
+    </note>
+    <note handle="_f60bba5cc593241289d5f2af4b5" change="1690813948" id="N2945" type="Transcript" format="1">
+      <text>Siv. 57 Rymättylän seurakuntaan muuttaneet wuonna 1908
+
+20   [Lokak] 21.  6/10  Koski T.L.  437  Työmies Aug Emil Lindström    1  2
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="132"/>
+      </style>
+    </note>
+    <note handle="_f60bbc6e04518bad59bbff1230c" change="1690814164" id="N2946" type="Citation">
+      <text>Rymättylä rippikirja 1908-1917 (MKO73-92)  Sivu 437 Ruokorauma Länsitalo, Höyrysaha, Johansson, Holmberg, Filppu, Setälä, Lindström, Nordberg ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29315&amp;pnum=423 / Viitattu 31.07.2023</text>
+    </note>
+    <note handle="_f60bbc805dc6112da2f951f3445" change="1690814172" id="N2947" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29315&amp;pnum=423</text>
+    </note>
+    <note handle="_f60bbfa435a3dc12230755b11e6" change="1690814501" id="N2948" type="Transcript" format="1">
+      <text>437
+
+Ruokorauma
+Länsitalo
+
+Höyrysaha
+[...]
+Sahan asettaja
+August Emil Lindström      13/11 1872    Koski T.L. 21.10.1908 Koski T.L    27.3 1915    N:o30-1915 Koski T.L
+Wo     Edla Sofia Nordberg 11/12 1881    Somerolla  &quot;                                    &quot;
+Tr     Lyyli Sofia         27/6  1908    Turku                                           &quot;
+P.     Toivo August        14/1  1915    Rlä                                             &quot;</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="440"/>
+      </style>
+    </note>
+    <note handle="_f60bc2530b72d366aa0617991c8" change="1690814783" id="N2949" type="Citation">
+      <text>Rymättylä syntyneet 1911-1917 (MKO25-26)  Sivu 478-479 1.1.1915 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29420&amp;pnum=40 / Viitattu 31.07.2023</text>
+    </note>
+    <note handle="_f60bc266fed195264531926130e" change="1690814791" id="N2950" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29420&amp;pnum=40</text>
+    </note>
+    <note handle="_f60bc52d5ca34921398528ac8bd" change="1690815082" id="N2951" type="Transcript" format="1">
+      <text>Wuonna 1915 Syntyneet ja kastetut Rymättylän seurakunnassa     Sivu 479
+
+[1915]
+[Tammikuu]
+
+[m]  Toivo     14  [24]  42  33  Vt: Ruokorauman Länsitalon    437
+     August                      Sahanasettaja August Emil
+                                 Lindström ja vo Edla Sofia
+                                 Nordberg
+                                 Kt: Kauppilan Ylistalosta
+                                 Palstatil Oskar Albert Filppu
+                                 ja vo Aina Maria Setälä
+                                 Kasti          Y.W.Wirberg</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="558"/>
       </style>
     </note>
   </notes>
