@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2023-07-31" version="5.1.6"/>
+    <created date="2023-08-01" version="5.1.6"/>
     <researcher>
     </researcher>
   </header>
@@ -16901,13 +16901,14 @@
       <place hlink="_db7eb8456aa3df3b58f99c78b2a"/>
       <citationref hlink="_f60bb54685c2458f742e1ddd79b"/>
     </event>
-    <event handle="_f60bb609e186e00012ee97e4f40" change="1690814591" id="E0804">
+    <event handle="_f60bb609e186e00012ee97e4f40" change="1690904397" id="E0804">
       <type>Residence</type>
-      <dateval val="1908-10-06" type="after"/>
+      <datespan start="1908-10-06" stop="1915-12-29"/>
       <place hlink="_f60bc07b62c55e5d499c02b214a"/>
       <citationref hlink="_f60bb54685c2458f742e1ddd79b"/>
       <citationref hlink="_f60bbbbb18148da44bf0538eb20"/>
       <citationref hlink="_f60bbfa9d3b4aaf3a32eaa2876d"/>
+      <citationref hlink="_f360fa0f8c45ecafd2dee07be6b"/>
     </event>
     <event handle="_f60bb6f734f1a1de46ada041542" change="1690813592" id="E0805">
       <type>Birth</type>
@@ -16927,6 +16928,67 @@
       <place hlink="_f60bb5cb5d34ac4a9ad3d28be02"/>
       <citationref hlink="_f60bbfa9d3b4aaf3a32eaa2876d"/>
       <citationref hlink="_f60bc53371bd5b038abf08aaca"/>
+    </event>
+    <event handle="_f60f19b2c02147ea672a3612ed5" change="1690905970" id="E0808">
+      <type>Residence</type>
+      <dateval val="1915-12-29" type="after"/>
+      <place hlink="_db7ebcf83ae47c5be4ce38b223e"/>
+      <citationref hlink="_f360fa0f8c45ecafd2dee07be6b"/>
+    </event>
+    <event handle="_f60f5918dc577be78f81a198e08" change="1690911123" id="E0809">
+      <type>Death</type>
+      <dateval val="1945-07-09"/>
+      <citationref hlink="_f60f58f3f736333520f233d0b9e"/>
+    </event>
+    <event handle="_f60f59e736746f145e3bdc181d3" change="1690911222" id="E0810">
+      <type>Burial</type>
+      <place hlink="_f60f59d2f6f3bb0c4535e8ac85c"/>
+      <citationref hlink="_f60f58f3f736333520f233d0b9e"/>
+    </event>
+    <event handle="_f60f5b33ec66d288cc4e3e573de" change="1690911344" id="E0811">
+      <type>Death</type>
+      <dateval val="1925-06-05"/>
+      <citationref hlink="_f60f5b0e31757f804f0c493b352"/>
+    </event>
+    <event handle="_f60f5b5a48e3c1d3fe3268df639" change="1690911359" id="E0812">
+      <type>Burial</type>
+      <place hlink="_f60f59d2f6f3bb0c4535e8ac85c"/>
+      <citationref hlink="_f60f5b0e31757f804f0c493b352"/>
+    </event>
+    <event handle="_f60f5bfcac55a847fea84dca223" change="1690911426" id="E0813">
+      <type>Death</type>
+      <dateval val="1954-05-01"/>
+      <citationref hlink="_f60f5be7db627b784f7c8b60e84"/>
+    </event>
+    <event handle="_f60f5c3091a71fa5b130d3ad30e" change="1690911447" id="E0814">
+      <type>Burial</type>
+      <place hlink="_f60f59d2f6f3bb0c4535e8ac85c"/>
+      <citationref hlink="_f60f5be7db627b784f7c8b60e84"/>
+    </event>
+    <event handle="_f60f5ca87f4576ed7a6e104b84b" change="1690911496" id="E0815">
+      <type>Death</type>
+      <dateval val="1979-12-07"/>
+      <citationref hlink="_f60f5c9735551fbcd088a06ea16"/>
+    </event>
+    <event handle="_f60f5cd8280137a045e6041be7a" change="1690911516" id="E0816">
+      <type>Burial</type>
+      <place hlink="_f60f59d2f6f3bb0c4535e8ac85c"/>
+      <citationref hlink="_f60f5c9735551fbcd088a06ea16"/>
+    </event>
+    <event handle="_f60f5ddd70944aa5ffca99bb627" change="1690911623" id="E0817">
+      <type>Birth</type>
+      <dateval val="1901-02-20"/>
+      <citationref hlink="_f60f5dd1e43188fa32bd78431f"/>
+    </event>
+    <event handle="_f60f5dfcaf254d078f706786696" change="1690911636" id="E0818">
+      <type>Death</type>
+      <dateval val="1973-12-13"/>
+      <citationref hlink="_f60f5dd1e43188fa32bd78431f"/>
+    </event>
+    <event handle="_f60f5e19d2556b2701cb1120eac" change="1690911648" id="E0819">
+      <type>Burial</type>
+      <place hlink="_f60f59d2f6f3bb0c4535e8ac85c"/>
+      <citationref hlink="_f60f5dd1e43188fa32bd78431f"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -19264,7 +19326,7 @@
       <childof hlink="_cb589ccbd52441fddb3"/>
       <parentin hlink="_cb589ccefd92362ab16"/>
     </person>
-    <person handle="_cb589ccf01316f48782" change="1508183221" id="I4284">
+    <person handle="_cb589ccf01316f48782" change="1690911237" id="I4284">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Adolf Alarik</first>
@@ -19273,6 +19335,8 @@
       <eventref hlink="_cb589ccf01a0eee32ea" role="Primary"/>
       <eventref hlink="_db7499e98567d32c06d54ab41bf" role="Primary"/>
       <eventref hlink="_db77e34792c38f762034f12a99b" role="Primary"/>
+      <eventref hlink="_f60f5918dc577be78f81a198e08" role="Primary"/>
+      <eventref hlink="_f60f59e736746f145e3bdc181d3" role="Primary"/>
       <childof hlink="_cb589ccbd8a12edf1ad"/>
       <parentin hlink="_cb589ccf02d04708651"/>
     </person>
@@ -20635,7 +20699,7 @@
       <childof hlink="_cb589ccf02d04708651"/>
       <parentin hlink="_ce9bad80f6d117e213c"/>
     </person>
-    <person handle="_cb589cd2b69251ab8c6" change="1672487231" id="I3433">
+    <person handle="_cb589cd2b69251ab8c6" change="1690911450" id="I3433">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Edla Sofia</first>
@@ -20644,6 +20708,9 @@
       <eventref hlink="_cb589cd2b701e21e3a1" role="Primary"/>
       <eventref hlink="_db7ebd4bd314eb41b79beeaa953" role="Primary"/>
       <eventref hlink="_db7eb54464851799811e8cd4f45" role="Primary"/>
+      <eventref hlink="_f60f19b2c02147ea672a3612ed5" role="Primary"/>
+      <eventref hlink="_f60f5bfcac55a847fea84dca223" role="Primary"/>
+      <eventref hlink="_f60f5c3091a71fa5b130d3ad30e" role="Primary"/>
       <childof hlink="_cb589ccf02d04708651"/>
       <parentin hlink="_cb589cd2b86404ed137"/>
     </person>
@@ -26104,11 +26171,12 @@
       <parentin hlink="_cb589cc934615c31879"/>
       <parentin hlink="_d00a47dacf6745098af"/>
     </person>
-    <person handle="_ce9bae21ed62389c981" change="1533497326" id="I6222">
+    <person handle="_ce9bae21ed62389c981" change="1690904916" id="I6222">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Edla Wilhelmina</first>
         <surname derivation="Location">Kivimäki</surname>
+        <datespan start="1885-01-03" stop="1903-11-17"/>
       </name>
       <name alt="1" type="Also Known As">
         <first>Edla Wilhelmina</first>
@@ -26117,10 +26185,12 @@
       <name alt="1" type="Married Name">
         <first>Edla Wilhelmina</first>
         <surname derivation="Taken">Elo</surname>
+        <datespan start="1903-11-17" stop="1908-03-21"/>
       </name>
       <name alt="1" type="Married Name">
         <first>Edla WIlhelmina</first>
         <surname derivation="Taken">Nordberg</surname>
+        <dateval val="1931-09-24" type="after"/>
       </name>
       <eventref hlink="_ce9bae1bd6a3679bffe" role="Primary"/>
       <eventref hlink="_cf8397d90bc63114959" role="Primary"/>
@@ -26146,15 +26216,21 @@
       <parentin hlink="_ce9c4e9f12c77f216b8"/>
       <parentin hlink="_cf83a665acb31025f5a"/>
     </person>
-    <person handle="_cea0c6574c440277107" change="1508178710" id="I6224">
+    <person handle="_cea0c6574c440277107" change="1690911362" id="I6224">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Edla</first>
         <surname prim="0" derivation="Patronymic">Johansdotter</surname>
         <surname>Hagfors</surname>
       </name>
+      <name alt="1" type="Married Name">
+        <first>Edla</first>
+        <surname derivation="Married Name">Nordberg</surname>
+      </name>
       <eventref hlink="_cea0c625a8016358e21" role="Primary"/>
       <eventref hlink="_db77e2a505d1e18327d6d27c2ff" role="Primary"/>
+      <eventref hlink="_f60f5b33ec66d288cc4e3e573de" role="Primary"/>
+      <eventref hlink="_f60f5b5a48e3c1d3fe3268df639" role="Primary"/>
       <childof hlink="_db77e45031a323c5b01c0610a17"/>
       <childof hlink="_db77ef80e736d53eaf00766ded3"/>
       <parentin hlink="_cb589ccf02d04708651"/>
@@ -30151,14 +30227,21 @@
       <eventref hlink="_f6090b552a44af6f4f4ee1d9780" role="Primary"/>
       <childof hlink="_f608dfecd8170356050430fe60b"/>
     </person>
-    <person handle="_f60bb6654273ff6f9ce5a6d6d39" change="1690815100" id="I0174">
+    <person handle="_f60bb6654273ff6f9ce5a6d6d39" change="1690911688" id="I0174">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Lyyli Sofia</first>
         <surname derivation="Inherited">Lindström</surname>
       </name>
+      <name alt="1" type="Married Name">
+        <first>Lyyli Sofia</first>
+        <surname derivation="Married Name">Saari</surname>
+      </name>
       <eventref hlink="_f60bb6f734f1a1de46ada041542" role="Primary"/>
+      <eventref hlink="_f60f5ca87f4576ed7a6e104b84b" role="Primary"/>
+      <eventref hlink="_f60f5cd8280137a045e6041be7a" role="Primary"/>
       <childof hlink="_cb589cd2b86404ed137"/>
+      <parentin hlink="_f60f5d6c7b12f4e95f46a6cd3f7"/>
     </person>
     <person handle="_f60bc0ffac617e3f6c64db97f0e" change="1690815100" id="I0175">
       <gender>M</gender>
@@ -30168,6 +30251,17 @@
       </name>
       <eventref hlink="_f60bc538097345ca7c7a7c6465e" role="Primary"/>
       <childof hlink="_cb589cd2b86404ed137"/>
+    </person>
+    <person handle="_f60f5d893d748e6bd02635cf86f" change="1690911688" id="I0176">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Aarne Edvard</first>
+        <surname>Saari</surname>
+      </name>
+      <eventref hlink="_f60f5ddd70944aa5ffca99bb627" role="Primary"/>
+      <eventref hlink="_f60f5dfcaf254d078f706786696" role="Primary"/>
+      <eventref hlink="_f60f5e19d2556b2701cb1120eac" role="Primary"/>
+      <parentin hlink="_f60f5d6c7b12f4e95f46a6cd3f7"/>
     </person>
   </people>
   <families>
@@ -33787,6 +33881,11 @@
       <rel type="Unknown"/>
       <mother hlink="_cb589cd2c683e5aa3a8"/>
       <childref hlink="_f608e0629004ba3a99302713ded"/>
+    </family>
+    <family handle="_f60f5d6c7b12f4e95f46a6cd3f7" change="1690911688" id="F0036">
+      <rel type="Married"/>
+      <father hlink="_f60f5d893d748e6bd02635cf86f"/>
+      <mother hlink="_f60bb6654273ff6f9ce5a6d6d39"/>
     </family>
   </families>
   <citations>
@@ -44828,6 +44927,31 @@
       <noteref hlink="_f60bc52d5ca34921398528ac8bd"/>
       <sourceref hlink="_f60bc22adc97a32b18eb3d8243"/>
     </citation>
+    <citation handle="_f60f58f3f736333520f233d0b9e" change="1690911108" id="C1599">
+      <page>NORDBERG ADOLF</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_f60f5619bfe1b829bd4b3701d39"/>
+    </citation>
+    <citation handle="_f60f5b0e31757f804f0c493b352" change="1690911328" id="C1600">
+      <page>NORDBERG EDLA</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_f60f5619bfe1b829bd4b3701d39"/>
+    </citation>
+    <citation handle="_f60f5be7db627b784f7c8b60e84" change="1690911417" id="C1601">
+      <page>SALO EDLA SOFIA</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_f60f5619bfe1b829bd4b3701d39"/>
+    </citation>
+    <citation handle="_f60f5c9735551fbcd088a06ea16" change="1690911489" id="C1602">
+      <page>SAARI LYYLI SOFIA</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_f60f5619bfe1b829bd4b3701d39"/>
+    </citation>
+    <citation handle="_f60f5dd1e43188fa32bd78431f" change="1690911618" id="C1603">
+      <page>SAARI AARNE EDVARD</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_f60f5619bfe1b829bd4b3701d39"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -48018,6 +48142,12 @@
       <sauthor>Rymättylän seurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
+    <source handle="_f60f5619bfe1b829bd4b3701d39" change="1690911320" id="S0637">
+      <stitle>Hautakivi Saari/Nordberg/Salo Koski TL</stitle>
+      <noteref hlink="_f60f564451a39e45038384842bc"/>
+      <noteref hlink="_f60f58b424c39748db39a3d108e"/>
+      <reporef hlink="_f608c551d791ac1d0ef4d1cc6ec" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1658853851" id="P0000" type="City">
@@ -48875,7 +49005,7 @@
       <pname value="New York"/>
       <placeref hlink="_ce9d6f441e3055d0f38"/>
     </placeobj>
-    <placeobj handle="_cea0ca2bfb32dc3411e" change="1508359096" id="P0513" type="Parish">
+    <placeobj handle="_cea0ca2bfb32dc3411e" change="1690911197" id="P0513" type="Parish">
       <ptitle>Koski Tl, Finland</ptitle>
       <pname value="Koski Tl"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
@@ -51003,6 +51133,10 @@
       <pname value="Länsitalo"/>
       <placeref hlink="_f60bc077c014aee08acbadcd02a"/>
     </placeobj>
+    <placeobj handle="_f60f59d2f6f3bb0c4535e8ac85c" change="1690911199" id="P0218" type="Cemetery">
+      <pname value="Kosken hautausmaa"/>
+      <placeref hlink="_cea0ca2bfb32dc3411e"/>
+    </placeobj>
   </places>
   <repositories>
     <repository handle="_cdea29a49637c6553bc" change="1672241850" id="R0001">
@@ -51091,7 +51225,7 @@
       <type>Library</type>
       <url  href="https://astia.narc.fi/uusiastia/" type="Web Home"/>
     </repository>
-    <repository handle="_f608c551d791ac1d0ef4d1cc6ec" change="1690734566" id="R0019">
+    <repository handle="_f608c551d791ac1d0ef4d1cc6ec" change="1690910791" id="R0019">
       <rname>Suomen kirkkoja ja hautausmaita</rname>
       <type>Web site</type>
       <url  href="https://asiakas.kotisivukone.com/files/suomenkirkkojajahautausmaita.kotisivukone.com/hakemisto15082022.pdf" type="Web Search" description="hakemisto"/>
@@ -73892,19 +74026,29 @@ heineen   Riihimäeltä Leppäkoskelle;</text>
         <range start="0" end="230"/>
       </style>
     </note>
-    <note handle="_f608e6a59121cc8082e8b84f938" change="1690738061" id="N2916" type="Transcript" format="1">
+    <note handle="_f608e6a59121cc8082e8b84f938" change="1690904380" id="N2916" type="Transcript" format="1">
       <text>536 Talola
 
 4. Seppä
 
-mtpl. Adolf Alarik Nordberg           8/9 1856 Sipoo  VK.331                              UK 580
-vmo Edla Juhont                      12/2 1855 Somero &quot;                                   &quot;
-P. Kustaa Adolf                     26/11 1878 &quot;      &quot;          arpa 3 Amerikassa 1906   &quot;
-Tr. Amanda Katariina                  2/4 1895 Koski  &quot;                                   &quot;
-Tr. Maria Wilhelmiina                 5/1 1885 Somero 1908/????                           &quot;
-Laps. pka Kaino Alvar Adolf Mandanp  24/9 1916 Koski                    ?????             &quot;</text>
+Tiensuu
+
+[...]
+
+Sahanasettajan leski                                      29.12 1915
+    Edla Sofia Lindström            11/12 1881 Somero     Rymättylä
+Tr. Lyyli Sofia                      27/6 1908 Turku      &quot;
+P.  Toivo August                     14/1 1915 Rymättylä
+
+
+mtpl. Adolf Alarik Nordberg           8/9 1856 Sipoo      VK.331                              UK 580
+vmo   Edla Juhont                    12/2 1855 Somero     &quot;                                   &quot;
+P.    Kustaa Adolf                  26/11 1878 &quot;          &quot;          arpa 3 Amerikassa 1906   &quot;
+Tr.   Amanda Katariina                2/4 1895 Koski      &quot;                                   &quot;
+Tr.  Maria Wilhelmiina                5/1 1885 Somero     1908/????                           &quot;
+Laps.pka Kaino Alvar Adolf Mandanp   24/9 1916 Koski                        ?????             &quot;</text>
       <style name="fontface" value="Monospace">
-        <range start="0" end="578"/>
+        <range start="0" end="874"/>
       </style>
     </note>
     <note handle="_f6091d2645544cbe3fe3fd8f3f1" change="1690743776" id="N2917" type="Citation">
@@ -74114,5 +74258,30 @@ P.     Toivo August        14/1  1915    Rlä                                   
         <range start="0" end="558"/>
       </style>
     </note>
+    <note handle="_f60f564451a39e45038384842bc" change="1690910826" id="N2952" type="Link">
+      <text>https://www.facebook.com/photo/?fbid=10154309881173257&amp;set=oa.1206614566029243</text>
+    </note>
+    <note handle="_f60f58b424c39748db39a3d108e" change="1690911082" id="N2953" type="Transcript" format="1">
+      <text>                     SAARI
+    AARNE EDVARD               LYYLI SOFIA
+*20.2.1901 †13.12.1973    *27.6.1908 †7.12.1979
+
+                   NORDBERG
+       ADOLF                      EDLA
+*8.9.1856 †9.7.1945       *12.2.1855 †5.6.1925
+
+                 EDLA SOFIA SALO
+              *11.12.1881 †1.5.1954
+</text>
+      <style name="bold">
+        <range start="21" end="26"/>
+      </style>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="303"/>
+      </style>
+    </note>
   </notes>
+  <bookmarks>
+    <bookmark target="person" hlink="_f60bc0ffac617e3f6c64db97f0e"/>
+  </bookmarks>
 </database>
