@@ -16029,10 +16029,11 @@
       <place hlink="_f35f51bedaa5437a7ec124cc07"/>
       <citationref hlink="_f35f5591d053179eadc4b169bad"/>
     </event>
-    <event handle="_f35f56b7b7c102e84fec270866f" change="1672442543" id="E0665">
+    <event handle="_f35f56b7b7c102e84fec270866f" change="1690914220" id="E0665">
       <type>Death</type>
       <dateval val="1940-01-12"/>
       <citationref hlink="_f35f56aa3d97dfea97de51cb7eb"/>
+      <citationref hlink="_f60f76433be642e835a76b0a0c5"/>
     </event>
     <event handle="_f35f56f33e21ced33b2a2717c20" change="1672685193" id="E0666">
       <type>Burial</type>
@@ -16955,12 +16956,13 @@
       <place hlink="_f60f59d2f6f3bb0c4535e8ac85c"/>
       <citationref hlink="_f60f5b0e31757f804f0c493b352"/>
     </event>
-    <event handle="_f60f5bfcac55a847fea84dca223" change="1690911426" id="E0813">
+    <event handle="_f60f5bfcac55a847fea84dca223" change="1690913294" id="E0813">
       <type>Death</type>
       <dateval val="1954-05-01"/>
       <citationref hlink="_f60f5be7db627b784f7c8b60e84"/>
+      <citationref hlink="_f60f6cb68fe77bc8391dfba7efb"/>
     </event>
-    <event handle="_f60f5c3091a71fa5b130d3ad30e" change="1690911447" id="E0814">
+    <event handle="_f60f5c3091a71fa5b130d3ad30e" change="1690913597" id="E0814">
       <type>Burial</type>
       <place hlink="_f60f59d2f6f3bb0c4535e8ac85c"/>
       <citationref hlink="_f60f5be7db627b784f7c8b60e84"/>
@@ -44952,6 +44954,20 @@
       <confidence>2</confidence>
       <sourceref hlink="_f60f5619bfe1b829bd4b3701d39"/>
     </citation>
+    <citation handle="_f60f6cb68fe77bc8391dfba7efb" change="1690913180" id="C1604">
+      <page>Tiedosto 473</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f60f6c9da6877c26231a1641323"/>
+      <noteref hlink="_f60f6cb2cd437bf182966639d8c"/>
+      <sourceref hlink="_f60f6c65d05683febf5a1c24875"/>
+    </citation>
+    <citation handle="_f60f76433be642e835a76b0a0c5" change="1690914181" id="C1605">
+      <page>Tiedosto 485</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f60f762cd90326d724029c584b8"/>
+      <noteref hlink="_f60f7640a385423f45aab244944"/>
+      <sourceref hlink="_f60f75f4a1734e396d0302db3c4"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -48148,6 +48164,16 @@
       <noteref hlink="_f60f58b424c39748db39a3d108e"/>
       <reporef hlink="_f608c551d791ac1d0ef4d1cc6ec" medium="Book"/>
     </source>
+    <source handle="_f60f6c65d05683febf5a1c24875" change="1690913147" id="S0638">
+      <stitle>Vuosina 1952-1954 kuolleiden yli-ikäisten henkilöiden hakemistokortit</stitle>
+      <sauthor>Kansaneläkelaitos</sauthor>
+      <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
+    </source>
+    <source handle="_f60f75f4a1734e396d0302db3c4" change="1690914149" id="S0639">
+      <stitle>Vuosina 1939-1945 kuolleiden henkilöiden hakemistokortit</stitle>
+      <sauthor>Kansaneläkelaitos</sauthor>
+      <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1658853851" id="P0000" type="City">
@@ -51220,7 +51246,7 @@
       <rname>Billiongraves</rname>
       <type>Library</type>
     </repository>
-    <repository handle="_f5dc19ee7d07e822ec5f7a37d7" change="1690744652" id="R0018">
+    <repository handle="_f5dc19ee7d07e822ec5f7a37d7" change="1690914147" id="R0018">
       <rname>Astia</rname>
       <type>Library</type>
       <url  href="https://astia.narc.fi/uusiastia/" type="Web Home"/>
@@ -74280,8 +74306,20 @@ P.     Toivo August        14/1  1915    Rlä                                   
         <range start="0" end="303"/>
       </style>
     </note>
+    <note handle="_f60f6c9da6877c26231a1641323" change="1690913170" id="N2954" type="Citation">
+      <text>Kansaneläkelaitoksen henkilökortit -arkisto. Bg Vuosina 1952-1954 kuolleiden yli-ikäisten henkilöiden hakemistokortit. 15_7 Vuosina 1952-1954 kuolleiden yli-ikäisten henkilöiden hakemistokortit, Saarinen, Eriika - Siro, Kalle  (--). Tiedosto 473. Kansallisarkisto. Viitattu 1.8.2023.</text>
+    </note>
+    <note handle="_f60f6cb2cd437bf182966639d8c" change="1690913178" id="N2955" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=4507399641&amp;aineistoId=1050686381</text>
+    </note>
+    <note handle="_f60f762cd90326d724029c584b8" change="1690914172" id="N2956" type="Citation">
+      <text>Kansaneläkelaitoksen henkilökortit -arkisto. Be Vuosina 1939-1945 kuolleiden henkilöiden hakemistokortit. 68_3 Vuosina 1939-1945 kuolleiden henkilöiden hakemistokortit, Niutanen, Sylvi - Nurmi, Kalle  (--). Tiedosto 485. Kansallisarkisto. Viitattu 1.8.2023.</text>
+    </note>
+    <note handle="_f60f7640a385423f45aab244944" change="1690914180" id="N2957" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=4495515062&amp;aineistoId=1046001930</text>
+    </note>
   </notes>
   <bookmarks>
-    <bookmark target="person" hlink="_f60bc0ffac617e3f6c64db97f0e"/>
+    <bookmark target="person" hlink="_cb589cc7f8356f9dc4a"/>
   </bookmarks>
 </database>
