@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2023-08-01" version="5.1.6"/>
+    <created date="2023-08-02" version="5.1.6"/>
     <researcher>
     </researcher>
   </header>
@@ -16074,7 +16074,7 @@
       <place hlink="_cdf82fb91b45aadb551"/>
       <citationref hlink="_db7f1dd596e189d78950356040c"/>
     </event>
-    <event handle="_f360fa3d3f957b23f396878d313" change="1673197305" id="E0673">
+    <event handle="_f360fa3d3f957b23f396878d313" change="1691000425" id="E0673">
       <type>Residence</type>
       <datespan start="1907" stop="1916"/>
       <place hlink="_db7ebcf83ae47c5be4ce38b223e"/>
@@ -16992,8 +16992,58 @@
       <place hlink="_f60f59d2f6f3bb0c4535e8ac85c"/>
       <citationref hlink="_f60f5dd1e43188fa32bd78431f"/>
     </event>
+    <event handle="_f61285bf73d10289476cb5dd278" change="1690997145" id="E0820">
+      <type>Name change</type>
+      <dateval val="1935-05-12"/>
+      <place hlink="_cea0ca2bfb32dc3411e"/>
+      <description>Nordberg -&gt; Salmi</description>
+      <citationref hlink="_f6128524e47444ad5d158190ef1"/>
+      <citationref hlink="_f6128d62ab037f4e587b286a4df"/>
+    </event>
+    <event handle="_f6129eb76f337df492786d57c48" change="1690998954" id="E0821">
+      <type>Death</type>
+      <dateval val="1988-08-03"/>
+      <citationref hlink="_f6129eb3f0c549e4bedbee5bf59"/>
+    </event>
+    <event handle="_f6129f304c76687266b5b0fcfb4" change="1691003870" id="E0822">
+      <type>Burial</type>
+      <place hlink="_f60f59d2f6f3bb0c4535e8ac85c"/>
+      <citationref hlink="_f6129eb3f0c549e4bedbee5bf59"/>
+    </event>
+    <event handle="_f612be2c63733e40b7c29dfe2dc" change="1691002252" id="E0823">
+      <type>Birth</type>
+      <dateval val="1895-12-27"/>
+      <place hlink="_f612bda1b7227d515c86480e177"/>
+      <citationref hlink="_f612be1cd3d6f87c55fde7ee4a4"/>
+    </event>
+    <event handle="_f612c1998e33f3177fbf65d772b" change="1691002611" id="E0824">
+      <type>Death</type>
+      <dateval val="1959-04-14"/>
+      <citationref hlink="_f612c176f67309a324cf979824"/>
+    </event>
+    <event handle="_f612c1f1c7c710dcaab04c67691" change="1691002648" id="E0825">
+      <type>Burial</type>
+      <place hlink="_f60f59d2f6f3bb0c4535e8ac85c"/>
+      <citationref hlink="_f612c176f67309a324cf979824"/>
+    </event>
+    <event handle="_f612c26843a4830be6a77b16190" change="1691002696" id="E0826">
+      <type>Death</type>
+      <dateval val="1974-06-16"/>
+      <citationref hlink="_f612c26195b556bad55e79a1cf7"/>
+    </event>
+    <event handle="_f612c287b50fa81ffbd076fcf2" change="1691003757" id="E0827">
+      <type>Burial</type>
+      <place hlink="_f60f59d2f6f3bb0c4535e8ac85c"/>
+      <citationref hlink="_f612c26195b556bad55e79a1cf7"/>
+    </event>
+    <event handle="_f612c83794737da92df4a29519f" change="1691003305" id="E0828">
+      <type>Name change</type>
+      <dateval val="1935-02-28"/>
+      <description>Lagerlund -&gt; Salmi</description>
+      <citationref hlink="_f612c83273f535af0968e546b66"/>
+    </event>
   </events>
-  <people home="_cb589cc7f8356f9dc4a">
+  <people home="_cb589ceec3377f5fa7e">
     <person handle="_cb589cc7f8356f9dc4a" change="1658869228" id="I3858">
       <gender>F</gender>
       <name type="Birth Name">
@@ -20747,14 +20797,29 @@
       <eventref hlink="_cb589cd2c4339d9f5ad" role="Primary"/>
       <childof hlink="_cb589ccf02d04708651"/>
     </person>
-    <person handle="_cb589cd2c683e5aa3a8" change="1690741933" id="I4788">
+    <person handle="_cb589cd2c683e5aa3a8" change="1691003811" id="I4788">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Amanda Katariina</first>
         <surname>Nordberg</surname>
         <suffix>²</suffix>
+        <dateval val="1917" type="before" quality="estimated"/>
+      </name>
+      <name alt="1" type="Married Name">
+        <first>Amanda Katariina</first>
+        <surname>Lagerlund</surname>
+        <dateval val="1935-02-28" type="before"/>
+      </name>
+      <name alt="1" type="Married Name">
+        <first>Amanda Katariina</first>
+        <surname derivation="Married Name">Salmi</surname>
+        <dateval val="1935-02-28" type="after"/>
+        <citationref hlink="_f612c83273f535af0968e546b66"/>
+        <citationref hlink="_f612c26195b556bad55e79a1cf7"/>
       </name>
       <eventref hlink="_cb589cd2c6e5a6d3621" role="Primary"/>
+      <eventref hlink="_f612c26843a4830be6a77b16190" role="Primary"/>
+      <eventref hlink="_f612c287b50fa81ffbd076fcf2" role="Primary"/>
       <childof hlink="_cb589ccf02d04708651"/>
       <parentin hlink="_f608dfecd8170356050430fe60b"/>
     </person>
@@ -25412,14 +25477,12 @@
       <eventref hlink="_cb589ceec0b5ecee2f5" role="Primary"/>
       <childof hlink="_cb589ce2ce754c0b20c"/>
     </person>
-    <person handle="_cb589ceec3377f5fa7e" change="1519930360" id="I5099">
+    <person handle="_cb589ceec3377f5fa7e" change="1691000518" id="I5099">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Dolly Elisabeth</first>
         <surname>Lindström</surname>
       </name>
-      <eventref hlink="_cb589ceec374f11fe92" role="Primary"/>
-      <eventref hlink="_cb589ceec3a7e7699f0" role="Primary"/>
       <childof hlink="_cb589ce2d245d5444c4"/>
     </person>
     <person handle="_cb589ceec4e5b942c23" change="1519930401" id="I3260">
@@ -30220,13 +30283,23 @@
       <eventref hlink="_f608ce480dd786939ab25d04fa7" role="Primary"/>
       <parentin hlink="_f608cd51b0415dafe3c8206fb02"/>
     </person>
-    <person handle="_f608e0629004ba3a99302713ded" change="1690741933" id="I0173">
+    <person handle="_f608e0629004ba3a99302713ded" change="1691003460" id="I0173">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Kaino Alvar Adolf</first>
-        <surname>Nordberg</surname>
+        <surname derivation="Inherited">Nordberg</surname>
+        <dateval val="1935-05-12" type="before"/>
+      </name>
+      <name alt="1" type="Also Known As">
+        <first>Kaino Alvar Adolf</first>
+        <surname derivation="Taken">Salmi</surname>
+        <dateval val="1935-05-12" type="after"/>
+        <citationref hlink="_f6128524e47444ad5d158190ef1"/>
       </name>
       <eventref hlink="_f6090b552a44af6f4f4ee1d9780" role="Primary"/>
+      <eventref hlink="_f61285bf73d10289476cb5dd278" role="Primary"/>
+      <eventref hlink="_f6129eb76f337df492786d57c48" role="Primary"/>
+      <eventref hlink="_f6129f304c76687266b5b0fcfb4" role="Primary"/>
       <childof hlink="_f608dfecd8170356050430fe60b"/>
     </person>
     <person handle="_f60bb6654273ff6f9ce5a6d6d39" change="1690911688" id="I0174">
@@ -30264,6 +30337,49 @@
       <eventref hlink="_f60f5dfcaf254d078f706786696" role="Primary"/>
       <eventref hlink="_f60f5e19d2556b2701cb1120eac" role="Primary"/>
       <parentin hlink="_f60f5d6c7b12f4e95f46a6cd3f7"/>
+    </person>
+    <person handle="_f612bca7c897baf6717dca4078d" change="1691004035" id="I0177">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Yrjö Nikolai</first>
+        <surname derivation="Inherited">Lagerlund</surname>
+        <dateval val="1935-02-28" type="before"/>
+      </name>
+      <name alt="1" type="Also Known As">
+        <first>Yrjö Nikolai</first>
+        <surname derivation="Taken">Salmi</surname>
+        <dateval val="1935-02-28" type="after"/>
+        <citationref hlink="_f612c83273f535af0968e546b66"/>
+        <citationref hlink="_f612c176f67309a324cf979824"/>
+      </name>
+      <eventref hlink="_f612be2c63733e40b7c29dfe2dc" role="Primary"/>
+      <eventref hlink="_f612c1998e33f3177fbf65d772b" role="Primary"/>
+      <eventref hlink="_f612c1f1c7c710dcaab04c67691" role="Primary"/>
+      <parentin hlink="_f608dfecd8170356050430fe60b"/>
+    </person>
+    <person handle="_f612c87290726b15f1cf3509372" change="1691003460" id="I0178">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Helvi Heleena</first>
+        <surname derivation="Inherited">Lagerlund</surname>
+      </name>
+      <childof hlink="_f608dfecd8170356050430fe60b"/>
+    </person>
+    <person handle="_f612c8a131d17eb064018c7eb2c" change="1691003460" id="I0179">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Maire Kaarina</first>
+        <surname derivation="Inherited">Lagerlund</surname>
+      </name>
+      <childof hlink="_f608dfecd8170356050430fe60b"/>
+    </person>
+    <person handle="_f612c8bbbec10fc4d88bda06361" change="1691003460" id="I0180">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Liisa Kyllikki</first>
+        <surname derivation="Inherited">Lagerlund</surname>
+      </name>
+      <childof hlink="_f608dfecd8170356050430fe60b"/>
     </person>
   </people>
   <families>
@@ -33879,10 +33995,15 @@
       <father hlink="_f608cd5c8ec5fa81019918ec95b"/>
       <mother hlink="_dd20e42fe441673d2e2b6b4b93e"/>
     </family>
-    <family handle="_f608dfecd8170356050430fe60b" change="1690741933" id="F0035">
-      <rel type="Unknown"/>
+    <family handle="_f608dfecd8170356050430fe60b" change="1691003460" id="F0035">
+      <rel type="Married"/>
+      <father hlink="_f612bca7c897baf6717dca4078d"/>
       <mother hlink="_cb589cd2c683e5aa3a8"/>
-      <childref hlink="_f608e0629004ba3a99302713ded"/>
+      <eventref hlink="_f612c83794737da92df4a29519f" role="Family"/>
+      <childref hlink="_f608e0629004ba3a99302713ded" frel="Unknown"/>
+      <childref hlink="_f612c87290726b15f1cf3509372"/>
+      <childref hlink="_f612c8a131d17eb064018c7eb2c"/>
+      <childref hlink="_f612c8bbbec10fc4d88bda06361"/>
     </family>
     <family handle="_f60f5d6c7b12f4e95f46a6cd3f7" change="1690911688" id="F0036">
       <rel type="Married"/>
@@ -44968,6 +45089,55 @@
       <noteref hlink="_f60f7640a385423f45aab244944"/>
       <sourceref hlink="_f60f75f4a1734e396d0302db3c4"/>
     </citation>
+    <citation handle="_f6128524e47444ad5d158190ef1" change="1690996272" id="C1606">
+      <dateval val="1935-06-15"/>
+      <page>1935-158/2</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f61282bb8253f5838dae87ed4f0"/>
+      <noteref hlink="_f61282ea06629bc2514ca8dbf52"/>
+      <noteref hlink="_f612851237c555bf62ace151d16"/>
+      <sourceref hlink="_f60935a2f8c643304adc83df66f"/>
+    </citation>
+    <citation handle="_f6128d62ab037f4e587b286a4df" change="1690997136" id="C1607">
+      <dateval val="1935-05-12"/>
+      <page>1935-190/6</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f6128ae70a53963799c7f6fb040"/>
+      <noteref hlink="_f6128b0b03e290991d9b0928acb"/>
+      <noteref hlink="_f6128d5ce701132a1d1d0e9b254"/>
+      <sourceref hlink="_f6128a999a518b2471788f5b0f2"/>
+    </citation>
+    <citation handle="_f6129eb3f0c549e4bedbee5bf59" change="1690998952" id="C1608">
+      <page>SALMI KAINO ALVAR ADOLF</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_f6129cd388252bcb1917e2197d7"/>
+    </citation>
+    <citation handle="_f612be1cd3d6f87c55fde7ee4a4" change="1691002246" id="C1610">
+      <page>227-228</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f612be0244f6021e4f69dc52ba"/>
+      <noteref hlink="_f612be16faa774a3cd4c03419fc"/>
+      <sourceref hlink="_db782a69693528491caf87e38ea"/>
+    </citation>
+    <citation handle="_f612c176f67309a324cf979824" change="1691002597" id="C1611">
+      <page>SALMI YRJÖ</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_f612bf1898221fcadc9ca4c324d"/>
+    </citation>
+    <citation handle="_f612c26195b556bad55e79a1cf7" change="1691002693" id="C1612">
+      <page>SALMI AMANDA</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_f612bf1898221fcadc9ca4c324d"/>
+    </citation>
+    <citation handle="_f612c83273f535af0968e546b66" change="1691003303" id="C1614">
+      <dateval val="1935-02-28"/>
+      <page>1935-57/11</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f612c5f163b1cd31a54109018e2"/>
+      <noteref hlink="_f612c60594168c20f73b0c1adfa"/>
+      <noteref hlink="_f612c82dd6c63d3da608f85af77"/>
+      <sourceref hlink="_f612c59f26e3a202eea614736cd"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -48174,6 +48344,29 @@
       <sauthor>Kansaneläkelaitos</sauthor>
       <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
     </source>
+    <source handle="_f6128a999a518b2471788f5b0f2" change="1690996844" id="S0640">
+      <stitle>Turunmaa</stitle>
+      <sauthor>Oy Turunmaa</sauthor>
+      <spubinfo>Turku 17.10.1922 -</spubinfo>
+      <reporef hlink="_cdea68c6afd7d08bd3f" medium="Book"/>
+    </source>
+    <source handle="_f6129cd388252bcb1917e2197d7" change="1690998995" id="S0641">
+      <stitle>Hautakivi Salmi Koski TL</stitle>
+      <noteref hlink="_f6129cfe1bf36a5c88547c9c090"/>
+      <noteref hlink="_f6129e848e26c50e8d640e8b83c"/>
+      <reporef hlink="_f608c551d791ac1d0ef4d1cc6ec" medium="Book"/>
+    </source>
+    <source handle="_f612bf1898221fcadc9ca4c324d" change="1691002584" id="S0642">
+      <stitle>Hautakivi Salmi (Yrjö, Amanda) Koski TL</stitle>
+      <noteref hlink="_f612c12428b21601b7ec0ea38d5"/>
+      <noteref hlink="_f612c14362556b82f7930f3ab5c"/>
+      <reporef hlink="_f608c551d791ac1d0ef4d1cc6ec" medium="Book"/>
+    </source>
+    <source handle="_f612c59f26e3a202eea614736cd" change="1691003033" id="S0643">
+      <stitle>Turun Sanomat</stitle>
+      <sauthor>Oy Turun Sanomat</sauthor>
+      <spubinfo>Turku 09.12.1904 -</spubinfo>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1658853851" id="P0000" type="City">
@@ -49862,7 +50055,7 @@
       <pname value="Marttila" lang="fi"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
     </placeobj>
-    <placeobj handle="_db7eb840e50276e70922c5995f9" change="1508358147" id="P0536" type="Village">
+    <placeobj handle="_db7eb840e50276e70922c5995f9" change="1691002191" id="P0536" type="Village">
       <pname value="Tuimala"/>
       <placeref hlink="_cea0ca2bfb32dc3411e"/>
     </placeobj>
@@ -51163,6 +51356,10 @@
       <pname value="Kosken hautausmaa"/>
       <placeref hlink="_cea0ca2bfb32dc3411e"/>
     </placeobj>
+    <placeobj handle="_f612bda1b7227d515c86480e177" change="1691002195" id="P0219" type="Farm">
+      <pname value="Isotalo Mäkelä"/>
+      <placeref hlink="_db7eb840e50276e70922c5995f9"/>
+    </placeobj>
   </places>
   <repositories>
     <repository handle="_cdea29a49637c6553bc" change="1672241850" id="R0001">
@@ -51175,7 +51372,7 @@
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
     </repository>
-    <repository handle="_cdea68c6afd7d08bd3f" change="1690746342" id="R0003">
+    <repository handle="_cdea68c6afd7d08bd3f" change="1690996842" id="R0003">
       <rname>Kansalliskirjasto digitoidut aineistot</rname>
       <type>Web site</type>
       <url  href="http://digi.lib.helsinki.fi/" type="Web Home"/>
@@ -51251,7 +51448,7 @@
       <type>Library</type>
       <url  href="https://astia.narc.fi/uusiastia/" type="Web Home"/>
     </repository>
-    <repository handle="_f608c551d791ac1d0ef4d1cc6ec" change="1690910791" id="R0019">
+    <repository handle="_f608c551d791ac1d0ef4d1cc6ec" change="1691002336" id="R0019">
       <rname>Suomen kirkkoja ja hautausmaita</rname>
       <type>Web site</type>
       <url  href="https://asiakas.kotisivukone.com/files/suomenkirkkojajahautausmaita.kotisivukone.com/hakemisto15082022.pdf" type="Web Search" description="hakemisto"/>
@@ -74317,6 +74514,121 @@ P.     Toivo August        14/1  1915    Rlä                                   
     </note>
     <note handle="_f60f7640a385423f45aab244944" change="1690914180" id="N2957" type="Link">
       <text>https://astia.narc.fi/uusiastia/viewer/?fileId=4495515062&amp;aineistoId=1046001930</text>
+    </note>
+    <note handle="_f61282bb8253f5838dae87ed4f0" change="1690996019" id="N2958" type="Citation">
+      <text>Uusi Aura, 15.06.1935, nro 158, s. 2
+https://digi.kansalliskirjasto.fi/sanomalehti/binding/2123650?page=2
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f61282ea06629bc2514ca8dbf52" change="1690996038" id="N2959" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/2123650?term=Kaino&amp;term=Alvar&amp;term=Adolf&amp;term=Nordberg&amp;page=2</text>
+    </note>
+    <note handle="_f612851237c555bf62ace151d16" change="1690996265" id="N2960" type="Transcript" format="1">
+      <text>2 N:o 158 - 1935 UUSI AURA Lauantaina, kesäkuun 15. p:nä
+
+[...]
+
+             Suomalaistuvat
+               sukunimet.
+
+  Maaherranvirastolta   ovat  seuraavat
+henkilöt saaneet luvan suomalaistaa su-
+kunimensä: [...]            K o s k e n
+T.l.  kunnassa  Kaino Alvar Adolf Nord-
+berg - Salmi; [...]
+</text>
+      <style name="bold">
+        <range start="78" end="118"/>
+      </style>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="300"/>
+      </style>
+    </note>
+    <note handle="_f6128ae70a53963799c7f6fb040" change="1690996876" id="N2961" type="Citation">
+      <text>Turunmaa, 12.05.1935, nro 109, s. 6
+https://digi.kansalliskirjasto.fi/sanomalehti/binding/2116359?page=6
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f6128b0b03e290991d9b0928acb" change="1690996891" id="N2962" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/2116359?term=Kaino&amp;term=Alvar&amp;term=Adolf&amp;term=Salmi&amp;page=6</text>
+    </note>
+    <note handle="_f6128d5ce701132a1d1d0e9b254" change="1690997134" id="N2963" type="Transcript" format="1">
+      <text>6 - N:o 109 - 1935 TURUNMAA Sunnuntaina toukokuun 12. p:nä
+
+                    Kalewalan riemuwuoden
+                       SUURNIMENMUUTTO
+Juhana Vilhelm Snellmanin  syntymäpäivänä, toukokuun 12:ntena,
+ovat allamainitut kansalaiset Maaherrojen päätöksiin nojautuen
+muuttaneet vierasperäiset sukunimensä suomalaisiksi.
+                                         SUOMALAISUUDEN LIITTO
+
+[...]
+Kaino Alvar Adolf N o r d b e r g -
+                              Salmi</text>
+      <style name="bold">
+        <range start="456" end="461"/>
+      </style>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="461"/>
+      </style>
+    </note>
+    <note handle="_f6129cfe1bf36a5c88547c9c090" change="1690998773" id="N2964" type="Link">
+      <text>https://www.facebook.com/photo/?fbid=10154309960478257&amp;set=oa.1206615266029173</text>
+    </note>
+    <note handle="_f6129e848e26c50e8d640e8b83c" change="1690998933" id="N2965" type="Transcript" format="1">
+      <text>       SALMI
+  KAINO ALVAR ADOLF
+*24.9.1916 †3.8.1988
+
+(nimen edessä sotainvaliditunnus)</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="88"/>
+      </style>
+    </note>
+    <note handle="_f612be0244f6021e4f69dc52ba" change="1691002235" id="N2966" type="Citation">
+      <text>Koski Tl syntyneet 1887-1904 (AP I C:7)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38869&amp;pnum=122 / Viitattu 02.08.2023</text>
+    </note>
+    <note handle="_f612be16faa774a3cd4c03419fc" change="1691002243" id="N2967" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38869&amp;pnum=122</text>
+    </note>
+    <note handle="_f612c12428b21601b7ec0ea38d5" change="1691002563" id="N2968" type="Source Note">
+      <text>         SALMI
+   YRJÖ         AMANDA
+*27.12.1895   *2.4.1895
+†14.4.1959    †16.6.1974</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="86"/>
+      </style>
+    </note>
+    <note handle="_f612c14362556b82f7930f3ab5c" change="1691002576" id="N2969" type="Link">
+      <text>https://www.facebook.com/photo/?fbid=10154309960083257&amp;set=oa.1206615266029173</text>
+    </note>
+    <note handle="_f612c5f163b1cd31a54109018e2" change="1691003067" id="N2970" type="Citation">
+      <text>Turun Sanomat, 28.02.1935, nro 57, s. 11
+https://digi.kansalliskirjasto.fi/sanomalehti/binding/2104027?page=11
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f612c60594168c20f73b0c1adfa" change="1691003075" id="N2971" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/2104027?term=Yrj%C3%B6&amp;term=Nikolai&amp;term=Lagerlund&amp;page=11</text>
+    </note>
+    <note handle="_f612c82dd6c63d3da608f85af77" change="1691003301" id="N2972" type="Transcript" format="1">
+      <text>                            KALEVALAN RIEMUVUODEN
+                               SUURNIMENMUUTTO
+Kalevalan riemuvuoden suurnimenmuutossa  ovat allamainitut kansalaiset Maaher-
+rojen päätöksiin nojautuen muuttaneet vierasperäiset sukunimensä suomalaisiksi.
+[...]
+Yrjö Nikolai, Amanda Katariina, Helvi
+Heleena, Maire Kaarina ja Liisa Kyl-
+      likki L a g e r l u n d - Salmi</text>
+      <style name="bold">
+        <range start="369" end="374"/>
+      </style>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="374"/>
+      </style>
     </note>
   </notes>
   <bookmarks>
