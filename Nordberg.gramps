@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2023-08-02" version="5.1.6"/>
+    <created date="2023-12-12" version="5.1.6"/>
     <researcher>
     </researcher>
   </header>
@@ -108,13 +108,13 @@
       <place hlink="_cde630ab53a2c774547"/>
       <citationref hlink="_cdea8b29a6c65d4ad01"/>
     </event>
-    <event handle="_cb589cc84575f835d35" change="1658310134" id="E0072">
+    <event handle="_cb589cc84575f835d35" change="1702407290" id="E0072">
       <type>Birth</type>
       <dateval val="1875-11-13"/>
       <place hlink="_cde630ab53a2c774547"/>
       <citationref hlink="_cdea8c4dbeb0608c1c5"/>
     </event>
-    <event handle="_cb589cc8465559787e9" change="1625338835" id="E0073">
+    <event handle="_cb589cc8465559787e9" change="1702407095" id="E0073">
       <type>Death</type>
       <dateval val="1877-04-30"/>
       <place hlink="_cde630ab53a2c774547"/>
@@ -14840,11 +14840,10 @@
       <citationref hlink="_db7ef86f7552c9d48207c68510c"/>
       <citationref hlink="_eceb8ce4198345caba2679e602c"/>
     </event>
-    <event handle="_ece8e3cb0a01c6baaef46664db1" change="1672246021" id="E0348">
+    <event handle="_ece8e3cb0a01c6baaef46664db1" change="1691005819" id="E0348">
       <type>Death</type>
       <dateval val="1977-03-11"/>
       <place hlink="_ce9a9fdc1a3005f117a"/>
-      <noteref hlink="_ece8e3c6e754e54ee0efc87e677"/>
       <citationref hlink="_eced4f922d7526b9d133a56c6a1"/>
     </event>
     <event handle="_eceb509d7c02e95db02f64b322e" change="1628101059" id="E0349">
@@ -15470,17 +15469,17 @@
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_cdea8b29a6c65d4ad01"/>
     </event>
-    <event handle="_f150c0ba92d2e8acf5aec464160" change="1658307082" id="E0442">
+    <event handle="_f150c0ba92d2e8acf5aec464160" change="1702406944" id="E0442">
       <type>Birth</type>
       <dateval val="1836"/>
       <citationref hlink="_f150c08f9404bf00746d9dd9443"/>
     </event>
-    <event handle="_f150c16542e65da654506f6aeb3" change="1658307151" id="E0443">
+    <event handle="_f150c16542e65da654506f6aeb3" change="1702408230" id="E0443">
       <type>Birth</type>
       <dateval val="1842-12-30"/>
       <citationref hlink="_f150c08f9404bf00746d9dd9443"/>
     </event>
-    <event handle="_f150c1d7aeb67a82202ebe89828" change="1658583682" id="E0444">
+    <event handle="_f150c1d7aeb67a82202ebe89828" change="1702410088" id="E0444">
       <type>Residence</type>
       <datespan start="1871" stop="1881"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
@@ -15491,7 +15490,7 @@
       <dateval val="1827-07-13"/>
       <citationref hlink="_f150c4b795a3dfa03714772314b"/>
     </event>
-    <event handle="_f150c5492a17fd52e2f051ce41d" change="1658307559" id="E0446">
+    <event handle="_f150c5492a17fd52e2f051ce41d" change="1702409153" id="E0446">
       <type>Marriage</type>
       <dateval val="1859-04-29"/>
       <citationref hlink="_f150c4b795a3dfa03714772314b"/>
@@ -15521,7 +15520,7 @@
       <citationref hlink="_f150cf0af4817f1d153662632a2"/>
       <citationref hlink="_f15562293dc2bbd99c8b56b4278"/>
     </event>
-    <event handle="_f150de3a0aeb635c5ecfc9a800" change="1658313551" id="E0451">
+    <event handle="_f150de3a0aeb635c5ecfc9a800" change="1702408236" id="E0451">
       <type>Baptism</type>
       <dateval val="1875-11-21"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
@@ -16181,7 +16180,7 @@
       <place hlink="_cb589cd84693ecab842"/>
       <citationref hlink="_f37b7b9b6d25bc8044633d4fdbc"/>
     </event>
-    <event handle="_f37b7ec3fbc15731e649f3cb4b5" change="1673198333" id="E0691">
+    <event handle="_f37b7ec3fbc15731e649f3cb4b5" change="1691164185" id="E0691">
       <type>Residence</type>
       <datespan start="1900" stop="1903"/>
       <place hlink="_cb589cd84693ecab842"/>
@@ -17041,6 +17040,19 @@
       <dateval val="1935-02-28"/>
       <description>Lagerlund -&gt; Salmi</description>
       <citationref hlink="_f612c83273f535af0968e546b66"/>
+    </event>
+    <event handle="_f7bbafce1c370893d2efd6935a8" change="1702409339" id="E0829">
+      <type>Residence</type>
+      <dateval val="1859-11-17" type="before"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_f150c4b795a3dfa03714772314b"/>
+      <citationref hlink="_f7bbb0485daada231f2303f18e"/>
+    </event>
+    <event handle="_f7bbbf6b39d2f89e54370281c85" change="1702410890" id="E0830">
+      <type>Residence</type>
+      <dateval val="1863-08-27" type="before"/>
+      <place hlink="_f7bbb87a1063f4879b705bb6ab"/>
+      <citationref hlink="_f7bbbf5daca69d50796f4ea1ba4"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -33896,11 +33908,13 @@
       <eventref hlink="_f150c62516c2daeabee85cfb99f" role="Family"/>
       <eventref hlink="_f150c1d7aeb67a82202ebe89828" role="Family"/>
     </family>
-    <family handle="_f150b73c784675f722d16ac44ab" change="1658307569" id="F0023">
+    <family handle="_f150b73c784675f722d16ac44ab" change="1702410893" id="F0023">
       <rel type="Married"/>
       <father hlink="_f150a2d991d3883684f326f0686"/>
       <mother hlink="_f150c32102b498369bb36e29c90"/>
       <eventref hlink="_f150c5492a17fd52e2f051ce41d" role="Family"/>
+      <eventref hlink="_f7bbafce1c370893d2efd6935a8" role="Family"/>
+      <eventref hlink="_f7bbbf6b39d2f89e54370281c85" role="Family"/>
     </family>
     <family handle="_f150cda8e462bab6943914aeb0e" change="1658432372" id="F0024">
       <rel type="Married"/>
@@ -34116,16 +34130,21 @@
       <noteref hlink="_d85ef8d01a479a051cbfb78369e"/>
       <sourceref hlink="_cdea877adb954644203"/>
     </citation>
-    <citation handle="_cdea8c4dbeb0608c1c5" change="1486889830" id="C0035">
+    <citation handle="_cdea8c4dbeb0608c1c5" change="1702407282" id="C0035">
       <page>1299</page>
       <confidence>2</confidence>
-      <noteref hlink="_cdea8c3a7491ea099ad"/>
+      <noteref hlink="_f7bb9cc8e3175d28f05d84055d5"/>
+      <noteref hlink="_f7bb9caab104d5662581ad3dcb3"/>
       <noteref hlink="_d85ef66999c3eacc8e3c2abe345"/>
+      <noteref hlink="_cdea8c3a7491ea099ad"/>
       <sourceref hlink="_cdea877adb954644203"/>
     </citation>
-    <citation handle="_cdea8e5fac64d1731b6" change="1426407507" id="C0036">
+    <citation handle="_cdea8e5fac64d1731b6" change="1702407093" id="C0036">
       <page>366</page>
       <confidence>2</confidence>
+      <noteref hlink="_f7bb9b19c0844506652e5f64c7a"/>
+      <noteref hlink="_f7bb9af28c94c229a7b10d41826"/>
+      <noteref hlink="_f7bb9888bce5e44dd2a0be178d8"/>
       <noteref hlink="_cdea8e49aaf44fc75c8"/>
       <sourceref hlink="_cdea8dd6d242a006ce5"/>
     </citation>
@@ -43550,11 +43569,12 @@
       <noteref hlink="_f14f4e2da8f8ce25a782df4748"/>
       <sourceref hlink="_cde65158bf529623e7b"/>
     </citation>
-    <citation handle="_f150c08f9404bf00746d9dd9443" change="1658307064" id="C1392">
+    <citation handle="_f150c08f9404bf00746d9dd9443" change="1702408228" id="C1392">
       <page>I/824</page>
       <confidence>2</confidence>
       <noteref hlink="_f150c03ead3738319b9262a7ffe"/>
       <noteref hlink="_f150c075aa139e5bcdf4b4b3f99"/>
+      <noteref hlink="_f7bba5c62483e4f492ed5a822db"/>
       <sourceref hlink="_cde65158bf529623e7b"/>
     </citation>
     <citation handle="_f150c4b795a3dfa03714772314b" change="1658307500" id="C1393">
@@ -45157,6 +45177,21 @@
       <noteref hlink="_f612c60594168c20f73b0c1adfa"/>
       <noteref hlink="_f612c82dd6c63d3da608f85af77"/>
       <sourceref hlink="_f612c59f26e3a202eea614736cd"/>
+    </citation>
+    <citation handle="_f7bbb0485daada231f2303f18e" change="1702409330" id="C1615">
+      <page>kuva 55</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7bbb05e3a82c396f1aae9f5c02"/>
+      <noteref hlink="_f7bbb088ab729e16d2ac0098c80"/>
+      <sourceref hlink="_f5df89073f241ccf8537154be4b"/>
+    </citation>
+    <citation handle="_f7bbbf5daca69d50796f4ea1ba4" change="1702410884" id="C1616">
+      <page>282-283</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7bbb9b2bed5bfa065f00ee996f"/>
+      <noteref hlink="_f7bbb9c88db52bea85dfdac7e4d"/>
+      <noteref hlink="_f7bbbf46d0d3e3e7c1dd32911c9"/>
+      <sourceref hlink="_f7bbb95ff16b16058b5f48d14"/>
     </citation>
   </citations>
   <sources>
@@ -48391,6 +48426,11 @@
       <sauthor>Oy Turun Sanomat</sauthor>
       <spubinfo>Turku 09.12.1904 -</spubinfo>
     </source>
+    <source handle="_f7bbb95ff16b16058b5f48d14" change="1702410256" id="S0644">
+      <stitle>Tammela Muuttaneet 1856-1878</stitle>
+      <sauthor>Tammelan seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1658853851" id="P0000" type="City">
@@ -49006,7 +49046,7 @@
       <pname value="Biskopsnäs"/>
       <placeref hlink="_ceac1478b0919bf2446"/>
     </placeobj>
-    <placeobj handle="_cb589cfeb254c33cda1" change="1690813580" id="P0618" type="Country">
+    <placeobj handle="_cb589cfeb254c33cda1" change="1702410160" id="P0618" type="Country">
       <pname value="Suomi"/>
       <pname value="Finland" lang="sv"/>
     </placeobj>
@@ -51384,6 +51424,10 @@
       <pname value="Isotalo Mäkelä"/>
       <placeref hlink="_db7eb840e50276e70922c5995f9"/>
     </placeobj>
+    <placeobj handle="_f7bbb87a1063f4879b705bb6ab" change="1702410162" id="P0223" type="Parish">
+      <pname value="Tammela"/>
+      <placeref hlink="_cb589cfeb254c33cda1"/>
+    </placeobj>
   </places>
   <repositories>
     <repository handle="_cdea29a49637c6553bc" change="1672241850" id="R0001">
@@ -51391,7 +51435,7 @@
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1690814765" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1702410254" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -54726,7 +54770,7 @@ Elin Maria	13	9/8	Fldr Dykeriarbetaren Ferdinand Nordberg mhu Sofia Wil
         <range start="206" end="221"/>
       </style>
     </note>
-    <note handle="_d85ef66999c3eacc8e3c2abe345" change="1658313724" id="N0460" type="Transcript">
+    <note handle="_d85ef66999c3eacc8e3c2abe345" change="1702407281" id="N0460" type="Transcript" format="1">
       <text>November 1875
 Viktor Leonard	13	21	Fldr: arb Ferdinand Nordberg mhu Sofia Wilhelmina Holm
 						ström 29 x (3-731)
@@ -72729,7 +72773,7 @@ Kansalliskirjaston digitaaliset aineistot
         <range start="0" end="66"/>
       </style>
     </note>
-    <note handle="_f36b522da5b7534352b9b551fcf" change="1672764161" id="N2618" type="Source text">
+    <note handle="_f36b522da5b7534352b9b551fcf" change="1691005639" id="N2618" type="Source text" format="1">
       <text>             BERGVALL                                               LAMPENIUS
 
 GUSTAF ADOLF GUNNAR                         GUSTAF EDVIN
@@ -74693,6 +74737,69 @@ Heleena, Maire Kaarina ja Liisa Kyl-
 1907 - 1987</text>
       <style name="fontface" value="Monospace">
         <range start="0" end="55"/>
+      </style>
+    </note>
+    <note handle="_f7bb9888bce5e44dd2a0be178d8" change="1702406812" id="N2977" type="Transcript" format="1">
+      <text>                                                    April 1877
+
+30.    Viktor Leonard, arbetskarlen Ferdinand Nordbergs barn    Skarl. feber    1 [år]  5[Månad]    3-371</text>
+    </note>
+    <note handle="_f7bb9af28c94c229a7b10d41826" change="1702407065" id="N2978" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15371&amp;pnum=366</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15371&amp;pnum=366">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f7bb9b19c0844506652e5f64c7a" change="1702407081" id="N2979" type="Citation">
+      <text>Helsinki kuolleet 1855-1878 (MKO8-13)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15371&amp;pnum=366 / Viitattu 12.12.2023</text>
+    </note>
+    <note handle="_f7bb9caab104d5662581ad3dcb3" change="1702407246" id="N2980" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=8747&amp;pnum=1299</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=8747&amp;pnum=1299">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f7bb9cc8e3175d28f05d84055d5" change="1702407258" id="N2981" type="Citation">
+      <text>Helsinki syntyneet 1856-1884 (MKO1-40)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=8747&amp;pnum=1299 / Viitattu 12.12.2023</text>
+    </note>
+    <note handle="_f7bba5c62483e4f492ed5a822db" change="1702408201" id="N2982" type="Transcript" format="1">
+      <text>Und. off.    Enkl
+Alexander Harlin             ?    1836    f.i. Rantasalmi att 521-1863 fr Tammela
+                                          vigde 6/11 1871
+Hu Maria Gustava Wikström  30/12  1842    f.i. Karin att 1006-1863 fr Åbo. fr 2-566</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="241"/>
+      </style>
+    </note>
+    <note handle="_f7bbb05e3a82c396f1aae9f5c02" change="1702409311" id="N2983" type="Citation">
+      <text>Helsinki muuttaneet 1853-1887 (MKO1-8)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19855&amp;pnum=55 / Viitattu 12.12.2023</text>
+    </note>
+    <note handle="_f7bbb088ab729e16d2ac0098c80" change="1702409329" id="N2984" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19855&amp;pnum=55</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19855&amp;pnum=55">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f7bbb9b2bed5bfa065f00ee996f" change="1702410290" id="N2985" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=14481&amp;pnum=35</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=14481&amp;pnum=35">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f7bbb9c88db52bea85dfdac7e4d" change="1702410299" id="N2986" type="Citation">
+      <text>Tammela muuttaneet 1856-1878 (MKO876-879)  Sivu 282,283 1863 ulosmuuttaneet ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=14481&amp;pnum=35 / Viitattu 12.12.2023</text>
+    </note>
+    <note handle="_f7bbbf46d0d3e3e7c1dd32911c9" change="1702410875" id="N2987" type="Transcript" format="1">
+      <text>Utflyttade [ifrån Tammela Moderförsamling] År 1863           283
+
+
+27.  [27/8]  { Underofficieren Alexander Harlin              1856 Rantasalmi    Lungois    Helsingfors    ??? ???
+             { dess hustrun Ulrika Charlotta Wikström   13/4 1827 Kyrkslätt     do         do             do  do 
+             { deras dotter Alexandra Charlotta         28/6 1859 H:fors        do         do
+             { &quot;     &quot;      Maria Elenia                26/8 1860 T?            do         do
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="483"/>
       </style>
     </note>
   </notes>
