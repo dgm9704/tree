@@ -17048,11 +17048,25 @@
       <citationref hlink="_f150c4b795a3dfa03714772314b"/>
       <citationref hlink="_f7bbb0485daada231f2303f18e"/>
     </event>
-    <event handle="_f7bbbf6b39d2f89e54370281c85" change="1702410890" id="E0830">
+    <event handle="_f7bbbf6b39d2f89e54370281c85" change="1702413656" id="E0830">
       <type>Residence</type>
-      <dateval val="1863-08-27" type="before"/>
-      <place hlink="_f7bbb87a1063f4879b705bb6ab"/>
+      <datespan start="1862" stop="1863-08-27"/>
+      <place hlink="_f7bbc56811016292672b0be8edc"/>
       <citationref hlink="_f7bbbf5daca69d50796f4ea1ba4"/>
+      <citationref hlink="_f7bbc9f8fc239bd78b32b1138ce"/>
+    </event>
+    <event handle="_f7bbc19df2a4df6a3c9b39b6eff" change="1702411120" id="E0831">
+      <type>Residence</type>
+      <dateval val="1863-08-27" type="after"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_f7bbbf5daca69d50796f4ea1ba4"/>
+    </event>
+    <event handle="_f7bbdf81f5b3c22f9dcf8538e75" change="1702414965" id="E0832">
+      <type>Residence</type>
+      <datespan start="1859-12-12" stop="1862"/>
+      <place hlink="_f7bbdc37e932968603ceadfdb9a"/>
+      <citationref hlink="_f7bbdd5976042062bd53173588b"/>
+      <citationref hlink="_f7bbe6290c52fe1a3862620c194"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -33908,13 +33922,15 @@
       <eventref hlink="_f150c62516c2daeabee85cfb99f" role="Family"/>
       <eventref hlink="_f150c1d7aeb67a82202ebe89828" role="Family"/>
     </family>
-    <family handle="_f150b73c784675f722d16ac44ab" change="1702410893" id="F0023">
+    <family handle="_f150b73c784675f722d16ac44ab" change="1702414285" id="F0023">
       <rel type="Married"/>
       <father hlink="_f150a2d991d3883684f326f0686"/>
       <mother hlink="_f150c32102b498369bb36e29c90"/>
       <eventref hlink="_f150c5492a17fd52e2f051ce41d" role="Family"/>
       <eventref hlink="_f7bbafce1c370893d2efd6935a8" role="Family"/>
+      <eventref hlink="_f7bbdf81f5b3c22f9dcf8538e75" role="Family"/>
       <eventref hlink="_f7bbbf6b39d2f89e54370281c85" role="Family"/>
+      <eventref hlink="_f7bbc19df2a4df6a3c9b39b6eff" role="Family"/>
     </family>
     <family handle="_f150cda8e462bab6943914aeb0e" change="1658432372" id="F0024">
       <rel type="Married"/>
@@ -45193,6 +45209,30 @@
       <noteref hlink="_f7bbbf46d0d3e3e7c1dd32911c9"/>
       <sourceref hlink="_f7bbb95ff16b16058b5f48d14"/>
     </citation>
+    <citation handle="_f7bbc9f8fc239bd78b32b1138ce" change="1702411996" id="C1617">
+      <page>509</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7bbc62ac14588cfcbd631cc7ff"/>
+      <noteref hlink="_f7bbc6662c3218918eebac64201"/>
+      <noteref hlink="_f7bbc9032ac37d8456ee49e1816"/>
+      <sourceref hlink="_f7bbc5ef7a35c76fdabecbfa048"/>
+    </citation>
+    <citation handle="_f7bbdd5976042062bd53173588b" change="1702414249" id="C1618">
+      <page>697</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7bbdd2f6a45709924c04c0ef2"/>
+      <noteref hlink="_f7bbdd46f544465d3cb68b41ab7"/>
+      <noteref hlink="_f7bbdf6d3ee4ab5bd1d183cd885"/>
+      <sourceref hlink="_f7bbdce3c5b2f00ab1edcbf216c"/>
+    </citation>
+    <citation handle="_f7bbe6290c52fe1a3862620c194" change="1702414952" id="C1619">
+      <page>MKO851-854/48-49</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7bbe32932e574b75bab49d30aa"/>
+      <noteref hlink="_f7bbe37a5233126782b388c5ae3"/>
+      <noteref hlink="_f7bbe62032695a684abe5d78b4"/>
+      <sourceref hlink="_f7bbb95ff16b16058b5f48d14"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -48431,6 +48471,16 @@
       <sauthor>Tammelan seurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
+    <source handle="_f7bbc5ef7a35c76fdabecbfa048" change="1702411573" id="S0645">
+      <stitle>Tammela Rippikirja 1862-1868</stitle>
+      <sauthor>Tammelan seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f7bbdce3c5b2f00ab1edcbf216c" change="1702413980" id="S0646">
+      <stitle>Tammela Rippikirja 1855-1861</stitle>
+      <sauthor>Tammelan seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1658853851" id="P0000" type="City">
@@ -51424,9 +51474,22 @@
       <pname value="Isotalo Mäkelä"/>
       <placeref hlink="_db7eb840e50276e70922c5995f9"/>
     </placeobj>
-    <placeobj handle="_f7bbb87a1063f4879b705bb6ab" change="1702410162" id="P0223" type="Parish">
+    <placeobj handle="_f7bbb87a1063f4879b705bb6ab" change="1702413907" id="P0223" type="Parish">
       <pname value="Tammela"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
+    </placeobj>
+    <placeobj handle="_f7bbc3180b618207d0b8b2a651e" change="1702411516" id="P0224" type="Village">
+      <pname value="Lungais"/>
+      <placeref hlink="_f7bbb87a1063f4879b705bb6ab"/>
+    </placeobj>
+    <placeobj handle="_f7bbc56811016292672b0be8edc" change="1702411517" id="P0225" type="Farm">
+      <pname value="Mattila"/>
+      <placeref hlink="_f7bbc3180b618207d0b8b2a651e"/>
+    </placeobj>
+    <placeobj handle="_f7bbdc37e932968603ceadfdb9a" change="1702413909" id="P0226" type="Village">
+      <pname value="Tammela by"/>
+      <pname value="kirkonkylä" lang="fi"/>
+      <placeref hlink="_f7bbb87a1063f4879b705bb6ab"/>
     </placeobj>
   </places>
   <repositories>
@@ -51435,7 +51498,7 @@
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1702410254" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1702413978" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -74789,17 +74852,83 @@ Hu Maria Gustava Wikström  30/12  1842    f.i. Karin att 1006-1863 fr Åbo. fr 
     <note handle="_f7bbb9c88db52bea85dfdac7e4d" change="1702410299" id="N2986" type="Citation">
       <text>Tammela muuttaneet 1856-1878 (MKO876-879)  Sivu 282,283 1863 ulosmuuttaneet ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=14481&amp;pnum=35 / Viitattu 12.12.2023</text>
     </note>
-    <note handle="_f7bbbf46d0d3e3e7c1dd32911c9" change="1702410875" id="N2987" type="Transcript" format="1">
+    <note handle="_f7bbbf46d0d3e3e7c1dd32911c9" change="1702411240" id="N2987" type="Transcript" format="1">
       <text>Utflyttade [ifrån Tammela Moderförsamling] År 1863           283
 
 
-27.  [27/8]  { Underofficieren Alexander Harlin              1856 Rantasalmi    Lungois    Helsingfors    ??? ???
+27.  [27/8]  { Underofficieren Alexander Harlin              1856 Rantasalmi    Lungais    Helsingfors    ??? ???
              { dess hustrun Ulrika Charlotta Wikström   13/4 1827 Kyrkslätt     do         do             do  do 
              { deras dotter Alexandra Charlotta         28/6 1859 H:fors        do         do
              { &quot;     &quot;      Maria Elenia                26/8 1860 T?            do         do
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="483"/>
+      </style>
+    </note>
+    <note handle="_f7bbc62ac14588cfcbd631cc7ff" change="1702411597" id="N2988" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=11745&amp;pnum=488</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=11745&amp;pnum=488">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f7bbc6662c3218918eebac64201" change="1702411622" id="N2989" type="Citation">
+      <text>Tammela rippikirja 1862-1868 (MKO60-97)  Sivu 509 Lungais,Mattila ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=11745&amp;pnum=488 / Viitattu 12.12.2023</text>
+    </note>
+    <note handle="_f7bbc9032ac37d8456ee49e1816" change="1702411995" id="N2990" type="Transcript" format="1">
+      <text>509
+                        Lungais
+
+          Mattila
+
+Und. off  Alexander Harlin                1836  Rantasalmi    58 p 697        Hfors 1863 No 27
+Hu        Ulrika Charlotta Wikström  13/7 1827  Kyrkslätt     do
+dr        Alexandra Charlotta        21/6 1859  Helsingfors   do
+dr        Maria Eleonora             26/8 1860  Ta            do
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="346"/>
+      </style>
+    </note>
+    <note handle="_f7bbdd2f6a45709924c04c0ef2" change="1702414011" id="N2991" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=17033&amp;pnum=664</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=17033&amp;pnum=664">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f7bbdd46f544465d3cb68b41ab7" change="1702414021" id="N2992" type="Citation">
+      <text>Tammela rippikirja 1855-1861 (MKO33-59)  Sivu 697 Tammela,Indelte Rotesoldater ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=17033&amp;pnum=664 / Viitattu 12.12.2023</text>
+    </note>
+    <note handle="_f7bbdf6d3ee4ab5bd1d183cd885" change="1702414246" id="N2993" type="Transcript" format="1">
+      <text>697
+
+Indelte Rotesoldater
+
+Und off Alexander Harlin       ? 1836   Rantasalmi    Helsingfors n:o 179-1859
+Hustru  Charlotta Wikström   13/4 1827  Kyrkslätt     do
+dotter  Alexandra Charlotta  21/6 1859  Helsingfors   do
+dr      Maria Eleonora       26/8 1860  Tla
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="264"/>
+      </style>
+    </note>
+    <note handle="_f7bbe32932e574b75bab49d30aa" change="1702414637" id="N2994" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=14476&amp;pnum=23</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=14476&amp;pnum=23">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f7bbe37a5233126782b388c5ae3" change="1702414671" id="N2995" type="Citation">
+      <text>Tammela muuttaneet 1856-1878 (MKO851-854)  Sivu 48,49 1860 sisäänmuuttaneet ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=14476&amp;pnum=23 / Viitattu 12.12.2023</text>
+    </note>
+    <note handle="_f7bbe62032695a684abe5d78b4" change="1702414948" id="N2996" type="Transcript" format="1">
+      <text>48          Inflyttade År 1859
+
+641  18/11 59    179  12/12 59   { Betjänten Alexander Harlin                ? 1836  Rantasalmi    Helsingfors    Tammela    ?? ?? ??
+                                 { dess hustru Ulrika Charlotta Wikström  13/4 1827  Kyrkslätt     do             do         ?? ?? ??
+                                 { deras dotter Alexandra Charlotta       21/6 1859  Hfors</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="390"/>
       </style>
     </note>
   </notes>
