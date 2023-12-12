@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2023-12-12" version="5.1.6"/>
+    <created date="2023-12-13" version="5.1.6"/>
     <researcher>
     </researcher>
   </header>
@@ -17041,21 +17041,21 @@
       <description>Lagerlund -&gt; Salmi</description>
       <citationref hlink="_f612c83273f535af0968e546b66"/>
     </event>
-    <event handle="_f7bbafce1c370893d2efd6935a8" change="1702409339" id="E0829">
+    <event handle="_f7bbafce1c370893d2efd6935a8" change="1702419833" id="E0829">
       <type>Residence</type>
       <dateval val="1859-11-17" type="before"/>
-      <place hlink="_cb589cc7f8d1b88b055"/>
+      <place hlink="_f7bc149d3bc3feddc5a085a6972"/>
       <citationref hlink="_f150c4b795a3dfa03714772314b"/>
       <citationref hlink="_f7bbb0485daada231f2303f18e"/>
     </event>
-    <event handle="_f7bbbf6b39d2f89e54370281c85" change="1702413656" id="E0830">
+    <event handle="_f7bbbf6b39d2f89e54370281c85" change="1702420850" id="E0830">
       <type>Residence</type>
       <datespan start="1862" stop="1863-08-27"/>
       <place hlink="_f7bbc56811016292672b0be8edc"/>
       <citationref hlink="_f7bbbf5daca69d50796f4ea1ba4"/>
       <citationref hlink="_f7bbc9f8fc239bd78b32b1138ce"/>
     </event>
-    <event handle="_f7bbc19df2a4df6a3c9b39b6eff" change="1702411120" id="E0831">
+    <event handle="_f7bbc19df2a4df6a3c9b39b6eff" change="1702420764" id="E0831">
       <type>Residence</type>
       <dateval val="1863-08-27" type="after"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
@@ -17067,6 +17067,20 @@
       <place hlink="_f7bbdc37e932968603ceadfdb9a"/>
       <citationref hlink="_f7bbdd5976042062bd53173588b"/>
       <citationref hlink="_f7bbe6290c52fe1a3862620c194"/>
+    </event>
+    <event handle="_f7bc1c7f0df4c3180e375095497" change="1702420870" id="E0833">
+      <type>Birth</type>
+      <dateval val="1860-08-26"/>
+      <place hlink="_f7bbdc37e932968603ceadfdb9a"/>
+      <citationref hlink="_f7bc1c7708a1df7304006fcfcb"/>
+      <citationref hlink="_f7bbc9f8fc239bd78b32b1138ce"/>
+    </event>
+    <event handle="_f7bc1e16966415b3a77df6bb56b" change="1702421848" id="E0834">
+      <type>Birth</type>
+      <dateval val="1859-06-21"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_f7bbc9f8fc239bd78b32b1138ce"/>
+      <citationref hlink="_f7bc2263a01c91fc9f4e7d3846"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -30427,6 +30441,24 @@
       </name>
       <childof hlink="_f608dfecd8170356050430fe60b"/>
     </person>
+    <person handle="_f7bc153c8fe1cd8ecff0da06ef7" change="1702421858" id="I0181">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Maria Eleonora</first>
+        <surname>Harlin</surname>
+      </name>
+      <eventref hlink="_f7bc1c7f0df4c3180e375095497" role="Primary"/>
+      <childof hlink="_f150b73c784675f722d16ac44ab"/>
+    </person>
+    <person handle="_f7bc1d9c6d2117dd588dac72a4" change="1702421858" id="I0182">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Alexandra Charlotta</first>
+        <surname>Harlin</surname>
+      </name>
+      <eventref hlink="_f7bc1e16966415b3a77df6bb56b" role="Primary"/>
+      <childof hlink="_f150b73c784675f722d16ac44ab"/>
+    </person>
   </people>
   <families>
     <family handle="_cb589cc7f9c792dc427" change="1658869228" id="F1472">
@@ -33922,7 +33954,7 @@
       <eventref hlink="_f150c62516c2daeabee85cfb99f" role="Family"/>
       <eventref hlink="_f150c1d7aeb67a82202ebe89828" role="Family"/>
     </family>
-    <family handle="_f150b73c784675f722d16ac44ab" change="1702414285" id="F0023">
+    <family handle="_f150b73c784675f722d16ac44ab" change="1702421858" id="F0023">
       <rel type="Married"/>
       <father hlink="_f150a2d991d3883684f326f0686"/>
       <mother hlink="_f150c32102b498369bb36e29c90"/>
@@ -33931,6 +33963,8 @@
       <eventref hlink="_f7bbdf81f5b3c22f9dcf8538e75" role="Family"/>
       <eventref hlink="_f7bbbf6b39d2f89e54370281c85" role="Family"/>
       <eventref hlink="_f7bbc19df2a4df6a3c9b39b6eff" role="Family"/>
+      <childref hlink="_f7bc153c8fe1cd8ecff0da06ef7"/>
+      <childref hlink="_f7bc1d9c6d2117dd588dac72a4"/>
     </family>
     <family handle="_f150cda8e462bab6943914aeb0e" change="1658432372" id="F0024">
       <rel type="Married"/>
@@ -45194,11 +45228,12 @@
       <noteref hlink="_f612c82dd6c63d3da608f85af77"/>
       <sourceref hlink="_f612c59f26e3a202eea614736cd"/>
     </citation>
-    <citation handle="_f7bbb0485daada231f2303f18e" change="1702409330" id="C1615">
+    <citation handle="_f7bbb0485daada231f2303f18e" change="1702415391" id="C1615">
       <page>kuva 55</page>
       <confidence>2</confidence>
       <noteref hlink="_f7bbb05e3a82c396f1aae9f5c02"/>
       <noteref hlink="_f7bbb088ab729e16d2ac0098c80"/>
+      <noteref hlink="_f7bbea4ba2e72672cd0edf448df"/>
       <sourceref hlink="_f5df89073f241ccf8537154be4b"/>
     </citation>
     <citation handle="_f7bbbf5daca69d50796f4ea1ba4" change="1702410884" id="C1616">
@@ -45232,6 +45267,23 @@
       <noteref hlink="_f7bbe37a5233126782b388c5ae3"/>
       <noteref hlink="_f7bbe62032695a684abe5d78b4"/>
       <sourceref hlink="_f7bbb95ff16b16058b5f48d14"/>
+    </citation>
+    <citation handle="_f7bc1c7708a1df7304006fcfcb" change="1702420646" id="C1620">
+      <page>198-199</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7bc164134973a43e799dbd1f67"/>
+      <noteref hlink="_f7bc165804123b79b2371d3d978"/>
+      <noteref hlink="_f7bc1c63d547f207bbeda800827"/>
+      <sourceref hlink="_f7bc1606acdcfc52dc03c394ed"/>
+    </citation>
+    <citation handle="_f7bc2263a01c91fc9f4e7d3846" change="1702421846" id="C1621">
+      <page>jakso 31</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7bc21f108e4ac5b9b46f8905b9"/>
+      <noteref hlink="_f7bc2224c22626590bb3ec632f9"/>
+      <noteref hlink="_f7bc225179c3aa2bf9b18503a01"/>
+      <noteref hlink="_f7bc27e1c38275036a0379a4b7e"/>
+      <sourceref hlink="_f7bc21654c9662e8d2dfb739a41"/>
     </citation>
   </citations>
   <sources>
@@ -48481,6 +48533,16 @@
       <sauthor>Tammelan seurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
+    <source handle="_f7bc1606acdcfc52dc03c394ed" change="1702419971" id="S0647">
+      <stitle>Tammela Syntyneet 1856-1865</stitle>
+      <sauthor>Tammelan seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f7bc21654c9662e8d2dfb739a41" change="1702421163" id="S0648">
+      <stitle>Helsinki Syntyneet 1859-1862</stitle>
+      <sauthor>Helsingin suomalais-ruotsalainen seurakunta</sauthor>
+      <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1658853851" id="P0000" type="City">
@@ -49157,7 +49219,7 @@
       <pname value="Erikas"/>
       <placeref hlink="_cde645a832251bbf5c2"/>
     </placeobj>
-    <placeobj handle="_cdf7c4057334cbaf3c2" change="1658694508" id="P0001" type="Borough">
+    <placeobj handle="_cdf7c4057334cbaf3c2" change="1702419806" id="P0001" type="Borough">
       <ptitle>3. Stadsdelen, Helsingfors, Finland</ptitle>
       <pname value="3. Stadsdelen"/>
       <placeref hlink="_cb589cc7f8d1b88b055"/>
@@ -51491,6 +51553,14 @@
       <pname value="kirkonkylä" lang="fi"/>
       <placeref hlink="_f7bbb87a1063f4879b705bb6ab"/>
     </placeobj>
+    <placeobj handle="_f7bc1499d1061dc6fe47d085683" change="1702419822" id="P0227" type="Block">
+      <pname value="Stören"/>
+      <placeref hlink="_cdf7c4057334cbaf3c2"/>
+    </placeobj>
+    <placeobj handle="_f7bc149d3bc3feddc5a085a6972" change="1702419823" id="P0228" type="Building">
+      <pname value="Gården no 11 vid Kaserngatan"/>
+      <placeref hlink="_f7bc1499d1061dc6fe47d085683"/>
+    </placeobj>
   </places>
   <repositories>
     <repository handle="_cdea29a49637c6553bc" change="1672241850" id="R0001">
@@ -51498,7 +51568,7 @@
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1702413978" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1702419969" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -51574,7 +51644,7 @@
       <rname>Billiongraves</rname>
       <type>Library</type>
     </repository>
-    <repository handle="_f5dc19ee7d07e822ec5f7a37d7" change="1690914147" id="R0018">
+    <repository handle="_f5dc19ee7d07e822ec5f7a37d7" change="1702421161" id="R0018">
       <rname>Astia</rname>
       <type>Library</type>
       <url  href="https://astia.narc.fi/uusiastia/" type="Web Home"/>
@@ -74852,14 +74922,14 @@ Hu Maria Gustava Wikström  30/12  1842    f.i. Karin att 1006-1863 fr Åbo. fr 
     <note handle="_f7bbb9c88db52bea85dfdac7e4d" change="1702410299" id="N2986" type="Citation">
       <text>Tammela muuttaneet 1856-1878 (MKO876-879)  Sivu 282,283 1863 ulosmuuttaneet ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=14481&amp;pnum=35 / Viitattu 12.12.2023</text>
     </note>
-    <note handle="_f7bbbf46d0d3e3e7c1dd32911c9" change="1702411240" id="N2987" type="Transcript" format="1">
+    <note handle="_f7bbbf46d0d3e3e7c1dd32911c9" change="1702420761" id="N2987" type="Transcript" format="1">
       <text>Utflyttade [ifrån Tammela Moderförsamling] År 1863           283
 
 
 27.  [27/8]  { Underofficieren Alexander Harlin              1856 Rantasalmi    Lungais    Helsingfors    ??? ???
              { dess hustrun Ulrika Charlotta Wikström   13/4 1827 Kyrkslätt     do         do             do  do 
              { deras dotter Alexandra Charlotta         28/6 1859 H:fors        do         do
-             { &quot;     &quot;      Maria Elenia                26/8 1860 T?            do         do
+             { &quot;     &quot;      Maria Eleonora              26/8 1860 Tla           do         do
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="483"/>
@@ -74929,6 +74999,69 @@ dr      Maria Eleonora       26/8 1860  Tla
                                  { deras dotter Alexandra Charlotta       21/6 1859  Hfors</text>
       <style name="fontface" value="Monospace">
         <range start="0" end="390"/>
+      </style>
+    </note>
+    <note handle="_f7bbea4ba2e72672cd0edf448df" change="1702415386" id="N2997" type="Transcript" format="1">
+      <text>[År 1859]
+
+[Novemb]  [17]  641  Betjenten Harlin med hu    2-195    Tammela?
+  </text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f7bc164134973a43e799dbd1f67" change="1702419995" id="N2998" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23930&amp;pnum=100</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23930&amp;pnum=100">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f7bc165804123b79b2371d3d978" change="1702420004" id="N2999" type="Citation">
+      <text>Tammela syntyneet 1856-1865 (MKO600-607)  Sivu 198  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23930&amp;pnum=100 / Viitattu 12.12.2023</text>
+    </note>
+    <note handle="_f7bc1c63d547f207bbeda800827" change="1702420638" id="N3000" type="Transcript" format="1">
+      <text>198
+                               År 1860
+
+Maria Eleonora  [Augusti]  26.  2/9  Fater: Underofficieren Alexander Harlin
+                                     Mater: dess hustru Ulrika Charlotta Wikström
+                                     Faddrar: Similä bondehustr. Maria Stina Karlsdotter
+                                     ??? Wikbergs Fabriks ?? Johan
+                                     Framelius med hustru Anna Flinck                       23
+                                     Dopet förrättades af s:ne adj. v. pastor
+                                                        ??? Grönlund</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="600"/>
+      </style>
+    </note>
+    <note handle="_f7bc21f108e4ac5b9b46f8905b9" change="1702421220" id="N3001" type="Citation">
+      <text>Helsingin ruotsalais-suomalaisen seurakunnan arkisto - Syntyneiden ja kastettujen luettelot 1859-1862, jakso 31: födde jun 1859 ; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5820837488&amp;aineistoId=1846934866 / Viitattu 13.12.2023</text>
+    </note>
+    <note handle="_f7bc2224c22626590bb3ec632f9" change="1702421242" id="N3002" type="Link">
+      <text>https://digihakemisto.net/item/1846934866/5820837488/31</text>
+      <style name="link" value="https://digihakemisto.net/item/1846934866/5820837488/31">
+        <range start="0" end="55"/>
+      </style>
+    </note>
+    <note handle="_f7bc225179c3aa2bf9b18503a01" change="1702421260" id="N3003" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5820837488&amp;aineistoId=1846934866</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5820837488&amp;aineistoId=1846934866">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f7bc27e1c38275036a0379a4b7e" change="1702421843" id="N3004" type="Transcript" format="1">
+      <text>                  Juni 1859
+
+Alexandra Charlotta         21.  22.    Frldr: Betjänten Alexander Harlin
+döpt af Kapellan Sundqvist              hru Ulrika Charlotta
+J.J. Sihvonen ???                       Fddr: Waktmästarehustrun Gustava
+                                        Polenius och ackuschörskan* Charlotta
+                                        Eleonora Ekholm
+
+                                        (* ackuschörskan = barnmorska, kätilö)
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="451"/>
       </style>
     </note>
   </notes>
