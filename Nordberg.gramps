@@ -17057,12 +17057,13 @@
       <citationref hlink="_f7bbbf5daca69d50796f4ea1ba4"/>
       <citationref hlink="_f7bbc9f8fc239bd78b32b1138ce"/>
     </event>
-    <event handle="_f7bbc19df2a4df6a3c9b39b6eff" change="1702425246" id="E0831">
+    <event handle="_f7bbc19df2a4df6a3c9b39b6eff" change="1702502418" id="E0831">
       <type>Residence</type>
       <datespan start="1863-08-27" stop="1864"/>
       <place hlink="_f7bc3edfb723dfe5d1bb8a1a2e0"/>
       <citationref hlink="_f7bbbf5daca69d50796f4ea1ba4"/>
       <citationref hlink="_f7bc42466a46c61a5c44fd5191d"/>
+      <citationref hlink="_f7bf2847cf459c3383d39345801"/>
     </event>
     <event handle="_f7bbdf81f5b3c22f9dcf8538e75" change="1702414965" id="E0832">
       <type>Residence</type>
@@ -17091,6 +17092,21 @@
       <place hlink="_f7bc3edfb723dfe5d1bb8a1a2e0"/>
       <citationref hlink="_f7bc42466a46c61a5c44fd5191d"/>
       <citationref hlink="_f7bc48116b8cb887f6507d20ce"/>
+    </event>
+    <event handle="_f7bf2e1ad233ceafb5f7366d809" change="1702503027" id="E0836">
+      <type>Birth</type>
+      <dateval val="1864-11-03"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_f7bf2db804a369e288734f1ad8"/>
+      <citationref hlink="_f7bf2847cf459c3383d39345801"/>
+    </event>
+    <event handle="_f7bf34711a32e83c243713168c5" change="1702503691" id="E0837">
+      <type>Death</type>
+      <dateval val="1864-12-14"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_f7bf2847cf459c3383d39345801"/>
+      <citationref hlink="_f7bf327057de469570684fd563"/>
+      <citationref hlink="_f7bf345a9db6260265f15417cc5"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -30452,7 +30468,7 @@
       </name>
       <childof hlink="_f608dfecd8170356050430fe60b"/>
     </person>
-    <person handle="_f7bc153c8fe1cd8ecff0da06ef7" change="1702421858" id="I0181">
+    <person handle="_f7bc153c8fe1cd8ecff0da06ef7" change="1702503711" id="I0181">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Eleonora</first>
@@ -30461,13 +30477,23 @@
       <eventref hlink="_f7bc1c7f0df4c3180e375095497" role="Primary"/>
       <childof hlink="_f150b73c784675f722d16ac44ab"/>
     </person>
-    <person handle="_f7bc1d9c6d2117dd588dac72a4" change="1702421858" id="I0182">
+    <person handle="_f7bc1d9c6d2117dd588dac72a4" change="1702503711" id="I0182">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Alexandra Charlotta</first>
         <surname>Harlin</surname>
       </name>
       <eventref hlink="_f7bc1e16966415b3a77df6bb56b" role="Primary"/>
+      <childof hlink="_f150b73c784675f722d16ac44ab"/>
+    </person>
+    <person handle="_f7bf2a77d4f2d0381f0ac24db1b" change="1702503711" id="I0183">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Alma Maria</first>
+        <surname>Harlin</surname>
+      </name>
+      <eventref hlink="_f7bf2e1ad233ceafb5f7366d809" role="Primary"/>
+      <eventref hlink="_f7bf34711a32e83c243713168c5" role="Primary"/>
       <childof hlink="_f150b73c784675f722d16ac44ab"/>
     </person>
   </people>
@@ -33965,7 +33991,7 @@
       <eventref hlink="_f150c62516c2daeabee85cfb99f" role="Family"/>
       <eventref hlink="_f150c1d7aeb67a82202ebe89828" role="Family"/>
     </family>
-    <family handle="_f150b73c784675f722d16ac44ab" change="1702421858" id="F0023">
+    <family handle="_f150b73c784675f722d16ac44ab" change="1702503711" id="F0023">
       <rel type="Married"/>
       <father hlink="_f150a2d991d3883684f326f0686"/>
       <mother hlink="_f150c32102b498369bb36e29c90"/>
@@ -33974,8 +34000,9 @@
       <eventref hlink="_f7bbdf81f5b3c22f9dcf8538e75" role="Family"/>
       <eventref hlink="_f7bbbf6b39d2f89e54370281c85" role="Family"/>
       <eventref hlink="_f7bbc19df2a4df6a3c9b39b6eff" role="Family"/>
-      <childref hlink="_f7bc153c8fe1cd8ecff0da06ef7"/>
       <childref hlink="_f7bc1d9c6d2117dd588dac72a4"/>
+      <childref hlink="_f7bc153c8fe1cd8ecff0da06ef7"/>
+      <childref hlink="_f7bf2a77d4f2d0381f0ac24db1b"/>
     </family>
     <family handle="_f150cda8e462bab6943914aeb0e" change="1658432372" id="F0024">
       <rel type="Married"/>
@@ -45329,6 +45356,38 @@
       <noteref hlink="_f7be49aeee8b875b5f701f519d"/>
       <noteref hlink="_f7be4b119456a3306c3900ce8a2"/>
       <sourceref hlink="_f7be4921ba53ff40c46bbef52f8"/>
+    </citation>
+    <citation handle="_f7bf2847cf459c3383d39345801" change="1702502416" id="C1626">
+      <page>I/824-825</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7bf24692143c599449468dad67"/>
+      <noteref hlink="_f7bf2497c522dba298e1efcc6dc"/>
+      <noteref hlink="_f7bf283f64e33b23391058397b2"/>
+      <sourceref hlink="_f15561cd05d2af7d083fe019b0b"/>
+    </citation>
+    <citation handle="_f7bf2db804a369e288734f1ad8" change="1702502986" id="C1627">
+      <page>kuva 608</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7bf2afaa9c4a6e26b6a89e1094"/>
+      <noteref hlink="_f7bf2b23ee6729a3bd94e81d1b4"/>
+      <noteref hlink="_f7bf2da9ea31c4728ac91153ae9"/>
+      <sourceref hlink="_cdea877adb954644203"/>
+    </citation>
+    <citation handle="_f7bf327057de469570684fd563" change="1702503481" id="C1628">
+      <page>MKO8-13/144</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7bf312657c3150e3627f59e1ac"/>
+      <noteref hlink="_f7bf3155c885c6728f388f1305f"/>
+      <noteref hlink="_f7bf32688d75eed278bed4a873a"/>
+      <sourceref hlink="_cdea8dd6d242a006ce5"/>
+    </citation>
+    <citation handle="_f7bf345a9db6260265f15417cc5" change="1702503682" id="C1629">
+      <page>MKO14-23/141</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7bf32ffaa7113446e91b2f0c9e"/>
+      <noteref hlink="_f7bf33228cb73b7265281a0a139"/>
+      <noteref hlink="_f7bf3452a6c2c59614d81f2858c"/>
+      <sourceref hlink="_cdea8dd6d242a006ce5"/>
     </citation>
   </citations>
   <sources>
@@ -75221,6 +75280,88 @@ hu Ulrika Charlotta Wikström  13/7 1827  död 13/11 64               f i Kyrksl
        Maria Gustava Wikström    Tj. jungfru                 uf                   2_566 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="235"/>
+      </style>
+    </note>
+    <note handle="_f7bf24692143c599449468dad67" change="1702502010" id="N3019" type="Citation">
+      <text>Helsinki lastenkirja 1856-1869 (MKO35-51 L1)  Sivu 824 2:dra stadsdelen, Qv Kaninen, Gården no 1 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23472&amp;pnum=413 / Viitattu 13.12.2023</text>
+    </note>
+    <note handle="_f7bf2497c522dba298e1efcc6dc" change="1702502029" id="N3020" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23472&amp;pnum=413</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23472&amp;pnum=413">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f7bf283f64e33b23391058397b2" change="1702502412" id="N3021" type="Transcript" format="1">
+      <text>824
+2dra Stadsdelen Qv Kaninen
+Gården No 1 vid
+
+f.d. Und Off. Alexander Harlins barn mhun Ulrika Charlotta Wikström fd 1827
+Dr Alexandra Charlotta  21/6 1859 Fl att t. Joensuu p246 1871?    f. här vistas i Joensuu hos sin far-bror: f? bet dit 24/2 1872
+Dr Maria Eleonora       26/8 1860 Död 3/11 68?
+Dr Alma Maria           3/11 1864 Död 14/12 1864
+
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="350"/>
+      </style>
+    </note>
+    <note handle="_f7bf2afaa9c4a6e26b6a89e1094" change="1702502699" id="N3022" type="Citation">
+      <text>Helsinki syntyneet 1856-1884 (MKO1-40)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=8747&amp;pnum=608 / Viitattu 13.12.2023</text>
+    </note>
+    <note handle="_f7bf2b23ee6729a3bd94e81d1b4" change="1702502716" id="N3023" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=8747&amp;pnum=608</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=8747&amp;pnum=608">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f7bf2da9ea31c4728ac91153ae9" change="1702502980" id="N3024" type="Transcript" format="1">
+      <text>November 1864
+Alma Maria                3.  6.  Fldr: f.d. Underoffic. Alexander Harlin och dess hustru
+Döpt af                           Ulrika Charlotta 37x                             1-824
+[t.f. Kapellanen J.J.]            Fddr: Skarpskytten Alex. Ahlroos med hu Edla Karolina
+Sihvonen
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="290"/>
+      </style>
+    </note>
+    <note handle="_f7bf312657c3150e3627f59e1ac" change="1702503346" id="N3025" type="Citation">
+      <text>Helsinki kuolleet 1855-1878 (MKO8-13)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15371&amp;pnum=144 / Viitattu 13.12.2023</text>
+    </note>
+    <note handle="_f7bf3155c885c6728f388f1305f" change="1702503365" id="N3026" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15371&amp;pnum=144</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15371&amp;pnum=144">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f7bf32688d75eed278bed4a873a" change="1702503478" id="N3027" type="Transcript" format="1">
+      <text>December 1864
+
+14    Alma Maria, und off Harlins   barn  Bröstlidande    - 40d    1-824</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="87"/>
+      </style>
+    </note>
+    <note handle="_f7bf32ffaa7113446e91b2f0c9e" change="1702503540" id="N3028" type="Citation">
+      <text>Helsinki kuolleet 1854-1885 (MKO14-23)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15372&amp;pnum=141 / Viitattu 13.12.2023</text>
+    </note>
+    <note handle="_f7bf33228cb73b7265281a0a139" change="1702503554" id="N3029" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15372&amp;pnum=141</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15372&amp;pnum=141">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f7bf3452a6c2c59614d81f2858c" change="1702503679" id="N3030" type="Transcript" format="1">
+      <text>December månad
+
+
+14/12  Alma Maria, dr till underoff. Harlin.
+       40 dygn gl.(1.824) Bröstlidande
+
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="102"/>
       </style>
     </note>
   </notes>
