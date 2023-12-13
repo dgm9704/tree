@@ -15490,10 +15490,11 @@
       <dateval val="1827-07-13"/>
       <citationref hlink="_f150c4b795a3dfa03714772314b"/>
     </event>
-    <event handle="_f150c5492a17fd52e2f051ce41d" change="1702409153" id="E0446">
+    <event handle="_f150c5492a17fd52e2f051ce41d" change="1702425970" id="E0446">
       <type>Marriage</type>
       <dateval val="1859-04-29"/>
       <citationref hlink="_f150c4b795a3dfa03714772314b"/>
+      <citationref hlink="_f7bc4f3490d630a53dfb12745a8"/>
     </event>
     <event handle="_f150c62516c2daeabee85cfb99f" change="1658307649" id="E0447">
       <type>Marriage</type>
@@ -17055,11 +17056,12 @@
       <citationref hlink="_f7bbbf5daca69d50796f4ea1ba4"/>
       <citationref hlink="_f7bbc9f8fc239bd78b32b1138ce"/>
     </event>
-    <event handle="_f7bbc19df2a4df6a3c9b39b6eff" change="1702420764" id="E0831">
+    <event handle="_f7bbc19df2a4df6a3c9b39b6eff" change="1702425246" id="E0831">
       <type>Residence</type>
-      <dateval val="1863-08-27" type="after"/>
-      <place hlink="_cb589cc7f8d1b88b055"/>
+      <datespan start="1863-08-27" stop="1864"/>
+      <place hlink="_f7bc3edfb723dfe5d1bb8a1a2e0"/>
       <citationref hlink="_f7bbbf5daca69d50796f4ea1ba4"/>
+      <citationref hlink="_f7bc42466a46c61a5c44fd5191d"/>
     </event>
     <event handle="_f7bbdf81f5b3c22f9dcf8538e75" change="1702414965" id="E0832">
       <type>Residence</type>
@@ -17081,6 +17083,13 @@
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_f7bbc9f8fc239bd78b32b1138ce"/>
       <citationref hlink="_f7bc2263a01c91fc9f4e7d3846"/>
+    </event>
+    <event handle="_f7bc44c46356887bac5f7dd1d49" change="1702425220" id="E0835">
+      <type>Death</type>
+      <dateval val="1864-11-13"/>
+      <place hlink="_f7bc3edfb723dfe5d1bb8a1a2e0"/>
+      <citationref hlink="_f7bc42466a46c61a5c44fd5191d"/>
+      <citationref hlink="_f7bc48116b8cb887f6507d20ce"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -29666,13 +29675,14 @@
       <eventref hlink="_f150de3a0aeb635c5ecfc9a800" role="Witness"/>
       <parentin hlink="_f150a2d297622c1fce11def1c7a"/>
     </person>
-    <person handle="_f150c32102b498369bb36e29c90" change="1658307569" id="I0108">
+    <person handle="_f150c32102b498369bb36e29c90" change="1702425255" id="I0108">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Ulrika Charlotta</first>
         <surname>Wikström</surname>
       </name>
       <eventref hlink="_f150c4bc1af524428763ed26112" role="Primary"/>
+      <eventref hlink="_f7bc44c46356887bac5f7dd1d49" role="Primary"/>
       <parentin hlink="_f150b73c784675f722d16ac44ab"/>
     </person>
     <person handle="_f150cdb524e200b5b297b815a2e" change="1658308724" id="I0109">
@@ -45285,6 +45295,31 @@
       <noteref hlink="_f7bc27e1c38275036a0379a4b7e"/>
       <sourceref hlink="_f7bc21654c9662e8d2dfb739a41"/>
     </citation>
+    <citation handle="_f7bc42466a46c61a5c44fd5191d" change="1702424871" id="C1622">
+      <page>I/824</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7bc3fc61773da774b5cb577364"/>
+      <noteref hlink="_f7bc3fdf8932dbccfbf9b79f492"/>
+      <noteref hlink="_f7bc423c6394b22bb4b2c138896"/>
+      <sourceref hlink="_cde63f91eee556ea9ee"/>
+    </citation>
+    <citation handle="_f7bc48116b8cb887f6507d20ce" change="1702425218" id="C1623">
+      <page>kuva 143</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7bc458d32a7028184f2627d440"/>
+      <noteref hlink="_f7bc45a2d8ccc7bd05de6f1fc1"/>
+      <noteref hlink="_f7bc46d63fd1b73bbcffded6b45"/>
+      <sourceref hlink="_cdea8dd6d242a006ce5"/>
+    </citation>
+    <citation handle="_f7bc4f3490d630a53dfb12745a8" change="1702425967" id="C1624">
+      <page>jakso 208</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7bc4c0616c495919171b6e1d07"/>
+      <noteref hlink="_f7bc4c404902192db73db453f16"/>
+      <noteref hlink="_f7bc4c620333db19a4dd8671937"/>
+      <noteref hlink="_f7bc4ec49f2498d586800739ae0"/>
+      <sourceref hlink="_f7bc4bd52bb74ab8fc2564ec5c7"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -48543,6 +48578,11 @@
       <sauthor>Helsingin suomalais-ruotsalainen seurakunta</sauthor>
       <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
     </source>
+    <source handle="_f7bc4bd52bb74ab8fc2564ec5c7" change="1702425613" id="S0649">
+      <stitle>Helsinki Kuulutetut ja Vihityt 1849-1860</stitle>
+      <sauthor>Helsingin ruotsalais-suomalainen seurakunta</sauthor>
+      <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1658853851" id="P0000" type="City">
@@ -49188,7 +49228,7 @@
       <pname value="Bruk"/>
       <placeref hlink="_cb589cc922f7c0aaf59"/>
     </placeobj>
-    <placeobj handle="_cde63d718596ba2537d" change="1689624179" id="P0431" type="Borough">
+    <placeobj handle="_cde63d718596ba2537d" change="1702424251" id="P0431" type="Borough">
       <ptitle>2. Stadsdelen, Helsinki, Suomi</ptitle>
       <pname value="2. Stadsdelen"/>
       <placeref hlink="_cb589cc7f8d1b88b055"/>
@@ -51561,6 +51601,14 @@
       <pname value="Gården no 11 vid Kaserngatan"/>
       <placeref hlink="_f7bc1499d1061dc6fe47d085683"/>
     </placeobj>
+    <placeobj handle="_f7bc3edd57d5cb2c340b8185024" change="1702424253" id="P0229" type="Block">
+      <pname value="Kaninen"/>
+      <placeref hlink="_cde63d718596ba2537d"/>
+    </placeobj>
+    <placeobj handle="_f7bc3edfb723dfe5d1bb8a1a2e0" change="1702424254" id="P0230" type="Building">
+      <pname value="Gården no 1 vid Berggatan"/>
+      <placeref hlink="_f7bc3edd57d5cb2c340b8185024"/>
+    </placeobj>
   </places>
   <repositories>
     <repository handle="_cdea29a49637c6553bc" change="1672241850" id="R0001">
@@ -51644,7 +51692,7 @@
       <rname>Billiongraves</rname>
       <type>Library</type>
     </repository>
-    <repository handle="_f5dc19ee7d07e822ec5f7a37d7" change="1702421161" id="R0018">
+    <repository handle="_f5dc19ee7d07e822ec5f7a37d7" change="1702425611" id="R0018">
       <rname>Astia</rname>
       <type>Library</type>
       <url  href="https://astia.narc.fi/uusiastia/" type="Web Home"/>
@@ -75062,6 +75110,76 @@ J.J. Sihvonen ???                       Fddr: Waktmästarehustrun Gustava
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="451"/>
+      </style>
+    </note>
+    <note handle="_f7bc3fc61773da774b5cb577364" change="1702424349" id="N3005" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23469&amp;pnum=805</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23469&amp;pnum=805">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f7bc3fdf8932dbccfbf9b79f492" change="1702424359" id="N3006" type="Citation">
+      <text>Helsinki rippikirja 1856-1869 (MKO1-34)  Sivu 824 2:dra stadsdelen, Qv Kaninen, Gården no 1 vid Berg gatan ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23469&amp;pnum=805 / Viitattu 13.12.2023</text>
+    </note>
+    <note handle="_f7bc423c6394b22bb4b2c138896" change="1702424790" id="N3007" type="Transcript" format="1">
+      <text>2dra Stadsdelen    Qv Kaninen
+
+Gården No 1 vid Berggatan
+
+Under Offic.
+Alexander Harlin                ?  1836  äkt lysning no 216_1865    f i Rantasalmi. Attn 521_63 fr Tammela
+hu Ulrika Charlotta Wikström  13/7 1827  död 13/11 64               f i Kyrkslätt</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="259"/>
+      </style>
+    </note>
+    <note handle="_f7bc458d32a7028184f2627d440" change="1702424954" id="N3008" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15371&amp;pnum=143</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15371&amp;pnum=143">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f7bc45a2d8ccc7bd05de6f1fc1" change="1702424963" id="N3009" type="Citation">
+      <text>Helsinki kuolleet 1855-1878 (MKO8-13)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15371&amp;pnum=143 / Viitattu 13.12.2023</text>
+    </note>
+    <note handle="_f7bc46d63fd1b73bbcffded6b45" change="1702425089" id="N3010" type="Transcript" format="1">
+      <text>           November 1864
+
+13    Ulrika Charlotta fd underof Harlins hu    gift    lungsot    37      1_824
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="107"/>
+      </style>
+    </note>
+    <note handle="_f7bc4c0616c495919171b6e1d07" change="1702425633" id="N3011" type="Citation">
+      <text>Helsingin ruotsalais-suomalaisen seurakunnan arkisto - Kuulutettujen ja vihittyjen luettelot 1849-1860, jakso 208: 1859 mars, april; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5820829837&amp;aineistoId=1847006285 / Viitattu 13.12.2023</text>
+    </note>
+    <note handle="_f7bc4c404902192db73db453f16" change="1702425657" id="N3012" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5820829837&amp;aineistoId=1847006285</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5820829837&amp;aineistoId=1847006285">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f7bc4c620333db19a4dd8671937" change="1702425671" id="N3013" type="Link">
+      <text>https://digihakemisto.net/item/1847006285/5820829837/208</text>
+      <style name="link" value="https://digihakemisto.net/item/1847006285/5820829837/208">
+        <range start="0" end="56"/>
+      </style>
+    </note>
+    <note handle="_f7bc4ec49f2498d586800739ae0" change="1702425933" id="N3014" type="Transcript" format="1">
+      <text>[April månad 1859]
+
+
+32  8  Betjenten Alexander        (Oikean puoleista palstaa ei saa luettua)
+       Harlin (N13. 2_195) och
+       Tjänste??? Ulrika
+       Charlotta Wikström
+       (2_195)
+      
+
+       Wigde den 29. APril 1859</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="233"/>
       </style>
     </note>
   </notes>
