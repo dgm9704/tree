@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2023-12-14" version="5.1.6"/>
+    <created date="2023-12-15" version="5.1.6"/>
     <researcher>
     </researcher>
   </header>
@@ -15469,7 +15469,7 @@
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_cdea8b29a6c65d4ad01"/>
     </event>
-    <event handle="_f150c0ba92d2e8acf5aec464160" change="1702406944" id="E0442">
+    <event handle="_f150c0ba92d2e8acf5aec464160" change="1702590162" id="E0442">
       <type>Birth</type>
       <dateval val="1836"/>
       <citationref hlink="_f150c08f9404bf00746d9dd9443"/>
@@ -15485,10 +15485,12 @@
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_f150c08f9404bf00746d9dd9443"/>
     </event>
-    <event handle="_f150c4bc1af524428763ed26112" change="1658307529" id="E0445">
+    <event handle="_f150c4bc1af524428763ed26112" change="1702589725" id="E0445">
       <type>Birth</type>
       <dateval val="1827-07-13"/>
+      <place hlink="_f7c268d264a5a9742edcf3d086f"/>
       <citationref hlink="_f150c4b795a3dfa03714772314b"/>
+      <citationref hlink="_f7c260b0b767ee7d7cfc738bfa3"/>
     </event>
     <event handle="_f150c5492a17fd52e2f051ce41d" change="1702586505" id="E0446">
       <type>Marriage</type>
@@ -17126,6 +17128,41 @@
       <citationref hlink="_f7c19254af53de22e40c938639b"/>
       <citationref hlink="_f7c172b4e8571db6db8029536b0"/>
       <citationref hlink="_f7c1757828d31fa1d8b4626fb17"/>
+    </event>
+    <event handle="_f7c266675a9c958ea2fa51268c" change="1702589487" id="E0840">
+      <type>Birth</type>
+      <dateval val="1790"/>
+      <place hlink="_e82478dea7034bf7ec557d7af65"/>
+      <citationref hlink="_f7c266621b923a51c82ce1984c5"/>
+    </event>
+    <event handle="_f7c267e92da3fa40e88611bdc9a" change="1702589619" id="E0841">
+      <type>Birth</type>
+      <dateval val="1788-05-16"/>
+      <place hlink="_f7c267b8540348d570625aeecae"/>
+      <citationref hlink="_f7c266621b923a51c82ce1984c5"/>
+    </event>
+    <event handle="_f7c27f8352531b90600216f167b" change="1702592093" id="E0842">
+      <type>Residence</type>
+      <dateval val="1858-03-14" type="after"/>
+      <place hlink="_f7bc149d3bc3feddc5a085a6972"/>
+      <citationref hlink="_f7c27541dcb5ecb1ba72ffebe6b"/>
+      <citationref hlink="_f7c27f552ff4707dbc90671098a"/>
+    </event>
+    <event handle="_f7c281149c417e05f877388267d" change="1702594093" id="E0843">
+      <type>Residence</type>
+      <datespan start="1854-11-09" stop="1858-03-14"/>
+      <place hlink="_f7c280ee9cf3d46b01f8424e596"/>
+      <citationref hlink="_f7c29253b1118e8ed8c62ffbfdd"/>
+      <citationref hlink="_f7c287a6b9b3be1df69a086868a"/>
+      <citationref hlink="_f7c27f552ff4707dbc90671098a"/>
+      <citationref hlink="_f7c27541dcb5ecb1ba72ffebe6b"/>
+    </event>
+    <event handle="_f7c28851fc672ad7b3290376157" change="1702594140" id="E0844">
+      <type>Residence</type>
+      <dateval val="1854-11-09" type="before"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_f7c29253b1118e8ed8c62ffbfdd"/>
+      <citationref hlink="_f7c287a6b9b3be1df69a086868a"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -29012,12 +29049,6 @@
       <eventref hlink="_e90b9649df22ab1d5b4a08b4e8b" role="Primary"/>
       <childof hlink="_e908930fa623aab84d895704875"/>
     </person>
-    <person handle="_ebb0a396c802c0a736345b976d" change="1625933950" id="I0038">
-      <gender>M</gender>
-      <name type="Birth Name">
-        <surname></surname>
-      </name>
-    </person>
     <person handle="_ebb0a5009a4205bca7113657956" change="1621977227" id="I0039">
       <gender>M</gender>
       <name type="Birth Name">
@@ -29688,13 +29719,16 @@
       <eventref hlink="_f150a4d349e5c59fb6a11613308" role="Witness"/>
       <parentin hlink="_f14f48fe16113ce0450a9a5147b"/>
     </person>
-    <person handle="_f150a2d991d3883684f326f0686" change="1658310226" id="I0106">
+    <person handle="_f150a2d991d3883684f326f0686" change="1702594147" id="I0106">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Alexander</first>
         <surname>Harlin</surname>
       </name>
       <eventref hlink="_f150c0ba92d2e8acf5aec464160" role="Primary"/>
+      <eventref hlink="_f7c28851fc672ad7b3290376157" role="Primary"/>
+      <eventref hlink="_f7c281149c417e05f877388267d" role="Primary"/>
+      <eventref hlink="_f7c27f8352531b90600216f167b" role="Primary"/>
       <eventref hlink="_f150ad0dcd620708e4c88f66329" role="Witness"/>
       <eventref hlink="_f150de3a0aeb635c5ecfc9a800" role="Witness"/>
       <parentin hlink="_f150a2d297622c1fce11def1c7a"/>
@@ -29711,7 +29745,7 @@
       <eventref hlink="_f150de3a0aeb635c5ecfc9a800" role="Witness"/>
       <parentin hlink="_f150a2d297622c1fce11def1c7a"/>
     </person>
-    <person handle="_f150c32102b498369bb36e29c90" change="1702425255" id="I0108">
+    <person handle="_f150c32102b498369bb36e29c90" change="1702589730" id="I0108">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Ulrika Charlotta</first>
@@ -29719,6 +29753,7 @@
       </name>
       <eventref hlink="_f150c4bc1af524428763ed26112" role="Primary"/>
       <eventref hlink="_f7bc44c46356887bac5f7dd1d49" role="Primary"/>
+      <childof hlink="_f7c2651148e1b1f23435444e7f4"/>
       <parentin hlink="_f150b73c784675f722d16ac44ab"/>
     </person>
     <person handle="_f150cdb524e200b5b297b815a2e" change="1658308724" id="I0109">
@@ -30517,6 +30552,28 @@
       <eventref hlink="_f7bf2e1ad233ceafb5f7366d809" role="Primary"/>
       <eventref hlink="_f7bf34711a32e83c243713168c5" role="Primary"/>
       <childof hlink="_f150b73c784675f722d16ac44ab"/>
+    </person>
+    <person handle="_f7c2651ec2a3c7e5484560b2296" change="1702589730" id="I0184">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Anders Johan</first>
+        <surname>Wikström</surname>
+      </name>
+      <eventref hlink="_f7c266675a9c958ea2fa51268c" role="Primary"/>
+      <parentin hlink="_f7c2651148e1b1f23435444e7f4"/>
+    </person>
+    <person handle="_f7c266f5d58467204ea55cbc65d" change="1702589896" id="I0185">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Florinda Ulrica</first>
+        <surname>Olin</surname>
+      </name>
+      <name alt="1" type="Married Name">
+        <first>Florinda Ulrica</first>
+        <surname derivation="Taken">Wikström</surname>
+      </name>
+      <eventref hlink="_f7c267e92da3fa40e88611bdc9a" role="Primary"/>
+      <parentin hlink="_f7c2651148e1b1f23435444e7f4"/>
     </person>
   </people>
   <families>
@@ -34153,6 +34210,12 @@
       <rel type="Married"/>
       <father hlink="_f60f5d893d748e6bd02635cf86f"/>
       <mother hlink="_f60bb6654273ff6f9ce5a6d6d39"/>
+    </family>
+    <family handle="_f7c2651148e1b1f23435444e7f4" change="1702589730" id="F0037">
+      <rel type="Unknown"/>
+      <father hlink="_f7c2651ec2a3c7e5484560b2296"/>
+      <mother hlink="_f7c266f5d58467204ea55cbc65d"/>
+      <childref hlink="_f150c32102b498369bb36e29c90"/>
     </family>
   </families>
   <citations>
@@ -45435,6 +45498,54 @@
       <noteref hlink="_f7c193861453d5f7b21020b10a3"/>
       <sourceref hlink="_f5df89073f241ccf8537154be4b"/>
     </citation>
+    <citation handle="_f7c260b0b767ee7d7cfc738bfa3" change="1702588861" id="C1633">
+      <page>AP I C:4/180-181</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7c25b72eb32eddd63af8f10277"/>
+      <noteref hlink="_f7c25b976ab47b0cf86d5984ca4"/>
+      <noteref hlink="_f7c260819f67b3c36642819404e"/>
+      <sourceref hlink="_f7c25b5552d7ff60005fb399146"/>
+    </citation>
+    <citation handle="_f7c266621b923a51c82ce1984c5" change="1702589458" id="C1634">
+      <page>AP I Aa:14/240</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7c266343ad2a58da875c88a484"/>
+      <noteref hlink="_f7c266570c624dca79a3341983c"/>
+      <sourceref hlink="_f7c265fe506300d54a031a58ebf"/>
+    </citation>
+    <citation handle="_f7c27541dcb5ecb1ba72ffebe6b" change="1702591018" id="C1635">
+      <page>MKO1-3/6</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7c274a2550615b96484b827387"/>
+      <noteref hlink="_f7c274c2c331e1bca5bf6f00fb5"/>
+      <noteref hlink="_f7c27538c80477f6ea68063eaa3"/>
+      <sourceref hlink="_f7c27473f60329f6d2b2126b522"/>
+    </citation>
+    <citation handle="_f7c27f552ff4707dbc90671098a" change="1702592637" id="C1636">
+      <page>I Bb:2/47</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7c27d9c796778bdda08bf05618"/>
+      <noteref hlink="_f7c27dc74d1238ea8b93fcb4ceb"/>
+      <noteref hlink="_f7c27def686667b1430d17a45b7"/>
+      <noteref hlink="_f7c27f47f0c57a3e812f7cccdc0"/>
+      <sourceref hlink="_f7c27d65dfd48122fa172a6ac1b"/>
+    </citation>
+    <citation handle="_f7c287a6b9b3be1df69a086868a" change="1702592947" id="C1637">
+      <page>I Aa:2/258</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7c285925193d1f7bf29a36f8d"/>
+      <noteref hlink="_f7c285bc9556a7e9162a741619d"/>
+      <noteref hlink="_f7c287a1e0278207ba7f95abbae"/>
+      <sourceref hlink="_f7c28552a0677dc5be6b2a65d98"/>
+    </citation>
+    <citation handle="_f7c29253b1118e8ed8c62ffbfdd" change="1702594066" id="C1638">
+      <page>13</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7c290c7cc976c66f0568dc95fc"/>
+      <noteref hlink="_f7c290ecdcc5fe7633fcb687f94"/>
+      <noteref hlink="_f7c29242a9627f539d18c55696a"/>
+      <sourceref hlink="_f7c2909f5587692f9b4df9fc921"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -48713,9 +48824,40 @@
       <sauthor>Joensuun seurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
+    <source handle="_f7c25b5552d7ff60005fb399146" change="1702588300" id="S0653">
+      <stitle>Kirkkonummi Syntyneet 1822-1833</stitle>
+      <sauthor>Kirkkonummen seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f7c265fe506300d54a031a58ebf" change="1702589418" id="S0654">
+      <stitle>Kirkkonummi Rippikirja 1827-1834</stitle>
+      <sauthor>Kirkkonummen seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f7c27473f60329f6d2b2126b522" change="1702590934" id="S0655">
+      <stitle>Helsinki Muuttaneet 1851-1864</stitle>
+      <sauthor>Helsingin ruotsalais-suomalainen seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f7c27d65dfd48122fa172a6ac1b" change="1702592598" id="S0656">
+      <stitle>Ensimmäinen Suomen meriekipaasi Muuttaneet 1854-1881</stitle>
+      <sauthor>Meriväen seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+      <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
+    </source>
+    <source handle="_f7c28552a0677dc5be6b2a65d98" change="1702592703" id="S0657">
+      <stitle>Ensimmäinen Suomen Meriekipaasi Rippikirja 1853-1860</stitle>
+      <sauthor>Meriväen seurakunta</sauthor>
+      <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
+    </source>
+    <source handle="_f7c2909f5587692f9b4df9fc921" change="1702593887" id="S0658">
+      <stitle>Ensimmäinen Suomen Meriekipaasi Muuttaneet 1854-1880</stitle>
+      <sauthor>Meriväen seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
   </sources>
   <places>
-    <placeobj handle="_cb589cc7f8d1b88b055" change="1658853851" id="P0000" type="City">
+    <placeobj handle="_cb589cc7f8d1b88b055" change="1702592194" id="P0000" type="City">
       <ptitle>Helsingfors, Finland</ptitle>
       <pname value="Helsinki" lang="se"/>
       <pname value="Helsingfors" lang="se"/>
@@ -49328,7 +49470,7 @@
       <pname value="Biskopsnäs"/>
       <placeref hlink="_ceac1478b0919bf2446"/>
     </placeobj>
-    <placeobj handle="_cb589cfeb254c33cda1" change="1702563677" id="P0618" type="Country">
+    <placeobj handle="_cb589cfeb254c33cda1" change="1702589804" id="P0618" type="Country">
       <pname value="Suomi"/>
       <pname value="Finland" lang="sv"/>
     </placeobj>
@@ -51167,7 +51309,7 @@
       <pname value="Malmin hautausmaa"/>
       <placeref hlink="_cb589cc7f8d1b88b055"/>
     </placeobj>
-    <placeobj handle="_e82478dea7034bf7ec557d7af65" change="1658014556" id="P0046" type="Parish">
+    <placeobj handle="_e82478dea7034bf7ec557d7af65" change="1702589713" id="P0046" type="Parish">
       <pname value="Kirkkonummi" lang="fi"/>
       <pname value="Kyrkslätt" lang="sv"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
@@ -51743,6 +51885,20 @@
       <pname value="Joensuu"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
     </placeobj>
+    <placeobj handle="_f7c267b8540348d570625aeecae" change="1702589805" id="P0233" type="Parish">
+      <pname value="Siuntio"/>
+      <pname value="Sjundeå" lang="sv"/>
+      <placeref hlink="_cb589cfeb254c33cda1"/>
+    </placeobj>
+    <placeobj handle="_f7c268d264a5a9742edcf3d086f" change="1702589714" id="P0234" type="Farm">
+      <pname value="Kantvik"/>
+      <placeref hlink="_e82478dea7034bf7ec557d7af65"/>
+    </placeobj>
+    <placeobj handle="_f7c280ee9cf3d46b01f8424e596" change="1702592242" id="P0235" type="Garrison">
+      <pname value="Ensimmäinen Suomen meriekipaasi"/>
+      <pname value="Första finska sjöekipaget" lang="sv"/>
+      <placeref hlink="_cb589cc7f8d1b88b055"/>
+    </placeobj>
   </places>
   <repositories>
     <repository handle="_cdea29a49637c6553bc" change="1672241850" id="R0001">
@@ -51750,7 +51906,7 @@
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1702564081" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1702593886" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -51826,7 +51982,7 @@
       <rname>Billiongraves</rname>
       <type>Library</type>
     </repository>
-    <repository handle="_f5dc19ee7d07e822ec5f7a37d7" change="1702479015" id="R0018">
+    <repository handle="_f5dc19ee7d07e822ec5f7a37d7" change="1702592702" id="R0018">
       <rname>Astia</rname>
       <type>Library</type>
       <url  href="https://astia.narc.fi/uusiastia/" type="Web Home"/>
@@ -75470,7 +75626,7 @@ Sihvonen
         <range start="0" end="70"/>
       </style>
     </note>
-    <note handle="_f7c253ca68d1f3daac734468912" change="1702588015" id="N3040" type="Transcript" format="1">
+    <note handle="_f7c253ca68d1f3daac734468912" change="1702590764" id="N3040" type="Transcript" format="1">
       <text>3dje Stadsdelen                  Qv Stören
 
 Gården No 11 vid Kasern gatan
@@ -75484,7 +75640,7 @@ Dr Maria Elisabeth Lundh         6/4  1837
 Pig Agatha Fagerstöm   9/1 1813
 Pig Ulrika Charlotta Wikström    13/7 1827   satt i lysning No 32 59  &gt;Fl att No 641_1859 t. T?? f.i Kyrkslätt fo 1846_580 NOB 359
                                                                                                  )vigde 29/4 59
-Betj. Alexander Harlin                1836   satt i lysning No 32 59  &gt;                          ) f.i Rantasalmi att No 184 if F. Sjö-Ekip 185?
+Betj. Alexander Harlin                1836   satt i lysning No 32 59  &gt;                          ) f.i Rantasalmi att No 184 if F. Sjö-Ekip 1858
                                                                                                    Frid o hinderslös t. äkt obest
 
 und.löjtn vid lots och ???
@@ -75493,6 +75649,121 @@ Bror Konrad Wahlroos             1/2  1834   ) fl att No 70_1870 t. Nyslott
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="966"/>
+      </style>
+    </note>
+    <note handle="_f7c25b72eb32eddd63af8f10277" change="1702588312" id="N3041" type="Citation">
+      <text>Kirkkonummi syntyneet 1822-1833 (AP I C:4)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=37824&amp;pnum=93 / Viitattu 14.12.2023</text>
+    </note>
+    <note handle="_f7c25b976ab47b0cf86d5984ca4" change="1702588327" id="N3042" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=37824&amp;pnum=93</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=37824&amp;pnum=93">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f7c260819f67b3c36642819404e" change="1702588842" id="N3043" type="Transcript" format="1">
+      <text>Födde och Döpte barn i Kyrkslätt Församling
+                 År 1827
+                 Julii
+
+No 87               13    Fadren, Inhyses Anders Johan Wikström
+Ulrica Charlotta          Modren, hustru Ulrica Florinda Wikström               49
+Kantvik                   Fadranne: Häradshöfdingskan Fru Anna Char-
+                          lotta Logrén född Borgström ifr. Wohls: Demoiselle
+                          Eva Gustava Logrén ifr Finsbacka: Provisoren
+                          Samuel Abraham Gardén ifr Finsbacka; Dren-
+                          gen Carl Anders Löfman ifr Kantvik
+                                   Döpt å Finsbacka den 15 Juli 1827
+                                          af Samuel Parlén</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="714"/>
+      </style>
+    </note>
+    <note handle="_f7c266343ad2a58da875c88a484" change="1702589440" id="N3044" type="Citation">
+      <text>Kirkkonummi rippikirja 1827-1834 (AP I Aa:14)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=37813&amp;pnum=246 / Viitattu 14.12.2023</text>
+    </note>
+    <note handle="_f7c266570c624dca79a3341983c" change="1702589454" id="N3045" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=37813&amp;pnum=246</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=37813&amp;pnum=246">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f7c274a2550615b96484b827387" change="1702590953" id="N3046" type="Citation">
+      <text>Helsinki muuttaneet 1851-1864 (MKO1-3)  Sivu 6 1858  No 166 - 231 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23486&amp;pnum=19 / Viitattu 14.12.2023</text>
+    </note>
+    <note handle="_f7c274c2c331e1bca5bf6f00fb5" change="1702590966" id="N3047" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23486&amp;pnum=19</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23486&amp;pnum=19">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f7c27538c80477f6ea68063eaa3" change="1702591014" id="N3048" type="Transcript" format="1">
+      <text>6
+
+[184]    Harlin, Alexander    2-195
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="39"/>
+      </style>
+    </note>
+    <note handle="_f7c27d9c796778bdda08bf05618" change="1702591894" id="N3049" type="Citation">
+      <text>Meriväen seurakunnan arkisto - I Bb:2 Seurakunnasta muuttaneiden luettelot 1854-1881, jakso 44; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5846266179&amp;aineistoId=1290217367 / Viitattu 15.12.2023</text>
+    </note>
+    <note handle="_f7c27dc74d1238ea8b93fcb4ceb" change="1702591912" id="N3050" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5846266179&amp;aineistoId=1290217367</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5846266179&amp;aineistoId=1290217367">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f7c27def686667b1430d17a45b7" change="1702591928" id="N3051" type="Link">
+      <text>https://digihakemisto.net/item/1290217367/5846266179/44</text>
+      <style name="link" value="https://digihakemisto.net/item/1290217367/5846266179/44">
+        <range start="0" end="55"/>
+      </style>
+    </note>
+    <note handle="_f7c27f47f0c57a3e812f7cccdc0" change="1702592069" id="N3052" type="Transcript" format="1">
+      <text>Utflyttade  År 1958
+
+294    [14/3]    [Matr] Alexander Harlin    258</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_f7c285925193d1f7bf29a36f8d" change="1702592729" id="N3053" type="Citation">
+      <text>Meriväen seurakunnan arkisto - I Aa:2 Rippikirja 1853-1860, jakso 285, sivu 258: Andra Compagniet nro 121, nro 122; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5847926092&amp;aineistoId=1290161949 / Viitattu 15.12.2023</text>
+    </note>
+    <note handle="_f7c285bc9556a7e9162a741619d" change="1702592746" id="N3054" type="Link">
+      <text>https://digihakemisto.net/item/1290161949/5847926092/285</text>
+      <style name="link" value="https://digihakemisto.net/item/1290161949/5847926092/285">
+        <range start="0" end="56"/>
+      </style>
+    </note>
+    <note handle="_f7c287a1e0278207ba7f95abbae" change="1702592945" id="N3055" type="Transcript" format="1">
+      <text>258 Andra Compagniet
+
+No 121
+
+Alexander Harlin    ? 1836 Rantasalmi    2/11 1854 Hfors    294 14/2 1858       (???????)
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="120"/>
+      </style>
+    </note>
+    <note handle="_f7c290c7cc976c66f0568dc95fc" change="1702593904" id="N3056" type="Citation">
+      <text>Ensimmäinen Suomen meriekipaasi muuttaneet 1854-1880 (ES172)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=13729&amp;pnum=13 / Viitattu 14.12.2023</text>
+    </note>
+    <note handle="_f7c290ecdcc5fe7633fcb687f94" change="1702593919" id="N3057" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=13729&amp;pnum=13</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=13729&amp;pnum=13">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f7c29242a9627f539d18c55696a" change="1702594059" id="N3058" type="Transcript" format="1">
+      <text>Inflyttade År 1854
+
+364  [9/XI 54]  2/XI 54  Hand. betj. Alexander Harlin  603  2  237  Hfors
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="94"/>
       </style>
     </note>
   </notes>
