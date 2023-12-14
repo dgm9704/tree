@@ -17108,6 +17108,24 @@
       <citationref hlink="_f7bf327057de469570684fd563"/>
       <citationref hlink="_f7bf345a9db6260265f15417cc5"/>
     </event>
+    <event handle="_f7c176017214d810b405c918c67" change="1702569283" id="E0838">
+      <type>Residence</type>
+      <dateval val="1876-07-07" type="after"/>
+      <place hlink="_f7c17084d3c6c64ff20a22b82e1"/>
+      <citationref hlink="_f7bf2847cf459c3383d39345801"/>
+      <citationref hlink="_f7c19254af53de22e40c938639b"/>
+      <citationref hlink="_f7c172b4e8571db6db8029536b0"/>
+      <citationref hlink="_f7c1757828d31fa1d8b4626fb17"/>
+    </event>
+    <event handle="_f7c176765364be6b63eebe1ea9f" change="1702567588" id="E0839">
+      <type>Residence</type>
+      <dateval val="1876-07-07" type="before"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_f7bf2847cf459c3383d39345801"/>
+      <citationref hlink="_f7c19254af53de22e40c938639b"/>
+      <citationref hlink="_f7c172b4e8571db6db8029536b0"/>
+      <citationref hlink="_f7c1757828d31fa1d8b4626fb17"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1658869228" id="I3858">
@@ -30478,13 +30496,15 @@
       <childof hlink="_f150b73c784675f722d16ac44ab"/>
       <noteref hlink="_f7bf6f8bed255fdc4936f41606f"/>
     </person>
-    <person handle="_f7bc1d9c6d2117dd588dac72a4" change="1702503711" id="I0182">
+    <person handle="_f7bc1d9c6d2117dd588dac72a4" change="1702567466" id="I0182">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Alexandra Charlotta</first>
         <surname>Harlin</surname>
       </name>
       <eventref hlink="_f7bc1e16966415b3a77df6bb56b" role="Primary"/>
+      <eventref hlink="_f7c176765364be6b63eebe1ea9f" role="Primary"/>
+      <eventref hlink="_f7c176017214d810b405c918c67" role="Primary"/>
       <childof hlink="_f150b73c784675f722d16ac44ab"/>
     </person>
     <person handle="_f7bf2a77d4f2d0381f0ac24db1b" change="1702503711" id="I0183">
@@ -45390,6 +45410,29 @@
       <noteref hlink="_f7bf3452a6c2c59614d81f2858c"/>
       <sourceref hlink="_cdea8dd6d242a006ce5"/>
     </citation>
+    <citation handle="_f7c172b4e8571db6db8029536b0" change="1702563907" id="C1630">
+      <page>I Ba:1, I Bb:1/90</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7c171667da6dae6577b0a9f732"/>
+      <noteref hlink="_f7c17197da74c44c829879c751"/>
+      <noteref hlink="_f7c172ac66846978dd32f935ac4"/>
+      <sourceref hlink="_f7c17105ec230ad0baf9c5376b0"/>
+    </citation>
+    <citation handle="_f7c1757828d31fa1d8b4626fb17" change="1702564197" id="C1631">
+      <page>Jba:4/303</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7c174d5fcc7c8dbea6e57564b6"/>
+      <noteref hlink="_f7c17511a493248de9dce646772"/>
+      <sourceref hlink="_f7c174641184e2d6819307af22"/>
+    </citation>
+    <citation handle="_f7c19254af53de22e40c938639b" change="1702567361" id="C1632">
+      <page>MKO1-8/211</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7c192806fdd1a9d2c36b7fb69"/>
+      <noteref hlink="_f7c192aef9f44c48b38c5c3bf02"/>
+      <noteref hlink="_f7c193861453d5f7b21020b10a3"/>
+      <sourceref hlink="_f5df89073f241ccf8537154be4b"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -48658,6 +48701,16 @@
       <sauthor>Helsingin ruotsalais-suomalainen seurakunta</sauthor>
       <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
     </source>
+    <source handle="_f7c17105ec230ad0baf9c5376b0" change="1702563731" id="S0651">
+      <stitle>Joensuu Muuttaneet 1852-1880</stitle>
+      <sauthor>Joensuun seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f7c174641184e2d6819307af22" change="1702564084" id="S0652">
+      <stitle>Joensuu Muuttokirjat 1872-1877</stitle>
+      <sauthor>Joensuun seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1658853851" id="P0000" type="City">
@@ -49273,7 +49326,7 @@
       <pname value="Biskopsnäs"/>
       <placeref hlink="_ceac1478b0919bf2446"/>
     </placeobj>
-    <placeobj handle="_cb589cfeb254c33cda1" change="1702410160" id="P0618" type="Country">
+    <placeobj handle="_cb589cfeb254c33cda1" change="1702563677" id="P0618" type="Country">
       <pname value="Suomi"/>
       <pname value="Finland" lang="sv"/>
     </placeobj>
@@ -51684,6 +51737,10 @@
       <pname value="Gården no 1 vid Berggatan"/>
       <placeref hlink="_f7bc3edd57d5cb2c340b8185024"/>
     </placeobj>
+    <placeobj handle="_f7c17084d3c6c64ff20a22b82e1" change="1702563678" id="P0231" type="Parish">
+      <pname value="Joensuu"/>
+      <placeref hlink="_cb589cfeb254c33cda1"/>
+    </placeobj>
   </places>
   <repositories>
     <repository handle="_cdea29a49637c6553bc" change="1672241850" id="R0001">
@@ -51691,7 +51748,7 @@
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1702419969" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1702564081" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -75367,6 +75424,49 @@ Sihvonen
     </note>
     <note handle="_f7bf6f8bed255fdc4936f41606f" change="1702509889" id="N3031" type="Person Note">
       <text>etsitty kuolleista 1863-1872, ei tahdo löytyä</text>
+    </note>
+    <note handle="_f7c171667da6dae6577b0a9f732" change="1702563770" id="N3032" type="Citation">
+      <text>Joensuu muuttaneet 1852-1880 (AP I Ba:1, I Bb:1)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=42575&amp;pnum=90 / Viitattu 14.12.2023</text>
+    </note>
+    <note handle="_f7c17197da74c44c829879c751" change="1702563790" id="N3033" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=42575&amp;pnum=90</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=42575&amp;pnum=90">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f7c172ac66846978dd32f935ac4" change="1702563904" id="N3034" type="Transcript" format="1">
+      <text>Inflyttade år 1876
+
+43    7/7 76    Harlin Alexandra Charlotta Underofficiers dtr    Helsingfors    Kb 68  
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="108"/>
+      </style>
+    </note>
+    <note handle="_f7c174d5fcc7c8dbea6e57564b6" change="1702564130" id="N3035" type="Citation">
+      <text>Joensuu muuttokirjoja 1872-1877 (AP I Jba:4)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=42601&amp;pnum=303 / Viitattu 14.12.2023</text>
+    </note>
+    <note handle="_f7c17511a493248de9dce646772" change="1702564155" id="N3036" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=42601&amp;pnum=303</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=42601&amp;pnum=303">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f7c192806fdd1a9d2c36b7fb69" change="1702567241" id="N3037" type="Citation">
+      <text>Helsinki muuttaneet 1853-1887 (MKO1-8)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19855&amp;pnum=211 / Viitattu 14.12.2023</text>
+    </note>
+    <note handle="_f7c192aef9f44c48b38c5c3bf02" change="1702567260" id="N3038" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19855&amp;pnum=211</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19855&amp;pnum=211">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f7c193861453d5f7b21020b10a3" change="1702567359" id="N3039" type="Transcript" format="1">
+      <text>[Juli]  7  246  Undoffdr Alexandra Charlotta Harlin  1-824    Joensuu
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="70"/>
+      </style>
     </note>
   </notes>
   <bookmarks>
