@@ -17158,13 +17158,38 @@
       <citationref hlink="_f7c27f552ff4707dbc90671098a"/>
       <citationref hlink="_f7c27541dcb5ecb1ba72ffebe6b"/>
     </event>
-    <event handle="_f7c28851fc672ad7b3290376157" change="1702718121" id="E0844">
+    <event handle="_f7c28851fc672ad7b3290376157" change="1702721190" id="E0844">
       <type>Residence</type>
       <dateval val="1854-11-09" type="before"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_f7c73100154ccbb8e42b326951"/>
       <citationref hlink="_f7c7280c6cf44b06eb83f8c354c"/>
       <citationref hlink="_f7c29253b1118e8ed8c62ffbfdd"/>
+    </event>
+    <event handle="_f7c7429ea4d2e4b43d2ed86a4bf" change="1702756922" id="E0845">
+      <type>Residence</type>
+      <dateval val="1853-02-10" type="after"/>
+      <place hlink="_cde62768b9e01659bdc"/>
+      <citationref hlink="_f7c73100154ccbb8e42b326951"/>
+      <citationref hlink="_f7c7428b8e1581b512e1828020e"/>
+    </event>
+    <event handle="_f7c8a330703166ab6f1fe169dd0" change="1702760125" id="E0846">
+      <type>Residence</type>
+      <datespan start="1850-04-02" stop="1853-02-10"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_f7c8a686db6690169b6f6efc1f8"/>
+      <citationref hlink="_f7c8a2e9183121c1536bcfacafd"/>
+      <citationref hlink="_f7c73100154ccbb8e42b326951"/>
+      <citationref hlink="_f7c7428b8e1581b512e1828020e"/>
+    </event>
+    <event handle="_f7c8c15efe546e35155f6790e37" change="1702760984" id="E0847">
+      <type>Residence</type>
+      <dateval val="1850-02-23" type="before"/>
+      <place hlink="_f7c8ca2a073893086774d396d1"/>
+      <citationref hlink="_f7c8c4ffaa11284539281a666f"/>
+      <citationref hlink="_f7c8a686db6690169b6f6efc1f8"/>
+      <citationref hlink="_f7c8a2e9183121c1536bcfacafd"/>
+      <citationref hlink="_f7c8c9c8580c977830ee2aa554"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -29721,13 +29746,16 @@
       <eventref hlink="_f150a4d349e5c59fb6a11613308" role="Witness"/>
       <parentin hlink="_f14f48fe16113ce0450a9a5147b"/>
     </person>
-    <person handle="_f150a2d991d3883684f326f0686" change="1702594147" id="I0106">
+    <person handle="_f150a2d991d3883684f326f0686" change="1702761017" id="I0106">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Alexander</first>
         <surname>Harlin</surname>
       </name>
       <eventref hlink="_f150c0ba92d2e8acf5aec464160" role="Primary"/>
+      <eventref hlink="_f7c8c15efe546e35155f6790e37" role="Primary"/>
+      <eventref hlink="_f7c8a330703166ab6f1fe169dd0" role="Primary"/>
+      <eventref hlink="_f7c7429ea4d2e4b43d2ed86a4bf" role="Primary"/>
       <eventref hlink="_f7c28851fc672ad7b3290376157" role="Primary"/>
       <eventref hlink="_f7c281149c417e05f877388267d" role="Primary"/>
       <eventref hlink="_f7c27f8352531b90600216f167b" role="Primary"/>
@@ -45565,6 +45593,50 @@
       <noteref hlink="_f7c730efda35530e612ef70a758"/>
       <sourceref hlink="_f7c72e13c727c10976ba81588b6"/>
     </citation>
+    <citation handle="_f7c7428b8e1581b512e1828020e" change="1702719918" id="C1641">
+      <page>I Bb:2/85</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7c74150b4b7606b55bd93075f7"/>
+      <noteref hlink="_f7c7417967d38e8dec0b562a1a1"/>
+      <noteref hlink="_f7c7419966a71abd09a40eecb33"/>
+      <noteref hlink="_f7c7428050e4f8dc63fd107f2b"/>
+      <sourceref hlink="_f7c74110c8c3eb5edf042ec26e7"/>
+    </citation>
+    <citation handle="_f7c8a2e9183121c1536bcfacafd" change="1702757732" id="C1642">
+      <dateval val="1850-02-23"/>
+      <page>I Jba:39/138 No125</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7c8a1118f2719d1c565337b374"/>
+      <noteref hlink="_f7c8a1feae855d3654fb5593ab1"/>
+      <noteref hlink="_f7c8a2228c410c0fc6fa6b3a15c"/>
+      <noteref hlink="_f7c8a9f39c8889e6055d87a868"/>
+      <sourceref hlink="_f7c8a098042177f2ee4ab949007"/>
+    </citation>
+    <citation handle="_f7c8a686db6690169b6f6efc1f8" change="1702757459" id="C1643">
+      <page>I Ba:1/265</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7c8a63a6fd5e235ce3fd68f523"/>
+      <noteref hlink="_f7c8a65953bd7c810b1959dd06"/>
+      <noteref hlink="_f7c8a67d3e9778c219b5ad07d33"/>
+      <noteref hlink="_f7c8a8143ca62ac68a955449933"/>
+      <sourceref hlink="_f7c8a5f762a37955f1d982a3db4"/>
+    </citation>
+    <citation handle="_f7c8c4ffaa11284539281a666f" change="1702760441" id="C1644">
+      <page>UK899 I Ba:2/79</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7c8c2e22537f6189ea724d90fc"/>
+      <noteref hlink="_f7c8c3057f520cb168f014a1e50"/>
+      <noteref hlink="_f7c8c4fa6b81ad29ead7708f386"/>
+      <sourceref hlink="_f7c8c2a7f5a231eb1f1c925bf96"/>
+    </citation>
+    <citation handle="_f7c8c9c8580c977830ee2aa554" change="1702760942" id="C1645">
+      <page>UK895 I Ab:8/202-203</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7c8c82901c16b301c41764743a"/>
+      <noteref hlink="_f7c8c857a2337e448eccfb1c858"/>
+      <noteref hlink="_f7c8c9bdae12397ac0e5ffc9edb"/>
+      <sourceref hlink="_f7c8c7d15ac718e3f868d6f1a41"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -48879,6 +48951,31 @@
       <sauthor>Helsingin ruotsalais-suomalainen seurakunta</sauthor>
       <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
     </source>
+    <source handle="_f7c74110c8c3eb5edf042ec26e7" change="1702719763" id="S0660">
+      <stitle>Helsinki Muuttaneet 1844-1853</stitle>
+      <sauthor>Helsingin ruotsalais-suomalainen seurakunta</sauthor>
+      <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
+    </source>
+    <source handle="_f7c8a098042177f2ee4ab949007" change="1702756623" id="S0661">
+      <stitle>Helsinki Muuttotodistukset 1850-1850</stitle>
+      <sauthor>Helsingin ruotsalais-suomalainen seurakunta</sauthor>
+      <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
+    </source>
+    <source handle="_f7c8a5f762a37955f1d982a3db4" change="1702757187" id="S0662">
+      <stitle>Helsinki Muuttaneet 1844-1851</stitle>
+      <sauthor>Helsingin ruotsalais-suomalainen seurakunta</sauthor>
+      <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
+    </source>
+    <source handle="_f7c8c2a7f5a231eb1f1c925bf96" change="1702760195" id="S0663">
+      <stitle>Rantasalmi Muuttaneet 1828-1857</stitle>
+      <sauthor>Rantasalmen seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f7c8c7d15ac718e3f868d6f1a41" change="1702760736" id="S0664">
+      <stitle>Rantasalmi Lastenkirja 1848-1859</stitle>
+      <sauthor>Rantasalmen seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1702592194" id="P0000" type="City">
@@ -49494,7 +49591,7 @@
       <pname value="Biskopsnäs"/>
       <placeref hlink="_ceac1478b0919bf2446"/>
     </placeobj>
-    <placeobj handle="_cb589cfeb254c33cda1" change="1702589804" id="P0618" type="Country">
+    <placeobj handle="_cb589cfeb254c33cda1" change="1702760052" id="P0618" type="Country">
       <pname value="Suomi"/>
       <pname value="Finland" lang="sv"/>
     </placeobj>
@@ -51923,6 +52020,18 @@
       <pname value="Första finska sjöekipaget" lang="sv"/>
       <placeref hlink="_cb589cc7f8d1b88b055"/>
     </placeobj>
+    <placeobj handle="_f7c8c14f95d6a28374e96d8034f" change="1702760980" id="P0236" type="Parish">
+      <pname value="Rantasalmi"/>
+      <placeref hlink="_cb589cfeb254c33cda1"/>
+    </placeobj>
+    <placeobj handle="_f7c8ca27cde2403043bbff0a413" change="1702760982" id="P0238" type="Village">
+      <pname value="Hildula"/>
+      <placeref hlink="_f7c8c14f95d6a28374e96d8034f"/>
+    </placeobj>
+    <placeobj handle="_f7c8ca2a073893086774d396d1" change="1702760982" id="P0239" type="Farm">
+      <pname value="No 6"/>
+      <placeref hlink="_f7c8ca27cde2403043bbff0a413"/>
+    </placeobj>
   </places>
   <repositories>
     <repository handle="_cdea29a49637c6553bc" change="1672241850" id="R0001">
@@ -51930,7 +52039,7 @@
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1702593886" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1702760732" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -52006,7 +52115,7 @@
       <rname>Billiongraves</rname>
       <type>Library</type>
     </repository>
-    <repository handle="_f5dc19ee7d07e822ec5f7a37d7" change="1702717770" id="R0018">
+    <repository handle="_f5dc19ee7d07e822ec5f7a37d7" change="1702757185" id="R0018">
       <rname>Astia</rname>
       <type>Library</type>
       <url  href="https://astia.narc.fi/uusiastia/" type="Web Home"/>
@@ -75831,6 +75940,124 @@ Harlin Alexander    ?  1836  Fl. bet. till Wiborg 10/2 1853    852 adm        f.
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="128"/>
+      </style>
+    </note>
+    <note handle="_f7c74150b4b7606b55bd93075f7" change="1702719789" id="N3066" type="Citation">
+      <text>Helsingin ruotsalais-suomalaisen seurakunnan arkisto - I Bb:2 Seurakunnasta muuttaneiden luettelot 1844-1853, jakso 85: 1852 December, 1853 Januari; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=6383979591&amp;aineistoId=1846620538 / Viitattu 16.12.2023</text>
+    </note>
+    <note handle="_f7c7417967d38e8dec0b562a1a1" change="1702719806" id="N3067" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=6383979591&amp;aineistoId=1846620538</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=6383979591&amp;aineistoId=1846620538">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f7c7419966a71abd09a40eecb33" change="1702719819" id="N3068" type="Link">
+      <text>https://digihakemisto.net/item/1846620538/6383979591/85</text>
+      <style name="link" value="https://digihakemisto.net/item/1846620538/6383979591/85">
+        <range start="0" end="55"/>
+      </style>
+    </note>
+    <note handle="_f7c7428050e4f8dc63fd107f2b" change="1702719914" id="N3069" type="Transcript" format="1">
+      <text>Utflyttade 1953
+
+[Febr]  10  49.  F:d:Handels betjenten Alexander Harlin    NOB, 62    1.    Wiborg</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="99"/>
+      </style>
+    </note>
+    <note handle="_f7c8a1118f2719d1c565337b374" change="1702756741" id="N3070" type="Citation">
+      <text>Helsingin ruotsalais-suomalaisen seurakunnan arkisto - I Jba:39 Saapuneet muuttotodistukset 1850-1850, jakso 138; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=6257051721&amp;aineistoId=1849155864 / Viitattu 16.12.2023</text>
+    </note>
+    <note handle="_f7c8a1531e948bb3f0854eb584e" change="1702756757" id="N3073" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=6257051721&amp;aineistoId=1849155864</text>
+    </note>
+    <note handle="_f7c8a175b98714a063bc51e53c" change="1702756714" id="N3074" type="Link">
+      <text>https://digihakemisto.net/item/1849155864/6257051718/139</text>
+      <style name="link" value="https://digihakemisto.net/item/1849155864/6257051718/139">
+        <range start="0" end="56"/>
+      </style>
+    </note>
+    <note handle="_f7c8a1feae855d3654fb5593ab1" change="1702756770" id="N3075" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=6257051721&amp;aineistoId=1849155864</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=6257051721&amp;aineistoId=1849155864">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f7c8a2228c410c0fc6fa6b3a15c" change="1702756785" id="N3076" type="Link">
+      <text>https://digihakemisto.net/item/1849155864/6257051721/138</text>
+      <style name="link" value="https://digihakemisto.net/item/1849155864/6257051721/138">
+        <range start="0" end="56"/>
+      </style>
+    </note>
+    <note handle="_f7c8a63a6fd5e235ce3fd68f523" change="1702757214" id="N3077" type="Citation">
+      <text>Helsingin ruotsalais-suomalaisen seurakunnan arkisto - I Ba:1 Seurakuntaan muuttaneiden luettelot 1844-1851, jakso 265: 2-4/1850 sisään; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5856344022&amp;aineistoId=1846575914 / Viitattu 16.12.2023</text>
+    </note>
+    <note handle="_f7c8a65953bd7c810b1959dd06" change="1702757227" id="N3078" type="Link">
+      <text>https://digihakemisto.net/item/1846575914/5856344022/265</text>
+      <style name="link" value="https://digihakemisto.net/item/1846575914/5856344022/265">
+        <range start="0" end="56"/>
+      </style>
+    </note>
+    <note handle="_f7c8a67d3e9778c219b5ad07d33" change="1702757242" id="N3079" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5856344022&amp;aineistoId=1846575914</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5856344022&amp;aineistoId=1846575914">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f7c8a8143ca62ac68a955449933" change="1702757737" id="N3080" type="Transcript" format="1">
+      <text>1850
+
+[April]  [2]  Ynglingen Alexander Harlin  1.  hos? Handl. J. Savolin
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="75"/>
+      </style>
+    </note>
+    <note handle="_f7c8a9f39c8889e6055d87a868" change="1702757731" id="N3081" type="Transcript" format="1">
+      <text>No 125
+
+Inl. 2/4 50    Hos Handl Joachim Savolin
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="49"/>
+      </style>
+    </note>
+    <note handle="_f7c8c2e22537f6189ea724d90fc" change="1702760219" id="N3082" type="Citation">
+      <text>Rantasalmi muuttaneet 1828-1857 (UK899 I Ba:2)  1850 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=12747&amp;pnum=79 / Viitattu 16.12.2023</text>
+    </note>
+    <note handle="_f7c8c3057f520cb168f014a1e50" change="1702760233" id="N3083" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=12747&amp;pnum=79</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=12747&amp;pnum=79">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f7c8c4fa6b81ad29ead7708f386" change="1702760645" id="N3084" type="Transcript" format="1">
+      <text>Utflyttade År 1850
+
+26  [Februari]  [23]  Unglingen Alexander Harlin    Helsingfors  BB p 202? (oikea sivunumero lastenkirjassa on 203)</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="135"/>
+      </style>
+    </note>
+    <note handle="_f7c8c82901c16b301c41764743a" change="1702760772" id="N3085" type="Citation">
+      <text>Rantasalmi lastenkirja 1848-1859 (UK895 I Ab:8)  Sivu 202 Hildula Nro 5 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=4082&amp;pnum=103 / Viitattu 16.12.2023</text>
+    </note>
+    <note handle="_f7c8c857a2337e448eccfb1c858" change="1702760791" id="N3086" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=4082&amp;pnum=103</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=4082&amp;pnum=103">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f7c8c9bdae12397ac0e5ffc9edb" change="1702760938" id="N3087" type="Transcript" format="1">
+      <text>Pag 203
+
+Hildula No 6
+
+Afl v. Länsman Salomon Harlins och Anna Maria Kopoins 1811 b:
+Son Alexander    1836    mb. till Helsingfors 23/2 1850
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="141"/>
       </style>
     </note>
   </notes>
