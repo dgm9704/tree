@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2023-12-15" version="5.1.6"/>
+    <created date="2023-12-16" version="5.1.6"/>
     <researcher>
     </researcher>
   </header>
@@ -17148,21 +17148,23 @@
       <citationref hlink="_f7c27541dcb5ecb1ba72ffebe6b"/>
       <citationref hlink="_f7c27f552ff4707dbc90671098a"/>
     </event>
-    <event handle="_f7c281149c417e05f877388267d" change="1702594093" id="E0843">
+    <event handle="_f7c281149c417e05f877388267d" change="1702717606" id="E0843">
       <type>Residence</type>
       <datespan start="1854-11-09" stop="1858-03-14"/>
       <place hlink="_f7c280ee9cf3d46b01f8424e596"/>
+      <citationref hlink="_f7c7280c6cf44b06eb83f8c354c"/>
       <citationref hlink="_f7c29253b1118e8ed8c62ffbfdd"/>
       <citationref hlink="_f7c287a6b9b3be1df69a086868a"/>
       <citationref hlink="_f7c27f552ff4707dbc90671098a"/>
       <citationref hlink="_f7c27541dcb5ecb1ba72ffebe6b"/>
     </event>
-    <event handle="_f7c28851fc672ad7b3290376157" change="1702594140" id="E0844">
+    <event handle="_f7c28851fc672ad7b3290376157" change="1702718121" id="E0844">
       <type>Residence</type>
       <dateval val="1854-11-09" type="before"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_f7c73100154ccbb8e42b326951"/>
+      <citationref hlink="_f7c7280c6cf44b06eb83f8c354c"/>
       <citationref hlink="_f7c29253b1118e8ed8c62ffbfdd"/>
-      <citationref hlink="_f7c287a6b9b3be1df69a086868a"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -45546,6 +45548,23 @@
       <noteref hlink="_f7c29242a9627f539d18c55696a"/>
       <sourceref hlink="_f7c2909f5587692f9b4df9fc921"/>
     </citation>
+    <citation handle="_f7c7280c6cf44b06eb83f8c354c" change="1702717140" id="C1639">
+      <page>MKO1-8/12</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7c7255a65f4c7e2902201fc06b"/>
+      <noteref hlink="_f7c72585ac657573a0cded3abfb"/>
+      <noteref hlink="_f7c728033374dadb21e1f98b304"/>
+      <sourceref hlink="_f5df89073f241ccf8537154be4b"/>
+    </citation>
+    <citation handle="_f7c73100154ccbb8e42b326951" change="1702718079" id="C1640">
+      <page>I Aa:16/62</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7c72e62e696490408149563ac3"/>
+      <noteref hlink="_f7c72e9c1978388f9518c4fd6"/>
+      <noteref hlink="_f7c72ec0653348498972f0703b4"/>
+      <noteref hlink="_f7c730efda35530e612ef70a758"/>
+      <sourceref hlink="_f7c72e13c727c10976ba81588b6"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -48855,6 +48874,11 @@
       <sauthor>Meriväen seurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
+    <source handle="_f7c72e13c727c10976ba81588b6" change="1702717772" id="S0659">
+      <stitle>Helsinki Rippikirja 1844-1860 Naimaton työväestö</stitle>
+      <sauthor>Helsingin ruotsalais-suomalainen seurakunta</sauthor>
+      <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1702592194" id="P0000" type="City">
@@ -51982,7 +52006,7 @@
       <rname>Billiongraves</rname>
       <type>Library</type>
     </repository>
-    <repository handle="_f5dc19ee7d07e822ec5f7a37d7" change="1702592702" id="R0018">
+    <repository handle="_f5dc19ee7d07e822ec5f7a37d7" change="1702717770" id="R0018">
       <rname>Astia</rname>
       <type>Library</type>
       <url  href="https://astia.narc.fi/uusiastia/" type="Web Home"/>
@@ -75764,6 +75788,49 @@ Alexander Harlin    ? 1836 Rantasalmi    2/11 1854 Hfors    294 14/2 1858       
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="94"/>
+      </style>
+    </note>
+    <note handle="_f7c7255a65f4c7e2902201fc06b" change="1702716857" id="N3059" type="Citation">
+      <text>Helsinki muuttaneet 1853-1887 (MKO1-8)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19855&amp;pnum=12 / Viitattu 16.12.2023</text>
+    </note>
+    <note handle="_f7c72585ac657573a0cded3abfb" change="1702716875" id="N3060" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19855&amp;pnum=12</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19855&amp;pnum=12">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f7c728033374dadb21e1f98b304" change="1702717136" id="N3061" type="Transcript" format="1">
+      <text>
+[Novemb]  [2]  515    f.d. Hand. betj. Alexander Harlin    NOB, 62    [Sjö-E??]</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="80"/>
+      </style>
+    </note>
+    <note handle="_f7c72e62e696490408149563ac3" change="1702717804" id="N3062" type="Citation">
+      <text>Helsingin ruotsalais-suomalaisen seurakunnan arkisto - I Aa:16 Naimattoman työväestön rippikirja 1844-1860, jakso 66, sivu 62: H 1850; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=6435164458&amp;aineistoId=1846137510 / Viitattu 16.12.2023</text>
+    </note>
+    <note handle="_f7c72e9c1978388f9518c4fd6" change="1702717828" id="N3063" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=6435164458&amp;aineistoId=1846137510</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=6435164458&amp;aineistoId=1846137510">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f7c72ec0653348498972f0703b4" change="1702717843" id="N3064" type="Link">
+      <text>https://digihakemisto.net/item/1846137510/6435164458/66</text>
+      <style name="link" value="https://digihakemisto.net/item/1846137510/6435164458/66">
+        <range start="0" end="55"/>
+      </style>
+    </note>
+    <note handle="_f7c730efda35530e612ef70a758" change="1702718072" id="N3065" type="Transcript" format="1">
+      <text>62          H
+
+1850
+
+Harlin Alexander    ?  1836  Fl. bet. till Wiborg 10/2 1853    852 adm        f.i. Rantasalmi fo: 850:125
+
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="128"/>
       </style>
     </note>
   </notes>
