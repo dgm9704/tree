@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2023-12-16" version="5.1.6"/>
+    <created date="2023-12-17" version="5.1.6"/>
     <researcher>
     </researcher>
   </header>
@@ -15469,9 +15469,10 @@
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_cdea8b29a6c65d4ad01"/>
     </event>
-    <event handle="_f150c0ba92d2e8acf5aec464160" change="1702590162" id="E0442">
+    <event handle="_f150c0ba92d2e8acf5aec464160" change="1702818838" id="E0442">
       <type>Birth</type>
-      <dateval val="1836"/>
+      <dateval val="1835" type="about"/>
+      <noteref hlink="_f7caf1c68ff65b0d2a00f211333"/>
       <citationref hlink="_f150c08f9404bf00746d9dd9443"/>
     </event>
     <event handle="_f150c16542e65da654506f6aeb3" change="1702408230" id="E0443">
@@ -17182,14 +17183,76 @@
       <citationref hlink="_f7c73100154ccbb8e42b326951"/>
       <citationref hlink="_f7c7428b8e1581b512e1828020e"/>
     </event>
-    <event handle="_f7c8c15efe546e35155f6790e37" change="1702760984" id="E0847">
+    <event handle="_f7c8c15efe546e35155f6790e37" change="1702834398" id="E0847">
       <type>Residence</type>
-      <dateval val="1850-02-23" type="before"/>
+      <datespan start="1848" stop="1850-02-23"/>
       <place hlink="_f7c8ca2a073893086774d396d1"/>
+      <citationref hlink="_f7c8c9c8580c977830ee2aa554"/>
       <citationref hlink="_f7c8c4ffaa11284539281a666f"/>
       <citationref hlink="_f7c8a686db6690169b6f6efc1f8"/>
       <citationref hlink="_f7c8a2e9183121c1536bcfacafd"/>
-      <citationref hlink="_f7c8c9c8580c977830ee2aa554"/>
+    </event>
+    <event handle="_f7caf381560365df813b8c7ad2" change="1702819004" id="E0848">
+      <type>Birth</type>
+      <dateval val="1802-11-10"/>
+      <citationref hlink="_f7caf37cbf758612c10cab03355"/>
+    </event>
+    <event handle="_f7caf4a557637dd11fe4862f558" change="1702819124" id="E0849">
+      <type>Birth</type>
+      <dateval val="1811-06-11"/>
+      <citationref hlink="_f7caf37cbf758612c10cab03355"/>
+    </event>
+    <event handle="_f7caf66b54158d2c8db250f2520" change="1702821262" id="E0850">
+      <type>Birth</type>
+      <dateval val="1831"/>
+      <citationref hlink="_f7caf66735f749a79226594c0f"/>
+    </event>
+    <event handle="_f7cb097116829206d0baefa127e" change="1702821305" id="E0851">
+      <type>Birth</type>
+      <dateval val="1833"/>
+      <citationref hlink="_f7caf66735f749a79226594c0f"/>
+    </event>
+    <event handle="_f7cb09f057219b365a36b2a5adc" change="1702821357" id="E0852">
+      <type>Birth</type>
+      <dateval val="1837-02-14"/>
+      <citationref hlink="_f7caf66735f749a79226594c0f"/>
+    </event>
+    <event handle="_f7cb85f4e4f7f6f52cc3e7fb81f" change="1702834361" id="E0853">
+      <type>Residence</type>
+      <datespan start="1848" stop="1854-09-28"/>
+      <place hlink="_f7c8ca2a073893086774d396d1"/>
+      <citationref hlink="_f7cb85777b66a84d05359fe3a84"/>
+    </event>
+    <event handle="_f7cb88d153a15a48915f8d378ae" change="1702834726" id="E0854">
+      <type>Residence</type>
+      <datespan start="1837" stop="1837-11-14"/>
+      <place hlink="_f7cb8871f946048192a70465670"/>
+      <citationref hlink="_f7caf37cbf758612c10cab03355"/>
+    </event>
+    <event handle="_f7cb89b469f1694591e9bdfa4b6" change="1702834754" id="E0855">
+      <type>Death</type>
+      <dateval val="1837-11-14"/>
+      <place hlink="_f7c8c14f95d6a28374e96d8034f"/>
+      <citationref hlink="_f7caf37cbf758612c10cab03355"/>
+    </event>
+    <event handle="_f7cb8dd64ba36d16a00151a3cfe" change="1702835187" id="E0856">
+      <type>Residence</type>
+      <datespan start="1838" stop="1847"/>
+      <place hlink="_f7c8ca2a073893086774d396d1"/>
+      <citationref hlink="_f7cb8b5e6225e600069ca86fc37"/>
+      <citationref hlink="_f7cb8cb491a7ee76d43abb4d105"/>
+    </event>
+    <event handle="_f7cb8f8dae7491d3f9b483c7adf" change="1702835367" id="E0857">
+      <type>Residence</type>
+      <datespan start="1831" stop="1836"/>
+      <place hlink="_f7cb8e704ac38a31476d6caccd"/>
+      <citationref hlink="_f7cb8f686cf165060fd4ed0861a"/>
+    </event>
+    <event handle="_f7cb90b7bf33b8b92c14e7d00da" change="1702835489" id="E0858">
+      <type>Residence</type>
+      <datespan start="1823" stop="1833"/>
+      <place hlink="_f7cb8e704ac38a31476d6caccd"/>
+      <citationref hlink="_f7cb8f686cf165060fd4ed0861a"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -29746,7 +29809,7 @@
       <eventref hlink="_f150a4d349e5c59fb6a11613308" role="Witness"/>
       <parentin hlink="_f14f48fe16113ce0450a9a5147b"/>
     </person>
-    <person handle="_f150a2d991d3883684f326f0686" change="1702761017" id="I0106">
+    <person handle="_f150a2d991d3883684f326f0686" change="1702834806" id="I0106">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Alexander</first>
@@ -29761,6 +29824,7 @@
       <eventref hlink="_f7c27f8352531b90600216f167b" role="Primary"/>
       <eventref hlink="_f150ad0dcd620708e4c88f66329" role="Witness"/>
       <eventref hlink="_f150de3a0aeb635c5ecfc9a800" role="Witness"/>
+      <childof hlink="_f7caf203f3b4c3f01b8e60801cb"/>
       <parentin hlink="_f150a2d297622c1fce11def1c7a"/>
       <parentin hlink="_f150b73c784675f722d16ac44ab"/>
     </person>
@@ -30604,6 +30668,56 @@
       </name>
       <eventref hlink="_f7c267e92da3fa40e88611bdc9a" role="Primary"/>
       <parentin hlink="_f7c2651148e1b1f23435444e7f4"/>
+    </person>
+    <person handle="_f7caf20ec903e9e778d5aeef6d1" change="1702835585" id="I0186">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Salomon</first>
+        <surname>Harlin</surname>
+      </name>
+      <eventref hlink="_f7caf381560365df813b8c7ad2" role="Primary"/>
+      <eventref hlink="_f7cb90b7bf33b8b92c14e7d00da" role="Primary"/>
+      <eventref hlink="_f7cb89b469f1694591e9bdfa4b6" role="Primary"/>
+      <parentin hlink="_f7caf203f3b4c3f01b8e60801cb"/>
+    </person>
+    <person handle="_f7caf3be8f66e0b03c5fa312c69" change="1702835377" id="I0187">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Anna Maria</first>
+        <surname>Kopoin</surname>
+      </name>
+      <eventref hlink="_f7caf4a557637dd11fe4862f558" role="Primary"/>
+      <eventref hlink="_f7cb8f8dae7491d3f9b483c7adf" role="Primary"/>
+      <eventref hlink="_f7cb8dd64ba36d16a00151a3cfe" role="Primary"/>
+      <eventref hlink="_f7cb85f4e4f7f6f52cc3e7fb81f" role="Primary"/>
+      <parentin hlink="_f7caf203f3b4c3f01b8e60801cb"/>
+    </person>
+    <person handle="_f7caf53f1c7e0e04dd52ec90b7" change="1702834806" id="I0188">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Edvard</first>
+        <surname>Harlin</surname>
+      </name>
+      <eventref hlink="_f7caf66b54158d2c8db250f2520" role="Primary"/>
+      <childof hlink="_f7caf203f3b4c3f01b8e60801cb"/>
+    </person>
+    <person handle="_f7cb0915274f64b5c8e1acb449" change="1702834806" id="I0189">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Johan Robert</first>
+        <surname>Harlin</surname>
+      </name>
+      <eventref hlink="_f7cb097116829206d0baefa127e" role="Primary"/>
+      <childof hlink="_f7caf203f3b4c3f01b8e60801cb"/>
+    </person>
+    <person handle="_f7cb099c5715529b7652e20cb8a" change="1702834806" id="I0190">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Carl Ernst</first>
+        <surname>Harlin</surname>
+      </name>
+      <eventref hlink="_f7cb09f057219b365a36b2a5adc" role="Primary"/>
+      <childof hlink="_f7caf203f3b4c3f01b8e60801cb"/>
     </person>
   </people>
   <families>
@@ -34246,6 +34360,16 @@
       <father hlink="_f7c2651ec2a3c7e5484560b2296"/>
       <mother hlink="_f7c266f5d58467204ea55cbc65d"/>
       <childref hlink="_f150c32102b498369bb36e29c90"/>
+    </family>
+    <family handle="_f7caf203f3b4c3f01b8e60801cb" change="1702834806" id="F0038">
+      <rel type="Married"/>
+      <father hlink="_f7caf20ec903e9e778d5aeef6d1"/>
+      <mother hlink="_f7caf3be8f66e0b03c5fa312c69"/>
+      <eventref hlink="_f7cb88d153a15a48915f8d378ae" role="Family"/>
+      <childref hlink="_f7caf53f1c7e0e04dd52ec90b7"/>
+      <childref hlink="_f7cb0915274f64b5c8e1acb449"/>
+      <childref hlink="_f150a2d991d3883684f326f0686"/>
+      <childref hlink="_f7cb099c5715529b7652e20cb8a"/>
     </family>
   </families>
   <citations>
@@ -45629,13 +45753,62 @@
       <noteref hlink="_f7c8c4fa6b81ad29ead7708f386"/>
       <sourceref hlink="_f7c8c2a7f5a231eb1f1c925bf96"/>
     </citation>
-    <citation handle="_f7c8c9c8580c977830ee2aa554" change="1702760942" id="C1645">
-      <page>UK895 I Ab:8/202-203</page>
+    <citation handle="_f7c8c9c8580c977830ee2aa554" change="1702807224" id="C1645">
+      <page>UK895 I Ab:8 I/202-203</page>
       <confidence>2</confidence>
       <noteref hlink="_f7c8c82901c16b301c41764743a"/>
       <noteref hlink="_f7c8c857a2337e448eccfb1c858"/>
       <noteref hlink="_f7c8c9bdae12397ac0e5ffc9edb"/>
       <sourceref hlink="_f7c8c7d15ac718e3f868d6f1a41"/>
+    </citation>
+    <citation handle="_f7caf37cbf758612c10cab03355" change="1702819003" id="C1646">
+      <page>III/1324</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7caf32b08e791f9dfae9991f41"/>
+      <noteref hlink="_f7caf34f83812fd3ea52b14edae"/>
+      <noteref hlink="_f7caf37475b65153f74232c79b5"/>
+      <sourceref hlink="_f7caf2eec063ebe823401df7818"/>
+    </citation>
+    <citation handle="_f7caf66735f749a79226594c0f" change="1702821742" id="C1647">
+      <page>I/372-373</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7caf62018179378180e6ae8e9f"/>
+      <noteref hlink="_f7caf63dba1636694aa43e522c6"/>
+      <noteref hlink="_f7caf664cbf43d067f55ab17b11"/>
+      <noteref hlink="_f7cb0d957a4522bb2623497b851"/>
+      <sourceref hlink="_f7caf5e1f0a54c19ba404e08679"/>
+    </citation>
+    <citation handle="_f7cb85777b66a84d05359fe3a84" change="1702834310" id="C1648">
+      <page>I/313</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7cb85229e43e20413ce9414a9b"/>
+      <noteref hlink="_f7cb8548e55a8396d32c11d71"/>
+      <noteref hlink="_f7cb8570ed46071cc3ecbdc58ab"/>
+      <sourceref hlink="_f7cb84fde9942bc0bc4bcc72f54"/>
+    </citation>
+    <citation handle="_f7cb8b5e6225e600069ca86fc37" change="1702834929" id="C1649">
+      <page>I/325</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7cb8aff3215218aaa326f084c9"/>
+      <noteref hlink="_f7cb8b240464633dc43ee1c8006"/>
+      <noteref hlink="_f7cb8b4387b67d17f43a7763eb3"/>
+      <sourceref hlink="_f7caf2eec063ebe823401df7818"/>
+    </citation>
+    <citation handle="_f7cb8cb491a7ee76d43abb4d105" change="1702835069" id="C1650">
+      <page>I/202-203</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7cb8c6f4f2714ef3c4ba4344d5"/>
+      <noteref hlink="_f7cb8c8ebbc79675bb8ea51c738"/>
+      <noteref hlink="_f7cb8cadd9c3d841bda9ab0f24f"/>
+      <sourceref hlink="_f7cb8c4a94545a56da58289b6c8"/>
+    </citation>
+    <citation handle="_f7cb8f686cf165060fd4ed0861a" change="1702835352" id="C1651">
+      <page>II/828</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7cb8f27ce240965b2331c03a7e"/>
+      <noteref hlink="_f7cb8f44a9f48a937d67f569fc3"/>
+      <noteref hlink="_f7cb8f6576d515edb2924d69a21"/>
+      <sourceref hlink="_f7cb8f07cfb63ae297dbaad69e"/>
     </citation>
   </citations>
   <sources>
@@ -48971,10 +49144,36 @@
       <sauthor>Rantasalmen seurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
-    <source handle="_f7c8c7d15ac718e3f868d6f1a41" change="1702760736" id="S0664">
+    <source handle="_f7c8c7d15ac718e3f868d6f1a41" change="1702807194" id="S0664">
       <stitle>Rantasalmi Lastenkirja 1848-1859</stitle>
       <sauthor>Rantasalmen seurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+      <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
+    </source>
+    <source handle="_f7caf2eec063ebe823401df7818" change="1702818944" id="S0665">
+      <stitle>Rantasalmi Rippikirja 1837-1847</stitle>
+      <sauthor>Rantasalmen seurakunta</sauthor>
+      <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
+    </source>
+    <source handle="_f7caf5e1f0a54c19ba404e08679" change="1702819254" id="S0666">
+      <stitle>Rantasalmi Lastenkirja 1818-1838</stitle>
+      <sauthor>Rantasalmen seurakunta</sauthor>
+      <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
+    </source>
+    <source handle="_f7cb84fde9942bc0bc4bcc72f54" change="1702834260" id="S0667">
+      <stitle>Rantasalmi Rippikirja 1848-1859</stitle>
+      <sauthor>Rantasalmen seurakunta</sauthor>
+      <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
+    </source>
+    <source handle="_f7cb8c4a94545a56da58289b6c8" change="1702835025" id="S0668">
+      <stitle>Rantasalmi Lastenkirja 1837-1848</stitle>
+      <sauthor>Rantasalmen seurakunta</sauthor>
+      <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
+    </source>
+    <source handle="_f7cb8f07cfb63ae297dbaad69e" change="1702835312" id="S0669">
+      <stitle>Rantasalmi Rippikirja 1823-1836</stitle>
+      <sauthor>Rantasalmen seurakunta</sauthor>
+      <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
     </source>
   </sources>
   <places>
@@ -52020,7 +52219,7 @@
       <pname value="Första finska sjöekipaget" lang="sv"/>
       <placeref hlink="_cb589cc7f8d1b88b055"/>
     </placeobj>
-    <placeobj handle="_f7c8c14f95d6a28374e96d8034f" change="1702760980" id="P0236" type="Parish">
+    <placeobj handle="_f7c8c14f95d6a28374e96d8034f" change="1702835248" id="P0236" type="Parish">
       <pname value="Rantasalmi"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
     </placeobj>
@@ -52031,6 +52230,22 @@
     <placeobj handle="_f7c8ca2a073893086774d396d1" change="1702760982" id="P0239" type="Farm">
       <pname value="No 6"/>
       <placeref hlink="_f7c8ca27cde2403043bbff0a413"/>
+    </placeobj>
+    <placeobj handle="_f7cb88702cf16ff7cd6da711c93" change="1702834621" id="P0240" type="Village">
+      <pname value="Kyrkoby"/>
+      <placeref hlink="_f7c8c14f95d6a28374e96d8034f"/>
+    </placeobj>
+    <placeobj handle="_f7cb8871f946048192a70465670" change="1702834622" id="P0241" type="Farm">
+      <pname value="Pastors böhlet"/>
+      <placeref hlink="_f7cb88702cf16ff7cd6da711c93"/>
+    </placeobj>
+    <placeobj handle="_f7cb8e6bd3665f7d2b13107cee5" change="1702835249" id="P0242" type="Village">
+      <pname value="Randasalo"/>
+      <placeref hlink="_f7c8c14f95d6a28374e96d8034f"/>
+    </placeobj>
+    <placeobj handle="_f7cb8e704ac38a31476d6caccd" change="1702835250" id="P0243" type="Farm">
+      <pname value="No 4"/>
+      <placeref hlink="_f7cb8e6bd3665f7d2b13107cee5"/>
     </placeobj>
   </places>
   <repositories>
@@ -52115,7 +52330,7 @@
       <rname>Billiongraves</rname>
       <type>Library</type>
     </repository>
-    <repository handle="_f5dc19ee7d07e822ec5f7a37d7" change="1702757185" id="R0018">
+    <repository handle="_f5dc19ee7d07e822ec5f7a37d7" change="1702835311" id="R0018">
       <rname>Astia</rname>
       <type>Library</type>
       <url  href="https://astia.narc.fi/uusiastia/" type="Web Home"/>
@@ -76058,6 +76273,123 @@ Son Alexander    1836    mb. till Helsingfors 23/2 1850
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="141"/>
+      </style>
+    </note>
+    <note handle="_f7caf1c68ff65b0d2a00f211333" change="1702818823" id="N3088" type="Research">
+      <text>Ei löydy sopivaa Rantasalmen syntyneistä 1834-1837 
+(1837 kuvat on osittain heikkolaatuisia)
+Lastenkirjassa 1818-1838 on veljesten syntymäajoiksi merkitty:
+Edvard 1831
+Johan Robert 1833
+Alexander 1835
+Carl Ernst 14/4 1837
+
+Eli aikaisin merkintä Alexanderin syntymäajaksi on 1835
+Seuraavassa lastenkirjassa 1837-1848 on merkitty 1836, mikä sen jälkeen toistuu myös muualla.</text>
+    </note>
+    <note handle="_f7caf32b08e791f9dfae9991f41" change="1702818969" id="N3089" type="Citation">
+      <text>Rantasalmen seurakunnan arkisto - I Aa:11 Pää- ja rippikirjat III, Rantasalo - Voinsalmi - Haapaniemi - Vaahersalo 1837-1847, jakso 323, sivu 1324: Pastors Bohlet; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5871868293&amp;aineistoId=1226929385 / Viitattu 17.12.2023</text>
+    </note>
+    <note handle="_f7caf34f83812fd3ea52b14edae" change="1702818984" id="N3090" type="Link">
+      <text>https://digihakemisto.net/item/1226929385/5871868293/323</text>
+      <style name="link" value="https://digihakemisto.net/item/1226929385/5871868293/323">
+        <range start="0" end="56"/>
+      </style>
+    </note>
+    <note handle="_f7caf37475b65153f74232c79b5" change="1702818999" id="N3091" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5871868293&amp;aineistoId=1226929385</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5871868293&amp;aineistoId=1226929385">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f7caf62018179378180e6ae8e9f" change="1702819279" id="N3092" type="Citation">
+      <text>Rantasalmen seurakunnan arkisto - I Ab:4 Lastenkirjat I, Ahvensalmi - Parkumäki 1818-1838, jakso 190, sivu 372-373: Kyrkoby; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5871996087&amp;aineistoId=1227023738 / Viitattu 17.12.2023</text>
+    </note>
+    <note handle="_f7caf63dba1636694aa43e522c6" change="1702819291" id="N3093" type="Link">
+      <text>https://digihakemisto.net/item/1227023738/5871996087/190</text>
+      <style name="link" value="https://digihakemisto.net/item/1227023738/5871996087/190">
+        <range start="0" end="56"/>
+      </style>
+    </note>
+    <note handle="_f7caf664cbf43d067f55ab17b11" change="1702819307" id="N3094" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5871996087&amp;aineistoId=1227023738</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5871996087&amp;aineistoId=1227023738">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f7cb0d957a4522bb2623497b851" change="1702821739" id="N3095" type="Transcript" format="1">
+      <text>373
+Kyrkoby
+Commisarien Salomon Harlins ???? Maria Kopoins b
+
+?? Edvard              1831
+Son Johan Robert       1833
+Son Alexander          1835
+Son Carl Ernst    14/4 1837
+
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="175"/>
+      </style>
+    </note>
+    <note handle="_f7cb85229e43e20413ce9414a9b" change="1702834275" id="N3096" type="Citation">
+      <text>Rantasalmen seurakunnan arkisto - I Aa:12 Pää- ja rippikirjat I, Ahvensalmi - Joutsenmäki 1848-1859, jakso 312, sivu 313: Hildula No 6; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5872095896&amp;aineistoId=1226949262 / Viitattu 17.12.2023</text>
+    </note>
+    <note handle="_f7cb8548e55a8396d32c11d71" change="1702834291" id="N3097" type="Link">
+      <text>https://digihakemisto.net/item/1226949262/5872095896/312</text>
+      <style name="link" value="https://digihakemisto.net/item/1226949262/5872095896/312">
+        <range start="0" end="56"/>
+      </style>
+    </note>
+    <note handle="_f7cb8570ed46071cc3ecbdc58ab" change="1702834307" id="N3098" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5872095896&amp;aineistoId=1226949262</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5872095896&amp;aineistoId=1226949262">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f7cb8aff3215218aaa326f084c9" change="1702834890" id="N3099" type="Citation">
+      <text>Rantasalmen seurakunnan arkisto - I Aa:9 Pää- ja rippikirjat I, Ahvensalmi - Kolkontaipale 1837-1847, jakso 333, sivu 325: Hildula No 6, gamla No 7; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5871854471&amp;aineistoId=1226905360 / Viitattu 17.12.2023</text>
+    </note>
+    <note handle="_f7cb8b240464633dc43ee1c8006" change="1702834905" id="N3100" type="Link">
+      <text>https://digihakemisto.net/item/1226905360/5871854471/333</text>
+      <style name="link" value="https://digihakemisto.net/item/1226905360/5871854471/333">
+        <range start="0" end="56"/>
+      </style>
+    </note>
+    <note handle="_f7cb8b4387b67d17f43a7763eb3" change="1702834918" id="N3101" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5871854471&amp;aineistoId=1226905360</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5871854471&amp;aineistoId=1226905360">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f7cb8c6f4f2714ef3c4ba4344d5" change="1702835040" id="N3102" type="Citation">
+      <text>Rantasalmen seurakunnan arkisto - I Ab:6 Lastenkirjat I, Ahvensalmi - Rantasalo 1837-1848, jakso 103, sivu 202-203: Hildula No 6 (gamla No 7), No 7 (gamla No 8); Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5871995901&amp;aineistoId=1227039621 / Viitattu 17.12.2023</text>
+    </note>
+    <note handle="_f7cb8c8ebbc79675bb8ea51c738" change="1702835053" id="N3103" type="Link">
+      <text>https://digihakemisto.net/item/1227039621/5871995901/103</text>
+      <style name="link" value="https://digihakemisto.net/item/1227039621/5871995901/103">
+        <range start="0" end="56"/>
+      </style>
+    </note>
+    <note handle="_f7cb8cadd9c3d841bda9ab0f24f" change="1702835066" id="N3104" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5871995901&amp;aineistoId=1227039621</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5871995901&amp;aineistoId=1227039621">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f7cb8f27ce240965b2331c03a7e" change="1702835326" id="N3105" type="Citation">
+      <text>Rantasalmen seurakunnan arkisto - I Aa:8 Pää- ja rippikirjat II, Osikonmäki - Voinsalmi 1823-1836, jakso 233, sivu 828: Randasalo No 4 ; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5871884412&amp;aineistoId=1226878855 / Viitattu 17.12.2023</text>
+    </note>
+    <note handle="_f7cb8f44a9f48a937d67f569fc3" change="1702835337" id="N3106" type="Link">
+      <text>https://digihakemisto.net/item/1226878855/5871884412/233</text>
+      <style name="link" value="https://digihakemisto.net/item/1226878855/5871884412/233">
+        <range start="0" end="56"/>
+      </style>
+    </note>
+    <note handle="_f7cb8f6576d515edb2924d69a21" change="1702835351" id="N3107" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5871884412&amp;aineistoId=1226878855</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5871884412&amp;aineistoId=1226878855">
+        <range start="0" end="79"/>
       </style>
     </note>
   </notes>
