@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2023-12-17" version="5.1.6"/>
+    <created date="2023-12-18" version="5.1.6"/>
     <researcher>
     </researcher>
   </header>
@@ -17282,11 +17282,19 @@
       <place hlink="_f60bb6e26832160ae2e9daa3691"/>
       <citationref hlink="_f7cbe13684f6f6f855ca640a12"/>
     </event>
-    <event handle="_f7cbf7a92455a8fe0b67c95872d" change="1702846284" id="E0863">
+    <event handle="_f7cbf7a92455a8fe0b67c95872d" change="1702912162" id="E0863">
       <type>Residence</type>
-      <datespan start="1842" stop="1847"/>
+      <datespan start="1842" stop="1845-11-01"/>
       <place hlink="_f7cbf04c5463b8f541cc36c519f"/>
       <citationref hlink="_f7cbf109653260ad1669c583706"/>
+      <citationref hlink="_f7ce6607067754836647de50ca4"/>
+    </event>
+    <event handle="_f7ce6f2d0d8636f49e5ef21ec0e" change="1702912503" id="E0864">
+      <type>Residence</type>
+      <dateval val="1845-11-01" type="after"/>
+      <place hlink="_f7ce6dcf8a048ca3a431a4f1bc7"/>
+      <citationref hlink="_f7ce6607067754836647de50ca4"/>
+      <citationref hlink="_f7ce6edfa6e44b18cafefab8fe0"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -29860,7 +29868,7 @@
       <parentin hlink="_f150b73c784675f722d16ac44ab"/>
       <parentin hlink="_f150a2d297622c1fce11def1c7a"/>
     </person>
-    <person handle="_f150a32e29e3c5a604d3aa3b936" change="1702846285" id="I0107">
+    <person handle="_f150a32e29e3c5a604d3aa3b936" change="1702912504" id="I0107">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Gustava</first>
@@ -29870,6 +29878,7 @@
       <eventref hlink="_f7cbe20b91d678edfb432f3477f" role="Primary"/>
       <eventref hlink="_f7cb9c0dc7b5d19598c2bbef413" role="Primary"/>
       <eventref hlink="_f7cbf7a92455a8fe0b67c95872d" role="Primary"/>
+      <eventref hlink="_f7ce6f2d0d8636f49e5ef21ec0e" role="Primary"/>
       <parentin hlink="_f150a2d297622c1fce11def1c7a"/>
     </person>
     <person handle="_f150c32102b498369bb36e29c90" change="1702589730" id="I0108">
@@ -45900,6 +45909,21 @@
       <noteref hlink="_f7cbf104b0e707fd8e28a4f90b1"/>
       <sourceref hlink="_f7cbf09f70f4c6883cd46114b0"/>
     </citation>
+    <citation handle="_f7ce6607067754836647de50ca4" change="1702911544" id="C1659">
+      <page>I Aa:14/251</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7ce65badbf1cc0c4b3d203b54e"/>
+      <noteref hlink="_f7ce65dd3f71aa2e19b15aa5b08"/>
+      <noteref hlink="_f7ce66002451ba206cfa25c8966"/>
+      <sourceref hlink="_f7cbf09f70f4c6883cd46114b0"/>
+    </citation>
+    <citation handle="_f7ce6edfa6e44b18cafefab8fe0" change="1702912502" id="C1660">
+      <page>AP I Ba:2/337-338 No23</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7ce6eb5b291554fb8da34f66d"/>
+      <noteref hlink="_f7ce6ed882e4845ee6b3170faae"/>
+      <sourceref hlink="_f7ce6e7e6b54ef58e5dc7539678"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -49285,6 +49309,11 @@
       <sauthor>Kaarinan seurakunta</sauthor>
       <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
     </source>
+    <source handle="_f7ce6e7e6b54ef58e5dc7539678" change="1702912431" id="S0674">
+      <stitle>Kaarina Muuttaneet 1818-1846</stitle>
+      <sauthor>Kaarinan seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1702592194" id="P0000" type="City">
@@ -49900,7 +49929,7 @@
       <pname value="Biskopsnäs"/>
       <placeref hlink="_ceac1478b0919bf2446"/>
     </placeobj>
-    <placeobj handle="_cb589cfeb254c33cda1" change="1702845090" id="P0618" type="Country">
+    <placeobj handle="_cb589cfeb254c33cda1" change="1702912357" id="P0618" type="Country">
       <pname value="Suomi"/>
       <pname value="Finland" lang="sv"/>
     </placeobj>
@@ -52365,14 +52394,19 @@
       <pname value="Gården No 6 vid Annegatan"/>
       <placeref hlink="_f7cb9e9c0c573d5ee50fef04b42"/>
     </placeobj>
-    <placeobj handle="_f7cbec568d97f5dc568d5947e7f" change="1702845505" id="P0247" type="Parish">
+    <placeobj handle="_f7cbec568d97f5dc568d5947e7f" change="1702911333" id="P0247" type="Parish">
       <pname value="Kaarina"/>
-      <pname value="Karins" lang="sv"/>
+      <pname value="S:t Karins" lang="sv"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
     </placeobj>
     <placeobj handle="_f7cbf04c5463b8f541cc36c519f" change="1702845512" id="P0248" type="Farm">
       <pname value="Lill Heikkilä"/>
       <placeref hlink="_f7cbec568d97f5dc568d5947e7f"/>
+    </placeobj>
+    <placeobj handle="_f7ce6dcf8a048ca3a431a4f1bc7" change="1702912360" id="P0250" type="Parish">
+      <pname value="Piikkiö"/>
+      <pname value="Piikkis" lang="sv"/>
+      <placeref hlink="_cb589cfeb254c33cda1"/>
     </placeobj>
   </places>
   <repositories>
@@ -52381,7 +52415,7 @@
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1702843886" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1702912429" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -76598,6 +76632,30 @@ Son Carl Ernst    14/4 1837
       <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5907767621&amp;aineistoId=1253937020</text>
       <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5907767621&amp;aineistoId=1253937020">
         <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f7ce65badbf1cc0c4b3d203b54e" change="1702911512" id="N3125" type="Citation">
+      <text>Kaarinan seurakunnan arkisto - I Aa:14 Rippikirja 1840-1847, jakso 254, sivu 251: Lill Heikkilä; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5907767612&amp;aineistoId=1253937020 / Viitattu 18.12.2023</text>
+    </note>
+    <note handle="_f7ce65dd3f71aa2e19b15aa5b08" change="1702911527" id="N3126" type="Link">
+      <text>https://digihakemisto.net/item/1253937020/5907767612/254</text>
+      <style name="link" value="https://digihakemisto.net/item/1253937020/5907767612/254">
+        <range start="0" end="56"/>
+      </style>
+    </note>
+    <note handle="_f7ce66002451ba206cfa25c8966" change="1702911541" id="N3127" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5907767612&amp;aineistoId=1253937020</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5907767612&amp;aineistoId=1253937020">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f7ce6eb5b291554fb8da34f66d" change="1702912454" id="N3128" type="Citation">
+      <text>Kaarina muuttaneet 1818-1846 (AP I Ba:2)  Sivu 337-338  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=24235&amp;pnum=171 / Viitattu 18.12.2023</text>
+    </note>
+    <note handle="_f7ce6ed882e4845ee6b3170faae" change="1702912468" id="N3129" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=24235&amp;pnum=171</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=24235&amp;pnum=171">
+        <range start="0" end="78"/>
       </style>
     </note>
   </notes>
