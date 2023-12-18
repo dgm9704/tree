@@ -14796,7 +14796,7 @@
       <place hlink="_ec076c65e4a6260039f6db1ba3"/>
       <citationref hlink="_ec07bb7b3ef3deea3214ea96825"/>
     </event>
-    <event handle="_ec7e311dfbd60d482c373fb948" change="1658901589" id="E0342">
+    <event handle="_ec7e311dfbd60d482c373fb948" change="1702916505" id="E0342">
       <type>Residence</type>
       <datespan start="1880" stop="1886"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
@@ -14804,9 +14804,9 @@
       <citationref hlink="_cdeaa4cbe6c5f279b84"/>
       <citationref hlink="_ec7e3b1ef9c5630ecf49d8a8a28"/>
       <citationref hlink="_d0011348d0e71c0b3f2"/>
+      <citationref hlink="_ec84ac70dab36a9da3ab7aab693"/>
       <citationref hlink="_cfcd1c65b240ae6a980"/>
       <citationref hlink="_cdeaa8308fe28f04ac2"/>
-      <citationref hlink="_ec84ac70dab36a9da3ab7aab693"/>
     </event>
     <event handle="_ec867c86ed129363c8187502300" change="1625389743" id="E0343">
       <type>Residence</type>
@@ -17276,10 +17276,11 @@
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_f7cbb7f99903ff18e78fa7f1f32"/>
     </event>
-    <event handle="_f7cbe20b91d678edfb432f3477f" change="1702844863" id="E0862">
+    <event handle="_f7cbe20b91d678edfb432f3477f" change="1702930705" id="E0862">
       <type>Residence</type>
-      <dateval val="1863-11-16" type="before"/>
+      <datespan start="1858-11-10" stop="1863-11-16"/>
       <place hlink="_f60bb6e26832160ae2e9daa3691"/>
+      <citationref hlink="_f7cf1bfb2435115da84da26241"/>
       <citationref hlink="_f7cbe13684f6f6f855ca640a12"/>
     </event>
     <event handle="_f7cbf7a92455a8fe0b67c95872d" change="1702912162" id="E0863">
@@ -17289,12 +17290,26 @@
       <citationref hlink="_f7cbf109653260ad1669c583706"/>
       <citationref hlink="_f7ce6607067754836647de50ca4"/>
     </event>
-    <event handle="_f7ce6f2d0d8636f49e5ef21ec0e" change="1702912503" id="E0864">
+    <event handle="_f7ce6f2d0d8636f49e5ef21ec0e" change="1702927470" id="E0864">
       <type>Residence</type>
-      <dateval val="1845-11-01" type="after"/>
+      <datespan start="1845-11-01" stop="1847-11-01"/>
       <place hlink="_f7ce6dcf8a048ca3a431a4f1bc7"/>
       <citationref hlink="_f7ce6607067754836647de50ca4"/>
       <citationref hlink="_f7ce6edfa6e44b18cafefab8fe0"/>
+      <citationref hlink="_f7ce9a4f9aa48c523a85ef35b63"/>
+      <citationref hlink="_f7cefda899749cab1f2613073a"/>
+    </event>
+    <event handle="_f7cefed33ef3e9fc1dd758eaa1e" change="1702930694" id="E0865">
+      <type>Residence</type>
+      <datespan start="1847-11-01" stop="1858-11-10"/>
+      <place hlink="_f7cefe98d1a7b52ed23da3e9836"/>
+      <citationref hlink="_f7cefda899749cab1f2613073a"/>
+      <citationref hlink="_f7cf0a33b05744e437438a6d78"/>
+      <citationref hlink="_f7cf0b7141761a6d5e390f562e6"/>
+      <citationref hlink="_f7cf0c4180a75401375b21f8885"/>
+      <citationref hlink="_f7cf0d2ff8a7b7eff751cc3552"/>
+      <citationref hlink="_f7cf190984e45fbee0406c6a959"/>
+      <citationref hlink="_f7cf1bfb2435115da84da26241"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -29868,17 +29883,18 @@
       <parentin hlink="_f150b73c784675f722d16ac44ab"/>
       <parentin hlink="_f150a2d297622c1fce11def1c7a"/>
     </person>
-    <person handle="_f150a32e29e3c5a604d3aa3b936" change="1702912504" id="I0107">
+    <person handle="_f150a32e29e3c5a604d3aa3b936" change="1702930710" id="I0107">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Gustava</first>
         <surname>Wikström</surname>
       </name>
       <eventref hlink="_f150c16542e65da654506f6aeb3" role="Primary"/>
-      <eventref hlink="_f7cbe20b91d678edfb432f3477f" role="Primary"/>
       <eventref hlink="_f7cb9c0dc7b5d19598c2bbef413" role="Primary"/>
       <eventref hlink="_f7cbf7a92455a8fe0b67c95872d" role="Primary"/>
       <eventref hlink="_f7ce6f2d0d8636f49e5ef21ec0e" role="Primary"/>
+      <eventref hlink="_f7cefed33ef3e9fc1dd758eaa1e" role="Primary"/>
+      <eventref hlink="_f7cbe20b91d678edfb432f3477f" role="Primary"/>
       <parentin hlink="_f150a2d297622c1fce11def1c7a"/>
     </person>
     <person handle="_f150c32102b498369bb36e29c90" change="1702589730" id="I0108">
@@ -45924,6 +45940,62 @@
       <noteref hlink="_f7ce6ed882e4845ee6b3170faae"/>
       <sourceref hlink="_f7ce6e7e6b54ef58e5dc7539678"/>
     </citation>
+    <citation handle="_f7ce9a4f9aa48c523a85ef35b63" change="1702917026" id="C1661">
+      <page>AP I Ba:2/226-227 No38</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7ce9a295e53455b94847a6b79b"/>
+      <noteref hlink="_f7ce9a4b92511f7d2622ae27b8e"/>
+      <sourceref hlink="_f7ce99d296251a31ae5c0cf872e"/>
+    </citation>
+    <citation handle="_f7cefda899749cab1f2613073a" change="1702927443" id="C1662">
+      <page>AP I Ba:2/294-295</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7cefd7d5a15cbf60269a98c4c6"/>
+      <noteref hlink="_f7cefda26d9313bcb2b6810d970"/>
+      <sourceref hlink="_f7cefbb1c34317ed22bfc34c3d0"/>
+    </citation>
+    <citation handle="_f7cf0a33b05744e437438a6d78" change="1702928759" id="C1663">
+      <page>AP I Aa:15/202</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7cf0a081d5481ce120ee9e4800"/>
+      <noteref hlink="_f7cf0a2e8645873a124bc910105"/>
+      <sourceref hlink="_f7cf09df1ea26e06477f02a8994"/>
+    </citation>
+    <citation handle="_f7cf0b7141761a6d5e390f562e6" change="1702928889" id="C1664">
+      <page>AP I Aa:16/95</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7cf0b3fd673cd3cfcb6f97eee5"/>
+      <noteref hlink="_f7cf0b5d409196c604f19a02415"/>
+      <sourceref hlink="_f7cf0b112f2483f4e3942635f8"/>
+    </citation>
+    <citation handle="_f7cf0c4180a75401375b21f8885" change="1702928974" id="C1665">
+      <page>AP I Aa:16/258</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7cf0c10e9975d7a5a111d84775"/>
+      <noteref hlink="_f7cf0c2f693236220f3d5aeafdd"/>
+      <sourceref hlink="_f7cf0b112f2483f4e3942635f8"/>
+    </citation>
+    <citation handle="_f7cf0d2ff8a7b7eff751cc3552" change="1702929072" id="C1666">
+      <page>AP I Aa:16/93</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7cf0d0aa2e30d605b29069bd8d"/>
+      <noteref hlink="_f7cf0d2c090144a68b0749afa51"/>
+      <sourceref hlink="_f7cf0b112f2483f4e3942635f8"/>
+    </citation>
+    <citation handle="_f7cf190984e45fbee0406c6a959" change="1702930314" id="C1667">
+      <page>AP I Aa:17 /126</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7cf18de466c7f8f39290219a0"/>
+      <noteref hlink="_f7cf18fe2af80daf75dadb4665"/>
+      <sourceref hlink="_f7cf189ff195691b50bd8e0b2dc"/>
+    </citation>
+    <citation handle="_f7cf1bfb2435115da84da26241" change="1702930623" id="C1668">
+      <page>AP I Ba:4/101</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7cf1bcf324226b1602d94d216a"/>
+      <noteref hlink="_f7cf1bee2a3594830d0ab89e2a8"/>
+      <sourceref hlink="_f7cf1b846ac567552ad87da7c4b"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -49314,6 +49386,36 @@
       <sauthor>Kaarinan seurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
+    <source handle="_f7ce99d296251a31ae5c0cf872e" change="1702916975" id="S0675">
+      <stitle>Piikkiö Muuttaneet 1823-1855</stitle>
+      <sauthor>Piikkiön seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f7cefbb1c34317ed22bfc34c3d0" change="1702930530" id="S0676">
+      <stitle>Maaria Muuttaneet 1823-1855</stitle>
+      <sauthor>Maarian seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f7cf09df1ea26e06477f02a8994" change="1702928724" id="S0677">
+      <stitle>Maaria Rippikirja 1844-1850</stitle>
+      <sauthor>Maarian seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f7cf0b112f2483f4e3942635f8" change="1702928849" id="S0678">
+      <stitle>Maaria Rippikirja 1851-1856</stitle>
+      <sauthor>Maarian seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f7cf189ff195691b50bd8e0b2dc" change="1702930271" id="S0679">
+      <stitle>Maaria Rippikirja 1857-1863</stitle>
+      <sauthor>Maarian seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f7cf1b846ac567552ad87da7c4b" change="1702930574" id="S0680">
+      <stitle>Maaria Muuttaneet 1844-1878</stitle>
+      <sauthor>Maarian seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1702592194" id="P0000" type="City">
@@ -49929,7 +50031,7 @@
       <pname value="Biskopsnäs"/>
       <placeref hlink="_ceac1478b0919bf2446"/>
     </placeobj>
-    <placeobj handle="_cb589cfeb254c33cda1" change="1702912357" id="P0618" type="Country">
+    <placeobj handle="_cb589cfeb254c33cda1" change="1702927561" id="P0618" type="Country">
       <pname value="Suomi"/>
       <pname value="Finland" lang="sv"/>
     </placeobj>
@@ -52408,6 +52510,11 @@
       <pname value="Piikkis" lang="sv"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
     </placeobj>
+    <placeobj handle="_f7cefe98d1a7b52ed23da3e9836" change="1702927563" id="P0252" type="Unknown">
+      <pname value="Maaria"/>
+      <pname value="S:t Marie" lang="sv"/>
+      <placeref hlink="_cb589cfeb254c33cda1"/>
+    </placeobj>
   </places>
   <repositories>
     <repository handle="_cdea29a49637c6553bc" change="1672241850" id="R0001">
@@ -52415,7 +52522,7 @@
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1702912429" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1702930573" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -76655,6 +76762,81 @@ Son Carl Ernst    14/4 1837
     <note handle="_f7ce6ed882e4845ee6b3170faae" change="1702912468" id="N3129" type="Link">
       <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=24235&amp;pnum=171</text>
       <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=24235&amp;pnum=171">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f7ce9a295e53455b94847a6b79b" change="1702917010" id="N3130" type="Citation">
+      <text>Piikkiö muuttaneet 1823-1855 (AP I Ba:2)  Sivu 226-227  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=22976&amp;pnum=115 / Viitattu 18.12.2023</text>
+    </note>
+    <note handle="_f7ce9a4b92511f7d2622ae27b8e" change="1702917024" id="N3131" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=22976&amp;pnum=115</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=22976&amp;pnum=115">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f7cefd7d5a15cbf60269a98c4c6" change="1702927426" id="N3132" type="Citation">
+      <text>Piikkiö muuttaneet 1823-1855 (AP I Ba:2)  Sivu 294-295 1846. in 1847, ut 1847 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=22976&amp;pnum=119 / Viitattu 18.12.2023</text>
+    </note>
+    <note handle="_f7cefda26d9313bcb2b6810d970" change="1702927441" id="N3133" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=22976&amp;pnum=119</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=22976&amp;pnum=119">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f7cf0a081d5481ce120ee9e4800" change="1702928741" id="N3134" type="Citation">
+      <text>Maaria rippikirja 1844-1850 (AP I Aa:15)  Sivu 202 Pitkämäki Keskitalo, Wikström, Enrot, Hemberg, Arell ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19401&amp;pnum=205 / Viitattu 18.12.2023</text>
+    </note>
+    <note handle="_f7cf0a2e8645873a124bc910105" change="1702928756" id="N3135" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19401&amp;pnum=205</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19401&amp;pnum=205">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f7cf0ac1b206359da285b0a0d15" change="1702928817" id="N3136" type="Source Note">
+      <text>Maaria rippikirja 1851-1856 (AP I Aa:16)  Sivu 95 Pitkämäki Keskitalo, Wikström, Enroth, Nikander ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19034&amp;pnum=97 / Viitattu 18.12.2023</text>
+    </note>
+    <note handle="_f7cf0b3fd673cd3cfcb6f97eee5" change="1702928868" id="N3137" type="Citation">
+      <text>Maaria rippikirja 1851-1856 (AP I Aa:16)  Sivu 95 Pitkämäki Keskitalo, Wikström, Enroth, Nikander ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19034&amp;pnum=97 / Viitattu 18.12.2023</text>
+    </note>
+    <note handle="_f7cf0b5d409196c604f19a02415" change="1702928880" id="N3138" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19034&amp;pnum=97</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19034&amp;pnum=97">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f7cf0c10e9975d7a5a111d84775" change="1702928954" id="N3139" type="Citation">
+      <text>Maaria rippikirja 1851-1856 (AP I Aa:16)  Sivu 258 Tojais, Nordström, Achrenius, Likander, Wikström, Enroth, Lindros, Eklund, Forsström ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19034&amp;pnum=260 / Viitattu 18.12.2023</text>
+    </note>
+    <note handle="_f7cf0c2f693236220f3d5aeafdd" change="1702928967" id="N3140" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19034&amp;pnum=260</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19034&amp;pnum=260">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f7cf0d0aa2e30d605b29069bd8d" change="1702929056" id="N3141" type="Citation">
+      <text>Maaria rippikirja 1851-1856 (AP I Aa:16)  Sivu 93 Pitkämäki Isotalo, Hedenström, Sacklén, Sandholm, Kållin, Wikström ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19034&amp;pnum=95 / Viitattu 18.12.2023</text>
+    </note>
+    <note handle="_f7cf0d2c090144a68b0749afa51" change="1702929070" id="N3142" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19034&amp;pnum=95</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19034&amp;pnum=95">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f7cf18de466c7f8f39290219a0" change="1702930296" id="N3143" type="Citation">
+      <text>Maaria rippikirja 1857-1863 (AP I Aa:17)  Sivu 126 Pitkämäki Torp. Haapala, Sundvall, Friman, Wacker, Swalberg, Enroth, Wikström, Wahlstén, Lindgren, Kajander, Grönros ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19035&amp;pnum=128 / Viitattu 18.12.2023</text>
+    </note>
+    <note handle="_f7cf18fe2af80daf75dadb4665" change="1702930310" id="N3144" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19035&amp;pnum=128</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19035&amp;pnum=128">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f7cf1bcf324226b1602d94d216a" change="1702930605" id="N3145" type="Citation">
+      <text>Maaria muuttaneet 1844-1878 (AP I Ba:4)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=20516&amp;pnum=101 / Viitattu 18.12.2023</text>
+    </note>
+    <note handle="_f7cf1bee2a3594830d0ab89e2a8" change="1702930618" id="N3146" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=20516&amp;pnum=101</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=20516&amp;pnum=101">
         <range start="0" end="78"/>
       </style>
     </note>
