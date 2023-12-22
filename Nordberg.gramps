@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2023-12-18" version="5.1.6"/>
+    <created date="2023-12-22" version="5.1.6"/>
     <researcher>
     </researcher>
   </header>
@@ -7777,21 +7777,25 @@
       <type>Marriage</type>
       <dateval val="1907-12-23"/>
     </event>
-    <event handle="_cde63e4926106c5528d" change="1595776998" id="E5230">
+    <event handle="_cde63e4926106c5528d" change="1703244963" id="E5230">
       <type>Residence</type>
       <datespan start="1865" stop="1867"/>
       <place hlink="_cde63ef594578576769"/>
-      <citationref hlink="_cde63fce2565b4c89bf"/>
+      <description>handelsbetjänt</description>
+      <citationref hlink="_f7d4fbe8c712dfc57b5efd6ede9"/>
       <citationref hlink="_d88c361d4031fa84428c6830725"/>
+      <citationref hlink="_cde63fce2565b4c89bf"/>
+      <citationref hlink="_f7dac2a84ae46902838cd7cc9b8"/>
     </event>
-    <event handle="_cde641569d96d18caad" change="1414930159" id="E5243">
+    <event handle="_cde641569d96d18caad" change="1703243385" id="E5243">
       <type>Occupation</type>
       <datespan start="1865" stop="1867"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
       <description>handelsbetjänt</description>
       <citationref hlink="_cde63fce2565b4c89bf"/>
+      <citationref hlink="_f7dac2a84ae46902838cd7cc9b8"/>
     </event>
-    <event handle="_cde6467ef0e24042c3c" change="1625387352" id="E5244">
+    <event handle="_cde6467ef0e24042c3c" change="1703244736" id="E5244">
       <type>Residence</type>
       <datespan start="1867-02-11" stop="1869-11-26"/>
       <place hlink="_cde645dff4827c02e3d"/>
@@ -17436,7 +17440,7 @@
       <childof hlink="_cb589cc83c13dd8e6b9"/>
       <parentin hlink="_cb589cc803c2012656f"/>
     </person>
-    <person handle="_cb589cc83d1028d9fef" change="1625389795" id="I4183">
+    <person handle="_cb589cc83d1028d9fef" change="1703244967" id="I4183">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Ferdinand</first>
@@ -17448,7 +17452,6 @@
       <eventref hlink="_ce855355fb605fe82f2" role="Primary"/>
       <eventref hlink="_ec867c86ed129363c8187502300" role="Primary"/>
       <eventref hlink="_cde63e4926106c5528d" role="Primary"/>
-      <eventref hlink="_cde641569d96d18caad" role="Primary"/>
       <eventref hlink="_cde6467ef0e24042c3c" role="Primary"/>
       <eventref hlink="_e161441d2cc223041c7441737a0" role="Primary"/>
       <eventref hlink="_cdf7bf813a24a107a77" role="Primary"/>
@@ -35140,10 +35143,11 @@
       <noteref hlink="_cf8f240812270ebcd73"/>
       <sourceref hlink="_cf8f23f845046fd981a"/>
     </citation>
-    <citation handle="_cf8f2d5c80d6194fbb4" change="1426336551" id="C0118">
+    <citation handle="_cf8f2d5c80d6194fbb4" change="1703075590" id="C0118">
       <page>157</page>
       <confidence>2</confidence>
       <noteref hlink="_cf8f2ce206e60d27aa6"/>
+      <noteref hlink="_f7d4826cf762ba9679d0e59836"/>
       <sourceref hlink="_cf8f2d45ac85aabf133"/>
     </citation>
     <citation handle="_cf931ec6fe54a108355" change="1460360388" id="C0003">
@@ -41173,10 +41177,12 @@
       <noteref hlink="_ec71b8b92ea639549fd3174032f"/>
       <sourceref hlink="_e16139912c44a850f6c6514701d"/>
     </citation>
-    <citation handle="_e1613e087d426ec272ab167bac7" change="1548798555" id="C1035">
+    <citation handle="_e1613e087d426ec272ab167bac7" change="1703243592" id="C1035">
       <page>105</page>
       <confidence>2</confidence>
       <noteref hlink="_e1613e051974ce1a8a9bec57816"/>
+      <noteref hlink="_f7dac38b8b27057d9e8f79c64b1"/>
+      <noteref hlink="_f7dac4ab45a41436743e4f98001"/>
       <sourceref hlink="_ce856467e5b2c6b4c2f"/>
     </citation>
     <citation handle="_e161434d8715411e00ee00f4f8d" change="1625006793" id="C1036">
@@ -45995,6 +46001,22 @@
       <noteref hlink="_f7cf1bcf324226b1602d94d216a"/>
       <noteref hlink="_f7cf1bee2a3594830d0ab89e2a8"/>
       <sourceref hlink="_f7cf1b846ac567552ad87da7c4b"/>
+    </citation>
+    <citation handle="_f7d4fbe8c712dfc57b5efd6ede9" change="1703244840" id="C1669">
+      <page>MKO4-10/20</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7d4faae216746324d1029f78f9"/>
+      <noteref hlink="_f7d4fa9c8bd6a0a1270cb4e2b67"/>
+      <noteref hlink="_f7d4fbdc7f65c1c6e9be2879a05"/>
+      <sourceref hlink="_e1874ddb65965dca5a84a089526"/>
+    </citation>
+    <citation handle="_f7dac2a84ae46902838cd7cc9b8" change="1703243379" id="C1670">
+      <page>MKO1-8/123</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7dac1811305c0c57f0a4dbd319"/>
+      <noteref hlink="_f7dac1a19ee47293bf4fa620af2"/>
+      <noteref hlink="_f7dac29d128292fc71c440a4b64"/>
+      <sourceref hlink="_f5df89073f241ccf8537154be4b"/>
     </citation>
   </citations>
   <sources>
@@ -76838,6 +76860,57 @@ Son Carl Ernst    14/4 1837
       <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=20516&amp;pnum=101</text>
       <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=20516&amp;pnum=101">
         <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f7d4826cf762ba9679d0e59836" change="1703075583" id="N3147" type="Citation">
+      <text>Tuusulan seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A Pääkirjat. I Aa Pää- ja rippikirjat. Rippikirja  (1863-1872). Tiedosto 155. Kansallisarkisto. Viitattu 20.12.2023.</text>
+    </note>
+    <note handle="_f7d482da52b753acb7f276b43db" change="1703075627" id="N3148" type="Citation">
+      <text>Uudenmaan läänin henkikirjat. U Henkikirjat. U:57 Henkikirja  (1865-1865). Tiedosto 635. Kansallisarkisto. Viitattu 20.12.2023.</text>
+    </note>
+    <note handle="_f7d4fa9c8bd6a0a1270cb4e2b67" change="1703088185" id="N3149" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23487&amp;pnum=20</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23487&amp;pnum=20">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f7d4faae216746324d1029f78f9" change="1703088192" id="N3150" type="Citation">
+      <text>Helsinki muuttaneet 1865-1879 (MKO4-10)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23487&amp;pnum=20 / Viitattu 20.12.2023</text>
+    </note>
+    <note handle="_f7d4fbdc7f65c1c6e9be2879a05" change="1703088316" id="N3151" type="Transcript" format="1">
+      <text>1388  Nordberg, Ferdinand  Hand. betj.    1_559</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="47"/>
+      </style>
+    </note>
+    <note handle="_f7dac1811305c0c57f0a4dbd319" change="1703243258" id="N3152" type="Citation">
+      <text>Helsinki muuttaneet 1853-1887 (MKO1-8)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19855&amp;pnum=123 / Viitattu 22.12.2023</text>
+    </note>
+    <note handle="_f7dac1a19ee47293bf4fa620af2" change="1703243272" id="N3153" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19855&amp;pnum=123</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19855&amp;pnum=123">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f7dac29d128292fc71c440a4b64" change="1703243375" id="N3154" type="Transcript" format="1">
+      <text>1867
+[Februari]  [11]  84.  Bodbetjänten Ferdinand Nordberg    1.559    Helsinge
+
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="82"/>
+      </style>
+    </note>
+    <note handle="_f7dac38b8b27057d9e8f79c64b1" change="1703243472" id="N3155" type="Citation">
+      <text>Helsingin pitäjän seurakunnan arkisto. I B MUUTTANEIDEN LUETTELOT. I Ba Seurakuntaan- ja seurakunnasta muuttaneiden luettelot. Seurakuntaan- ja seurakunnasta muuttaneiden luettelo  (1853-1879). Tiedosto 112. Kansallisarkisto. Viitattu 22.12.2023.</text>
+    </note>
+    <note handle="_f7dac4ab45a41436743e4f98001" change="1703243590" id="N3156" type="Transcript" format="1">
+      <text>Utflyttade år 1869
+
+147  20/11  Drengen Ferdinand Nordberg    31/11 48    f459    Hfors
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="88"/>
       </style>
     </note>
   </notes>
