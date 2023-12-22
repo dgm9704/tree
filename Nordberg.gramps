@@ -95,11 +95,12 @@
       <place hlink="_cde633071333d6ede5b"/>
       <citationref hlink="_cde6342dabd159cd156"/>
     </event>
-    <event handle="_cb589cc83de57bb2327" change="1625167468" id="E0069">
+    <event handle="_cb589cc83de57bb2327" change="1703269329" id="E0069">
       <type>Death</type>
       <dateval val="1886-05-05"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
       <description>drunknad</description>
+      <citationref hlink="_ec7e3b1ef9c5630ecf49d8a8a28"/>
       <citationref hlink="_cdeaa8308fe28f04ac2"/>
     </event>
     <event handle="_cb589cc843a611773b4" change="1658304989" id="E0071">
@@ -7795,10 +7796,11 @@
       <citationref hlink="_cde63fce2565b4c89bf"/>
       <citationref hlink="_f7dac2a84ae46902838cd7cc9b8"/>
     </event>
-    <event handle="_cde6467ef0e24042c3c" change="1703244736" id="E5244">
+    <event handle="_cde6467ef0e24042c3c" change="1703269175" id="E5244">
       <type>Residence</type>
       <datespan start="1867-02-11" stop="1869-11-26"/>
       <place hlink="_cde645dff4827c02e3d"/>
+      <citationref hlink="_f7dac2a84ae46902838cd7cc9b8"/>
       <citationref hlink="_cde6467a9b6259cdd03"/>
       <citationref hlink="_e1613e087d426ec272ab167bac7"/>
     </event>
@@ -34461,10 +34463,14 @@
       <noteref hlink="_cde626383b82361c861"/>
       <sourceref hlink="_cde6260bdbc4ac95df4"/>
     </citation>
-    <citation handle="_cde6342dabd159cd156" change="1460360239" id="C0026">
+    <citation handle="_cde6342dabd159cd156" change="1703259378" id="C0026">
       <page>19</page>
       <confidence>2</confidence>
+      <noteref hlink="_f7db39ce7916dab1dac7d8c99e"/>
       <noteref hlink="_cde6342a0d97163e613"/>
+      <noteref hlink="_f7db3a0896735c1f496f9fbb2a0"/>
+      <noteref hlink="_f7db3a35625462210fe1ff28d69"/>
+      <noteref hlink="_f7db5b34d32ae9fc1172fc3210"/>
       <sourceref hlink="_cde63419ddc125dabe0"/>
     </citation>
     <citation handle="_cde63554a2f1ff5759b" change="1488116236" id="C0027">
@@ -34568,12 +34574,12 @@
       <noteref hlink="_ec7db7e217036fe8a415713d9f4"/>
       <sourceref hlink="_cdeaa4afd5d553ac48f"/>
     </citation>
-    <citation handle="_cdeaa8308fe28f04ac2" change="1625167454" id="C0040">
+    <citation handle="_cdeaa8308fe28f04ac2" change="1703269250" id="C0040">
       <page>10</page>
       <confidence>2</confidence>
+      <noteref hlink="_ec7e34979f6c4868986ec2c04f"/>
       <noteref hlink="_cdeaa82c7207ff29d6e"/>
       <noteref hlink="_ec7e347161145c31efab01442e4"/>
-      <noteref hlink="_ec7e34979f6c4868986ec2c04f"/>
       <sourceref hlink="_cdeaa816732553f721f"/>
     </citation>
     <citation handle="_cdeaac74af414ccb509" change="1488391145" id="C0041">
@@ -77050,6 +77056,36 @@ Dreng ??? Ferdinand Nordberg    31/3  1848    1869 med bet 20/11 till Hfors No 1
     </note>
     <note handle="_f7db35e5c1d95d58fe467a9fae" change="1703255463" id="N3171" type="Citation">
       <text>Nurmijärven seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I H Muut luettelot. I Hg Muut luettelot. Koululaisten luettelot  (1857-1879). Tiedosto 43. Kansallisarkisto. Viitattu 22.12.2023.</text>
+    </note>
+    <note handle="_f7db39ce7916dab1dac7d8c99e" change="1703255873" id="N3172" type="Citation">
+      <text>Marieforsin ruukinseurakunnan arkisto - Syntyneiden ja kastettujen luettelot 1840-1872, jakso 12, sivu 19-20: 1848 Januarii-Oktober; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5873652340&amp;aineistoId=1160551967 / Viitattu 22.12.2023</text>
+    </note>
+    <note handle="_f7db3a0896735c1f496f9fbb2a0" change="1703255897" id="N3173" type="Link">
+      <text>https://digihakemisto.net/item/1160551967/5873652340/12</text>
+      <style name="link" value="https://digihakemisto.net/item/1160551967/5873652340/12">
+        <range start="0" end="55"/>
+      </style>
+    </note>
+    <note handle="_f7db3a35625462210fe1ff28d69" change="1703255915" id="N3174" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5873652340&amp;aineistoId=1160551967</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5873652340&amp;aineistoId=1160551967">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f7db5b34d32ae9fc1172fc3210" change="1703259375" id="N3175" type="Transcript" format="1">
+      <text>19 Födde och Döpte i Mariefors Församling
+År 1848
+
+Mars Månad
+
+31.  9/4  Ferdinand    Mjölnaren Karl Johan Nord-    Bruks Inspektoren A.F.Barck
+döpt af Blom           berg och dess hustru Anna     och dess hustru Maria Gustava
+                       Johansdotter Weckström 38     Björklöf samt Pigan Maria So
+                       år gl ifrän Bruket            fia Lamberg ifrån Bruket
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="387"/>
+      </style>
     </note>
   </notes>
   <bookmarks>
