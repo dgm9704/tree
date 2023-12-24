@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2023-12-23" version="5.1.6"/>
+    <created date="2023-12-24" version="5.1.6"/>
     <researcher>
     </researcher>
   </header>
@@ -8805,12 +8805,12 @@
       <citationref hlink="_d00a4fde06775863efc"/>
       <citationref hlink="_d00a5b55f140e537ea1"/>
     </event>
-    <event handle="_d00aea2bd602ad356ce" change="1534877858" id="E3292">
+    <event handle="_d00aea2bd602ad356ce" change="1703411368" id="E3292">
       <type>Residence</type>
       <dateval val="1901-02-06"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
-      <citationref hlink="_df5aa7b58517e5747c65af03c37"/>
       <citationref hlink="_d00aed5e3816e679b74"/>
+      <citationref hlink="_df5aa7b58517e5747c65af03c37"/>
     </event>
     <event handle="_d1cd1342dbe7071cf79" change="1441743538" id="E3293">
       <type>Birth</type>
@@ -11957,7 +11957,7 @@
       <citationref hlink="_df6a3acb0096390f2b8e8f563c0"/>
       <citationref hlink="_df69e31420a4598d1d48df1fbe7"/>
     </event>
-    <event handle="_df5a8ffae831ba0137c7a5426ec" change="1534877844" id="E2592">
+    <event handle="_df5a8ffae831ba0137c7a5426ec" change="1703415384" id="E2592">
       <type>Residence</type>
       <datespan start="1899-11-10" stop="1901-01-28"/>
       <place hlink="_cf8ee10d2ce4c3b324e"/>
@@ -39860,28 +39860,36 @@
       <noteref hlink="_df5a7971077487127b18a7530aa"/>
       <sourceref hlink="_df5a7943f582bfb2f7bb7b046ff"/>
     </citation>
-    <citation handle="_df5a8b19ae0d3dae95842bffb0" change="1534874836" id="C0802">
+    <citation handle="_df5a8b19ae0d3dae95842bffb0" change="1703410779" id="C0802">
       <page>27-28</page>
       <confidence>2</confidence>
+      <noteref hlink="_f7e0fd69c6424998460c95f7b80"/>
       <noteref hlink="_df5a8af280663d4beb7cf992732"/>
+      <noteref hlink="_f7e0ff1416358a32909400cca30"/>
       <sourceref hlink="_df501a1f8944c2699264a4a241b"/>
     </citation>
-    <citation handle="_df5a8c5ea867a03cc0a287728ac" change="1534874969" id="C0803">
+    <citation handle="_df5a8c5ea867a03cc0a287728ac" change="1703410342" id="C0803">
       <page>343</page>
       <confidence>2</confidence>
+      <noteref hlink="_f7e0f9a6cae128a95e3ead509dc"/>
       <noteref hlink="_df5a8c59bd036a0d834ccec30b1"/>
+      <noteref hlink="_f7e0fae7b852842f274d9ab40b9"/>
       <sourceref hlink="_df4dbe23f6a224859e3bebdc4e9"/>
     </citation>
-    <citation handle="_df5aa5d7a71534e2f0708ad095e" change="1534877640" id="C0804">
+    <citation handle="_df5aa5d7a71534e2f0708ad095e" change="1703411346" id="C0804">
       <page>29-30</page>
       <confidence>2</confidence>
+      <noteref hlink="_f7e103b1813774fe186d093972c"/>
       <noteref hlink="_df5aa5d275c48d7ad40b095025b"/>
+      <noteref hlink="_f7e104636e177ccb6ff9f9c9d9e"/>
       <sourceref hlink="_df501a1f8944c2699264a4a241b"/>
     </citation>
-    <citation handle="_df5aa7b58517e5747c65af03c37" change="1534877835" id="C0805">
+    <citation handle="_df5aa7b58517e5747c65af03c37" change="1703411214" id="C0805">
       <page>354</page>
       <confidence>2</confidence>
+      <noteref hlink="_f7e10075a7e360a6382301cd956"/>
       <noteref hlink="_df5aa7b21b073a8d611055c07e3"/>
+      <noteref hlink="_f7e10337a783d023986f8602158"/>
       <sourceref hlink="_df4dbe23f6a224859e3bebdc4e9"/>
     </citation>
     <citation handle="_df5aba3adcf3312acbd431d576e" change="1534880507" id="C0806">
@@ -78074,6 +78082,66 @@ Enkan Anna Nordberg  4/7 1810    död 24/2 1885
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="122"/>
+      </style>
+    </note>
+    <note handle="_f7e0f9a6cae128a95e3ead509dc" change="1703410207" id="N3290" type="Citation">
+      <text>Karkkila rippikirja 1892-1901 (MKO137-156 I Aa:15)  Sivu 343 Nyhkälä, Anttila ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=22148&amp;pnum=310 / Viitattu 24.12.2023</text>
+    </note>
+    <note handle="_f7e0fae7b852842f274d9ab40b9" change="1703410338" id="N3291" type="Transcript" format="1">
+      <text>343
+Nyhkälä
+Anttila
+
+Otto Davidinpoika Wesander  19/9 1835  Nurmijärvi  Loppi 1899          Uk 288
+wo Helena Lovisa Nordberg   13/1 1839  do          do</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="152"/>
+      </style>
+    </note>
+    <note handle="_f7e0fd69c6424998460c95f7b80" change="1703410601" id="N3292" type="Citation">
+      <text>Karkkila muuttaneet 1893-1908 (MKO6-8)  Sivu 27,28 1899  Heinä ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=22152&amp;pnum=45 / Viitattu 24.12.2023</text>
+    </note>
+    <note handle="_f7e0ff1416358a32909400cca30" change="1703410776" id="N3293" type="Transcript" format="1">
+      <text>27
+Pyhäjärven seurakuntaan muuttaneet vuonna 1889
+
+44  [Lokak]    28.  21.  Loppi  343  Torppari Otto Wesander             1  1
+
+57  [Marrask]  18.  10.  Loppi  354  Torp.poika Otto Ferdinand Jokinen  1
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="203"/>
+      </style>
+    </note>
+    <note handle="_f7e10075a7e360a6382301cd956" change="1703410921" id="N3294" type="Citation">
+      <text>Karkkila rippikirja 1892-1901 (MKO137-156 I Aa:15)  Sivu 354 Nyhkälä, Työmiehiä ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=22148&amp;pnum=321 / Viitattu 24.12.2023</text>
+    </note>
+    <note handle="_f7e10337a783d023986f8602158" change="1703411210" id="N3295" type="Transcript" format="1">
+      <text>354
+Nyhkälä
+Työmiehiä
+
+Työm Otto Ferdinand Ottonp Jokinen    8/8 1876  Nurmijärvi  Loppi 1899    
+    &quot;volondär&quot; &quot;Kelpaawa merkitty vakinaisessa väessä, välskärin opissa.&quot;   Helsinki 28/1 1901
+
+Työm Kaarle Ewert Otonp Jokinen     26/10 1878  Loppi       Loppi 1899
+    Hyv arp. No 10                                                          Helsinki 28/1 1901
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="360"/>
+      </style>
+    </note>
+    <note handle="_f7e103b1813774fe186d093972c" change="1703411260" id="N3296" type="Citation">
+      <text>Karkkila muuttaneet 1893-1908 (MKO6-8)  Sivu 29,30 1899  Marras ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=22152&amp;pnum=46 / Viitattu 24.12.2023</text>
+    </note>
+    <note handle="_f7e104636e177ccb6ff9f9c9d9e" change="1703411333" id="N3297" type="Transcript" format="1">
+      <text>29
+Pyhäjärven seurakuntaan muuttaneet wuonna 1899
+
+58  Marrask  18.  10.  Loppi  354  Torp.poika Kaarle Ewert Jokinen  1
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="121"/>
       </style>
     </note>
   </notes>
