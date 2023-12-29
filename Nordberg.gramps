@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2023-12-28" version="5.1.6"/>
+    <created date="2023-12-29" version="5.1.6"/>
     <researcher>
     </researcher>
   </header>
@@ -292,7 +292,7 @@
       <place hlink="_cdfa144c48f5f32c9ad"/>
       <citationref hlink="_d896b90d92a364c82b12ab0ff3e"/>
     </event>
-    <event handle="_cb589cc90ed374a06c7" change="1703683667" id="E0207">
+    <event handle="_cb589cc90ed374a06c7" change="1703860367" id="E0207">
       <type>Birth</type>
       <dateval val="1812-10-22"/>
       <place hlink="_cdf82fb91b45aadb551"/>
@@ -791,7 +791,7 @@
       <citationref hlink="_df67de9f8dc6bcc6841c480fe42"/>
       <citationref hlink="_f3583355dc726a46b4b4aeca9e2"/>
     </event>
-    <event handle="_cb589ccbd622f0c6c75" change="1508367991" id="E0519">
+    <event handle="_cb589ccbd622f0c6c75" change="1703860327" id="E0519">
       <type>Birth</type>
       <dateval val="1829-11-25"/>
       <place hlink="_cb589cc90f055fc9f0c"/>
@@ -5137,7 +5137,7 @@
       <place hlink="_cb589cd851a2637b2c6"/>
       <citationref hlink="_cf931ec6fe54a108355"/>
     </event>
-    <event handle="_cb589cdf55d5546f667" change="1673201154" id="E3612">
+    <event handle="_cb589cdf55d5546f667" change="1703860876" id="E3612">
       <type>Birth</type>
       <dateval val="1861-11-07"/>
       <place hlink="_cb589cd84693ecab842"/>
@@ -15546,7 +15546,7 @@
       <citationref hlink="_f150cf0af4817f1d153662632a2"/>
       <citationref hlink="_f15562293dc2bbd99c8b56b4278"/>
     </event>
-    <event handle="_f150de3a0aeb635c5ecfc9a800" change="1702837265" id="E0451">
+    <event handle="_f150de3a0aeb635c5ecfc9a800" change="1703859536" id="E0451">
       <type>Baptism</type>
       <dateval val="1875-11-21"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
@@ -37529,10 +37529,12 @@
       <noteref hlink="_db7f138b3d6f5997e18a9e3b98"/>
       <sourceref hlink="_d6cdb01c64c13af50ff2b95ba40"/>
     </citation>
-    <citation handle="_db7f161a8e3599c1c20f7c8648f" change="1508367988" id="C0445">
+    <citation handle="_db7f161a8e3599c1c20f7c8648f" change="1703860324" id="C0445">
       <page>jakso 147</page>
       <confidence>2</confidence>
+      <noteref hlink="_f7f1baded936e202956a66f0a1b"/>
       <noteref hlink="_db7f1618a74bed00afc2fa7bff"/>
+      <noteref hlink="_f7f1be40669d0907586ad56278"/>
       <sourceref hlink="_db7f15f20625e2c9b2369407e7e"/>
     </citation>
     <citation handle="_db7f1b8673758593abb6ba07a57" change="1508609128" id="C0446">
@@ -44539,11 +44541,12 @@
       <noteref hlink="_f358fde4ea23a569a8b144eb4b"/>
       <sourceref hlink="_cf9322ce51178c4d1e5"/>
     </citation>
-    <citation handle="_f358ff8d64c1e865c321b5893d6" change="1673201152" id="C1446">
+    <citation handle="_f358ff8d64c1e865c321b5893d6" change="1703860876" id="C1446">
       <page>C:11/40-41</page>
       <confidence>2</confidence>
       <noteref hlink="_f358ff60fbf6a820760da5bc8e9"/>
       <noteref hlink="_f358ff8240323cc497968f2eab2"/>
+      <noteref hlink="_f7f1c1e0abd3c42139f53f1bbf5"/>
       <sourceref hlink="_f358ff219b34d511a87e81104d3"/>
     </citation>
     <citation handle="_f35902c189960386fa92b8d6821" change="1672419571" id="C1447">
@@ -66052,13 +66055,16 @@ November månad
 Januarii Månad
 28    7/2    Anna Stina Sundman    Smed enka    79    ålderdom    Kullo Sisbacka</text>
     </note>
-    <note handle="_e8fe1d814bc726d4ea6e8d43940" change="1601113372" id="N0186" type="Transcript">
+    <note handle="_e8fe1d814bc726d4ea6e8d43940" change="1703860365" id="N0186" type="Transcript" format="1">
       <text>Födde år 1812
 October
 
 22    23    Carl Johan
 Par. Soknesmeden Johan Nordberg hu Hedwig Johansdotter 21 x Norrveckoski
 Test. Smeden Staffan Nordberg, Dess son Gustaf Nordberg, hu Lena Abrahamsdr Clemets, Anna Henricsdotter ifr Söderveckoski Ulas</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="245"/>
+      </style>
       <style name="link" value="gramps://Person/handle/cb589ccecb9359c7dc0">
         <range start="132" end="148"/>
       </style>
@@ -78406,6 +78412,45 @@ Drg. Otto Nordberg  2/12 1850 Thusby          75 tp 246
     </note>
     <note handle="_f7ec7868cf719acc956f40be34c" change="1703718777" id="N3327" type="Citation">
       <text>Nurmijärvi rippikirja 1875-1880 (MKO152-163 I Aa:17)  Sivu 246 Kytäjärvi 3, Kittilä Yli, (Kittelä) ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=8593&amp;pnum=246 / Viitattu 28.12.2023</text>
+    </note>
+    <note handle="_f7f1baded936e202956a66f0a1b" change="1703859964" id="N3328" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I C Syntyneiden ja kastettujen luettelot. Syntyneiden ja kastettujen luettelot  (1826-1832). Tiedosto 147. Kansallisarkisto. Viitattu 29.12.2023.</text>
+    </note>
+    <note handle="_f7f1be40669d0907586ad56278" change="1703860319" id="N3329" type="Transcript" format="1">
+      <text>                                    Födde År 1829
+
+                                    November Månad
+
+N.  25.  28  Adolf Fredrik    Par:Sokne Smeden          Testes:Bonden Gustaf Staffansson Nord-
+                döpt af       Johan Johsn Nordberg      berg från Hannusas, med hustru Anna Gretha?
+          vice Pastor Hirn    Hu Hedwig Johansdotter    Johansdotter, Bondesonen Carl Carlsson
+                                             x 37       Klemets, Bondedottern Maja Carlsdotter
+                              Norrveckoski p302?        från Klemets, alla från Norrveckoski,
+                                                        Smedsonen Carl Staffansson Nordberg
+                                                        från Hindhår, BNondedottern Lena Hen-
+                                                        riksdotter från Söderveckoski Ollas.
+                                                        Coll:6kop: ????????
+
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="938"/>
+      </style>
+    </note>
+    <note handle="_f7f1c1e0abd3c42139f53f1bbf5" change="1703860699" id="N3330" type="Transcript" format="1">
+      <text>Födde år 1861
+
+November månad
+
+7  9  Emelia Sofia    Par:Bonden Carl Nord-    Testes:Bondesonen Anders Nord-
+       döpt af        berg, hu Helena Kuhl-    berg, Bondehu Lovisa Johansdotter,
+v. Pastor Forsblom    berg           x 40      Bondesonen Anders Wilhelm Anders-
+                         Norrveckoski          son och Bondedottren Anns Lovi-
+                                               sa Kullberg, alla fr Norrveckoski
+                                               Coll:10kop ??
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="493"/>
+      </style>
     </note>
   </notes>
   <bookmarks>
