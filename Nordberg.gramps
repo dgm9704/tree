@@ -17332,6 +17332,12 @@
       <citationref hlink="_f7cf190984e45fbee0406c6a959"/>
       <citationref hlink="_f7cf1bfb2435115da84da26241"/>
     </event>
+    <event handle="_f7fbc1398887b84e888ee86bd2f" change="1704129066" id="E0866">
+      <type>Residence</type>
+      <datespan start="1921" stop="1923"/>
+      <place hlink="_cde62768b9e01659bdc"/>
+      <citationref hlink="_f7fbc1357114378a2846293d8c2"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1658869228" id="I3858">
@@ -17382,7 +17388,7 @@
       <childof hlink="_cb589cc80670f6bf5c4"/>
       <parentin hlink="_cb589cc7f9c792dc427"/>
     </person>
-    <person handle="_cb589cc80776138fae0" change="1658869228" id="I4428">
+    <person handle="_cb589cc80776138fae0" change="1704129075" id="I4428">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Tyyni Elisabeth</first>
@@ -17390,6 +17396,7 @@
         <nick>Tyyne</nick>
       </name>
       <eventref hlink="_cb589cc807a04fd3ae7" role="Primary"/>
+      <eventref hlink="_f7fbc1398887b84e888ee86bd2f" role="Primary"/>
       <eventref hlink="_dcdc4fb197d2563db24863a1995" role="Primary"/>
       <eventref hlink="_d7d8b7fb17b63dcf4cd32f3987d" role="Primary"/>
       <childof hlink="_cb589cc7f9c792dc427"/>
@@ -46346,6 +46353,14 @@
       <noteref hlink="_f7fba95a2e042f2518352152e6d"/>
       <sourceref hlink="_f7fb9b2629c323bb84e4f27740d"/>
     </citation>
+    <citation handle="_f7fbc1357114378a2846293d8c2" change="1704129064" id="C1613">
+      <page>Bb:13/958-959</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7fbbce3fc137335b07eba7b42f"/>
+      <noteref hlink="_f7fbbd3ea6a663b8a57da6a90cd"/>
+      <noteref hlink="_f7fbc1115536e8d32063268c6ce"/>
+      <sourceref hlink="_f7fbbca18322db4f0a95d249b02"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -49778,6 +49793,11 @@
       <sauthor>Uudenmaan lääni</sauthor>
       <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
     </source>
+    <source handle="_f7fbbca18322db4f0a95d249b02" change="1704128584" id="S0682">
+      <stitle>Viipuri Henkikirjojen aakkoshakemistot 1919-1923</stitle>
+      <sauthor>Viipurin kaupungin henkikirjoittaja</sauthor>
+      <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1702592194" id="P0000" type="City">
@@ -52966,7 +52986,7 @@
       <rname>Billiongraves</rname>
       <type>Library</type>
     </repository>
-    <repository handle="_f5dc19ee7d07e822ec5f7a37d7" change="1704125072" id="R0018">
+    <repository handle="_f5dc19ee7d07e822ec5f7a37d7" change="1704128582" id="R0018">
       <rname>Astia</rname>
       <type>Library</type>
       <url  href="https://astia.narc.fi/uusiastia/" type="Web Home"/>
@@ -79376,6 +79396,36 @@ Stordell, K. E., sockerbruksarbetare, Tölö sockerbruk.
       <text>https://digihakemisto.net/item/2112466753/7458744467/548</text>
       <style name="link" value="https://digihakemisto.net/item/2112466753/7458744467/548">
         <range start="0" end="56"/>
+      </style>
+    </note>
+    <note handle="_f7fbbce3fc137335b07eba7b42f" change="1704128611" id="N3413" type="Citation">
+      <text>Viipurin kaupungin henkikirjoittajan arkisto. B LUETTELOT. Bb Henkikirjojen aakkoshakemistot. Bb:13 Henkikirjojen aakkoshakemistot, IV Monthan - Rosilainen  (1919-1923). Tiedosto 34. Kansallisarkisto. Viitattu 1.1.2024.</text>
+    </note>
+    <note handle="_f7fbbd3ea6a663b8a57da6a90cd" change="1704128649" id="N3414" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=6025372507&amp;aineistoId=320158695</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=6025372507&amp;aineistoId=320158695">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f7fbc1115536e8d32063268c6ce" change="1704129049" id="N3415" type="Transcript" format="1">
+      <text>958
+
+Nordberg                         1919      1920      1921      1922      1923
+Emil                             3/93      3/93      3/93
+Hilda    vaimo 69                3/93      3/93      3/93      3/93      3/93
+Ragnar                           1/121
+Alina, palv. 00                            9/12,16   9/12,16   9/12,16
+Tyyne   konttor (ylioppil) 01                        3/93      10/22     10/22
+Tyyne                      01                                            3/93
+Elvira                     04                                            3/93</text>
+      <style name="bold">
+        <range start="5" end="82"/>
+      </style>
+      <style name="underline">
+        <range start="5" end="13"/>
+      </style>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="563"/>
       </style>
     </note>
   </notes>
