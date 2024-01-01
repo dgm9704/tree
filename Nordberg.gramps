@@ -59,12 +59,12 @@
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_defd4ef44e8217ef8763f006265"/>
     </event>
-    <event handle="_cb589cc80bc13411880" change="1517751663" id="E0022">
+    <event handle="_cb589cc80bc13411880" change="1704139484" id="E0022">
       <type>Birth</type>
       <dateval val="1908-08-30"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
     </event>
-    <event handle="_cb589cc80c5504487cd" change="1628151440" id="E0023">
+    <event handle="_cb589cc80c5504487cd" change="1704139676" id="E0023">
       <type>Death</type>
       <dateval val="1964-06-02"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
@@ -7088,7 +7088,7 @@
       <place hlink="_cb589cc805307692607"/>
       <citationref hlink="_dcf29dcf1c869cd4cd7fcc76d16"/>
     </event>
-    <event handle="_cb589cfbddb6cde6610" change="1658580872" id="E7048">
+    <event handle="_cb589cfbddb6cde6610" change="1704139441" id="E7048">
       <type>Marriage</type>
       <dateval val="1932-05-05"/>
     </event>
@@ -8168,7 +8168,7 @@
       <type>Birth</type>
       <dateval val="1900-08-03"/>
     </event>
-    <event handle="_cea5c19ee174434494c" change="1420070708" id="E3096">
+    <event handle="_cea5c19ee174434494c" change="1704140003" id="E3096">
       <type>Death</type>
       <dateval val="1969-01-06"/>
     </event>
@@ -15844,7 +15844,7 @@
       <citationref hlink="_f165af297f82860ea96b8e7cf69"/>
       <citationref hlink="_f165b197f243ea3054cc954406"/>
     </event>
-    <event handle="_f167084fd5ee8e818e221517bd" change="1658905450" id="E0553">
+    <event handle="_f167084fd5ee8e818e221517bd" change="1704139477" id="E0553">
       <type>Name change</type>
       <dateval val="1936-12-05"/>
       <place hlink="_cb589cfeb254c33cda1"/>
@@ -17341,6 +17341,12 @@
       <citationref hlink="_f7fbc1357114378a2846293d8c2"/>
       <citationref hlink="_f7fbcaebf521992038b0c684604"/>
     </event>
+    <event handle="_f7fc23c6acc6ffdf5399da0ceb1" change="1704139417" id="E0867">
+      <type>Marriage Banns</type>
+      <dateval val="1932-04-16"/>
+      <place hlink="_f7fc1e1ef9d7482f12ddcd603c9"/>
+      <citationref hlink="_f7fc23bbac01fccb23d6267a379"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1658869228" id="I3858">
@@ -17417,7 +17423,7 @@
       <eventref hlink="_defd5053ddb439af1ea43226186" role="Primary"/>
       <childof hlink="_cb589cc7f9c792dc427"/>
     </person>
-    <person handle="_cb589cc80b85ba4f528" change="1658905172" id="I5313">
+    <person handle="_cb589cc80b85ba4f528" change="1704138501" id="I5313">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Paul Wilhelm Waldemar</first>
@@ -17433,8 +17439,8 @@
         <citationref hlink="_f16706680e42f462d7e5d8ef352"/>
       </name>
       <eventref hlink="_cb589cc80bc13411880" role="Primary"/>
-      <eventref hlink="_cb589cc80c5504487cd" role="Primary"/>
       <eventref hlink="_f167084fd5ee8e818e221517bd" role="Family"/>
+      <eventref hlink="_cb589cc80c5504487cd" role="Primary"/>
       <childof hlink="_cb589cc7f9c792dc427"/>
       <parentin hlink="_cb589cc80ce75a0e92d"/>
     </person>
@@ -26810,7 +26816,7 @@
       <eventref hlink="_df80eadf55f4e52f88b7962cc00" role="Primary"/>
       <parentin hlink="_cb589ccecf0511c8c37"/>
     </person>
-    <person handle="_cea5c238f8e496d74db" change="1658911761" id="I1391">
+    <person handle="_cea5c238f8e496d74db" change="1704140102" id="I1391">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Alli Adele</first>
@@ -30198,7 +30204,7 @@
       <eventref hlink="_f15b6b630bc3c9f64263ccd6615" role="Primary"/>
       <childof hlink="_f14f48fe16113ce0450a9a5147b"/>
     </person>
-    <person handle="_f1670ad95187db22e5b0304a15a" change="1658905889" id="I0136">
+    <person handle="_f1670ad95187db22e5b0304a15a" change="1704139443" id="I0136">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Paavo Juhani</first>
@@ -30863,10 +30869,11 @@
       <childref hlink="_cb589cc85f624f18676"/>
       <childref hlink="_cb589cc861266c77e32"/>
     </family>
-    <family handle="_cb589cc80ce75a0e92d" change="1658905889" id="F1949">
+    <family handle="_cb589cc80ce75a0e92d" change="1704139443" id="F1949">
       <rel type="Married"/>
       <father hlink="_cb589cc80b85ba4f528"/>
       <mother hlink="_cea5c238f8e496d74db"/>
+      <eventref hlink="_f7fc23c6acc6ffdf5399da0ceb1" role="Family"/>
       <eventref hlink="_cb589cfbddb6cde6610" role="Family"/>
       <childref hlink="_f1670ad95187db22e5b0304a15a"/>
     </family>
@@ -46391,6 +46398,16 @@
       <noteref hlink="_f7fbd99921bba745f869b082ea"/>
       <sourceref hlink="_f7fbc8eb33361230853f0025644"/>
     </citation>
+    <citation handle="_f7fc23bbac01fccb23d6267a379" change="1704139395" id="C1684">
+      <dateval val="1932-04-16"/>
+      <page>1932-42/8</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7fc1f77d865f57d53e5640c215"/>
+      <noteref hlink="_f7fc1fccfb41f51b296e71f9d75"/>
+      <noteref hlink="_f7fc22220202ebb274f2199a939"/>
+      <noteref hlink="_f7fc23ad6f260de4cc386a84461"/>
+      <sourceref hlink="_f7fc1f146f4702698eef8ad3fad"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -49833,6 +49850,12 @@
       <sauthor>Viipurin lääni</sauthor>
       <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
     </source>
+    <source handle="_f7fc1f146f4702698eef8ad3fad" change="1704138907" id="S0684">
+      <stitle>Käkisalmen sanomat</stitle>
+      <sauthor>Kaakkois-Karjalan Kirjapaino Oy</sauthor>
+      <spubinfo>Käkisalmi 19.11.1906 - 29.11.1939</spubinfo>
+      <reporef hlink="_cdea68c6afd7d08bd3f" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1702592194" id="P0000" type="City">
@@ -50448,7 +50471,7 @@
       <pname value="Biskopsnäs"/>
       <placeref hlink="_ceac1478b0919bf2446"/>
     </placeobj>
-    <placeobj handle="_cb589cfeb254c33cda1" change="1702927561" id="P0618" type="Country">
+    <placeobj handle="_cb589cfeb254c33cda1" change="1704138804" id="P0618" type="Country">
       <pname value="Suomi"/>
       <pname value="Finland" lang="sv"/>
     </placeobj>
@@ -52968,6 +52991,10 @@
       <pname value="Lallukankatu 4"/>
       <placeref hlink="_cde62768b9e01659bdc"/>
     </placeobj>
+    <placeobj handle="_f7fc1e1ef9d7482f12ddcd603c9" change="1704138807" id="P0260" type="Parish">
+      <pname value="Rautu"/>
+      <placeref hlink="_cb589cfeb254c33cda1"/>
+    </placeobj>
   </places>
   <repositories>
     <repository handle="_cdea29a49637c6553bc" change="1672241850" id="R0001">
@@ -52980,7 +53007,7 @@
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
     </repository>
-    <repository handle="_cdea68c6afd7d08bd3f" change="1690996842" id="R0003">
+    <repository handle="_cdea68c6afd7d08bd3f" change="1704138906" id="R0003">
       <rname>Kansalliskirjasto digitoidut aineistot</rname>
       <type>Web site</type>
       <url  href="http://digi.lib.helsinki.fi/" type="Web Home"/>
@@ -72511,23 +72538,27 @@ että &quot;Anna Helena Fagerström&quot; on virhe (sotkettu äidin ja tyttären
     <note handle="_f157a9fc320298e50365065b679" change="1658492602" id="N2301" type="Link">
       <text>https://astia.narc.fi/uusiastia/viewer/?fileId=6227276492&amp;aineistoId=1846523234</text>
     </note>
-    <note handle="_f1580ce359b25b93c5e6deeb24e" change="1658502972" id="N2302" type="Transcript" format="1">
+    <note handle="_f1580ce359b25b93c5e6deeb24e" change="1704139667" id="N2302" type="Transcript" format="1">
       <text>[risti]
-					     KAPTEENI evp.
-					        Paul W. W.
-					      NOROVUORI
-					* 30. 8. 1908 Viipurissa
-					†    2. 6. 1964 Helsingissä
+            KAPTEENI evp.
+            Paul W. W.
+             NOROVUORI
 
-					    Rakkaudella muistaen
-					    Alli o.s. Wahrman
-					    Paavo, Anita ja Pentti
-					    Marjatta sekä
-					    muut omaiset
+       * 30. 8. 1908 Viipurissa
+       †  2. 6. 1964 Helsingissä
+
+         Rakkaudella muistaen
+         Alli o.s. Wahrman
+         Paavo, Anita ja Pentti
+         Marjatta sekä
+         muut omaiset
 -------------------------------------------------------------
 Siunaustilaisuus pidetään Lohjan siunauskappelissa kesä-
 kuun 13 pnä klo 14.00, joka ainoastaan täten ystävällisenä
 kutsuna ilmoitetaan.</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="479"/>
+      </style>
     </note>
     <note handle="_f1580d2cab23e39301286c0a692" change="1658503002" id="N2303" type="Link">
       <text>https://drive.google.com/drive/folders/0B2JbCJkLtH0DaXBJWVF6NHR5cXc</text>
@@ -79574,6 +79605,41 @@ Pantsarlahti  22  Katariinan  36
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="168"/>
+      </style>
+    </note>
+    <note handle="_f7fc1f77d865f57d53e5640c215" change="1704138948" id="N3428" type="Citation">
+      <text>Käkisalmen Sanomat, 16.04.1932, nro 42, s. 8
+https://digi.kansalliskirjasto.fi/sanomalehti/binding/1737281?page=8
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f7fc1fccfb41f51b296e71f9d75" change="1704138983" id="N3429" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/1737281?page=8</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/sanomalehti/binding/1737281?page=8">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_f7fc22220202ebb274f2199a939" change="1704139227" id="N3430" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/1737281/articles/81613242</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/sanomalehti/binding/1737281/articles/81613242">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f7fc23ad6f260de4cc386a84461" change="1704139389" id="N3431" type="Transcript" format="1">
+      <text>Lauantaina, huhtikuun 16 päivänä          KÄKISALMEN SANOMAT          N:o 42 - 1932
+
+Kirkollisia ilmoituksia
+RAUTU
+
+Avioliittoon kuulutettuja:
+[...]reservivänrikki Paul Vilhelm
+Valdemar Nordberg Nittyjärveltä ja 
+ylietsivän leski Alli Adele Savi, [sic]
+o.s. Vahrman Raasulista.
+
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="279"/>
       </style>
     </note>
   </notes>
