@@ -63,11 +63,12 @@
       <place hlink="_d3e2c11182f10b3b01005b446e"/>
       <citationref hlink="_d3e2c5b24e2332dcde038477c12"/>
     </event>
-    <event handle="_d3e2d7f222375bdafaa0a3f9ccc" change="1704151870" id="E0009">
+    <event handle="_d3e2d7f222375bdafaa0a3f9ccc" change="1704196880" id="E0009">
       <type>Death</type>
       <dateval val="1927-06-22"/>
       <place hlink="_f7fc8d2ea48784742ec53c03f9c"/>
       <citationref hlink="_d3e2c5b24e2332dcde038477c12"/>
+      <citationref hlink="_f7fe47de01aaf5b48f32a37cad"/>
       <citationref hlink="_f7fc7f2370b7d4c7c180e278bd5"/>
       <citationref hlink="_f7fc877a8252ffa13655f985851"/>
     </event>
@@ -76,20 +77,23 @@
       <dateval val="1920-12-19"/>
       <citationref hlink="_d3e2c5b24e2332dcde038477c12"/>
     </event>
-    <event handle="_d3e2d8e240e10758a7571fb11b9" change="1704156149" id="E0011">
+    <event handle="_d3e2d8e240e10758a7571fb11b9" change="1704193884" id="E0011">
       <type>Birth</type>
       <dateval val="1921-12-02"/>
       <citationref hlink="_d3e2c5b24e2332dcde038477c12"/>
+      <citationref hlink="_f7fe1a91d4c48a25dffc6629aaf"/>
     </event>
-    <event handle="_d3e2d9351f762566bc5ec70e74d" change="1704156134" id="E0012">
+    <event handle="_d3e2d9351f762566bc5ec70e74d" change="1704198214" id="E0012">
       <type>Birth</type>
       <dateval val="1923-01-07"/>
       <citationref hlink="_d3e2c5b24e2332dcde038477c12"/>
     </event>
-    <event handle="_d3e2d95df1d51de1c902dab7fdf" change="1704156138" id="E0013">
+    <event handle="_d3e2d95df1d51de1c902dab7fdf" change="1704198184" id="E0013">
       <type>Death</type>
       <dateval val="1923-11-04"/>
+      <place hlink="_d3e2d0c8ea71c43ae80aa251c09"/>
       <citationref hlink="_d3e2c5b24e2332dcde038477c12"/>
+      <citationref hlink="_f7fe5379d9e1986bfac2875ed7b"/>
     </event>
     <event handle="_d3e2e687ad22f6874e40674c82f" change="1456078893" id="E0014">
       <type>Birth</type>
@@ -608,6 +612,30 @@
       <place hlink="_f7fc9b2b86b2220517646883c0a"/>
       <citationref hlink="_f7fc9e3edc8b05ad4b6f9a73c5"/>
     </event>
+    <event handle="_f7fe4f0b21fde8f052e5d8d8c8" change="1704197624" id="E0094">
+      <type>Birth</type>
+      <dateval val="1925-10-14"/>
+      <place hlink="_f7fe4d0333629b826f0741a6b83"/>
+      <citationref hlink="_f7fe4eee01f2b6008dae04c0309"/>
+    </event>
+    <event handle="_f7fe4f48fa763be875f285869b9" change="1704197698" id="E0095">
+      <type>Death</type>
+      <dateval val="1925-10-14"/>
+      <place hlink="_f7fe4d0333629b826f0741a6b83"/>
+      <citationref hlink="_f7fe4eee01f2b6008dae04c0309"/>
+    </event>
+    <event handle="_f7fe4ff69622d982a04296a55f3" change="1704197720" id="E0096">
+      <type>Burial</type>
+      <dateval val="1925-10-18"/>
+      <place hlink="_d3e2d0c8ea71c43ae80aa251c09"/>
+      <citationref hlink="_f7fe4eee01f2b6008dae04c0309"/>
+    </event>
+    <event handle="_f7fe542f4ef7985f0724463d68f" change="1704198163" id="E0097">
+      <type>Burial</type>
+      <dateval val="1923-11-07"/>
+      <place hlink="_d3e2d0c8ea71c43ae80aa251c09"/>
+      <citationref hlink="_f7fe5379d9e1986bfac2875ed7b"/>
+    </event>
   </events>
   <people home="_d3e2cb53102289a188f6854ea2f">
     <person handle="_d3e2c07ec2f228cec208b3e2ff6" change="1704156502" id="I0000">
@@ -662,7 +690,7 @@
       <eventref hlink="_f7fc9e4eed2468e64016f27605c" role="Primary"/>
       <parentin hlink="_d3e2d81a4d9f2712672fc66d77"/>
     </person>
-    <person handle="_d3e2d8893211776e9514a9d96ba" change="1456070462" id="I0003">
+    <person handle="_d3e2d8893211776e9514a9d96ba" change="1704197742" id="I0003">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Irma Marjatta</first>
@@ -671,7 +699,7 @@
       <eventref hlink="_d3e2d8e240e10758a7571fb11b9" role="Primary"/>
       <childof hlink="_d3e2d81a4d9f2712672fc66d77"/>
     </person>
-    <person handle="_d3e2d8fb671473f0ea8b764cea3" change="1456070425" id="I0004">
+    <person handle="_d3e2d8fb671473f0ea8b764cea3" change="1704198221" id="I0004">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Eine Mirjam</first>
@@ -679,6 +707,7 @@
       </name>
       <eventref hlink="_d3e2d9351f762566bc5ec70e74d" role="Primary"/>
       <eventref hlink="_d3e2d95df1d51de1c902dab7fdf" role="Primary"/>
+      <eventref hlink="_f7fe542f4ef7985f0724463d68f" role="Primary"/>
       <childof hlink="_d3e2d81a4d9f2712672fc66d77"/>
     </person>
     <person handle="_d3e2e510ccb26633a3e0edc9985" change="1456266059" id="I0005">
@@ -979,6 +1008,16 @@
       </name>
       <parentin hlink="_d3f01935369756bf3d89131cabf"/>
     </person>
+    <person handle="_f7fe4975e1328bc556baa532bfa" change="1704197742" id="I0035">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <surname derivation="Unknown">Lavi</surname>
+      </name>
+      <eventref hlink="_f7fe4f0b21fde8f052e5d8d8c8" role="Primary"/>
+      <eventref hlink="_f7fe4f48fa763be875f285869b9" role="Primary"/>
+      <eventref hlink="_f7fe4ff69622d982a04296a55f3" role="Primary"/>
+      <childof hlink="_d3e2d81a4d9f2712672fc66d77"/>
+    </person>
   </people>
   <families>
     <family handle="_d3e2d02cc692377fd65f3abadff" change="1456070068" id="F0000">
@@ -991,13 +1030,14 @@
       <eventref hlink="_d3e2d5239e0731fc2a669a9bce7" role="Family"/>
       <eventref hlink="_d3e2d616058fdfecb6fa34b049" role="Family"/>
     </family>
-    <family handle="_d3e2d81a4d9f2712672fc66d77" change="1456070425" id="F0001">
+    <family handle="_d3e2d81a4d9f2712672fc66d77" change="1704197742" id="F0001">
       <rel type="Married"/>
       <father hlink="_d3e2d69c6d425110b1f7db46cd8"/>
       <mother hlink="_d3e2cb53102289a188f6854ea2f"/>
       <eventref hlink="_d3e2d86c5c5464deb736b477686" role="Family"/>
       <childref hlink="_d3e2d8893211776e9514a9d96ba"/>
       <childref hlink="_d3e2d8fb671473f0ea8b764cea3"/>
+      <childref hlink="_f7fe4975e1328bc556baa532bfa"/>
     </family>
     <family handle="_d3e2e75066755ea71ea35161ff7" change="1456073547" id="F0002">
       <rel type="Married"/>
@@ -1511,6 +1551,41 @@
       <noteref hlink="_f7fc9e387f527146f8f9be5d15e"/>
       <sourceref hlink="_f7fc9bc759468a93b38668b85b6"/>
     </citation>
+    <citation handle="_f7fe1a91d4c48a25dffc6629aaf" change="1704192121" id="C0006">
+      <page>921/49</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7fe18128104e2aaa8bee180932"/>
+      <noteref hlink="_f7fe18451b93a921267a1f2e0e8"/>
+      <noteref hlink="_f7fe1990fc121e941e5c8442032"/>
+      <sourceref hlink="_f7fe16d3a6e3aba92adccf19bdd"/>
+    </citation>
+    <citation handle="_f7fe47de01aaf5b48f32a37cad" change="1704196871" id="C0007">
+      <page>I F:6/32</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7fe461adf978da2a4efcd6fe54"/>
+      <noteref hlink="_f7fe466ab362c7059a446a4fe8c"/>
+      <noteref hlink="_f7fe46926a23c0fed2fd5dcf791"/>
+      <noteref hlink="_f7fe478bf6d21472e94216570cc"/>
+      <sourceref hlink="_f7fe45b80b154b033536a7d4b1f"/>
+    </citation>
+    <citation handle="_f7fe4eee01f2b6008dae04c0309" change="1704197612" id="C0072">
+      <page>I F:6/28</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7fe4d73b451568f21db6f99034"/>
+      <noteref hlink="_f7fe4d97f704e9e729db39e7cd8"/>
+      <noteref hlink="_f7fe4db7c69580d7b939b09e580"/>
+      <noteref hlink="_f7fe4ed3be144f2bef012207d03"/>
+      <sourceref hlink="_f7fe45b80b154b033536a7d4b1f"/>
+    </citation>
+    <citation handle="_f7fe5379d9e1986bfac2875ed7b" change="1704198089" id="C0073">
+      <page>I F:6/22</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7fe51aa2ea76527b641d398254"/>
+      <noteref hlink="_f7fe51cf4cb13fb59dc53adb988"/>
+      <noteref hlink="_f7fe51fd7e237524678785fd02f"/>
+      <noteref hlink="_f7fe537277f67322cf4a0a7a869"/>
+      <sourceref hlink="_f7fe45b80b154b033536a7d4b1f"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_d3e2c5789215c4d3be1fc047008" change="1456068306" id="S0000">
@@ -1774,6 +1849,16 @@
       <stitle>Hautakivi Lavi Hämeenlinna</stitle>
       <reporef hlink="_f7fc9bbfa4f26760c2118773b95" medium="Book"/>
     </source>
+    <source handle="_f7fe16d3a6e3aba92adccf19bdd" change="1704191729" id="S0052">
+      <stitle>Rautu Syntyneet 1919-1943</stitle>
+      <sauthor>Raudun seurakunta</sauthor>
+      <reporef hlink="_d3e9db5c61f6d41d45ed48a91f2" medium="Book"/>
+    </source>
+    <source handle="_f7fe45b80b154b033536a7d4b1f" change="1704196646" id="S0053">
+      <stitle>Rautu Kuolleet 1918-1956</stitle>
+      <sauthor>Raudun seurakunta</sauthor>
+      <reporef hlink="_f7fe45b570a2f425feafefb404c" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_d3e2c10ac977a21dbf8985b2adc" change="1704150450" id="P0000" type="Country">
@@ -1795,7 +1880,7 @@
       <pname value="Saarois"/>
       <placeref hlink="_d3e2c5e9a2d516e4b50d253e110"/>
     </placeobj>
-    <placeobj handle="_d3e2d0c8ea71c43ae80aa251c09" change="1456075252" id="P0005" type="Parish">
+    <placeobj handle="_d3e2d0c8ea71c43ae80aa251c09" change="1704197409" id="P0005" type="Parish">
       <pname value="Rautu"/>
       <placeref hlink="_d3e2c10ac977a21dbf8985b2adc"/>
     </placeobj>
@@ -1947,6 +2032,10 @@
       <pname value="Ahveniston hautausmaa"/>
       <placeref hlink="_f7fc8d2bf68c26f5fdecabb3e9"/>
     </placeobj>
+    <placeobj handle="_f7fe4d0333629b826f0741a6b83" change="1704197411" id="P0042" type="Village">
+      <pname value="Leinikkälä"/>
+      <placeref hlink="_d3e2d0c8ea71c43ae80aa251c09"/>
+    </placeobj>
   </places>
   <repositories>
     <repository handle="_d3e2c529296430aec16e11d8c2" change="1456068568" id="R0000">
@@ -1961,9 +2050,9 @@
       <rname>Digitaaliarkisto</rname>
       <type>Unknown</type>
     </repository>
-    <repository handle="_d3e9db5c61f6d41d45ed48a91f2" change="1456266455" id="R0003">
+    <repository handle="_d3e9db5c61f6d41d45ed48a91f2" change="1704191728" id="R0003">
       <rname>KaTiHa</rname>
-      <type>Unknown</type>
+      <type>Web site</type>
       <url  href="http://www.karjalatk.fi/" type="Web Home"/>
       <url  href="http://www.karjalatk.fi/katiha/" type="Web Search"/>
       <url  href="http://www.karjalatk.fi/katiha2/" type="Web Search"/>
@@ -1976,6 +2065,10 @@
     <repository handle="_f7fc9bbfa4f26760c2118773b95" change="1704151980" id="R0005">
       <rname>Find a Grave</rname>
       <type>Web site</type>
+    </repository>
+    <repository handle="_f7fe45b570a2f425feafefb404c" change="1704196645" id="R0006">
+      <rname>Astia</rname>
+      <type>Library</type>
     </repository>
   </repositories>
   <notes>
@@ -2729,6 +2822,188 @@ N:o 32. 3000. 5. 79                       Kyösti Väänänen
                                           Arkistonhoitaja</text>
       <style name="fontface" value="Monospace">
         <range start="0" end="1612"/>
+      </style>
+    </note>
+    <note handle="_f7fe18128104e2aaa8bee180932" change="1704192033" id="N0096" type="Citation">
+      <text>Rautu / Syntyneiden ja kastettujen luettelot / Sidos 921 / Sivu 49 / Irma Marjatta Lavi ; Karjala-tietokanta https://katiha.kansallisarkisto.fi/henkilotieto.php?keyId=0449S19210025458 ; Viitattu 2.1.2024</text>
+    </note>
+    <note handle="_f7fe18451b93a921267a1f2e0e8" change="1704191880" id="N0097" type="Link">
+      <text>https://katiha.kansallisarkisto.fi/henkilotieto.php?keyId=0449S19210025458</text>
+      <style name="link" value="https://katiha.kansallisarkisto.fi/henkilotieto.php?keyId=0449S19210025458">
+        <range start="0" end="74"/>
+      </style>
+    </note>
+    <note handle="_f7fe1990fc121e941e5c8442032" change="1704193869" id="N0098" type="Transcript" format="1">
+      <text>Irma Marjatta Lavi
+Päätiedot
+Kenttä 	Arvo
+Seurakunta 	Rautu
+Kirkonkirja 	Syntyneiden ja kastettujen luettelot
+Sidos 	921
+Sivu 	49
+Sivu (ab) 	49B
+Rivi 	3
+Numero rivillä 	
+Asuinpaikka 	
+Ammatti 	
+Etunimi 	Irma
+Muut etunimet 	Marjatta
+Patronyymi 	
+Sukunimi 	Lavi
+Omaa sukua 	
+Sukupuoli 	nainen
+Rekisteröintinumero 	
+Rippikirjan sivu 	262
+Syntymäaika 	2.12.1921
+Synnyinseurakunta 	
+Aviosynty 	
+Monisynty 	
+Kasteaika 	19.12.1921
+Kasteseurakunta 	
+Kastajan ammatti 	
+Kastajan nimi 	
+Kasteen lisätieto 	
+Kasteenvahvistusaika 	
+Kasteenvahvistajan ammatti 	
+Kasteenvahvistajan nimi 	
+Kasteenvahvistusseurakunta 	
+Kasteenvahvistuksen lisätieto 	
+Vihkiaika 	
+Kuoleman lisätieto 	
+Lapsijärjestys 	
+Yliviivaus 	
+Huomautustiedot
+Kenttä 	Arvo
+muut huomautukset 	Äidin sukunimen jälkeen suluis
+muut huomautukset 	sa (asem.)?
+Vanhempien tiedot
+Kenttä 	Arvo
+Asuinpaikka 	
+Isän ammatti 	E.K.poliisin paikallispääl.Vänrikki
+Isän etunimi 	Aarne
+Isän patronyymi 	
+Isän sukunimi 	Lavi
+Isän syntymäaika 	
+Isän ikä 	
+Isän siviilisääty 	naimaton
+Isän kotiseurakunta 	
+Äidin ammatti 	Vo.
+Äidin etunimi 	Aili Adéle
+Äidin patronyymi 	
+Äidin sukunimi 	Wahrman
+Äidin omaa sukua 	
+Äidin syntymäaika 	1900
+Äidin ikä 	21
+Äidin siviilisääty 	naimaton
+Äidin kotiseurakunta 	
+Kummien tiedot
+Kenttä 	Arvo
+Asuinpaikka 	Kotka
+Ammatti 	Neiti
+Etunimi 	Irja
+Patronyymi 	
+Sukunimi 	Lavi
+Omaa sukua 	
+Kenttä 	Arvo
+Asuinpaikka 	Viipuri
+Ammatti 	Herra
+Etunimi 	Väinö Johannes
+Patronyymi 	
+Sukunimi 	Pärnänen
+Omaa sukua 	
+Kenttä 	Arvo
+Asuinpaikka 	Rautu
+Ammatti 	Neiti
+Etunimi 	Eine Maria
+Patronyymi 	
+Sukunimi 	Wahrman
+Omaa sukua 	
+Kenttä 	Arvo
+Asuinpaikka 	Rautu
+Ammatti 	
+Etunimi 	Lauri Johannes
+Patronyymi 	
+Sukunimi 	Wahrman
+Omaa sukua 	</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="1694"/>
+      </style>
+    </note>
+    <note handle="_f7fe461adf978da2a4efcd6fe54" change="1704196687" id="N0099" type="Citation">
+      <text>Raudun seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I F Kuolleiden ja haudattujen luettelot. I F:6 Kuolleiden ja haudattujen luettelot  (1918-1956). Tiedosto 33. Kansallisarkisto. Viitattu 2.1.2024.</text>
+    </note>
+    <note handle="_f7fe466ab362c7059a446a4fe8c" change="1704196719" id="N0100" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5765762682&amp;aineistoId=1228213049</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5765762682&amp;aineistoId=1228213049">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f7fe46926a23c0fed2fd5dcf791" change="1704196735" id="N0101" type="Link">
+      <text>https://digihakemisto.net/item/1228213049/5765762682/33</text>
+      <style name="link" value="https://digihakemisto.net/item/1228213049/5765762682/33">
+        <range start="0" end="55"/>
+      </style>
+    </note>
+    <note handle="_f7fe478bf6d21472e94216570cc" change="1704196838" id="N0102" type="Transcript" format="1">
+      <text>Kuolleet ja haudatut Raudun seurakunnassa Kesäkuussa v. 1927
+
+Leinikkälä    262    22    30    Lavi, Aarne Anton, ylietsivä    30  3  -    23/3 1897    Nainut    Ammuttu    1  -
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="178"/>
+      </style>
+    </note>
+    <note handle="_f7fe4d73b451568f21db6f99034" change="1704197457" id="N0103" type="Citation">
+      <text>Raudun seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I F Kuolleiden ja haudattujen luettelot. I F:6 Kuolleiden ja haudattujen luettelot  (1918-1956). Tiedosto 29. Kansallisarkisto. Viitattu 2.1.2024.</text>
+    </note>
+    <note handle="_f7fe4d97f704e9e729db39e7cd8" change="1704197472" id="N0104" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5765762589&amp;aineistoId=1228213049</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5765762589&amp;aineistoId=1228213049">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f7fe4db7c69580d7b939b09e580" change="1704197485" id="N0105" type="Link">
+      <text>https://digihakemisto.net/item/1228213049/5765762589/29</text>
+      <style name="link" value="https://digihakemisto.net/item/1228213049/5765762589/29">
+        <range start="0" end="55"/>
+      </style>
+    </note>
+    <note handle="_f7fe4ed3be144f2bef012207d03" change="1704197601" id="N0106" type="Transcript" format="1">
+      <text>Kuolleet ja haudatut Raudun seurakunnassa lokakuussa v. 1925
+
+
+Leinikkälä    262  14  18    Pantiin multaan ylietsivä Aarne Anton Lavin ja vai-
+                             monsa Alli Adelen kuolleena synt. poikalapsi (äiti 25v.)
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="230"/>
+      </style>
+    </note>
+    <note handle="_f7fe51aa2ea76527b641d398254" change="1704197899" id="N0107" type="Citation">
+      <text>Raudun seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I F Kuolleiden ja haudattujen luettelot. I F:6 Kuolleiden ja haudattujen luettelot  (1918-1956). Tiedosto 23. Kansallisarkisto. Viitattu 2.1.2024.</text>
+    </note>
+    <note handle="_f7fe51cf4cb13fb59dc53adb988" change="1704197914" id="N0108" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5765762583&amp;aineistoId=1228213049</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5765762583&amp;aineistoId=1228213049">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f7fe51fd7e237524678785fd02f" change="1704197933" id="N0109" type="Link">
+      <text>https://digihakemisto.net/item/1228213049/5765762583/23</text>
+      <style name="link" value="https://digihakemisto.net/item/1228213049/5765762583/23">
+        <range start="0" end="55"/>
+      </style>
+    </note>
+    <note handle="_f7fe537277f67322cf4a0a7a869" change="1704198086" id="N0110" type="Transcript" format="1">
+      <text>Kuolleet ja haudatut Raudun seurakunnassa marraskuussa v. 1923
+
+                         Marraskuu
+
+Raudun     262  4  7    Ylietsivän lapsi Eine                                     Vatsatu-
+asema                   Mirjam Antonint. Lavi    -  9  27    7/1 1923    Lapsi    lehdus      -  1
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="290"/>
       </style>
     </note>
   </notes>
