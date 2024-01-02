@@ -2831,11 +2831,13 @@
       <citationref hlink="_f7ff47f24d83046d6615a5fe53f"/>
       <citationref hlink="_f7ff7973e84744fa36b24691cc6"/>
     </event>
-    <event handle="_cb589cd2a324baea9dd" change="1672431822" id="E1705">
+    <event handle="_cb589cd2a324baea9dd" change="1704230463" id="E1705">
       <type>Birth</type>
       <dateval val="1895-11-30"/>
       <place hlink="_cb589cc90f055fc9f0c"/>
+      <description>merkitty 1895-11-31</description>
       <citationref hlink="_f35eeff39a1795027bf4052795a"/>
+      <citationref hlink="_f7ff876715b4f48bd4a54634ead"/>
     </event>
     <event handle="_cb589cd2a6f03a2e402" change="1672683645" id="E1709">
       <type>Birth</type>
@@ -17397,6 +17399,12 @@
       <place hlink="_cb589cc90f055fc9f0c"/>
       <citationref hlink="_f7ff7973e84744fa36b24691cc6"/>
     </event>
+    <event handle="_f7ff880b59b2e1a76af11e4dcbf" change="1704230444" id="E0875">
+      <type>Baptism</type>
+      <dateval val="1895-12-08"/>
+      <place hlink="_cb589cc90f055fc9f0c"/>
+      <citationref hlink="_f7ff876715b4f48bd4a54634ead"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1658869228" id="I3858">
@@ -21021,13 +21029,14 @@
       <eventref hlink="_f7ff7a1157a546f99221cf0499f" role="Primary"/>
       <childof hlink="_cb589ccefb45aeec8ea"/>
     </person>
-    <person handle="_cb589cd2a2c7ab0fe28" change="1704223963" id="I3315">
+    <person handle="_cb589cd2a2c7ab0fe28" change="1704230466" id="I3315">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Ellen Ingeborg</first>
         <surname>Nikander</surname>
       </name>
       <eventref hlink="_cb589cd2a324baea9dd" role="Primary"/>
+      <eventref hlink="_f7ff880b59b2e1a76af11e4dcbf" role="Primary"/>
       <childof hlink="_cb589ccefb45aeec8ea"/>
     </person>
     <person handle="_cb589cd2a672da6d13f" change="1672765440" id="I4431">
@@ -46535,6 +46544,14 @@
       <noteref hlink="_f7ff76ebe6d27b5ddff8244e3a"/>
       <noteref hlink="_f7ff796d5bc21de740471436294"/>
       <sourceref hlink="_f35f3a785f97bd24c3e0721d350"/>
+    </citation>
+    <citation handle="_f7ff876715b4f48bd4a54634ead" change="1704230377" id="C1693">
+      <page>C:15/212-213</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7ff84a858e2f114fa3d0b57653"/>
+      <noteref hlink="_f7ff84c604b64d16b0501bd677e"/>
+      <noteref hlink="_f7ff8761bd3268432b8d93058ac"/>
+      <sourceref hlink="_f35f3c41b4359035270d850c2ba"/>
     </citation>
   </citations>
   <sources>
@@ -79885,7 +79902,7 @@ Hu Maria Lovisa Nordberg    24/8 1855              }
         <range start="0" end="161"/>
       </style>
     </note>
-    <note handle="_f7ff44c77b63d9f8b1782bcb4c4" change="1704223391" id="N3445" type="Transcript" format="1">
+    <note handle="_f7ff44c77b63d9f8b1782bcb4c4" change="1704229732" id="N3445" type="Transcript" format="1">
       <text>27          Andersböle
 
 Smeds
@@ -79893,9 +79910,10 @@ Smeds
 B:bo Gustaf Adolf Nikander  31/7  1855  Nummis
 Hu Maria Lovisa Nordberg    24/8  1855  Borgå lf                    hustrun avk.
 dr Fanny Maria              13/9  1892  do           1908
-dr Ellen Ingeborg           31/11 1895  do</text>
+dr Ellen Ingeborg           31/11 1895  do
+                            [sic]</text>
       <style name="fontface" value="Monospace">
-        <range start="0" end="259"/>
+        <range start="0" end="293"/>
       </style>
     </note>
     <note handle="_f7ff468449d4a24daf1e47005a4" change="1704223573" id="N3446" type="Citation">
@@ -80012,6 +80030,31 @@ Sept  13  15  400  Fanny Maria. Par: Arb. Gustaf Adolf
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="469"/>
+      </style>
+    </note>
+    <note handle="_f7ff84a858e2f114fa3d0b57653" change="1704230089" id="N3459" type="Citation">
+      <text>Porvoo maaseurakunta syntyneet 1893-1900 (AP I C:15)  Sivu 212  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38696&amp;pnum=109 / Viitattu 02.01.2024</text>
+    </note>
+    <note handle="_f7ff84c604b64d16b0501bd677e" change="1704230101" id="N3460" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38696&amp;pnum=109</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38696&amp;pnum=109">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f7ff8761bd3268432b8d93058ac" change="1704230375" id="N3461" type="Transcript" format="1">
+      <text>212    Födde och döpte inom Borgå landsförsamling år 1895
+
+[Nov]  31  8/12  10  Ellen Ingeborg Par. Inh Gust. Adolf Ni
+      [sic]          kander och hu Maria Lovisa Nordberg
+                     från Andersböle Smeds - Test. Bbon Joh
+                     Forsblom mhu Sofia Karolina Frejborg
+                     från Norrveckoski, bondesn Otto Edvard Jo
+                     hansson fr. Norrveckoski Hannusas,
+                     bondedr Fanny Matilda Brunberg
+                     från Andersböle
+                                   Döpt af K.M. Olander           - 1  30</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="575"/>
       </style>
     </note>
   </notes>
