@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2024-01-02" version="5.1.6"/>
+    <created date="2024-01-03" version="5.1.6"/>
     <researcher>
     </researcher>
   </header>
@@ -17405,6 +17405,17 @@
       <place hlink="_cb589cc90f055fc9f0c"/>
       <citationref hlink="_f7ff876715b4f48bd4a54634ead"/>
     </event>
+    <event handle="_f7ffcffcea65dbac02a1a0a913c" change="1704238021" id="E0876">
+      <type>Birth</type>
+      <dateval val="1891" quality="calculated"/>
+      <citationref hlink="_f7ffcfed92178bf14ec8e3d3763"/>
+    </event>
+    <event handle="_f7ffd08d6e460184fe86927150" change="1704238047" id="E0877">
+      <type>Marriage</type>
+      <dateval val="1918-11-24"/>
+      <place hlink="_cb589cc90f055fc9f0c"/>
+      <citationref hlink="_f7ffcfed92178bf14ec8e3d3763"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1658869228" id="I3858">
@@ -21019,7 +21030,7 @@
       <eventref hlink="_cb589cd29c84e835894" role="Primary"/>
       <childof hlink="_cb589cceeec505a384b"/>
     </person>
-    <person handle="_cb589cd2a0578278d71" change="1704228996" id="I5362">
+    <person handle="_cb589cd2a0578278d71" change="1704237994" id="I5362">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Fanny Maria</first>
@@ -21028,6 +21039,7 @@
       <eventref hlink="_cb589cd2a0b5fb3f09c" role="Primary"/>
       <eventref hlink="_f7ff7a1157a546f99221cf0499f" role="Primary"/>
       <childof hlink="_cb589ccefb45aeec8ea"/>
+      <parentin hlink="_f7ffcbecd7d268b9a0a1938a52f"/>
     </person>
     <person handle="_cb589cd2a2c7ab0fe28" change="1704230466" id="I3315">
       <gender>F</gender>
@@ -30882,6 +30894,15 @@
       <eventref hlink="_f7ff72f670f628031b607963b96" role="Primary"/>
       <childof hlink="_cb589ccefb45aeec8ea"/>
     </person>
+    <person handle="_f7ffcc57c0f319e2b512ebbec65" change="1704237994" id="I0191">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Gunnar Waldemar</first>
+        <surname>Bäckström</surname>
+      </name>
+      <eventref hlink="_f7ffcffcea65dbac02a1a0a913c" role="Primary"/>
+      <parentin hlink="_f7ffcbecd7d268b9a0a1938a52f"/>
+    </person>
   </people>
   <families>
     <family handle="_cb589cc7f9c792dc427" change="1658869228" id="F1472">
@@ -34539,6 +34560,12 @@
       <childref hlink="_f7cb0915274f64b5c8e1acb449"/>
       <childref hlink="_f150a2d991d3883684f326f0686"/>
       <childref hlink="_f7cb099c5715529b7652e20cb8a"/>
+    </family>
+    <family handle="_f7ffcbecd7d268b9a0a1938a52f" change="1704238061" id="F0039">
+      <rel type="Married"/>
+      <father hlink="_f7ffcc57c0f319e2b512ebbec65"/>
+      <mother hlink="_cb589cd2a0578278d71"/>
+      <eventref hlink="_f7ffd08d6e460184fe86927150" role="Family"/>
     </family>
   </families>
   <citations>
@@ -46553,6 +46580,14 @@
       <noteref hlink="_f7ff8761bd3268432b8d93058ac"/>
       <sourceref hlink="_f35f3c41b4359035270d850c2ba"/>
     </citation>
+    <citation handle="_f7ffcfed92178bf14ec8e3d3763" change="1704237982" id="C1694">
+      <page>Eb:6/254-255</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7ffcd8f6de4f2e0a43ac88899b"/>
+      <noteref hlink="_f7ffcdac09568161bd8b15fa2b5"/>
+      <noteref hlink="_f7ffcfd7b066b59d52bbdf56a5f"/>
+      <sourceref hlink="_f7ffcd5af871ba67b2be3a9e648"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -50001,6 +50036,11 @@
       <spubinfo>Käkisalmi 19.11.1906 - 29.11.1939</spubinfo>
       <reporef hlink="_cdea68c6afd7d08bd3f" medium="Book"/>
     </source>
+    <source handle="_f7ffcd5af871ba67b2be3a9e648" change="1704237712" id="S0685">
+      <stitle>Porvoo msrk Vihityt 1904-1919</stitle>
+      <sauthor>Porvoon maaseurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1704159992" id="P0000" type="City">
@@ -53148,7 +53188,7 @@
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1702930573" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1704237709" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -80055,6 +80095,28 @@ Sept  13  15  400  Fanny Maria. Par: Arb. Gustaf Adolf
                                    Döpt af K.M. Olander           - 1  30</text>
       <style name="fontface" value="Monospace">
         <range start="0" end="575"/>
+      </style>
+    </note>
+    <note handle="_f7ffcd8f6de4f2e0a43ac88899b" change="1704237734" id="N3462" type="Citation">
+      <text>Porvoo maaseurakunta vihityt 1904-1919 (AP I Eb:6)  1918 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38701&amp;pnum=130 / Viitattu 03.01.2024</text>
+    </note>
+    <note handle="_f7ffcdac09568161bd8b15fa2b5" change="1704237745" id="N3463" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38701&amp;pnum=130</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38701&amp;pnum=130">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f7ffcfd7b066b59d52bbdf56a5f" change="1704237973" id="N3464" type="Transcript" format="1">
+      <text>254
+Till äktenskap sammanvigde i Borgå Lands-församling år 1918
+
+November  24  28  Arbetaren, ungk. Gunnar Waldemar      27      [Kaksi naimatonta]
+              33  Bäckström från Andersböle Sigfrids        26
+                  och backstugudottren, jungfru Fanny
+                  Maria Nikander från Andersböle Smeds
+                           vigda av Sigurd Öhrnberg</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="371"/>
       </style>
     </note>
   </notes>
