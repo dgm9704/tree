@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2022-07-23" version="5.1.5"/>
+    <created date="2024-01-02" version="5.1.6"/>
     <researcher>
     </researcher>
   </header>
@@ -57,33 +57,36 @@
       <place hlink="_d3e2d63f6ed2f4da97beee3528d"/>
       <citationref hlink="_d3e2c5b24e2332dcde038477c12"/>
     </event>
-    <event handle="_d3e2d740edc126f4ba54f8bbe87" change="1456070171" id="E0008">
+    <event handle="_d3e2d740edc126f4ba54f8bbe87" change="1704140345" id="E0008">
       <type>Birth</type>
       <dateval val="1897-03-24"/>
       <place hlink="_d3e2c11182f10b3b01005b446e"/>
       <citationref hlink="_d3e2c5b24e2332dcde038477c12"/>
     </event>
-    <event handle="_d3e2d7f222375bdafaa0a3f9ccc" change="1456070243" id="E0009">
+    <event handle="_d3e2d7f222375bdafaa0a3f9ccc" change="1704151870" id="E0009">
       <type>Death</type>
       <dateval val="1927-06-22"/>
+      <place hlink="_f7fc8d2ea48784742ec53c03f9c"/>
       <citationref hlink="_d3e2c5b24e2332dcde038477c12"/>
+      <citationref hlink="_f7fc7f2370b7d4c7c180e278bd5"/>
+      <citationref hlink="_f7fc877a8252ffa13655f985851"/>
     </event>
-    <event handle="_d3e2d86c5c5464deb736b477686" change="1456070294" id="E0010">
+    <event handle="_d3e2d86c5c5464deb736b477686" change="1704152260" id="E0010">
       <type>Marriage</type>
       <dateval val="1920-12-19"/>
       <citationref hlink="_d3e2c5b24e2332dcde038477c12"/>
     </event>
-    <event handle="_d3e2d8e240e10758a7571fb11b9" change="1456070342" id="E0011">
+    <event handle="_d3e2d8e240e10758a7571fb11b9" change="1704156149" id="E0011">
       <type>Birth</type>
       <dateval val="1921-12-02"/>
       <citationref hlink="_d3e2c5b24e2332dcde038477c12"/>
     </event>
-    <event handle="_d3e2d9351f762566bc5ec70e74d" change="1456070376" id="E0012">
+    <event handle="_d3e2d9351f762566bc5ec70e74d" change="1704156134" id="E0012">
       <type>Birth</type>
       <dateval val="1923-01-07"/>
       <citationref hlink="_d3e2c5b24e2332dcde038477c12"/>
     </event>
-    <event handle="_d3e2d95df1d51de1c902dab7fdf" change="1456070393" id="E0013">
+    <event handle="_d3e2d95df1d51de1c902dab7fdf" change="1704156138" id="E0013">
       <type>Death</type>
       <dateval val="1923-11-04"/>
       <citationref hlink="_d3e2c5b24e2332dcde038477c12"/>
@@ -599,33 +602,56 @@
       <place hlink="_d3e3c8ae7653eeb2cb132e7f164"/>
       <citationref hlink="_d3f02e1dd5c33d8ec296c7facc4"/>
     </event>
+    <event handle="_f7fc9e4eed2468e64016f27605c" change="1704152248" id="E0093">
+      <type>Burial</type>
+      <dateval val="1927"/>
+      <place hlink="_f7fc9b2b86b2220517646883c0a"/>
+      <citationref hlink="_f7fc9e3edc8b05ad4b6f9a73c5"/>
+    </event>
   </events>
   <people home="_d3e2cb53102289a188f6854ea2f">
-    <person handle="_d3e2c07ec2f228cec208b3e2ff6" change="1456069546" id="I0000">
+    <person handle="_d3e2c07ec2f228cec208b3e2ff6" change="1704156502" id="I0000">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Paul Wilhelm Waldemar</first>
         <surname derivation="Inherited">Nordberg</surname>
-        <surname prim="0" derivation="Taken">Norovuori</surname>
+      </name>
+      <name alt="1" type="Also Known As">
+        <first>Pauli Vilhelm Valdemar</first>
+        <surname>Norovuori</surname>
+        <dateval val="1936-05-07" type="after"/>
       </name>
       <eventref hlink="_d3e2c83ea18258e19ed5cc0296f" role="Primary"/>
       <eventref hlink="_d3e2caec3387ee14a12dbdf40a9" role="Primary"/>
       <parentin hlink="_d3e2d02cc692377fd65f3abadff"/>
     </person>
-    <person handle="_d3e2cb53102289a188f6854ea2f" change="1456073940" id="I0001">
+    <person handle="_d3e2cb53102289a188f6854ea2f" change="1704156444" id="I0001">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Alli Adele</first>
         <surname derivation="Inherited">Wahrman</surname>
-        <surname prim="0" derivation="Taken">Lavi</surname>
-        <surname prim="0" derivation="Taken">Norovuori</surname>
+      </name>
+      <name alt="1" type="Married Name">
+        <first>Alli Adele</first>
+        <surname derivation="Taken">Lavi</surname>
+        <datespan start="1920-12-19" stop="1932-05-05"/>
+      </name>
+      <name alt="1" type="Married Name">
+        <first>Alli Adele</first>
+        <surname derivation="Taken">Nordberg</surname>
+        <datespan start="1932-05-05" stop="1936-05-07"/>
+      </name>
+      <name alt="1" type="Married Name">
+        <first>Alli Adele</first>
+        <surname derivation="Taken">Norovuori</surname>
+        <dateval val="1936-05-07" type="after"/>
       </name>
       <eventref hlink="_d3e2cdedd9c2e05d2ddd5a08bdf" role="Primary"/>
       <childof hlink="_d3e2e75066755ea71ea35161ff7"/>
       <parentin hlink="_d3e2d02cc692377fd65f3abadff"/>
       <parentin hlink="_d3e2d81a4d9f2712672fc66d77"/>
     </person>
-    <person handle="_d3e2d69c6d425110b1f7db46cd8" change="1456070425" id="I0002">
+    <person handle="_d3e2d69c6d425110b1f7db46cd8" change="1704152265" id="I0002">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Aarne Anton</first>
@@ -633,6 +659,7 @@
       </name>
       <eventref hlink="_d3e2d740edc126f4ba54f8bbe87" role="Primary"/>
       <eventref hlink="_d3e2d7f222375bdafaa0a3f9ccc" role="Primary"/>
+      <eventref hlink="_f7fc9e4eed2468e64016f27605c" role="Primary"/>
       <parentin hlink="_d3e2d81a4d9f2712672fc66d77"/>
     </person>
     <person handle="_d3e2d8893211776e9514a9d96ba" change="1456070462" id="I0003">
@@ -1048,10 +1075,11 @@
     </family>
   </families>
   <citations>
-    <citation handle="_d3e2c5b24e2332dcde038477c12" change="1456070391" id="C0000">
+    <citation handle="_d3e2c5b24e2332dcde038477c12" change="1704156121" id="C0000">
       <dateval val="1979-09-25"/>
       <page>1</page>
       <confidence>2</confidence>
+      <noteref hlink="_f7fcc332c5d574dfa2c45e97366"/>
       <sourceref hlink="_d3e2c5789215c4d3be1fc047008"/>
     </citation>
     <citation handle="_d3e2c8157b6701f7ddf55786e77" change="1456069871" id="C0001">
@@ -1454,6 +1482,35 @@
       <noteref hlink="_d3f02e19da7a71dd148cda2215"/>
       <sourceref hlink="_d3ed4213fca3d3664fd41047161"/>
     </citation>
+    <citation handle="_f7fc7f2370b7d4c7c180e278bd5" change="1704148980" id="C0002">
+      <dateval val="1927-06-23"/>
+      <page>1927-94/5</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7fc7c1a9c85504558fcf0b7d2d"/>
+      <noteref hlink="_f7fc7c54ed0319654a15f32c5f3"/>
+      <noteref hlink="_f7fc7f1235921778ecc7163bde1"/>
+      <noteref hlink="_f7fc7ec3fcc64edfb703021d7ef"/>
+      <sourceref hlink="_f7fc7ba982722df7a83637a293f"/>
+    </citation>
+    <citation handle="_f7fc877a8252ffa13655f985851" change="1704149854" id="C0004">
+      <dateval val="1927-06-30"/>
+      <page>1927-71/2</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7fc807e1aa4ad983e947c4266"/>
+      <noteref hlink="_f7fc80a244e1fe6aef930cc48b7"/>
+      <noteref hlink="_f7fc81fe52c7c153dd76f1306e0"/>
+      <noteref hlink="_f7fc81d33d4462559370fb823f2"/>
+      <sourceref hlink="_f7fc8018be073d14262dcabff2f"/>
+    </citation>
+    <citation handle="_f7fc9e3edc8b05ad4b6f9a73c5" change="1704152242" id="C0005">
+      <dateval val="2011-06-09"/>
+      <page>71055795/aarne-anton-lavi</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7fc9c83b6864235ada88aa5466"/>
+      <noteref hlink="_f7fc9ce68a36dbbd2f12ab8c47c"/>
+      <noteref hlink="_f7fc9e387f527146f8f9be5d15e"/>
+      <sourceref hlink="_f7fc9bc759468a93b38668b85b6"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_d3e2c5789215c4d3be1fc047008" change="1456068306" id="S0000">
@@ -1701,9 +1758,25 @@
       <sauthor>Kesälahden seurakunta</sauthor>
       <reporef hlink="_d3e2e61db0a78f456d1fb960def" medium="Book"/>
     </source>
+    <source handle="_f7fc7ba982722df7a83637a293f" change="1704148615" id="S0049">
+      <stitle>Hämeen Maa</stitle>
+      <sauthor>Sanomalehti Oy Hämeen Maa</sauthor>
+      <spubinfo>Hämeenlinna 24.03.1922 -</spubinfo>
+      <reporef hlink="_f7fc7ba2f2c64446fa41bf872c3" medium="Book"/>
+    </source>
+    <source handle="_f7fc8018be073d14262dcabff2f" change="1704149080" id="S0050">
+      <stitle>Hämeen Kansa</stitle>
+      <sauthor>Oy Hämeen Kansa</sauthor>
+      <spubinfo>Hämeenlinna 10.01.1919 - 21.12.2000</spubinfo>
+      <reporef hlink="_f7fc7ba2f2c64446fa41bf872c3" medium="Book"/>
+    </source>
+    <source handle="_f7fc9bc759468a93b38668b85b6" change="1704151983" id="S0051">
+      <stitle>Hautakivi Lavi Hämeenlinna</stitle>
+      <reporef hlink="_f7fc9bbfa4f26760c2118773b95" medium="Book"/>
+    </source>
   </sources>
   <places>
-    <placeobj handle="_d3e2c10ac977a21dbf8985b2adc" change="1456428074" id="P0000" type="Country">
+    <placeobj handle="_d3e2c10ac977a21dbf8985b2adc" change="1704150450" id="P0000" type="Country">
       <pname value="Suomi"/>
     </placeobj>
     <placeobj handle="_d3e2c11182f10b3b01005b446e" change="1456067845" id="P0001" type="Town">
@@ -1862,6 +1935,18 @@
       <pname value="Rantasalmi"/>
       <placeref hlink="_d3e2c10ac977a21dbf8985b2adc"/>
     </placeobj>
+    <placeobj handle="_f7fc8d2bf68c26f5fdecabb3e9" change="1704151917" id="P0015" type="Town">
+      <pname value="Hämeenlinna"/>
+      <placeref hlink="_d3e2c10ac977a21dbf8985b2adc"/>
+    </placeobj>
+    <placeobj handle="_f7fc8d2ea48784742ec53c03f9c" change="1704150452" id="P0040" type="Building">
+      <pname value="Rauhankatu 10"/>
+      <placeref hlink="_f7fc8d2bf68c26f5fdecabb3e9"/>
+    </placeobj>
+    <placeobj handle="_f7fc9b2b86b2220517646883c0a" change="1704151919" id="P0041" type="Cemetery">
+      <pname value="Ahveniston hautausmaa"/>
+      <placeref hlink="_f7fc8d2bf68c26f5fdecabb3e9"/>
+    </placeobj>
   </places>
   <repositories>
     <repository handle="_d3e2c529296430aec16e11d8c2" change="1456068568" id="R0000">
@@ -1883,6 +1968,14 @@
       <url  href="http://www.karjalatk.fi/katiha/" type="Web Search"/>
       <url  href="http://www.karjalatk.fi/katiha2/" type="Web Search"/>
       <url  href="https://katiha.mamk.fi/" type="Web Search"/>
+    </repository>
+    <repository handle="_f7fc7ba2f2c64446fa41bf872c3" change="1704149079" id="R0004">
+      <rname>Kansalliskirjasto Digitaaliset aineistot</rname>
+      <type>Collection</type>
+    </repository>
+    <repository handle="_f7fc9bbfa4f26760c2118773b95" change="1704151980" id="R0005">
+      <rname>Find a Grave</rname>
+      <type>Web site</type>
     </repository>
   </repositories>
   <notes>
@@ -2366,6 +2459,276 @@ Kirkonkirjan sivu	570</text>
       <text>http://digi.narc.fi/digi/view.ka?kuid=27436738</text>
       <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=27436738">
         <range start="0" end="46"/>
+      </style>
+    </note>
+    <note handle="_f7fc7c1a9c85504558fcf0b7d2d" change="1704148662" id="N0084" type="Citation">
+      <text>Hämeen Maa, 23.06.1927, nro 94, s. 5
+https://digi.kansalliskirjasto.fi/sanomalehti/binding/1528579?page=5
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f7fc7c54ed0319654a15f32c5f3" change="1704148685" id="N0085" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/1528579?page=5</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/sanomalehti/binding/1528579?page=5">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_f7fc7ec3fcc64edfb703021d7ef" change="1704148941" id="N0086" type="Transcript" format="1">
+      <text>   SALAPERÄINEN VERINÄYTEL-
+      MÄ HÄMEENLINNASSA.
+Eilen aamulla tavattiin H:lin-
+nassa keskusetsiväpoliisi Lavi
+autonkuljettaja Henrikssonin asun
+nusta pää luodin lävistämänä. Yk
+sityistietä Hämeen Maan saaman
+tiedon mukaan oli etsivä Lavi tiis
+taina poikennut autonkuljettaja
+H:n ja parin tytön seurassa H:n
+asuntoon. Siellä oli H. otanut e-
+sille taskuaseen, jolloin etsivä La-
+vi oli tarttunut H:n käteen ja tas-
+kuase laukesi mainitulla tuhoisal-
+la seurauksella. Tutkimukset jat-
+kuvat. </text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="495"/>
+      </style>
+    </note>
+    <note handle="_f7fc7f1235921778ecc7163bde1" change="1704148973" id="N0087" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/1528579/articles/81613251</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/sanomalehti/binding/1528579/articles/81613251">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f7fc807e1aa4ad983e947c4266" change="1704149122" id="N0088" type="Citation">
+      <text>Hämeen Kansa, 30.06.1927, nro 71, s. 2
+https://digi.kansalliskirjasto.fi/sanomalehti/binding/1527882?page=2
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f7fc80a244e1fe6aef930cc48b7" change="1704149137" id="N0089" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/1527882?page=2</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/sanomalehti/binding/1527882?page=2">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_f7fc81d33d4462559370fb823f2" change="1704150382" id="N0090" type="Transcript" format="1">
+      <text>     Hämeenlinnassa tapah-
+        tunut ampumis-
+            tapaus.
+
+Juttu liikkeehoitaja Henrikssonia
+vastaan yleisesikunnan etsivä La-
+vin kuoleman johdosta oli eilen
+raastuvanoikeudessa käsiteltä-
+           vänä.
+
+  Viime viikon torstaita vastaan
+yöllä tapahtui Hämeenlinnassa,
+Rauhankatu 10:ssä, jossakin mää-
+rin oudoissa olosuhteissa ampu-
+mistapaus, joka nyttemmin on jou-
+tunut oikeuden käsiteltäväksi.
+Torstai-aamuna nimittäin klo 3,40
+ilmoitettiin passipoliisille, että Rau-
+hankatu 10:ssä asuvan liikkeenhoi-
+taja Yrjö Rafael Henrikssonin
+asunnossa oli yksi mies ampunut
+itsensä. Patikalle saavuttua todet-
+tiinkin että asunnossa sohvalla oli
+mies kuolleena ja tämän voi vain
+paikalle kutsuttu lääkärikin tode-
+ta. Kuula oli mennyt leuan alta
+päähän, tuottaen kuoleman. Mies
+tunnettiin yleisesikunnan palveluk-
+sessa olleeksi Aarne Laviksi. Hä-
+nen ruumiinsa siirrettiin lääninsai-
+raalan ruumishuoneeseen. Myö-
+hemmin pidätettiin kuulusteluja
+varten mainittu liiikkenhoitaja Hen-
+riksson ja jatkoi poliisi sitte asias-
+sa tutkimuksia, jotka johtivat sii-
+hen, että Henrikssonia syydettiin
+eilisessä raastuvanoikeuden istun-
+nossa taposta.
+  Oikeudessa ilmoittautui vastaa-
+jan avustajaksi varatuomari Arvi
+Kivikari ja Lavin omaisia edusti
+hovioik. ausk. Yrjö Sadeniemi.
+  Yleinen syyttäjä vaati vastaajal-
+le rangaistusta taposta ja tähän
+vaatimukseen yhtyi hovioik. ausk.
+Sadeniemi. Vastaajan asiamies
+Kivikari katsoi syytteen etsityksi
+ja vaati syytteen hylkäämistä ja
+vastaajan vapauttamista, koska
+katsoi kysymyksessä olevan tapa-
+turman, jonka Lavi itse oli aiheut-
+tanut.
+  Vastaaja oli itse poliisikuuluste-
+lussa tapahtumasta kertonut, että
+kesäk. 22 pnä klo ½5 aikaan ilta-
+päivällä oli hänen luokseen tullut
+etsivä Aarne Lavi ja toimittaja Ar-
+nold Laurell jotka olivat sitte men-
+neet hänen asuntoonsa. Klo 5 ai-
+kaan oli hän itsekin mennyt asun-
+toonsa, missä edellämainitutkin
+vielä olivat. Klo 7 aikaan oli tullut
+puhe syömään menosta, mutta sa-
+massa yhteydessä sovittiin spriin
+ostamisesta ja olikin Lavi lähtenyt
+sitä hakemaan, tuoden puoli litraa.
+Lähtivät spriitä nauttimaan Järvi-
+sen kahvilaan, jossa viipyivät noin
+45 minuuttia, jonka jälkeen palasi-
+vat vastaajan asuntoon, nauttien
+siellä spriitä klo 10 asti. Lavin
+ja Henrikssonin kesken oli aiheutu-
+nut kinastelua ja oli tällöin Laurell
+poistunut. Vastaajan oltua noin
+puolen tunnin ajan Lavin kanssa
+olivat he menneet autolla puistora-
+vintolaan, josta jälleen klo ½12 ai-
+kaan illalla olivat palanneet vas-
+taajan asuntoon, tuoden mukanaan
+kaksi ravintolan tarjoilijatarta.
+Nelisin olivat sitte nauttineet sprii-
+tä. Sen jälkeen oli Lavin ja vas-
+taajan kesken jälleen kinastelua
+naisista. Tällöin oli hän alkanut
+etsiä brovninkiaan ja muisti sen
+lopuksi olevan kirjoituspöydän
+laatikossa, vetäen laatikon auki,
+joilloin Lavi oli tullut pöydän vie-
+reen ja kun vastaaja otti brovnin-
+gin oikeaan käteensä siten, ettei
+sormi ollut liipasimiessa. niin tart-
+tui Lavi vasemmalla kädellään
+vastaajan ranteeseen ja oikealla
+kädellään nyrkin kohdalta siten,
+että Lavin peukalo oli kohti liipa-
+sinta sekä nosti Lavi nyt vastaa-
+jan kättä ylös ja itseensä päin, jol-
+loin ase laukesi ja Lavi kaatui lat-
+tialle, vastaajan jäädessä seiso-
+maan ja aseen jäädessä Lavin kä-
+teen. Vastaaja sanoi nyt nosta-
+neensa Lavin sohvalle istuvaan
+asentoon. Oli sitte mennyt naa-
+puriin ja pyytänyt soittamaan lää-
+käriä paikalle. - Heti tapahtuma-
+paikalla oli vastaaja kertonut, että
+oltuaan jonkun aikaa sänkykama-
+rissa lähti tulemaan salin puolelle,
+jolloin huomasi, että Lavi ohi sillä
+aikaa ottanut salissa olevan kirjoi-
+tuspöydän laatikosta vastaajan
+brovningin sitä jotenkin heilutellen,
+jolloin hän oli kieltänyt Lavia ja
+oikaisi kättään ottaakseen aseen
+pois, mutta ehtimättä mitään teke-
+mään oli ase Lavin kädessä lau-
+ennut ja Lavi kaatui lattialle sekä
+ettei heillä ollut silloin yöllä naisia.
+  Asiassa kuultiin todistajana m.m.
+tarjoilijatar Agda Johanssonia, jo-
+ka kertoi ennen klo 12:sta men-
+neensä Henrikssonin ja Lavin seu-
+rassa ensinmainitun asuntoon au-
+tolla. Henriksson ja Lavi olivat
+keskenään kinastelleet. Näki vas-
+taajan vetäneen auki pöytälaati-
+kon, mutta ei nähnyt mitä sitte ta-
+pahtui. kun oli lähtenyt ulos. Oli
+kuullut vastaajan aikaisemmin ky-
+selleen brovninglaan. Tunsi vas-
+taajan juopuneena äkkipikaiseksi.
+ - Tarjoilijatar Aino Lehtonen oli
+mennyt Johanssonin ja miesten
+seurassa, vastaajan asuntoon. Ker-
+toi vastaajan ja Lavin kinastelleen
+ja näki vastaajan menevän piiron-
+kia kohti ja todistajan lähdettyä
+ulospäin ja päästyä kynnykselle,
+kuuli Lavin sanovan: »kyllä minä
+tiedän että sinulla on brovninki«,
+ja tod. päästyä keittiön kautta etei-
+seen kuuli sisältä laukauksen, jol-
+loin juoksi pois. - Toisetkaan to-
+distajina kuullut eivät nähneet itse
+ampumista.
+
+Kun ruumiinavauspöytäkirjoja ei
+oltu vielä saaau lykättiin juttu hei-
+näk. 11 päivään ja vastaaja passi-
+tettiin lääninvankilaan.
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="4919"/>
+      </style>
+    </note>
+    <note handle="_f7fc81fe52c7c153dd76f1306e0" change="1704149279" id="N0091" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/1527882/articles/81613252</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/sanomalehti/binding/1527882/articles/81613252">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f7fc9c83b6864235ada88aa5466" change="1704152060" id="N0092" type="Citation">
+      <text> Find a Grave, database and images (https://www.findagrave.com/memorial/71055795/aarne-anton-lavi: accessed 02 January 2024), memorial page for Aarne Anton Lavi (23 Mar 1897–22 Jun 1927), Find a Grave Memorial ID 71055795, citing Ahvenisto Cemetery, Ahvenisto, Hämeenlinna Municipality, Tavastia Proper, Finland; Maintained by Maira (contributor 47141445). </text>
+    </note>
+    <note handle="_f7fc9ce68a36dbbd2f12ab8c47c" change="1704152101" id="N0093" type="Link">
+      <text>https://www.findagrave.com/memorial/71055795</text>
+      <style name="link" value="https://www.findagrave.com/memorial/71055795">
+        <range start="0" end="44"/>
+      </style>
+    </note>
+    <note handle="_f7fc9e387f527146f8f9be5d15e" change="1704152239" id="N0094" type="Transcript" format="1">
+      <text>[risti]           LAVI
+               AARNE ANTON
+          *23.3.1897  †22.6.1927</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="82"/>
+      </style>
+    </note>
+    <note handle="_f7fcc332c5d574dfa2c45e97366" change="1704156116" id="N0095" type="Transcript" format="1">
+      <text>&lt;leima                             VIRKATODISTUS
+Mikkelin
+Hiippakunnan                   perunkirjoitusta varten
+Tuomiokapituli&gt;        Lakkautettujen seurakuntien keskusarkistosta
+                                Mikkelin hiippakuntaa
+
+N:o 8764  Kirkonkirjan sivu 695/II vv. 1931-1940
+
+Entisen                M e t s ä p i r t i n              seurakunnan 
+jäsen, Pauli Vilhelm Valdemar N o r o v u o r i, ent. Nordberg, nimen
+muutto 7.5.1936, synt. 30.8.1908 Viipuri, hänen vaimonsa Alli Adele
+ent. Lavi, o.s. Vahrman,synt. 3.8.1900 Metsäpirtti,vihityt 5.5.1932,
+tulivat tähän seurakuntaan 9.5.1932 Raudusta, jonne mies oli  tullut
+27.2.1931 Viipurista, muuttivat 7.1.1937 Kivannavalle, josta 9.1.1938
+Terijoelle ja sieltä 11.2.1944 Lappeenrantaan. Vaimo oli vihitty I avi-
+oon 19.12.1920 Aarne Anton Lavin kanssa, synt. 23.3.1897 Helsinki,
+kuoli 22.6.1927.
+Lapsi  Pauli ja Alli Norovuon aviosta:
+pa Paavo Juhani,synt. 30.5.1935 Metsäpirtti,muutti 7.1.1937 Kiven-
+   navalle, josta 9.1.1938 Terijoelle ja sieltä edelleen 11.2.1944
+   Lappeenrantaan.
+Vaimon I aviosta lapset Aarne Lavin kanssa:
+1 tr Irma Marjatta,synt. 2.12.1921,muutti Raudusta 15.12.1931 Kotkaan,
+     josta palasi 18.2.1937 Kivennavalle, muutti 9.1.1938 Terijoelle
+     ja sieltä edelleen 11.2.1944 Lappeenrannan seurakuntaan naima-
+     tonna.
+2 tr Eine Mirjam, synt. 7.1.1923,kuoli 4.11.1923
+
+
+
+                                 Mikkelissä, syyskuun 25 päivänä 1979
+
+Lunastus 3mk -p                          &lt;Kyösti Väänänen&gt;
+N:o 32. 3000. 5. 79                       Kyösti Väänänen
+                                          Arkistonhoitaja</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="1612"/>
       </style>
     </note>
   </notes>

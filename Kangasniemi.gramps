@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2022-08-21" version="5.1.5"/>
+    <created date="2024-01-02" version="5.1.6"/>
     <researcher>
     </researcher>
   </header>
@@ -53,14 +53,14 @@
       <citationref hlink="_d39f0961e233fea5781"/>
       <citationref hlink="_d39fa27dadd35ac3ed1"/>
     </event>
-    <event handle="_d39f0aee80b5175d96f" change="1454266509" id="E0005">
+    <event handle="_d39f0aee80b5175d96f" change="1704145162" id="E0005">
       <type>Birth</type>
       <dateval val="1898-05-10"/>
       <place hlink="_d39fa3d104c4abc6a4d"/>
       <citationref hlink="_d39f0961e233fea5781"/>
       <citationref hlink="_d39fa61e28d10c328cf"/>
     </event>
-    <event handle="_d39f9c1c07603f08bee" change="1454266754" id="E0006">
+    <event handle="_d39f9c1c07603f08bee" change="1704145143" id="E0006">
       <type>Birth</type>
       <dateval val="1901-06-06"/>
       <place hlink="_d39fa3d104c4abc6a4d"/>
@@ -336,13 +336,13 @@
       <citationref hlink="_d39fbadaf7367dff069"/>
       <citationref hlink="_d3a004e79d05a44f5f1"/>
     </event>
-    <event handle="_d3accbd41fa4642b59c" change="1454619421" id="E0049">
+    <event handle="_d3accbd41fa4642b59c" change="1701118255" id="E0049">
       <type>Death</type>
       <dateval val="1928-11-23"/>
       <place hlink="_d3acc2519d73e9bb104"/>
       <citationref hlink="_d3accbbf76c31d2a4cd"/>
     </event>
-    <event handle="_d3acd7165315cf30e4d" change="1661089923" id="E0050">
+    <event handle="_d3acd7165315cf30e4d" change="1701117499" id="E0050">
       <type>Death</type>
       <dateval val="1918-04-01"/>
       <place hlink="_d3acd77fdbc222d42b4"/>
@@ -558,7 +558,7 @@
       <place hlink="_da65ed0ba084a9aced1961a92c1"/>
       <citationref hlink="_d3acf1c3b534c1bc2f3"/>
     </event>
-    <event handle="_da65ee0253c169628a904b66faf" change="1501181629" id="E0084">
+    <event handle="_da65ee0253c169628a904b66faf" change="1704144901" id="E0084">
       <type>Death</type>
       <dateval val="1919-05-29"/>
       <place hlink="_d3acf5a4a1c062eb29f"/>
@@ -605,7 +605,7 @@
       <place hlink="_d3a2d8e983e4f841713"/>
       <citationref hlink="_da68edde53e3a457c4cd31c1374"/>
     </event>
-    <event handle="_da6902655a85e2b3ec14fc0e61" change="1500903416" id="E0092">
+    <event handle="_da6902655a85e2b3ec14fc0e61" change="1701118027" id="E0092">
       <type>Residence</type>
       <datespan start="1866" stop="1870"/>
       <place hlink="_d39f029f4072f50b90e"/>
@@ -1639,6 +1639,35 @@
       <place hlink="_d3aceb649020a9ce90c"/>
       <citationref hlink="_df3447f366b144b50ddb3017045"/>
     </event>
+    <event handle="_f7fc51300491efaba76e9017192" change="1704156973" id="E0259">
+      <type>Death</type>
+      <dateval val="1997-12-09"/>
+      <citationref hlink="_f7fc5121d65485f2ecd114ee0a8"/>
+      <citationref hlink="_f7fccb50219411d6fdc34f5b794"/>
+    </event>
+    <event handle="_f7fc55c6da026c68ceabbebe764" change="1704145126" id="E0260">
+      <type>Burial</type>
+      <dateval val="1985"/>
+      <place hlink="_f7fc549856b4abdd3642627264d"/>
+      <citationref hlink="_f7fc55b9b085c15c3a95c444ddf"/>
+    </event>
+    <event handle="_f7fc568f6be680789be74f2f77" change="1704157079" id="E0261">
+      <type>Burial</type>
+      <dateval val="1998-01-03"/>
+      <place hlink="_f7fc5688e38326c4ede7026a062"/>
+      <citationref hlink="_f7fc5121d65485f2ecd114ee0a8"/>
+    </event>
+    <event handle="_f7fc59c03f15eea70340fc8bf10" change="1704145077" id="E0262">
+      <type>Burial</type>
+      <dateval val="1990"/>
+      <place hlink="_f7fc5688e38326c4ede7026a062"/>
+      <citationref hlink="_f7fc594a3fd2c0c4ca4bc340542"/>
+    </event>
+    <event handle="_f7fc5a0bb90db7a275a7dfb691" change="1704145148" id="E0263">
+      <type>Death</type>
+      <dateval val="1990"/>
+      <citationref hlink="_f7fc594a3fd2c0c4ca4bc340542"/>
+    </event>
   </events>
   <people home="_d39f9e62893689f03a0">
     <person handle="_d39f01bf22d12a2183b" change="1514730626" id="I0000">
@@ -1687,25 +1716,29 @@
       <childof hlink="_d39f01a2aca3f984f09"/>
       <parentin hlink="_da65de8052418cddf02459e3f13"/>
     </person>
-    <person handle="_d39f0a446fd684bad4d" change="1514730626" id="I0003">
+    <person handle="_d39f0a446fd684bad4d" change="1704144736" id="I0003">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Lyyli</first>
         <surname derivation="Inherited">Kangasniemi</surname>
       </name>
       <eventref hlink="_d39f0aee80b5175d96f" role="Primary"/>
+      <eventref hlink="_f7fc51300491efaba76e9017192" role="Primary"/>
+      <eventref hlink="_f7fc568f6be680789be74f2f77" role="Primary"/>
       <childof hlink="_d39f01a2aca3f984f09"/>
     </person>
-    <person handle="_d39f9bb523d6816d4e0" change="1514730626" id="I0004">
+    <person handle="_d39f9bb523d6816d4e0" change="1704145102" id="I0004">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Hilja</first>
         <surname derivation="Inherited">Kangasniemi</surname>
       </name>
       <eventref hlink="_d39f9c1c07603f08bee" role="Primary"/>
+      <eventref hlink="_f7fc5a0bb90db7a275a7dfb691" role="Primary"/>
+      <eventref hlink="_f7fc59c03f15eea70340fc8bf10" role="Primary"/>
       <childof hlink="_d39f01a2aca3f984f09"/>
     </person>
-    <person handle="_d39f9e62893689f03a0" change="1514730626" id="I0005">
+    <person handle="_d39f9e62893689f03a0" change="1704144648" id="I0005">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Johannes</first>
@@ -1713,6 +1746,7 @@
       </name>
       <eventref hlink="_d39f9ea24454620556c" role="Primary"/>
       <eventref hlink="_d3a04967f754cf1a371" role="Primary"/>
+      <eventref hlink="_f7fc55c6da026c68ceabbebe764" role="Primary"/>
       <childof hlink="_d39f01a2aca3f984f09"/>
     </person>
     <person handle="_d3a0085fd3249703bf4" change="1514831138" id="I0006">
@@ -4133,6 +4167,28 @@
       <noteref hlink="_f1b870c7c903285be5f3bb46504"/>
       <sourceref hlink="_f1b86d3f7cd52a5dd7bd7f9e6df"/>
     </citation>
+    <citation handle="_f7fc5121d65485f2ecd114ee0a8" change="1704144156" id="C0075">
+      <page>81-00-U50-00-02383/KANGASNIEMI LYYLI</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7fc511d00c445d064f5a2f2206"/>
+      <sourceref hlink="_f7fc500f8eb5ecd8fb18c72c67d"/>
+    </citation>
+    <citation handle="_f7fc55b9b085c15c3a95c444ddf" change="1704144637" id="C0169">
+      <page>05-00-041-02-00020/KANGASNIEMI JOHANNES</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7fc55b423a6d970de086fc0d67"/>
+      <sourceref hlink="_f7fc500f8eb5ecd8fb18c72c67d"/>
+    </citation>
+    <citation handle="_f7fc594a3fd2c0c4ca4bc340542" change="1704145011" id="C0170">
+      <page>81-00-U50-00-02384/TENHONEN HILJA</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7fc5935ef14729c1e184f65b3a"/>
+      <sourceref hlink="_f7fc500f8eb5ecd8fb18c72c67d"/>
+    </citation>
+    <citation handle="_f7fccb50219411d6fdc34f5b794" change="1704156967" id="C0171">
+      <confidence>2</confidence>
+      <sourceref hlink="_f7fcc90738a68350dc4a8e659e1"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_d39f0446de217f10266" change="1454249531" id="S0000">
@@ -4276,8 +4332,8 @@
       <sauthor>Valtioneuvoston kanslia</sauthor>
       <reporef hlink="_d3acdba8e8b31f2d3da" medium="Book"/>
     </source>
-    <source handle="_d3acec9e31b335faf62" change="1501180238" id="S0028">
-      <stitle>Lyyli Kangasniemi Sukuselvitys</stitle>
+    <source handle="_d3acec9e31b335faf62" change="1704147627" id="S0028" priv="1">
+      <stitle>Sukuselvitys Lyyli Kangasniemi</stitle>
       <sauthor>Mikkelin Maakunta-arkisto</sauthor>
       <spubinfo>23.1.1998</spubinfo>
       <noteref hlink="_d3acec919af54fb8dfa"/>
@@ -4555,9 +4611,17 @@
       <sauthor>Raudun seurakunta</sauthor>
       <reporef hlink="_f1b86d395e01a7a263b0fbac8ff" medium="Book"/>
     </source>
+    <source handle="_f7fc500f8eb5ecd8fb18c72c67d" change="1704144043" id="S0085">
+      <stitle>Hautahaku</stitle>
+    </source>
+    <source handle="_f7fcc90738a68350dc4a8e659e1" change="1704156956" id="S0086">
+      <stitle>Kuolinilmoitus Lyyli Kangasniemi</stitle>
+      <noteref hlink="_f7fccb26d864262e02b6265e7d"/>
+      <reporef hlink="_d3acec3017a336e9bb0" medium="Book"/>
+    </source>
   </sources>
   <places>
-    <placeobj handle="_d39f029900a70df4223" change="1533835028" id="P0000" type="Country">
+    <placeobj handle="_d39f029900a70df4223" change="1704144719" id="P0000" type="Country">
       <pname value="Suomi"/>
     </placeobj>
     <placeobj handle="_d39f029f4072f50b90e" change="1533670565" id="P0001" type="Parish">
@@ -4592,7 +4656,7 @@
       <pname value="Mariavaara"/>
       <placeref hlink="_d3a02e8dc573a476c3e"/>
     </placeobj>
-    <placeobj handle="_d3a04958f390a723a1e" change="1454283617" id="P0008" type="City">
+    <placeobj handle="_d3a04958f390a723a1e" change="1704144516" id="P0008" type="City">
       <pname value="Helsinki"/>
       <placeref hlink="_d39f029900a70df4223"/>
     </placeobj>
@@ -4889,6 +4953,18 @@
       <pname value="Ely"/>
       <placeref hlink="_df2a0de042e2d9fee2d8bfdb9a1"/>
     </placeobj>
+    <placeobj handle="_f7fc549856b4abdd3642627264d" change="1704144519" id="P0078" type="Cemetary">
+      <pname value="Maunulan uurnalehto"/>
+      <placeref hlink="_d3a04958f390a723a1e"/>
+    </placeobj>
+    <placeobj handle="_f7fc56863f53e9c45c60a05c839" change="1704144721" id="P0079" type="Town">
+      <pname value="Pori"/>
+      <placeref hlink="_d39f029900a70df4223"/>
+    </placeobj>
+    <placeobj handle="_f7fc5688e38326c4ede7026a062" change="1704144722" id="P0080" type="Cemetary">
+      <pname value="Käppärän hautausmaa"/>
+      <placeref hlink="_f7fc56863f53e9c45c60a05c839"/>
+    </placeobj>
   </places>
   <repositories>
     <repository handle="_d39f042c482687b2189" change="1514925858" id="R0000">
@@ -4911,7 +4987,7 @@
       <rname>vesta.narc.fi</rname>
       <type>Library</type>
     </repository>
-    <repository handle="_d3acec3017a336e9bb0" change="1454793435" id="R0004">
+    <repository handle="_d3acec3017a336e9bb0" change="1704156726" id="R0004">
       <rname>Oma arkisto</rname>
       <type>Library</type>
     </repository>
@@ -5407,8 +5483,127 @@ Sotasurmatapauksen todennäköisyys (ei merkintää= todennäköinen, e=epävarm
         <range start="0" end="61"/>
       </style>
     </note>
-    <note handle="_d3acee298854929e129" change="1501180097" id="N0047" type="Source text">
-      <text>I	Matti Matinpoika Kangasniemi, s. 15.3.1872 Jalasjärvellä, mistä tuli 15.4.1895 Jaakkiman seurakuntaan. Hänet vihittiin 4.8.1895 avioliittoon Maria Jaakontyttären kanssa, joka s. 27.7.1864 Parkanossa, mistä tuli 26.1.1895 Jaakkiman seurakuntaan. Aviopuolisot muuttivat Jaakkiman seurakunnasta 25.7.1910 Kauhajoen seurakuntaan, mistä tulivat 18.1.1915 Hiitolan seurakuntaan. He muuttivat Hiitolan seurakunnasta 22.12.1915 Raudun seurakuntaan. Matti Matinpoika Kangasniemi k. 1.4.1918. Maria Kangasniemi palasi Raudun seurakunnasta 13.6.1918 leskenä Hiitolan seurakuntaa, k. 7.6.1927 leskenä.</text>
+    <note handle="_d3acee298854929e129" change="1704147599" id="N0047" type="Transcript" format="1">
+      <text>MIKKELIN MAAKUNTA-ARKISTO          SUKUSELVITYS
+                                   Perunkirjoutsta varten
+                                   23.1.1998
+
+Maija-Leena Tenhonen
+Pohjankulma 4 A 12
+33500 TAMPERE
+
+
+
+
+Mikkelin maakunta-arkistossa säilytettävissä ent. Jaakkiman, 
+Hiitolan, Raudun ja Käkisalmen kaupunkiseurakunnan evankelis-
+luterilaisten seurakuntien vuosien 1890-1949 kirkonkirjoista
+sekä ent. Salmin kreikkalaiskatolisen seurakunnan ja ent.
+Sortavalan kreikkalaiskatolisen seurakunnan kirjoista, lähtö-
+kohtana ent. Hiitolan seurakunnan vuosien 1931-1940 pääkirjan
+III sivu 1065, käy ilmi mm. seuraavaa:
+
+I  Matti Matinpoika Kangasniemi, s. 15.3.1872 Jalasjärvellä,
+mistä tuli 15.4.1895 Jaakkiman seurakuntaan. Hänet vihittiin
+4.8.1895 avioliittoon Maria Jaakontyttären kanssa, joka s.
+27.7.1864 Parkanossa, mistä tuli 26.1.1895 Jaakkiman seurakun-
+taan. Aviopuolisot muuttivat Jaakkiman seurakunnasta 25.7.1910
+Kauhajoen seurakuntaan, mistä tulivat 18.1.1915 Hiitolan
+seurakuntaan. He muuttivat Hiitolan seurakunnasta 22.12.1915
+Raudun seurakuntaan. Matti Matinpoika Kangasniemi k. 1.4.1918.
+Maria Kangasniemi palasi Raudun seurakunnasta 13.6.1918 leske-
+nä Hiitolan seurakuntaan, k. 7.6.1927 leskenä.
+
+Jaakkiman, Hiitolan ja Raudun kirjoihin on heille merkitty
+seuraavat lapset:
+
+1.  Tyyne, s. 14.6.1896 Jaakkimassa. Ks. II 1.
+
+2. Lyyli, s. S. 10.5.1998 Jaakkimassa. Hän muutti Jaakkiman
+seurakunnasta 25.7.1910 Kauhajoen seurakuntaan, mistä tuli
+18.1.1915 Hiitolan seurakuntaan. Hän muutti Hiitolan seurakun-
+
+
+                            2
+
+nasta 3.3.1931 Käkisalmen kaupunkiseurakuntaan, mistä muutti
+2.2.1937 Helsingin Sörnäisten seurakuntaan naimattomana.
+Hänelle ei ole merkitty lapsia Hiitolan eikä Käkisalmen kau-
+punkiseurakunnan kirjoihin.
+
+3. Hilja, s. 6.6.1901 Jaakkimasa. Ks. II 2.
+
+4. Johannes, s. 22.6.1903 Jaakkimassa. Hän muutti Jaakkiman
+seurakunnasta 25.7.1910 Kauhajoen seurakuntaan, mistä tuli
+18.1.1915 Hiitolan seurakuntaan, muutti 22.12.1915 Raudun
+seurakuntaan, mistä palasi 13.6.1918 Hiitolan seurakuntaan.
+Johannes Matinpoika Kangasniemi muutti Hiitolan seurakunnasta
+30.1.1935 Jaakkiman seurakuntaan mistä muutti 15.7.1944 eron-
+neena Helsingin Eteläiseen suomalaiseen seurakuntaan. Hänet
+oli vihitty 4.12.1937 avioliittoon Sortavalan kreikkalaiskato-
+liseen seurakuntaan kuuluvan Olga Andreintytär Leinosen kans-
+sa, joka s. 26.4.1918 Salmissa, tuli Salmin kreikkalaiskatoli-
+sesta seurakunnasta 10.6.1937 Sortavalan kreikkalaiskatoliseen
+seurakuntaan. Heillä avioero 1.3.1944. Olga Andreintytär
+Leinonen, ent. Kangasniemi, o.s. Leinonen, muutti Sortavalan
+kreikkalaiskatolisesta seurakunnasta 28.2.1947 eronneena
+Varkauden evankelis-luterilaiseen seurakuntaan.
+Heille ei ole merkitty lapsia Jaakkiman kirjoihin eikä Sorta-
+valan kreikkalaiskatolisen seurakunnan kirjoihin.
+Johannes Matinpoika Kangaasniemelle ei ole merkitty lapsia
+Hiitolan eikä Raudun kirjoihin.
+Olga Andreintytär Leinoselle ei ole merkitty lapsia Salmin
+kreikkalaiskatolisen seurakunnan kirjoihin.
+
+II 1.  Tyyne Matintytär Kangasniemi, s. 14.6.1896 Jaakkimassa.
+Hän muutti Jaakkiman seurakunnasta 25.7.1910 Kauhajoen seura-
+kuntaan, mistä tuli 18.1.1915 Hiitolan seurakuntaan. Hänet
+vihittiin 21.11.1915 avioliittoon Onni Johannes Jaakonpoika
+Pirhosen kanssa, joka s. 21.7.1893 Hiitolassa. Tyyne Matinty-
+tär Pirhonen, o.s. Kangasniemi, k. 29.5.1919. Onni Johannes
+Jaakonpoika Pirhonen muutti Hiitolan seurakunnasta 13.12.1920
+leskenä Rautjärven seurakuntaan.
+
+Hiitolan kirjoihin on heille merkitty seuraavat lapset:
+
+1.  Katri Maria, s. 6.1.1917 Hiitolassa, k. 10.1.1917.
+
+
+                            3
+
+2.  Martti, s. 6.2.1918 Hiitolassa, k. 1.4.1918.
+
+
+II 2.  Hilja Matintytär Kangasniemi, s. 6.6.1901 Jaakkimassa.
+Hän muutti Jaakkiman seurakunnasta 25.7.1910 Kauhajoen seura-
+kuntaan, mistä tuli 18.11.1915 Hiitolan seurakuntaan, muutti
+22.12.1915 RAudun seurakuntaan, mistä palasi 13.6.1918 Hiito-
+lan seurakuntaan. Hänet vihittiin 3.4.1927 avioliittoon Antti
+Pekanpoika Tenhosen kanssa, joka s. 16.1.1897 Hiitolassa.
+Aviopuolisot muuttivat Hiitolan seurakunnasta 31.12.1949 Porin
+kaupunkiseurakuntaan.
+
+Hilja Matintytär Kangasniemelle ei ole merkitty lapsia Raudun
+kirjoihin-
+
+Hiitolan kirjoihin on heille merkitty seuraavat lapset:
+
+1.  Leo, s. 7.2.1928 Hiitolassa. Hän muutti Hiitolan seurakun-
+nasta 31.12.1949 Porin kaupunkiseurakuntaan naimattomana.
+Hänelle ei ole merkitty lapsia Hiitolan kirjoihin.
+
+2.  Maija Leena, s. 8.9.1930 Hiitolassa. Hän muutti Hiitolan
+seurakunnasta 31.12.1949 Porin kaupunkiseurakuntaan naimatto-
+mana.
+Hänelle ei ole merkitty lapsia Hiitolan kirjoihin.
+
+                     &lt;leima               &lt;Kaarlo K Valkonen&gt;
+Toimistosihteeri      Mikkelin             Kaarlo K Valkonen
+                      Maakunta-arkisto&gt;
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="4771"/>
+      </style>
     </note>
     <note handle="_d3b1bf800343f925ddc" change="1454752346" id="N0050" type="To Do">
       <text>Etsi sotasammosta http://www.sotasampo.fi/</text>
@@ -6674,7 +6869,7 @@ Arthur Rosden 		Male 	18 	Single 		White 	Boarder 	1892 	Russia 		1909 	Russia 	
     <note handle="_df340099350648638df3e49bcc7" change="1533840258" id="N0203" type="Citation">
       <text>&quot;United States Census, 1910,&quot; database with images, FamilySearch (https://familysearch.org/ark:/61903/3:1:33S7-9RJZ-9ZX5?cc=1727033&amp;wc=QZZQ-GDJ%3A133637101%2C139787901%2C140628501%2C1589089827 : 24 June 2017), Michigan &gt; Marquette &gt; Ely &gt; ED 174 &gt; image 7 of 20; citing NARA microfilm publication T624 (Washington, D.C.: National Archives and Records Administration, n.d.).</text>
     </note>
-    <note handle="_df3447ee5043c2979c9af7b3a02" change="1533847738" id="N0204" type="Transcript" format="1">
+    <note handle="_df3447ee5043c2979c9af7b3a02" change="1704145180" id="N0204" type="Transcript" format="1">
       <text>Sukunimi 	Kamppinen 	
 Etunimet 	Loviisa   	
 Muu nimi 	20.12.1860   	
@@ -6690,7 +6885,7 @@ TALLENTAJA 	Salonen L.
 Viitteet 	- Siirtokansan Kalenteri 1967: 130 (Muistokirjoitus, kuva). [Tall: Leena Salonen.] 	
 HUOMAUTUS	Vanh: Esa ja Sanna (o.s. Ranttila) Luomala. Pso: Jani Kamppinen. LS: 1899. Lapset: Saima</text>
       <style name="fontface" value="Monospace">
-        <range start="0" end="439"/>
+        <range start="0" end="436"/>
       </style>
     </note>
     <note handle="_f1b86d8d0d81ee8bf82249986ff" change="1661090088" id="N0205" type="Citation">
@@ -6753,6 +6948,100 @@ Pa Johannes 1     22/6 1903
     </note>
     <note handle="_f1b878f09c67839b96db6e30e98" change="1661091283" id="N0211" type="Citation">
       <text>Jaakkiman seurakunnan arkisto - I Ab:13 Lastenkirjat, Harvia - Meriä 1900-1909, jakso 68, sivu 135-136: Ihalanoja läksiämiä; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5774969619&amp;aineistoId=1211284866 / Viitattu 21.8.2022</text>
+    </note>
+    <note handle="_f7fc511d00c445d064f5a2f2206" change="1704144154" id="N0212" type="Transcript" format="1">
+      <text>KANGASNIEMI LYYLI
+1998 - 1997
+Porin seurakuntayhtymä, Käppärän hautausmaa
+Syntymävuosi    1998
+Kuolinvuosi     1997
+Hautausmaa	
+                Käppärän hautausmaa
+                Kellarikuja 2
+                28120 Pori
+Alue            00
+Kortteli        U50
+Rivi            00
+Paikkanumero    02383
+
+Samaan hautaan haudatut
+Hautaan ei ole haudattu muita henkilöitä</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="366"/>
+      </style>
+    </note>
+    <note handle="_f7fc55b423a6d970de086fc0d67" change="1704144635" id="N0213" type="Transcript" format="1">
+      <text>KANGASNIEMI JOHANNES
+1903 - 1985
+Helsingin seurakuntayhtymä, Maunulan uurnalehto
+Syntymävuosi    1903
+Kuolinvuosi     1985
+Hautausmaa	
+                Maunulan uurnalehto
+                Pirkkolantie 22
+                00630 Helsinki
+Alue            00
+Kortteli        041
+Rivi            02
+Paikkanumero    00020
+
+Samaan hautaan haudatut
+KANGASNIEMI RAUHA KATRI
+Syntymävuosi    1907
+Kuolinvuosi     1995</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="404"/>
+      </style>
+    </note>
+    <note handle="_f7fc5935ef14729c1e184f65b3a" change="1704145003" id="N0214" type="Transcript" format="1">
+      <text>TENHONEN HILJA
+1901 - 1990
+Porin seurakuntayhtymä, Käppärän hautausmaa
+Syntymävuosi    1901
+Kuolinvuosi     1990
+Hautausmaa	
+                Käppärän hautausmaa
+                Kellarikuja 2
+                28120 Pori
+Alue            00
+Kortteli        U50
+Rivi            00
+Paikkanumero    02384
+Samaan hautaan haudatut
+
+TENHONEN ANTTI
+Syntymävuosi
+Kuolinvuosi</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="362"/>
+      </style>
+    </note>
+    <note handle="_f7fccb26d864262e02b6265e7d" change="1704156950" id="N0215" type="Transcript" format="1">
+      <text>[risti]    Rakas tätimme,
+           DIAKONISSA
+           
+           Lyyli
+           KANGASNIEMI
+
+           s. 10.5.1898
+           k. 9.12.1997
+
+           Kiittäen ja kaivaten 
+
+           Leka ja pojat
+           Maija-Leena
+           Hillevi perheineen
+           Jyrki
+  
+           Autuaita ovat puhdassydämiset,
+           sillä he saavat nähdä Jumalan.
+           Matt. 5:7
+
+     Siunaus toimitettu läheisten läsnäollessa.
+               Kiitämme osanotosta.</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="471"/>
+      </style>
     </note>
   </notes>
 </database>
