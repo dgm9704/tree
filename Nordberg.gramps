@@ -17370,17 +17370,25 @@
       <citationref hlink="_f7ff3fcc6a95e26deac10c9ddf2"/>
       <citationref hlink="_f35f363ef92339ecf4baccd3ed"/>
     </event>
-    <event handle="_f7ff48bf81a127f31999d0b454b" change="1704223807" id="E0871">
+    <event handle="_f7ff48bf81a127f31999d0b454b" change="1704227682" id="E0871">
       <type>Birth</type>
       <dateval val="1891-02-14"/>
       <place hlink="_cb589ccedbc19380200"/>
       <citationref hlink="_f7ff47f24d83046d6615a5fe53f"/>
+      <citationref hlink="_f7ff6dae85521c131752f6b3fe1"/>
     </event>
-    <event handle="_f7ff492646268606e7f8a3fe85e" change="1704223849" id="E0872">
+    <event handle="_f7ff492646268606e7f8a3fe85e" change="1704228196" id="E0872">
       <type>Death</type>
-      <dateval val="1891-03-05"/>
+      <dateval val="1891-03-03"/>
       <place hlink="_cb589ccedbc19380200"/>
       <citationref hlink="_f7ff47f24d83046d6615a5fe53f"/>
+      <citationref hlink="_f7ff723592242fc761256408bf6"/>
+    </event>
+    <event handle="_f7ff72f670f628031b607963b96" change="1704228234" id="E0873">
+      <type>Burial</type>
+      <dateval val="1891-03-15"/>
+      <place hlink="_cb589cc90f055fc9f0c"/>
+      <citationref hlink="_f7ff723592242fc761256408bf6"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -30846,7 +30854,7 @@
       <eventref hlink="_f7cb09f057219b365a36b2a5adc" role="Primary"/>
       <childof hlink="_f7caf203f3b4c3f01b8e60801cb"/>
     </person>
-    <person handle="_f7ff481be784fe8ced708052012" change="1704223963" id="I0038">
+    <person handle="_f7ff481be784fe8ced708052012" change="1704228262" id="I0038">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Ingrid Maria</first>
@@ -30854,6 +30862,7 @@
       </name>
       <eventref hlink="_f7ff48bf81a127f31999d0b454b" role="Primary"/>
       <eventref hlink="_f7ff492646268606e7f8a3fe85e" role="Primary"/>
+      <eventref hlink="_f7ff72f670f628031b607963b96" role="Primary"/>
       <childof hlink="_cb589ccefb45aeec8ea"/>
     </person>
   </people>
@@ -46494,6 +46503,22 @@
       <noteref hlink="_f7ff46a711c1b610571cdaa80f1"/>
       <noteref hlink="_f7ff47ee497c1b0c3e13eff980"/>
       <sourceref hlink="_f35f34546097021d962d6b10cd2"/>
+    </citation>
+    <citation handle="_f7ff6dae85521c131752f6b3fe1" change="1704227680" id="C1690">
+      <page>C:14/266-267</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7ff6ad70853a331669aaf706ba"/>
+      <noteref hlink="_f7ff6b1469d42a51018d51a5de0"/>
+      <noteref hlink="_f7ff6da51b04d7670d26e77d118"/>
+      <sourceref hlink="_f35f3a785f97bd24c3e0721d350"/>
+    </citation>
+    <citation handle="_f7ff723592242fc761256408bf6" change="1704228155" id="C1691">
+      <page>F:10/42-43</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7ff6fe29805d2c0554a6903603"/>
+      <noteref hlink="_f7ff70052197d8c4f3525b84e16"/>
+      <noteref hlink="_f7ff71c667e34a73ff088a275be"/>
+      <sourceref hlink="_f35f401261c13fe6d6db90d9738"/>
     </citation>
   </citations>
   <sources>
@@ -79902,6 +79927,51 @@ Signe Lydia      10/7 98
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="462"/>
+      </style>
+    </note>
+    <note handle="_f7ff6ad70853a331669aaf706ba" change="1704227382" id="N3450" type="Citation">
+      <text>Porvoo maaseurakunta syntyneet 1888-1893 (AP I C:14)  Sivu 266  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38695&amp;pnum=135 / Viitattu 02.01.2024</text>
+    </note>
+    <note handle="_f7ff6b1469d42a51018d51a5de0" change="1704227407" id="N3451" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38695&amp;pnum=135</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38695&amp;pnum=135">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f7ff6da51b04d7670d26e77d118" change="1704227676" id="N3452" type="Transcript" format="1">
+      <text>                                                                    266
+                                                            År 1891
+
+    Födde och Döpte inom Borgå lands Församling
+
+[febr]  14  18  400  Ingrid Maria. Par: Inh. Gustaf Adolf
+                     Nikander mhu Maria Lovisa Nordberg
+                     fr Norrveckoski Klemets. Ts: Smed Aug.
+                     Lönnroth mhu Sofa Karlsdr, Mjölnare
+                     sonen Johan Kullström och Inhdr Hulda
+                     Nordberg fr. Norrveckoski.    Döpt af     -  1  35
+                                          A. Suomalainen</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="608"/>
+      </style>
+    </note>
+    <note handle="_f7ff6fe29805d2c0554a6903603" change="1704227911" id="N3453" type="Citation">
+      <text>Porvoo maaseurakunta kuolleet 1889-1900 (AP I F:10)  Sivu 42  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38704&amp;pnum=24 / Viitattu 02.01.2024</text>
+    </note>
+    <note handle="_f7ff70052197d8c4f3525b84e16" change="1704227925" id="N3454" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38704&amp;pnum=24</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38704&amp;pnum=24">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f7ff71c667e34a73ff088a275be" change="1704228109" id="N3455" type="Transcript" format="1">
+      <text>42                                                                                        År 1891
+                               Döde och Begrafne i Borgå lands Församling
+
+[Mars]  3  15  Inh. barnet Ingrid Maria Ni-
+               kander fr. Norrveckoski       400    diarrhe    0  0  20    barn    14/2 91    -  1</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="315"/>
       </style>
     </note>
   </notes>
