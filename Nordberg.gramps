@@ -2823,12 +2823,13 @@
       <place hlink="_cb589cc91ba62696715"/>
       <citationref hlink="_df69c0e3aa579f14179b59658e6"/>
     </event>
-    <event handle="_cb589cd2a0b5fb3f09c" change="1704223946" id="E1703">
+    <event handle="_cb589cd2a0b5fb3f09c" change="1704228995" id="E1703">
       <type>Birth</type>
       <dateval val="1892-09-13"/>
-      <place hlink="_cb589cc90f055fc9f0c"/>
+      <place hlink="_cb589ccedbc19380200"/>
       <citationref hlink="_f35eeff39a1795027bf4052795a"/>
       <citationref hlink="_f7ff47f24d83046d6615a5fe53f"/>
+      <citationref hlink="_f7ff7973e84744fa36b24691cc6"/>
     </event>
     <event handle="_cb589cd2a324baea9dd" change="1672431822" id="E1705">
       <type>Birth</type>
@@ -17390,6 +17391,12 @@
       <place hlink="_cb589cc90f055fc9f0c"/>
       <citationref hlink="_f7ff723592242fc761256408bf6"/>
     </event>
+    <event handle="_f7ff7a1157a546f99221cf0499f" change="1704228979" id="E0874">
+      <type>Baptism</type>
+      <dateval val="1892-09-15"/>
+      <place hlink="_cb589cc90f055fc9f0c"/>
+      <citationref hlink="_f7ff7973e84744fa36b24691cc6"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1658869228" id="I3858">
@@ -21004,13 +21011,14 @@
       <eventref hlink="_cb589cd29c84e835894" role="Primary"/>
       <childof hlink="_cb589cceeec505a384b"/>
     </person>
-    <person handle="_cb589cd2a0578278d71" change="1704223963" id="I5362">
+    <person handle="_cb589cd2a0578278d71" change="1704228996" id="I5362">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Fanny Maria</first>
         <surname>Nikander</surname>
       </name>
       <eventref hlink="_cb589cd2a0b5fb3f09c" role="Primary"/>
+      <eventref hlink="_f7ff7a1157a546f99221cf0499f" role="Primary"/>
       <childof hlink="_cb589ccefb45aeec8ea"/>
     </person>
     <person handle="_cb589cd2a2c7ab0fe28" change="1704223963" id="I3315">
@@ -46519,6 +46527,14 @@
       <noteref hlink="_f7ff70052197d8c4f3525b84e16"/>
       <noteref hlink="_f7ff71c667e34a73ff088a275be"/>
       <sourceref hlink="_f35f401261c13fe6d6db90d9738"/>
+    </citation>
+    <citation handle="_f7ff7973e84744fa36b24691cc6" change="1704228914" id="C1692">
+      <page>C:14/450-451</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7ff76cbbe21fd4ef9f99cbae8a"/>
+      <noteref hlink="_f7ff76ebe6d27b5ddff8244e3a"/>
+      <noteref hlink="_f7ff796d5bc21de740471436294"/>
+      <sourceref hlink="_f35f3a785f97bd24c3e0721d350"/>
     </citation>
   </citations>
   <sources>
@@ -79972,6 +79988,30 @@ Signe Lydia      10/7 98
                kander fr. Norrveckoski       400    diarrhe    0  0  20    barn    14/2 91    -  1</text>
       <style name="fontface" value="Monospace">
         <range start="0" end="315"/>
+      </style>
+    </note>
+    <note handle="_f7ff76cbbe21fd4ef9f99cbae8a" change="1704228636" id="N3456" type="Citation">
+      <text>Porvoo maaseurakunta syntyneet 1888-1893 (AP I C:14)  Sivu 450 1892 September ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38695&amp;pnum=227 / Viitattu 02.01.2024</text>
+    </note>
+    <note handle="_f7ff76ebe6d27b5ddff8244e3a" change="1704228649" id="N3457" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38695&amp;pnum=227</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38695&amp;pnum=227">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f7ff796d5bc21de740471436294" change="1704228912" id="N3458" type="Transcript" format="1">
+      <text>                                                                   450
+                                                        År 1892
+Födde och Döpte inom Borgå lands Församling
+
+Sept  13  15  400  Fanny Maria. Par: Arb. Gustaf Adolf
+                   Nikander mhu Maria Lovisa Nordberg
+                   från Norrveckoski Klemets - Test: B:bo
+                   Fredrik Brunberg mhu Wilhelmina från      - 1    37
+                   Andersböle  Döpt af Karl Wallin
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="469"/>
       </style>
     </note>
   </notes>
