@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2024-01-01" version="5.1.6"/>
+    <created date="2024-01-02" version="5.1.6"/>
     <researcher>
     </researcher>
   </header>
@@ -64,7 +64,7 @@
       <dateval val="1908-08-30"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
     </event>
-    <event handle="_cb589cc80c5504487cd" change="1704139676" id="E0023">
+    <event handle="_cb589cc80c5504487cd" change="1704159995" id="E0023">
       <type>Death</type>
       <dateval val="1964-06-02"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
@@ -1832,7 +1832,7 @@
       <citationref hlink="_db8a93fe6593c0f7675f4abeaa9"/>
       <citationref hlink="_df67e3511683ea3b01c3f7d24c4"/>
     </event>
-    <event handle="_cb589ccefa124622047" change="1535233070" id="E1069">
+    <event handle="_cb589ccefa124622047" change="1704219617" id="E1069">
       <type>Birth</type>
       <dateval val="1855-08-24"/>
       <place hlink="_cdf82fb91b45aadb551"/>
@@ -2823,11 +2823,12 @@
       <place hlink="_cb589cc91ba62696715"/>
       <citationref hlink="_df69c0e3aa579f14179b59658e6"/>
     </event>
-    <event handle="_cb589cd2a0b5fb3f09c" change="1672431805" id="E1703">
+    <event handle="_cb589cd2a0b5fb3f09c" change="1704223946" id="E1703">
       <type>Birth</type>
       <dateval val="1892-09-13"/>
       <place hlink="_cb589cc90f055fc9f0c"/>
       <citationref hlink="_f35eeff39a1795027bf4052795a"/>
+      <citationref hlink="_f7ff47f24d83046d6615a5fe53f"/>
     </event>
     <event handle="_cb589cd2a324baea9dd" change="1672431822" id="E1705">
       <type>Birth</type>
@@ -7356,9 +7357,11 @@
       <place hlink="_cdf82ee48671ea8ed18"/>
       <citationref hlink="_df69c25f909569156ddda9e5e32"/>
     </event>
-    <event handle="_cb589cfd42b12d38d97" change="1397384071" id="E7152">
+    <event handle="_cb589cfd42b12d38d97" change="1704221962" id="E7152">
       <type>Marriage</type>
       <dateval val="1889-12-29"/>
+      <place hlink="_cb589cc90f055fc9f0c"/>
+      <citationref hlink="_f7ff36fd695553afd23c6dd5471"/>
     </event>
     <event handle="_cb589cfd43c6ceac588" change="1672438737" id="E7153">
       <type>Marriage</type>
@@ -11258,7 +11261,7 @@
       <place hlink="_defd62ead7732f5fbc0dd0b17c9"/>
       <citationref hlink="_defd60dcd8f52107230c7920d94"/>
     </event>
-    <event handle="_defd65302ed7050ec0db72ce809" change="1532374410" id="E2458">
+    <event handle="_defd65302ed7050ec0db72ce809" change="1704159554" id="E2458">
       <type>Burial</type>
       <dateval val="1980-10-11"/>
       <place hlink="_defd62ead7732f5fbc0dd0b17c9"/>
@@ -15957,7 +15960,7 @@
       <citationref hlink="_f35e75dad9222591087ecf7c237"/>
       <citationref hlink="_df67de9f8dc6bcc6841c480fe42"/>
     </event>
-    <event handle="_f35ee525966346387c8317e0e79" change="1672430605" id="E0618">
+    <event handle="_f35ee525966346387c8317e0e79" change="1704220803" id="E0618">
       <type>Residence</type>
       <dateval val="1890"/>
       <place hlink="_cb589cd8378714a09d3"/>
@@ -16006,7 +16009,7 @@
       <citationref hlink="_f35eed9e151721e3ce0678581f1"/>
       <citationref hlink="_f35f363ef92339ecf4baccd3ed"/>
     </event>
-    <event handle="_f35ef0069a75e47862ee3c8d2b2" change="1672431746" id="E0653">
+    <event handle="_f35ef0069a75e47862ee3c8d2b2" change="1704223415" id="E0653">
       <type>Residence</type>
       <datespan start="1900" stop="1909"/>
       <place hlink="_ebf6f62e1c3262d4c5bcf398eed"/>
@@ -16132,11 +16135,11 @@
       <dateval val="1951-04-19"/>
       <citationref hlink="_f36b5326af554ef108e93ccde49"/>
     </event>
-    <event handle="_f36b57ee1ee79eb12dc1b8cbe18" change="1672764764" id="E0678">
+    <event handle="_f36b57ee1ee79eb12dc1b8cbe18" change="1704158374" id="E0678">
       <type>Burial</type>
       <dateval val="1951-04-19" type="after"/>
       <place hlink="_f35f51bedaa5437a7ec124cc07"/>
-      <citationref hlink="_f36b57dca1a16c4570c364cb65"/>
+      <citationref hlink="_f36b5326af554ef108e93ccde49"/>
     </event>
     <event handle="_f36b5ac12fc2722e1897793d531" change="1672765060" id="E0679">
       <type>Birth</type>
@@ -17347,6 +17350,38 @@
       <place hlink="_f7fc1e1ef9d7482f12ddcd603c9"/>
       <citationref hlink="_f7fc23bbac01fccb23d6267a379"/>
     </event>
+    <event handle="_f7fce7fd1d157911224afddc8ad" change="1704159974" id="E0868">
+      <type>Burial</type>
+      <dateval val="1964-06-13"/>
+      <place hlink="_ceac1478b0919bf2446"/>
+      <citationref hlink="_dcdca72dad5232f3a37e3c862ac"/>
+    </event>
+    <event handle="_f7ff3e44f1c557ff8ae0b75554f" change="1704223736" id="E0869">
+      <type>Residence</type>
+      <datespan start="1890" stop="1892"/>
+      <place hlink="_cb589ccedbc19380200"/>
+      <citationref hlink="_f7ff3e3ec225b6f8d6e0f38a9c"/>
+      <citationref hlink="_f7ff47f24d83046d6615a5fe53f"/>
+    </event>
+    <event handle="_f7ff41c75de3d9340c10b52817b" change="1704224442" id="E0870">
+      <type>Residence</type>
+      <datespan start="1892" stop="1899"/>
+      <place hlink="_ebf6f62e1c3262d4c5bcf398eed"/>
+      <citationref hlink="_f7ff3fcc6a95e26deac10c9ddf2"/>
+      <citationref hlink="_f35f363ef92339ecf4baccd3ed"/>
+    </event>
+    <event handle="_f7ff48bf81a127f31999d0b454b" change="1704223807" id="E0871">
+      <type>Birth</type>
+      <dateval val="1891-02-14"/>
+      <place hlink="_cb589ccedbc19380200"/>
+      <citationref hlink="_f7ff47f24d83046d6615a5fe53f"/>
+    </event>
+    <event handle="_f7ff492646268606e7f8a3fe85e" change="1704223849" id="E0872">
+      <type>Death</type>
+      <dateval val="1891-03-05"/>
+      <place hlink="_cb589ccedbc19380200"/>
+      <citationref hlink="_f7ff47f24d83046d6615a5fe53f"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1658869228" id="I3858">
@@ -17423,7 +17458,7 @@
       <eventref hlink="_defd5053ddb439af1ea43226186" role="Primary"/>
       <childof hlink="_cb589cc7f9c792dc427"/>
     </person>
-    <person handle="_cb589cc80b85ba4f528" change="1704138501" id="I5313">
+    <person handle="_cb589cc80b85ba4f528" change="1704160895" id="I5313">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Paul Wilhelm Waldemar</first>
@@ -17441,6 +17476,7 @@
       <eventref hlink="_cb589cc80bc13411880" role="Primary"/>
       <eventref hlink="_f167084fd5ee8e818e221517bd" role="Family"/>
       <eventref hlink="_cb589cc80c5504487cd" role="Primary"/>
+      <eventref hlink="_f7fce7fd1d157911224afddc8ad" role="Primary"/>
       <childof hlink="_cb589cc7f9c792dc427"/>
       <parentin hlink="_cb589cc80ce75a0e92d"/>
     </person>
@@ -20960,7 +20996,7 @@
       <eventref hlink="_cb589cd29c84e835894" role="Primary"/>
       <childof hlink="_cb589cceeec505a384b"/>
     </person>
-    <person handle="_cb589cd2a0578278d71" change="1672431839" id="I5362">
+    <person handle="_cb589cd2a0578278d71" change="1704223963" id="I5362">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Fanny Maria</first>
@@ -20969,7 +21005,7 @@
       <eventref hlink="_cb589cd2a0b5fb3f09c" role="Primary"/>
       <childof hlink="_cb589ccefb45aeec8ea"/>
     </person>
-    <person handle="_cb589cd2a2c7ab0fe28" change="1672431839" id="I3315">
+    <person handle="_cb589cd2a2c7ab0fe28" change="1704223963" id="I3315">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Ellen Ingeborg</first>
@@ -30810,6 +30846,16 @@
       <eventref hlink="_f7cb09f057219b365a36b2a5adc" role="Primary"/>
       <childof hlink="_f7caf203f3b4c3f01b8e60801cb"/>
     </person>
+    <person handle="_f7ff481be784fe8ced708052012" change="1704223963" id="I0038">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Ingrid Maria</first>
+        <surname>Nikander</surname>
+      </name>
+      <eventref hlink="_f7ff48bf81a127f31999d0b454b" role="Primary"/>
+      <eventref hlink="_f7ff492646268606e7f8a3fe85e" role="Primary"/>
+      <childof hlink="_cb589ccefb45aeec8ea"/>
+    </person>
   </people>
   <families>
     <family handle="_cb589cc7f9c792dc427" change="1658869228" id="F1472">
@@ -31805,12 +31851,15 @@
       <childref hlink="_cb589cd299d5bef75f8"/>
       <childref hlink="_cb589cd29c25a0ecba4"/>
     </family>
-    <family handle="_cb589ccefb45aeec8ea" change="1672431839" id="F2356">
+    <family handle="_cb589ccefb45aeec8ea" change="1704223963" id="F2356">
       <rel type="Married"/>
       <father hlink="_cf967d1e0d6235c137b"/>
       <mother hlink="_cb589ccef9a28b5839c"/>
       <eventref hlink="_cb589cfd42b12d38d97" role="Family"/>
+      <eventref hlink="_f7ff3e44f1c557ff8ae0b75554f" role="Family"/>
+      <eventref hlink="_f7ff41c75de3d9340c10b52817b" role="Family"/>
       <eventref hlink="_f35ef0069a75e47862ee3c8d2b2" role="Family"/>
+      <childref hlink="_f7ff481be784fe8ced708052012"/>
       <childref hlink="_cb589cd2a0578278d71"/>
       <childref hlink="_cb589cd2a2c7ab0fe28"/>
     </family>
@@ -37802,11 +37851,12 @@
       <noteref hlink="_db88eede68d28f6728d22d839d6"/>
       <sourceref hlink="_d6ca92a86b3679725400d86aebf"/>
     </citation>
-    <citation handle="_db8a92a38b747f334c9d22e76ed" change="1672485316" id="C0016">
+    <citation handle="_db8a92a38b747f334c9d22e76ed" change="1704219133" id="C0016">
       <page>302-303</page>
       <confidence>2</confidence>
       <noteref hlink="_f360eee31576de166c49d3e69a3"/>
       <noteref hlink="_db8a929d50020468d7d32f555e5"/>
+      <noteref hlink="_f7ff1c20ccc613a924c213c987e"/>
       <sourceref hlink="_db8a9276e0643ec55c8ba3c3182"/>
     </citation>
     <citation handle="_db8a93fe6593c0f7675f4abeaa9" change="1672485416" id="C0017">
@@ -37831,10 +37881,12 @@
       <noteref hlink="_db8a999d8043f6822e5c1063c70"/>
       <sourceref hlink="_db8a996fe4a6d2142b6f963ad34"/>
     </citation>
-    <citation handle="_db8a9b610e9697620e65ee7286d" change="1508677242" id="C0020">
+    <citation handle="_db8a9b610e9697620e65ee7286d" change="1704219613" id="C0020">
       <page>jakso 139</page>
       <confidence>2</confidence>
+      <noteref hlink="_f7ff1c5b6ab13de7a94e82c6849"/>
       <noteref hlink="_db8a9aea9a7623946a504f31ac7"/>
+      <noteref hlink="_f7ff20b3e254d94a4d6ce9ffa14"/>
       <sourceref hlink="_db8a996fe4a6d2142b6f963ad34"/>
     </citation>
     <citation handle="_db8a9cd21d95d3cafd69d43d0fa" change="1508677393" id="C0021">
@@ -44681,11 +44733,12 @@
       <confidence>2</confidence>
       <sourceref hlink="_f35e697ddc8179667bb5744f2e2"/>
     </citation>
-    <citation handle="_f35ee4eed71da3e05c76080a03" change="1672430583" id="C1454">
+    <citation handle="_f35ee4eed71da3e05c76080a03" change="1704220802" id="C1454">
       <page>Aa:29/413</page>
       <confidence>2</confidence>
       <noteref hlink="_f35ee4cf9be649d754532ac79c3"/>
       <noteref hlink="_f35ee4ec14d7fa90e5818930273"/>
+      <noteref hlink="_f7ff2c0b2fab0713fa35fdbd7b"/>
       <sourceref hlink="_f35ee4a782b1b14429fdeb1f256"/>
     </citation>
     <citation handle="_f35eebd7a82859c015689ca74e" change="1672431307" id="C1455">
@@ -44702,11 +44755,12 @@
       <noteref hlink="_f35eed996d930cee839cfc84b8a"/>
       <sourceref hlink="_f35ee4a782b1b14429fdeb1f256"/>
     </citation>
-    <citation handle="_f35eeff39a1795027bf4052795a" change="1672431738" id="C1457">
+    <citation handle="_f35eeff39a1795027bf4052795a" change="1704223414" id="C1457">
       <page>I/37</page>
       <confidence>2</confidence>
       <noteref hlink="_f35eefcbabb2f58351d2cd065e6"/>
       <noteref hlink="_f35eeff03e93650d70362a5b7d5"/>
+      <noteref hlink="_f7ff44c77b63d9f8b1782bcb4c4"/>
       <sourceref hlink="_f16a42ae9774b0ba5a082769407"/>
     </citation>
     <citation handle="_f35ef2f02964303bd3255f49c7d" change="1672432051" id="C1458">
@@ -44730,11 +44784,12 @@
       <noteref hlink="_f35f34a738b35fc3f4a81bdb4cc"/>
       <sourceref hlink="_f35f34546097021d962d6b10cd2"/>
     </citation>
-    <citation handle="_f35f363ef92339ecf4baccd3ed" change="1672439109" id="C1461">
+    <citation handle="_f35f363ef92339ecf4baccd3ed" change="1704224162" id="C1461">
       <page>Ab:20/10-11</page>
       <confidence>2</confidence>
       <noteref hlink="_f35f36160f939ebb685d2e38620"/>
       <noteref hlink="_f35f3634916544db74f5956d41e"/>
+      <noteref hlink="_f7ff4c14d4640d2ebd81cde292f"/>
       <sourceref hlink="_f35f34546097021d962d6b10cd2"/>
     </citation>
     <citation handle="_f35f3ada5ed533bb53d6a97cf58" change="1672439592" id="C1462">
@@ -44835,10 +44890,6 @@
     </citation>
     <citation handle="_f36b5326af554ef108e93ccde49" change="1672764263" id="C1477">
       <page>BERGVALL HILDA ADELE</page>
-      <confidence>2</confidence>
-      <sourceref hlink="_f36b5246734762689917a6d4f44"/>
-    </citation>
-    <citation handle="_f36b57dca1a16c4570c364cb65" change="1672764757" id="C1478">
       <confidence>2</confidence>
       <sourceref hlink="_f36b5246734762689917a6d4f44"/>
     </citation>
@@ -46408,6 +46459,42 @@
       <noteref hlink="_f7fc23ad6f260de4cc386a84461"/>
       <sourceref hlink="_f7fc1f146f4702698eef8ad3fad"/>
     </citation>
+    <citation handle="_f7fce7a3f1a716bccfef35e5f2f" change="1704159938" id="C1685">
+      <confidence>2</confidence>
+      <sourceref hlink="_dcdca40243a6a2622f77575711"/>
+    </citation>
+    <citation handle="_f7ff36fd695553afd23c6dd5471" change="1704221945" id="C1686">
+      <page>I Eb:5/18-19</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7ff34305b710294246d4d5d60c"/>
+      <noteref hlink="_f7ff346c0c02c1801b47e59a886"/>
+      <noteref hlink="_f7ff36bff8e1ca6349482ab117d"/>
+      <sourceref hlink="_f35f32344497239305bfc51f3b4"/>
+    </citation>
+    <citation handle="_f7ff3e3ec225b6f8d6e0f38a9c" change="1704222706" id="C1687">
+      <page>Aa:29/400</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7ff3b6e2a814b112208401e539"/>
+      <noteref hlink="_f7ff3b8f02d7dcfcd1d6d224173"/>
+      <noteref hlink="_f7ff3e36a526f1ba34065e59847"/>
+      <sourceref hlink="_f35ee4a782b1b14429fdeb1f256"/>
+    </citation>
+    <citation handle="_f7ff3fcc6a95e26deac10c9ddf2" change="1704223073" id="C1688">
+      <page>Aa:29/10</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7ff3fca7d83db4bf10654faa65"/>
+      <noteref hlink="_f7ff3ff84782718c99d1df4ca8b"/>
+      <noteref hlink="_f7ff41b397ba2ead5a18644d79"/>
+      <sourceref hlink="_f35ee4a782b1b14429fdeb1f256"/>
+    </citation>
+    <citation handle="_f7ff47f24d83046d6615a5fe53f" change="1704223723" id="C1689">
+      <page>Ab:20/400</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7ff468449d4a24daf1e47005a4"/>
+      <noteref hlink="_f7ff46a711c1b610571cdaa80f1"/>
+      <noteref hlink="_f7ff47ee497c1b0c3e13eff980"/>
+      <sourceref hlink="_f35f34546097021d962d6b10cd2"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -47869,11 +47956,11 @@
       <spubinfo>Viipuri 27.11.1915 - 27.07.1924, Karjalan Aamulehti Oy</spubinfo>
       <reporef hlink="_cdea68c6afd7d08bd3f" medium="Book"/>
     </source>
-    <source handle="_dcdca40243a6a2622f77575711" change="1658503004" id="S0170">
+    <source handle="_dcdca40243a6a2622f77575711" change="1704158100" id="S0170">
       <stitle>Kuolinilmoitus Paul Norovuori</stitle>
       <sauthor>tuntematon</sauthor>
-      <noteref hlink="_f1580ce359b25b93c5e6deeb24e"/>
       <noteref hlink="_f1580d2cab23e39301286c0a692"/>
+      <noteref hlink="_f1580ce359b25b93c5e6deeb24e"/>
       <reporef hlink="_dcdca3f7d3b161a6bf5b6f5e9d0" medium="Newspaper"/>
     </source>
     <source handle="_dcdcc3e19946b364ab9c2f86ef4" change="1517754607" id="S0298">
@@ -49858,9 +49945,9 @@
     </source>
   </sources>
   <places>
-    <placeobj handle="_cb589cc7f8d1b88b055" change="1702592194" id="P0000" type="City">
+    <placeobj handle="_cb589cc7f8d1b88b055" change="1704159992" id="P0000" type="City">
       <ptitle>Helsingfors, Finland</ptitle>
-      <pname value="Helsinki" lang="se"/>
+      <pname value="Helsinki" lang="fi"/>
       <pname value="Helsingfors" lang="se"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
     </placeobj>
@@ -49890,9 +49977,9 @@
       <pname value="Öby"/>
       <placeref hlink="_cea12af8565247eda3d"/>
     </placeobj>
-    <placeobj handle="_cb589cc90f055fc9f0c" change="1672441988" id="P0022" type="Parish">
+    <placeobj handle="_cb589cc90f055fc9f0c" change="1704221595" id="P0022" type="Parish">
       <ptitle>Borgå, Finland</ptitle>
-      <pname value="Borgå" lang="se"/>
+      <pname value="Borgå" lang="sv"/>
       <pname value="Porvoo" lang="fi"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
     </placeobj>
@@ -50471,8 +50558,8 @@
       <pname value="Biskopsnäs"/>
       <placeref hlink="_ceac1478b0919bf2446"/>
     </placeobj>
-    <placeobj handle="_cb589cfeb254c33cda1" change="1704138804" id="P0618" type="Country">
-      <pname value="Suomi"/>
+    <placeobj handle="_cb589cfeb254c33cda1" change="1704159903" id="P0618" type="Country">
+      <pname value="Suomi" lang="fi"/>
       <pname value="Finland" lang="sv"/>
     </placeobj>
     <placeobj handle="_cb589cfeb34745c99fa" change="1420239662" id="P0619" type="Village">
@@ -50926,9 +51013,10 @@
       <pname value="Karttula"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
     </placeobj>
-    <placeobj handle="_ceac1478b0919bf2446" change="1420240457" id="P0306" type="Parish">
+    <placeobj handle="_ceac1478b0919bf2446" change="1704159810" id="P0306" type="Parish">
       <ptitle>Lojo, Finland</ptitle>
-      <pname value="Lojo"/>
+      <pname value="Lojo" lang="se"/>
+      <pname value="Lohja" lang="fi"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
     </placeobj>
     <placeobj handle="_ceac18e28634c57890d" change="1420240919" id="P0307" type="Parish">
@@ -79640,6 +79728,180 @@ o.s. Vahrman Raasulista.
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="279"/>
+      </style>
+    </note>
+    <note handle="_f7ff1c20ccc613a924c213c987e" change="1704219128" id="N3432" type="Transcript" format="1">
+      <text>302          Norrveckoski
+
+Handtverkare
+     Sokne smeden Gustaf Nordbergs barn med Maja Lena Gustafdr f. 1814
+Gustaf Adolf Nordberg   29/9  1850
+Carl Fredrik Nordberg   7/10  1852
+Maria Lovisa Nordberg   24/8  1855
+Adolf wilhelm Nordberg  24/10 1859
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="251"/>
+      </style>
+    </note>
+    <note handle="_f7ff1c5b6ab13de7a94e82c6849" change="1704219152" id="N3433" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I C Syntyneiden ja kastettujen luettelot. Syntyneiden ja kastettujen luettelot  (1851-1860). Tiedosto 139. Kansallisarkisto. Viitattu 2.1.2024.</text>
+    </note>
+    <note handle="_f7ff20b3e254d94a4d6ce9ffa14" change="1704219608" id="N3434" type="Transcript" format="1">
+      <text>                            Födde år 1855
+                            Augusti månad
+
+24  26  Maria Lovisa  Parent: S:Smeden Gustaf    Test: Bdesn Johan Lassas mhu
+        döpt af       Nordberg, hu Maja Le       Maria Andersdr fr Norr
+  v.Pastor Stenroth?  na Gustafsdr               veckoski, dreng Johan Fors
+                                        x 41     blom fr Söderveckoski
+                       Norr-Veckoski             och Fosterdr? Lena Sofia Törn
+                                                 qvist fr Andesböle by
+                                                              Koll ????
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="604"/>
+      </style>
+    </note>
+    <note handle="_f7ff2c0b2fab0713fa35fdbd7b" change="1704220797" id="N3435" type="Transcript" format="1">
+      <text>413          Norrveckoski
+
+Qvarnen
+
+Piga Maria Lovisa Nordberg    24/8 1855    gb. 315    90-400          Brudl. 1889 no 96.
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="125"/>
+      </style>
+    </note>
+    <note handle="_f7ff34305b710294246d4d5d60c" change="1704221651" id="N3436" type="Citation">
+      <text>Porvoo maaseurakunta vihityt 1889-1904 (AP I Eb:5)  Sivu 18 1889 December ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38700&amp;pnum=12 / Viitattu 02.01.2024</text>
+    </note>
+    <note handle="_f7ff346c0c02c1801b47e59a886" change="1704221676" id="N3437" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38700&amp;pnum=12</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38700&amp;pnum=12">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f7ff36bff8e1ca6349482ab117d" change="1704221920" id="N3438" type="Transcript" format="1">
+      <text>                                 År 1889        Pag 19
+Till Äktenskap sammanvigde i Borgå Lands-Församling
+
+Dec  29  34  Gustaf Adolf Nikander, arb från H:fors
+         34  Maria Lovisa Nordberg, piga från
+             Norrveckoski p.413.                       [Enkl o. ogift]
+                    Wigda i Borgå af E.J. Kananen
+
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="327"/>
+      </style>
+    </note>
+    <note handle="_f7ff3b6e2a814b112208401e539" change="1704222411" id="N3439" type="Citation">
+      <text>Porvoo maaseurakunta rippikirja 1890-1899 (AP_LÄNSI I Aa:29)  Sivu 400 Norrweckoski Clemets ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=408 / Viitattu 02.01.2024</text>
+    </note>
+    <note handle="_f7ff3b8f02d7dcfcd1d6d224173" change="1704222424" id="N3440" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=408</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=408">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f7ff3e36a526f1ba34065e59847" change="1704222703" id="N3441" type="Transcript" format="1">
+      <text>400          Norrveckoski
+
+Clemets
+frälse   1/3 mtl.                                                              Eges af Johan Johansson Hannusas
+
+
+
+                 2.g gift
+Inh Gustaf Adolf Nikander    31/7 1855  Nummis              }92-10           Ifr.  H:fors 1890-63 }vigde 29/12 18&lt;tahra&gt;
+Hu Maria Lovisa Nordberg     24/8 1855            90-413    }                                   }      1889
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="405"/>
+      </style>
+    </note>
+    <note handle="_f7ff3fca7d83db4bf10654faa65" change="1704222868" id="N3442" type="Citation">
+      <text>Porvoo maaseurakunta rippikirja 1890-1899 (AP_LÄNSI I Aa:29)  Sivu 10 Andersböle Smeds skatteh ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=17 / Viitattu 02.01.2024</text>
+    </note>
+    <note handle="_f7ff3ff84782718c99d1df4ca8b" change="1704222887" id="N3443" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=17</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=17">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f7ff41b397ba2ead5a18644d79" change="1704223068" id="N3444" type="Transcript" format="1">
+      <text>10          Andersböle
+
+Smeds
+skatteh. 1/3 mtl.
+
+B:bo Gustaf Adolf Nikander  31/7 1855    Nummis    }92-400
+Hu Maria Lovisa Nordberg    24/8 1855              }
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="161"/>
+      </style>
+    </note>
+    <note handle="_f7ff44c77b63d9f8b1782bcb4c4" change="1704223391" id="N3445" type="Transcript" format="1">
+      <text>27          Andersböle
+
+Smeds
+
+B:bo Gustaf Adolf Nikander  31/7  1855  Nummis
+Hu Maria Lovisa Nordberg    24/8  1855  Borgå lf                    hustrun avk.
+dr Fanny Maria              13/9  1892  do           1908
+dr Ellen Ingeborg           31/11 1895  do</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="259"/>
+      </style>
+    </note>
+    <note handle="_f7ff468449d4a24daf1e47005a4" change="1704223573" id="N3446" type="Citation">
+      <text>Porvoo maaseurakunta lastenkirja 1890-1899 (AP_LÄNSI I Ab:20)  Sivu 400 Norrveckoski Clemets, Gästgifvars el. Henrikas ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38689&amp;pnum=203 / Viitattu 02.01.2024</text>
+    </note>
+    <note handle="_f7ff46a711c1b610571cdaa80f1" change="1704223587" id="N3447" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38689&amp;pnum=203</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38689&amp;pnum=203">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f7ff47ee497c1b0c3e13eff980" change="1704223721" id="N3448" type="Transcript" format="1">
+      <text>400          Norrveckoski
+
+Clemets
+
+Inh Gustaf Adolf Nikanders b mhu Maria Lovisa Nordberg f. 1855
+Ingrid Maria    14/2 91             dog d. 5/3 1891
+Fanny Maria     13/9 92    Borgå                         1892 t.p.10
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="220"/>
+      </style>
+    </note>
+    <note handle="_f7ff4c14d4640d2ebd81cde292f" change="1704224424" id="N3449" type="Transcript" format="1">
+      <text>10          Andersböle
+
+Smeds
+
+Bbo Gustaf Adolf Nikanderss bn mhu Maria Lovisa Nordberg f. 1855
+Fanny Maria     13/9  92                   1892 fr.p.400
+Ellen Ingeborg  31/11 95
+
+
+
+            Andersböle          11
+
+Smeds
+
+Bbo Anders Johan Nordbergs bn mhu Mathilda Andersgr (f. 1862)
+Hilda Adele      17/5 1891                     }94-415 ifr
+Fanny Mathilda  10/10 1893                     }
+Edvin Lennart    10/4 1896    dog 26/4 1898
+Signe Lydia      10/7 98
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="462"/>
       </style>
     </note>
   </notes>
