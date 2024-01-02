@@ -17405,16 +17405,24 @@
       <place hlink="_cb589cc90f055fc9f0c"/>
       <citationref hlink="_f7ff876715b4f48bd4a54634ead"/>
     </event>
-    <event handle="_f7ffcffcea65dbac02a1a0a913c" change="1704238021" id="E0876">
+    <event handle="_f7ffcffcea65dbac02a1a0a913c" change="1704239141" id="E0876">
       <type>Birth</type>
-      <dateval val="1891" quality="calculated"/>
+      <dateval val="1891-06-14"/>
+      <place hlink="_f7ffd720829377052ffb7abcfd2"/>
       <citationref hlink="_f7ffcfed92178bf14ec8e3d3763"/>
+      <citationref hlink="_f7ffdace6d96714aebef135c5d9"/>
     </event>
     <event handle="_f7ffd08d6e460184fe86927150" change="1704238047" id="E0877">
       <type>Marriage</type>
       <dateval val="1918-11-24"/>
       <place hlink="_cb589cc90f055fc9f0c"/>
       <citationref hlink="_f7ffcfed92178bf14ec8e3d3763"/>
+    </event>
+    <event handle="_f7ffdb4eba37229fc775b1f5443" change="1704239192" id="">
+      <type>Baptism</type>
+      <dateval val="1891-06-21"/>
+      <place hlink="_cb589cc90f055fc9f0c"/>
+      <citationref hlink="_f7ffdace6d96714aebef135c5d9"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -30894,13 +30902,14 @@
       <eventref hlink="_f7ff72f670f628031b607963b96" role="Primary"/>
       <childof hlink="_cb589ccefb45aeec8ea"/>
     </person>
-    <person handle="_f7ffcc57c0f319e2b512ebbec65" change="1704237994" id="I0191">
+    <person handle="_f7ffcc57c0f319e2b512ebbec65" change="1704239179" id="I0191">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Gunnar Waldemar</first>
         <surname>Bäckström</surname>
       </name>
       <eventref hlink="_f7ffcffcea65dbac02a1a0a913c" role="Primary"/>
+      <eventref hlink="_f7ffdb4eba37229fc775b1f5443" role="Primary"/>
       <parentin hlink="_f7ffcbecd7d268b9a0a1938a52f"/>
     </person>
   </people>
@@ -46588,6 +46597,14 @@
       <noteref hlink="_f7ffcfd7b066b59d52bbdf56a5f"/>
       <sourceref hlink="_f7ffcd5af871ba67b2be3a9e648"/>
     </citation>
+    <citation handle="_f7ffdace6d96714aebef135c5d9" change="1704239123" id="C1695">
+      <page>C:14/302-303</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f7ffd7b14563dce24e1d451a808"/>
+      <noteref hlink="_f7ffd7cd12810fa9b12b6bd0cf5"/>
+      <noteref hlink="_f7ffdac63ef6110f47c37603dc9"/>
+      <sourceref hlink="_f35f3a785f97bd24c3e0721d350"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -50372,7 +50389,7 @@
       <pname value="Mehtäknuuttila"/>
       <placeref hlink="_cea14452de22b37c1c0"/>
     </placeobj>
-    <placeobj handle="_cb589cd2ade491812fc" change="1621537027" id="P0202" type="Village">
+    <placeobj handle="_cb589cd2ade491812fc" change="1704238735" id="P0202" type="Village">
       <ptitle>Andersböle, Borgå, Finland</ptitle>
       <pname value="Andersböle" lang="se"/>
       <placeref hlink="_cb589cc90f055fc9f0c"/>
@@ -53180,6 +53197,10 @@
     <placeobj handle="_f7fc1e1ef9d7482f12ddcd603c9" change="1704138807" id="P0260" type="Parish">
       <pname value="Rautu"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
+    </placeobj>
+    <placeobj handle="_f7ffd720829377052ffb7abcfd2" change="1704238737" id="P0261" type="Farm">
+      <pname value="Sigfrids"/>
+      <placeref hlink="_cb589cd2ade491812fc"/>
     </placeobj>
   </places>
   <repositories>
@@ -80117,6 +80138,32 @@ November  24  28  Arbetaren, ungk. Gunnar Waldemar      27      [Kaksi naimatont
                            vigda av Sigurd Öhrnberg</text>
       <style name="fontface" value="Monospace">
         <range start="0" end="371"/>
+      </style>
+    </note>
+    <note handle="_f7ffd7b14563dce24e1d451a808" change="1704238796" id="N3465" type="Citation">
+      <text>Porvoo maaseurakunta syntyneet 1888-1893 (AP I C:14)  Sivu 302  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38695&amp;pnum=153 / Viitattu 03.01.2024</text>
+    </note>
+    <note handle="_f7ffd7cd12810fa9b12b6bd0cf5" change="1704238807" id="N3466" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38695&amp;pnum=153</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38695&amp;pnum=153">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f7ffdac63ef6110f47c37603dc9" change="1704239119" id="N3467" type="Transcript" format="1">
+      <text>                                                              303
+                                                     År 1891
+Födde och Döpte inom Borgå lands-församling
+
+[Juni]  14  21  9  Gunnar Waldemar Par: Inh Gustaf
+                   Fredrik Bäckström mhu Amanda Sofia
+                   Holmsten fr Andersböle Sigfrids.
+                   Ts: Staldrg Gustaf Adolf Holmsten mhu
+                   Irene Wilh:a, Landb.sonen Karl Edvard
+                   Bäckström och jung fr. Fanny Holmsten
+                   från Andersböle               döpt af  1 -  28
+                                         Vilh. Mårtenson</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="622"/>
       </style>
     </note>
   </notes>
