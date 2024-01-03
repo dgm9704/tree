@@ -17464,6 +17464,31 @@
       <place hlink="_cf967cc75d96b616c8f"/>
       <citationref hlink="_f80131f601f3eda86cc02299779"/>
     </event>
+    <event handle="_f8014cdf622d7fb8986f0dc06e" change="1704277927" id="E0883">
+      <type>Residence</type>
+      <datespan start="1866" stop="1872"/>
+      <place hlink="_cf967cce760227bec05"/>
+      <citationref hlink="_f8014cd5d0e70d466f409b914ce"/>
+    </event>
+    <event handle="_f801507da75956770e187a4668" change="1704278306" id="E0884">
+      <type>Residence</type>
+      <dateval val="1872"/>
+      <place hlink="_f8014e86a1216c6ee3d2d3e9073"/>
+      <citationref hlink="_f8015079d821ce2d9c5e35655fb"/>
+    </event>
+    <event handle="_f8015872b1c2b7a11687cf860f2" change="1704279294" id="E0885">
+      <type>Residence</type>
+      <datespan start="1873" stop="1876-11-01"/>
+      <place hlink="_f8014e86a1216c6ee3d2d3e9073"/>
+      <citationref hlink="_f801583c99872908b4b9f01086c"/>
+    </event>
+    <event handle="_f80158bf070215d423ed17d0768" change="1704279592" id="E0886">
+      <type>Residence</type>
+      <dateval val="1876-11-01" type="after"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_f801583c99872908b4b9f01086c"/>
+      <citationref hlink="_f8015cb7a3efa5bdb0b7227c6b"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1658869228" id="I3858">
@@ -27297,7 +27322,7 @@
       <eventref hlink="_cf967a8a25e2e07af33" role="Primary"/>
       <parentin hlink="_cb589cd834b18a7aaac"/>
     </person>
-    <person handle="_cf967d1e0d6235c137b" change="1704275218" id="I1426">
+    <person handle="_cf967d1e0d6235c137b" change="1704279183" id="I1426">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Gustaf Adolf</first>
@@ -27305,6 +27330,9 @@
       </name>
       <eventref hlink="_cf967bce4c2345c11b1" role="Primary"/>
       <eventref hlink="_f800bbda4a17205af9063c6c635" role="Primary"/>
+      <eventref hlink="_f801507da75956770e187a4668" role="Primary"/>
+      <eventref hlink="_f8015872b1c2b7a11687cf860f2" role="Primary"/>
+      <eventref hlink="_f80158bf070215d423ed17d0768" role="Primary"/>
       <childof hlink="_cf967ded151248b65ac"/>
       <parentin hlink="_cb589ccefb45aeec8ea"/>
     </person>
@@ -27326,7 +27354,7 @@
       <eventref hlink="_cf967eb840e057a30d7" role="Primary"/>
       <parentin hlink="_cf967ded151248b65ac"/>
     </person>
-    <person handle="_cf967f9e11b0bbb82fa" change="1704275218" id="I1429">
+    <person handle="_cf967f9e11b0bbb82fa" change="1704277933" id="I1429">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Lovisa</first>
@@ -27335,7 +27363,7 @@
       <eventref hlink="_cf967f44286479dc7bb" role="Primary"/>
       <childof hlink="_cf967ded151248b65ac"/>
     </person>
-    <person handle="_cf96800785773163abb" change="1704275218" id="I1430">
+    <person handle="_cf96800785773163abb" change="1704277933" id="I1430">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Fredrica Gustafva</first>
@@ -27344,7 +27372,7 @@
       <eventref hlink="_cf967fecd5b1f41dca6" role="Primary"/>
       <childof hlink="_cf967ded151248b65ac"/>
     </person>
-    <person handle="_cf968058ad06e112481" change="1704275218" id="I1431">
+    <person handle="_cf968058ad06e112481" change="1704277933" id="I1431">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Jacob Johan</first>
@@ -27354,7 +27382,7 @@
       <eventref hlink="_cf96818502540c65635" role="Primary"/>
       <childof hlink="_cf967ded151248b65ac"/>
     </person>
-    <person handle="_cf9680a7a49678310d5" change="1704275218" id="I1432">
+    <person handle="_cf9680a7a49678310d5" change="1704277933" id="I1432">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Amanda Carolina</first>
@@ -30954,7 +30982,7 @@
       <eventref hlink="_f7ffdb4eba37229fc775b1f5443" role="Primary"/>
       <parentin hlink="_f7ffcbecd7d268b9a0a1938a52f"/>
     </person>
-    <person handle="_f80132180e877ca1dccf5f3c646" change="1704275218" id="I0192">
+    <person handle="_f80132180e877ca1dccf5f3c646" change="1704277933" id="I0192">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Johan Evert</first>
@@ -33796,12 +33824,13 @@
       <childref hlink="_cf967494969057b64a0"/>
       <childref hlink="_cf96751ac054785b9ef"/>
     </family>
-    <family handle="_cf967ded151248b65ac" change="1704275218" id="F0622">
+    <family handle="_cf967ded151248b65ac" change="1704277933" id="F0622">
       <rel type="Married"/>
       <father hlink="_cf967e023cc669db1bc"/>
       <mother hlink="_cf967ec55355c43c821"/>
       <eventref hlink="_f8012306f241d4243eae68f15af" role="Family"/>
       <eventref hlink="_f801320bdaa719da187f66e5072" role="Family"/>
+      <eventref hlink="_f8014cdf622d7fb8986f0dc06e" role="Family"/>
       <childref hlink="_cf967f9e11b0bbb82fa"/>
       <childref hlink="_cf96800785773163abb"/>
       <childref hlink="_cf968058ad06e112481"/>
@@ -46700,6 +46729,38 @@
       <noteref hlink="_f80131f0aff67a65772d9354de9"/>
       <sourceref hlink="_f8012efd3b81482991e25c05a37"/>
     </citation>
+    <citation handle="_f8014cd5d0e70d466f409b914ce" change="1704277923" id="C1701">
+      <page>266</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f80147f442bd2774b8bbfede53"/>
+      <noteref hlink="_f8014813d105977ea8ceaba16f2"/>
+      <noteref hlink="_f8014ccc10679fa4eda096bcb23"/>
+      <sourceref hlink="_f80147d1163386c0251b3e4ba9c"/>
+    </citation>
+    <citation handle="_f8015079d821ce2d9c5e35655fb" change="1704278305" id="C1702">
+      <page>266</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f8014f248a87939545be6ae3e5a"/>
+      <noteref hlink="_f8014f45c291f6ab655b2a2c3d9"/>
+      <noteref hlink="_f8015073d9856972346c5d5859"/>
+      <sourceref hlink="_f80147d1163386c0251b3e4ba9c"/>
+    </citation>
+    <citation handle="_f801583c99872908b4b9f01086c" change="1704279118" id="C1703">
+      <page>MKO36-48/312</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f801573b1e258795ba936f05175"/>
+      <noteref hlink="_f801575b963247f7f7c8de33a6e"/>
+      <noteref hlink="_f801583840b17625a61e2503804"/>
+      <sourceref hlink="_f80157075af42cb51b2d4ce66e6"/>
+    </citation>
+    <citation handle="_f8015cb7a3efa5bdb0b7227c6b" change="1704279588" id="C1704">
+      <page>MKO1-3/39</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f8015b4e8cc17736da42eaee7dc"/>
+      <noteref hlink="_f8015b6d96579f3a971ef640ec8"/>
+      <noteref hlink="_f8015cb19561f56c8ab73cf2121"/>
+      <sourceref hlink="_f8015b14c7030e4088e4735ab66"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -50168,6 +50229,21 @@
       <sauthor>Nummen seurakunta</sauthor>
       <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
     </source>
+    <source handle="_f80147d1163386c0251b3e4ba9c" change="1704277397" id="S0689">
+      <stitle>Nummi Rippikirja 1866-1872</stitle>
+      <sauthor>Nummen seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f80157075af42cb51b2d4ce66e6" change="1704278992" id="S0690">
+      <stitle>Nummi Rippikirja 1873-1882</stitle>
+      <sauthor>Nummen seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f8015b14c7030e4088e4735ab66" change="1704279417" id="S0691">
+      <stitle>Nummi Muuttaneet 1863-1885</stitle>
+      <sauthor>Nummen seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1704159992" id="P0000" type="City">
@@ -51408,7 +51484,7 @@
       <pname value="Storbondas"/>
       <placeref hlink="_cdf82fb91b45aadb551"/>
     </placeobj>
-    <placeobj handle="_cf967cc75d96b616c8f" change="1704273534" id="P0388" type="Parish">
+    <placeobj handle="_cf967cc75d96b616c8f" change="1704278124" id="P0388" type="Parish">
       <pname value="Nummi" lang="fi"/>
       <pname value="Nummis" lang="sv"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
@@ -53313,6 +53389,15 @@
       <pname value="Sigfrids"/>
       <placeref hlink="_cb589cd2ade491812fc"/>
     </placeobj>
+    <placeobj handle="_f8014e86a1216c6ee3d2d3e9073" change="1704278126" id="P0262" type="Farm">
+      <pname value="Salmi"/>
+      <pname value="Pelli"/>
+      <placeref hlink="_f8014ec34342ad905916eebfc13"/>
+    </placeobj>
+    <placeobj handle="_f8014ec34342ad905916eebfc13" change="1704278125" id="P0263" type="Village">
+      <pname value="Sierla"/>
+      <placeref hlink="_cf967cc75d96b616c8f"/>
+    </placeobj>
   </places>
   <repositories>
     <repository handle="_cdea29a49637c6553bc" change="1672241850" id="R0001">
@@ -53320,7 +53405,7 @@
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1704263782" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1704279415" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -80391,6 +80476,92 @@ son Johan Evert               28/9 1859  do
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="359"/>
+      </style>
+    </note>
+    <note handle="_f80147f442bd2774b8bbfede53" change="1704277411" id="N3485" type="Citation">
+      <text>Nummi rippikirja 1866-1872 (MKO24-35)  Sivu 266 Rettlax Niemi Keipi ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15609&amp;pnum=254 / Viitattu 03.01.2024</text>
+    </note>
+    <note handle="_f8014813d105977ea8ceaba16f2" change="1704277424" id="N3486" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15609&amp;pnum=254</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15609&amp;pnum=254">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f8014ccc10679fa4eda096bcb23" change="1704277919" id="N3487" type="Transcript" format="1">
+      <text>266
+Rettlax Niemi Keipi
+kfu F.d. torp Gabriel Johan Nikander   24/9 1815  Här     GB.p.238
+Hu Fredrika Gustava Eriksdotter       12/12 1816  Pusula  do
+dotter Amanda Carolina                 16/4 1852  Här     do                  Wichtis/1868
+son Gustaf Adolf                       31/7 1855  do      do                  p.299/1872
+son Johan Evert                        28/9 1859  do      do
+
+
+sp.t. August Abel Nikander             2/12 1832  ??      p.268/1866        }
+hustru Eva Stina A??                   13/5 1831  do      do                }
+son Abel August                         5/9 1856  Pusula  do                } Pusula/1867
+son Henrik Johan                       14/3 1859  do      do                }
+son Emanuel                             3/2 1864  do      do                }
+son Karl Fredrik                       14/1 1867  här                       }
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="875"/>
+      </style>
+    </note>
+    <note handle="_f8014f248a87939545be6ae3e5a" change="1704278165" id="N3488" type="Citation">
+      <text>Nummi rippikirja 1866-1872 (MKO24-35)  Sivu 299 Sierla Salmi eller Pelli ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15609&amp;pnum=285 / Viitattu 03.01.2024</text>
+    </note>
+    <note handle="_f8014f45c291f6ab655b2a2c3d9" change="1704278178" id="N3489" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15609&amp;pnum=285</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15609&amp;pnum=285">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f8015073d9856972346c5d5859" change="1704278302" id="N3490" type="Transcript" format="1">
+      <text>299
+Sierla Salmi eller Pelli
+
+drg. Gustaf Adolf Nikander  31/7 1855  här  p.266/1872    skriv skola här 1872
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="109"/>
+      </style>
+    </note>
+    <note handle="_f801573b1e258795ba936f05175" change="1704279013" id="N3491" type="Citation">
+      <text>Nummi rippikirja 1873-1882 (MKO36-48)  Sivu 312 Sjerla Salmi l. Pelli ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15610&amp;pnum=308 / Viitattu 03.01.2024</text>
+    </note>
+    <note handle="_f801575b963247f7f7c8de33a6e" change="1704279026" id="N3492" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15610&amp;pnum=308</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15610&amp;pnum=308">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f801583840b17625a61e2503804" change="1704279320" id="N3493" type="Transcript" format="1">
+      <text>312
+Sjerla Salmi l. Pelli
+
+drg Gust. Adolf Nikander  31/7 1855  [här]  [gb.p.239]          H:fors 1/XI 1876
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="108"/>
+      </style>
+    </note>
+    <note handle="_f8015b4e8cc17736da42eaee7dc" change="1704279440" id="N3494" type="Citation">
+      <text>Nummi muuttaneet 1863-1885 (MKO1-3)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15659&amp;pnum=39 / Viitattu 03.01.2024</text>
+    </note>
+    <note handle="_f8015b6d96579f3a971ef640ec8" change="1704279453" id="N3495" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15659&amp;pnum=39</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15659&amp;pnum=39">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f8015cb19561f56c8ab73cf2121" change="1704279586" id="N3496" type="Transcript" format="1">
+      <text>          Utflyttade från Nummis kapell år 1876
+
+[Nov]  [1]  41  Drg. Gust. Adolf Nikander  [ut.anm]  Sierla  312  [Hfors]  1 -
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="128"/>
       </style>
     </note>
   </notes>
