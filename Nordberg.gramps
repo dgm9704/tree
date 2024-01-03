@@ -7360,7 +7360,7 @@
       <place hlink="_cdf82ee48671ea8ed18"/>
       <citationref hlink="_df69c25f909569156ddda9e5e32"/>
     </event>
-    <event handle="_cb589cfd42b12d38d97" change="1704221962" id="E7152">
+    <event handle="_cb589cfd42b12d38d97" change="1704262286" id="E7152">
       <type>Marriage</type>
       <dateval val="1889-12-29"/>
       <place hlink="_cb589cc90f055fc9f0c"/>
@@ -8534,40 +8534,48 @@
       <dateval val="1896-07-14"/>
       <place hlink="_cdf82fb91b45aadb551"/>
     </event>
-    <event handle="_cf967bce4c2345c11b1" change="1426532788" id="E3173">
+    <event handle="_cf967bce4c2345c11b1" change="1704274324" id="E3173">
       <type>Birth</type>
       <dateval val="1855-07-31"/>
       <place hlink="_cf967cce760227bec05"/>
+      <citationref hlink="_f800c9091b92457e42735434dc6"/>
+      <citationref hlink="_f801280df102df4a4d9fed5296e"/>
     </event>
-    <event handle="_cf967eb840e057a30d7" change="1426532987" id="E3174">
+    <event handle="_cf967eb840e057a30d7" change="1704274104" id="E3174">
       <type>Birth</type>
       <dateval val="1816-12-12"/>
       <place hlink="_cf967eae50849409ccb"/>
+      <citationref hlink="_f801280df102df4a4d9fed5296e"/>
     </event>
-    <event handle="_cf967f44286479dc7bb" change="1426533045" id="E3181">
+    <event handle="_cf967f44286479dc7bb" change="1704274212" id="E3181">
       <type>Birth</type>
       <dateval val="1838-10-27"/>
       <place hlink="_cf967cc75d96b616c8f"/>
+      <citationref hlink="_f801280df102df4a4d9fed5296e"/>
     </event>
-    <event handle="_cf967fecd5b1f41dca6" change="1426533114" id="E3183">
+    <event handle="_cf967fecd5b1f41dca6" change="1704274234" id="E3183">
       <type>Birth</type>
       <dateval val="1847-12-19"/>
       <place hlink="_cf967cc75d96b616c8f"/>
+      <citationref hlink="_f801280df102df4a4d9fed5296e"/>
     </event>
-    <event handle="_cf968052fca75692b15" change="1426533156" id="E3185">
+    <event handle="_cf968052fca75692b15" change="1704274266" id="E3185">
       <type>Birth</type>
       <dateval val="1850-07-09"/>
       <place hlink="_cf967cc75d96b616c8f"/>
+      <citationref hlink="_f801280df102df4a4d9fed5296e"/>
     </event>
-    <event handle="_cf9680a338f3082aedb" change="1426533188" id="E3186">
+    <event handle="_cf9680a338f3082aedb" change="1704274300" id="E3186">
       <type>Birth</type>
       <dateval val="1852-04-16"/>
       <place hlink="_cf967cc75d96b616c8f"/>
+      <citationref hlink="_f801280df102df4a4d9fed5296e"/>
     </event>
-    <event handle="_cf96818502540c65635" change="1426533281" id="E3187">
+    <event handle="_cf96818502540c65635" change="1704274282" id="E3187">
       <type>Death</type>
       <dateval val="1850-11-28"/>
       <place hlink="_cf967cc75d96b616c8f"/>
+      <citationref hlink="_f801280df102df4a4d9fed5296e"/>
     </event>
     <event handle="_cf9683369cf289e502b" change="1426533458" id="E3188">
       <type>Birth</type>
@@ -17359,7 +17367,7 @@
       <place hlink="_ceac1478b0919bf2446"/>
       <citationref hlink="_dcdca72dad5232f3a37e3c862ac"/>
     </event>
-    <event handle="_f7ff3e44f1c557ff8ae0b75554f" change="1704223736" id="E0869">
+    <event handle="_f7ff3e44f1c557ff8ae0b75554f" change="1704262752" id="E0869">
       <type>Residence</type>
       <datespan start="1890" stop="1892"/>
       <place hlink="_cb589ccedbc19380200"/>
@@ -17423,6 +17431,26 @@
       <dateval val="1891-06-21"/>
       <place hlink="_cb589cc90f055fc9f0c"/>
       <citationref hlink="_f7ffdace6d96714aebef135c5d9"/>
+    </event>
+    <event handle="_f800bbda4a17205af9063c6c635" change="1704263413" id="E0878">
+      <type>Residence</type>
+      <dateval val="1890-10-03" type="before"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_f800c26574d3f84bb7a0bf3126e"/>
+      <citationref hlink="_f800bbd1b46376ae9ff625f6e5"/>
+      <citationref hlink="_f7ff3e3ec225b6f8d6e0f38a9c"/>
+    </event>
+    <event handle="_f8012306f241d4243eae68f15af" change="1704274080" id="E0879">
+      <type>Residence</type>
+      <datespan start="1851" stop="1857"/>
+      <place hlink="_cf967cce760227bec05"/>
+      <citationref hlink="_f801280df102df4a4d9fed5296e"/>
+    </event>
+    <event handle="_f8012913a306c32439a808b5e4f" change="1704274173" id="E0880">
+      <type>Birth</type>
+      <dateval val="1815-09-24"/>
+      <place hlink="_cf967cc75d96b616c8f"/>
+      <citationref hlink="_f801280df102df4a4d9fed5296e"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -27257,22 +27285,24 @@
       <eventref hlink="_cf967a8a25e2e07af33" role="Primary"/>
       <parentin hlink="_cb589cd834b18a7aaac"/>
     </person>
-    <person handle="_cf967d1e0d6235c137b" change="1519930545" id="I1426">
+    <person handle="_cf967d1e0d6235c137b" change="1704274194" id="I1426">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Gustaf Adolf</first>
         <surname>Nikander</surname>
       </name>
       <eventref hlink="_cf967bce4c2345c11b1" role="Primary"/>
+      <eventref hlink="_f800bbda4a17205af9063c6c635" role="Primary"/>
       <childof hlink="_cf967ded151248b65ac"/>
       <parentin hlink="_cb589ccefb45aeec8ea"/>
     </person>
-    <person handle="_cf967e023cc669db1bc" change="1519930539" id="I1427">
+    <person handle="_cf967e023cc669db1bc" change="1704274189" id="I1427">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Gabriel</first>
         <surname>Nikander</surname>
       </name>
+      <eventref hlink="_f8012913a306c32439a808b5e4f" role="Primary"/>
       <parentin hlink="_cf967ded151248b65ac"/>
     </person>
     <person handle="_cf967ec55355c43c821" change="1426533207" id="I1428">
@@ -27284,7 +27314,7 @@
       <eventref hlink="_cf967eb840e057a30d7" role="Primary"/>
       <parentin hlink="_cf967ded151248b65ac"/>
     </person>
-    <person handle="_cf967f9e11b0bbb82fa" change="1519930552" id="I1429">
+    <person handle="_cf967f9e11b0bbb82fa" change="1704274194" id="I1429">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Lovisa</first>
@@ -27293,7 +27323,7 @@
       <eventref hlink="_cf967f44286479dc7bb" role="Primary"/>
       <childof hlink="_cf967ded151248b65ac"/>
     </person>
-    <person handle="_cf96800785773163abb" change="1519930534" id="I1430">
+    <person handle="_cf96800785773163abb" change="1704274194" id="I1430">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Fredrica Gustafva</first>
@@ -27302,7 +27332,7 @@
       <eventref hlink="_cf967fecd5b1f41dca6" role="Primary"/>
       <childof hlink="_cf967ded151248b65ac"/>
     </person>
-    <person handle="_cf968058ad06e112481" change="1519930548" id="I1431">
+    <person handle="_cf968058ad06e112481" change="1704274194" id="I1431">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Jacob Johan</first>
@@ -27312,7 +27342,7 @@
       <eventref hlink="_cf96818502540c65635" role="Primary"/>
       <childof hlink="_cf967ded151248b65ac"/>
     </person>
-    <person handle="_cf9680a7a49678310d5" change="1519930516" id="I1432">
+    <person handle="_cf9680a7a49678310d5" change="1704274194" id="I1432">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Amanda Carolina</first>
@@ -33745,10 +33775,11 @@
       <childref hlink="_cf967494969057b64a0"/>
       <childref hlink="_cf96751ac054785b9ef"/>
     </family>
-    <family handle="_cf967ded151248b65ac" change="1426533207" id="F0622">
+    <family handle="_cf967ded151248b65ac" change="1704274194" id="F0622">
       <rel type="Unknown"/>
       <father hlink="_cf967e023cc669db1bc"/>
       <mother hlink="_cf967ec55355c43c821"/>
+      <eventref hlink="_f8012306f241d4243eae68f15af" role="Family"/>
       <childref hlink="_cf967f9e11b0bbb82fa"/>
       <childref hlink="_cf96800785773163abb"/>
       <childref hlink="_cf968058ad06e112481"/>
@@ -46605,6 +46636,39 @@
       <noteref hlink="_f7ffdac63ef6110f47c37603dc9"/>
       <sourceref hlink="_f35f3a785f97bd24c3e0721d350"/>
     </citation>
+    <citation handle="_f800bbd1b46376ae9ff625f6e5" change="1704262717" id="C1696">
+      <page>Bb:6/144-145</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f800bab0f21768699d2fd9f3d50"/>
+      <noteref hlink="_f800bad016cefda431855c970d"/>
+      <noteref hlink="_f800bbca75674bde752ec50b378"/>
+      <sourceref hlink="_f35e697ddc8179667bb5744f2e2"/>
+    </citation>
+    <citation handle="_f800c26574d3f84bb7a0bf3126e" change="1704263406" id="C1697">
+      <page>MKO8-15/34</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f800c12cf33587886e9f727d5ec"/>
+      <noteref hlink="_f800c14ad3a3eea39b9cd942c75"/>
+      <noteref hlink="_f800c2520bb34e862dfc513d2aa"/>
+      <sourceref hlink="_dd203a1e7c46763f4f98e76c384"/>
+    </citation>
+    <citation handle="_f800c9091b92457e42735434dc6" change="1704264103" id="C1698">
+      <page>TK704/162-163</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f800c62edfeaf2db29051a44fe"/>
+      <noteref hlink="_f800c64bcdc5b803a6ff22fbdc0"/>
+      <noteref hlink="_f800c9038804b34cb33d290928e"/>
+      <sourceref hlink="_f800c601c13d4e947af989a43d"/>
+    </citation>
+    <citation handle="_f801280df102df4a4d9fed5296e" change="1704274066" id="C1699">
+      <page>249</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f8012406109740eb2b94d4134e3"/>
+      <noteref hlink="_f801243099d5cceb327c6131124"/>
+      <noteref hlink="_f801244bc2926385aa57540aac5"/>
+      <noteref hlink="_f80128043384478413a0be2d821"/>
+      <sourceref hlink="_f80123d97b840684a184417ff69"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -50058,6 +50122,16 @@
       <sauthor>Porvoon maaseurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
+    <source handle="_f800c601c13d4e947af989a43d" change="1704263785" id="S0686">
+      <stitle>Nummi Syntyneet 1843-1865</stitle>
+      <sauthor>Nummen seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f80123d97b840684a184417ff69" change="1704273625" id="S0687">
+      <stitle>Nummi Rippikirja 1851-1857</stitle>
+      <sauthor>Nummen seurakunta</sauthor>
+      <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1704159992" id="P0000" type="City">
@@ -51298,11 +51372,12 @@
       <pname value="Storbondas"/>
       <placeref hlink="_cdf82fb91b45aadb551"/>
     </placeobj>
-    <placeobj handle="_cf967cc75d96b616c8f" change="1426532784" id="P0388" type="Parish">
-      <pname value="Nummi"/>
+    <placeobj handle="_cf967cc75d96b616c8f" change="1704273534" id="P0388" type="Parish">
+      <pname value="Nummi" lang="fi"/>
+      <pname value="Nummis" lang="sv"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
     </placeobj>
-    <placeobj handle="_cf967ccaa552e7469e6" change="1426532785" id="P0390" type="Village">
+    <placeobj handle="_cf967ccaa552e7469e6" change="1704273536" id="P0390" type="Village">
       <pname value="Rettlax"/>
       <placeref hlink="_cf967cc75d96b616c8f"/>
     </placeobj>
@@ -53209,7 +53284,7 @@
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1704237709" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1704263782" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -53285,7 +53360,7 @@
       <rname>Billiongraves</rname>
       <type>Library</type>
     </repository>
-    <repository handle="_f5dc19ee7d07e822ec5f7a37d7" change="1704129870" id="R0018">
+    <repository handle="_f5dc19ee7d07e822ec5f7a37d7" change="1704273624" id="R0018">
       <rname>Astia</rname>
       <type>Library</type>
       <url  href="https://astia.narc.fi/uusiastia/" type="Web Home"/>
@@ -79925,7 +80000,7 @@ Dec  29  34  Gustaf Adolf Nikander, arb från H:fors
         <range start="0" end="78"/>
       </style>
     </note>
-    <note handle="_f7ff3e36a526f1ba34065e59847" change="1704222703" id="N3441" type="Transcript" format="1">
+    <note handle="_f7ff3e36a526f1ba34065e59847" change="1704262522" id="N3441" type="Transcript" format="1">
       <text>400          Norrveckoski
 
 Clemets
@@ -79935,10 +80010,10 @@ frälse   1/3 mtl.                                                              
 
                  2.g gift
 Inh Gustaf Adolf Nikander    31/7 1855  Nummis              }92-10           Ifr.  H:fors 1890-63 }vigde 29/12 18&lt;tahra&gt;
-Hu Maria Lovisa Nordberg     24/8 1855            90-413    }                                   }      1889
+Hu Maria Lovisa Nordberg     24/8 1855            90-413    }                                     }      1889
 </text>
       <style name="fontface" value="Monospace">
-        <range start="0" end="405"/>
+        <range start="0" end="407"/>
       </style>
     </note>
     <note handle="_f7ff3fca7d83db4bf10654faa65" change="1704222868" id="N3442" type="Citation">
@@ -80164,6 +80239,99 @@ Födde och Döpte inom Borgå lands-församling
                                          Vilh. Mårtenson</text>
       <style name="fontface" value="Monospace">
         <range start="0" end="622"/>
+      </style>
+    </note>
+    <note handle="_f800bab0f21768699d2fd9f3d50" change="1704262599" id="N3468" type="Citation">
+      <text>Porvoo maaseurakunta muuttaneet 1880-1900 (AP I Bb:6)  Sivu 144  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38705&amp;pnum=77 / Viitattu 03.01.2024</text>
+    </note>
+    <note handle="_f800bad016cefda431855c970d" change="1704262611" id="N3469" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38705&amp;pnum=77</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38705&amp;pnum=77">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f800bbca75674bde752ec50b378" change="1704262714" id="N3470" type="Transcript" format="1">
+      <text>        Pag 144
+Längd öfver Inflyttade för år 1890 i Borgå lands-församling
+
+[Oktober]  [3]  63  Nikander, Gustaf Adolf  Arb   1 -   H:fors  400
+
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="146"/>
+      </style>
+    </note>
+    <note handle="_f800c12cf33587886e9f727d5ec" change="1704263278" id="N3471" type="Citation">
+      <text>Helsinki muuttaneet 1888-1909 (MKO8-15)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19856&amp;pnum=34 / Viitattu 03.01.2024</text>
+    </note>
+    <note handle="_f800c14ad3a3eea39b9cd942c75" change="1704263291" id="N3472" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19856&amp;pnum=34</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19856&amp;pnum=34">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f800c2520bb34e862dfc513d2aa" change="1704263399" id="N3473" type="Transcript" format="1">
+      <text>Poismuuttaneita 1890
+
+[September]  6  530  Arb. Gust. Adolf Nikander  4-397  1 -   Porvoo
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="90"/>
+      </style>
+    </note>
+    <note handle="_f800c62edfeaf2db29051a44fe" change="1704263804" id="N3474" type="Citation">
+      <text>Nummi syntyneet 1843-1865 (TK704)  Sivu 162  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7853&amp;pnum=83 / Viitattu 03.01.2024</text>
+    </note>
+    <note handle="_f800c64bcdc5b803a6ff22fbdc0" change="1704263815" id="N3475" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7853&amp;pnum=83</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7853&amp;pnum=83">
+        <range start="0" end="76"/>
+      </style>
+    </note>
+    <note handle="_f800c9038804b34cb33d290928e" change="1704264100" id="N3476" type="Transcript" format="1">
+      <text>162          Födde och döpte uti Nummis kapell år 1855
+
+No 45
+Retlax Niemikeipi  Julii  Aug  Parentes: trop Gabriel Nikander och hans hustru Fredrica Ericsdotter  38
+Gustaf Adolf       31     3    Testes: Retlax Juva smedsenkan Maria Hellgren och Hyvelä Wasta
+                               mäki pigan Fredrica Nilsdotter. Döpt hus och af C. Erenius
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="350"/>
+      </style>
+    </note>
+    <note handle="_f80123ad0a05384ac7c5fec51bb" change="1704273607" id="N3477" type="Source Note">
+      <text>Nummen seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A Kirkon pääkirjat hakemistoineen. Rippikirja  (1851-1857). Tiedosto 258. Kansallisarkisto. Viitattu 3.1.2024.</text>
+    </note>
+    <note handle="_f8012406109740eb2b94d4134e3" change="1704273643" id="N3478" type="Citation">
+      <text>Nummen seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A Kirkon pääkirjat hakemistoineen. Rippikirja  (1851-1857). Tiedosto 258. Kansallisarkisto. Viitattu 3.1.2024.</text>
+    </note>
+    <note handle="_f801243099d5cceb327c6131124" change="1704273661" id="N3479" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5858619354&amp;aineistoId=1162839519</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5858619354&amp;aineistoId=1162839519">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f801244bc2926385aa57540aac5" change="1704273672" id="N3480" type="Link">
+      <text>https://digihakemisto.net/item/1162839519/5858619354/258</text>
+      <style name="link" value="https://digihakemisto.net/item/1162839519/5858619354/258">
+        <range start="0" end="56"/>
+      </style>
+    </note>
+    <note handle="_f80128043384478413a0be2d821" change="1704274062" id="N3481" type="Transcript" format="1">
+      <text>249
+Retlax Niemi Keipi
+sytms? enk. Stina Johansdr         12/6 1787  Pyhäjärvi  gb.p.249            Död 7/9 1852
+Torp son? Gabriel Johan Nikander   24/9 1815  här        do
+hustru Fredrika Gustava Ericsdr   12/12 1816  Pusula     do
+dr Maria Lovisa                   27/10 1838  do         do
+dr Fredrika Gustava               19/12 1847  do         do
+son Jacob Johan                     9/7 1850  do         do                Död 28/11 1850
+dr Amanda Carolina                 16/4 1852  do         do
+son Gustaf Adolf                   31/7 1853  do
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="552"/>
       </style>
     </note>
   </notes>
