@@ -17452,6 +17452,18 @@
       <place hlink="_cf967cc75d96b616c8f"/>
       <citationref hlink="_f801280df102df4a4d9fed5296e"/>
     </event>
+    <event handle="_f801320bdaa719da187f66e5072" change="1704275114" id="E0881">
+      <type>Residence</type>
+      <datespan start="1858" stop="1865"/>
+      <place hlink="_cf967cce760227bec05"/>
+      <citationref hlink="_f80131f601f3eda86cc02299779"/>
+    </event>
+    <event handle="_f801328961e19d164bf909b4bc9" change="1704275165" id="E0882">
+      <type>Birth</type>
+      <dateval val="1859-09-28"/>
+      <place hlink="_cf967cc75d96b616c8f"/>
+      <citationref hlink="_f80131f601f3eda86cc02299779"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1658869228" id="I3858">
@@ -27285,7 +27297,7 @@
       <eventref hlink="_cf967a8a25e2e07af33" role="Primary"/>
       <parentin hlink="_cb589cd834b18a7aaac"/>
     </person>
-    <person handle="_cf967d1e0d6235c137b" change="1704274194" id="I1426">
+    <person handle="_cf967d1e0d6235c137b" change="1704275218" id="I1426">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Gustaf Adolf</first>
@@ -27314,7 +27326,7 @@
       <eventref hlink="_cf967eb840e057a30d7" role="Primary"/>
       <parentin hlink="_cf967ded151248b65ac"/>
     </person>
-    <person handle="_cf967f9e11b0bbb82fa" change="1704274194" id="I1429">
+    <person handle="_cf967f9e11b0bbb82fa" change="1704275218" id="I1429">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Lovisa</first>
@@ -27323,7 +27335,7 @@
       <eventref hlink="_cf967f44286479dc7bb" role="Primary"/>
       <childof hlink="_cf967ded151248b65ac"/>
     </person>
-    <person handle="_cf96800785773163abb" change="1704274194" id="I1430">
+    <person handle="_cf96800785773163abb" change="1704275218" id="I1430">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Fredrica Gustafva</first>
@@ -27332,7 +27344,7 @@
       <eventref hlink="_cf967fecd5b1f41dca6" role="Primary"/>
       <childof hlink="_cf967ded151248b65ac"/>
     </person>
-    <person handle="_cf968058ad06e112481" change="1704274194" id="I1431">
+    <person handle="_cf968058ad06e112481" change="1704275218" id="I1431">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Jacob Johan</first>
@@ -27342,7 +27354,7 @@
       <eventref hlink="_cf96818502540c65635" role="Primary"/>
       <childof hlink="_cf967ded151248b65ac"/>
     </person>
-    <person handle="_cf9680a7a49678310d5" change="1704274194" id="I1432">
+    <person handle="_cf9680a7a49678310d5" change="1704275218" id="I1432">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Amanda Carolina</first>
@@ -30942,6 +30954,15 @@
       <eventref hlink="_f7ffdb4eba37229fc775b1f5443" role="Primary"/>
       <parentin hlink="_f7ffcbecd7d268b9a0a1938a52f"/>
     </person>
+    <person handle="_f80132180e877ca1dccf5f3c646" change="1704275218" id="I0192">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Johan Evert</first>
+        <surname>Nikander</surname>
+      </name>
+      <eventref hlink="_f801328961e19d164bf909b4bc9" role="Primary"/>
+      <childof hlink="_cf967ded151248b65ac"/>
+    </person>
   </people>
   <families>
     <family handle="_cb589cc7f9c792dc427" change="1658869228" id="F1472">
@@ -33775,16 +33796,18 @@
       <childref hlink="_cf967494969057b64a0"/>
       <childref hlink="_cf96751ac054785b9ef"/>
     </family>
-    <family handle="_cf967ded151248b65ac" change="1704274194" id="F0622">
-      <rel type="Unknown"/>
+    <family handle="_cf967ded151248b65ac" change="1704275218" id="F0622">
+      <rel type="Married"/>
       <father hlink="_cf967e023cc669db1bc"/>
       <mother hlink="_cf967ec55355c43c821"/>
       <eventref hlink="_f8012306f241d4243eae68f15af" role="Family"/>
+      <eventref hlink="_f801320bdaa719da187f66e5072" role="Family"/>
       <childref hlink="_cf967f9e11b0bbb82fa"/>
       <childref hlink="_cf96800785773163abb"/>
       <childref hlink="_cf968058ad06e112481"/>
       <childref hlink="_cf9680a7a49678310d5"/>
       <childref hlink="_cf967d1e0d6235c137b"/>
+      <childref hlink="_f80132180e877ca1dccf5f3c646"/>
     </family>
     <family handle="_cf9683cf69f0db2335f" change="1426533962" id="F0623">
       <rel type="Unknown"/>
@@ -46669,6 +46692,14 @@
       <noteref hlink="_f80128043384478413a0be2d821"/>
       <sourceref hlink="_f80123d97b840684a184417ff69"/>
     </citation>
+    <citation handle="_f80131f601f3eda86cc02299779" change="1704275105" id="C1700">
+      <page>238</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f8012f23fa0690f10b68c6cdd1a"/>
+      <noteref hlink="_f8012f439e3310c2b6d87e11a6c"/>
+      <noteref hlink="_f80131f0aff67a65772d9354de9"/>
+      <sourceref hlink="_f8012efd3b81482991e25c05a37"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -50132,6 +50163,11 @@
       <sauthor>Nummen seurakunta</sauthor>
       <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
     </source>
+    <source handle="_f8012efd3b81482991e25c05a37" change="1704274793" id="S0688">
+      <stitle>Nummi Rippikirja 1858-1865</stitle>
+      <sauthor>Nummen seurakunta</sauthor>
+      <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1704159992" id="P0000" type="City">
@@ -53360,7 +53396,7 @@
       <rname>Billiongraves</rname>
       <type>Library</type>
     </repository>
-    <repository handle="_f5dc19ee7d07e822ec5f7a37d7" change="1704273624" id="R0018">
+    <repository handle="_f5dc19ee7d07e822ec5f7a37d7" change="1704274792" id="R0018">
       <rname>Astia</rname>
       <type>Library</type>
       <url  href="https://astia.narc.fi/uusiastia/" type="Web Home"/>
@@ -80332,6 +80368,29 @@ son Gustaf Adolf                   31/7 1853  do
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="552"/>
+      </style>
+    </note>
+    <note handle="_f8012f23fa0690f10b68c6cdd1a" change="1704274809" id="N3482" type="Citation">
+      <text>Nummen seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A Kirkon pääkirjat hakemistoineen. Rippikirja  (1858-1865). Tiedosto 250. Kansallisarkisto. Viitattu 3.1.2024.</text>
+    </note>
+    <note handle="_f8012f439e3310c2b6d87e11a6c" change="1704274822" id="N3483" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5858616441&amp;aineistoId=1162860664</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5858616441&amp;aineistoId=1162860664">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f80131f0aff67a65772d9354de9" change="1704275103" id="N3484" type="Transcript" format="1">
+      <text>238
+Rettlax Niemi Keipi
+Torp Gabriel Joh Nikander     24/9 1815  Här     gb.p.249
+Hu Fredrica Gustava Ericsdr  12/12 1816  Pusula  do
+dr Fredrika Gustava          19/12 1847  Här     do                Lojo/1863
+dr Amanda Carolina            16/4 1852  do      do
+son Gustaf Adolf              31/7 1855  do      do
+son Johan Evert               28/9 1859  do
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="359"/>
       </style>
     </note>
   </notes>
