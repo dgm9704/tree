@@ -17432,7 +17432,7 @@
       <place hlink="_cb589cc90f055fc9f0c"/>
       <citationref hlink="_f7ffdace6d96714aebef135c5d9"/>
     </event>
-    <event handle="_f800bbda4a17205af9063c6c635" change="1704263413" id="E0878">
+    <event handle="_f800bbda4a17205af9063c6c635" change="1704314553" id="E0878">
       <type>Residence</type>
       <dateval val="1890-10-03" type="before"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
@@ -17482,12 +17482,30 @@
       <place hlink="_f8014e86a1216c6ee3d2d3e9073"/>
       <citationref hlink="_f801583c99872908b4b9f01086c"/>
     </event>
-    <event handle="_f80158bf070215d423ed17d0768" change="1704279592" id="E0886">
+    <event handle="_f80158bf070215d423ed17d0768" change="1704315958" id="E0886">
       <type>Residence</type>
-      <dateval val="1876-11-01" type="after"/>
+      <datespan start="1876-12-09" stop="1877-08-14"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_f801583c99872908b4b9f01086c"/>
       <citationref hlink="_f8015cb7a3efa5bdb0b7227c6b"/>
+      <citationref hlink="_f801668142a6130a66b72403083"/>
+      <citationref hlink="_f801e857e9c2c75a247e7967f9b"/>
+      <citationref hlink="_f801f5941e260655030d086a896"/>
+      <citationref hlink="_f801fc107613879121e80cba3dd"/>
+    </event>
+    <event handle="_f801f36cd92409fcf499a2dc648" change="1704295391" id="E0887">
+      <type>Birth</type>
+      <dateval val="1851-05-12"/>
+      <place hlink="_d89f6013d8242e7cd32ea5d48b0"/>
+      <citationref hlink="_f801668142a6130a66b72403083"/>
+      <citationref hlink="_f801e857e9c2c75a247e7967f9b"/>
+      <citationref hlink="_f801eaf95ff4f29e5ce78eade8b"/>
+    </event>
+    <event handle="_f802be81ef91fa4f29951a876b7" change="1704317285" id="E0888">
+      <type>Residence</type>
+      <dateval val="1877-08-14" type="after"/>
+      <place hlink="_df54a5f7621535f126d148eda9d"/>
+      <citationref hlink="_f802be7499b75a8628c32142455"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -27322,17 +27340,18 @@
       <eventref hlink="_cf967a8a25e2e07af33" role="Primary"/>
       <parentin hlink="_cb589cd834b18a7aaac"/>
     </person>
-    <person handle="_cf967d1e0d6235c137b" change="1704279183" id="I1426">
+    <person handle="_cf967d1e0d6235c137b" change="1704316768" id="I1426">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Gustaf Adolf</first>
         <surname>Nikander</surname>
       </name>
       <eventref hlink="_cf967bce4c2345c11b1" role="Primary"/>
-      <eventref hlink="_f800bbda4a17205af9063c6c635" role="Primary"/>
       <eventref hlink="_f801507da75956770e187a4668" role="Primary"/>
       <eventref hlink="_f8015872b1c2b7a11687cf860f2" role="Primary"/>
       <eventref hlink="_f80158bf070215d423ed17d0768" role="Primary"/>
+      <eventref hlink="_f802be81ef91fa4f29951a876b7" role="Primary"/>
+      <eventref hlink="_f800bbda4a17205af9063c6c635" role="Primary"/>
       <childof hlink="_cf967ded151248b65ac"/>
       <parentin hlink="_cb589ccefb45aeec8ea"/>
     </person>
@@ -30990,6 +31009,14 @@
       </name>
       <eventref hlink="_f801328961e19d164bf909b4bc9" role="Primary"/>
       <childof hlink="_cf967ded151248b65ac"/>
+    </person>
+    <person handle="_f801f1578d422386fdaee553237" change="1704295398" id="I0193">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Gustaf Adolf</first>
+        <surname>Nikander</surname>
+      </name>
+      <eventref hlink="_f801f36cd92409fcf499a2dc648" role="Primary"/>
     </person>
   </people>
   <families>
@@ -46761,6 +46788,54 @@
       <noteref hlink="_f8015cb19561f56c8ab73cf2121"/>
       <sourceref hlink="_f8015b14c7030e4088e4735ab66"/>
     </citation>
+    <citation handle="_f801668142a6130a66b72403083" change="1704280615" id="C1705">
+      <page>MKO4-10/244</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f80165c526a426a3249ef8bede8"/>
+      <noteref hlink="_f80165e5e4d44305d42426c9150"/>
+      <noteref hlink="_f801667b393f5fe197ddb07790"/>
+      <sourceref hlink="_e1874ddb65965dca5a84a089526"/>
+    </citation>
+    <citation handle="_f801e857e9c2c75a247e7967f9b" change="1704294229" id="C1706">
+      <page>MKO76-87_NMIE/514-515</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f801e71ed9a162188eb87374c5a"/>
+      <noteref hlink="_f801e73d40951f4522ba5d9d45d"/>
+      <noteref hlink="_f801e8506951401ed9682d0125f"/>
+      <sourceref hlink="_e1875f0dbf91819fff90b0d1786"/>
+    </citation>
+    <citation handle="_f801eaf95ff4f29e5ce78eade8b" change="1704294505" id="C1707">
+      <page>IV/590</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f801e9cf970751338a2c21cb69c"/>
+      <noteref hlink="_f801e9f6448333248102d672125"/>
+      <noteref hlink="_f801eaf43484522f44bdc8bcecb"/>
+      <sourceref hlink="_cde65158bf529623e7b"/>
+    </citation>
+    <citation handle="_f801f5941e260655030d086a896" change="1704295617" id="C1708">
+      <page>IV/593</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f801f42a72830a0e85b7a463668"/>
+      <noteref hlink="_f801f4481682d73c1fccc22ddb9"/>
+      <noteref hlink="_f801f58ec16558e6da0c57dd1d6"/>
+      <sourceref hlink="_cde65158bf529623e7b"/>
+    </citation>
+    <citation handle="_f801fc107613879121e80cba3dd" change="1704296297" id="C1709">
+      <page>MKO1-8/222</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f801f85adda1f2a35f5e984342a"/>
+      <noteref hlink="_f801f87e28533dad7c971c11dce"/>
+      <noteref hlink="_f801f94b68a8f11a701267a3ed"/>
+      <sourceref hlink="_f5df89073f241ccf8537154be4b"/>
+    </citation>
+    <citation handle="_f802be7499b75a8628c32142455" change="1704316680" id="C1710">
+      <page>ES163/392</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f802ba29645344a1ec1f7936609"/>
+      <noteref hlink="_f802ba9c6f05f53755dd653914e"/>
+      <noteref hlink="_f802be6678613f7def64008adb9"/>
+      <sourceref hlink="_f802b9c37794261187170a99888"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -50244,9 +50319,14 @@
       <sauthor>Nummen seurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
+    <source handle="_f802b9c37794261187170a99888" change="1704316188" id="S0692">
+      <stitle>Kaarti Muuttokirjat 1840-1880</stitle>
+      <sauthor>Kaartin seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
   </sources>
   <places>
-    <placeobj handle="_cb589cc7f8d1b88b055" change="1704159992" id="P0000" type="City">
+    <placeobj handle="_cb589cc7f8d1b88b055" change="1704316073" id="P0000" type="City">
       <ptitle>Helsingfors, Finland</ptitle>
       <pname value="Helsinki" lang="fi"/>
       <pname value="Helsingfors" lang="se"/>
@@ -53398,6 +53478,10 @@
       <pname value="Sierla"/>
       <placeref hlink="_cf967cc75d96b616c8f"/>
     </placeobj>
+    <placeobj handle="_f802b8b193351a7f0b98ca11540" change="1704316076" id="P0264" type="Garrison">
+      <pname value="Suomen Kaarti"/>
+      <placeref hlink="_cb589cc7f8d1b88b055"/>
+    </placeobj>
   </places>
   <repositories>
     <repository handle="_cdea29a49637c6553bc" change="1672241850" id="R0001">
@@ -53405,7 +53489,7 @@
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1704279415" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1704316187" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -80562,6 +80646,138 @@ drg Gust. Adolf Nikander  31/7 1855  [här]  [gb.p.239]          H:fors 1/XI 187
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="128"/>
+      </style>
+    </note>
+    <note handle="_f80165c526a426a3249ef8bede8" change="1704280537" id="N3497" type="Citation">
+      <text>Helsinki muuttaneet 1865-1879 (MKO4-10)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23487&amp;pnum=244 / Viitattu 03.01.2024</text>
+    </note>
+    <note handle="_f80165e5e4d44305d42426c9150" change="1704280551" id="N3498" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23487&amp;pnum=244</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23487&amp;pnum=244">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f801667b393f5fe197ddb07790" change="1704294927" id="N3499" type="Transcript" format="1">
+      <text>December 1876
+
+[...]
+1375  Nikander, Gustaf Adolf    drg             1 -  4-590  9  [dec] &lt;Vihdistä, s. 12/5 1851&gt;
+[...]
+1403  Nikander, Gustaf Adolf    brandkonstapel  1 -  4-593  11 [dec] &lt;Nummelta, s. 31/1 1855&gt;
+
+
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="217"/>
+      </style>
+    </note>
+    <note handle="_f801e71ed9a162188eb87374c5a" change="1704294101" id="N3500" type="Citation">
+      <text>Helsinki rippikirjahakemisto 1870-1881 (MKO76-87_NMIE)  Sivu 514 N ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23484&amp;pnum=234 / Viitattu 03.01.2024</text>
+    </note>
+    <note handle="_f801e73d40951f4522ba5d9d45d" change="1704294113" id="N3501" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23484&amp;pnum=234</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23484&amp;pnum=234">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f801e8506951401ed9682d0125f" change="1704295138" id="N3502" type="Transcript" format="1">
+      <text>N          515
+
+[Nikander]  Gustaf Adolf i [Vihtis]          4-590  &lt;s. 12/5 1851&gt;
+[Nikander]  Gustaf Adolf f.i Lojo, brandk    4-593  &lt;s. 31/1 1885&gt;
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="150"/>
+      </style>
+    </note>
+    <note handle="_f801e9cf970751338a2c21cb69c" change="1704294383" id="N3503" type="Citation">
+      <text>Helsinki rippikirja 1870-1881 (MKO229-251 P4)  Sivu 590  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23471&amp;pnum=590 / Viitattu 03.01.2024</text>
+    </note>
+    <note handle="_f801e9f6448333248102d672125" change="1704294399" id="N3504" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23471&amp;pnum=590</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23471&amp;pnum=590">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f801eaf43484522f44bdc8bcecb" change="1704294503" id="N3505" type="Transcript" format="1">
+      <text>                                      590
+
+
+Renki
+Gustaf Adolf Nikander  12/5 1851
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="83"/>
+      </style>
+    </note>
+    <note handle="_f801f42a72830a0e85b7a463668" change="1704295469" id="N3506" type="Citation">
+      <text>Helsinki rippikirja 1870-1881 (MKO229-251 P4)  Sivu 593  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23471&amp;pnum=593 / Viitattu 03.01.2024</text>
+    </note>
+    <note handle="_f801f4481682d73c1fccc22ddb9" change="1704295481" id="N3507" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23471&amp;pnum=593</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23471&amp;pnum=593">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f801f58ec16558e6da0c57dd1d6" change="1704295615" id="N3508" type="Transcript" format="1">
+      <text>                                593
+
+Palokonst                               1403-1876                        Kaartiin
+Gustaf Adolf Nikander  31/7 1855    Nummen K                             no 344-1877</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="203"/>
+      </style>
+    </note>
+    <note handle="_f801f85adda1f2a35f5e984342a" change="1704295908" id="N3509" type="Citation">
+      <text>Helsinki muuttaneet 1853-1887 (MKO1-8)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19855&amp;pnum=222 / Viitattu 03.01.2024</text>
+    </note>
+    <note handle="_f801f87e28533dad7c971c11dce" change="1704295922" id="N3510" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19855&amp;pnum=222</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19855&amp;pnum=222">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f801f94b68a8f11a701267a3ed" change="1704296007" id="N3511" type="Transcript" format="1">
+      <text>                    1877
+
+[Augusti]  [14]  344  Brandk Gustaf Adolf Nikander  4-593  1 -   Gardet</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="97"/>
+      </style>
+    </note>
+    <note handle="_f802ba29645344a1ec1f7936609" change="1704316230" id="N3512" type="Citation">
+      <text>Suomen kaarti muuttokirjoja 1840-1880 (ES163)  1876 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=12922&amp;pnum=392 / Viitattu 03.01.2024</text>
+    </note>
+    <note handle="_f802ba9c6f05f53755dd653914e" change="1704316277" id="N3513" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=12922&amp;pnum=392</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=12922&amp;pnum=392">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f802be6678613f7def64008adb9" change="1704317284" id="N3514" type="Transcript" format="1">
+      <text>                       BORGÅ STIFT
+
+2 komp N 170
+       Patine?
+
+Flyttnings-betyg                      år 1877 N:o 344
+                                                4-593
+Brandkonstapeln Gustaf Adolf Nikander
+född den 31 Juli 1855
+uti Nummis
+kom år 1876 derifrån
+flyttar nu till Gardet
+[...]
+är till äktenskap hinderlös, icke gift
+
+har ej meterligt kroppslyte
+är vaccinerad
+
+Helsingfors, den 14 augusti 1877
+
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="411"/>
       </style>
     </note>
   </notes>
