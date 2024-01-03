@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2024-01-03" version="5.1.6"/>
+    <created date="2024-01-04" version="5.1.6"/>
     <researcher>
     </researcher>
   </header>
@@ -17501,11 +17501,13 @@
       <citationref hlink="_f801e857e9c2c75a247e7967f9b"/>
       <citationref hlink="_f801eaf95ff4f29e5ce78eade8b"/>
     </event>
-    <event handle="_f802be81ef91fa4f29951a876b7" change="1704317285" id="E0888">
+    <event handle="_f802be81ef91fa4f29951a876b7" change="1704319299" id="E0888">
       <type>Residence</type>
-      <dateval val="1877-08-14" type="after"/>
+      <datespan start="1877-08-14" stop="1878-10-01"/>
       <place hlink="_df54a5f7621535f126d148eda9d"/>
       <citationref hlink="_f802be7499b75a8628c32142455"/>
+      <citationref hlink="_f802d016e11500b122d5ecea22c"/>
+      <citationref hlink="_f802d7564c6701b3365fca64e57"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -46836,6 +46838,22 @@
       <noteref hlink="_f802be6678613f7def64008adb9"/>
       <sourceref hlink="_f802b9c37794261187170a99888"/>
     </citation>
+    <citation handle="_f802d016e11500b122d5ecea22c" change="1704318529" id="C1711">
+      <page>OS371/96-97</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f802ce3b549265f01cbbff61ba0"/>
+      <noteref hlink="_f802ce607fb7dce8a4a3dba071"/>
+      <noteref hlink="_f802d00dc3a1c22ae15b8d48ee9"/>
+      <sourceref hlink="_f802cde584fb080fc3a2bef04c"/>
+    </citation>
+    <citation handle="_f802d7564c6701b3365fca64e57" change="1704319289" id="C1712">
+      <page>OS372-373/191</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f802d2c116fbe33811c7617afb"/>
+      <noteref hlink="_f802d2e7c3d68faaeef2f9f63ce"/>
+      <noteref hlink="_f802d751ccf6c271a9c032f0f6b"/>
+      <sourceref hlink="_f802d2828ab5f235486e6cd8f4c"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -50324,6 +50342,16 @@
       <sauthor>Kaartin seurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
+    <source handle="_f802cde584fb080fc3a2bef04c" change="1704318299" id="S0693">
+      <stitle>Kaarti Rippikirja 1877-1878</stitle>
+      <sauthor>Kaartin seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f802d2828ab5f235486e6cd8f4c" change="1704318783" id="S0694">
+      <stitle>Kaarti Muuttaneet 1875-1883</stitle>
+      <sauthor>Kaartin seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1704316073" id="P0000" type="City">
@@ -53489,7 +53517,7 @@
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1704316187" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1704318782" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -80754,11 +80782,11 @@ Gustaf Adolf Nikander  31/7 1855    Nummen K                             no 344-
         <range start="0" end="78"/>
       </style>
     </note>
-    <note handle="_f802be6678613f7def64008adb9" change="1704317284" id="N3514" type="Transcript" format="1">
+    <note handle="_f802be6678613f7def64008adb9" change="1704318674" id="N3514" type="Transcript" format="1">
       <text>                       BORGÅ STIFT
 
 2 komp N 170
-       Patine?
+       Patron
 
 Flyttnings-betyg                      år 1877 N:o 344
                                                 4-593
@@ -80770,14 +80798,71 @@ flyttar nu till Gardet
 [...]
 är till äktenskap hinderlös, icke gift
 
-har ej meterligt kroppslyte
+har ej veterligt kroppslyte
 är vaccinerad
 
 Helsingfors, den 14 augusti 1877
 
 </text>
       <style name="fontface" value="Monospace">
-        <range start="0" end="411"/>
+        <range start="0" end="410"/>
+      </style>
+    </note>
+    <note handle="_f802ce3b549265f01cbbff61ba0" change="1704318335" id="N3515" type="Citation">
+      <text>Suomen kaarti rippikirja 1877-1878 (OS371)  Sivu 76-77 Andra Kompani, Skarpskyttar ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15820&amp;pnum=44 / Viitattu 03.01.2024</text>
+    </note>
+    <note handle="_f802ce607fb7dce8a4a3dba071" change="1704318350" id="N3516" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15820&amp;pnum=44</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15820&amp;pnum=44">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f802d00dc3a1c22ae15b8d48ee9" change="1704318526" id="N3517" type="Transcript" format="1">
+      <text>Andra Kompani
+
+Skarpskyttar
+
+               f. Nikander             afsked 78             Fl.bet 176, 1878
+[170]  Gustaf Adolf Patron  31/7 1855                i Nummis, fr. Hfors 77
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="183"/>
+      </style>
+    </note>
+    <note handle="_f802d2c116fbe33811c7617afb" change="1704318809" id="N3518" type="Citation">
+      <text>Suomen kaarti muuttaneet 1875-1883 (OS372-373)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=16349&amp;pnum=191 / Viitattu 03.01.2024</text>
+    </note>
+    <note handle="_f802d2e7c3d68faaeef2f9f63ce" change="1704318825" id="N3519" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=16349&amp;pnum=191</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=16349&amp;pnum=191">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f802d751ccf6c271a9c032f0f6b" change="1704319288" id="N3520" type="Transcript" format="1">
+      <text>     LIF-GARDES
+       FINSKA            FLYTTNINGS-BETYG.
+SKARPSKYTTE-BATALJONS
+     FÖRSAMLING
+
+     År 1878                                          No 176
+
+
+Sanleden?, af reduktion afskedade skarpsk. N:o 170 vid 2ra
+kompani af Lif-Gardes Finska Skarpskytte-BAtaljon, Gustaf Adolf
+Patron f. Nikander
+Är född den 31 Juli år 1855
+uti Nummis
+Kom år 1877 ifrån H.fors
+Flyttar nu tillbaka
+[...]
+Är till äktenskap ledig, icke gift
+Har ej veterligt kroppslyte
+År vaccinerad
+
+Attesteres af ofvannämnde Bataljons församling i Helsingfors den 1 October
+1878</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="550"/>
       </style>
     </note>
   </notes>
