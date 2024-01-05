@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2024-01-05" version="5.1.6"/>
+    <created date="2024-01-06" version="5.1.6"/>
     <researcher>
     </researcher>
   </header>
@@ -17501,7 +17501,7 @@
       <citationref hlink="_f801e857e9c2c75a247e7967f9b"/>
       <citationref hlink="_f801eaf95ff4f29e5ce78eade8b"/>
     </event>
-    <event handle="_f802be81ef91fa4f29951a876b7" change="1704319299" id="E0888">
+    <event handle="_f802be81ef91fa4f29951a876b7" change="1704486262" id="E0888">
       <type>Residence</type>
       <datespan start="1877-08-14" stop="1878-10-01"/>
       <place hlink="_df54a5f7621535f126d148eda9d"/>
@@ -17509,7 +17509,7 @@
       <citationref hlink="_f802d016e11500b122d5ecea22c"/>
       <citationref hlink="_f802d7564c6701b3365fca64e57"/>
     </event>
-    <event handle="_f802d95ef8e2f71a93de811c2a7" change="1704319814" id="E0889">
+    <event handle="_f802d95ef8e2f71a93de811c2a7" change="1704495340" id="E0889">
       <type>Residence</type>
       <dateval val="1878-10-01" type="after"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
@@ -17530,7 +17530,7 @@
       <citationref hlink="_f7ff36fd695553afd23c6dd5471"/>
       <citationref hlink="_f7ff3e3ec225b6f8d6e0f38a9c"/>
     </event>
-    <event handle="_f808f755c7b563898b96e3d508c" change="1704483706" id="E0892">
+    <event handle="_f808f755c7b563898b96e3d508c" change="1704495354" id="E0892">
       <type>Residence</type>
       <dateval val="1881"/>
       <place hlink="_f808f437b6337b8a8aa6b6c2f5b"/>
@@ -17560,11 +17560,30 @@
       <place hlink="_f808ffc81ed2bf3513d169e2c9a"/>
       <citationref hlink="_f80901c286c636b4aae569c6a1b"/>
     </event>
-    <event handle="_f80904d400f11679e2086dc816a" change="1704485121" id="E0897">
+    <event handle="_f80904d400f11679e2086dc816a" change="1704485808" id="E0897">
       <type>Residence</type>
-      <datespan start="1878" stop="1879"/>
+      <datespan start="1878-11-20" stop="1879"/>
       <place hlink="_f8014e86a1216c6ee3d2d3e9073"/>
+      <citationref hlink="_f8090b4b1c87d2af1d5c94f8849"/>
       <citationref hlink="_f80904cfad0228f27ef2c7c5b62"/>
+    </event>
+    <event handle="_f8096c18c2641c28d87884572f5" change="1704495949" id="E0898">
+      <type>Residence</type>
+      <dateval val="1881"/>
+      <place hlink="_cf967cce760227bec05"/>
+      <citationref hlink="_f8096c1504450cba2f1c334b144"/>
+    </event>
+    <event handle="_f8096f4e3d749afc1f7414ce351" change="1704496385" id="E0899">
+      <type>Residence</type>
+      <datespan start="1881-??-01" stop="1883"/>
+      <place hlink="_f8096d1e3c66125cb1eb892ccc6"/>
+      <citationref hlink="_f8096f4aed3504b66e91ea6bb8f"/>
+    </event>
+    <event handle="_f8096ffd71535946a062d8763f" change="1704496405" id="E0902">
+      <type>Birth</type>
+      <dateval val="1881-12-06"/>
+      <place hlink="_f8096d1e3c66125cb1eb892ccc6"/>
+      <citationref hlink="_f8096f4aed3504b66e91ea6bb8f"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -31093,6 +31112,15 @@
       <eventref hlink="_f808e9c9102507b36db9faaf42b" role="Primary"/>
       <parentin hlink="_f808e7921787e4ad9b8795ec71d"/>
     </person>
+    <person handle="_f8096f868958f12d7a99421d06" change="1704496409" id="I0195">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Wilhelmina Gustava</first>
+        <surname>Nikander</surname>
+      </name>
+      <eventref hlink="_f8096ffd71535946a062d8763f" role="Primary"/>
+      <childof hlink="_f808e7921787e4ad9b8795ec71d"/>
+    </person>
   </people>
   <families>
     <family handle="_cb589cc7f9c792dc427" change="1658869228" id="F1472">
@@ -34761,12 +34789,15 @@
       <mother hlink="_cb589cd2a0578278d71"/>
       <eventref hlink="_f7ffd08d6e460184fe86927150" role="Family"/>
     </family>
-    <family handle="_f808e7921787e4ad9b8795ec71d" change="1704484102" id="F0040">
+    <family handle="_f808e7921787e4ad9b8795ec71d" change="1704496409" id="F0040">
       <rel type="Married"/>
       <father hlink="_cf967d1e0d6235c137b"/>
       <mother hlink="_f808e7bc5c139cf528b5f2df2bf"/>
       <eventref hlink="_f808ebfd0466b0098a8bbafa8db" role="Family"/>
       <eventref hlink="_f808faafa6873336684f4f2b294" role="Family"/>
+      <eventref hlink="_f8096c18c2641c28d87884572f5" role="Family"/>
+      <eventref hlink="_f8096f4e3d749afc1f7414ce351" role="Family"/>
+      <childref hlink="_f8096f868958f12d7a99421d06"/>
     </family>
   </families>
   <citations>
@@ -46926,12 +46957,13 @@
       <noteref hlink="_f802d00dc3a1c22ae15b8d48ee9"/>
       <sourceref hlink="_f802cde584fb080fc3a2bef04c"/>
     </citation>
-    <citation handle="_f802d7564c6701b3365fca64e57" change="1704319289" id="C1712">
+    <citation handle="_f802d7564c6701b3365fca64e57" change="1704486259" id="C1712">
       <page>OS372-373/191</page>
       <confidence>2</confidence>
       <noteref hlink="_f802d2c116fbe33811c7617afb"/>
       <noteref hlink="_f802d2e7c3d68faaeef2f9f63ce"/>
       <noteref hlink="_f802d751ccf6c271a9c032f0f6b"/>
+      <noteref hlink="_f8090fa6ec5117a52abec1dc543"/>
       <sourceref hlink="_f802d2828ab5f235486e6cd8f4c"/>
     </citation>
     <citation handle="_f802dc4bb771d6719eadde00917" change="1704319809" id="C1713">
@@ -46972,6 +47004,30 @@
       <noteref hlink="_f80903b4691523d04cc4fffc703"/>
       <noteref hlink="_f80903d45e91ca1e2dc7c20093d"/>
       <noteref hlink="_f80904ca0965182da8aaf311fd6"/>
+      <sourceref hlink="_f80157075af42cb51b2d4ce66e6"/>
+    </citation>
+    <citation handle="_f8090b4b1c87d2af1d5c94f8849" change="1704485799" id="C1718">
+      <page>MKO1-3/45</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f80909b1ebef1c172ea19b28a3"/>
+      <noteref hlink="_f80909cf5963dcefd79d0cd8079"/>
+      <noteref hlink="_f8090b44ff53b0e3c5ce39cc149"/>
+      <sourceref hlink="_f8015b14c7030e4088e4735ab66"/>
+    </citation>
+    <citation handle="_f8096c1504450cba2f1c334b144" change="1704495948" id="C1719">
+      <page>MKO36-48/277</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f8096a965aa3237755a88172fc1"/>
+      <noteref hlink="_f8096ab16d07b0bac1a08bdfd22"/>
+      <noteref hlink="_f8096c0ff4a62c81605a79b22c5"/>
+      <sourceref hlink="_f80157075af42cb51b2d4ce66e6"/>
+    </citation>
+    <citation handle="_f8096f4aed3504b66e91ea6bb8f" change="1704496284" id="C1720">
+      <page>MKO36-48/49</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f8096d7c0d953766094f66a974b"/>
+      <noteref hlink="_f8096d9a24a3aa6d4e5674ffa02"/>
+      <noteref hlink="_f8096f460745dec3c02ae3d633f"/>
       <sourceref hlink="_f80157075af42cb51b2d4ce66e6"/>
     </citation>
   </citations>
@@ -51712,7 +51768,7 @@
       <pname value="Storbondas"/>
       <placeref hlink="_cdf82fb91b45aadb551"/>
     </placeobj>
-    <placeobj handle="_cf967cc75d96b616c8f" change="1704278124" id="P0388" type="Parish">
+    <placeobj handle="_cf967cc75d96b616c8f" change="1704496052" id="P0388" type="Parish">
       <pname value="Nummi" lang="fi"/>
       <pname value="Nummis" lang="sv"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
@@ -53641,6 +53697,14 @@
     <placeobj handle="_f808ffc81ed2bf3513d169e2c9a" change="1704484592" id="P0268" type="Farm">
       <pname value="Pietola"/>
       <placeref hlink="_f8014ec34342ad905916eebfc13"/>
+    </placeobj>
+    <placeobj handle="_f8096d17a6912bbe002a71a291f" change="1704496054" id="P0271" type="Village">
+      <pname value="Hyvelä"/>
+      <placeref hlink="_cf967cc75d96b616c8f"/>
+    </placeobj>
+    <placeobj handle="_f8096d1e3c66125cb1eb892ccc6" change="1704496056" id="P0272" type="Farm">
+      <pname value="Pentti"/>
+      <placeref hlink="_f8096d17a6912bbe002a71a291f"/>
     </placeobj>
   </places>
   <repositories>
@@ -81139,6 +81203,77 @@ Drg Gust. Adolf Patron (Nikander)    31/7 1855    här    1878 Lif. Gard. Finska
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="148"/>
+      </style>
+    </note>
+    <note handle="_f80909b1ebef1c172ea19b28a3" change="1704485631" id="N3536" type="Citation">
+      <text>Nummi muuttaneet 1863-1885 (MKO1-3)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15659&amp;pnum=45 / Viitattu 05.01.2024</text>
+    </note>
+    <note handle="_f80909cf5963dcefd79d0cd8079" change="1704485643" id="N3537" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15659&amp;pnum=45</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15659&amp;pnum=45">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f8090b44ff53b0e3c5ce39cc149" change="1704485796" id="N3538" type="Transcript" format="1">
+      <text>Inflyttade till Nummis kapell år 1878
+
+[Nov]  [20]  39  F.d. skarpsk. Gust. Ad. Patron (Nikander)  [ut.ann?]  Lif. Gard Finska Sk.Batn  313  Sierla  1 -
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="153"/>
+      </style>
+    </note>
+    <note handle="_f8090fa6ec5117a52abec1dc543" change="1704495338" id="N3539" type="Research">
+      <text>Kaartin seurakunnasta ulosmuuttaessa on kirjattu 
+&quot;Är född den 31 Juli år 1855
+uti Nummis
+Kom år 1877 ifrån H.fors
+Flyttar nu tillbaka&quot;
+Ei ilmeisesti muuta takaisin Helsinkiin vaan takaisin Nummelle.</text>
+    </note>
+    <note handle="_f8096a965aa3237755a88172fc1" change="1704495791" id="N3540" type="Citation">
+      <text>Nummi rippikirja 1873-1882 (MKO36-48)  Sivu 277 Rettlax Niemi-Keippi ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15610&amp;pnum=273 / Viitattu 05.01.2024</text>
+    </note>
+    <note handle="_f8096ab16d07b0bac1a08bdfd22" change="1704495802" id="N3541" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15610&amp;pnum=273</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15610&amp;pnum=273">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f8096c0ff4a62c81605a79b22c5" change="1704495946" id="N3542" type="Transcript" format="1">
+      <text>277
+
+Rettlax Niemi-Keipi
+
+
+                                                                   f.d. skarpskytt    1881
+Sp.T. Gust. Adolf Nikander  31/7 1855   här    1881 p.280                             p.49
+Hu Wilhna Elisab. Enqvist    7/5 1862   &quot;      &quot;
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="258"/>
+      </style>
+    </note>
+    <note handle="_f8096d7c0d953766094f66a974b" change="1704496095" id="N3543" type="Citation">
+      <text>Nummi rippikirja 1873-1882 (MKO36-48)  Sivu 49 Hyvelä Pentti ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15610&amp;pnum=48 / Viitattu 05.01.2024</text>
+    </note>
+    <note handle="_f8096d9a24a3aa6d4e5674ffa02" change="1704496107" id="N3544" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15610&amp;pnum=48</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15610&amp;pnum=48">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f8096f460745dec3c02ae3d633f" change="1704496282" id="N3545" type="Transcript" format="1">
+      <text>49
+
+Hyvelä Pentti
+
+Sp.t. Gust Adolf Nikander  31/7 1855    här    1991 p.277          f.d. skarpskytt    }
+Hu Wilhna Elisab. Enqvist   7/5 1862    &quot;      &quot;                                      }1883
+Dr Wilhelmina Gustava      6/12 1881    &quot;                                             }N.B.p.34
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="295"/>
       </style>
     </note>
   </notes>
