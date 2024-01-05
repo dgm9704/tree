@@ -17522,12 +17522,49 @@
       <citationref hlink="_f7ff36fd695553afd23c6dd5471"/>
       <citationref hlink="_f7ff3e3ec225b6f8d6e0f38a9c"/>
     </event>
-    <event handle="_f808ebfd0466b0098a8bbafa8db" change="1704482516" id="E0891">
+    <event handle="_f808ebfd0466b0098a8bbafa8db" change="1704483896" id="E0891">
       <type>Marriage</type>
-      <daterange start="1878-10-01" stop="1889-12"/>
+      <dateval val="1881-06-24"/>
+      <citationref hlink="_f808f749de22cb3dbe71fbdd9aa"/>
       <citationref hlink="_f802d7564c6701b3365fca64e57"/>
       <citationref hlink="_f7ff36fd695553afd23c6dd5471"/>
       <citationref hlink="_f7ff3e3ec225b6f8d6e0f38a9c"/>
+    </event>
+    <event handle="_f808f755c7b563898b96e3d508c" change="1704483706" id="E0892">
+      <type>Residence</type>
+      <dateval val="1881"/>
+      <place hlink="_f808f437b6337b8a8aa6b6c2f5b"/>
+      <citationref hlink="_f808f749de22cb3dbe71fbdd9aa"/>
+    </event>
+    <event handle="_f808fa002205298808a83cc5b2" change="1704483985" id="E0893">
+      <type>Birth</type>
+      <dateval val="1862-05-07"/>
+      <place hlink="_cf967cc75d96b616c8f"/>
+      <citationref hlink="_f808f749de22cb3dbe71fbdd9aa"/>
+    </event>
+    <event handle="_f808faafa6873336684f4f2b294" change="1704484101" id="E0894">
+      <type>Residence</type>
+      <dateval val="1881"/>
+      <place hlink="_f808f437b6337b8a8aa6b6c2f5b"/>
+      <citationref hlink="_f808f749de22cb3dbe71fbdd9aa"/>
+    </event>
+    <event handle="_f808fdd4a784f225e2d69a41942" change="1704484424" id="E0895">
+      <type>Residence</type>
+      <datespan start="1880" stop="1881"/>
+      <place hlink="_f808fc51b847923eb2a54bb26ab"/>
+      <citationref hlink="_f808fdcf29f4ac9f6ead9dcb9b8"/>
+    </event>
+    <event handle="_f80901c66612221d0ac78a820d9" change="1704484801" id="E0896">
+      <type>Residence</type>
+      <datespan start="1879" stop="1880"/>
+      <place hlink="_f808ffc81ed2bf3513d169e2c9a"/>
+      <citationref hlink="_f80901c286c636b4aae569c6a1b"/>
+    </event>
+    <event handle="_f80904d400f11679e2086dc816a" change="1704485121" id="E0897">
+      <type>Residence</type>
+      <datespan start="1878" stop="1879"/>
+      <place hlink="_f8014e86a1216c6ee3d2d3e9073"/>
+      <citationref hlink="_f80904cfad0228f27ef2c7c5b62"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -27362,7 +27399,7 @@
       <eventref hlink="_cf967a8a25e2e07af33" role="Primary"/>
       <parentin hlink="_cb589cd834b18a7aaac"/>
     </person>
-    <person handle="_cf967d1e0d6235c137b" change="1704482700" id="I1426">
+    <person handle="_cf967d1e0d6235c137b" change="1704485206" id="I1426">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Gustaf Adolf</first>
@@ -27374,6 +27411,10 @@
       <eventref hlink="_f80158bf070215d423ed17d0768" role="Primary"/>
       <eventref hlink="_f802be81ef91fa4f29951a876b7" role="Primary"/>
       <eventref hlink="_f802d95ef8e2f71a93de811c2a7" role="Primary"/>
+      <eventref hlink="_f80904d400f11679e2086dc816a" role="Primary"/>
+      <eventref hlink="_f80901c66612221d0ac78a820d9" role="Primary"/>
+      <eventref hlink="_f808fdd4a784f225e2d69a41942" role="Primary"/>
+      <eventref hlink="_f808f755c7b563898b96e3d508c" role="Primary"/>
       <eventref hlink="_f800bbda4a17205af9063c6c635" role="Primary"/>
       <childof hlink="_cf967ded151248b65ac"/>
       <parentin hlink="_f808e7921787e4ad9b8795ec71d"/>
@@ -31042,11 +31083,13 @@
       </name>
       <eventref hlink="_f801f36cd92409fcf499a2dc648" role="Primary"/>
     </person>
-    <person handle="_f808e7bc5c139cf528b5f2df2bf" change="1704482533" id="I0194">
+    <person handle="_f808e7bc5c139cf528b5f2df2bf" change="1704483998" id="I0194">
       <gender>F</gender>
       <name type="Birth Name">
-        <surname></surname>
+        <first>Wilhelmina Elisabeth</first>
+        <surname>Enqvist</surname>
       </name>
+      <eventref hlink="_f808fa002205298808a83cc5b2" role="Primary"/>
       <eventref hlink="_f808e9c9102507b36db9faaf42b" role="Primary"/>
       <parentin hlink="_f808e7921787e4ad9b8795ec71d"/>
     </person>
@@ -34718,11 +34761,12 @@
       <mother hlink="_cb589cd2a0578278d71"/>
       <eventref hlink="_f7ffd08d6e460184fe86927150" role="Family"/>
     </family>
-    <family handle="_f808e7921787e4ad9b8795ec71d" change="1704482533" id="F0040">
+    <family handle="_f808e7921787e4ad9b8795ec71d" change="1704484102" id="F0040">
       <rel type="Married"/>
       <father hlink="_cf967d1e0d6235c137b"/>
       <mother hlink="_f808e7bc5c139cf528b5f2df2bf"/>
       <eventref hlink="_f808ebfd0466b0098a8bbafa8db" role="Family"/>
+      <eventref hlink="_f808faafa6873336684f4f2b294" role="Family"/>
     </family>
   </families>
   <citations>
@@ -46898,6 +46942,38 @@
       <noteref hlink="_f802dc469e15a2c5386af9e3ee4"/>
       <sourceref hlink="_e1874ddb65965dca5a84a089526"/>
     </citation>
+    <citation handle="_f808f749de22cb3dbe71fbdd9aa" change="1704483701" id="C1714">
+      <page>MKO36-48/280</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f808f4a29e67ae3776a9579f12b"/>
+      <noteref hlink="_f808f4e03d4769dfd3942484cd7"/>
+      <noteref hlink="_f808f7351e56ca55f1f48bdad08"/>
+      <sourceref hlink="_f80157075af42cb51b2d4ce66e6"/>
+    </citation>
+    <citation handle="_f808fdcf29f4ac9f6ead9dcb9b8" change="1704484385" id="C1715">
+      <page>MKO36-48/272</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f808fca520034fda2b7a9a5b5cf"/>
+      <noteref hlink="_f808fcc377c4aede875b5a822cd"/>
+      <noteref hlink="_f808fda85a86dee631fbfbd8ba8"/>
+      <sourceref hlink="_f80157075af42cb51b2d4ce66e6"/>
+    </citation>
+    <citation handle="_f80901c286c636b4aae569c6a1b" change="1704484799" id="C1716">
+      <page>MKO36-48/311</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f80900906c745c28be682af98d3"/>
+      <noteref hlink="_f80900aeb2f51abbdccfab5ca2b"/>
+      <noteref hlink="_f80901ba9db66df0a9f43542a11"/>
+      <sourceref hlink="_f80157075af42cb51b2d4ce66e6"/>
+    </citation>
+    <citation handle="_f80904cfad0228f27ef2c7c5b62" change="1704485119" id="C1717">
+      <page>MKO36-48/313</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f80903b4691523d04cc4fffc703"/>
+      <noteref hlink="_f80903d45e91ca1e2dc7c20093d"/>
+      <noteref hlink="_f80904ca0965182da8aaf311fd6"/>
+      <sourceref hlink="_f80157075af42cb51b2d4ce66e6"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -51641,7 +51717,7 @@
       <pname value="Nummis" lang="sv"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
     </placeobj>
-    <placeobj handle="_cf967ccaa552e7469e6" change="1704273536" id="P0390" type="Village">
+    <placeobj handle="_cf967ccaa552e7469e6" change="1704484227" id="P0390" type="Village">
       <pname value="Rettlax"/>
       <placeref hlink="_cf967cc75d96b616c8f"/>
     </placeobj>
@@ -53546,13 +53622,25 @@
       <pname value="Pelli"/>
       <placeref hlink="_f8014ec34342ad905916eebfc13"/>
     </placeobj>
-    <placeobj handle="_f8014ec34342ad905916eebfc13" change="1704278125" id="P0263" type="Village">
+    <placeobj handle="_f8014ec34342ad905916eebfc13" change="1704484591" id="P0263" type="Village">
       <pname value="Sierla"/>
       <placeref hlink="_cf967cc75d96b616c8f"/>
     </placeobj>
     <placeobj handle="_f802b8b193351a7f0b98ca11540" change="1704316076" id="P0264" type="Garrison">
       <pname value="Suomen Kaarti"/>
       <placeref hlink="_cb589cc7f8d1b88b055"/>
+    </placeobj>
+    <placeobj handle="_f808f437b6337b8a8aa6b6c2f5b" change="1704483379" id="P0266" type="Farm">
+      <pname value="Takari"/>
+      <placeref hlink="_cf967ccaa552e7469e6"/>
+    </placeobj>
+    <placeobj handle="_f808fc51b847923eb2a54bb26ab" change="1704484229" id="P0267" type="Farm">
+      <pname value="Björni"/>
+      <placeref hlink="_cf967ccaa552e7469e6"/>
+    </placeobj>
+    <placeobj handle="_f808ffc81ed2bf3513d169e2c9a" change="1704484592" id="P0268" type="Farm">
+      <pname value="Pietola"/>
+      <placeref hlink="_f8014ec34342ad905916eebfc13"/>
     </placeobj>
   </places>
   <repositories>
@@ -80924,7 +81012,7 @@ Skarpskyttar
         <range start="0" end="78"/>
       </style>
     </note>
-    <note handle="_f802d751ccf6c271a9c032f0f6b" change="1704319288" id="N3520" type="Transcript" format="1">
+    <note handle="_f802d751ccf6c271a9c032f0f6b" change="1704482950" id="N3520" type="Transcript" format="1">
       <text>     LIF-GARDES
        FINSKA            FLYTTNINGS-BETYG.
 SKARPSKYTTE-BATALJONS
@@ -80934,7 +81022,7 @@ SKARPSKYTTE-BATALJONS
 
 
 Sanleden?, af reduktion afskedade skarpsk. N:o 170 vid 2ra
-kompani af Lif-Gardes Finska Skarpskytte-BAtaljon, Gustaf Adolf
+kompani af Lif-Gardes Finska Skarpskytte-Bataljon, Gustaf Adolf
 Patron f. Nikander
 Är född den 31 Juli år 1855
 uti Nummis
@@ -80967,6 +81055,90 @@ Attesteres af ofvannämnde Bataljons församling i Helsingfors den 1 October
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="70"/>
+      </style>
+    </note>
+    <note handle="_f808f4a29e67ae3776a9579f12b" change="1704483423" id="N3524" type="Citation">
+      <text>Nummi rippikirja 1873-1882 (MKO36-48)  Sivu 280 Rettlax Takari ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15610&amp;pnum=276 / Viitattu 05.01.2024</text>
+    </note>
+    <note handle="_f808f4e03d4769dfd3942484cd7" change="1704483448" id="N3525" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15610&amp;pnum=276</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15610&amp;pnum=276">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f808f7351e56ca55f1f48bdad08" change="1704483693" id="N3526" type="Transcript" format="1">
+      <text>280
+
+Rettlax Takari hn:
+2/3 mnt
+
+Drg Gust. Adolf Nikander    31/7 1855    här    1881 p.272    {vigde 24/6 81    f.d. skarpskytt
+?? Wilhna Elisb. Enqvist     7/5 1862    här    1881 p.5      {
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="193"/>
+      </style>
+    </note>
+    <note handle="_f808fca520034fda2b7a9a5b5cf" change="1704484263" id="N3527" type="Citation">
+      <text>Nummi rippikirja 1873-1882 (MKO36-48)  Sivu 272 Rettlax Björni ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15610&amp;pnum=268 / Viitattu 05.01.2024</text>
+    </note>
+    <note handle="_f808fcc377c4aede875b5a822cd" change="1704484275" id="N3528" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15610&amp;pnum=268</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15610&amp;pnum=268">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f808fda85a86dee631fbfbd8ba8" change="1704484369" id="N3529" type="Transcript" format="1">
+      <text>272
+
+Rettlax Bjärni hn
+
+Drg Gust. Adolf Patron (Nikander)    31/7 1855    här    1880 p.311          1881 p.280
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="112"/>
+      </style>
+    </note>
+    <note handle="_f80900906c745c28be682af98d3" change="1704484674" id="N3530" type="Citation">
+      <text>Nummi rippikirja 1873-1882 (MKO36-48)  Sivu 311 Sjerla Pietola ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15610&amp;pnum=307 / Viitattu 05.01.2024</text>
+    </note>
+    <note handle="_f80900aeb2f51abbdccfab5ca2b" change="1704484686" id="N3531" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15610&amp;pnum=307</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15610&amp;pnum=307">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f80901ba9db66df0a9f43542a11" change="1704484796" id="N3532" type="Transcript" format="1">
+      <text>311
+
+Sjerla Pietola
+
+f.d. skarpskytten
+??? Gust. Adolf Patron (Nikander)    31/7 1885    här    1879 p.313           1880 p.272
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="128"/>
+      </style>
+    </note>
+    <note handle="_f80903b4691523d04cc4fffc703" change="1704485003" id="N3533" type="Citation">
+      <text>Nummi rippikirja 1873-1882 (MKO36-48)  Sivu 313 Sjerla Salmi ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15610&amp;pnum=309 / Viitattu 05.01.2024</text>
+    </note>
+    <note handle="_f80903d45e91ca1e2dc7c20093d" change="1704485016" id="N3534" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15610&amp;pnum=309</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15610&amp;pnum=309">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f80904ca0965182da8aaf311fd6" change="1704485117" id="N3535" type="Transcript" format="1">
+      <text>313
+
+Sjerla Salmi hn
+
+F.d. skarpskytten
+Drg Gust. Adolf Patron (Nikander)    31/7 1855    här    1878 Lif. Gard. Finska Sk.Bat           1879 p.311
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="148"/>
       </style>
     </note>
   </notes>
