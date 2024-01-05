@@ -17516,6 +17516,19 @@
       <citationref hlink="_f802d7564c6701b3365fca64e57"/>
       <citationref hlink="_f802dc4bb771d6719eadde00917"/>
     </event>
+    <event handle="_f808e9c9102507b36db9faaf42b" change="1704482285" id="E0890">
+      <type>Death</type>
+      <dateval val="1889-12-29" type="before"/>
+      <citationref hlink="_f7ff36fd695553afd23c6dd5471"/>
+      <citationref hlink="_f7ff3e3ec225b6f8d6e0f38a9c"/>
+    </event>
+    <event handle="_f808ebfd0466b0098a8bbafa8db" change="1704482516" id="E0891">
+      <type>Marriage</type>
+      <daterange start="1878-10-01" stop="1889-12"/>
+      <citationref hlink="_f802d7564c6701b3365fca64e57"/>
+      <citationref hlink="_f7ff36fd695553afd23c6dd5471"/>
+      <citationref hlink="_f7ff3e3ec225b6f8d6e0f38a9c"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1658869228" id="I3858">
@@ -27349,7 +27362,7 @@
       <eventref hlink="_cf967a8a25e2e07af33" role="Primary"/>
       <parentin hlink="_cb589cd834b18a7aaac"/>
     </person>
-    <person handle="_cf967d1e0d6235c137b" change="1704319525" id="I1426">
+    <person handle="_cf967d1e0d6235c137b" change="1704482533" id="I1426">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Gustaf Adolf</first>
@@ -27364,6 +27377,7 @@
       <eventref hlink="_f800bbda4a17205af9063c6c635" role="Primary"/>
       <childof hlink="_cf967ded151248b65ac"/>
       <parentin hlink="_cb589ccefb45aeec8ea"/>
+      <parentin hlink="_f808e7921787e4ad9b8795ec71d"/>
     </person>
     <person handle="_cf967e023cc669db1bc" change="1704274189" id="I1427">
       <gender>M</gender>
@@ -31027,6 +31041,14 @@
         <surname>Nikander</surname>
       </name>
       <eventref hlink="_f801f36cd92409fcf499a2dc648" role="Primary"/>
+    </person>
+    <person handle="_f808e7bc5c139cf528b5f2df2bf" change="1704482533" id="I0194">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <surname></surname>
+      </name>
+      <eventref hlink="_f808e9c9102507b36db9faaf42b" role="Primary"/>
+      <parentin hlink="_f808e7921787e4ad9b8795ec71d"/>
     </person>
   </people>
   <families>
@@ -34695,6 +34717,12 @@
       <father hlink="_f7ffcc57c0f319e2b512ebbec65"/>
       <mother hlink="_cb589cd2a0578278d71"/>
       <eventref hlink="_f7ffd08d6e460184fe86927150" role="Family"/>
+    </family>
+    <family handle="_f808e7921787e4ad9b8795ec71d" change="1704482533" id="F0040">
+      <rel type="Married"/>
+      <father hlink="_cf967d1e0d6235c137b"/>
+      <mother hlink="_f808e7bc5c139cf528b5f2df2bf"/>
+      <eventref hlink="_f808ebfd0466b0098a8bbafa8db" role="Family"/>
     </family>
   </families>
   <citations>
