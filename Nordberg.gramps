@@ -17516,9 +17516,9 @@
       <citationref hlink="_f802d7564c6701b3365fca64e57"/>
       <citationref hlink="_f802dc4bb771d6719eadde00917"/>
     </event>
-    <event handle="_f808e9c9102507b36db9faaf42b" change="1704482285" id="E0890">
+    <event handle="_f808e9c9102507b36db9faaf42b" change="1704500233" id="E0890">
       <type>Death</type>
-      <dateval val="1889-12-29" type="before"/>
+      <daterange start="1885-02-25" stop="1889-12-29"/>
       <citationref hlink="_f7ff36fd695553afd23c6dd5471"/>
       <citationref hlink="_f7ff3e3ec225b6f8d6e0f38a9c"/>
     </event>
@@ -17603,11 +17603,12 @@
       <citationref hlink="_f809838a3df7a9f04959ec7e04"/>
       <citationref hlink="_f8098676e1051501706faaf48c0"/>
     </event>
-    <event handle="_f809870d6fa45e0d86e755ad734" change="1704498776" id="E0905">
+    <event handle="_f809870d6fa45e0d86e755ad734" change="1704500165" id="E0905">
       <type>Residence</type>
       <dateval val="1885-02-18" type="after"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_f8098676e1051501706faaf48c0"/>
+      <citationref hlink="_f80994014246de9e1ec09ede500"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -31126,9 +31127,9 @@
       </name>
       <eventref hlink="_f801f36cd92409fcf499a2dc648" role="Primary"/>
     </person>
-    <person handle="_f808e7bc5c139cf528b5f2df2bf" change="1704483998" id="I0194">
+    <person handle="_f808e7bc5c139cf528b5f2df2bf" change="1704500295" id="I0194">
       <gender>F</gender>
-      <name type="Birth Name">
+      <name type="Unknown">
         <first>Wilhelmina Elisabeth</first>
         <surname>Enqvist</surname>
       </name>
@@ -47112,6 +47113,14 @@
       <noteref hlink="_f8098dc53c52af485fe06778b9e"/>
       <noteref hlink="_f8098ffa12d1357c1c23aabe7f4"/>
       <sourceref hlink="_f8098d60d231b5f250d2f1a1842"/>
+    </citation>
+    <citation handle="_f80994014246de9e1ec09ede500" change="1704500134" id="C1728">
+      <page>MKO10-17/145</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f8099241c772d5d4f6a069e6fc7"/>
+      <noteref hlink="_f809925d7f34ffa4de5683a5b3c"/>
+      <noteref hlink="_f809937d0726f3317d2f6dc9c5e"/>
+      <sourceref hlink="_df5ac12a7c74ade1f5eaf6f9c84"/>
     </citation>
   </citations>
   <sources>
@@ -81540,6 +81549,25 @@ Vilhelmina Gustava  Dec   Parentes: Hyvelä Pentti Sp.t. Gust. Ad. Nikan   49  -
                           och sf                       ???????</text>
       <style name="fontface" value="Monospace">
         <range start="0" end="397"/>
+      </style>
+    </note>
+    <note handle="_f8099241c772d5d4f6a069e6fc7" change="1704499951" id="N3567" type="Citation">
+      <text>Helsinki muuttaneet 1880-1889 (MKO10-17)  1885 Februari  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23488&amp;pnum=145 / Viitattu 06.01.2024</text>
+    </note>
+    <note handle="_f809925d7f34ffa4de5683a5b3c" change="1704499962" id="N3568" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23488&amp;pnum=145</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23488&amp;pnum=145">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f809937d0726f3317d2f6dc9c5e" change="1704500080" id="N3569" type="Transcript" format="1">
+      <text>Februari  1885
+
+
+230  Nikander, Gustaf Adolf          arb  1  2  4-397  25[. februari]
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="87"/>
       </style>
     </note>
   </notes>
