@@ -17522,9 +17522,10 @@
       <citationref hlink="_f7ff36fd695553afd23c6dd5471"/>
       <citationref hlink="_f7ff3e3ec225b6f8d6e0f38a9c"/>
     </event>
-    <event handle="_f808ebfd0466b0098a8bbafa8db" change="1704483896" id="E0891">
+    <event handle="_f808ebfd0466b0098a8bbafa8db" change="1704499333" id="E0891">
       <type>Marriage</type>
       <dateval val="1881-06-24"/>
+      <citationref hlink="_f8098c302221c3a09ea1c19d0fd"/>
       <citationref hlink="_f808f749de22cb3dbe71fbdd9aa"/>
       <citationref hlink="_f802d7564c6701b3365fca64e57"/>
       <citationref hlink="_f7ff36fd695553afd23c6dd5471"/>
@@ -17579,18 +17580,34 @@
       <place hlink="_f8096d1e3c66125cb1eb892ccc6"/>
       <citationref hlink="_f8096f4aed3504b66e91ea6bb8f"/>
     </event>
-    <event handle="_f8096ffd71535946a062d8763f" change="1704496405" id="E0902">
+    <event handle="_f8096ffd71535946a062d8763f" change="1704499720" id="E0902">
       <type>Birth</type>
       <dateval val="1881-12-06"/>
       <place hlink="_f8096d1e3c66125cb1eb892ccc6"/>
+      <citationref hlink="_f8098ffe8dc67ac5577de618aa3"/>
       <citationref hlink="_f8096f4aed3504b66e91ea6bb8f"/>
     </event>
-    <event handle="_f80974729be65c0dae34bab898e" change="1704497021" id="E0903">
+    <event handle="_f80974729be65c0dae34bab898e" change="1704498814" id="E0903">
       <type>Residence</type>
-      <dateval val="1883-11-01" type="before"/>
+      <datespan start="1883" stop="1883-11-01"/>
       <place hlink="_f809721775316983f4c1296ea33"/>
       <citationref hlink="_f80974710015b17d591419210c3"/>
       <citationref hlink="_f8097644b0d144044d021c5ce3d"/>
+    </event>
+    <event handle="_f809777088126b239c0c7fdb0b9" change="1704498719" id="E0904">
+      <type>Residence</type>
+      <datespan start="1884-01-30" stop="1885-02-18"/>
+      <place hlink="_f8097d4b1f57833b619f7835465"/>
+      <citationref hlink="_f8097644b0d144044d021c5ce3d"/>
+      <citationref hlink="_f809806b3314153bf7d56965f73"/>
+      <citationref hlink="_f809838a3df7a9f04959ec7e04"/>
+      <citationref hlink="_f8098676e1051501706faaf48c0"/>
+    </event>
+    <event handle="_f809870d6fa45e0d86e755ad734" change="1704498776" id="E0905">
+      <type>Residence</type>
+      <dateval val="1885-02-18" type="after"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_f8098676e1051501706faaf48c0"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -31119,7 +31136,7 @@
       <eventref hlink="_f808e9c9102507b36db9faaf42b" role="Primary"/>
       <parentin hlink="_f808e7921787e4ad9b8795ec71d"/>
     </person>
-    <person handle="_f8096f868958f12d7a99421d06" change="1704496832" id="I0195">
+    <person handle="_f8096f868958f12d7a99421d06" change="1704498780" id="I0195">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Wilhelmina Gustava</first>
@@ -34796,7 +34813,7 @@
       <mother hlink="_cb589cd2a0578278d71"/>
       <eventref hlink="_f7ffd08d6e460184fe86927150" role="Family"/>
     </family>
-    <family handle="_f808e7921787e4ad9b8795ec71d" change="1704496832" id="F0040">
+    <family handle="_f808e7921787e4ad9b8795ec71d" change="1704498780" id="F0040">
       <rel type="Married"/>
       <father hlink="_cf967d1e0d6235c137b"/>
       <mother hlink="_f808e7bc5c139cf528b5f2df2bf"/>
@@ -34805,6 +34822,8 @@
       <eventref hlink="_f8096c18c2641c28d87884572f5" role="Family"/>
       <eventref hlink="_f8096f4e3d749afc1f7414ce351" role="Family"/>
       <eventref hlink="_f80974729be65c0dae34bab898e" role="Family"/>
+      <eventref hlink="_f809777088126b239c0c7fdb0b9" role="Family"/>
+      <eventref hlink="_f809870d6fa45e0d86e755ad734" role="Family"/>
       <childref hlink="_f8096f868958f12d7a99421d06"/>
     </family>
   </families>
@@ -47054,6 +47073,46 @@
       <noteref hlink="_f80976408ea75b7dee494197388"/>
       <sourceref hlink="_f8015b14c7030e4088e4735ab66"/>
     </citation>
+    <citation handle="_f809806b3314153bf7d56965f73" change="1704498080" id="C1723">
+      <page>ES207/121</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f8097e4056f7a3dd2b67ec2bf3f"/>
+      <noteref hlink="_f8097e5b4575f915ad456b12a62"/>
+      <noteref hlink="_f809800c81b5c999cc4bddce41b"/>
+      <sourceref hlink="_f8097dfc5624f1e83dfd81aa5d8"/>
+    </citation>
+    <citation handle="_f809838a3df7a9f04959ec7e04" change="1704498407" id="C1724">
+      <page>II/650</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f8098137c986b03fe239c90fadf"/>
+      <noteref hlink="_f8098152f867e495d05050a2246"/>
+      <noteref hlink="_f809837776e52aafa3cf06454fd"/>
+      <sourceref hlink="_f145b441e0449c4b7713cee9886"/>
+    </citation>
+    <citation handle="_f8098676e1051501706faaf48c0" change="1704498714" id="C1725">
+      <page>ES207/3</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f8098492a39fe864fc7a61e0e1"/>
+      <noteref hlink="_f80984ae1ae1ea39c97c86e8d46"/>
+      <noteref hlink="_f809867148a18af6c7cb67ecb2d"/>
+      <sourceref hlink="_f8098455a171add3330360f2bb9"/>
+    </citation>
+    <citation handle="_f8098c302221c3a09ea1c19d0fd" change="1704499314" id="C1726">
+      <page>E:1/92</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f8098a50e195ea4fd8f7070c2c2"/>
+      <noteref hlink="_f8098a905a24a91c2c090294067"/>
+      <noteref hlink="_f8098c2bd256bbdc29e9cee26c8"/>
+      <sourceref hlink="_f8098a4312a6d7519a9fd371965"/>
+    </citation>
+    <citation handle="_f8098ffe8dc67ac5577de618aa3" change="1704499713" id="C1727">
+      <page>MKO26-31/214-215</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f8098da62474f745c15c652ac1e"/>
+      <noteref hlink="_f8098dc53c52af485fe06778b9e"/>
+      <noteref hlink="_f8098ffa12d1357c1c23aabe7f4"/>
+      <sourceref hlink="_f8098d60d231b5f250d2f1a1842"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -50556,6 +50615,27 @@
       <stitle>Nummi Rippikirja 1883-1892</stitle>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
+    <source handle="_f8097dfc5624f1e83dfd81aa5d8" change="1704497825" id="S0696">
+      <stitle>Kirkkonummi Muuttaneet 1852-1883</stitle>
+      <sauthor>Kirkkonummen seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f8098455a171add3330360f2bb9" change="1704498491" id="S0697">
+      <stitle>Kirkkonummi Muuttaneet 1884-1910</stitle>
+      <sauthor>Kirkkonummen seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f8098a4312a6d7519a9fd371965" change="1704499112" id="S0698">
+      <stitle>Nummi VIhityt 1816-1891</stitle>
+      <sauthor>Nummen seurakunta</sauthor>
+      <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
+      <reporef hlink="_f8098a3f3254f229a156a0882d8" medium="Book"/>
+    </source>
+    <source handle="_f8098d60d231b5f250d2f1a1842" change="1704499439" id="S0699">
+      <stitle>Nummi Syntyneet 1866-1885</stitle>
+      <sauthor>Nummen seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1704316073" id="P0000" type="City">
@@ -53013,7 +53093,7 @@
       <pname value="Malmin hautausmaa"/>
       <placeref hlink="_cb589cc7f8d1b88b055"/>
     </placeobj>
-    <placeobj handle="_e82478dea7034bf7ec557d7af65" change="1702589713" id="P0046" type="Parish">
+    <placeobj handle="_e82478dea7034bf7ec557d7af65" change="1704497750" id="P0046" type="Parish">
       <pname value="Kirkkonummi" lang="fi"/>
       <pname value="Kyrkslätt" lang="sv"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
@@ -53742,6 +53822,10 @@
       <pname value="Pouho"/>
       <placeref hlink="_f809721395f3b4b01fb4f97bf26"/>
     </placeobj>
+    <placeobj handle="_f8097d4b1f57833b619f7835465" change="1704497752" id="P0276" type="Village">
+      <pname value="Thorsvik"/>
+      <placeref hlink="_e82478dea7034bf7ec557d7af65"/>
+    </placeobj>
   </places>
   <repositories>
     <repository handle="_cdea29a49637c6553bc" change="1672241850" id="R0001">
@@ -53749,7 +53833,7 @@
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1704496611" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1704499436" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -53825,7 +53909,7 @@
       <rname>Billiongraves</rname>
       <type>Library</type>
     </repository>
-    <repository handle="_f5dc19ee7d07e822ec5f7a37d7" change="1704274792" id="R0018">
+    <repository handle="_f5dc19ee7d07e822ec5f7a37d7" change="1704499105" id="R0018">
       <rname>Astia</rname>
       <type>Library</type>
       <url  href="https://astia.narc.fi/uusiastia/" type="Web Home"/>
@@ -53835,6 +53919,9 @@
       <type>Web site</type>
       <url  href="https://asiakas.kotisivukone.com/files/suomenkirkkojajahautausmaita.kotisivukone.com/hakemisto15082022.pdf" type="Web Search" description="hakemisto"/>
       <url  href="https://www.facebook.com/groups/473512779339429/" type="Facebook"/>
+    </repository>
+    <repository handle="_f8098a3f3254f229a156a0882d8" change="1704499111" id="R0020">
+      <type>Library</type>
     </repository>
   </repositories>
   <notes>
@@ -81351,6 +81438,108 @@ Tr Wilhelmiina Gustaava        6/12 1881    &quot;         &quot;               
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="95"/>
+      </style>
+    </note>
+    <note handle="_f8097e4056f7a3dd2b67ec2bf3f" change="1704497853" id="N3552" type="Citation">
+      <text>Kirkkonummi muuttaneet 1852-1883 (ES207)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=3005&amp;pnum=121 / Viitattu 06.01.2024</text>
+    </note>
+    <note handle="_f8097e5b4575f915ad456b12a62" change="1704497864" id="N3553" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=3005&amp;pnum=121</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=3005&amp;pnum=121">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f809800c81b5c999cc4bddce41b" change="1704498041" id="N3554" type="Transcript" format="1">
+      <text>År 1884
+
+21?  30/1?  f.d. Skarpskytten Gustaf Adolf Nikander  1 2  Torsvik  650  [ärlig]  [gift]</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="96"/>
+      </style>
+    </note>
+    <note handle="_f8098137c986b03fe239c90fadf" change="1704498164" id="N3555" type="Citation">
+      <text>Kirkkonummi rippikirja 1878-1887 (AP_II I Aa:26)  Sivu 650 Thorswik Tjenstefolk ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29141&amp;pnum=273 / Viitattu 06.01.2024</text>
+    </note>
+    <note handle="_f8098152f867e495d05050a2246" change="1704498175" id="N3556" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29141&amp;pnum=273</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29141&amp;pnum=273">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f809837776e52aafa3cf06454fd" change="1704498400" id="N3557" type="Transcript" format="1">
+      <text>650          Thorsvik
+
+Tjenstefolk
+
+???Spt Gustaf Adolf Nikander  31/7 1855  Nummis  Nummis bet 20?-84          Hfors bet.11+85
+Hu Wilh. Elisabeth Enqvist     7/5 1862  do      do                         do
+dr Wilhelmina Gustafva        6/12 1881  do      do                         do
+
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="287"/>
+      </style>
+    </note>
+    <note handle="_f8098492a39fe864fc7a61e0e1" change="1704498516" id="N3558" type="Citation">
+      <text>Kirkkonummi muuttaneet 1884-1910 (ES207)  1885 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=3008&amp;pnum=3 / Viitattu 06.01.2024</text>
+    </note>
+    <note handle="_f80984ae1ae1ea39c97c86e8d46" change="1704498527" id="N3559" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=3008&amp;pnum=3</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=3008&amp;pnum=3">
+        <range start="0" end="75"/>
+      </style>
+    </note>
+    <note handle="_f809867148a18af6c7cb67ecb2d" change="1704498712" id="N3560" type="Transcript" format="1">
+      <text>1885 
+
+11  18/2  Thorsvik Spt Gustaf Nikander med hu och barn  1 2  Helsingfors  650  ärlig  gift
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="98"/>
+      </style>
+    </note>
+    <note handle="_f8098a50e195ea4fd8f7070c2c2" change="1704499118" id="N3561" type="Citation">
+      <text>Nummen seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I E Kuulutettujen ja vihittyjen luettelot. I E:1 Vihittyjen luettelot  (1816-1891). Tiedosto 92. Kansallisarkisto. Viitattu 6.1.2024.</text>
+    </note>
+    <note handle="_f8098a905a24a91c2c090294067" change="1704499144" id="N3562" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=6272163226&amp;aineistoId=1163041766</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=6272163226&amp;aineistoId=1163041766">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f8098c2bd256bbdc29e9cee26c8" change="1704499312" id="N3563" type="Transcript" format="1">
+      <text>Wigde uti Nummis kapell år 1881
+
+Juni  24  Drengen, ungkarlen, Gustaf Adolf Nikander  25x19  280
+          och pigan Wilhelmina Elisabeth Enqvist,
+          bägge fr Rettlax Takari hemman i den
+          na färsamling. Wigde i kyrkan af
+                                   ??????
+
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="279"/>
+      </style>
+    </note>
+    <note handle="_f8098da62474f745c15c652ac1e" change="1704499467" id="N3564" type="Citation">
+      <text>Nummi syntyneet 1866-1885 (MKO26-31)  Sivu 214  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15655&amp;pnum=111 / Viitattu 06.01.2024</text>
+    </note>
+    <note handle="_f8098dc53c52af485fe06778b9e" change="1704499480" id="N3565" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15655&amp;pnum=111</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15655&amp;pnum=111">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f8098ffa12d1357c1c23aabe7f4" change="1704499712" id="N3566" type="Transcript" format="1">
+      <text>214          Födde och Döpte år 1881
+
+Vilhelmina Gustava  Dec   Parentes: Hyvelä Pentti Sp.t. Gust. Ad. Nikan   49  - 1
+       15-20        6  7  der &amp; hstr. Wilhelmina Elisabeth, f. Enqvist.
+                          Testes: Saukkola Sp.t. Gust. HElenius &amp; Oinola
+                          Pasa Torp. hstr. Amalia Lindström. Döpt hos
+                          och sf                       ???????</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="397"/>
       </style>
     </note>
   </notes>
