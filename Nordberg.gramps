@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2024-01-06" version="5.1.6"/>
+    <created date="2024-01-07" version="5.1.6"/>
     <researcher>
     </researcher>
   </header>
@@ -13595,7 +13595,7 @@
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_e820c47a7031f1513849fc2e983"/>
     </event>
-    <event handle="_e820c56bd2d649cea6d02073cae" change="1703324689" id="E0048">
+    <event handle="_e820c56bd2d649cea6d02073cae" change="1704646729" id="E0048">
       <type>Birth</type>
       <dateval val="1854-08-05"/>
       <citationref hlink="_e820c47a7031f1513849fc2e983"/>
@@ -13631,7 +13631,7 @@
       <citationref hlink="_f14a687a31a6d74df9eff10e424"/>
       <citationref hlink="_f14a6806f7c3095f2a8e4cc3ec3"/>
     </event>
-    <event handle="_e820d1f614b115c02a3c65393ba" change="1703324855" id="E0054">
+    <event handle="_e820d1f614b115c02a3c65393ba" change="1704646754" id="E0054">
       <type>Marriage</type>
       <dateval val="1891-03-07"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
@@ -17432,7 +17432,7 @@
       <place hlink="_cb589cc90f055fc9f0c"/>
       <citationref hlink="_f7ffdace6d96714aebef135c5d9"/>
     </event>
-    <event handle="_f800bbda4a17205af9063c6c635" change="1704314553" id="E0878">
+    <event handle="_f800bbda4a17205af9063c6c635" change="1704570621" id="E0878">
       <type>Residence</type>
       <dateval val="1890-10-03" type="before"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
@@ -17605,12 +17605,13 @@
       <citationref hlink="_f809838a3df7a9f04959ec7e04"/>
       <citationref hlink="_f8098676e1051501706faaf48c0"/>
     </event>
-    <event handle="_f809870d6fa45e0d86e755ad734" change="1704500165" id="E0905">
+    <event handle="_f809870d6fa45e0d86e755ad734" change="1704585350" id="E0905">
       <type>Residence</type>
       <dateval val="1885-02-18" type="after"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_f8098676e1051501706faaf48c0"/>
       <citationref hlink="_f80994014246de9e1ec09ede500"/>
+      <citationref hlink="_f80cc0b03ae3bb68df752753620"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -27727,7 +27728,7 @@
       <eventref hlink="_cf969b6e8d8284cf775" role="Primary"/>
       <childof hlink="_cf96992702661bf2917"/>
     </person>
-    <person handle="_cf99bf30a9136795670" change="1595616086" id="I1454">
+    <person handle="_cf99bf30a9136795670" change="1704646684" id="I1454">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Karl Fredrik</first>
@@ -27737,8 +27738,8 @@
       <eventref hlink="_dcddc381ecc266604265b08c85c" role="Primary"/>
       <eventref hlink="_e82029c63404588753fd8a876b4" role="Primary"/>
       <childof hlink="_cf99bfe17cb65ecde12"/>
-      <parentin hlink="_cb589cc844867fcce24"/>
       <parentin hlink="_e820bf510f63e8b7a42c91d3cc4"/>
+      <parentin hlink="_cb589cc844867fcce24"/>
     </person>
     <person handle="_cf99c0ba42a1b623166" change="1549820157" id="I1455">
       <gender>M</gender>
@@ -29204,7 +29205,7 @@
       <eventref hlink="_e389890558069afd81c79798400" role="Primary"/>
       <eventref hlink="_e3898989b1046ec9858935bc7be" role="Primary"/>
     </person>
-    <person handle="_e820bf91e7159e5183e46e425ed" change="1595173573" id="I0004">
+    <person handle="_e820bf91e7159e5183e46e425ed" change="1704658809" id="I0004">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Matilda</first>
@@ -29213,6 +29214,11 @@
       <eventref hlink="_e820c56bd2d649cea6d02073cae" role="Primary"/>
       <eventref hlink="_e820d8274ab33fb8c13cec55807" role="Primary"/>
       <parentin hlink="_e820bf510f63e8b7a42c91d3cc4"/>
+      <citationref hlink="_f80f79d5a2268976f7bb7cab049"/>
+      <citationref hlink="_f80f7ada5df59b9f38c8d621da7"/>
+      <citationref hlink="_f80f7be6139483a3a9dfcc30ad5"/>
+      <citationref hlink="_f80f7c90f8e437973336b53f59e"/>
+      <citationref hlink="_f80f7d34671134b4bd71731d692"/>
     </person>
     <person handle="_e820bffcb0417beb1d9e61ccbba" change="1658137456" id="I0005">
       <gender>F</gender>
@@ -47137,6 +47143,45 @@
       <noteref hlink="_f809994e670486deaa094d2e75d"/>
       <sourceref hlink="_cfcd1c064c818e09da9"/>
     </citation>
+    <citation handle="_f80cc0b03ae3bb68df752753620" change="1704585350" id="C1730">
+      <confidence>2</confidence>
+      <sourceref hlink="_e1875f0dbf91819fff90b0d1786"/>
+    </citation>
+    <citation handle="_f80f79d5a2268976f7bb7cab049" change="1704658451" id="C1731">
+      <page>C1/210</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f80f78dda7b6a9c0dc3146e0323"/>
+      <noteref hlink="_f80f78ee0926fb8a965474bb915"/>
+      <sourceref hlink="_f80f79a06587ee292270a2a4a76"/>
+    </citation>
+    <citation handle="_f80f7ada5df59b9f38c8d621da7" change="1704658558" id="C1732">
+      <page>Aa3:6/119</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f80f7a607f627308a82ce5449f8"/>
+      <noteref hlink="_f80f7a82a667379bbc4a7ae44d5"/>
+      <sourceref hlink="_f80f7a468725b37d7ff2f5ca9d2"/>
+    </citation>
+    <citation handle="_f80f7be6139483a3a9dfcc30ad5" change="1704658667" id="C1733">
+      <page>Aa3:10/147</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f80f7b95cd137c92e47363cc52c"/>
+      <noteref hlink="_f80f7bb92ab40363e11331017b4"/>
+      <sourceref hlink="_f80f7b5edb65ef208a6959b4ef8"/>
+    </citation>
+    <citation handle="_f80f7c90f8e437973336b53f59e" change="1704658737" id="C1734">
+      <page>Aa3:10/150</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f80f7c6716419b573fa49c8b9ae"/>
+      <noteref hlink="_f80f7c8c5251f2901e7d7986eef"/>
+      <sourceref hlink="_f80f7b5edb65ef208a6959b4ef8"/>
+    </citation>
+    <citation handle="_f80f7d34671134b4bd71731d692" change="1704658804" id="C1735">
+      <page>Aa3:9/357</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f80f7d076b118c6d79418c2b262"/>
+      <noteref hlink="_f80f7d2c26a600854f161340d04"/>
+      <sourceref hlink="_f80f7b5edb65ef208a6959b4ef8"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -50660,6 +50705,21 @@
       <sauthor>Nummen seurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
+    <source handle="_f80f79a06587ee292270a2a4a76" change="1704658429" id="S0700">
+      <stitle>Turku Syntyneet 1851-1859</stitle>
+      <sauthor>Turun suomalainen seurakunta</sauthor>
+      <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
+    </source>
+    <source handle="_f80f7a468725b37d7ff2f5ca9d2" change="1704658497" id="S0701">
+      <stitle>Turku Rippikirja 1853-1859</stitle>
+      <sauthor>Turun yhteinen seurakunta</sauthor>
+      <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
+    </source>
+    <source handle="_f80f7b5edb65ef208a6959b4ef8" change="1704658612" id="S0702">
+      <stitle>Turku Rippikirja 1860-1867</stitle>
+      <sauthor>Turun yhteinen seurakunta</sauthor>
+      <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1704316073" id="P0000" type="City">
@@ -53933,7 +53993,7 @@
       <rname>Billiongraves</rname>
       <type>Library</type>
     </repository>
-    <repository handle="_f5dc19ee7d07e822ec5f7a37d7" change="1704499105" id="R0018">
+    <repository handle="_f5dc19ee7d07e822ec5f7a37d7" change="1704658605" id="R0018">
       <rname>Astia</rname>
       <type>Library</type>
       <url  href="https://astia.narc.fi/uusiastia/" type="Web Home"/>
@@ -81601,6 +81661,51 @@ Vilhelmina Gustava  Dec   Parentes: Hyvelä Pentti Sp.t. Gust. Ad. Nikan   49  -
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="101"/>
+      </style>
+    </note>
+    <note handle="_f80f78dda7b6a9c0dc3146e0323" change="1704658349" id="N3573" type="Citation">
+      <text>Turun tuomiokirkkoseurakunnan arkisto. I C SYNTYNEIDEN JA KASTETTUJEN LUETTELOT. I C1 Suomalaisen seurakunnan syntyneet. Suomalaisen seurakunnan syntyneiden ja kastettujen luettelo  (1851-1859). Tiedosto 155. Kansallisarkisto. Viitattu 7.1.2024.</text>
+    </note>
+    <note handle="_f80f78ee0926fb8a965474bb915" change="1704658371" id="N3574" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5890133082&amp;aineistoId=1271389414</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5890133082&amp;aineistoId=1271389414">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f80f7a607f627308a82ce5449f8" change="1704658508" id="N3575" type="Citation">
+      <text>Turun tuomiokirkkoseurakunnan arkisto. I A KIRKON PÄÄKIRJAT HAKEMISTOINEEN. I Aa Pää- ja rippikirjat. I Aa3 Yhteisen seurakunnan rippikirjat. I Aa3:6 Yhteisen seurakunnan rippikirja, III-V, Luostarikortteli ja Tiilisali ym.  (1853-1859). Tiedosto 91. Kansallisarkisto. Viitattu 7.1.2024.</text>
+    </note>
+    <note handle="_f80f7a82a667379bbc4a7ae44d5" change="1704658522" id="N3576" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5964985919&amp;aineistoId=1270319523</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5964985919&amp;aineistoId=1270319523">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f80f7b95cd137c92e47363cc52c" change="1704658635" id="N3577" type="Citation">
+      <text>Turun tuomiokirkkoseurakunnan arkisto. I A KIRKON PÄÄKIRJAT HAKEMISTOINEEN. I Aa Pää- ja rippikirjat. I Aa3 Yhteisen seurakunnan rippikirjat. I Aa3:10 Yhteisen seurakunnan rippikirja, III-V, Uudenkaupungin kortteli ym.  (1860-1867). Tiedosto 106. Kansallisarkisto. Viitattu 7.1.2024.</text>
+    </note>
+    <note handle="_f80f7bb92ab40363e11331017b4" change="1704658649" id="N3578" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=6161301923&amp;aineistoId=1270455103</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=6161301923&amp;aineistoId=1270455103">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f80f7c6716419b573fa49c8b9ae" change="1704658720" id="N3579" type="Citation">
+      <text>Turun tuomiokirkkoseurakunnan arkisto. I A KIRKON PÄÄKIRJAT HAKEMISTOINEEN. I Aa Pää- ja rippikirjat. I Aa3 Yhteisen seurakunnan rippikirjat. I Aa3:10 Yhteisen seurakunnan rippikirja, III-V, Uudenkaupungin kortteli ym.  (1860-1867). Tiedosto 109. Kansallisarkisto. Viitattu 7.1.2024.</text>
+    </note>
+    <note handle="_f80f7c8c5251f2901e7d7986eef" change="1704658736" id="N3580" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=6161301896&amp;aineistoId=1270455103</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=6161301896&amp;aineistoId=1270455103">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f80f7d076b118c6d79418c2b262" change="1704658786" id="N3581" type="Citation">
+      <text>Turun tuomiokirkkoseurakunnan arkisto. I A KIRKON PÄÄKIRJAT HAKEMISTOINEEN. I Aa Pää- ja rippikirjat. I Aa3 Yhteisen seurakunnan rippikirjat. I Aa3:9 Yhteisen seurakunnan rippikirja, I-II, Luostarikortteli ym.  (1860-1867). Tiedosto 358. Kansallisarkisto. Viitattu 7.1.2024.</text>
+    </note>
+    <note handle="_f80f7d2c26a600854f161340d04" change="1704658801" id="N3582" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=6161612874&amp;aineistoId=1270397257</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=6161612874&amp;aineistoId=1270397257">
+        <range start="0" end="79"/>
       </style>
     </note>
   </notes>
