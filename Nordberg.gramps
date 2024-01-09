@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2024-01-07" version="5.1.6"/>
+    <created date="2024-01-09" version="5.1.6"/>
     <researcher>
     </researcher>
   </header>
@@ -13595,11 +13595,13 @@
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_e820c47a7031f1513849fc2e983"/>
     </event>
-    <event handle="_e820c56bd2d649cea6d02073cae" change="1704646729" id="E0048">
+    <event handle="_e820c56bd2d649cea6d02073cae" change="1704832270" id="E0048">
       <type>Birth</type>
       <dateval val="1854-08-05"/>
+      <place hlink="_f815f32c3d0434fe6be105602bf"/>
       <citationref hlink="_e820c47a7031f1513849fc2e983"/>
       <citationref hlink="_e820d63a60252188d735631bae7"/>
+      <citationref hlink="_f80f79d5a2268976f7bb7cab049"/>
     </event>
     <event handle="_e820c69274f48f61a6e4d55661" change="1658136145" id="E0049">
       <type>Death</type>
@@ -13631,13 +13633,13 @@
       <citationref hlink="_f14a687a31a6d74df9eff10e424"/>
       <citationref hlink="_f14a6806f7c3095f2a8e4cc3ec3"/>
     </event>
-    <event handle="_e820d1f614b115c02a3c65393ba" change="1704646754" id="E0054">
+    <event handle="_e820d1f614b115c02a3c65393ba" change="1704824301" id="E0054">
       <type>Marriage</type>
       <dateval val="1891-03-07"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_e820d137ec479af7b09e681190e"/>
     </event>
-    <event handle="_e820d8274ab33fb8c13cec55807" change="1703324710" id="E0055">
+    <event handle="_e820d8274ab33fb8c13cec55807" change="1704824668" id="E0055">
       <type>Death</type>
       <dateval val="1896-08-19"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
@@ -17612,6 +17614,11 @@
       <citationref hlink="_f8098676e1051501706faaf48c0"/>
       <citationref hlink="_f80994014246de9e1ec09ede500"/>
       <citationref hlink="_f80cc0b03ae3bb68df752753620"/>
+    </event>
+    <event handle="_f815fb706394786f85ad5872107" change="1704833102" id="E0920">
+      <type>Residence</type>
+      <datespan start="1854" stop="1859"/>
+      <place hlink="_f815f32c3d0434fe6be105602bf"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -29205,14 +29212,20 @@
       <eventref hlink="_e389890558069afd81c79798400" role="Primary"/>
       <eventref hlink="_e3898989b1046ec9858935bc7be" role="Primary"/>
     </person>
-    <person handle="_e820bf91e7159e5183e46e425ed" change="1704658809" id="I0004">
+    <person handle="_e820bf91e7159e5183e46e425ed" change="1704833113" id="I0004">
       <gender>F</gender>
       <name type="Birth Name">
-        <first>Maria Matilda</first>
+        <first>Maria Mathilda</first>
         <surname>Finnberg</surname>
+      </name>
+      <name alt="1" type="Married Name">
+        <first>Maria Matilda</first>
+        <surname derivation="Married Name">Finnberg</surname>
+        <dateval val="1891-03-07" type="after"/>
       </name>
       <eventref hlink="_e820c56bd2d649cea6d02073cae" role="Primary"/>
       <eventref hlink="_e820d8274ab33fb8c13cec55807" role="Primary"/>
+      <eventref hlink="_f815fb706394786f85ad5872107" role="Primary"/>
       <parentin hlink="_e820bf510f63e8b7a42c91d3cc4"/>
       <citationref hlink="_f80f79d5a2268976f7bb7cab049"/>
       <citationref hlink="_f80f7ada5df59b9f38c8d621da7"/>
@@ -47147,18 +47160,20 @@
       <confidence>2</confidence>
       <sourceref hlink="_e1875f0dbf91819fff90b0d1786"/>
     </citation>
-    <citation handle="_f80f79d5a2268976f7bb7cab049" change="1704658451" id="C1731">
+    <citation handle="_f80f79d5a2268976f7bb7cab049" change="1704831987" id="C1731">
       <page>C1/210</page>
       <confidence>2</confidence>
       <noteref hlink="_f80f78dda7b6a9c0dc3146e0323"/>
       <noteref hlink="_f80f78ee0926fb8a965474bb915"/>
+      <noteref hlink="_f815c80612d6209d0ad982f479c"/>
       <sourceref hlink="_f80f79a06587ee292270a2a4a76"/>
     </citation>
-    <citation handle="_f80f7ada5df59b9f38c8d621da7" change="1704658558" id="C1732">
+    <citation handle="_f80f7ada5df59b9f38c8d621da7" change="1704832979" id="C1732">
       <page>Aa3:6/119</page>
       <confidence>2</confidence>
       <noteref hlink="_f80f7a607f627308a82ce5449f8"/>
       <noteref hlink="_f80f7a82a667379bbc4a7ae44d5"/>
+      <noteref hlink="_f815fa24c92324a4779a6da5c5c"/>
       <sourceref hlink="_f80f7a468725b37d7ff2f5ca9d2"/>
     </citation>
     <citation handle="_f80f7be6139483a3a9dfcc30ad5" change="1704658667" id="C1733">
@@ -53701,7 +53716,7 @@
       <pname value="Rymättylä"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
     </placeobj>
-    <placeobj handle="_f60bb6e26832160ae2e9daa3691" change="1690813583" id="P0215" type="Town">
+    <placeobj handle="_f60bb6e26832160ae2e9daa3691" change="1704832233" id="P0215" type="Town">
       <pname value="Turku"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
     </placeobj>
@@ -53909,6 +53924,19 @@
     <placeobj handle="_f8097d4b1f57833b619f7835465" change="1704497752" id="P0276" type="Village">
       <pname value="Thorsvik"/>
       <placeref hlink="_e82478dea7034bf7ec557d7af65"/>
+    </placeobj>
+    <placeobj handle="_f815f327ba52db8e72e933e16e2" change="1704833093" id="P0277" type="Borough">
+      <pname value="3. Stadsdelen"/>
+      <placeref hlink="_f60bb6e26832160ae2e9daa3691"/>
+    </placeobj>
+    <placeobj handle="_f815f32a2507677a6cfc66e52d0" change="1704833094" id="P0278" type="Block">
+      <pname value="Qvarteret 12"/>
+      <placeref hlink="_f815f327ba52db8e72e933e16e2"/>
+    </placeobj>
+    <placeobj handle="_f815f32c3d0434fe6be105602bf" change="1704833095" id="P0279" type="Building">
+      <code>3.12.2</code>
+      <pname value="No 2"/>
+      <placeref hlink="_f815f32a2507677a6cfc66e52d0"/>
     </placeobj>
   </places>
   <repositories>
@@ -81706,6 +81734,43 @@ Vilhelmina Gustava  Dec   Parentes: Hyvelä Pentti Sp.t. Gust. Ad. Nikan   49  -
       <text>https://astia.narc.fi/uusiastia/viewer/?fileId=6161612874&amp;aineistoId=1270397257</text>
       <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=6161612874&amp;aineistoId=1270397257">
         <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f815c80612d6209d0ad982f479c" change="1704827711" id="N3583" type="Transcript" format="1">
+      <text>1854                                            210
+
+[August 1854]
+
+5  5  8  Maria Mathilda. Par. Mur Gesällen Johan
+         August Finnberg och dess Hu Maria Christi-
+         na Johans dotter 23 år gl. Testes: Brandvak-
+         ten Josef Henricsson me Hu Eva Catha-
+         rina Matts dotter, Skräddare lärlingen
+         Wilhelm Eklund, Jungfru Maria Clementi
+         na Lindroos  3.12.2
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="395"/>
+      </style>
+    </note>
+    <note handle="_f815fa24c92324a4779a6da5c5c" change="1704832966" id="N3584" type="Transcript" format="1">
+      <text>119
+             Qvarteret 12
+No 2
+Murar Ges Finbergs
+Ea Anna Greta Michelsdr                    3/2 1805  Uskela
+Pig Qp Maria Lovisa Fredriksdr            21/7 1830  Rengo
+sn mur. ?? Johan August                   2/10 1830  Åbo
+dess hustru Maria Christina Johansdotter  6/12 1830  Koski
+sn mur. lärl Carl Fredric Finberg         26/7 1834  Åbo
+sn Gustaf                                13/10 1846  do
+Maria Mathilda                             5/8 1854  do                  vide infra
+Mur gesäl Johan August Finnberg           2/10 1830  Åbo                 N.B
+dess hustru Maria Christina Johansdotter  6/12 1830  Koskis              do
+dotter Maria Mathilda                      5/8 1854  Åbo                 do
+dr Augusta Wilhelmina                     26/8 1857  do                  do</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="790"/>
       </style>
     </note>
   </notes>
