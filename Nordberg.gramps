@@ -17620,6 +17620,18 @@
       <datespan start="1854" stop="1859"/>
       <place hlink="_f815f32c3d0434fe6be105602bf"/>
     </event>
+    <event handle="_f81602d194461bb70f92a982b6b" change="1704833876" id="E0921">
+      <type>Residence</type>
+      <datespan start="1860" stop="1863"/>
+      <place hlink="_f815f32c3d0434fe6be105602bf"/>
+      <citationref hlink="_f80f7be6139483a3a9dfcc30ad5"/>
+    </event>
+    <event handle="_f816083709558380c067249ab51" change="1704834442" id="E0932">
+      <type>Residence</type>
+      <datespan start="1863" stop="1867"/>
+      <place hlink="_f815f32c3d0434fe6be105602bf"/>
+      <citationref hlink="_f80f7c90f8e437973336b53f59e"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1658869228" id="I3858">
@@ -29212,7 +29224,7 @@
       <eventref hlink="_e389890558069afd81c79798400" role="Primary"/>
       <eventref hlink="_e3898989b1046ec9858935bc7be" role="Primary"/>
     </person>
-    <person handle="_e820bf91e7159e5183e46e425ed" change="1704833113" id="I0004">
+    <person handle="_e820bf91e7159e5183e46e425ed" change="1704834446" id="I0004">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Mathilda</first>
@@ -29226,6 +29238,8 @@
       <eventref hlink="_e820c56bd2d649cea6d02073cae" role="Primary"/>
       <eventref hlink="_e820d8274ab33fb8c13cec55807" role="Primary"/>
       <eventref hlink="_f815fb706394786f85ad5872107" role="Primary"/>
+      <eventref hlink="_f81602d194461bb70f92a982b6b" role="Primary"/>
+      <eventref hlink="_f816083709558380c067249ab51" role="Primary"/>
       <parentin hlink="_e820bf510f63e8b7a42c91d3cc4"/>
       <citationref hlink="_f80f79d5a2268976f7bb7cab049"/>
       <citationref hlink="_f80f7ada5df59b9f38c8d621da7"/>
@@ -47176,18 +47190,20 @@
       <noteref hlink="_f815fa24c92324a4779a6da5c5c"/>
       <sourceref hlink="_f80f7a468725b37d7ff2f5ca9d2"/>
     </citation>
-    <citation handle="_f80f7be6139483a3a9dfcc30ad5" change="1704658667" id="C1733">
+    <citation handle="_f80f7be6139483a3a9dfcc30ad5" change="1704833873" id="C1733">
       <page>Aa3:10/147</page>
       <confidence>2</confidence>
       <noteref hlink="_f80f7b95cd137c92e47363cc52c"/>
       <noteref hlink="_f80f7bb92ab40363e11331017b4"/>
+      <noteref hlink="_f81602c10434ad2734cef266ff"/>
       <sourceref hlink="_f80f7b5edb65ef208a6959b4ef8"/>
     </citation>
-    <citation handle="_f80f7c90f8e437973336b53f59e" change="1704658737" id="C1734">
+    <citation handle="_f80f7c90f8e437973336b53f59e" change="1704834437" id="C1734">
       <page>Aa3:10/150</page>
       <confidence>2</confidence>
       <noteref hlink="_f80f7c6716419b573fa49c8b9ae"/>
       <noteref hlink="_f80f7c8c5251f2901e7d7986eef"/>
+      <noteref hlink="_f816081eab950da60ff1f832459"/>
       <sourceref hlink="_f80f7b5edb65ef208a6959b4ef8"/>
     </citation>
     <citation handle="_f80f7d34671134b4bd71731d692" change="1704658804" id="C1735">
@@ -81771,6 +81787,41 @@ dotter Maria Mathilda                      5/8 1854  Åbo                 do
 dr Augusta Wilhelmina                     26/8 1857  do                  do</text>
       <style name="fontface" value="Monospace">
         <range start="0" end="790"/>
+      </style>
+    </note>
+    <note handle="_f81602c10434ad2734cef266ff" change="1704833869" id="N3585" type="Transcript" format="1">
+      <text>147
+3.12.2
+Mur. Ges. Finbergs Enka
+Anna Gretha Michelsdr                3/3 1805  Uskela  G.B.               N.B.
+Son, mur Ges. Carl Fredrik          26/7 1834  Åbo     do                 infra
+Son Gustaf                         13/10 1846  do      do                 N.B.
+Pig Amalia Lov. Grönroos            27/8 1825  Piikis  60 3.12.1          61 7.19.1
+Son, mur Ges Johan August Finnberg  2/10 1830  Åbo     G.B          *     Död 26/11 1865
+Hru Maria Christina Johansdr        6/12 1830  Koskis  do           *     63 pag 150
+Dr Maria Mathilda                    5/8 1854  Åbo     do                 do  66 u.a.T
+Dr Augusta Wilhelmina               26/8 1857  do      do                 Död 21/4 1862
+Dr Amanda Josefina                  7/11 1859  do                         Död 14/2 1860
+
+
+* pitkät selitykset, ilmeisesti avioeroon liittyen</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="846"/>
+      </style>
+    </note>
+    <note handle="_f816081eab950da60ff1f832459" change="1704834432" id="N3586" type="Transcript" format="1">
+      <text>150
+3.12.2
+
+
+Carl Henr. Johs. Helander         11/1 1839  Orivesi  28/11 63 S.50      Se nya Sv.Boken  12/12 64 1.20.2
+Hru Maria Christina Johansdr      6/12 1830  Koskis  28/11 63 Pag.147                     do
+Dr, hennes af f.g. Maria Mathilda  5/8 1854  Åbo  do                                      pag 147
+Dr Anna Alexandra                31/12 1863  do                                           64 120.2
+ 
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="411"/>
       </style>
     </note>
   </notes>
