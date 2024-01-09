@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2024-01-09" version="5.1.6"/>
+    <created date="2024-01-10" version="5.1.6"/>
     <researcher>
     </researcher>
   </header>
@@ -17626,11 +17626,37 @@
       <place hlink="_f815f32c3d0434fe6be105602bf"/>
       <citationref hlink="_f80f7be6139483a3a9dfcc30ad5"/>
     </event>
-    <event handle="_f816083709558380c067249ab51" change="1704834442" id="E0932">
+    <event handle="_f816083709558380c067249ab51" change="1704837429" id="E0932">
       <type>Residence</type>
-      <datespan start="1863" stop="1867"/>
+      <datespan start="1863" stop="1864" quality="estimated"/>
       <place hlink="_f815f32c3d0434fe6be105602bf"/>
       <citationref hlink="_f80f7c90f8e437973336b53f59e"/>
+    </event>
+    <event handle="_f816241f85d6a2660dd964d7f99" change="1704837380" id="E0933">
+      <type>Residence</type>
+      <datespan start="1876" stop="1879"/>
+      <place hlink="_f815f32c3d0434fe6be105602bf"/>
+      <citationref hlink="_f81624174db61fb58183a72590f"/>
+    </event>
+    <event handle="_f816282151f4bdc7c6100ea4dce" change="1704837913" id="E0934">
+      <type>Residence</type>
+      <datespan start="1877" stop="1888"/>
+      <place hlink="_f815f32c3d0434fe6be105602bf"/>
+      <citationref hlink="_f816280b542f91f476db19aa2"/>
+    </event>
+    <event handle="_f8162e99948276f7829197c8ed2" change="1704838801" id="E0935">
+      <type>Residence</type>
+      <datespan start="1887" stop="1889-08-17"/>
+      <place hlink="_f815f32c3d0434fe6be105602bf"/>
+      <citationref hlink="_f8162e9073c13b70fc17c13ecc4"/>
+      <citationref hlink="_f81631af4177db7cbf5a5b3e050"/>
+    </event>
+    <event handle="_f81633fe3b18cf99af2c6e8fa8" change="1704839032" id="E0952">
+      <type>Residence</type>
+      <dateval val="1889-08-22" type="after"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_f81631af4177db7cbf5a5b3e050"/>
+      <citationref hlink="_f81633d809672668c4ed0434add"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -29224,7 +29250,7 @@
       <eventref hlink="_e389890558069afd81c79798400" role="Primary"/>
       <eventref hlink="_e3898989b1046ec9858935bc7be" role="Primary"/>
     </person>
-    <person handle="_e820bf91e7159e5183e46e425ed" change="1704834446" id="I0004">
+    <person handle="_e820bf91e7159e5183e46e425ed" change="1704839036" id="I0004">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Mathilda</first>
@@ -29240,6 +29266,10 @@
       <eventref hlink="_f815fb706394786f85ad5872107" role="Primary"/>
       <eventref hlink="_f81602d194461bb70f92a982b6b" role="Primary"/>
       <eventref hlink="_f816083709558380c067249ab51" role="Primary"/>
+      <eventref hlink="_f816241f85d6a2660dd964d7f99" role="Primary"/>
+      <eventref hlink="_f816282151f4bdc7c6100ea4dce" role="Primary"/>
+      <eventref hlink="_f8162e99948276f7829197c8ed2" role="Primary"/>
+      <eventref hlink="_f81633fe3b18cf99af2c6e8fa8" role="Primary"/>
       <parentin hlink="_e820bf510f63e8b7a42c91d3cc4"/>
       <citationref hlink="_f80f79d5a2268976f7bb7cab049"/>
       <citationref hlink="_f80f7ada5df59b9f38c8d621da7"/>
@@ -47213,6 +47243,46 @@
       <noteref hlink="_f80f7d2c26a600854f161340d04"/>
       <sourceref hlink="_f80f7b5edb65ef208a6959b4ef8"/>
     </citation>
+    <citation handle="_f81624174db61fb58183a72590f" change="1704837365" id="C1736">
+      <page>II/225</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f8162283e73135fcaac0e2d1e6f"/>
+      <noteref hlink="_f81622a045d6f2e58447b3f3f60"/>
+      <noteref hlink="_f816240e109388bb4716d771cf2"/>
+      <sourceref hlink="_f816224f1145491b2f0d74e2462"/>
+    </citation>
+    <citation handle="_f816280b542f91f476db19aa2" change="1704837780" id="C1737">
+      <page>II/173</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f81626290cfa689072e450d8b9"/>
+      <noteref hlink="_f8162655209b50d9f3675c2588"/>
+      <noteref hlink="_f8162805a2164deff0100c4bcc9"/>
+      <sourceref hlink="_f816260a8d74094cd7510f7700c"/>
+    </citation>
+    <citation handle="_f8162e9073c13b70fc17c13ecc4" change="1704838463" id="C1738">
+      <page>II/453</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f8162a5e4924e062cbc45345e30"/>
+      <noteref hlink="_f8162a7b4881aff3f7f0d9dcb24"/>
+      <noteref hlink="_f8162e8c0df7a5837a96e3b860"/>
+      <sourceref hlink="_f81629ddddd64479b918f14b849"/>
+    </citation>
+    <citation handle="_f81631af4177db7cbf5a5b3e050" change="1704838790" id="C1739">
+      <page>Ba:26/72 (820)</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f816300baec659449e6e8ee7386"/>
+      <noteref hlink="_f816303e8e513580f049982cd09"/>
+      <noteref hlink="_f81631a751534795254a82273fb"/>
+      <sourceref hlink="_f8162fc68f86c5731fcb6aa265"/>
+    </citation>
+    <citation handle="_f81633d809672668c4ed0434add" change="1704839017" id="C1740">
+      <page>MKO10-17/306</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f81632b775e5b8abd80833ec32d"/>
+      <noteref hlink="_f81632e48d011a5f89337ffde6d"/>
+      <noteref hlink="_f81633cee593f221df09908f367"/>
+      <sourceref hlink="_df5ac12a7c74ade1f5eaf6f9c84"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -50751,6 +50821,26 @@
       <sauthor>Turun yhteinen seurakunta</sauthor>
       <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
     </source>
+    <source handle="_f816224f1145491b2f0d74e2462" change="1704837178" id="S0703">
+      <stitle>Turku RIppikirja 1867-1879</stitle>
+      <sauthor>Turun tksrk</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f816260a8d74094cd7510f7700c" change="1704837569" id="S0704">
+      <stitle>Turku Rippikirja 1877-1888</stitle>
+      <sauthor>Turun tksrk</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f81629ddddd64479b918f14b849" change="1704837971" id="S0705">
+      <stitle>Turku RIppikirja</stitle>
+      <sauthor>Turun tksrk</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_f8162fc68f86c5731fcb6aa265" change="1704838590" id="S0706">
+      <stitle>Turku Muuttaneet 1887-1891</stitle>
+      <sauthor>Turun tksrk</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1704316073" id="P0000" type="City">
@@ -53961,7 +54051,7 @@
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1704499436" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1704838588" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -81822,6 +81912,109 @@ Dr Anna Alexandra                31/12 1863  do                                 
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="411"/>
+      </style>
+    </note>
+    <note handle="_f8162283e73135fcaac0e2d1e6f" change="1704837200" id="N3587" type="Citation">
+      <text>Turun tuomiokirkkosrk rippikirja 1867-1879 (AP_II I Aa3:14)  Sivu 225 3.12.2. Finnberg, Vesterholm, Sandblom, Granroth, Lindblom, Villberg, Lindroos, Urholin, Rautell, Widell ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29669&amp;pnum=228 / Viitattu 09.01.2024</text>
+    </note>
+    <note handle="_f81622a045d6f2e58447b3f3f60" change="1704837211" id="N3588" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29669&amp;pnum=228</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29669&amp;pnum=228">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f816240e109388bb4716d771cf2" change="1704837361" id="N3589" type="Transcript" format="1">
+      <text>225          3.12.2
+
+Pig inh Maria Matilda Finnberg  5/8 54  [Åbo]  76 S 183          N.B?
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="91"/>
+      </style>
+    </note>
+    <note handle="_f81626290cfa689072e450d8b9" change="1704837582" id="N3590" type="Citation">
+      <text>Turun tuomiokirkkosrk rippikirja 1877-1888 (AP_II I Aa3:18)  Sivu 173 3.12. 1/4 2. Finnberg, Sandblom, Finberg, Nygren, Bjökqvist, Siren, Wikman, Strahl, Holmström ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23498&amp;pnum=168 / Viitattu 09.01.2024</text>
+    </note>
+    <note handle="_f8162655209b50d9f3675c2588" change="1704837600" id="N3591" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23498&amp;pnum=168</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23498&amp;pnum=168">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f8162805a2164deff0100c4bcc9" change="1704837777" id="N3592" type="Transcript" format="1">
+      <text>173
+3.12. 1/4 2
+
+Inh Qp Maria Matilda Finberg  5/7 54  [Åbo] son Karl Rudolf 18/12 79 Åbo. Död 15/1 87    [N32a 321]
+                                            oä son Kristian Emil 15/9 85 Åbo</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="193"/>
+      </style>
+    </note>
+    <note handle="_f8162a5e4924e062cbc45345e30" change="1704838023" id="N3593" type="Citation">
+      <text>Turun tuomiokirkkosrk rippikirja 1887-1900 (AP_II I Aa3:21)  Sivu 453  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=43537&amp;pnum=468 / Viitattu 09.01.2024</text>
+    </note>
+    <note handle="_f8162a7b4881aff3f7f0d9dcb24" change="1704838035" id="N3594" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=43537&amp;pnum=468</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=43537&amp;pnum=468">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f8162e8c0df7a5837a96e3b860" change="1704838461" id="N3595" type="Transcript" format="1">
+      <text>453
+Finnberg
+
+Qp Finnberg, Maria Matilda    5/8 1854  Åbo    3.12.2           H:fors 17/8 89
+son o.ä. Carl Rudolf        18/12 1879  do     do               Död 18 15/1 87
+son o.ä. Kristian Emil       15/9 85    Hfors  do               H:fors 17/8 89
+
+[...]
+
+    afl. mur. ges. Joh. Aug Finnbergs barn
+Finnberg, Maria Matilda   se ofvan samma sida
+syster Olga Aurora            8/4 1861  Koskis  2.9.1 
+bror, enkan Finnbergs  o.ä. under under enkaståndet             Död 28/1 84
+Johan August                  5/2 1868  Åbo     do</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="529"/>
+      </style>
+    </note>
+    <note handle="_f816300baec659449e6e8ee7386" change="1704838619" id="N3596" type="Citation">
+      <text>Turun tuomiokirkkosrk muuttaneet 1887-1891 (AP I Ba:26)  Sivu 820  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=44487&amp;pnum=76 / Viitattu 09.01.2024</text>
+    </note>
+    <note handle="_f816303e8e513580f049982cd09" change="1704838639" id="N3597" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=44487&amp;pnum=76</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=44487&amp;pnum=76">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f81631a751534795254a82273fb" change="1704838787" id="N3598" type="Transcript" format="1">
+      <text>                                    820
+Pag. 72
+Längd öfver Utflyttade för år 1859 i Åbo församling
+
+[Aug]  [17]  260  Qp. Maria Finnberg &amp; son  1 1  [Hfors]  3-321
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="165"/>
+      </style>
+    </note>
+    <note handle="_f81632b775e5b8abd80833ec32d" change="1704838899" id="N3599" type="Citation">
+      <text>Helsinki muuttaneet 1880-1889 (MKO10-17)  1889 Augusti  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23488&amp;pnum=306 / Viitattu 09.01.2024</text>
+    </note>
+    <note handle="_f81632e48d011a5f89337ffde6d" change="1704838917" id="N3600" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23488&amp;pnum=306</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23488&amp;pnum=306">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f81633cee593f221df09908f367" change="1704839013" id="N3601" type="Transcript" format="1">
+      <text>Augusti 1889
+
+1765  Finnberg, Maria Mathilda    piga  1 1  1-847  22
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="69"/>
       </style>
     </note>
   </notes>
