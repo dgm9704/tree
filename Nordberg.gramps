@@ -17658,6 +17658,20 @@
       <citationref hlink="_f81631af4177db7cbf5a5b3e050"/>
       <citationref hlink="_f81633d809672668c4ed0434add"/>
     </event>
+    <event handle="_f81720f56b328b3fabd3845935" change="1704863880" id="E0953">
+      <type>Birth</type>
+      <dateval val="1879-12-18"/>
+      <place hlink="_f60bb6e26832160ae2e9daa3691"/>
+      <citationref hlink="_f816280b542f91f476db19aa2"/>
+      <citationref hlink="_f81720c36b64ab064ab00f50d92"/>
+    </event>
+    <event handle="_f817215ae7d2f6dd134efbba7cf" change="1704863922" id="E0972">
+      <type>Death</type>
+      <dateval val="1887-01-15"/>
+      <place hlink="_f815f32c3d0434fe6be105602bf"/>
+      <citationref hlink="_f81720c36b64ab064ab00f50d92"/>
+      <citationref hlink="_f816280b542f91f476db19aa2"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1658869228" id="I3858">
@@ -29250,7 +29264,7 @@
       <eventref hlink="_e389890558069afd81c79798400" role="Primary"/>
       <eventref hlink="_e3898989b1046ec9858935bc7be" role="Primary"/>
     </person>
-    <person handle="_e820bf91e7159e5183e46e425ed" change="1704839036" id="I0004">
+    <person handle="_e820bf91e7159e5183e46e425ed" change="1704863987" id="I0004">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Mathilda</first>
@@ -29270,6 +29284,7 @@
       <eventref hlink="_f816282151f4bdc7c6100ea4dce" role="Primary"/>
       <eventref hlink="_f8162e99948276f7829197c8ed2" role="Primary"/>
       <eventref hlink="_f81633fe3b18cf99af2c6e8fa8" role="Primary"/>
+      <parentin hlink="_f8171c18b7d2242359169d2205d"/>
       <parentin hlink="_e820bf510f63e8b7a42c91d3cc4"/>
       <citationref hlink="_f80f79d5a2268976f7bb7cab049"/>
       <citationref hlink="_f80f7ada5df59b9f38c8d621da7"/>
@@ -31215,6 +31230,16 @@
       </name>
       <eventref hlink="_f8096ffd71535946a062d8763f" role="Primary"/>
       <childof hlink="_f808e7921787e4ad9b8795ec71d"/>
+    </person>
+    <person handle="_f8171c22c763b7b02a7f7fd830d" change="1704863957" id="I0196">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Karl Rudolf</first>
+        <surname derivation="Inherited">Finnberg</surname>
+      </name>
+      <eventref hlink="_f81720f56b328b3fabd3845935" role="Primary"/>
+      <eventref hlink="_f817215ae7d2f6dd134efbba7cf" role="Primary"/>
+      <childof hlink="_f8171c18b7d2242359169d2205d"/>
     </person>
   </people>
   <families>
@@ -34896,6 +34921,11 @@
       <eventref hlink="_f809777088126b239c0c7fdb0b9" role="Family"/>
       <eventref hlink="_f809870d6fa45e0d86e755ad734" role="Family"/>
       <childref hlink="_f8096f868958f12d7a99421d06"/>
+    </family>
+    <family handle="_f8171c18b7d2242359169d2205d" change="1704863957" id="F0041">
+      <rel type="Unmarried"/>
+      <mother hlink="_e820bf91e7159e5183e46e425ed"/>
+      <childref hlink="_f8171c22c763b7b02a7f7fd830d"/>
     </family>
   </families>
   <citations>
@@ -47283,6 +47313,14 @@
       <noteref hlink="_f81633cee593f221df09908f367"/>
       <sourceref hlink="_df5ac12a7c74ade1f5eaf6f9c84"/>
     </citation>
+    <citation handle="_f81720c36b64ab064ab00f50d92" change="1704863860" id="C1741">
+      <page>I F:9/665</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f8171efc69961ffe07554c85edb"/>
+      <noteref hlink="_f8171f1905b333e88793b0fe759"/>
+      <noteref hlink="_f81720bddd957422474f74837cc"/>
+      <sourceref hlink="_f8171eb53a1359b628f325c5441"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -50841,6 +50879,11 @@
       <sauthor>Turun tksrk</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
+    <source handle="_f8171eb53a1359b628f325c5441" change="1704863644" id="S0707">
+      <stitle>Turku Kuolleet 1883-1890</stitle>
+      <sauthor>Turun tksrk</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1704316073" id="P0000" type="City">
@@ -54051,7 +54094,7 @@
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1704838588" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1704863643" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -82015,6 +82058,29 @@ Längd öfver Utflyttade för år 1859 i Åbo församling
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="69"/>
+      </style>
+    </note>
+    <note handle="_f8171efc69961ffe07554c85edb" change="1704863673" id="N3602" type="Citation">
+      <text>Turun tuomiokirkkosrk kuolleet 1883-1890 (AP I F:9)  Sivu 665  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=44374&amp;pnum=200 / Viitattu 10.01.2024</text>
+    </note>
+    <note handle="_f8171f1905b333e88793b0fe759" change="1704863685" id="N3603" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=44374&amp;pnum=200</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=44374&amp;pnum=200">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f81720bddd957422474f74837cc" change="1704863857" id="N3604" type="Transcript" format="1">
+      <text>År 1887, Januari månad
+
+
+15  1 -  Karl Rudolf, f. 18/12 1879, oå son    1 - 1
+         till Qp. Maria Mathilda Finnberg
+         &quot;hjernsi???&quot;       3.12.2 = F.453 
+
+
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="166"/>
       </style>
     </note>
   </notes>
