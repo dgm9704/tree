@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2024-01-10" version="5.1.6"/>
+    <created date="2024-01-11" version="5.1.6"/>
     <researcher>
     </researcher>
   </header>
@@ -17685,8 +17685,8 @@
       <place hlink="_f819088629468bc612ce7758d24"/>
       <citationref hlink="_f8191157d8215d31c50e688cde1"/>
     </event>
-    <event handle="_f8192072744299d7991dc1d4bf5" change="1704917910" id="E0975">
-      <type>Burial</type>
+    <event handle="_f8192072744299d7991dc1d4bf5" change="1704926071" id="E0975">
+      <type>Residence</type>
       <datespan start="1867" stop="1871"/>
       <place hlink="_f819205137013388dced4c81284"/>
       <citationref hlink="_f8192413d4f496bfc09a4522957"/>
@@ -17696,6 +17696,18 @@
       <datespan start="1871-06-07" stop="1873-05-31"/>
       <place hlink="_f819286d78417cc8f3ea9af4d89"/>
       <citationref hlink="_f8192bcd33fd7fa71e3703c4d6"/>
+    </event>
+    <event handle="_f81975936f35e2ce3d86478cdc3" change="1704926440" id="E0977">
+      <type>Residence</type>
+      <datespan start="1873" stop="1874"/>
+      <place hlink="_f81973e3bd11eb1a9ef7168e5b1"/>
+      <citationref hlink="_f8197579d421301b7cb3db0ec45"/>
+    </event>
+    <event handle="_f8197e9fe26a0f43eda5e7b18" change="1704927389" id="E0978">
+      <type>Residence</type>
+      <datespan start="1874-05-26" stop="1876"/>
+      <place hlink="_f8197b2e1932e3dc8e8d06d2ecd"/>
+      <citationref hlink="_f8197e77ef729f9ed4dbab6065a"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -29289,7 +29301,7 @@
       <eventref hlink="_e389890558069afd81c79798400" role="Primary"/>
       <eventref hlink="_e3898989b1046ec9858935bc7be" role="Primary"/>
     </person>
-    <person handle="_e820bf91e7159e5183e46e425ed" change="1704918780" id="I0004">
+    <person handle="_e820bf91e7159e5183e46e425ed" change="1704927433" id="I0004">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Mathilda</first>
@@ -29301,16 +29313,18 @@
         <dateval val="1891-03-07" type="after"/>
       </name>
       <eventref hlink="_e820c56bd2d649cea6d02073cae" role="Primary"/>
-      <eventref hlink="_e820d8274ab33fb8c13cec55807" role="Primary"/>
       <eventref hlink="_f815fb706394786f85ad5872107" role="Primary"/>
       <eventref hlink="_f81602d194461bb70f92a982b6b" role="Primary"/>
       <eventref hlink="_f819116646719f23844c67b9fdf" role="Primary"/>
       <eventref hlink="_f8192072744299d7991dc1d4bf5" role="Primary"/>
       <eventref hlink="_f8192c277a57cdc14adc1053223" role="Primary"/>
+      <eventref hlink="_f81975936f35e2ce3d86478cdc3" role="Primary"/>
+      <eventref hlink="_f8197e9fe26a0f43eda5e7b18" role="Primary"/>
       <eventref hlink="_f816241f85d6a2660dd964d7f99" role="Primary"/>
       <eventref hlink="_f816282151f4bdc7c6100ea4dce" role="Primary"/>
       <eventref hlink="_f8162e99948276f7829197c8ed2" role="Primary"/>
       <eventref hlink="_f81633fe3b18cf99af2c6e8fa8" role="Primary"/>
+      <eventref hlink="_e820d8274ab33fb8c13cec55807" role="Primary"/>
       <parentin hlink="_f8171c18b7d2242359169d2205d"/>
       <parentin hlink="_f81722dff264af64bbece1d775c"/>
       <parentin hlink="_e820bf510f63e8b7a42c91d3cc4"/>
@@ -47395,6 +47409,22 @@
       <noteref hlink="_f8192bc9492310fc445833cc1a7"/>
       <sourceref hlink="_f816224f1145491b2f0d74e2462"/>
     </citation>
+    <citation handle="_f8197579d421301b7cb3db0ec45" change="1704926429" id="C1746">
+      <page>I/228</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f819745fed11d38db88f524a0ee"/>
+      <noteref hlink="_f819747d2397b83c7cfecf8efa2"/>
+      <noteref hlink="_f8197573068573ef9668cbc786c"/>
+      <sourceref hlink="_f819212e97fb080883b5c0de84"/>
+    </citation>
+    <citation handle="_f8197e77ef729f9ed4dbab6065a" change="1704927372" id="C1747">
+      <page>IV/1286</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f8197cd0b64793a8787db7f8c52"/>
+      <noteref hlink="_f8197cef4823600e2c13cd125ec"/>
+      <noteref hlink="_f8197e6ff256738bbba5ad2263b"/>
+      <sourceref hlink="_f8197c8614862716bb73ae1ffd1"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -50973,6 +51003,11 @@
       <sauthor>Turun tksrk</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
+    <source handle="_f8197c8614862716bb73ae1ffd1" change="1704927168" id="S0711">
+      <stitle>Turku Rippikirja 1868-1877</stitle>
+      <sauthor>Turun tksrk</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1704316073" id="P0000" type="City">
@@ -53954,7 +53989,7 @@
       <pname value="Rymättylä"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
     </placeobj>
-    <placeobj handle="_f60bb6e26832160ae2e9daa3691" change="1704917497" id="P0215" type="Town">
+    <placeobj handle="_f60bb6e26832160ae2e9daa3691" change="1704927017" id="P0215" type="Town">
       <pname value="Turku"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
     </placeobj>
@@ -54201,6 +54236,29 @@
       <pname value="No 1"/>
       <placeref hlink="_f81928655a5711539c62c9894ad"/>
     </placeobj>
+    <placeobj handle="_f81973c89286fe0ec9ceba084e2" change="1704926252" id="P0289" type="Borough">
+      <pname value="1. Stadsdelen"/>
+      <placeref hlink="_f60bb6e26832160ae2e9daa3691"/>
+    </placeobj>
+    <placeobj handle="_f81973d4aa8515fbc2f950eb912" change="1704926257" id="P0290" type="Block">
+      <pname value="Qvarteret 15"/>
+      <placeref hlink="_f81973c89286fe0ec9ceba084e2"/>
+    </placeobj>
+    <placeobj handle="_f81973e3bd11eb1a9ef7168e5b1" change="1704926263" id="P0291" type="Lot">
+      <code>1.15.2</code>
+      <pname value="No 2"/>
+      <placeref hlink="_f81973d4aa8515fbc2f950eb912"/>
+    </placeobj>
+    <placeobj handle="_f8197b1e3a45079c04ad0974869" change="1704927021" id="P0292" type="Borough">
+      <pname value="Södra kvartelet" lang="sv"/>
+      <pname value="Eteläkortteli" lang="fi"/>
+      <placeref hlink="_f60bb6e26832160ae2e9daa3691"/>
+    </placeobj>
+    <placeobj handle="_f8197b2e1932e3dc8e8d06d2ecd" change="1704927028" id="P0293" type="Lot">
+      <code>S.183</code>
+      <pname value="No 183"/>
+      <placeref hlink="_f8197b1e3a45079c04ad0974869"/>
+    </placeobj>
   </places>
   <repositories>
     <repository handle="_cdea29a49637c6553bc" change="1672241850" id="R0001">
@@ -54208,7 +54266,7 @@
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1704917590" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1704927167" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -82290,6 +82348,45 @@ Under Enkeståndt O.ä. Son Johan August  5/2 68  Åbo     do
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="444"/>
+      </style>
+    </note>
+    <note handle="_f819745fed11d38db88f524a0ee" change="1704926314" id="N3617" type="Citation">
+      <text>Turun tuomiokirkkosrk rippikirja 1868-1878 (AP_I I Aa3:13)  Sivu 228 1.15.2. Rosendal, Hübner, Lagerström, Jakobsson, Oilin, Finnberg, Laurén, Ström, Vinter, Lindholm, Lehtinen, Helander, Jansson, Koski, Renfors, Urhollin, Vahlroos, Åhlsten, Jansson, Bang, Manelius, Blomqvist ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23495&amp;pnum=228 / Viitattu 10.01.2024</text>
+    </note>
+    <note handle="_f819747d2397b83c7cfecf8efa2" change="1704926326" id="N3618" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23495&amp;pnum=228</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23495&amp;pnum=228">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f8197573068573ef9668cbc786c" change="1704926427" id="N3619" type="Transcript" format="1">
+      <text>228
+1.15.2
+
+pig Maria Matilda Finnberg  5/8 54  Åbo  73 3.9.1           74 S.183
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="81"/>
+      </style>
+    </note>
+    <note handle="_f8197cd0b64793a8787db7f8c52" change="1704927199" id="N3620" type="Citation">
+      <text>Turun tuomiokirkkosrk rippikirja 1868-1877 (AP_IV I Aa3:16)  Sivu 1286 S. N:o 183. Grönroos, Nordqvist, Allenius, Wennerström, Nyberg, Suominen, Lindros, Grönros, Grönvall, Sundström, Finnberg, Sederström ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23496&amp;pnum=942 / Viitattu 10.01.2024</text>
+    </note>
+    <note handle="_f8197cef4823600e2c13cd125ec" change="1704927212" id="N3621" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23496&amp;pnum=942</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23496&amp;pnum=942">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f8197e6ff256738bbba5ad2263b" change="1704927369" id="N3622" type="Transcript" format="1">
+      <text>1286          S
+
+No 183
+
+? hos mams. Fordelius
+Maria Math. Finnberg  5/8 1854  Åbo  26/5 74 1.15.2          76 3.12.2</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="117"/>
       </style>
     </note>
   </notes>
