@@ -17672,6 +17672,12 @@
       <citationref hlink="_f81720c36b64ab064ab00f50d92"/>
       <citationref hlink="_f816280b542f91f476db19aa2"/>
     </event>
+    <event handle="_f817236b41f75899eed59b28205" change="1704864498" id="E0973">
+      <type>Birth</type>
+      <dateval val="1885-09-15"/>
+      <citationref hlink="_f816280b542f91f476db19aa2"/>
+      <citationref hlink="_f81726cf87a79767593a657ee63"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1658869228" id="I3858">
@@ -29264,7 +29270,7 @@
       <eventref hlink="_e389890558069afd81c79798400" role="Primary"/>
       <eventref hlink="_e3898989b1046ec9858935bc7be" role="Primary"/>
     </person>
-    <person handle="_e820bf91e7159e5183e46e425ed" change="1704863987" id="I0004">
+    <person handle="_e820bf91e7159e5183e46e425ed" change="1704864523" id="I0004">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Mathilda</first>
@@ -29285,6 +29291,7 @@
       <eventref hlink="_f8162e99948276f7829197c8ed2" role="Primary"/>
       <eventref hlink="_f81633fe3b18cf99af2c6e8fa8" role="Primary"/>
       <parentin hlink="_f8171c18b7d2242359169d2205d"/>
+      <parentin hlink="_f81722dff264af64bbece1d775c"/>
       <parentin hlink="_e820bf510f63e8b7a42c91d3cc4"/>
       <citationref hlink="_f80f79d5a2268976f7bb7cab049"/>
       <citationref hlink="_f80f7ada5df59b9f38c8d621da7"/>
@@ -31240,6 +31247,15 @@
       <eventref hlink="_f81720f56b328b3fabd3845935" role="Primary"/>
       <eventref hlink="_f817215ae7d2f6dd134efbba7cf" role="Primary"/>
       <childof hlink="_f8171c18b7d2242359169d2205d"/>
+    </person>
+    <person handle="_f81722eeabd3004a70abea0aef" change="1704864505" id="I0197">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Kristian Emil</first>
+        <surname>Finnberg</surname>
+      </name>
+      <eventref hlink="_f817236b41f75899eed59b28205" role="Primary"/>
+      <childof hlink="_f81722dff264af64bbece1d775c"/>
     </person>
   </people>
   <families>
@@ -34926,6 +34942,11 @@
       <rel type="Unmarried"/>
       <mother hlink="_e820bf91e7159e5183e46e425ed"/>
       <childref hlink="_f8171c22c763b7b02a7f7fd830d"/>
+    </family>
+    <family handle="_f81722dff264af64bbece1d775c" change="1704864505" id="F0042">
+      <rel type="Unmarried"/>
+      <mother hlink="_e820bf91e7159e5183e46e425ed"/>
+      <childref hlink="_f81722eeabd3004a70abea0aef"/>
     </family>
   </families>
   <citations>
@@ -47321,6 +47342,14 @@
       <noteref hlink="_f81720bddd957422474f74837cc"/>
       <sourceref hlink="_f8171eb53a1359b628f325c5441"/>
     </citation>
+    <citation handle="_f81726cf87a79767593a657ee63" change="1704864494" id="C1742">
+      <page>I C:32/678</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f8172511fc126965a10fc0b7237"/>
+      <noteref hlink="_f817253012d291bc56fcd279f3d"/>
+      <noteref hlink="_f81726ca45b3925c1baa2f56d7d"/>
+      <sourceref hlink="_f81724e12f3387fd2e8767ea867"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -50884,6 +50913,11 @@
       <sauthor>Turun tksrk</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
+    <source handle="_f81724e12f3387fd2e8767ea867" change="1704864291" id="S0708">
+      <stitle>Turku Syntyneet-Vihityt-Kuolleet 1885-1886</stitle>
+      <sauthor>Turun tksrk</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1704316073" id="P0000" type="City">
@@ -54094,7 +54128,7 @@
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1704863643" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1704864290" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -82081,6 +82115,29 @@ Längd öfver Utflyttade för år 1859 i Åbo församling
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="166"/>
+      </style>
+    </note>
+    <note handle="_f8172511fc126965a10fc0b7237" change="1704864311" id="N3605" type="Citation">
+      <text>Turun tuomiokirkkosrk syntyneet-vihityt-kuolleet 1885-1886 (AP I C:32)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=44359&amp;pnum=288 / Viitattu 10.01.2024</text>
+    </note>
+    <note handle="_f817253012d291bc56fcd279f3d" change="1704864324" id="N3606" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=44359&amp;pnum=288</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=44359&amp;pnum=288">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f81726ca45b3925c1baa2f56d7d" change="1704864492" id="N3607" type="Transcript" format="1">
+      <text>[678]
+
+12.2  15/9  21/9  Kristian Emil. Moder Afl. muraren
+                  Joh. Aug. Finnbergs dotter Maria Mathilda
+                  född i Åbo. Testes: Barnm.eleven Kristina
+                  Andersson och Maria Miettinen. Döpt
+                  af pastors adj.
+                                     A.Auvinen
+                                       Se bil. No 10.</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="367"/>
       </style>
     </note>
   </notes>
