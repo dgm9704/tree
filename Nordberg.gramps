@@ -17620,13 +17620,14 @@
       <datespan start="1854" stop="1859"/>
       <place hlink="_f815f32c3d0434fe6be105602bf"/>
     </event>
-    <event handle="_f81602d194461bb70f92a982b6b" change="1704833876" id="E0921">
+    <event handle="_f81602d194461bb70f92a982b6b" change="1704916135" id="E0921">
       <type>Residence</type>
-      <datespan start="1860" stop="1863"/>
+      <datespan start="1860" stop="1866"/>
       <place hlink="_f815f32c3d0434fe6be105602bf"/>
       <citationref hlink="_f80f7be6139483a3a9dfcc30ad5"/>
+      <citationref hlink="_f80f7c90f8e437973336b53f59e"/>
     </event>
-    <event handle="_f816083709558380c067249ab51" change="1704837429" id="E0932">
+    <event handle="_f816083709558380c067249ab51" change="1704916123" id="E0932">
       <type>Residence</type>
       <datespan start="1863" stop="1864" quality="estimated"/>
       <place hlink="_f815f32c3d0434fe6be105602bf"/>
@@ -17677,6 +17678,12 @@
       <dateval val="1885-09-15"/>
       <citationref hlink="_f816280b542f91f476db19aa2"/>
       <citationref hlink="_f81726cf87a79767593a657ee63"/>
+    </event>
+    <event handle="_f819116646719f23844c67b9fdf" change="1704915936" id="E0974">
+      <type>Residence</type>
+      <datespan start="1866" stop="1867"/>
+      <place hlink="_f819088629468bc612ce7758d24"/>
+      <citationref hlink="_f8191157d8215d31c50e688cde1"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -29270,7 +29277,7 @@
       <eventref hlink="_e389890558069afd81c79798400" role="Primary"/>
       <eventref hlink="_e3898989b1046ec9858935bc7be" role="Primary"/>
     </person>
-    <person handle="_e820bf91e7159e5183e46e425ed" change="1704864523" id="I0004">
+    <person handle="_e820bf91e7159e5183e46e425ed" change="1704916145" id="I0004">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Mathilda</first>
@@ -29285,7 +29292,7 @@
       <eventref hlink="_e820d8274ab33fb8c13cec55807" role="Primary"/>
       <eventref hlink="_f815fb706394786f85ad5872107" role="Primary"/>
       <eventref hlink="_f81602d194461bb70f92a982b6b" role="Primary"/>
-      <eventref hlink="_f816083709558380c067249ab51" role="Primary"/>
+      <eventref hlink="_f819116646719f23844c67b9fdf" role="Primary"/>
       <eventref hlink="_f816241f85d6a2660dd964d7f99" role="Primary"/>
       <eventref hlink="_f816282151f4bdc7c6100ea4dce" role="Primary"/>
       <eventref hlink="_f8162e99948276f7829197c8ed2" role="Primary"/>
@@ -47350,6 +47357,14 @@
       <noteref hlink="_f81726ca45b3925c1baa2f56d7d"/>
       <sourceref hlink="_f81724e12f3387fd2e8767ea867"/>
     </citation>
+    <citation handle="_f8191157d8215d31c50e688cde1" change="1704915930" id="C1743">
+      <page>III/770</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f8190b173886b4ed0d3f6fa9c5a"/>
+      <noteref hlink="_f8190b511ab3d9257b714790698"/>
+      <noteref hlink="_f8191154991fd8e923ef06b7b5"/>
+      <sourceref hlink="_f8190aec2ff33dab9f162e5fdff"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -50918,6 +50933,11 @@
       <sauthor>Turun tksrk</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
+    <source handle="_f8190aec2ff33dab9f162e5fdff" change="1704915257" id="S0709">
+      <stitle>Turku Rippikirja 1867-1876</stitle>
+      <sauthor>Turun tksrk</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1704316073" id="P0000" type="City">
@@ -54116,10 +54136,16 @@
       <pname value="Qvarteret 12"/>
       <placeref hlink="_f815f327ba52db8e72e933e16e2"/>
     </placeobj>
-    <placeobj handle="_f815f32c3d0434fe6be105602bf" change="1704833095" id="P0279" type="Building">
+    <placeobj handle="_f815f32c3d0434fe6be105602bf" change="1704914930" id="P0279" type="Lot">
       <code>3.12.2</code>
       <pname value="No 2"/>
       <placeref hlink="_f815f32a2507677a6cfc66e52d0"/>
+    </placeobj>
+    <placeobj handle="_f819088629468bc612ce7758d24" change="1704915025" id="P0282" type="Borough">
+      <code>U.A.T.</code>
+      <pname value="Utom Aningais Tull" lang="sv"/>
+      <pname value="Aninkaisten Tullin ulkopuolella" lang="fi"/>
+      <placeref hlink="_f60bb6e26832160ae2e9daa3691"/>
     </placeobj>
   </places>
   <repositories>
@@ -54128,7 +54154,7 @@
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1704864290" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1704915255" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -81956,7 +81982,7 @@ dr Augusta Wilhelmina                     26/8 1857  do                  do</tex
         <range start="0" end="790"/>
       </style>
     </note>
-    <note handle="_f81602c10434ad2734cef266ff" change="1704833869" id="N3585" type="Transcript" format="1">
+    <note handle="_f81602c10434ad2734cef266ff" change="1704913713" id="N3585" type="Transcript" format="1">
       <text>147
 3.12.2
 Mur. Ges. Finbergs Enka
@@ -81966,29 +81992,29 @@ Son Gustaf                         13/10 1846  do      do                 N.B.
 Pig Amalia Lov. Grönroos            27/8 1825  Piikis  60 3.12.1          61 7.19.1
 Son, mur Ges Johan August Finnberg  2/10 1830  Åbo     G.B          *     Död 26/11 1865
 Hru Maria Christina Johansdr        6/12 1830  Koskis  do           *     63 pag 150
-Dr Maria Mathilda                    5/8 1854  Åbo     do                 do  66 u.a.T
+Dr Maria Mathilda                    5/8 1854  Åbo     do                 do  66 u.a.T &lt;Utom Aningais tull&gt;
 Dr Augusta Wilhelmina               26/8 1857  do      do                 Död 21/4 1862
 Dr Amanda Josefina                  7/11 1859  do                         Död 14/2 1860
 
 
 * pitkät selitykset, ilmeisesti avioeroon liittyen</text>
       <style name="fontface" value="Monospace">
-        <range start="0" end="846"/>
+        <range start="0" end="867"/>
       </style>
     </note>
-    <note handle="_f816081eab950da60ff1f832459" change="1704834432" id="N3586" type="Transcript" format="1">
+    <note handle="_f816081eab950da60ff1f832459" change="1704916019" id="N3586" type="Transcript" format="1">
       <text>150
 3.12.2
 
 
 Carl Henr. Johs. Helander         11/1 1839  Orivesi  28/11 63 S.50      Se nya Sv.Boken  12/12 64 1.20.2
-Hru Maria Christina Johansdr      6/12 1830  Koskis  28/11 63 Pag.147                     do
-Dr, hennes af f.g. Maria Mathilda  5/8 1854  Åbo  do                                      pag 147
-Dr Anna Alexandra                31/12 1863  do                                           64 120.2
+Hru Maria Christina Johansdr      6/12 1830  Koskis   28/11 63 Pag.147                     do
+Dr, hennes af f.g. Maria Mathilda  5/8 1854  Åbo      do                                   pag 147
+Dr Anna Alexandra                31/12 1863  do                                            64 120.2
  
 </text>
       <style name="fontface" value="Monospace">
-        <range start="0" end="411"/>
+        <range start="0" end="414"/>
       </style>
     </note>
     <note handle="_f8162283e73135fcaac0e2d1e6f" change="1704837200" id="N3587" type="Citation">
@@ -82138,6 +82164,29 @@ Längd öfver Utflyttade för år 1859 i Åbo församling
                                        Se bil. No 10.</text>
       <style name="fontface" value="Monospace">
         <range start="0" end="367"/>
+      </style>
+    </note>
+    <note handle="_f8190b173886b4ed0d3f6fa9c5a" change="1704915274" id="N3608" type="Citation">
+      <text>Turun tuomiokirkkosrk rippikirja 1867-1876 (AP_III I Aa3:15)  Sivu 770 U.A.T. litt F. Finnberg, Vallenius, Forström, Fredriksson, Fellman, Lindros, Forsman, Holmström, Flinkman, Fri, Möller ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29670&amp;pnum=773 / Viitattu 10.01.2024</text>
+    </note>
+    <note handle="_f8190b511ab3d9257b714790698" change="1704915298" id="N3609" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29670&amp;pnum=773</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29670&amp;pnum=773">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f8191154991fd8e923ef06b7b5" change="1704915928" id="N3610" type="Transcript" format="1">
+      <text>770         U.A.T.
+
+Litt. F
+
+Mur. Ges. Joh. Aug. Finnbergs Ea
+Henrica Michelsdr Vallenius         24/12 40  Koskis       66 G.N 3.12.2    67 K.169
+Dr, mannens af f.g. Maria Mathilda    5/8 54  Åbo          do               do
+Dr o.ä. Olga Aurora                   8/4 61  Nyby Koskis  do               do
+Dr Anna Henrica                     16/12 64  Åbo          do               Död 11/8 67</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="392"/>
       </style>
     </note>
   </notes>
