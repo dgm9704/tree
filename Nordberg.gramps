@@ -17685,6 +17685,12 @@
       <place hlink="_f819088629468bc612ce7758d24"/>
       <citationref hlink="_f8191157d8215d31c50e688cde1"/>
     </event>
+    <event handle="_f8192072744299d7991dc1d4bf5" change="1704917910" id="E0975">
+      <type>Burial</type>
+      <datespan start="1867" stop="1871"/>
+      <place hlink="_f819205137013388dced4c81284"/>
+      <citationref hlink="_f8192413d4f496bfc09a4522957"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1658869228" id="I3858">
@@ -29277,7 +29283,7 @@
       <eventref hlink="_e389890558069afd81c79798400" role="Primary"/>
       <eventref hlink="_e3898989b1046ec9858935bc7be" role="Primary"/>
     </person>
-    <person handle="_e820bf91e7159e5183e46e425ed" change="1704916145" id="I0004">
+    <person handle="_e820bf91e7159e5183e46e425ed" change="1704917930" id="I0004">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Mathilda</first>
@@ -29293,6 +29299,7 @@
       <eventref hlink="_f815fb706394786f85ad5872107" role="Primary"/>
       <eventref hlink="_f81602d194461bb70f92a982b6b" role="Primary"/>
       <eventref hlink="_f819116646719f23844c67b9fdf" role="Primary"/>
+      <eventref hlink="_f8192072744299d7991dc1d4bf5" role="Primary"/>
       <eventref hlink="_f816241f85d6a2660dd964d7f99" role="Primary"/>
       <eventref hlink="_f816282151f4bdc7c6100ea4dce" role="Primary"/>
       <eventref hlink="_f8162e99948276f7829197c8ed2" role="Primary"/>
@@ -47365,6 +47372,14 @@
       <noteref hlink="_f8191154991fd8e923ef06b7b5"/>
       <sourceref hlink="_f8190aec2ff33dab9f162e5fdff"/>
     </citation>
+    <citation handle="_f8192413d4f496bfc09a4522957" change="1704917894" id="C1744">
+      <page>I/940</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f8192156ab64a57195adce44d55"/>
+      <noteref hlink="_f81921982db1c161c65a037069f"/>
+      <noteref hlink="_f81924093fd7fb67e81d8f3aace"/>
+      <sourceref hlink="_f819212e97fb080883b5c0de84"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -50938,6 +50953,11 @@
       <sauthor>Turun tksrk</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
+    <source handle="_f819212e97fb080883b5c0de84" change="1704917909" id="S0710">
+      <stitle>Turku Rippikirja 1868-1878</stitle>
+      <sauthor>Turun tksrk</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1704316073" id="P0000" type="City">
@@ -53919,7 +53939,7 @@
       <pname value="Rymättylä"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
     </placeobj>
-    <placeobj handle="_f60bb6e26832160ae2e9daa3691" change="1704832233" id="P0215" type="Town">
+    <placeobj handle="_f60bb6e26832160ae2e9daa3691" change="1704917497" id="P0215" type="Town">
       <pname value="Turku"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
     </placeobj>
@@ -54147,6 +54167,16 @@
       <pname value="Aninkaisten Tullin ulkopuolella" lang="fi"/>
       <placeref hlink="_f60bb6e26832160ae2e9daa3691"/>
     </placeobj>
+    <placeobj handle="_f819204d07369eefdd67121fb37" change="1704917498" id="P0285" type="Borough">
+      <pname value="Kloster kvartelet" lang="sv"/>
+      <pname value="Luostarikortteli" lang="fi"/>
+      <placeref hlink="_f60bb6e26832160ae2e9daa3691"/>
+    </placeobj>
+    <placeobj handle="_f819205137013388dced4c81284" change="1704917512" id="P0286" type="Lot">
+      <code>Kv.169</code>
+      <pname value="169"/>
+      <placeref hlink="_f819204d07369eefdd67121fb37"/>
+    </placeobj>
   </places>
   <repositories>
     <repository handle="_cdea29a49637c6553bc" change="1672241850" id="R0001">
@@ -54154,7 +54184,7 @@
       <type>Web site</type>
       <url  href="http://digi.narc.fi/digi/" type="Web Home"/>
     </repository>
-    <repository handle="_cdea2ba7429330c4a60" change="1704915255" id="R0002">
+    <repository handle="_cdea2ba7429330c4a60" change="1704917590" id="R0002">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -82187,6 +82217,31 @@ Dr o.ä. Olga Aurora                   8/4 61  Nyby Koskis  do               do
 Dr Anna Henrica                     16/12 64  Åbo          do               Död 11/8 67</text>
       <style name="fontface" value="Monospace">
         <range start="0" end="392"/>
+      </style>
+    </note>
+    <note handle="_f8192156ab64a57195adce44d55" change="1704917607" id="N3611" type="Citation">
+      <text>Turun tuomiokirkkosrk rippikirja 1868-1878 (AP_I I Aa3:13)  Sivu 940 Kl. 169. Valenius, Vesterholm, Vester, Ståhle, Sundqvist, Vilander, Sjöblom, Andersin, Nikander, Holmström, Ros, Lindgren, Akrén, Engblom, Kronman, Brun, Juselius, Ahlberg, Wahlman, Grönlund ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23495&amp;pnum=899 / Viitattu 10.01.2024</text>
+    </note>
+    <note handle="_f81921982db1c161c65a037069f" change="1704917634" id="N3612" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23495&amp;pnum=899</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23495&amp;pnum=899">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f81924093fd7fb67e81d8f3aace" change="1704917890" id="N3613" type="Transcript" format="1">
+      <text>940
+Kl. 169
+
+Mur.ges. Joh. Aug. Finnbergs enk.
+Henrika Valenius                 24/12 40  Nyby Koski  67 U.A.T    &lt;sakkotietoja?&gt;    71 3.9.1
+                         son Johan August, f. 5/2 68 (oä)
+
+dr af mannes f.g. Maria Matilda    5/8 54  Åbo         do                             do
+dr Olga Aurora                     8/4 61  Koskis      do                             do
+
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="380"/>
       </style>
     </note>
   </notes>
