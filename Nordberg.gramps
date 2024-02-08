@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2024-01-11" version="5.1.6"/>
+    <created date="2024-02-09" version="5.1.6"/>
     <researcher>
     </researcher>
   </header>
@@ -7070,7 +7070,7 @@
       <dateval val="1814-07-25"/>
       <place hlink="_cb589cf882d64650a63"/>
     </event>
-    <event handle="_cb589cfbc6279ba4d3f" change="1658145956" id="E7040">
+    <event handle="_cb589cfbc6279ba4d3f" change="1707423956" id="E7040">
       <type>Marriage</type>
       <dateval val="1899-10-08"/>
       <place hlink="_cb589cc7f8d1b88b055"/>
@@ -7818,7 +7818,7 @@
       <citationref hlink="_cde65183e49656a79fd"/>
       <citationref hlink="_cdeaa4cbe6c5f279b84"/>
     </event>
-    <event handle="_cdf7bc5583303a2519a" change="1703270472" id="E0000">
+    <event handle="_cdf7bc5583303a2519a" change="1707427058" id="E0000">
       <type>Residence</type>
       <dateval val="1869"/>
       <place hlink="_cde630ab53a2c774547"/>
@@ -11190,11 +11190,13 @@
       <citationref hlink="_dd212d48d4661140518c4f7654f"/>
       <citationref hlink="_dd212f95c6c3878ee252892bedf"/>
     </event>
-    <event handle="_de1203b01f44b7dbcd137b647b6" change="1658901537" id="E2446">
+    <event handle="_de1203b01f44b7dbcd137b647b6" change="1707429871" id="E2446">
       <type>Residence</type>
       <datespan start="1875" stop="1876"/>
       <place hlink="_ec7193d941f7ae07606844463ce"/>
+      <citationref hlink="_f876b596eee2f5bc8015f5a70ee"/>
       <citationref hlink="_de120380b2979d27bc59610212c"/>
+      <citationref hlink="_f8769cd087f4183eeb807965db6"/>
       <citationref hlink="_e1613a186524411084c20582dc0"/>
       <citationref hlink="_cde65183e49656a79fd"/>
       <citationref hlink="_cdeaa4cbe6c5f279b84"/>
@@ -15458,7 +15460,7 @@
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_e1865381659243739e61bb9df81"/>
     </event>
-    <event handle="_f14ae90a6da6c2c25b390db11f8" change="1703934160" id="E0434">
+    <event handle="_f14ae90a6da6c2c25b390db11f8" change="1707423757" id="E0434">
       <type>Military Service</type>
       <daterange start="1893-11" stop="1896-11"/>
       <place hlink="_f160982616a675a7a46d09d1772"/>
@@ -15790,11 +15792,13 @@
       <dateval val="1866-10-08"/>
       <citationref hlink="_f15b6929d83789978c6a9e036ff"/>
     </event>
-    <event handle="_f15f02594867826a5b79c050032" change="1658691702" id="E0510">
+    <event handle="_f15f02594867826a5b79c050032" change="1707426310" id="E0510">
       <type>Residence</type>
       <datespan start="1878" stop="1879"/>
       <place hlink="_f15effd2956d6e7c37f6afb9d0"/>
+      <citationref hlink="_f87691f97fa77a3f1acf7b643e2"/>
       <citationref hlink="_f15f0253d0a4d6cf2f80a1ac586"/>
+      <citationref hlink="_f87696028ef69a4e258c36dda50"/>
       <citationref hlink="_f15f11ccf614565f4a45b6f3f59"/>
     </event>
     <event handle="_f15f3555bd6b49d503bdf7d06a" change="1658730077" id="E0521">
@@ -47420,6 +47424,42 @@
       <noteref hlink="_f8197e6ff256738bbba5ad2263b"/>
       <sourceref hlink="_f8197c8614862716bb73ae1ffd1"/>
     </citation>
+    <citation handle="_f87691f97fa77a3f1acf7b643e2" change="1707426043" id="C1748">
+      <page>II Bd:8/619</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f87691d289d2164e637865cc3ac"/>
+      <noteref hlink="_f8769251e48277d6159c93a977f"/>
+      <noteref hlink="_f876928027751c976da66fc4d49"/>
+      <noteref hlink="_f8769393f7f3a955a1402d6c83a"/>
+      <sourceref hlink="_f8769187adb25b89419705c7464"/>
+    </citation>
+    <citation handle="_f87696028ef69a4e258c36dda50" change="1707426291" id="C1749">
+      <page>II Bd:79/711</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f87694ca8a7edcc703733a7dbb"/>
+      <noteref hlink="_f8769522be629c077c11f6e3220"/>
+      <noteref hlink="_f8769545ad211240636a7dcc86c"/>
+      <noteref hlink="_f87695f8b76671b32b24f12675f"/>
+      <sourceref hlink="_f87694bd9f6151c0565695bdd70"/>
+    </citation>
+    <citation handle="_f8769cd087f4183eeb807965db6" change="1707427004" id="C1750">
+      <page>II Bd:6/129</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f8769a43c783058795ec486d66e"/>
+      <noteref hlink="_f8769a6a926420e99f9e8998678"/>
+      <noteref hlink="_f8769a91811206a722e5e02a173"/>
+      <noteref hlink="_f8769cc2fdb1c84c93b8d96a215"/>
+      <sourceref hlink="_f8769a1611b5a7c125e2444167a"/>
+    </citation>
+    <citation handle="_f876b596eee2f5bc8015f5a70ee" change="1707429852" id="C1751">
+      <page>II Bd:5/241</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f876b58722967fb21ed760106c9"/>
+      <noteref hlink="_f876b5369c020edd51f884c1847"/>
+      <noteref hlink="_f876b5638ad64c7a656478b2232"/>
+      <noteref hlink="_f876b7f230b5c524641a614f469"/>
+      <sourceref hlink="_f876b4e084736c37eb6c53c1a05"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -51003,6 +51043,26 @@
       <sauthor>Turun tksrk</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
+    <source handle="_f8769187adb25b89419705c7464" change="1707425861" id="S0712">
+      <stitle>Helsinki Henkikirja ja veroäyriluettelo 1878</stitle>
+      <sauthor>Helsingin ruotsalais-suomalainen seurakunta</sauthor>
+      <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
+    </source>
+    <source handle="_f87694bd9f6151c0565695bdd70" change="1707426158" id="S0713">
+      <stitle>Helsinki Henkikirja ja veroäyriluettelo 1879</stitle>
+      <sauthor>Helsingin ruotsalais-suomalainen seurakunta</sauthor>
+      <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
+    </source>
+    <source handle="_f8769a1611b5a7c125e2444167a" change="1707426718" id="S0714">
+      <stitle>Helsinki Henkikirja ja veroäyriluettelo 1876</stitle>
+      <sauthor>Helsingin ruotsalais-suomalainen seurakunta</sauthor>
+      <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
+    </source>
+    <source handle="_f876b4e084736c37eb6c53c1a05" change="1707429527" id="S0715">
+      <stitle>Helsinki Henkikirja ja veroäyriluettelo 1875</stitle>
+      <sauthor>Helsingin ruotsalais-suomalainen seurakunta</sauthor>
+      <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1704316073" id="P0000" type="City">
@@ -54337,7 +54397,7 @@
       <rname>Billiongraves</rname>
       <type>Library</type>
     </repository>
-    <repository handle="_f5dc19ee7d07e822ec5f7a37d7" change="1704658605" id="R0018">
+    <repository handle="_f5dc19ee7d07e822ec5f7a37d7" change="1707429526" id="R0018">
       <rname>Astia</rname>
       <type>Library</type>
       <url  href="https://astia.narc.fi/uusiastia/" type="Web Home"/>
@@ -79095,7 +79155,7 @@ https://digi.kansalliskirjasto.fi/sanomalehti/binding/378452?page=1
 Kansalliskirjaston digitaaliset aineistot
 </text>
     </note>
-    <note handle="_f7dbca9a709638f81878f6c6208" change="1703271056" id="N3184" type="Transcript" format="1">
+    <note handle="_f7dbca9a709638f81878f6c6208" change="1707424498" id="N3184" type="Transcript" format="1">
       <text>1870 No 134 HUFVUDSTADSBLADET. Tisdag den 14 Juni
 
 Wigde i samma församling: 
@@ -79104,7 +79164,7 @@ Wigde i samma församling:
    Den 6 Juni: arbetskarlen Ferdinand Nordberg
 och tjenstejungfrun Sofia Wilhelmina Holmström;
 </text>
-      <style name="fontface" value="Courier New">
+      <style name="fontface" value="Monospace">
         <range start="0" end="235"/>
       </style>
     </note>
@@ -80208,7 +80268,7 @@ Korhonen</text>
         <range start="0" end="287"/>
       </style>
     </note>
-    <note handle="_f7f22bcb7a34b09046cdea320d5" change="1703871805" id="N3340" type="Source text" format="1">
+    <note handle="_f7f22bcb7a34b09046cdea320d5" change="1707423893" id="N3340" type="Source text" format="1">
       <text>                                                   Ark 2-34
                             Kirkonkirjan sivu  S.suom. 5-513/06
 
@@ -80285,7 +80345,7 @@ Lunastus 6 mk     ta
 N:o 21    2. 79. 10.000
 
 </text>
-      <style name="fontface" value="Courier New">
+      <style name="fontface" value="Monospace">
         <range start="0" end="2225"/>
       </style>
     </note>
@@ -82382,6 +82442,113 @@ No 183
 Maria Math. Finnberg  5/8 1854  Åbo  26/5 74 1.15.2          76 3.12.2</text>
       <style name="fontface" value="Monospace">
         <range start="0" end="117"/>
+      </style>
+    </note>
+    <note handle="_f87691d289d2164e637865cc3ac" change="1707425852" id="N3623" type="Citation">
+      <text>Helsingin ruotsalais-suomalaisen seurakunnan arkisto. II B LUETTELOT. II Bd Henkikirjat ja veroäyriluettelot. II Bd:8 Henkikirja ja veroäyriluettelo  (1878-1878). Tiedosto 619. Kansallisarkisto. Viitattu 8.2.2024.</text>
+    </note>
+    <note handle="_f8769251e48277d6159c93a977f" change="1707425904" id="N3624" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=6426467744&amp;aineistoId=1849736782</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=6426467744&amp;aineistoId=1849736782">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f876928027751c976da66fc4d49" change="1707425923" id="N3625" type="Link">
+      <text>https://digihakemisto.net/item/1849736782/6426467744/619</text>
+      <style name="link" value="https://digihakemisto.net/item/1849736782/6426467744/619">
+        <range start="0" end="56"/>
+      </style>
+    </note>
+    <note handle="_f8769393f7f3a955a1402d6c83a" change="1707426036" id="N3626" type="Transcript" format="1">
+      <text>Wallgård
+
+1  [Hg]  [arbetaren]  Ferdinand Nordberg med hustru  1  1         B.2-1</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="81"/>
+      </style>
+    </note>
+    <note handle="_f87694ca8a7edcc703733a7dbb" change="1707426163" id="N3627" type="Citation">
+      <text>Helsingin ruotsalais-suomalaisen seurakunnan arkisto. II B LUETTELOT. II Bd Henkikirjat ja veroäyriluettelot. II Bd:9 Henkikirja ja veroäyriluettelo  (1879-1879). Tiedosto 711. Kansallisarkisto. Viitattu 8.2.2024.</text>
+    </note>
+    <note handle="_f8769522be629c077c11f6e3220" change="1707426199" id="N3628" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=6426427171&amp;aineistoId=1849737961</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=6426427171&amp;aineistoId=1849737961">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f8769545ad211240636a7dcc86c" change="1707426213" id="N3629" type="Link">
+      <text>https://digihakemisto.net/item/1849737961/6426427171/711</text>
+      <style name="link" value="https://digihakemisto.net/item/1849737961/6426427171/711">
+        <range start="0" end="56"/>
+      </style>
+    </note>
+    <note handle="_f87695f8b76671b32b24f12675f" change="1707426287" id="N3630" type="Transcript" format="1">
+      <text>Wallgård
+
+1  [Hg]  Brädgårdsarbetaren Ferdinand Nord-
+             berg h. Sofia</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="80"/>
+      </style>
+    </note>
+    <note handle="_f8769a43c783058795ec486d66e" change="1707426737" id="N3631" type="Citation">
+      <text>Helsingin ruotsalais-suomalaisen seurakunnan arkisto. II B LUETTELOT. II Bd Henkikirjat ja veroäyriluettelot. II Bd:6 Henkikirja ja veroäyriluettelo  (1876-1876). Tiedosto 232. Kansallisarkisto. Viitattu 8.2.2024.</text>
+    </note>
+    <note handle="_f8769a6a926420e99f9e8998678" change="1707426753" id="N3632" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=6426432030&amp;aineistoId=1849734422</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=6426432030&amp;aineistoId=1849734422">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f8769a91811206a722e5e02a173" change="1707426769" id="N3633" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=6426432030&amp;aineistoId=1849734422</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=6426432030&amp;aineistoId=1849734422">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f8769cc2fdb1c84c93b8d96a215" change="1707426999" id="N3634" type="Transcript" format="1">
+      <text>                                                               128
+
+Hvalfisken                                                     
+            3  15 14  _  1  H In och Utrikes Handlanden G:f
+                                 Wasenius h. Matilda
+[...]
+
+                                                               129
+                            {Ekberg, Anna Koskinen, D. Ferdinand
+                            {Nordberg, h. Wilhelmina b2-1
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="442"/>
+      </style>
+    </note>
+    <note handle="_f876b5369c020edd51f884c1847" change="1707429563" id="N3635" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=6426415525&amp;aineistoId=1849733224</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=6426415525&amp;aineistoId=1849733224">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f876b5638ad64c7a656478b2232" change="1707429581" id="N3636" type="Link">
+      <text>https://digihakemisto.net/item/1849733224/6426415525/241</text>
+      <style name="link" value="https://digihakemisto.net/item/1849733224/6426415525/241">
+        <range start="0" end="56"/>
+      </style>
+    </note>
+    <note handle="_f876b58722967fb21ed760106c9" change="1707429596" id="N3637" type="Citation">
+      <text>Helsingin ruotsalais-suomalaisen seurakunnan arkisto. II B LUETTELOT. II Bd Henkikirjat ja veroäyriluettelot. II Bd:5 Henkikirja ja veroäyriluettelo  (1875-1875). Tiedosto 241. Kansallisarkisto. Viitattu 8.2.2024.</text>
+    </note>
+    <note handle="_f876b7f230b5c524641a614f469" change="1707429849" id="N3638" type="Transcript" format="1">
+      <text>Hvalfisken
+
+            3  15 14 _ 1  H In och utrikes Handl G: F: Wasenius {B.3-2 pig /Sofia Blomqvist Sv: U: /
+                               h. Mathilda                      {/Catharina Fagerholm öfå/ Wilhelmina
+                                                                {Wäckström, Emeli Wickström, Ida
+                                                                {Långström, Fredrika Ekberg, Dreng
+                                                                {Ferdinand Nordberg h. Wilhelmina b 1-1
+
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="516"/>
       </style>
     </note>
   </notes>
