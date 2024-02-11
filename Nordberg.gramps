@@ -83,7 +83,7 @@
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_defd49e6bdd10241bcf2f7ec1f9"/>
     </event>
-    <event handle="_cb589cc83b25b7d8f4b" change="1704036636" id="E0067">
+    <event handle="_cb589cc83b25b7d8f4b" change="1707683723" id="E0067">
       <type>Birth</type>
       <dateval val="1847-01-16"/>
       <place hlink="_cdfa144c48f5f32c9ad"/>
@@ -7842,13 +7842,14 @@
       <citationref hlink="_d88d25670422e0a02ad5b20ffc5"/>
       <citationref hlink="_f87f1b421c36e18ec4281e00319"/>
     </event>
-    <event handle="_cdf7d253f2063f536de" change="1488132441" id="E5252">
+    <event handle="_cdf7d253f2063f536de" change="1707685328" id="E5252">
       <type>Residence</type>
       <datespan start="1862" stop="1864"/>
       <place hlink="_cdf7e5b521701fc6382"/>
       <citationref hlink="_cdf7db3b6635f4e944f"/>
       <citationref hlink="_cdf7e049bbc03816755"/>
       <citationref hlink="_cdf7e50f17417c4c2af"/>
+      <citationref hlink="_f8803867865116c0491882c18d6"/>
     </event>
     <event handle="_cdf7e6bc6bb45375d2c" change="1707654201" id="E5267">
       <type>Residence</type>
@@ -35170,22 +35171,30 @@
       <noteref hlink="_d88d0aa2a1f26b245c09cc75a23"/>
       <sourceref hlink="_cde63f91eee556ea9ee"/>
     </citation>
-    <citation handle="_cdf7db3b6635f4e944f" change="1415403160" id="C0042">
+    <citation handle="_cdf7db3b6635f4e944f" change="1707683885" id="C0042">
       <page>164</page>
       <confidence>2</confidence>
+      <noteref hlink="_f8802d7391744a763357f373cbe"/>
       <noteref hlink="_cdf7db2931d7f32b680"/>
+      <noteref hlink="_f8802e932fa2a3f0b620953c882"/>
       <sourceref hlink="_cdf7daf2b772c84f5d7"/>
     </citation>
-    <citation handle="_cdf7e049bbc03816755" change="1460360077" id="C0043">
+    <citation handle="_cdf7e049bbc03816755" change="1707684209" id="C0043">
       <page>141</page>
       <confidence>2</confidence>
+      <noteref hlink="_f8802fa3b8678a8fa20ca943068"/>
+      <noteref hlink="_f8802fd26c4bba283b63731225"/>
+      <noteref hlink="_f8802ffb18450d26e77fb51533a"/>
       <noteref hlink="_cdf7e03da4831faf408"/>
+      <noteref hlink="_f88031a73167455ebd025869f9a"/>
       <sourceref hlink="_cdf7e013648218348a7"/>
     </citation>
-    <citation handle="_cdf7e50f17417c4c2af" change="1426408532" id="C0044">
+    <citation handle="_cdf7e50f17417c4c2af" change="1707684376" id="C0044">
       <page>400</page>
       <confidence>2</confidence>
+      <noteref hlink="_f88031e969b707aa471ced5240a"/>
       <noteref hlink="_cdf7e50bf6e288a1b99"/>
+      <noteref hlink="_f8803322daf65b92912d4c83fe0"/>
       <sourceref hlink="_cdf7e4eaf012989b334"/>
     </citation>
     <citation handle="_cdf7e94a60d336d1c9c" change="1488131627" id="C0045">
@@ -47479,6 +47488,16 @@
       <noteref hlink="_f87f1ae7467305c95b3269a7ebe"/>
       <sourceref hlink="_f87f1989c617df869681dc5da09"/>
     </citation>
+    <citation handle="_f8803867865116c0491882c18d6" change="1707685327" id="C1753">
+      <page>312-313</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f8803776aa61d2837747a0bbe6e"/>
+      <noteref hlink="_f88038ac8392dd77c55f67e483a"/>
+      <noteref hlink="_f88038571a93684fb200a74f92c"/>
+      <noteref hlink="_f88038f2f5f16bea2da92a57cb5"/>
+      <noteref hlink="_f8803c5164b763071f8ecc5847e"/>
+      <sourceref hlink="_f880371d4322496fd49b8edfc1a"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -51087,6 +51106,11 @@
       <sauthor>Uudenmaan lääni</sauthor>
       <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
     </source>
+    <source handle="_f880371d4322496fd49b8edfc1a" change="1707684776" id="S0717">
+      <stitle>Inkoo Muuttokirjat 1858-1862</stitle>
+      <sauthor>Inkoon seurakunta</sauthor>
+      <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1704316073" id="P0000" type="City">
@@ -54420,7 +54444,7 @@
       <rname>Billiongraves</rname>
       <type>Library</type>
     </repository>
-    <repository handle="_f5dc19ee7d07e822ec5f7a37d7" change="1707654828" id="R0018">
+    <repository handle="_f5dc19ee7d07e822ec5f7a37d7" change="1707684773" id="R0018">
       <rname>Astia</rname>
       <type>Library</type>
       <url  href="https://astia.narc.fi/uusiastia/" type="Web Home"/>
@@ -82627,8 +82651,9 @@ Hvalfisken
         <range start="0" end="60"/>
       </style>
     </note>
-    <note handle="_f87f58151571318ad7854bcf48" change="1707676804" id="N3648" type="Research">
-      <text>1856 henkikirjassa Langéen Gula Villan https://digihakemisto.net/item/2106370350/5646443436/697
+    <note handle="_f87f58151571318ad7854bcf48" change="1707681489" id="N3648" type="Research">
+      <text>1855 henkikirjassa Langéen Gula Villan https://digihakemisto.net/item/2106353241/5728708528/822
+1856 henkikirjassa Langéen Gula Villan https://digihakemisto.net/item/2106370350/5646443436/697
 1857 henkikirjassa Langéen Gula Villan https://digihakemisto.net/item/2106384744/5321369633/767
 1858 henkikirjassa Langéen Gula Villan https://digihakemisto.net/item/2106400539/5672354319/586
 1859 henkikirjassa Langéen Gula Villan https://digihakemisto.net/item/2106413238/5272414717/924
@@ -82646,6 +82671,103 @@ Hvalfisken
 1871 henkikirjassa Langéen Gloviken och Broholmen: Bredvik https://digihakemisto.net/item/2106751690/5686508762/623
 1872 henkikirjassa Langéen Gloviken å Broholmen: Bredvik https://digihakemisto.net/item/2106781925/5298904371/560
 </text>
+    </note>
+    <note handle="_f8802d7391744a763357f373cbe" change="1707683762" id="N3649" type="Citation">
+      <text>Tammisaaren seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I B Muuttaneiden luettelot. I Ba Seurakuntaan muuttaneiden luettelot. Seurakuntaan muuttaneiden luettelot  (1851-1897). Tiedosto 164. Kansallisarkisto. Viitattu 11.2.2024.</text>
+    </note>
+    <note handle="_f8802e932fa2a3f0b620953c882" change="1707683880" id="N3650" type="Transcript" format="1">
+      <text>Utflyttade i Ekenäs Landsförsamling År 1862
+
+41  20/12  pig. Sofia Wilhelmina Holmström    Ingå    302  _ 1
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="108"/>
+      </style>
+    </note>
+    <note handle="_f8802fa3b8678a8fa20ca943068" change="1707683992" id="N3651" type="Citation">
+      <text>Inkoon seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I B Muuttaneiden luettelot. I Ba Seurakuntaan muuttaneiden luettelot. Seurakuntaan muuttaneiden luettelot, 1805-1817, 1826-1828, 1818-1825, 1829-1864  (1805-1864). Tiedosto 217. Kansallisarkisto. Viitattu 11.2.2024.</text>
+    </note>
+    <note handle="_f8802fd26c4bba283b63731225" change="1707684011" id="N3652" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5863177576&amp;aineistoId=1155537411</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5863177576&amp;aineistoId=1155537411">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f8802ffb18450d26e77fb51533a" change="1707684028" id="N3653" type="Link">
+      <text>https://digihakemisto.net/item/1155537411/5863177576/217</text>
+      <style name="link" value="https://digihakemisto.net/item/1155537411/5863177576/217">
+        <range start="0" end="56"/>
+      </style>
+    </note>
+    <note handle="_f88031a73167455ebd025869f9a" change="1707684532" id="N3654" type="Transcript" format="1">
+      <text>141          Inflyttade          1862
+
+83  29/12  pig. Sofia Wilh. Holmström    Ekenäs    Pålsböle p. 400    _ 1
+
+(Huom! tässä on väärä muuttonumero, po. 63, rippikirjassa on oikein)
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="183"/>
+      </style>
+    </note>
+    <note handle="_f88031e969b707aa471ced5240a" change="1707684230" id="N3655" type="Citation">
+      <text>Inkoon seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A Pääkirjat. I Aa Pää- ja rippikirjat. Rippikirja  (1859-1865). Tiedosto 425. Kansallisarkisto. Viitattu 11.2.2024.</text>
+    </note>
+    <note handle="_f8803322daf65b92912d4c83fe0" change="1707684489" id="N3656" type="Transcript" format="1">
+      <text>400          Pälsböle
+1/2 Blåsa
+
+
+pig. Sofia Wilhelmina Holmström    16/1 1847    Ekenäs Landsförsaml.    Ekenäs 1862 B63          p. 414
+
+(Huom! tässä on oikea muuttonumero 63, muuttaneiden luettelossa numerointi on hiukan pielessä tässä kohtaa)
+
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="248"/>
+      </style>
+    </note>
+    <note handle="_f8803776aa61d2837747a0bbe6e" change="1707684812" id="N3657" type="Citation">
+      <text>Inkoon seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I J Väestörekisteri-ilmoitukset. I Jb Muuttoluetteloiden liitteet. I Jba Seurakunnista saapuneet muuttokirjat. Seurakunnista saapuneet muuttokirjat  (1858-1862). Tiedosto 312. Kansallisarkisto. Viitattu 11.2.2024.</text>
+    </note>
+    <note handle="_f880380b94360a1bff5c93392ab" change="1707684873" id="N3658" type="Citation">
+      <text>Inkoon seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I J Väestörekisteri-ilmoitukset. I Jb Muuttoluetteloiden liitteet. I Jba Seurakunnista saapuneet muuttokirjat. Seurakunnista saapuneet muuttokirjat  (1858-1862). Tiedosto 312. Kansallisarkisto. Viitattu 11.2.2024.</text>
+    </note>
+    <note handle="_f88038571a93684fb200a74f92c" change="1707684904" id="N3659" type="Citation">
+      <text>Inkoon seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I J Väestörekisteri-ilmoitukset. I Jb Muuttoluetteloiden liitteet. I Jba Seurakunnista saapuneet muuttokirjat. Seurakunnista saapuneet muuttokirjat  (1858-1862). Tiedosto 313. Kansallisarkisto. Viitattu 11.2.2024.</text>
+    </note>
+    <note handle="_f88038ac8392dd77c55f67e483a" change="1707684939" id="N3660" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5863241936&amp;aineistoId=1155733644</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5863241936&amp;aineistoId=1155733644">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f88038f2f5f16bea2da92a57cb5" change="1707684968" id="N3661" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5863241933&amp;aineistoId=1155733644</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5863241933&amp;aineistoId=1155733644">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f8803c5164b763071f8ecc5847e" change="1707685321" id="N3662" type="Transcript" format="1">
+      <text>Utgående Attest N:o 41 för år 1862
+Pigan Sofia Wilhelmina
+Holmström fr. Hermansö
+Är född d. 16. Januari år 1847 uti Ekenäs Landsförsamling
+
+Kom år ifrån
+
+Flyttar nu till Ingå
+
+[...]
+Äktenskap icke gift, ledig
+
+
+Inkommen Attest N:o 63 för år 1862
+Ingifwen den 29/12
+Sedelhafwanden bor   piga hos torp. Isr. Edw. Flytström i Pålsböle pag. 400</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="340"/>
+      </style>
     </note>
   </notes>
   <bookmarks>
