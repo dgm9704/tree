@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2024-02-09" version="5.1.6"/>
+    <created date="2024-02-11" version="5.1.6"/>
     <researcher>
     </researcher>
   </header>
@@ -15792,21 +15792,25 @@
       <dateval val="1866-10-08"/>
       <citationref hlink="_f15b6929d83789978c6a9e036ff"/>
     </event>
-    <event handle="_f15f02594867826a5b79c050032" change="1707426310" id="E0510">
+    <event handle="_f15f02594867826a5b79c050032" change="1707596733" id="E0510">
       <type>Residence</type>
       <datespan start="1878" stop="1879"/>
       <place hlink="_f15effd2956d6e7c37f6afb9d0"/>
+      <citationref hlink="_cde65183e49656a79fd"/>
+      <citationref hlink="_cdeaa4cbe6c5f279b84"/>
       <citationref hlink="_f87691f97fa77a3f1acf7b643e2"/>
       <citationref hlink="_f15f0253d0a4d6cf2f80a1ac586"/>
       <citationref hlink="_f87696028ef69a4e258c36dda50"/>
       <citationref hlink="_f15f11ccf614565f4a45b6f3f59"/>
     </event>
-    <event handle="_f15f3555bd6b49d503bdf7d06a" change="1658730077" id="E0521">
+    <event handle="_f15f3555bd6b49d503bdf7d06a" change="1707596687" id="E0521">
       <type>Residence</type>
       <dateval val="1877"/>
       <place hlink="_f15f2fdd8d518f686f5ef49401d"/>
       <citationref hlink="_f15f354f1c66cbbf72e42a28f5c"/>
       <citationref hlink="_f16082a957b75e1ed1db77b9dd4"/>
+      <citationref hlink="_cde65183e49656a79fd"/>
+      <citationref hlink="_cdeaa4cbe6c5f279b84"/>
     </event>
     <event handle="_f1623c2cba14e8addca6d37f20c" change="1703934894" id="E0527">
       <type>Residence</type>
@@ -35123,8 +35127,8 @@
       <noteref hlink="_f15480b03532408252e9f9adbe2"/>
       <sourceref hlink="_cdea877adb954644203"/>
     </citation>
-    <citation handle="_cdeaa4cbe6c5f279b84" change="1703286956" id="C0039">
-      <page>III/790-731</page>
+    <citation handle="_cdeaa4cbe6c5f279b84" change="1707596683" id="C0039">
+      <page>III/730-731</page>
       <confidence>2</confidence>
       <noteref hlink="_ec7db56d3657ae06391eed2b4f1"/>
       <noteref hlink="_cdeaa4c757d3ea95d0b"/>
@@ -53681,14 +53685,11 @@
       <pname value="Nabb"/>
       <placeref hlink="_cb589cc83b65110951c"/>
     </placeobj>
-    <placeobj handle="_ec7193d941f7ae07606844463ce" change="1658729722" id="P0104" type="Building">
+    <placeobj handle="_ec7193d941f7ae07606844463ce" change="1707650532" id="P0104" type="Building">
       <code>tontti 3</code>
       <pname value="Västra Kajen 14" lang="se"/>
+      <coord long="24.95216" lat="60.16626"/>
       <placeref hlink="_de120263cd54721e1fcfc29b661"/>
-    </placeobj>
-    <placeobj handle="_ec7193e062379f0bc495579bc4a" change="1624828477" id="P0105" type="Number">
-      <pname value="14"/>
-      <placeref hlink="_ec7193d941f7ae07606844463ce"/>
     </placeobj>
     <placeobj handle="_eceb4eb4c7c36aac40436645c03" change="1628096137" id="P0106" type="Farm">
       <pname value="Sievän palstatila"/>
@@ -53853,9 +53854,10 @@
       <pname value="Abboren" lang="se"/>
       <placeref hlink="_cdf7c4057334cbaf3c2"/>
     </placeobj>
-    <placeobj handle="_f15f2fdd8d518f686f5ef49401d" change="1658729913" id="P0155" type="Building">
+    <placeobj handle="_f15f2fdd8d518f686f5ef49401d" change="1707650425" id="P0155" type="Building">
       <code>tontti 3</code>
       <pname value="Norra Magasinsgatan 4" lang="se"/>
+      <coord long="24.95087" lat="60.16561"/>
       <placeref hlink="_f15f2f873e4476a34448d938421"/>
     </placeobj>
     <placeobj handle="_f160982616a675a7a46d09d1772" change="1658733542" id="P0156" type="Garrison">
