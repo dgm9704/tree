@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2024-01-02" version="5.1.6"/>
+    <created date="2024-02-13" version="5.1.6"/>
     <researcher>
     </researcher>
   </header>
@@ -63,7 +63,7 @@
       <place hlink="_d3e2c11182f10b3b01005b446e"/>
       <citationref hlink="_d3e2c5b24e2332dcde038477c12"/>
     </event>
-    <event handle="_d3e2d7f222375bdafaa0a3f9ccc" change="1704196880" id="E0009">
+    <event handle="_d3e2d7f222375bdafaa0a3f9ccc" change="1707781258" id="E0009">
       <type>Death</type>
       <dateval val="1927-06-22"/>
       <place hlink="_f7fc8d2ea48784742ec53c03f9c"/>
@@ -71,13 +71,14 @@
       <citationref hlink="_f7fe47de01aaf5b48f32a37cad"/>
       <citationref hlink="_f7fc7f2370b7d4c7c180e278bd5"/>
       <citationref hlink="_f7fc877a8252ffa13655f985851"/>
+      <citationref hlink="_f883cf0ab5c67f1375ae046baf4"/>
     </event>
     <event handle="_d3e2d86c5c5464deb736b477686" change="1704152260" id="E0010">
       <type>Marriage</type>
       <dateval val="1920-12-19"/>
       <citationref hlink="_d3e2c5b24e2332dcde038477c12"/>
     </event>
-    <event handle="_d3e2d8e240e10758a7571fb11b9" change="1704193884" id="E0011">
+    <event handle="_d3e2d8e240e10758a7571fb11b9" change="1704204795" id="E0011">
       <type>Birth</type>
       <dateval val="1921-12-02"/>
       <citationref hlink="_d3e2c5b24e2332dcde038477c12"/>
@@ -606,7 +607,7 @@
       <place hlink="_d3e3c8ae7653eeb2cb132e7f164"/>
       <citationref hlink="_d3f02e1dd5c33d8ec296c7facc4"/>
     </event>
-    <event handle="_f7fc9e4eed2468e64016f27605c" change="1704152248" id="E0093">
+    <event handle="_f7fc9e4eed2468e64016f27605c" change="1707780019" id="E0093">
       <type>Burial</type>
       <dateval val="1927"/>
       <place hlink="_f7fc9b2b86b2220517646883c0a"/>
@@ -635,6 +636,11 @@
       <dateval val="1923-11-07"/>
       <place hlink="_d3e2d0c8ea71c43ae80aa251c09"/>
       <citationref hlink="_f7fe5379d9e1986bfac2875ed7b"/>
+    </event>
+    <event handle="_f7fe935108f5b054a6980b5efb6" change="1704204803" id="E0098">
+      <type>Baptism</type>
+      <dateval val="1921-12-19"/>
+      <citationref hlink="_f7fe1a91d4c48a25dffc6629aaf"/>
     </event>
   </events>
   <people home="_d3e2cb53102289a188f6854ea2f">
@@ -690,13 +696,14 @@
       <eventref hlink="_f7fc9e4eed2468e64016f27605c" role="Primary"/>
       <parentin hlink="_d3e2d81a4d9f2712672fc66d77"/>
     </person>
-    <person handle="_d3e2d8893211776e9514a9d96ba" change="1704197742" id="I0003">
+    <person handle="_d3e2d8893211776e9514a9d96ba" change="1704204806" id="I0003">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Irma Marjatta</first>
         <surname derivation="Inherited">Lavi</surname>
       </name>
       <eventref hlink="_d3e2d8e240e10758a7571fb11b9" role="Primary"/>
+      <eventref hlink="_f7fe935108f5b054a6980b5efb6" role="Primary"/>
       <childof hlink="_d3e2d81a4d9f2712672fc66d77"/>
     </person>
     <person handle="_d3e2d8fb671473f0ea8b764cea3" change="1704198221" id="I0004">
@@ -1584,6 +1591,15 @@
       <noteref hlink="_f7fe51fd7e237524678785fd02f"/>
       <noteref hlink="_f7fe537277f67322cf4a0a7a869"/>
       <sourceref hlink="_f7fe45b80b154b033536a7d4b1f"/>
+    </citation>
+    <citation handle="_f883cf0ab5c67f1375ae046baf4" change="1707781251" id="C0074">
+      <dateval val="1927-07-12"/>
+      <page>1927-76/2</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f883cd02b2b274820e50498ca8b"/>
+      <noteref hlink="_f883ccd74707cd2ebf9c243f118"/>
+      <noteref hlink="_f883cf04e15e9ee1d72ec097f8"/>
+      <sourceref hlink="_f7fc8018be073d14262dcabff2f"/>
     </citation>
   </citations>
   <sources>
@@ -3004,6 +3020,47 @@ asema                   Mirjam Antonint. Lavi    -  9  27    7/1 1923    Lapsi  
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="290"/>
+      </style>
+    </note>
+    <note handle="_f883ccd74707cd2ebf9c243f118" change="1707781006" id="N0111" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/1527999/articles/81618998/edit?page=2</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/sanomalehti/binding/1527999/articles/81618998/edit?page=2">
+        <range start="0" end="91"/>
+      </style>
+    </note>
+    <note handle="_f883cd02b2b274820e50498ca8b" change="1707781024" id="N0112" type="Citation">
+      <text>Hämeen Kansa, 12.07.1927, nro 76, s. 2
+https://digi.kansalliskirjasto.fi/sanomalehti/binding/1527999?page=2
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f883cf04e15e9ee1d72ec097f8" change="1707781235" id="N0113" type="Transcript" format="1">
+      <text>     Monttööri Aarne Lavin
+           murhajuttu.
+Liikkenhoitaja Henriksson tuomit-
+tu 1 v. vankeuteen ja maksamaan
+    Lavin leskelle eläkeapua.
+  Kuten muistetaan sattui täällä
+kesäk. 23 päivää vasten ampumis-
+tapaus, jossa yleisesikunnan pal-
+veluksessa oleva monttööri Aarne
+Lavi sai surmansa.   Tästä kuole-
+mantuottamuksesta nostettiin sit-
+ten syyte liikkeenhoitaja Yrjö
+Henrikssonia vastaan, jonka asun-
+nossa tapaus oli sattunut. 
+  Syytejuttu oli eilen toistamiseen
+käsiteltävänä Hämeenlinnan raas-
+tuvanoikeudessa   ja   tuomittiin
+Henriksson Lavin kuolemantuotta-
+muksesta   1 v. vankeuteen, sekä
+hautaus- ja oikeudenkäyntikulu-
+jen lisäksi maksamaan Lavin les-
+kelle ja lapselle elatusapua 500
+mk. kuukaudessa siihen saakka 
+kunnes lapsi täyttää 17 ikävuotta. </text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="773"/>
       </style>
     </note>
   </notes>
