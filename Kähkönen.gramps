@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2024-01-02" version="5.1.6"/>
+    <created date="2024-02-13" version="5.1.6"/>
     <researcher>
       <resname>John Nordberg</resname>
     </researcher>
@@ -20,7 +20,7 @@
       <citationref hlink="_df1c587e5ce6cb0d7686e8b8c8"/>
       <citationref hlink="_df1ca6a98022a11206cc83537b1"/>
     </event>
-    <event handle="_cb589cc7fec65cb386b" change="1533213261" id="E0011">
+    <event handle="_cb589cc7fec65cb386b" change="1707779109" id="E0011">
       <type>Death</type>
       <dateval val="1995-12-09"/>
       <place hlink="_df1c48cac856c80b54de6a3a824"/>
@@ -31,12 +31,12 @@
       <dateval val="1878-05-19"/>
       <place hlink="_cb589cc823618ba6dad"/>
     </event>
-    <event handle="_cb589cc81e3033469a2" change="1549229266" id="E0041">
+    <event handle="_cb589cc81e3033469a2" change="1707775344" id="E0041">
       <type>Death</type>
       <dateval val="1932-11-23"/>
       <place hlink="_cfa6f2692ad35c8daa1"/>
-      <citationref hlink="_cfbf86311dd4f3afa62"/>
       <citationref hlink="_e171499af512b012f9f651516cf"/>
+      <citationref hlink="_cfbf86311dd4f3afa62"/>
     </event>
     <event handle="_cb589cc82001ad9c229" change="1414326266" id="E0042">
       <type>Birth</type>
@@ -44,7 +44,7 @@
       <place hlink="_cb589cc82045ad6c741"/>
       <citationref hlink="_cdcfc2532ac0a42deee"/>
     </event>
-    <event handle="_cb589cc820e01880812" change="1549229178" id="E0043">
+    <event handle="_cb589cc820e01880812" change="1707775494" id="E0043">
       <type>Death</type>
       <dateval val="1932-06-09"/>
       <place hlink="_cfa6f2692ad35c8daa1"/>
@@ -72,13 +72,13 @@
       <citationref hlink="_df1c587e5ce6cb0d7686e8b8c8"/>
       <citationref hlink="_df1caad99a4679f123b70c77177"/>
     </event>
-    <event handle="_cb589cc827463b287ab" change="1533211873" id="E0048">
+    <event handle="_cb589cc827463b287ab" change="1707779063" id="E0048">
       <type>Death</type>
       <dateval val="1970-06-20"/>
       <place hlink="_df1c48cac856c80b54de6a3a824"/>
       <citationref hlink="_df1c97d0421a191f9ba164678c"/>
     </event>
-    <event handle="_cb589cc827727f72c41" change="1533211712" id="E0049">
+    <event handle="_cb589cc827727f72c41" change="1707779067" id="E0049">
       <type>Birth</type>
       <dateval val="1913-04-11"/>
       <place hlink="_cfa6f2692ad35c8daa1"/>
@@ -96,11 +96,12 @@
       <place hlink="_cfa6f2692ad35c8daa1"/>
       <citationref hlink="_df1c587e5ce6cb0d7686e8b8c8"/>
     </event>
-    <event handle="_cb589cc82b06a847a24" change="1549393748" id="E0052">
+    <event handle="_cb589cc82b06a847a24" change="1707778888" id="E0052">
       <type>Death</type>
       <dateval val="1942-05-05"/>
       <place hlink="_df1c48cac856c80b54de6a3a824"/>
       <citationref hlink="_df1c65bc0b97cb053e8871dab11"/>
+      <citationref hlink="_f883b75d14943cc0a136e9111ad"/>
     </event>
     <event handle="_cb589cc82b312ec3277" change="1549395061" id="E0053">
       <type>Birth</type>
@@ -175,13 +176,14 @@
       <citationref hlink="_defa3a1e9bb53987ceaa11f20cb"/>
       <citationref hlink="_df1c587e5ce6cb0d7686e8b8c8"/>
     </event>
-    <event handle="_cb589cc8a732dc47d78" change="1533207266" id="E0133">
+    <event handle="_cb589cc8a732dc47d78" change="1707779583" id="E0133">
       <type>Death</type>
       <dateval val="1942-06-29"/>
       <citationref hlink="_cfbfaaa89205ee686f9"/>
       <citationref hlink="_defa5b370ab4b54c1e89655103"/>
       <citationref hlink="_df1c587e5ce6cb0d7686e8b8c8"/>
       <citationref hlink="_df1c6afd9546cccf622b48d2257"/>
+      <citationref hlink="_f883bf32591c2bdf4ff828241e"/>
     </event>
     <event handle="_cb589cc8a986beb43cd" change="1439145198" id="E0134">
       <type>Death</type>
@@ -937,19 +939,19 @@
       <citationref hlink="_d16b8c8742313611f67"/>
       <citationref hlink="_d16b63a5d342ba99724"/>
     </event>
-    <event handle="_d16b80a96237e513b1a" change="1439367606" id="E0226">
+    <event handle="_d16b80a96237e513b1a" change="1707777964" id="E0226">
       <type>Residence</type>
-      <datespan start="1904" stop="1906"/>
+      <datespan start="1904-10-15" stop="1906"/>
       <place hlink="_d16b7fb93110538e3fe"/>
-      <citationref hlink="_d16b806bb9f439458f4"/>
       <citationref hlink="_d16b81f4fdd10540b94"/>
+      <citationref hlink="_d16b806bb9f439458f4"/>
     </event>
-    <event handle="_d16b839dac3404746fd" change="1439367599" id="E0227">
+    <event handle="_d16b839dac3404746fd" change="1707777904" id="E0227">
       <type>Residence</type>
-      <datespan start="1901" stop="1904"/>
-      <place hlink="_d16b836f21a51382c84"/>
-      <citationref hlink="_d16cbd1415c7685bdfe"/>
-      <citationref hlink="_d16b882027416683e71"/>
+      <datespan start="1901" stop="1904-10-09"/>
+      <place hlink="_f883a883fe565016767a483e3a2"/>
+      <citationref hlink="_f883aedb2ba67e10047559ff0d1"/>
+      <citationref hlink="_f883a53b6f6102354712e3e5627"/>
       <citationref hlink="_d16b81f4fdd10540b94"/>
     </event>
     <event handle="_d16c3cc453d22d65bb5" change="1439142654" id="E0233">
@@ -1004,10 +1006,11 @@
       <place hlink="_d16c60860cf2d275dad"/>
       <citationref hlink="_d16cb8942fd70dccba1"/>
     </event>
-    <event handle="_d16cba0265568c49e5f" change="1439155671" id="E0241">
+    <event handle="_d16cba0265568c49e5f" change="1707777656" id="E0241">
       <type>Residence</type>
       <datespan start="1900" stop="1901"/>
       <place hlink="_d16c60860cf2d275dad"/>
+      <citationref hlink="_d16cbd1415c7685bdfe"/>
     </event>
     <event handle="_d174a53baac12ef5448" change="1439368241" id="E0242">
       <type>Birth</type>
@@ -1128,7 +1131,7 @@
       <place hlink="_cb589ccd21b4dd50886"/>
       <citationref hlink="_d17c68442f83c90e181"/>
     </event>
-    <event handle="_df1c4ccc06f2fee342d59915a0b" change="1533204003" id="E0262">
+    <event handle="_df1c4ccc06f2fee342d59915a0b" change="1707779113" id="E0262">
       <type>Estate Inventory</type>
       <dateval val="1996-02-22"/>
       <place hlink="_df1c48cac856c80b54de6a3a824"/>
@@ -1206,25 +1209,25 @@
       <place hlink="_df1c48cac856c80b54de6a3a824"/>
       <citationref hlink="_df1cc0998d35825d9515eb9afe1"/>
     </event>
-    <event handle="_df212aab8c8657ff74af14ef4ca" change="1534012762" id="E0275">
+    <event handle="_df212aab8c8657ff74af14ef4ca" change="1707775133" id="E0275">
       <type>Departure</type>
       <dateval val="1913-01-22"/>
       <place hlink="_df212d41bbd117aae255f8116aa"/>
       <description>SS Titania</description>
       <citationref hlink="_df21957abf32d73f3a41019d22c"/>
     </event>
-    <event handle="_df212ebf40a2edc40abe05e61f3" change="1533346465" id="E0276">
+    <event handle="_df212ebf40a2edc40abe05e61f3" change="1707775139" id="E0276">
       <type>Arrival</type>
       <dateval val="1913-01-27" quality="estimated"/>
       <place hlink="_df212e61d633e8da10d6b8af5b0"/>
     </event>
-    <event handle="_df212f88ee570c476ccd8a94113" change="1533335211" id="E0277">
+    <event handle="_df212f88ee570c476ccd8a94113" change="1707775149" id="E0277">
       <type>Departure</type>
       <dateval val="1913-01-28"/>
       <place hlink="_df212f5f81f6654c7cd8fd7b565"/>
       <description>SS Arabic</description>
     </event>
-    <event handle="_df2135e86284505d3eea090b192" change="1533336459" id="E0278">
+    <event handle="_df2135e86284505d3eea090b192" change="1707775154" id="E0278">
       <type>Arrival</type>
       <dateval val="1913-02-08"/>
       <place hlink="_df2135e3a917c565828ef1f0ab4"/>
@@ -1249,7 +1252,7 @@
       <dateval val="1917-05-14"/>
       <place hlink="_df215592ea32cde4f2fa3890679"/>
     </event>
-    <event handle="_df2155de9395ac87753b8eedc2c" change="1533339184" id="E0283">
+    <event handle="_df2155de9395ac87753b8eedc2c" change="1707775169" id="E0283">
       <type>Departure</type>
       <dateval val="1917-05-16"/>
       <place hlink="_df215592ea32cde4f2fa3890679"/>
@@ -1259,7 +1262,7 @@
       <dateval val="1917-05-09"/>
       <place hlink="_df215996185561e862bff5758dc"/>
     </event>
-    <event handle="_df215a8da18358dd54ea06005ee" change="1533339680" id="E0285">
+    <event handle="_df215a8da18358dd54ea06005ee" change="1707775158" id="E0285">
       <type>Departure</type>
       <dateval val="1917-05-01" quality="estimated"/>
       <place hlink="_df214b4636d4e85a2ea0bff6bec"/>
@@ -1285,6 +1288,13 @@
       <type>Marriage</type>
       <dateval val="1938-05-15"/>
       <citationref hlink="_f7fcf7351cf5550bccc88ed2978"/>
+    </event>
+    <event handle="_f883a9d5eb733d35365f4fc3202" change="1707777908" id="E0013">
+      <type>Residence</type>
+      <dateval val="1901-12-01" type="after"/>
+      <place hlink="_f883a9cdbbe23c3210968f1748c"/>
+      <citationref hlink="_d16b882027416683e71"/>
+      <citationref hlink="_f883ac4272215da9f106c308e7f"/>
     </event>
   </events>
   <people home="_cb589cc7fd941e4faf4">
@@ -1334,7 +1344,7 @@
       <childof hlink="_cb589cc81ed0dd3ee46"/>
       <parentin hlink="_cb589cc7ff015b9b45f"/>
     </person>
-    <person handle="_cb589cc81fd22dc191b" change="1533304552" id="I0141">
+    <person handle="_cb589cc81fd22dc191b" change="1707777976" id="I0141">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Ida Emelia</first>
@@ -1345,6 +1355,7 @@
       <eventref hlink="_cb589cc82001ad9c229" role="Primary"/>
       <eventref hlink="_d16cb89875e37288407" role="Primary"/>
       <eventref hlink="_d16cba0265568c49e5f" role="Primary"/>
+      <eventref hlink="_f883a9d5eb733d35365f4fc3202" role="Primary"/>
       <eventref hlink="_d16b839dac3404746fd" role="Primary"/>
       <eventref hlink="_d16b80a96237e513b1a" role="Primary"/>
       <eventref hlink="_cb589cc820e01880812" role="Primary"/>
@@ -1817,14 +1828,14 @@
       <childof hlink="_cb589cc9ee928bfde3f"/>
       <parentin hlink="_cb589cccf3b5dd9d421"/>
     </person>
-    <person handle="_cb589cccf460848467c" change="1414284723" id="I0171">
+    <person handle="_cb589cccf460848467c" change="1707779035" id="I0171">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Toiwo Johannes</first>
         <surname>Kähkönen</surname>
       </name>
-      <eventref hlink="_cb589cccf495fde9d33" role="Primary"/>
       <eventref hlink="_cb589cccf4c6da68a14" role="Primary"/>
+      <eventref hlink="_cb589cccf495fde9d33" role="Primary"/>
       <attribute type="RFN" value="geni:6000000018678017393"/>
       <childof hlink="_cb589cc9ee928bfde3f"/>
     </person>
@@ -2933,24 +2944,30 @@
       <noteref hlink="_d16b638ca7f10e33a29"/>
       <sourceref hlink="_d16b612f7b55df5b599"/>
     </citation>
-    <citation handle="_d16b806bb9f439458f4" change="1439122804" id="C0012">
+    <citation handle="_d16b806bb9f439458f4" change="1707775791" id="C0012">
       <page>1</page>
       <confidence>2</confidence>
+      <noteref hlink="_f88398748dca8a6a48d3bf057d"/>
       <noteref hlink="_d16b80605854795782e"/>
+      <noteref hlink="_f8839afdb045968e11f31014549"/>
       <sourceref hlink="_d16b802ca800f3d590a"/>
     </citation>
-    <citation handle="_d16b81f4fdd10540b94" change="1439123120" id="C0013">
+    <citation handle="_d16b81f4fdd10540b94" change="1707775966" id="C0013">
       <dateval val="1904-10-15"/>
       <page>94-95</page>
       <confidence>2</confidence>
+      <noteref hlink="_f8839b934db3dbdadff90272b88"/>
       <noteref hlink="_d16b81ee51514de617f"/>
+      <noteref hlink="_f8839cc0b6f5d7c84bbca620e6a"/>
       <sourceref hlink="_d16b81c82fc1531ebd5"/>
     </citation>
-    <citation handle="_d16b882027416683e71" change="1439123596" id="C0014">
+    <citation handle="_d16b882027416683e71" change="1707776174" id="C0014">
       <dateval val="1901-12-02"/>
       <page>37-38</page>
       <confidence>2</confidence>
+      <noteref hlink="_f8839d3f37b36efcca30de74b07"/>
       <noteref hlink="_d16b881be36402ac8e3"/>
+      <noteref hlink="_f8839ebcb5ddc86c034869aa84"/>
       <sourceref hlink="_d16b879bfcb2a4bcbb6"/>
     </citation>
     <citation handle="_d16b8c8742313611f67" change="1439124058" id="C0015">
@@ -3232,10 +3249,11 @@
       <noteref hlink="_defa3dbe260680ae1371403d28a"/>
       <sourceref hlink="_defa39ccc5b79669c92a4f7dc09"/>
     </citation>
-    <citation handle="_defa5b370ab4b54c1e89655103" change="1532292834" id="C0059">
-      <page>jakso 455</page>
+    <citation handle="_defa5b370ab4b54c1e89655103" change="1707778962" id="C0059">
+      <page>Marttila, Helmi - Meramo, Tekla/455</page>
       <confidence>2</confidence>
       <noteref hlink="_defa5b3332232f3a5994041656"/>
+      <noteref hlink="_f883b94d8634ded544d2a0b1dcb"/>
       <sourceref hlink="_defa5a95c5f439b431ef6716129"/>
     </citation>
     <citation handle="_df1c4a9c4e6c1e9e5933f641c0" change="1533204001" id="C0060">
@@ -3305,16 +3323,20 @@
       <noteref hlink="_df219531dbf355b527325390b3a"/>
       <sourceref hlink="_df2190d6a137218ac63fd73f2ad"/>
     </citation>
-    <citation handle="_e17148799aa3c5a6b95d24979bf" change="1549229146" id="C0071">
+    <citation handle="_e17148799aa3c5a6b95d24979bf" change="1707775492" id="C0071">
       <page>108</page>
       <confidence>2</confidence>
+      <noteref hlink="_f8839733c087d6fa8d99e59f14e"/>
       <noteref hlink="_e1714875d5a418336667fd44f10"/>
+      <noteref hlink="_f883983e2966770ac71b66d0ab9"/>
       <sourceref hlink="_e171484c9fc103b3a6b3abd68ec"/>
     </citation>
-    <citation handle="_e171499af512b012f9f651516cf" change="1549229265" id="C0072">
+    <citation handle="_e171499af512b012f9f651516cf" change="1707775340" id="C0072">
       <page>110</page>
       <confidence>2</confidence>
+      <noteref hlink="_f88395e1b027c75ba658b5a496f"/>
       <noteref hlink="_e171499848a5707baf0425a1f45"/>
+      <noteref hlink="_f88396c3e517ba3f20634cf9092"/>
       <sourceref hlink="_e171484c9fc103b3a6b3abd68ec"/>
     </citation>
     <citation handle="_e7f36c9c688255009aa2da164db" change="1593954912" id="C0003">
@@ -3329,6 +3351,48 @@
       <page>1</page>
       <confidence>2</confidence>
       <sourceref hlink="_f7fcf3aa81f7f099b2b82faef7c"/>
+    </citation>
+    <citation handle="_f883a53b6f6102354712e3e5627" change="1707776853" id="C0074">
+      <page>62-63</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f883a4022bf35b90e0c24a30a44"/>
+      <noteref hlink="_f883a3ec75e6aa625db6d67c130"/>
+      <noteref hlink="_f883a5313fd3a8b8b90bbef2297"/>
+      <sourceref hlink="_f883a3a3e1bb7035db0401c95c"/>
+    </citation>
+    <citation handle="_f883ac4272215da9f106c308e7f" change="1707777590" id="C0075">
+      <page>I/91</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f883ab17b2910020743870eb1f"/>
+      <noteref hlink="_f883ab3ca61c7a12c28ce197ea"/>
+      <noteref hlink="_f883ac3a71b4039b8e32b4f28b1"/>
+      <sourceref hlink="_f883aacdab746c5ba17e27a66a3"/>
+    </citation>
+    <citation handle="_f883aedb2ba67e10047559ff0d1" change="1707777862" id="C0076">
+      <page>III/1222</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f883adb27963fb1ea1dae6498c"/>
+      <noteref hlink="_f883add4a175382c998a5d3fd4d"/>
+      <noteref hlink="_f883aed66c7f3c58057630d055"/>
+      <sourceref hlink="_f883aacdab746c5ba17e27a66a3"/>
+    </citation>
+    <citation handle="_f883b75d14943cc0a136e9111ad" change="1707778886" id="C0077">
+      <page>Kuusimäki, Vilho - Kärenaho, Anna/2447</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f883b50d8096ceb8ffc91eefb8c"/>
+      <noteref hlink="_f883b52f9c038340ab05304a9b1"/>
+      <noteref hlink="_f883b687313976fd16f6414106"/>
+      <noteref hlink="_f883b6ec95b9e2bf720b826a81"/>
+      <noteref hlink="_f883b724591161182f302de1933"/>
+      <sourceref hlink="_defa5a95c5f439b431ef6716129"/>
+    </citation>
+    <citation handle="_f883bf32591c2bdf4ff828241e" change="1707779575" id="C0078">
+      <page>Matarainen Kaino Arvo Päiviö, 03.07.1916</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f883bece2e82fdd42d96dd2fd9e"/>
+      <noteref hlink="_f883bef078b68b99dfa817b561"/>
+      <noteref hlink="_f883bf27f62693967b327e56704"/>
+      <sourceref hlink="_f883be7028a50baefbef90f6a91"/>
     </citation>
   </citations>
   <sources>
@@ -3382,13 +3446,13 @@
       <sauthor>Hiitolan seurakunta</sauthor>
       <reporef hlink="_cfa6fb12c7c665292c0" medium="Book"/>
     </source>
-    <source handle="_d16b81c82fc1531ebd5" change="1439140669" id="S0010">
-      <stitle>Hiitola muuttaneet 1891-1913 (sisään)</stitle>
+    <source handle="_d16b81c82fc1531ebd5" change="1707777924" id="S0010">
+      <stitle>Hiitola Muuttaneet 1891-1913 (sisään)</stitle>
       <sauthor>Hiitolan seurakunta</sauthor>
       <reporef hlink="_cfa6fb12c7c665292c0" medium="Book"/>
     </source>
-    <source handle="_d16b879bfcb2a4bcbb6" change="1439140669" id="S0011">
-      <stitle>Viitasaari muuttaneet 1890-1908 (sisään)</stitle>
+    <source handle="_d16b879bfcb2a4bcbb6" change="1707777600" id="S0011">
+      <stitle>Viitasaari Muuttaneet 1890-1908 (sisään)</stitle>
       <sauthor>Viitasaaren seurakunta</sauthor>
       <reporef hlink="_d16b4b3eb0e56162d55" medium="Book"/>
     </source>
@@ -3511,8 +3575,8 @@
       <sauthor>Hiitolan seurakunta</sauthor>
       <reporef hlink="_cfa6fb12c7c665292c0" medium="Book"/>
     </source>
-    <source handle="_defa5a95c5f439b431ef6716129" change="1532292768" id="S0038">
-      <stitle>Kansaneläkelaitoksen Henkilökortit 1939-1945 kuolleet</stitle>
+    <source handle="_defa5a95c5f439b431ef6716129" change="1707778838" id="S0038">
+      <stitle>Vuosina 1939-1945 kuolleiden henkilöiden hakemistokortit</stitle>
       <sauthor>Kansaneläkelaitos</sauthor>
       <reporef hlink="_cfa6fb12c7c665292c0" medium="Book"/>
     </source>
@@ -3572,6 +3636,26 @@
       <sauthor>Ähtärin kirkkoherranvirasto</sauthor>
       <noteref hlink="_f7fcf7281b56782cfbd086b9822"/>
       <reporef hlink="_df1c4a455f14ce59186d89258e8" medium="Book"/>
+    </source>
+    <source handle="_f883a3a3e1bb7035db0401c95c" change="1707776686" id="S0048">
+      <stitle>Viitasaari Muuttaneet 1890-1917</stitle>
+      <sauthor>Viitasaaren seurakunta</sauthor>
+      <reporef hlink="_d16b4b3eb0e56162d55" medium="Book"/>
+    </source>
+    <source handle="_f883aacdab746c5ba17e27a66a3" change="1707777437" id="S0049">
+      <stitle>Viitasaari Rippikirja 1900-1909</stitle>
+      <sauthor>Viitasaaren seurakunta</sauthor>
+      <reporef hlink="_d16b4b3eb0e56162d55" medium="Book"/>
+    </source>
+    <source handle="_f883b4b463731f8ec2fef64784c" change="1707778475" id="S0050">
+      <stitle>KELA 1939-1945</stitle>
+      <sauthor>Kansaneläkelaitos</sauthor>
+      <reporef hlink="_cfbfa9d5a2b1cd9024e" medium="Book"/>
+    </source>
+    <source handle="_f883be7028a50baefbef90f6a91" change="1707779496" id="S0051">
+      <stitle>Kantakortit</stitle>
+      <sauthor>Puolustusvoimat</sauthor>
+      <reporef hlink="_cfbfa9d5a2b1cd9024e" medium="Book"/>
     </source>
   </sources>
   <places>
@@ -3640,7 +3724,7 @@
       <pname value="Kirkonkylä"/>
       <placeref hlink="_cfa6f2692ad35c8daa1"/>
     </placeobj>
-    <placeobj handle="_d16b836f21a51382c84" change="1439123105" id="P0017" type="Parish">
+    <placeobj handle="_d16b836f21a51382c84" change="1707777329" id="P0017" type="Parish">
       <pname value="Wiitasaari"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
     </placeobj>
@@ -3817,6 +3901,22 @@
       <pname value="Ähtäri" lang="fi"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
     </placeobj>
+    <placeobj handle="_f883a880970e327debfa28377a" change="1707777196" id="P0001" type="Village">
+      <pname value="Muikunlahti"/>
+      <placeref hlink="_d16b836f21a51382c84"/>
+    </placeobj>
+    <placeobj handle="_f883a883fe565016767a483e3a2" change="1707777197" id="P0006" type="Farm">
+      <pname value="Soro"/>
+      <placeref hlink="_f883a880970e327debfa28377a"/>
+    </placeobj>
+    <placeobj handle="_f883a9caa884add64af1f799077" change="1707777331" id="P0007" type="Village">
+      <pname value="Haapaniemi"/>
+      <placeref hlink="_d16b836f21a51382c84"/>
+    </placeobj>
+    <placeobj handle="_f883a9cdbbe23c3210968f1748c" change="1707777332" id="P0008" type="Building">
+      <pname value="Kirkkoherran virkatalo"/>
+      <placeref hlink="_f883a9caa884add64af1f799077"/>
+    </placeobj>
   </places>
   <repositories>
     <repository handle="_cfa6fb12c7c665292c0" change="1593954235" id="R0000">
@@ -3830,11 +3930,11 @@
       <url  href="http://www.karjalatk.fi/katiha2/haku.php" type="Web Search"/>
       <url  href="http://www.karjalatk.fi/" type="Web Home"/>
     </repository>
-    <repository handle="_cfbfa9d5a2b1cd9024e" change="1427638094" id="R0002">
+    <repository handle="_cfbfa9d5a2b1cd9024e" change="1707779495" id="R0002">
       <rname>Arkistolaitos</rname>
       <type>Library</type>
     </repository>
-    <repository handle="_d16b4b3eb0e56162d55" change="1439498070" id="R0003">
+    <repository handle="_d16b4b3eb0e56162d55" change="1707777435" id="R0003">
       <rname>Suomen Sukuhistoriallinen Yhdistys</rname>
       <type>Web site</type>
       <url  href="http://sukuhistoria.fi/sshy/index.htm" type="Web Home"/>
@@ -4606,6 +4706,182 @@ Reino Olavi Peltoniemi s. 300813-049R Ähtäri, kuoli
 16.5.1982</text>
       <style name="fontface" value="Monospace">
         <range start="0" end="592"/>
+      </style>
+    </note>
+    <note handle="_f88395e1b027c75ba658b5a496f" change="1707775243" id="N0081" type="Citation">
+      <text>Hiitolan seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I F Kuolleiden ja haudattujen luettelot. I F:5 Kuolleiden ja haudattujen luettelot  (1915-1941). Tiedosto 111. Kansallisarkisto. Viitattu 13.2.2024.</text>
+    </note>
+    <note handle="_f88396c3e517ba3f20634cf9092" change="1707775336" id="N0082" type="Transcript" format="1">
+      <text>110
+
+22/11    4/12    222    Tms Juho Juhonp Kähkönen    Hiitola    19/5 1878
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f8839733c087d6fa8d99e59f14e" change="1707775382" id="N0083" type="Citation">
+      <text>Hiitolan seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I F Kuolleiden ja haudattujen luettelot. I F:5 Kuolleiden ja haudattujen luettelot  (1915-1941). Tiedosto 109. Kansallisarkisto. Viitattu 13.2.2024.</text>
+    </note>
+    <note handle="_f883983e2966770ac71b66d0ab9" change="1707775491" id="N0084" type="Transcript" format="1">
+      <text>108
+
+9/6    15/6    222    Tms. Juho Kähkösen v. Iida Emilia Matarainen    Hiitola    23/5 1881</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="95"/>
+      </style>
+    </note>
+    <note handle="_f88398748dca8a6a48d3bf057d" change="1707775513" id="N0085" type="Citation">
+      <text>Hiitolan seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A Pääkirjat hakemistoineen. I Aa Pää- ja rippikirjat. I Aa:18 Rippikirjat, Kirkonkylä, Asila - Kyläjärvi  (1900-1909). Tiedosto 2. Kansallisarkisto. Viitattu 13.2.2024.</text>
+    </note>
+    <note handle="_f8839afdb045968e11f31014549" change="1707775779" id="N0086" type="Transcript" format="1">
+      <text>1          Kirkonkylä
+
+Kirkkoherran virkatalo
+
+
+30    Karjakko Iida Emilia Miinantr Matarainen    _ 1    23/5 1881    Toivakka    17/10 04 mk 43 Wiitasaarelta    1906 slle 686   11/5 06 Aviol N16   ?686
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="203"/>
+      </style>
+    </note>
+    <note handle="_f8839b934db3dbdadff90272b88" change="1707775840" id="N0087" type="Citation">
+      <text>Hiitolan seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I B Muuttaneiden luettelot. I Ba Seurakuntaan muuttaneiden luettelot. I Ba:3 Seurakuntaan muuttaneiden luettelot  (1891-1913). Tiedosto 49. Kansallisarkisto. Viitattu 13.2.2024.</text>
+    </note>
+    <note handle="_f8839cc0b6f5d7c84bbca620e6a" change="1707775964" id="N0088" type="Transcript" format="1">
+      <text>95 
+
+Hiitolan Seurakuntaan muuttaneita vuonna 1904
+
+43  [X]  15  1  Piika Iida Emilia Matarainen  Wiitasaari  1904  X  9  76  _ 1
+
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="131"/>
+      </style>
+    </note>
+    <note handle="_f8839d3f37b36efcca30de74b07" change="1707776016" id="N0089" type="Citation">
+      <text>Viitasaari muuttaneet 1890-1908 (MKO8)  Sivu 37-38 Huhti 1901 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=2753&amp;pnum=20 / Viitattu 12.02.2024</text>
+    </note>
+    <note handle="_f8839ebcb5ddc86c034869aa84" change="1707776172" id="N0090" type="Transcript" format="1">
+      <text>37
+
+Wiitasaaren Seurakuntaan muuttaneita vuonna 1901
+
+
+50  Joulu  2  69  Karjakko Ida Emilia Matarainen  Toivakka  [1901]  11  19  30  _ 1
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="139"/>
+      </style>
+    </note>
+    <note handle="_f883a3ec75e6aa625db6d67c130" change="1707776716" id="N0091" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31841&amp;pnum=34</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31841&amp;pnum=34">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f883a4022bf35b90e0c24a30a44" change="1707776725" id="N0092" type="Citation">
+      <text>Viitasaari muuttaneet 1890-1917 (AP I Ba:4)  Sivu 62 1904 Touko - Joulukuu ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31841&amp;pnum=34 / Viitattu 12.02.2024</text>
+    </note>
+    <note handle="_f883a5313fd3a8b8b90bbef2297" change="1707776849" id="N0093" type="Transcript" format="1">
+      <text>63
+
+Wiitasaaren Seurakunnasta muuttaneita vuonna 1904
+
+76  [Loka]  9  1222  Palvelusneito Ida Emilia Matarainen  Hiitolaan  _ 1  (muuttokirja) Lähetettiin postissa
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="164"/>
+      </style>
+    </note>
+    <note handle="_f883ab17b2910020743870eb1f" change="1707777467" id="N0094" type="Citation">
+      <text>Viitasaari rippikirja 1900-1909 (AP_I I Aa:20)  Sivu 91 Haapaniemi, No 3 Kirkkoherran virkatalo ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31787&amp;pnum=92 / Viitattu 12.02.2024</text>
+    </note>
+    <note handle="_f883ab3ca61c7a12c28ce197ea" change="1707777483" id="N0095" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31787&amp;pnum=92</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31787&amp;pnum=92">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f883ac3a71b4039b8e32b4f28b1" change="1707777586" id="N0096" type="Transcript" format="1">
+      <text>91
+Haapaniemi
+No 3 Kirkkoherran virkatalo
+
+Karjakko Iida Emilia Miinantr Matarainen  28/5 1881  Jkylän pit  N30-01 2.12 Toivakasta          1222-1901
+
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="151"/>
+      </style>
+    </note>
+    <note handle="_f883adb27963fb1ea1dae6498c" change="1707777740" id="N0098" type="Citation">
+      <text>Viitasaari rippikirja 1900-1909 (AP_III I Aa:22)  Sivu 1222 Muikunlahti, No 3 Soro ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31789&amp;pnum=312 / Viitattu 12.02.2024</text>
+    </note>
+    <note handle="_f883add4a175382c998a5d3fd4d" change="1707777754" id="N0099" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31789&amp;pnum=312</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31789&amp;pnum=312">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f883aed66c7f3c58057630d055" change="1707777860" id="N0100" type="Transcript" format="1">
+      <text>1222
+Muikunlahti
+No 3 Soro
+
+
+[Palv]  Ida Emilia Miinantr Matarainen  28/5  Jkylä  91.1          Mtkirja 9.10 No 76/1904 Hiitolaam
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="130"/>
+      </style>
+    </note>
+    <note handle="_f883b50d8096ceb8ffc91eefb8c" change="1707778512" id="N0101" type="Citation">
+      <text>Kansaneläkelaitoksen henkilökortit -arkisto. Be Vuosina 1939-1945 kuolleiden henkilöiden hakemistokortit. 44_4 Vuosina 1939-1945 kuolleiden henkilöiden hakemistokortit, Kuusimäki, Vilho - Kärenaho, Anna  (--). Tiedosto 2447. Kansallisarkisto. Viitattu 13.2.2024.</text>
+    </note>
+    <note handle="_f883b52f9c038340ab05304a9b1" change="1707778526" id="N0102" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=4494689782&amp;aineistoId=1044390452</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=4494689782&amp;aineistoId=1044390452">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f883b687313976fd16f6414106" change="1707778666" id="N0103" type="Transcript" format="1">
+      <text>nro  Kuvaan  Siviilisääty  KELA:n N:o  Ammatti    Nimi                 Syntymäaika  Jakso      Asuinkunta / Syntymäkunta
+1    NARC    M             1949        58-Kauppa  Kähkönen Unto Kauko  20.3.1922    1939-1945  Helsinki / Hiitola</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="234"/>
+      </style>
+    </note>
+    <note handle="_f883b6ec95b9e2bf720b826a81" change="1707778708" id="N0104" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/kela/index.php?occ=&amp;nimi=K%C3%A4hk%C3%B6nen+Unto&amp;sp=&amp;skk=&amp;sv=&amp;pl=&amp;bpl=</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/kela/index.php?occ=&amp;nimi=K%C3%A4hk%C3%B6nen+Unto&amp;sp=&amp;skk=&amp;sv=&amp;pl=&amp;bpl=">
+        <range start="0" end="119"/>
+      </style>
+    </note>
+    <note handle="_f883b724591161182f302de1933" change="1707778731" id="N0105" type="Link">
+      <text>https://digihakemisto.net/item/1044390452/4494689782/2447</text>
+      <style name="link" value="https://digihakemisto.net/item/1044390452/4494689782/2447">
+        <range start="0" end="57"/>
+      </style>
+    </note>
+    <note handle="_f883b94d8634ded544d2a0b1dcb" change="1707778957" id="N0106" type="Citation">
+      <text>Kansaneläkelaitoksen henkilökortit -arkisto. Be Vuosina 1939-1945 kuolleiden henkilöiden hakemistokortit. 59_3 Vuosina 1939-1945 kuolleiden henkilöiden hakemistokortit, Marttila, Helmi - Meramo, Tekla  (--). Tiedosto 455. Kansallisarkisto. Viitattu 13.2.2024.</text>
+    </note>
+    <note handle="_f883bece2e82fdd42d96dd2fd9e" change="1707779534" id="N0107" type="Citation">
+      <text>Kaatuneiden henkilöasiakirjat (kokoelma). KAATUNEIDEN HENKILÖASIAKIRJAT. Kantakortit. Kantakortit Luoto - Mustola. Matarainen Kaino Arvo Päiviö, 03.07.1916 . Kansallisarkisto. Viitattu 13.2.2024.</text>
+    </note>
+    <note handle="_f883bef078b68b99dfa817b561" change="1707779555" id="N0108" type="Link">
+      <text>https://astia.narc.fi/uusiastia/kortti_aineisto.html?id=2679156538</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/kortti_aineisto.html?id=2679156538">
+        <range start="0" end="66"/>
+      </style>
+    </note>
+    <note handle="_f883bf27f62693967b327e56704" change="1707779571" id="N0109" type="Link">
+      <text>https://digihakemisto.net/aineisto/2679156538</text>
+      <style name="link" value="https://digihakemisto.net/aineisto/2679156538">
+        <range start="0" end="45"/>
       </style>
     </note>
   </notes>
