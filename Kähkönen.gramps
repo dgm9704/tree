@@ -1209,7 +1209,7 @@
       <place hlink="_df1c48cac856c80b54de6a3a824"/>
       <citationref hlink="_df1cc0998d35825d9515eb9afe1"/>
     </event>
-    <event handle="_df212aab8c8657ff74af14ef4ca" change="1707775133" id="E0275">
+    <event handle="_df212aab8c8657ff74af14ef4ca" change="1707845629" id="E0275">
       <type>Departure</type>
       <dateval val="1913-01-22"/>
       <place hlink="_df212d41bbd117aae255f8116aa"/>
@@ -1221,11 +1221,12 @@
       <dateval val="1913-01-27" quality="estimated"/>
       <place hlink="_df212e61d633e8da10d6b8af5b0"/>
     </event>
-    <event handle="_df212f88ee570c476ccd8a94113" change="1707775149" id="E0277">
+    <event handle="_df212f88ee570c476ccd8a94113" change="1707847669" id="E0277">
       <type>Departure</type>
       <dateval val="1913-01-28"/>
       <place hlink="_df212f5f81f6654c7cd8fd7b565"/>
       <description>SS Arabic</description>
+      <citationref hlink="_f88648851f338a63f3a37adef16"/>
     </event>
     <event handle="_df2135e86284505d3eea090b192" change="1707775154" id="E0278">
       <type>Arrival</type>
@@ -3394,6 +3395,13 @@
       <noteref hlink="_f883bf27f62693967b327e56704"/>
       <sourceref hlink="_f883be7028a50baefbef90f6a91"/>
     </citation>
+    <citation handle="_f88648851f338a63f3a37adef16" change="1707847662" id="C0079">
+      <confidence>2</confidence>
+      <noteref hlink="_f88640f706d6a4380b003653b2c"/>
+      <noteref hlink="_f886421153376a08a0f695523a"/>
+      <noteref hlink="_f886487b28a7acf2f6c7f9453ed"/>
+      <sourceref hlink="_f88640beef139d896b20749c72c"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdcfc23e89e2b9f42c7" change="1439140669" id="S0025">
@@ -3656,6 +3664,10 @@
       <stitle>Kantakortit</stitle>
       <sauthor>Puolustusvoimat</sauthor>
       <reporef hlink="_cfbfa9d5a2b1cd9024e" medium="Book"/>
+    </source>
+    <source handle="_f88640beef139d896b20749c72c" change="1707846847" id="S0052">
+      <stitle>United Kingdom, Outgoing Passenger Lists, 1890-1960</stitle>
+      <reporef hlink="_f88640bb670471c947dff443ecb" medium="Book"/>
     </source>
   </sources>
   <places>
@@ -3950,6 +3962,10 @@
     <repository handle="_df21903e6c077207c32afd9aff4" change="1533345293" id="R0006">
       <rname>Siirtolaisuusinstituutti</rname>
       <type>Archive</type>
+    </repository>
+    <repository handle="_f88640bb670471c947dff443ecb" change="1707846845" id="R0007">
+      <rname>Familysearch</rname>
+      <type>Library</type>
     </repository>
   </repositories>
   <notes>
@@ -4882,6 +4898,29 @@ No 3 Soro
       <text>https://digihakemisto.net/aineisto/2679156538</text>
       <style name="link" value="https://digihakemisto.net/aineisto/2679156538">
         <range start="0" end="45"/>
+      </style>
+    </note>
+    <note handle="_f88640f706d6a4380b003653b2c" change="1707846870" id="N0110" type="Citation">
+      <text>&quot;United Kingdom, Outgoing Passenger Lists, 1890-1960&quot;, , FamilySearch (https://www.familysearch.org/ark:/61903/1:1:6857-D6CV : Thu Oct 05 11:53:42 UTC 2023), Entry for Juho Kahkonen, 28 Jan 1913.</text>
+    </note>
+    <note handle="_f886421153376a08a0f695523a" change="1707846985" id="N0111" type="Link">
+      <text>https://www.familysearch.org/ark:/61903/1:1:6857-D6CV</text>
+      <style name="link" value="https://www.familysearch.org/ark:/61903/1:1:6857-D6CV">
+        <range start="0" end="53"/>
+      </style>
+    </note>
+    <note handle="_f886487b28a7acf2f6c7f9453ed" change="1707847658" id="N0112" type="Transcript" format="1">
+      <text>LIST OR MANIFEST OF ALIEN PASSENGERS FOR THE UNITED
+
+S.S. Arabic sailing from Liverpool, January 28th, 1913
+
+No.           Family    Given  Yrs  Mos  Sex  Married  Calling     Read   Write  Nationality  Race       Country    City     The name and complete address of   State  City
+on            name      name                  or       or                                     or                    or       nearest relative or friend in             or
+list                                          Single   Occupation                             People                Town     country whence alien came                 Town
+
+[389935]9  5  Kähkönen  Juho   34        m    m        Labourer    [yes]  [yes]  [Finland]    [Finnish]  [Finland]  Hiitola  Wife Ida Kähkönen Weijola Hiitola  Minn   Virginia</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="799"/>
       </style>
     </note>
   </notes>
