@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE database PUBLIC "-//Gramps//DTD Gramps XML 1.7.1//EN"
+"http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
+<database xmlns="http://gramps-project.org/xml/1.7.1/">
+  <header>
+    <created date="2024-02-13" version="5.1.6"/>
+    <researcher>
+      <resname>John Nordberg</resname>
+      <resemail>john.nordberg@gmail.com</resemail>
+    </researcher>
+  </header>
+  <events>
+    <event handle="_f886a6f73e331e3efd17ad7e89a" change="1707858257" id="E0000">
+      <type>Census</type>
+      <dateval val="1910-06-01"/>
+      <place hlink="_f886a306ce45295ef281e5db2d8"/>
+      <citationref hlink="_f886a4c5a2b332f9ddb27ac99d1"/>
+    </event>
+    <event handle="_f886a877f0466a828dfc84c23b2" change="1707858719" id="E0001">
+      <type>Birth</type>
+      <dateval val="1860" quality="estimated"/>
+      <place hlink="_f886a01855339f7329396dd9dcd"/>
+      <citationref hlink="_f886a4c5a2b332f9ddb27ac99d1"/>
+    </event>
+    <event handle="_f886a94a12b3619ce64f6f8f380" change="1707858731" id="E0002">
+      <type>Birth</type>
+      <dateval val="1869" quality="estimated"/>
+      <place hlink="_f886a01855339f7329396dd9dcd"/>
+      <citationref hlink="_f886a4c5a2b332f9ddb27ac99d1"/>
+    </event>
+    <event handle="_f886af774954ee5dcbf5cf4e04c" change="1707858457" id="E0003">
+      <type>Marriage</type>
+      <dateval val="1910-06-01" type="before"/>
+      <citationref hlink="_f886a4c5a2b332f9ddb27ac99d1"/>
+    </event>
+    <event handle="_f886b0924794d3aa9bb27be8fff" change="1707858707" id="E0004">
+      <type>Birth</type>
+      <dateval val="1891" quality="estimated"/>
+      <place hlink="_f886a30305d30464571ff08223e"/>
+      <citationref hlink="_f886a4c5a2b332f9ddb27ac99d1"/>
+    </event>
+    <event handle="_f886b1a5e1716c69286a1e3e17a" change="1707858685" id="E0005">
+      <type>Birth</type>
+      <dateval val="1896" quality="estimated"/>
+      <place hlink="_f886a30305d30464571ff08223e"/>
+      <citationref hlink="_f886a4c5a2b332f9ddb27ac99d1"/>
+    </event>
+    <event handle="_f886b290ce91111205f108df340" change="1707858782" id="E0006">
+      <type>Birth</type>
+      <dateval val="1898" quality="estimated"/>
+      <place hlink="_f886a30305d30464571ff08223e"/>
+      <citationref hlink="_f886a4c5a2b332f9ddb27ac99d1"/>
+    </event>
+    <event handle="_f886b30a9193355b2240a6113c7" change="1707858832" id="E0007">
+      <type>Birth</type>
+      <dateval val="1900" quality="estimated"/>
+      <place hlink="_f886a30305d30464571ff08223e"/>
+      <citationref hlink="_f886a4c5a2b332f9ddb27ac99d1"/>
+    </event>
+    <event handle="_f886b386a532004adba75bc6f4d" change="1707858882" id="E0008">
+      <type>Birth</type>
+      <dateval val="1901" quality="estimated"/>
+      <place hlink="_f886a30305d30464571ff08223e"/>
+      <citationref hlink="_f886a4c5a2b332f9ddb27ac99d1"/>
+    </event>
+    <event handle="_f886b3eecf877bf2a726596b019" change="1707858925" id="E0009">
+      <type>Birth</type>
+      <dateval val="1903" quality="estimated"/>
+      <place hlink="_f886a30305d30464571ff08223e"/>
+      <citationref hlink="_f886a4c5a2b332f9ddb27ac99d1"/>
+    </event>
+    <event handle="_f886b4769ae253c7fe000daa37e" change="1707858981" id="E0010">
+      <type>Birth</type>
+      <dateval val="1905" quality="estimated"/>
+      <place hlink="_f886a30305d30464571ff08223e"/>
+      <citationref hlink="_f886a4c5a2b332f9ddb27ac99d1"/>
+    </event>
+    <event handle="_f886b4ddb333ccf16c1f7517eb0" change="1707859023" id="E0011">
+      <type>Birth</type>
+      <dateval val="1907" quality="estimated"/>
+      <place hlink="_f886a30305d30464571ff08223e"/>
+      <citationref hlink="_f886a4c5a2b332f9ddb27ac99d1"/>
+    </event>
+  </events>
+  <people>
+    <person handle="_f8869f22a427c63ae6d00a6984a" change="1707859036" id="I0000">
+      <gender>M</gender>
+      <name type="Unknown">
+        <first>Henry</first>
+        <surname derivation="Unknown ">Sandquist</surname>
+      </name>
+      <eventref hlink="_f886a877f0466a828dfc84c23b2" role="Primary"/>
+      <parentin hlink="_f886ad4ca02129f17dfef9e8265"/>
+    </person>
+    <person handle="_f886a8a5f8ee377684a0281031" change="1707859036" id="I0001">
+      <gender>F</gender>
+      <name type="Married Name">
+        <first>Annie</first>
+        <surname derivation="Unknown ">Sandquist</surname>
+      </name>
+      <eventref hlink="_f886a94a12b3619ce64f6f8f380" role="Primary"/>
+      <parentin hlink="_f886ad4ca02129f17dfef9e8265"/>
+    </person>
+    <person handle="_f886aff9b2e4b857e6b032b3e56" change="1707859036" id="I0002">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>John</first>
+        <surname derivation="Unknown ">Sandquist</surname>
+      </name>
+      <eventref hlink="_f886b0924794d3aa9bb27be8fff" role="Primary"/>
+      <childof hlink="_f886ad4ca02129f17dfef9e8265"/>
+    </person>
+    <person handle="_f886b11132c12dc400d3c632879" change="1707859036" id="I0003">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Andrew</first>
+        <surname derivation="Unknown ">Sandquist</surname>
+      </name>
+      <eventref hlink="_f886b1a5e1716c69286a1e3e17a" role="Primary"/>
+      <childof hlink="_f886ad4ca02129f17dfef9e8265"/>
+    </person>
+    <person handle="_f886b24c420402598523d77eddf" change="1707859036" id="I0004">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Richard</first>
+        <surname derivation="Unknown ">Sandquist</surname>
+      </name>
+      <eventref hlink="_f886b290ce91111205f108df340" role="Primary"/>
+      <childof hlink="_f886ad4ca02129f17dfef9e8265"/>
+    </person>
+    <person handle="_f886b2c7b99468df019210339e1" change="1707859036" id="I0005">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Oscar</first>
+        <surname derivation="Unknown ">Sandquist</surname>
+      </name>
+      <eventref hlink="_f886b30a9193355b2240a6113c7" role="Primary"/>
+      <childof hlink="_f886ad4ca02129f17dfef9e8265"/>
+    </person>
+    <person handle="_f886b3519dd5f64ff986ae87b5d" change="1707859036" id="I0006">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Edward</first>
+        <surname derivation="Unknown ">Sandquist</surname>
+      </name>
+      <eventref hlink="_f886b386a532004adba75bc6f4d" role="Primary"/>
+      <childof hlink="_f886ad4ca02129f17dfef9e8265"/>
+    </person>
+    <person handle="_f886b3b6d8c2b2e055c7fdf3826" change="1707859036" id="I0007">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Mary</first>
+        <surname derivation="Unknown ">Sandquist</surname>
+      </name>
+      <eventref hlink="_f886b3eecf877bf2a726596b019" role="Primary"/>
+      <childof hlink="_f886ad4ca02129f17dfef9e8265"/>
+    </person>
+    <person handle="_f886b42e1c754bc7ce7833f597e" change="1707859036" id="I0008">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Fannie</first>
+        <surname derivation="Unknown ">Sandquist</surname>
+      </name>
+      <eventref hlink="_f886b4769ae253c7fe000daa37e" role="Primary"/>
+      <childof hlink="_f886ad4ca02129f17dfef9e8265"/>
+    </person>
+    <person handle="_f886b4a72f951b8f5f9d9c12105" change="1707859036" id="I0009">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Ester</first>
+        <surname derivation="Unknown ">Sandquist</surname>
+      </name>
+      <eventref hlink="_f886b4ddb333ccf16c1f7517eb0" role="Primary"/>
+      <childof hlink="_f886ad4ca02129f17dfef9e8265"/>
+    </person>
+  </people>
+  <families>
+    <family handle="_f886ad4ca02129f17dfef9e8265" change="1707859036" id="F0000">
+      <rel type="Married"/>
+      <father hlink="_f8869f22a427c63ae6d00a6984a"/>
+      <mother hlink="_f886a8a5f8ee377684a0281031"/>
+      <eventref hlink="_f886af774954ee5dcbf5cf4e04c" role="Family"/>
+      <eventref hlink="_f886a6f73e331e3efd17ad7e89a" role="Family"/>
+      <childref hlink="_f886aff9b2e4b857e6b032b3e56"/>
+      <childref hlink="_f886b11132c12dc400d3c632879"/>
+      <childref hlink="_f886b24c420402598523d77eddf"/>
+      <childref hlink="_f886b2c7b99468df019210339e1"/>
+      <childref hlink="_f886b3519dd5f64ff986ae87b5d"/>
+      <childref hlink="_f886b3b6d8c2b2e055c7fdf3826"/>
+      <childref hlink="_f886b42e1c754bc7ce7833f597e"/>
+      <childref hlink="_f886b4a72f951b8f5f9d9c12105"/>
+    </family>
+  </families>
+  <citations>
+    <citation handle="_f886a4c5a2b332f9ddb27ac99d1" change="1707858186" id="C0000">
+      <dateval val="1910-06-01"/>
+      <page>Michigan,Houghton,Stanton,ED 121/35</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f886a358a791c3675dc931a15b8"/>
+      <noteref hlink="_f886a4b903d477bc8317520e451"/>
+      <noteref hlink="_f886ab161d46ea1f467826c9c73"/>
+      <sourceref hlink="_f886a4508422af669c0fbb461ab"/>
+    </citation>
+  </citations>
+  <sources>
+    <source handle="_f886a4508422af669c0fbb461ab" change="1707857287" id="S0000">
+      <stitle>United States Census 1910</stitle>
+      <sauthor>Department of commerce and labor bureau of the census</sauthor>
+      <reporef hlink="_f886a44e4aa3a0bad5b2ddceaac" medium="Book"/>
+    </source>
+  </sources>
+  <places>
+    <placeobj handle="_f886a01855339f7329396dd9dcd" change="1707856859" id="P0000" type="Country">
+      <pname value="Finland" lang="en"/>
+      <pname value="Finland" lang="sv"/>
+      <pname value="Suomi" lang="fi"/>
+    </placeobj>
+    <placeobj handle="_f886a03cd58276a4ac72b6c0b89" change="1707856860" id="P0001" type="Unknown">
+      <pname value="Wasa"/>
+      <placeref hlink="_f886a01855339f7329396dd9dcd"/>
+    </placeobj>
+    <placeobj handle="_f886a300d5b46ae7730b83263a1" change="1707857150" id="P0002" type="Country">
+      <pname value="Unites States"/>
+    </placeobj>
+    <placeobj handle="_f886a30305d30464571ff08223e" change="1707857151" id="P0003" type="State">
+      <pname value="Michigan"/>
+      <placeref hlink="_f886a300d5b46ae7730b83263a1"/>
+    </placeobj>
+    <placeobj handle="_f886a304f232de5a2d6fe3d392d" change="1707857151" id="P0004" type="County">
+      <pname value="Houghton"/>
+      <placeref hlink="_f886a30305d30464571ff08223e"/>
+    </placeobj>
+    <placeobj handle="_f886a306ce45295ef281e5db2d8" change="1707857152" id="P0005" type="Town">
+      <pname value="Stanton Township"/>
+      <placeref hlink="_f886a304f232de5a2d6fe3d392d"/>
+    </placeobj>
+  </places>
+  <repositories>
+    <repository handle="_f886a44e4aa3a0bad5b2ddceaac" change="1707857286" id="R0000">
+      <rname>Familysearch</rname>
+      <type>Library</type>
+    </repository>
+  </repositories>
+  <notes>
+    <note handle="_f886a358a791c3675dc931a15b8" change="1707857186" id="N0000" type="Citation">
+      <text>&quot;United States Census, 1910&quot;, , FamilySearch (https://www.familysearch.org/ark:/61903/1:1:ML5Q-BD3 : Thu Oct 05 22:44:49 UTC 2023), Entry for Henry Sandquist and Annie Sandquist, 1910.</text>
+    </note>
+    <note handle="_f886a4b903d477bc8317520e451" change="1707857330" id="N0001" type="Link">
+      <text>https://www.familysearch.org/ark:/61903/3:1:33S7-9RV5-Y2D?view=index&amp;personArk=%2Fark%3A%2F61903%2F1%3A1%3AML5Q-BD3&amp;action=view</text>
+      <style name="link" value="https://www.familysearch.org/ark:/61903/3:1:33S7-9RV5-Y2D?view=index&amp;personArk=%2Fark%3A%2F61903%2F1%3A1%3AML5Q-BD3&amp;action=view">
+        <range start="0" end="127"/>
+      </style>
+    </note>
+    <note handle="_f886ab161d46ea1f467826c9c73" change="1707857997" id="N0002" type="Citation">
+      <text>&quot;United States Census, 1910,&quot; database with images, FamilySearch (https://familysearch.org/ark:/61903/3:1:33S7-9RV5-Y2D?cc=1727033&amp;wc=QZZ4-WJZ%3A133637101%2C138755601%2C133894301%2C1589089393 : 24 June 2017), Michigan &gt; Houghton &gt; Stanton &gt; ED 121 &gt; image 35 of 48; citing NARA microfilm publication T624 (Washington, D.C.: National Archives and Records Administration, n.d.).</text>
+    </note>
+  </notes>
+</database>
