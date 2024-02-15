@@ -3,13 +3,13 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2022-07-18" version="5.1.5"/>
+    <created date="2024-02-15" version="5.1.6"/>
     <researcher>
     </researcher>
     <mediapath>/home/john/3Taponen_2014-10-29.gpkg.media</mediapath>
   </header>
   <events>
-    <event handle="_cb937b9cbc8652dc01c" change="1414446652" id="E0000">
+    <event handle="_cb937b9cbc8652dc01c" change="1708018258" id="E0000">
       <type>Birth</type>
       <dateval val="1852-12-06"/>
       <place hlink="_cdd421a7ab374044701"/>
@@ -142,7 +142,7 @@
       <place hlink="_cdd10d9b4b80ba1c482"/>
       <citationref hlink="_d019a9f62104f8b9fae"/>
     </event>
-    <event handle="_cca168bd25d133ff856" change="1657446176" id="E0026">
+    <event handle="_cca168bd25d133ff856" change="1708018552" id="E0026">
       <type>Birth</type>
       <dateval val="1896-07-02"/>
       <place hlink="_cdd1051b4c648ad7ac8"/>
@@ -154,7 +154,7 @@
       <citationref hlink="_d0169be00b702b26569"/>
       <citationref hlink="_da7cd18958d75a53b3b89af47e7"/>
     </event>
-    <event handle="_cca1691384735bf6855" change="1658173214" id="E0027">
+    <event handle="_cca1691384735bf6855" change="1708018718" id="E0027">
       <type>Death</type>
       <dateval val="1952-12-29"/>
       <place hlink="_cca1691056519fef9d5"/>
@@ -542,7 +542,7 @@
       <citationref hlink="_f14b6e944ee637af0ce9abc6fc7"/>
       <citationref hlink="_f14b6f2044019aa40399280a3fa"/>
     </event>
-    <event handle="_cdd6fee780248c9481f" change="1658174162" id="E0193">
+    <event handle="_cdd6fee780248c9481f" change="1708018765" id="E0193">
       <type>Occupation</type>
       <datespan start="1944-07-30" stop="1952-12-29"/>
       <place hlink="_cca1691056519fef9d5"/>
@@ -718,14 +718,14 @@
       <citationref hlink="_cdd3b7169bc447ea20f"/>
       <citationref hlink="_da7cb2902a721e5b2c016a0932a"/>
     </event>
-    <event handle="_d0145829348537e8d5f" change="1451172489" id="E0127">
+    <event handle="_d0145829348537e8d5f" change="1708018166" id="E0127">
       <type>Marriage</type>
       <dateval val="1881-07-24"/>
       <place hlink="_cdd421a7ab374044701"/>
       <citationref hlink="_d01455b60f1053dd61f"/>
       <citationref hlink="_d0145824a873dc9ae2d"/>
     </event>
-    <event handle="_d017296e34e013b1cf6" change="1658173245" id="E0128">
+    <event handle="_d017296e34e013b1cf6" change="1708018711" id="E0128">
       <type>Burial</type>
       <dateval val="1953-01-11"/>
       <place hlink="_f130b9b233b61a1735522db28e6"/>
@@ -928,7 +928,7 @@
       <citationref hlink="_da7cd18958d75a53b3b89af47e7"/>
       <citationref hlink="_da7cd6ca7a033c4adf75b352285"/>
     </event>
-    <event handle="_da7cd3ccbed2ac0e1799f54f07b" change="1657478178" id="E0067">
+    <event handle="_da7cd3ccbed2ac0e1799f54f07b" change="1708019810" id="E0067">
       <type>Death</type>
       <dateval val="1965-11-22"/>
       <citationref hlink="_da7cd18958d75a53b3b89af47e7"/>
@@ -1133,32 +1133,33 @@
       <citationref hlink="_da92bef7bf15c876d63d36b76e"/>
       <citationref hlink="_da92b219eab696b3eba581ea5fd"/>
     </event>
-    <event handle="_e82ad6eae8016df57659dda0ce" change="1657567778" id="E0003">
+    <event handle="_e82ad6eae8016df57659dda0ce" change="1708019412" id="E0003">
       <type>Residence</type>
       <dateval val="1926"/>
       <place hlink="_e82ad45bdd85f278af7915fb714"/>
       <description>Ludvikinkatu 1, as. 5.</description>
       <citationref hlink="_e82ad5d56487583ea6f92bac30b"/>
     </event>
-    <event handle="_e82ad9148fe2ea45e9cf3e410cc" change="1657565731" id="E0021">
+    <event handle="_e82ad9148fe2ea45e9cf3e410cc" change="1708019435" id="E0021">
       <type>Residence</type>
       <dateval val="1927"/>
       <place hlink="_e82ad7668a11043645a641c568c"/>
       <description>Ludviginkatu 6, as. 4.</description>
       <citationref hlink="_e82ad7dab4b4f7c84c3a7b4e3b"/>
     </event>
-    <event handle="_e82adaab4f9684c7be391d6cb49" change="1657556034" id="E0030">
+    <event handle="_e82adaab4f9684c7be391d6cb49" change="1708019468" id="E0030">
       <type>Residence</type>
       <dateval val="1929"/>
       <place hlink="_e82ad7668a11043645a641c568c"/>
       <description>Ludviginkatu 6, as. 4.</description>
       <citationref hlink="_e82adaa64ba2ef059e03748d902"/>
     </event>
-    <event handle="_f130bd307695fb826d880e2edf8" change="1657447744" id="E0042">
+    <event handle="_f130bd307695fb826d880e2edf8" change="1708019844" id="E0042">
       <type>Burial</type>
       <dateval val="1965"/>
       <place hlink="_f130b9b233b61a1735522db28e6"/>
       <citationref hlink="_f130bcffcfe497c9f6542a1a608"/>
+      <citationref hlink="_da7cd18958d75a53b3b89af47e7"/>
     </event>
     <event handle="_f131dc8b72f2040bf2d9ea91f7c" change="1657491544" id="E0043">
       <type>Marriage</type>
@@ -1179,7 +1180,7 @@
       <place hlink="_f131de2c8ff2c05b0daf9729786"/>
       <citationref hlink="_f13252159c56f6b1da175711a39"/>
     </event>
-    <event handle="_f1323c5361dc6499bd99e5ad8a" change="1657488510" id="E0048">
+    <event handle="_f1323c5361dc6499bd99e5ad8a" change="1708019573" id="E0048">
       <type>Residence</type>
       <dateval val="1919-10-31" type="after"/>
       <place hlink="_f1323c4fbb21c982ece8685b1b2"/>
@@ -1223,21 +1224,21 @@
       <citationref hlink="_f13242322b88b147207718fb43"/>
       <citationref hlink="_f134a0cd623566308f4d7b8b98e"/>
     </event>
-    <event handle="_f134c9957e734fd9b85c9a5278d" change="1657556391" id="E0096">
+    <event handle="_f134c9957e734fd9b85c9a5278d" change="1708019475" id="E0096">
       <type>Residence</type>
       <dateval val="1931"/>
       <place hlink="_f134c7329686c845ff56e686aaa"/>
       <description>Keihäskuja 6. as. 4.</description>
       <citationref hlink="_f134c9845e492dcb715ea441c4"/>
     </event>
-    <event handle="_f134cc9451c5bf48e5c3be384ab" change="1657556705" id="E0097">
+    <event handle="_f134cc9451c5bf48e5c3be384ab" change="1708019483" id="E0097">
       <type>Residence</type>
       <dateval val="1936"/>
       <place hlink="_f134cb27faa731c437b5a8fa110"/>
       <description>Vahtitorninkatu 12 as. 7</description>
       <citationref hlink="_f134cc8fada71aec1165eff0488"/>
     </event>
-    <event handle="_f134cd62680408047b35ecbd944" change="1657556951" id="E0098">
+    <event handle="_f134cd62680408047b35ecbd944" change="1708019493" id="E0098">
       <type>Residence</type>
       <dateval val="1939"/>
       <place hlink="_f134cb27faa731c437b5a8fa110"/>
@@ -1263,11 +1264,30 @@
       <datespan start="1940-03-05" stop="1940-05-23"/>
       <description>Viipurin Sotapoliisipataljoona</description>
     </event>
-    <event handle="_f14bcc788571113a2f9e350f981" change="1658174395" id="E0102">
+    <event handle="_f14bcc788571113a2f9e350f981" change="1708018771" id="E0102">
       <type>Military Service</type>
       <datespan start="1944-06-21" stop="1944-07-29"/>
       <description>PM:n Sotilashallinto-osasto</description>
       <citationref hlink="_f14bcd5f941423f74c932310c8e"/>
+    </event>
+    <event handle="_f88cd11eedc4ba41e3501cbc4b3" change="1708023645" id="E0103">
+      <type>Residence</type>
+      <dateval val="1921"/>
+      <place hlink="_f88cd1e1ae24282465bf3e4780c"/>
+      <citationref hlink="_f88cd6d1dd663fdcbd519b52414"/>
+    </event>
+    <event handle="_f88cd83b02c2b73d3f4c86cab96" change="1708023792" id="E0104">
+      <type>Residence</type>
+      <dateval val="1923"/>
+      <place hlink="_f88cd81cdca1f8e0703f5d988c4"/>
+      <citationref hlink="_f88cd6d1dd663fdcbd519b52414"/>
+    </event>
+    <event handle="_f88cee9b5c9662a38749ff6f73" change="1708026139" id="E0105">
+      <type>Residence</type>
+      <dateval val="1920"/>
+      <place hlink="_f88cdb8ce5325aad9c3e34750bb"/>
+      <citationref hlink="_f88cd6d1dd663fdcbd519b52414"/>
+      <citationref hlink="_f88cee990135852dab00dc6bc1d"/>
     </event>
   </events>
   <people home="_cca1691b7c53559cc53">
@@ -1481,7 +1501,7 @@
       <childof hlink="_cca167070917742a369"/>
       <parentin hlink="_cca16c73e9d13f8c0de"/>
     </person>
-    <person handle="_cca1691b7c53559cc53" change="1658174441" id="I0021">
+    <person handle="_cca1691b7c53559cc53" change="1708026229" id="I0021">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Heikki</first>
@@ -1490,6 +1510,7 @@
       <eventref hlink="_cca168bd25d133ff856" role="Primary"/>
       <eventref hlink="_f1325cca64c3a08ad42a853ca9d" role="Primary"/>
       <eventref hlink="_f1323c5361dc6499bd99e5ad8a" role="Primary"/>
+      <eventref hlink="_f88cee9b5c9662a38749ff6f73" role="Primary"/>
       <eventref hlink="_cdd6fd51e087e594ea3" role="Primary"/>
       <eventref hlink="_f14bc76cc4ccc912a8abb12463" role="Primary"/>
       <eventref hlink="_f14bca66b2a4f5ada1c6a80a25" role="Primary"/>
@@ -2001,7 +2022,7 @@
       <eventref hlink="_da92b39bfc4600552871f1bd378" role="Primary"/>
       <childof hlink="_da92b122a5a46c1ab39223f8115"/>
     </person>
-    <person handle="_f131dccb1452eff1785c6869d00" change="1657556954" id="I0042">
+    <person handle="_f131dccb1452eff1785c6869d00" change="1708023807" id="I0042">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Vuokko Onerva</first>
@@ -2122,11 +2143,13 @@
       <eventref hlink="_cca16d1ddd034493a5d" role="Family"/>
       <childref hlink="_cca16d66b34550400e5"/>
     </family>
-    <family handle="_cdcdbfe443a73c3bb82" change="1657556954" id="F0019">
+    <family handle="_cdcdbfe443a73c3bb82" change="1708023807" id="F0019">
       <rel type="Married"/>
       <father hlink="_cca1691b7c53559cc53"/>
       <mother hlink="_cfa356c7ed1469fab5f"/>
       <eventref hlink="_f131dc8b72f2040bf2d9ea91f7c" role="Family"/>
+      <eventref hlink="_f88cd11eedc4ba41e3501cbc4b3" role="Family"/>
+      <eventref hlink="_f88cd83b02c2b73d3f4c86cab96" role="Family"/>
       <eventref hlink="_e82ad6eae8016df57659dda0ce" role="Family"/>
       <eventref hlink="_e82ad9148fe2ea45e9cf3e410cc" role="Family"/>
       <eventref hlink="_e82adaab4f9684c7be391d6cb49" role="Family"/>
@@ -2575,11 +2598,11 @@
       <noteref hlink="_d0110e3c61248946b87"/>
       <sourceref hlink="_cdd428c8d9374902be3"/>
     </citation>
-    <citation handle="_d01455b60f1053dd61f" change="1502017655" id="C0052">
+    <citation handle="_d01455b60f1053dd61f" change="1708018165" id="C0052">
       <page>7</page>
       <confidence>2</confidence>
-      <noteref hlink="_d01454c5e2f2f621f92"/>
       <noteref hlink="_d32c60c5c375e74f319"/>
+      <noteref hlink="_d01454c5e2f2f621f92"/>
       <sourceref hlink="_d014549d28055d93130"/>
     </citation>
     <citation handle="_d0145824a873dc9ae2d" change="1502017563" id="C0053">
@@ -2769,9 +2792,10 @@
       <noteref hlink="_d0206bb535d623dfa15"/>
       <sourceref hlink="_cdd044203935b79cba4"/>
     </citation>
-    <citation handle="_d32c556700e554b048d" change="1611936817" id="C0082">
+    <citation handle="_d32c556700e554b048d" change="1708018495" id="C0082">
       <page>130-131</page>
       <confidence>2</confidence>
+      <noteref hlink="_f88ca59c9a335c0db3f7b7df93b"/>
       <noteref hlink="_d32c55cbfd41ff9d3d2"/>
       <noteref hlink="_d00da2c75fb7056334d"/>
       <sourceref hlink="_d32c55274ff602643fe"/>
@@ -2796,9 +2820,10 @@
       <noteref hlink="_d32c705f99b0981c9b3"/>
       <sourceref hlink="_d32c702329714486099"/>
     </citation>
-    <citation handle="_da7bf1e12fae7162dae75fcd05" change="1501411734" id="C0086">
+    <citation handle="_da7bf1e12fae7162dae75fcd05" change="1708018522" id="C0086">
       <page>1/173</page>
       <confidence>2</confidence>
+      <noteref hlink="_f88ca5e01863316a8f5327df321"/>
       <noteref hlink="_da7bf1d7c322b5141ce920f2707"/>
       <sourceref hlink="_da7bf0e68956b4377a828a175ed"/>
     </citation>
@@ -2832,7 +2857,7 @@
       <noteref hlink="_da7cbc33d921cd83f13b2c3e7a5"/>
       <sourceref hlink="_cdd3b3e8e60650d5cd6"/>
     </citation>
-    <citation handle="_da7cd18958d75a53b3b89af47e7" change="1595520927" id="C0092">
+    <citation handle="_da7cd18958d75a53b3b89af47e7" change="1708018696" id="C0092">
       <dateval val="2014-08-13"/>
       <page>0</page>
       <confidence>2</confidence>
@@ -2972,31 +2997,35 @@
       <noteref hlink="_da92bef4e8721fe7bd9c3fd3374"/>
       <sourceref hlink="_da92beab9ad5b5977cf5b13d1e0"/>
     </citation>
-    <citation handle="_e82ad5d56487583ea6f92bac30b" change="1595441823" id="C0057">
+    <citation handle="_e82ad5d56487583ea6f92bac30b" change="1708019411" id="C0057">
       <page>1926/574</page>
       <confidence>2</confidence>
+      <noteref hlink="_f88cae691ab228899b89dad4996"/>
       <noteref hlink="_e82ad5c65951042acb7836af534"/>
       <noteref hlink="_e82ad6da2ae34b0db55900572b"/>
       <sourceref hlink="_e82ad58872527dff35572d193fd"/>
     </citation>
-    <citation handle="_e82ad7dab4b4f7c84c3a7b4e3b" change="1595442050" id="C0058">
+    <citation handle="_e82ad7dab4b4f7c84c3a7b4e3b" change="1708019434" id="C0058">
       <page>1927/515</page>
       <confidence>2</confidence>
+      <noteref hlink="_f88caea47cb1b588b4c8879b4da"/>
       <noteref hlink="_e82ad7d7e6823bf26870af5e155"/>
       <noteref hlink="_e82ad8c4c29690f1a5e187f4e39"/>
       <sourceref hlink="_e82ad58872527dff35572d193fd"/>
     </citation>
-    <citation handle="_e82adaa64ba2ef059e03748d902" change="1595442216" id="C0115">
+    <citation handle="_e82adaa64ba2ef059e03748d902" change="1708019467" id="C0115">
       <page>1929/632</page>
       <confidence>2</confidence>
+      <noteref hlink="_f88caee56816b90ce8eff9be65f"/>
       <noteref hlink="_e82ad9bd2892b7790ddf1ee10df"/>
       <noteref hlink="_e82ada9e2746d6833678a794aa0"/>
       <sourceref hlink="_e82ad58872527dff35572d193fd"/>
     </citation>
-    <citation handle="_f130bb1e3dea87b494d7b4716f" change="1657447569" id="C0116">
+    <citation handle="_f130bb1e3dea87b494d7b4716f" change="1708018704" id="C0116">
       <page>TAPONEN HEIKKI</page>
       <confidence>2</confidence>
       <noteref hlink="_f130bbba6fa5d3a51bfaa2c29cf"/>
+      <noteref hlink="_f88c9692eb86fa29169c96882f6"/>
       <sourceref hlink="_f130bb0ddde43a9e3aa05884388"/>
     </citation>
     <citation handle="_f130bcffcfe497c9f6542a1a608" change="1657447697" id="C0117">
@@ -3605,6 +3634,24 @@
       <confidence>2</confidence>
       <sourceref hlink="_f14bbe811d6294bb331053becc2"/>
     </citation>
+    <citation handle="_f88cd6d1dd663fdcbd519b52414" change="1708023644" id="C0197">
+      <page>BB:14 V/1408-1409</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f88cd3b8071406b2173dd70adc2"/>
+      <noteref hlink="_f88cd41ee761408165e2f17c9ea"/>
+      <noteref hlink="_f88cd443c40771b6bc788a1c7b0"/>
+      <noteref hlink="_f88cd6c1f8d6b95ecb9153b22da"/>
+      <sourceref hlink="_f88cd2d90575b5d7d6edfcba324"/>
+    </citation>
+    <citation handle="_f88cee990135852dab00dc6bc1d" change="1708026138" id="C0198">
+      <page>Vi:438/413</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f88cdd2af473e898fbfc13d30f9"/>
+      <noteref hlink="_f88cdd5075978b29a2ecd15cf36"/>
+      <noteref hlink="_f88cdd72fd275b9a92db9b19880"/>
+      <noteref hlink="_f88cde7daa42f98788de5dcb28c"/>
+      <sourceref hlink="_f88cdce92325aba47a8a05b4061"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdd044203935b79cba4" change="1429553707" id="S0000">
@@ -3934,6 +3981,15 @@
       <noteref hlink="_f14bbe744126dd7edc84ae9425a"/>
       <reporef hlink="_d0168c6675349284408" medium="Book"/>
     </source>
+    <source handle="_f88cd2d90575b5d7d6edfcba324" change="1708023253" id="S0065">
+      <stitle>Viipuri henkikirjojen aakkoshakemistot 1919-1923</stitle>
+      <sauthor>Viipurin kaupungin henkikirjoittaja</sauthor>
+      <reporef hlink="_d010e648af6539f6d97" medium="Book"/>
+    </source>
+    <source handle="_f88cdce92325aba47a8a05b4061" change="1708024283" id="S0066">
+      <stitle>Viipuri Henkikirja 1920</stitle>
+      <reporef hlink="_d010e648af6539f6d97" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cca1691056519fef9d5" change="1657487885" id="P0001" type="Town">
@@ -4025,7 +4081,7 @@
       <pname value="Kerimäki"/>
       <placeref hlink="_cdbd00250510bf9a5de"/>
     </placeobj>
-    <placeobj handle="_cdd6fcd85ab77adcf9f" change="1657556550" id="P0029" type="City">
+    <placeobj handle="_cdd6fcd85ab77adcf9f" change="1708023777" id="P0029" type="Town">
       <ptitle>Viipuri, Suomi</ptitle>
       <pname value="Viipuri" lang="fi"/>
       <placeref hlink="_cdbd00250510bf9a5de"/>
@@ -4156,11 +4212,11 @@
       <pname value="hauta 236"/>
       <placeref hlink="_f130b99d6aa26342771449cfde7"/>
     </placeobj>
-    <placeobj handle="_f1317b96f8f27b81cc3695ea66a" change="1657556135" id="P0022" type="Borough">
+    <placeobj handle="_f1317b96f8f27b81cc3695ea66a" change="1708024140" id="P0022" type="Borough">
       <pname value="Pantsarlahti"/>
       <placeref hlink="_cdd6fcd85ab77adcf9f"/>
     </placeobj>
-    <placeobj handle="_f131de2c8ff2c05b0daf9729786" change="1657478019" id="P0028" type="City">
+    <placeobj handle="_f131de2c8ff2c05b0daf9729786" change="1708023856" id="P0028" type="Town">
       <pname value="Oulu"/>
       <placeref hlink="_cdbd00250510bf9a5de"/>
     </placeobj>
@@ -4179,7 +4235,7 @@
       <pname value="Merimiehenkatu 21 A 19"/>
       <placeref hlink="_f1323c4c2ba1c92e024d0ab02eb"/>
     </placeobj>
-    <placeobj handle="_f1324f1f6274371b40fb0e6f0ee" change="1657555742" id="P0049" type="City">
+    <placeobj handle="_f1324f1f6274371b40fb0e6f0ee" change="1708023851" id="P0049" type="Town">
       <pname value="Nokia"/>
       <placeref hlink="_cdbd00250510bf9a5de"/>
     </placeobj>
@@ -4187,7 +4243,7 @@
       <pname value="Nokian hautausmaa"/>
       <placeref hlink="_f1324f1f6274371b40fb0e6f0ee"/>
     </placeobj>
-    <placeobj handle="_f132545191439a468f999615ab2" change="1657490416" id="P0055" type="City">
+    <placeobj handle="_f132545191439a468f999615ab2" change="1708023846" id="P0055" type="Town">
       <pname value="Joutseno"/>
       <placeref hlink="_cdbd00250510bf9a5de"/>
     </placeobj>
@@ -4206,6 +4262,27 @@
     <placeobj handle="_f14bc2980b3765239cd2a037b82" change="1658173059" id="P0059" type="Military unit">
       <pname value="Pohjois-Savon Rykmentti" lang="fi"/>
       <placeref hlink="_cdbd00250510bf9a5de"/>
+    </placeobj>
+    <placeobj handle="_f88cd1e053e532d6e05fd10007e" change="1708023126" id="P0060" type="Borough">
+      <pname value="Pietarin esikaupunki"/>
+      <placeref hlink="_cdd6fcd85ab77adcf9f"/>
+    </placeobj>
+    <placeobj handle="_f88cd1e1ae24282465bf3e4780c" change="1708023127" id="P0061" type="Lot">
+      <pname value="307"/>
+      <placeref hlink="_f88cd1e053e532d6e05fd10007e"/>
+    </placeobj>
+    <placeobj handle="_f88cd8184c14a969156db779598" change="1708023778" id="P0062" type="Borough">
+      <pname value="Anina"/>
+      <placeref hlink="_cdd6fcd85ab77adcf9f"/>
+    </placeobj>
+    <placeobj handle="_f88cd81cdca1f8e0703f5d988c4" change="1708023780" id="P0063" type="Lot">
+      <pname value="116"/>
+      <placeref hlink="_f88cd8184c14a969156db779598"/>
+    </placeobj>
+    <placeobj handle="_f88cdb8ce5325aad9c3e34750bb" change="1708024140" id="P0064" type="Building">
+      <code>60</code>
+      <pname value="Kullervonkatu 7"/>
+      <placeref hlink="_f1317b96f8f27b81cc3695ea66a"/>
     </placeobj>
   </places>
   <repositories>
@@ -4233,7 +4310,7 @@
       <url  href="http://www.arkisto.fi/arkistolaitos/kansallisarkisto/" type="Web Home"/>
       <url  href="https://astia.narc.fi/astiaUi/" type="Web Search" description="Astia-verkkopalvelu"/>
     </repository>
-    <repository handle="_d010e648af6539f6d97" change="1430039153" id="R0003">
+    <repository handle="_d010e648af6539f6d97" change="1708024281" id="R0003">
       <rname>Arkistolaitos Astia-verkkopalvelu</rname>
       <type>Archive</type>
       <url  href="https://astia.narc.fi/astiaUi/" type="Web Home"/>
@@ -4646,14 +4723,21 @@ https://astia.narc.fi/uusiastia/viewer/?fileId=5821449292&amp;aineistoId=1193190
         <range start="46" end="125"/>
       </style>
     </note>
-    <note handle="_d00da2c75fb7056334d" change="1501409562" id="N0070" type="Transcript" format="1">
-      <text>Heinäkuu
+    <note handle="_d00da2c75fb7056334d" change="1708018468" id="N0070" type="Transcript" format="1">
+      <text>130
+          Syntyneet ja Kastetut Rääkkylän seurakunnassa
+                     Kesäkuussa v. 1896
+[...]
+                       Heinäkuu 1896
 
-2	2/8	994	Heikki Vt: Lois Juho Taponen ja vo Anna Kiiski, Oravisalo Kmt: 	1	-	39
-			lois Heikki Kiiski ja lois Eva Nykänen
-												A Virkkala</text>
+2  2/8  994  Heikki Vt: Lois Juho Tapanen ja vo Anna Kiiski, Oravisalo Kmt: 1 _  39
+             Lois Heikki Kiiski ja lois Eva Nykänen
+                                                               A Virkkala</text>
       <style name="underline">
-        <range start="20" end="26"/>
+        <range start="157" end="163"/>
+      </style>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="353"/>
       </style>
     </note>
     <note handle="_d00da658ac743999123" change="1430055637" id="N0071" type="Transcript" format="1">
@@ -5172,7 +5256,7 @@ Hu Maria Rehunen	1804	}</text>
       <text>Inh	Jöran Tapanen	1799		} fr. pag. 159
 Hu	Maria Rehuin	1804		}  -1838-</text>
     </note>
-    <note handle="_d32c55cbfd41ff9d3d2" change="1502023449" id="N0133" type="Url">
+    <note handle="_d32c55cbfd41ff9d3d2" change="1708018492" id="N0133" type="Link">
       <text>http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26281&amp;pnum=62</text>
       <style name="link" value="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26281&amp;pnum=62">
         <range start="0" end="76"/>
@@ -5232,7 +5316,7 @@ Hu	Maria Rehuin	1804		}  -1838-</text>
         <range start="0" end="76"/>
       </style>
     </note>
-    <note handle="_da7bf1d7c322b5141ce920f2707" change="1501411708" id="N0006" type="Url">
+    <note handle="_da7bf1d7c322b5141ce920f2707" change="1708018519" id="N0006" type="Link">
       <text>http://digi.narc.fi/digi/view.ka?kuid=40487075
 https://astia.narc.fi/uusiastia/viewer/?fileId=4492518642&amp;aineistoId=1056486481</text>
       <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=40487075">
@@ -5308,7 +5392,7 @@ https://astia.narc.fi/uusiastia/viewer/?fileId=5821204682&amp;aineistoId=1193384
         <range start="46" end="125"/>
       </style>
     </note>
-    <note handle="_da7cd18513e2fd7ee0a260c5027" change="1502017805" id="N0014" type="Url">
+    <note handle="_da7cd18513e2fd7ee0a260c5027" change="1708018687" id="N0014" type="Link">
       <text>https://billiongraves.com/grave/Heikki-Taponen/17933595</text>
       <style name="link" value="https://billiongraves.com/grave/Heikki-Taponen/17933595">
         <range start="0" end="55"/>
@@ -5596,7 +5680,7 @@ https://astia.narc.fi/uusiastia/viewer/?fileId=5822288098&amp;aineistoId=1851883
         <range start="52" end="61"/>
       </style>
     </note>
-    <note handle="_e82ad9bd2892b7790ddf1ee10df" change="1595442120" id="N0091" type="Transcript" format="1">
+    <note handle="_e82ad9bd2892b7790ddf1ee10df" change="1708019466" id="N0091" type="Link" format="1">
       <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/1262789?page=758</text>
       <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/1262789?page=758">
         <range start="0" end="68"/>
@@ -5612,16 +5696,19 @@ https://astia.narc.fi/uusiastia/viewer/?fileId=5822288098&amp;aineistoId=1851883
         <range start="50" end="60"/>
       </style>
     </note>
-    <note handle="_e82dc937c593ef80d67d6f3a8a2" change="1595520919" id="N0155" type="Transcript" format="1">
-      <text>          TAPONEN
+    <note handle="_e82dc937c593ef80d67d6f3a8a2" change="1708016744" id="N0155" type="Transcript" format="1">
+      <text>       TAPONEN
 
-             HEIKKI
+       HEIKKI
 *2.7.1896  +29.12.1952
 
-              MARIA
+        MARIA
 *13.8.1894  +22.11.1965</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="91"/>
+      </style>
       <style name="fontsize" value="10">
-        <range start="0" end="106"/>
+        <range start="0" end="91"/>
       </style>
     </note>
     <note handle="_e82dca6310745f9b55b357b14c3" change="1657490852" id="N0156" type="Transcript" format="1">
@@ -5760,7 +5847,7 @@ virastossa [27] p [helmi]kuuta 19[53]
         <range start="1210" end="1223"/>
       </style>
     </note>
-    <note handle="_f130bbba6fa5d3a51bfaa2c29cf" change="1657447564" id="N0159" type="Source text">
+    <note handle="_f130bbba6fa5d3a51bfaa2c29cf" change="1708018649" id="N0159" type="Source text">
       <text>TAPONEN HEIKKI
 1896 - 1952
 Helsingin seurakuntayhtymä, Malmin hautausmaa
@@ -5773,7 +5860,11 @@ Malmin kalmistotie
 Alue	00
 Kortteli	029
 Rivi	15
-Paikkanumero	00236</text>
+Paikkanumero	00236
+Samaan hautaan haudatut
+TAPONEN MARIA
+Syntymävuosi1894
+Kuolinvuosi1965</text>
     </note>
     <note handle="_f130bcf46b23547c6573dd27f8a" change="1657447692" id="N0160" type="Citation">
       <text>TAPONEN MARIA
@@ -5811,6 +5902,8 @@ https://www.myheritage.fi/person-1505408_609206631_609206631/heikki-taponen#!eve
 https://www.myheritage.fi/person-1505408_609206631_609206631/heikki-taponen#!events</text>
     </note>
     <note handle="_f131de714b34f5da3091155bd5c" change="1657490072" id="N0166" type="Event Note">
+      <text>
+    </text>
     </note>
     <note handle="_f132229a6c93fbc8e8bfaf38b99" change="1657529158" id="N0167" type="Transcript">
       <text>Toimenhaltijan henkilökortti
@@ -6872,6 +6965,92 @@ gin poliisilaitkseen komentamiseensa saakka.
 </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="726"/>
+      </style>
+    </note>
+    <note handle="_f88c9692eb86fa29169c96882f6" change="1708016908" id="N0316" type="Link">
+      <text>https://www.hautahaku.fi/map/03-00-029-15-00236/TAPONEN%20HEIKKI</text>
+      <style name="link" value="https://www.hautahaku.fi/map/03-00-029-15-00236/TAPONEN%20HEIKKI">
+        <range start="0" end="64"/>
+      </style>
+    </note>
+    <note handle="_f88ca59c9a335c0db3f7b7df93b" change="1708018485" id="N0317" type="Citation">
+      <text>Rääkkylä syntyneet 1892-1905 (MKO9-17)  Sivu 130 1896 kesäkuu, heinäkuu ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26281&amp;pnum=62 / Viitattu 15.02.2024</text>
+    </note>
+    <note handle="_f88ca5e01863316a8f5327df321" change="1708018512" id="N0318" type="Citation">
+      <text>Kansaneläkelaitoksen henkilökortit -arkisto. Bi Vuosina 1950-1958 kuolleiden henkilöiden hakemistokortit. 92_1 Vuosina 1950-1958 kuolleiden henkilöiden hakemistokortit, Tapaninen, Arvi - Thölix, Johan  (--). Tiedosto 173. Kansallisarkisto. Viitattu 15.2.2024.</text>
+    </note>
+    <note handle="_f88cae691ab228899b89dad4996" change="1708019407" id="N0319" type="Citation">
+      <text>Viipurin kaupungin osoitekalenteri ja liikehakemisto, 01.01.1926, s. 598
+https://digi.kansalliskirjasto.fi/aikakausi/binding/1262791?page=598
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f88caea47cb1b588b4c8879b4da" change="1708019432" id="N0320" type="Citation">
+      <text>Viipurin kaupungin osoitekalenteri ja liikehakemisto, 01.01.1927, s. 539
+https://digi.kansalliskirjasto.fi/aikakausi/binding/1262790?page=539
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f88caee56816b90ce8eff9be65f" change="1708019458" id="N0321" type="Citation">
+      <text>Viipurin kaupungin osoitekalenteri ja liikehakemisto, 01.01.1929, s. 758
+https://digi.kansalliskirjasto.fi/aikakausi/binding/1262789?page=758
+Kansalliskirjaston digitaaliset aineistot
+</text>
+    </note>
+    <note handle="_f88cd3b8071406b2173dd70adc2" change="1708023319" id="N0322" type="Citation">
+      <text>Viipurin kaupungin henkikirjoittajan arkisto. B LUETTELOT. Bb Henkikirjojen aakkoshakemistot. Bb:14 Henkikirjojen aakkoshakemistot, V Rousku - Töyrylä  (1919-1923). Tiedosto 110. Kansallisarkisto. Viitattu 15.2.2024.</text>
+    </note>
+    <note handle="_f88cd41ee761408165e2f17c9ea" change="1708023361" id="N0323" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=6025380993&amp;aineistoId=320161560</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=6025380993&amp;aineistoId=320161560">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f88cd443c40771b6bc788a1c7b0" change="1708023377" id="N0324" type="Link">
+      <text>https://digihakemisto.net/item/320161560/6025380993/110</text>
+      <style name="link" value="https://digihakemisto.net/item/320161560/6025380993/110">
+        <range start="0" end="55"/>
+      </style>
+    </note>
+    <note handle="_f88cd6c1f8d6b95ecb9153b22da" change="1708024209" id="N0325" type="Transcript" format="1">
+      <text>1409
+                                   1919   1920   1921   1922   1923
+Taponen
+
+Heikki                                    10/60
+
+Heikki  konstaap.96                              7/307         9/116
+Maikki  &quot;     vo 94                              7/307         9/116
+
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="270"/>
+      </style>
+    </note>
+    <note handle="_f88cdd2af473e898fbfc13d30f9" change="1708024310" id="N0326" type="Citation">
+      <text>Viipurin läänin henkikirjat. Vi Henkikirjat. Vi:438 Henkikirja  (1920-1920). Tiedosto 8471. Kansallisarkisto. Viitattu 15.2.2024.</text>
+    </note>
+    <note handle="_f88cdd5075978b29a2ecd15cf36" change="1708024325" id="N0327" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=6189492051&amp;aineistoId=2307115882</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=6189492051&amp;aineistoId=2307115882">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f88cdd72fd275b9a92db9b19880" change="1708024340" id="N0328" type="Link">
+      <text>https://digihakemisto.net/item/2307115882/6189492051/417</text>
+      <style name="link" value="https://digihakemisto.net/item/2307115882/6189492051/417">
+        <range start="0" end="56"/>
+      </style>
+    </note>
+    <note handle="_f88cde7daa42f98788de5dcb28c" change="1708024449" id="N0329" type="Transcript" format="1">
+      <text>Wiipurin kaupungin henkikirja vuonna 1920  siv 413
+
+[Pantsarlahti 60  Kullervon  7]
+
+                                 [V] Poliisi Heikki Taponen 96,
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="149"/>
       </style>
     </note>
   </notes>

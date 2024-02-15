@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2024-02-13" version="5.1.6"/>
+    <created date="2024-02-15" version="5.1.6"/>
     <researcher>
       <resname>John Nordberg</resname>
     </researcher>
@@ -13,14 +13,14 @@
     <format number="-1" name="Primary[sur] " fmt_str="primary[sur] " active="1"/>
   </name-formats>
   <events>
-    <event handle="_cb589cc7fdd37b0f6f4" change="1533213429" id="E0010">
+    <event handle="_cb589cc7fdd37b0f6f4" change="1708010693" id="E0010">
       <type>Birth</type>
       <dateval val="1907-02-27"/>
       <place hlink="_cb589cc823618ba6dad"/>
       <citationref hlink="_df1c587e5ce6cb0d7686e8b8c8"/>
       <citationref hlink="_df1ca6a98022a11206cc83537b1"/>
     </event>
-    <event handle="_cb589cc7fec65cb386b" change="1707779109" id="E0011">
+    <event handle="_cb589cc7fec65cb386b" change="1708010711" id="E0011">
       <type>Death</type>
       <dateval val="1995-12-09"/>
       <place hlink="_df1c48cac856c80b54de6a3a824"/>
@@ -38,7 +38,7 @@
       <citationref hlink="_e171499af512b012f9f651516cf"/>
       <citationref hlink="_cfbf86311dd4f3afa62"/>
     </event>
-    <event handle="_cb589cc82001ad9c229" change="1414326266" id="E0042">
+    <event handle="_cb589cc82001ad9c229" change="1708011201" id="E0042">
       <type>Birth</type>
       <dateval val="1881-05-23"/>
       <place hlink="_cb589cc82045ad6c741"/>
@@ -169,7 +169,7 @@
       <type>Death</type>
       <dateval val="1946-12-18"/>
     </event>
-    <event handle="_cb589cc8a6b4de5dc52" change="1593955074" id="E0132">
+    <event handle="_cb589cc8a6b4de5dc52" change="1708011416" id="E0132">
       <type>Birth</type>
       <dateval val="1916-07-06"/>
       <place hlink="_cb589cc823618ba6dad"/>
@@ -831,13 +831,13 @@
       <type>Death</type>
       <dateval val="1918-01-16"/>
     </event>
-    <event handle="_cb589cfbc537e0122c4" change="1533216150" id="E7039">
+    <event handle="_cb589cfbc537e0122c4" change="1708010728" id="E7039">
       <type>Marriage</type>
       <dateval val="1944-09-30"/>
       <place hlink="_df1c48cac856c80b54de6a3a824"/>
       <citationref hlink="_df1cc0998d35825d9515eb9afe1"/>
     </event>
-    <event handle="_cb589cfbce519e985e0" change="1532288340" id="E7042">
+    <event handle="_cb589cfbce519e985e0" change="1708011643" id="E7042">
       <type>Marriage</type>
       <dateval val="1906-06-04"/>
       <place hlink="_cfa6f2692ad35c8daa1"/>
@@ -932,7 +932,7 @@
       <place hlink="_cb589cc823618ba6dad"/>
       <citationref hlink="_cfa712794046721a717"/>
     </event>
-    <event handle="_d16b63a9b59340dc29a" change="1439124063" id="E0225">
+    <event handle="_d16b63a9b59340dc29a" change="1708012191" id="E0225">
       <type>Residence</type>
       <datespan start="1906" stop="1909"/>
       <place hlink="_cb589cc823618ba6dad"/>
@@ -1131,7 +1131,7 @@
       <place hlink="_cb589ccd21b4dd50886"/>
       <citationref hlink="_d17c68442f83c90e181"/>
     </event>
-    <event handle="_df1c4ccc06f2fee342d59915a0b" change="1707779113" id="E0262">
+    <event handle="_df1c4ccc06f2fee342d59915a0b" change="1708010717" id="E0262">
       <type>Estate Inventory</type>
       <dateval val="1996-02-22"/>
       <place hlink="_df1c48cac856c80b54de6a3a824"/>
@@ -1155,13 +1155,13 @@
       <place hlink="_df1c48cac856c80b54de6a3a824"/>
       <citationref hlink="_df1c92b39361d64abce365d90eb"/>
     </event>
-    <event handle="_df1cbb868e34d4c89b5af8fd5ce" change="1533215613" id="E0266">
+    <event handle="_df1cbb868e34d4c89b5af8fd5ce" change="1708010698" id="E0266">
       <type>Residence</type>
       <dateval val="1931-03-03" type="before"/>
       <place hlink="_cfa6f2692ad35c8daa1"/>
       <citationref hlink="_df1c587e5ce6cb0d7686e8b8c8"/>
     </event>
-    <event handle="_df1cbc1ff3e60ae38305bbe5a4d" change="1533333484" id="E0267">
+    <event handle="_df1cbc1ff3e60ae38305bbe5a4d" change="1708010704" id="E0267">
       <type>Residence</type>
       <datespan start="1931-03-03" stop="1934-09-26"/>
       <place hlink="_df1cbc076775143a35860ef861e"/>
@@ -1179,7 +1179,7 @@
       <place hlink="_df1c48cac856c80b54de6a3a824"/>
       <citationref hlink="_df1c587e5ce6cb0d7686e8b8c8"/>
     </event>
-    <event handle="_df1cc1e8ff416de4a4c4f9482fe" change="1533216283" id="E0270">
+    <event handle="_df1cc1e8ff416de4a4c4f9482fe" change="1708010733" id="E0270">
       <type>Residence</type>
       <dateval val="1969-01-23" type="before"/>
       <place hlink="_df1c48cac856c80b54de6a3a824"/>
@@ -2861,11 +2861,14 @@
     </family>
   </families>
   <citations>
-    <citation handle="_cdcfc2532ac0a42deee" change="1414326263" id="C0025">
+    <citation handle="_cdcfc2532ac0a42deee" change="1708011199" id="C0025">
       <dateval val="1881-05-23"/>
       <page>8</page>
       <confidence>2</confidence>
+      <noteref hlink="_f88c5d410cf78059e8d35169ad4"/>
       <noteref hlink="_cdcfc0d83431addb821"/>
+      <noteref hlink="_f88c5d731fe28c565384d9e7f9e"/>
+      <noteref hlink="_f88c601a605561946a16ab15cdb"/>
       <sourceref hlink="_cdcfc23e89e2b9f42c7"/>
     </citation>
     <citation handle="_cfa6fb7e4ed72012c61" change="1426975706" id="C0000">
@@ -2929,10 +2932,11 @@
       <noteref hlink="_cfc041730c2273fe170"/>
       <sourceref hlink="_cfbf8376f243a6523c5"/>
     </citation>
-    <citation handle="_d16b528d3bd6b604b0c" change="1532288339" id="C0010">
+    <citation handle="_d16b528d3bd6b604b0c" change="1708011641" id="C0010">
       <dateval val="1906-06-04"/>
       <page>120</page>
       <confidence>2</confidence>
+      <noteref hlink="_f88c62c5c0d4d3dcf0fd5507490"/>
       <noteref hlink="_d16b53094f142340ef9"/>
       <noteref hlink="_d16b568107a58bf709b"/>
       <sourceref hlink="_d16b5236e811c77a3aa"/>
@@ -2971,10 +2975,12 @@
       <noteref hlink="_f8839ebcb5ddc86c034869aa84"/>
       <sourceref hlink="_d16b879bfcb2a4bcbb6"/>
     </citation>
-    <citation handle="_d16b8c8742313611f67" change="1439124058" id="C0015">
+    <citation handle="_d16b8c8742313611f67" change="1708012190" id="C0015">
       <page>686</page>
       <confidence>2</confidence>
+      <noteref hlink="_f88c648536f2b38000354519d06"/>
       <noteref hlink="_d16b8c8391f41576c86"/>
+      <noteref hlink="_f88c69895ab729a1e50c511f638"/>
       <sourceref hlink="_d16b802ca800f3d590a"/>
     </citation>
     <citation handle="_d16bdc0e79b12148c68" change="1439132397" id="C0016">
@@ -3243,9 +3249,10 @@
       <noteref hlink="_d17c6842a0a69853642"/>
       <sourceref hlink="_d1797875951238368b4"/>
     </citation>
-    <citation handle="_defa3a1e9bb53987ceaa11f20cb" change="1533205567" id="C0058">
+    <citation handle="_defa3a1e9bb53987ceaa11f20cb" change="1708011411" id="C0058">
       <page>622-623</page>
       <confidence>2</confidence>
+      <noteref hlink="_f88c60ae8054cd9f2f38a5de16a"/>
       <noteref hlink="_defa3a195b351304acba848da58"/>
       <noteref hlink="_defa3dbe260680ae1371403d28a"/>
       <sourceref hlink="_defa39ccc5b79669c92a4f7dc09"/>
@@ -3293,10 +3300,12 @@
       <confidence>2</confidence>
       <sourceref hlink="_df1c979c53234d58cab1d82c792"/>
     </citation>
-    <citation handle="_df1ca6a98022a11206cc83537b1" change="1533213426" id="C0066">
+    <citation handle="_df1ca6a98022a11206cc83537b1" change="1708010690" id="C0066">
       <page>150-151</page>
       <confidence>2</confidence>
+      <noteref hlink="_f88c592068c6b5ca8118a39fc50"/>
       <noteref hlink="_df1ca6a6a6d12dcd1afc5371dc1"/>
+      <noteref hlink="_f88c5b38d7c59ecea9273fe713f"/>
       <sourceref hlink="_defa39ccc5b79669c92a4f7dc09"/>
     </citation>
     <citation handle="_df1ca7b3c4d50e4f88194b1bf62" change="1704161096" id="C0067">
@@ -3969,7 +3978,7 @@
     </repository>
   </repositories>
   <notes>
-    <note handle="_cdcfc0d83431addb821" change="1439366080" id="N0097" type="Url">
+    <note handle="_cdcfc0d83431addb821" change="1708010925" id="N0097" type="Link">
       <text>http://www.sukuhistoria.fi/sshy/kirjat/Kirkonkirjat/toivakka/syntyneet_1880-1885_mko1-2/8.htm</text>
     </note>
     <note handle="_cfa6fcc9740118b84a2" change="1426975703" id="N0000" type="Url">
@@ -4102,10 +4111,16 @@ https://astia.narc.fi/uusiastia/viewer/?fileId=5766010161&amp;aineistoId=1204183
         <range start="46" end="125"/>
       </style>
     </note>
-    <note handle="_d16b568107a58bf709b" change="1439367255" id="N0014" type="Transcript" format="1">
-      <text>[VI]		4.	686	Tal.poika Juho Juhonp. Kähkönen Weijalasta 9		28.	25.	1
-		1.	Karjakko Iida Emilia Miinant. Matarainen Kirkonkylä
-			                                                                      Wihki K. Sirelius.</text>
+    <note handle="_d16b568107a58bf709b" change="1708011638" id="N0014" type="Transcript" format="1">
+      <text>                                            Vuonna 1906    Sivu 120
+Avioliittoon vihityt Hiitolan seurakunnassa
+
+[VI]  4.  686  Tal.poika Juho Juhonp. Kähkönen Weijalasta 9         28.  25.  [kaksi naimatonta]
+            1  Karjakko Iida Emilia Miinant. Matarainen Kirkonkylä
+                                                Wihki K. Sirelius.</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="343"/>
+      </style>
     </note>
     <note handle="_d16b6177a7947c09132" change="1439119543" id="N0015" type="Url">
       <text>http://digi.narc.fi/digi/view.ka?kuid=3167930
@@ -4438,17 +4453,17 @@ https://astia.narc.fi/uusiastia/viewer/?fileId=5766032116&amp;aineistoId=1203975
         <range start="46" end="125"/>
       </style>
     </note>
-    <note handle="_defa3dbe260680ae1371403d28a" change="1533205565" id="N0065" type="Transcript" format="1">
+    <note handle="_defa3dbe260680ae1371403d28a" change="1708011408" id="N0065" type="Transcript" format="1">
       <text>Syntyneet ja Kastetut Hiitolan seurakunnassa
 						Heinäkuussa v.1906
 
-6	20/8	763	Pauli Voitto Olavi }			(Yksin.) Talp. Juho Käh	2 / 	
-			Kaino Arvo Päiviö } kaksoset	kösen v. Iida Matarainen,
-			Weijala no9 Kmit talp. Pekka Kähkönen ja taltr
-			Aliina Lankinen, tms. Pekka Turunen ja tyttärensä Helmi
-							Kastoi L. K. Sirelius.</text>
-      <style name="fontface" value="Sans">
-        <range start="0" end="331"/>
+6  20/8  763  Pauli Voitto Olavi }kaksoset  (Yksin.) Talp. Juho Käh    2 _  35 	
+              Kaino Arvo Päiviö  }           kösen v. Iida Matarainen,
+              Weijala no9 Kmit talp. Pekka Kähkönen ja taltr
+              Aliina Lankinen, tms. Pekka Turunen ja tyttärensä Helmi
+                                                Kastoi L. K. Sirelius.</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="424"/>
       </style>
     </note>
     <note handle="_defa5b3332232f3a5994041656" change="1532292832" id="N0066" type="Url">
@@ -4921,6 +4936,79 @@ list                                          Single   Occupation               
 [389935]9  5  Kähkönen  Juho   34        m    m        Labourer    [yes]  [yes]  [Finland]    [Finnish]  [Finland]  Hiitola  Wife Ida Kähkönen Weijola Hiitola  Minn   Virginia</text>
       <style name="fontface" value="Monospace">
         <range start="0" end="799"/>
+      </style>
+    </note>
+    <note handle="_f88c592068c6b5ca8118a39fc50" change="1708010465" id="N0113" type="Citation">
+      <text>Hiitolan seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I C Syntyneiden ja kastettujen luettelot. I C:12 Syntyneiden ja kastettujen luettelot  (1901-1916). Tiedosto 76. Kansallisarkisto. Viitattu 15.2.2024.</text>
+    </note>
+    <note handle="_f88c5b38d7c59ecea9273fe713f" change="1708010684" id="N0114" type="Transcript" format="1">
+      <text>                                                  151
+Syntyneet ja Kastetut Hiitola seurakunnassa
+              Helmikuussa v. 1907
+
+27  24/3  686  Rauha Katri Par. Talp Juho Kähkönen v Iida Matarainen, Weijala 9   _ 1  25
+               T: Topias Paukkunen vo Maria Ijäs, Toivo Kähkönen, Lydia Kähkönen
+                                                                   L.K. Sirelius</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="384"/>
+      </style>
+    </note>
+    <note handle="_f88c5d410cf78059e8d35169ad4" change="1708010897" id="N0115" type="Citation">
+      <text>Toivakka syntyneet 1880-1889 (AP I Ca:1)  Sivu 64-65 1881 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=25667&amp;pnum=9 / Viitattu 15.02.2024</text>
+    </note>
+    <note handle="_f88c5d731fe28c565384d9e7f9e" change="1708010918" id="N0116" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=25667&amp;pnum=9</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=25667&amp;pnum=9">
+        <range start="0" end="76"/>
+      </style>
+    </note>
+    <note handle="_f88c601a605561946a16ab15cdb" change="1708011196" id="N0117" type="Transcript" format="1">
+      <text>                                      65
+Syntyneitä ja kastetuita vuonna 1881
+
+               Toukokuu
+
+28  6/6  Ida Emelia  _ 1  Äiti: Torpantr. Wilhelmina Matintr Matarai-
+                          nen Matara-ahon Hakalalta                                 22  107
+  N. Järvinen, p.l.       Kt. Loin. Wilppu Salenius ja tal. emäntä Anna Matara-aho</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="348"/>
+      </style>
+    </note>
+    <note handle="_f88c60ae8054cd9f2f38a5de16a" change="1708011257" id="N0118" type="Citation">
+      <text>Hiitolan seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I C Syntyneiden ja kastettujen luettelot. I C:12 Syntyneiden ja kastettujen luettelot  (1901-1916). Tiedosto 232. Kansallisarkisto. Viitattu 15.2.2024.</text>
+    </note>
+    <note handle="_f88c62c5c0d4d3dcf0fd5507490" change="1708011476" id="N0119" type="Citation">
+      <text>Hiitolan seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I E Kuulutettujen ja vihittyjen luettelot. I Eb Vihittyjen luettelot. I Eb:3 Vihittyjen luettelot  (1891-1914). Tiedosto 62. Kansallisarkisto. Viitattu 15.2.2024.</text>
+    </note>
+    <note handle="_f88c648536f2b38000354519d06" change="1708011659" id="N0120" type="Citation">
+      <text>Hiitolan seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A Pääkirjat hakemistoineen. I Aa Pää- ja rippikirjat. I Aa:19 Rippikirjat, Kylälahti - Yläkokkola  (1900-1909). Tiedosto 314. Kansallisarkisto. Viitattu 15.2.2024.</text>
+    </note>
+    <note handle="_f88c69895ab729a1e50c511f638" change="1708012185" id="N0121" type="Transcript" format="1">
+      <text>686          Weijala No 9
+Sepänmäki
+
+Tal. Matti Jaakonp. Mäkeläinen      1 _  7/7  1856   Hiitola
+Wo Maria Matintr Paukkunen          _ 1  24/8 1870   &quot;
+
+
+Tal. Juho Paavonp. Kähkönen         1 _  28/5 1842   Hiitola
+Wo Katri Martintr Eerikäinen        _ 1  4/7  1857   &quot;
+
+P. Juho Juhonp. Kähkönen            1 _  19/5 1878   &quot;
+vmo Iida Emilia Minantr Matarainen  _ 1  20/5 1881   Toivakka
+
+Weli Paavo Paavonp Kähkönen         1 _  26/6 1855   &quot;
+Wo Maria Martintr Eerikäinen        _ 1  4/7  1860   &quot;
+
+P. Toivo Juho Paavonp Kähkönen      1 _  29/6 1886   &quot;
+
+Tr Lydia Anna Paavontr Kähkönen     _ 1  27/9 1888   &quot;
+Tr Hilja Paavontr Kähkönen          _ 1  24/9 1892   &quot;
+
+</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="668"/>
       </style>
     </note>
   </notes>
