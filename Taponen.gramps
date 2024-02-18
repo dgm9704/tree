@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2024-02-15" version="5.1.6"/>
+    <created date="2024-02-18" version="5.1.6"/>
     <researcher>
     </researcher>
     <mediapath>/home/john/3Taponen_2014-10-29.gpkg.media</mediapath>
@@ -154,7 +154,7 @@
       <citationref hlink="_d0169be00b702b26569"/>
       <citationref hlink="_da7cd18958d75a53b3b89af47e7"/>
     </event>
-    <event handle="_cca1691384735bf6855" change="1708018718" id="E0027">
+    <event handle="_cca1691384735bf6855" change="1708254656" id="E0027">
       <type>Death</type>
       <dateval val="1952-12-29"/>
       <place hlink="_cca1691056519fef9d5"/>
@@ -725,7 +725,7 @@
       <citationref hlink="_d01455b60f1053dd61f"/>
       <citationref hlink="_d0145824a873dc9ae2d"/>
     </event>
-    <event handle="_d017296e34e013b1cf6" change="1708018711" id="E0128">
+    <event handle="_d017296e34e013b1cf6" change="1708254633" id="E0128">
       <type>Burial</type>
       <dateval val="1953-01-11"/>
       <place hlink="_f130b9b233b61a1735522db28e6"/>
@@ -2857,10 +2857,11 @@
       <noteref hlink="_da7cbc33d921cd83f13b2c3e7a5"/>
       <sourceref hlink="_cdd3b3e8e60650d5cd6"/>
     </citation>
-    <citation handle="_da7cd18958d75a53b3b89af47e7" change="1708018696" id="C0092">
+    <citation handle="_da7cd18958d75a53b3b89af47e7" change="1708254611" id="C0092">
       <dateval val="2014-08-13"/>
       <page>0</page>
       <confidence>2</confidence>
+      <noteref hlink="_f895716c3d033c0a9f82143ba63"/>
       <noteref hlink="_da7cd18513e2fd7ee0a260c5027"/>
       <noteref hlink="_e82dc937c593ef80d67d6f3a8a2"/>
       <sourceref hlink="_da7cd105eaa437f39d9cfcb1a75"/>
@@ -3021,11 +3022,12 @@
       <noteref hlink="_e82ada9e2746d6833678a794aa0"/>
       <sourceref hlink="_e82ad58872527dff35572d193fd"/>
     </citation>
-    <citation handle="_f130bb1e3dea87b494d7b4716f" change="1708018704" id="C0116">
+    <citation handle="_f130bb1e3dea87b494d7b4716f" change="1708254533" id="C0116">
       <page>TAPONEN HEIKKI</page>
       <confidence>2</confidence>
-      <noteref hlink="_f130bbba6fa5d3a51bfaa2c29cf"/>
+      <noteref hlink="_f89570385a9715adb43ff3ed748"/>
       <noteref hlink="_f88c9692eb86fa29169c96882f6"/>
+      <noteref hlink="_f130bbba6fa5d3a51bfaa2c29cf"/>
       <sourceref hlink="_f130bb0ddde43a9e3aa05884388"/>
     </citation>
     <citation handle="_f130bcffcfe497c9f6542a1a608" change="1657447697" id="C0117">
@@ -5847,7 +5849,7 @@ virastossa [27] p [helmi]kuuta 19[53]
         <range start="1210" end="1223"/>
       </style>
     </note>
-    <note handle="_f130bbba6fa5d3a51bfaa2c29cf" change="1708018649" id="N0159" type="Source text">
+    <note handle="_f130bbba6fa5d3a51bfaa2c29cf" change="1708253994" id="N0159" type="Source text">
       <text>TAPONEN HEIKKI
 1896 - 1952
 Helsingin seurakuntayhtymä, Malmin hautausmaa
@@ -5863,8 +5865,8 @@ Rivi	15
 Paikkanumero	00236
 Samaan hautaan haudatut
 TAPONEN MARIA
-Syntymävuosi1894
-Kuolinvuosi1965</text>
+Syntymävuosi	1894
+Kuolinvuosi	1965</text>
     </note>
     <note handle="_f130bcf46b23547c6573dd27f8a" change="1657447692" id="N0160" type="Citation">
       <text>TAPONEN MARIA
@@ -7052,6 +7054,15 @@ Maikki  &quot;     vo 94                              7/307         9/116
       <style name="fontface" value="Monospace">
         <range start="0" end="149"/>
       </style>
+    </note>
+    <note handle="_f8956de10dc52361dd452931a77" change="1708254233" id="N0330" type="Citation">
+      <text>Hautahaku.fi; 2024; Verkkosivu; Viitattu 28.2.2024; https://www.hautahaku.fi/map/03-00-029-15-00236/TAPONEN%20HEIKKI</text>
+    </note>
+    <note handle="_f89570385a9715adb43ff3ed748" change="1708254510" id="N0331" type="Citation">
+      <text>Helsingin seurakuntayhtymä. Malmin hautausmaa. Alue 00. Kortteli 029. Rivi 15. Paikkanumero 00236. TAPONEN HEIKKI. Hautahaku.fi. Verkkosivu. Viitattu 18.2.2024. https://www.hautahaku.fi/map/03-00-029-15-00236/TAPONEN%20HEIKKI</text>
+    </note>
+    <note handle="_f895716c3d033c0a9f82143ba63" change="1708254604" id="N0332" type="Citation">
+      <text>BillionGraves.com record for Heikki Taponen (2 July 1896 - 29 December 1952), BillionGraves Record Malmin hautausmaa, Helsinki, Uusimaa, Uusimaa, Finland, Europe</text>
     </note>
   </notes>
 </database>
