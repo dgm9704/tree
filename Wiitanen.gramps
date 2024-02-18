@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2023-07-25" version="5.1.6"/>
+    <created date="2024-02-18" version="5.1.6"/>
     <researcher>
     </researcher>
   </header>
@@ -15,7 +15,7 @@
       <citationref hlink="_cfcf2d46b6642aced58"/>
       <citationref hlink="_f5f851a54f5238de04422a887f2"/>
     </event>
-    <event handle="_cfcf30716194d8d72f3" change="1598176892" id="E0001">
+    <event handle="_cfcf30716194d8d72f3" change="1690312733" id="E0001">
       <type>Birth</type>
       <dateval val="1862-08-08"/>
       <place hlink="_d574d7e9ef87c9d967b2ea578f"/>
@@ -946,7 +946,7 @@
       <citationref hlink="_e7302711c274eb8030f81b255c"/>
       <citationref hlink="_d574b6790a62cb5fd8c8344ee5c"/>
     </event>
-    <event handle="_d574bad150a38eb2c6de2226d80" change="1599074992" id="E0156">
+    <event handle="_d574bad150a38eb2c6de2226d80" change="1690313068" id="E0156">
       <type>Residence</type>
       <dateval val="1877-04-21" type="before"/>
       <place hlink="_d574d7e9ef87c9d967b2ea578f"/>
@@ -1022,7 +1022,7 @@
       <place hlink="_d574d7e9ef87c9d967b2ea578f"/>
       <citationref hlink="_d575d93299852c7b13cc16f9a78"/>
     </event>
-    <event handle="_d578755d3c5156cdb19cfbe66c2" change="1599061207" id="E0167">
+    <event handle="_d578755d3c5156cdb19cfbe66c2" change="1690312636" id="E0167">
       <type>Residence</type>
       <datespan start="1860" stop="1870"/>
       <place hlink="_d574d7e9ef87c9d967b2ea578f"/>
@@ -1511,11 +1511,11 @@
       <citationref hlink="_e8a82e51baa5591f723fbcd4a22"/>
       <citationref hlink="_f130c33e5c32bcd74c349af7d15"/>
     </event>
-    <event handle="_f137a4d2b23670a3991de4ae25b" change="1690303691" id="E0243">
+    <event handle="_f137a4d2b23670a3991de4ae25b" change="1708261516" id="E0243">
       <type>Birth</type>
       <dateval val="1923-06-30"/>
     </event>
-    <event handle="_f137a4e8aa3219a1b4117683df1" change="1690303695" id="E0244">
+    <event handle="_f137a4e8aa3219a1b4117683df1" change="1708261505" id="E0244">
       <type>Death</type>
       <dateval val="2020-06-11"/>
     </event>
@@ -1526,12 +1526,12 @@
       <citationref hlink="_f5f83b50f9627ad88c63388351b"/>
       <citationref hlink="_f5f84308ee11f0c4db265069b5e"/>
     </event>
-    <event handle="_f137a54bfd052ddb2bb990457a7" change="1690303715" id="E0246">
+    <event handle="_f137a54bfd052ddb2bb990457a7" change="1708261440" id="E0246">
       <type>Death</type>
       <dateval val="2022-06-01"/>
       <place hlink="_d55f93f4443dca8a69fb3b05e7"/>
     </event>
-    <event handle="_f137a6305d43af675acca3b73f9" change="1657634223" id="E0247">
+    <event handle="_f137a6305d43af675acca3b73f9" change="1708261632" id="E0247">
       <type>Birth</type>
       <dateval val="1921-10-14"/>
       <citationref hlink="_f137afcac4d4b179e1865d9151c"/>
@@ -1578,7 +1578,7 @@
       <citationref hlink="_f137c7028671732d854249ca1b5"/>
       <citationref hlink="_e728c9aeed129bf6688dcc43d7b"/>
     </event>
-    <event handle="_f137d42b71f5727698eff3b6ccd" change="1690303699" id="E0255">
+    <event handle="_f137d42b71f5727698eff3b6ccd" change="1708261493" id="E0255">
       <type>Burial</type>
       <dateval val="2020"/>
       <place hlink="_f137d428491142954a8208f9dc4"/>
@@ -1606,11 +1606,15 @@
       <parentin hlink="_cfd267b9fa13a7ccef2"/>
       <citationref hlink="_f5f851a54f5238de04422a887f2"/>
     </person>
-    <person handle="_cfcf2f0accb0fef1bb6" change="1597768768" id="I0001">
+    <person handle="_cfcf2f0accb0fef1bb6" change="1690312819" id="I0001">
       <gender>M</gender>
-      <name type="Birth Name">
+      <name type="Also Known As">
         <first>Karl Evert</first>
         <surname derivation="Taken">Wiitanen</surname>
+      </name>
+      <name alt="1" type="Birth Name">
+        <first>Karl Evert</first>
+        <surname derivation="Patronymic">Gustafsson</surname>
       </name>
       <eventref hlink="_cfcf30716194d8d72f3" role="Primary"/>
       <eventref hlink="_d574bad150a38eb2c6de2226d80" role="Primary"/>
@@ -3562,12 +3566,13 @@
       <noteref hlink="_e8b1fcc8bb0d4d8b66aa511a2f"/>
       <sourceref hlink="_d574c4967f1327d1c57c08328d1"/>
     </citation>
-    <citation handle="_d574d8b0d6f318df2c2fabcc0c4" change="1599065255" id="C0098">
+    <citation handle="_d574d8b0d6f318df2c2fabcc0c4" change="1690313052" id="C0098">
       <page>484</page>
       <confidence>2</confidence>
       <noteref hlink="_d574d8ad0089a53a9afbb63b1"/>
       <noteref hlink="_e8b1b29a1ef43265855e5f0dcb0"/>
       <noteref hlink="_e8b1d29539424368beee04e055d"/>
+      <noteref hlink="_f5f911587b255f90b95aee31b5"/>
       <sourceref hlink="_d574d880fc755d1e0f82982649f"/>
     </citation>
     <citation handle="_d575d93299852c7b13cc16f9a78" change="1599060500" id="C0099">
@@ -3577,11 +3582,12 @@
       <noteref hlink="_e8b1a540c424e858c89cfed1ebb"/>
       <sourceref hlink="_d575d8d05bc2093bc95991c3a4e"/>
     </citation>
-    <citation handle="_d575db12da72694fc61566de67b" change="1599061052" id="C0100">
+    <citation handle="_d575db12da72694fc61566de67b" change="1690312635" id="C0100">
       <page>578</page>
       <confidence>2</confidence>
       <noteref hlink="_d575db0fe8a14abaa3995d9123d"/>
       <noteref hlink="_e8b1aa86c3a5d2e9cc820f6de28"/>
+      <noteref hlink="_f5f90cdb1fb7c42182004f5102"/>
       <sourceref hlink="_d575dad37d56a9c42c0e2fc7d8f"/>
     </citation>
     <citation handle="_d5778cd8fc177434da45ec4e221" change="1466934005" id="C0101">
@@ -3613,11 +3619,12 @@
       <noteref hlink="_e890b70b0364dc2f0bd8fadf601"/>
       <sourceref hlink="_d5778c96aaa7bbbd632bd6ad8ed"/>
     </citation>
-    <citation handle="_d5786ad04cc5e7b5526d0b991d9" change="1598176883" id="C0106">
+    <citation handle="_d5786ad04cc5e7b5526d0b991d9" change="1690312401" id="C0106">
       <page>376-377</page>
       <confidence>2</confidence>
       <noteref hlink="_d5786acd0fe3c43a1b1e4735b1a"/>
       <noteref hlink="_e890ba632c723fb1d186bb28d2b"/>
+      <noteref hlink="_f5f90b39a0a88b5b10446babf7"/>
       <sourceref hlink="_d5778c96aaa7bbbd632bd6ad8ed"/>
     </citation>
     <citation handle="_d5786d864bb6fd2d2ed79042eda" change="1466957564" id="C0107">
@@ -4056,16 +4063,18 @@
       <confidence>2</confidence>
       <sourceref hlink="_e8a82c3ea5e7f50afb920db47a2"/>
     </citation>
-    <citation handle="_f130c33e5c32bcd74c349af7d15" change="1657448352" id="C0174">
-      <page>WIITANEN OLGA MARGARETE ANNA</page>
+    <citation handle="_f130c33e5c32bcd74c349af7d15" change="1708262240" id="C0174">
+      <page>04-00-041-32-00601/WIITANEN OLGA MARGARETE ANNA</page>
       <confidence>2</confidence>
       <noteref hlink="_f130c33a2e74f283b0f3b5922d1"/>
+      <noteref hlink="_f895ba2cea73b53ea832c2466fe"/>
       <sourceref hlink="_f130c2d98ed58809ef2b30a8ab5"/>
     </citation>
-    <citation handle="_f130c3da0005733f5f05b9a4075" change="1657448416" id="C0175">
-      <page>WIITANEN OSSIAN EVERT</page>
+    <citation handle="_f130c3da0005733f5f05b9a4075" change="1708261887" id="C0175">
+      <page>04-00-041-32-00601/WIITANEN OSSIAN EVERT</page>
       <confidence>2</confidence>
       <noteref hlink="_f130c3d30de766e5992ea6caf2f"/>
+      <noteref hlink="_f895b58d2197f0c66a8b83c756a"/>
       <sourceref hlink="_f130c2d98ed58809ef2b30a8ab5"/>
     </citation>
     <citation handle="_f137afcac4d4b179e1865d9151c" change="1657634217" id="C0176">
@@ -4078,34 +4087,39 @@
       <confidence>2</confidence>
       <sourceref hlink="_e8a839dc2a076134fad3937f02c"/>
     </citation>
-    <citation handle="_f137b1ef8d54bb54f38e486d18c" change="1657634456" id="C0178">
-      <page>VIITANEN ERKKI OSSIAN WALDEMAR</page>
+    <citation handle="_f137b1ef8d54bb54f38e486d18c" change="1708262189" id="C0178">
+      <page>04-00-041-32-00601/VIITANEN ERKKI OSSIAN WALDEMAR</page>
       <confidence>2</confidence>
       <noteref hlink="_f137b1e4dde353f991c6537150"/>
+      <noteref hlink="_f895b99d2b04ef917786ad15012"/>
       <sourceref hlink="_f130c2d98ed58809ef2b30a8ab5"/>
     </citation>
-    <citation handle="_f137b2aad491e6c99ead63278c8" change="1657634518" id="C0179">
-      <page>VIITANEN SINIKKA TERTTU HELLIKKI</page>
+    <citation handle="_f137b2aad491e6c99ead63278c8" change="1708262143" id="C0179">
+      <page>04-00-041-32-00601/VIITANEN SINIKKA TERTTU HELLIKKI</page>
       <confidence>2</confidence>
       <noteref hlink="_f137b2a12ba396692cd6e841e58"/>
+      <noteref hlink="_f895b93ddb9172e03a6a81f2c64"/>
       <sourceref hlink="_f130c2d98ed58809ef2b30a8ab5"/>
     </citation>
-    <citation handle="_f137c3ff29c4448121608beefc" change="1657636336" id="C0180">
-      <page>VIITANEN HILJA MARIA</page>
+    <citation handle="_f137c3ff29c4448121608beefc" change="1708262087" id="C0180">
+      <page>63-00-006-07-00002/VIITANEN HILJA MARIA</page>
       <confidence>2</confidence>
       <noteref hlink="_f137c3f97b3d99f2106fb3f0ea"/>
+      <noteref hlink="_f895b8b55895a9b68a5fa6980fd"/>
       <sourceref hlink="_f130c2d98ed58809ef2b30a8ab5"/>
     </citation>
-    <citation handle="_f137c5c28cb6f976d11c1aebee2" change="1657636520" id="C0181">
-      <page>VIITANEN KAARLE EVERT</page>
+    <citation handle="_f137c5c28cb6f976d11c1aebee2" change="1708261868" id="C0181">
+      <page>63-00-006-07-00002/VIITANEN KAARLE EVERT</page>
       <confidence>2</confidence>
       <noteref hlink="_f137c5bfc7139b719fe53c9f725"/>
+      <noteref hlink="_f895b6254c81e1e1a982e0ed2f1"/>
       <sourceref hlink="_f130c2d98ed58809ef2b30a8ab5"/>
     </citation>
-    <citation handle="_f137c7028671732d854249ca1b5" change="1657636652" id="C0182">
-      <page>VIITANEN KALLE ALEKSANTE</page>
+    <citation handle="_f137c7028671732d854249ca1b5" change="1708262040" id="C0182">
+      <page>63-00-006-07-00002/VIITANEN KALLE ALEKSANTE</page>
       <confidence>2</confidence>
       <noteref hlink="_f137c6f9d4925e1e969012b0786"/>
+      <noteref hlink="_f895b82cd9a64d715e1ff2ca842"/>
       <sourceref hlink="_f130c2d98ed58809ef2b30a8ab5"/>
     </citation>
     <citation handle="_f5f83b50f9627ad88c63388351b" change="1690290917" id="C0183">
@@ -4129,10 +4143,11 @@
       <noteref hlink="_f5f852c6e306848f1c397bd1b1b"/>
       <sourceref hlink="_f5f84ba8b3a6d564448d44d36f6"/>
     </citation>
-    <citation handle="_f5f89c23ee11bb4d9dda4656dbb" change="1690300751" id="C0186">
-      <page>VIITANEN MARIA SOFIA</page>
+    <citation handle="_f5f89c23ee11bb4d9dda4656dbb" change="1708261958" id="C0186">
+      <page>63-00-006-07-00002/VIITANEN MARIA SOFIA</page>
       <confidence>2</confidence>
       <noteref hlink="_f5f89c211b3138184a0815c6978"/>
+      <noteref hlink="_f895b77bd3e6fc86e549db89347"/>
       <sourceref hlink="_f130c2d98ed58809ef2b30a8ab5"/>
     </citation>
     <citation handle="_f5f8a846c31737908e2eb32c796" change="1690302024" id="C0187">
@@ -7114,7 +7129,7 @@ Ditto Henrika Simonsdotter     13/8  1844</text>
         <range start="0" end="576"/>
       </style>
     </note>
-    <note handle="_e8b1b29a1ef43265855e5f0dcb0" change="1599061895" id="N0226" type="Transcript" format="1">
+    <note handle="_e8b1b29a1ef43265855e5f0dcb0" change="1690312866" id="N0226" type="Transcript" format="1">
       <text>484               Tiihala
 
 no9 Katinhäntä
@@ -7125,10 +7140,10 @@ Dotter Amanda Gustava Gustafssd   27/3  1853  71 Messuby
 Son Johan Gustaf do               23/4  1856  71 Messuby
 Son Henrik                        5/6   1859  72 Tammerfors
 Son Carl Evert                    8/8   1862  13/4 1877 Tfors
-Dotter Hilda Serafia               19/2  1866  1878 fol.423
+Dotter Hilda Serafia              19/2  1866  1878 fol.423
 </text>
       <style name="fontface" value="Monospace">
-        <range start="0" end="410"/>
+        <range start="0" end="409"/>
       </style>
     </note>
     <note handle="_e8b1d29539424368beee04e055d" change="1599065249" id="N0227" type="Research">
@@ -7155,7 +7170,7 @@ mikä sitten ilmeisesti leviää muillekin lapsille.</text>
     <note handle="_e8b202b485546f626f11c1f0ac1" change="1599070295" id="N0231" type="Research">
       <text>Carl Evertillä tässäkin ilmeisesti alunperin rippikirjasta muuttokirjaan kopioitu väärä patronyymi</text>
     </note>
-    <note handle="_e8b22f6323a455f7542054af0e0" change="1599074980" id="N0232" type="Transcript" format="1">
+    <note handle="_e8b22f6323a455f7542054af0e0" change="1690312524" id="N0232" type="Transcript" format="1">
       <text>112                   3dje Stadsdelen
 
 Svarfvaren
@@ -7171,7 +7186,7 @@ Ges Gustaf Johansson Wiitanen     23/4  1856 Kangasala    Messuby 21/4 1873     
 pig. Mathilds Johdr Yrjölä        2/4   1850 Orivesi      f 371/1875                    f.279 n.b
 pig. Emilia Matssdr               3/10  1855 Eräjärvi     13/11 1873                    f.494/1874 
 pig. Mathilda Emilia Österdal     27/9  1850 Sjundeå      Kangasala 19/11 1872          f.71/1872
-pig. Hilma Josefina Karlsdr        13/12 1847 Suoniemi     1870 7/5                      fol.152/1873
+pig. Hilma Josefina Karlsdr       13/12 1847 Suoniemi     1870 7/5                      fol.152/1873
 Ges. Henrik Henrikss Lillberg     21/10 1842 Kangasala    1856                          fol.1056 n.b.
 pig. Gustava Johansdr             27/4  1842 Längelmäki   1867                          s. 676
 &quot;    Amalia Malakiasdr            1/10  1845 Viljakkala   1869                          1869 124
@@ -7190,7 +7205,7 @@ Dr   Maria Ingeborg               8/11  1873
 
 </text>
       <style name="fontface" value="Monospace">
-        <range start="0" end="2079"/>
+        <range start="0" end="2078"/>
       </style>
     </note>
     <note handle="_f130c33a2e74f283b0f3b5922d1" change="1657448350" id="N0233" type="Source text">
@@ -7490,6 +7505,60 @@ endast på detta sätt såsom inbjudan meddelas.</text>
       </style>
       <style name="fontface" value="Monospace">
         <range start="0" end="781"/>
+      </style>
+    </note>
+    <note handle="_f5f90b39a0a88b5b10446babf7" change="1690312399" id="N0260" type="Citation">
+      <text>Kangasala syntyneet 1849-1864 (TK61)  Sivu 376 1862 August ; SSHY http://www.sukuhistoria.fi/sshy/kirjat/Kirkonkirjat/kangasala/syntyneet_1849-1864_tk61/198.htm / Viitattu 25.07.2023</text>
+    </note>
+    <note handle="_f5f90cdb1fb7c42182004f5102" change="1690312570" id="N0261" type="Citation">
+      <text>Kangasalan seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A Pääkirjat. I Aa Pää- ja rippikirjat. Rippikirjat  (1860-1870). Tiedosto 602. Kansallisarkisto. Viitattu 25.7.2023.</text>
+    </note>
+    <note handle="_f5f911587b255f90b95aee31b5" change="1690313041" id="N0262" type="Citation">
+      <text>Kangasala rippikirja 1860-1870 (TK59-60)  Sivu 578 Tiihala, Katinhäntä ; SSHY http://www.sukuhistoria.fi/sshy/kirjat/Kirkonkirjat/kangasala/rippikirja_1870-1879_mko96-117/464.htm / Viitattu 25.07.2023</text>
+    </note>
+    <note handle="_f895b58d2197f0c66a8b83c756a" change="1708261748" id="N0263" type="Link">
+      <text>https://www.hautahaku.fi/map/04-00-041-32-00601/WIITANEN%20OSSIAN%20EVERT</text>
+      <style name="link" value="https://www.hautahaku.fi/map/04-00-041-32-00601/WIITANEN%20OSSIAN%20EVERT">
+        <range start="0" end="73"/>
+      </style>
+    </note>
+    <note handle="_f895b6254c81e1e1a982e0ed2f1" change="1708261810" id="N0264" type="Link">
+      <text>https://www.hautahaku.fi/map/63-00-006-07-00002/VIITANEN%20KAARLE%20EVERT</text>
+      <style name="link" value="https://www.hautahaku.fi/map/63-00-006-07-00002/VIITANEN%20KAARLE%20EVERT">
+        <range start="0" end="73"/>
+      </style>
+    </note>
+    <note handle="_f895b77bd3e6fc86e549db89347" change="1708261951" id="N0265" type="Link">
+      <text>https://www.hautahaku.fi/map/63-00-006-07-00002/VIITANEN%20MARIA%20SOFIA</text>
+      <style name="link" value="https://www.hautahaku.fi/map/63-00-006-07-00002/VIITANEN%20MARIA%20SOFIA">
+        <range start="0" end="72"/>
+      </style>
+    </note>
+    <note handle="_f895b82cd9a64d715e1ff2ca842" change="1708262023" id="N0266" type="Link">
+      <text>https://www.hautahaku.fi/map/63-00-006-07-00002/VIITANEN%20KALLE%20ALEKSANTE</text>
+      <style name="link" value="https://www.hautahaku.fi/map/63-00-006-07-00002/VIITANEN%20KALLE%20ALEKSANTE">
+        <range start="0" end="76"/>
+      </style>
+    </note>
+    <note handle="_f895b8b55895a9b68a5fa6980fd" change="1708262079" id="N0267" type="Link">
+      <text>https://www.hautahaku.fi/map/63-00-006-07-00002/VIITANEN%20HILJA%20MARIA</text>
+      <style name="link" value="https://www.hautahaku.fi/map/63-00-006-07-00002/VIITANEN%20HILJA%20MARIA">
+        <range start="0" end="72"/>
+      </style>
+    </note>
+    <note handle="_f895b93ddb9172e03a6a81f2c64" change="1708262135" id="N0268" type="Link">
+      <text>https://www.hautahaku.fi/map/04-00-041-32-00601/VIITANEN%20SINIKKA%20TERTTU%20HELLIKKI</text>
+      <style name="link" value="https://www.hautahaku.fi/map/04-00-041-32-00601/VIITANEN%20SINIKKA%20TERTTU%20HELLIKKI">
+        <range start="0" end="86"/>
+      </style>
+    </note>
+    <note handle="_f895b99d2b04ef917786ad15012" change="1708262174" id="N0269" type="Link">
+      <text>https://www.hautahaku.fi/map/04-00-041-32-00601/VIITANEN%20ERKKI%20OSSIAN%20VALDEMAR</text>
+    </note>
+    <note handle="_f895ba2cea73b53ea832c2466fe" change="1708262233" id="N0270" type="Link">
+      <text>https://www.hautahaku.fi/map/04-00-041-32-00601/WIITANEN%20OLGA%20MARGARETE%20ANNA</text>
+      <style name="link" value="https://www.hautahaku.fi/map/04-00-041-32-00601/WIITANEN%20OLGA%20MARGARETE%20ANNA">
+        <range start="0" end="82"/>
       </style>
     </note>
   </notes>
