@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2024-05-26" version="5.2.2"/>
+    <created date="2024-05-27" version="5.2.2"/>
     <researcher>
     </researcher>
   </header>
@@ -1668,6 +1668,54 @@
       <dateval val="1990"/>
       <citationref hlink="_f7fc594a3fd2c0c4ca4bc340542"/>
     </event>
+    <event handle="_f9d23092fb3445edb660be3ba81" change="1716757323" id="E0264">
+      <type>Residence</type>
+      <datespan start="1893" stop="1894"/>
+      <place hlink="_f9d2308fe553c9aee0f88506112"/>
+      <citationref hlink="_f9d231a099f30db11521c7b6ca0"/>
+    </event>
+    <event handle="_f9d2334ec3a1c2715b24d85b0d5" change="1716757495" id="E0265">
+      <type>Residence</type>
+      <dateval val="1895"/>
+      <place hlink="_f9d2308fe553c9aee0f88506112"/>
+      <citationref hlink="_f9d23347cfe1b5e65d1dc38d3c6"/>
+    </event>
+    <event handle="_f9d2383bf1e2215dd345d1c1b89" change="1716758011" id="E0266">
+      <type>Birth</type>
+      <dateval val="1872-09-15"/>
+      <place hlink="_d39f029f4072f50b90e"/>
+      <citationref hlink="_f9d238366614576f07cd03dec44"/>
+    </event>
+    <event handle="_f9d2399c11e6a86fade1d7607c0" change="1716758156" id="E0267">
+      <type>Marriage</type>
+      <dateval val="1895-09-20"/>
+      <place hlink="_d39f029f4072f50b90e"/>
+      <citationref hlink="_f9d239923b23a97e4c82b4e4091"/>
+    </event>
+    <event handle="_f9d23b7081f4ee4ff5d1c592291" change="1716758347" id="E0268">
+      <type>Residence</type>
+      <dateval val="1895"/>
+      <place hlink="_f9d2308fe553c9aee0f88506112"/>
+      <citationref hlink="_f9d23b6d82d3d9d78f9d2ba899d"/>
+    </event>
+    <event handle="_f9d23e124e050f6218014073690" change="1716758623" id="E0269">
+      <type>Residence</type>
+      <datespan start="1896" stop="1900"/>
+      <place hlink="_f9d23d767f31efd8dec404a82eb"/>
+      <citationref hlink="_f9d23e0d57536a9d6eb87fe2ae6"/>
+    </event>
+    <event handle="_f9d242a98d67f146a8f1d193f58" change="1716759105" id="E0270">
+      <type>Residence</type>
+      <datespan start="1900" stop="1904"/>
+      <place hlink="_f9d2421846f4fc216165320a121"/>
+      <citationref hlink="_f9d242a55ac45eb75338a619b10"/>
+    </event>
+    <event handle="_f9d2459e7f2287d7d99cf40dcb4" change="1716759415" id="E0271">
+      <type>Residence</type>
+      <datespan start="1905" stop="1914"/>
+      <place hlink="_f9d2421846f4fc216165320a121"/>
+      <citationref hlink="_f9d2458d8fc62d39198bc0044c9"/>
+    </event>
   </events>
   <people home="_d39f9e62893689f03a0">
     <person handle="_d39f01bf22d12a2183b" change="1514730626" id="I0000">
@@ -1922,7 +1970,7 @@
       <eventref hlink="_d3a2db987676c22bc0f" role="Primary"/>
       <childof hlink="_d3a007c50b00dd9f28a"/>
     </person>
-    <person handle="_d3a2dc44377013490ab" change="1716725017" id="I0021">
+    <person handle="_d3a2dc44377013490ab" change="1716758194" id="I0021">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Alexandra</first>
@@ -1930,7 +1978,10 @@
       </name>
       <eventref hlink="_d3a2dca84c3388b04f6" role="Primary"/>
       <eventref hlink="_d3a611d1fa967ae1632" role="Primary"/>
+      <eventref hlink="_f9d23092fb3445edb660be3ba81" role="Primary"/>
+      <eventref hlink="_f9d2334ec3a1c2715b24d85b0d5" role="Primary"/>
       <childof hlink="_d3a007c50b00dd9f28a"/>
+      <parentin hlink="_f9d2349c61d503fb13516550589"/>
       <noteref hlink="_f9d0fd8d47f6fd133830c3d3f02"/>
     </person>
     <person handle="_d3a2ef6557d7b88940b" change="1514730626" id="I0022">
@@ -2807,6 +2858,33 @@
       </name>
       <childof hlink="_df34488566c93184608aa7709e"/>
     </person>
+    <person handle="_f9d234c79901bcf1af913d83ce" change="1716759240" id="I0108">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Johan Nestor</first>
+        <surname derivation="Matronymic">Marianpoika</surname>
+      </name>
+      <name alt="1" type="Also Known As">
+        <first>Juho Nestor</first>
+        <surname prim="0" derivation="Matronymic">Marianpoika</surname>
+        <surname derivation="Unknown ">Autio</surname>
+        <datespan start="1872" stop="1896"/>
+      </name>
+      <name alt="1" type="Also Known As">
+        <first>Juho Nestor</first>
+        <surname prim="0" derivation="Matronymic">Marianpoika</surname>
+        <surname derivation="Location">Syrjänen</surname>
+        <datespan start="1896" stop="1900"/>
+      </name>
+      <name alt="1" type="Also Known As">
+        <first>Juho Nestor</first>
+        <surname prim="0" derivation="Matronymic">Kaisanpoika</surname>
+        <surname derivation="Location">Syrjänen</surname>
+        <datespan start="1900" stop="1904"/>
+      </name>
+      <eventref hlink="_f9d2383bf1e2215dd345d1c1b89" role="Primary"/>
+      <parentin hlink="_f9d2349c61d503fb13516550589"/>
+    </person>
   </people>
   <families>
     <family handle="_d39f01a2aca3f984f09" change="1514730626" id="F0000">
@@ -3116,6 +3194,16 @@
       <childref hlink="_df2def51e743ea217201ebd49df"/>
       <childref hlink="_df3448e86d7a4167ad394a8b2f"/>
     </family>
+    <family handle="_f9d2349c61d503fb13516550589" change="1716759434" id="F0024">
+      <rel type="Married"/>
+      <father hlink="_f9d234c79901bcf1af913d83ce"/>
+      <mother hlink="_d3a2dc44377013490ab"/>
+      <eventref hlink="_f9d2399c11e6a86fade1d7607c0" role="Family"/>
+      <eventref hlink="_f9d23b7081f4ee4ff5d1c592291" role="Family"/>
+      <eventref hlink="_f9d23e124e050f6218014073690" role="Family"/>
+      <eventref hlink="_f9d242a98d67f146a8f1d193f58" role="Family"/>
+      <eventref hlink="_f9d2459e7f2287d7d99cf40dcb4" role="Family"/>
+    </family>
   </families>
   <citations>
     <citation handle="_d39f04fd7455373bb7f" change="1454954632" id="C0000">
@@ -3338,10 +3426,12 @@
       <noteref hlink="_d3a60eff34c7e4f5f46"/>
       <sourceref hlink="_d3a2eeb743e205ffff6"/>
     </citation>
-    <citation handle="_d3a61006a0038e2a431" change="1454438855" id="C0036">
+    <citation handle="_d3a61006a0038e2a431" change="1716757037" id="C0036">
       <page>247</page>
       <confidence>2</confidence>
+      <noteref hlink="_f9d22ed57aa64dd80fdfcea8d20"/>
       <noteref hlink="_d3a60ffe50725d71246"/>
+      <noteref hlink="_f9d22e60778d576ff807076f8"/>
       <sourceref hlink="_d3a2eeb743e205ffff6"/>
     </citation>
     <citation handle="_d3a62bdedb86dbf591e" change="1454441587" id="C0037">
@@ -4190,6 +4280,62 @@
       <confidence>2</confidence>
       <sourceref hlink="_f7fcc90738a68350dc4a8e659e1"/>
     </citation>
+    <citation handle="_f9d231a099f30db11521c7b6ca0" change="1716757319" id="C0172">
+      <page>I Aa:18/631</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9d2313eff011b8e23b52bcfe9"/>
+      <noteref hlink="_f9d2316bc8c1a9d5f8c8669d46e"/>
+      <sourceref hlink="_d3a2eeb743e205ffff6"/>
+    </citation>
+    <citation handle="_f9d23347cfe1b5e65d1dc38d3c6" change="1716758295" id="C0173">
+      <page>874</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9d2330b9155c6566fcbab0fb6e"/>
+      <noteref hlink="_f9d233364b017559c59b8e50ef8"/>
+      <sourceref hlink="_d3a62bb5698644e4e1a"/>
+    </citation>
+    <citation handle="_f9d238366614576f07cd03dec44" change="1716758009" id="C0174">
+      <page>516-517</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9d23805ab46a71a6564dbb4b45"/>
+      <noteref hlink="_f9d2382c3c935a26221936ea9db"/>
+      <sourceref hlink="_d3a2a65a1b5258ad537"/>
+    </citation>
+    <citation handle="_f9d239923b23a97e4c82b4e4091" change="1716758152" id="C0175">
+      <page>64-65</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9d23968c875bce8e3dff61f86c"/>
+      <noteref hlink="_f9d2398826f3c89f0542f58f106"/>
+      <sourceref hlink="_f9d2393f910de22185df768687"/>
+    </citation>
+    <citation handle="_f9d23b6d82d3d9d78f9d2ba899d" change="1716758346" id="C0176">
+      <page>I Aa:19/879</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9d23b47799519915874875afd4"/>
+      <noteref hlink="_f9d23b6899e1525f3785be1fe8a"/>
+      <sourceref hlink="_d3a62bb5698644e4e1a"/>
+    </citation>
+    <citation handle="_f9d23e0d57536a9d6eb87fe2ae6" change="1716758621" id="C0177">
+      <page>Aa:19/957</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9d23dd9577571463be72341eb2"/>
+      <noteref hlink="_f9d23e0a9f41fdf1ac551374881"/>
+      <sourceref hlink="_d3a62bb5698644e4e1a"/>
+    </citation>
+    <citation handle="_f9d242a55ac45eb75338a619b10" change="1716759103" id="C0178">
+      <page>Aa:19/909</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9d24268ee87d94ce960705ebee"/>
+      <noteref hlink="_f9d2429c7811fb03adbd907bc54"/>
+      <sourceref hlink="_d3a62bb5698644e4e1a"/>
+    </citation>
+    <citation handle="_f9d2458d8fc62d39198bc0044c9" change="1716759408" id="C0179">
+      <page>Aa:22/717</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9d2456a20432fbaeb0d800fc57"/>
+      <noteref hlink="_f9d245893a941d7661f22921909"/>
+      <sourceref hlink="_f9d2453b48b3ea99fb94c7f6c16"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_d39f0446de217f10266" change="1454249531" id="S0000">
@@ -4620,6 +4766,16 @@
       <noteref hlink="_f7fccb26d864262e02b6265e7d"/>
       <reporef hlink="_d3acec3017a336e9bb0" medium="Book"/>
     </source>
+    <source handle="_f9d2393f910de22185df768687" change="1716758118" id="S0087">
+      <stitle>Jalasjärvi Vihityt 1885-1906</stitle>
+      <sauthor>Jalasjärven seurakunta</sauthor>
+      <reporef hlink="_d3a2d9da8ae35f319f3" medium="Book"/>
+    </source>
+    <source handle="_f9d2453b48b3ea99fb94c7f6c16" change="1716759374" id="S0088">
+      <stitle>Jalasjärvi RIppikirja 1905-1914</stitle>
+      <sauthor>Jalasjärven seurakunta</sauthor>
+      <reporef hlink="_d3a2d9da8ae35f319f3" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_d39f029900a70df4223" change="1704144719" id="P0000" type="Country">
@@ -4965,6 +5121,30 @@
     <placeobj handle="_f7fc5688e38326c4ede7026a062" change="1704144722" id="P0080" type="Cemetary">
       <pname value="Käppärän hautausmaa"/>
       <placeref hlink="_f7fc56863f53e9c45c60a05c839"/>
+    </placeobj>
+    <placeobj handle="_f9d2308c677322191c77619e67b" change="1716758258" id="P0081" type="Village">
+      <pname value="Walli"/>
+      <placeref hlink="_d39f029f4072f50b90e"/>
+    </placeobj>
+    <placeobj handle="_f9d2308fe553c9aee0f88506112" change="1716757207" id="P0082" type="Farm">
+      <pname value="Ahomäki"/>
+      <placeref hlink="_f9d2308c677322191c77619e67b"/>
+    </placeobj>
+    <placeobj handle="_f9d23d72a17b4aa99bb86921be" change="1716758558" id="P0083" type="Farm">
+      <pname value="Hirsimäki"/>
+      <placeref hlink="_f9d2308c677322191c77619e67b"/>
+    </placeobj>
+    <placeobj handle="_f9d23d767f31efd8dec404a82eb" change="1716758560" id="P0084" type="Building">
+      <pname value="Syrjälä"/>
+      <placeref hlink="_f9d23d72a17b4aa99bb86921be"/>
+    </placeobj>
+    <placeobj handle="_f9d24215eb24d6e2e7a78156f93" change="1716759044" id="P0085" type="Farm">
+      <pname value="Wallinmaa"/>
+      <placeref hlink="_f9d2308c677322191c77619e67b"/>
+    </placeobj>
+    <placeobj handle="_f9d2421846f4fc216165320a121" change="1716759045" id="P0086" type="Building">
+      <pname value="Saari"/>
+      <placeref hlink="_f9d24215eb24d6e2e7a78156f93"/>
     </placeobj>
   </places>
   <repositories>
@@ -5484,7 +5664,7 @@ Sotasurmatapauksen todennäköisyys (ei merkintää= todennäköinen, e=epävarm
         <range start="0" end="61"/>
       </style>
     </note>
-    <note handle="_d3acee298854929e129" change="1704147599" id="N0047" type="Transcript" format="1">
+    <note handle="_d3acee298854929e129" change="1716756766" id="N0047" type="Transcript" format="1">
       <text>MIKKELIN MAAKUNTA-ARKISTO          SUKUSELVITYS
                                    Perunkirjoutsta varten
                                    23.1.1998
@@ -5578,7 +5758,7 @@ Hiitolan kirjoihin on heille merkitty seuraavat lapset:
 II 2.  Hilja Matintytär Kangasniemi, s. 6.6.1901 Jaakkimassa.
 Hän muutti Jaakkiman seurakunnasta 25.7.1910 Kauhajoen seura-
 kuntaan, mistä tuli 18.11.1915 Hiitolan seurakuntaan, muutti
-22.12.1915 RAudun seurakuntaan, mistä palasi 13.6.1918 Hiito-
+22.12.1915 Raudun seurakuntaan, mistä palasi 13.6.1918 Hiito-
 lan seurakuntaan. Hänet vihittiin 3.4.1927 avioliittoon Antti
 Pekanpoika Tenhosen kanssa, joka s. 16.1.1897 Hiitolassa.
 Aviopuolisot muuttivat Hiitolan seurakunnasta 31.12.1949 Porin
@@ -7046,6 +7226,87 @@ Kuolinvuosi</text>
     </note>
     <note handle="_f9d0fd8d47f6fd133830c3d3f02" change="1716725015" id="N0216" type="Link">
       <text>https://www.myheritage.fi/site-family-tree-451113611/j-saari?tr_id=m_nyfltjw7j8_x8owzew1xd</text>
+    </note>
+    <note handle="_f9d22e60778d576ff807076f8" change="1716757004" id="N0217" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=41155&amp;pnum=251</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=41155&amp;pnum=251">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f9d22ed57aa64dd80fdfcea8d20" change="1716757026" id="N0218" type="Citation">
+      <text>Jalasjärvi rippikirja 1885-1894 (AP_I I Aa:16)  Sivu 247 Koskuen kylä  Myllyniemi ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=41155&amp;pnum=251 / Viitattu 26.05.2024</text>
+    </note>
+    <note handle="_f9d2313eff011b8e23b52bcfe9" change="1716757279" id="N0219" type="Citation">
+      <text>Jalasjärvi rippikirja 1885-1894 (AP_I I Aa:16)  Sivu 631 Wallin kylä No 10 Ahomäki Palkolliset ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=41155&amp;pnum=633 / Viitattu 26.05.2024</text>
+    </note>
+    <note handle="_f9d2316bc8c1a9d5f8c8669d46e" change="1716757297" id="N0220" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=41155&amp;pnum=633</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=41155&amp;pnum=633">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f9d2330b9155c6566fcbab0fb6e" change="1716757467" id="N0221" type="Citation">
+      <text>Jalasjärvi rippikirja 1895-1904 (AP_II I Aa:19)  Sivu 874 Walli No 10 Ahomäki Palkolliset ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33336&amp;pnum=80 / Viitattu 26.05.2024</text>
+    </note>
+    <note handle="_f9d233364b017559c59b8e50ef8" change="1716757485" id="N0222" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33336&amp;pnum=80</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33336&amp;pnum=80">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f9d23805ab46a71a6564dbb4b45" change="1716757989" id="N0223" type="Citation">
+      <text>Jalasjärvi syntyneet 1855-1873 (AP I C:6)  Sivu 516 1872 september ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33402&amp;pnum=264 / Viitattu 26.05.2024</text>
+    </note>
+    <note handle="_f9d2382c3c935a26221936ea9db" change="1716758005" id="N0224" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33402&amp;pnum=264</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33402&amp;pnum=264">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f9d23968c875bce8e3dff61f86c" change="1716758135" id="N0225" type="Citation">
+      <text>Jalasjärvi vihityt 1885-1906 (AP I Eb:2)  Sivu 64 1895 heinä-marraskuu ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33408&amp;pnum=35 / Viitattu 26.05.2024</text>
+    </note>
+    <note handle="_f9d2398826f3c89f0542f58f106" change="1716758147" id="N0226" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33408&amp;pnum=35</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33408&amp;pnum=35">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f9d23b47799519915874875afd4" change="1716758331" id="N0227" type="Citation">
+      <text>Jalasjärvi rippikirja 1895-1904 (AP_II I Aa:19)  Sivu 879 Walli No 10 Ahomäki Majamäki ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33336&amp;pnum=85 / Viitattu 26.05.2024</text>
+    </note>
+    <note handle="_f9d23b6899e1525f3785be1fe8a" change="1716758344" id="N0228" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33336&amp;pnum=85</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33336&amp;pnum=85">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f9d23dd9577571463be72341eb2" change="1716758600" id="N0229" type="Citation">
+      <text>Jalasjärvi rippikirja 1895-1904 (AP_II I Aa:19)  Sivu 957 Walli No 17 Hirsimäki Pinomäki Syrjälä ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33336&amp;pnum=161 / Viitattu 26.05.2024</text>
+    </note>
+    <note handle="_f9d23e0a9f41fdf1ac551374881" change="1716758620" id="N0230" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33336&amp;pnum=161</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33336&amp;pnum=161">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f9d24268ee87d94ce960705ebee" change="1716759078" id="N0231" type="Citation">
+      <text>Jalasjärvi rippikirja 1895-1904 (AP_II I Aa:19)  Sivu 909 Walli No 13 Wallinmaa Mäkinen Saari ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33336&amp;pnum=115 / Viitattu 26.05.2024</text>
+    </note>
+    <note handle="_f9d2429c7811fb03adbd907bc54" change="1716759099" id="N0232" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33336&amp;pnum=115</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33336&amp;pnum=115">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f9d2456a20432fbaeb0d800fc57" change="1716759393" id="N0233" type="Citation">
+      <text>Jalasjärvi rippikirja 1905-1914 (AP_II I Aa:22)  Sivu 717 Walli No 13 Wallinmaa Saari (Syrjänen) Koivumäki ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33339&amp;pnum=160 / Viitattu 26.05.2024</text>
+    </note>
+    <note handle="_f9d245893a941d7661f22921909" change="1716759406" id="N0234" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33339&amp;pnum=160</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33339&amp;pnum=160">
+        <range start="0" end="78"/>
+      </style>
     </note>
   </notes>
 </database>
