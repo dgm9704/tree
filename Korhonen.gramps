@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE database PUBLIC "-//Gramps//DTD Gramps XML 1.7.1//EN"
+"http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
+<database xmlns="http://gramps-project.org/xml/1.7.1/">
+  <header>
+    <created date="2024-05-26" version="5.2.2"/>
+    <researcher>
+      <resname>John Nordberg</resname>
+      <resemail>john.nordberg@gmail.com</resemail>
+    </researcher>
+  </header>
+  <events>
+    <event handle="_f6052f6d9ec4f72acee38a2744c" change="1690638318" id="E0000">
+      <type>Birth</type>
+      <dateval val="1941-07-20"/>
+      <place hlink="_f6052d6032e315466355ed99451"/>
+      <citationref hlink="_f6052f528103dd8206b2de21208"/>
+    </event>
+    <event handle="_f60535dfeff2046b3230405daa" change="1690638994" id="E0001">
+      <type>Birth</type>
+      <dateval val="1911-06-09"/>
+      <citationref hlink="_f605314b1b57869d64959eaf8d2"/>
+    </event>
+    <event handle="_f60536764947091532d5771c926" change="1690639056" id="E0002">
+      <type>Marriage</type>
+      <dateval val="1939"/>
+      <citationref hlink="_f605314b1b57869d64959eaf8d2"/>
+    </event>
+    <event handle="_f9d18481b5b798b6ab35f294485" change="1716739166" id="E0003">
+      <type>Death</type>
+      <dateval val="2024-04-25"/>
+      <place hlink="_f9d184807fd33fd9bbaae4e9766"/>
+    </event>
+  </events>
+  <people>
+    <person handle="_f6052cc5cd7adb92fb19262a19" change="1716739174" id="I0000">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Kaisa</first>
+        <surname derivation="Inherited">Korhonen</surname>
+      </name>
+      <eventref hlink="_f6052f6d9ec4f72acee38a2744c" role="Primary"/>
+      <eventref hlink="_f9d18481b5b798b6ab35f294485" role="Primary"/>
+      <childof hlink="_f6052fab6756bacc395ac7ba351"/>
+      <citationref hlink="_f6052f528103dd8206b2de21208"/>
+    </person>
+    <person handle="_f6052fbc20e406d4332b4e7a760" change="1690639114" id="I0001">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Kusti Vihtori</first>
+        <surname>Korhonen</surname>
+      </name>
+      <eventref hlink="_f60535dfeff2046b3230405daa" role="Primary"/>
+      <childof hlink="_f60536ba98389235561e97deb1"/>
+      <parentin hlink="_f6052fab6756bacc395ac7ba351"/>
+      <citationref hlink="_f605314b1b57869d64959eaf8d2"/>
+    </person>
+    <person handle="_f6053007636559240a6091fd4fa" change="1690639158" id="I0002">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Kirsti Johanna</first>
+        <surname>Korhonen</surname>
+      </name>
+      <childof hlink="_f605373c7916b206cefd42f8496"/>
+      <parentin hlink="_f6052fab6756bacc395ac7ba351"/>
+    </person>
+    <person handle="_f60536c409c7da1f1174a318c2" change="1690639114" id="I0003">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Kalle Vihtori</first>
+        <surname>Korhonen</surname>
+      </name>
+      <parentin hlink="_f60536ba98389235561e97deb1"/>
+    </person>
+    <person handle="_f60536e1f2d1f7fcf9ff1136df2" change="1690639114" id="I0004">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Matilda Amalia</first>
+        <surname>Juntunen</surname>
+      </name>
+      <parentin hlink="_f60536ba98389235561e97deb1"/>
+    </person>
+    <person handle="_f60537441745dcaed8c5c1310e9" change="1690639165" id="I0005">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Juho Jaakko</first>
+        <surname>Korhonen</surname>
+      </name>
+      <parentin hlink="_f605373c7916b206cefd42f8496"/>
+    </person>
+    <person handle="_f605375da4860e080dfe1aa6d8c" change="1690639706" id="I0006">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>HIlma</first>
+        <surname>Meriläinen</surname>
+      </name>
+      <parentin hlink="_f605373c7916b206cefd42f8496"/>
+    </person>
+  </people>
+  <families>
+    <family handle="_f6052fab6756bacc395ac7ba351" change="1690639057" id="F0000">
+      <rel type="Married"/>
+      <father hlink="_f6052fbc20e406d4332b4e7a760"/>
+      <mother hlink="_f6053007636559240a6091fd4fa"/>
+      <eventref hlink="_f60536764947091532d5771c926" role="Family"/>
+      <childref hlink="_f6052cc5cd7adb92fb19262a19"/>
+    </family>
+    <family handle="_f60536ba98389235561e97deb1" change="1690639114" id="F0001">
+      <rel type="Unknown"/>
+      <father hlink="_f60536c409c7da1f1174a318c2"/>
+      <mother hlink="_f60536e1f2d1f7fcf9ff1136df2"/>
+      <childref hlink="_f6052fbc20e406d4332b4e7a760"/>
+    </family>
+    <family handle="_f605373c7916b206cefd42f8496" change="1690639158" id="F0002">
+      <rel type="Unknown"/>
+      <father hlink="_f60537441745dcaed8c5c1310e9"/>
+      <mother hlink="_f605375da4860e080dfe1aa6d8c"/>
+      <childref hlink="_f6053007636559240a6091fd4fa"/>
+    </family>
+  </families>
+  <citations>
+    <citation handle="_f6052f528103dd8206b2de21208" change="1690638307" id="C0000">
+      <page>henkilö 1297</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f6052eb45b17b07c15a86b55ec"/>
+      <noteref hlink="_f6052f3814b425939e70aec2fc5"/>
+      <sourceref hlink="_f6052e88b211458b59eb4a6d8b2"/>
+    </citation>
+    <citation handle="_f605314b1b57869d64959eaf8d2" change="1690638965" id="C0001">
+      <page>1954/391</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f605317a9a85940307113c15984"/>
+      <noteref hlink="_f605359165d7e09fe3904649347"/>
+      <sourceref hlink="_f605312361f948699e7f464e4f"/>
+    </citation>
+  </citations>
+  <sources>
+    <source handle="_f6052e88b211458b59eb4a6d8b2" change="1690638224" id="S0000">
+      <stitle>Kansallisbiografia</stitle>
+    </source>
+    <source handle="_f605312361f948699e7f464e4f" change="1690638497" id="S0001">
+      <stitle>Kuka kukin on (Aikalaiskirja)</stitle>
+    </source>
+  </sources>
+  <places>
+    <placeobj handle="_f6052d57da910a6853452f1de58" change="1690638100" id="P0000" type="Country">
+      <pname value="Suomi"/>
+    </placeobj>
+    <placeobj handle="_f6052d6032e315466355ed99451" change="1690638103" id="P0001" type="Town">
+      <pname value="Sotkamo"/>
+      <placeref hlink="_f6052d57da910a6853452f1de58"/>
+    </placeobj>
+    <placeobj handle="_f9d184807fd33fd9bbaae4e9766" change="1716739165" id="P0002" type="City">
+      <pname value="Helsinki"/>
+      <placeref hlink="_f6052d57da910a6853452f1de58"/>
+    </placeobj>
+  </places>
+  <notes>
+    <note handle="_f6052eb45b17b07c15a86b55ec" change="1690638242" id="N0000" type="Link">
+      <text>https://kansallisbiografia.fi/kansallisbiografia/henkilo/1207</text>
+    </note>
+    <note handle="_f6052f3814b425939e70aec2fc5" change="1690638296" id="N0001" type="Source text">
+      <text>Kaisa Korhonen S 20.7.1941 Sotkamo. V rovasti Kusti Vihtori Korhonen ja Kirsti Johanna Korhonen. P1 1965 - 1980 (ero) säveltäjä, orkesterinjohtaja Kaj Chydenius S 1939, P1 V diplomiekonomi Ralf Oskar Chydenius ja Greta Maria Brejlin; P2 1991 - näyttelijä Matti Tapio Rasila S 1957, P2 V autonkuljettaja Toivo Paavali Rasila ja toimistovirkailija Anna-Liisa Rasila. Lapset: Kalle S 1970, äänilevytuottaja, muusikko; Jussi S 1972, muusikko.</text>
+    </note>
+    <note handle="_f605317a9a85940307113c15984" change="1690638533" id="N0002" type="Link">
+      <text>http://runeberg.org/kuka/1954/0391.html</text>
+    </note>
+    <note handle="_f605359165d7e09fe3904649347" change="1690638962" id="N0003" type="Transcript" format="1">
+      <text>   Korhonen, K u s t i Vihtori, pas-
+tori, Pieksämäki. - * Sotkamo 9. VI.
+11; vanht palstatilall. Kalle Vihtori
+K.  ja  Matilda  Amalia  Juntunen.
+Puol. Kirsti Johanna Korhonen 39-;
+vanht taloll. Juho Jaakko K. ja
+Hilma Meriläinen. Lapset: Eeva-
+Liisa 40, Kaisa 41, Esko 42, Jussi 45,
+Anna-Leena 46, Jaakko 50. - Yliopp.
+34, vih. pap. 40. Opintomatk. Sak-
+saan 40, Ruotsiin ja Tanskaan 46, 
+Yhdysvaltoihin 48. - Herättäjäyhd.
+matkapappi 40-43, Asevelipapit ry:n
+pääsiht. 43-45, S. kirkon seurakunta-
+työn keskusl. sosiaalisiht. 45-46, S.
+kirkon sisälähetysseuran toiminnan-
+joht. 46-. - Koti ja Kasarmin toimi-
+tussiht. 43-44, Vartijan toim. j. 44-. -
+Julk. muiden kanssa teokset Taluta
+tielläs 44, Älä aja raiteissa 45. - Kapt.
+44. - VR. 3, VR. 4 tl. k., VR. 4.</text>
+      <style name="bold">
+        <range start="0" end="11"/>
+      </style>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="762"/>
+      </style>
+    </note>
+  </notes>
+</database>
