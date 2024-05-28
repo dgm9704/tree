@@ -638,10 +638,11 @@
       <dateval val="1891-02-01"/>
       <place hlink="_cdd421a7ab374044701"/>
     </event>
-    <event handle="_cfa3654e11d66029128" change="1426879288" id="E0060">
+    <event handle="_cfa3654e11d66029128" change="1716922985" id="E0060">
       <type>Birth</type>
       <dateval val="1885-10-23"/>
       <place hlink="_cca16cd689770c9f111"/>
+      <citationref hlink="_f9d85d83bbb1e0a532d77d55be4"/>
     </event>
     <event handle="_cfa389daf9d117b0d73" change="1426883169" id="E0061">
       <type>Residence</type>
@@ -3769,6 +3770,13 @@
       <noteref hlink="_f9d8056db0042649643c0e8e1d"/>
       <sourceref hlink="_cdd3b3e8e60650d5cd6"/>
     </citation>
+    <citation handle="_f9d85d83bbb1e0a532d77d55be4" change="1716922982" id="C0210">
+      <page>C:9/101</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9d85d3de8f7b498db0b35fbacf"/>
+      <noteref hlink="_f9d85d7d809644472154be0852c"/>
+      <sourceref hlink="_f9d85d2715a5bd1d6c087f76e03"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdd044203935b79cba4" change="1429553707" id="S0000">
@@ -4110,6 +4118,11 @@
     <source handle="_f9d55eeb1842569da83ffd4d40f" change="1716842598" id="S0067">
       <stitle>Rääkkylä Syntyneet 1891-1892</stitle>
       <sauthor>Rääkkylän seurakunta</sauthor>
+      <reporef hlink="_cdd410d11e701d5d906" medium="Book"/>
+    </source>
+    <source handle="_f9d85d2715a5bd1d6c087f76e03" change="1716922944" id="S0068">
+      <stitle>Liperi Syntyneet 1881-1892</stitle>
+      <sauthor>Liperin seurakunta</sauthor>
       <reporef hlink="_cdd410d11e701d5d906" medium="Book"/>
     </source>
   </sources>
@@ -7351,6 +7364,15 @@ Maikki  &quot;     vo 94                              7/307         9/116
     </note>
     <note handle="_f9d810631e82e5bf3b7326b8483" change="1716914894" id="N0377" type="Citation">
       <text>Rääkkylän seurakunnan arkisto - I Ab:4 Lastenkirja 1840-1852, jakso 223, sivu 404-405: Wenduriniemi 5; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5821065535&amp;aineistoId=1193327507 / Viitattu 28.5.2024</text>
+    </note>
+    <note handle="_f9d85d3de8f7b498db0b35fbacf" change="1716922953" id="N0378" type="Citation">
+      <text>Liperi syntyneet 1881-1892 (AP I C:9)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45199&amp;pnum=101 / Viitattu 28.05.2024</text>
+    </note>
+    <note handle="_f9d85d7d809644472154be0852c" change="1716922979" id="N0379" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45199&amp;pnum=101</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45199&amp;pnum=101">
+        <range start="0" end="78"/>
+      </style>
     </note>
   </notes>
 </database>
