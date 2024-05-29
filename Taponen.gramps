@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2024-05-29" version="5.2.2"/>
+    <created date="2024-05-30" version="5.2.2"/>
     <researcher>
     </researcher>
     <mediapath>/home/john/3Taponen_2014-10-29.gpkg.media</mediapath>
@@ -243,19 +243,24 @@
       <dateval val="1804-11-03"/>
       <citationref hlink="_da82faf2338726ee88301cf9878"/>
     </event>
-    <event handle="_cca205741a73528dbb7" change="1430172832" id="E0052">
+    <event handle="_cca205741a73528dbb7" change="1717016814" id="E0052">
       <type>Birth</type>
       <dateval val="1829-09-26"/>
+      <place hlink="_d01e06d9c521de6d970"/>
       <citationref hlink="_d01e15f81820767928a"/>
+      <citationref hlink="_f9dbdc390db5fc73179fa45de4b"/>
     </event>
-    <event handle="_cca205c587f285586ca" change="1430172938" id="E0053">
+    <event handle="_cca205c587f285586ca" change="1717017052" id="E0053">
       <type>Birth</type>
       <dateval val="1834-06-01"/>
+      <place hlink="_cdd70e98e0854ad935d"/>
       <citationref hlink="_d01e15f81820767928a"/>
+      <citationref hlink="_f9dbde7cf464cc801a8b1fd179a"/>
     </event>
-    <event handle="_cca206084a65f7b3ac9" change="1406229216" id="E0054">
+    <event handle="_cca206084a65f7b3ac9" change="1717017278" id="E0054">
       <type>Birth</type>
       <dateval val="1839-05-21"/>
+      <citationref hlink="_f9dbe0c00f724aaf8e5c79a9f4f"/>
     </event>
     <event handle="_cdcdbfd7dab040a888b" change="1414447939" id="E0167">
       <type>Birth</type>
@@ -826,11 +831,12 @@
       <place hlink="_d01e04270114cecb74b"/>
       <citationref hlink="_d01e0557fc43bfe1242"/>
     </event>
-    <event handle="_d01e0ab29ce4f86c9f3" change="1501510045" id="E0141">
+    <event handle="_d01e0ab29ce4f86c9f3" change="1717016132" id="E0141">
       <type>Residence</type>
       <datespan start="1843" stop="1844"/>
       <place hlink="_d01e06d9c521de6d970"/>
       <citationref hlink="_d01e0aacfdf0369e44b"/>
+      <citationref hlink="_f9dbd5d13975bc2c9f551ee923f"/>
     </event>
     <event handle="_d01e0c44c355063ed41" change="1501510051" id="E0142">
       <type>Residence</type>
@@ -858,11 +864,12 @@
       <citationref hlink="_d01e15f81820767928a"/>
       <citationref hlink="_da7f9ab23e73c8fb750f8bf7bbe"/>
     </event>
-    <event handle="_d01e17e2b292837acb5" change="1430172927" id="E0146">
+    <event handle="_d01e17e2b292837acb5" change="1717017134" id="E0146">
       <type>Death</type>
       <dateval val="1842-01-13"/>
       <place hlink="_d01e13947926d2a234e"/>
       <citationref hlink="_d01e15f81820767928a"/>
+      <citationref hlink="_f9dbdf5b6402c34a680a484d878"/>
     </event>
     <event handle="_d01e1ec3bc435fc3170" change="1501509233" id="E0147">
       <type>Death</type>
@@ -2928,10 +2935,12 @@
       <noteref hlink="_da7cecbcef873b119f8296a00fa"/>
       <sourceref hlink="_d01a0e983860c0e4e08"/>
     </citation>
-    <citation handle="_da7f9ab23e73c8fb750f8bf7bbe" change="1501509944" id="C0095">
+    <citation handle="_da7f9ab23e73c8fb750f8bf7bbe" change="1717016914" id="C0095">
       <page>kuva 19</page>
       <confidence>2</confidence>
+      <noteref hlink="_f9dbdd1a49780dd3289dffa74f"/>
       <noteref hlink="_da7f9ab013a79b850e7b199e456"/>
+      <noteref hlink="_f9dbdd467f73526585265536f65"/>
       <sourceref hlink="_cdd41f94bbf3da2f4a7"/>
     </citation>
     <citation handle="_da82f8139816e5867dc21771867" change="1717011546" id="C0096">
@@ -3803,6 +3812,41 @@
       <noteref hlink="_f9dbcca5d8e33ad243fdab33390"/>
       <noteref hlink="_f9dbcc865981ea236f7cd27d237"/>
       <sourceref hlink="_f9dbc76eed439babf836ad593bf"/>
+    </citation>
+    <citation handle="_f9dbd5d13975bc2c9f551ee923f" change="1717016127" id="C0213">
+      <page>Aa:7/518</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9dbd5adfec3d1cf8346c8d1815"/>
+      <noteref hlink="_f9dbd5cc5c7201681260a51a97b"/>
+      <sourceref hlink="_cdd720888052961bbef"/>
+    </citation>
+    <citation handle="_f9dbdc390db5fc73179fa45de4b" change="1717016799" id="C0214">
+      <page>C:1/41</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9dbdc178716343264d129a1281"/>
+      <noteref hlink="_f9dbdc34bba54c12bdb5bcc91ac"/>
+      <sourceref hlink="_cdd70f2dd3f0b6783d1"/>
+    </citation>
+    <citation handle="_f9dbde7cf464cc801a8b1fd179a" change="1717017036" id="C0215">
+      <page>C:2/46</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9dbde454d34c579655e21a681f"/>
+      <noteref hlink="_f9dbde6e5d9376de727e62bb"/>
+      <sourceref hlink="_cdd428c8d9374902be3"/>
+    </citation>
+    <citation handle="_f9dbdf5b6402c34a680a484d878" change="1717017127" id="C0216">
+      <page>C:2/22</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9dbdf37fbd68ce5ab730332a51"/>
+      <noteref hlink="_f9dbdf585e11907aaaf441781ca"/>
+      <sourceref hlink="_cdd41f94bbf3da2f4a7"/>
+    </citation>
+    <citation handle="_f9dbe0c00f724aaf8e5c79a9f4f" change="1717017273" id="C0217">
+      <page>C:2/83</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9dbe09c0e544145fcda6375992"/>
+      <noteref hlink="_f9dbe0b9ffa3473eaa3aac2c67f"/>
+      <sourceref hlink="_cdd428c8d9374902be3"/>
     </citation>
   </citations>
   <sources>
@@ -7470,6 +7514,60 @@ Maikki  &quot;     vo 94                              7/307         9/116
     <note handle="_f9dbcca5d8e33ad243fdab33390" change="1717015166" id="N0396" type="Url">
       <text>https://astia.narc.fi/uusiastia/viewer/?fileId=6039405450&amp;aineistoId=1193302836</text>
       <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=6039405450&amp;aineistoId=1193302836">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f9dbd5adfec3d1cf8346c8d1815" change="1717016113" id="N0397" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto - I Aa:7 Rippikirja 1839-1852, jakso 273, sivu 518: Pimälax Inhysingar; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5821229257&amp;aineistoId=1193173494 / Viitattu 29.5.2024</text>
+    </note>
+    <note handle="_f9dbd5cc5c7201681260a51a97b" change="1717016125" id="N0398" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5821229257&amp;aineistoId=1193173494</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5821229257&amp;aineistoId=1193173494">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f9dbdc178716343264d129a1281" change="1717016785" id="N0399" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto - I C:1 Syntyneiden ja kastettujen luettelot 1824-1832, jakso 41: Födde 1829; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5821191146&amp;aineistoId=1193367797 / Viitattu 30.5.2024</text>
+    </note>
+    <note handle="_f9dbdc34bba54c12bdb5bcc91ac" change="1717016797" id="N0400" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5821191146&amp;aineistoId=1193367797</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5821191146&amp;aineistoId=1193367797">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f9dbdd1a49780dd3289dffa74f" change="1717016891" id="N0401" type="Citation">
+      <text>Rääkkylä kuolleet 1833-1857 (TK2181 I C:2)  1841 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=10852&amp;pnum=19 / Viitattu 29.05.2024</text>
+    </note>
+    <note handle="_f9dbdd467f73526585265536f65" change="1717016909" id="N0402" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=10852&amp;pnum=19</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=10852&amp;pnum=19">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f9dbde454d34c579655e21a681f" change="1717017013" id="N0403" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto - I C:2 Syntyneiden ja kastettujen luettelot 1833-1856, jakso 46: Födde 1834; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5821219791&amp;aineistoId=1193375208 / Viitattu 30.5.2024</text>
+    </note>
+    <note handle="_f9dbde6e5d9376de727e62bb" change="1717017030" id="N0404" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5821219791&amp;aineistoId=1193375208</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5821219791&amp;aineistoId=1193375208">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f9dbdf37fbd68ce5ab730332a51" change="1717017113" id="N0405" type="Citation">
+      <text>Rääkkylä kuolleet 1833-1857 (TK2181 I C:2)  1842 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=10852&amp;pnum=22 / Viitattu 29.05.2024</text>
+    </note>
+    <note handle="_f9dbdf585e11907aaaf441781ca" change="1717017126" id="N0406" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=10852&amp;pnum=22</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=10852&amp;pnum=22">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f9dbe09c0e544145fcda6375992" change="1717017259" id="N0407" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto - I C:2 Syntyneiden ja kastettujen luettelot 1833-1856, jakso 83: Födde 1839 Junii; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5821219391&amp;aineistoId=1193375208 / Viitattu 30.5.2024</text>
+    </note>
+    <note handle="_f9dbe0b9ffa3473eaa3aac2c67f" change="1717017271" id="N0408" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5821219391&amp;aineistoId=1193375208</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5821219391&amp;aineistoId=1193375208">
         <range start="0" end="79"/>
       </style>
     </note>
