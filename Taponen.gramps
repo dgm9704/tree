@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2024-05-28" version="5.2.2"/>
+    <created date="2024-05-29" version="5.2.2"/>
     <researcher>
     </researcher>
     <mediapath>/home/john/3Taponen_2014-10-29.gpkg.media</mediapath>
@@ -233,13 +233,15 @@
       <place hlink="_cdd4361a0122fe89ce5"/>
       <citationref hlink="_cdd7162de8a439e9503"/>
     </event>
-    <event handle="_cca204eff406c0fed6c" change="1406226497" id="E0050">
+    <event handle="_cca204eff406c0fed6c" change="1717010887" id="E0050">
       <type>Birth</type>
       <dateval val="1799"/>
+      <citationref hlink="_d01e2fe53d6766bdd24"/>
     </event>
-    <event handle="_cca20506c6a49e14734" change="1406279063" id="E0051">
+    <event handle="_cca20506c6a49e14734" change="1717011469" id="E0051">
       <type>Birth</type>
       <dateval val="1804-11-03"/>
+      <citationref hlink="_da82faf2338726ee88301cf9878"/>
     </event>
     <event handle="_cca205741a73528dbb7" change="1430172832" id="E0052">
       <type>Birth</type>
@@ -868,9 +870,9 @@
       <place hlink="_d01e1f30c9031c23e01"/>
       <citationref hlink="_d01e1e3c0e7469f135a"/>
     </event>
-    <event handle="_d01e2fea0073535d63f" change="1501515524" id="E0148">
+    <event handle="_d01e2fea0073535d63f" change="1717011384" id="E0148">
       <type>Residence</type>
-      <datespan start="1824" stop="1827"/>
+      <datespan start="1824" stop="1826"/>
       <place hlink="_d01e2e656e955e7bc2d"/>
       <citationref hlink="_d01e2fe53d6766bdd24"/>
     </event>
@@ -2771,19 +2773,20 @@
       <noteref hlink="_d01e0553ceb269d8e20"/>
       <sourceref hlink="_cdd42af6d0405b76bb7"/>
     </citation>
-    <citation handle="_d01e0aacfdf0369e44b" change="1430172416" id="C0074">
-      <page>274</page>
+    <citation handle="_d01e0aacfdf0369e44b" change="1717011933" id="C0074">
+      <page>274-275</page>
       <confidence>2</confidence>
-      <noteref hlink="_d01e070c3e94803c905"/>
+      <noteref hlink="_f9dbadca7657ecba46e06d8a73d"/>
+      <noteref hlink="_f9dbada0d4c7b4240fa11f14a70"/>
       <noteref hlink="_d01e09efbb1494ba036"/>
       <sourceref hlink="_cdd42af6d0405b76bb7"/>
     </citation>
-    <citation handle="_d01e0f6506147f4ff9e" change="1501509547" id="C0075">
+    <citation handle="_d01e0f6506147f4ff9e" change="1717011958" id="C0075">
       <page>421-422</page>
       <confidence>2</confidence>
+      <noteref hlink="_f9dbae085f070b08501d012fe26"/>
       <noteref hlink="_da7f96cd9e47c76250409977f18"/>
       <noteref hlink="_d01e0f538bd37451b59"/>
-      <noteref hlink="_d01e0c9156809cbf7e9"/>
       <sourceref hlink="_cdd42af6d0405b76bb7"/>
     </citation>
     <citation handle="_d01e126818e481d7d9e" change="1430172352" id="C0076">
@@ -2793,41 +2796,44 @@
       <noteref hlink="_d01e12638c102a8f793"/>
       <sourceref hlink="_cdd42af6d0405b76bb7"/>
     </citation>
-    <citation handle="_d01e15f81820767928a" change="1501512870" id="C0077">
+    <citation handle="_d01e15f81820767928a" change="1717011850" id="C0077">
       <page>150-151</page>
       <confidence>2</confidence>
+      <noteref hlink="_f9dbacff99d3050b1d3b96bb268"/>
       <noteref hlink="_da7fb677656160f2dac4a30cadf"/>
       <noteref hlink="_d01e15e90e828e58cc3"/>
-      <noteref hlink="_d01e13ec230463c63dd"/>
       <sourceref hlink="_cdd42af6d0405b76bb7"/>
     </citation>
-    <citation handle="_d01e1e3c0e7469f135a" change="1501512957" id="C0078">
+    <citation handle="_d01e1e3c0e7469f135a" change="1717011826" id="C0078">
       <page>308</page>
       <confidence>2</confidence>
+      <noteref hlink="_f9dbacc58d562a04aff19382364"/>
       <noteref hlink="_da7fb73fcb75c00024f18980ec7"/>
       <noteref hlink="_d01e1e2913646d361df"/>
-      <noteref hlink="_d01e1c67fa5670cccad"/>
       <sourceref hlink="_cdd720888052961bbef"/>
     </citation>
-    <citation handle="_d01e2fe53d6766bdd24" change="1501515521" id="C0079">
+    <citation handle="_d01e2fe53d6766bdd24" change="1717010925" id="C0079">
       <page>201</page>
       <confidence>2</confidence>
+      <noteref hlink="_f9dba426d6b21cb7a67b966b524"/>
       <noteref hlink="_da7fcfd246d2afb757a5b0b2aa8"/>
       <noteref hlink="_d01e2fe079e41478cce"/>
       <noteref hlink="_d01e2ea99f065d987c6"/>
       <sourceref hlink="_cdd047117f05b6e8304"/>
     </citation>
-    <citation handle="_d02069f28444a377251" change="1501598451" id="C0080">
+    <citation handle="_d02069f28444a377251" change="1717011717" id="C0080">
       <page>159</page>
       <confidence>2</confidence>
-      <noteref hlink="_d02068fc6ac3e1930c1"/>
+      <noteref hlink="_f9dbaba4da0665e9c14670d868c"/>
+      <noteref hlink="_f9dbab81e7c48e533c733b8e0d6"/>
       <noteref hlink="_d02069eb737556c2053"/>
       <sourceref hlink="_cdd044203935b79cba4"/>
     </citation>
-    <citation handle="_d0206bb98151f7aba85" change="1501598396" id="C0081">
+    <citation handle="_d0206bb98151f7aba85" change="1717011796" id="C0081">
       <page>573</page>
       <confidence>2</confidence>
-      <noteref hlink="_d0206b2f6327ee82145"/>
+      <noteref hlink="_f9dbac7845e159472b28457aa3c"/>
+      <noteref hlink="_f9dbac4d9e46b54907f992b673"/>
       <noteref hlink="_d0206bb535d623dfa15"/>
       <sourceref hlink="_cdd044203935b79cba4"/>
     </citation>
@@ -2923,15 +2929,17 @@
       <noteref hlink="_da7f9ab013a79b850e7b199e456"/>
       <sourceref hlink="_cdd41f94bbf3da2f4a7"/>
     </citation>
-    <citation handle="_da82f8139816e5867dc21771867" change="1501600266" id="C0096">
+    <citation handle="_da82f8139816e5867dc21771867" change="1717011546" id="C0096">
       <page>323</page>
       <confidence>2</confidence>
+      <noteref hlink="_f9dbaa1928f43520b5eed631984"/>
       <noteref hlink="_da82f802a393a7cf4f975274b07"/>
       <sourceref hlink="_cdd044203935b79cba4"/>
     </citation>
-    <citation handle="_da82faf2338726ee88301cf9878" change="1501600671" id="C0097">
+    <citation handle="_da82faf2338726ee88301cf9878" change="1717011184" id="C0097">
       <page>149</page>
       <confidence>2</confidence>
+      <noteref hlink="_f9dba6a593532867eee11ac5cb5"/>
       <noteref hlink="_da82faee8f75564d8164bc6a59b"/>
       <sourceref hlink="_cdd047117f05b6e8304"/>
     </citation>
@@ -7373,6 +7381,51 @@ Maikki  &quot;     vo 94                              7/307         9/116
       <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45199&amp;pnum=101">
         <range start="0" end="78"/>
       </style>
+    </note>
+    <note handle="_f9dba426d6b21cb7a67b966b524" change="1717010919" id="N0380" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A KIRKON PÄÄKIRJAT HAKEMISTOINEEN. I Aa Rippikirjat. I Aa:5 Rippikirja  (1817-1827). Tiedosto 150. Kansallisarkisto. Viitattu 29.5.2024.</text>
+    </note>
+    <note handle="_f9dba6a593532867eee11ac5cb5" change="1717011181" id="N0381" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A KIRKON PÄÄKIRJAT HAKEMISTOINEEN. I Aa Rippikirjat. I Aa:5 Rippikirja  (1817-1827). Tiedosto 97. Kansallisarkisto. Viitattu 29.5.2024.</text>
+    </note>
+    <note handle="_f9dbaa1928f43520b5eed631984" change="1717011543" id="N0382" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A KIRKON PÄÄKIRJAT HAKEMISTOINEEN. I Aa Rippikirjat. I Aa:6 Rippikirja  (1828-1838). Tiedosto 165. Kansallisarkisto. Viitattu 29.5.2024.</text>
+    </note>
+    <note handle="_f9dbab81e7c48e533c733b8e0d6" change="1717011691" id="N0383" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5821213154&amp;aineistoId=1193156879</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5821213154&amp;aineistoId=1193156879">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f9dbaba4da0665e9c14670d868c" change="1717011705" id="N0384" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A KIRKON PÄÄKIRJAT HAKEMISTOINEEN. I Aa Rippikirjat. I Aa:6 Rippikirja  (1828-1838). Tiedosto 82. Kansallisarkisto. Viitattu 29.5.2024.</text>
+    </note>
+    <note handle="_f9dbac4d9e46b54907f992b673" change="1717011774" id="N0385" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5821213070&amp;aineistoId=1193156879</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5821213070&amp;aineistoId=1193156879">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f9dbac7845e159472b28457aa3c" change="1717011791" id="N0386" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto - I Aa:6 Rippikirja 1828-1838, jakso 296, sivu 573: Niemis inhys.; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5821213070&amp;aineistoId=1193156879 / Viitattu 29.5.2024</text>
+    </note>
+    <note handle="_f9dbacc58d562a04aff19382364" change="1717011823" id="N0387" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A KIRKON PÄÄKIRJAT HAKEMISTOINEEN. I Aa Rippikirjat. I Aa:7 Rippikirja  (1839-1852). Tiedosto 162. Kansallisarkisto. Viitattu 29.5.2024.</text>
+    </note>
+    <note handle="_f9dbacff99d3050b1d3b96bb268" change="1717011847" id="N0388" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A KIRKON PÄÄKIRJAT HAKEMISTOINEEN. I Ab Lastenkirjat. I Ab:4 Lastenkirja  (1840-1852). Tiedosto 81. Kansallisarkisto. Viitattu 29.5.2024.</text>
+    </note>
+    <note handle="_f9dbada0d4c7b4240fa11f14a70" change="1717011913" id="N0389" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5821065997&amp;aineistoId=1193327507</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5821065997&amp;aineistoId=1193327507">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f9dbadca7657ecba46e06d8a73d" change="1717011930" id="N0390" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto - I Ab:4 Lastenkirja 1840-1852, jakso 151, sivu 274-275: Pimälax; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5821065997&amp;aineistoId=1193327507 / Viitattu 29.5.2024</text>
+    </note>
+    <note handle="_f9dbae085f070b08501d012fe26" change="1717011955" id="N0391" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A KIRKON PÄÄKIRJAT HAKEMISTOINEEN. I Ab Lastenkirjat. I Ab:4 Lastenkirja  (1840-1852). Tiedosto 231. Kansallisarkisto. Viitattu 29.5.2024.</text>
     </note>
   </notes>
 </database>
