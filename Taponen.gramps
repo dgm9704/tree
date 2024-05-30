@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2024-05-30" version="5.2.2"/>
+    <created date="2024-05-31" version="5.2.2"/>
     <researcher>
     </researcher>
     <mediapath>/home/john/3Taponen_2014-10-29.gpkg.media</mediapath>
@@ -772,9 +772,10 @@
       <citationref hlink="_d0199b6d44a0a4e00d0"/>
       <citationref hlink="_d0191e766085f58a5ed"/>
     </event>
-    <event handle="_d0192211163166ade50" change="1430039776" id="E0131">
+    <event handle="_d0192211163166ade50" change="1717093403" id="E0131">
       <type>Birth</type>
       <dateval val="1831-05-28"/>
+      <noteref hlink="_f9deb6c49331a60037c80a4bddc"/>
       <citationref hlink="_d0191e766085f58a5ed"/>
     </event>
     <event handle="_d01922988e32a2eddfd" change="1430052686" id="E0132">
@@ -1319,6 +1320,13 @@
       <citationref hlink="_f88cd6d1dd663fdcbd519b52414"/>
       <citationref hlink="_f88cee990135852dab00dc6bc1d"/>
     </event>
+    <event handle="_f9deb4bc3a152b117556bfb2620" change="1717093189" id="E0106">
+      <type>Death</type>
+      <dateval val="1884-02-01"/>
+      <place hlink="_cdd1051b4c648ad7ac8"/>
+      <citationref hlink="_d019be0bf5066e80b43"/>
+      <citationref hlink="_f9deb4b48195796f349059eacf6"/>
+    </event>
   </events>
   <people home="_cca1691b7c53559cc53">
     <person handle="_cb937baae6821b777ad" change="1501410532" id="I0000">
@@ -1464,7 +1472,7 @@
       <eventref hlink="_cb93866174a34e64fe2" role="Primary"/>
       <childof hlink="_cb9384c7503395850c3"/>
     </person>
-    <person handle="_cb9387523a946030f71" change="1430162084" id="I0013">
+    <person handle="_cb9387523a946030f71" change="1717103306" id="I0013">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anna Josefina</first>
@@ -1472,6 +1480,8 @@
       </name>
       <eventref hlink="_cb93874bb353188fd8b" role="Primary"/>
       <childof hlink="_cb9384c7503395850c3"/>
+      <noteref hlink="_f9dec36fc0d56f4531f48634a41"/>
+      <noteref hlink="_f9df152ea473287a9bc25109971"/>
     </person>
     <person handle="_cb9387a23152ebf0a20" change="1430162084" id="I0014">
       <gender>F</gender>
@@ -1913,13 +1923,14 @@
       <childof hlink="_d010ed0385e3b328d6c"/>
       <childof hlink="_d01115ab6f41f64e89f"/>
     </person>
-    <person handle="_d019224c22949006533" change="1430165767" id="I0061">
+    <person handle="_d019224c22949006533" change="1717093403" id="I0061">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Sofia</first>
         <surname>Palmstedt</surname>
       </name>
       <eventref hlink="_d0192211163166ade50" role="Primary"/>
+      <eventref hlink="_f9deb4bc3a152b117556bfb2620" role="Primary"/>
       <parentin hlink="_d0192176cfa508db0f8"/>
     </person>
     <person handle="_da7c10f80575c48aa0c202f6287" change="1501773930" id="I0005">
@@ -3861,6 +3872,13 @@
       <noteref hlink="_f9de8daf65b2002998e71a76c3c"/>
       <sourceref hlink="_f9de8d6769649bad1ecd6eb0bfa"/>
     </citation>
+    <citation handle="_f9deb4b48195796f349059eacf6" change="1717093186" id="C0219">
+      <page>25-26</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9deb482beb7812de98805c286"/>
+      <noteref hlink="_f9deb49ea2a68e9d02f484ebb63"/>
+      <sourceref hlink="_f9deb44b46e4b33d43b89e9f09f"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdd044203935b79cba4" change="1429553707" id="S0000">
@@ -4216,6 +4234,11 @@
     </source>
     <source handle="_f9de8d6769649bad1ecd6eb0bfa" change="1717089065" id="S0070">
       <stitle>Rääkkylä Vihityt 1859-1879</stitle>
+      <sauthor>Rääkkylän seurakunta</sauthor>
+      <reporef hlink="_cdd410d11e701d5d906" medium="Book"/>
+    </source>
+    <source handle="_f9deb44b46e4b33d43b89e9f09f" change="1717093143" id="S0071">
+      <stitle>Rääkkylä Kuolleet 1880-1890</stitle>
       <sauthor>Rääkkylän seurakunta</sauthor>
       <reporef hlink="_cdd410d11e701d5d906" medium="Book"/>
     </source>
@@ -7630,6 +7653,24 @@ Maikki  &quot;     vo 94                              7/307         9/116
     </note>
     <note handle="_f9de908f6b05d15319f1215ab28" change="1717089396" id="N0418" type="Citation">
       <text>Kuopion läänin henkikirjat. K Henkikirjat. K:90 Henkikirja  (1880-1880). Tiedosto 531. Kansallisarkisto. Viitattu 30.5.2024.</text>
+    </note>
+    <note handle="_f9deb482beb7812de98805c286" change="1717093165" id="N0419" type="Citation">
+      <text>Rääkkylä kuolleet 1880-1890 (MKO1-2)  Sivu 25-26 1884 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26285&amp;pnum=13 / Viitattu 30.05.2024</text>
+    </note>
+    <note handle="_f9deb49ea2a68e9d02f484ebb63" change="1717093177" id="N0420" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26285&amp;pnum=13</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26285&amp;pnum=13">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f9deb6c49331a60037c80a4bddc" change="1717093402" id="N0421" type="Research">
+      <text>Ei löydy Rääkkylä syntyneistä</text>
+    </note>
+    <note handle="_f9dec36fc0d56f4531f48634a41" change="1717094730" id="N0422" type="Research">
+      <text>Rääkkylä vihityt 1880-1890 (MKO1)  Sivu 39-40  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26283&amp;pnum=20 / Viitattu 30.05.2024</text>
+    </note>
+    <note handle="_f9df152ea473287a9bc25109971" change="1717103302" id="N0423" type="Research">
+      <text>Rääkkylä kuulutetut 1880-1890 (MKO1-7)  Sivu 158  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26293&amp;pnum=158 / Viitattu 30.05.2024</text>
     </note>
   </notes>
 </database>
