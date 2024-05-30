@@ -76,10 +76,11 @@
       <type>Birth</type>
       <dateval val="1838-11-05"/>
     </event>
-    <event handle="_cb938527b72251bbdb8" change="1414446972" id="E0012">
+    <event handle="_cb938527b72251bbdb8" change="1717089100" id="E0012">
       <type>Marriage</type>
       <dateval val="1859-08-09"/>
       <place hlink="_cdd421a7ab374044701"/>
+      <citationref hlink="_f9de8db3f441b50b12698cccadb"/>
     </event>
     <event handle="_cb93857c4514d97e9b8" change="1716907700" id="E0013">
       <type>Birth</type>
@@ -2375,10 +2376,11 @@
       <noteref hlink="_cdd114d52e6736721d4"/>
       <sourceref hlink="_cdd114badfc05249d5d"/>
     </citation>
-    <citation handle="_cdd11d0ee4a189b03eb" change="1430039045" id="C0014">
+    <citation handle="_cdd11d0ee4a189b03eb" change="1717089398" id="C0014">
       <dateval val="1880"/>
       <page>528</page>
       <confidence>2</confidence>
+      <noteref hlink="_f9de908f6b05d15319f1215ab28"/>
       <noteref hlink="_cdd11d0a622678cc9a2"/>
       <sourceref hlink="_cdd1135cc8f5e2f9567"/>
     </citation>
@@ -2600,9 +2602,10 @@
       <noteref hlink="_d011147fca0579ecc20"/>
       <sourceref hlink="_cdd72c7c170018d1c08"/>
     </citation>
-    <citation handle="_cfa394fd9711c01a0ae" change="1426884289" id="C0006">
+    <citation handle="_cfa394fd9711c01a0ae" change="1717089129" id="C0006">
       <page>299</page>
       <confidence>2</confidence>
+      <noteref hlink="_f9de8dffb415434d3deddd5da75"/>
       <noteref hlink="_cfa394f68ad7fd90883"/>
       <sourceref hlink="_cdd72720ee82f1422e8"/>
     </citation>
@@ -2677,17 +2680,19 @@
       <noteref hlink="_e82dca6310745f9b55b357b14c3"/>
       <sourceref hlink="_d017275104a2ae6f7da"/>
     </citation>
-    <citation handle="_d0191e766085f58a5ed" change="1430162524" id="C0059">
+    <citation handle="_d0191e766085f58a5ed" change="1717089356" id="C0059">
       <page>387</page>
       <confidence>2</confidence>
-      <noteref hlink="_d0191c74133603e9296"/>
+      <noteref hlink="_f9de8fe7ed91c077cdf16aa5c45"/>
+      <noteref hlink="_f9de9023b3f1cf99dd3e7bf2aa9"/>
       <noteref hlink="_d0191e5d0d86c357137"/>
       <sourceref hlink="_d0191c289c501eabcf6"/>
     </citation>
-    <citation handle="_d0199b6d44a0a4e00d0" change="1430052628" id="C0060">
+    <citation handle="_d0199b6d44a0a4e00d0" change="1717089256" id="C0060">
       <page>208</page>
       <confidence>2</confidence>
-      <noteref hlink="_d0199b68c0a257694b3"/>
+      <noteref hlink="_f9de8ef670a7d81edafdc4915cd"/>
+      <noteref hlink="_f9de8f1e52c5a373dc76dd3db4d"/>
       <noteref hlink="_d0199c9a7be6e293de6"/>
       <sourceref hlink="_d0191c289c501eabcf6"/>
     </citation>
@@ -2754,10 +2759,11 @@
       <noteref hlink="_d01a4b8d16d103fa229"/>
       <sourceref hlink="_cdd72c7c170018d1c08"/>
     </citation>
-    <citation handle="_d01dfcf06af5fce8a8f" change="1430170459" id="C0070">
-      <page>397</page>
+    <citation handle="_d01dfcf06af5fce8a8f" change="1717088789" id="C0070">
+      <page>Ab:4/396-397</page>
       <confidence>2</confidence>
-      <noteref hlink="_d01dfc42b133ca5be98"/>
+      <noteref hlink="_f9de8a3eafd4a929e88acaf00a3"/>
+      <noteref hlink="_f9de8a73adc532f0cd1cc56c6b5"/>
       <noteref hlink="_d01dfceb0c551a1ba7f"/>
       <sourceref hlink="_cdd42af6d0405b76bb7"/>
     </citation>
@@ -3848,6 +3854,13 @@
       <noteref hlink="_f9dbe0b9ffa3473eaa3aac2c67f"/>
       <sourceref hlink="_cdd428c8d9374902be3"/>
     </citation>
+    <citation handle="_f9de8db3f441b50b12698cccadb" change="1717089096" id="C0218">
+      <page>Eb:3/9</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9de8d9157515e062cfb20792c"/>
+      <noteref hlink="_f9de8daf65b2002998e71a76c3c"/>
+      <sourceref hlink="_f9de8d6769649bad1ecd6eb0bfa"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdd044203935b79cba4" change="1429553707" id="S0000">
@@ -4200,6 +4213,11 @@
       <stitle>Rääkkylä Lastenkirja 1808-1835</stitle>
       <sauthor>Rääkkylän seurakunta</sauthor>
       <reporef hlink="_d010e648af6539f6d97" medium="Book"/>
+    </source>
+    <source handle="_f9de8d6769649bad1ecd6eb0bfa" change="1717089065" id="S0070">
+      <stitle>Rääkkylä Vihityt 1859-1879</stitle>
+      <sauthor>Rääkkylän seurakunta</sauthor>
+      <reporef hlink="_cdd410d11e701d5d906" medium="Book"/>
     </source>
   </sources>
   <places>
@@ -7570,6 +7588,48 @@ Maikki  &quot;     vo 94                              7/307         9/116
       <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5821219391&amp;aineistoId=1193375208">
         <range start="0" end="79"/>
       </style>
+    </note>
+    <note handle="_f9de8a3eafd4a929e88acaf00a3" change="1717088733" id="N0409" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto - I Ab:4 Lastenkirja 1840-1852, jakso 219, sivu 396-397: Wenduriniemi 2; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5821065472&amp;aineistoId=1193327507 / Viitattu 30.5.2024</text>
+    </note>
+    <note handle="_f9de8a73adc532f0cd1cc56c6b5" change="1717088755" id="N0410" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5821065472&amp;aineistoId=1193327507</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5821065472&amp;aineistoId=1193327507">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f9de8d9157515e062cfb20792c" change="1717089082" id="N0411" type="Citation">
+      <text>Rääkkylä vihityt 1857-1879 (TK2182 I Eb:3)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15134&amp;pnum=9 / Viitattu 30.05.2024</text>
+    </note>
+    <note handle="_f9de8daf65b2002998e71a76c3c" change="1717089094" id="N0412" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15134&amp;pnum=9</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15134&amp;pnum=9">
+        <range start="0" end="76"/>
+      </style>
+    </note>
+    <note handle="_f9de8dffb415434d3deddd5da75" change="1717089127" id="N0413" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A KIRKON PÄÄKIRJAT HAKEMISTOINEEN. I Aa Rippikirjat. I Aa:8 Rippikirja  (1853-1864). Tiedosto 305. Kansallisarkisto. Viitattu 30.5.2024.</text>
+    </note>
+    <note handle="_f9de8ef670a7d81edafdc4915cd" change="1717089228" id="N0414" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto - I Aa:9 Rippikirja 1865-1875, jakso 199, sivu 208: Oravisalo 17 Ranta ; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=4634232852&amp;aineistoId=1193209541 / Viitattu 30.5.2024</text>
+    </note>
+    <note handle="_f9de8f1e52c5a373dc76dd3db4d" change="1717089244" id="N0415" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=4634232852&amp;aineistoId=1193209541</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=4634232852&amp;aineistoId=1193209541">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f9de8fe7ed91c077cdf16aa5c45" change="1717089327" id="N0416" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto - I Aa:10 Rippikirja 1865-1875, jakso 85, sivu 387: Oravisalo ; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=6039584483&amp;aineistoId=1193219104 / Viitattu 30.5.2024</text>
+    </note>
+    <note handle="_f9de9023b3f1cf99dd3e7bf2aa9" change="1717089351" id="N0417" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=6039584483&amp;aineistoId=1193219104</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=6039584483&amp;aineistoId=1193219104">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f9de908f6b05d15319f1215ab28" change="1717089396" id="N0418" type="Citation">
+      <text>Kuopion läänin henkikirjat. K Henkikirjat. K:90 Henkikirja  (1880-1880). Tiedosto 531. Kansallisarkisto. Viitattu 30.5.2024.</text>
     </note>
   </notes>
 </database>
