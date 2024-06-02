@@ -592,11 +592,12 @@
       <place hlink="_cdd722b00f43f9c43d3"/>
       <citationref hlink="_cdd7235ab4560c36cef"/>
     </event>
-    <event handle="_cdd726c1ffe6e48b91f" change="1414524755" id="E0216">
+    <event handle="_cdd726c1ffe6e48b91f" change="1717346137" id="E0216">
       <type>Residence</type>
       <datespan start="1853" stop="1858"/>
       <place hlink="_cdd4361a0122fe89ce5"/>
       <citationref hlink="_cdd72743c271401e835"/>
+      <citationref hlink="_f9e8210515445a89af879ffb82f"/>
     </event>
     <event handle="_cdda26d09a07dab67d3" change="1414610066" id="E0217">
       <type>Residence</type>
@@ -653,17 +654,19 @@
       <place hlink="_cca16cd689770c9f111"/>
       <citationref hlink="_f9d85d83bbb1e0a532d77d55be4"/>
     </event>
-    <event handle="_cfa389daf9d117b0d73" change="1426883169" id="E0061">
+    <event handle="_cfa389daf9d117b0d73" change="1717350608" id="E0061">
       <type>Residence</type>
       <datespan start="1859" stop="1861"/>
       <place hlink="_cdd4361a0122fe89ce5"/>
       <citationref hlink="_cdd72743c271401e835"/>
+      <citationref hlink="_f9e8210515445a89af879ffb82f"/>
     </event>
-    <event handle="_cfa38b7ed5f5f1041bd" change="1426884291" id="E0062">
+    <event handle="_cfa38b7ed5f5f1041bd" change="1717350776" id="E0062">
       <type>Residence</type>
       <datespan start="1861" stop="1864"/>
       <place hlink="_cdd1051b4c648ad7ac8"/>
       <citationref hlink="_cfa394fd9711c01a0ae"/>
+      <citationref hlink="_f9e84d3dcb95c47d0ea620f66dc"/>
     </event>
     <event handle="_d010f49378d5472b5bd" change="1501412644" id="E0114">
       <type>Residence</type>
@@ -1346,6 +1349,36 @@
       <place hlink="_cdd421a7ab374044701"/>
       <citationref hlink="_f9e73b6beaa71ed7e3492d61fad"/>
     </event>
+    <event handle="_f9e7648b4361f90dee4f2c3679f" change="1717326372" id="E0110">
+      <type>Residence</type>
+      <datespan start="1896" stop="1900"/>
+      <place hlink="_cdd421a7ab374044701"/>
+      <citationref hlink="_d01a185e97f7bb4979e"/>
+    </event>
+    <event handle="_f9e856afaeb3dc67dadee47578f" change="1717351763" id="E0111">
+      <type>Residence</type>
+      <datespan start="1862" stop="1863"/>
+      <place hlink="_cdda5d76cb62e303df1"/>
+      <citationref hlink="_f9e856abe0d5071540893fdcba"/>
+    </event>
+    <event handle="_f9e857f38fc187750572db235d9" change="1717351971" id="E0112">
+      <type>Residence</type>
+      <datespan start="1863" stop="1864"/>
+      <place hlink="_f9e8576d93348b0eeebff7c5cb4"/>
+      <citationref hlink="_f9e857ed42a4146f22103ccd314"/>
+    </event>
+    <event handle="_f9e85c0bca16a99c6d3b87d649f" change="1717352325" id="E0113">
+      <type>Residence</type>
+      <dateval val="1865"/>
+      <place hlink="_d0206898051735e1c73"/>
+      <citationref hlink="_f9e85c0376c1848325f4434d6f8"/>
+    </event>
+    <event handle="_f9e85c90474334bc7247d8d12c3" change="1717352379" id="E0126">
+      <type>Residence</type>
+      <dateval val="1865" type="after"/>
+      <place hlink="_f9e85c5fda24d975b8e5d75f166"/>
+      <citationref hlink="_f9e85c0376c1848325f4434d6f8"/>
+    </event>
   </events>
   <people home="_cca1691b7c53559cc53">
     <person handle="_cb937baae6821b777ad" change="1501410532" id="I0000">
@@ -1361,11 +1394,11 @@
       <childof hlink="_cb9384c7503395850c3"/>
       <parentin hlink="_cca167070917742a369"/>
     </person>
-    <person handle="_cb937d8bfc70c373375" change="1717323939" id="I0001">
+    <person handle="_cb937d8bfc70c373375" change="1717339956" id="I0001">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Nils</first>
-        <surname>Taponen</surname>
+        <surname>Tapanen</surname>
         <surname prim="0" derivation="Patronymic">Jöransson</surname>
       </name>
       <eventref hlink="_cb937d863d440fa57dc" role="Primary"/>
@@ -1422,31 +1455,35 @@
       <childof hlink="_cdd0549e16c54014d46"/>
       <parentin hlink="_cb937f52c7d166933fa"/>
     </person>
-    <person handle="_cb93818ef2a77a0d28d" change="1430162084" id="I0006">
+    <person handle="_cb93818ef2a77a0d28d" change="1717352381" id="I0006">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maja Kristina</first>
         <surname>Taponen</surname>
       </name>
       <eventref hlink="_cb93818839e4b1906ff" role="Primary"/>
+      <eventref hlink="_f9e856afaeb3dc67dadee47578f" role="Primary"/>
+      <eventref hlink="_f9e857f38fc187750572db235d9" role="Primary"/>
+      <eventref hlink="_f9e85c0bca16a99c6d3b87d649f" role="Primary"/>
+      <eventref hlink="_f9e85c90474334bc7247d8d12c3" role="Primary"/>
       <childof hlink="_cb937d0369c30ea97ef"/>
       <childof hlink="_cb9384c7503395850c3"/>
     </person>
-    <person handle="_cb9381f71285d1f4d22" change="1414529477" id="I0007">
+    <person handle="_cb9381f71285d1f4d22" change="1717340061" id="I0007">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anna Lisa</first>
-        <surname>Taponen</surname>
+        <surname derivation="Inherited">Tapanen</surname>
       </name>
       <eventref hlink="_cb9381d78bd4eb1bcc3" role="Primary"/>
       <eventref hlink="_cb9381f19a10afd6abe" role="Primary"/>
       <childof hlink="_cb937d0369c30ea97ef"/>
     </person>
-    <person handle="_cb93824e4956d8c863b" change="1414524761" id="I0008">
+    <person handle="_cb93824e4956d8c863b" change="1717340189" id="I0008">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anna Sofia</first>
-        <surname>Taponen</surname>
+        <surname>Tapanen</surname>
       </name>
       <eventref hlink="_cb938234bb45eeb8a2c" role="Primary"/>
       <eventref hlink="_cb9382474962945a42b" role="Primary"/>
@@ -1493,11 +1530,11 @@
       <eventref hlink="_cb93866174a34e64fe2" role="Primary"/>
       <childof hlink="_cb9384c7503395850c3"/>
     </person>
-    <person handle="_cb9387523a946030f71" change="1717103306" id="I0013">
+    <person handle="_cb9387523a946030f71" change="1717339994" id="I0013">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anna Josefina</first>
-        <surname>Taponen</surname>
+        <surname derivation="Inherited">Tapanen</surname>
       </name>
       <eventref hlink="_cb93874bb353188fd8b" role="Primary"/>
       <childof hlink="_cb9384c7503395850c3"/>
@@ -2331,12 +2368,13 @@
       <mother hlink="_f131dccb1452eff1785c6869d00"/>
       <eventref hlink="_f132568d6154bef45f27ff81964" role="Family"/>
     </family>
-    <family handle="_f9e739c3ad919e99469af9125c0" change="1717322290" id="F0010">
+    <family handle="_f9e739c3ad919e99469af9125c0" change="1717326381" id="F0010">
       <rel type="Married"/>
       <father hlink="_cb937d8bfc70c373375"/>
       <mother hlink="_f9e739f51a815ea9ded7c0bc95a"/>
       <eventref hlink="_f9e73d6ebc4157a207172e737cb" role="Family"/>
       <eventref hlink="_f9e73c8a9947a9d5266ede8e9da" role="Family"/>
+      <eventref hlink="_f9e7648b4361f90dee4f2c3679f" role="Family"/>
     </family>
   </families>
   <citations>
@@ -2792,8 +2830,8 @@
       <noteref hlink="_d01a0dde30268d3cd47"/>
       <sourceref hlink="_d01a0c128a0397f7bf5"/>
     </citation>
-    <citation handle="_d01a185e97f7bb4979e" change="1716841744" id="C0068">
-      <page>III / 994-995</page>
+    <citation handle="_d01a185e97f7bb4979e" change="1717326371" id="C0068">
+      <page>Aa:17/994</page>
       <confidence>2</confidence>
       <noteref hlink="_f9d5569e6076c04923f642be4c7"/>
       <noteref hlink="_d32c59770e055491481"/>
@@ -2878,13 +2916,12 @@
       <noteref hlink="_d01e1e2913646d361df"/>
       <sourceref hlink="_cdd720888052961bbef"/>
     </citation>
-    <citation handle="_d01e2fe53d6766bdd24" change="1717010925" id="C0079">
+    <citation handle="_d01e2fe53d6766bdd24" change="1717339867" id="C0079">
       <page>201</page>
       <confidence>2</confidence>
       <noteref hlink="_f9dba426d6b21cb7a67b966b524"/>
       <noteref hlink="_da7fcfd246d2afb757a5b0b2aa8"/>
       <noteref hlink="_d01e2fe079e41478cce"/>
-      <noteref hlink="_d01e2ea99f065d987c6"/>
       <sourceref hlink="_cdd047117f05b6e8304"/>
     </citation>
     <citation handle="_d02069f28444a377251" change="1717011717" id="C0080">
@@ -3930,6 +3967,41 @@
       <noteref hlink="_f9e75b8f41e4b6488398f3f5ede"/>
       <sourceref hlink="_f9e75b38b592784b03ada8882f"/>
     </citation>
+    <citation handle="_f9e8210515445a89af879ffb82f" change="1717346135" id="C0222">
+      <page>Ab:4/142-143</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9e8205e7bf56be748635b03bea"/>
+      <noteref hlink="_f9e8208367c7e40e97df2db4f70"/>
+      <sourceref hlink="_cdd3b6e03993cbf8635"/>
+    </citation>
+    <citation handle="_f9e84d3dcb95c47d0ea620f66dc" change="1717350772" id="C0223">
+      <page>Ab:4/298-299</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9e84d0c860279c03ff903f39f7"/>
+      <noteref hlink="_f9e84d2ea73e13cc4173eb8611"/>
+      <sourceref hlink="_cdd3b6e03993cbf8635"/>
+    </citation>
+    <citation handle="_f9e856abe0d5071540893fdcba" change="1717351761" id="C0224">
+      <page>Ab:4/476-477</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9e856864117720109beb123751"/>
+      <noteref hlink="_f9e856a66cc88e7946a822eccd"/>
+      <sourceref hlink="_cdd3b6e03993cbf8635"/>
+    </citation>
+    <citation handle="_f9e857ed42a4146f22103ccd314" change="1717351893" id="C0225">
+      <page>Ab:4/156-157</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9e857cafd442f466651d93be6d"/>
+      <noteref hlink="_f9e857e9a41375d70dfc997667d"/>
+      <sourceref hlink="_cdd3b6e03993cbf8635"/>
+    </citation>
+    <citation handle="_f9e85c0376c1848325f4434d6f8" change="1717352321" id="C0226">
+      <page>Aa:9/112</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9e85bcf7687e71860453008774"/>
+      <noteref hlink="_f9e85bf17fb47fbb326ef067856"/>
+      <sourceref hlink="_d0191c289c501eabcf6"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdd044203935b79cba4" change="1429553707" id="S0000">
@@ -4095,8 +4167,8 @@
       <stitle>Taponen Heikki Kuolinilmoitus</stitle>
       <noteref hlink="_d017274a40e5ac45543"/>
     </source>
-    <source handle="_d0191c289c501eabcf6" change="1430039157" id="S0034">
-      <stitle>Rääkkylä Rippikirja 1865-1874</stitle>
+    <source handle="_d0191c289c501eabcf6" change="1717352276" id="S0034">
+      <stitle>Rääkkylä Rippikirja 1865-1875</stitle>
       <sauthor>Rääkkylän seurakunta</sauthor>
       <reporef hlink="_d010e648af6539f6d97" medium="Book"/>
     </source>
@@ -4596,6 +4668,13 @@
       <code>60</code>
       <pname value="Kullervonkatu 7"/>
       <placeref hlink="_f1317b96f8f27b81cc3695ea66a"/>
+    </placeobj>
+    <placeobj handle="_f9e8576d93348b0eeebff7c5cb4" change="1717351840" id="P0065" type="Farm">
+      <pname value="6"/>
+      <placeref hlink="_d01e13947926d2a234e"/>
+    </placeobj>
+    <placeobj handle="_f9e85c5fda24d975b8e5d75f166" change="1717352365" id="P0066" type="Country">
+      <pname value="Ryssland"/>
     </placeobj>
   </places>
   <repositories>
@@ -5340,7 +5419,7 @@ lapset	Anna Maria		-1	17/8 1882	VK403b		98/l. 326
 		Heikki			1-	2/7   1896
 		Hilma			1-	4/6   1899</text>
     </note>
-    <note handle="_d01a182c29b16c92a7f" change="1717017331" id="N0098" type="Transcript" format="1">
+    <note handle="_d01a182c29b16c92a7f" change="1717326353" id="N0098" type="Transcript" format="1">
       <text>T
 994
 
@@ -5377,7 +5456,7 @@ vo	Lovisa Matintr Kosonen		-1	3/12  1870	15/3 1897 tuli Savorann.
 10	Tapanen Juho Juhonp		1-	26/9  1849	VK 29b		94/l.228
 10	Tapanen Heikki Niilonp		1-	27/11 1867	99/l.718
 wo	Anna Tiina Heikintr Sallinen	-1	6/9   1876	99/l.260</text>
-      <style name="fontface" value="Droid Sans Mono">
+      <style name="fontface" value="Monospace">
         <range start="0" end="1124"/>
       </style>
     </note>
@@ -7759,5 +7838,54 @@ Tästä eteenpäin syntymäpäiväksi on merkitty johdonmukaisesti joka paikassa
         <range start="0" end="77"/>
       </style>
     </note>
+    <note handle="_f9e8205e7bf56be748635b03bea" change="1717346067" id="N0429" type="Citation">
+      <text>Rääkkylä lastenkirja 1853-1867 (TK2181 I Ab:4)  Sivu 142 Kiesvaara ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=10846&amp;pnum=77 / Viitattu 02.06.2024</text>
+    </note>
+    <note handle="_f9e8208367c7e40e97df2db4f70" change="1717346082" id="N0430" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=10846&amp;pnum=77</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=10846&amp;pnum=77">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f9e84d0c860279c03ff903f39f7" change="1717350752" id="N0431" type="Citation">
+      <text>Rääkkylä lastenkirja 1853-1867 (TK2181 I Ab:4)  Sivu 298  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=10846&amp;pnum=155 / Viitattu 02.06.2024</text>
+    </note>
+    <note handle="_f9e84d2ea73e13cc4173eb8611" change="1717350766" id="N0432" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=10846&amp;pnum=155</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=10846&amp;pnum=155">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f9e856864117720109beb123751" change="1717351746" id="N0433" type="Citation">
+      <text>Rääkkylä lastenkirja 1853-1867 (TK2181 I Ab:4)  Sivu 476  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=10846&amp;pnum=244 / Viitattu 02.06.2024</text>
+    </note>
+    <note handle="_f9e856a66cc88e7946a822eccd" change="1717351759" id="N0434" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=10846&amp;pnum=244</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=10846&amp;pnum=244">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f9e857cafd442f466651d93be6d" change="1717351879" id="N0435" type="Citation">
+      <text>Rääkkylä lastenkirja 1853-1867 (TK2181 I Ab:4)  Sivu 156  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=10846&amp;pnum=84 / Viitattu 02.06.2024</text>
+    </note>
+    <note handle="_f9e857e9a41375d70dfc997667d" change="1717351891" id="N0436" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=10846&amp;pnum=84</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=10846&amp;pnum=84">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f9e85bcf7687e71860453008774" change="1717352300" id="N0437" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto - I Aa:9 Rippikirja 1865-1875, jakso 104, sivu 112: Niemis 1; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=4634233017&amp;aineistoId=1193209541 / Viitattu 2.6.2024</text>
+    </note>
+    <note handle="_f9e85bf17fb47fbb326ef067856" change="1717352314" id="N0438" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=4634233017&amp;aineistoId=1193209541</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=4634233017&amp;aineistoId=1193209541">
+        <range start="0" end="79"/>
+      </style>
+    </note>
   </notes>
+  <namemaps>
+    <map type="group_as" key="Tapain" value="Taponen"/>
+    <map type="group_as" key="Tapanen" value="Taponen"/>
+  </namemaps>
 </database>
