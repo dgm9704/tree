@@ -15,10 +15,11 @@
       <place hlink="_cdd421a7ab374044701"/>
       <citationref hlink="_f9d743f00c07229c92c5990bd68"/>
     </event>
-    <event handle="_cb937d863d440fa57dc" change="1430172976" id="E0001">
+    <event handle="_cb937d863d440fa57dc" change="1717323955" id="E0001">
       <type>Birth</type>
       <dateval val="1827-04-13"/>
       <place hlink="_cdd70e98e0854ad935d"/>
+      <noteref hlink="_f9e74d3370156b7c1e6e73f1ea8"/>
       <citationref hlink="_cdd70fd5c6451b2de9b"/>
     </event>
     <event handle="_cb937e30fc72eb7c7b1" change="1414615586" id="E0002">
@@ -1359,7 +1360,7 @@
       <childof hlink="_cb9384c7503395850c3"/>
       <parentin hlink="_cca167070917742a369"/>
     </person>
-    <person handle="_cb937d8bfc70c373375" change="1717322141" id="I0001">
+    <person handle="_cb937d8bfc70c373375" change="1717323939" id="I0001">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Nils</first>
@@ -1377,6 +1378,7 @@
       <parentin hlink="_cb9384c7503395850c3"/>
       <parentin hlink="_d0192176cfa508db0f8"/>
       <parentin hlink="_f9e739c3ad919e99469af9125c0"/>
+      <noteref hlink="_f9e74d3370156b7c1e6e73f1ea8"/>
     </person>
     <person handle="_cb937e38d745f457ab6" change="1430067568" id="I0002">
       <gender>F</gender>
@@ -3857,11 +3859,11 @@
       <noteref hlink="_f9dbc7d3c476461bd8dc1074d5"/>
       <sourceref hlink="_f9dbc76eed439babf836ad593bf"/>
     </citation>
-    <citation handle="_f9dbcd028232fc589b7979c64ff" change="1717015204" id="C0212">
+    <citation handle="_f9dbcd028232fc589b7979c64ff" change="1717323604" id="C0212">
       <page>Ab:2/274-275</page>
       <confidence>2</confidence>
-      <noteref hlink="_f9dbcca5d8e33ad243fdab33390"/>
       <noteref hlink="_f9dbcc865981ea236f7cd27d237"/>
+      <noteref hlink="_f9dbcca5d8e33ad243fdab33390"/>
       <sourceref hlink="_f9dbc76eed439babf836ad593bf"/>
     </citation>
     <citation handle="_f9dbd5d13975bc2c9f551ee923f" change="1717016127" id="C0213">
@@ -5502,10 +5504,10 @@ dog 1841		Michel	21/6 1836				44 f.p. 275 47 abs. ???
         <range start="0" end="75"/>
       </style>
     </note>
-    <note handle="_d01e15e90e828e58cc3" change="1717017331" id="N0123" type="Transcript" format="1">
+    <note handle="_d01e15e90e828e58cc3" change="1717323766" id="N0123" type="Transcript" format="1">
       <text>}aflidne
 Inh Jöran Tapains och Maria Rehuins Barn (1804)
-Nils	14/4 1824						år 1843 till pag 274
+Nils	14/4 1827						år 1843 till pag 274
 Henric	26/9 1829						Död 18 12/4 41
 Johan	1/9   1834		}				Död 18 13/1 42
 Michel	21/6 1839		} ??? år 1843	till pag 274</text>
@@ -7726,6 +7728,14 @@ Maikki  &quot;     vo 94                              7/307         9/116
       <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26294&amp;pnum=95">
         <range start="0" end="77"/>
       </style>
+    </note>
+    <note handle="_f9e74d3370156b7c1e6e73f1ea8" change="1717323924" id="N0426" type="Research">
+      <text>Syntymäpäiväksi on merkitty 13.4.1824 synteneiden ja kastettujen luetteloon, mitä pidän luotettavimpana lähteenä.
+Ensimmäinen kirjaus vuodelta 1827 lastenkirjaan 1808-1835 pitää yhtä syntyneiden luettelon kanssa.
+Toinen kirjaus vuodelta 1830 samaan kirjaan sisältää ensimmäisen virheen 13.4 -&gt; 14.4
+Kolmas kirjaus vuodelta 1839 seuraavaan lastenkirjaan tuo toisen virheen 1824 -&gt; 1827
+Tästä eteenpäin syntymäpäiväksi on merkitty johdonmukaisesti joka paikassa väärin 14.4.1827
+</text>
     </note>
   </notes>
 </database>
