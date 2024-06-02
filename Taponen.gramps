@@ -1333,11 +1333,12 @@
       <dateval val="1834-09-01"/>
       <citationref hlink="_f9e73b6beaa71ed7e3492d61fad"/>
     </event>
-    <event handle="_f9e73c8a9947a9d5266ede8e9da" change="1717322177" id="E0108">
+    <event handle="_f9e73c8a9947a9d5266ede8e9da" change="1717325433" id="E0108">
       <type>Marriage</type>
       <dateval val="1896-11-01"/>
       <place hlink="_cdd421a7ab374044701"/>
       <citationref hlink="_f9e73b6beaa71ed7e3492d61fad"/>
+      <citationref hlink="_f9e75b930bb39532589c2fc1d21"/>
     </event>
     <event handle="_f9e73d6ebc4157a207172e737cb" change="1717322282" id="E0109">
       <type>Marriage Banns</type>
@@ -3922,6 +3923,13 @@
       <noteref hlink="_f9e73b59325117a9fb8df9a0fa4"/>
       <sourceref hlink="_f9e73b0011a46113ae40c350d8f"/>
     </citation>
+    <citation handle="_f9e75b930bb39532589c2fc1d21" change="1717325432" id="C0221">
+      <page>MKO1-3/87-88</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9e75b6a701d83f68c2e228f43"/>
+      <noteref hlink="_f9e75b8f41e4b6488398f3f5ede"/>
+      <sourceref hlink="_f9e75b38b592784b03ada8882f"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdd044203935b79cba4" change="1429553707" id="S0000">
@@ -4287,6 +4295,11 @@
     </source>
     <source handle="_f9e73b0011a46113ae40c350d8f" change="1717322016" id="S0072">
       <stitle>Rääkkylä Kuulutetut 1891-1901</stitle>
+      <sauthor>Rääkkylän seurakunta</sauthor>
+      <reporef hlink="_cdd410d11e701d5d906" medium="Book"/>
+    </source>
+    <source handle="_f9e75b38b592784b03ada8882f" change="1717325395" id="S0073">
+      <stitle>Rääkkylä Vihityt 1891-1910</stitle>
       <sauthor>Rääkkylän seurakunta</sauthor>
       <reporef hlink="_cdd410d11e701d5d906" medium="Book"/>
     </source>
@@ -7736,6 +7749,15 @@ Toinen kirjaus vuodelta 1830 samaan kirjaan sisältää ensimmäisen virheen 13.
 Kolmas kirjaus vuodelta 1839 seuraavaan lastenkirjaan tuo toisen virheen 1824 -&gt; 1827
 Tästä eteenpäin syntymäpäiväksi on merkitty johdonmukaisesti joka paikassa väärin 14.4.1827
 </text>
+    </note>
+    <note handle="_f9e75b6a701d83f68c2e228f43" change="1717325415" id="N0427" type="Citation">
+      <text>Rääkkylä vihityt 1891-1910 (MKO1-3)  Sivu 87 1896 Lokakuu-Joulukuu ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26284&amp;pnum=20 / Viitattu 02.06.2024</text>
+    </note>
+    <note handle="_f9e75b8f41e4b6488398f3f5ede" change="1717325430" id="N0428" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26284&amp;pnum=20</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26284&amp;pnum=20">
+        <range start="0" end="77"/>
+      </style>
     </note>
   </notes>
 </database>
