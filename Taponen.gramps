@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2024-05-31" version="5.2.2"/>
+    <created date="2024-06-02" version="5.2.2"/>
     <researcher>
     </researcher>
     <mediapath>/home/john/3Taponen_2014-10-29.gpkg.media</mediapath>
@@ -1327,6 +1327,23 @@
       <citationref hlink="_d019be0bf5066e80b43"/>
       <citationref hlink="_f9deb4b48195796f349059eacf6"/>
     </event>
+    <event handle="_f9e73b79af25136a9c7a8ddd8f2" change="1717322104" id="E0107">
+      <type>Birth</type>
+      <dateval val="1834-09-01"/>
+      <citationref hlink="_f9e73b6beaa71ed7e3492d61fad"/>
+    </event>
+    <event handle="_f9e73c8a9947a9d5266ede8e9da" change="1717322177" id="E0108">
+      <type>Marriage</type>
+      <dateval val="1896-11-01"/>
+      <place hlink="_cdd421a7ab374044701"/>
+      <citationref hlink="_f9e73b6beaa71ed7e3492d61fad"/>
+    </event>
+    <event handle="_f9e73d6ebc4157a207172e737cb" change="1717322282" id="E0109">
+      <type>Marriage Banns</type>
+      <dateval val="1896-10-16"/>
+      <place hlink="_cdd421a7ab374044701"/>
+      <citationref hlink="_f9e73b6beaa71ed7e3492d61fad"/>
+    </event>
   </events>
   <people home="_cca1691b7c53559cc53">
     <person handle="_cb937baae6821b777ad" change="1501410532" id="I0000">
@@ -1342,7 +1359,7 @@
       <childof hlink="_cb9384c7503395850c3"/>
       <parentin hlink="_cca167070917742a369"/>
     </person>
-    <person handle="_cb937d8bfc70c373375" change="1501602304" id="I0001">
+    <person handle="_cb937d8bfc70c373375" change="1717322141" id="I0001">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Nils</first>
@@ -1359,6 +1376,7 @@
       <parentin hlink="_cb937d0369c30ea97ef"/>
       <parentin hlink="_cb9384c7503395850c3"/>
       <parentin hlink="_d0192176cfa508db0f8"/>
+      <parentin hlink="_f9e739c3ad919e99469af9125c0"/>
     </person>
     <person handle="_cb937e38d745f457ab6" change="1430067568" id="I0002">
       <gender>F</gender>
@@ -2086,6 +2104,15 @@
       <eventref hlink="_f13255bf60c4c036beffc51c22f" role="Primary"/>
       <parentin hlink="_f132539b9d46e0cea02bb5dfcc4"/>
     </person>
+    <person handle="_f9e739f51a815ea9ded7c0bc95a" change="1717322141" id="I0044">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Anna</first>
+        <surname>Kähkönen</surname>
+      </name>
+      <eventref hlink="_f9e73b79af25136a9c7a8ddd8f2" role="Primary"/>
+      <parentin hlink="_f9e739c3ad919e99469af9125c0"/>
+    </person>
   </people>
   <families>
     <family handle="_cb937d0369c30ea97ef" change="1414524761" id="F0000">
@@ -2300,6 +2327,13 @@
       <father hlink="_f13253b8dcf405dbbd8208e359"/>
       <mother hlink="_f131dccb1452eff1785c6869d00"/>
       <eventref hlink="_f132568d6154bef45f27ff81964" role="Family"/>
+    </family>
+    <family handle="_f9e739c3ad919e99469af9125c0" change="1717322290" id="F0010">
+      <rel type="Married"/>
+      <father hlink="_cb937d8bfc70c373375"/>
+      <mother hlink="_f9e739f51a815ea9ded7c0bc95a"/>
+      <eventref hlink="_f9e73d6ebc4157a207172e737cb" role="Family"/>
+      <eventref hlink="_f9e73c8a9947a9d5266ede8e9da" role="Family"/>
     </family>
   </families>
   <citations>
@@ -3879,6 +3913,13 @@
       <noteref hlink="_f9deb49ea2a68e9d02f484ebb63"/>
       <sourceref hlink="_f9deb44b46e4b33d43b89e9f09f"/>
     </citation>
+    <citation handle="_f9e73b6beaa71ed7e3492d61fad" change="1717322060" id="C0220">
+      <page>MKO7-13/95</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9e73b2f28ab1dc7d33740446c"/>
+      <noteref hlink="_f9e73b59325117a9fb8df9a0fa4"/>
+      <sourceref hlink="_f9e73b0011a46113ae40c350d8f"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdd044203935b79cba4" change="1429553707" id="S0000">
@@ -4239,6 +4280,11 @@
     </source>
     <source handle="_f9deb44b46e4b33d43b89e9f09f" change="1717093143" id="S0071">
       <stitle>Rääkkylä Kuolleet 1880-1890</stitle>
+      <sauthor>Rääkkylän seurakunta</sauthor>
+      <reporef hlink="_cdd410d11e701d5d906" medium="Book"/>
+    </source>
+    <source handle="_f9e73b0011a46113ae40c350d8f" change="1717322016" id="S0072">
+      <stitle>Rääkkylä Kuulutetut 1891-1901</stitle>
       <sauthor>Rääkkylän seurakunta</sauthor>
       <reporef hlink="_cdd410d11e701d5d906" medium="Book"/>
     </source>
@@ -7671,6 +7717,15 @@ Maikki  &quot;     vo 94                              7/307         9/116
     </note>
     <note handle="_f9df152ea473287a9bc25109971" change="1717103302" id="N0423" type="Research">
       <text>Rääkkylä kuulutetut 1880-1890 (MKO1-7)  Sivu 158  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26293&amp;pnum=158 / Viitattu 30.05.2024</text>
+    </note>
+    <note handle="_f9e73b2f28ab1dc7d33740446c" change="1717322035" id="N0424" type="Citation">
+      <text>Rääkkylä kuulutetut 1891-1901 (MKO7-13)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26294&amp;pnum=95 / Viitattu 02.06.2024</text>
+    </note>
+    <note handle="_f9e73b59325117a9fb8df9a0fa4" change="1717322052" id="N0425" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26294&amp;pnum=95</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26294&amp;pnum=95">
+        <range start="0" end="77"/>
+      </style>
     </note>
   </notes>
 </database>
