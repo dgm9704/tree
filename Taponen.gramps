@@ -186,10 +186,11 @@
       <place hlink="_cdd10d9b4b80ba1c482"/>
       <citationref hlink="_d00da49fbb70ce97129"/>
     </event>
-    <event handle="_cca169678b14a59df89" change="1429731534" id="E0029">
+    <event handle="_cca169678b14a59df89" change="1717431017" id="E0029">
       <type>Death</type>
       <dateval val="1901-04-17"/>
       <place hlink="_cdd421a7ab374044701"/>
+      <citationref hlink="_f9eb4a72aab7ce1cee707431e5"/>
     </event>
     <event handle="_cca16a2bd662ecee539" change="1406210269" id="E0031">
       <type>Marriage</type>
@@ -1379,6 +1380,12 @@
       <place hlink="_f9e85c5fda24d975b8e5d75f166"/>
       <citationref hlink="_f9e85c0376c1848325f4434d6f8"/>
     </event>
+    <event handle="_f9eb4b2494236cfcf04a1bb111a" change="1717431083" id="E0152">
+      <type>Death</type>
+      <dateval val="1901-04-07"/>
+      <place hlink="_cdd1051b4c648ad7ac8"/>
+      <citationref hlink="_f9eb4a72aab7ce1cee707431e5"/>
+    </event>
   </events>
   <people home="_cca1691b7c53559cc53">
     <person handle="_cb937baae6821b777ad" change="1501410532" id="I0000">
@@ -1394,7 +1401,7 @@
       <childof hlink="_cb9384c7503395850c3"/>
       <parentin hlink="_cca167070917742a369"/>
     </person>
-    <person handle="_cb937d8bfc70c373375" change="1717339956" id="I0001">
+    <person handle="_cb937d8bfc70c373375" change="1717434477" id="I0001">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Nils</first>
@@ -1413,6 +1420,8 @@
       <parentin hlink="_d0192176cfa508db0f8"/>
       <parentin hlink="_f9e739c3ad919e99469af9125c0"/>
       <noteref hlink="_f9e74d3370156b7c1e6e73f1ea8"/>
+      <noteref hlink="_f9eb65e55786315537848a7dd9b"/>
+      <noteref hlink="_f9eb6b711792cfff3b5cf315754"/>
     </person>
     <person handle="_cb937e38d745f457ab6" change="1430067568" id="I0002">
       <gender>F</gender>
@@ -2144,13 +2153,14 @@
       <eventref hlink="_f13255bf60c4c036beffc51c22f" role="Primary"/>
       <parentin hlink="_f132539b9d46e0cea02bb5dfcc4"/>
     </person>
-    <person handle="_f9e739f51a815ea9ded7c0bc95a" change="1717322141" id="I0044">
+    <person handle="_f9e739f51a815ea9ded7c0bc95a" change="1717431472" id="I0044">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anna</first>
         <surname>Kähkönen</surname>
       </name>
       <eventref hlink="_f9e73b79af25136a9c7a8ddd8f2" role="Primary"/>
+      <eventref hlink="_f9eb4b2494236cfcf04a1bb111a" role="Primary"/>
       <parentin hlink="_f9e739c3ad919e99469af9125c0"/>
     </person>
   </people>
@@ -4002,6 +4012,13 @@
       <noteref hlink="_f9e85bf17fb47fbb326ef067856"/>
       <sourceref hlink="_d0191c289c501eabcf6"/>
     </citation>
+    <citation handle="_f9eb4a72aab7ce1cee707431e5" change="1717431010" id="C0227">
+      <page>MKO2-3/145-146</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9eb4a4dd6d6e449c7b92cb1ccc"/>
+      <noteref hlink="_f9eb4a6ef9e1273b18df1bf9e0c"/>
+      <sourceref hlink="_f9eb4a0bdf571219bdcd18ac9da"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdd044203935b79cba4" change="1429553707" id="S0000">
@@ -4372,6 +4389,11 @@
     </source>
     <source handle="_f9e75b38b592784b03ada8882f" change="1717325395" id="S0073">
       <stitle>Rääkkylä Vihityt 1891-1910</stitle>
+      <sauthor>Rääkkylän seurakunta</sauthor>
+      <reporef hlink="_cdd410d11e701d5d906" medium="Book"/>
+    </source>
+    <source handle="_f9eb4a0bdf571219bdcd18ac9da" change="1717430968" id="S0074">
+      <stitle>Rääkkylä Kuolleet 1891-1906</stitle>
       <sauthor>Rääkkylän seurakunta</sauthor>
       <reporef hlink="_cdd410d11e701d5d906" medium="Book"/>
     </source>
@@ -7882,6 +7904,21 @@ Tästä eteenpäin syntymäpäiväksi on merkitty johdonmukaisesti joka paikassa
       <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=4634233017&amp;aineistoId=1193209541">
         <range start="0" end="79"/>
       </style>
+    </note>
+    <note handle="_f9eb4a4dd6d6e449c7b92cb1ccc" change="1717430995" id="N0439" type="Citation">
+      <text>Rääkkylä kuolleet 1891-1906 (MKO2-3)  Sivu 145 1901 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26286&amp;pnum=40 / Viitattu 03.06.2024</text>
+    </note>
+    <note handle="_f9eb4a6ef9e1273b18df1bf9e0c" change="1717431008" id="N0440" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26286&amp;pnum=40</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26286&amp;pnum=40">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f9eb65e55786315537848a7dd9b" change="1717433888" id="N0441" type="Research">
+      <text>Ei näytä olevan kuolleissa 1906 mennessä</text>
+    </note>
+    <note handle="_f9eb6b711792cfff3b5cf315754" change="1717434477" id="N0442" type="Research">
+      <text>Ei näytä löytyvän 5. vihkimistä 1910 mennessä</text>
     </note>
   </notes>
   <namemaps>
