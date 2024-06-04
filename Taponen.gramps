@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2024-06-03" version="5.2.2"/>
+    <created date="2024-06-04" version="5.2.2"/>
     <researcher>
     </researcher>
     <mediapath>/home/john/3Taponen_2014-10-29.gpkg.media</mediapath>
@@ -1386,6 +1386,23 @@
       <place hlink="_cdd1051b4c648ad7ac8"/>
       <citationref hlink="_f9eb4a72aab7ce1cee707431e5"/>
     </event>
+    <event handle="_f9eea6fdd2b5552676537d02faf" change="1717521244" id="E0153">
+      <type>Birth</type>
+      <dateval val="1849-12-17"/>
+      <citationref hlink="_f9eea6e7f967d3dcaf3dec684aa"/>
+    </event>
+    <event handle="_f9eea7de7075634eac609a6bff4" change="1717521336" id="E0154">
+      <type>Birth</type>
+      <dateval val="1864-08-15"/>
+      <citationref hlink="_f9eea6e7f967d3dcaf3dec684aa"/>
+    </event>
+    <event handle="_f9eeaa4c04d17d78c9cc89e96de" change="1717521591" id="E0155">
+      <type>Residence</type>
+      <dateval val="1885"/>
+      <place hlink="_f9eea9846cf4e87c7969c482db1"/>
+      <citationref hlink="_f9eea6e7f967d3dcaf3dec684aa"/>
+      <citationref hlink="_f9eeaa484495b2e4e44789b2dc1"/>
+    </event>
   </events>
   <people home="_cca1691b7c53559cc53">
     <person handle="_cb937baae6821b777ad" change="1501410532" id="I0000">
@@ -1888,13 +1905,14 @@
       <eventref hlink="_cfa3638e0eb2777d90c" role="Primary"/>
       <parentin hlink="_cca169ac5167931401b"/>
     </person>
-    <person handle="_cfa36550a1144d88836" change="1426879290" id="I0034">
+    <person handle="_cfa36550a1144d88836" change="1717521593" id="I0034">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Hilma</first>
         <surname>Wartiainen</surname>
       </name>
       <eventref hlink="_cfa3654e11d66029128" role="Primary"/>
+      <childof hlink="_f9eea5846b251bcc3c3bda5b6c1"/>
       <parentin hlink="_cca16c73e9d13f8c0de"/>
     </person>
     <person handle="_d010ed2cb1a57e405bb" change="1502023859" id="I0052">
@@ -2163,6 +2181,26 @@
       <eventref hlink="_f9eb4b2494236cfcf04a1bb111a" role="Primary"/>
       <parentin hlink="_f9e739c3ad919e99469af9125c0"/>
     </person>
+    <person handle="_f9eea5923c36f3d824d1e9b9d8d" change="1717521350" id="I0045">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Paavo</first>
+        <surname>Wartiainen</surname>
+        <surname prim="0" derivation="Patronymic">Antinpoika</surname>
+      </name>
+      <eventref hlink="_f9eea6fdd2b5552676537d02faf" role="Primary"/>
+      <parentin hlink="_f9eea5846b251bcc3c3bda5b6c1"/>
+    </person>
+    <person handle="_f9eea7649e711cfa27fab06c378" change="1717521350" id="I0046">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Maria Lovisa</first>
+        <surname>Kemppainen</surname>
+        <surname prim="0" derivation="Patronymic">Abrahamintytär</surname>
+      </name>
+      <eventref hlink="_f9eea7de7075634eac609a6bff4" role="Primary"/>
+      <parentin hlink="_f9eea5846b251bcc3c3bda5b6c1"/>
+    </person>
   </people>
   <families>
     <family handle="_cb937d0369c30ea97ef" change="1414524761" id="F0000">
@@ -2385,6 +2423,13 @@
       <eventref hlink="_f9e73d6ebc4157a207172e737cb" role="Family"/>
       <eventref hlink="_f9e73c8a9947a9d5266ede8e9da" role="Family"/>
       <eventref hlink="_f9e7648b4361f90dee4f2c3679f" role="Family"/>
+    </family>
+    <family handle="_f9eea5846b251bcc3c3bda5b6c1" change="1717521593" id="F0011">
+      <rel type="Married"/>
+      <father hlink="_f9eea5923c36f3d824d1e9b9d8d"/>
+      <mother hlink="_f9eea7649e711cfa27fab06c378"/>
+      <eventref hlink="_f9eeaa4c04d17d78c9cc89e96de" role="Family"/>
+      <childref hlink="_cfa36550a1144d88836"/>
     </family>
   </families>
   <citations>
@@ -4019,6 +4064,20 @@
       <noteref hlink="_f9eb4a6ef9e1273b18df1bf9e0c"/>
       <sourceref hlink="_f9eb4a0bdf571219bdcd18ac9da"/>
     </citation>
+    <citation handle="_f9eea6e7f967d3dcaf3dec684aa" change="1717521235" id="C0228">
+      <page>III Aa:29/171</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9eea6be8611d25b8162c68d04a"/>
+      <noteref hlink="_f9eea6e23e94e590a7a0388bef9"/>
+      <sourceref hlink="_f9eea668725777bc9d8730b6d44"/>
+    </citation>
+    <citation handle="_f9eeaa484495b2e4e44789b2dc1" change="1717521589" id="C0229">
+      <page>Ab:21/172</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9eeaa21d055a3e778a2f441b2a"/>
+      <noteref hlink="_f9eeaa45ab74d6ffd655a13d77d"/>
+      <sourceref hlink="_f9eea9f1f4a32aa09e70fff061"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdd044203935b79cba4" change="1429553707" id="S0000">
@@ -4397,6 +4456,16 @@
       <sauthor>Rääkkylän seurakunta</sauthor>
       <reporef hlink="_cdd410d11e701d5d906" medium="Book"/>
     </source>
+    <source handle="_f9eea668725777bc9d8730b6d44" change="1717521183" id="S0075">
+      <stitle>Liperi Rippikirja 1880-1890</stitle>
+      <sauthor>Liperin seurakunta</sauthor>
+      <reporef hlink="_cdd410d11e701d5d906" medium="Book"/>
+    </source>
+    <source handle="_f9eea9f1f4a32aa09e70fff061" change="1717521554" id="S0076">
+      <stitle>Liperi Lastenkirja 1880-1890</stitle>
+      <sauthor>Liperin seurakunta</sauthor>
+      <reporef hlink="_cdd410d11e701d5d906" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cca1691056519fef9d5" change="1657487885" id="P0001" type="Town">
@@ -4697,6 +4766,10 @@
     </placeobj>
     <placeobj handle="_f9e85c5fda24d975b8e5d75f166" change="1717352365" id="P0066" type="Country">
       <pname value="Ryssland"/>
+    </placeobj>
+    <placeobj handle="_f9eea9846cf4e87c7969c482db1" change="1717521509" id="P0067" type="Village">
+      <pname value="Mattisenlahti"/>
+      <placeref hlink="_cca16cd689770c9f111"/>
     </placeobj>
   </places>
   <repositories>
@@ -7919,6 +7992,24 @@ Tästä eteenpäin syntymäpäiväksi on merkitty johdonmukaisesti joka paikassa
     </note>
     <note handle="_f9eb6b711792cfff3b5cf315754" change="1717434477" id="N0442" type="Research">
       <text>Ei näytä löytyvän 5. vihkimistä 1910 mennessä</text>
+    </note>
+    <note handle="_f9eea6be8611d25b8162c68d04a" change="1717521218" id="N0443" type="Citation">
+      <text>Liperi rippikirja 1880-1890 (AP_III I Aa:29)  Sivu 171  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45118&amp;pnum=174 / Viitattu 04.06.2024</text>
+    </note>
+    <note handle="_f9eea6e23e94e590a7a0388bef9" change="1717521233" id="N0444" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45118&amp;pnum=174</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45118&amp;pnum=174">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f9eeaa21d055a3e778a2f441b2a" change="1717521574" id="N0445" type="Citation">
+      <text>Liperi lastenkirja 1880-1890 (AP_III I Ab:21)  Sivu 172  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45171&amp;pnum=175 / Viitattu 04.06.2024</text>
+    </note>
+    <note handle="_f9eeaa45ab74d6ffd655a13d77d" change="1717521588" id="N0446" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45171&amp;pnum=175</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45171&amp;pnum=175">
+        <range start="0" end="78"/>
+      </style>
     </note>
   </notes>
   <namemaps>
