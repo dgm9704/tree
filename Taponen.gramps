@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2024-06-04" version="5.2.2"/>
+    <created date="2024-06-06" version="5.2.2"/>
     <researcher>
     </researcher>
     <mediapath>/home/john/3Taponen_2014-10-29.gpkg.media</mediapath>
@@ -221,9 +221,10 @@
       <dateval val="1919-12-01"/>
       <place hlink="_cdd421a7ab374044701"/>
     </event>
-    <event handle="_cca16d1ddd034493a5d" change="1406210577" id="E0038">
+    <event handle="_cca16d1ddd034493a5d" change="1717685125" id="E0038">
       <type>Marriage</type>
       <dateval val="1885-04-30"/>
+      <noteref hlink="_f9f4c1d9f94770ef2d1e268cb11"/>
     </event>
     <event handle="_cca16d5de892b9a63fe" change="1414446770" id="E0039">
       <type>Birth</type>
@@ -1203,18 +1204,20 @@
       <place hlink="_cdd6fcd85ab77adcf9f"/>
       <citationref hlink="_f1325adb4b969ddb5357892a47"/>
     </event>
-    <event handle="_f131dd300e825d2a05d36e057d8" change="1708255983" id="E0045">
+    <event handle="_f131dd300e825d2a05d36e057d8" change="1717688381" id="E0045">
       <type>Birth</type>
       <dateval val="1921-01-30"/>
       <place hlink="_cdd6fcd85ab77adcf9f"/>
       <citationref hlink="_f13222b85dc566eea2ca4a01ee3"/>
       <citationref hlink="_f13252159c56f6b1da175711a39"/>
+      <citationref hlink="_f9f4e0835847f0f48e2f8db62c"/>
     </event>
-    <event handle="_f131de72cb46be15da0b5371fbc" change="1657490196" id="E0046">
+    <event handle="_f131de72cb46be15da0b5371fbc" change="1717688390" id="E0046">
       <type>Death</type>
       <dateval val="2011-06-04"/>
       <place hlink="_f131de2c8ff2c05b0daf9729786"/>
       <citationref hlink="_f13252159c56f6b1da175711a39"/>
+      <citationref hlink="_f9f4e0835847f0f48e2f8db62c"/>
     </event>
     <event handle="_f1323c5361dc6499bd99e5ad8a" change="1708019573" id="E0048">
       <type>Residence</type>
@@ -1222,11 +1225,12 @@
       <place hlink="_f1323c4fbb21c982ece8685b1b2"/>
       <citationref hlink="_f13242322b88b147207718fb43"/>
     </event>
-    <event handle="_f13250dee602b9f3e66045a4e34" change="1657490208" id="E0055">
+    <event handle="_f13250dee602b9f3e66045a4e34" change="1717688356" id="E0055">
       <type>Burial</type>
       <dateval val="2011"/>
       <place hlink="_f1324f5ab8f2e429cab21c7d9e2"/>
       <citationref hlink="_f13252159c56f6b1da175711a39"/>
+      <citationref hlink="_f9f4e0835847f0f48e2f8db62c"/>
     </event>
     <event handle="_f132552fe6761398f6ee5cfb4be" change="1657490499" id="E0058">
       <type>Birth</type>
@@ -2148,11 +2152,17 @@
       <eventref hlink="_da92b39bfc4600552871f1bd378" role="Primary"/>
       <childof hlink="_da92b122a5a46c1ab39223f8115"/>
     </person>
-    <person handle="_f131dccb1452eff1785c6869d00" change="1708023807" id="I0042">
+    <person handle="_f131dccb1452eff1785c6869d00" change="1717688538" id="I0042">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Vuokko Onerva</first>
-        <surname>Taponen</surname>
+        <surname derivation="Inherited">Taponen</surname>
+        <dateval val="1942-12-26" type="before"/>
+      </name>
+      <name alt="1" type="Married Name">
+        <first>Vuokko Onerva</first>
+        <surname derivation="Taken">Kotilainen</surname>
+        <dateval val="1942-12-26" type="after"/>
       </name>
       <eventref hlink="_f131dd300e825d2a05d36e057d8" role="Primary"/>
       <eventref hlink="_f131de72cb46be15da0b5371fbc" role="Primary"/>
@@ -4077,6 +4087,14 @@
       <noteref hlink="_f9eeaa21d055a3e778a2f441b2a"/>
       <noteref hlink="_f9eeaa45ab74d6ffd655a13d77d"/>
       <sourceref hlink="_f9eea9f1f4a32aa09e70fff061"/>
+    </citation>
+    <citation handle="_f9f4e0835847f0f48e2f8db62c" change="1717688337" id="C0230">
+      <page>KOTILAINEN VUOKKO ONERVA</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9f4df38908348d1baf7d90d146"/>
+      <noteref hlink="_f9f4df56fec64e71ad9790723e1"/>
+      <noteref hlink="_f9f4e06e41d448ef0c2195ba700"/>
+      <sourceref hlink="_f130bb0ddde43a9e3aa05884388"/>
     </citation>
   </citations>
   <sources>
@@ -8009,6 +8027,40 @@ Tästä eteenpäin syntymäpäiväksi on merkitty johdonmukaisesti joka paikassa
       <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45171&amp;pnum=175</text>
       <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45171&amp;pnum=175">
         <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f9f4c1d9f94770ef2d1e268cb11" change="1717685122" id="N0447" type="Research">
+      <text>Päivämäärä (joka on ilmiselvästi puppua) on peräisin seurakunnasta tilatusta sukuselvityksestä joka ei muutenkaan herätä luottamusta.</text>
+    </note>
+    <note handle="_f9f4df38908348d1baf7d90d146" change="1717688202" id="N0448" type="Citation">
+      <text>Nokian seurakunta. Nokian keskustan 04 hautausmaa. Alue 00. Kortteli 055. Rivi 08. Paikkanumero 00020. KOTILAINEN VUOKKO ONERVA. Hautahaku.fi. Verkkosivu. Viitattu 6.6.2024. https://www.hautahaku.fi/map/7D-00-055-08-00020/KOTILAINEN%20VUOKKO%20ONERVA</text>
+    </note>
+    <note handle="_f9f4df56fec64e71ad9790723e1" change="1717688214" id="N0449" type="Url">
+      <text>https://www.hautahaku.fi/map/7D-00-055-08-00020/KOTILAINEN%20VUOKKO%20ONERVA</text>
+      <style name="link" value="https://www.hautahaku.fi/map/7D-00-055-08-00020/KOTILAINEN%20VUOKKO%20ONERVA">
+        <range start="0" end="76"/>
+      </style>
+    </note>
+    <note handle="_f9f4e06e41d448ef0c2195ba700" change="1717688336" id="N0450" type="Transcript" format="1">
+      <text>KOTILAINEN VUOKKO ONERVA
+1921 - 2011
+Nokian seurakunta, Nokian keskustan 04 hautausmaa
+Syntymävuosi    1921
+Kuolinvuosi     2011
+Hautausmaa	Nokian keskustan 04 hautausmaa
+                Pirkkalaistie 22
+                37100 Nokia
+Alue	        00
+Kortteli        055
+Rivi            08
+Paikkanumero    00020
+
+Samaan hautaan haudatut
+KOTILAINEN SOINI EDVIN
+Syntymävuosi    1915
+Kuolinvuosi     1998</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="398"/>
       </style>
     </note>
   </notes>
