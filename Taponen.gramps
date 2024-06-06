@@ -145,11 +145,12 @@
       <place hlink="_cdd1051b4c648ad7ac8"/>
       <citationref hlink="_d019b52d59f28e0932b"/>
     </event>
-    <event handle="_cca1683332355658c7e" change="1430055536" id="E0024">
+    <event handle="_cca1683332355658c7e" change="1717695880" id="E0024">
       <type>Birth</type>
       <dateval val="1889-05-31"/>
       <place hlink="_d019aab9181411ea687"/>
       <citationref hlink="_d019ad1596827faaa30"/>
+      <citationref hlink="_f9f527e7e874ca53a27973920b6"/>
     </event>
     <event handle="_cca1688f2bd1f9fcc43" change="1716842650" id="E0025">
       <type>Birth</type>
@@ -1232,23 +1233,26 @@
       <citationref hlink="_f13252159c56f6b1da175711a39"/>
       <citationref hlink="_f9f4e0835847f0f48e2f8db62c"/>
     </event>
-    <event handle="_f132552fe6761398f6ee5cfb4be" change="1657490499" id="E0058">
+    <event handle="_f132552fe6761398f6ee5cfb4be" change="1717691896" id="E0058">
       <type>Birth</type>
       <dateval val="1915-06-03"/>
       <place hlink="_f132545191439a468f999615ab2"/>
       <citationref hlink="_f13255155a420dcec1737732816"/>
+      <citationref hlink="_f9f50174a313a2e95b6753fe39d"/>
     </event>
-    <event handle="_f132558c4b748ff7bf5a14886a4" change="1657490536" id="E0059">
+    <event handle="_f132558c4b748ff7bf5a14886a4" change="1717691907" id="E0059">
       <type>Death</type>
       <dateval val="1998-04-05"/>
       <place hlink="_f1324f1f6274371b40fb0e6f0ee"/>
       <citationref hlink="_f13255155a420dcec1737732816"/>
+      <citationref hlink="_f9f50174a313a2e95b6753fe39d"/>
     </event>
-    <event handle="_f13255bf60c4c036beffc51c22f" change="1657490557" id="E0063">
+    <event handle="_f13255bf60c4c036beffc51c22f" change="1717691848" id="E0063">
       <type>Burial</type>
       <dateval val="1998"/>
       <place hlink="_f1324f5ab8f2e429cab21c7d9e2"/>
       <citationref hlink="_f13255155a420dcec1737732816"/>
+      <citationref hlink="_f9f50174a313a2e95b6753fe39d"/>
     </event>
     <event handle="_f132568d6154bef45f27ff81964" change="1657490642" id="E0094">
       <type>Marriage</type>
@@ -1877,12 +1881,18 @@
       <eventref hlink="_cdd0f030b330cb8fa87" role="Primary"/>
       <childof hlink="_cdd04d17bba33339958"/>
     </person>
-    <person handle="_cfa356c7ed1469fab5f" change="1657447754" id="I0027">
+    <person handle="_cfa356c7ed1469fab5f" change="1717692282" id="I0027">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria</first>
         <surname derivation="Inherited">Konttinen</surname>
         <nick>Maikki</nick>
+        <dateval val="1920-08-10" type="before"/>
+      </name>
+      <name alt="1" type="Married Name">
+        <first>Maria</first>
+        <surname derivation="Taken">Taponen</surname>
+        <dateval val="1920-08-10" type="after"/>
       </name>
       <eventref hlink="_da7cd339e65678dabb46fa8ed55" role="Primary"/>
       <eventref hlink="_da7cd3ccbed2ac0e1799f54f07b" role="Primary"/>
@@ -3239,18 +3249,20 @@
       <noteref hlink="_e82ada9e2746d6833678a794aa0"/>
       <sourceref hlink="_e82ad58872527dff35572d193fd"/>
     </citation>
-    <citation handle="_f130bb1e3dea87b494d7b4716f" change="1708254533" id="C0116">
-      <page>TAPONEN HEIKKI</page>
+    <citation handle="_f130bb1e3dea87b494d7b4716f" change="1717692015" id="C0116">
+      <page>03-00-029-15-00236/TAPONEN HEIKKI</page>
       <confidence>2</confidence>
       <noteref hlink="_f89570385a9715adb43ff3ed748"/>
       <noteref hlink="_f88c9692eb86fa29169c96882f6"/>
       <noteref hlink="_f130bbba6fa5d3a51bfaa2c29cf"/>
       <sourceref hlink="_f130bb0ddde43a9e3aa05884388"/>
     </citation>
-    <citation handle="_f130bcffcfe497c9f6542a1a608" change="1657447697" id="C0117">
-      <page>TAPONEN MARIA</page>
+    <citation handle="_f130bcffcfe497c9f6542a1a608" change="1717692135" id="C0117">
+      <page>03-00-029-15-00236/TAPONEN MARIA</page>
       <confidence>2</confidence>
       <noteref hlink="_f130bcf46b23547c6573dd27f8a"/>
+      <noteref hlink="_f9f50425d407531912b8736b1ea"/>
+      <noteref hlink="_f9f504b72a01eaa065246d8b3c6"/>
       <sourceref hlink="_f130bb0ddde43a9e3aa05884388"/>
     </citation>
     <citation handle="_f13222b85dc566eea2ca4a01ee3" change="1657550969" id="C0118">
@@ -4088,13 +4100,29 @@
       <noteref hlink="_f9eeaa45ab74d6ffd655a13d77d"/>
       <sourceref hlink="_f9eea9f1f4a32aa09e70fff061"/>
     </citation>
-    <citation handle="_f9f4e0835847f0f48e2f8db62c" change="1717688337" id="C0230">
-      <page>KOTILAINEN VUOKKO ONERVA</page>
+    <citation handle="_f9f4e0835847f0f48e2f8db62c" change="1717691863" id="C0230">
+      <page>7D-00-055-08-00020/KOTILAINEN VUOKKO ONERVA</page>
       <confidence>2</confidence>
       <noteref hlink="_f9f4df38908348d1baf7d90d146"/>
       <noteref hlink="_f9f4df56fec64e71ad9790723e1"/>
       <noteref hlink="_f9f4e06e41d448ef0c2195ba700"/>
       <sourceref hlink="_f130bb0ddde43a9e3aa05884388"/>
+    </citation>
+    <citation handle="_f9f50174a313a2e95b6753fe39d" change="1717691846" id="C0231">
+      <page>7D-00-055-08-00020/KOTILAINEN SOINI EDVIN</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9f500ac2ed46b04694939a196a"/>
+      <noteref hlink="_f9f500cdb9a67da8fc2c1461ba8"/>
+      <noteref hlink="_f9f5016a86b167b9e1e48867b5d"/>
+      <sourceref hlink="_f130bb0ddde43a9e3aa05884388"/>
+    </citation>
+    <citation handle="_f9f527e7e874ca53a27973920b6" change="1717695875" id="C0232">
+      <page>MKO1-7/326-327</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9f527b81772cd65f0a39c34536"/>
+      <noteref hlink="_f9f527ddec64c0ac9827c216d63"/>
+      <noteref hlink="_d019ad0b79475b81ea7"/>
+      <sourceref hlink="_d32c68ccea613412e28"/>
     </citation>
   </citations>
   <sources>
@@ -5471,12 +5499,12 @@ kesäkuu	13	11/7	994		Antti par Lois Juho Tapanen vmo Anna		1	-	35
         <range start="26" end="31"/>
       </style>
     </note>
-    <note handle="_d019ad0b79475b81ea7" change="1717017331" id="N0092" type="Transcript">
+    <note handle="_d019ad0b79475b81ea7" change="1717695858" id="N0092" type="Transcript">
       <text>1889
 toukokuu	31	7/7	403b	Elias Wt: Lois Juhana Tapanen ja vo				1	-	32
 							Anna Kiiski, Oravisalo no 8 Kmt: Renki
 							Juhana Kinnunen ja tal t Olga Maria Simanai
-							nen Kasteen toimitti J. Tidensmore?</text>
+							nen Kasteen toimitti J. ???????</text>
       <style name="underline">
         <range start="26" end="31"/>
       </style>
@@ -8041,7 +8069,7 @@ Tästä eteenpäin syntymäpäiväksi on merkitty johdonmukaisesti joka paikassa
         <range start="0" end="76"/>
       </style>
     </note>
-    <note handle="_f9f4e06e41d448ef0c2195ba700" change="1717688336" id="N0450" type="Transcript" format="1">
+    <note handle="_f9f4e06e41d448ef0c2195ba700" change="1717692153" id="N0450" type="Source text" format="1">
       <text>KOTILAINEN VUOKKO ONERVA
 1921 - 2011
 Nokian seurakunta, Nokian keskustan 04 hautausmaa
@@ -8061,6 +8089,74 @@ Syntymävuosi    1915
 Kuolinvuosi     1998</text>
       <style name="fontface" value="Monospace">
         <range start="0" end="398"/>
+      </style>
+    </note>
+    <note handle="_f9f500ac2ed46b04694939a196a" change="1717691709" id="N0451" type="Citation">
+      <text>Nokian seurakunta. Nokian keskustan 04 hautausmaa. Alue 00. Kortteli 055. Rivi 08. Paikkanumero 00020. KOTILAINEN VUOKKO ONERVA. Hautahaku.fi. Verkkosivu. Viitattu 6.6.2024. https://www.hautahaku.fi/map/7D-00-055-08-00020/KOTILAINEN%20SOINI%20EDVIN</text>
+    </note>
+    <note handle="_f9f500cdb9a67da8fc2c1461ba8" change="1717691723" id="N0452" type="Url">
+      <text>https://www.hautahaku.fi/map/7D-00-055-08-00020/KOTILAINEN%20SOINI%20EDVIN</text>
+      <style name="link" value="https://www.hautahaku.fi/map/7D-00-055-08-00020/KOTILAINEN%20SOINI%20EDVIN">
+        <range start="0" end="74"/>
+      </style>
+    </note>
+    <note handle="_f9f5016a86b167b9e1e48867b5d" change="1717692145" id="N0453" type="Source text" format="1">
+      <text>KOTILAINEN SOINI EDVIN
+1915 - 1998
+Nokian seurakunta, Nokian keskustan 04 hautausmaa
+Syntymävuosi    1915
+Kuolinvuosi     1998
+Hautausmaa      Nokian keskustan 04 hautausmaa
+                Pirkkalaistie 22
+                37100 Nokia
+Alue            00
+Kortteli        055
+Rivi            08
+Paikkanumero    00020
+
+Samaan hautaan haudatut
+KOTILAINEN VUOKKO ONERVA
+Syntymävuosi    1921
+Kuolinvuosi     2011</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="406"/>
+      </style>
+    </note>
+    <note handle="_f9f50425d407531912b8736b1ea" change="1717692074" id="N0454" type="Url">
+      <text>https://www.hautahaku.fi/map/03-00-029-15-00236/TAPONEN%20MARIA</text>
+      <style name="link" value="https://www.hautahaku.fi/map/03-00-029-15-00236/TAPONEN%20MARIA">
+        <range start="0" end="63"/>
+      </style>
+    </note>
+    <note handle="_f9f504b72a01eaa065246d8b3c6" change="1717692133" id="N0455" type="Source text" format="1">
+      <text>TAPONEN MARIA
+1894 - 1965
+Helsingin seurakuntayhtymä, Malmin hautausmaa
+Syntymävuosi    1894
+Kuolinvuosi     1965
+Hautausmaa      Malmin hautausmaa
+                Malmin kalmistotie
+                00700 Helsinki
+Alue            00 
+Kortteli        029
+Rivi            15
+Paikkanumero    00236
+
+Samaan hautaan haudatut
+TAPONEN HEIKKI
+Syntymävuosi    1896
+Kuolinvuosi     1952</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="376"/>
+      </style>
+    </note>
+    <note handle="_f9f527b81772cd65f0a39c34536" change="1717695804" id="N0456" type="Citation">
+      <text>Rääkkylä syntyneet 1880-1890 (MKO1-7)  Sivu 326 1889 Toukokuu-Kesäkuu ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26279&amp;pnum=163 / Viitattu 06.06.2024</text>
+    </note>
+    <note handle="_f9f527ddec64c0ac9827c216d63" change="1717695819" id="N0457" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26279&amp;pnum=163</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26279&amp;pnum=163">
+        <range start="0" end="78"/>
       </style>
     </note>
   </notes>
