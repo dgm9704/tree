@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2024-06-06" version="5.2.2"/>
+    <created date="2024-06-08" version="5.2.2"/>
     <researcher>
     </researcher>
     <mediapath>/home/john/3Taponen_2014-10-29.gpkg.media</mediapath>
@@ -1073,16 +1073,17 @@
       <dateval val="1819-01-14"/>
       <citationref hlink="_da86a7200be2bb81d10d1bed311"/>
     </event>
-    <event handle="_da86c6c6afb6d79e39a392229c3" change="1501702471" id="E0086">
+    <event handle="_da86c6c6afb6d79e39a392229c3" change="1717874284" id="E0086">
       <type>Residence</type>
-      <dateval val="1831-12"/>
+      <datespan start="1831-12" stop="1838"/>
       <place hlink="_cdd3d2d67676a8df2c9"/>
       <citationref hlink="_da86a7200be2bb81d10d1bed311"/>
     </event>
-    <event handle="_da86c717b806d2070f4321b3590" change="1501702504" id="E0087">
+    <event handle="_da86c717b806d2070f4321b3590" change="1717875230" id="E0087">
       <type>Residence</type>
       <dateval val="1831-12" type="before"/>
       <place hlink="_cdcdbfd82eb029e8c52"/>
+      <citationref hlink="_f9fbd6bfe254e4309f383a93436"/>
       <citationref hlink="_da86a7200be2bb81d10d1bed311"/>
     </event>
     <event handle="_da86c9dda05340bfb958c0ded95" change="1501702795" id="E0088">
@@ -3153,9 +3154,10 @@
       <noteref hlink="_da86a46a58d6b990185aa573bee"/>
       <sourceref hlink="_cdd720888052961bbef"/>
     </citation>
-    <citation handle="_da86a7200be2bb81d10d1bed311" change="1501702502" id="C0103">
-      <page>105</page>
+    <citation handle="_da86a7200be2bb81d10d1bed311" change="1717874177" id="C0103">
+      <page>Aa:6/105-106</page>
       <confidence>2</confidence>
+      <noteref hlink="_f9fbcc2ce046976d139589add47"/>
       <noteref hlink="_da86a71d527c50f68e627ab50e"/>
       <sourceref hlink="_cdd044203935b79cba4"/>
     </citation>
@@ -3177,21 +3179,24 @@
       <noteref hlink="_da86c984c6f5f7e2141c35c0f12"/>
       <sourceref hlink="_da86c9472fd426d01541b55f3db"/>
     </citation>
-    <citation handle="_da86d1047324aa37cd50c016cc8" change="1501703545" id="C0107">
-      <page>123</page>
+    <citation handle="_da86d1047324aa37cd50c016cc8" change="1717874433" id="C0107">
+      <page>Aa:11/123</page>
       <confidence>2</confidence>
+      <noteref hlink="_f9fbcf23e9b68bac1c391364190"/>
       <noteref hlink="_da86d10210b3942b891884984ee"/>
       <sourceref hlink="_da86d0db24d1a6dfaba0c2b47df"/>
     </citation>
-    <citation handle="_da86d1f71fe163c8ed9d707a778" change="1501703644" id="C0108">
-      <page>229</page>
+    <citation handle="_da86d1f71fe163c8ed9d707a778" change="1717874389" id="C0108">
+      <page>Aa:6/229</page>
       <confidence>2</confidence>
+      <noteref hlink="_f9fbceaf1ff35c2caf94e7bcf81"/>
       <noteref hlink="_da86d1f24882dfdacfb03c85589"/>
       <sourceref hlink="_da86d1c6ca534dde99a3043d0f3"/>
     </citation>
-    <citation handle="_da86d3355d455c57bfcebdae22e" change="1501703774" id="C0109">
-      <page>116</page>
+    <citation handle="_da86d3355d455c57bfcebdae22e" change="1717874354" id="C0109">
+      <page>Aa:5/116</page>
       <confidence>2</confidence>
+      <noteref hlink="_f9fbce2860917ad90e6f26f5b36"/>
       <noteref hlink="_da86d3325a967489f3a7c5ed882"/>
       <sourceref hlink="_da86d2ee38f51c3059784c5b74e"/>
     </citation>
@@ -4123,6 +4128,13 @@
       <noteref hlink="_f9f527ddec64c0ac9827c216d63"/>
       <noteref hlink="_d019ad0b79475b81ea7"/>
       <sourceref hlink="_d32c68ccea613412e28"/>
+    </citation>
+    <citation handle="_f9fbd6bfe254e4309f383a93436" change="1717875218" id="C0233">
+      <page>Aa:10/264</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9fbd6711d744fc5566a46e4b8d"/>
+      <noteref hlink="_f9fbd696d40debd0d184d681e9"/>
+      <sourceref hlink="_da86d0db24d1a6dfaba0c2b47df"/>
     </citation>
   </citations>
   <sources>
@@ -7962,8 +7974,8 @@ Maikki  &quot;     vo 94                              7/307         9/116
         <range start="0" end="77"/>
       </style>
     </note>
-    <note handle="_f9e74d3370156b7c1e6e73f1ea8" change="1717323924" id="N0426" type="Research">
-      <text>Syntymäpäiväksi on merkitty 13.4.1824 synteneiden ja kastettujen luetteloon, mitä pidän luotettavimpana lähteenä.
+    <note handle="_f9e74d3370156b7c1e6e73f1ea8" change="1717870421" id="N0426" type="Research">
+      <text>Syntymäpäiväksi on merkitty 13.4.1824 syntyneiden ja kastettujen luetteloon.
 Ensimmäinen kirjaus vuodelta 1827 lastenkirjaan 1808-1835 pitää yhtä syntyneiden luettelon kanssa.
 Toinen kirjaus vuodelta 1830 samaan kirjaan sisältää ensimmäisen virheen 13.4 -&gt; 14.4
 Kolmas kirjaus vuodelta 1839 seuraavaan lastenkirjaan tuo toisen virheen 1824 -&gt; 1827
@@ -8157,6 +8169,27 @@ Kuolinvuosi     1952</text>
       <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26279&amp;pnum=163</text>
       <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26279&amp;pnum=163">
         <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_f9fbcc2ce046976d139589add47" change="1717874110" id="N0458" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A KIRKON PÄÄKIRJAT HAKEMISTOINEEN. I Aa Rippikirjat. I Aa:6 Rippikirja  (1828-1838). Tiedosto 55. Kansallisarkisto. Viitattu 8.6.2024.</text>
+    </note>
+    <note handle="_f9fbce2860917ad90e6f26f5b36" change="1717874317" id="N0459" type="Citation">
+      <text>Nilsiän seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A KIRKON PÄÄKIRJAT HAKEMISTOINEEN. I Aa Pää- ja rippikirjat. I Aa:5 Pää- ja rippikirjat  (1811-1816). Tiedosto 126. Kansallisarkisto. Viitattu 8.6.2024.</text>
+    </note>
+    <note handle="_f9fbceaf1ff35c2caf94e7bcf81" change="1717874373" id="N0460" type="Citation">
+      <text>Nilsiän seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A KIRKON PÄÄKIRJAT HAKEMISTOINEEN. I Aa Pää- ja rippikirjat. I Aa:6 Pää- ja rippikirjat  (1817-1820). Tiedosto 241. Kansallisarkisto. Viitattu 8.6.2024.</text>
+    </note>
+    <note handle="_f9fbcf23e9b68bac1c391364190" change="1717874420" id="N0461" type="Citation">
+      <text>Nilsiän seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A KIRKON PÄÄKIRJAT HAKEMISTOINEEN. I Aa Pää- ja rippikirjat. I Aa:11 Pää- ja rippikirjat  (1821-1828). Tiedosto 127. Kansallisarkisto. Viitattu 8.6.2024.</text>
+    </note>
+    <note handle="_f9fbd6711d744fc5566a46e4b8d" change="1717875186" id="N0462" type="Citation">
+      <text>Nilsiän seurakunnan arkisto - I Aa:10 Pää- ja rippikirjat 1821-1828, jakso 266, sivu 264: Ryönä; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5812275503&amp;aineistoId=1191177819 / Viitattu 8.6.2024</text>
+    </note>
+    <note handle="_f9fbd696d40debd0d184d681e9" change="1717875201" id="N0463" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5812275503&amp;aineistoId=1191177819</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5812275503&amp;aineistoId=1191177819">
+        <range start="0" end="79"/>
       </style>
     </note>
   </notes>
