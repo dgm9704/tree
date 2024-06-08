@@ -1079,12 +1079,13 @@
       <place hlink="_cdd3d2d67676a8df2c9"/>
       <citationref hlink="_da86a7200be2bb81d10d1bed311"/>
     </event>
-    <event handle="_da86c717b806d2070f4321b3590" change="1717875230" id="E0087">
+    <event handle="_da86c717b806d2070f4321b3590" change="1717875634" id="E0087">
       <type>Residence</type>
       <dateval val="1831-12" type="before"/>
-      <place hlink="_cdcdbfd82eb029e8c52"/>
+      <place hlink="_f9fbdab2498752e40e7f541f440"/>
       <citationref hlink="_f9fbd6bfe254e4309f383a93436"/>
       <citationref hlink="_da86a7200be2bb81d10d1bed311"/>
+      <citationref hlink="_f9fbda3d11f33a752967872c99c"/>
     </event>
     <event handle="_da86c9dda05340bfb958c0ded95" change="1501702795" id="E0088">
       <type>Birth</type>
@@ -4136,6 +4137,13 @@
       <noteref hlink="_f9fbd696d40debd0d184d681e9"/>
       <sourceref hlink="_da86d0db24d1a6dfaba0c2b47df"/>
     </citation>
+    <citation handle="_f9fbda3d11f33a752967872c99c" change="1717875584" id="C0234">
+      <page>Ab:9/97-98</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9fbda12b152a6dd9400e3c3831"/>
+      <noteref hlink="_f9fbda380aa6fa7c0d00c55d03b"/>
+      <sourceref hlink="_da86c9472fd426d01541b55f3db"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdd044203935b79cba4" change="1429553707" id="S0000">
@@ -4828,6 +4836,10 @@
     <placeobj handle="_f9eea9846cf4e87c7969c482db1" change="1717521509" id="P0067" type="Village">
       <pname value="Mattisenlahti"/>
       <placeref hlink="_cca16cd689770c9f111"/>
+    </placeobj>
+    <placeobj handle="_f9fbdab2498752e40e7f541f440" change="1717875632" id="P0068" type="Village">
+      <pname value="Ryönä"/>
+      <placeref hlink="_cdcdbfd82eb029e8c52"/>
     </placeobj>
   </places>
   <repositories>
@@ -8189,6 +8201,15 @@ Kuolinvuosi     1952</text>
     <note handle="_f9fbd696d40debd0d184d681e9" change="1717875201" id="N0463" type="Url">
       <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5812275503&amp;aineistoId=1191177819</text>
       <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5812275503&amp;aineistoId=1191177819">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f9fbda12b152a6dd9400e3c3831" change="1717875567" id="N0464" type="Citation">
+      <text>Nilsiän seurakunnan arkisto - I Ab:9 Lastenkirjat 1776-1828, jakso 51, sivu 97: Ryönä; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5880854948&amp;aineistoId=1191658794 / Viitattu 8.6.2024</text>
+    </note>
+    <note handle="_f9fbda380aa6fa7c0d00c55d03b" change="1717875582" id="N0465" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5880854948&amp;aineistoId=1191658794</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5880854948&amp;aineistoId=1191658794">
         <range start="0" end="79"/>
       </style>
     </note>
