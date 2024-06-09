@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2024-06-08" version="5.2.2"/>
+    <created date="2024-06-09" version="5.2.2"/>
     <researcher>
     </researcher>
     <mediapath>/home/john/3Taponen_2014-10-29.gpkg.media</mediapath>
@@ -1068,10 +1068,11 @@
       <dateval val="1787"/>
       <citationref hlink="_da86a7200be2bb81d10d1bed311"/>
     </event>
-    <event handle="_da86c608bc12d1517938cacbe2a" change="1501702393" id="E0085">
+    <event handle="_da86c608bc12d1517938cacbe2a" change="1717947411" id="E0085">
       <type>Birth</type>
-      <dateval val="1819-01-14"/>
-      <citationref hlink="_da86a7200be2bb81d10d1bed311"/>
+      <dateval val="1820-01-18"/>
+      <place hlink="_cdcdbfd7d58001d5120"/>
+      <citationref hlink="_f9fe83c8adc7f6369a3a361dc3"/>
     </event>
     <event handle="_da86c6c6afb6d79e39a392229c3" change="1717874284" id="E0086">
       <type>Residence</type>
@@ -1079,36 +1080,41 @@
       <place hlink="_cdd3d2d67676a8df2c9"/>
       <citationref hlink="_da86a7200be2bb81d10d1bed311"/>
     </event>
-    <event handle="_da86c717b806d2070f4321b3590" change="1717875634" id="E0087">
+    <event handle="_da86c717b806d2070f4321b3590" change="1717948852" id="E0087">
       <type>Residence</type>
-      <dateval val="1831-12" type="before"/>
+      <datespan start="1827" stop="1830-02-06"/>
       <place hlink="_f9fbdab2498752e40e7f541f440"/>
       <citationref hlink="_f9fbd6bfe254e4309f383a93436"/>
-      <citationref hlink="_da86a7200be2bb81d10d1bed311"/>
       <citationref hlink="_f9fbda3d11f33a752967872c99c"/>
+      <citationref hlink="_f9fe94e280e22a787435c691e0f"/>
     </event>
-    <event handle="_da86c9dda05340bfb958c0ded95" change="1501702795" id="E0088">
+    <event handle="_da86c9dda05340bfb958c0ded95" change="1717941682" id="E0088">
       <type>Birth</type>
-      <dateval val="1814"/>
+      <dateval val="1814-07-02"/>
+      <place hlink="_cdcdbfd7d58001d5120"/>
       <citationref hlink="_da86c98a09b7f66b90dd56bac9e"/>
+      <citationref hlink="_f9fe506516d19c098fe180e4d5"/>
     </event>
-    <event handle="_da86d1102d56aa78dd6934148ac" change="1501703549" id="E0089">
+    <event handle="_da86d1102d56aa78dd6934148ac" change="1717941362" id="E0089">
       <type>Residence</type>
       <datespan start="1821" stop="1826"/>
       <place hlink="_cdcdbfd7d58001d5120"/>
       <citationref hlink="_da86d1047324aa37cd50c016cc8"/>
+      <citationref hlink="_da86c98a09b7f66b90dd56bac9e"/>
     </event>
-    <event handle="_da86d1fc5de26b59747543a85f5" change="1501703788" id="E0090">
+    <event handle="_da86d1fc5de26b59747543a85f5" change="1717941111" id="E0090">
       <type>Residence</type>
       <datespan start="1817" stop="1820"/>
       <place hlink="_cdcdbfd7d58001d5120"/>
       <citationref hlink="_da86d1f71fe163c8ed9d707a778"/>
+      <citationref hlink="_f9fe4b15b6e4b9440a992066486"/>
     </event>
-    <event handle="_da86d337cdd7a34fbd6f16ea528" change="1501703775" id="E0091">
+    <event handle="_da86d337cdd7a34fbd6f16ea528" change="1717940938" id="E0091">
       <type>Residence</type>
       <datespan start="1811" stop="1816"/>
       <place hlink="_cdcdbfd7d58001d5120"/>
       <citationref hlink="_da86d3355d455c57bfcebdae22e"/>
+      <citationref hlink="_f9fe497519b7da13babf13e997e"/>
     </event>
     <event handle="_da896e712cc15ae8a2d653bd686" change="1501773739" id="E0092">
       <type>Residence</type>
@@ -1412,6 +1418,12 @@
       <place hlink="_f9eea9846cf4e87c7969c482db1"/>
       <citationref hlink="_f9eea6e7f967d3dcaf3dec684aa"/>
       <citationref hlink="_f9eeaa484495b2e4e44789b2dc1"/>
+    </event>
+    <event handle="_f9fe95869416eaaefdec842a878" change="1717948910" id="E0156">
+      <type>Residence</type>
+      <dateval val="1830-02-06" type="after"/>
+      <place hlink="_f9fe95736d02655e535663068e0"/>
+      <citationref hlink="_f9fe94e280e22a787435c691e0f"/>
     </event>
   </events>
   <people home="_cca1691b7c53559cc53">
@@ -1945,7 +1957,7 @@
       <parentin hlink="_d01115ab6f41f64e89f"/>
       <parentin hlink="_d010ed0385e3b328d6c"/>
     </person>
-    <person handle="_d010ed56511173bf30a" change="1501703798" id="I0053">
+    <person handle="_d010ed56511173bf30a" change="1717948920" id="I0053">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Kristina</first>
@@ -2100,7 +2112,7 @@
       <eventref hlink="_da86c5a2fc16fc8eeefaa1ec836" role="Primary"/>
       <parentin hlink="_da86c47b1e979be0f3cb1ec665e"/>
     </person>
-    <person handle="_da86c5da93f4fc0b5565664236e" change="1501703798" id="I0040">
+    <person handle="_da86c5da93f4fc0b5565664236e" change="1717948920" id="I0040">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Walborg</first>
@@ -2109,10 +2121,10 @@
       <eventref hlink="_da86c608bc12d1517938cacbe2a" role="Primary"/>
       <childof hlink="_da86c47b1e979be0f3cb1ec665e"/>
     </person>
-    <person handle="_da86c8c80304370ee8788d8e4b9" change="1501703798" id="I0041">
+    <person handle="_da86c8c80304370ee8788d8e4b9" change="1717948920" id="I0041">
       <gender>M</gender>
       <name type="Birth Name">
-        <first>Matts</first>
+        <first>Mats</first>
         <surname derivation="Inherited">Rongain</surname>
       </name>
       <eventref hlink="_da86c9dda05340bfb958c0ded95" role="Primary"/>
@@ -2408,7 +2420,7 @@
       <mother hlink="_da7cd7baaa873c091c992cbf089"/>
       <childref hlink="_cfa356c7ed1469fab5f"/>
     </family>
-    <family handle="_da86c47b1e979be0f3cb1ec665e" change="1501703798" id="F0009">
+    <family handle="_da86c47b1e979be0f3cb1ec665e" change="1717948920" id="F0009">
       <rel type="Married"/>
       <father hlink="_da86c48449f794d77398c8d3552"/>
       <mother hlink="_da86c542880462139bfc841cd16"/>
@@ -2416,6 +2428,7 @@
       <eventref hlink="_da86d1fc5de26b59747543a85f5" role="Family"/>
       <eventref hlink="_da86d1102d56aa78dd6934148ac" role="Family"/>
       <eventref hlink="_da86c717b806d2070f4321b3590" role="Family"/>
+      <eventref hlink="_f9fe95869416eaaefdec842a878" role="Family"/>
       <eventref hlink="_da86c6c6afb6d79e39a392229c3" role="Family"/>
       <childref hlink="_da86c8c80304370ee8788d8e4b9"/>
       <childref hlink="_d010ed56511173bf30a"/>
@@ -2794,9 +2807,10 @@
       <noteref hlink="_d010e7c94f57fcb64c9"/>
       <sourceref hlink="_d010e49ec6615e8d8e4"/>
     </citation>
-    <citation handle="_d010f75ab4917fddb5f" change="1501412633" id="C0050">
-      <page>88</page>
+    <citation handle="_d010f75ab4917fddb5f" change="1717941948" id="C0050">
+      <page>Aa:8/88</page>
       <confidence>2</confidence>
+      <noteref hlink="_f9fe52fba6a49aba8b09219a13f"/>
       <noteref hlink="_d010f504c921c9b0994"/>
       <noteref hlink="_d010f74c2356722737f"/>
       <sourceref hlink="_cdd72720ee82f1422e8"/>
@@ -3168,15 +3182,17 @@
       <noteref hlink="_da86a853708316683b43bbe576"/>
       <sourceref hlink="_cdd044203935b79cba4"/>
     </citation>
-    <citation handle="_da86bfc6c42167c0360495d74bc" change="1501701737" id="C0105">
-      <page>277</page>
+    <citation handle="_da86bfc6c42167c0360495d74bc" change="1717941773" id="C0105">
+      <page>C:1/277</page>
       <confidence>2</confidence>
+      <noteref hlink="_f9fe513e10058ade5534093852d"/>
       <noteref hlink="_da86bfc355f2d2209d6ceff2d35"/>
       <sourceref hlink="_da86bf9faf6288ea41e2920fbfd"/>
     </citation>
-    <citation handle="_da86c98a09b7f66b90dd56bac9e" change="1501702760" id="C0106">
-      <page>273-274</page>
+    <citation handle="_da86c98a09b7f66b90dd56bac9e" change="1717941359" id="C0106">
+      <page>Ab:9/273-274</page>
       <confidence>2</confidence>
+      <noteref hlink="_f9fe4d5d5a42be59471ed98c970"/>
       <noteref hlink="_da86c984c6f5f7e2141c35c0f12"/>
       <sourceref hlink="_da86c9472fd426d01541b55f3db"/>
     </citation>
@@ -4144,6 +4160,41 @@
       <noteref hlink="_f9fbda380aa6fa7c0d00c55d03b"/>
       <sourceref hlink="_da86c9472fd426d01541b55f3db"/>
     </citation>
+    <citation handle="_f9fe497519b7da13babf13e997e" change="1717940933" id="C0235">
+      <page>Ab:4/194-195</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9fe4929ec0414b539d7bcd92ee"/>
+      <noteref hlink="_f9fe497121415de64f7036c6ba"/>
+      <sourceref hlink="_f9fe491c29a73b6e3435cfb0b8f"/>
+    </citation>
+    <citation handle="_f9fe4b15b6e4b9440a992066486" change="1717941104" id="C0236">
+      <page>Ab:5/333-334</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9fe4aedb6f702d399e0a75f705"/>
+      <noteref hlink="_f9fe4b116745f31f7edb1514d4d"/>
+      <sourceref hlink="_f9fe4abcba93567d2b7446bfb90"/>
+    </citation>
+    <citation handle="_f9fe506516d19c098fe180e4d5" change="1717941661" id="C0237">
+      <page>C:1/247-148</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9fe5041c596dcf9a99c1b026dd"/>
+      <noteref hlink="_f9fe5061c8955a8d9a41fe5d81f"/>
+      <sourceref hlink="_da86bf9faf6288ea41e2920fbfd"/>
+    </citation>
+    <citation handle="_f9fe83c8adc7f6369a3a361dc3" change="1717947049" id="C0238">
+      <page>C:1/157</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9fe83989e4b7342c40ac7797e"/>
+      <noteref hlink="_f9fe83bb0ef92b4d9c7f87fd1b"/>
+      <sourceref hlink="_da86bf9faf6288ea41e2920fbfd"/>
+    </citation>
+    <citation handle="_f9fe94e280e22a787435c691e0f" change="1717948843" id="C0239">
+      <page>Bb:2/23</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9fe94bbc521200b088e26f5403"/>
+      <noteref hlink="_f9fe94de5c8d9ecabaad44ab30"/>
+      <sourceref hlink="_f9fe947c79b7e3bd1cb14557770"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdd044203935b79cba4" change="1429553707" id="S0000">
@@ -4532,6 +4583,21 @@
       <sauthor>Liperin seurakunta</sauthor>
       <reporef hlink="_cdd410d11e701d5d906" medium="Book"/>
     </source>
+    <source handle="_f9fe491c29a73b6e3435cfb0b8f" change="1717940897" id="S0077">
+      <stitle>Nilsiä Lastenkirja 1773-1816</stitle>
+      <sauthor>Nilsiän seurakunta</sauthor>
+      <reporef hlink="_d010e648af6539f6d97" medium="Book"/>
+    </source>
+    <source handle="_f9fe4abcba93567d2b7446bfb90" change="1717941068" id="S0078">
+      <stitle>Nilsiä Lastenkirja 1777-1820</stitle>
+      <sauthor>Nilsiän seurakunta</sauthor>
+      <reporef hlink="_d010e648af6539f6d97" medium="Book"/>
+    </source>
+    <source handle="_f9fe947c79b7e3bd1cb14557770" change="1717948801" id="S0079">
+      <stitle>Nilsiä Muuttaneet 1821-1842</stitle>
+      <sauthor>Nilsiän seurakunta</sauthor>
+      <reporef hlink="_cdd410d11e701d5d906" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cca1691056519fef9d5" change="1657487885" id="P0001" type="Town">
@@ -4840,6 +4906,10 @@
     <placeobj handle="_f9fbdab2498752e40e7f541f440" change="1717875632" id="P0068" type="Village">
       <pname value="Ryönä"/>
       <placeref hlink="_cdcdbfd82eb029e8c52"/>
+    </placeobj>
+    <placeobj handle="_f9fe95736d02655e535663068e0" change="1717948902" id="P0069" type="Town">
+      <pname value="Kuopio"/>
+      <placeref hlink="_cdbd00250510bf9a5de"/>
     </placeobj>
   </places>
   <repositories>
@@ -5332,10 +5402,10 @@ April Månad
 											T. Erik Toropainen		obet
 											Maja Stina Sallinen</text>
     </note>
-    <note handle="_d010f504c921c9b0994" change="1717017331" id="N0075" type="Url">
-      <text>https://astia.narc.fi/astiaUi/digiview.php?imageId=6581319&amp;aytun=1885931.KA</text>
-      <style name="link" value="https://astia.narc.fi/astiaUi/digiview.php?imageId=6581319&amp;aytun=1885931.KA">
-        <range start="0" end="75"/>
+    <note handle="_d010f504c921c9b0994" change="1717941925" id="N0075" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5821448224&amp;aineistoId=1193190157</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5821448224&amp;aineistoId=1193190157">
+        <range start="0" end="79"/>
       </style>
     </note>
     <note handle="_d010f74c2356722737f" change="1717017331" id="N0076" type="Transcript" format="1">
@@ -8211,6 +8281,60 @@ Kuolinvuosi     1952</text>
       <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5880854948&amp;aineistoId=1191658794</text>
       <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5880854948&amp;aineistoId=1191658794">
         <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f9fe4929ec0414b539d7bcd92ee" change="1717940903" id="N0466" type="Citation">
+      <text>Nilsiän seurakunnan arkisto - I Ab:4 Lastenkirjat 1773-1816, jakso 103, sivu 194-195: Syvärilä; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5880868799&amp;aineistoId=1191606306 / Viitattu 9.6.2024</text>
+    </note>
+    <note handle="_f9fe497121415de64f7036c6ba" change="1717940932" id="N0467" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5880868799&amp;aineistoId=1191606306</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5880868799&amp;aineistoId=1191606306">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f9fe4aedb6f702d399e0a75f705" change="1717941088" id="N0468" type="Citation">
+      <text>Nilsiän seurakunnan arkisto - I Ab:5 Lastenkirjat 1777-1820, jakso 179, sivu 333: Syvärilä 1; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5880896511&amp;aineistoId=1191618793 / Viitattu 9.6.2024</text>
+    </note>
+    <note handle="_f9fe4b116745f31f7edb1514d4d" change="1717941102" id="N0469" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5880896511&amp;aineistoId=1191618793</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5880896511&amp;aineistoId=1191618793">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f9fe4d5d5a42be59471ed98c970" change="1717941343" id="N0470" type="Citation">
+      <text>Nilsiän seurakunnan arkisto - I Ab:9 Lastenkirjat 1776-1828, jakso 144, sivu 273-274: Syvärilä; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5880856888&amp;aineistoId=1191658794 / Viitattu 9.6.2024</text>
+    </note>
+    <note handle="_f9fe5041c596dcf9a99c1b026dd" change="1717941646" id="N0471" type="Citation">
+      <text>Nilsiän seurakunnan arkisto - I C:1 Syntyneiden ja kastettujen luettelot 1771-1820, jakso 123: 1814 kesäkuu-heinäkuu; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5813537199&amp;aineistoId=1191923158 / Viitattu 9.6.2024</text>
+    </note>
+    <note handle="_f9fe5061c8955a8d9a41fe5d81f" change="1717941659" id="N0472" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5813537199&amp;aineistoId=1191923158</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5813537199&amp;aineistoId=1191923158">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f9fe513e10058ade5534093852d" change="1717941750" id="N0473" type="Citation">
+      <text>Nilsiän seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I C SYNTYNEIDEN JA KASTETTUJEN LUETTELOT. I C:1 Syntyneiden ja kastettujen luettelot  (1771-1820). Tiedosto 138. Kansallisarkisto. Viitattu 9.6.2024.</text>
+    </note>
+    <note handle="_f9fe52fba6a49aba8b09219a13f" change="1717941932" id="N0474" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto - I Aa:8 Rippikirja 1853-1864, jakso 90, sivu 88: Heinonniemi K; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5821448224&amp;aineistoId=1193190157 / Viitattu 9.6.2024</text>
+    </note>
+    <note handle="_f9fe83989e4b7342c40ac7797e" change="1717947030" id="N0475" type="Citation">
+      <text>Nilsiän seurakunnan arkisto - I C:1 Syntyneiden ja kastettujen luettelot 1771-1820, jakso 157: 1819 joulukuu, 1820 tammikuu; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5813537592&amp;aineistoId=1191923158 / Viitattu 9.6.2024</text>
+    </note>
+    <note handle="_f9fe83bb0ef92b4d9c7f87fd1b" change="1717947044" id="N0476" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5813537592&amp;aineistoId=1191923158</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5813537592&amp;aineistoId=1191923158">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f9fe94bbc521200b088e26f5403" change="1717948827" id="N0477" type="Citation">
+      <text>Nilsiä muuttaneet 1821-1842 (AP_ULOS I Bb:2)  1830 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=43966&amp;pnum=23 / Viitattu 09.06.2024</text>
+    </note>
+    <note handle="_f9fe94de5c8d9ecabaad44ab30" change="1717948841" id="N0478" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=43966&amp;pnum=23</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=43966&amp;pnum=23">
+        <range start="0" end="77"/>
       </style>
     </note>
   </notes>
