@@ -1425,12 +1425,18 @@
       <place hlink="_f9fe95736d02655e535663068e0"/>
       <citationref hlink="_f9fe94e280e22a787435c691e0f"/>
     </event>
-    <event handle="_f9feaa4b7f5482f54a83f3fcbc4" change="1717951701" id="E0157">
+    <event handle="_f9feaa4b7f5482f54a83f3fcbc4" change="1717952396" id="E0157">
       <type>Residence</type>
-      <datespan start="1830-07-07" stop="1831"/>
+      <datespan start="1830-07-17" stop="1831"/>
       <place hlink="_f9feaf09a1cb7870278248528b"/>
       <citationref hlink="_f9feaa461c942a59f6dcf147f2f"/>
       <citationref hlink="_f9feb006ae6520db054fcf53c64"/>
+    </event>
+    <event handle="_f9fecef8b7a125d515101f5a142" change="1717954933" id="E0158">
+      <type>Residence</type>
+      <dateval val="1838"/>
+      <place hlink="_da868f5c06a6182eadb74c1d141"/>
+      <citationref hlink="_f9fecef62ef1d1f1d9a4cccce0f"/>
     </event>
   </events>
   <people home="_cca1691b7c53559cc53">
@@ -2033,7 +2039,7 @@
       <eventref hlink="_da7bfd3abed486d60f81dc71850" role="Primary"/>
       <parentin hlink="_d01115ab6f41f64e89f"/>
     </person>
-    <person handle="_d0111804803783276a6" change="1501773930" id="I0059">
+    <person handle="_d0111804803783276a6" change="1717954505" id="I0059">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria</first>
@@ -2053,7 +2059,7 @@
       <eventref hlink="_f9deb4bc3a152b117556bfb2620" role="Primary"/>
       <parentin hlink="_d0192176cfa508db0f8"/>
     </person>
-    <person handle="_da7c10f80575c48aa0c202f6287" change="1501773930" id="I0005">
+    <person handle="_da7c10f80575c48aa0c202f6287" change="1717954505" id="I0005">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Anders Johan</first>
@@ -2063,7 +2069,7 @@
       <childof hlink="_d010ed0385e3b328d6c"/>
       <childof hlink="_d01115ab6f41f64e89f"/>
     </person>
-    <person handle="_da7c77ceb7118a5eea19128b71e" change="1501773930" id="I0016">
+    <person handle="_da7c77ceb7118a5eea19128b71e" change="1717954505" id="I0016">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Henrik</first>
@@ -2119,13 +2125,14 @@
       <eventref hlink="_da86c5a2fc16fc8eeefaa1ec836" role="Primary"/>
       <parentin hlink="_da86c47b1e979be0f3cb1ec665e"/>
     </person>
-    <person handle="_da86c5da93f4fc0b5565664236e" change="1717948920" id="I0040">
+    <person handle="_da86c5da93f4fc0b5565664236e" change="1717955069" id="I0040">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Walborg</first>
         <surname derivation="Inherited">Rongain</surname>
       </name>
       <eventref hlink="_da86c608bc12d1517938cacbe2a" role="Primary"/>
+      <eventref hlink="_f9fecef8b7a125d515101f5a142" role="Primary"/>
       <childof hlink="_da86c47b1e979be0f3cb1ec665e"/>
     </person>
     <person handle="_da86c8c80304370ee8788d8e4b9" change="1717951706" id="I0041">
@@ -2403,13 +2410,13 @@
       <childref hlink="_cfa3588ae1d7bd2f6e8"/>
       <childref hlink="_d0110f9258b7ff35197"/>
     </family>
-    <family handle="_d01115ab6f41f64e89f" change="1501773930" id="F0016">
+    <family handle="_d01115ab6f41f64e89f" change="1717954505" id="F0016">
       <rel type="Married"/>
       <father hlink="_d010ed2cb1a57e405bb"/>
       <mother hlink="_d01117648484abf78d8"/>
       <eventref hlink="_da7bfff94874ec02a3779c09d71" role="Family"/>
       <eventref hlink="_da896e712cc15ae8a2d653bd686" role="Family"/>
-      <childref hlink="_d0111804803783276a6"/>
+      <childref hlink="_d0111804803783276a6" frel="Stepchild"/>
       <childref hlink="_da7c10f80575c48aa0c202f6287"/>
       <childref hlink="_da7c77ceb7118a5eea19128b71e"/>
     </family>
@@ -2576,8 +2583,8 @@
       <noteref hlink="_f9d7a32cf302198ea24688829db"/>
       <sourceref hlink="_cdd3b3e8e60650d5cd6"/>
     </citation>
-    <citation handle="_cdd3b7169bc447ea20f" change="1501432162" id="C0016">
-      <page>88-89</page>
+    <citation handle="_cdd3b7169bc447ea20f" change="1717955527" id="C0016">
+      <page>Ab:5/88-89</page>
       <confidence>2</confidence>
       <noteref hlink="_cdd3b777e9b4260c480"/>
       <noteref hlink="_d0110284fa0258a26c0"/>
@@ -3074,21 +3081,25 @@
       <noteref hlink="_da7bf1d7c322b5141ce920f2707"/>
       <sourceref hlink="_da7bf0e68956b4377a828a175ed"/>
     </citation>
-    <citation handle="_da7bfb6a33e29ca61f15c857e6c" change="1501773732" id="C0087">
-      <page>170</page>
+    <citation handle="_da7bfb6a33e29ca61f15c857e6c" change="1717955485" id="C0087">
+      <page>Aa:7/170-171</page>
       <confidence>2</confidence>
+      <noteref hlink="_f9fed4155cf69b4a8b08300561b"/>
       <noteref hlink="_da7bfb65f3e371dc7b52ac840c"/>
       <sourceref hlink="_cdd720888052961bbef"/>
     </citation>
-    <citation handle="_da7c03fe6007807f2428071fa1c" change="1501696379" id="C0088">
-      <page>kuva 30</page>
+    <citation handle="_da7c03fe6007807f2428071fa1c" change="1717955451" id="C0088">
+      <page>C:2/30</page>
       <confidence>2</confidence>
+      <noteref hlink="_f9fed3a0514693a9a32d0cc8412"/>
       <noteref hlink="_da7c03fc2131be61501cb9caa77"/>
+      <noteref hlink="_f9fed3c6a905ef7ddd260d6b6a7"/>
       <sourceref hlink="_cdd715d07f9393fba97"/>
     </citation>
-    <citation handle="_da7cb2902a721e5b2c016a0932a" change="1501431916" id="C0089">
+    <citation handle="_da7cb2902a721e5b2c016a0932a" change="1717954398" id="C0089">
       <page>jakso 81</page>
       <confidence>2</confidence>
+      <noteref hlink="_f9fec9d381e3c6ee250b9b46f98"/>
       <noteref hlink="_da7cb2871b2641f9150fb6fedd"/>
       <sourceref hlink="_cdd428c8d9374902be3"/>
     </citation>
@@ -3147,21 +3158,24 @@
       <noteref hlink="_da82faee8f75564d8164bc6a59b"/>
       <sourceref hlink="_cdd047117f05b6e8304"/>
     </citation>
-    <citation handle="_da868e4ea2212f262db38fbca94" change="1501696549" id="C0098">
-      <page>138</page>
+    <citation handle="_da868e4ea2212f262db38fbca94" change="1717955352" id="C0098">
+      <page>Aa:7/138-139</page>
       <confidence>2</confidence>
+      <noteref hlink="_f9fed2d01142673893164b56778"/>
       <noteref hlink="_da868e49f6abbf5a1cc3dcba86"/>
       <sourceref hlink="_cdd720888052961bbef"/>
     </citation>
-    <citation handle="_da868fb866c7e49e47704074a20" change="1501698417" id="C0099">
-      <page>158</page>
+    <citation handle="_da868fb866c7e49e47704074a20" change="1717955254" id="C0099">
+      <page>Aa:7/158-159</page>
       <confidence>2</confidence>
+      <noteref hlink="_f9fed1ff7947baea4a210be7b54"/>
       <noteref hlink="_da868fb229e1badc77846e89c96"/>
       <sourceref hlink="_cdd720888052961bbef"/>
     </citation>
-    <citation handle="_da86951057e7600e6b42ac657b2" change="1501697258" id="C0100">
-      <page>30</page>
+    <citation handle="_da86951057e7600e6b42ac657b2" change="1717955306" id="C0100">
+      <page>Aa:7/30-31</page>
       <confidence>2</confidence>
+      <noteref hlink="_f9fed257d4a15c686a5ed9b53cd"/>
       <noteref hlink="_da8694d86c64510bbde15437dff"/>
       <sourceref hlink="_cdd720888052961bbef"/>
     </citation>
@@ -3171,9 +3185,10 @@
       <noteref hlink="_da869e8f224486a63a7fc912c2e"/>
       <sourceref hlink="_cdd720888052961bbef"/>
     </citation>
-    <citation handle="_da86a46c76a3071a012797a72c9" change="1501698869" id="C0102">
-      <page>146</page>
+    <citation handle="_da86a46c76a3071a012797a72c9" change="1717955226" id="C0102">
+      <page>Aa:7/146-147</page>
       <confidence>2</confidence>
+      <noteref hlink="_f9fed19c081776fa944c8d0aec8"/>
       <noteref hlink="_da86a46a58d6b990185aa573bee"/>
       <sourceref hlink="_cdd720888052961bbef"/>
     </citation>
@@ -4216,6 +4231,13 @@
       <noteref hlink="_f9feafd503a90a1dbad4e20fd5"/>
       <noteref hlink="_f9feaffa91f2847649326f91445"/>
       <sourceref hlink="_f9feaf857af909e456b1c1fa2a"/>
+    </citation>
+    <citation handle="_f9fecef62ef1d1f1d9a4cccce0f" change="1717954932" id="C0242">
+      <page>Aa:6/93-94</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9fecece7113e517cf1e03c4a62"/>
+      <noteref hlink="_f9feceedd506887049d4443762f"/>
+      <sourceref hlink="_cdd044203935b79cba4"/>
     </citation>
   </citations>
   <sources>
@@ -8391,8 +8413,45 @@ Kuolinvuosi     1952</text>
         <range start="0" end="79"/>
       </style>
     </note>
+    <note handle="_f9fec9d381e3c6ee250b9b46f98" change="1717954394" id="N0483" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I C SYNTYNEIDEN JA KASTETTUJEN LUETTELOT. I C:2 Syntyneiden ja kastettujen luettelot  (1833-1856). Tiedosto 81. Kansallisarkisto. Viitattu 9.6.2024.</text>
+    </note>
+    <note handle="_f9fecece7113e517cf1e03c4a62" change="1717954916" id="N0484" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto - I Aa:6 Rippikirja 1828-1838, jakso 49, sivu 93: Heinoniemi 9 ; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5821213592&amp;aineistoId=1193156879 / Viitattu 9.6.2024</text>
+    </note>
+    <note handle="_f9feceedd506887049d4443762f" change="1717954929" id="N0485" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5821213592&amp;aineistoId=1193156879</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5821213592&amp;aineistoId=1193156879">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f9fed19c081776fa944c8d0aec8" change="1717955210" id="N0486" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A KIRKON PÄÄKIRJAT HAKEMISTOINEEN. I Aa Rippikirjat. I Aa:7 Rippikirja  (1839-1852). Tiedosto 77. Kansallisarkisto. Viitattu 9.6.2024.</text>
+    </note>
+    <note handle="_f9fed1ff7947baea4a210be7b54" change="1717955251" id="N0487" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A KIRKON PÄÄKIRJAT HAKEMISTOINEEN. I Aa Rippikirjat. I Aa:7 Rippikirja  (1839-1852). Tiedosto 83. Kansallisarkisto. Viitattu 9.6.2024.</text>
+    </note>
+    <note handle="_f9fed257d4a15c686a5ed9b53cd" change="1717955287" id="N0488" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A KIRKON PÄÄKIRJAT HAKEMISTOINEEN. I Aa Rippikirjat. I Aa:7 Rippikirja  (1839-1852). Tiedosto 17. Kansallisarkisto. Viitattu 9.6.2024.</text>
+    </note>
+    <note handle="_f9fed2d01142673893164b56778" change="1717955336" id="N0489" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A KIRKON PÄÄKIRJAT HAKEMISTOINEEN. I Aa Rippikirjat. I Aa:7 Rippikirja  (1839-1852). Tiedosto 73. Kansallisarkisto. Viitattu 9.6.2024.</text>
+    </note>
+    <note handle="_f9fed3a0514693a9a32d0cc8412" change="1717955421" id="N0490" type="Citation">
+      <text>Rääkkylä vihityt 1833-1856 (TK2181 I C:2)  1848 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=10850&amp;pnum=30 / Viitattu 09.06.2024</text>
+    </note>
+    <note handle="_f9fed3c6a905ef7ddd260d6b6a7" change="1717955437" id="N0491" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=10850&amp;pnum=30</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=10850&amp;pnum=30">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f9fed4155cf69b4a8b08300561b" change="1717955469" id="N0492" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A KIRKON PÄÄKIRJAT HAKEMISTOINEEN. I Aa Rippikirjat. I Aa:7 Rippikirja  (1839-1852). Tiedosto 89. Kansallisarkisto. Viitattu 9.6.2024.</text>
+    </note>
   </notes>
   <namemaps>
+    <map type="group_as" key="Ronganen" value="Rongain"/>
     <map type="group_as" key="Tapain" value="Taponen"/>
     <map type="group_as" key="Tapanen" value="Taponen"/>
   </namemaps>
