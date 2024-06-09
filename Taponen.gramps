@@ -1425,6 +1425,13 @@
       <place hlink="_f9fe95736d02655e535663068e0"/>
       <citationref hlink="_f9fe94e280e22a787435c691e0f"/>
     </event>
+    <event handle="_f9feaa4b7f5482f54a83f3fcbc4" change="1717951701" id="E0157">
+      <type>Residence</type>
+      <datespan start="1830-07-07" stop="1831"/>
+      <place hlink="_f9feaf09a1cb7870278248528b"/>
+      <citationref hlink="_f9feaa461c942a59f6dcf147f2f"/>
+      <citationref hlink="_f9feb006ae6520db054fcf53c64"/>
+    </event>
   </events>
   <people home="_cca1691b7c53559cc53">
     <person handle="_cb937baae6821b777ad" change="1501410532" id="I0000">
@@ -2121,13 +2128,14 @@
       <eventref hlink="_da86c608bc12d1517938cacbe2a" role="Primary"/>
       <childof hlink="_da86c47b1e979be0f3cb1ec665e"/>
     </person>
-    <person handle="_da86c8c80304370ee8788d8e4b9" change="1717948920" id="I0041">
+    <person handle="_da86c8c80304370ee8788d8e4b9" change="1717951706" id="I0041">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Mats</first>
         <surname derivation="Inherited">Rongain</surname>
       </name>
       <eventref hlink="_da86c9dda05340bfb958c0ded95" role="Primary"/>
+      <eventref hlink="_f9feaa4b7f5482f54a83f3fcbc4" role="Primary"/>
       <childof hlink="_da86c47b1e979be0f3cb1ec665e"/>
     </person>
     <person handle="_da92b138ada5070533d7a796c26" change="1502023091" id="I0064">
@@ -4195,6 +4203,20 @@
       <noteref hlink="_f9fe94de5c8d9ecabaad44ab30"/>
       <sourceref hlink="_f9fe947c79b7e3bd1cb14557770"/>
     </citation>
+    <citation handle="_f9feaa461c942a59f6dcf147f2f" change="1717951085" id="C0240">
+      <page>Ba:4/72-73</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9feaa1adba63de60a78ed2fa82"/>
+      <noteref hlink="_f9feaa3ec9a4bd1c5922134542c"/>
+      <sourceref hlink="_f9fea9e1fcc5c743ec423b772aa"/>
+    </citation>
+    <citation handle="_f9feb006ae6520db054fcf53c64" change="1717951688" id="C0241">
+      <page>Ab:14/1042-1043</page>
+      <confidence>2</confidence>
+      <noteref hlink="_f9feafd503a90a1dbad4e20fd5"/>
+      <noteref hlink="_f9feaffa91f2847649326f91445"/>
+      <sourceref hlink="_f9feaf857af909e456b1c1fa2a"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdd044203935b79cba4" change="1429553707" id="S0000">
@@ -4598,6 +4620,16 @@
       <sauthor>Nilsiän seurakunta</sauthor>
       <reporef hlink="_cdd410d11e701d5d906" medium="Book"/>
     </source>
+    <source handle="_f9fea9e1fcc5c743ec423b772aa" change="1717951697" id="S0080">
+      <stitle>Kuopion msrk Muuttaneet 1820-1843</stitle>
+      <sauthor>Kuopion maaseurakunta</sauthor>
+      <reporef hlink="_d010e648af6539f6d97" medium="Book"/>
+    </source>
+    <source handle="_f9feaf857af909e456b1c1fa2a" change="1717951636" id="S0081">
+      <stitle>Kuopion msrk Lastenkirja 1823-1831</stitle>
+      <sauthor>Kuopion maaseurakunta</sauthor>
+      <reporef hlink="_d010e648af6539f6d97" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cca1691056519fef9d5" change="1657487885" id="P0001" type="Town">
@@ -4907,9 +4939,13 @@
       <pname value="Ryönä"/>
       <placeref hlink="_cdcdbfd82eb029e8c52"/>
     </placeobj>
-    <placeobj handle="_f9fe95736d02655e535663068e0" change="1717948902" id="P0069" type="Town">
-      <pname value="Kuopio"/>
+    <placeobj handle="_f9fe95736d02655e535663068e0" change="1717950990" id="P0069" type="Parish">
+      <pname value="Kuopion maaseurakunta"/>
       <placeref hlink="_cdbd00250510bf9a5de"/>
+    </placeobj>
+    <placeobj handle="_f9feaf09a1cb7870278248528b" change="1717951585" id="P0070" type="Village">
+      <pname value="Jännevirta"/>
+      <placeref hlink="_f9fe95736d02655e535663068e0"/>
     </placeobj>
   </places>
   <repositories>
@@ -8335,6 +8371,24 @@ Kuolinvuosi     1952</text>
       <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=43966&amp;pnum=23</text>
       <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=43966&amp;pnum=23">
         <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_f9feaa1adba63de60a78ed2fa82" change="1717951068" id="N0479" type="Citation">
+      <text>Kuopion maaseurakunnan arkisto - I Ba:4 Seurakuntaan muuttaneiden luettelot 1820-1843, jakso 39, sivu 72-73: 1830; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5887381610&amp;aineistoId=1190148238 / Viitattu 9.6.2024</text>
+    </note>
+    <note handle="_f9feaa3ec9a4bd1c5922134542c" change="1717951082" id="N0480" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5887381610&amp;aineistoId=1190148238</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5887381610&amp;aineistoId=1190148238">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_f9feafd503a90a1dbad4e20fd5" change="1717951668" id="N0481" type="Citation">
+      <text>Kuopion maaseurakunnan arkisto - I Ab:14 Lastenkirja II 1823-1831, jakso 203, sivu 1042-1043: Jännevirta; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5887615233&amp;aineistoId=1189715621 / Viitattu 9.6.2024</text>
+    </note>
+    <note handle="_f9feaffa91f2847649326f91445" change="1717951684" id="N0482" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5887615233&amp;aineistoId=1189715621</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5887615233&amp;aineistoId=1189715621">
+        <range start="0" end="79"/>
       </style>
     </note>
   </notes>
