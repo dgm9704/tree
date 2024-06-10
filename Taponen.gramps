@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2024-06-09" version="5.2.2"/>
+    <created date="2024-06-10" version="5.2.2"/>
     <researcher>
     </researcher>
     <mediapath>/home/john/3Taponen_2014-10-29.gpkg.media</mediapath>
@@ -1438,6 +1438,32 @@
       <place hlink="_da868f5c06a6182eadb74c1d141"/>
       <citationref hlink="_f9fecef62ef1d1f1d9a4cccce0f"/>
     </event>
+    <event handle="_fa01ed4e3d5219c24971bbd3961" change="1718038979" id="E0159">
+      <type>Residence</type>
+      <datespan start="1832" stop="1836"/>
+      <place hlink="_fa01ea262ac1646ab6c98af3c5b"/>
+      <citationref hlink="_fa01eb017a770af2fff062795ef"/>
+      <citationref hlink="_fa01ef2111973679888343cea1d"/>
+      <citationref hlink="_fa01ed1ded370f5e9452b77b66c"/>
+    </event>
+    <event handle="_fa01f27d13017b4cdea5136074b" change="1718039188" id="E0160">
+      <type>Residence</type>
+      <datespan start="1836" stop="1837"/>
+      <place hlink="_fa01f1275b6392035a44bed3f77"/>
+      <citationref hlink="_fa01f2580901f6ed80622d79c94"/>
+    </event>
+    <event handle="_fa01f4920d6569d0c8c4d3faa3a" change="1718039407" id="E0161">
+      <type>Residence</type>
+      <datespan start="1837" stop="1838"/>
+      <place hlink="_fa01f40a6691ad46c9a75ce6837"/>
+      <citationref hlink="_fa01f48ad692fbe482cb5e8bf2e"/>
+    </event>
+    <event handle="_fa01f68f76c6ed40e215cde89f6" change="1718039615" id="E0162">
+      <type>Residence</type>
+      <datespan start="1838" stop="1839"/>
+      <place hlink="_fa01f6105c274163bde9d0a67e"/>
+      <citationref hlink="_fa01f68a87156a49386a170b659"/>
+    </event>
   </events>
   <people home="_cca1691b7c53559cc53">
     <person handle="_cb937baae6821b777ad" change="1501410532" id="I0000">
@@ -2135,7 +2161,7 @@
       <eventref hlink="_f9fecef8b7a125d515101f5a142" role="Primary"/>
       <childof hlink="_da86c47b1e979be0f3cb1ec665e"/>
     </person>
-    <person handle="_da86c8c80304370ee8788d8e4b9" change="1717951706" id="I0041">
+    <person handle="_da86c8c80304370ee8788d8e4b9" change="1718039618" id="I0041">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Mats</first>
@@ -2143,6 +2169,10 @@
       </name>
       <eventref hlink="_da86c9dda05340bfb958c0ded95" role="Primary"/>
       <eventref hlink="_f9feaa4b7f5482f54a83f3fcbc4" role="Primary"/>
+      <eventref hlink="_fa01ed4e3d5219c24971bbd3961" role="Primary"/>
+      <eventref hlink="_fa01f27d13017b4cdea5136074b" role="Primary"/>
+      <eventref hlink="_fa01f4920d6569d0c8c4d3faa3a" role="Primary"/>
+      <eventref hlink="_fa01f68f76c6ed40e215cde89f6" role="Primary"/>
       <childof hlink="_da86c47b1e979be0f3cb1ec665e"/>
     </person>
     <person handle="_da92b138ada5070533d7a796c26" change="1502023091" id="I0064">
@@ -4239,6 +4269,48 @@
       <noteref hlink="_f9feceedd506887049d4443762f"/>
       <sourceref hlink="_cdd044203935b79cba4"/>
     </citation>
+    <citation handle="_fa01eb017a770af2fff062795ef" change="1718038421" id="C0243">
+      <page>Ab:17/418-419</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa01ead3bd8598c597177d61790"/>
+      <noteref hlink="_fa01eafce151f09e122c33969d1"/>
+      <sourceref hlink="_fa01ea9ce0f6159e89911f74401"/>
+    </citation>
+    <citation handle="_fa01ed1ded370f5e9452b77b66c" change="1718038625" id="C0244">
+      <page>Aa:25/342</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa01ecbd44619fdc2cd52e5bb69"/>
+      <noteref hlink="_fa01ecdf6f164419e8abe05dd64"/>
+      <sourceref hlink="_fa01ec903c056aea4e0482ba59f"/>
+    </citation>
+    <citation handle="_fa01ef2111973679888343cea1d" change="1718038836" id="C0245">
+      <page>Aa:25/344</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa01eed5e7356cb14414acfb63"/>
+      <noteref hlink="_fa01eefcd556b41c437603e722b"/>
+      <sourceref hlink="_fa01ec903c056aea4e0482ba59f"/>
+    </citation>
+    <citation handle="_fa01f2580901f6ed80622d79c94" change="1718039173" id="C0246">
+      <page>Aa:25/2</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa01f220e1c3de9c535b5fb6ca2"/>
+      <noteref hlink="_fa01f24386953dfcd9f34dd7a73"/>
+      <sourceref hlink="_fa01ec903c056aea4e0482ba59f"/>
+    </citation>
+    <citation handle="_fa01f48ad692fbe482cb5e8bf2e" change="1718039404" id="C0247">
+      <page>Aa:25/330</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa01f4599a61d5c99ee479fc3e2"/>
+      <noteref hlink="_fa01f48111749e1431a634d0c7a"/>
+      <sourceref hlink="_fa01ec903c056aea4e0482ba59f"/>
+    </citation>
+    <citation handle="_fa01f68a87156a49386a170b659" change="1718039613" id="C0248">
+      <page>Aa:26/407</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa01f6442b51512f4f7c9d44b3b"/>
+      <noteref hlink="_fa01f66281717301d7bc7a4f348"/>
+      <sourceref hlink="_fa01ec903c056aea4e0482ba59f"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdd044203935b79cba4" change="1429553707" id="S0000">
@@ -4652,6 +4724,16 @@
       <sauthor>Kuopion maaseurakunta</sauthor>
       <reporef hlink="_d010e648af6539f6d97" medium="Book"/>
     </source>
+    <source handle="_fa01ea9ce0f6159e89911f74401" change="1718038515" id="S0082">
+      <stitle>Kuopion msrk Lastenkirja 1832-1843</stitle>
+      <sauthor>Kuopion maaseurakunta</sauthor>
+      <reporef hlink="_d010e648af6539f6d97" medium="Book"/>
+    </source>
+    <source handle="_fa01ec903c056aea4e0482ba59f" change="1718038641" id="S0083">
+      <stitle>Kuopion msrk Rippikirja 1832-1843</stitle>
+      <sauthor>Kuopion maaseurakunta</sauthor>
+      <reporef hlink="_d010e648af6539f6d97" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cca1691056519fef9d5" change="1657487885" id="P0001" type="Town">
@@ -4961,13 +5043,37 @@
       <pname value="Ryönä"/>
       <placeref hlink="_cdcdbfd82eb029e8c52"/>
     </placeobj>
-    <placeobj handle="_f9fe95736d02655e535663068e0" change="1717950990" id="P0069" type="Parish">
-      <pname value="Kuopion maaseurakunta"/>
+    <placeobj handle="_f9fe95736d02655e535663068e0" change="1718038280" id="P0069" type="Parish">
+      <pname value="Kuopion msrk"/>
       <placeref hlink="_cdbd00250510bf9a5de"/>
     </placeobj>
     <placeobj handle="_f9feaf09a1cb7870278248528b" change="1717951585" id="P0070" type="Village">
       <pname value="Jännevirta"/>
       <placeref hlink="_f9fe95736d02655e535663068e0"/>
+    </placeobj>
+    <placeobj handle="_fa01ea2448674627dd7a36c3d67" change="1718038313" id="P0071" type="Village">
+      <pname value="Kurkharju"/>
+      <placeref hlink="_f9fe95736d02655e535663068e0"/>
+    </placeobj>
+    <placeobj handle="_fa01ea262ac1646ab6c98af3c5b" change="1718038314" id="P0072" type="Farm">
+      <pname value="Rihilax"/>
+      <placeref hlink="_fa01ea2448674627dd7a36c3d67"/>
+    </placeobj>
+    <placeobj handle="_fa01f1275b6392035a44bed3f77" change="1718039048" id="P0073" type="Farm">
+      <pname value="Alatalo"/>
+      <placeref hlink="_f9feaf09a1cb7870278248528b"/>
+    </placeobj>
+    <placeobj handle="_fa01f40a6691ad46c9a75ce6837" change="1718039351" id="P0074" type="Farm">
+      <pname value="Alatalo"/>
+      <placeref hlink="_fa01ea2448674627dd7a36c3d67"/>
+    </placeobj>
+    <placeobj handle="_fa01f60c5b8320a525f489810c7" change="1718039561" id="P0075" type="Village">
+      <pname value="Ristavesi"/>
+      <placeref hlink="_f9fe95736d02655e535663068e0"/>
+    </placeobj>
+    <placeobj handle="_fa01f6105c274163bde9d0a67e" change="1718039563" id="P0076" type="Farm">
+      <pname value="Mattila"/>
+      <placeref hlink="_fa01f60c5b8320a525f489810c7"/>
     </placeobj>
   </places>
   <repositories>
@@ -8448,6 +8554,60 @@ Kuolinvuosi     1952</text>
     </note>
     <note handle="_f9fed4155cf69b4a8b08300561b" change="1717955469" id="N0492" type="Citation">
       <text>Rääkkylän seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A KIRKON PÄÄKIRJAT HAKEMISTOINEEN. I Aa Rippikirjat. I Aa:7 Rippikirja  (1839-1852). Tiedosto 89. Kansallisarkisto. Viitattu 9.6.2024.</text>
+    </note>
+    <note handle="_fa01ead3bd8598c597177d61790" change="1718038385" id="N0493" type="Citation">
+      <text>Kuopion maaseurakunnan arkisto - I Ab:17 Lastenkirja II 1832-1843, jakso 229, sivu 418-419; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5887648263&amp;aineistoId=1189788665 / Viitattu 10.6.2024</text>
+    </note>
+    <note handle="_fa01eafce151f09e122c33969d1" change="1718038402" id="N0494" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5887648263&amp;aineistoId=1189788665</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5887648263&amp;aineistoId=1189788665">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_fa01ecbd44619fdc2cd52e5bb69" change="1718038585" id="N0495" type="Citation">
+      <text>Kuopion maaseurakunnan arkisto - I Aa:25 Rippikirja II 1832-1843, jakso 369, sivu 342: Kurkharju 4 f.d. 5 Rihilax Wanhatalo; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5887407234&amp;aineistoId=1188973314 / Viitattu 10.6.2024</text>
+    </note>
+    <note handle="_fa01ecdf6f164419e8abe05dd64" change="1718038599" id="N0496" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5887407234&amp;aineistoId=1188973314</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5887407234&amp;aineistoId=1188973314">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_fa01eed5e7356cb14414acfb63" change="1718038805" id="N0497" type="Citation">
+      <text>Kuopion maaseurakunnan arkisto - I Aa:25 Rippikirja II 1832-1843, jakso 371, sivu 344: Kurkahrju 4 Rihilax; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5887406820&amp;aineistoId=1188973314 / Viitattu 10.6.2024</text>
+    </note>
+    <note handle="_fa01eefcd556b41c437603e722b" change="1718038821" id="N0498" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5887406820&amp;aineistoId=1188973314</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5887406820&amp;aineistoId=1188973314">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_fa01f220e1c3de9c535b5fb6ca2" change="1718039150" id="N0499" type="Citation">
+      <text>Kuopion maaseurakunnan arkisto - I Aa:25 Rippikirja II 1832-1843, jakso 4, sivu 2: Jännevirta 1; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5887407444&amp;aineistoId=1188973314 / Viitattu 10.6.2024</text>
+    </note>
+    <note handle="_fa01f24386953dfcd9f34dd7a73" change="1718039165" id="N0500" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5887407444&amp;aineistoId=1188973314</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5887407444&amp;aineistoId=1188973314">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_fa01f4599a61d5c99ee479fc3e2" change="1718039383" id="N0501" type="Citation">
+      <text>Kuopion maaseurakunnan arkisto - I Aa:25 Rippikirja II 1832-1843, jakso 356, sivu 330: Kurkharju för detta Toivala 2 f.d. 5 Alatalo Savonkaare; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5887407381&amp;aineistoId=1188973314 / Viitattu 10.6.2024</text>
+    </note>
+    <note handle="_fa01f48111749e1431a634d0c7a" change="1718039400" id="N0502" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5887407381&amp;aineistoId=1188973314</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5887407381&amp;aineistoId=1188973314">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_fa01f6442b51512f4f7c9d44b3b" change="1718039584" id="N0503" type="Citation">
+      <text>Kuopion maaseurakunnan arkisto - I Aa:26 Rippikirja III 1832-1843, jakso 431, sivu 407: Ristavesi No 27 f.d.10 ; Mattila, Kerimäki; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5887349788&amp;aineistoId=1188988508 / Viitattu 10.6.2024</text>
+    </note>
+    <note handle="_fa01f66281717301d7bc7a4f348" change="1718039597" id="N0504" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5887349788&amp;aineistoId=1188988508</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5887349788&amp;aineistoId=1188988508">
+        <range start="0" end="79"/>
+      </style>
     </note>
   </notes>
   <namemaps>
