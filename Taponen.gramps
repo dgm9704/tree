@@ -1464,6 +1464,37 @@
       <place hlink="_fa01f6105c274163bde9d0a67e"/>
       <citationref hlink="_fa01f68a87156a49386a170b659"/>
     </event>
+    <event handle="_fa024152d5059b83b57071081ce" change="1718047455" id="E0163">
+      <type>Birth</type>
+      <dateval val="1816-11-10"/>
+      <citationref hlink="_fa01f68a87156a49386a170b659"/>
+    </event>
+    <event handle="_fa0243642f1632f43be94877ade" change="1718047671" id="E0164">
+      <type>Residence</type>
+      <dateval val="1839-01-18" type="before"/>
+      <place hlink="_fa01f6105c274163bde9d0a67e"/>
+      <citationref hlink="_fa01f68a87156a49386a170b659"/>
+      <citationref hlink="_fa02434ce3d3cac58b696cff24b"/>
+    </event>
+    <event handle="_fa0243cee697ff85c70fe08486f" change="1718047715" id="E0180">
+      <type>Birth</type>
+      <dateval val="1838-02-02"/>
+      <place hlink="_f9fe95736d02655e535663068e0"/>
+      <citationref hlink="_fa02434ce3d3cac58b696cff24b"/>
+    </event>
+    <event handle="_fa02458e76e7062129d885c7679" change="1718047899" id="E0212">
+      <type>Residence</type>
+      <dateval val="1839-01-18" type="after"/>
+      <place hlink="_fa0244976056ee8404b12914047"/>
+      <citationref hlink="_fa01f68a87156a49386a170b659"/>
+      <citationref hlink="_fa0245772f711771c9d6b8c8c4a"/>
+    </event>
+    <event handle="_fa0247cdc7f790769f9e0c287ce" change="1718048134" id="E0213">
+      <type>Marriage</type>
+      <dateval val="1837-06-25"/>
+      <place hlink="_f9fe95736d02655e535663068e0"/>
+      <citationref hlink="_fa0247c4c3e19f476ac5377a61c"/>
+    </event>
   </events>
   <people home="_cca1691b7c53559cc53">
     <person handle="_cb937baae6821b777ad" change="1501410532" id="I0000">
@@ -2161,7 +2192,7 @@
       <eventref hlink="_f9fecef8b7a125d515101f5a142" role="Primary"/>
       <childof hlink="_da86c47b1e979be0f3cb1ec665e"/>
     </person>
-    <person handle="_da86c8c80304370ee8788d8e4b9" change="1718039618" id="I0041">
+    <person handle="_da86c8c80304370ee8788d8e4b9" change="1718047727" id="I0041">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Mats</first>
@@ -2174,6 +2205,7 @@
       <eventref hlink="_fa01f4920d6569d0c8c4d3faa3a" role="Primary"/>
       <eventref hlink="_fa01f68f76c6ed40e215cde89f6" role="Primary"/>
       <childof hlink="_da86c47b1e979be0f3cb1ec665e"/>
+      <parentin hlink="_fa0240620592117da17ed8b3b10"/>
     </person>
     <person handle="_da92b138ada5070533d7a796c26" change="1502023091" id="I0064">
       <gender>M</gender>
@@ -2279,6 +2311,24 @@
       </name>
       <eventref hlink="_f9eea7de7075634eac609a6bff4" role="Primary"/>
       <parentin hlink="_f9eea5846b251bcc3c3bda5b6c1"/>
+    </person>
+    <person handle="_fa024087ea22a1da7a1c02596ce" change="1718047727" id="I0047">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Juliana</first>
+        <surname>Rissanen</surname>
+      </name>
+      <eventref hlink="_fa024152d5059b83b57071081ce" role="Primary"/>
+      <parentin hlink="_fa0240620592117da17ed8b3b10"/>
+    </person>
+    <person handle="_fa02437933b5db86ac0d8c660c6" change="1718048148" id="I0048">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Johan Henric</first>
+        <surname derivation="Inherited">Rongain</surname>
+      </name>
+      <eventref hlink="_fa0243cee697ff85c70fe08486f" role="Primary"/>
+      <childof hlink="_fa0240620592117da17ed8b3b10"/>
     </person>
   </people>
   <families>
@@ -2510,6 +2560,15 @@
       <mother hlink="_f9eea7649e711cfa27fab06c378"/>
       <eventref hlink="_f9eeaa4c04d17d78c9cc89e96de" role="Family"/>
       <childref hlink="_cfa36550a1144d88836"/>
+    </family>
+    <family handle="_fa0240620592117da17ed8b3b10" change="1718048148" id="F0012">
+      <rel type="Married"/>
+      <father hlink="_da86c8c80304370ee8788d8e4b9"/>
+      <mother hlink="_fa024087ea22a1da7a1c02596ce"/>
+      <eventref hlink="_fa0247cdc7f790769f9e0c287ce" role="Family"/>
+      <eventref hlink="_fa0243642f1632f43be94877ade" role="Family"/>
+      <eventref hlink="_fa02458e76e7062129d885c7679" role="Family"/>
+      <childref hlink="_fa02437933b5db86ac0d8c660c6"/>
     </family>
   </families>
   <citations>
@@ -4311,6 +4370,27 @@
       <noteref hlink="_fa01f66281717301d7bc7a4f348"/>
       <sourceref hlink="_fa01ec903c056aea4e0482ba59f"/>
     </citation>
+    <citation handle="_fa02434ce3d3cac58b696cff24b" change="1718047662" id="C0249">
+      <page>Ab:18/320-321</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa024326c11617b12613a84d423"/>
+      <noteref hlink="_fa024347d8a7469be004ff7d63b"/>
+      <sourceref hlink="_fa01ea9ce0f6159e89911f74401"/>
+    </citation>
+    <citation handle="_fa0245772f711771c9d6b8c8c4a" change="1718047889" id="C0250">
+      <page>Ba:3/8</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa02454bbbf6f20f4a43ec5287a"/>
+      <noteref hlink="_fa02456fcc56a08e07a33071b29"/>
+      <sourceref hlink="_fa024517b634b45003173428f3a"/>
+    </citation>
+    <citation handle="_fa0247c4c3e19f476ac5377a61c" change="1718048130" id="C0251">
+      <page>Eb:7/8</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa0247957d81e0a90b42139eb6f"/>
+      <noteref hlink="_fa0247c244068a03cc2d109630e"/>
+      <sourceref hlink="_fa024763db35f09a910b63f8636"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdd044203935b79cba4" change="1429553707" id="S0000">
@@ -4734,6 +4814,16 @@
       <sauthor>Kuopion maaseurakunta</sauthor>
       <reporef hlink="_d010e648af6539f6d97" medium="Book"/>
     </source>
+    <source handle="_fa024517b634b45003173428f3a" change="1718047850" id="S0084">
+      <stitle>Tuusniemi Muuttaneet 1834-1888</stitle>
+      <sauthor>Tuusniemen seurakunta</sauthor>
+      <reporef hlink="_d010e648af6539f6d97" medium="Book"/>
+    </source>
+    <source handle="_fa024763db35f09a910b63f8636" change="1718048091" id="S0085">
+      <stitle>Kuopion msrk Vihityt 1835-1871</stitle>
+      <sauthor>Kuopion maaseurakunta</sauthor>
+      <reporef hlink="_d010e648af6539f6d97" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cca1691056519fef9d5" change="1657487885" id="P0001" type="Town">
@@ -5074,6 +5164,10 @@
     <placeobj handle="_fa01f6105c274163bde9d0a67e" change="1718039563" id="P0076" type="Farm">
       <pname value="Mattila"/>
       <placeref hlink="_fa01f60c5b8320a525f489810c7"/>
+    </placeobj>
+    <placeobj handle="_fa0244976056ee8404b12914047" change="1718047797" id="P0077" type="Parish">
+      <pname value="Tuusniemi"/>
+      <placeref hlink="_cdbd00250510bf9a5de"/>
     </placeobj>
   </places>
   <repositories>
@@ -8606,6 +8700,33 @@ Kuolinvuosi     1952</text>
     <note handle="_fa01f66281717301d7bc7a4f348" change="1718039597" id="N0504" type="Url">
       <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5887349788&amp;aineistoId=1188988508</text>
       <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5887349788&amp;aineistoId=1188988508">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_fa024326c11617b12613a84d423" change="1718047646" id="N0505" type="Citation">
+      <text>Kuopion maaseurakunnan arkisto - I Ab:18 Lastenkirja III 1832-1843, jakso 167, sivu 320: Ristavesi 27 Mattila Kerimäki; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5887661214&amp;aineistoId=1189817568 / Viitattu 10.6.2024</text>
+    </note>
+    <note handle="_fa024347d8a7469be004ff7d63b" change="1718047660" id="N0506" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5887661214&amp;aineistoId=1189817568</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5887661214&amp;aineistoId=1189817568">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_fa02454bbbf6f20f4a43ec5287a" change="1718047871" id="N0507" type="Citation">
+      <text>Tuusniemen seurakunnan arkisto - I Ba:3 Seurakuntaan muuttaneiden luettelot 1834-1888, jakso 8: 1839; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5923710393&amp;aineistoId=1194514201 / Viitattu 10.6.2024</text>
+    </note>
+    <note handle="_fa02456fcc56a08e07a33071b29" change="1718047886" id="N0508" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5923710393&amp;aineistoId=1194514201</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5923710393&amp;aineistoId=1194514201">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_fa0247957d81e0a90b42139eb6f" change="1718048111" id="N0509" type="Citation">
+      <text>Kuopion maaseurakunnan arkisto - I Eb:7 Vihittyjen luettelot 1835-1871, jakso 8: 1837; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5887485865&amp;aineistoId=1190694013 / Viitattu 10.6.2024</text>
+    </note>
+    <note handle="_fa0247c244068a03cc2d109630e" change="1718048129" id="N0510" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5887485865&amp;aineistoId=1190694013</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5887485865&amp;aineistoId=1190694013">
         <range start="0" end="79"/>
       </style>
     </note>
