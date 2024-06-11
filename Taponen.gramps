@@ -1539,11 +1539,32 @@
       <place hlink="_fa01ea262ac1646ab6c98af3c5b"/>
       <citationref hlink="_fa01ef2111973679888343cea1d"/>
     </event>
-    <event handle="_fa052976a581a020ad4db6d89e4" change="1718126242" id="E0229">
+    <event handle="_fa052976a581a020ad4db6d89e4" change="1718129337" id="E0229">
       <type>Residence</type>
-      <datespan start="1835" stop="1837"/>
+      <datespan start="1833" stop="1837"/>
       <place hlink="_fa01ea262ac1646ab6c98af3c5b"/>
+      <citationref hlink="_fa01eb017a770af2fff062795ef"/>
+      <citationref hlink="_fa0530ab34e12ed4cdf98215556"/>
       <citationref hlink="_fa05296ac9915e5d15384de0e9b"/>
+    </event>
+    <event handle="_fa054dc95d76861ed90eabede95" change="1718129292" id="E0230">
+      <type>Residence</type>
+      <datespan start="1832" stop="1833"/>
+      <place hlink="_fa054d40da6c52a4c0579537ab"/>
+      <citationref hlink="_fa054dc5f2711d12617122970cd"/>
+    </event>
+    <event handle="_fa0568a6719632b5e6dc263b441" change="1718132519" id="E0231">
+      <type>Birth</type>
+      <dateval val="1835-09-10"/>
+      <place hlink="_fa01ea262ac1646ab6c98af3c5b"/>
+      <citationref hlink="_fa0568a00e970284216e86108be"/>
+      <citationref hlink="_fa0530ab34e12ed4cdf98215556"/>
+    </event>
+    <event handle="_fa056c7985f2fd3a2bca4ad79b6" change="1718132700" id="E0232">
+      <type>Death</type>
+      <dateval val="1836-05-07"/>
+      <place hlink="_fa01ea262ac1646ab6c98af3c5b"/>
+      <citationref hlink="_fa056e3d11f6f75d5d3119334b3"/>
       <citationref hlink="_fa0530ab34e12ed4cdf98215556"/>
     </event>
   </events>
@@ -2363,16 +2384,18 @@
       <eventref hlink="_f9eea7de7075634eac609a6bff4" role="Primary"/>
       <parentin hlink="_f9eea5846b251bcc3c3bda5b6c1"/>
     </person>
-    <person handle="_fa024087ea22a1da7a1c02596ce" change="1718126244" id="I0047">
+    <person handle="_fa024087ea22a1da7a1c02596ce" change="1718132118" id="I0047">
       <gender>F</gender>
       <name type="Birth Name">
-        <first>Juliana</first>
-        <surname>Rissanen</surname>
+        <first>Anna Juliana</first>
+        <surname>Rissain</surname>
       </name>
       <eventref hlink="_fa024152d5059b83b57071081ce" role="Primary"/>
+      <eventref hlink="_fa054dc95d76861ed90eabede95" role="Primary"/>
       <eventref hlink="_fa052976a581a020ad4db6d89e4" role="Primary"/>
       <eventref hlink="_fa0525de6e236cba880f1eb451a" role="Primary"/>
       <parentin hlink="_fa0240620592117da17ed8b3b10"/>
+      <parentin hlink="_fa0567cf01dd170a426d502d91"/>
     </person>
     <person handle="_fa02437933b5db86ac0d8c660c6" change="1718123535" id="I0048">
       <gender>M</gender>
@@ -2409,6 +2432,16 @@
       </name>
       <eventref hlink="_fa0516bc97534cd8123827734e0" role="Primary"/>
       <childof hlink="_fa0240620592117da17ed8b3b10"/>
+    </person>
+    <person handle="_fa0567f10ba344c16f9e03e5e57" change="1718132704" id="I0060">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Anna Sofia</first>
+        <surname>Rissain</surname>
+      </name>
+      <eventref hlink="_fa0568a6719632b5e6dc263b441" role="Primary"/>
+      <eventref hlink="_fa056c7985f2fd3a2bca4ad79b6" role="Primary"/>
+      <childof hlink="_fa0567cf01dd170a426d502d91"/>
     </person>
   </people>
   <families>
@@ -2654,6 +2687,11 @@
       <childref hlink="_fa04ed23fde23d58e3976989eda"/>
       <childref hlink="_fa04f6bc2c0447504a9390ee6ac"/>
       <childref hlink="_fa0514a44024f6479f6f8292ff6"/>
+    </family>
+    <family handle="_fa0567cf01dd170a426d502d91" change="1718132118" id="F0013">
+      <rel type="Unmarried"/>
+      <mother hlink="_fa024087ea22a1da7a1c02596ce"/>
+      <childref hlink="_fa0567f10ba344c16f9e03e5e57"/>
     </family>
   </families>
   <citations>
@@ -4560,6 +4598,27 @@
       <noteref hlink="_fa0530a478844d2ea442b66d849"/>
       <sourceref hlink="_fa01ea9ce0f6159e89911f74401"/>
     </citation>
+    <citation handle="_fa054dc5f2711d12617122970cd" change="1718129291" id="C0264">
+      <page>Ab:17/372-373</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa054d9e1c0c6d25793b826a82"/>
+      <noteref hlink="_fa054dc037b6dba77c01962fe28"/>
+      <sourceref hlink="_fa01ea9ce0f6159e89911f74401"/>
+    </citation>
+    <citation handle="_fa0568a00e970284216e86108be" change="1718132106" id="C0265">
+      <page>Ca:9/43</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa05687291c64b23049f43c848b"/>
+      <noteref hlink="_fa05689106029a9df8ae5f4f890"/>
+      <sourceref hlink="_fa02491f3e072726887d762d1ea"/>
+    </citation>
+    <citation handle="_fa056e3d11f6f75d5d3119334b3" change="1718132695" id="C0266">
+      <page>Fa:6/500-501</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa056e14e6679d0d150ae2569d7"/>
+      <noteref hlink="_fa056e3922b3ccc20f464f49046"/>
+      <sourceref hlink="_fa056df2eeb1d7688386e053867"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdd044203935b79cba4" change="1429553707" id="S0000">
@@ -5023,6 +5082,11 @@
       <sauthor>Tuusniemen seurakunta</sauthor>
       <reporef hlink="_d010e648af6539f6d97" medium="Book"/>
     </source>
+    <source handle="_fa056df2eeb1d7688386e053867" change="1718132665" id="S0092">
+      <stitle>Kuopion msrk Kuolleet 1803-1838</stitle>
+      <sauthor>Kuopion maaseurakunta</sauthor>
+      <reporef hlink="_d010e648af6539f6d97" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cca1691056519fef9d5" change="1657487885" id="P0001" type="Town">
@@ -5383,6 +5447,10 @@
     <placeobj handle="_fa04eaacd36619afafcb7718fbc" change="1718118900" id="P0081" type="Farm">
       <pname value="Kivisalo"/>
       <placeref hlink="_fa04eaa9dd85af1e17d0f9f8fe5"/>
+    </placeobj>
+    <placeobj handle="_fa054d40da6c52a4c0579537ab" change="1718129236" id="P0082" type="Farm">
+      <pname value="Lassila"/>
+      <placeref hlink="_fa01ea2448674627dd7a36c3d67"/>
     </placeobj>
   </places>
   <repositories>
@@ -9050,6 +9118,33 @@ Kuolinvuosi     1952</text>
     <note handle="_fa0530a478844d2ea442b66d849" change="1718126236" id="N0534" type="Url">
       <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5887647204&amp;aineistoId=1189788665</text>
       <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5887647204&amp;aineistoId=1189788665">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_fa054d9e1c0c6d25793b826a82" change="1718129274" id="N0535" type="Citation">
+      <text>Kuopion maaseurakunnan arkisto - I Ab:17 Lastenkirja II 1832-1843, jakso 205, sivu 372-373: Kurkiharju f.d. Toivala; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5887647657&amp;aineistoId=1189788665 / Viitattu 11.6.2024</text>
+    </note>
+    <note handle="_fa054dc037b6dba77c01962fe28" change="1718129288" id="N0536" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5887647657&amp;aineistoId=1189788665</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5887647657&amp;aineistoId=1189788665">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_fa05687291c64b23049f43c848b" change="1718132088" id="N0537" type="Citation">
+      <text>Kuopion maaseurakunnan arkisto - I Ca:9 Syntyneiden ja kastettujen luettelot 1833-1844, jakso 43: 1835 syyskuu; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5887324599&amp;aineistoId=1190414835 / Viitattu 11.6.2024</text>
+    </note>
+    <note handle="_fa05689106029a9df8ae5f4f890" change="1718132100" id="N0538" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5887324599&amp;aineistoId=1190414835</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5887324599&amp;aineistoId=1190414835">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_fa056e14e6679d0d150ae2569d7" change="1718132679" id="N0539" type="Citation">
+      <text>Kuopion maaseurakunnan arkisto - I Fa:6 Kuolleiden ja haudattujen luettelot 1803-1838, jakso 255, sivu 500-501: 1836; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5887666123&amp;aineistoId=1190744108 / Viitattu 11.6.2024</text>
+    </note>
+    <note handle="_fa056e3922b3ccc20f464f49046" change="1718132693" id="N0540" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5887666123&amp;aineistoId=1190744108</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5887666123&amp;aineistoId=1190744108">
         <range start="0" end="79"/>
       </style>
     </note>
