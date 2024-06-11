@@ -1498,11 +1498,12 @@
       <place hlink="_f9fe95736d02655e535663068e0"/>
       <citationref hlink="_fa0247c4c3e19f476ac5377a61c"/>
     </event>
-    <event handle="_fa04eb156a12c7f2fb4247c6757" change="1718118942" id="E0223">
+    <event handle="_fa04eb156a12c7f2fb4247c6757" change="1718120158" id="E0223">
       <type>Residence</type>
       <datespan start="1842" stop="1843"/>
       <place hlink="_fa04eaacd36619afafcb7718fbc"/>
       <citationref hlink="_fa04eb1347d9b81427dccadc58"/>
+      <citationref hlink="_fa04f693ae832e46979c37c31a7"/>
     </event>
     <event handle="_fa04eeab7c8235f86447142f17b" change="1718119318" id="E0224">
       <type>Birth</type>
@@ -1510,6 +1511,40 @@
       <place hlink="_fa04e98973f323b726c32c9fc0f"/>
       <citationref hlink="_fa04ecc39d3cc25c2c4a6c4b7e"/>
       <citationref hlink="_fa04eea140d2bdd3f311affb585"/>
+    </event>
+    <event handle="_fa04f7cd37438c078915251aa6d" change="1718120276" id="E0225">
+      <type>Birth</type>
+      <dateval val="1842-12-02"/>
+      <place hlink="_fa04eaacd36619afafcb7718fbc"/>
+      <citationref hlink="_fa04f693ae832e46979c37c31a7"/>
+      <citationref hlink="_fa04f7c531c4bab9586c4d27972"/>
+    </event>
+    <event handle="_fa051496fc073f69f775cf0358c" change="1718123295" id="E0226">
+      <type>Residence</type>
+      <datespan start="1844" stop="1846-03-16"/>
+      <place hlink="_fa04eaacd36619afafcb7718fbc"/>
+      <citationref hlink="_fa05130591879b12a102f4e3c21"/>
+      <citationref hlink="_fa05148497578624138bcd28df3"/>
+    </event>
+    <event handle="_fa0516bc97534cd8123827734e0" change="1718123520" id="E0227">
+      <type>Birth</type>
+      <dateval val="1845-02-23"/>
+      <place hlink="_fa04eaacd36619afafcb7718fbc"/>
+      <citationref hlink="_fa05148497578624138bcd28df3"/>
+      <citationref hlink="_fa0516b60bb7cbb6cb32b0eaf2e"/>
+    </event>
+    <event handle="_fa0525de6e236cba880f1eb451a" change="1718125106" id="E0228">
+      <type>Residence</type>
+      <datespan start="1837" stop="1838"/>
+      <place hlink="_fa01ea262ac1646ab6c98af3c5b"/>
+      <citationref hlink="_fa01ef2111973679888343cea1d"/>
+    </event>
+    <event handle="_fa052976a581a020ad4db6d89e4" change="1718126242" id="E0229">
+      <type>Residence</type>
+      <datespan start="1835" stop="1837"/>
+      <place hlink="_fa01ea262ac1646ab6c98af3c5b"/>
+      <citationref hlink="_fa05296ac9915e5d15384de0e9b"/>
+      <citationref hlink="_fa0530ab34e12ed4cdf98215556"/>
     </event>
   </events>
   <people home="_cca1691b7c53559cc53">
@@ -2208,10 +2243,10 @@
       <eventref hlink="_f9fecef8b7a125d515101f5a142" role="Primary"/>
       <childof hlink="_da86c47b1e979be0f3cb1ec665e"/>
     </person>
-    <person handle="_da86c8c80304370ee8788d8e4b9" change="1718047727" id="I0041">
+    <person handle="_da86c8c80304370ee8788d8e4b9" change="1718120036" id="I0041">
       <gender>M</gender>
       <name type="Birth Name">
-        <first>Mats</first>
+        <first>Matts</first>
         <surname derivation="Inherited">Rongain</surname>
       </name>
       <eventref hlink="_da86c9dda05340bfb958c0ded95" role="Primary"/>
@@ -2328,16 +2363,18 @@
       <eventref hlink="_f9eea7de7075634eac609a6bff4" role="Primary"/>
       <parentin hlink="_f9eea5846b251bcc3c3bda5b6c1"/>
     </person>
-    <person handle="_fa024087ea22a1da7a1c02596ce" change="1718047727" id="I0047">
+    <person handle="_fa024087ea22a1da7a1c02596ce" change="1718126244" id="I0047">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Juliana</first>
         <surname>Rissanen</surname>
       </name>
       <eventref hlink="_fa024152d5059b83b57071081ce" role="Primary"/>
+      <eventref hlink="_fa052976a581a020ad4db6d89e4" role="Primary"/>
+      <eventref hlink="_fa0525de6e236cba880f1eb451a" role="Primary"/>
       <parentin hlink="_fa0240620592117da17ed8b3b10"/>
     </person>
-    <person handle="_fa02437933b5db86ac0d8c660c6" change="1718119323" id="I0048">
+    <person handle="_fa02437933b5db86ac0d8c660c6" change="1718123535" id="I0048">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Johan Henric</first>
@@ -2346,13 +2383,31 @@
       <eventref hlink="_fa0243cee697ff85c70fe08486f" role="Primary"/>
       <childof hlink="_fa0240620592117da17ed8b3b10"/>
     </person>
-    <person handle="_fa04ed23fde23d58e3976989eda" change="1718119323" id="I0049">
+    <person handle="_fa04ed23fde23d58e3976989eda" change="1718123535" id="I0049">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Matts</first>
         <surname derivation="Inherited">Rongain</surname>
       </name>
       <eventref hlink="_fa04eeab7c8235f86447142f17b" role="Primary"/>
+      <childof hlink="_fa0240620592117da17ed8b3b10"/>
+    </person>
+    <person handle="_fa04f6bc2c0447504a9390ee6ac" change="1718123535" id="I0050">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>August</first>
+        <surname derivation="Inherited">Rongain</surname>
+      </name>
+      <eventref hlink="_fa04f7cd37438c078915251aa6d" role="Primary"/>
+      <childof hlink="_fa0240620592117da17ed8b3b10"/>
+    </person>
+    <person handle="_fa0514a44024f6479f6f8292ff6" change="1718123535" id="I0051">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Anna Sofia</first>
+        <surname derivation="Inherited">Rongain</surname>
+      </name>
+      <eventref hlink="_fa0516bc97534cd8123827734e0" role="Primary"/>
       <childof hlink="_fa0240620592117da17ed8b3b10"/>
     </person>
   </people>
@@ -2586,7 +2641,7 @@
       <eventref hlink="_f9eeaa4c04d17d78c9cc89e96de" role="Family"/>
       <childref hlink="_cfa36550a1144d88836"/>
     </family>
-    <family handle="_fa0240620592117da17ed8b3b10" change="1718119323" id="F0012">
+    <family handle="_fa0240620592117da17ed8b3b10" change="1718123535" id="F0012">
       <rel type="Married"/>
       <father hlink="_da86c8c80304370ee8788d8e4b9"/>
       <mother hlink="_fa024087ea22a1da7a1c02596ce"/>
@@ -2594,8 +2649,11 @@
       <eventref hlink="_fa0243642f1632f43be94877ade" role="Family"/>
       <eventref hlink="_fa02458e76e7062129d885c7679" role="Family"/>
       <eventref hlink="_fa04eb156a12c7f2fb4247c6757" role="Family"/>
+      <eventref hlink="_fa051496fc073f69f775cf0358c" role="Family"/>
       <childref hlink="_fa02437933b5db86ac0d8c660c6"/>
       <childref hlink="_fa04ed23fde23d58e3976989eda"/>
+      <childref hlink="_fa04f6bc2c0447504a9390ee6ac"/>
+      <childref hlink="_fa0514a44024f6479f6f8292ff6"/>
     </family>
   </families>
   <citations>
@@ -4453,6 +4511,55 @@
       <noteref hlink="_fa04ee9d28924c58f1eaf4265c8"/>
       <sourceref hlink="_fa04ee40ba93dc866aa21c33c8d"/>
     </citation>
+    <citation handle="_fa04f693ae832e46979c37c31a7" change="1718120148" id="C0257">
+      <page>Ab:5/66-67</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa04f66585d6f82ba7ad0f6bd6b"/>
+      <noteref hlink="_fa04f68cfd02925e750b680ed56"/>
+      <sourceref hlink="_fa04ec5e37b30451817eb6b2041"/>
+    </citation>
+    <citation handle="_fa04f7c531c4bab9586c4d27972" change="1718120273" id="C0258">
+      <page>C:3/41</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa04f79de3668eab462ceefe8b9"/>
+      <noteref hlink="_fa04f7bf389b0887f459bcfeea"/>
+      <sourceref hlink="_fa04ee40ba93dc866aa21c33c8d"/>
+    </citation>
+    <citation handle="_fa05130591879b12a102f4e3c21" change="1718123130" id="C0259">
+      <page>Aa:7/437</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa0512ddf8e508bdf5b0e58919"/>
+      <noteref hlink="_fa0512fe9d17044938aab7ccb53"/>
+      <sourceref hlink="_fa0512bbe3d176e7556e072e874"/>
+    </citation>
+    <citation handle="_fa05148497578624138bcd28df3" change="1718123287" id="C0260">
+      <page>Ab:6/448-449</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa051460d6f1be76c8c053a8d27"/>
+      <noteref hlink="_fa051480f1271a0d455c4e32435"/>
+      <sourceref hlink="_fa0514459cc513d820021057b3b"/>
+    </citation>
+    <citation handle="_fa0516b60bb7cbb6cb32b0eaf2e" change="1718123517" id="C0261">
+      <page>C:3/57</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa05168eb5c2d8c270279c19aeb"/>
+      <noteref hlink="_fa0516b0c37495a30574c847685"/>
+      <sourceref hlink="_fa04ee40ba93dc866aa21c33c8d"/>
+    </citation>
+    <citation handle="_fa05296ac9915e5d15384de0e9b" change="1718125479" id="C0262">
+      <page>Aa:25/437</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa0529456b86775480b586244d"/>
+      <noteref hlink="_fa05296755c1738666881672723"/>
+      <sourceref hlink="_fa01ec903c056aea4e0482ba59f"/>
+    </citation>
+    <citation handle="_fa0530ab34e12ed4cdf98215556" change="1718126239" id="C0263">
+      <page>Ab:17/422-423</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa0530843d55a8d584d83c77ae9"/>
+      <noteref hlink="_fa0530a478844d2ea442b66d849"/>
+      <sourceref hlink="_fa01ea9ce0f6159e89911f74401"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdd044203935b79cba4" change="1429553707" id="S0000">
@@ -4903,6 +5010,16 @@
     </source>
     <source handle="_fa04ee40ba93dc866aa21c33c8d" change="1718119275" id="S0089">
       <stitle>Tuusniemi Syntyneet 1837-1858</stitle>
+      <sauthor>Tuusniemen seurakunta</sauthor>
+      <reporef hlink="_d010e648af6539f6d97" medium="Book"/>
+    </source>
+    <source handle="_fa0512bbe3d176e7556e072e874" change="1718123100" id="S0090">
+      <stitle>Tuusniemi Rippikirja 1844-1853</stitle>
+      <sauthor>Tuusniemen seurakunta</sauthor>
+      <reporef hlink="_d010e648af6539f6d97" medium="Book"/>
+    </source>
+    <source handle="_fa0514459cc513d820021057b3b" change="1718123261" id="S0091">
+      <stitle>Tuusniemi Lastenkirja 1844-1853</stitle>
       <sauthor>Tuusniemen seurakunta</sauthor>
       <reporef hlink="_d010e648af6539f6d97" medium="Book"/>
     </source>
@@ -8870,6 +8987,69 @@ Kuolinvuosi     1952</text>
     <note handle="_fa04ee9d28924c58f1eaf4265c8" change="1718119313" id="N0520" type="Url">
       <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5923740084&amp;aineistoId=1194557432</text>
       <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5923740084&amp;aineistoId=1194557432">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_fa04f66585d6f82ba7ad0f6bd6b" change="1718120129" id="N0521" type="Citation">
+      <text>Tuusniemen seurakunnan arkisto - I Ab:5 Lastenkirjat, Ohtaanniemi-Viitamäki 1837-1844, jakso 35, sivu 66-67: Ohtainniemi 9; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5923728520&amp;aineistoId=1194397890 / Viitattu 11.6.2024</text>
+    </note>
+    <note handle="_fa04f68cfd02925e750b680ed56" change="1718120145" id="N0522" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5923728520&amp;aineistoId=1194397890</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5923728520&amp;aineistoId=1194397890">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_fa04f79de3668eab462ceefe8b9" change="1718120257" id="N0523" type="Citation">
+      <text>Tuusniemen seurakunnan arkisto - I C:3 Syntyneiden ja kastettujen luettelot 1837-1858, jakso 41: 1842 December; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5923740354&amp;aineistoId=1194557432 / Viitattu 11.6.2024</text>
+    </note>
+    <note handle="_fa04f7bf389b0887f459bcfeea" change="1718120270" id="N0524" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5923740354&amp;aineistoId=1194557432</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5923740354&amp;aineistoId=1194557432">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_fa0512ddf8e508bdf5b0e58919" change="1718123114" id="N0525" type="Citation">
+      <text>Tuusniemen seurakunnan arkisto - I Aa:7 Pää- ja rippikirjat, Enonsalo-Ohtaanniemi 1844-1853, jakso 483, sivu 437: Ohtanniemi 9 Kivisalo; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5923749262&amp;aineistoId=1194156171 / Viitattu 11.6.2024</text>
+    </note>
+    <note handle="_fa0512fe9d17044938aab7ccb53" change="1718123127" id="N0526" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5923749262&amp;aineistoId=1194156171</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5923749262&amp;aineistoId=1194156171">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_fa051460d6f1be76c8c053a8d27" change="1718123272" id="N0527" type="Citation">
+      <text>Tuusniemen seurakunnan arkisto - I Ab:6 Lastenkirjat 1844-1853, jakso 233, sivu 448-449: Ohtaanniemi 9; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5923722806&amp;aineistoId=1194418174 / Viitattu 11.6.2024</text>
+    </note>
+    <note handle="_fa051480f1271a0d455c4e32435" change="1718123286" id="N0528" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5923722806&amp;aineistoId=1194418174</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5923722806&amp;aineistoId=1194418174">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_fa05168eb5c2d8c270279c19aeb" change="1718123501" id="N0529" type="Citation">
+      <text>Tuusniemen seurakunnan arkisto - I C:3 Syntyneiden ja kastettujen luettelot 1837-1858, jakso 57: 1845 Januarii; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5923739562&amp;aineistoId=1194557432 / Viitattu 11.6.2024</text>
+    </note>
+    <note handle="_fa0516b0c37495a30574c847685" change="1718123515" id="N0530" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5923739562&amp;aineistoId=1194557432</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5923739562&amp;aineistoId=1194557432">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_fa0529456b86775480b586244d" change="1718125463" id="N0531" type="Citation">
+      <text>Kuopion maaseurakunnan arkisto - I Aa:25 Rippikirja II 1832-1843, jakso 374, sivu 347: Kurkharju för detta Toivala 4. f.d. 5 Rihilax Hevosaho; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5887406835&amp;aineistoId=1188973314 / Viitattu 11.6.2024</text>
+    </note>
+    <note handle="_fa05296755c1738666881672723" change="1718125477" id="N0532" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5887406835&amp;aineistoId=1188973314</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5887406835&amp;aineistoId=1188973314">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_fa0530843d55a8d584d83c77ae9" change="1718126223" id="N0533" type="Citation">
+      <text>Kuopion maaseurakunnan arkisto - I Ab:17 Lastenkirja II 1832-1843, jakso 231, sivu 422-423: Kurkharju 4 f.d. 5 Rihilax Hevosaho; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5887647204&amp;aineistoId=1189788665 / Viitattu 11.6.2024</text>
+    </note>
+    <note handle="_fa0530a478844d2ea442b66d849" change="1718126236" id="N0534" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5887647204&amp;aineistoId=1189788665</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5887647204&amp;aineistoId=1189788665">
         <range start="0" end="79"/>
       </style>
     </note>
