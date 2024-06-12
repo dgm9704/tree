@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2024-06-11" version="5.2.2"/>
+    <created date="2024-06-12" version="5.2.2"/>
     <researcher>
     </researcher>
     <mediapath>/home/john/3Taponen_2014-10-29.gpkg.media</mediapath>
@@ -1567,6 +1567,42 @@
       <citationref hlink="_fa056e3d11f6f75d5d3119334b3"/>
       <citationref hlink="_fa0530ab34e12ed4cdf98215556"/>
     </event>
+    <event handle="_fa08552e8fa4807b0d202bcdd0d" change="1718210598" id="E0233">
+      <type>Baptism</type>
+      <dateval val="1839-06-25"/>
+      <place hlink="_cdd421a7ab374044701"/>
+      <citationref hlink="_f9dbe0c00f724aaf8e5c79a9f4f"/>
+    </event>
+    <event handle="_fa085612e2f2ec55ebe131d6b36" change="1718210692" id="E0234">
+      <type>Residence</type>
+      <datespan start="1865" stop="1866"/>
+      <place hlink="_d0206898051735e1c73"/>
+      <citationref hlink="_f9e85c0376c1848325f4434d6f8"/>
+    </event>
+    <event handle="_fa0859fcaec3bc41f9a3d741842" change="1718212266" id="E0235">
+      <type>Residence</type>
+      <datespan start="1866" stop="1867"/>
+      <place hlink="_fa08598789c4144b751e02f9f2c"/>
+      <citationref hlink="_fa0859f8c024b363649e56fe66d"/>
+    </event>
+    <event handle="_fa085cb7d4d1df747804268affc" change="1718211388" id="E0236">
+      <type>Residence</type>
+      <datespan start="1868" stop="1869"/>
+      <place hlink="_fa085c351d3636cd71182ab51fd"/>
+      <citationref hlink="_fa085cb28627c8007066c0fdc55"/>
+    </event>
+    <event handle="_fa0865d5aa440dca7c692805018" change="1718212351" id="E0237">
+      <type>Residence</type>
+      <datespan start="1867" stop="1868"/>
+      <place hlink="_fa0860f4979750648f915905161"/>
+      <citationref hlink="_fa0865d0c9b55cf7b74a389cadf"/>
+    </event>
+    <event handle="_fa0866c035475787e282c7259ef" change="1718212440" id="E0238">
+      <type>Residence</type>
+      <dateval val="1869" type="after"/>
+      <place hlink="_fa0860f4979750648f915905161"/>
+      <citationref hlink="_fa0865d0c9b55cf7b74a389cadf"/>
+    </event>
   </events>
   <people home="_cca1691b7c53559cc53">
     <person handle="_cb937baae6821b777ad" change="1501410532" id="I0000">
@@ -1894,14 +1930,20 @@
       <eventref hlink="_d01e17e2b292837acb5" role="Primary"/>
       <childof hlink="_cb937f1873715ed35b9"/>
     </person>
-    <person handle="_cca2060fc18189e5c3b" change="1501602304" id="I0038">
+    <person handle="_cca2060fc18189e5c3b" change="1718212444" id="I0038">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Michel</first>
         <surname>Taponen</surname>
       </name>
       <eventref hlink="_cca206084a65f7b3ac9" role="Primary"/>
+      <eventref hlink="_fa08552e8fa4807b0d202bcdd0d" role="Primary"/>
       <eventref hlink="_d01e126ac5a6d206c27" role="Primary"/>
+      <eventref hlink="_fa085612e2f2ec55ebe131d6b36" role="Primary"/>
+      <eventref hlink="_fa0859fcaec3bc41f9a3d741842" role="Primary"/>
+      <eventref hlink="_fa0865d5aa440dca7c692805018" role="Primary"/>
+      <eventref hlink="_fa085cb7d4d1df747804268affc" role="Primary"/>
+      <eventref hlink="_fa0866c035475787e282c7259ef" role="Primary"/>
       <childof hlink="_cb937f1873715ed35b9"/>
     </person>
     <person handle="_cdcdf8febe012a2ce26" change="1414614231" id="I0072">
@@ -3211,11 +3253,12 @@
       <noteref hlink="_d01e0f538bd37451b59"/>
       <sourceref hlink="_cdd42af6d0405b76bb7"/>
     </citation>
-    <citation handle="_d01e126818e481d7d9e" change="1430172352" id="C0076">
-      <page>265</page>
+    <citation handle="_d01e126818e481d7d9e" change="1718205084" id="C0076">
+      <page>Ab:4/264-265</page>
       <confidence>2</confidence>
       <noteref hlink="_d01e11786691d263f42"/>
       <noteref hlink="_d01e12638c102a8f793"/>
+      <noteref hlink="_fa08203df555a32f3a50c4a6888"/>
       <sourceref hlink="_cdd42af6d0405b76bb7"/>
     </citation>
     <citation handle="_d01e15f81820767928a" change="1717011850" id="C0077">
@@ -4619,6 +4662,27 @@
       <noteref hlink="_fa056e3922b3ccc20f464f49046"/>
       <sourceref hlink="_fa056df2eeb1d7688386e053867"/>
     </citation>
+    <citation handle="_fa0859f8c024b363649e56fe66d" change="1718211100" id="C0267">
+      <page>Aa:9/115</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa0859ce9901b8f95bdd347cc61"/>
+      <noteref hlink="_fa0859f4124775bdd9a45328436"/>
+      <sourceref hlink="_d0191c289c501eabcf6"/>
+    </citation>
+    <citation handle="_fa085cb28627c8007066c0fdc55" change="1718211386" id="C0268">
+      <page>Aa:9/131</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa085c8a0c560e24279f1e85d1f"/>
+      <noteref hlink="_fa085cae2a5c79874801b18720"/>
+      <sourceref hlink="_d0191c289c501eabcf6"/>
+    </citation>
+    <citation handle="_fa0865d0c9b55cf7b74a389cadf" change="1718212342" id="C0269">
+      <page>Aa:9/120</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa0865a77943e8a96a82bbfd9d4"/>
+      <noteref hlink="_fa0865cdb079311cce04800991"/>
+      <sourceref hlink="_d0191c289c501eabcf6"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdd044203935b79cba4" change="1429553707" id="S0000">
@@ -5451,6 +5515,22 @@
     <placeobj handle="_fa054d40da6c52a4c0579537ab" change="1718129236" id="P0082" type="Farm">
       <pname value="Lassila"/>
       <placeref hlink="_fa01ea2448674627dd7a36c3d67"/>
+    </placeobj>
+    <placeobj handle="_fa08598789c4144b751e02f9f2c" change="1718211054" id="P0083" type="Farm">
+      <pname value="3"/>
+      <placeref hlink="_d01e13947926d2a234e"/>
+    </placeobj>
+    <placeobj handle="_fa085c33256658958e46b677e52" change="1718211334" id="P0084" type="Village">
+      <pname value="Oravilax"/>
+      <placeref hlink="_cdd421a7ab374044701"/>
+    </placeobj>
+    <placeobj handle="_fa085c351d3636cd71182ab51fd" change="1718211335" id="P0085" type="Farm">
+      <pname value="1"/>
+      <placeref hlink="_fa085c33256658958e46b677e52"/>
+    </placeobj>
+    <placeobj handle="_fa0860f4979750648f915905161" change="1718211833" id="P0086" type="Farm">
+      <pname value="4"/>
+      <placeref hlink="_d01e13947926d2a234e"/>
     </placeobj>
   </places>
   <repositories>
@@ -6351,15 +6431,15 @@ do	Michell	21/9 1839				{ njuter understöd af höga
         <range start="0" end="75"/>
       </style>
     </note>
-    <note handle="_d01e0f538bd37451b59" change="1717017331" id="N0119" type="Transcript" format="1">
+    <note handle="_d01e0f538bd37451b59" change="1718206548" id="N0119" type="Transcript" format="1">
       <text>???? Maria Rehuins barn med Jöran Tapain
-dog 1841		Michel	21/6 1836				44 f.p. 275 47 abs. ???
+dog 1841		Michel	21/6 1839				44 f.p. 275 47 abs. ???
 												1852 t.p. 265</text>
     </note>
-    <note handle="_d01e11786691d263f42" change="1717017331" id="N0120" type="Url">
-      <text>https://astia.narc.fi/astiaUi/digiview.php?imageId=6567937&amp;aytun=1886163.KA</text>
-      <style name="link" value="https://astia.narc.fi/astiaUi/digiview.php?imageId=6567937&amp;aytun=1886163.KA">
-        <range start="0" end="75"/>
+    <note handle="_d01e11786691d263f42" change="1718205066" id="N0120" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5821065730&amp;aineistoId=1193327507</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5821065730&amp;aineistoId=1193327507">
+        <range start="0" end="79"/>
       </style>
     </note>
     <note handle="_d01e12638c102a8f793" change="1717017331" id="N0121" type="Transcript" format="1">
@@ -9145,6 +9225,36 @@ Kuolinvuosi     1952</text>
     <note handle="_fa056e3922b3ccc20f464f49046" change="1718132693" id="N0540" type="Url">
       <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5887666123&amp;aineistoId=1190744108</text>
       <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5887666123&amp;aineistoId=1190744108">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_fa08203df555a32f3a50c4a6888" change="1718205047" id="N0541" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto - I Ab:4 Lastenkirja 1840-1852, jakso 146, sivu 264-265: Pimälax 2; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5821065730&amp;aineistoId=1193327507 / Viitattu 12.6.2024</text>
+    </note>
+    <note handle="_fa0859ce9901b8f95bdd347cc61" change="1718211083" id="N0542" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto - I Aa:9 Rippikirja 1865-1875, jakso 107, sivu 115: Niemis 3 ; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=4634233014&amp;aineistoId=1193209541 / Viitattu 12.6.2024</text>
+    </note>
+    <note handle="_fa0859f4124775bdd9a45328436" change="1718211099" id="N0543" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=4634233014&amp;aineistoId=1193209541</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=4634233014&amp;aineistoId=1193209541">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_fa085c8a0c560e24279f1e85d1f" change="1718211370" id="N0544" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto - I Aa:9 Rippikirja 1865-1875, jakso 123, sivu 131: Oravilaks 1; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=4634232777&amp;aineistoId=1193209541 / Viitattu 12.6.2024</text>
+    </note>
+    <note handle="_fa085cae2a5c79874801b18720" change="1718211385" id="N0545" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=4634232777&amp;aineistoId=1193209541</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=4634232777&amp;aineistoId=1193209541">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_fa0865a77943e8a96a82bbfd9d4" change="1718212325" id="N0546" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto - I Aa:9 Rippikirja 1865-1875, jakso 112, sivu 120: Niemis 4 ; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=4634232906&amp;aineistoId=1193209541 / Viitattu 12.6.2024</text>
+    </note>
+    <note handle="_fa0865cdb079311cce04800991" change="1718212341" id="N0547" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=4634232906&amp;aineistoId=1193209541</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=4634232906&amp;aineistoId=1193209541">
         <range start="0" end="79"/>
       </style>
     </note>
