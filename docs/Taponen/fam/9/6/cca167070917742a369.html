@@ -1,26 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>My Family Tree - Family of Taponen, Johan and Kiiski, Anna</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">My Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">My Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
 					<li class = "CurrentSection"><a href="../../../families.html" title="Families">Families</a></li>
@@ -28,13 +39,43 @@
 					<li><a href="../../../places.html" title="Places">Places</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="RelationshipDetail">
 			<h2>Family of Taponen, Johan and Kiiski, Anna<sup><small></small></sup></h2>
 			<div class="subsection" id="families">
@@ -66,9 +107,8 @@
 					</tr>
 					<tr>
 						<td class="ColumnType">&nbsp;</td>
-						<td class="ColumnAttribute">&nbsp;</td>
-						<td class="ColumnValue">
-							<table class="infolist eventlist">
+						<td class="ColumnValue" colspan="2">
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnEvent">Event</th>
@@ -80,7 +120,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/f/5/d0145829348537e8d5f.html" title="Marriage">
 											Marriage
 											</a>
@@ -96,9 +136,6 @@
 										 <a href="#sref1a">1a</a> <a href="#sref2a">2a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -106,7 +143,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/9/2/d019c02975e26566e29.html" title="Residence">
 											Residence
 											</a>
@@ -122,9 +159,6 @@
 										 <a href="#sref3a">3a</a> <a href="#sref4a">4a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -132,7 +166,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/3/1/cdd110556477e1e9d13.html" title="Residence">
 											Residence
 											</a>
@@ -150,9 +184,6 @@
 										 <a href="#sref5a">5a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -160,7 +191,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/6/4/cdd10f4ce9e21b19d46.html" title="Residence">
 											Residence
 											</a>
@@ -176,9 +207,6 @@
 										 <a href="#sref6a">6a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -186,7 +214,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/d/c/d01a187ebd3518a41cd.html" title="Residence">
 											Residence
 											</a>
@@ -202,9 +230,6 @@
 										 <a href="#sref7a">7a</a> <a href="#sref8a">8a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -212,7 +237,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/6/0/cdd10dfb685501f0006.html" title="Residence">
 											Residence
 											</a>
@@ -228,9 +253,6 @@
 										 <a href="#sref9a">9a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -238,7 +260,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/f/b/cdd10cb48b53c39c4bf.html" title="Residence">
 											Residence
 											</a>
@@ -256,9 +278,6 @@
 										 <a href="#sref10a">10a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -266,7 +285,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/2/0/cdd10b4f201215aaa02.html" title="Residence">
 											Residence
 											</a>
@@ -284,9 +303,6 @@
 										 <a href="#sref11a">11a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -297,10 +313,9 @@
 							</table>
 						</td>
 						<tr>
-							<td class="ColumnType">&nbsp;</td>
 							<td class="ColumnAttribute">Children</td>
-							<td class="ColumnValue" />
-							<table class="infolist eventlist">
+							<td class="ColumnValue Child" colspan="2" />
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnName">Name</th>
@@ -323,16 +338,19 @@
 			</div>
 			<div class="subsection" id="sourcerefs">
 				<h4>Source References</h4>
-				<ol>
+				<ol id="srcr">
 					<li>
 						<a href="../../../src/0/3/d014549d28055d93130.html" title="Rääkkylän seurakunta: Rääkkylä Vihityt 1880-1890" name ="sref1">
 						Rääkkylän seurakunta: Rääkkylä Vihityt 1880-1890
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref1a">
 								<ul>
 									<li>
 									Page: 7
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Rääkkylä vihityt 1880-1890 (MKO1)  Sivu 7 1881 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26283&amp;pnum=4 / Viitattu 27.05.2024</p></div>
 									</li>
 									<li>
 									Url: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26283&amp;pnum=4">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26283&amp;pnum=4</a></p></div>
@@ -348,17 +366,20 @@
 						<a href="../../../src/d/e/d01456605995eda85ed.html" title="Rääkkylän seurakunta: Rääkkylä Kuulutetut 1880-1890" name ="sref2">
 						Rääkkylän seurakunta: Rääkkylä Kuulutetut 1880-1890
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref2a">
 								<ul>
 									<li>
 									Page: 28
 									</li>
 									<li>
-									Transcript: <div class="grampsstylednote"><p>No6	30/1	7/2		14/3	Sulhanen: loismies, Johan Niilp	1852	Warpasalo	419<br />								Taponen, ???mies											382<br />								Morsian; piika Anna Matt Kiiski	1857	Oravisalo	352</p><p>								Todistavat:<br />								Jukka Härkänen ja Pekka Härkänen</p></div>
+									Citation: <div class="grampsstylednote"><p>Rääkkylä kuulutetut 1880-1890 (MKO1-7)  Sivu 28  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26293&amp;pnum=28 / Viitattu 27.05.2024</p></div>
 									</li>
 									<li>
 									Url: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26293&amp;pnum=28">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26293&amp;pnum=28</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p>No6	30/1	7/2		14/3	Sulhanen: loismies, Johan Niilp	1852	Warpasalo	419<br />								Taponen, ???mies											382<br />								Morsian; piika Anna Matt Kiiski	1857	Oravisalo	352</p><p>								Todistavat:<br />								Jukka Härkänen ja Pekka Härkänen</p></div>
 									</li>
 								</ul>
 							</li>
@@ -368,37 +389,43 @@
 						<a href="../../../src/0/5/d019bdef2b556c0b050.html" title="Rääkkylän seurakunta: Rääkkylä Rippikirja 1881-1891" name ="sref3">
 						Rääkkylän seurakunta: Rääkkylä Rippikirja 1881-1891
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref3a">
 								<ul>
 									<li>
 									Page: II / 382
 									</li>
 									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Droid Sans Mono';">Oravisalo itselliset</span></p><p><span style="font-family:'Droid Sans Mono';">	Tapanen Niilo		18 14/4 24	} 994</span><br /><span style="font-family:'Droid Sans Mono';">vo	Maria Sofia Palmstedt	18 28/5 31	}</span><br /><span style="font-family:'Droid Sans Mono';">pa	Heikki Niilonpoika	27/11 1867</span></p><p><span style="font-family:'Droid Sans Mono';">	Tapanen Johan Niilp	18 6/12 52	}		81/479</span><br /><span style="font-family:'Droid Sans Mono';">wo	Anni Matt Kiiski	18 24/4 57	} 994		l. 352</span><br /><span style="font-family:'Droid Sans Mono';">	Tapanen Niilo Niilp	18 25/5 60	}</span></p></div>
+									Citation: <div class="grampsstylednote"><p>Rääkkylä rippikirja 1881-1891 (MKO14-26 I Aa:14)  Sivu 382 Oravisalon Itselliset ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26097&amp;pnum=332 / Viitattu 27.05.2024</p></div>
 									</li>
 									<li>
 									Url: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26097&amp;pnum=332">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26097&amp;pnum=332</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Droid Sans Mono';">Oravisalo itselliset</span></p><p><span style="font-family:'Droid Sans Mono';">	Tapanen Niilo		18 14/4 24	} 994</span><br /><span style="font-family:'Droid Sans Mono';">vo	Maria Sofia Palmstedt	18 28/5 31	}</span><br /><span style="font-family:'Droid Sans Mono';">pa	Heikki Niilonpoika	27/11 1867</span></p><p><span style="font-family:'Droid Sans Mono';">	Tapanen Johan Niilp	18 6/12 52	}		81/479</span><br /><span style="font-family:'Droid Sans Mono';">wo	Anni Matt Kiiski	18 24/4 57	} 994		l. 352</span><br /><span style="font-family:'Droid Sans Mono';">	Tapanen Niilo Niilp	18 25/5 60	}</span></p></div>
 									</li>
 								</ul>
 							</li>
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/a/2/d01a097ffbd2d26002a.html" title="Rääkkylän seurakunta: Rääkkylä Lastenkirja 1881-1891" name ="sref4">
-						Rääkkylän seurakunta: Rääkkylä Lastenkirja 1881-1891
+						<a href="../../../src/a/2/d01a097ffbd2d26002a.html" title="Rääkkylän seurakunta: Rääkkylä Lastenkirja 1881-1890" name ="sref4">
+						Rääkkylän seurakunta: Rääkkylä Lastenkirja 1881-1890
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref4a">
 								<ul>
 									<li>
 									Page: II / 403
 									</li>
 									<li>
-									Transcript: <div class="grampsstylednote"><p>Oravisalo<br />		Tapanen Juhana ja Anna Kiiski s. 1857					382<br />tytär	Anna Maria		-1	18 17/8 82				}<br />pa		Juhana			1-	18 19/5 85				} UK 994<br />pa		Elias			1-	31/5 1889	Rääkkylä	}</p></div>
+									Citation: <div class="grampsstylednote"><p>Rääkkylä lastenkirja 1881-1890 (MKO14-26)  Sivu 403 Oravisalo ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26276&amp;pnum=321 / Viitattu 27.05.2024</p></div>
 									</li>
 									<li>
 									Url: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26276&amp;pnum=321">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26276&amp;pnum=321</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p>Oravisalo<br />		Tapanen Juhana ja Anna Kiiski s. 1857					382<br />tytär	Anna Maria		-1	18 17/8 82				}<br />pa		Juhana			1-	18 19/5 85				} UK 994<br />pa		Elias			1-	31/5 1889	Rääkkylä	}</p></div>
 									</li>
 								</ul>
 							</li>
@@ -408,7 +435,7 @@
 						<a href="../../../src/b/e/cdd1102bc0e73cf9beb.html" title="Kuopion lääni: Kuopion lääni Henkikirja 1885" name ="sref5">
 						Kuopion lääni: Kuopion lääni Henkikirja 1885
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref5a">
 								<ul>
 									<li>
@@ -416,6 +443,9 @@
 									</li>
 									<li>
 									Page: 545
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Kuopion läänin henkikirjat. K Henkikirjat. K:105 Henkikirja  (1885-1885). Tiedosto 547. Kansallisarkisto. Viitattu 27.5.2024.</p></div>
 									</li>
 									<li>
 									Url: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=21692692">http://digi.narc.fi/digi/view.ka?kuid=21692692</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=6271493044&amp;aineistoId=1726469526">https://astia.narc.fi/uusiastia/viewer/?fileId=6271493044&amp;aineistoId=1726469526</a></p></div>
@@ -428,7 +458,7 @@
 						<a href="../../../src/6/a/cdd10f26164111669a6.html" title="Kuopion lääni: Kuopion lääni Henkikirja 1890" name ="sref6">
 						Kuopion lääni: Kuopion lääni Henkikirja 1890
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref6a">
 								<ul>
 									<li>
@@ -438,6 +468,9 @@
 									Page: 455
 									</li>
 									<li>
+									Citation: <div class="grampsstylednote"><p>Kuopion läänin henkikirjat. K Henkikirjat. K:123 Henkikirja  (1890-1890). Tiedosto 557. Kansallisarkisto. Viitattu 27.5.2024.</p></div>
+									</li>
+									<li>
 									Url: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=21841278">http://digi.narc.fi/digi/view.ka?kuid=21841278</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=6271414983&amp;aineistoId=1727150185">https://astia.narc.fi/uusiastia/viewer/?fileId=6271414983&amp;aineistoId=1727150185</a></p></div>
 									</li>
 								</ul>
@@ -445,40 +478,46 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/5/f/d01a0c128a0397f7bf5.html" title="Rääkkylän seurakunta: Rääkkylä Lastenkirja 1891-1900 II" name ="sref7">
-						Rääkkylän seurakunta: Rääkkylä Lastenkirja 1891-1900 II
+						<a href="../../../src/8/0/d01a0e983860c0e4e08.html" title="Rääkkylän seurakunta: Rääkkylä Rippikirja 1891-1900" name ="sref7">
+						Rääkkylän seurakunta: Rääkkylä Rippikirja 1891-1900
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref7a">
 								<ul>
 									<li>
-									Page: II / 994
+									Page: Aa:17/994
 									</li>
 									<li>
-									Transcript: <div class="grampsstylednote"><p>TA-</p><p>7		Tapanen Juho ja Anna Kiiskin					s. 1857<br />lapset	Anna Maria		-1	17/8 1882	VK403b		98/l. 326<br />		Juhana			1-	19/5 1885	"<br />		Elias			1-	31/5 1889	"<br />		Antti			1-	13/6 1892<br />		Heikki			1-	2/7 &nbsp; 1896<br />		Hilma			1-	4/6 &nbsp; 1899</p></div>
+									Citation: <div class="grampsstylednote"><p>Rääkkylä rippikirja 1891-1900 (MKO52-57 I Aa:17)  Sivu 994 T (Edellinen aukeama tyhjä) ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26100&amp;pnum=146 / Viitattu 27.05.2024</p></div>
 									</li>
 									<li>
-									Url: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26278&amp;pnum=75">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26278&amp;pnum=75</a></p></div>
+									Url: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26100&amp;pnum=146">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26100&amp;pnum=146</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Monospace';">T</span><br /><span style="font-family:'Monospace';">994</span></p><p><span style="font-family:'Monospace';">1	Tapanen Mikko			1-	24/6 &nbsp;1839	VK 367b</span><br /><span style="font-family:'Monospace';">wo	Anna Leena Turpeinen		-1	10/5 &nbsp;1844	do</span><br /><span style="font-family:'Monospace';">tr	Maija Stiina			-1	25/2 &nbsp;1873			94/l.320</span><br /><span style="font-family:'Monospace';">tr	Maija Stiina Mikont Tapanen	-1	25/2 &nbsp;1873	95/l.320	94/l.277</span></p><p><span style="font-family:'Monospace';">2	Tapanen Elias Mikonp		1-	16/6 &nbsp;1871	| VK 367b</span><br /><span style="font-family:'Monospace';">wo	Anna Antr Pitkänen		-1	23/6 &nbsp;1869	|</span></p><p><span style="font-family:'Monospace';">tr	Aina Mikontr Tapanen		-1	12/8 &nbsp;1884	LK 994</span></p><p><span style="font-family:'Monospace';">3	Tapanen Pekka Juhonp		1-	24/10 1862	| VK 374b</span><br /><span style="font-family:'Monospace';">wo	Maria Laurintr Hovinen		-1	14/1 &nbsp;1862 &nbsp;	|</span></p><p><span style="font-family:'Monospace';">4	Tapanen Anna Leena		-1	30/11 1843	VK 374b		l.879 95	Erik Ilvosen leski</span></p><p><span style="font-family:'Monospace';">5	Tapanen Niilo Yrjönp		1-	14/4 &nbsp;1824	VK 382b</span><br /><span style="font-family:'Monospace';">vo	Anna Kähkönen			-1	1/9 &nbsp; 1834	96/l.903</span></p><p><span style="font-family:'Monospace';">6 pa	Heikki Tapanen			1-	27/11 1867			94/l.365</span><br /><span style="font-family:'Monospace';">pa	Heikki Tapanen Niilonp		1-	27/11 1867	95/l.368	712 99</span></p><p><span style="font-family:'Monospace';">7	Tapanen Juho Niilp		1-	6/12 &nbsp;1852	| VK 382b</span><br /><span style="font-family:'Monospace';">wo	Anna Matr. Kiiski		-1	24/4 &nbsp;1857	|</span></p><p><span style="font-family:'Monospace';">8	Tapanen Niilo Niilonp		1-	22/5 &nbsp;1860	VK 382b</span><br /><span style="font-family:'Monospace';">vo	Lovisa Matintr Kosonen		-1	3/12 &nbsp;1870	15/3 1897 tuli Savorann.</span><br /><span style="font-family:'Monospace';">						Savoranta</span><br /><span style="font-family:'Monospace';">995</span><br /><span style="font-family:'Monospace';">9	Tapanen Maria			-1	26/12 1842	VK 433b				???äpäräl</span></p><p><span style="font-family:'Monospace';">10	Tapanen Juho Juhonp		1-	26/9 &nbsp;1849	VK 29b		94/l.228</span><br /><span style="font-family:'Monospace';">10	Tapanen Heikki Niilonp		1-	27/11 1867	99/l.718</span><br /><span style="font-family:'Monospace';">wo	Anna Tiina Heikintr Sallinen	-1	6/9 &nbsp; 1876	99/l.260</span></p></div>
 									</li>
 								</ul>
 							</li>
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/8/0/d01a0e983860c0e4e08.html" title="Rääkkylän seurakunta: Rääkkylä Rippikirja 1891-1900" name ="sref8">
-						Rääkkylän seurakunta: Rääkkylä Rippikirja 1891-1900
+						<a href="../../../src/5/f/d01a0c128a0397f7bf5.html" title="Rääkkylän seurakunta: Rääkkylä Lastenkirja 1891-1900" name ="sref8">
+						Rääkkylän seurakunta: Rääkkylä Lastenkirja 1891-1900
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref8a">
 								<ul>
 									<li>
-									Page: III / 994-995
+									Page: MKO41-43/994-995
 									</li>
 									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Droid Sans Mono';">T</span><br /><span style="font-family:'Droid Sans Mono';">994</span></p><p><span style="font-family:'Droid Sans Mono';">1	Tapanen Mikko			1-	24/6 &nbsp;1839	VK 367b</span><br /><span style="font-family:'Droid Sans Mono';">wo	Anna Leena Turpeinen		-1	10/5 &nbsp;1844	do</span><br /><span style="font-family:'Droid Sans Mono';">tr	Maija Stiina			-1	25/2 &nbsp;1873			94/l.320</span><br /><span style="font-family:'Droid Sans Mono';">tr	Maija Stiina Mikont Tapanen	-1	25/2 &nbsp;1873	95/l.320	94/l.277</span></p><p><span style="font-family:'Droid Sans Mono';">2	Tapanen Elias Mikonp		1-	16/6 &nbsp;1871	| VK 367b</span><br /><span style="font-family:'Droid Sans Mono';">wo	Anna Antr Pitkänen		-1	23/6 &nbsp;1869	|</span></p><p><span style="font-family:'Droid Sans Mono';">tr	Aina Mikontr Tapanen		-1	12/8 &nbsp;1884	LK 994</span></p><p><span style="font-family:'Droid Sans Mono';">3	Tapanen Pekka Juhonp		1-	24/10 1862	| VK 374b</span><br /><span style="font-family:'Droid Sans Mono';">wo	Maria Laurintr Hovinen		-1	14/1 &nbsp;1862 &nbsp;	|</span></p><p><span style="font-family:'Droid Sans Mono';">4	Tapanen Anna Leena		-1	30/11 1843	VK 374b		l.879 95	Erik Ilvosen leski</span></p><p><span style="font-family:'Droid Sans Mono';">5	Tapanen Niilo Yrjönp		1-	14/4 &nbsp;1824	VK 382b</span><br /><span style="font-family:'Droid Sans Mono';">vo	Anna Kähkönen			-1	1/9 &nbsp; 1834	96/l.903</span></p><p><span style="font-family:'Droid Sans Mono';">6 pa	Heikki Tapanen			1-	27/11 1867			94/l.365</span><br /><span style="font-family:'Droid Sans Mono';">pa	Heikki Tapanen Niilonp		1-	27/11 1867	95/l.368	712 99</span></p><p><span style="font-family:'Droid Sans Mono';">7	Tapanen Juho Niilp		1-	6/12 &nbsp;1852	| VK 382b</span><br /><span style="font-family:'Droid Sans Mono';">wo	Anna Matr. Kiiski		-1	24/4 &nbsp;1857	|</span></p><p><span style="font-family:'Droid Sans Mono';">8	Tapanen Niilo Niilonp		1-	22/5 &nbsp;1860	VK 382b</span><br /><span style="font-family:'Droid Sans Mono';">vo	Lovisa Matintr Kosonen		-1	3/12 &nbsp;1870	15/3 1897 tuli Savorann.</span><br /><span style="font-family:'Droid Sans Mono';">						Savoranta</span><br /><span style="font-family:'Droid Sans Mono';">995</span><br /><span style="font-family:'Droid Sans Mono';">9	Tapanen Maria			-1	26/12 1842	VK 433b				???äpäräl</span></p><p><span style="font-family:'Droid Sans Mono';">10	Tapanen Juho Juhonp		1-	26/9 &nbsp;1849	VK 29b		94/l.228</span><br /><span style="font-family:'Droid Sans Mono';">10	Tapanen Heikki Niilonp		1-	27/11 1867	99/l.718</span><br /><span style="font-family:'Droid Sans Mono';">wo	Anna Tiina Heikintr Sallinen	-1	6/9 &nbsp; 1876	99/l.260</span></p></div>
+									Citation: <div class="grampsstylednote"><p>Rääkkylä lastenkirja 1891-1900 (MKO41-43)  Sivu 994-995 T ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26278&amp;pnum=75 / Viitattu 27.05.2024</p></div>
 									</li>
 									<li>
-									Url: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26100&amp;pnum=146">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26100&amp;pnum=146</a></p></div>
+									Url: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26278&amp;pnum=75">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26278&amp;pnum=75</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Monospace';">TA-</span></p><p><span style="font-family:'Monospace';">1 &nbsp; &nbsp;Tapanen Mikko ja Anna Lena Turpeisen s.1844</span><br /><span style="font-family:'Monospace';">Lapset Hilma &nbsp; &nbsp; &nbsp;-1 &nbsp; &nbsp;12/10 1880 &nbsp; &nbsp;vk. 381b &nbsp; &nbsp;96/l. 271</span><br /><span style="font-family:'Monospace';">&nbsp; &nbsp; &nbsp; &nbsp;Aina &nbsp; &nbsp; &nbsp; -1 &nbsp; &nbsp;12/8 &nbsp;1884 &nbsp; &nbsp;"</span></p><p><span style="font-family:'Monospace';">[...]</span></p><p><span style="font-family:'Monospace';">7 &nbsp; &nbsp;Tapanen Juho ja Anna Kiiskin &nbsp; &nbsp;s. 1857</span><br /><span style="font-family:'Monospace';">lapset Anna Maria -1 &nbsp; &nbsp;17/8 &nbsp;1882 &nbsp; &nbsp;VK403b &nbsp; &nbsp;98/l. 326</span><br /><span style="font-family:'Monospace';">&nbsp; &nbsp; &nbsp; &nbsp;Juhana &nbsp; &nbsp; 1- &nbsp; &nbsp;19/5 &nbsp;1885 &nbsp; &nbsp;"</span><br /><span style="font-family:'Monospace';">&nbsp; &nbsp; &nbsp; &nbsp;Elias &nbsp; &nbsp; &nbsp;1- &nbsp; &nbsp;31/5 &nbsp;1889 &nbsp; &nbsp;"</span><br /><span style="font-family:'Monospace';">&nbsp; &nbsp; &nbsp; &nbsp;Antti &nbsp; &nbsp; &nbsp;1- &nbsp; &nbsp;13/6 &nbsp;1892</span><br /><span style="font-family:'Monospace';">&nbsp; &nbsp; &nbsp; &nbsp;Heikki &nbsp; &nbsp; 1- &nbsp; &nbsp;2/7 &nbsp; 1896</span><br /><span style="font-family:'Monospace';">&nbsp; &nbsp; &nbsp; &nbsp;Hilma &nbsp; &nbsp; &nbsp;1- &nbsp; &nbsp;4/6 &nbsp; 1899</span></p></div>
 									</li>
 								</ul>
 							</li>
@@ -488,7 +527,7 @@
 						<a href="../../../src/2/f/cdd10ddc8c4642a19f2.html" title="Kuopion lääni: Kuopion lääni Henkikirja 1895" name ="sref9">
 						Kuopion lääni: Kuopion lääni Henkikirja 1895
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref9a">
 								<ul>
 									<li>
@@ -496,6 +535,9 @@
 									</li>
 									<li>
 									Page: 446
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Kuopion läänin henkikirjat. K Henkikirjat. K:145 Henkikirja  (1895-1895). Tiedosto 452. Kansallisarkisto. Viitattu 27.5.2024.</p></div>
 									</li>
 									<li>
 									Url: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=21885585">http://digi.narc.fi/digi/view.ka?kuid=21885585</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=6271594568&amp;aineistoId=1727827663">https://astia.narc.fi/uusiastia/viewer/?fileId=6271594568&amp;aineistoId=1727827663</a></p></div>
@@ -508,7 +550,7 @@
 						<a href="../../../src/f/c/cdd10c90e220183cfcf.html" title="Kuopion lääni: Kuopion lääni Henkikirja 1905" name ="sref10">
 						Kuopion lääni: Kuopion lääni Henkikirja 1905
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref10a">
 								<ul>
 									<li>
@@ -516,6 +558,9 @@
 									</li>
 									<li>
 									Page: 610
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Kuopion läänin henkikirjat. K Henkikirjat. K:172 Henkikirja  (1900-1900). Tiedosto 626. Kansallisarkisto. Viitattu 27.5.2024.</p></div>
 									</li>
 									<li>
 									Url: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=21905515">http://digi.narc.fi/digi/view.ka?kuid=21905515</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=6271634774&amp;aineistoId=1728360296">https://astia.narc.fi/uusiastia/viewer/?fileId=6271634774&amp;aineistoId=1728360296</a></p></div>
@@ -528,7 +573,7 @@
 						<a href="../../../src/2/9/cdd10bcfb141b540a92.html" title="Kuopion lääni: Kuopion lääni Henkikirja 1910" name ="sref11">
 						Kuopion lääni: Kuopion lääni Henkikirja 1910
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref11a">
 								<ul>
 									<li>
@@ -536,6 +581,9 @@
 									</li>
 									<li>
 									Page: 570
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Kuopion läänin henkikirjat. K Henkikirjat. K:232 Henkikirja  (1910-1910). Tiedosto 557. Kansallisarkisto. Viitattu 27.5.2024.</p></div>
 									</li>
 									<li>
 									Url: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=21988248">http://digi.narc.fi/digi/view.ka?kuid=21988248</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5990072210&amp;aineistoId=1729487199">https://astia.narc.fi/uusiastia/viewer/?fileId=5990072210&amp;aineistoId=1729487199</a></p></div>
@@ -550,7 +598,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2015-04-26 19:27:17
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2<br />Last change was the 2015-04-26 19:27:17
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

@@ -1,26 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>My Family Tree - Sources - Rääkkylä Lastenkirja 1840-1852</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">My Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">My Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
 					<li><a href="../../../families.html" title="Families">Families</a></li>
@@ -28,16 +39,46 @@
 					<li><a href="../../../places.html" title="Places">Places</a></li>
 					<li class = "CurrentSection"><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="SourceDetail">
 			<h3>Rääkkylä Lastenkirja 1840-1852</h3>
-			<table class="infolist source">
+			<table class="infolist source ltr">
 				<tbody>
 					<tr>
 						<td class="ColumnAttribute">Author</td>
@@ -47,7 +88,7 @@
 			</table>
 			<div class="subsection" id="repositories">
 				<h4>Repositories</h4>
-				<table class="infolist">
+				<table class="infolist ltr">
 					<thead>
 						<tr>
 							<th class="ColumnRowLabel">Number</th>
@@ -78,18 +119,53 @@
 				<h4>References</h4>
 				<ol class="Col1" role="Volume-n-Page" type=1>
 					<li>
-					403
+					125
 						<ol class="Col1" role="Volume-n-Page" type=a>
 							<li>
-								<a href="../../../ppl/6/b/cb937e38d745f457ab6.html">
-								Kaasinen, Lisa Johansdotter
+								<a href="../../../evt/7/b/cdd71e2c32d2ff743b7.html">
+								Residence, Family of Tapanen, Nils Jöransson and Kaasinen, Lisa Johansdotter
 								
 								
 								</a>
 							</li>
 							<li>
-								<a href="../../../evt/7/4/cdda5e4083906665f47.html">
-								Residence, Kaasinen, Lisa Johansdotter
+								<a href="../../../evt/3/c/cb9381d78bd4eb1bcc3.html">
+								Birth, Tapanen, Anna Lisa
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/b/3/cb93824e4956d8c863b.html">
+								Tapanen, Anna Sofia
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/5/7/cb937d8bfc70c373375.html">
+								Tapanen, Nils Jöransson
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../evt/b/2/cb9382474962945a42b.html">
+								Death, Tapanen, Anna Sofia
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/2/2/cb9381f71285d1f4d22.html">
+								Tapanen, Anna Lisa
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/6/b/cb937e38d745f457ab6.html">
+								Kaasinen, Lisa Johansdotter
 								
 								
 								</a>
@@ -116,146 +192,18 @@
 						</ol>
 					</li>
 					<li>
-					316
+					274-275
 						<ol class="Col1" role="Volume-n-Page" type=a>
 							<li>
-								<a href="../../../evt/a/e/cdda55cd16c04fb01ea.html">
-								Residence, Kaasinen, Lisa Johansdotter
+								<a href="../../../ppl/6/6/cb937f37e8f342e2366.html">
+								Tapain, Jöran
 								
 								
 								</a>
 							</li>
 							<li>
-								<a href="../../../ppl/6/b/cb937e38d745f457ab6.html">
-								Kaasinen, Lisa Johansdotter
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/e/3/cdce0fde7365136343e.html">
-								Confirmation, Kaasinen, Lisa Johansdotter
-								
-								
-								</a>
-							</li>
-						</ol>
-					</li>
-					<li>
-					397
-						<ol class="Col1" role="Volume-n-Page" type=a>
-							<li>
-								<a href="../../../ppl/5/7/cb937d8bfc70c373375.html">
-								Taponen, Nils Jöransson
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/2/1/d01dfcfd17106a89912.html">
-								Residence, Taponen, Nils Jöransson
-								
-								
-								</a>
-							</li>
-						</ol>
-					</li>
-					<li>
-					312
-						<ol class="Col1" role="Volume-n-Page" type=a>
-							<li>
-								<a href="../../../evt/3/d/cdda26d09a07dab67d3.html">
-								Residence, Kaasinen, Lisa Johansdotter
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../ppl/6/b/cb937e38d745f457ab6.html">
-								Kaasinen, Lisa Johansdotter
-								
-								
-								</a>
-							</li>
-						</ol>
-					</li>
-					<li>
-					104
-						<ol class="Col1" role="Volume-n-Page" type=a>
-							<li>
-								<a href="../../../ppl/4/6/cb937f641b6306a0964.html">
-								Kaasinen, Johan Andersson
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/7/6/cdda631ea160e14e867.html">
-								Residence, Family of Kaasinen, Johan Andersson and Hirvonen, Maria
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../ppl/6/2/cdcdf8febe012a2ce26.html">
-								Hirvonen, Maria
-								
-								
-								</a>
-							</li>
-						</ol>
-					</li>
-					<li>
-					391
-						<ol class="Col1" role="Volume-n-Page" type=a>
-							<li>
-								<a href="../../../ppl/5/7/cb937d8bfc70c373375.html">
-								Taponen, Nils Jöransson
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/1/c/d01e04391b0401ce1c1.html">
-								Residence, Taponen, Nils Jöransson
-								
-								
-								</a>
-							</li>
-						</ol>
-					</li>
-					<li>
-					125
-						<ol class="Col1" role="Volume-n-Page" type=a>
-							<li>
-								<a href="../../../ppl/6/b/cb937e38d745f457ab6.html">
-								Kaasinen, Lisa Johansdotter
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/7/b/cdd71e2c32d2ff743b7.html">
-								Residence, Family of Taponen, Nils Jöransson and Kaasinen, Lisa Johansdotter
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../ppl/5/7/cb937d8bfc70c373375.html">
-								Taponen, Nils Jöransson
-								
-								
-								</a>
-							</li>
-						</ol>
-					</li>
-					<li>
-					150-151
-						<ol class="Col1" role="Volume-n-Page" type=a>
-							<li>
-								<a href="../../../ppl/c/0/cca205dc0ed7cce9b0c.html">
-								Taponen, Johan
+								<a href="../../../evt/3/f/d01e0ab29ce4f86c9f3.html">
+								Residence, Family of Tapain, Jöran and Rehuin, Maria Davidsdotter
 								
 								
 								</a>
@@ -267,9 +215,191 @@
 								
 								</a>
 							</li>
+						</ol>
+					</li>
+					<li>
+					Ab:4/396-397
+						<ol class="Col1" role="Volume-n-Page" type=a>
 							<li>
-								<a href="../../../evt/5/b/d01e17e2b292837acb5.html">
-								Death, Taponen, Johan
+								<a href="../../../evt/2/1/d01dfcfd17106a89912.html">
+								Residence, Tapanen, Nils Jöransson
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/5/7/cb937d8bfc70c373375.html">
+								Tapanen, Nils Jöransson
+								
+								
+								</a>
+							</li>
+						</ol>
+					</li>
+					<li>
+					421-422
+						<ol class="Col1" role="Volume-n-Page" type=a>
+							<li>
+								<a href="../../../ppl/6/6/cb937f37e8f342e2366.html">
+								Tapain, Jöran
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../evt/1/4/d01e0c44c355063ed41.html">
+								Residence, Family of Tapain, Jöran and Rehuin, Maria Davidsdotter
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/d/3/cca2047aa577cccb33d.html">
+								Rehuin, Maria Davidsdotter
+								
+								
+								</a>
+							</li>
+						</ol>
+					</li>
+					<li>
+					76-77
+						<ol class="Col1" role="Volume-n-Page" type=a>
+							<li>
+								<a href="../../../ppl/7/8/da7c10f80575c48aa0c202f6287.html">
+								Kiiski, Anders Johan
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/e/1/da7c77ceb7118a5eea19128b71e.html">
+								Kiiski, Henrik
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../evt/a/9/da7c12694ba5aa9fa43289519a.html">
+								Birth, Kiiski, Anders Johan
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/d/2/d0110a79b883d4b722d.html">
+								Kiiski, Katrina
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../evt/4/0/da7caa602fa3fe81bf85c2d2e04.html">
+								Death, Kiiski, Henrik
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../evt/e/5/da7c787c0181056f6670a36a25e.html">
+								Birth, Kiiski, Henrik
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../evt/6/3/d0110a6c94336cbff36.html">
+								Birth, Kiiski, Katrina
+								
+								
+								</a>
+							</li>
+						</ol>
+					</li>
+					<li>
+					312
+						<ol class="Col1" role="Volume-n-Page" type=a>
+							<li>
+								<a href="../../../ppl/6/b/cb937e38d745f457ab6.html">
+								Kaasinen, Lisa Johansdotter
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../evt/3/d/cdda26d09a07dab67d3.html">
+								Residence, Kaasinen, Lisa Johansdotter
+								
+								
+								</a>
+							</li>
+						</ol>
+					</li>
+					<li>
+					403
+						<ol class="Col1" role="Volume-n-Page" type=a>
+							<li>
+								<a href="../../../evt/7/4/cdda5e4083906665f47.html">
+								Residence, Kaasinen, Lisa Johansdotter
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/6/b/cb937e38d745f457ab6.html">
+								Kaasinen, Lisa Johansdotter
+								
+								
+								</a>
+							</li>
+						</ol>
+					</li>
+					<li>
+					404-405
+						<ol class="Col1" role="Volume-n-Page" type=a>
+							<li>
+								<a href="../../../evt/b/5/d01dff046b763921a5b.html">
+								Residence, Tapanen, Nils Jöransson
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/5/7/cb937d8bfc70c373375.html">
+								Tapanen, Nils Jöransson
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../evt/a/2/d01e012ce33093dfd2a.html">
+								Residence, Tapanen, Nils Jöransson
+								
+								
+								</a>
+							</li>
+						</ol>
+					</li>
+					<li>
+					150-151
+						<ol class="Col1" role="Volume-n-Page" type=a>
+							<li>
+								<a href="../../../evt/b/b/d01e169f06751e8b7bb.html">
+								Death, Taponen, Henric
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../evt/a/c/cca205c587f285586ca.html">
+								Birth, Taponen, Johan
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/6/6/cb937f37e8f342e2366.html">
+								Tapain, Jöran
 								
 								
 								</a>
@@ -289,22 +419,15 @@
 								</a>
 							</li>
 							<li>
-								<a href="../../../evt/b/b/d01e169f06751e8b7bb.html">
-								Death, Taponen, Henric
+								<a href="../../../evt/5/b/d01e17e2b292837acb5.html">
+								Death, Taponen, Johan
 								
 								
 								</a>
 							</li>
 							<li>
-								<a href="../../../ppl/6/6/cb937f37e8f342e2366.html">
-								Tapain, Jöran
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/a/c/cca205c587f285586ca.html">
-								Birth, Taponen, Johan
+								<a href="../../../ppl/c/0/cca205dc0ed7cce9b0c.html">
+								Taponen, Johan
 								
 								
 								</a>
@@ -316,18 +439,6 @@
 								
 								</a>
 							</li>
-						</ol>
-					</li>
-					<li>
-					421-422
-						<ol class="Col1" role="Volume-n-Page" type=a>
-							<li>
-								<a href="../../../ppl/6/6/cb937f37e8f342e2366.html">
-								Tapain, Jöran
-								
-								
-								</a>
-							</li>
 							<li>
 								<a href="../../../ppl/d/3/cca2047aa577cccb33d.html">
 								Rehuin, Maria Davidsdotter
@@ -335,28 +446,21 @@
 								
 								</a>
 							</li>
-							<li>
-								<a href="../../../evt/1/4/d01e0c44c355063ed41.html">
-								Residence, Family of Tapain, Jöran and Rehuin, Maria Davidsdotter
-								
-								
-								</a>
-							</li>
 						</ol>
 					</li>
 					<li>
-					265
+					Ab:4/264-265
 						<ol class="Col1" role="Volume-n-Page" type=a>
 							<li>
 								<a href="../../../evt/7/2/d01e126ac5a6d206c27.html">
-								Residence, Taponen, Michel
+								Residence, Tapanen, Michel
 								
 								
 								</a>
 							</li>
 							<li>
 								<a href="../../../ppl/b/3/cca2060fc18189e5c3b.html">
-								Taponen, Michel
+								Tapanen, Michel
 								
 								
 								</a>
@@ -364,18 +468,18 @@
 						</ol>
 					</li>
 					<li>
-					405
+					391
 						<ol class="Col1" role="Volume-n-Page" type=a>
+							<li>
+								<a href="../../../evt/1/c/d01e04391b0401ce1c1.html">
+								Residence, Tapanen, Nils Jöransson
+								
+								
+								</a>
+							</li>
 							<li>
 								<a href="../../../ppl/5/7/cb937d8bfc70c373375.html">
-								Taponen, Nils Jöransson
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/b/5/d01dff046b763921a5b.html">
-								Residence, Taponen, Nils Jöransson
+								Tapanen, Nils Jöransson
 								
 								
 								</a>
@@ -383,53 +487,25 @@
 						</ol>
 					</li>
 					<li>
-					76-77
+					316
 						<ol class="Col1" role="Volume-n-Page" type=a>
 							<li>
-								<a href="../../../evt/e/5/da7c787c0181056f6670a36a25e.html">
-								Birth, Kiiski, Henrik
+								<a href="../../../evt/a/e/cdda55cd16c04fb01ea.html">
+								Residence, Kaasinen, Lisa Johansdotter
 								
 								
 								</a>
 							</li>
 							<li>
-								<a href="../../../ppl/d/2/d0110a79b883d4b722d.html">
-								Kiiski, Katrina
+								<a href="../../../evt/e/3/cdce0fde7365136343e.html">
+								Confirmation, Kaasinen, Lisa Johansdotter
 								
 								
 								</a>
 							</li>
 							<li>
-								<a href="../../../evt/6/3/d0110a6c94336cbff36.html">
-								Birth, Kiiski, Katrina
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/4/0/da7caa602fa3fe81bf85c2d2e04.html">
-								Death, Kiiski, Henrik
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../ppl/7/8/da7c10f80575c48aa0c202f6287.html">
-								Kiiski, Anders Johan
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/a/9/da7c12694ba5aa9fa43289519a.html">
-								Birth, Kiiski, Anders Johan
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../ppl/e/1/da7c77ceb7118a5eea19128b71e.html">
-								Kiiski, Henrik
+								<a href="../../../ppl/6/b/cb937e38d745f457ab6.html">
+								Kaasinen, Lisa Johansdotter
 								
 								
 								</a>
@@ -437,44 +513,25 @@
 						</ol>
 					</li>
 					<li>
-					404
+					104
 						<ol class="Col1" role="Volume-n-Page" type=a>
 							<li>
-								<a href="../../../ppl/5/7/cb937d8bfc70c373375.html">
-								Taponen, Nils Jöransson
+								<a href="../../../evt/7/6/cdda631ea160e14e867.html">
+								Residence, Family of Kaasinen, Johan Andersson and Hirvonen, Maria
 								
 								
 								</a>
 							</li>
 							<li>
-								<a href="../../../evt/a/2/d01e012ce33093dfd2a.html">
-								Residence, Taponen, Nils Jöransson
-								
-								
-								</a>
-							</li>
-						</ol>
-					</li>
-					<li>
-					274
-						<ol class="Col1" role="Volume-n-Page" type=a>
-							<li>
-								<a href="../../../evt/3/f/d01e0ab29ce4f86c9f3.html">
-								Residence, Family of Tapain, Jöran and Rehuin, Maria Davidsdotter
+								<a href="../../../ppl/6/2/cdcdf8febe012a2ce26.html">
+								Hirvonen, Maria
 								
 								
 								</a>
 							</li>
 							<li>
-								<a href="../../../ppl/d/3/cca2047aa577cccb33d.html">
-								Rehuin, Maria Davidsdotter
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../ppl/6/6/cb937f37e8f342e2366.html">
-								Tapain, Jöran
+								<a href="../../../ppl/4/6/cb937f641b6306a0964.html">
+								Kaasinen, Johan Andersson
 								
 								
 								</a>
@@ -487,7 +544,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6 on 2024-02-18
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2 on 2024-06-13
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

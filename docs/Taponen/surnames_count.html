@@ -1,26 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>My Family Tree - Surnames by person count</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">My Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">My Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li><a href="individuals.html" title="Individuals">Individuals</a></li>
 					<li class = "CurrentSection"><a href="index.html" title="Surnames">Surnames</a></li>
 					<li><a href="families.html" title="Families">Families</a></li>
@@ -28,18 +39,48 @@
 					<li><a href="places.html" title="Places">Places</a></li>
 					<li><a href="sources.html" title="Sources">Sources</a></li>
 					<li><a href="repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="media.html" title="Media">Media</a></li>
-					<li><a href="thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="updates.html" title="Updates">Updates</a></li>
 					<li><a href="statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="surnames">
 			<p id="description">
 			This page contains an index of all the surnames in the database. Selecting a link will lead to a list of individuals in the database with this same surname.
 			</p>
-			<table class="infolist primobjlist surnamelist" id="SortByCount">
+			<table class="infolist primobjlist surnamelist ltr" id="SortByCount">
 				<thead>
 					<tr>
 						<th class="ColumnLetter">Letter</th>
@@ -49,118 +90,133 @@
 				</thead>
 				<tbody>
 					<tr class = "BeginLetter">
-						<td class="ColumnLetter"><a name="T" title="Surnames beginning with letter T">T</a></td>
-						<td class="ColumnSurname"><a href="srn/f/b/4463210a3831ffa7543bdb0abd89ebbf.html" title="Taponen">Taponen</a></td>
-						<td class="ColumnQuantity">25</td>
+						<td class="ColumnLetter"><a id="T" name="T" title="Surnames beginning with letter 'T' LATIN CAPITAL LETTER T">T</a></td>
+						<td class="ColumnSurname"><a href="srn/f/b/4463210a3831ffa7543bdb0abd89ebbf.html" title="Taponen starting with LATIN CAPITAL LETTER T">Taponen</a></td>
+						<td class="ColumnQuantity">31</td>
 					</tr>
 					<tr class = "BeginLetter">
-						<td class="ColumnLetter"><a name="K" title="Surnames beginning with letter K">K</a></td>
-						<td class="ColumnSurname"><a href="srn/a/e/a969266871a57db73d8d8049c7b7bfea.html" title="Kiiski">Kiiski</a></td>
+						<td class="ColumnLetter"><a id="K" name="K" title="Surnames beginning with letter 'K' LATIN CAPITAL LETTER K">K</a></td>
+						<td class="ColumnSurname"><a href="srn/a/e/a969266871a57db73d8d8049c7b7bfea.html" title="Kiiski starting with LATIN CAPITAL LETTER K">Kiiski</a></td>
 						<td class="ColumnQuantity">12</td>
 					</tr>
-					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnSurname"><a href="srn/a/8/6c34745ca414d1a89104f2cdb2804f8a.html" title="Kaasinen">Kaasinen</a></td>
+					<tr class = "BeginLetter">
+						<td class="ColumnLetter"><a id="R" name="R" title="Surnames beginning with letter 'R' LATIN CAPITAL LETTER R">R</a></td>
+						<td class="ColumnSurname"><a href="srn/c/c/ee81f9946eb9d7ab1bca7c4719c968cc.html" title="Rongain starting with LATIN CAPITAL LETTER R">Rongain</a></td>
+						<td class="ColumnQuantity">8</td>
+					</tr>
+					<tr class = "BeginLetter">
+						<td class="ColumnLetter"><a id="K" name="K" title="Surnames beginning with letter 'K' LATIN CAPITAL LETTER K">K</a></td>
+						<td class="ColumnSurname"><a href="srn/a/8/6c34745ca414d1a89104f2cdb2804f8a.html" title="Kaasinen starting with LATIN CAPITAL LETTER K">Kaasinen</a></td>
 						<td class="ColumnQuantity">6</td>
 					</tr>
-					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnSurname"><a href="srn/4/5/e6452b2fb4172e009bd9c12bbb4f2e54.html" title="Kasin">Kasin</a></td>
+					<tr class = "BeginLetter">
+						<td class="ColumnLetter"><a id="K" name="K" title="Surnames beginning with letter 'K' LATIN CAPITAL LETTER K">K</a></td>
+						<td class="ColumnSurname"><a href="srn/4/5/e6452b2fb4172e009bd9c12bbb4f2e54.html" title="Kasin starting with LATIN CAPITAL LETTER K">Kasin</a></td>
 						<td class="ColumnQuantity">4</td>
 					</tr>
 					<tr class = "BeginLetter">
-						<td class="ColumnLetter"><a name="R" title="Surnames beginning with letter R">R</a></td>
-						<td class="ColumnSurname"><a href="srn/c/c/ee81f9946eb9d7ab1bca7c4719c968cc.html" title="Rongain">Rongain</a></td>
-						<td class="ColumnQuantity">3</td>
-					</tr>
-					<tr class = "BeginLetter">
-						<td class="ColumnLetter"><a name="K" title="Surnames beginning with letter K">K</a></td>
-						<td class="ColumnSurname"><a href="srn/a/c/a1564af21b33cc6f8e6be7ed2b0216ca.html" title="Konttinen">Konttinen</a></td>
-						<td class="ColumnQuantity">2</td>
-					</tr>
-					<tr class = "BeginLetter">
-						<td class="ColumnLetter"><a name="T" title="Surnames beginning with letter T">T</a></td>
-						<td class="ColumnSurname"><a href="srn/f/e/e2fcaf5a7d470a5b17a5cfe5bbd801ef.html" title="Tirkkonen">Tirkkonen</a></td>
+						<td class="ColumnLetter"><a id="K" name="K" title="Surnames beginning with letter 'K' LATIN CAPITAL LETTER K">K</a></td>
+						<td class="ColumnSurname"><a href="srn/8/8/917f2901d1f60d65ab7c7de9c52a9488.html" title="Kähkönen starting with LATIN CAPITAL LETTER K">Kähkönen</a></td>
 						<td class="ColumnQuantity">2</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnSurname"><a href="srn/4/d/c7a1c7cd333035bb23c7e615110aefd4.html" title="Toropain">Toropain</a></td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnSurname"><a href="srn/a/c/a1564af21b33cc6f8e6be7ed2b0216ca.html" title="Konttinen starting with LATIN CAPITAL LETTER K">Konttinen</a></td>
 						<td class="ColumnQuantity">2</td>
 					</tr>
 					<tr class = "BeginLetter">
-						<td class="ColumnLetter"><a name="B" title="Surnames beginning with letter B">B</a></td>
-						<td class="ColumnSurname"><a href="srn/9/5/b4a5b6586909e0a8186782ace8f98359.html" title="Burman">Burman</a></td>
+						<td class="ColumnLetter"><a id="L" name="L" title="Surnames beginning with letter 'L' LATIN CAPITAL LETTER L">L</a></td>
+						<td class="ColumnSurname"><a href="srn/a/1/199bbd3bd27bfad55c260bdb747a691a.html" title="Lintunen starting with LATIN CAPITAL LETTER L">Lintunen</a></td>
+						<td class="ColumnQuantity">2</td>
+					</tr>
+					<tr class = "BeginLetter">
+						<td class="ColumnLetter"><a id="R" name="R" title="Surnames beginning with letter 'R' LATIN CAPITAL LETTER R">R</a></td>
+						<td class="ColumnSurname"><a href="srn/e/1/79ee338b149905c2855e3806c274ff1e.html" title="Rissain starting with LATIN CAPITAL LETTER R">Rissain</a></td>
+						<td class="ColumnQuantity">2</td>
+					</tr>
+					<tr class = "BeginLetter">
+						<td class="ColumnLetter"><a id="T" name="T" title="Surnames beginning with letter 'T' LATIN CAPITAL LETTER T">T</a></td>
+						<td class="ColumnSurname"><a href="srn/f/e/e2fcaf5a7d470a5b17a5cfe5bbd801ef.html" title="Tirkkonen starting with LATIN CAPITAL LETTER T">Tirkkonen</a></td>
+						<td class="ColumnQuantity">2</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnSurname"><a href="srn/4/d/c7a1c7cd333035bb23c7e615110aefd4.html" title="Toropain starting with LATIN CAPITAL LETTER T">Toropain</a></td>
+						<td class="ColumnQuantity">2</td>
+					</tr>
+					<tr class = "BeginLetter">
+						<td class="ColumnLetter"><a id="W" name="W" title="Surnames beginning with letter 'W' LATIN CAPITAL LETTER W">W</a></td>
+						<td class="ColumnSurname"><a href="srn/6/7/03e1939e018dabb3e43a384e989dd776.html" title="Wartiainen starting with LATIN CAPITAL LETTER W">Wartiainen</a></td>
+						<td class="ColumnQuantity">2</td>
+					</tr>
+					<tr class = "BeginLetter">
+						<td class="ColumnLetter"><a id="B" name="B" title="Surnames beginning with letter 'B' LATIN CAPITAL LETTER B">B</a></td>
+						<td class="ColumnSurname"><a href="srn/9/5/b4a5b6586909e0a8186782ace8f98359.html" title="Burman starting with LATIN CAPITAL LETTER B">Burman</a></td>
 						<td class="ColumnQuantity">1</td>
 					</tr>
 					<tr class = "BeginLetter">
-						<td class="ColumnLetter"><a name="H" title="Surnames beginning with letter H">H</a></td>
-						<td class="ColumnSurname"><a href="srn/d/1/0c6e829ebe4586f8172142bc0cbd291d.html" title="Halttuin">Halttuin</a></td>
+						<td class="ColumnLetter"><a id="H" name="H" title="Surnames beginning with letter 'H' LATIN CAPITAL LETTER H">H</a></td>
+						<td class="ColumnSurname"><a href="srn/d/1/0c6e829ebe4586f8172142bc0cbd291d.html" title="Halttuin starting with LATIN CAPITAL LETTER H">Halttuin</a></td>
 						<td class="ColumnQuantity">1</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnSurname"><a href="srn/e/1/5f85dc03ee19328a7e7189478065c11e.html" title="Hirvonen">Hirvonen</a></td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnSurname"><a href="srn/e/1/5f85dc03ee19328a7e7189478065c11e.html" title="Hirvonen starting with LATIN CAPITAL LETTER H">Hirvonen</a></td>
 						<td class="ColumnQuantity">1</td>
 					</tr>
 					<tr class = "BeginLetter">
-						<td class="ColumnLetter"><a name="K" title="Surnames beginning with letter K">K</a></td>
-						<td class="ColumnSurname"><a href="srn/8/8/917f2901d1f60d65ab7c7de9c52a9488.html" title="Kähkönen">Kähkönen</a></td>
+						<td class="ColumnLetter"><a id="K" name="K" title="Surnames beginning with letter 'K' LATIN CAPITAL LETTER K">K</a></td>
+						<td class="ColumnSurname"><a href="srn/5/b/b3d056d065f06a6b15e77d0d3616bfb5.html" title="Kemppainen starting with LATIN CAPITAL LETTER K">Kemppainen</a></td>
 						<td class="ColumnQuantity">1</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnSurname"><a href="srn/f/2/f715c1b18c83dffc1e4e1d79af2fe52f.html" title="Kotilainen">Kotilainen</a></td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnSurname"><a href="srn/f/2/f715c1b18c83dffc1e4e1d79af2fe52f.html" title="Kotilainen starting with LATIN CAPITAL LETTER K">Kotilainen</a></td>
 						<td class="ColumnQuantity">1</td>
 					</tr>
 					<tr class = "BeginLetter">
-						<td class="ColumnLetter"><a name="L" title="Surnames beginning with letter L">L</a></td>
-						<td class="ColumnSurname"><a href="srn/1/2/63efd546be9cb39650c83fa747774721.html" title="Lievonen">Lievonen</a></td>
+						<td class="ColumnLetter"><a id="L" name="L" title="Surnames beginning with letter 'L' LATIN CAPITAL LETTER L">L</a></td>
+						<td class="ColumnSurname"><a href="srn/1/2/63efd546be9cb39650c83fa747774721.html" title="Lievonen starting with LATIN CAPITAL LETTER L">Lievonen</a></td>
 						<td class="ColumnQuantity">1</td>
 					</tr>
 					<tr class = "BeginLetter">
-						<td class="ColumnLetter"><a name="P" title="Surnames beginning with letter P">P</a></td>
-						<td class="ColumnSurname"><a href="srn/e/5/db6824688896a1e4a713a2f44c40565e.html" title="Palmstedt">Palmstedt</a></td>
-						<td class="ColumnQuantity">1</td>
-					</tr>
-					<tr class = "BeginLetter">
-						<td class="ColumnLetter"><a name="R" title="Surnames beginning with letter R">R</a></td>
-						<td class="ColumnSurname"><a href="srn/c/a/983d0a28a0b968b751aace846dd2e9ac.html" title="Rehuin">Rehuin</a></td>
+						<td class="ColumnLetter"><a id="P" name="P" title="Surnames beginning with letter 'P' LATIN CAPITAL LETTER P">P</a></td>
+						<td class="ColumnSurname"><a href="srn/e/5/db6824688896a1e4a713a2f44c40565e.html" title="Palmstedt starting with LATIN CAPITAL LETTER P">Palmstedt</a></td>
 						<td class="ColumnQuantity">1</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnSurname"><a href="srn/c/e/6bfdeed48f932107ca77a71d595eb6ec.html" title="Rigoin">Rigoin</a></td>
-						<td class="ColumnQuantity">1</td>
-					</tr>
-					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnSurname"><a href="srn/d/4/34ade5c20909a044a6cc8af783098c4d.html" title="Ronganen">Ronganen</a></td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnSurname"><a href="srn/8/4/8f94d4417e7cbb55cfad537a2eff2f48.html" title="Pitkänen starting with LATIN CAPITAL LETTER P">Pitkänen</a></td>
 						<td class="ColumnQuantity">1</td>
 					</tr>
 					<tr class = "BeginLetter">
-						<td class="ColumnLetter"><a name="S" title="Surnames beginning with letter S">S</a></td>
-						<td class="ColumnSurname"><a href="srn/4/1/22db04735de3e40b6041a77293fa9714.html" title="Sallinen">Sallinen</a></td>
+						<td class="ColumnLetter"><a id="R" name="R" title="Surnames beginning with letter 'R' LATIN CAPITAL LETTER R">R</a></td>
+						<td class="ColumnSurname"><a href="srn/c/a/983d0a28a0b968b751aace846dd2e9ac.html" title="Rehuin starting with LATIN CAPITAL LETTER R">Rehuin</a></td>
 						<td class="ColumnQuantity">1</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnSurname"><a href="srn/1/e/5c10fe09ccd7114fa159b0a6681a37e1.html" title="Silfvendoin">Silfvendoin</a></td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnSurname"><a href="srn/c/e/6bfdeed48f932107ca77a71d595eb6ec.html" title="Rigoin starting with LATIN CAPITAL LETTER R">Rigoin</a></td>
 						<td class="ColumnQuantity">1</td>
 					</tr>
 					<tr class = "BeginLetter">
-						<td class="ColumnLetter"><a name="T" title="Surnames beginning with letter T">T</a></td>
-						<td class="ColumnSurname"><a href="srn/d/7/0a63129046f65aa6558e9ed4c3cc957d.html" title="Tapain">Tapain</a></td>
+						<td class="ColumnLetter"><a id="S" name="S" title="Surnames beginning with letter 'S' LATIN CAPITAL LETTER S">S</a></td>
+						<td class="ColumnSurname"><a href="srn/4/1/22db04735de3e40b6041a77293fa9714.html" title="Sallinen starting with LATIN CAPITAL LETTER S">Sallinen</a></td>
 						<td class="ColumnQuantity">1</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnSurname"><a href="srn/8/6/f5a3ae96329c1c4bd9aa07c5ae822468.html" title="Toivain">Toivain</a></td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnSurname"><a href="srn/1/e/5c10fe09ccd7114fa159b0a6681a37e1.html" title="Silfvendoin starting with LATIN CAPITAL LETTER S">Silfvendoin</a></td>
 						<td class="ColumnQuantity">1</td>
 					</tr>
 					<tr class = "BeginLetter">
-						<td class="ColumnLetter"><a name="W" title="Surnames beginning with letter W">W</a></td>
-						<td class="ColumnSurname"><a href="srn/6/7/03e1939e018dabb3e43a384e989dd776.html" title="Wartiainen">Wartiainen</a></td>
+						<td class="ColumnLetter"><a id="T" name="T" title="Surnames beginning with letter 'T' LATIN CAPITAL LETTER T">T</a></td>
+						<td class="ColumnSurname"><a href="srn/8/6/f5a3ae96329c1c4bd9aa07c5ae822468.html" title="Toivain starting with LATIN CAPITAL LETTER T">Toivain</a></td>
+						<td class="ColumnQuantity">1</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnSurname"><a href="srn/2/5/2fa4435630f0b8b84a63fc04f3743552.html" title="Turpeinen starting with LATIN CAPITAL LETTER T">Turpeinen</a></td>
 						<td class="ColumnQuantity">1</td>
 					</tr>
 				</tbody>
@@ -169,7 +225,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6 on 2024-02-18
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2 on 2024-06-13
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

@@ -1,27 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>My Family Tree - Sallinen, Eva Stina</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
-	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">My Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">My Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li class = "CurrentSection"><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
 					<li><a href="../../../families.html" title="Families">Families</a></li>
@@ -29,13 +39,43 @@
 					<li><a href="../../../places.html" title="Places">Places</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="IndividualDetail">
 			<h3>Sallinen, Eva Stina<sup><small></small></sup></h3>
 			<div id="summaryarea">
@@ -58,7 +98,7 @@
 			</div>
 			<div class="subsection" id="events">
 				<h4>Events</h4>
-				<table class="infolist eventlist">
+				<table class="infolist eventlist toggle_event ltr" id="toggle_event" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnEvent">Event</th>
@@ -70,7 +110,7 @@
 					</thead>
 					<tbody>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/7/c/cb93840e704618a74c7.html" title="Birth">
 								Birth
 								</a>
@@ -82,9 +122,6 @@
 							&nbsp;
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -92,7 +129,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/8/9/d0191ba97c05c806898.html" title="Death">
 								Death
 								</a>
@@ -110,9 +147,6 @@
 							 <a href="#sref1a">1a</a> <a href="#sref2a">2a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -124,15 +158,15 @@
 			</div>
 			<div class="subsection" id="families">
 				<h4>Families</h4>
-				<table class="infolist">
+				<table class="infolist" id="toggle_families" style="display:block">
 					<tr class="BeginFamily">
-						<td class="ColumnValue" colspan="3"><H4 class="subsection"><a href="../../../fam/3/c/cb9384c7503395850c3.html" title="Family of Taponen, Nils Jöransson and Sallinen, Eva Stina">Family of Taponen, Nils Jöransson and Sallinen, Eva Stina</a></H4></td>
+						<td class="ColumnValue" colspan="3"><H4 class="subsection"><a href="../../../fam/3/c/cb9384c7503395850c3.html" title="Family of Tapanen, Nils Jöransson and Sallinen, Eva Stina">Family of Tapanen, Nils Jöransson and Sallinen, Eva Stina</a></H4></td>
 					</tr>
 					<tr class="BeginFamily">
 						<td class="ColumnType">Married</td>
 						<td class="ColumnAttribute">Husband</td>
 						<td class="ColumnValue">
-							<a href="../../../ppl/5/7/cb937d8bfc70c373375.html">Taponen, Nils Jöransson</a>
+							<a href="../../../ppl/5/7/cb937d8bfc70c373375.html">Tapanen, Nils Jöransson</a>
 						 ( * 
 						1827-04-13
 						 + 
@@ -142,9 +176,8 @@
 					</tr>
 					<tr>
 						<td class="ColumnType">&nbsp;</td>
-						<td class="ColumnAttribute">&nbsp;</td>
-						<td class="ColumnValue">
-							<table class="infolist eventlist">
+						<td class="ColumnValue" colspan="2">
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnEvent">Event</th>
@@ -156,7 +189,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/8/b/cb938527b72251bbdb8.html" title="Marriage">
 											Marriage
 											</a>
@@ -169,12 +202,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										&nbsp;
+										 <a href="#sref3a">3a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -182,7 +212,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/3/7/cfa389daf9d117b0d73.html" title="Residence">
 											Residence
 											</a>
@@ -195,12 +225,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref3a">3a</a>
+										 <a href="#sref4a">4a</a> <a href="#sref5a">5a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -208,7 +235,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/d/b/cfa38b7ed5f5f1041bd.html" title="Residence">
 											Residence
 											</a>
@@ -221,12 +248,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref3b">3b</a>
+										 <a href="#sref4b">4b</a> <a href="#sref5b">5b</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -234,7 +258,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/f/9/d0191f9369e04bfb09f.html" title="Residence (Unknown)">
 											Residence (Unknown)
 											</a>
@@ -250,9 +274,6 @@
 										 <a href="#sref1b">1b</a> <a href="#sref1a">1a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -263,10 +284,9 @@
 							</table>
 						</td>
 						<tr>
-							<td class="ColumnType">&nbsp;</td>
 							<td class="ColumnAttribute">Children</td>
-							<td class="ColumnValue" />
-							<table class="infolist eventlist">
+							<td class="ColumnValue Child" colspan="2" />
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnName">Name</th>
@@ -278,7 +298,7 @@
 									<tr><td /><a href="../../../ppl/d/8/cb93818ef2a77a0d28d.html">Taponen, Maja Kristina</a><td>1848-05-22</td><td></td></tr>
 									<tr><td /><a href="../../../ppl/d/a/cb937baae6821b777ad.html">Taponen, Johan</a><td>1852-12-06</td><td></td></tr>
 									<tr><td /><a href="../../../ppl/6/2/cb938694d8b7a518826.html">Taponen, Nils ²</a><td>1860-05-22</td><td></td></tr>
-									<tr><td /><a href="../../../ppl/1/7/cb9387523a946030f71.html">Taponen, Anna Josefina</a><td>1863-06-06</td><td></td></tr>
+									<tr><td /><a href="../../../ppl/1/7/cb9387523a946030f71.html">Tapanen, Anna Josefina</a><td>1863-06-06</td><td></td></tr>
 									<tr><td /><a href="../../../ppl/0/2/cb9387a23152ebf0a20.html">Taponen, Mina Sofia</a><td>1865-08-16</td><td>1868-04-19</td></tr>
 									<tr><td /><a href="../../../ppl/c/8/cb9388f33bf12497c8c.html">Taponen, Henrik</a><td>1867-11-27</td><td></td></tr>
 								</tbody>
@@ -289,14 +309,14 @@
 			</div>
 			<div class="subsection" id="pedigree">
 				<h4>Pedigree</h4>
-				<ol class="pedigreegen">
+				<ol class="pedigreegen" id="toggle_pedigree" style="display:block">
 					<li>
 						<ol>
 							<li class="thisperson">
 							Sallinen, Eva Stina
 								<ol class="spouselist">
 									<li class="spouse">
-										<a href="../../../ppl/5/7/cb937d8bfc70c373375.html">Taponen, Nils Jöransson</a>
+										<a href="../../../ppl/5/7/cb937d8bfc70c373375.html">Tapanen, Nils Jöransson</a>
 										<ol>
 											<li>
 												<a href="../../../ppl/d/8/cb93818ef2a77a0d28d.html">Taponen, Maja Kristina</a>
@@ -308,7 +328,7 @@
 												<a href="../../../ppl/6/2/cb938694d8b7a518826.html">Taponen, Nils ²</a>
 											</li>
 											<li>
-												<a href="../../../ppl/1/7/cb9387523a946030f71.html">Taponen, Anna Josefina</a>
+												<a href="../../../ppl/1/7/cb9387523a946030f71.html">Tapanen, Anna Josefina</a>
 											</li>
 											<li>
 												<a href="../../../ppl/0/2/cb9387a23152ebf0a20.html">Taponen, Mina Sofia</a>
@@ -326,19 +346,22 @@
 			</div>
 			<div class="subsection" id="sourcerefs">
 				<h4>Source References</h4>
-				<ol>
+				<ol id="srcr">
 					<li>
-						<a href="../../../src/6/f/d0191c289c501eabcf6.html" title="Rääkkylän seurakunta: Rääkkylä Rippikirja 1865-1874" name ="sref1">
-						Rääkkylän seurakunta: Rääkkylä Rippikirja 1865-1874
+						<a href="../../../src/6/f/d0191c289c501eabcf6.html" title="Rääkkylän seurakunta: Rääkkylä Rippikirja 1865-1875" name ="sref1">
+						Rääkkylän seurakunta: Rääkkylä Rippikirja 1865-1875
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref1a">
 								<ul>
 									<li>
 									Page: 387
 									</li>
 									<li>
-									Url: <div class="grampsstylednote"><p><a href="https://astia.narc.fi/astiaUi/digiview.php?imageId=26043039&amp;aytun=1885933.KA">https://astia.narc.fi/astiaUi/digiview.php?imageId=26043039&amp;aytun=1885933.KA</a></p></div>
+									Citation: <div class="grampsstylednote"><p>Rääkkylän seurakunnan arkisto - I Aa:10 Rippikirja 1865-1875, jakso 85, sivu 387: Oravisalo ; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=6039584483&amp;aineistoId=1193219104 / Viitattu 30.5.2024</p></div>
+									</li>
+									<li>
+									Url: <div class="grampsstylednote"><p><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=6039584483&amp;aineistoId=1193219104">https://astia.narc.fi/uusiastia/viewer/?fileId=6039584483&amp;aineistoId=1193219104</a></p></div>
 									</li>
 									<li>
 									Transcript: <div class="grampsstylednote"><p>Trp		Nils Jöranss. Tapanen	14/4 1824	nkb p 269	2 gn gift<br />Hru	Eva Stina Sallinen		5/11 1836				död 2/7 1872<br />Hu		Maria Sofia Palmstedt	28/5 1831				vigde 22/12 1874</p></div>
@@ -351,7 +374,10 @@
 									Page: 208
 									</li>
 									<li>
-									Url: <div class="grampsstylednote"><p><a href="https://astia.narc.fi/astiaUi/digiview.php?imageId=25826439&amp;aytun=1885932.KA&amp;j=199">https://astia.narc.fi/astiaUi/digiview.php?imageId=25826439&amp;aytun=1885932.KA&amp;j=199</a></p></div>
+									Citation: <div class="grampsstylednote"><p>Rääkkylän seurakunnan arkisto - I Aa:9 Rippikirja 1865-1875, jakso 199, sivu 208: Oravisalo 17 Ranta ; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=4634232852&amp;aineistoId=1193209541 / Viitattu 30.5.2024</p></div>
+									</li>
+									<li>
+									Url: <div class="grampsstylednote"><p><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=4634232852&amp;aineistoId=1193209541">https://astia.narc.fi/uusiastia/viewer/?fileId=4634232852&amp;aineistoId=1193209541</a></p></div>
 									</li>
 									<li>
 									Transcript: <div class="grampsstylednote"><p>Oravisalo<br />N: 17	Ranta<br />St Drg	Nils Tapanen mhu se pag 387</p></div>
@@ -364,7 +390,7 @@
 						<a href="../../../src/8/0/cdd72c7c170018d1c08.html" title="Rääkkylän seurakunta: Rääkkylä Kuolleet 1858-1879" name ="sref2">
 						Rääkkylän seurakunta: Rääkkylä Kuolleet 1858-1879
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref2a">
 								<ul>
 									<li>
@@ -381,27 +407,86 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/8/e/cdd72720ee82f1422e8.html" title="Rääkkylän seurakunta: Rääkkylä Rippikirja 1853-1864" name ="sref3">
-						Rääkkylän seurakunta: Rääkkylä Rippikirja 1853-1864
+						<a href="../../../src/a/f/f9de8d6769649bad1ecd6eb0bfa.html" title="Rääkkylän seurakunta: Rääkkylä Vihityt 1859-1879" name ="sref3">
+						Rääkkylän seurakunta: Rääkkylä Vihityt 1859-1879
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref3a">
 								<ul>
 									<li>
+									Page: Eb:3/9
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Rääkkylä vihityt 1857-1879 (TK2182 I Eb:3)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15134&amp;pnum=9 / Viitattu 30.05.2024</p></div>
+									</li>
+									<li>
+									Url: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15134&amp;pnum=9">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15134&amp;pnum=9</a></p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../src/8/e/cdd72720ee82f1422e8.html" title="Rääkkylän seurakunta: Rääkkylä Rippikirja 1853-1864" name ="sref4">
+						Rääkkylän seurakunta: Rääkkylä Rippikirja 1853-1864
+						</a>
+						<ol id="citr">
+							<li id="sref4a">
+								<ul>
+									<li>
 									Page: 143
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Rääkkylän seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A KIRKON PÄÄKIRJAT HAKEMISTOINEEN. I Aa Rippikirjat. I Aa:8 Rippikirja  (1853-1864). Tiedosto 145. Kansallisarkisto. Viitattu 28.5.2024.</p></div>
 									</li>
 									<li>
 									Url: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=6581395">http://digi.narc.fi/digi/view.ka?kuid=6581395</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5821448287&amp;aineistoId=1193190157">https://astia.narc.fi/uusiastia/viewer/?fileId=5821448287&amp;aineistoId=1193190157</a></p></div>
 									</li>
 								</ul>
 							</li>
-							<li id="sref3b">
+							<li id="sref4b">
 								<ul>
 									<li>
 									Page: 299
 									</li>
 									<li>
+									Citation: <div class="grampsstylednote"><p>Rääkkylän seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A KIRKON PÄÄKIRJAT HAKEMISTOINEEN. I Aa Rippikirjat. I Aa:8 Rippikirja  (1853-1864). Tiedosto 305. Kansallisarkisto. Viitattu 30.5.2024.</p></div>
+									</li>
+									<li>
 									Url: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=6581547">http://digi.narc.fi/digi/view.ka?kuid=6581547</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5821449292&amp;aineistoId=1193190157">https://astia.narc.fi/uusiastia/viewer/?fileId=5821449292&amp;aineistoId=1193190157</a></p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../src/5/3/cdd3b6e03993cbf8635.html" title="Rääkkylän seurakunta: Rääkkylä Lastenkirja 1853-1867" name ="sref5">
+						Rääkkylän seurakunta: Rääkkylä Lastenkirja 1853-1867
+						</a>
+						<ol id="citr">
+							<li id="sref5a">
+								<ul>
+									<li>
+									Page: Ab:4/142-143
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Rääkkylä lastenkirja 1853-1867 (TK2181 I Ab:4)  Sivu 142 Kiesvaara ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=10846&amp;pnum=77 / Viitattu 02.06.2024</p></div>
+									</li>
+									<li>
+									Url: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=10846&amp;pnum=77">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=10846&amp;pnum=77</a></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref5b">
+								<ul>
+									<li>
+									Page: Ab:4/298-299
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Rääkkylä lastenkirja 1853-1867 (TK2181 I Ab:4)  Sivu 298  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=10846&amp;pnum=155 / Viitattu 02.06.2024</p></div>
+									</li>
+									<li>
+									Url: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=10846&amp;pnum=155">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=10846&amp;pnum=155</a></p></div>
 									</li>
 								</ul>
 							</li>
@@ -413,7 +498,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2015-04-26 20:59:48
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2<br />Last change was the 2015-04-26 20:59:48
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

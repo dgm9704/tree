@@ -1,26 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>My Family Tree - Events</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">My Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">My Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li><a href="individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="index.html" title="Surnames">Surnames</a></li>
 					<li><a href="families.html" title="Families">Families</a></li>
@@ -28,19 +39,49 @@
 					<li><a href="places.html" title="Places">Places</a></li>
 					<li><a href="sources.html" title="Sources">Sources</a></li>
 					<li><a href="repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="media.html" title="Media">Media</a></li>
-					<li><a href="thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="updates.html" title="Updates">Updates</a></li>
 					<li><a href="statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="EventList">
 			<p id="description">
 			This page contains an index of all the events in the database, sorted by their type and date (if one is present). Clicking on an event&#8217;s Gramps ID will open a page for that event.
 			</p>
-			<div id="alphanav">
-				<ul>
+			<div id="ltr">
+				<ul class="ltr">
 					<li><a href="#B" title="Alphabet Menu: B">B</a></li>
 					<li><a href="#C" title="Alphabet Menu: C">C</a></li>
 					<li><a href="#D" title="Alphabet Menu: D">D</a></li>
@@ -49,7 +90,7 @@
 					<li><a href="#R" title="Alphabet Menu: R">R</a></li>
 				</ul>
 			</div>
-			<table class="infolist primobjlist alphaevent">
+			<table class="infolist primobjlist alphaevent ltr">
 				<thead>
 					<tr>
 						<th class="ColumnRowLabel">Letter</th>
@@ -68,12 +109,23 @@
 							<a href="./evt/3/7/cdd711d3990275eca73.html" title="E0194">E0194</a>
 						</td>
 						<td class="ColumnPerson">
-							<span class="person"><a href="ppl/5/7/cb937d8bfc70c373375.html">Taponen, Nils Jöransson</a></span>
+							<span class="person"><a href="ppl/5/7/cb937d8bfc70c373375.html">Tapanen, Nils Jöransson</a></span>
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Baptism">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">1839-06-25</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/d/0/fa08552e8fa4807b0d202bcdd0d.html" title="E0233">E0233</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/b/3/cca2060fc18189e5c3b.html">Tapanen, Michel</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1854-01-01</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/2/2/d0110ecf2b47b73cf22.html" title="E0120">E0120</a>
@@ -82,8 +134,8 @@
 							<span class="person"><a href="ppl/c/3/d0110ee43ac2eae393c.html">Kiiski, Henrik</a></span>
 						</td>
 					</tr>
-					<tr class = "BeginLetter BeginType">
-						<td class="ColumnLetter"><a id="B" name="B" title="Event types beginning with letter B">B</a></td>
+					<tr class = "BeginType">
+						<td class="ColumnLetter"></td>
 						<td class="ColumnType" title="Birth">Birth</td>
 						<td class="ColumnDate">1737</td>
 						<td class="ColumnGRAMPSID">
@@ -94,8 +146,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1737</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/f/9/cdd04d61f4970eb369f.html" title="E0176">E0176</a>
@@ -105,8 +157,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1766</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/f/0/da7cf5a15bd1af70cc561c290f.html" title="E0070">E0070</a>
@@ -116,8 +168,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1767</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/7/8/cdd0f030b330cb8fa87.html" title="E0190">E0190</a>
@@ -127,8 +179,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1769</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/e/4/cdd04e84dbe4590964e.html" title="E0178">E0178</a>
@@ -138,8 +190,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1778</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/c/7/cdd04c9df8b7b7c747c.html" title="E0173">E0173</a>
@@ -149,8 +201,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1778</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/4/1/cdd04cb6db97b0ec714.html" title="E0174">E0174</a>
@@ -160,8 +212,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1785</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/8/9/da92b21e42f5e05783b93863198.html" title="E0204">E0204</a>
@@ -171,8 +223,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1786</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/3/e/cdd054d2f1435e3fde3.html" title="E0182">E0182</a>
@@ -182,8 +234,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1786</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/5/9/da92b73d77d766b7a6960adf295.html" title="E0208">E0208</a>
@@ -193,8 +245,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1787</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/6/3/da86c5a2fc16fc8eeefaa1ec836.html" title="E0084">E0084</a>
@@ -204,8 +256,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1795</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/5/6/da86c5208444f8411e3987f4765.html" title="E0083">E0083</a>
@@ -215,8 +267,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1798</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/5/d/cdcdf83917844e8f4d5.html" title="E7536">E7536</a>
@@ -226,8 +278,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1799</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/c/6/cca204eff406c0fed6c.html" title="E0050">E0050</a>
@@ -237,8 +289,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1799</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/d/b/cdcdf8fd2db62cdfdbd.html" title="E7537">E7537</a>
@@ -248,8 +300,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1804-11-03</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/4/3/cca20506c6a49e14734.html" title="E0051">E0051</a>
@@ -259,8 +311,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1810-06-06</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/f/9/cdd0561ac833bf1169f.html" title="E0184">E0184</a>
@@ -270,9 +322,9 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
-						<td class="ColumnDate">1814</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">1814-07-02</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/5/9/da86c9dda05340bfb958c0ded95.html" title="E0088">E0088</a>
 						</td>
@@ -281,8 +333,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1816-09-05</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/a/f/d011175830202cdd9fa.html" title="E0124">E0124</a>
@@ -292,8 +344,19 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">1816-11-10</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/e/c/fa024152d5059b83b57071081ce.html" title="E0163">E0163</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/e/c/fa024087ea22a1da7a1c02596ce.html">Rissain, Anna Juliana</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1816-12-21</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/4/6/d010f8a563b71e72064.html" title="E0116">E0116</a>
@@ -303,9 +366,9 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
-						<td class="ColumnDate">1819-01-14</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">1820-01-18</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/a/2/da86c608bc12d1517938cacbe2a.html" title="E0085">E0085</a>
 						</td>
@@ -314,8 +377,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1820-05-06</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/a/6/da92b2e72c5de86cb61fb6096a.html" title="E0205">E0205</a>
@@ -325,8 +388,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1822-06-04</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/5/9/d010f7bf03f624c0995.html" title="E0115">E0115</a>
@@ -336,8 +399,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1825-03-27</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/1/b/cb937e30fc72eb7c7b1.html" title="E0002">E0002</a>
@@ -347,8 +410,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1826-06-04</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/e/c/da92b3290e631d37de4e4beb2ce.html" title="E0206">E0206</a>
@@ -358,19 +421,19 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1827-04-13</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/c/d/cb937d863d440fa57dc.html" title="E0001">E0001</a>
 						</td>
 						<td class="ColumnPerson">
-							<span class="person"><a href="ppl/5/7/cb937d8bfc70c373375.html">Taponen, Nils Jöransson</a></span>
+							<span class="person"><a href="ppl/5/7/cb937d8bfc70c373375.html">Tapanen, Nils Jöransson</a></span>
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1827-08-14</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/f/c/cdce286833f6ea103cf.html" title="E7541">E7541</a>
@@ -380,8 +443,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1829-06-04</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/4/a/cdce2e1fb1e3e14e2a4.html" title="E7545">E7545</a>
@@ -391,8 +454,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1829-09-26</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/7/b/cca205741a73528dbb7.html" title="E0052">E0052</a>
@@ -402,8 +465,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1830-05-26</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/8/7/da92b39bfc4600552871f1bd378.html" title="E0207">E0207</a>
@@ -413,8 +476,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1831-05-28</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/0/5/d0192211163166ade50.html" title="E0131">E0131</a>
@@ -424,8 +487,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1834-06-01</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/a/c/cca205c587f285586ca.html" title="E0053">E0053</a>
@@ -435,8 +498,19 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">1834-09-01</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/2/f/f9e73b79af25136a9c7a8ddd8f2.html" title="E0107">E0107</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/a/5/f9e739f51a815ea9ded7c0bc95a.html">Kähkönen, Anna</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1835-05-18</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/7/e/cdce28ccca1299cb2e7.html" title="E7542">E7542</a>
@@ -446,8 +520,30 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">1835-09-10</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/1/4/fa0568a6719632b5e6dc263b441.html" title="E0231">E0231</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/7/5/fa0567f10ba344c16f9e03e5e57.html">Rissain, Anna Sofia</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">1838-02-02</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/f/6/fa0243cee697ff85c70fe08486f.html" title="E0180">E0180</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/6/c/fa02437933b5db86ac0d8c660c6.html">Rongain, Johan Henric</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1838-11-05</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/7/c/cb93840e704618a74c7.html" title="E0011">E0011</a>
@@ -457,8 +553,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1839-03-20</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/e/d/d01117f9c050f09e6de.html" title="E0125">E0125</a>
@@ -468,8 +564,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1839-05-10</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/9/e/cdce291aa9f4fecb8e9.html" title="E7543">E7543</a>
@@ -479,19 +575,41 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1839-05-21</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/9/c/cca206084a65f7b3ac9.html" title="E0054">E0054</a>
 						</td>
 						<td class="ColumnPerson">
-							<span class="person"><a href="ppl/b/3/cca2060fc18189e5c3b.html">Taponen, Michel</a></span>
+							<span class="person"><a href="ppl/b/3/cca2060fc18189e5c3b.html">Tapanen, Michel</a></span>
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">1840-01-04</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/b/7/fa04eeab7c8235f86447142f17b.html" title="E0224">E0224</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/a/d/fa04ed23fde23d58e3976989eda.html">Rongain, Matts</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">1842-12-02</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/d/6/fa04f7cd37438c078915251aa6d.html" title="E0225">E0225</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/c/a/fa04f6bc2c0447504a9390ee6ac.html">Rongain, August</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1842-12-26</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/a/9/da7c12694ba5aa9fa43289519a.html" title="E0047">E0047</a>
@@ -501,8 +619,30 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">1844-05-10</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/5/7/fa086971ac585dc71f7472b475.html" title="E0239">E0239</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/8/1/fa0868a7e3477ce57c082616018.html">Turpeinen, Anna Lena</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">1845-02-23</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/0/e/fa0516bc97534cd8123827734e0.html" title="E0227">E0227</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/6/f/fa0514a44024f6479f6f8292ff6.html">Rongain, Anna Sofia</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1845-06-26</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/e/5/da7c787c0181056f6670a36a25e.html" title="E0064">E0064</a>
@@ -512,8 +652,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1848-05-22</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/f/f/cb93818839e4b1906ff.html" title="E0004">E0004</a>
@@ -523,8 +663,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1849-04-21</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/1/9/d0110a27119481cdb91.html" title="E0117">E0117</a>
@@ -534,30 +674,41 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">1849-12-17</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/f/a/f9eea6fdd2b5552676537d02faf.html" title="E0153">E0153</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/d/8/f9eea5923c36f3d824d1e9b9d8d.html">Wartiainen, Paavo Antinpoika</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1850-01-17</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/3/c/cb9381d78bd4eb1bcc3.html" title="E0005">E0005</a>
 						</td>
 						<td class="ColumnPerson">
-							<span class="person"><a href="ppl/2/2/cb9381f71285d1f4d22.html">Taponen, Anna Lisa</a></span>
+							<span class="person"><a href="ppl/2/2/cb9381f71285d1f4d22.html">Tapanen, Anna Lisa</a></span>
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1850-11-13</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/c/2/cb938234bb45eeb8a2c.html" title="E0007">E0007</a>
 						</td>
 						<td class="ColumnPerson">
-							<span class="person"><a href="ppl/b/3/cb93824e4956d8c863b.html">Taponen, Anna Sofia</a></span>
+							<span class="person"><a href="ppl/b/3/cb93824e4956d8c863b.html">Tapanen, Anna Sofia</a></span>
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1851-08-22</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/6/3/d0110a6c94336cbff36.html" title="E0118">E0118</a>
@@ -567,8 +718,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1852-12-06</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/c/1/cb937b9cbc8652dc01c.html" title="E0000">E0000</a>
@@ -578,8 +729,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1853-11-11</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/2/8/d0110e5915346032e82.html" title="E0119">E0119</a>
@@ -589,8 +740,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1854-12-01</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/2/f/cb93830b9ef7b1d97f2.html" title="E0010">E0010</a>
@@ -600,8 +751,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1857-03-24</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/8/b/cb93857c4514d97e9b8.html" title="E0013">E0013</a>
@@ -611,8 +762,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1857-04-10</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/8/6/cfa358a204f62f35368.html" title="E0056">E0056</a>
@@ -622,8 +773,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1860-04-25</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/e/a/d0110f88e965687afae.html" title="E0121">E0121</a>
@@ -633,8 +784,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1860-05-22</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/2/e/cb93866174a34e64fe2.html" title="E0016">E0016</a>
@@ -644,19 +795,30 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1863-06-06</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/b/8/cb93874bb353188fd8b.html" title="E0017">E0017</a>
 						</td>
 						<td class="ColumnPerson">
-							<span class="person"><a href="ppl/1/7/cb9387523a946030f71.html">Taponen, Anna Josefina</a></span>
+							<span class="person"><a href="ppl/1/7/cb9387523a946030f71.html">Tapanen, Anna Josefina</a></span>
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">1864-08-15</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/4/f/f9eea7de7075634eac609a6bff4.html" title="E0154">E0154</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/8/7/f9eea7649e711cfa27fab06c378.html">Kemppainen, Maria Lovisa Abrahamintytär</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1865-08-16</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/b/2/cb938799f2400ffc82b.html" title="E0018">E0018</a>
@@ -666,8 +828,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1867-10-10</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/3/1/da7ceda4e9a6be9cb03c3e76713.html" title="E0069">E0069</a>
@@ -677,8 +839,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1867-11-27</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/0/b/cb9388ed9ad4e2a87b0.html" title="E0020">E0020</a>
@@ -688,8 +850,19 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">1869-06-23</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/5/b/fa08c1467c4e80a36d30cc60b5.html" title="E0243">E0243</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/6/e/fa08c0cfc5a7ee09f69fcbcfbe6.html">Pitkänen, Anna Antintytär</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1869-07-21</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/3/c/da7cecdc27d5bca1d3d0da01ac3.html" title="E0068">E0068</a>
@@ -699,8 +872,63 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">1871-07-16</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/9/d/fa0878f65da11ab10a28d8945d9.html" title="E0241">E0241</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/a/4/fa08782c4ff4bca6f3677926b4a.html">Tapanen, Elias</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">1872-12-17</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/4/d/fa0b6f692f727490975d7332dd4.html" title="E0255">E0255</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/2/b/fa0b6e94a9a7391eee7bdbb47b2.html">Lintunen, Elias Marianpoika</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">1873-02-25</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/5/3/fa08c23d03060e2faa3840a0c35.html" title="E0245">E0245</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/7/e/fa08c1dd03b29c6bec53a94d8e7.html">Tapanen, Maija Stiina</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">1875-06-26</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/d/9/fa08f2ed21852f3aa20039d339d.html" title="E0250">E0250</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/c/0/fa08f1ec51863e1af9931344e0c.html">Tapanen, Wilhelmina</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">1880-12-15</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/4/a/fa08d4fd05329e5988d46db2ba4.html" title="E0248">E0248</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/1/f/fa08d4a40e76ee2f0a88850baf1.html">Tapanen, Hilma</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1882-08-17</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/e/5/cca167c5f956b37355e.html" title="E0022">E0022</a>
@@ -710,8 +938,19 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">1884-08-12</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/5/6/fa08d54c727183d171bbe253a65.html" title="E0249">E0249</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/3/1/fa08d5177a3505e68a0fbcc0f13.html">Tapanen, Aina</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1885-05-19</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/e/6/cca168032af02de276e.html" title="E0023">E0023</a>
@@ -721,8 +960,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1885-10-23</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/8/2/cfa3654e11d66029128.html" title="E0060">E0060</a>
@@ -732,8 +971,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1889-05-31</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/e/7/cca1683332355658c7e.html" title="E0024">E0024</a>
@@ -743,8 +982,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1891-02-01</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/c/0/cfa3638e0eb2777d90c.html" title="E0057">E0057</a>
@@ -754,8 +993,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1892-06-13</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/3/4/cca1688f2bd1f9fcc43.html" title="E0025">E0025</a>
@@ -765,8 +1004,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1894-08-13</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/5/5/da7cd339e65678dabb46fa8ed55.html" title="E0066">E0066</a>
@@ -776,8 +1015,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1896-07-02</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/6/5/cca168bd25d133ff856.html" title="E0026">E0026</a>
@@ -787,8 +1026,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1899-06-04</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/f/6/cca1695033e04c00e6f.html" title="E0028">E0028</a>
@@ -798,8 +1037,19 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">1899-12-21</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/c/6/fa0b71807a77c609634c2c1636c.html" title="E0258">E0258</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/4/b/fa0b713594e4aa5c284c25674b4.html">Lintunen, Mikko</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1911-11-25</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/c/0/cca16a648510757d90c.html" title="E0032">E0032</a>
@@ -809,8 +1059,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1914-05-02</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/3/5/cca16bd6d767f9f1e53.html" title="E0034">E0034</a>
@@ -820,8 +1070,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1914-05-02</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/0/f/cdcdbfd7db80c4028f0.html" title="E0169">E0169</a>
@@ -831,8 +1081,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1915-06-03</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/e/b/f132552fe6761398f6ee5cfb4be.html" title="E0058">E0058</a>
@@ -842,8 +1092,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1918-05-16</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/e/f/cca16d5de892b9a63fe.html" title="E0039">E0039</a>
@@ -853,8 +1103,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1919-12-01</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/1/1/cca16c34892516d9111.html" title="E0036">E0036</a>
@@ -864,8 +1114,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Birth">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1921-01-30</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/8/d/f131dd300e825d2a05d36e057d8.html" title="E0045">E0045</a>
@@ -874,8 +1124,8 @@
 							<span class="person"><a href="ppl/0/0/f131dccb1452eff1785c6869d00.html">Taponen, Vuokko Onerva</a></span>
 						</td>
 					</tr>
-					<tr class = "BeginLetter BeginType">
-						<td class="ColumnLetter"><a id="B" name="B" title="Event types beginning with letter B">B</a></td>
+					<tr class = "BeginType">
+						<td class="ColumnLetter"></td>
 						<td class="ColumnType" title="Burial">Burial</td>
 						<td class="ColumnDate">1953-01-11</td>
 						<td class="ColumnGRAMPSID">
@@ -886,8 +1136,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Burial">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1965</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/8/f/f130bd307695fb826d880e2edf8.html" title="E0042">E0042</a>
@@ -897,8 +1147,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Burial">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1998</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/f/2/f13255bf60c4c036beffc51c22f.html" title="E0063">E0063</a>
@@ -908,8 +1158,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Burial">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">2011</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/4/3/f13250dee602b9f3e66045a4e34.html" title="E0055">E0055</a>
@@ -929,8 +1179,8 @@
 							<span class="person"><a href="ppl/6/b/cb937e38d745f457ab6.html">Kaasinen, Lisa Johansdotter</a></span>
 						</td>
 					</tr>
-					<tr class = "BeginLetter BeginType">
-						<td class="ColumnLetter"><a id="C" name="C" title="Event types beginning with letter C">C</a></td>
+					<tr class = "BeginType">
+						<td class="ColumnLetter"></td>
 						<td class="ColumnType" title="Conscription">Conscription</td>
 						<td class="ColumnDate">from 1818-08-08 to 1919-10-15</td>
 						<td class="ColumnGRAMPSID">
@@ -952,8 +1202,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Death">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1803-02-06</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/3/9/cdd04e8f37016e70b93.html" title="E0179">E0179</a>
@@ -963,8 +1213,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Death">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1807-12-14</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/4/6/cdd05c1acfe63722264.html" title="E0187">E0187</a>
@@ -974,8 +1224,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Death">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1808-02-28</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/7/5/cdd05b71b9e4b276057.html" title="E0186">E0186</a>
@@ -985,8 +1235,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Death">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1833</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/1/3/cdce2e4194b73a6f031.html" title="E7546">E7546</a>
@@ -996,8 +1246,19 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Death">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">1836-05-07</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/6/b/fa056c7985f2fd3a2bca4ad79b6.html" title="E0232">E0232</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/7/5/fa0567f10ba344c16f9e03e5e57.html">Rissain, Anna Sofia</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1841-04-12</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/b/b/d01e169f06751e8b7bb.html" title="E0145">E0145</a>
@@ -1007,8 +1268,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Death">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1841-11-24</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/a/3/da92b7ebdaa63ee3b8ab137ac3a.html" title="E0209">E0209</a>
@@ -1018,8 +1279,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Death">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1842-01-13</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/5/b/d01e17e2b292837acb5.html" title="E0146">E0146</a>
@@ -1029,8 +1290,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Death">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1842-05-31</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/0/7/d01e1ec3bc435fc3170.html" title="E0147">E0147</a>
@@ -1040,8 +1301,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Death">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1844-05-23</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/3/5/cdce292c3da6bd36153.html" title="E7544">E7544</a>
@@ -1051,8 +1312,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Death">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1846-03-04</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/4/0/da7caa602fa3fe81bf85c2d2e04.html" title="E0065">E0065</a>
@@ -1062,8 +1323,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Death">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1847-03-14</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/0/5/da7bfd3abed486d60f81dc71850.html" title="E0037">E0037</a>
@@ -1073,30 +1334,30 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Death">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1850-03-12</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/e/b/cb9381f19a10afd6abe.html" title="E0006">E0006</a>
 						</td>
 						<td class="ColumnPerson">
-							<span class="person"><a href="ppl/2/2/cb9381f71285d1f4d22.html">Taponen, Anna Lisa</a></span>
+							<span class="person"><a href="ppl/2/2/cb9381f71285d1f4d22.html">Tapanen, Anna Lisa</a></span>
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Death">&nbsp;</td>
-						<td class="ColumnDate">1852</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">1852-03-17</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/b/2/cb9382474962945a42b.html" title="E0008">E0008</a>
 						</td>
 						<td class="ColumnPerson">
-							<span class="person"><a href="ppl/b/3/cb93824e4956d8c863b.html">Taponen, Anna Sofia</a></span>
+							<span class="person"><a href="ppl/b/3/cb93824e4956d8c863b.html">Tapanen, Anna Sofia</a></span>
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Death">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1857-05-14</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/9/2/cb9382c125b0e6cbc29.html" title="E0009">E0009</a>
@@ -1106,8 +1367,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Death">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1857-06-18</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/9/2/cdcdfa063306793a229.html" title="E7538">E7538</a>
@@ -1117,8 +1378,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Death">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1857-07-02</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/2/7/cdcdfa426145f7ea372.html" title="E7539">E7539</a>
@@ -1128,8 +1389,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Death">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1858-06-21</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/3/c/cb93859621551ceadc3.html" title="E0014">E0014</a>
@@ -1139,8 +1400,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Death">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1858-12-23</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/6/0/cb9385d00f85b187306.html" title="E0015">E0015</a>
@@ -1150,8 +1411,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Death">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1859-11-19</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/2/7/d01112410ce01343472.html" title="E0122">E0122</a>
@@ -1161,8 +1422,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Death">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1859-11-29</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/8/7/d01114fde4f18856b78.html" title="E0123">E0123</a>
@@ -1172,8 +1433,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Death">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1868-04-19</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/8/c/cb9388916037a8a11c8.html" title="E0019">E0019</a>
@@ -1183,8 +1444,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Death">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1872-07-02</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/8/9/d0191ba97c05c806898.html" title="E0129">E0129</a>
@@ -1194,8 +1455,41 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Death">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">1877-06-10</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/5/4/fa09004c4502cc337e81174c345.html" title="E0251">E0251</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/c/0/fa08f1ec51863e1af9931344e0c.html">Tapanen, Wilhelmina</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">1884-02-01</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/0/2/f9deb4bc3a152b117556bfb2620.html" title="E0106">E0106</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/3/3/d019224c22949006533.html">Palmstedt, Maria Sofia</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">1901-04-07</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/a/1/f9eb4b2494236cfcf04a1bb111a.html" title="E0152">E0152</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/a/5/f9e739f51a815ea9ded7c0bc95a.html">Kähkönen, Anna</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1901-04-17</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/9/8/cca169678b14a59df89.html" title="E0029">E0029</a>
@@ -1205,8 +1499,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Death">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1912-01-30</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/b/c/cca16a81b2e2ea33ccb.html" title="E0033">E0033</a>
@@ -1216,8 +1510,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Death">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1921-06-23</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/a/4/cca16bf383363d7d24a.html" title="E0035">E0035</a>
@@ -1227,8 +1521,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Death">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1921-06-23</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/2/b/cdcdbfd7dbe2d0c42b2.html" title="E0170">E0170</a>
@@ -1238,8 +1532,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Death">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1952-12-29</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/5/5/cca1691384735bf6855.html" title="E0027">E0027</a>
@@ -1249,8 +1543,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Death">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1965-11-22</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/b/7/da7cd3ccbed2ac0e1799f54f07b.html" title="E0067">E0067</a>
@@ -1260,8 +1554,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Death">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1998-04-05</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/4/a/f132558c4b748ff7bf5a14886a4.html" title="E0059">E0059</a>
@@ -1271,8 +1565,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Death">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">2011-06-04</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/c/b/f131de72cb46be15da0b5371fbc.html" title="E0046">E0046</a>
@@ -1294,8 +1588,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Marriage">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">between 1826 and 1827</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/f/5/da82fbf4ff1225b1587afb1005f.html" title="E0073">E0073</a>
@@ -1306,8 +1600,20 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Marriage">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">1837-06-25</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/e/c/fa0247cdc7f790769f9e0c287ce.html" title="E0213">E0213</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="father"><a href="ppl/9/b/da86c8c80304370ee8788d8e4b9.html">Rongain, Matts</a></span>
+							<span class="mother"><a href="ppl/e/c/fa024087ea22a1da7a1c02596ce.html">Rissain, Anna Juliana</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1842-06-19</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/1/7/da7bfff94874ec02a3779c09d71.html" title="E0041">E0041</a>
@@ -1318,20 +1624,20 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Marriage">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1847-10-24</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/2/f/cca18a26d91729df7f2.html" title="E0049">E0049</a>
 						</td>
 						<td class="ColumnPerson">
-							<span class="father"><a href="ppl/5/7/cb937d8bfc70c373375.html">Taponen, Nils Jöransson</a></span>
+							<span class="father"><a href="ppl/5/7/cb937d8bfc70c373375.html">Tapanen, Nils Jöransson</a></span>
 							<span class="mother"><a href="ppl/6/b/cb937e38d745f457ab6.html">Kaasinen, Lisa Johansdotter</a></span>
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Marriage">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1848-12-10</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/b/a/da7c04037762a97600e0e99cbab.html" title="E0044">E0044</a>
@@ -1342,32 +1648,44 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Marriage">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1859-08-09</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/8/b/cb938527b72251bbdb8.html" title="E0012">E0012</a>
 						</td>
 						<td class="ColumnPerson">
-							<span class="father"><a href="ppl/5/7/cb937d8bfc70c373375.html">Taponen, Nils Jöransson</a></span>
+							<span class="father"><a href="ppl/5/7/cb937d8bfc70c373375.html">Tapanen, Nils Jöransson</a></span>
 							<span class="mother"><a href="ppl/f/f/cb93847eb084cf900ff.html">Sallinen, Eva Stina</a></span>
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Marriage">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">1870-07-10</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/e/a/fa0869c986fdb58a74580283ae.html" title="E0240">E0240</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="father"><a href="ppl/b/3/cca2060fc18189e5c3b.html">Tapanen, Michel</a></span>
+							<span class="mother"><a href="ppl/8/1/fa0868a7e3477ce57c082616018.html">Turpeinen, Anna Lena</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1874-12-22</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/d/f/d01922988e32a2eddfd.html" title="E0132">E0132</a>
 						</td>
 						<td class="ColumnPerson">
-							<span class="father"><a href="ppl/5/7/cb937d8bfc70c373375.html">Taponen, Nils Jöransson</a></span>
+							<span class="father"><a href="ppl/5/7/cb937d8bfc70c373375.html">Tapanen, Nils Jöransson</a></span>
 							<span class="mother"><a href="ppl/3/3/d019224c22949006533.html">Palmstedt, Maria Sofia</a></span>
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Marriage">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1881-07-24</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/f/5/d0145829348537e8d5f.html" title="E0127">E0127</a>
@@ -1378,8 +1696,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Marriage">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1885-04-30</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/d/5/cca16d1ddd034493a5d.html" title="E0038">E0038</a>
@@ -1390,8 +1708,44 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Marriage">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">1892-10-02</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/d/3/fa08c18e50a38cd966581b5cc3d.html" title="E0244">E0244</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="father"><a href="ppl/a/4/fa08782c4ff4bca6f3677926b4a.html">Tapanen, Elias</a></span>
+							<span class="mother"><a href="ppl/6/e/fa08c0cfc5a7ee09f69fcbcfbe6.html">Pitkänen, Anna Antintytär</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">1896-11-01</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/a/d/f9e73c8a9947a9d5266ede8e9da.html" title="E0108">E0108</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="father"><a href="ppl/5/7/cb937d8bfc70c373375.html">Tapanen, Nils Jöransson</a></span>
+							<span class="mother"><a href="ppl/a/5/f9e739f51a815ea9ded7c0bc95a.html">Kähkönen, Anna</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">1898-05-15</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/e/6/fa0b6fdf48f51f7b663e7b6626e.html" title="E0256">E0256</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="father"><a href="ppl/2/b/fa0b6e94a9a7391eee7bdbb47b2.html">Lintunen, Elias Marianpoika</a></span>
+							<span class="mother"><a href="ppl/1/f/fa08d4a40e76ee2f0a88850baf1.html">Tapanen, Hilma</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1911-12-26</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/9/3/cca16a2bd662ecee539.html" title="E0031">E0031</a>
@@ -1402,8 +1756,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Marriage">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1920-08-10</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/c/7/f131dc8b72f2040bf2d9ea91f7c.html" title="E0043">E0043</a>
@@ -1414,8 +1768,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Marriage">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1942-12-26</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/4/6/f132568d6154bef45f27ff81964.html" title="E0094">E0094</a>
@@ -1425,8 +1779,20 @@
 							<span class="mother"><a href="ppl/0/0/f131dccb1452eff1785c6869d00.html">Taponen, Vuokko Onerva</a></span>
 						</td>
 					</tr>
-					<tr class = "BeginLetter BeginType">
-						<td class="ColumnLetter"><a id="M" name="M" title="Event types beginning with letter M">M</a></td>
+					<tr class = "BeginType">
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="Marriage Banns">Marriage Banns</td>
+						<td class="ColumnDate">1896-10-16</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/b/c/f9e73d6ebc4157a207172e737cb.html" title="E0109">E0109</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="father"><a href="ppl/5/7/cb937d8bfc70c373375.html">Tapanen, Nils Jöransson</a></span>
+							<span class="mother"><a href="ppl/a/5/f9e739f51a815ea9ded7c0bc95a.html">Kähkönen, Anna</a></span>
+						</td>
+					</tr>
+					<tr class = "BeginType">
+						<td class="ColumnLetter"></td>
 						<td class="ColumnType" title="Military Service">Military Service</td>
 						<td class="ColumnDate">from 1939-12-08 to 1940-03-04</td>
 						<td class="ColumnGRAMPSID">
@@ -1437,8 +1803,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Military Service">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">from 1940-03-05 to 1940-05-23</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/5/2/f14bca66b2a4f5ada1c6a80a25.html" title="E0101">E0101</a>
@@ -1448,8 +1814,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Military Service">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">from 1941-08-31 to 1944-06-20</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/8/0/f14bbea6570545f59efface3808.html" title="E0099">E0099</a>
@@ -1459,8 +1825,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Military Service">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">from 1944-06-21 to 1944-07-29</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/1/8/f14bcc788571113a2f9e350f981.html" title="E0102">E0102</a>
@@ -1481,8 +1847,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Occupation">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">from 1944-07-30 to 1952-12-29</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/f/1/cdd6fee780248c9481f.html" title="E0193">E0193</a>
@@ -1503,9 +1869,9 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Residence">&nbsp;</td>
-						<td class="ColumnDate">from 1824 to 1827</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">from 1824 to 1826</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/f/3/d01e2fea0073535d63f.html" title="E0148">E0148</a>
 						</td>
@@ -1514,8 +1880,52 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Residence">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">from 1830-07-17 to 1831</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/4/c/f9feaa4b7f5482f54a83f3fcbc4.html" title="E0157">E0157</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/9/b/da86c8c80304370ee8788d8e4b9.html">Rongain, Matts</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">from 1832 to 1836</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/1/6/fa01ed4e3d5219c24971bbd3961.html" title="E0159">E0159</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/9/b/da86c8c80304370ee8788d8e4b9.html">Rongain, Matts</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">from 1832 to 1833</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/5/9/fa054dc95d76861ed90eabede95.html" title="E0230">E0230</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/e/c/fa024087ea22a1da7a1c02596ce.html">Rissain, Anna Juliana</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">from 1833 to 1837</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/4/e/fa052976a581a020ad4db6d89e4.html" title="E0229">E0229</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/e/c/fa024087ea22a1da7a1c02596ce.html">Rissain, Anna Juliana</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">from 1836 to 1838</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/5/4/da86a85aa0b34159e085956645.html" title="E0082">E0082</a>
@@ -1525,8 +1935,41 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Residence">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">from 1836 to 1837</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/b/4/fa01f27d13017b4cdea5136074b.html" title="E0160">E0160</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/9/b/da86c8c80304370ee8788d8e4b9.html">Rongain, Matts</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">from 1837 to 1838</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/a/3/fa01f4920d6569d0c8c4d3faa3a.html" title="E0161">E0161</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/9/b/da86c8c80304370ee8788d8e4b9.html">Rongain, Matts</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">from 1837 to 1838</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/a/1/fa0525de6e236cba880f1eb451a.html" title="E0228">E0228</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/e/c/fa024087ea22a1da7a1c02596ce.html">Rissain, Anna Juliana</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1838</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/d/a/da86a72447493839becb123cad.html" title="E0081">E0081</a>
@@ -1536,8 +1979,30 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Residence">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">1838</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/2/4/f9fecef8b7a125d515101f5a142.html" title="E0158">E0158</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/e/6/da86c5da93f4fc0b5565664236e.html">Rongain, Walborg</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">from 1838 to 1839</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/6/f/fa01f68f76c6ed40e215cde89f6.html" title="E0162">E0162</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/9/b/da86c8c80304370ee8788d8e4b9.html">Rongain, Matts</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">from 1839 to 1840</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/8/c/da868fbb9a76e85aaf8cd1331c8.html" title="E0075">E0075</a>
@@ -1547,8 +2012,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Residence">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">from 1840 to 1842</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/d/6/da86a46f88b534c6b456b87aa6d.html" title="E0080">E0080</a>
@@ -1558,8 +2023,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Residence">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">from 1842 to 1843</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/2/6/da8691fce206764105fe100cb62.html" title="E0076">E0076</a>
@@ -1569,8 +2034,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Residence">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">from 1842-04-22 to 1843</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/a/8/da8971148cb4d21827ed6b858a.html" title="E0093">E0093</a>
@@ -1580,8 +2045,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Residence">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">before 1842-04-22</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/8/b/da89f18c4b31457d5078036b1b8.html" title="E0203">E0203</a>
@@ -1591,8 +2056,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Residence">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">about 1843</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/7/4/cdda5e4083906665f47.html" title="E0220">E0220</a>
@@ -1602,19 +2067,19 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Residence">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1843</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/1/c/d01e04391b0401ce1c1.html" title="E0140">E0140</a>
 						</td>
 						<td class="ColumnPerson">
-							<span class="person"><a href="ppl/5/7/cb937d8bfc70c373375.html">Taponen, Nils Jöransson</a></span>
+							<span class="person"><a href="ppl/5/7/cb937d8bfc70c373375.html">Tapanen, Nils Jöransson</a></span>
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Residence">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">from 1843 to 1844</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/9/6/da86951a0dd498f54de584f8769.html" title="E0077">E0077</a>
@@ -1624,8 +2089,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Residence">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">about 1844</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/e/8/cdda5c45cee46b3ef8e.html" title="E0219">E0219</a>
@@ -1635,19 +2100,19 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Residence">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1844</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/a/2/d01e012ce33093dfd2a.html" title="E0139">E0139</a>
 						</td>
 						<td class="ColumnPerson">
-							<span class="person"><a href="ppl/5/7/cb937d8bfc70c373375.html">Taponen, Nils Jöransson</a></span>
+							<span class="person"><a href="ppl/5/7/cb937d8bfc70c373375.html">Tapanen, Nils Jöransson</a></span>
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Residence">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">from 1844 to 1846</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/5/4/da869e9464e754e99e392ab7145.html" title="E0078">E0078</a>
@@ -1657,8 +2122,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Residence">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">from 1845 to 1846</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/a/e/cdda55cd16c04fb01ea.html" title="E0218">E0218</a>
@@ -1668,30 +2133,30 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Residence">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1845</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/b/5/d01dff046b763921a5b.html" title="E0138">E0138</a>
 						</td>
 						<td class="ColumnPerson">
-							<span class="person"><a href="ppl/5/7/cb937d8bfc70c373375.html">Taponen, Nils Jöransson</a></span>
+							<span class="person"><a href="ppl/5/7/cb937d8bfc70c373375.html">Tapanen, Nils Jöransson</a></span>
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Residence">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">from 1846 to 1847</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/2/1/d01dfcfd17106a89912.html" title="E0137">E0137</a>
 						</td>
 						<td class="ColumnPerson">
-							<span class="person"><a href="ppl/5/7/cb937d8bfc70c373375.html">Taponen, Nils Jöransson</a></span>
+							<span class="person"><a href="ppl/5/7/cb937d8bfc70c373375.html">Tapanen, Nils Jöransson</a></span>
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Residence">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">from 1846 to 1847</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/3/f/da86a01f5f04b7d97657dc526f3.html" title="E0079">E0079</a>
@@ -1701,8 +2166,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Residence">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">from 1847 to 1849</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/6/1/da868e51b914920476c1c21b516.html" title="E0074">E0074</a>
@@ -1712,19 +2177,118 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Residence">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1852</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/7/2/d01e126ac5a6d206c27.html" title="E0143">E0143</a>
 						</td>
 						<td class="ColumnPerson">
-							<span class="person"><a href="ppl/b/3/cca2060fc18189e5c3b.html">Taponen, Michel</a></span>
+							<span class="person"><a href="ppl/b/3/cca2060fc18189e5c3b.html">Tapanen, Michel</a></span>
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Residence">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">from 1862 to 1863</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/f/8/f9e856afaeb3dc67dadee47578f.html" title="E0111">E0111</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/d/8/cb93818ef2a77a0d28d.html">Taponen, Maja Kristina</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">from 1863 to 1864</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/9/d/f9e857f38fc187750572db235d9.html" title="E0112">E0112</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/d/8/cb93818ef2a77a0d28d.html">Taponen, Maja Kristina</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">1865</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/f/9/f9e85c0bca16a99c6d3b87d649f.html" title="E0113">E0113</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/d/8/cb93818ef2a77a0d28d.html">Taponen, Maja Kristina</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">after 1865</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/3/c/f9e85c90474334bc7247d8d12c3.html" title="E0126">E0126</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/d/8/cb93818ef2a77a0d28d.html">Taponen, Maja Kristina</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">from 1865 to 1866</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/6/3/fa085612e2f2ec55ebe131d6b36.html" title="E0234">E0234</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/b/3/cca2060fc18189e5c3b.html">Tapanen, Michel</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">from 1866 to 1867</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/2/4/fa0859fcaec3bc41f9a3d741842.html" title="E0235">E0235</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/b/3/cca2060fc18189e5c3b.html">Tapanen, Michel</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">from 1867 to 1868</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/8/1/fa0865d5aa440dca7c692805018.html" title="E0237">E0237</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/b/3/cca2060fc18189e5c3b.html">Tapanen, Michel</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">from 1868 to 1869</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/c/f/fa085cb7d4d1df747804268affc.html" title="E0236">E0236</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/b/3/cca2060fc18189e5c3b.html">Tapanen, Michel</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">after 1869</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/f/e/fa0866c035475787e282c7259ef.html" title="E0238">E0238</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/b/3/cca2060fc18189e5c3b.html">Tapanen, Michel</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1875</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/7/c/cdd114e8d8e436e17c7.html" title="E0201">E0201</a>
@@ -1734,8 +2298,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Residence">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1880</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/8/2/cdd1138cf7b3f426d28.html" title="E0200">E0200</a>
@@ -1745,8 +2309,41 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Residence">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">from 1890 to 1891</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/2/c/fa08c302a2d3b96f9a7eaa3dec2.html" title="E0246">E0246</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/7/e/fa08c1dd03b29c6bec53a94d8e7.html">Tapanen, Maija Stiina</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">from 1896 to 1897</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/8/f/fa0b61cdc573eb3e930a1ad0ff8.html" title="E0253">E0253</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/1/f/fa08d4a40e76ee2f0a88850baf1.html">Tapanen, Hilma</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
+						<td class="ColumnDate">from 1897 to 1898</td>
+						<td class="ColumnGRAMPSID">
+							<a href="./evt/e/4/fa0b67e8f6b64ee2e63dbd1784e.html" title="E0254">E0254</a>
+						</td>
+						<td class="ColumnPerson">
+							<span class="person"><a href="ppl/1/f/fa08d4a40e76ee2f0a88850baf1.html">Tapanen, Hilma</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">after 1900-01-27</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/4/c/d32c6cab57d4b09ecc4.html" title="E0151">E0151</a>
@@ -1756,8 +2353,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Residence">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">after 1919-10-31</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/a/8/f1323c5361dc6499bd99e5ad8a.html" title="E0048">E0048</a>
@@ -1767,8 +2364,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnType" title="Residence">&nbsp;</td>
+						<td class="ColumnLetter"></td>
+						<td class="ColumnType" title="&nbsp;">&nbsp;</td>
 						<td class="ColumnDate">1920</td>
 						<td class="ColumnGRAMPSID">
 							<a href="./evt/3/7/f88cee9b5c9662a38749ff6f73.html" title="E0105">E0105</a>
@@ -1783,7 +2380,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2024-02-18 13:10:56
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2<br />Last change was the 2024-06-13 18:57:37
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

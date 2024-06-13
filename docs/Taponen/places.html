@@ -1,26 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>My Family Tree - Places</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">My Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">My Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li><a href="individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="index.html" title="Surnames">Surnames</a></li>
 					<li><a href="families.html" title="Families">Families</a></li>
@@ -28,27 +39,51 @@
 					<li class = "CurrentSection"><a href="places.html" title="Places">Places</a></li>
 					<li><a href="sources.html" title="Sources">Sources</a></li>
 					<li><a href="repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="media.html" title="Media">Media</a></li>
-					<li><a href="thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="updates.html" title="Updates">Updates</a></li>
 					<li><a href="statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="Places">
 			<p id="description">
 			This page contains an index of all the places in the database, sorted by their title. Clicking on a place&#8217;s title will take you to that place&#8217;s page.
 			</p>
-			<div id="alphanav">
-				<ul>
-					<li><a href="#1" title="Alphabet Menu: 1">1</a></li>
-					<li><a href="#2" title="Alphabet Menu: 2">2</a></li>
-					<li><a href="#3" title="Alphabet Menu: 3">3</a></li>
-					<li><a href="#5" title="Alphabet Menu: 5">5</a></li>
-					<li><a href="#6" title="Alphabet Menu: 6">6</a></li>
-					<li><a href="#7" title="Alphabet Menu: 7">7</a></li>
-					<li><a href="#8" title="Alphabet Menu: 8">8</a></li>
-					<li><a href="#9" title="Alphabet Menu: 9">9</a></li>
+			<div id="ltr">
+				<ul class="ltr">
+					<li><a href="#…" title="Alphabet Menu: …">…</a></li>
+					<li><a href="#A" title="Alphabet Menu: A">A</a></li>
 					<li><a href="#H" title="Alphabet Menu: H">H</a></li>
 					<li><a href="#J" title="Alphabet Menu: J">J</a></li>
 					<li><a href="#K" title="Alphabet Menu: K">K</a></li>
@@ -63,543 +98,703 @@
 					<li><a href="#W" title="Alphabet Menu: W">W</a></li>
 				</ul>
 			</div>
-			<table class="infolist primobjlist placelist">
+			<table class="infolist primobjlist placelist ltr">
 				<thead>
 					<tr>
 						<th class="ColumnLetter">Letter</th>
-						<th class="ColumnName"> Name</th>
-						<th class="ColumnState">State/ Province</th>
+						<th class="ColumnName">Name</th>
+						<th class="ColumnState">State/Province</th>
 						<th class="ColumnCountry">Country</th>
+						<tr class = "BeginLetter">
+							<td class="ColumnLetter"><a id="…" name="…" title="Places beginning with letter …">…</a></td>
+							<td class="ColumnName">
+								<a href="plc/3/d/cdd722b00f43f9c43d3.html" title="1,  Kiesvaara">
+								1,  Kiesvaara
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/3/7/d0206898051735e1c73.html" title="1,  Niemis">
+								1,  Niemis
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/d/f/fa085c351d3636cd71182ab51fd.html" title="1,  Oravilax">
+								1,  Oravilax
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/d/3/da869e3ab0badc42d3535103d.html" title="1,  Pötsönlax">
+								1,  Pötsönlax
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/5/b/cdda5892beb170690b5.html" title="1,  Rasivaara">
+								1,  Rasivaara
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/b/4/d01e04270114cecb74b.html" title="1,  Wenduriniemi">
+								1,  Wenduriniemi
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/a/9/cdd3e59f5d141d5d89a.html" title="10,  Rasivaara">
+								10,  Rasivaara
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/d/2/d01e2e656e955e7bc2d.html" title="11,  Wenduriniemi">
+								11,  Wenduriniemi
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/4/c/f88cd81cdca1f8e0703f5d988c4.html" title="116,  Anina">
+								116,  Anina
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/2/8/cdd10d9b4b80ba1c482.html" title="17,  Oravisalo">
+								17,  Oravisalo
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/7/0/fa0b675b2ce3e61539502aa1507.html" title="2,  Niemis">
+								2,  Niemis
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/e/9/d01e111af4c16f2329e.html" title="2,  Pimälax">
+								2,  Pimälax
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/f/6/d01dfba59956f5a4b6f.html" title="2½,  Wenduriniemi">
+								2½,  Wenduriniemi
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/0/3/da86a1e7fcb68e51fdbb16a8d30.html" title="3,  Heinoniemi">
+								3,  Heinoniemi
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/a/7/cdd03e0811602afbb7a.html" title="3,  Kiesvaara">
+								3,  Kiesvaara
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/c/2/fa08598789c4144b751e02f9f2c.html" title="3,  Niemis">
+								3,  Niemis
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/7/1/cdd1132d60375de6b17.html" title="3,  Warpasalo">
+								3,  Warpasalo
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/c/0/f88cd1e1ae24282465bf3e4780c.html" title="307,  Pietarin esikaupunki">
+								307,  Pietarin esikaupunki
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/1/6/fa0860f4979750648f915905161.html" title="4,  Niemis">
+								4,  Niemis
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/1/f/cdda5d76cb62e303df1.html" title="5,  Wenduriniemi">
+								5,  Wenduriniemi
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/9/3/d010e844be326735d39.html" title="6,  Heinoniemi">
+								6,  Heinoniemi
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/4/b/f9e8576d93348b0eeebff7c5cb4.html" title="6,  Niemis">
+								6,  Niemis
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/9/c/cdd3d2d67676a8df2c9.html" title="7,  Heinoniemi">
+								7,  Heinoniemi
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/a/8/cdd71e045181c07af8a.html" title="7,  Kiesvaara">
+								7,  Kiesvaara
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/7/8/d019aab9181411ea687.html" title="8,  Oravisalo">
+								8,  Oravisalo
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/a/b/cdda26b69d1662b92ba.html" title="8,  Rasivaara">
+								8,  Rasivaara
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/1/4/da868f5c06a6182eadb74c1d141.html" title="9,  Heinoniemi">
+								9,  Heinoniemi
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr class = "BeginLetter">
+							<td class="ColumnLetter"><a id="A" name="A" title="Places beginning with letter A">A</a></td>
+							<td class="ColumnName">
+								<a href="plc/7/7/fa01f1275b6392035a44bed3f77.html" title="Alatalo,  Jännevirta">
+								Alatalo,  Jännevirta
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/7/3/fa01f40a6691ad46c9a75ce6837.html" title="Alatalo,  Kurkharju">
+								Alatalo,  Kurkharju
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr class = "BeginLetter">
+							<td class="ColumnLetter"><a id="H" name="H" title="Places beginning with letter H">H</a></td>
+							<td class="ColumnName">
+								<a href="plc/b/e/cdcdbfd839c44c3f4eb.html" title="Hangavaara">
+								Hangavaara
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/6/e/f130b9b233b61a1735522db28e6.html" title="hauta 236,  rivi 15,  kortteli 29,  Malmin hautausmaa">
+								hauta 236,  rivi 15,  kortteli 29,  Malmin hautausmaa
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/a/7/cdd428293086534ef7a.html" title="Heinoniemi">
+								Heinoniemi
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/5/d/cca1691056519fef9d5.html" title="Helsinki, Suomi">
+								Helsinki, Suomi
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/f/0/fa04e98973f323b726c32c9fc0f.html" title="Hidenlax,  Thuusjärvi">
+								Hidenlax,  Thuusjärvi
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr class = "BeginLetter">
+							<td class="ColumnLetter"><a id="J" name="J" title="Places beginning with letter J">J</a></td>
+							<td class="ColumnName">
+								<a href="plc/b/8/f9feaf09a1cb7870278248528b.html" title="Jännevirta">
+								Jännevirta
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/2/a/d32c6d0ebe70dcc46a2.html" title="Joensuu, Suomi">
+								Joensuu, Suomi
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/2/b/f132545191439a468f999615ab2.html" title="Joutseno, Suomi">
+								Joutseno, Suomi
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr class = "BeginLetter">
+							<td class="ColumnLetter"><a id="K" name="K" title="Places beginning with letter K">K</a></td>
+							<td class="ColumnName">
+								<a href="plc/a/e/da86948a2e37653110c5c7f39ea.html" title="Kapellans böhlet,  Bräkylä">
+								Kapellans böhlet,  Bräkylä
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/a/a/f134c7329686c845ff56e686aaa.html" title="Keihäskuja 6,  Pantsarlahti">
+								Keihäskuja 6,  Pantsarlahti
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/4/0/cdd438189cc36f29a04.html" title="Kerimäki, Suomi">
+								Kerimäki, Suomi
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/5/e/cdd4361a0122fe89ce5.html" title="Kiesvaara">
+								Kiesvaara
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/c/b/fa04eaacd36619afafcb7718fbc.html" title="Kivisalo,  Ohtaniemi">
+								Kivisalo,  Ohtaniemi
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/b/b/f88cdb8ce5325aad9c3e34750bb.html" title="Kullervonkatu 7,  Pantsarlahti">
+								Kullervonkatu 7,  Pantsarlahti
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/0/e/f9fe95736d02655e535663068e0.html" title="Kuopion msrk, Suomi">
+								Kuopion msrk, Suomi
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr class = "BeginLetter">
+							<td class="ColumnLetter"><a id="L" name="L" title="Places beginning with letter L">L</a></td>
+							<td class="ColumnName">
+								<a href="plc/b/a/fa054d40da6c52a4c0579537ab.html" title="Lassila,  Kurkharju">
+								Lassila,  Kurkharju
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/1/1/cca16cd689770c9f111.html" title="Liperi, Suomi">
+								Liperi, Suomi
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/4/1/e82ad45bdd85f278af7915fb714.html" title="Ludviginkatu 1,  Pantsarlahti">
+								Ludviginkatu 1,  Pantsarlahti
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/c/8/e82ad7668a11043645a641c568c.html" title="Ludviginkatu 6,  Pantsarlahti">
+								Ludviginkatu 6,  Pantsarlahti
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr class = "BeginLetter">
+							<td class="ColumnLetter"><a id="M" name="M" title="Places beginning with letter M">M</a></td>
+							<td class="ColumnName">
+								<a href="plc/e/7/fa01f6105c274163bde9d0a67e.html" title="Mattila,  Ristavesi">
+								Mattila,  Ristavesi
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/1/b/f9eea9846cf4e87c7969c482db1.html" title="Mattisenlahti">
+								Mattisenlahti
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/2/b/f1323c4fbb21c982ece8685b1b2.html" title="Merimiehenkatu 21 A 19,  Hackspiken,  6. kaupunginosa">
+								Merimiehenkatu 21 A 19,  Hackspiken,  6. kaupunginosa
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr class = "BeginLetter">
+							<td class="ColumnLetter"><a id="N" name="N" title="Places beginning with letter N">N</a></td>
+							<td class="ColumnName">
+								<a href="plc/e/4/d01e13947926d2a234e.html" title="Niemis">
+								Niemis
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/e/e/f1324f1f6274371b40fb0e6f0ee.html" title="Nokia, Suomi">
+								Nokia, Suomi
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/2/e/f1324f5ab8f2e429cab21c7d9e2.html" title="Nokian hautausmaa">
+								Nokian hautausmaa
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr class = "BeginLetter">
+							<td class="ColumnLetter"><a id="O" name="O" title="Places beginning with letter O">O</a></td>
+							<td class="ColumnName">
+								<a href="plc/8/c/cdd1051b4c648ad7ac8.html" title="Oravisalo">
+								Oravisalo
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/6/8/f131de2c8ff2c05b0daf9729786.html" title="Oulu, Suomi">
+								Oulu, Suomi
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr class = "BeginLetter">
+							<td class="ColumnLetter"><a id="P" name="P" title="Places beginning with letter P">P</a></td>
+							<td class="ColumnName">
+								<a href="plc/0/7/d01e06d9c521de6d970.html" title="Pimälax">
+								Pimälax
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/2/8/f14bc2980b3765239cd2a037b82.html" title="Pohjois-Savon Rykmentti, Suomi">
+								Pohjois-Savon Rykmentti, Suomi
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr class = "BeginLetter">
+							<td class="ColumnLetter"><a id="R" name="R" title="Places beginning with letter R">R</a></td>
+							<td class="ColumnName">
+								<a href="plc/1/0/cdd421a7ab374044701.html" title="Rääkkylä, Suomi">
+								Rääkkylä, Suomi
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/d/3/cdd43391d636573413d.html" title="Rasivaara">
+								Rasivaara
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/b/5/fa01ea262ac1646ab6c98af3c5b.html" title="Rihilax,  Kurkharju">
+								Rihilax,  Kurkharju
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/0/4/f9fbdab2498752e40e7f541f440.html" title="Ryönä">
+								Ryönä
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/6/6/f9e85c5fda24d975b8e5d75f166.html" title="Ryssland">
+								Ryssland
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Ryssland</td>
+						</tr>
+						<tr class = "BeginLetter">
+							<td class="ColumnLetter"><a id="S" name="S" title="Places beginning with letter S">S</a></td>
+							<td class="ColumnName">
+								<a href="plc/1/0/d01e1f30c9031c23e01.html" title="Sveaborg">
+								Sveaborg
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/0/2/cdcdbfd7d58001d5120.html" title="Syvärilä">
+								Syvärilä
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr class = "BeginLetter">
+							<td class="ColumnLetter"><a id="V" name="V" title="Places beginning with letter V">V</a></td>
+							<td class="ColumnName">
+								<a href="plc/0/1/f134cb27faa731c437b5a8fa110.html" title="Vahtitorninkatu 12,  Linnoitus">
+								Vahtitorninkatu 12,  Linnoitus
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr>
+							<td class="ColumnLetter">&nbsp;</td>
+							<td class="ColumnName">
+								<a href="plc/f/9/cdd6fcd85ab77adcf9f.html" title="Viipuri, Suomi">
+								Viipuri, Suomi
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
+						<tr class = "BeginLetter">
+							<td class="ColumnLetter"><a id="W" name="W" title="Places beginning with letter W">W</a></td>
+							<td class="ColumnName">
+								<a href="plc/d/5/cdd70e98e0854ad935d.html" title="Wenduriniemi">
+								Wenduriniemi
+								</a>
+							</td>
+							<td class="ColumnState">&nbsp;</td>
+							<td class="ColumnCountry">Suomi</td>
+						</tr>
 					</tr>
 				</thead>
 				<tbody>
-					<tr class = "BeginLetter">
-						<td class="ColumnLetter"><a name="1" title="Places beginning with letter 1">1</a></td>
-						<td class="ColumnName">
-							<a href="plc/a/9/cdd3e59f5d141d5d89a.html" title="10, Rasivaara, Rääkkylä, Suomi">
-							10, Rasivaara, Rääkkylä, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnName">
-							<a href="plc/4/c/f88cd81cdca1f8e0703f5d988c4.html" title="116, Anina, Viipuri, Suomi">
-							116, Anina, Viipuri, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnName">
-							<a href="plc/d/2/d01e2e656e955e7bc2d.html" title="11, Wenduriniemi, Rääkkylä, Suomi">
-							11, Wenduriniemi, Rääkkylä, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnName">
-							<a href="plc/2/8/cdd10d9b4b80ba1c482.html" title="17, Oravisalo, Rääkkylä, Suomi">
-							17, Oravisalo, Rääkkylä, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnName">
-							<a href="plc/3/d/cdd722b00f43f9c43d3.html" title="1, Kiesvaara, Rääkkylä, Suomi">
-							1, Kiesvaara, Rääkkylä, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnName">
-							<a href="plc/3/7/d0206898051735e1c73.html" title="1, Niemis, Rääkkylä, Suomi">
-							1, Niemis, Rääkkylä, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnName">
-							<a href="plc/d/3/da869e3ab0badc42d3535103d.html" title="1, Pötsönlax, Rääkkylä, Suomi">
-							1, Pötsönlax, Rääkkylä, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnName">
-							<a href="plc/5/b/cdda5892beb170690b5.html" title="1, Rasivaara, Rääkkylä, Suomi">
-							1, Rasivaara, Rääkkylä, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnName">
-							<a href="plc/b/4/d01e04270114cecb74b.html" title="1, Wenduriniemi, Rääkkylä, Suomi">
-							1, Wenduriniemi, Rääkkylä, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr class = "BeginLetter">
-						<td class="ColumnLetter"><a name="2" title="Places beginning with letter 2">2</a></td>
-						<td class="ColumnName">
-							<a href="plc/f/6/d01dfba59956f5a4b6f.html" title="2½, Wenduriniemi, Rääkkylä, Suomi">
-							2½, Wenduriniemi, Rääkkylä, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnName">
-							<a href="plc/e/9/d01e111af4c16f2329e.html" title="2, Pimälax, Rääkkylä, Suomi">
-							2, Pimälax, Rääkkylä, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr class = "BeginLetter">
-						<td class="ColumnLetter"><a name="3" title="Places beginning with letter 3">3</a></td>
-						<td class="ColumnName">
-							<a href="plc/c/0/f88cd1e1ae24282465bf3e4780c.html" title="307, Pietarin esikaupunki, Viipuri, Suomi">
-							307, Pietarin esikaupunki, Viipuri, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnName">
-							<a href="plc/0/3/da86a1e7fcb68e51fdbb16a8d30.html" title="3, Heinoniemi, Rääkkylä, Suomi">
-							3, Heinoniemi, Rääkkylä, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnName">
-							<a href="plc/a/7/cdd03e0811602afbb7a.html" title="3, Kiesvaara, Rääkkylä, Suomi">
-							3, Kiesvaara, Rääkkylä, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnName">
-							<a href="plc/7/1/cdd1132d60375de6b17.html" title="3, Warpasalo, Rääkkylä, Suomi">
-							3, Warpasalo, Rääkkylä, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr class = "BeginLetter">
-						<td class="ColumnLetter"><a name="5" title="Places beginning with letter 5">5</a></td>
-						<td class="ColumnName">
-							<a href="plc/1/f/cdda5d76cb62e303df1.html" title="5, Wenduriniemi, Rääkkylä, Suomi">
-							5, Wenduriniemi, Rääkkylä, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr class = "BeginLetter">
-						<td class="ColumnLetter"><a name="6" title="Places beginning with letter 6">6</a></td>
-						<td class="ColumnName">
-							<a href="plc/9/3/d010e844be326735d39.html" title="6, Heinoniemi, Rääkkylä, Suomi">
-							6, Heinoniemi, Rääkkylä, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr class = "BeginLetter">
-						<td class="ColumnLetter"><a name="7" title="Places beginning with letter 7">7</a></td>
-						<td class="ColumnName">
-							<a href="plc/9/c/cdd3d2d67676a8df2c9.html" title="7, Heinoniemi, Rääkkylä, Suomi">
-							7, Heinoniemi, Rääkkylä, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnName">
-							<a href="plc/a/8/cdd71e045181c07af8a.html" title="7, Kiesvaara, Rääkkylä, Suomi">
-							7, Kiesvaara, Rääkkylä, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr class = "BeginLetter">
-						<td class="ColumnLetter"><a name="8" title="Places beginning with letter 8">8</a></td>
-						<td class="ColumnName">
-							<a href="plc/7/8/d019aab9181411ea687.html" title="8, Oravisalo, Rääkkylä, Suomi">
-							8, Oravisalo, Rääkkylä, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnName">
-							<a href="plc/a/b/cdda26b69d1662b92ba.html" title="8, Rasivaara, Rääkkylä, Suomi">
-							8, Rasivaara, Rääkkylä, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr class = "BeginLetter">
-						<td class="ColumnLetter"><a name="9" title="Places beginning with letter 9">9</a></td>
-						<td class="ColumnName">
-							<a href="plc/1/4/da868f5c06a6182eadb74c1d141.html" title="9, Heinoniemi, Rääkkylä, Suomi">
-							9, Heinoniemi, Rääkkylä, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr class = "BeginLetter">
-						<td class="ColumnLetter"><a name="H" title="Places beginning with letter H">H</a></td>
-						<td class="ColumnName">
-							<a href="plc/b/e/cdcdbfd839c44c3f4eb.html" title="Hangavaara, Kerimäki, Suomi">
-							Hangavaara, Kerimäki, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnName">
-							<a href="plc/6/e/f130b9b233b61a1735522db28e6.html" title="hauta 236, rivi 15, kortteli 29, Malmin hautausmaa, Helsinki, Suomi">
-							hauta 236, rivi 15, kortteli 29, Malmin hautausmaa, Helsinki, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnName">
-							<a href="plc/a/7/cdd428293086534ef7a.html" title="Heinoniemi, Rääkkylä, Suomi">
-							Heinoniemi, Rääkkylä, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnName">
-							<a href="plc/5/d/cca1691056519fef9d5.html" title="Helsinki, Suomi">
-							Helsinki, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr class = "BeginLetter">
-						<td class="ColumnLetter"><a name="J" title="Places beginning with letter J">J</a></td>
-						<td class="ColumnName">
-							<a href="plc/2/a/d32c6d0ebe70dcc46a2.html" title="Joensuu, Suomi">
-							Joensuu, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnName">
-							<a href="plc/2/b/f132545191439a468f999615ab2.html" title="Joutseno, Suomi">
-							Joutseno, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr class = "BeginLetter">
-						<td class="ColumnLetter"><a name="K" title="Places beginning with letter K">K</a></td>
-						<td class="ColumnName">
-							<a href="plc/a/e/da86948a2e37653110c5c7f39ea.html" title="Kapellans böhlet, Bräkylä, Rääkkylä, Suomi">
-							Kapellans böhlet, Bräkylä, Rääkkylä, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnName">
-							<a href="plc/a/a/f134c7329686c845ff56e686aaa.html" title="Keihäskuja 6, Pantsarlahti, Viipuri, Suomi">
-							Keihäskuja 6, Pantsarlahti, Viipuri, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnName">
-							<a href="plc/4/0/cdd438189cc36f29a04.html" title="Kerimäki, Suomi">
-							Kerimäki, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnName">
-							<a href="plc/5/e/cdd4361a0122fe89ce5.html" title="Kiesvaara, Rääkkylä, Suomi">
-							Kiesvaara, Rääkkylä, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnName">
-							<a href="plc/b/b/f88cdb8ce5325aad9c3e34750bb.html" title="Kullervonkatu 7, Pantsarlahti, Viipuri, Suomi">
-							Kullervonkatu 7, Pantsarlahti, Viipuri, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr class = "BeginLetter">
-						<td class="ColumnLetter"><a name="L" title="Places beginning with letter L">L</a></td>
-						<td class="ColumnName">
-							<a href="plc/1/1/cca16cd689770c9f111.html" title="Liperi, Suomi">
-							Liperi, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnName">
-							<a href="plc/4/1/e82ad45bdd85f278af7915fb714.html" title="Ludviginkatu 1, Pantsarlahti, Viipuri, Suomi">
-							Ludviginkatu 1, Pantsarlahti, Viipuri, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnName">
-							<a href="plc/c/8/e82ad7668a11043645a641c568c.html" title="Ludviginkatu 6, Pantsarlahti, Viipuri, Suomi">
-							Ludviginkatu 6, Pantsarlahti, Viipuri, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr class = "BeginLetter">
-						<td class="ColumnLetter"><a name="M" title="Places beginning with letter M">M</a></td>
-						<td class="ColumnName">
-							<a href="plc/2/b/f1323c4fbb21c982ece8685b1b2.html" title="Merimiehenkatu 21 A 19, Hackspiken, 6. kaupunginosa, Helsinki, Suomi">
-							Merimiehenkatu 21 A 19, Hackspiken, 6. kaupunginosa, Helsinki, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr class = "BeginLetter">
-						<td class="ColumnLetter"><a name="N" title="Places beginning with letter N">N</a></td>
-						<td class="ColumnName">
-							<a href="plc/e/4/d01e13947926d2a234e.html" title="Niemis, Rääkkylä, Suomi">
-							Niemis, Rääkkylä, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnName">
-							<a href="plc/2/5/cdcdbfd82eb029e8c52.html" title="Nilsiä, Suomi">
-							Nilsiä, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnName">
-							<a href="plc/2/e/f1324f5ab8f2e429cab21c7d9e2.html" title="Nokian hautausmaa, Nokia, Suomi">
-							Nokian hautausmaa, Nokia, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnName">
-							<a href="plc/e/e/f1324f1f6274371b40fb0e6f0ee.html" title="Nokia, Suomi">
-							Nokia, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr class = "BeginLetter">
-						<td class="ColumnLetter"><a name="O" title="Places beginning with letter O">O</a></td>
-						<td class="ColumnName">
-							<a href="plc/8/c/cdd1051b4c648ad7ac8.html" title="Oravisalo, Rääkkylä, Suomi">
-							Oravisalo, Rääkkylä, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnName">
-							<a href="plc/6/8/f131de2c8ff2c05b0daf9729786.html" title="Oulu, Suomi">
-							Oulu, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr class = "BeginLetter">
-						<td class="ColumnLetter"><a name="P" title="Places beginning with letter P">P</a></td>
-						<td class="ColumnName">
-							<a href="plc/0/7/d01e06d9c521de6d970.html" title="Pimälax, Rääkkylä, Suomi">
-							Pimälax, Rääkkylä, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnName">
-							<a href="plc/2/8/f14bc2980b3765239cd2a037b82.html" title="Pohjois-Savon Rykmentti, Suomi">
-							Pohjois-Savon Rykmentti, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr class = "BeginLetter">
-						<td class="ColumnLetter"><a name="R" title="Places beginning with letter R">R</a></td>
-						<td class="ColumnName">
-							<a href="plc/1/0/cdd421a7ab374044701.html" title="Rääkkylä, Suomi">
-							Rääkkylä, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnName">
-							<a href="plc/d/3/cdd43391d636573413d.html" title="Rasivaara, Rääkkylä, Suomi">
-							Rasivaara, Rääkkylä, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr class = "BeginLetter">
-						<td class="ColumnLetter"><a name="S" title="Places beginning with letter S">S</a></td>
-						<td class="ColumnName">
-							<a href="plc/1/0/d01e1f30c9031c23e01.html" title="Sveaborg, Helsinki, Suomi">
-							Sveaborg, Helsinki, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnName">
-							<a href="plc/0/2/cdcdbfd7d58001d5120.html" title="Syvärilä, Nilsiä, Suomi">
-							Syvärilä, Nilsiä, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr class = "BeginLetter">
-						<td class="ColumnLetter"><a name="V" title="Places beginning with letter V">V</a></td>
-						<td class="ColumnName">
-							<a href="plc/0/1/f134cb27faa731c437b5a8fa110.html" title="Vahtitorninkatu 12, Linnoitus, Viipuri, Suomi">
-							Vahtitorninkatu 12, Linnoitus, Viipuri, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr>
-						<td class="ColumnLetter">&nbsp;</td>
-						<td class="ColumnName">
-							<a href="plc/f/9/cdd6fcd85ab77adcf9f.html" title="Viipuri, Suomi">
-							Viipuri, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
-					<tr class = "BeginLetter">
-						<td class="ColumnLetter"><a name="W" title="Places beginning with letter W">W</a></td>
-						<td class="ColumnName">
-							<a href="plc/d/5/cdd70e98e0854ad935d.html" title="Wenduriniemi, Rääkkylä, Suomi">
-							Wenduriniemi, Rääkkylä, Suomi
-							</a>
-						</td>
-						<td class="ColumnState">&nbsp;</td>
-						<td class="ColumnCountry">Suomi</td>
-					</tr>
 				</tbody>
 			</table>
 		</div>
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2024-02-15 21:09:00
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2<br />Last change was the 2024-06-13 18:37:15
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

@@ -1,26 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>My Family Tree - Family of Tapain, Jöran and Rehuin, Maria Davidsdotter</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">My Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">My Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
 					<li class = "CurrentSection"><a href="../../../families.html" title="Families">Families</a></li>
@@ -28,13 +39,43 @@
 					<li><a href="../../../places.html" title="Places">Places</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="RelationshipDetail">
 			<h2>Family of Tapain, Jöran and Rehuin, Maria Davidsdotter<sup><small></small></sup></h2>
 			<div class="subsection" id="families">
@@ -66,9 +107,8 @@
 					</tr>
 					<tr>
 						<td class="ColumnType">&nbsp;</td>
-						<td class="ColumnAttribute">&nbsp;</td>
-						<td class="ColumnValue">
-							<table class="infolist eventlist">
+						<td class="ColumnValue" colspan="2">
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnEvent">Event</th>
@@ -80,7 +120,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/f/5/da82fbf4ff1225b1587afb1005f.html" title="Marriage">
 											Marriage
 											</a>
@@ -96,17 +136,47 @@
 										 <a href="#sref1a">1a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
+													<i class="NoteType">
+													Note: 1 (Research)
+													</i>
+													<div class="grampsstylednote">
+														<p>
+														Ei löydy vuosilta 1824-1828 "Rääkkylä vihityt, 1824-1832"
+														</p>
+														<p>
+														&nbsp;
+														</p>
+													</div>
+													<i class="NoteType">
+													Note: 2 (Research)
+													</i>
+													<div class="grampsstylednote">
+														<p>
+														Ei löydy vuosilta 1824-1828 "Rääkkylä vihityt, 1824-1832"
+														</p>
+														<p>
+														&nbsp;
+														</p>
+													</div>
+													<i class="NoteType">
+													Note: 3 (Research)
+													</i>
+													<div class="grampsstylednote">
+														<p>
+														Ei löydy vuosilta 1824-1828 "Rääkkylä vihityt, 1824-1832"
+														</p>
+														<p>
+														&nbsp;
+														</p>
+													</div>
 												</div>
 											</td>
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/6/6/da82fb0edb24ccb3129d6f0c866.html" title="Residence">
 											Residence
 											</a>
@@ -119,12 +189,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref1a">1a</a>
+										 <a href="#sref1a">1a</a> <a href="#sref2a">2a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -132,7 +199,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/9/e/da82f8194696ecc6dfb666c3ee9.html" title="Residence">
 											Residence
 											</a>
@@ -145,12 +212,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref2a">2a</a>
+										 <a href="#sref3a">3a</a> <a href="#sref2a">2a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -158,7 +222,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/f/4/d02069f8d353bb8ab4f.html" title="Residence">
 											Residence
 											</a>
@@ -171,12 +235,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref2b">2b</a>
+										 <a href="#sref3b">3b</a> <a href="#sref2b">2b</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -184,7 +245,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/e/c/d0206bbe7b6131f46ce.html" title="Residence">
 											Residence
 											</a>
@@ -197,12 +258,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref2c">2c</a>
+										 <a href="#sref3c">3c</a> <a href="#sref2b">2b</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -210,7 +268,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/a/9/d01e15face55596cb9a.html" title="Residence">
 											Residence
 											</a>
@@ -223,12 +281,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref3a">3a</a> <a href="#sref4a">4a</a>
+										 <a href="#sref4a">4a</a> <a href="#sref5a">5a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -236,7 +291,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/3/f/d01e0ab29ce4f86c9f3.html" title="Residence">
 											Residence
 											</a>
@@ -249,12 +304,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref4b">4b</a>
+										 <a href="#sref5b">5b</a> <a href="#sref4b">4b</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -262,7 +314,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/1/4/d01e0c44c355063ed41.html" title="Residence">
 											Residence
 											</a>
@@ -275,12 +327,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref4c">4c</a>
+										 <a href="#sref5c">5c</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -291,10 +340,9 @@
 							</table>
 						</td>
 						<tr>
-							<td class="ColumnType">&nbsp;</td>
 							<td class="ColumnAttribute">Children</td>
-							<td class="ColumnValue" />
-							<table class="infolist eventlist">
+							<td class="ColumnValue Child" colspan="2" />
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnName">Name</th>
@@ -303,10 +351,10 @@
 									</tr>
 								</thead>
 								<tbody>
-									<tr><td /><a href="../../../ppl/5/7/cb937d8bfc70c373375.html">Taponen, Nils Jöransson</a><td>1827-04-13</td><td></td></tr>
+									<tr><td /><a href="../../../ppl/5/7/cb937d8bfc70c373375.html">Tapanen, Nils Jöransson</a><td>1827-04-13</td><td></td></tr>
 									<tr><td /><a href="../../../ppl/3/1/cca205799824ef1da13.html">Taponen, Henric</a><td>1829-09-26</td><td>1841-04-12</td></tr>
 									<tr><td /><a href="../../../ppl/c/0/cca205dc0ed7cce9b0c.html">Taponen, Johan</a><td>1834-06-01</td><td>1842-01-13</td></tr>
-									<tr><td /><a href="../../../ppl/b/3/cca2060fc18189e5c3b.html">Taponen, Michel</a><td>1839-05-21</td><td></td></tr>
+									<tr><td /><a href="../../../ppl/b/3/cca2060fc18189e5c3b.html">Tapanen, Michel</a><td>1839-05-21</td><td></td></tr>
 								</tbody>
 							</table>
 						</tr>
@@ -315,16 +363,19 @@
 			</div>
 			<div class="subsection" id="sourcerefs">
 				<h4>Source References</h4>
-				<ol>
+				<ol id="srcr">
 					<li>
 						<a href="../../../src/4/0/cdd047117f05b6e8304.html" title="Rääkkylän seurakunta: Rääkkylä Rippikirja 1817-1827" name ="sref1">
 						Rääkkylän seurakunta: Rääkkylä Rippikirja 1817-1827
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref1a">
 								<ul>
 									<li>
 									Page: 149
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Rääkkylän seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A KIRKON PÄÄKIRJAT HAKEMISTOINEEN. I Aa Rippikirjat. I Aa:5 Rippikirja  (1817-1827). Tiedosto 97. Kansallisarkisto. Viitattu 29.5.2024.</p></div>
 									</li>
 									<li>
 									Url: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=25826204">http://digi.narc.fi/digi/view.ka?kuid=25826204</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=6039418325&amp;aineistoId=1193142337">https://astia.narc.fi/uusiastia/viewer/?fileId=6039418325&amp;aineistoId=1193142337</a></p></div>
@@ -334,40 +385,82 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/4/a/cdd044203935b79cba4.html" title="Rääkkylän seurakunta: Rääkkylä Rippikirja 1828-1838" name ="sref2">
-						Rääkkylän seurakunta: Rääkkylä Rippikirja 1828-1838
+						<a href="../../../src/f/b/f9dbc76eed439babf836ad593bf.html" title="Rääkkylän seurakunta: Rääkkylä Lastenkirja 1808-1835" name ="sref2">
+						Rääkkylän seurakunta: Rääkkylä Lastenkirja 1808-1835
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref2a">
 								<ul>
 									<li>
-									Page: 323
+									Page: Ab:2/92-93
 									</li>
 									<li>
-									Url: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=6580718">http://digi.narc.fi/digi/view.ka?kuid=6580718</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5821213436&amp;aineistoId=1193156879">https://astia.narc.fi/uusiastia/viewer/?fileId=5821213436&amp;aineistoId=1193156879</a></p></div>
+									Citation: <div class="grampsstylednote"><p>Rääkkylän seurakunnan arkisto - I Ab:2 Lastenkirja 1808-1835, jakso 50, sivu 92-93: Pimälax 1-3; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=6039405543&amp;aineistoId=1193302836 / Viitattu 29.5.2024</p></div>
+									</li>
+									<li>
+									Url: <div class="grampsstylednote"><p><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=6039405543&amp;aineistoId=1193302836">https://astia.narc.fi/uusiastia/viewer/?fileId=6039405543&amp;aineistoId=1193302836</a></p></div>
 									</li>
 								</ul>
 							</li>
 							<li id="sref2b">
 								<ul>
 									<li>
+									Page: Ab:2/274-275
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Rääkkylän seurakunnan arkisto - I Ab:2 Lastenkirja 1808-1835, jakso 139, sivu 274-275: Njemis; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=6039405450&amp;aineistoId=1193302836 / Viitattu 29.5.2024</p></div>
+									</li>
+									<li>
+									Url: <div class="grampsstylednote"><p><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=6039405450&amp;aineistoId=1193302836">https://astia.narc.fi/uusiastia/viewer/?fileId=6039405450&amp;aineistoId=1193302836</a></p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../src/4/a/cdd044203935b79cba4.html" title="Rääkkylän seurakunta: Rääkkylä Rippikirja 1828-1838" name ="sref3">
+						Rääkkylän seurakunta: Rääkkylä Rippikirja 1828-1838
+						</a>
+						<ol id="citr">
+							<li id="sref3a">
+								<ul>
+									<li>
+									Page: 323
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Rääkkylän seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A KIRKON PÄÄKIRJAT HAKEMISTOINEEN. I Aa Rippikirjat. I Aa:6 Rippikirja  (1828-1838). Tiedosto 165. Kansallisarkisto. Viitattu 29.5.2024.</p></div>
+									</li>
+									<li>
+									Url: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=6580718">http://digi.narc.fi/digi/view.ka?kuid=6580718</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5821213436&amp;aineistoId=1193156879">https://astia.narc.fi/uusiastia/viewer/?fileId=5821213436&amp;aineistoId=1193156879</a></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref3b">
+								<ul>
+									<li>
 									Page: 159
 									</li>
 									<li>
-									Url: <div class="grampsstylednote"><p><a href="https://astia.narc.fi/astiaUi/digiview.php?imageId=6580626&amp;aytun=1885929.KA">https://astia.narc.fi/astiaUi/digiview.php?imageId=6580626&amp;aytun=1885929.KA</a></p></div>
+									Citation: <div class="grampsstylednote"><p>Rääkkylän seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A KIRKON PÄÄKIRJAT HAKEMISTOINEEN. I Aa Rippikirjat. I Aa:6 Rippikirja  (1828-1838). Tiedosto 82. Kansallisarkisto. Viitattu 29.5.2024.</p></div>
+									</li>
+									<li>
+									Url: <div class="grampsstylednote"><p><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5821213154&amp;aineistoId=1193156879">https://astia.narc.fi/uusiastia/viewer/?fileId=5821213154&amp;aineistoId=1193156879</a></p></div>
 									</li>
 									<li>
 									Transcript: <div class="grampsstylednote"><p>Jöran Tapanen		1799	} till pag. 573<br />Hu Maria Rehunen	1804	}</p></div>
 									</li>
 								</ul>
 							</li>
-							<li id="sref2c">
+							<li id="sref3c">
 								<ul>
 									<li>
 									Page: 573
 									</li>
 									<li>
-									Url: <div class="grampsstylednote"><p><a href="https://astia.narc.fi/astiaUi/digiview.php?imageId=6580844&amp;aytun=1885929.KA">https://astia.narc.fi/astiaUi/digiview.php?imageId=6580844&amp;aytun=1885929.KA</a></p></div>
+									Citation: <div class="grampsstylednote"><p>Rääkkylän seurakunnan arkisto - I Aa:6 Rippikirja 1828-1838, jakso 296, sivu 573: Niemis inhys.; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5821213070&amp;aineistoId=1193156879 / Viitattu 29.5.2024</p></div>
+									</li>
+									<li>
+									Url: <div class="grampsstylednote"><p><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5821213070&amp;aineistoId=1193156879">https://astia.narc.fi/uusiastia/viewer/?fileId=5821213070&amp;aineistoId=1193156879</a></p></div>
 									</li>
 									<li>
 									Transcript: <div class="grampsstylednote"><p>Inh	Jöran Tapanen	1799		} fr. pag. 159<br />Hu	Maria Rehuin	1804		} &nbsp;-1838-</p></div>
@@ -377,14 +470,17 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/f/e/cdd720888052961bbef.html" title="Rääkkylän seurakunta: Rääkkylä Rippikirja 1839-1852" name ="sref3">
+						<a href="../../../src/f/e/cdd720888052961bbef.html" title="Rääkkylän seurakunta: Rääkkylä Rippikirja 1839-1852" name ="sref4">
 						Rääkkylän seurakunta: Rääkkylä Rippikirja 1839-1852
 						</a>
-						<ol>
-							<li id="sref3a">
+						<ol id="citr">
+							<li id="sref4a">
 								<ul>
 									<li>
 									Page: 308
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Rääkkylän seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A KIRKON PÄÄKIRJAT HAKEMISTOINEEN. I Aa Rippikirjat. I Aa:7 Rippikirja  (1839-1852). Tiedosto 162. Kansallisarkisto. Viitattu 29.5.2024.</p></div>
 									</li>
 									<li>
 									Url: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=6581017">http://digi.narc.fi/digi/view.ka?kuid=6581017</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5821229998&amp;aineistoId=1193173494">https://astia.narc.fi/uusiastia/viewer/?fileId=5821229998&amp;aineistoId=1193173494</a></p></div>
@@ -392,60 +488,73 @@
 									<li>
 									Transcript: <div class="grampsstylednote"><p>Niemis<br />Inhysingar och Handverkare</p><p>Inh Jöran Tapanen	1799					på Fästning - afled i Sveaborg d 31 maj 1842<br />Hu	Maria Rehuin	1804	t.p. 518</p></div>
 									</li>
+								</ul>
+							</li>
+							<li id="sref4b">
+								<ul>
 									<li>
-									Url: <div class="grampsstylednote"><p><a href="https://astia.narc.fi/astiaUi/digiview.php?imageId=6581017&amp;aytun=1885930.KA">https://astia.narc.fi/astiaUi/digiview.php?imageId=6581017&amp;aytun=1885930.KA</a></p></div>
+									Page: Aa:7/518
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Rääkkylän seurakunnan arkisto - I Aa:7 Rippikirja 1839-1852, jakso 273, sivu 518: Pimälax Inhysingar; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5821229257&amp;aineistoId=1193173494 / Viitattu 29.5.2024</p></div>
+									</li>
+									<li>
+									Url: <div class="grampsstylednote"><p><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5821229257&amp;aineistoId=1193173494">https://astia.narc.fi/uusiastia/viewer/?fileId=5821229257&amp;aineistoId=1193173494</a></p></div>
 									</li>
 								</ul>
 							</li>
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/7/b/cdd42af6d0405b76bb7.html" title="Rääkkylän seurakunta: Rääkkylä Lastenkirja 1840-1852" name ="sref4">
+						<a href="../../../src/7/b/cdd42af6d0405b76bb7.html" title="Rääkkylän seurakunta: Rääkkylä Lastenkirja 1840-1852" name ="sref5">
 						Rääkkylän seurakunta: Rääkkylä Lastenkirja 1840-1852
 						</a>
-						<ol>
-							<li id="sref4a">
+						<ol id="citr">
+							<li id="sref5a">
 								<ul>
 									<li>
 									Page: 150-151
 									</li>
 									<li>
+									Citation: <div class="grampsstylednote"><p>Rääkkylän seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A KIRKON PÄÄKIRJAT HAKEMISTOINEEN. I Ab Lastenkirjat. I Ab:4 Lastenkirja  (1840-1852). Tiedosto 81. Kansallisarkisto. Viitattu 29.5.2024.</p></div>
+									</li>
+									<li>
 									Url: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=6567798">http://digi.narc.fi/digi/view.ka?kuid=6567798</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5821065700&amp;aineistoId=1193327507">https://astia.narc.fi/uusiastia/viewer/?fileId=5821065700&amp;aineistoId=1193327507</a></p></div>
 									</li>
 									<li>
-									Transcript: <div class="grampsstylednote"><p>}aflidne<br />Inh Jöran Tapains och Maria Rehuins Barn (1804)<br />Nils	14/4 1824						år 1843 till pag 274<br />Henric	26/9 1829						Död 18 12/4 41<br />Johan	1/9 &nbsp; 1834		}				Död 18 13/1 42<br />Michel	21/6 1839		} ??? år 1843	till pag 274</p></div>
-									</li>
-									<li>
-									Url: <div class="grampsstylednote"><p><a href="https://astia.narc.fi/astiaUi/digiview.php?imageId=6567798&amp;aytun=1886163.KA">https://astia.narc.fi/astiaUi/digiview.php?imageId=6567798&amp;aytun=1886163.KA</a></p></div>
+									Transcript: <div class="grampsstylednote"><p>}aflidne<br />Inh Jöran Tapains och Maria Rehuins Barn (1804)<br />Nils	14/4 1827						år 1843 till pag 274<br />Henric	26/9 1829						Död 18 12/4 41<br />Johan	1/9 &nbsp; 1834		}				Död 18 13/1 42<br />Michel	21/6 1839		} ??? år 1843	till pag 274</p></div>
 									</li>
 								</ul>
 							</li>
-							<li id="sref4b">
+							<li id="sref5b">
 								<ul>
 									<li>
-									Page: 274
+									Page: 274-275
 									</li>
 									<li>
-									Url: <div class="grampsstylednote"><p><a href="https://astia.narc.fi/astiaUi/digiview.php?imageId=6567947&amp;aytun=1886163.KA">https://astia.narc.fi/astiaUi/digiview.php?imageId=6567947&amp;aytun=1886163.KA</a></p></div>
+									Citation: <div class="grampsstylednote"><p>Rääkkylän seurakunnan arkisto - I Ab:4 Lastenkirja 1840-1852, jakso 151, sivu 274-275: Pimälax; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5821065997&amp;aineistoId=1193327507 / Viitattu 29.5.2024</p></div>
+									</li>
+									<li>
+									Url: <div class="grampsstylednote"><p><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5821065997&amp;aineistoId=1193327507">https://astia.narc.fi/uusiastia/viewer/?fileId=5821065997&amp;aineistoId=1193327507</a></p></div>
 									</li>
 									<li>
 									Transcript: <div class="grampsstylednote"><p>Aflidne Jöran Tapains och hu Maria Rehuins (f 1804) barn<br />Son Nils	14/4 1824	t.p. 391		{ år 1843 fr. pag. 151<br />do	Michell	21/9 1839				{ njuter understöd af höga<br />									 &nbsp; Kronan 1844 till p 421</p></div>
 									</li>
 								</ul>
 							</li>
-							<li id="sref4c">
+							<li id="sref5c">
 								<ul>
 									<li>
 									Page: 421-422
 									</li>
 									<li>
+									Citation: <div class="grampsstylednote"><p>Rääkkylän seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A KIRKON PÄÄKIRJAT HAKEMISTOINEEN. I Ab Lastenkirjat. I Ab:4 Lastenkirja  (1840-1852). Tiedosto 231. Kansallisarkisto. Viitattu 29.5.2024.</p></div>
+									</li>
+									<li>
 									Url: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=6568094">http://digi.narc.fi/digi/view.ka?kuid=6568094</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5821066048&amp;aineistoId=1193327507">https://astia.narc.fi/uusiastia/viewer/?fileId=5821066048&amp;aineistoId=1193327507</a></p></div>
 									</li>
 									<li>
-									Transcript: <div class="grampsstylednote"><p>???? Maria Rehuins barn med Jöran Tapain<br />dog 1841		Michel	21/6 1836				44 f.p. 275 47 abs. ???<br />												1852 t.p. 265</p></div>
-									</li>
-									<li>
-									Url: <div class="grampsstylednote"><p><a href="https://astia.narc.fi/astiaUi/digiview.php?imageId=6568094&amp;aytun=1886163.KA">https://astia.narc.fi/astiaUi/digiview.php?imageId=6568094&amp;aytun=1886163.KA</a></p></div>
+									Transcript: <div class="grampsstylednote"><p>???? Maria Rehuins barn med Jöran Tapain<br />dog 1841		Michel	21/6 1839				44 f.p. 275 47 abs. ???<br />												1852 t.p. 265</p></div>
 									</li>
 								</ul>
 							</li>
@@ -457,7 +566,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2017-08-01 18:45:04
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2<br />Last change was the 2017-08-01 18:45:04
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

@@ -1,26 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>My Family Tree - Sources - Taponen Heikki Nimikirjaote</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">My Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">My Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
 					<li><a href="../../../families.html" title="Families">Families</a></li>
@@ -28,16 +39,46 @@
 					<li><a href="../../../places.html" title="Places">Places</a></li>
 					<li class = "CurrentSection"><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="SourceDetail">
 			<h3>Taponen Heikki Nimikirjaote</h3>
-			<table class="infolist source">
+			<table class="infolist source ltr">
 				<tbody>
 					<tr>
 						<td class="ColumnAttribute">Author</td>
@@ -46,106 +87,109 @@
 				</tbody>
 			</table>
 			<div class="subsection narrative">
-				<h4>Narrative</h4>
-				<div class="grampsstylednote">
-					<p>
-					<span style="font-family:'Liberation Mono';">137</span><br />
-					<span style="font-family:'Liberation Mono';">Suku- ja ristimänimi: T a p o n e n, Heikki &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;N.128[yliviivattu]</span>
-					</p>
-					<p>
-					<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Rääkkylä &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 1896 | &nbsp;7 | &nbsp;2 |</span><br />
-					<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Suorittanut sotapalveluksen Pohj. &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
-					<span style="font-family:'Liberation Mono';">Savon Rykm:ssä ajalla &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 1918 | &nbsp;8 | &nbsp;8 |</span><br />
-					<span style="font-family:'Liberation Mono';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - &nbsp; | 1919 | 10 | 15 |</span><br />
-					<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Korotetu alikersantiksi &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| 1918 | 11 | 25 |</span><br />
-					<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Otettu Viipurin kaupungin poliisi- | &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
-					<span style="font-family:'Liberation Mono';">laitoksen palvelukseen ylimääräisek- &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
-					<span style="font-family:'Liberation Mono';">si konstaapeliksi &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 1919 | 11 | &nbsp;1 |</span><br />
-					<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Siiretty vakinaiseksi alempaan &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
-					<span style="font-family:'Liberation Mono';">palkkausluokkaan &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| 1920 | &nbsp;3 | &nbsp;1 |</span><br />
-					<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Saanut eron omasta pyynnöstään &nbsp; &nbsp; | 1920 | &nbsp;5 | 15 |</span><br />
-					<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Otettu uudelleen saman laitoksen &nbsp; | &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
-					<span style="font-family:'Liberation Mono';">palvelukseen ylimääräiseksi konstaa- &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
-					<span style="font-family:'Liberation Mono';">peliksi &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 1920 | &nbsp;8 | &nbsp;1 |</span><br />
-					<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Siirretty vakinaiseksi alempaan &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
-					<span style="font-family:'Liberation Mono';">palkkausluokkaan &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| 1920 | 11 | &nbsp;1 |</span><br />
-					<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Määrätty toimimaan tarkastajana &nbsp; &nbsp;| 1925 | 11 | &nbsp;8 |</span><br />
-					<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Siirretty 2:een palkkausluokkaan &nbsp; | 1925 | 12 | 31 |</span><br />
-					<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Siirretty 1:een palkkausluokkaan &nbsp; | 1926 | &nbsp;8 | 31 |</span><br />
-					<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Siirretty tarkastuskonstaapeliksi &nbsp;| 1927 | &nbsp;1 | &nbsp;1 |</span><br />
-					<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Virkavala &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| 1930 | 12 | 18 |</span><br />
-					<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Saanut eron omasta pyynnöstään &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
-					<span style="font-family:'Liberation Mono';">tarkastuskonstaapelin toimesta &nbsp; &nbsp; &nbsp; &nbsp;| 1936 | &nbsp;1 | 31 |</span><br />
-					<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Otettu v.s.vanhemmaksi konstaape- &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
-					<span style="font-family:'Liberation Mono';">liksi &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 1936 | &nbsp;1 | 31 |</span><br />
-					<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Nimitetty vakinaiseksi vanhemmak- &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
-					<span style="font-family:'Liberation Mono';">si konstaapeliksi &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 1936 | &nbsp;3 | 31 |</span><br />
-					<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Palvellut 97 Sotilaspiirissä &nbsp; &nbsp; &nbsp; | 1939 | 12 | &nbsp;8 |</span><br />
-					<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Siirretty 2 Viipurin Sotapol.Pa- &nbsp; | &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
-					<span style="font-family:'Liberation Mono';">talj. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 1940 | &nbsp;3 | &nbsp;5 |</span>
-					</p>
-					<p>
-					&nbsp;
-					</p>
-					<p>
-					&nbsp;
-					</p>
-					<p>
-					<span style="font-family:'Liberation Mono';">138</span><br />
-					<span style="font-family:'Liberation Mono';">Suku- ja ristimänimi: T a p o n e n, Heikki</span>
-					</p>
-					<p>
-					<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Vapautettu &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 1940 | &nbsp;5 | 23 |</span><br />
-					<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Sisäasiainministeriön määräykses- &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
-					<span style="font-family:'Liberation Mono';">tä 4/5-40 määrätty sijoitettavaksi &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
-					<span style="font-family:'Liberation Mono';">Helsingin poliisilaitokseen (VI pii- &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
-					<span style="font-family:'Liberation Mono';">riin). &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
-					<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Nimitetty alemman palkkaluokan &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
-					<span style="font-family:'Liberation Mono';">vanhemmaksi konstaapeliksi Helsingin &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
-					<span style="font-family:'Liberation Mono';">poliisilaitoksen VI piiriin (N:o &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
-					<span style="font-family:'Liberation Mono';">14145/41. Päiv. 1/1-41 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| 1941 | &nbsp;1 | &nbsp;1 |</span><br />
-					<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Saanut sodan 1939-1940 muistomi- &nbsp; | &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
-					<span style="font-family:'Liberation Mono';">talin. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
-					<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Palkkauksen järjestelyssä nimi- &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
-					<span style="font-family:'Liberation Mono';">tetty vanhemmaksi konstaapeliksi &nbsp; &nbsp; &nbsp;| 1941 | &nbsp;7 | &nbsp;1 |</span><br />
-					<span style="font-family:'Liberation Mono';">(N:o 14257/41. Päiv. 1/7-41) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
-					<span style="font-family:'Liberation Mono';"></span><em><span style="font-family:'Liberation Mono';">Siirretty huolto-osastoon pvm:llä &nbsp; &nbsp; | 1944 | &nbsp;7 | 30 |</span></em><br />
-					<em><span style="font-family:'Liberation Mono';">Poliisikomentaja on lausunut tunnus- &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span></em><br />
-					<em><span style="font-family:'Liberation Mono';">tuksensa hänen tultuaan 17.1.1945 &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span></em><br />
-					<em><span style="font-family:'Liberation Mono';">olleeksi 25vuotta poliisipalveluksessa| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span></em><br />
-					<em><span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Toiminut järjestyskonstaapelina &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span></em><br />
-					<em><span style="font-family:'Liberation Mono';">Viipurin sot.hall.piirissä ajalla &nbsp; &nbsp; | 1941 | &nbsp;8 | 31 |</span></em><br />
-					<em><span style="font-family:'Liberation Mono';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- &nbsp;| 1944 | &nbsp;7 | 26 |</span></em><br />
-					<em><span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Vannonut haastemiehen &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span></em><br />
-					<em><span style="font-family:'Liberation Mono';">valan Helsingin Raastu- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp; </span></em><br />
-					<em><span style="font-family:'Liberation Mono';">vanoikeuden I osastolla &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 1945 | 10 | 29 |</span></em><br />
-					<em><span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Poliisikomentaja on lausunut tun- &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span></em><br />
-					<em><span style="font-family:'Liberation Mono';">nuksensa hänen tultuaan &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span></em><br />
-					<em><span style="font-family:'Liberation Mono';">17.1.1950 olleeksi 30 vuotta po- &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span></em><br />
-					<em><span style="font-family:'Liberation Mono';">liisipalveluksessa &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span></em><br />
-					<em><span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Poistetaan luetteloista &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span></em>
-					</p>
-					<p>
-					&nbsp;
-					</p>
-					<p>
-					<em><span style="font-family:'Liberation Mono';"></span></em><span style="font-family:'Liberation Mono';">139</span><em><span style="font-family:'Liberation Mono';"></span></em><br />
-					<em><span style="font-family:'Liberation Mono';">S</span></em><span style="font-family:'Liberation Mono';">uku- ja ristimänimi:</span><em><span style="font-family:'Liberation Mono';"> Taponen, Heikki</span></em>
-					</p>
-					<p>
-					<em><span style="font-family:'Liberation Mono';">kuolleena pvm:llä &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 1952 | 12 | 29 |</span></em>
-					</p>
-					<p>
-					&nbsp;
-					</p>
-					<p>
-					&nbsp;
-					</p>
+				<h4>Notes</h4>
+				<div class="subsection narrative" id="toggle_note" style="display:block">
+					<h4>Transcript</h4>
+					<div class="grampsstylednote">
+						<p>
+						<span style="font-family:'Liberation Mono';">137</span><br />
+						<span style="font-family:'Liberation Mono';">Suku- ja ristimänimi: T a p o n e n, Heikki &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;N.128[yliviivattu]</span>
+						</p>
+						<p>
+						<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Rääkkylä &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 1896 | &nbsp;7 | &nbsp;2 |</span><br />
+						<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Suorittanut sotapalveluksen Pohj. &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
+						<span style="font-family:'Liberation Mono';">Savon Rykm:ssä ajalla &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 1918 | &nbsp;8 | &nbsp;8 |</span><br />
+						<span style="font-family:'Liberation Mono';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - &nbsp; | 1919 | 10 | 15 |</span><br />
+						<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Korotetu alikersantiksi &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| 1918 | 11 | 25 |</span><br />
+						<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Otettu Viipurin kaupungin poliisi- | &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
+						<span style="font-family:'Liberation Mono';">laitoksen palvelukseen ylimääräisek- &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
+						<span style="font-family:'Liberation Mono';">si konstaapeliksi &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 1919 | 11 | &nbsp;1 |</span><br />
+						<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Siiretty vakinaiseksi alempaan &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
+						<span style="font-family:'Liberation Mono';">palkkausluokkaan &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| 1920 | &nbsp;3 | &nbsp;1 |</span><br />
+						<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Saanut eron omasta pyynnöstään &nbsp; &nbsp; | 1920 | &nbsp;5 | 15 |</span><br />
+						<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Otettu uudelleen saman laitoksen &nbsp; | &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
+						<span style="font-family:'Liberation Mono';">palvelukseen ylimääräiseksi konstaa- &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
+						<span style="font-family:'Liberation Mono';">peliksi &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 1920 | &nbsp;8 | &nbsp;1 |</span><br />
+						<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Siirretty vakinaiseksi alempaan &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
+						<span style="font-family:'Liberation Mono';">palkkausluokkaan &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| 1920 | 11 | &nbsp;1 |</span><br />
+						<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Määrätty toimimaan tarkastajana &nbsp; &nbsp;| 1925 | 11 | &nbsp;8 |</span><br />
+						<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Siirretty 2:een palkkausluokkaan &nbsp; | 1925 | 12 | 31 |</span><br />
+						<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Siirretty 1:een palkkausluokkaan &nbsp; | 1926 | &nbsp;8 | 31 |</span><br />
+						<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Siirretty tarkastuskonstaapeliksi &nbsp;| 1927 | &nbsp;1 | &nbsp;1 |</span><br />
+						<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Virkavala &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| 1930 | 12 | 18 |</span><br />
+						<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Saanut eron omasta pyynnöstään &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
+						<span style="font-family:'Liberation Mono';">tarkastuskonstaapelin toimesta &nbsp; &nbsp; &nbsp; &nbsp;| 1936 | &nbsp;1 | 31 |</span><br />
+						<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Otettu v.s.vanhemmaksi konstaape- &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
+						<span style="font-family:'Liberation Mono';">liksi &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 1936 | &nbsp;1 | 31 |</span><br />
+						<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Nimitetty vakinaiseksi vanhemmak- &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
+						<span style="font-family:'Liberation Mono';">si konstaapeliksi &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 1936 | &nbsp;3 | 31 |</span><br />
+						<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Palvellut 97 Sotilaspiirissä &nbsp; &nbsp; &nbsp; | 1939 | 12 | &nbsp;8 |</span><br />
+						<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Siirretty 2 Viipurin Sotapol.Pa- &nbsp; | &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
+						<span style="font-family:'Liberation Mono';">talj. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 1940 | &nbsp;3 | &nbsp;5 |</span>
+						</p>
+						<p>
+						&nbsp;
+						</p>
+						<p>
+						&nbsp;
+						</p>
+						<p>
+						<span style="font-family:'Liberation Mono';">138</span><br />
+						<span style="font-family:'Liberation Mono';">Suku- ja ristimänimi: T a p o n e n, Heikki</span>
+						</p>
+						<p>
+						<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Vapautettu &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 1940 | &nbsp;5 | 23 |</span><br />
+						<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Sisäasiainministeriön määräykses- &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
+						<span style="font-family:'Liberation Mono';">tä 4/5-40 määrätty sijoitettavaksi &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
+						<span style="font-family:'Liberation Mono';">Helsingin poliisilaitokseen (VI pii- &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
+						<span style="font-family:'Liberation Mono';">riin). &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
+						<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Nimitetty alemman palkkaluokan &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
+						<span style="font-family:'Liberation Mono';">vanhemmaksi konstaapeliksi Helsingin &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
+						<span style="font-family:'Liberation Mono';">poliisilaitoksen VI piiriin (N:o &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
+						<span style="font-family:'Liberation Mono';">14145/41. Päiv. 1/1-41 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| 1941 | &nbsp;1 | &nbsp;1 |</span><br />
+						<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Saanut sodan 1939-1940 muistomi- &nbsp; | &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
+						<span style="font-family:'Liberation Mono';">talin. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
+						<span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Palkkauksen järjestelyssä nimi- &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
+						<span style="font-family:'Liberation Mono';">tetty vanhemmaksi konstaapeliksi &nbsp; &nbsp; &nbsp;| 1941 | &nbsp;7 | &nbsp;1 |</span><br />
+						<span style="font-family:'Liberation Mono';">(N:o 14257/41. Päiv. 1/7-41) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span><br />
+						<span style="font-family:'Liberation Mono';"></span><em><span style="font-family:'Liberation Mono';">Siirretty huolto-osastoon pvm:llä &nbsp; &nbsp; | 1944 | &nbsp;7 | 30 |</span></em><br />
+						<em><span style="font-family:'Liberation Mono';">Poliisikomentaja on lausunut tunnus- &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span></em><br />
+						<em><span style="font-family:'Liberation Mono';">tuksensa hänen tultuaan 17.1.1945 &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span></em><br />
+						<em><span style="font-family:'Liberation Mono';">olleeksi 25vuotta poliisipalveluksessa| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span></em><br />
+						<em><span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Toiminut järjestyskonstaapelina &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span></em><br />
+						<em><span style="font-family:'Liberation Mono';">Viipurin sot.hall.piirissä ajalla &nbsp; &nbsp; | 1941 | &nbsp;8 | 31 |</span></em><br />
+						<em><span style="font-family:'Liberation Mono';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- &nbsp;| 1944 | &nbsp;7 | 26 |</span></em><br />
+						<em><span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Vannonut haastemiehen &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span></em><br />
+						<em><span style="font-family:'Liberation Mono';">valan Helsingin Raastu- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp; </span></em><br />
+						<em><span style="font-family:'Liberation Mono';">vanoikeuden I osastolla &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 1945 | 10 | 29 |</span></em><br />
+						<em><span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Poliisikomentaja on lausunut tun- &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span></em><br />
+						<em><span style="font-family:'Liberation Mono';">nuksensa hänen tultuaan &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span></em><br />
+						<em><span style="font-family:'Liberation Mono';">17.1.1950 olleeksi 30 vuotta po- &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span></em><br />
+						<em><span style="font-family:'Liberation Mono';">liisipalveluksessa &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span></em><br />
+						<em><span style="font-family:'Liberation Mono';">&nbsp; &nbsp;Poistetaan luetteloista &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp;| &nbsp; &nbsp;|</span></em>
+						</p>
+						<p>
+						&nbsp;
+						</p>
+						<p>
+						<em><span style="font-family:'Liberation Mono';"></span></em><span style="font-family:'Liberation Mono';">139</span><em><span style="font-family:'Liberation Mono';"></span></em><br />
+						<em><span style="font-family:'Liberation Mono';">S</span></em><span style="font-family:'Liberation Mono';">uku- ja ristimänimi:</span><em><span style="font-family:'Liberation Mono';"> Taponen, Heikki</span></em>
+						</p>
+						<p>
+						<em><span style="font-family:'Liberation Mono';">kuolleena pvm:llä &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 1952 | 12 | 29 |</span></em>
+						</p>
+						<p>
+						&nbsp;
+						</p>
+						<p>
+						&nbsp;
+						</p>
+					</div>
 				</div>
 			</div>
 			<div class="subsection" id="repositories">
 				<h4>Repositories</h4>
-				<table class="infolist">
+				<table class="infolist ltr">
 					<thead>
 						<tr>
 							<th class="ColumnRowLabel">Number</th>
@@ -176,8 +220,15 @@
 				<h4>References</h4>
 				<ol class="Col1" role="Volume-n-Page" type=1>
 					<li>
-					137
+					139
 						<ol class="Col1" role="Volume-n-Page" type=a>
+							<li>
+								<a href="../../../evt/5/5/cca1691384735bf6855.html">
+								Death, Taponen, Heikki
+								
+								
+								</a>
+							</li>
 							<li>
 								<a href="../../../ppl/3/5/cca1691b7c53559cc53.html">
 								Taponen, Heikki
@@ -185,9 +236,21 @@
 								
 								</a>
 							</li>
+						</ol>
+					</li>
+					<li>
+					137
+						<ol class="Col1" role="Volume-n-Page" type=a>
 							<li>
 								<a href="../../../evt/d/9/f1325cca64c3a08ad42a853ca9d.html">
 								Conscription, Taponen, Heikki
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../evt/3/6/f14bc76cc4ccc912a8abb12463.html">
+								97 Sotilaspiiri
 								
 								
 								</a>
@@ -200,8 +263,8 @@
 								</a>
 							</li>
 							<li>
-								<a href="../../../evt/3/6/f14bc76cc4ccc912a8abb12463.html">
-								97 Sotilaspiiri
+								<a href="../../../ppl/3/5/cca1691b7c53559cc53.html">
+								Taponen, Heikki
 								
 								
 								</a>
@@ -212,34 +275,15 @@
 					138
 						<ol class="Col1" role="Volume-n-Page" type=a>
 							<li>
-								<a href="../../../ppl/3/5/cca1691b7c53559cc53.html">
-								Taponen, Heikki
-								
-								
-								</a>
-							</li>
-							<li>
 								<a href="../../../evt/f/1/cdd6fee780248c9481f.html">
 								Poliisi
 								
 								
 								</a>
 							</li>
-						</ol>
-					</li>
-					<li>
-					139
-						<ol class="Col1" role="Volume-n-Page" type=a>
 							<li>
 								<a href="../../../ppl/3/5/cca1691b7c53559cc53.html">
 								Taponen, Heikki
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/5/5/cca1691384735bf6855.html">
-								Death, Taponen, Heikki
 								
 								
 								</a>
@@ -252,7 +296,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6 on 2024-02-18
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2 on 2024-06-13
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

@@ -1,26 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>My Family Tree - Individuals</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">My Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">My Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li class = "CurrentSection"><a href="individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="index.html" title="Surnames">Surnames</a></li>
 					<li><a href="families.html" title="Families">Families</a></li>
@@ -28,19 +39,49 @@
 					<li><a href="places.html" title="Places">Places</a></li>
 					<li><a href="sources.html" title="Sources">Sources</a></li>
 					<li><a href="repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="media.html" title="Media">Media</a></li>
-					<li><a href="thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="updates.html" title="Updates">Updates</a></li>
 					<li><a href="statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="Individuals">
 			<p id="description">
 			This page contains an index of all the individuals in the database, sorted by their last names. Selecting the person&#8217;s name will take you to that person&#8217;s individual page.
 			</p>
-			<div id="alphanav">
-				<ul>
+			<div id="ltr">
+				<ul class="ltr">
 					<li><a href="#B" title="Alphabet Menu: B">B</a></li>
 					<li><a href="#H" title="Alphabet Menu: H">H</a></li>
 					<li><a href="#K" title="Alphabet Menu: K">K</a></li>
@@ -52,7 +93,7 @@
 					<li><a href="#W" title="Alphabet Menu: W">W</a></li>
 				</ul>
 			</div>
-			<table class="infolist primobjlist IndividualList">
+			<table class="infolist primobjlist IndividualList ltr">
 				<thead>
 					<tr>
 						<th class="ColumnSurname">Group as</th>
@@ -78,8 +119,8 @@
 						<td class="ColumnBirth">1766</td>
 						<td class="ColumnDeath">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Hirvonen">Hirvonen</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="H" name="H" title="Surnames Hirvonen beginning with letter H">Hirvonen</a></td>
 						<td class="ColumnName">
 							<a href="ppl/6/2/cdcdf8febe012a2ce26.html">Hirvonen, Maria</a>
 						</td>
@@ -134,16 +175,24 @@
 						<td class="ColumnBirth">1827-08-14</td>
 						<td class="ColumnDeath">&nbsp;</td>
 					</tr>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="K" name="K" title="Surnames Kähkönen beginning with letter K">Kähkönen</a></td>
+						<td class="ColumnName">
+							<a href="ppl/a/5/f9e739f51a815ea9ded7c0bc95a.html">Kähkönen, Anna</a>
+						</td>
+						<td class="ColumnBirth">1834-09-01</td>
+						<td class="ColumnDeath">1901-04-07</td>
+					</tr>
 					<tr>
-						<td class="ColumnSurname"><a title="Surnames Kähkönen">Kähkönen</a></td>
+						<td class="ColumnSurname">&nbsp;</td>
 						<td class="ColumnName">
 							<a href="ppl/9/8/da7cd7baaa873c091c992cbf089.html">Kähkönen, Eeva Stina</a>
 						</td>
 						<td class="ColumnBirth">1867-10-10</td>
 						<td class="ColumnDeath">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Kasin">Kasin</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="K" name="K" title="Surnames Kasin beginning with letter K">Kasin</a></td>
 						<td class="ColumnName">
 							<a href="ppl/e/5/cdd04c4a3521fc87a5e.html">Kasin, Anders Johansson</a>
 						</td>
@@ -174,8 +223,16 @@
 						<td class="ColumnBirth">1767</td>
 						<td class="ColumnDeath">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Kiiski">Kiiski</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="K" name="K" title="Surnames Kemppainen beginning with letter K">Kemppainen</a></td>
+						<td class="ColumnName">
+							<a href="ppl/8/7/f9eea7649e711cfa27fab06c378.html">Kemppainen, Maria Lovisa Abrahamintytär</a>
+						</td>
+						<td class="ColumnBirth">1864-08-15</td>
+						<td class="ColumnDeath">&nbsp;</td>
+					</tr>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="K" name="K" title="Surnames Kiiski beginning with letter K">Kiiski</a></td>
 						<td class="ColumnName">
 							<a href="ppl/1/e/da92b27fc26689837064bb897e1.html">Kiiski, Anders</a>
 						</td>
@@ -270,8 +327,8 @@
 						<td class="ColumnBirth">1822-06-04</td>
 						<td class="ColumnDeath">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Konttinen">Konttinen</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="K" name="K" title="Surnames Konttinen beginning with letter K">Konttinen</a></td>
 						<td class="ColumnName">
 							<a href="ppl/7/d/da7cd79587f6ef8a70c44bf51d7.html">Konttinen, Heikki</a>
 						</td>
@@ -286,8 +343,8 @@
 						<td class="ColumnBirth">1894-08-13</td>
 						<td class="ColumnDeath">1965-11-22</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Kotilainen">Kotilainen</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="K" name="K" title="Surnames Kotilainen beginning with letter K">Kotilainen</a></td>
 						<td class="ColumnName">
 							<a href="ppl/9/5/f13253b8dcf405dbbd8208e359.html">Kotilainen, Soini Edvin</a>
 						</td>
@@ -303,11 +360,35 @@
 						<td class="ColumnDeath">&nbsp;</td>
 					</tr>
 					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="L" name="L" title="Surnames Lintunen beginning with letter L">Lintunen</a></td>
+						<td class="ColumnName">
+							<a href="ppl/2/b/fa0b6e94a9a7391eee7bdbb47b2.html">Lintunen, Elias Marianpoika</a>
+						</td>
+						<td class="ColumnBirth">1872-12-17</td>
+						<td class="ColumnDeath">&nbsp;</td>
+					</tr>
+					<tr>
+						<td class="ColumnSurname">&nbsp;</td>
+						<td class="ColumnName">
+							<a href="ppl/4/b/fa0b713594e4aa5c284c25674b4.html">Lintunen, Mikko</a>
+						</td>
+						<td class="ColumnBirth">1899-12-21</td>
+						<td class="ColumnDeath">&nbsp;</td>
+					</tr>
+					<tr class = "BeginSurname">
 						<td class="ColumnSurname"><a id="P" name="P" title="Surnames Palmstedt beginning with letter P">Palmstedt</a></td>
 						<td class="ColumnName">
 							<a href="ppl/3/3/d019224c22949006533.html">Palmstedt, Maria Sofia</a>
 						</td>
 						<td class="ColumnBirth">1831-05-28</td>
+						<td class="ColumnDeath">1884-02-01</td>
+					</tr>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="P" name="P" title="Surnames Pitkänen beginning with letter P">Pitkänen</a></td>
+						<td class="ColumnName">
+							<a href="ppl/6/e/fa08c0cfc5a7ee09f69fcbcfbe6.html">Pitkänen, Anna Antintytär</a>
+						</td>
+						<td class="ColumnBirth">1869-06-23</td>
 						<td class="ColumnDeath">&nbsp;</td>
 					</tr>
 					<tr class = "BeginSurname">
@@ -318,16 +399,56 @@
 						<td class="ColumnBirth">1804-11-03</td>
 						<td class="ColumnDeath">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Rigoin">Rigoin</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="R" name="R" title="Surnames Rigoin beginning with letter R">Rigoin</a></td>
 						<td class="ColumnName">
 							<a href="ppl/d/9/cdd04d692f43544569d.html">Rigoin, Lisa</a>
 						</td>
 						<td class="ColumnBirth">1737</td>
 						<td class="ColumnDeath">1803</td>
 					</tr>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="R" name="R" title="Surnames Rissain beginning with letter R">Rissain</a></td>
+						<td class="ColumnName">
+							<a href="ppl/e/c/fa024087ea22a1da7a1c02596ce.html">Rissain, Anna Juliana</a>
+						</td>
+						<td class="ColumnBirth">1816-11-10</td>
+						<td class="ColumnDeath">&nbsp;</td>
+					</tr>
 					<tr>
-						<td class="ColumnSurname"><a title="Surnames Rongain">Rongain</a></td>
+						<td class="ColumnSurname">&nbsp;</td>
+						<td class="ColumnName">
+							<a href="ppl/7/5/fa0567f10ba344c16f9e03e5e57.html">Rissain, Anna Sofia</a>
+						</td>
+						<td class="ColumnBirth">1835-09-10</td>
+						<td class="ColumnDeath">1836-05-07</td>
+					</tr>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="R" name="R" title="Surnames Rongain beginning with letter R">Rongain</a></td>
+						<td class="ColumnName">
+							<a href="ppl/6/f/fa0514a44024f6479f6f8292ff6.html">Rongain, Anna Sofia</a>
+						</td>
+						<td class="ColumnBirth">1845-02-23</td>
+						<td class="ColumnDeath">&nbsp;</td>
+					</tr>
+					<tr>
+						<td class="ColumnSurname">&nbsp;</td>
+						<td class="ColumnName">
+							<a href="ppl/c/a/fa04f6bc2c0447504a9390ee6ac.html">Rongain, August</a>
+						</td>
+						<td class="ColumnBirth">1842-12-02</td>
+						<td class="ColumnDeath">&nbsp;</td>
+					</tr>
+					<tr>
+						<td class="ColumnSurname">&nbsp;</td>
+						<td class="ColumnName">
+							<a href="ppl/6/c/fa02437933b5db86ac0d8c660c6.html">Rongain, Johan Henric</a>
+						</td>
+						<td class="ColumnBirth">1838-02-02</td>
+						<td class="ColumnDeath">&nbsp;</td>
+					</tr>
+					<tr>
+						<td class="ColumnSurname">&nbsp;</td>
 						<td class="ColumnName">
 							<a href="ppl/2/5/da86c48449f794d77398c8d3552.html">Rongain, Johan Mattsson</a>
 						</td>
@@ -339,7 +460,15 @@
 						<td class="ColumnName">
 							<a href="ppl/9/b/da86c8c80304370ee8788d8e4b9.html">Rongain, Matts</a>
 						</td>
-						<td class="ColumnBirth">1814</td>
+						<td class="ColumnBirth">1814-07-02</td>
+						<td class="ColumnDeath">&nbsp;</td>
+					</tr>
+					<tr>
+						<td class="ColumnSurname">&nbsp;</td>
+						<td class="ColumnName">
+							<a href="ppl/a/d/fa04ed23fde23d58e3976989eda.html">Rongain, Matts</a>
+						</td>
+						<td class="ColumnBirth">1840-01-04</td>
 						<td class="ColumnDeath">&nbsp;</td>
 					</tr>
 					<tr>
@@ -347,11 +476,11 @@
 						<td class="ColumnName">
 							<a href="ppl/e/6/da86c5da93f4fc0b5565664236e.html">Rongain, Walborg</a>
 						</td>
-						<td class="ColumnBirth">1819-01-14</td>
+						<td class="ColumnBirth">1820-01-18</td>
 						<td class="ColumnDeath">&nbsp;</td>
 					</tr>
 					<tr>
-						<td class="ColumnSurname"><a title="Surnames Ronganen">Ronganen</a></td>
+						<td class="ColumnSurname">&nbsp;</td>
 						<td class="ColumnName">
 							<a href="ppl/a/0/d010ed56511173bf30a.html">Ronganen, Kristina Johansdotter</a>
 						</td>
@@ -366,8 +495,8 @@
 						<td class="ColumnBirth">1838-11-05</td>
 						<td class="ColumnDeath">1872-07-02</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Silfvendoin">Silfvendoin</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="S" name="S" title="Surnames Silfvendoin beginning with letter S">Silfvendoin</a></td>
 						<td class="ColumnName">
 							<a href="ppl/5/0/cdd04c6f2866e03c805.html">Silfvendoin, Lisa</a>
 						</td>
@@ -375,7 +504,7 @@
 						<td class="ColumnDeath">&nbsp;</td>
 					</tr>
 					<tr class = "BeginSurname">
-						<td class="ColumnSurname"><a id="T" name="T" title="Surnames Tapain beginning with letter T">Tapain</a></td>
+						<td class="ColumnSurname"><a id="T" name="T" title="Surnames Taponen beginning with letter T">Taponen</a></td>
 						<td class="ColumnName">
 							<a href="ppl/6/6/cb937f37e8f342e2366.html">Tapain, Jöran</a>
 						</td>
@@ -383,9 +512,17 @@
 						<td class="ColumnDeath">1842-05-31</td>
 					</tr>
 					<tr>
-						<td class="ColumnSurname"><a title="Surnames Taponen">Taponen</a></td>
+						<td class="ColumnSurname">&nbsp;</td>
 						<td class="ColumnName">
-							<a href="ppl/1/7/cb9387523a946030f71.html">Taponen, Anna Josefina</a>
+							<a href="ppl/3/1/fa08d5177a3505e68a0fbcc0f13.html">Tapanen, Aina</a>
+						</td>
+						<td class="ColumnBirth">1884-08-12</td>
+						<td class="ColumnDeath">&nbsp;</td>
+					</tr>
+					<tr>
+						<td class="ColumnSurname">&nbsp;</td>
+						<td class="ColumnName">
+							<a href="ppl/1/7/cb9387523a946030f71.html">Tapanen, Anna Josefina</a>
 						</td>
 						<td class="ColumnBirth">1863-06-06</td>
 						<td class="ColumnDeath">&nbsp;</td>
@@ -393,10 +530,66 @@
 					<tr>
 						<td class="ColumnSurname">&nbsp;</td>
 						<td class="ColumnName">
-							<a href="ppl/2/2/cb9381f71285d1f4d22.html">Taponen, Anna Lisa</a>
+							<a href="ppl/2/2/cb9381f71285d1f4d22.html">Tapanen, Anna Lisa</a>
 						</td>
 						<td class="ColumnBirth">1850-01-17</td>
 						<td class="ColumnDeath">1850-03-12</td>
+					</tr>
+					<tr>
+						<td class="ColumnSurname">&nbsp;</td>
+						<td class="ColumnName">
+							<a href="ppl/b/3/cb93824e4956d8c863b.html">Tapanen, Anna Sofia</a>
+						</td>
+						<td class="ColumnBirth">1850-11-13</td>
+						<td class="ColumnDeath">1852-03-17</td>
+					</tr>
+					<tr>
+						<td class="ColumnSurname">&nbsp;</td>
+						<td class="ColumnName">
+							<a href="ppl/a/4/fa08782c4ff4bca6f3677926b4a.html">Tapanen, Elias</a>
+						</td>
+						<td class="ColumnBirth">1871-07-16</td>
+						<td class="ColumnDeath">&nbsp;</td>
+					</tr>
+					<tr>
+						<td class="ColumnSurname">&nbsp;</td>
+						<td class="ColumnName">
+							<a href="ppl/1/f/fa08d4a40e76ee2f0a88850baf1.html">Tapanen, Hilma</a>
+						</td>
+						<td class="ColumnBirth">1880-12-15</td>
+						<td class="ColumnDeath">&nbsp;</td>
+					</tr>
+					<tr>
+						<td class="ColumnSurname">&nbsp;</td>
+						<td class="ColumnName">
+							<a href="ppl/7/e/fa08c1dd03b29c6bec53a94d8e7.html">Tapanen, Maija Stiina</a>
+						</td>
+						<td class="ColumnBirth">1873-02-25</td>
+						<td class="ColumnDeath">&nbsp;</td>
+					</tr>
+					<tr>
+						<td class="ColumnSurname">&nbsp;</td>
+						<td class="ColumnName">
+							<a href="ppl/b/3/cca2060fc18189e5c3b.html">Tapanen, Michel</a>
+						</td>
+						<td class="ColumnBirth">1839-05-21</td>
+						<td class="ColumnDeath">&nbsp;</td>
+					</tr>
+					<tr>
+						<td class="ColumnSurname">&nbsp;</td>
+						<td class="ColumnName">
+							<a href="ppl/5/7/cb937d8bfc70c373375.html">Tapanen, Nils Jöransson</a>
+						</td>
+						<td class="ColumnBirth">1827-04-13</td>
+						<td class="ColumnDeath">&nbsp;</td>
+					</tr>
+					<tr>
+						<td class="ColumnSurname">&nbsp;</td>
+						<td class="ColumnName">
+							<a href="ppl/c/0/fa08f1ec51863e1af9931344e0c.html">Tapanen, Wilhelmina</a>
+						</td>
+						<td class="ColumnBirth">1875-06-26</td>
+						<td class="ColumnDeath">1877-06-10</td>
 					</tr>
 					<tr>
 						<td class="ColumnSurname">&nbsp;</td>
@@ -405,14 +598,6 @@
 						</td>
 						<td class="ColumnBirth">1882-08-17</td>
 						<td class="ColumnDeath">&nbsp;</td>
-					</tr>
-					<tr>
-						<td class="ColumnSurname">&nbsp;</td>
-						<td class="ColumnName">
-							<a href="ppl/b/3/cb93824e4956d8c863b.html">Taponen, Anna Sofia</a>
-						</td>
-						<td class="ColumnBirth">1850-11-13</td>
-						<td class="ColumnDeath">1852</td>
 					</tr>
 					<tr>
 						<td class="ColumnSurname">&nbsp;</td>
@@ -521,26 +706,10 @@
 					<tr>
 						<td class="ColumnSurname">&nbsp;</td>
 						<td class="ColumnName">
-							<a href="ppl/b/3/cca2060fc18189e5c3b.html">Taponen, Michel</a>
-						</td>
-						<td class="ColumnBirth">1839-05-21</td>
-						<td class="ColumnDeath">&nbsp;</td>
-					</tr>
-					<tr>
-						<td class="ColumnSurname">&nbsp;</td>
-						<td class="ColumnName">
 							<a href="ppl/0/2/cb9387a23152ebf0a20.html">Taponen, Mina Sofia</a>
 						</td>
 						<td class="ColumnBirth">1865-08-16</td>
 						<td class="ColumnDeath">1868-04-19</td>
-					</tr>
-					<tr>
-						<td class="ColumnSurname">&nbsp;</td>
-						<td class="ColumnName">
-							<a href="ppl/5/7/cb937d8bfc70c373375.html">Taponen, Nils Jöransson</a>
-						</td>
-						<td class="ColumnBirth">1827-04-13</td>
-						<td class="ColumnDeath">&nbsp;</td>
 					</tr>
 					<tr>
 						<td class="ColumnSurname">&nbsp;</td>
@@ -582,8 +751,8 @@
 						<td class="ColumnBirth">1921-01-30</td>
 						<td class="ColumnDeath">2011-06-04</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Tirkkonen">Tirkkonen</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="T" name="T" title="Surnames Tirkkonen beginning with letter T">Tirkkonen</a></td>
 						<td class="ColumnName">
 							<a href="ppl/8/d/d01117648484abf78d8.html">Tirkkonen, Eva</a>
 						</td>
@@ -598,16 +767,16 @@
 						<td class="ColumnBirth">1839-03-20</td>
 						<td class="ColumnDeath">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Toivain">Toivain</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="T" name="T" title="Surnames Toivain beginning with letter T">Toivain</a></td>
 						<td class="ColumnName">
 							<a href="ppl/6/1/da86c542880462139bfc841cd16.html">Toivain, Carin</a>
 						</td>
 						<td class="ColumnBirth">1787</td>
 						<td class="ColumnDeath">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Toropain">Toropain</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="T" name="T" title="Surnames Toropain beginning with letter T">Toropain</a></td>
 						<td class="ColumnName">
 							<a href="ppl/f/b/cdd054da44e0fd704bf.html">Toropain, David</a>
 						</td>
@@ -623,11 +792,27 @@
 						<td class="ColumnDeath">&nbsp;</td>
 					</tr>
 					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="T" name="T" title="Surnames Turpeinen beginning with letter T">Turpeinen</a></td>
+						<td class="ColumnName">
+							<a href="ppl/8/1/fa0868a7e3477ce57c082616018.html">Turpeinen, Anna Lena</a>
+						</td>
+						<td class="ColumnBirth">1844-05-10</td>
+						<td class="ColumnDeath">&nbsp;</td>
+					</tr>
+					<tr class = "BeginSurname">
 						<td class="ColumnSurname"><a id="W" name="W" title="Surnames Wartiainen beginning with letter W">Wartiainen</a></td>
 						<td class="ColumnName">
 							<a href="ppl/6/3/cfa36550a1144d88836.html">Wartiainen, Hilma</a>
 						</td>
 						<td class="ColumnBirth">1885-10-23</td>
+						<td class="ColumnDeath">&nbsp;</td>
+					</tr>
+					<tr>
+						<td class="ColumnSurname">&nbsp;</td>
+						<td class="ColumnName">
+							<a href="ppl/d/8/f9eea5923c36f3d824d1e9b9d8d.html">Wartiainen, Paavo Antinpoika</a>
+						</td>
+						<td class="ColumnBirth">1849-12-17</td>
 						<td class="ColumnDeath">&nbsp;</td>
 					</tr>
 				</tbody>
@@ -636,7 +821,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2024-02-15 21:43:49
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2<br />Last change was the 2024-06-13 18:55:04
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

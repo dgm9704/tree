@@ -1,26 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>My Family Tree - Families</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">My Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">My Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li><a href="individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="index.html" title="Surnames">Surnames</a></li>
 					<li class = "CurrentSection"><a href="families.html" title="Families">Families</a></li>
@@ -28,19 +39,49 @@
 					<li><a href="places.html" title="Places">Places</a></li>
 					<li><a href="sources.html" title="Sources">Sources</a></li>
 					<li><a href="repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="media.html" title="Media">Media</a></li>
-					<li><a href="thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="updates.html" title="Updates">Updates</a></li>
 					<li><a href="statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="Relationships">
 			<p id="description">
 			This page contains an index of all the families/ relationships in the database, sorted by their family name/ surname. Clicking on a person&#8217;s name will take you to their family/ relationship&#8217;s page.
 			</p>
-			<div id="alphanav">
-				<ul>
+			<div id="ltr">
+				<ul class="ltr">
 					<li><a href="#B" title="Alphabet Menu: B">B</a></li>
 					<li><a href="#H" title="Alphabet Menu: H">H</a></li>
 					<li><a href="#K" title="Alphabet Menu: K">K</a></li>
@@ -52,7 +93,7 @@
 					<li><a href="#W" title="Alphabet Menu: W">W</a></li>
 				</ul>
 			</div>
-			<table class="infolist relationships">
+			<table class="infolist relationships ltr">
 				<thead>
 					<tr>
 						<th class="ColumnRowLabel">Letter</th>
@@ -63,9 +104,11 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr class ="BeginFamily">
+					<tr class="BeginLetter BeginFamily">
 						<td class="ColumnRowLabel">
-							<a name="B" title="Families beginning with letter B">B</a>
+							<a id="B" name="B" title="Families beginning with letter B">
+							B
+							</a>
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/6/da92b16f8e26838cdc417d9db6d.html">Burman, Maria</a>
@@ -79,9 +122,11 @@
 						<td class="ColumnDate"></td>
 						<td class="ColumnDate"></td>
 					</tr>
-					<tr class ="BeginFamily">
+					<tr class="BeginLetter BeginFamily">
 						<td class="ColumnRowLabel">
-							<a name="H" title="Families beginning with letter H">H</a>
+							<a id="H" name="H" title="Families beginning with letter H">
+							H
+							</a>
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/1/da7cf5346af51a8cbb9f3ce9517.html">Halttuin, Susanna</a>
@@ -97,7 +142,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/2/cdcdf8febe012a2ce26.html">Hirvonen, Maria</a>
@@ -111,9 +155,11 @@
 						<td class="ColumnDate"></td>
 						<td class="ColumnDate"></td>
 					</tr>
-					<tr class ="BeginFamily">
+					<tr class="BeginLetter BeginFamily">
 						<td class="ColumnRowLabel">
-							<a name="K" title="Families beginning with letter K">K</a>
+							<a id="K" name="K" title="Families beginning with letter K">
+							K
+							</a>
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/6/cb937f641b6306a0964.html">Kaasinen, Johan Andersson</a>
@@ -129,14 +175,13 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/b/cb937e38d745f457ab6.html">Kaasinen, Lisa Johansdotter</a>
 						</td>
 						<td class="ColumnPartner">
-							<a href="fam/f/e/cb937d0369c30ea97ef.html" title="Family of Taponen, Nils Jöransson and Kaasinen, Lisa Johansdotter">
-							Family of Taponen, Nils Jöransson and Kaasinen, Lisa Johansdotter
+							<a href="fam/f/e/cb937d0369c30ea97ef.html" title="Family of Tapanen, Nils Jöransson and Kaasinen, Lisa Johansdotter">
+							Family of Tapanen, Nils Jöransson and Kaasinen, Lisa Johansdotter
 							
 							</a>
 						</td>
@@ -145,7 +190,21 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
+						</td>
+						<td class="ColumnPartner">
+							<a href="ppl/a/5/f9e739f51a815ea9ded7c0bc95a.html">Kähkönen, Anna</a>
+						</td>
+						<td class="ColumnPartner">
+							<a href="fam/0/c/f9e739c3ad919e99469af9125c0.html" title="Family of Tapanen, Nils Jöransson and Kähkönen, Anna">
+							Family of Tapanen, Nils Jöransson and Kähkönen, Anna
+							
+							</a>
+						</td>
+						<td class="ColumnDate">1896-11-01</td>
+						<td class="ColumnDate">&nbsp;</td>
+					</tr>
+					<tr class ="BeginFamily">
+						<td class="ColumnRowLabel">
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/8/da7cd7baaa873c091c992cbf089.html">Kähkönen, Eeva Stina</a>
@@ -161,7 +220,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/e/5/cdd04c4a3521fc87a5e.html">Kasin, Anders Johansson</a>
@@ -177,7 +235,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/b/cdd04d42fff485e12b8.html">Kasin, Johan</a>
@@ -193,7 +250,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/3/cdd04e92c0f68b83938.html">Kasin, Johan Johansson</a>
@@ -209,7 +265,21 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
+						</td>
+						<td class="ColumnPartner">
+							<a href="ppl/8/7/f9eea7649e711cfa27fab06c378.html">Kemppainen, Maria Lovisa Abrahamintytär</a>
+						</td>
+						<td class="ColumnPartner">
+							<a href="fam/1/c/f9eea5846b251bcc3c3bda5b6c1.html" title="Family of Wartiainen, Paavo Antinpoika and Kemppainen, Maria Lovisa Abrahamintytär">
+							Family of Wartiainen, Paavo Antinpoika and Kemppainen, Maria Lovisa Abrahamintytär
+							
+							</a>
+						</td>
+						<td class="ColumnDate"></td>
+						<td class="ColumnDate"></td>
+					</tr>
+					<tr class ="BeginFamily">
+						<td class="ColumnRowLabel">
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/e/cfa3588ae1d7bd2f6e8.html">Kiiski, Anna</a>
@@ -225,7 +295,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/2/da92b138ada5070533d7a796c26.html">Kiiski, Matts</a>
@@ -241,7 +310,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/b/b/d010ed2cb1a57e405bb.html">Kiiski, Matts Mattsson</a>
@@ -257,7 +325,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -273,7 +340,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/d/da7cd79587f6ef8a70c44bf51d7.html">Konttinen, Heikki</a>
@@ -289,7 +355,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/5/cfa356c7ed1469fab5f.html">Konttinen, Maria</a>
@@ -305,7 +370,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/5/f13253b8dcf405dbbd8208e359.html">Kotilainen, Soini Edvin</a>
@@ -319,9 +383,11 @@
 						<td class="ColumnDate">1942-12-26</td>
 						<td class="ColumnDate">&nbsp;</td>
 					</tr>
-					<tr class ="BeginFamily">
+					<tr class="BeginLetter BeginFamily">
 						<td class="ColumnRowLabel">
-							<a name="L" title="Families beginning with letter L">L</a>
+							<a id="L" name="L" title="Families beginning with letter L">
+							L
+							</a>
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/a/d/cfa36390ad1018afcda.html">Lievonen, Anna Maria</a>
@@ -337,14 +403,31 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-							<a name="P" title="Families beginning with letter P">P</a>
+						</td>
+						<td class="ColumnPartner">
+							<a href="ppl/2/b/fa0b6e94a9a7391eee7bdbb47b2.html">Lintunen, Elias Marianpoika</a>
+						</td>
+						<td class="ColumnPartner">
+							<a href="fam/0/d/fa0b6e5c2f0381ae9bf7027a1d0.html" title="Family of Lintunen, Elias Marianpoika and Tapanen, Hilma">
+							Family of Lintunen, Elias Marianpoika and Tapanen, Hilma
+							
+							</a>
+						</td>
+						<td class="ColumnDate">1898-05-15</td>
+						<td class="ColumnDate">&nbsp;</td>
+					</tr>
+					<tr class="BeginLetter BeginFamily">
+						<td class="ColumnRowLabel">
+							<a id="P" name="P" title="Families beginning with letter P">
+							P
+							</a>
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/3/d019224c22949006533.html">Palmstedt, Maria Sofia</a>
 						</td>
 						<td class="ColumnPartner">
-							<a href="fam/8/f/d0192176cfa508db0f8.html" title="Family of Taponen, Nils Jöransson and Palmstedt, Maria Sofia">
-							Family of Taponen, Nils Jöransson and Palmstedt, Maria Sofia
+							<a href="fam/8/f/d0192176cfa508db0f8.html" title="Family of Tapanen, Nils Jöransson and Palmstedt, Maria Sofia">
+							Family of Tapanen, Nils Jöransson and Palmstedt, Maria Sofia
 							
 							</a>
 						</td>
@@ -353,7 +436,24 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-							<a name="R" title="Families beginning with letter R">R</a>
+						</td>
+						<td class="ColumnPartner">
+							<a href="ppl/6/e/fa08c0cfc5a7ee09f69fcbcfbe6.html">Pitkänen, Anna Antintytär</a>
+						</td>
+						<td class="ColumnPartner">
+							<a href="fam/c/a/fa08c08e7ad38f3baeaf32367ac.html" title="Family of Tapanen, Elias and Pitkänen, Anna Antintytär">
+							Family of Tapanen, Elias and Pitkänen, Anna Antintytär
+							
+							</a>
+						</td>
+						<td class="ColumnDate">1892-10-02</td>
+						<td class="ColumnDate">&nbsp;</td>
+					</tr>
+					<tr class="BeginLetter BeginFamily">
+						<td class="ColumnRowLabel">
+							<a id="R" name="R" title="Families beginning with letter R">
+							R
+							</a>
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/3/cca2047aa577cccb33d.html">Rehuin, Maria Davidsdotter</a>
@@ -369,7 +469,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/9/cdd04d692f43544569d.html">Rigoin, Lisa</a>
@@ -385,7 +484,36 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
+						</td>
+						<td class="ColumnPartner">
+							<a href="ppl/e/c/fa024087ea22a1da7a1c02596ce.html">Rissain, Anna Juliana</a>
+						</td>
+						<td class="ColumnPartner">
+							<a href="fam/0/1/fa0240620592117da17ed8b3b10.html" title="Family of Rongain, Matts and Rissain, Anna Juliana">
+							Family of Rongain, Matts and Rissain, Anna Juliana
+							
+							</a>
+						</td>
+						<td class="ColumnDate">1837-06-25</td>
+						<td class="ColumnDate">&nbsp;</td>
+					</tr>
+					<tr>
+						<td class="ColumnRowLabel">
+						</td>
+						<td class="ColumnPartner">
 						&nbsp;
+						</td>
+						<td class="ColumnPartner">
+							<a href="fam/1/9/fa0567cf01dd170a426d502d91.html" title="Family of Rissain, Anna Juliana">
+							Family of Rissain, Anna Juliana
+							
+							</a>
+						</td>
+						<td class="ColumnDate">&nbsp;</td>
+						<td class="ColumnDate">&nbsp;</td>
+					</tr>
+					<tr class ="BeginFamily">
+						<td class="ColumnRowLabel">
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/2/5/da86c48449f794d77398c8d3552.html">Rongain, Johan Mattsson</a>
@@ -401,7 +529,21 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
+						</td>
+						<td class="ColumnPartner">
+							<a href="ppl/9/b/da86c8c80304370ee8788d8e4b9.html">Rongain, Matts</a>
+						</td>
+						<td class="ColumnPartner">
+							<a href="fam/0/1/fa0240620592117da17ed8b3b10.html" title="Family of Rongain, Matts and Rissain, Anna Juliana">
+							Family of Rongain, Matts and Rissain, Anna Juliana
+							
+							</a>
+						</td>
+						<td class="ColumnDate">1837-06-25</td>
+						<td class="ColumnDate">&nbsp;</td>
+					</tr>
+					<tr class ="BeginFamily">
+						<td class="ColumnRowLabel">
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/a/0/d010ed56511173bf30a.html">Ronganen, Kristina Johansdotter</a>
@@ -415,16 +557,18 @@
 						<td class="ColumnDate">1848-12-10</td>
 						<td class="ColumnDate">&nbsp;</td>
 					</tr>
-					<tr class ="BeginFamily">
+					<tr class="BeginLetter BeginFamily">
 						<td class="ColumnRowLabel">
-							<a name="S" title="Families beginning with letter S">S</a>
+							<a id="S" name="S" title="Families beginning with letter S">
+							S
+							</a>
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/f/cb93847eb084cf900ff.html">Sallinen, Eva Stina</a>
 						</td>
 						<td class="ColumnPartner">
-							<a href="fam/3/c/cb9384c7503395850c3.html" title="Family of Taponen, Nils Jöransson and Sallinen, Eva Stina">
-							Family of Taponen, Nils Jöransson and Sallinen, Eva Stina
+							<a href="fam/3/c/cb9384c7503395850c3.html" title="Family of Tapanen, Nils Jöransson and Sallinen, Eva Stina">
+							Family of Tapanen, Nils Jöransson and Sallinen, Eva Stina
 							
 							</a>
 						</td>
@@ -433,7 +577,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/5/0/cdd04c6f2866e03c805.html">Silfvendoin, Lisa</a>
@@ -449,7 +592,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -463,9 +605,11 @@
 						<td class="ColumnDate">1809-09-14</td>
 						<td class="ColumnDate">&nbsp;</td>
 					</tr>
-					<tr class ="BeginFamily">
+					<tr class="BeginLetter BeginFamily">
 						<td class="ColumnRowLabel">
-							<a name="T" title="Families beginning with letter T">T</a>
+							<a id="T" name="T" title="Families beginning with letter T">
+							T
+							</a>
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/6/cb937f37e8f342e2366.html">Tapain, Jöran</a>
@@ -481,7 +625,111 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
+						</td>
+						<td class="ColumnPartner">
+							<a href="ppl/a/4/fa08782c4ff4bca6f3677926b4a.html">Tapanen, Elias</a>
+						</td>
+						<td class="ColumnPartner">
+							<a href="fam/c/a/fa08c08e7ad38f3baeaf32367ac.html" title="Family of Tapanen, Elias and Pitkänen, Anna Antintytär">
+							Family of Tapanen, Elias and Pitkänen, Anna Antintytär
+							
+							</a>
+						</td>
+						<td class="ColumnDate">1892-10-02</td>
+						<td class="ColumnDate">&nbsp;</td>
+					</tr>
+					<tr class ="BeginFamily">
+						<td class="ColumnRowLabel">
+						</td>
+						<td class="ColumnPartner">
+							<a href="ppl/1/f/fa08d4a40e76ee2f0a88850baf1.html">Tapanen, Hilma</a>
+						</td>
+						<td class="ColumnPartner">
+							<a href="fam/0/d/fa0b6e5c2f0381ae9bf7027a1d0.html" title="Family of Lintunen, Elias Marianpoika and Tapanen, Hilma">
+							Family of Lintunen, Elias Marianpoika and Tapanen, Hilma
+							
+							</a>
+						</td>
+						<td class="ColumnDate">1898-05-15</td>
+						<td class="ColumnDate">&nbsp;</td>
+					</tr>
+					<tr class ="BeginFamily">
+						<td class="ColumnRowLabel">
+						</td>
+						<td class="ColumnPartner">
+							<a href="ppl/b/3/cca2060fc18189e5c3b.html">Tapanen, Michel</a>
+						</td>
+						<td class="ColumnPartner">
+							<a href="fam/2/1/fa08688c752972ce41e55bfb12.html" title="Family of Tapanen, Michel and Turpeinen, Anna Lena">
+							Family of Tapanen, Michel and Turpeinen, Anna Lena
+							
+							</a>
+						</td>
+						<td class="ColumnDate">1870-07-10</td>
+						<td class="ColumnDate">&nbsp;</td>
+					</tr>
+					<tr class ="BeginFamily">
+						<td class="ColumnRowLabel">
+						</td>
+						<td class="ColumnPartner">
+							<a href="ppl/5/7/cb937d8bfc70c373375.html">Tapanen, Nils Jöransson</a>
+						</td>
+						<td class="ColumnPartner">
+							<a href="fam/f/e/cb937d0369c30ea97ef.html" title="Family of Tapanen, Nils Jöransson and Kaasinen, Lisa Johansdotter">
+							Family of Tapanen, Nils Jöransson and Kaasinen, Lisa Johansdotter
+							
+							</a>
+						</td>
+						<td class="ColumnDate">1847-10-24</td>
+						<td class="ColumnDate">&nbsp;</td>
+					</tr>
+					<tr>
+						<td class="ColumnRowLabel">
+						</td>
+						<td class="ColumnPartner">
 						&nbsp;
+						</td>
+						<td class="ColumnPartner">
+							<a href="fam/3/c/cb9384c7503395850c3.html" title="Family of Tapanen, Nils Jöransson and Sallinen, Eva Stina">
+							Family of Tapanen, Nils Jöransson and Sallinen, Eva Stina
+							
+							</a>
+						</td>
+						<td class="ColumnDate">1859-08-09</td>
+						<td class="ColumnDate">&nbsp;</td>
+					</tr>
+					<tr>
+						<td class="ColumnRowLabel">
+						</td>
+						<td class="ColumnPartner">
+						&nbsp;
+						</td>
+						<td class="ColumnPartner">
+							<a href="fam/8/f/d0192176cfa508db0f8.html" title="Family of Tapanen, Nils Jöransson and Palmstedt, Maria Sofia">
+							Family of Tapanen, Nils Jöransson and Palmstedt, Maria Sofia
+							
+							</a>
+						</td>
+						<td class="ColumnDate">1874-12-22</td>
+						<td class="ColumnDate">&nbsp;</td>
+					</tr>
+					<tr>
+						<td class="ColumnRowLabel">
+						</td>
+						<td class="ColumnPartner">
+						&nbsp;
+						</td>
+						<td class="ColumnPartner">
+							<a href="fam/0/c/f9e739c3ad919e99469af9125c0.html" title="Family of Tapanen, Nils Jöransson and Kähkönen, Anna">
+							Family of Tapanen, Nils Jöransson and Kähkönen, Anna
+							
+							</a>
+						</td>
+						<td class="ColumnDate">1896-11-01</td>
+						<td class="ColumnDate">&nbsp;</td>
+					</tr>
+					<tr class ="BeginFamily">
+						<td class="ColumnRowLabel">
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/2/a/cca16896a6b2b2bf9a2.html">Taponen, Antti</a>
@@ -497,7 +745,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/c/cca168399bc1d99fac9.html">Taponen, Elias</a>
@@ -513,7 +760,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/5/cca1691b7c53559cc53.html">Taponen, Heikki</a>
@@ -529,7 +775,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/a/cb937baae6821b777ad.html">Taponen, Johan</a>
@@ -545,55 +790,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/5/7/cb937d8bfc70c373375.html">Taponen, Nils Jöransson</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/f/e/cb937d0369c30ea97ef.html" title="Family of Taponen, Nils Jöransson and Kaasinen, Lisa Johansdotter">
-							Family of Taponen, Nils Jöransson and Kaasinen, Lisa Johansdotter
-							
-							</a>
-						</td>
-						<td class="ColumnDate">1847-10-24</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr>
-						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/3/c/cb9384c7503395850c3.html" title="Family of Taponen, Nils Jöransson and Sallinen, Eva Stina">
-							Family of Taponen, Nils Jöransson and Sallinen, Eva Stina
-							
-							</a>
-						</td>
-						<td class="ColumnDate">1859-08-09</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr>
-						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/8/f/d0192176cfa508db0f8.html" title="Family of Taponen, Nils Jöransson and Palmstedt, Maria Sofia">
-							Family of Taponen, Nils Jöransson and Palmstedt, Maria Sofia
-							
-							</a>
-						</td>
-						<td class="ColumnDate">1874-12-22</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/0/0/f131dccb1452eff1785c6869d00.html">Taponen, Vuokko Onerva</a>
@@ -609,7 +805,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/d/d01117648484abf78d8.html">Tirkkonen, Eva</a>
@@ -625,7 +820,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/1/da86c542880462139bfc841cd16.html">Toivain, Carin</a>
@@ -641,7 +835,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/b/cdd054da44e0fd704bf.html">Toropain, David</a>
@@ -657,7 +850,24 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-							<a name="W" title="Families beginning with letter W">W</a>
+						</td>
+						<td class="ColumnPartner">
+							<a href="ppl/8/1/fa0868a7e3477ce57c082616018.html">Turpeinen, Anna Lena</a>
+						</td>
+						<td class="ColumnPartner">
+							<a href="fam/2/1/fa08688c752972ce41e55bfb12.html" title="Family of Tapanen, Michel and Turpeinen, Anna Lena">
+							Family of Tapanen, Michel and Turpeinen, Anna Lena
+							
+							</a>
+						</td>
+						<td class="ColumnDate">1870-07-10</td>
+						<td class="ColumnDate">&nbsp;</td>
+					</tr>
+					<tr class="BeginLetter BeginFamily">
+						<td class="ColumnRowLabel">
+							<a id="W" name="W" title="Families beginning with letter W">
+							W
+							</a>
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/3/cfa36550a1144d88836.html">Wartiainen, Hilma</a>
@@ -671,13 +881,28 @@
 						<td class="ColumnDate">1885-04-30</td>
 						<td class="ColumnDate">&nbsp;</td>
 					</tr>
+					<tr class ="BeginFamily">
+						<td class="ColumnRowLabel">
+						</td>
+						<td class="ColumnPartner">
+							<a href="ppl/d/8/f9eea5923c36f3d824d1e9b9d8d.html">Wartiainen, Paavo Antinpoika</a>
+						</td>
+						<td class="ColumnPartner">
+							<a href="fam/1/c/f9eea5846b251bcc3c3bda5b6c1.html" title="Family of Wartiainen, Paavo Antinpoika and Kemppainen, Maria Lovisa Abrahamintytär">
+							Family of Wartiainen, Paavo Antinpoika and Kemppainen, Maria Lovisa Abrahamintytär
+							
+							</a>
+						</td>
+						<td class="ColumnDate"></td>
+						<td class="ColumnDate"></td>
+					</tr>
 				</tbody>
 			</table>
 		</div>
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2024-02-15 21:03:27
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2<br />Last change was the 2024-06-13 18:55:04
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg
