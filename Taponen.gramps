@@ -905,12 +905,15 @@
       <citationref hlink="_d0206bb98151f7aba85"/>
       <citationref hlink="_f9dbcd028232fc589b7979c64ff"/>
     </event>
-    <event handle="_d32c6cab57d4b09ecc4" change="1595526160" id="E0151">
+    <event handle="_d32c6cab57d4b09ecc4" change="1718567390" id="E0151">
       <type>Residence</type>
-      <dateval val="1900-01-27" type="after"/>
+      <datespan start="1900-01-27" stop="1905"/>
       <place hlink="_d32c6d0ebe70dcc46a2"/>
       <citationref hlink="_d32c6ca022e30a3cb62"/>
       <citationref hlink="_d32c70657d551839d93"/>
+      <citationref hlink="_fa1597917c62861b80d62e5aa2d"/>
+      <citationref hlink="_fa159a14f14602665a28121b1f8"/>
+      <citationref hlink="_fa159fad7d12b2cf4b537f2c03f"/>
     </event>
     <event handle="_da7bfd3abed486d60f81dc71850" change="1501412901" id="E0037">
       <type>Death</type>
@@ -3602,17 +3605,17 @@
       <noteref hlink="_d32c692174b1571b319"/>
       <sourceref hlink="_d32c68ccea613412e28"/>
     </citation>
-    <citation handle="_d32c6ca022e30a3cb62" change="1451173465" id="C0084">
-      <dateval val="1900-01-28"/>
-      <page>34</page>
+    <citation handle="_d32c6ca022e30a3cb62" change="1718566613" id="C0084">
+      <page>MKO7-9/34</page>
       <confidence>2</confidence>
+      <noteref hlink="_fa15984edee23adafda65a0db35"/>
       <noteref hlink="_d32c6c97562363c52af"/>
       <sourceref hlink="_d32c6c361f17029a51a"/>
     </citation>
-    <citation handle="_d32c70657d551839d93" change="1451173860" id="C0085">
-      <dateval val="1900-01-27"/>
-      <page>35</page>
+    <citation handle="_d32c70657d551839d93" change="1718566584" id="C0085">
+      <page>MKO282-2823/35</page>
       <confidence>2</confidence>
+      <noteref hlink="_fa159818a4d72688ebcdcf711eb"/>
       <noteref hlink="_d32c705f99b0981c9b3"/>
       <sourceref hlink="_d32c702329714486099"/>
     </citation>
@@ -5117,6 +5120,27 @@
       <noteref hlink="_fa15866df9211f22dd3010fbf58"/>
       <sourceref hlink="_d019bdef2b556c0b050"/>
     </citation>
+    <citation handle="_fa1597917c62861b80d62e5aa2d" change="1718566525" id="C0291">
+      <page>Aa:5/302</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa15976d87f20e636d20b6797ae"/>
+      <noteref hlink="_fa15978e1cc2b297affeca215a5"/>
+      <sourceref hlink="_fa15974e63e440159245ba2f090"/>
+    </citation>
+    <citation handle="_fa159a14f14602665a28121b1f8" change="1718566789" id="C0292">
+      <page>Aa:6/297</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa1599d252a8cc8363127d7892"/>
+      <noteref hlink="_fa1599f21b17b99151671a0bb10"/>
+      <sourceref hlink="_fa1599c5f1f5f86824b9bf7ff15"/>
+    </citation>
+    <citation handle="_fa159fad7d12b2cf4b537f2c03f" change="1718567376" id="C0293">
+      <page>Ba:4/115</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa159f8a8ca5ff8e001c2ff0655"/>
+      <noteref hlink="_fa159fa88af6e5a3f9ed261bb51"/>
+      <sourceref hlink="_fa159f5a0066bafe944df81c1b2"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdd044203935b79cba4" change="1429553707" id="S0000">
@@ -5585,6 +5609,21 @@
       <stitle>Kuopion msrk Kuolleet 1803-1838</stitle>
       <sauthor>Kuopion maaseurakunta</sauthor>
       <reporef hlink="_d010e648af6539f6d97" medium="Book"/>
+    </source>
+    <source handle="_fa15974e63e440159245ba2f090" change="1718566498" id="S0093">
+      <stitle>Joensuu Rippikirja 1891-1900</stitle>
+      <sauthor>Joensuun seurakunta</sauthor>
+      <reporef hlink="_cdd410d11e701d5d906" medium="Book"/>
+    </source>
+    <source handle="_fa1599c5f1f5f86824b9bf7ff15" change="1718566757" id="S0094">
+      <stitle>Joensuu Rippikirja 1900-1909</stitle>
+      <sauthor>Joensuun seurakunta</sauthor>
+      <reporef hlink="_cdd410d11e701d5d906" medium="Book"/>
+    </source>
+    <source handle="_fa159f5a0066bafe944df81c1b2" change="1718567342" id="S0095">
+      <stitle>Joensuu Muuttaneet 1897-1910</stitle>
+      <sauthor>Joensuun seurakunta</sauthor>
+      <reporef hlink="_cdd410d11e701d5d906" medium="Book"/>
     </source>
   </sources>
   <places>
@@ -9914,6 +9953,39 @@ Ensimmäinen kirjaus vuodelta 1827 lastenkirjaan 1808-1835 pitää yhtä syntyne
 Toinen kirjaus vuodelta 1830 samaan kirjaan sisältää ensimmäisen virheen 13.4 -&gt; 14.4
 Kolmas kirjaus vuodelta 1839 seuraavaan lastenkirjaan tuo toisen virheen 1824 -&gt; 1827
 Tästä eteenpäin syntymäpäiväksi on merkitty johdonmukaisesti joka paikassa väärin 14.4.1827 </text>
+    </note>
+    <note handle="_fa15976d87f20e636d20b6797ae" change="1718566511" id="N0592" type="Citation">
+      <text>Joensuu rippikirja 1891-1900 (AP I Aa:5)  Sivu 302  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=42565&amp;pnum=237 / Viitattu 16.06.2024</text>
+    </note>
+    <note handle="_fa15978e1cc2b297affeca215a5" change="1718566524" id="N0593" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=42565&amp;pnum=237</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=42565&amp;pnum=237">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_fa159818a4d72688ebcdcf711eb" change="1718566581" id="N0594" type="Citation">
+      <text>Joensuu muuttaneet 1897-1901 (MKO282-283)  1900, Jan. 2 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23560&amp;pnum=35 / Viitattu 16.06.2024</text>
+    </note>
+    <note handle="_fa15984edee23adafda65a0db35" change="1718566603" id="N0595" type="Citation">
+      <text>Rääkkylä muuttaneet 1891-1908 (MKO7-9)  1899 Marraskuu 27. ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26290&amp;pnum=34 / Viitattu 16.06.2024</text>
+    </note>
+    <note handle="_fa1599d252a8cc8363127d7892" change="1718566762" id="N0596" type="Citation">
+      <text>Joensuu rippikirja 1900-1909 (AP I Aa:6)  Sivu 297  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=42566&amp;pnum=301 / Viitattu 16.06.2024</text>
+    </note>
+    <note handle="_fa1599f21b17b99151671a0bb10" change="1718566775" id="N0597" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=42566&amp;pnum=301</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=42566&amp;pnum=301">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_fa159f8a8ca5ff8e001c2ff0655" change="1718567361" id="N0598" type="Citation">
+      <text>Joensuu muuttaneet 1897-1910 (AP I Ba:4)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=42577&amp;pnum=115 / Viitattu 16.06.2024</text>
+    </note>
+    <note handle="_fa159fa88af6e5a3f9ed261bb51" change="1718567374" id="N0599" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=42577&amp;pnum=115</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=42577&amp;pnum=115">
+        <range start="0" end="78"/>
+      </style>
     </note>
   </notes>
   <namemaps>
