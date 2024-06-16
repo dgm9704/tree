@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2024-06-13" version="5.2.2"/>
+    <created date="2024-06-16" version="5.2.2"/>
     <researcher>
     </researcher>
     <mediapath>/home/john/3Taponen_2014-10-29.gpkg.media</mediapath>
@@ -1731,6 +1731,22 @@
       <citationref hlink="_fa0b71207d974ce0e9a9d6af4be"/>
       <citationref hlink="_fa0b72f85313913a69b1cf4d652"/>
     </event>
+    <event handle="_fa151fe8adee6dd3a6ff8e33b8" change="1718553978" id="E0259">
+      <type>Baptism</type>
+      <dateval val="1848-07-02"/>
+      <place hlink="_cdd4361a0122fe89ce5"/>
+      <citationref hlink="_cdd7515bf1d55e7a659"/>
+    </event>
+    <event handle="_fa15211b3d976a639568b91ae0b" change="1718554104" id="E0260">
+      <type>Birth</type>
+      <dateval val="1832-08-04"/>
+      <citationref hlink="_fa152115bad5339b0d8abdc3510"/>
+    </event>
+    <event handle="_fa152186aec12f10c67409e0558" change="1718554148" id="E0261">
+      <type>Marriage</type>
+      <dateval val="1866-07-10"/>
+      <citationref hlink="_fa152115bad5339b0d8abdc3510"/>
+    </event>
   </events>
   <people home="_cca1691b7c53559cc53">
     <person handle="_cb937baae6821b777ad" change="1501410532" id="I0000">
@@ -1746,7 +1762,7 @@
       <childof hlink="_cb9384c7503395850c3"/>
       <parentin hlink="_cca167070917742a369"/>
     </person>
-    <person handle="_cb937d8bfc70c373375" change="1717434477" id="I0001">
+    <person handle="_cb937d8bfc70c373375" change="1718550838" id="I0001">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Nils</first>
@@ -1764,7 +1780,6 @@
       <parentin hlink="_cb9384c7503395850c3"/>
       <parentin hlink="_d0192176cfa508db0f8"/>
       <parentin hlink="_f9e739c3ad919e99469af9125c0"/>
-      <noteref hlink="_f9e74d3370156b7c1e6e73f1ea8"/>
       <noteref hlink="_f9eb65e55786315537848a7dd9b"/>
       <noteref hlink="_f9eb6b711792cfff3b5cf315754"/>
     </person>
@@ -1809,19 +1824,22 @@
       <childof hlink="_cdd0549e16c54014d46"/>
       <parentin hlink="_cb937f52c7d166933fa"/>
     </person>
-    <person handle="_cb93818ef2a77a0d28d" change="1717352381" id="I0006">
+    <person handle="_cb93818ef2a77a0d28d" change="1718555695" id="I0006">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maja Kristina</first>
         <surname>Taponen</surname>
       </name>
       <eventref hlink="_cb93818839e4b1906ff" role="Primary"/>
+      <eventref hlink="_fa151fe8adee6dd3a6ff8e33b8" role="Primary"/>
       <eventref hlink="_f9e856afaeb3dc67dadee47578f" role="Primary"/>
       <eventref hlink="_f9e857f38fc187750572db235d9" role="Primary"/>
       <eventref hlink="_f9e85c0bca16a99c6d3b87d649f" role="Primary"/>
       <eventref hlink="_f9e85c90474334bc7247d8d12c3" role="Primary"/>
       <childof hlink="_cb937d0369c30ea97ef"/>
       <childof hlink="_cb9384c7503395850c3"/>
+      <parentin hlink="_fa151e901b32334c649e28a40c5"/>
+      <noteref hlink="_fa15304470c4ba50867fb248721"/>
     </person>
     <person handle="_cb9381f71285d1f4d22" change="1717340061" id="I0007">
       <gender>F</gender>
@@ -2703,6 +2721,15 @@
       <eventref hlink="_fa0b71807a77c609634c2c1636c" role="Primary"/>
       <childof hlink="_fa0b6e5c2f0381ae9bf7027a1d0"/>
     </person>
+    <person handle="_fa15202f5d73357a9cecdaae8b0" change="1718554152" id="I0089">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Staffan</first>
+        <surname>Wänskä</surname>
+      </name>
+      <eventref hlink="_fa15211b3d976a639568b91ae0b" role="Primary"/>
+      <parentin hlink="_fa151e901b32334c649e28a40c5"/>
+    </person>
   </people>
   <families>
     <family handle="_cb937d0369c30ea97ef" change="1414524761" id="F0000">
@@ -2981,6 +3008,12 @@
       <eventref hlink="_fa0b712ef682ef90b9596b4416d" role="Family"/>
       <childref hlink="_fa0b713594e4aa5c284c25674b4"/>
     </family>
+    <family handle="_fa151e901b32334c649e28a40c5" change="1718554152" id="F0022">
+      <rel type="Married"/>
+      <father hlink="_fa15202f5d73357a9cecdaae8b0"/>
+      <mother hlink="_cb93818ef2a77a0d28d"/>
+      <eventref hlink="_fa152186aec12f10c67409e0558" role="Family"/>
+    </family>
   </families>
   <citations>
     <citation handle="_cdd044607f47da0f710" change="1414339928" id="C0000">
@@ -3198,8 +3231,8 @@
       <noteref hlink="_cdd73c063af3683b92f"/>
       <sourceref hlink="_cdd41f94bbf3da2f4a7"/>
     </citation>
-    <citation handle="_cdd748240611b8b3b26" change="1716914602" id="C0033">
-      <page>125</page>
+    <citation handle="_cdd748240611b8b3b26" change="1718554647" id="C0033">
+      <page>Ab:4/124-125</page>
       <confidence>2</confidence>
       <noteref hlink="_f9d80d9161f39482fa534b732be"/>
       <noteref hlink="_cdd74816b86364321d0"/>
@@ -5062,6 +5095,13 @@
       <noteref hlink="_fa0b72f0d6821d1b53ad96e16c8"/>
       <sourceref hlink="_d32c55274ff602643fe"/>
     </citation>
+    <citation handle="_fa152115bad5339b0d8abdc3510" change="1718554102" id="C0289">
+      <page>Aa:10/411</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa1520ef39a4a0397f3aa4102d"/>
+      <noteref hlink="_fa152110c50364dbe26e374b931"/>
+      <sourceref hlink="_d0191c289c501eabcf6"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdd044203935b79cba4" change="1429553707" id="S0000">
@@ -6763,12 +6803,15 @@ Pigan	Lisa Johd Kaasinen	4/6  1825			fp 571.46</text>
       <text>Inh	Nils Jöranss Tapanen	14/4 1824		fp 218.49
 Hu	Lisa Johd Kaasinen		4/6   1825</text>
     </note>
-    <note handle="_d01df7ecb0418ac834f" change="1717017331" id="N0107" type="Transcript" format="1">
+    <note handle="_d01df7ecb0418ac834f" change="1718554455" id="N0107" type="Transcript" format="1">
       <text>inh. Nils Tapanen &amp; Lisa Kaasises f 1825. barn
-Maja Christina	22/6   1848
-Anna Lisa		17/1   1850				Död 17/3 1850
-Anna Sofia		17/11 1850	Död 1852
-Johan 			6/12   1852</text>
+Maja Christina  22/6   1848
+Anna Lisa       17/1   1850     Död 17/3 1850
+Anna Sofia      17/11  1850     Död 1852
+Johan           6/12   1852</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="189"/>
+      </style>
     </note>
     <note handle="_d01dfc42b133ca5be98" change="1717017331" id="N0108" type="Url">
       <text>https://astia.narc.fi/astiaUi/digiview.php?imageId=6568073&amp;aytun=1886163.KA</text>
@@ -9821,6 +9864,21 @@ Kuolinvuosi     1952</text>
       <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26281&amp;pnum=119">
         <range start="0" end="78"/>
       </style>
+    </note>
+    <note handle="_fa1520ef39a4a0397f3aa4102d" change="1718554086" id="N0586" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto - I Aa:10 Rippikirja 1865-1875, jakso 109, sivu 411: Pietarissa oleskelevia; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=6039584495&amp;aineistoId=1193219104 / Viitattu 16.6.2024</text>
+    </note>
+    <note handle="_fa152110c50364dbe26e374b931" change="1718554100" id="N0587" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=6039584495&amp;aineistoId=1193219104</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=6039584495&amp;aineistoId=1193219104">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_fa15304470c4ba50867fb248721" change="1718555694" id="N0588" type="Research">
+      <text>Syntymäpäiväksi on merkitty 22.5.1848 (kastettu 2.7)
+Heti lastenkirjaan 1840-1852 on tullut ensimmäinen virhe, kun kuukausi on muuttunut 22.5.1848 -&gt; 22.6.1848
+Seuraavassa lastenkirjassa 1853-1867 on sama virhe joka toistuu samanlaisena perheen muuttaessa.
+Rippikirjaan siirryttäessä tulee toinen virhe, kun päivä muuttuu 22.6.1848 -&gt; 28.6.1848</text>
     </note>
   </notes>
   <namemaps>
