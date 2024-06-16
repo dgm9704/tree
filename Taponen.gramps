@@ -15,11 +15,10 @@
       <place hlink="_cdd421a7ab374044701"/>
       <citationref hlink="_f9d743f00c07229c92c5990bd68"/>
     </event>
-    <event handle="_cb937d863d440fa57dc" change="1717323955" id="E0001">
+    <event handle="_cb937d863d440fa57dc" change="1718565365" id="E0001">
       <type>Birth</type>
       <dateval val="1827-04-13"/>
       <place hlink="_cdd70e98e0854ad935d"/>
-      <noteref hlink="_f9e74d3370156b7c1e6e73f1ea8"/>
       <citationref hlink="_cdd70fd5c6451b2de9b"/>
     </event>
     <event handle="_cb937e30fc72eb7c7b1" change="1414615586" id="E0002">
@@ -1390,11 +1389,13 @@
       <place hlink="_d0206898051735e1c73"/>
       <citationref hlink="_f9e85c0376c1848325f4434d6f8"/>
     </event>
-    <event handle="_f9e85c90474334bc7247d8d12c3" change="1717352379" id="E0126">
+    <event handle="_f9e85c90474334bc7247d8d12c3" change="1718564850" id="E0126">
       <type>Residence</type>
       <dateval val="1865" type="after"/>
-      <place hlink="_f9e85c5fda24d975b8e5d75f166"/>
+      <place hlink="_fa15853520f317acfe5bc8c282e"/>
       <citationref hlink="_f9e85c0376c1848325f4434d6f8"/>
+      <citationref hlink="_fa152115bad5339b0d8abdc3510"/>
+      <citationref hlink="_fa158670dbc296ebf98daec77d5"/>
     </event>
     <event handle="_f9eb4b2494236cfcf04a1bb111a" change="1717431083" id="E0152">
       <type>Death</type>
@@ -1747,6 +1748,11 @@
       <dateval val="1866-07-10"/>
       <citationref hlink="_fa152115bad5339b0d8abdc3510"/>
     </event>
+    <event handle="_fa1587fa0fbdc8dbca74d9ead1" change="1718564891" id="E0262">
+      <type>Death</type>
+      <dateval val="1918-04-27"/>
+      <citationref hlink="_fa158670dbc296ebf98daec77d5"/>
+    </event>
   </events>
   <people home="_cca1691b7c53559cc53">
     <person handle="_cb937baae6821b777ad" change="1501410532" id="I0000">
@@ -1762,7 +1768,7 @@
       <childof hlink="_cb9384c7503395850c3"/>
       <parentin hlink="_cca167070917742a369"/>
     </person>
-    <person handle="_cb937d8bfc70c373375" change="1718550838" id="I0001">
+    <person handle="_cb937d8bfc70c373375" change="1718565396" id="I0001">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Nils</first>
@@ -1782,6 +1788,7 @@
       <parentin hlink="_f9e739c3ad919e99469af9125c0"/>
       <noteref hlink="_f9eb65e55786315537848a7dd9b"/>
       <noteref hlink="_f9eb6b711792cfff3b5cf315754"/>
+      <noteref hlink="_fa158cbeb0833988434bdfbeb0c"/>
     </person>
     <person handle="_cb937e38d745f457ab6" change="1430067568" id="I0002">
       <gender>F</gender>
@@ -1824,7 +1831,7 @@
       <childof hlink="_cdd0549e16c54014d46"/>
       <parentin hlink="_cb937f52c7d166933fa"/>
     </person>
-    <person handle="_cb93818ef2a77a0d28d" change="1718555695" id="I0006">
+    <person handle="_cb93818ef2a77a0d28d" change="1718565056" id="I0006">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maja Kristina</first>
@@ -1836,6 +1843,7 @@
       <eventref hlink="_f9e857f38fc187750572db235d9" role="Primary"/>
       <eventref hlink="_f9e85c0bca16a99c6d3b87d649f" role="Primary"/>
       <eventref hlink="_f9e85c90474334bc7247d8d12c3" role="Primary"/>
+      <eventref hlink="_fa1587fa0fbdc8dbca74d9ead1" role="Primary"/>
       <childof hlink="_cb937d0369c30ea97ef"/>
       <childof hlink="_cb9384c7503395850c3"/>
       <parentin hlink="_fa151e901b32334c649e28a40c5"/>
@@ -5102,6 +5110,13 @@
       <noteref hlink="_fa152110c50364dbe26e374b931"/>
       <sourceref hlink="_d0191c289c501eabcf6"/>
     </citation>
+    <citation handle="_fa158670dbc296ebf98daec77d5" change="1718564730" id="C0290">
+      <page>Aa:14/473</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa15864c1ee526a8e104a66b476"/>
+      <noteref hlink="_fa15866df9211f22dd3010fbf58"/>
+      <sourceref hlink="_d019bdef2b556c0b050"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdd044203935b79cba4" change="1429553707" id="S0000">
@@ -5955,6 +5970,10 @@
     <placeobj handle="_fa0b675b2ce3e61539502aa1507" change="1718293035" id="P0087" type="Farm">
       <pname value="2"/>
       <placeref hlink="_d01e13947926d2a234e"/>
+    </placeobj>
+    <placeobj handle="_fa15853520f317acfe5bc8c282e" change="1718564600" id="P0088" type="Town">
+      <pname value="St Petersburg"/>
+      <placeref hlink="_f9e85c5fda24d975b8e5d75f166"/>
     </placeobj>
   </places>
   <repositories>
@@ -9879,6 +9898,22 @@ Kuolinvuosi     1952</text>
 Heti lastenkirjaan 1840-1852 on tullut ensimmäinen virhe, kun kuukausi on muuttunut 22.5.1848 -&gt; 22.6.1848
 Seuraavassa lastenkirjassa 1853-1867 on sama virhe joka toistuu samanlaisena perheen muuttaessa.
 Rippikirjaan siirryttäessä tulee toinen virhe, kun päivä muuttuu 22.6.1848 -&gt; 28.6.1848</text>
+    </note>
+    <note handle="_fa15864c1ee526a8e104a66b476" change="1718564714" id="N0589" type="Citation">
+      <text>Rääkkylä rippikirja 1881-1891 (MKO14-26 I Aa:14)  Sivu 473 Pietarissa olevia henkilöitä (Edelliset aukeamat tyhjiä) ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26097&amp;pnum=386 / Viitattu 16.06.2024</text>
+    </note>
+    <note handle="_fa15866df9211f22dd3010fbf58" change="1718564728" id="N0590" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26097&amp;pnum=386</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26097&amp;pnum=386">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_fa158cbeb0833988434bdfbeb0c" change="1718565391" id="N0591" type="Research">
+      <text>Syntymäpäiväksi on merkitty 13.4.1824 syntyneiden ja kastettujen luetteloon.
+Ensimmäinen kirjaus vuodelta 1827 lastenkirjaan 1808-1835 pitää yhtä syntyneiden luettelon kanssa.
+Toinen kirjaus vuodelta 1830 samaan kirjaan sisältää ensimmäisen virheen 13.4 -&gt; 14.4
+Kolmas kirjaus vuodelta 1839 seuraavaan lastenkirjaan tuo toisen virheen 1824 -&gt; 1827
+Tästä eteenpäin syntymäpäiväksi on merkitty johdonmukaisesti joka paikassa väärin 14.4.1827 </text>
     </note>
   </notes>
   <namemaps>
