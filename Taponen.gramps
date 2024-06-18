@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2024-06-17" version="5.2.2"/>
+    <created date="2024-06-18" version="5.2.2"/>
     <researcher>
     </researcher>
     <mediapath>/home/john/3Taponen_2014-10-29.gpkg.media</mediapath>
@@ -138,10 +138,11 @@
       <citationref hlink="_d019b7b47531d5c199e"/>
       <citationref hlink="_d32c694ce9b483a09fe"/>
     </event>
-    <event handle="_cca168032af02de276e" change="1595526173" id="E0023">
+    <event handle="_cca168032af02de276e" change="1718726617" id="E0023">
       <type>Birth</type>
       <dateval val="1885-05-19"/>
       <place hlink="_cdd1051b4c648ad7ac8"/>
+      <citationref hlink="_fa1b8e3ddce202b6d34a8d8072d"/>
       <citationref hlink="_d019b52d59f28e0932b"/>
     </event>
     <event handle="_cca1683332355658c7e" change="1717695880" id="E0024">
@@ -2836,7 +2837,7 @@
       <eventref hlink="_fa1850ce8e77f9d8ce3b7905b67" role="Primary"/>
       <parentin hlink="_fa184fda0c2653677e05b5082ba"/>
     </person>
-    <person handle="_fa185db043e831ef1c84e5c373" change="1718649109" id="I0091">
+    <person handle="_fa185db043e831ef1c84e5c373" change="1718653876" id="I0091">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Mikko Juhana</first>
@@ -2845,7 +2846,7 @@
       <eventref hlink="_fa185f7edc33bfab9ac41e54f50" role="Primary"/>
       <childof hlink="_fa184fda0c2653677e05b5082ba"/>
     </person>
-    <person handle="_fa18723e165424a0c1a33d133c5" change="1718649109" id="I0092">
+    <person handle="_fa18723e165424a0c1a33d133c5" change="1718653876" id="I0092">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Heikki</first>
@@ -2854,7 +2855,7 @@
       <eventref hlink="_fa18732c1c3ec17617002f6b12" role="Primary"/>
       <childof hlink="_fa184fda0c2653677e05b5082ba"/>
     </person>
-    <person handle="_fa187408413c00a0030b0b61bd" change="1718649109" id="I0093">
+    <person handle="_fa187408413c00a0030b0b61bd" change="1718653876" id="I0093">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anna Alina</first>
@@ -2863,7 +2864,7 @@
       <eventref hlink="_fa1874ec05d83c99dd10e11c09" role="Primary"/>
       <childof hlink="_fa184fda0c2653677e05b5082ba"/>
     </person>
-    <person handle="_fa189f9847f7fa0e7b447c6a67c" change="1718649109" id="I0094">
+    <person handle="_fa189f9847f7fa0e7b447c6a67c" change="1718653876" id="I0094">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Tyyne</first>
@@ -3166,7 +3167,7 @@
       <mother hlink="_cb93818ef2a77a0d28d"/>
       <eventref hlink="_fa152186aec12f10c67409e0558" role="Family"/>
     </family>
-    <family handle="_fa184fda0c2653677e05b5082ba" change="1718649109" id="F0023">
+    <family handle="_fa184fda0c2653677e05b5082ba" change="1718653876" id="F0023">
       <rel type="Married"/>
       <father hlink="_cb938694d8b7a518826"/>
       <mother hlink="_fa185001caedf35c8af12c2aee"/>
@@ -3176,6 +3177,7 @@
       <childref hlink="_fa18723e165424a0c1a33d133c5"/>
       <childref hlink="_fa187408413c00a0030b0b61bd"/>
       <childref hlink="_fa189f9847f7fa0e7b447c6a67c"/>
+      <noteref hlink="_fa18d88891c4b90a1387015d7d1"/>
     </family>
   </families>
   <citations>
@@ -5378,6 +5380,13 @@
       <noteref hlink="_fa18ac34f8c72eac8259a49c072"/>
       <sourceref hlink="_d32c55274ff602643fe"/>
     </citation>
+    <citation handle="_fa1b8e3ddce202b6d34a8d8072d" change="1718726609" id="C0306">
+      <page>MKO1-7/185-186</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa1b8e149923abf32fbb2b7becd"/>
+      <noteref hlink="_fa1b8e368b963c5bf1655ff21b6"/>
+      <sourceref hlink="_d32c68ccea613412e28"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdd044203935b79cba4" change="1429553707" id="S0000">
@@ -5400,9 +5409,9 @@
       <sauthor>Rääkkylän seurakunta</sauthor>
       <reporef hlink="_cdd40c4a391713e0c40" medium="Book"/>
     </source>
-    <source handle="_cdd0f3c1cf31b676631" change="1429553707" id="S0004">
+    <source handle="_cdd0f3c1cf31b676631" change="1718729552" id="S0004">
       <stitle>Rääkkylä Lastenkirja 1785-1799</stitle>
-      <sauthor>Rääkkylän Seurakunta</sauthor>
+      <sauthor>Rääkkylän seurakunta</sauthor>
       <noteref hlink="_cdd0f55e4e7138a05bf"/>
       <reporef hlink="_cdd410d11e701d5d906" medium="Book"/>
     </source>
@@ -5601,9 +5610,9 @@
       <sauthor>Rääkkylän seurakunta</sauthor>
       <reporef hlink="_cdd410d11e701d5d906" medium="Book"/>
     </source>
-    <source handle="_d32c6c361f17029a51a" change="1502017580" id="S0045">
+    <source handle="_d32c6c361f17029a51a" change="1718729567" id="S0045">
       <stitle>Rääkkylä Muuttaneet ulos 1891-1908</stitle>
-      <sauthor>Rääkylän seurakunta</sauthor>
+      <sauthor>Rääkkylän seurakunta</sauthor>
       <reporef hlink="_cdd410d11e701d5d906" medium="Book"/>
     </source>
     <source handle="_d32c702329714486099" change="1502017512" id="S0046">
@@ -5881,6 +5890,11 @@
       <stitle>Rääkkylä Syntyneet 1906-1909</stitle>
       <sauthor>Rääkkylän seurakunta</sauthor>
       <reporef hlink="_cdd410d11e701d5d906" medium="Book"/>
+    </source>
+    <source handle="_fa1bc024880524f6f4de1696909" change="1718731841" id="S0100">
+      <stitle>Taponen Heikki Sukututkimus</stitle>
+      <sauthor>Rääkkylän seurakunta</sauthor>
+      <reporef hlink="_d0168c6675349284408" medium="Book"/>
     </source>
   </sources>
   <places>
@@ -6331,9 +6345,10 @@
       <url  href="https://astia.narc.fi/astiaUi/" type="Web Home"/>
       <url  href="https://astia.narc.fi/astiaUi/search.php" type="Web Search"/>
     </repository>
-    <repository handle="_d0168c6675349284408" change="1658172568" id="R0004">
+    <repository handle="_d0168c6675349284408" change="1718731835" id="R0004">
       <rname>Omat arkistot</rname>
       <type>Archive</type>
+      <noteref hlink="_fa1bc00a3bc4338537d85db87cd"/>
     </repository>
     <repository handle="_da7cd0f7c6f225d0238a32c59c9" change="1501435104" id="R0005">
       <rname>BillionGraves</rname>
@@ -7024,12 +7039,15 @@ wo	Anni Matt Kiiski	18 24/4 57	} 994		l. 352
         <range start="0" end="247"/>
       </style>
     </note>
-    <note handle="_d01a0af9c6a3ea02166" change="1717017331" id="N0096" type="Transcript" format="1">
+    <note handle="_d01a0af9c6a3ea02166" change="1718726753" id="N0096" type="Transcript" format="1">
       <text>Oravisalo
-		Tapanen Juhana ja Anna Kiiski s. 1857					382
-tytär	Anna Maria		-1	18 17/8 82				}
-pa		Juhana			1-	18 19/5 85				} UK 994
-pa		Elias			1-	31/5 1889	Rääkkylä	}</text>
+        Tapanen Juhana ja Anna Kiiski s. 1857                         382
+tytär   Anna Maria  -1  18 17/8 82            }
+pa      Juhana      1-  18 19/5 85            } UK 994
+pa      Elias       1-  31/5 1889    Rääkkylä }</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="234"/>
+      </style>
     </note>
     <note handle="_d01a0dde30268d3cd47" change="1718640977" id="N0097" type="Transcript" format="1">
       <text>TA-
@@ -10384,6 +10402,68 @@ Tästä eteenpäin syntymäpäiväksi on merkitty johdonmukaisesti joka paikassa
       <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26281&amp;pnum=173</text>
       <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26281&amp;pnum=173">
         <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_fa18d88891c4b90a1387015d7d1" change="1718653875" id="N0625" type="Research">
+      <text>Ei löydy saatavilla olevista syntyneide luetteloista enempää lapsia</text>
+    </note>
+    <note handle="_fa1b8e149923abf32fbb2b7becd" change="1718726592" id="N0626" type="Citation">
+      <text>Rääkkylä syntyneet 1880-1890 (MKO1-7)  Sivu 185-186  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26279&amp;pnum=92 / Viitattu 18.06.2024</text>
+    </note>
+    <note handle="_fa1b8e368b963c5bf1655ff21b6" change="1718726606" id="N0627" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26279&amp;pnum=92</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26279&amp;pnum=92">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_fa1bc00a3bc4338537d85db87cd" change="1718731830" id="N0628" type="Transcript" format="1">
+      <text>[vaakuna   SUOMEN EVANKELIS-LUTERILAINEN KIRKKO
+ Suomen    EVANGELISK-LUTHERSKA KYRKAN I FINLAND
+ ev.lut.
+ kirkko]
+
+           Sukututkimus
+
+              Sukututkimus koskee henkilöä, Heikki Taponen s 2.7.1896 Rääkkylä, muutti 24.9.1920
+              Viipuriin.
+
+              Hänen vanhemmat:
+              Isä: Juho Taponen, kirjoissamme ei tarkempia tietoja
+              Äiti: Anna Kiiski s. 1857
+
+              Heillä lapset:
+                1.  Anna Maria s. 17.8.1882 Rääkkylä, muutti 28.12. 1899 Joensuu
+                2.  Juhana s. 19.5.1885 Rääkkylä, muutti 11.10.1905 Liperi
+                3.  Elias s. 31.5.1889 Rääkkylä. Vihitty avioliittoon 26.12.1911, puoliso Anna Maria
+                    Lievonen s 1.2.1891, Rääkkylä. Muuttivat 3.11.1921 Joensuu.
+                    Kirjoissamme olevat lapset:
+                      I Olavi s 25.11.1911 Rääkkylä, kuoli 30.1. 1912 seurakuntamme jäsenenä
+                      II Jenny Maria s 2.5.1914 Rääkkylä, kuoli 23.6.1921 seurakuntamme jäsenenä
+                      III Sanni s 1.12.1919 Rääkkylä, muutti 3.11.1921 Joensuu
+                4.  Antti s. 13.6.1892 Rääkkylä. Vihitty avioliittoon 30.4.1885[sic], puoliso Hilma
+                    Wartiainen s 23.10.1885 Liperi. Muuttivat 6.3.1920 Joensuu.
+                    Kirjoissamme olevat lapset:
+                     I Irma Kaarina Mirjami s 16.5.1918, Rääkkylä. Muutti 6.3.1920 Joensuu.
+                5.  Heikki s. 2.7 1896 Rääkkylä, kts. yllä
+                6.  Hilma s. 4.6.1899 Rääkkylä, kuoli 17.4.1901 seurakuntamme jäsenenä
+
+
+          Rääkkylän seurakunta 26.3.2013   [leima
+                                            Rääkkylän
+          Pertti Venäläinen                 seurakunta 
+          kirkkoherra                       1657]             Hinta 50,00 EUR
+
+
+
+          Yllä mainitut tiedot todistetaan oikeiksi seurakunnan jäsentietojärjestelmän perusteella.
+          Tiedot ovat tyhdenmukaiset väestötietojärjestelmän tietojen kanssa.
+          Väestötietojärjestelmästä ja Väestörekisterikeskuksen varmennepalveluista annetun
+          lain (661/2009) 46 §:n mukaan todistus voidaan allekirjoittaa koneellisesti.
+                                 
+             
+      </text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="2206"/>
       </style>
     </note>
   </notes>
