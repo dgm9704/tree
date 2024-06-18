@@ -1900,6 +1900,34 @@
       <citationref hlink="_fa1bfac67ae1a4757c84115e1ca"/>
       <citationref hlink="_fa1c04235065e0f0c6d5e5956c"/>
     </event>
+    <event handle="_fa1c1bdf06c7d413a0a1aa9bb29" change="1718742011" id="E0284">
+      <type>Residence</type>
+      <datespan start="1907" stop="1910"/>
+      <place hlink="_fa1bf9bca501936f582a9bf3e41"/>
+      <citationref hlink="_fa1bfe38e8bc9c9c8b46d91330"/>
+      <citationref hlink="_fa1c1bce6e06724fde76f966a92"/>
+    </event>
+    <event handle="_fa1c1dc36cf7bf21988410978a8" change="1718741703" id="E0285">
+      <type>Birth</type>
+      <dateval val="1908-01-26"/>
+      <place hlink="_fa1c1e2b81020040194faff3921"/>
+      <citationref hlink="_fa1c1bce6e06724fde76f966a92"/>
+      <citationref hlink="_fa1c1dbafd67da3951e0045553d"/>
+    </event>
+    <event handle="_fa1c2454d57250549084048a803" change="1718742347" id="E0286">
+      <type>Death</type>
+      <dateval val="1914-01-18"/>
+      <place hlink="_fa1c22e2eae6ed5132fc4eec61a"/>
+      <citationref hlink="_fa1c23ac6b24f50a3f4b1f1c281"/>
+      <citationref hlink="_fa1c244c639435586b3eaeca88a"/>
+    </event>
+    <event handle="_fa1c26a5128131ae14fdf70bc81" change="1718742589" id="E0287">
+      <type>Residence</type>
+      <datespan start="1911" stop="1914"/>
+      <place hlink="_fa1bf9bca501936f582a9bf3e41"/>
+      <citationref hlink="_fa1c244c639435586b3eaeca88a"/>
+      <citationref hlink="_fa1c26a0e596d1393230cfc3389"/>
+    </event>
   </events>
   <people home="_cca1691b7c53559cc53">
     <person handle="_cb937baae6821b777ad" change="1501410532" id="I0000">
@@ -2950,7 +2978,7 @@
       <eventref hlink="_fa18ac3e2bd48fcab81be8abd90" role="Primary"/>
       <childof hlink="_fa08c08e7ad38f3baeaf32367ac"/>
     </person>
-    <person handle="_fa1bfc5e78d68acd7af5d8086ab" change="1718739001" id="I0096">
+    <person handle="_fa1bfc5e78d68acd7af5d8086ab" change="1718742360" id="I0096">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Hilma</first>
@@ -2959,7 +2987,17 @@
       <eventref hlink="_fa1bfe50d7821b266461accb345" role="Primary"/>
       <eventref hlink="_fa1c02c80e728b3df3c6ac0fc41" role="Primary"/>
       <eventref hlink="_fa1c042d58757cb49b5b0845a4c" role="Primary"/>
+      <eventref hlink="_fa1c2454d57250549084048a803" role="Primary"/>
       <parentin hlink="_fa1bfc31f3e4f9eb56930094b58"/>
+    </person>
+    <person handle="_fa1c1bfebfe64888a20b7e4e3e8" change="1718742596" id="I0097">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Johannes</first>
+        <surname>Taponen</surname>
+      </name>
+      <eventref hlink="_fa1c1dc36cf7bf21988410978a8" role="Primary"/>
+      <childof hlink="_fa1bfc31f3e4f9eb56930094b58"/>
     </person>
   </people>
   <families>
@@ -3258,12 +3296,15 @@
       <childref hlink="_fa189f9847f7fa0e7b447c6a67c"/>
       <noteref hlink="_fa18d88891c4b90a1387015d7d1"/>
     </family>
-    <family handle="_fa1bfc31f3e4f9eb56930094b58" change="1718738705" id="F0024">
+    <family handle="_fa1bfc31f3e4f9eb56930094b58" change="1718742596" id="F0024">
       <rel type="Married"/>
       <father hlink="_cca16808a8e6ec0a1c0"/>
       <mother hlink="_fa1bfc5e78d68acd7af5d8086ab"/>
       <eventref hlink="_fa1bffd871a4d306bcbe20f893f" role="Family"/>
       <eventref hlink="_fa1c00ff55b58578758312a26da" role="Family"/>
+      <eventref hlink="_fa1c1bdf06c7d413a0a1aa9bb29" role="Family"/>
+      <eventref hlink="_fa1c26a5128131ae14fdf70bc81" role="Family"/>
+      <childref hlink="_fa1c1bfebfe64888a20b7e4e3e8"/>
     </family>
   </families>
   <citations>
@@ -5535,6 +5576,41 @@
       <noteref hlink="_fa1c041f5f315716faf63fabb4a"/>
       <sourceref hlink="_fa1bf3eac15138dfb6c0b734418"/>
     </citation>
+    <citation handle="_fa1c1bce6e06724fde76f966a92" change="1718741453" id="C0316">
+      <page>Ab:27/416-417</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa1c1ba0ce336d96d5be5a476b2"/>
+      <noteref hlink="_fa1c1bca9df61cb0edda60eeb58"/>
+      <sourceref hlink="_fa1c1b72c2a6840c559f5ad8f70"/>
+    </citation>
+    <citation handle="_fa1c1dbafd67da3951e0045553d" change="1718741655" id="C0317">
+      <page>C:11/182-183</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa1c1d9674f679ee66e89f495a7"/>
+      <noteref hlink="_fa1c1db73dd5fe8af92b53ac85e"/>
+      <sourceref hlink="_fa1c1d5d0e97414e3734a2e03b4"/>
+    </citation>
+    <citation handle="_fa1c23ac6b24f50a3f4b1f1c281" change="1718742278" id="C0318">
+      <page>Fa:1/110</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa1c238a6d75c496000bc3fd38c"/>
+      <noteref hlink="_fa1c23a95e03797ea2b950e24b0"/>
+      <sourceref hlink="_fa1c236109f7d270174e14ae9f6"/>
+    </citation>
+    <citation handle="_fa1c244c639435586b3eaeca88a" change="1718742343" id="C0319">
+      <page>Aa:45/2014</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa1c24122597a457b2f15442cae"/>
+      <noteref hlink="_fa1c243177e5266106b11413393"/>
+      <sourceref hlink="_fa1c240894e5231f01653292692"/>
+    </citation>
+    <citation handle="_fa1c26a0e596d1393230cfc3389" change="1718742588" id="C0320">
+      <page>Ab:30/2014-2015</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa1c267ad974aca4d5ef9da33ad"/>
+      <noteref hlink="_fa1c269e8418ae0bc14d1d1aa0"/>
+      <sourceref hlink="_fa1c263f2667b20596aa433ff0e"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdd044203935b79cba4" change="1429553707" id="S0000">
@@ -6065,6 +6141,30 @@
       <sauthor>Liperin seurakunta</sauthor>
       <reporef hlink="_cdd410d11e701d5d906" medium="Book"/>
     </source>
+    <source handle="_fa1c1b72c2a6840c559f5ad8f70" change="1718741415" id="S0105">
+      <stitle>Liperi Lastenkirja 1900-1909</stitle>
+      <sauthor>Liperin seurakunta</sauthor>
+      <reporef hlink="_cdd410d11e701d5d906" medium="Book"/>
+    </source>
+    <source handle="_fa1c1d5d0e97414e3734a2e03b4" change="1718741616" id="S0106">
+      <stitle>Liperi Syntyneet 1904-1912</stitle>
+      <sauthor>Lieprin seurakunta</sauthor>
+      <reporef hlink="_cdd410d11e701d5d906" medium="Book"/>
+    </source>
+    <source handle="_fa1c236109f7d270174e14ae9f6" change="1718742247" id="S0107">
+      <stitle>Liperi Kuolleet 1904-1923</stitle>
+      <sauthor>Liperin seurakunta</sauthor>
+      <reporef hlink="_cdd410d11e701d5d906" medium="Book"/>
+    </source>
+    <source handle="_fa1c240894e5231f01653292692" change="1718742316" id="S0108">
+      <stitle>Liperi Rippikirja 1911-1920</stitle>
+      <sauthor>Liperin seurakunta</sauthor>
+    </source>
+    <source handle="_fa1c263f2667b20596aa433ff0e" change="1718742548" id="S0109">
+      <stitle>Liperi Lastenkirja 1910-1919</stitle>
+      <sauthor>Liperin seurakunta</sauthor>
+      <reporef hlink="_cdd410d11e701d5d906" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cca1691056519fef9d5" change="1657487885" id="P0001" type="Town">
@@ -6499,6 +6599,14 @@
     <placeobj handle="_fa1bfd6ff8e6c91ee3e63e410e8" change="1718738268" id="P0099" type="Parish">
       <pname value="Pälkjärvi"/>
       <placeref hlink="_cdbd00250510bf9a5de"/>
+    </placeobj>
+    <placeobj handle="_fa1c1e2b81020040194faff3921" change="1718741701" id="P0100" type="Farm">
+      <pname value="7"/>
+      <placeref hlink="_fa1bf9bca501936f582a9bf3e41"/>
+    </placeobj>
+    <placeobj handle="_fa1c22e2eae6ed5132fc4eec61a" change="1718742195" id="P0101" type="Farm">
+      <pname value="19"/>
+      <placeref hlink="_fa1bf9bca501936f582a9bf3e41"/>
     </placeobj>
   </places>
   <repositories>
@@ -10777,6 +10885,51 @@ Tästä eteenpäin syntymäpäiväksi on merkitty johdonmukaisesti joka paikassa
     <note handle="_fa1c041f5f315716faf63fabb4a" change="1718738969" id="N0646" type="Url">
       <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45186&amp;pnum=132</text>
       <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45186&amp;pnum=132">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_fa1c1ba0ce336d96d5be5a476b2" change="1718741434" id="N0647" type="Citation">
+      <text>Liperi lastenkirja 1900-1909 (AP_III I Ab:27)  Sivu 416 S, T ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45177&amp;pnum=214 / Viitattu 18.06.2024</text>
+    </note>
+    <note handle="_fa1c1bca9df61cb0edda60eeb58" change="1718741451" id="N0648" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45177&amp;pnum=214</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45177&amp;pnum=214">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_fa1c1d9674f679ee66e89f495a7" change="1718741640" id="N0649" type="Citation">
+      <text>Liperi syntyneet 1904-1912 (AP I C:11)  Sivu 182  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45201&amp;pnum=94 / Viitattu 18.06.2024</text>
+    </note>
+    <note handle="_fa1c1db73dd5fe8af92b53ac85e" change="1718741653" id="N0650" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45201&amp;pnum=94</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45201&amp;pnum=94">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_fa1c238a6d75c496000bc3fd38c" change="1718742264" id="N0651" type="Citation">
+      <text>Liperi kuolleet 1904-1923 (AP I Fa:1)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45244&amp;pnum=110 / Viitattu 18.06.2024</text>
+    </note>
+    <note handle="_fa1c23a95e03797ea2b950e24b0" change="1718742277" id="N0652" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45244&amp;pnum=110</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45244&amp;pnum=110">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_fa1c24122597a457b2f15442cae" change="1718742319" id="N0653" type="Citation">
+      <text>Liperi rippikirja 1911-1920 (AP_V I Aa:45)  Sivu 2014  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45134&amp;pnum=417 / Viitattu 18.06.2024</text>
+    </note>
+    <note handle="_fa1c243177e5266106b11413393" change="1718742332" id="N0654" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45134&amp;pnum=417</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45134&amp;pnum=417">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_fa1c267ad974aca4d5ef9da33ad" change="1718742572" id="N0655" type="Citation">
+      <text>Liperi lastenkirja 1910-1919 (AP_III I Ab:30)  Sivu 2014 Tap ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45180&amp;pnum=210 / Viitattu 18.06.2024</text>
+    </note>
+    <note handle="_fa1c269e8418ae0bc14d1d1aa0" change="1718742587" id="N0656" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45180&amp;pnum=210</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45180&amp;pnum=210">
         <range start="0" end="78"/>
       </style>
     </note>
