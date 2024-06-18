@@ -222,15 +222,15 @@
       <dateval val="1919-12-01"/>
       <place hlink="_cdd421a7ab374044701"/>
     </event>
-    <event handle="_cca16d1ddd034493a5d" change="1717685125" id="E0038">
+    <event handle="_cca16d1ddd034493a5d" change="1718735713" id="E0038">
       <type>Marriage</type>
       <dateval val="1885-04-30"/>
-      <noteref hlink="_f9f4c1d9f94770ef2d1e268cb11"/>
     </event>
-    <event handle="_cca16d5de892b9a63fe" change="1414446770" id="E0039">
+    <event handle="_cca16d5de892b9a63fe" change="1718735544" id="E0039">
       <type>Birth</type>
       <dateval val="1918-05-16"/>
       <place hlink="_cdd421a7ab374044701"/>
+      <citationref hlink="_fa1be33b6553ad6e4fc808ef6ad"/>
     </event>
     <event handle="_cca18a26d91729df7f2" change="1430168880" id="E0049">
       <type>Marriage</type>
@@ -5387,6 +5387,11 @@
       <noteref hlink="_fa1b8e368b963c5bf1655ff21b6"/>
       <sourceref hlink="_d32c68ccea613412e28"/>
     </citation>
+    <citation handle="_fa1be33b6553ad6e4fc808ef6ad" change="1718735521" id="C0307">
+      <page>1</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_fa1bc024880524f6f4de1696909"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdd044203935b79cba4" change="1429553707" id="S0000">
@@ -5891,9 +5896,10 @@
       <sauthor>Rääkkylän seurakunta</sauthor>
       <reporef hlink="_cdd410d11e701d5d906" medium="Book"/>
     </source>
-    <source handle="_fa1bc024880524f6f4de1696909" change="1718731841" id="S0100">
+    <source handle="_fa1bc024880524f6f4de1696909" change="1718735600" id="S0100">
       <stitle>Taponen Heikki Sukututkimus</stitle>
       <sauthor>Rääkkylän seurakunta</sauthor>
+      <noteref hlink="_fa1be3f6ca259b17be1f64eadf8"/>
       <reporef hlink="_d0168c6675349284408" medium="Book"/>
     </source>
   </sources>
@@ -10464,6 +10470,58 @@ Tästä eteenpäin syntymäpäiväksi on merkitty johdonmukaisesti joka paikassa
       </text>
       <style name="fontface" value="Monospace">
         <range start="0" end="2206"/>
+      </style>
+    </note>
+    <note handle="_fa1be3f6ca259b17be1f64eadf8" change="1718735679" id="N0629" type="Transcript" format="1">
+      <text>[vaakuna   SUOMEN EVANKELIS-LUTERILAINEN KIRKKO
+ Suomen    EVANGELISK-LUTHERSKA KYRKAN I FINLAND
+ ev.lut.
+ kirkko]
+
+           Sukututkimus
+
+              Sukututkimus koskee henkilöä, Heikki Taponen s 2.7.1896 Rääkkylä, muutti 24.9.1920
+              Viipuriin.
+
+
+              Hänen vanhemmat:
+              Isä: Juho Taponen, kirjoissamme ei tarkempia tietoja
+              Äiti: Anna Kiiski s. 1857
+
+
+              Heillä lapset:
+                1.  Anna Maria s. 17.8.1882 Rääkkylä, muutti 28.12. 1899 Joensuu
+                2.  Juhana s. 19.5.1885 Rääkkylä, muutti 11.10.1905 Liperi
+                3.  Elias s. 31.5.1889 Rääkkylä. Vihitty avioliittoon 26.12.1911, puoliso Anna Maria
+                    Lievonen s 1.2.1891, Rääkkylä. Muuttivat 3.11.1921 Joensuu.
+                    Kirjoissamme olevat lapset:
+                      I Olavi s 25.11.1911 Rääkkylä, kuoli 30.1. 1912 seurakuntamme jäsenenä
+                      II Jenny Maria s 2.5.1914 Rääkkylä, kuoli 23.6.1921 seurakuntamme jäsenenä
+                      III Sanni s 1.12.1919 Rääkkylä, muutti 3.11.1921 Joensuu
+                4.  Antti s. 13.6.1892 Rääkkylä. Vihitty avioliittoon 30.4.1885[sic], puoliso Hilma
+                    Wartiainen s 23.10.1885 Liperi. Muuttivat 6.3.1920 Joensuu.
+                    Kirjoissamme olevat lapset:
+                     I Irma Kaarina Mirjami s 16.5.1918, Rääkkylä. Muutti 6.3.1920 Joensuu.
+                5.  Heikki s. 2.7 1896 Rääkkylä, kts. yllä
+                6.  Hilma s. 4.6.1899 Rääkkylä, kuoli 17.4.1901 seurakuntamme jäsenenä
+
+
+          Rääkkylän seurakunta 26.3.2013   [leima
+                                            Rääkkylän
+          Pertti Venäläinen                 seurakunta 
+          kirkkoherra                       1657]             Hinta 50,00 EUR
+
+
+
+          Yllä mainitut tiedot todistetaan oikeiksi seurakunnan jäsentietojärjestelmän perusteella.
+          Tiedot ovat tyhdenmukaiset väestötietojärjestelmän tietojen kanssa.
+          Väestötietojärjestelmästä ja Väestörekisterikeskuksen varmennepalveluista annetun
+          lain (661/2009) 46 §:n mukaan todistus voidaan allekirjoittaa koneellisesti.
+                                 
+             
+      </text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="2208"/>
       </style>
     </note>
   </notes>
