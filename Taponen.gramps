@@ -147,12 +147,13 @@
       <citationref hlink="_d019b52d59f28e0932b"/>
       <citationref hlink="_fa1be33b6553ad6e4fc808ef6ad"/>
     </event>
-    <event handle="_cca1683332355658c7e" change="1717695880" id="E0024">
+    <event handle="_cca1683332355658c7e" change="1718811565" id="E0024">
       <type>Birth</type>
       <dateval val="1889-05-31"/>
       <place hlink="_d019aab9181411ea687"/>
       <citationref hlink="_d019ad1596827faaa30"/>
       <citationref hlink="_f9f527e7e874ca53a27973920b6"/>
+      <citationref hlink="_fa1be33b6553ad6e4fc808ef6ad"/>
     </event>
     <event handle="_cca1688f2bd1f9fcc43" change="1716842650" id="E0025">
       <type>Birth</type>
@@ -195,34 +196,40 @@
       <place hlink="_cdd421a7ab374044701"/>
       <citationref hlink="_f9eb4a72aab7ce1cee707431e5"/>
     </event>
-    <event handle="_cca16a2bd662ecee539" change="1406210269" id="E0031">
+    <event handle="_cca16a2bd662ecee539" change="1718811580" id="E0031">
       <type>Marriage</type>
       <dateval val="1911-12-26"/>
+      <citationref hlink="_fa1be33b6553ad6e4fc808ef6ad"/>
     </event>
-    <event handle="_cca16a648510757d90c" change="1414446863" id="E0032">
+    <event handle="_cca16a648510757d90c" change="1718811672" id="E0032">
       <type>Birth</type>
       <dateval val="1911-11-25"/>
       <place hlink="_cdd421a7ab374044701"/>
+      <citationref hlink="_fa1be33b6553ad6e4fc808ef6ad"/>
     </event>
-    <event handle="_cca16a81b2e2ea33ccb" change="1414446851" id="E0033">
+    <event handle="_cca16a81b2e2ea33ccb" change="1718811679" id="E0033">
       <type>Death</type>
       <dateval val="1912-01-30"/>
       <place hlink="_cdd421a7ab374044701"/>
+      <citationref hlink="_fa1be33b6553ad6e4fc808ef6ad"/>
     </event>
-    <event handle="_cca16bd6d767f9f1e53" change="1414446841" id="E0034">
+    <event handle="_cca16bd6d767f9f1e53" change="1718811719" id="E0034">
       <type>Birth</type>
       <dateval val="1914-05-02"/>
       <place hlink="_cdd421a7ab374044701"/>
+      <citationref hlink="_fa1be33b6553ad6e4fc808ef6ad"/>
     </event>
-    <event handle="_cca16bf383363d7d24a" change="1414446794" id="E0035">
+    <event handle="_cca16bf383363d7d24a" change="1718811725" id="E0035">
       <type>Death</type>
       <dateval val="1921-06-23"/>
       <place hlink="_cdd421a7ab374044701"/>
+      <citationref hlink="_fa1be33b6553ad6e4fc808ef6ad"/>
     </event>
-    <event handle="_cca16c34892516d9111" change="1414446782" id="E0036">
+    <event handle="_cca16c34892516d9111" change="1718811769" id="E0036">
       <type>Birth</type>
       <dateval val="1919-12-01"/>
       <place hlink="_cdd421a7ab374044701"/>
+      <citationref hlink="_fa1be33b6553ad6e4fc808ef6ad"/>
     </event>
     <event handle="_cca16d1ddd034493a5d" change="1718735713" id="E0038">
       <type>Marriage</type>
@@ -648,10 +655,11 @@
       <citationref hlink="_cdd3b43caa40714756c"/>
       <citationref hlink="_d010e7d8025422c13f9"/>
     </event>
-    <event handle="_cfa3638e0eb2777d90c" change="1426879105" id="E0057">
+    <event handle="_cfa3638e0eb2777d90c" change="1718811601" id="E0057">
       <type>Birth</type>
       <dateval val="1891-02-01"/>
       <place hlink="_cdd421a7ab374044701"/>
+      <citationref hlink="_fa1be33b6553ad6e4fc808ef6ad"/>
     </event>
     <event handle="_cfa3654e11d66029128" change="1716922985" id="E0060">
       <type>Birth</type>
@@ -1977,6 +1985,12 @@
       <citationref hlink="_fa1c26a0e596d1393230cfc3389"/>
       <citationref hlink="_fa1c4155a4389e9ae197308fff"/>
     </event>
+    <event handle="_fa1eb9402497b247acff2400b86" change="1718811649" id="E0295">
+      <type>Residence</type>
+      <dateval val="1921-11-03" type="after"/>
+      <place hlink="_d32c6d0ebe70dcc46a2"/>
+      <citationref hlink="_fa1be33b6553ad6e4fc808ef6ad"/>
+    </event>
   </events>
   <people home="_cca1691b7c53559cc53">
     <person handle="_cb937baae6821b777ad" change="1501410532" id="I0000">
@@ -2245,7 +2259,7 @@
       <eventref hlink="_cca169678b14a59df89" role="Primary"/>
       <childof hlink="_cca167070917742a369"/>
     </person>
-    <person handle="_cca16a86dbb50f43d4d" change="1657478891" id="I0024">
+    <person handle="_cca16a86dbb50f43d4d" change="1718811775" id="I0024">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Olavi</first>
@@ -2255,7 +2269,7 @@
       <eventref hlink="_cca16a81b2e2ea33ccb" role="Primary"/>
       <childof hlink="_cca169ac5167931401b"/>
     </person>
-    <person handle="_cca16bfb732160f8427" change="1426879108" id="I0025">
+    <person handle="_cca16bfb732160f8427" change="1718811775" id="I0025">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Jenny Maria</first>
@@ -2263,13 +2277,9 @@
       </name>
       <eventref hlink="_cca16bd6d767f9f1e53" role="Primary"/>
       <eventref hlink="_cca16bf383363d7d24a" role="Primary"/>
-      <eventref hlink="_cdcdbfd7db80c4028f0" role="Primary"/>
-      <eventref hlink="_cdcdbfd7dbe2d0c42b2" role="Primary"/>
-      <attribute type="Merged Gramps ID" value="I6000000020068177823"/>
-      <attribute type="RFN" value="geni:6000000020068177823"/>
       <childof hlink="_cca169ac5167931401b"/>
     </person>
-    <person handle="_cca16c3c59873a8eb1c" change="1657478838" id="I0026">
+    <person handle="_cca16c3c59873a8eb1c" change="1718811775" id="I0026">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Sanni</first>
@@ -3160,11 +3170,12 @@
       <childref hlink="_cca1691b7c53559cc53"/>
       <childref hlink="_cca1696e11d434c70de"/>
     </family>
-    <family handle="_cca169ac5167931401b" change="1426879108" id="F0005">
+    <family handle="_cca169ac5167931401b" change="1718811775" id="F0005">
       <rel type="Married"/>
       <father hlink="_cca168399bc1d99fac9"/>
       <mother hlink="_cfa36390ad1018afcda"/>
       <eventref hlink="_cca16a2bd662ecee539" role="Family"/>
+      <eventref hlink="_fa1eb9402497b247acff2400b86" role="Family"/>
       <childref hlink="_cca16a86dbb50f43d4d"/>
       <childref hlink="_cca16bfb732160f8427"/>
       <childref hlink="_cca16c3c59873a8eb1c"/>
