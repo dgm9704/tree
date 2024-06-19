@@ -155,12 +155,13 @@
       <citationref hlink="_f9f527e7e874ca53a27973920b6"/>
       <citationref hlink="_fa1be33b6553ad6e4fc808ef6ad"/>
     </event>
-    <event handle="_cca1688f2bd1f9fcc43" change="1716842650" id="E0025">
+    <event handle="_cca1688f2bd1f9fcc43" change="1718811995" id="E0025">
       <type>Birth</type>
       <dateval val="1892-06-13"/>
       <place hlink="_cdd10d9b4b80ba1c482"/>
       <citationref hlink="_f9d55f5062d6f9a8cec8cfb4506"/>
       <citationref hlink="_d019a9f62104f8b9fae"/>
+      <citationref hlink="_fa1be33b6553ad6e4fc808ef6ad"/>
     </event>
     <event handle="_cca168bd25d133ff856" change="1708018552" id="E0026">
       <type>Birth</type>
@@ -184,17 +185,20 @@
       <citationref hlink="_da7bf1e12fae7162dae75fcd05"/>
       <citationref hlink="_f134a18269154738d15a483bbf0"/>
     </event>
-    <event handle="_cca1695033e04c00e6f" change="1430055639" id="E0028">
+    <event handle="_cca1695033e04c00e6f" change="1718812397" id="E0028">
       <type>Birth</type>
       <dateval val="1899-06-04"/>
       <place hlink="_cdd10d9b4b80ba1c482"/>
+      <citationref hlink="_fa1be33b6553ad6e4fc808ef6ad"/>
+      <citationref hlink="_fa1ec047c9445fa47cd6f13460a"/>
       <citationref hlink="_d00da49fbb70ce97129"/>
     </event>
-    <event handle="_cca169678b14a59df89" change="1717431017" id="E0029">
+    <event handle="_cca169678b14a59df89" change="1718812458" id="E0029">
       <type>Death</type>
       <dateval val="1901-04-17"/>
       <place hlink="_cdd421a7ab374044701"/>
       <citationref hlink="_f9eb4a72aab7ce1cee707431e5"/>
+      <citationref hlink="_fa1be33b6553ad6e4fc808ef6ad"/>
     </event>
     <event handle="_cca16a2bd662ecee539" change="1718811580" id="E0031">
       <type>Marriage</type>
@@ -231,9 +235,12 @@
       <place hlink="_cdd421a7ab374044701"/>
       <citationref hlink="_fa1be33b6553ad6e4fc808ef6ad"/>
     </event>
-    <event handle="_cca16d1ddd034493a5d" change="1718735713" id="E0038">
+    <event handle="_cca16d1ddd034493a5d" change="1718812140" id="E0038">
       <type>Marriage</type>
       <dateval val="1885-04-30"/>
+      <place hlink="_cdd421a7ab374044701"/>
+      <noteref hlink="_fa1ebd7e83e3f11ec68e2809aaf"/>
+      <citationref hlink="_fa1be33b6553ad6e4fc808ef6ad"/>
     </event>
     <event handle="_cca16d5de892b9a63fe" change="1718735544" id="E0039">
       <type>Birth</type>
@@ -1991,6 +1998,12 @@
       <place hlink="_d32c6d0ebe70dcc46a2"/>
       <citationref hlink="_fa1be33b6553ad6e4fc808ef6ad"/>
     </event>
+    <event handle="_fa1ebe7c56955784e6e7461f531" change="1718812198" id="E0296">
+      <type>Residence</type>
+      <dateval val="1920-03-06" type="after"/>
+      <place hlink="_d32c6d0ebe70dcc46a2"/>
+      <citationref hlink="_fa1be33b6553ad6e4fc808ef6ad"/>
+    </event>
   </events>
   <people home="_cca1691b7c53559cc53">
     <person handle="_cb937baae6821b777ad" change="1501410532" id="I0000">
@@ -2290,7 +2303,7 @@
       <attribute type="RFN" value="geni:6000000020068556329"/>
       <childof hlink="_cca169ac5167931401b"/>
     </person>
-    <person handle="_cca16d66b34550400e5" change="1426879290" id="I0028">
+    <person handle="_cca16d66b34550400e5" change="1718812214" id="I0028">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Irma Kaarina Mirjami</first>
@@ -3180,11 +3193,12 @@
       <childref hlink="_cca16bfb732160f8427"/>
       <childref hlink="_cca16c3c59873a8eb1c"/>
     </family>
-    <family handle="_cca16c73e9d13f8c0de" change="1426879290" id="F0006">
+    <family handle="_cca16c73e9d13f8c0de" change="1718812214" id="F0006">
       <rel type="Married"/>
       <father hlink="_cca16896a6b2b2bf9a2"/>
       <mother hlink="_cfa36550a1144d88836"/>
       <eventref hlink="_cca16d1ddd034493a5d" role="Family"/>
+      <eventref hlink="_fa1ebe7c56955784e6e7461f531" role="Family"/>
       <childref hlink="_cca16d66b34550400e5"/>
     </family>
     <family handle="_cdcdbfe443a73c3bb82" change="1708023807" id="F0019">
@@ -5759,6 +5773,13 @@
       <noteref hlink="_fa1c471f17b5b5a0def7e45b76c"/>
       <noteref hlink="_fa1c476817067e1e0df0732a667"/>
       <sourceref hlink="_fa1c46dc01d7b64f4e675c12197"/>
+    </citation>
+    <citation handle="_fa1ec047c9445fa47cd6f13460a" change="1718812386" id="C0328">
+      <page>MKO9-17/222-223</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa1ec025317524989f2ffc4bc73"/>
+      <noteref hlink="_fa1ec044f2a6518fef3646fee20"/>
+      <sourceref hlink="_d32c55274ff602643fe"/>
     </citation>
   </citations>
   <sources>
@@ -11162,6 +11183,18 @@ Tästä eteenpäin syntymäpäiväksi on merkitty johdonmukaisesti joka paikassa
     <note handle="_fa1c476817067e1e0df0732a667" change="1718746025" id="N0670" type="Url">
       <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45354&amp;pnum=660</text>
       <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45354&amp;pnum=660">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_fa1ebd7e83e3f11ec68e2809aaf" change="1718812094" id="N0671" type="Research">
+      <text>Selkeästi avioliiton osalta ainakin vuosi on väärin.</text>
+    </note>
+    <note handle="_fa1ec025317524989f2ffc4bc73" change="1718812372" id="N0672" type="Citation">
+      <text>Rääkkylä syntyneet 1892-1905 (MKO9-17)  Sivu 222 1899 Kesäkuu ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26281&amp;pnum=108 / Viitattu 19.06.2024</text>
+    </note>
+    <note handle="_fa1ec044f2a6518fef3646fee20" change="1718812385" id="N0673" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26281&amp;pnum=108</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26281&amp;pnum=108">
         <range start="0" end="78"/>
       </style>
     </note>
