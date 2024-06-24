@@ -2291,6 +2291,50 @@
       <citationref hlink="_d01a0de579006e91b06"/>
       <citationref hlink="_fa2f15d1eec31f848a807aa7e21"/>
     </event>
+    <event handle="_fa2f5c43d8f6d5efc2797b4b1d" change="1719258239" id="E0343">
+      <type>Residence</type>
+      <dateval val="1888"/>
+      <place hlink="_fa2eecfc0713ffcccc882cf4537"/>
+      <citationref hlink="_fa2f5ac7e95559c20babe106928"/>
+    </event>
+    <event handle="_fa2f5d0e9b87053a7f742472f96" change="1719258322" id="E0344">
+      <type>Residence</type>
+      <datespan start="1887" stop="1888"/>
+      <place hlink="_d0206898051735e1c73"/>
+      <citationref hlink="_fa2f5d0ab9d769bec9d9fa32fa6"/>
+    </event>
+    <event handle="_fa2f5e0bac45355461037fb4e6" change="1719258426" id="E0345">
+      <type>Residence</type>
+      <datespan start="1885" stop="1887"/>
+      <place hlink="_fa2eecfc0713ffcccc882cf4537"/>
+      <citationref hlink="_fa2f5ac7e95559c20babe106928"/>
+    </event>
+    <event handle="_fa2f6245aabcbf45a263692fd5" change="1719258869" id="E0346">
+      <type>Residence</type>
+      <datespan start="1884" stop="1885"/>
+      <place hlink="_fa2f61c38b45764e414df6bd0cc"/>
+      <citationref hlink="_fa2f6240ae84981bb1845827c63"/>
+    </event>
+    <event handle="_fa2f6c5cd1911ecbb0665e8e9e1" change="1719259927" id="E0347">
+      <type>Confirmation</type>
+      <dateval val="1881-10-23"/>
+      <place hlink="_cdd421a7ab374044701"/>
+      <citationref hlink="_fa2f6be61944a0b8e79024c0503"/>
+      <citationref hlink="_fa2f6b74d8d1627296f7b27b866"/>
+    </event>
+    <event handle="_fa2f6cc462b5dd03886db5e96a6" change="1719259970" id="E0348">
+      <type>Residence</type>
+      <dateval val="1881"/>
+      <place hlink="_cdd1051b4c648ad7ac8"/>
+      <citationref hlink="_fa2f6be61944a0b8e79024c0503"/>
+      <citationref hlink="_fa2f6b74d8d1627296f7b27b866"/>
+    </event>
+    <event handle="_fa2f6dc75e837bfaedccd6f5213" change="1719260076" id="E0349">
+      <type>Residence</type>
+      <datespan start="1881" stop="1884"/>
+      <place hlink="_fa2eecfc0713ffcccc882cf4537"/>
+      <citationref hlink="_fa2f5ac7e95559c20babe106928"/>
+    </event>
   </events>
   <people home="_cca1691b7c53559cc53">
     <person handle="_cb937baae6821b777ad" change="1501410532" id="I0000">
@@ -2451,13 +2495,20 @@
       <childof hlink="_cb9384c7503395850c3"/>
       <parentin hlink="_fa184fda0c2653677e05b5082ba"/>
     </person>
-    <person handle="_cb9387523a946030f71" change="1717339994" id="I0013">
+    <person handle="_cb9387523a946030f71" change="1719260102" id="I0013">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anna Josefina</first>
         <surname derivation="Inherited">Tapanen</surname>
       </name>
       <eventref hlink="_cb93874bb353188fd8b" role="Primary"/>
+      <eventref hlink="_fa2f6c5cd1911ecbb0665e8e9e1" role="Primary"/>
+      <eventref hlink="_fa2f6cc462b5dd03886db5e96a6" role="Primary"/>
+      <eventref hlink="_fa2f6dc75e837bfaedccd6f5213" role="Primary"/>
+      <eventref hlink="_fa2f6245aabcbf45a263692fd5" role="Primary"/>
+      <eventref hlink="_fa2f5e0bac45355461037fb4e6" role="Primary"/>
+      <eventref hlink="_fa2f5d0e9b87053a7f742472f96" role="Primary"/>
+      <eventref hlink="_fa2f5c43d8f6d5efc2797b4b1d" role="Primary"/>
       <childof hlink="_cb9384c7503395850c3"/>
       <noteref hlink="_f9dec36fc0d56f4531f48634a41"/>
       <noteref hlink="_f9df152ea473287a9bc25109971"/>
@@ -6553,6 +6604,41 @@
       <noteref hlink="_fa2f15ceffb6da9f4aee32b3203"/>
       <sourceref hlink="_d32c55274ff602643fe"/>
     </citation>
+    <citation handle="_fa2f5ac7e95559c20babe106928" change="1719258106" id="C0364">
+      <page>Aa:14/204</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa2f5aa1aae49c998c01bc8073e"/>
+      <noteref hlink="_fa2f5ac106f62b15f55d3c0fe16"/>
+      <sourceref hlink="_d019bdef2b556c0b050"/>
+    </citation>
+    <citation handle="_fa2f5d0ab9d769bec9d9fa32fa6" change="1719258321" id="C0365">
+      <page>Aa:13/228</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa2f5ced7885f0ace07b116aa35"/>
+      <noteref hlink="_fa2f5d07b947e4b458cdd287ac0"/>
+      <sourceref hlink="_d019bdef2b556c0b050"/>
+    </citation>
+    <citation handle="_fa2f6240ae84981bb1845827c63" change="1719258867" id="C0366">
+      <page>Aa:14/201</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa2f621af2d2ecc062fee47541"/>
+      <noteref hlink="_fa2f623acbd68c4f0400d5bcd"/>
+      <sourceref hlink="_d019bdef2b556c0b050"/>
+    </citation>
+    <citation handle="_fa2f6b74d8d1627296f7b27b866" change="1719259832" id="C0367">
+      <page>MKO1-3/16</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa2f6b510002f178bfb11879886"/>
+      <noteref hlink="_fa2f6b703ed11999ddffc8b8e17"/>
+      <sourceref hlink="_fa2f6b2cee51fd66191cf650d57"/>
+    </citation>
+    <citation handle="_fa2f6be61944a0b8e79024c0503" change="1719259879" id="C0368">
+      <page>MKO1-3/9</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa2f6bbeb18337f8a2d33058913"/>
+      <noteref hlink="_fa2f6bdecdf325c96b206f5df4f"/>
+      <sourceref hlink="_fa2f6b2cee51fd66191cf650d57"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdd044203935b79cba4" change="1429553707" id="S0000">
@@ -7137,6 +7223,11 @@
       <sauthor>Rääkkylän seurakunta</sauthor>
       <reporef hlink="_d010e648af6539f6d97" medium="Book"/>
     </source>
+    <source handle="_fa2f6b2cee51fd66191cf650d57" change="1719259803" id="S0116">
+      <stitle>Rääkkylä Rippilapset 1880-1890</stitle>
+      <sauthor>Rääkkylän seurakunta</sauthor>
+      <reporef hlink="_cdd410d11e701d5d906" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cca1691056519fef9d5" change="1657487885" id="P0001" type="Town">
@@ -7304,8 +7395,9 @@
       <pname value="11"/>
       <placeref hlink="_cdd70e98e0854ad935d"/>
     </placeobj>
-    <placeobj handle="_d0206898051735e1c73" change="1430235077" id="P0052" type="Farm">
-      <pname value="1"/>
+    <placeobj handle="_d0206898051735e1c73" change="1719258277" id="P0052" type="Farm">
+      <code>1</code>
+      <pname value="Hirvala"/>
       <placeref hlink="_d01e13947926d2a234e"/>
     </placeobj>
     <placeobj handle="_d32c6d0ebe70dcc46a2" change="1451173510" id="P0053" type="Parish">
@@ -7609,8 +7701,9 @@
       <pname value="4"/>
       <placeref hlink="_cdd1051b4c648ad7ac8"/>
     </placeobj>
-    <placeobj handle="_fa2eecfc0713ffcccc882cf4537" change="1719246571" id="P0109" type="Farm">
-      <pname value="2"/>
+    <placeobj handle="_fa2eecfc0713ffcccc882cf4537" change="1719258038" id="P0109" type="Farm">
+      <code>2</code>
+      <pname value="Yläpiha"/>
       <placeref hlink="_cdd434a57ab5b7a104b"/>
     </placeobj>
     <placeobj handle="_fa2f1110c567b3cced05471ab6a" change="1719250354" id="P0110" type="Village">
@@ -7621,6 +7714,11 @@
       <code>25</code>
       <pname value="Leskelä"/>
       <placeref hlink="_fa2f1110c567b3cced05471ab6a"/>
+    </placeobj>
+    <placeobj handle="_fa2f61c38b45764e414df6bd0cc" change="1719258816" id="P0112" type="Farm">
+      <code>1</code>
+      <pname value="Alapiha Hovi"/>
+      <placeref hlink="_cdd434a57ab5b7a104b"/>
     </placeobj>
   </places>
   <repositories>
@@ -12377,6 +12475,51 @@ wo	Anna Tiina Heikintr Sallinen	-1	6/9   1876	99/l.260</text>
       <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26281&amp;pnum=129</text>
       <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26281&amp;pnum=129">
         <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_fa2f5aa1aae49c998c01bc8073e" change="1719258068" id="N0752" type="Citation">
+      <text>Rääkkylä rippikirja 1881-1891 (MKO14-26 I Aa:14)  Sivu 203 Warpasalo no 2, Yläpiha ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26097&amp;pnum=163 / Viitattu 24.06.2024</text>
+    </note>
+    <note handle="_fa2f5ac106f62b15f55d3c0fe16" change="1719258081" id="N0753" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26097&amp;pnum=163</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26097&amp;pnum=163">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_fa2f5ced7885f0ace07b116aa35" change="1719258309" id="N0754" type="Citation">
+      <text>Rääkkylä rippikirja 1881-1891 (MKO1-13 I Aa:13)  Sivu 228 Niemis no 1, Hirvala ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26096&amp;pnum=194 / Viitattu 24.06.2024</text>
+    </note>
+    <note handle="_fa2f5d07b947e4b458cdd287ac0" change="1719258319" id="N0755" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26096&amp;pnum=194</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26096&amp;pnum=194">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_fa2f621af2d2ecc062fee47541" change="1719258852" id="N0756" type="Citation">
+      <text>Rääkkylä rippikirja 1881-1891 (MKO14-26 I Aa:14)  Sivu 201 (Warpasalo) ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26097&amp;pnum=161 / Viitattu 24.06.2024</text>
+    </note>
+    <note handle="_fa2f623acbd68c4f0400d5bcd" change="1719258865" id="N0757" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26097&amp;pnum=161</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26097&amp;pnum=161">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_fa2f6b510002f178bfb11879886" change="1719259817" id="N0758" type="Citation">
+      <text>Rääkkylä rippilapset 1880-1890 (MKO1-3)  Sivu 16  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26291&amp;pnum=16 / Viitattu 24.06.2024</text>
+    </note>
+    <note handle="_fa2f6b703ed11999ddffc8b8e17" change="1719259830" id="N0759" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26291&amp;pnum=16</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26291&amp;pnum=16">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_fa2f6bbeb18337f8a2d33058913" change="1719259862" id="N0760" type="Citation">
+      <text>Rääkkylä rippilapset 1880-1890 (MKO1-3)  Sivu 9  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26291&amp;pnum=9 / Viitattu 24.06.2024</text>
+    </note>
+    <note handle="_fa2f6bdecdf325c96b206f5df4f" change="1719259876" id="N0761" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26291&amp;pnum=9</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26291&amp;pnum=9">
+        <range start="0" end="76"/>
       </style>
     </note>
   </notes>
