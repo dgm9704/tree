@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2024-06-25" version="5.2.2"/>
+    <created date="2024-06-26" version="5.2.2"/>
     <researcher>
     </researcher>
     <mediapath>/home/john/3Taponen_2014-10-29.gpkg.media</mediapath>
@@ -2366,22 +2366,24 @@
       <citationref hlink="_fa325f9475368af0f17f821ea98"/>
       <citationref hlink="_fa3274e139cd2014fdc8703f02"/>
     </event>
-    <event handle="_fa327378596480941a3c43725c" change="1719341203" id="E0355">
+    <event handle="_fa327378596480941a3c43725c" change="1719347185" id="E0355">
       <type>Birth</type>
       <dateval val="1889-05-06"/>
-      <place hlink="_cdd421a7ab374044701"/>
+      <place hlink="_fa3260555b2524da57ae65f0dd5"/>
       <citationref hlink="_fa327374dba13e41334f751425d"/>
+      <citationref hlink="_fa32ac8225975027ebd79ce12c2"/>
     </event>
     <event handle="_fa3276e124b2b227d9e5422595f" change="1719341561" id="E0356">
       <type>Birth</type>
       <dateval val="1860-07-03"/>
       <citationref hlink="_fa325f9475368af0f17f821ea98"/>
     </event>
-    <event handle="_fa327717e1815ca4a11b07dc7b2" change="1719341583" id="E0357">
+    <event handle="_fa327717e1815ca4a11b07dc7b2" change="1719347396" id="E0357">
       <type>Death</type>
       <dateval val="1886-04-22"/>
       <place hlink="_cdd421a7ab374044701"/>
       <citationref hlink="_fa325f9475368af0f17f821ea98"/>
+      <citationref hlink="_fa32ae7c22c4dcda22ca6f47b38"/>
     </event>
     <event handle="_fa3277bd416432fa9da41b3704e" change="1719341651" id="E0358">
       <type>Residence</type>
@@ -2390,10 +2392,26 @@
       <citationref hlink="_fa325f9475368af0f17f821ea98"/>
       <citationref hlink="_fa327374dba13e41334f751425d"/>
     </event>
-    <event handle="_fa327824ac524cf81634ee30f17" change="1719341693" id="E0359">
+    <event handle="_fa327824ac524cf81634ee30f17" change="1719347286" id="E0359">
       <type>Birth</type>
       <dateval val="1881-08-07"/>
+      <place hlink="_fa3260555b2524da57ae65f0dd5"/>
       <citationref hlink="_fa327374dba13e41334f751425d"/>
+      <citationref hlink="_fa32ad77e3831b855b1c42a44ec"/>
+    </event>
+    <event handle="_fa32cecb79b47c441b46e346029" change="1719351065" id="E0360">
+      <type>Residence</type>
+      <datespan start="1891" stop="1895"/>
+      <place hlink="_fa3260555b2524da57ae65f0dd5"/>
+      <citationref hlink="_fa32cec0c5c7f63463cc3d77118"/>
+      <citationref hlink="_fa32d14de2247667b4195365047"/>
+    </event>
+    <event handle="_fa32d40d3c610b0a1e3e4cd06ca" change="1719351330" id="E0361">
+      <type>Residence</type>
+      <datespan start="1895" stop="1900"/>
+      <place hlink="_cdd421a7ab374044701"/>
+      <citationref hlink="_fa32d38f6f6c020c560872a268"/>
+      <citationref hlink="_fa32d405c1665d81562415f388a"/>
     </event>
   </events>
   <people home="_cca1691b7c53559cc53">
@@ -2555,7 +2573,7 @@
       <childof hlink="_cb9384c7503395850c3"/>
       <parentin hlink="_fa184fda0c2653677e05b5082ba"/>
     </person>
-    <person handle="_cb9387523a946030f71" change="1719339263" id="I0013">
+    <person handle="_cb9387523a946030f71" change="1719351362" id="I0013">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anna Josefina</first>
@@ -2569,6 +2587,8 @@
       <eventref hlink="_fa2f5e0bac45355461037fb4e6" role="Primary"/>
       <eventref hlink="_fa2f5d0e9b87053a7f742472f96" role="Primary"/>
       <eventref hlink="_fa2f5c43d8f6d5efc2797b4b1d" role="Primary"/>
+      <eventref hlink="_fa32cecb79b47c441b46e346029" role="Primary"/>
+      <eventref hlink="_fa32d40d3c610b0a1e3e4cd06ca" role="Primary"/>
       <childof hlink="_cb9384c7503395850c3"/>
       <parentin hlink="_fa325af51ac521e1a0857e923ca"/>
       <noteref hlink="_f9dec36fc0d56f4531f48634a41"/>
@@ -6789,6 +6809,55 @@
       <noteref hlink="_fa3274bff19ce7b91bdc1b9913"/>
       <noteref hlink="_fa3274dbf651cc09f1dd0d4ad80"/>
       <sourceref hlink="_f9eb4a0bdf571219bdcd18ac9da"/>
+    </citation>
+    <citation handle="_fa32ac8225975027ebd79ce12c2" change="1719347184" id="C0374">
+      <page>MKO1-7/324-325</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa32ac5dd2977dfa01dc13a9563"/>
+      <noteref hlink="_fa32ac7f42f65c3a76f6d9f21e"/>
+      <sourceref hlink="_d32c68ccea613412e28"/>
+    </citation>
+    <citation handle="_fa32ad77e3831b855b1c42a44ec" change="1719347285" id="C0375">
+      <page>MKO1-7/49-50</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa32ad541745ea6d2c8aa771da8"/>
+      <noteref hlink="_fa32ad7476d42d527c94da51576"/>
+      <sourceref hlink="_d32c68ccea613412e28"/>
+    </citation>
+    <citation handle="_fa32ae7c22c4dcda22ca6f47b38" change="1719347391" id="C0376">
+      <page>MKO1-2/37-38</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa32ae5a03f44cdc16ffd18dc7f"/>
+      <noteref hlink="_fa32ae7806854adf7e2bbd23995"/>
+      <sourceref hlink="_f9deb44b46e4b33d43b89e9f09f"/>
+    </citation>
+    <citation handle="_fa32cec0c5c7f63463cc3d77118" change="1719350775" id="C0377">
+      <page>Aa:16/738</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa32ce9e5a25f9b5d369206c91"/>
+      <noteref hlink="_fa32ceb8f38719c19ed2c3dd691"/>
+      <sourceref hlink="_d01a0e983860c0e4e08"/>
+    </citation>
+    <citation handle="_fa32d14de2247667b4195365047" change="1719351042" id="C0378">
+      <page>MKO27-40/738-739</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa32d12b9117f3da7ee7076f512"/>
+      <noteref hlink="_fa32d14b49f6be1c859af5c2f11"/>
+      <sourceref hlink="_d01a0c128a0397f7bf5"/>
+    </citation>
+    <citation handle="_fa32d38f6f6c020c560872a268" change="1719351279" id="C0379">
+      <page>Aa:17/922</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa32d3654752b734845072fcb7e"/>
+      <noteref hlink="_fa32d3877d13cf4aa252acc37a3"/>
+      <sourceref hlink="_d01a0e983860c0e4e08"/>
+    </citation>
+    <citation handle="_fa32d405c1665d81562415f388a" change="1719351327" id="C0380">
+      <page>MKO41-43</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa32d3e200541590f2051b87c91"/>
+      <noteref hlink="_fa32d4019655760d46a905702ce"/>
+      <sourceref hlink="_d01a0c128a0397f7bf5"/>
     </citation>
   </citations>
   <sources>
@@ -12723,6 +12792,69 @@ wo	Anna Tiina Heikintr Sallinen	-1	6/9   1876	99/l.260</text>
       <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26286&amp;pnum=2</text>
       <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26286&amp;pnum=2">
         <range start="0" end="76"/>
+      </style>
+    </note>
+    <note handle="_fa32ac5dd2977dfa01dc13a9563" change="1719347169" id="N0772" type="Citation">
+      <text>Rääkkylä syntyneet 1880-1890 (MKO1-7)  Sivu 324 1889 Toukokuu ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26279&amp;pnum=162 / Viitattu 25.06.2024</text>
+    </note>
+    <note handle="_fa32ac7f42f65c3a76f6d9f21e" change="1719347183" id="N0773" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26279&amp;pnum=162</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26279&amp;pnum=162">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_fa32ad541745ea6d2c8aa771da8" change="1719347270" id="N0774" type="Citation">
+      <text>Rääkkylä syntyneet 1880-1890 (MKO1-7)  Sivu 49-50  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26279&amp;pnum=25 / Viitattu 25.06.2024</text>
+    </note>
+    <note handle="_fa32ad7476d42d527c94da51576" change="1719347283" id="N0775" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26279&amp;pnum=25</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26279&amp;pnum=25">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_fa32ae5a03f44cdc16ffd18dc7f" change="1719347377" id="N0776" type="Citation">
+      <text>Rääkkylä kuolleet 1880-1890 (MKO1-2)  Sivu 37-38  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26285&amp;pnum=19 / Viitattu 25.06.2024</text>
+    </note>
+    <note handle="_fa32ae7806854adf7e2bbd23995" change="1719347390" id="N0777" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26285&amp;pnum=19</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26285&amp;pnum=19">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_fa32ce9e5a25f9b5d369206c91" change="1719350761" id="N0778" type="Citation">
+      <text>Rääkkylä rippikirja 1891-1900 (MKO40-51 I Aa:16)  Sivu 738 Warpasalo no 13 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26099&amp;pnum=272 / Viitattu 25.06.2024</text>
+    </note>
+    <note handle="_fa32ceb8f38719c19ed2c3dd691" change="1719350772" id="N0779" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26099&amp;pnum=272</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26099&amp;pnum=272">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_fa32d12b9117f3da7ee7076f512" change="1719351028" id="N0780" type="Citation">
+      <text>Rääkkylä lastenkirja 1891-1900 (MKO27-40)  Sivu 738-739 Warpasalo no 13 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26277&amp;pnum=343 / Viitattu 25.06.2024</text>
+    </note>
+    <note handle="_fa32d14b49f6be1c859af5c2f11" change="1719351041" id="N0781" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26277&amp;pnum=343</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26277&amp;pnum=343">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_fa32d3654752b734845072fcb7e" change="1719351262" id="N0782" type="Citation">
+      <text>Rääkkylä rippikirja 1891-1900 (MKO52-57 I Aa:17)  Sivu 922 L ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26100&amp;pnum=77 / Viitattu 25.06.2024</text>
+    </note>
+    <note handle="_fa32d3877d13cf4aa252acc37a3" change="1719351276" id="N0783" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26100&amp;pnum=77</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26100&amp;pnum=77">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_fa32d3e200541590f2051b87c91" change="1719351313" id="N0784" type="Citation">
+      <text>Rääkkylä lastenkirja 1891-1900 (MKO41-43)  Sivu 922-923  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26278&amp;pnum=39 / Viitattu 25.06.2024</text>
+    </note>
+    <note handle="_fa32d4019655760d46a905702ce" change="1719351326" id="N0785" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26278&amp;pnum=39</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26278&amp;pnum=39">
+        <range start="0" end="77"/>
       </style>
     </note>
   </notes>
