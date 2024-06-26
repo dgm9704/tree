@@ -2373,10 +2373,12 @@
       <citationref hlink="_fa327374dba13e41334f751425d"/>
       <citationref hlink="_fa32ac8225975027ebd79ce12c2"/>
     </event>
-    <event handle="_fa3276e124b2b227d9e5422595f" change="1719341561" id="E0356">
+    <event handle="_fa3276e124b2b227d9e5422595f" change="1719351988" id="E0356">
       <type>Birth</type>
-      <dateval val="1860-07-03"/>
+      <dateval val="1860-07-05"/>
+      <place hlink="_cdd1051b4c648ad7ac8"/>
       <citationref hlink="_fa325f9475368af0f17f821ea98"/>
+      <citationref hlink="_fa32da229523ac663b6f7ef9582"/>
     </event>
     <event handle="_fa327717e1815ca4a11b07dc7b2" change="1719347396" id="E0357">
       <type>Death</type>
@@ -2412,6 +2414,12 @@
       <place hlink="_cdd421a7ab374044701"/>
       <citationref hlink="_fa32d38f6f6c020c560872a268"/>
       <citationref hlink="_fa32d405c1665d81562415f388a"/>
+    </event>
+    <event handle="_fa32d85ba4118fc2f4191747d01" change="1719351782" id="E0362">
+      <type>Residence</type>
+      <datespan start="1899" stop="1900"/>
+      <place hlink="_fa32d76cd44574e661adc17f35"/>
+      <citationref hlink="_fa32d85803770f59fda9b323143"/>
     </event>
   </events>
   <people home="_cca1691b7c53559cc53">
@@ -3731,13 +3739,14 @@
       <eventref hlink="_fa327717e1815ca4a11b07dc7b2" role="Primary"/>
       <parentin hlink="_fa3275f243a704e3b0363416227"/>
     </person>
-    <person handle="_fa3277d5f125bb3fb8bac8fd3ff" change="1719341699" id="I0121">
+    <person handle="_fa3277d5f125bb3fb8bac8fd3ff" change="1719351790" id="I0121">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Antti</first>
         <surname>Laasonen</surname>
       </name>
       <eventref hlink="_fa327824ac524cf81634ee30f17" role="Primary"/>
+      <eventref hlink="_fa32d85ba4118fc2f4191747d01" role="Primary"/>
       <childof hlink="_fa3275f243a704e3b0363416227"/>
     </person>
   </people>
@@ -6852,12 +6861,26 @@
       <noteref hlink="_fa32d3877d13cf4aa252acc37a3"/>
       <sourceref hlink="_d01a0e983860c0e4e08"/>
     </citation>
-    <citation handle="_fa32d405c1665d81562415f388a" change="1719351327" id="C0380">
-      <page>MKO41-43</page>
+    <citation handle="_fa32d405c1665d81562415f388a" change="1719351716" id="C0380">
+      <page>MKO41-43/922-923</page>
       <confidence>2</confidence>
       <noteref hlink="_fa32d3e200541590f2051b87c91"/>
       <noteref hlink="_fa32d4019655760d46a905702ce"/>
       <sourceref hlink="_d01a0c128a0397f7bf5"/>
+    </citation>
+    <citation handle="_fa32d85803770f59fda9b323143" change="1719351780" id="C0381">
+      <page>MKO27-40/714-715</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa32d81d5ac4b02336399142950"/>
+      <noteref hlink="_fa32d852ec7752f4a5d24dee986"/>
+      <sourceref hlink="_d01a0c128a0397f7bf5"/>
+    </citation>
+    <citation handle="_fa32da229523ac663b6f7ef9582" change="1719351968" id="C0382">
+      <page>C:3/23</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa32d9fb85e3479bfa614046330"/>
+      <noteref hlink="_fa32da1b65a67221b98cc29ab31"/>
+      <sourceref hlink="_cdd3b3e8e60650d5cd6"/>
     </citation>
   </citations>
   <sources>
@@ -7942,6 +7965,10 @@
     </placeobj>
     <placeobj handle="_fa3260555b2524da57ae65f0dd5" change="1719339196" id="P0113" type="Farm">
       <pname value="13"/>
+      <placeref hlink="_cdd434a57ab5b7a104b"/>
+    </placeobj>
+    <placeobj handle="_fa32d76cd44574e661adc17f35" change="1719351684" id="P0114" type="Farm">
+      <pname value="1"/>
       <placeref hlink="_cdd434a57ab5b7a104b"/>
     </placeobj>
   </places>
@@ -12855,6 +12882,27 @@ wo	Anna Tiina Heikintr Sallinen	-1	6/9   1876	99/l.260</text>
       <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26278&amp;pnum=39</text>
       <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26278&amp;pnum=39">
         <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_fa32d81d5ac4b02336399142950" change="1719351756" id="N0786" type="Citation">
+      <text>Rääkkylä lastenkirja 1891-1900 (MKO27-40)  Sivu 714-715 Warpasalo no 1 (Edellinen aukema tyhjä) ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26277&amp;pnum=331 / Viitattu 25.06.2024</text>
+    </note>
+    <note handle="_fa32d82739a187ba25cf7acb176" change="1719351760" id="N0787" type="Citation">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26277&amp;pnum=331</text>
+    </note>
+    <note handle="_fa32d852ec7752f4a5d24dee986" change="1719351778" id="N0788" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26277&amp;pnum=331</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26277&amp;pnum=331">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_fa32d9fb85e3479bfa614046330" change="1719351952" id="N0789" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto - I C:3 Syntyneiden ja kastettujen luettelot 1856-1879, jakso 23: 1860; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5821204688&amp;aineistoId=1193384066 / Viitattu 26.6.2024</text>
+    </note>
+    <note handle="_fa32da1b65a67221b98cc29ab31" change="1719351965" id="N0790" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5821204688&amp;aineistoId=1193384066</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5821204688&amp;aineistoId=1193384066">
+        <range start="0" end="79"/>
       </style>
     </note>
   </notes>
