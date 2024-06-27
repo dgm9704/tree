@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2024-06-26" version="5.2.2"/>
+    <created date="2024-06-27" version="5.2.2"/>
     <researcher>
     </researcher>
     <mediapath>/home/john/3Taponen_2014-10-29.gpkg.media</mediapath>
@@ -15,11 +15,12 @@
       <place hlink="_cdd421a7ab374044701"/>
       <citationref hlink="_f9d743f00c07229c92c5990bd68"/>
     </event>
-    <event handle="_cb937d863d440fa57dc" change="1718565365" id="E0001">
+    <event handle="_cb937d863d440fa57dc" change="1719504490" id="E0001">
       <type>Birth</type>
       <dateval val="1827-04-13"/>
       <place hlink="_cdd70e98e0854ad935d"/>
       <citationref hlink="_cdd70fd5c6451b2de9b"/>
+      <citationref hlink="_d01e15f81820767928a"/>
     </event>
     <event handle="_cb937e30fc72eb7c7b1" change="1414615586" id="E0002">
       <type>Birth</type>
@@ -278,10 +279,11 @@
       <citationref hlink="_d01e15f81820767928a"/>
       <citationref hlink="_f9dbde7cf464cc801a8b1fd179a"/>
     </event>
-    <event handle="_cca206084a65f7b3ac9" change="1717017278" id="E0054">
+    <event handle="_cca206084a65f7b3ac9" change="1719504527" id="E0054">
       <type>Birth</type>
       <dateval val="1839-05-21"/>
       <citationref hlink="_f9dbe0c00f724aaf8e5c79a9f4f"/>
+      <citationref hlink="_d01e15f81820767928a"/>
     </event>
     <event handle="_cdcdbfd7dab040a888b" change="1414447939" id="E0167">
       <type>Birth</type>
@@ -804,9 +806,9 @@
       <noteref hlink="_f9deb6c49331a60037c80a4bddc"/>
       <citationref hlink="_d0191e766085f58a5ed"/>
     </event>
-    <event handle="_d01922988e32a2eddfd" change="1719141036" id="E0132">
+    <event handle="_d01922988e32a2eddfd" change="1719415536" id="E0132">
       <type>Marriage</type>
-      <dateval val="1874-12-22"/>
+      <dateval val="1874-09-27"/>
       <place hlink="_cdd1051b4c648ad7ac8"/>
       <citationref hlink="_d0191e766085f58a5ed"/>
       <citationref hlink="_fa2afe7e2d82e01cd5399d0f0e4"/>
@@ -2421,6 +2423,36 @@
       <place hlink="_fa32d76cd44574e661adc17f35"/>
       <citationref hlink="_fa32d85803770f59fda9b323143"/>
     </event>
+    <event handle="_fa353d49b0120b660e5827766c7" change="1719416052" id="E0363">
+      <type>Residence</type>
+      <datespan start="1867" stop="1874"/>
+      <place hlink="_cdd1051b4c648ad7ac8"/>
+      <citationref hlink="_fa353d3218237ef990b4a7d31"/>
+    </event>
+    <event handle="_fa35412d1e557beaa0e334f2793" change="1719416460" id="E0364">
+      <type>Birth</type>
+      <dateval val="1817-09-10"/>
+      <citationref hlink="_fa353d3218237ef990b4a7d31"/>
+    </event>
+    <event handle="_fa3541ec856202311ab5a8d101d" change="1719416538" id="E0365">
+      <type>Death</type>
+      <dateval val="1867-08-17"/>
+      <place hlink="_cdd1051b4c648ad7ac8"/>
+      <citationref hlink="_fa353d3218237ef990b4a7d31"/>
+      <citationref hlink="_fa3541e67fd655a2382a44f033a"/>
+    </event>
+    <event handle="_fa35426af162dcd889dd61da7b9" change="1719416590" id="E0366">
+      <type>Residence</type>
+      <datespan start="1865" stop="1867"/>
+      <place hlink="_cdd1051b4c648ad7ac8"/>
+      <citationref hlink="_fa353d3218237ef990b4a7d31"/>
+    </event>
+    <event handle="_fa3903a6e1021243d95ffbdb6db" change="1719517383" id="E0367">
+      <type>Marriage</type>
+      <dateval val="1843-11-12"/>
+      <place hlink="_cdd421a7ab374044701"/>
+      <citationref hlink="_fa3903a1efe210f8adb06a339a9"/>
+    </event>
   </events>
   <people home="_cca1691b7c53559cc53">
     <person handle="_cb937baae6821b777ad" change="1501410532" id="I0000">
@@ -2436,7 +2468,7 @@
       <childof hlink="_cb9384c7503395850c3"/>
       <parentin hlink="_cca167070917742a369"/>
     </person>
-    <person handle="_cb937d8bfc70c373375" change="1718565396" id="I0001">
+    <person handle="_cb937d8bfc70c373375" change="1719517411" id="I0001">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Nils</first>
@@ -2581,7 +2613,7 @@
       <childof hlink="_cb9384c7503395850c3"/>
       <parentin hlink="_fa184fda0c2653677e05b5082ba"/>
     </person>
-    <person handle="_cb9387523a946030f71" change="1719351362" id="I0013">
+    <person handle="_cb9387523a946030f71" change="1719414760" id="I0013">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anna Josefina</first>
@@ -2599,8 +2631,6 @@
       <eventref hlink="_fa32d40d3c610b0a1e3e4cd06ca" role="Primary"/>
       <childof hlink="_cb9384c7503395850c3"/>
       <parentin hlink="_fa325af51ac521e1a0857e923ca"/>
-      <noteref hlink="_f9dec36fc0d56f4531f48634a41"/>
-      <noteref hlink="_f9df152ea473287a9bc25109971"/>
     </person>
     <person handle="_cb9387a23152ebf0a20" change="1430162084" id="I0014">
       <gender>F</gender>
@@ -2745,7 +2775,7 @@
       <eventref hlink="_cca16d5de892b9a63fe" role="Primary"/>
       <childof hlink="_cca16c73e9d13f8c0de"/>
     </person>
-    <person handle="_cca2047aa577cccb33d" change="1501602260" id="I0035">
+    <person handle="_cca2047aa577cccb33d" change="1719517391" id="I0035">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria</first>
@@ -2754,8 +2784,9 @@
       </name>
       <eventref hlink="_cca20506c6a49e14734" role="Primary"/>
       <parentin hlink="_cb937f1873715ed35b9"/>
+      <parentin hlink="_fa3900a08111a27b63772ff000c"/>
     </person>
-    <person handle="_cca205799824ef1da13" change="1501602304" id="I0036">
+    <person handle="_cca205799824ef1da13" change="1719517411" id="I0036">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Henric</first>
@@ -2765,7 +2796,7 @@
       <eventref hlink="_d01e169f06751e8b7bb" role="Primary"/>
       <childof hlink="_cb937f1873715ed35b9"/>
     </person>
-    <person handle="_cca205dc0ed7cce9b0c" change="1501602304" id="I0037">
+    <person handle="_cca205dc0ed7cce9b0c" change="1719517411" id="I0037">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Johan</first>
@@ -2775,7 +2806,7 @@
       <eventref hlink="_d01e17e2b292837acb5" role="Primary"/>
       <childof hlink="_cb937f1873715ed35b9"/>
     </person>
-    <person handle="_cca2060fc18189e5c3b" change="1718214362" id="I0038">
+    <person handle="_cca2060fc18189e5c3b" change="1719517411" id="I0038">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Michel</first>
@@ -3068,15 +3099,17 @@
       <childof hlink="_d010ed0385e3b328d6c"/>
       <childof hlink="_d01115ab6f41f64e89f"/>
     </person>
-    <person handle="_d019224c22949006533" change="1717093403" id="I0061">
+    <person handle="_d019224c22949006533" change="1719416594" id="I0061">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Sofia</first>
         <surname>Palmstedt</surname>
       </name>
       <eventref hlink="_d0192211163166ade50" role="Primary"/>
+      <eventref hlink="_fa353d49b0120b660e5827766c7" role="Primary"/>
       <eventref hlink="_f9deb4bc3a152b117556bfb2620" role="Primary"/>
       <parentin hlink="_d0192176cfa508db0f8"/>
+      <parentin hlink="_fa35409aba358cbaca961082d49"/>
     </person>
     <person handle="_da7c10f80575c48aa0c202f6287" change="1719141533" id="I0005">
       <gender>M</gender>
@@ -3749,6 +3782,24 @@
       <eventref hlink="_fa32d85ba4118fc2f4191747d01" role="Primary"/>
       <childof hlink="_fa3275f243a704e3b0363416227"/>
     </person>
+    <person handle="_fa3540b1d7b2f8733b770bd9679" change="1719416594" id="I0122">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>David</first>
+        <surname>Orraeus</surname>
+      </name>
+      <eventref hlink="_fa35412d1e557beaa0e334f2793" role="Primary"/>
+      <eventref hlink="_fa3541ec856202311ab5a8d101d" role="Primary"/>
+      <parentin hlink="_fa35409aba358cbaca961082d49"/>
+    </person>
+    <person handle="_fa3900c40275804336e5001630a" change="1719517391" id="I0123">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Karhu</first>
+        <surname>Johan</surname>
+      </name>
+      <parentin hlink="_fa3900a08111a27b63772ff000c"/>
+    </person>
   </people>
   <families>
     <family handle="_cb937d0369c30ea97ef" change="1414524761" id="F0000">
@@ -3766,7 +3817,7 @@
       <childref hlink="_cb93830fa6102292205"/>
       <childref hlink="_cb9385b214e10228f4d"/>
     </family>
-    <family handle="_cb937f1873715ed35b9" change="1501602304" id="F0001">
+    <family handle="_cb937f1873715ed35b9" change="1719517411" id="F0001">
       <rel type="Married"/>
       <father hlink="_cb937f37e8f342e2366"/>
       <mother hlink="_cca2047aa577cccb33d"/>
@@ -3777,7 +3828,6 @@
       <eventref hlink="_d0206bbe7b6131f46ce" role="Family"/>
       <eventref hlink="_d01e15face55596cb9a" role="Family"/>
       <eventref hlink="_d01e0ab29ce4f86c9f3" role="Family"/>
-      <eventref hlink="_d01e0c44c355063ed41" role="Family"/>
       <childref hlink="_cb937d8bfc70c373375"/>
       <childref hlink="_cca205799824ef1da13"/>
       <childref hlink="_cca205dc0ed7cce9b0c"/>
@@ -4135,6 +4185,19 @@
       <mother hlink="_fa32764210b7fde5e859264a491"/>
       <eventref hlink="_fa3277bd416432fa9da41b3704e" role="Family"/>
       <childref hlink="_fa3277d5f125bb3fb8bac8fd3ff"/>
+    </family>
+    <family handle="_fa35409aba358cbaca961082d49" change="1719416594" id="F0038">
+      <rel type="Married"/>
+      <father hlink="_fa3540b1d7b2f8733b770bd9679"/>
+      <mother hlink="_d019224c22949006533"/>
+      <eventref hlink="_fa35426af162dcd889dd61da7b9" role="Family"/>
+    </family>
+    <family handle="_fa3900a08111a27b63772ff000c" change="1719517425" id="F0039">
+      <rel type="Married"/>
+      <father hlink="_fa3900c40275804336e5001630a"/>
+      <mother hlink="_cca2047aa577cccb33d"/>
+      <eventref hlink="_fa3903a6e1021243d95ffbdb6db" role="Family"/>
+      <eventref hlink="_d01e0c44c355063ed41" role="Unknown"/>
     </family>
   </families>
   <citations>
@@ -6882,6 +6945,27 @@
       <noteref hlink="_fa32da1b65a67221b98cc29ab31"/>
       <sourceref hlink="_cdd3b3e8e60650d5cd6"/>
     </citation>
+    <citation handle="_fa353d3218237ef990b4a7d31" change="1719416043" id="C0383">
+      <page>Aa:10/386</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa353d09a19143f82c379e8ad55"/>
+      <noteref hlink="_fa353d2d73a4816a87fb22428a4"/>
+      <sourceref hlink="_d0191c289c501eabcf6"/>
+    </citation>
+    <citation handle="_fa3541e67fd655a2382a44f033a" change="1719416536" id="C0384">
+      <page>F:1/26</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa3541c123c38a3794bb0da6a0d"/>
+      <noteref hlink="_fa3541e37777b5cb0f1cdb0d701"/>
+      <sourceref hlink="_cdd72c7c170018d1c08"/>
+    </citation>
+    <citation handle="_fa3903a1efe210f8adb06a339a9" change="1719517381" id="C0385">
+      <page>C:2/22</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa39037dd821e5386624dce913a"/>
+      <noteref hlink="_fa39039e3aa56d99fdc707ef4f6"/>
+      <sourceref hlink="_cdd715d07f9393fba97"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdd044203935b79cba4" change="1429553707" id="S0000">
@@ -8632,12 +8716,12 @@ joka täten ainoastaan kutsuna ilmoitetaan.</text>
         <range start="0" end="76"/>
       </style>
     </note>
-    <note handle="_d0191e5d0d86c357137" change="1719324340" id="N0087" type="Transcript" format="1">
+    <note handle="_d0191e5d0d86c357137" change="1719415520" id="N0087" type="Transcript" format="1">
       <text>Trp  Nils Jöranss. Tapanen  14/4 1824    nkb p 269    2 gn gift
 Hru  Eva Stina Sallinen     5/11 1836                 död 2/7 1872
-Hu   Maria Sofia Palmstedt  28/5 1831                 vigde 22/12 1874</text>
+Hu   Maria Sofia Palmstedt  28/5 1831                 vigde [epäselvä, korjailtu jälkikäteen, po. 27/9 1874]</text>
       <style name="fontface" value="Monospace">
-        <range start="0" end="201"/>
+        <range start="0" end="239"/>
       </style>
     </note>
     <note handle="_d0199b68c0a257694b3" change="1717017331" id="N0088" type="Url">
@@ -8887,11 +8971,14 @@ Johan           6/12   1852</text>
         <range start="0" end="75"/>
       </style>
     </note>
-    <note handle="_d01e09efbb1494ba036" change="1717017331" id="N0117" type="Transcript" format="1">
+    <note handle="_d01e09efbb1494ba036" change="1719504728" id="N0117" type="Transcript" format="1">
       <text>Aflidne Jöran Tapains och hu Maria Rehuins (f 1804) barn
-Son Nils	14/4 1824	t.p. 391		{ år 1843 fr. pag. 151
-do	Michell	21/9 1839				{ njuter understöd af höga
-									   Kronan 1844 till p 421</text>
+Son Nils       14/4 1824    t.p. 391    { år 1843 fr. pag. 151
+do  Michell    21/9 1839                { njuter understöd af höga
+                                          Kronan 1844 till p 421</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="251"/>
+      </style>
     </note>
     <note handle="_d01e0c9156809cbf7e9" change="1717017331" id="N0118" type="Url">
       <text>https://astia.narc.fi/astiaUi/digiview.php?imageId=6568094&amp;aytun=1886163.KA</text>
@@ -8899,10 +8986,13 @@ do	Michell	21/9 1839				{ njuter understöd af höga
         <range start="0" end="75"/>
       </style>
     </note>
-    <note handle="_d01e0f538bd37451b59" change="1718206548" id="N0119" type="Transcript" format="1">
+    <note handle="_d01e0f538bd37451b59" change="1719505416" id="N0119" type="Transcript" format="1">
       <text>???? Maria Rehuins barn med Jöran Tapain
-dog 1841		Michel	21/6 1839				44 f.p. 275 47 abs. ???
-												1852 t.p. 265</text>
+dog 1841    Michel  21/6  1839        44 f.p. 275 47 abs. ???
+                                         1852 t.p. 265</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="157"/>
+      </style>
     </note>
     <note handle="_d01e11786691d263f42" change="1718205066" id="N0120" type="Url">
       <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5821065730&amp;aineistoId=1193327507</text>
@@ -8920,13 +9010,16 @@ dog 1841		Michel	21/6 1839				44 f.p. 275 47 abs. ???
         <range start="0" end="75"/>
       </style>
     </note>
-    <note handle="_d01e15e90e828e58cc3" change="1717323766" id="N0123" type="Transcript" format="1">
+    <note handle="_d01e15e90e828e58cc3" change="1719504465" id="N0123" type="Transcript" format="1">
       <text>}aflidne
 Inh Jöran Tapains och Maria Rehuins Barn (1804)
-Nils	14/4 1827						år 1843 till pag 274
-Henric	26/9 1829						Död 18 12/4 41
-Johan	1/9   1834		}				Död 18 13/1 42
-Michel	21/6 1839		} ??? år 1843	till pag 274</text>
+Nils    14/4 1827        år 1843 till pag 274
+Henric  26/9 1829        Död 18 12/4 41
+Johan   1/9  1834        } Död 18 13/1 42
+Michel  21/6 1839        } vacc. år 1843 till pag 274</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="238"/>
+      </style>
     </note>
     <note handle="_d01e1c67fa5670cccad" change="1717017331" id="N0124" type="Url">
       <text>https://astia.narc.fi/astiaUi/digiview.php?imageId=6581017&amp;aytun=1885930.KA</text>
@@ -8934,12 +9027,15 @@ Michel	21/6 1839		} ??? år 1843	till pag 274</text>
         <range start="0" end="75"/>
       </style>
     </note>
-    <note handle="_d01e1e2913646d361df" change="1717017331" id="N0125" type="Transcript" format="1">
+    <note handle="_d01e1e2913646d361df" change="1719433652" id="N0125" type="Transcript" format="1">
       <text>Niemis
 Inhysingar och Handverkare
 
-Inh Jöran Tapanen	1799					på Fästning - afled i Sveaborg d 31 maj 1842
-Hu	Maria Rehuin	1804	t.p. 518</text>
+Inh Jöran Tapanen    1799                    på Fästning - afled i Sveaborg d 31 maj 1842
+Hu  Maria Rehuin     1804    t.p. 518</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="162"/>
+      </style>
     </note>
     <note handle="_d01e2ea99f065d987c6" change="1717017331" id="N0126" type="Url">
       <text>https://astia.narc.fi/astiaUi/digiview.php?imageId=25985654&amp;aytun=1885928.KA</text>
@@ -8947,10 +9043,13 @@ Hu	Maria Rehuin	1804	t.p. 518</text>
         <range start="0" end="76"/>
       </style>
     </note>
-    <note handle="_d01e2fe079e41478cce" change="1717017331" id="N0127" type="Transcript" format="1">
+    <note handle="_d01e2fe079e41478cce" change="1719433746" id="N0127" type="Transcript" format="1">
       <text>Wenduriniemi No 11
 
-Dr	Jöran Tapain	1799		Återkommen fr Tohmaj med betyg af 11/4 ???</text>
+Dr Jöran Tapain    1799        Återkommen fr Tohmaj med betyg af 11/4 ???</text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="93"/>
+      </style>
     </note>
     <note handle="_d02068fc6ac3e1930c1" change="1717017331" id="N0128" type="Url">
       <text>https://astia.narc.fi/astiaUi/digiview.php?imageId=6580626&amp;aytun=1885929.KA</text>
@@ -12903,6 +13002,33 @@ wo	Anna Tiina Heikintr Sallinen	-1	6/9   1876	99/l.260</text>
       <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5821204688&amp;aineistoId=1193384066</text>
       <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5821204688&amp;aineistoId=1193384066">
         <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_fa353d09a19143f82c379e8ad55" change="1719416026" id="N0791" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto - I Aa:10 Rippikirja 1865-1875, jakso 84, sivu 386: Oravisalo ; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=6039584480&amp;aineistoId=1193219104 / Viitattu 26.6.2024</text>
+    </note>
+    <note handle="_fa353d2d73a4816a87fb22428a4" change="1719416041" id="N0792" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=6039584480&amp;aineistoId=1193219104</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=6039584480&amp;aineistoId=1193219104">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_fa3541c123c38a3794bb0da6a0d" change="1719416521" id="N0793" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto - I F:1 Kuolleiden ja haudattujen luettelot 1858-1879, jakso 26: Döde och Begrafne 1867; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5821370804&amp;aineistoId=1193428208 / Viitattu 26.6.2024</text>
+    </note>
+    <note handle="_fa3541e37777b5cb0f1cdb0d701" change="1719416535" id="N0794" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5821370804&amp;aineistoId=1193428208</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5821370804&amp;aineistoId=1193428208">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_fa39037dd821e5386624dce913a" change="1719517366" id="N0795" type="Citation">
+      <text>Rääkkylä vihityt 1833-1856 (TK2181 I C:2)  1843, 1844 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=10850&amp;pnum=22 / Viitattu 27.06.2024</text>
+    </note>
+    <note handle="_fa39039e3aa56d99fdc707ef4f6" change="1719517379" id="N0796" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=10850&amp;pnum=22</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=10850&amp;pnum=22">
+        <range start="0" end="77"/>
       </style>
     </note>
   </notes>
