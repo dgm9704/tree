@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2024-07-03" version="5.2.2"/>
+    <created date="2024-07-04" version="5.2.2"/>
     <researcher>
     </researcher>
     <mediapath>/home/john/3Taponen_2014-10-29.gpkg.media</mediapath>
@@ -2471,6 +2471,38 @@
       <place hlink="_cdd03e0811602afbb7a"/>
       <citationref hlink="_fa496dcfedf109913799d14862a"/>
     </event>
+    <event handle="_fa4f76229a44701e8a11427bf7d" change="1720119945" id="E0370">
+      <type>Residence</type>
+      <datespan start="1865" stop="1875"/>
+      <place hlink="_cdd428293086534ef7a"/>
+      <citationref hlink="_fa4f757bf1573142288a297e34f"/>
+    </event>
+    <event handle="_fa4f793f89575eb952db7ffd02e" change="1720120272" id="E0371">
+      <type>Residence</type>
+      <datespan start="1881" stop="1891"/>
+      <place hlink="_cdd428293086534ef7a"/>
+      <citationref hlink="_fa4f78e03461038135cfdfff2f4"/>
+    </event>
+    <event handle="_fa4f7a985f2510444c2a9153dc0" change="1720120413" id="E0372">
+      <type>Death</type>
+      <dateval val="1893-05-03"/>
+      <place hlink="_cdd428293086534ef7a"/>
+      <citationref hlink="_fa4f78e03461038135cfdfff2f4"/>
+      <citationref hlink="_fa4f7a945f97dae09990f18d8ee"/>
+    </event>
+    <event handle="_fa4f7daae0e21ae46acb4c9adfe" change="1720120735" id="E0373">
+      <type>Residence</type>
+      <datespan start="1891" stop="1897"/>
+      <place hlink="_cdd421a7ab374044701"/>
+      <citationref hlink="_fa4f7d9930e5cd2be37c729e0ef"/>
+    </event>
+    <event handle="_fa4f7f0ea9f32b8f9a1f7902312" change="1720120881" id="E0374">
+      <type>Death</type>
+      <dateval val="1897-12-26"/>
+      <place hlink="_cdd428293086534ef7a"/>
+      <citationref hlink="_fa4f7d9930e5cd2be37c729e0ef"/>
+      <citationref hlink="_fa4f7eddd6410b8892b3754810e"/>
+    </event>
   </events>
   <people home="_cca1691b7c53559cc53">
     <person handle="_cb937baae6821b777ad" change="1501410532" id="I0000">
@@ -2993,7 +3025,7 @@
       <childof hlink="_da7cd7859731b8c3db8a00e2d86"/>
       <parentin hlink="_cdcdbfe443a73c3bb82"/>
     </person>
-    <person handle="_cfa3588ae1d7bd2f6e8" change="1501432717" id="I0029">
+    <person handle="_cfa3588ae1d7bd2f6e8" change="1720120885" id="I0029">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anna</first>
@@ -3022,7 +3054,7 @@
       <childof hlink="_f9eea5846b251bcc3c3bda5b6c1"/>
       <parentin hlink="_cca16c73e9d13f8c0de"/>
     </person>
-    <person handle="_d010ed2cb1a57e405bb" change="1502023859" id="I0052">
+    <person handle="_d010ed2cb1a57e405bb" change="1720120883" id="I0052">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Matts</first>
@@ -3032,11 +3064,13 @@
       <eventref hlink="_d010f7bf03f624c0995" role="Primary"/>
       <eventref hlink="_da89f18c4b31457d5078036b1b8" role="Primary"/>
       <eventref hlink="_da8971148cb4d21827ed6b858a" role="Primary"/>
+      <eventref hlink="_fa4f7daae0e21ae46acb4c9adfe" role="Primary"/>
+      <eventref hlink="_fa4f7f0ea9f32b8f9a1f7902312" role="Primary"/>
       <childof hlink="_da92b122a5a46c1ab39223f8115"/>
       <parentin hlink="_d01115ab6f41f64e89f"/>
       <parentin hlink="_d010ed0385e3b328d6c"/>
     </person>
-    <person handle="_d010ed56511173bf30a" change="1719171166" id="I0053">
+    <person handle="_d010ed56511173bf30a" change="1720120416" id="I0053">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Kristina</first>
@@ -3053,10 +3087,11 @@
       <eventref hlink="_da869e9464e754e99e392ab7145" role="Primary"/>
       <eventref hlink="_da86a01f5f04b7d97657dc526f3" role="Primary"/>
       <eventref hlink="_da868e51b914920476c1c21b516" role="Primary"/>
+      <eventref hlink="_fa4f7a985f2510444c2a9153dc0" role="Primary"/>
       <childof hlink="_da86c47b1e979be0f3cb1ec665e"/>
       <parentin hlink="_d010ed0385e3b328d6c"/>
     </person>
-    <person handle="_d0110a2bb3f62bef991" change="1719159494" id="I0054">
+    <person handle="_d0110a2bb3f62bef991" change="1720120885" id="I0054">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria</first>
@@ -3067,7 +3102,7 @@
       <parentin hlink="_fa2b817f2a24c1774a04f2c6bb8"/>
       <parentin hlink="_fa2ba9ca94d417593455ec98772"/>
     </person>
-    <person handle="_d0110a79b883d4b722d" change="1501432661" id="I0055">
+    <person handle="_d0110a79b883d4b722d" change="1720120885" id="I0055">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Katrina</first>
@@ -3077,7 +3112,7 @@
       <eventref hlink="_d01112410ce01343472" role="Primary"/>
       <childof hlink="_d010ed0385e3b328d6c"/>
     </person>
-    <person handle="_d0110ee43ac2eae393c" change="1501433108" id="I0056">
+    <person handle="_d0110ee43ac2eae393c" change="1720120885" id="I0056">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Henrik</first>
@@ -3088,7 +3123,7 @@
       <eventref hlink="_d01114fde4f18856b78" role="Primary"/>
       <childof hlink="_d010ed0385e3b328d6c"/>
     </person>
-    <person handle="_d0110f9258b7ff35197" change="1501432954" id="I0057">
+    <person handle="_d0110f9258b7ff35197" change="1720120885" id="I0057">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Kristina</first>
@@ -3107,15 +3142,15 @@
       <eventref hlink="_da7bfd3abed486d60f81dc71850" role="Primary"/>
       <parentin hlink="_d01115ab6f41f64e89f"/>
     </person>
-    <person handle="_d0111804803783276a6" change="1717954505" id="I0059">
+    <person handle="_d0111804803783276a6" change="1720120885" id="I0059">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria</first>
         <surname derivation="Inherited">Tirkkonen</surname>
       </name>
       <eventref hlink="_d01117f9c050f09e6de" role="Primary"/>
-      <childof hlink="_d010ed0385e3b328d6c"/>
       <childof hlink="_d01115ab6f41f64e89f"/>
+      <childof hlink="_d010ed0385e3b328d6c"/>
     </person>
     <person handle="_d019224c22949006533" change="1719416594" id="I0061">
       <gender>F</gender>
@@ -3129,15 +3164,15 @@
       <parentin hlink="_d0192176cfa508db0f8"/>
       <parentin hlink="_fa35409aba358cbaca961082d49"/>
     </person>
-    <person handle="_da7c10f80575c48aa0c202f6287" change="1719141533" id="I0005">
+    <person handle="_da7c10f80575c48aa0c202f6287" change="1720120885" id="I0005">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Anders Johan</first>
         <surname derivation="Inherited">Kiiski</surname>
       </name>
       <eventref hlink="_da7c12694ba5aa9fa43289519a" role="Primary"/>
-      <childof hlink="_d010ed0385e3b328d6c"/>
       <childof hlink="_d01115ab6f41f64e89f"/>
+      <childof hlink="_d010ed0385e3b328d6c"/>
       <parentin hlink="_fa2b0256dee3d76b56b78038f8a"/>
     </person>
     <person handle="_da7c77ceb7118a5eea19128b71e" change="1717954505" id="I0016">
@@ -3976,13 +4011,15 @@
       <childref hlink="_cdd0561ce0847086d39"/>
       <childref hlink="_cb937f641b6306a0964" frel="Stepchild"/>
     </family>
-    <family handle="_d010ed0385e3b328d6c" change="1501431166" id="F0015">
+    <family handle="_d010ed0385e3b328d6c" change="1720120885" id="F0015">
       <rel type="Married"/>
       <father hlink="_d010ed2cb1a57e405bb"/>
       <mother hlink="_d010ed56511173bf30a"/>
       <eventref hlink="_da7c04037762a97600e0e99cbab" role="Family"/>
       <eventref hlink="_da7bff8b872637cfc51dfad5bcc" role="Family"/>
       <eventref hlink="_d010f49378d5472b5bd" role="Family"/>
+      <eventref hlink="_fa4f76229a44701e8a11427bf7d" role="Family"/>
+      <eventref hlink="_fa4f793f89575eb952db7ffd02e" role="Family"/>
       <childref hlink="_d0111804803783276a6" mrel="Stepchild" frel="Stepchild"/>
       <childref hlink="_da7c10f80575c48aa0c202f6287" mrel="Stepchild"/>
       <childref hlink="_d0110a2bb3f62bef991"/>
@@ -7013,6 +7050,41 @@
       <noteref hlink="_fa4974290cf66cd7aea0316a0dd"/>
       <noteref hlink="_fa49744adc51db19e61a8e4f780"/>
       <sourceref hlink="_fa2bf61f1b26215091b42dea5e8"/>
+    </citation>
+    <citation handle="_fa4f757bf1573142288a297e34f" change="1720119877" id="C0388">
+      <page>Aa:10/367</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa4f755b7ba3797c0f66d60e8dd"/>
+      <noteref hlink="_fa4f757736e264f0e4ef6a2a04f"/>
+      <sourceref hlink="_d0191c289c501eabcf6"/>
+    </citation>
+    <citation handle="_fa4f78e03461038135cfdfff2f4" change="1720120233" id="C0389">
+      <page>Aa:14/341</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa4f78b6b436f28e9ae052df1ac"/>
+      <noteref hlink="_fa4f78d77b437cf86edc0e488fb"/>
+      <sourceref hlink="_d019bdef2b556c0b050"/>
+    </citation>
+    <citation handle="_fa4f7a945f97dae09990f18d8ee" change="1720120411" id="C0390">
+      <page>MKO2-3/89-90</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa4f7a59dd9116590a9217596d5"/>
+      <noteref hlink="_fa4f7a7b4804858c36a92b0dd56"/>
+      <sourceref hlink="_f9eb4a0bdf571219bdcd18ac9da"/>
+    </citation>
+    <citation handle="_fa4f7d9930e5cd2be37c729e0ef" change="1720120728" id="C0391">
+      <page>Aa:17/898</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa4f7d6fbeb539d7da14967d736"/>
+      <noteref hlink="_fa4f7d94090282a4ae0c0247b2d"/>
+      <sourceref hlink="_d01a0e983860c0e4e08"/>
+    </citation>
+    <citation handle="_fa4f7eddd6410b8892b3754810e" change="1720120861" id="C0392">
+      <page>MKO2-3/121-122</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa4f7eb9b6377b97054c1f9a81b"/>
+      <noteref hlink="_fa4f7ed9a362b821d07136601d7"/>
+      <sourceref hlink="_f9eb4a0bdf571219bdcd18ac9da"/>
     </citation>
   </citations>
   <sources>
@@ -13111,6 +13183,51 @@ wo	Anna Tiina Heikintr Sallinen	-1	6/9   1876	99/l.260</text>
     </note>
     <note handle="_fa4974a043b46def4c26072990a" change="1719958726" id="N0804" type="Citation">
       <text>Rääkkylän seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A KIRKON PÄÄKIRJAT HAKEMISTOINEEN. I Ab Lastenkirjat. I Ab:4 Lastenkirja  (1840-1852). Tiedosto 57. Kansallisarkisto. Viitattu 3.7.2024.</text>
+    </note>
+    <note handle="_fa4f755b7ba3797c0f66d60e8dd" change="1720119864" id="N0805" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto - I Aa:10 Rippikirja 1865-1875, jakso 65, sivu 367: Heinoniemi , , ; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=6039584588&amp;aineistoId=1193219104 / Viitattu 4.7.2024</text>
+    </note>
+    <note handle="_fa4f757736e264f0e4ef6a2a04f" change="1720119875" id="N0806" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=6039584588&amp;aineistoId=1193219104</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=6039584588&amp;aineistoId=1193219104">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_fa4f78b6b436f28e9ae052df1ac" change="1720120216" id="N0807" type="Citation">
+      <text>Rääkkylä rippikirja 1881-1891 (MKO14-26 I Aa:14)  Sivu 341 Heinoniemen itselliset ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26097&amp;pnum=292 / Viitattu 04.07.2024</text>
+    </note>
+    <note handle="_fa4f78d77b437cf86edc0e488fb" change="1720120229" id="N0808" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26097&amp;pnum=292</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26097&amp;pnum=292">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_fa4f7a59dd9116590a9217596d5" change="1720120387" id="N0809" type="Citation">
+      <text>Rääkkylä kuolleet 1891-1906 (MKO2-3)  Sivu 89 1893 Huhtikuu-Heinäkuu ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26286&amp;pnum=12 / Viitattu 04.07.2024</text>
+    </note>
+    <note handle="_fa4f7a7b4804858c36a92b0dd56" change="1720120401" id="N0810" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26286&amp;pnum=12</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26286&amp;pnum=12">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_fa4f7d6fbeb539d7da14967d736" change="1720120711" id="N0811" type="Citation">
+      <text>Rääkkylä rippikirja 1891-1900 (MKO52-57 I Aa:17)  Sivu 898  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26100&amp;pnum=53 / Viitattu 04.07.2024</text>
+    </note>
+    <note handle="_fa4f7d94090282a4ae0c0247b2d" change="1720120726" id="N0812" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26100&amp;pnum=53</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26100&amp;pnum=53">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_fa4f7eb9b6377b97054c1f9a81b" change="1720120846" id="N0813" type="Citation">
+      <text>Rääkkylä kuolleet 1891-1906 (MKO2-3)  Sivu 121 1897 Marraskuu-Joulukuu, 1898 Tammikuu-Helmikuu ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26286&amp;pnum=28 / Viitattu 04.07.2024</text>
+    </note>
+    <note handle="_fa4f7ed9a362b821d07136601d7" change="1720120859" id="N0814" type="Url">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26286&amp;pnum=28</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26286&amp;pnum=28">
+        <range start="0" end="77"/>
+      </style>
     </note>
   </notes>
   <namemaps>
