@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2024-07-04" version="5.2.2"/>
+    <created date="2024-07-07" version="5.2.2"/>
     <researcher>
     </researcher>
     <mediapath>/home/john/3Taponen_2014-10-29.gpkg.media</mediapath>
@@ -2503,6 +2503,50 @@
       <citationref hlink="_fa4f7d9930e5cd2be37c729e0ef"/>
       <citationref hlink="_fa4f7eddd6410b8892b3754810e"/>
     </event>
+    <event handle="_fa585daa9d95bf8dcd7314cd94c" change="1720358972" id="E0375">
+      <type>Birth</type>
+      <dateval val="1731"/>
+      <citationref hlink="_fa585d99271694f0c79d216ea4"/>
+    </event>
+    <event handle="_fa585edd5f32df638054cadbb4b" change="1720359875" id="E0376">
+      <type>Birth</type>
+      <dateval val="1750-01-20"/>
+      <citationref hlink="_fa585d99271694f0c79d216ea4"/>
+    </event>
+    <event handle="_fa585f3ea622a6869c3bc84430b" change="1720359137" id="E0377">
+      <type>Birth</type>
+      <dateval val="1770"/>
+      <citationref hlink="_fa585d99271694f0c79d216ea4"/>
+    </event>
+    <event handle="_fa58605dcc562b1fde81b6b4ee0" change="1720359255" id="E0378">
+      <type>Birth</type>
+      <dateval val="1770"/>
+      <citationref hlink="_fa585d99271694f0c79d216ea4"/>
+    </event>
+    <event handle="_fa5860ec7074ae7c70a33268e2d" change="1720359313" id="E0379">
+      <type>Residence</type>
+      <datespan start="1797" stop="1803"/>
+      <place hlink="_cdd70e98e0854ad935d"/>
+      <citationref hlink="_fa585d99271694f0c79d216ea4"/>
+    </event>
+    <event handle="_fa5864224642c75d391c2f2708f" change="1720359650" id="E0380">
+      <type>Death</type>
+      <dateval val="1803-04-18"/>
+      <place hlink="_cdd70e98e0854ad935d"/>
+      <citationref hlink="_fa58640d1d333f48d8d6c2ea9f4"/>
+    </event>
+    <event handle="_fa5865928e31a4c13fc84725d21" change="1720359801" id="E0381">
+      <type>Residence</type>
+      <datespan start="1804" stop="1813"/>
+      <place hlink="_cdd70e98e0854ad935d"/>
+      <citationref hlink="_fa58640d1d333f48d8d6c2ea9f4"/>
+    </event>
+    <event handle="_fa58662dbff32dc0ff57287307e" change="1720359864" id="E0382">
+      <type>Death</type>
+      <dateval val="1813-04-02"/>
+      <place hlink="_cdd70e98e0854ad935d"/>
+      <citationref hlink="_fa58640d1d333f48d8d6c2ea9f4"/>
+    </event>
   </events>
   <people home="_cca1691b7c53559cc53">
     <person handle="_cb937baae6821b777ad" change="1501410532" id="I0000">
@@ -3864,6 +3908,54 @@
       <eventref hlink="_fa496e59668347c541da833a168" role="Primary"/>
       <childof hlink="_cb937f52c7d166933fa"/>
     </person>
+    <person handle="_fa585ce1a791acec24dd9b6e42e" change="1720359715" id="I0125">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Lisa</first>
+        <surname>Lakoin</surname>
+      </name>
+      <eventref hlink="_fa585daa9d95bf8dcd7314cd94c" role="Primary"/>
+      <eventref hlink="_fa5860ec7074ae7c70a33268e2d" role="Primary"/>
+      <eventref hlink="_fa5864224642c75d391c2f2708f" role="Primary"/>
+      <parentin hlink="_fa585de1f2874b21549a4a2c5b"/>
+    </person>
+    <person handle="_fa585e515ee8c3c0f85f3763c" change="1720359104" id="I0126">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Nils</first>
+        <surname>Tapain</surname>
+      </name>
+      <parentin hlink="_fa585de1f2874b21549a4a2c5b"/>
+    </person>
+    <person handle="_fa585ea4cb215f98f7413781dfc" change="1720359877" id="I0127">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Henric</first>
+        <surname>Tapain</surname>
+      </name>
+      <eventref hlink="_fa585edd5f32df638054cadbb4b" role="Primary"/>
+      <eventref hlink="_fa58662dbff32dc0ff57287307e" role="Primary"/>
+      <childof hlink="_fa585de1f2874b21549a4a2c5b"/>
+      <parentin hlink="_fa5860038fe1c9bae74421a4865"/>
+    </person>
+    <person handle="_fa585f1883d7454d76938aeb06a" change="1720359878" id="I0128">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Johan</first>
+        <surname>Tapain</surname>
+      </name>
+      <eventref hlink="_fa585f3ea622a6869c3bc84430b" role="Primary"/>
+      <childof hlink="_fa5860038fe1c9bae74421a4865"/>
+    </person>
+    <person handle="_fa58601a4a34a8ccfc44fa396a2" change="1720359392" id="I0129">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Elin</first>
+        <surname>Tuovin</surname>
+      </name>
+      <eventref hlink="_fa58605dcc562b1fde81b6b4ee0" role="Primary"/>
+      <parentin hlink="_fa5860038fe1c9bae74421a4865"/>
+    </person>
   </people>
   <families>
     <family handle="_cb937d0369c30ea97ef" change="1414524761" id="F0000">
@@ -4265,6 +4357,20 @@
       <mother hlink="_cca2047aa577cccb33d"/>
       <eventref hlink="_fa3903a6e1021243d95ffbdb6db" role="Family"/>
       <eventref hlink="_d01e0c44c355063ed41" role="Unknown"/>
+    </family>
+    <family handle="_fa585de1f2874b21549a4a2c5b" change="1720359104" id="F0040">
+      <rel type="Married"/>
+      <father hlink="_fa585e515ee8c3c0f85f3763c"/>
+      <mother hlink="_fa585ce1a791acec24dd9b6e42e"/>
+      <childref hlink="_fa585ea4cb215f98f7413781dfc"/>
+    </family>
+    <family handle="_fa5860038fe1c9bae74421a4865" change="1720359878" id="F0041">
+      <rel type="Married"/>
+      <father hlink="_fa585ea4cb215f98f7413781dfc"/>
+      <mother hlink="_fa58601a4a34a8ccfc44fa396a2"/>
+      <eventref hlink="_fa5860ec7074ae7c70a33268e2d" role="Family"/>
+      <eventref hlink="_fa5865928e31a4c13fc84725d21" role="Family"/>
+      <childref hlink="_fa585f1883d7454d76938aeb06a"/>
     </family>
   </families>
   <citations>
@@ -7085,6 +7191,20 @@
       <noteref hlink="_fa4f7eb9b6377b97054c1f9a81b"/>
       <noteref hlink="_fa4f7ed9a362b821d07136601d7"/>
       <sourceref hlink="_f9eb4a0bdf571219bdcd18ac9da"/>
+    </citation>
+    <citation handle="_fa585d99271694f0c79d216ea4" change="1720358964" id="C0393">
+      <page>Aa:3/115</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa585d6843f4a8b204c69a27333"/>
+      <noteref hlink="_fa585d8a39bb99842b797cc11e"/>
+      <sourceref hlink="_cdd0514fe0b254e8eef"/>
+    </citation>
+    <citation handle="_fa58640d1d333f48d8d6c2ea9f4" change="1720359641" id="C0394">
+      <page>Aa:4/128</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa5863e063913bf788912e1c594"/>
+      <noteref hlink="_fa5864091e64f1cff6bd26b7985"/>
+      <sourceref hlink="_cdd05dc6e8f512d90c1"/>
     </citation>
   </citations>
   <sources>
@@ -13227,6 +13347,24 @@ wo	Anna Tiina Heikintr Sallinen	-1	6/9   1876	99/l.260</text>
       <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26286&amp;pnum=28</text>
       <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=26286&amp;pnum=28">
         <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_fa585d6843f4a8b204c69a27333" change="1720358944" id="N0815" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A KIRKON PÄÄKIRJAT HAKEMISTOINEEN. I Aa Rippikirjat. I Aa:3 Rippikirja  (1797-1803). Tiedosto 115. Kansallisarkisto. Viitattu 7.7.2024.</text>
+    </note>
+    <note handle="_fa585d8a39bb99842b797cc11e" change="1720358958" id="N0816" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=4634172390&amp;aineistoId=1193121478</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=4634172390&amp;aineistoId=1193121478">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_fa5863e063913bf788912e1c594" change="1720359623" id="N0817" type="Citation">
+      <text>Rääkkylän seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A KIRKON PÄÄKIRJAT HAKEMISTOINEEN. I Aa Rippikirjat. I Aa:4 Rippikirja  (1804-1816). Tiedosto 130. Kansallisarkisto. Viitattu 7.7.2024.</text>
+    </note>
+    <note handle="_fa5864091e64f1cff6bd26b7985" change="1720359639" id="N0818" type="Url">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=4634186347&amp;aineistoId=1193131485</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=4634186347&amp;aineistoId=1193131485">
+        <range start="0" end="79"/>
       </style>
     </note>
   </notes>
