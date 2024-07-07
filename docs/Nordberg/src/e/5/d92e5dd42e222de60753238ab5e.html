@@ -1,26 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>Nordberg Family Tree - Sources - Porvoo rtksrk Lastenkirja 1803-1820</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">Nordberg Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">Nordberg Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
 					<li><a href="../../../families.html" title="Families">Families</a></li>
@@ -28,16 +39,46 @@
 					<li><a href="../../../places.html" title="Places">Places</a></li>
 					<li class = "CurrentSection"><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="SourceDetail">
 			<h3>Porvoo rtksrk Lastenkirja 1803-1820</h3>
-			<table class="infolist source">
+			<table class="infolist source ltr">
 				<tbody>
 					<tr>
 						<td class="ColumnAttribute">Author</td>
@@ -47,7 +88,7 @@
 			</table>
 			<div class="subsection" id="repositories">
 				<h4>Repositories</h4>
-				<table class="infolist">
+				<table class="infolist ltr">
 					<thead>
 						<tr>
 							<th class="ColumnRowLabel">Number</th>
@@ -78,51 +119,11 @@
 				<h4>References</h4>
 				<ol class="Col1" role="Volume-n-Page" type=1>
 					<li>
-					länsi/220-221
-						<ol class="Col1" role="Volume-n-Page" type=a>
-							<li>
-								<a href="../../../ppl/3/a/cb589cced6c188d19a3.html">
-								, Johan Henricsson
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../ppl/a/8/cb589cced973d0ae18a.html">
-								, Helena Ericsdotter
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/0/b/ed088593cff3590d3c876b491b0.html">
-								Residence, Family of , Johan Henricsson and , Helena Ericsdotter
-								
-								
-								</a>
-							</li>
-						</ol>
-					</li>
-					<li>
 					224-225
 						<ol class="Col1" role="Volume-n-Page" type=a>
 							<li>
-								<a href="../../../ppl/2/b/cb589ccbc7f6a601fb2.html">
-								Nordberg, Johan Johansson
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../ppl/9/1/d931beb3f7a1dbda52852432a19.html">
-								, Göran Johansson
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/c/1/d931d216fd13ef1001da9daa21c.html">
-								Residence, Family of , Göran Johansson and , Christina Henricsdotter
+								<a href="../../../ppl/c/5/cb589ccbd96066ca75c.html">
+								, Christina Henricsdotter
 								
 								
 								</a>
@@ -135,8 +136,22 @@
 								</a>
 							</li>
 							<li>
-								<a href="../../../ppl/c/5/cb589ccbd96066ca75c.html">
-								, Christina Henricsdotter
+								<a href="../../../evt/c/1/d931d216fd13ef1001da9daa21c.html">
+								Residence, Family of , Göran Johansson and , Christina Henricsdotter
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/9/1/d931beb3f7a1dbda52852432a19.html">
+								, Göran Johansson
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/2/b/cb589ccbc7f6a601fb2.html">
+								Nordberg, Johan Johansson
 								
 								
 								</a>
@@ -151,8 +166,41 @@
 						</ol>
 					</li>
 					<li>
+					110-111
+						<ol class="Col1" role="Volume-n-Page" type=a>
+							<li>
+								<a href="../../../evt/6/a/df847a968c5164ae99f09270ca6.html">
+								Residence, Family of Nordberg, Gustaf Staffansson and , Anna Gretha Johansdotter
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/4/8/cea5bd4d31d4851a584.html">
+								, Anna Gretha Johansdotter
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/0/9/cb589cd273c0aa05090.html">
+								Nordberg, Gustaf Staffansson
+								
+								
+								</a>
+							</li>
+						</ol>
+					</li>
+					<li>
 					222-223
 						<ol class="Col1" role="Volume-n-Page" type=a>
+							<li>
+								<a href="../../../ppl/a/7/cb589ccbdb316711b7a.html">
+								Weckström, Johannes Isaacsson
+								
+								
+								</a>
+							</li>
 							<li>
 								<a href="../../../evt/8/5/d92e55014747697a9557ecfdd58.html">
 								Residence, Family of Weckström, Johannes Isaacsson and , Christina Henricsdotter
@@ -167,9 +215,138 @@
 								
 								</a>
 							</li>
+						</ol>
+					</li>
+					<li>
+					112-113
+						<ol class="Col1" role="Volume-n-Page" type=a>
 							<li>
-								<a href="../../../ppl/a/7/cb589ccbdb316711b7a.html">
-								Weckström, Johannes Isaacsson
+								<a href="../../../ppl/0/c/cb589ccecb9359c7dc0.html">
+								Nordberg, Staffan Johansson
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/a/a/cb589cd27943eb804aa.html">
+								Nordberg, Carl Staffansson
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../evt/1/a/df8471e7c663e2c714043e172a1.html">
+								Residence, Family of Nordberg, Gustaf Staffansson and , Anna Gretha Johansdotter
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../evt/e/0/d6cdd2c1a121b93cdb9d8abbd0e.html">
+								Residence, Family of Nordberg, Staffan Johansson and , Caisa Hansdotter
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/5/6/cb589cd276e459bbf65.html">
+								Nordberg, Maria Staffansdotter
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../evt/2/9/cb589cd835c5916e792.html">
+								Birth, Nordberg, Anna Margaretha
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/e/1/cb589cd83583e01fb1e.html">
+								Nordberg, Anna Margaretha
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/4/b/cea5bfedcac46bfefb4.html">
+								, Caisa Hansdotter
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../evt/6/1/cb589cd277408da7d16.html">
+								Birth, Nordberg, Maria Staffansdotter
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../evt/c/6/cb589cd279728414f6c.html">
+								Birth, Nordberg, Carl Staffansson
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/0/9/cb589cd273c0aa05090.html">
+								Nordberg, Gustaf Staffansson
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/c/9/cb589cd832709bc7f9c.html">
+								Nordberg, Kristina Sofia
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/4/8/cea5bd4d31d4851a584.html">
+								, Anna Gretha Johansdotter
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../evt/4/e/cb589cd273f24606ee4.html">
+								Birth, Nordberg, Gustaf Staffansson
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../evt/c/e/cb589cd832a7bd696ec.html">
+								Birth, Nordberg, Kristina Sofia
+								
+								
+								</a>
+							</li>
+						</ol>
+					</li>
+					<li>
+					länsi/220-221
+						<ol class="Col1" role="Volume-n-Page" type=a>
+							<li>
+								<a href="../../../ppl/a/8/cb589cced973d0ae18a.html">
+								, Helena Ericsdotter
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/3/a/cb589cced6c188d19a3.html">
+								, Johan Henricsson
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../evt/0/b/ed088593cff3590d3c876b491b0.html">
+								Residence, Family of , Johan Henricsson and , Helena Ericsdotter
 								
 								
 								</a>
@@ -179,6 +356,34 @@
 					<li>
 					180-181
 						<ol class="Col1" role="Volume-n-Page" type=a>
+							<li>
+								<a href="../../../ppl/a/d/cb589cced27547f2ada.html">
+								Sunnman, Fredric Johansson
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/4/4/e3895adaeb25d3cace20dc4a544.html">
+								Sunnman, Anna Stina Fredriscdotter
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/b/5/e37e1309827750365ce2ab68e5b.html">
+								, Anna Stina Jonaedotter
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../evt/3/6/e3895c5b4f63b455286069e6263.html">
+								Birth, Sunnman, Anders Gustaf Fredricsson
+								
+								
+								</a>
+							</li>
 							<li>
 								<a href="../../../evt/0/6/e3895d2b7aa7f5fb4a0ac88a860.html">
 								Birth, Sunnman, Johan
@@ -194,36 +399,8 @@
 								</a>
 							</li>
 							<li>
-								<a href="../../../evt/1/1/e384a60902e7024eed77e885a11.html">
-								Residence, Family of Sunnman, Fredric Johansson and , Anna Stina Jonaedotter
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../ppl/b/5/e37e1309827750365ce2ab68e5b.html">
-								, Anna Stina Jonaedotter
-								
-								
-								</a>
-							</li>
-							<li>
 								<a href="../../../evt/c/7/e3895b95d0f2957e70858de2a7c.html">
 								Birth, Sunnman, Anna Stina Fredriscdotter
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/3/6/e3895c5b4f63b455286069e6263.html">
-								Birth, Sunnman, Anders Gustaf Fredricsson
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../ppl/3/a/e3895bbe1b045f26fcf4f3bf2a3.html">
-								Sunnman, Anders Gustaf Fredricsson
 								
 								
 								</a>
@@ -236,151 +413,15 @@
 								</a>
 							</li>
 							<li>
-								<a href="../../../ppl/a/d/cb589cced27547f2ada.html">
-								Sunnman, Fredric Johansson
+								<a href="../../../ppl/3/a/e3895bbe1b045f26fcf4f3bf2a3.html">
+								Sunnman, Anders Gustaf Fredricsson
 								
 								
 								</a>
 							</li>
 							<li>
-								<a href="../../../ppl/4/4/e3895adaeb25d3cace20dc4a544.html">
-								Sunnman, Anna Stina Fredriscdotter
-								
-								
-								</a>
-							</li>
-						</ol>
-					</li>
-					<li>
-					112-113
-						<ol class="Col1" role="Volume-n-Page" type=a>
-							<li>
-								<a href="../../../evt/1/a/df8471e7c663e2c714043e172a1.html">
-								Residence, Family of Nordberg, Gustaf Staffansson and , Anna Gretha Johansdotter
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/2/9/cb589cd835c5916e792.html">
-								Birth, Nordberg, Anna Margaretha
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/c/e/cb589cd832a7bd696ec.html">
-								Birth, Nordberg, Kristina Sofia
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../ppl/0/c/cb589ccecb9359c7dc0.html">
-								Nordberg, Staffan Johansson
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/6/1/cb589cd277408da7d16.html">
-								Birth, Nordberg, Maria Staffansdotter
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/e/0/d6cdd2c1a121b93cdb9d8abbd0e.html">
-								Residence, Family of Nordberg, Staffan Johansson and , Caisa Hansdotter
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../ppl/4/b/cea5bfedcac46bfefb4.html">
-								, Caisa Hansdotter
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../ppl/e/1/cb589cd83583e01fb1e.html">
-								Nordberg, Anna Margaretha
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../ppl/0/9/cb589cd273c0aa05090.html">
-								Nordberg, Gustaf Staffansson
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../ppl/4/8/cea5bd4d31d4851a584.html">
-								, Anna Gretha Johansdotter
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../ppl/5/6/cb589cd276e459bbf65.html">
-								Nordberg, Maria Staffansdotter
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../ppl/a/a/cb589cd27943eb804aa.html">
-								Nordberg, Carl Staffansson
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/c/6/cb589cd279728414f6c.html">
-								Birth, Nordberg, Carl Staffansson
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/4/e/cb589cd273f24606ee4.html">
-								Birth, Nordberg, Gustaf Staffansson
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../ppl/c/9/cb589cd832709bc7f9c.html">
-								Nordberg, Kristina Sofia
-								
-								
-								</a>
-							</li>
-						</ol>
-					</li>
-					<li>
-					110-111
-						<ol class="Col1" role="Volume-n-Page" type=a>
-							<li>
-								<a href="../../../ppl/0/9/cb589cd273c0aa05090.html">
-								Nordberg, Gustaf Staffansson
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../ppl/4/8/cea5bd4d31d4851a584.html">
-								, Anna Gretha Johansdotter
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/6/a/df847a968c5164ae99f09270ca6.html">
-								Residence, Family of Nordberg, Gustaf Staffansson and , Anna Gretha Johansdotter
+								<a href="../../../evt/1/1/e384a60902e7024eed77e885a11.html">
+								Residence, Family of Sunnman, Fredric Johansson and , Anna Stina Jonaedotter
 								
 								
 								</a>
@@ -398,22 +439,8 @@
 								</a>
 							</li>
 							<li>
-								<a href="../../../ppl/4/2/cb589cc91586733b724.html">
-								Weckström, Anna Johansdotter
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../ppl/a/7/cb589ccbdb316711b7a.html">
-								Weckström, Johannes Isaacsson
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/c/f/d92df34991b448e1886431a73fc.html">
-								Residence, Family of Weckström, Johannes Isaacsson and , Christina Henricsdotter
+								<a href="../../../ppl/c/5/cb589ccbd96066ca75c.html">
+								, Christina Henricsdotter
 								
 								
 								</a>
@@ -433,15 +460,29 @@
 								</a>
 							</li>
 							<li>
-								<a href="../../../ppl/c/5/cb589ccbd96066ca75c.html">
-								, Christina Henricsdotter
+								<a href="../../../ppl/f/5/cb589ccf07425d5435f.html">
+								, Lena Danielsdotter
 								
 								
 								</a>
 							</li>
 							<li>
-								<a href="../../../ppl/f/5/cb589ccf07425d5435f.html">
-								, Lena Danielsdotter
+								<a href="../../../evt/c/f/d92df34991b448e1886431a73fc.html">
+								Residence, Family of Weckström, Johannes Isaacsson and , Christina Henricsdotter
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../evt/e/8/d9344365d2846020a0f6321668e.html">
+								Residence, Family of , Henric Matsson and , Lena Danielsdotter
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/a/7/cb589ccbdb316711b7a.html">
+								Weckström, Johannes Isaacsson
 								
 								
 								</a>
@@ -454,8 +495,8 @@
 								</a>
 							</li>
 							<li>
-								<a href="../../../evt/e/8/d9344365d2846020a0f6321668e.html">
-								Residence, Family of , Henric Matsson and , Lena Danielsdotter
+								<a href="../../../ppl/4/2/cb589cc91586733b724.html">
+								Weckström, Anna Johansdotter
 								
 								
 								</a>
@@ -468,7 +509,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6 on 2024-02-11<br />Created for Entire Database
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2 on 2024-07-07<br />Created for Entire Database
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

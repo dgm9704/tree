@@ -1,27 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>Nordberg Family Tree - Nikander, Gustaf Adolf</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
-	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">Nordberg Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">Nordberg Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li class = "CurrentSection"><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
 					<li><a href="../../../families.html" title="Families">Families</a></li>
@@ -29,13 +39,43 @@
 					<li><a href="../../../places.html" title="Places">Places</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="IndividualDetail">
 			<h3>Nikander, Gustaf Adolf<sup><small></small></sup></h3>
 			<div id="summaryarea">
@@ -60,7 +100,7 @@
 			</div>
 			<div class="subsection" id="events">
 				<h4>Events</h4>
-				<table class="infolist eventlist">
+				<table class="infolist eventlist toggle_event ltr" id="toggle_event" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnEvent">Event</th>
@@ -72,267 +112,7 @@
 					</thead>
 					<tbody>
 						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/1/b/cf967bce4c2345c11b1.html" title="Birth">
-								Birth
-								</a>
-							</td>
-							<td class="ColumnDate">1855-07-31</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/5/0/cf967cce760227bec05.html" title="Niemi Keipi, Rettlax, Nummi, Suomi">
-								Niemi Keipi, Rettlax, Nummi, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref1a">1a</a> <a href="#sref2a">2a</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/8/6/f801507da75956770e187a4668.html" title="Residence">
-								Residence
-								</a>
-							</td>
-							<td class="ColumnDate">1872</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/3/7/f8014e86a1216c6ee3d2d3e9073.html" title="Salmi, Sierla, Nummi, Suomi">
-								Salmi, Sierla, Nummi, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref3a">3a</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/2/f/f8015872b1c2b7a11687cf860f2.html" title="Residence">
-								Residence
-								</a>
-							</td>
-							<td class="ColumnDate">from 1873 to 1876-11-01</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/3/7/f8014e86a1216c6ee3d2d3e9073.html" title="Salmi, Sierla, Nummi, Suomi">
-								Salmi, Sierla, Nummi, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref4a">4a</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/8/6/f80158bf070215d423ed17d0768.html" title="Residence">
-								Residence
-								</a>
-							</td>
-							<td class="ColumnDate">from 1876-12-09 to 1877-08-14</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/5/5/cb589cc7f8d1b88b055.html" title="Helsinki, Suomi">
-								Helsinki, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref4a">4a</a> <a href="#sref5a">5a</a> <a href="#sref6a">6a</a> <a href="#sref7a">7a</a> <a href="#sref8a">8a</a> <a href="#sref9a">9a</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/7/b/f802be81ef91fa4f29951a876b7.html" title="Residence">
-								Residence
-								</a>
-							</td>
-							<td class="ColumnDate">from 1877-08-14 to 1878-10-01</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/d/9/df54a5f7621535f126d148eda9d.html" title="Kaartin tarkka-ampujapataljoona, Helsinki, Suomi">
-								Kaartin tarkka-ampujapataljoona, Helsinki, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref10a">10a</a> <a href="#sref11a">11a</a> <a href="#sref12a">12a</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/7/a/f802d95ef8e2f71a93de811c2a7.html" title="Residence">
-								Residence
-								</a>
-							</td>
-							<td class="ColumnDate">after 1878-10-01</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/5/5/cb589cc7f8d1b88b055.html" title="Helsinki, Suomi">
-								Helsinki, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref12a">12a</a> <a href="#sref6b">6b</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/a/6/f80904d400f11679e2086dc816a.html" title="Residence">
-								Residence
-								</a>
-							</td>
-							<td class="ColumnDate">from 1878-11-20 to 1879</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/3/7/f8014e86a1216c6ee3d2d3e9073.html" title="Salmi, Sierla, Nummi, Suomi">
-								Salmi, Sierla, Nummi, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref5b">5b</a> <a href="#sref4b">4b</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/9/d/f80901c66612221d0ac78a820d9.html" title="Residence">
-								Residence
-								</a>
-							</td>
-							<td class="ColumnDate">from 1879 to 1880</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/a/9/f808ffc81ed2bf3513d169e2c9a.html" title="Pietola, Sierla, Nummi, Suomi">
-								Pietola, Sierla, Nummi, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref4c">4c</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/2/4/f808fdd4a784f225e2d69a41942.html" title="Residence">
-								Residence
-								</a>
-							</td>
-							<td class="ColumnDate">from 1880 to 1881</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/b/a/f808fc51b847923eb2a54bb26ab.html" title="Björni, Rettlax, Nummi, Suomi">
-								Björni, Rettlax, Nummi, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref4d">4d</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/c/8/f808f755c7b563898b96e3d508c.html" title="Residence">
-								Residence
-								</a>
-							</td>
-							<td class="ColumnDate">1881</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/b/5/f808f437b6337b8a8aa6b6c2f5b.html" title="Takari, Rettlax, Nummi, Suomi">
-								Takari, Rettlax, Nummi, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref4e">4e</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/5/3/f800bbda4a17205af9063c6c635.html" title="Residence">
 								Residence
 								</a>
@@ -345,12 +125,239 @@
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref1a">1a</a> <a href="#sref2a">2a</a> <a href="#sref3a">3a</a>
+							</td>
+							<tr>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/1/b/cf967bce4c2345c11b1.html" title="Birth">
+								Birth
+								</a>
+							</td>
+							<td class="ColumnDate">1855-07-31</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/5/0/cf967cce760227bec05.html" title="Niemi Keipi, Rettlax, Nummi, Suomi">
+								Niemi Keipi, Rettlax, Nummi, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref4a">4a</a> <a href="#sref5a">5a</a>
+							</td>
+							<tr>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/8/6/f801507da75956770e187a4668.html" title="Residence">
+								Residence
+								</a>
+							</td>
+							<td class="ColumnDate">1872</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/3/7/f8014e86a1216c6ee3d2d3e9073.html" title="Salmi, Sierla, Nummi, Suomi">
+								Salmi, Sierla, Nummi, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref6a">6a</a>
+							</td>
+							<tr>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/2/f/f8015872b1c2b7a11687cf860f2.html" title="Residence">
+								Residence
+								</a>
+							</td>
+							<td class="ColumnDate">from 1873 to 1876-11-01</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/3/7/f8014e86a1216c6ee3d2d3e9073.html" title="Salmi, Sierla, Nummi, Suomi">
+								Salmi, Sierla, Nummi, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref7a">7a</a>
+							</td>
+							<tr>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/8/6/f80158bf070215d423ed17d0768.html" title="Residence">
+								Residence
+								</a>
+							</td>
+							<td class="ColumnDate">from 1876-12-09 to 1877-08-14</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/5/5/cb589cc7f8d1b88b055.html" title="Helsinki, Suomi">
+								Helsinki, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref7a">7a</a> <a href="#sref8a">8a</a> <a href="#sref9a">9a</a> <a href="#sref10a">10a</a> <a href="#sref11a">11a</a> <a href="#sref12a">12a</a>
+							</td>
+							<tr>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/7/b/f802be81ef91fa4f29951a876b7.html" title="Residence">
+								Residence
+								</a>
+							</td>
+							<td class="ColumnDate">from 1877-08-14 to 1878-10-01</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/d/9/df54a5f7621535f126d148eda9d.html" title="Kaartin tarkka-ampujapataljoona, Helsinki, Suomi">
+								Kaartin tarkka-ampujapataljoona, Helsinki, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
 							 <a href="#sref13a">13a</a> <a href="#sref14a">14a</a> <a href="#sref15a">15a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
 								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/9/d/f80901c66612221d0ac78a820d9.html" title="Residence">
+								Residence
+								</a>
+							</td>
+							<td class="ColumnDate">from 1879 to 1880</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/a/9/f808ffc81ed2bf3513d169e2c9a.html" title="Pietola, Sierla, Nummi, Suomi">
+								Pietola, Sierla, Nummi, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref7b">7b</a>
+							</td>
+							<tr>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/a/6/f80904d400f11679e2086dc816a.html" title="Residence">
+								Residence
+								</a>
+							</td>
+							<td class="ColumnDate">from 1878-11-20 to 1879</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/3/7/f8014e86a1216c6ee3d2d3e9073.html" title="Salmi, Sierla, Nummi, Suomi">
+								Salmi, Sierla, Nummi, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref8b">8b</a> <a href="#sref7c">7c</a>
+							</td>
+							<tr>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/c/8/f808f755c7b563898b96e3d508c.html" title="Residence">
+								Residence
+								</a>
+							</td>
+							<td class="ColumnDate">1881</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/b/5/f808f437b6337b8a8aa6b6c2f5b.html" title="Takari, Rettlax, Nummi, Suomi">
+								Takari, Rettlax, Nummi, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref7d">7d</a>
+							</td>
+							<tr>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/2/4/f808fdd4a784f225e2d69a41942.html" title="Residence">
+								Residence
+								</a>
+							</td>
+							<td class="ColumnDate">from 1880 to 1881</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/b/a/f808fc51b847923eb2a54bb26ab.html" title="Björni, Rettlax, Nummi, Suomi">
+								Björni, Rettlax, Nummi, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref7e">7e</a>
+							</td>
+							<tr>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/7/a/f802d95ef8e2f71a93de811c2a7.html" title="Residence">
+								Residence
+								</a>
+							</td>
+							<td class="ColumnDate">after 1878-10-01</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/5/5/cb589cc7f8d1b88b055.html" title="Helsinki, Suomi">
+								Helsinki, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref15a">15a</a> <a href="#sref9b">9b</a>
+							</td>
+							<tr>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -362,7 +369,7 @@
 			</div>
 			<div class="subsection" id="parents">
 				<h4>Parents</h4>
-				<table class="infolist">
+				<table class="infolist toggle_parent ltr" id="toggle_parent" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnAttribute">Relation to main person</th>
@@ -428,7 +435,7 @@
 			</div>
 			<div class="subsection" id="families">
 				<h4>Families</h4>
-				<table class="infolist fixed_subtables">
+				<table class="infolist fixed_subtables" id="toggle_families" style="display:block">
 					<tr class="BeginFamily">
 						<td class="ColumnValue" colspan="3"><H4 class="subsection"><a href="../../../fam/d/1/f808e7921787e4ad9b8795ec71d.html" title="Family of Nikander, Gustaf Adolf and Enqvist, Wilhelmina Elisabeth">Family of Nikander, Gustaf Adolf and Enqvist, Wilhelmina Elisabeth</a></H4></td>
 					</tr>
@@ -446,9 +453,8 @@
 					</tr>
 					<tr>
 						<td class="ColumnType">&nbsp;</td>
-						<td class="ColumnAttribute">&nbsp;</td>
-						<td class="ColumnValue">
-							<table class="infolist eventlist">
+						<td class="ColumnValue" colspan="2">
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnEvent">Event</th>
@@ -460,7 +466,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/b/d/f808ebfd0466b0098a8bbafa8db.html" title="Marriage">
 											Marriage
 											</a>
@@ -469,12 +475,9 @@
 										<td class="ColumnPlace">&nbsp;</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref16a">16a</a> <a href="#sref4e">4e</a> <a href="#sref12a">12a</a> <a href="#sref17a">17a</a> <a href="#sref15a">15a</a>
+										 <a href="#sref16a">16a</a> <a href="#sref7d">7d</a> <a href="#sref15a">15a</a> <a href="#sref17a">17a</a> <a href="#sref3a">3a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -482,7 +485,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/4/9/f808faafa6873336684f4f2b294.html" title="Residence">
 											Residence
 											</a>
@@ -495,12 +498,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref4e">4e</a>
+										 <a href="#sref7d">7d</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -508,7 +508,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/5/f/f8096c18c2641c28d87884572f5.html" title="Residence">
 											Residence
 											</a>
@@ -521,12 +521,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref4f">4f</a>
+										 <a href="#sref7f">7f</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -534,7 +531,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/1/5/f8096f4e3d749afc1f7414ce351.html" title="Residence">
 											Residence
 											</a>
@@ -547,12 +544,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref4g">4g</a>
+										 <a href="#sref7g">7g</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -560,7 +554,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/e/8/f80974729be65c0dae34bab898e.html" title="Residence">
 											Residence
 											</a>
@@ -573,12 +567,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref18a">18a</a> <a href="#sref5c">5c</a>
+										 <a href="#sref18a">18a</a> <a href="#sref8c">8c</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -586,7 +577,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/9/b/f809777088126b239c0c7fdb0b9.html" title="Residence">
 											Residence
 											</a>
@@ -599,12 +590,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref5c">5c</a> <a href="#sref19a">19a</a> <a href="#sref20a">20a</a> <a href="#sref21a">21a</a>
+										 <a href="#sref8c">8c</a> <a href="#sref19a">19a</a> <a href="#sref20a">20a</a> <a href="#sref21a">21a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -612,7 +600,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/4/3/f809870d6fa45e0d86e755ad734.html" title="Residence">
 											Residence
 											</a>
@@ -625,12 +613,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref21a">21a</a> <a href="#sref22a">22a</a> <a href="#sref7">7</a>
+										 <a href="#sref21a">21a</a> <a href="#sref22a">22a</a> <a href="#sref10">10</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -641,10 +626,9 @@
 							</table>
 						</td>
 						<tr>
-							<td class="ColumnType">&nbsp;</td>
 							<td class="ColumnAttribute">Children</td>
-							<td class="ColumnValue" />
-							<table class="infolist eventlist">
+							<td class="ColumnValue Child" colspan="2" />
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnName">Name</th>
@@ -675,9 +659,8 @@
 					</tr>
 					<tr>
 						<td class="ColumnType">&nbsp;</td>
-						<td class="ColumnAttribute">&nbsp;</td>
-						<td class="ColumnValue">
-							<table class="infolist eventlist">
+						<td class="ColumnValue" colspan="2">
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnEvent">Event</th>
@@ -689,7 +672,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/7/9/cb589cfd42b12d38d97.html" title="Marriage">
 											Marriage
 											</a>
@@ -705,9 +688,6 @@
 										 <a href="#sref17a">17a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -715,7 +695,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/f/4/f7ff3e44f1c557ff8ae0b75554f.html" title="Residence">
 											Residence
 											</a>
@@ -728,12 +708,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref15a">15a</a> <a href="#sref23a">23a</a>
+										 <a href="#sref3a">3a</a> <a href="#sref23a">23a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -741,7 +718,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/b/7/f7ff41c75de3d9340c10b52817b.html" title="Residence">
 											Residence
 											</a>
@@ -754,12 +731,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref15b">15b</a> <a href="#sref23b">23b</a>
+										 <a href="#sref3b">3b</a> <a href="#sref23b">23b</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -767,7 +741,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/2/b/f35ef0069a75e47862ee3c8d2b2.html" title="Residence">
 											Residence
 											</a>
@@ -783,9 +757,6 @@
 										 <a href="#sref24a">24a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -796,10 +767,9 @@
 							</table>
 						</td>
 						<tr>
-							<td class="ColumnType">&nbsp;</td>
 							<td class="ColumnAttribute">Children</td>
-							<td class="ColumnValue" />
-							<table class="infolist eventlist">
+							<td class="ColumnValue Child" colspan="2" />
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnName">Name</th>
@@ -819,7 +789,7 @@
 			</div>
 			<div class="subsection" id="pedigree">
 				<h4>Pedigree</h4>
-				<ol class="pedigreegen">
+				<ol class="pedigreegen" id="toggle_pedigree" style="display:block">
 					<li>
 						<a href="../../../ppl/c/b/cf967e023cc669db1bc.html">Nikander, Gabriel</a>
 						<ol>
@@ -876,46 +846,133 @@
 			</div>
 			<div class="subsection" id="tree">
 				<h4>Ancestors</h4>
-				<div id="treeContainer" style="width:614px; height:300px; top: 0px">
-					<div class="boxbg male AncCol0" style="top: 80px; left: 6px;">
-						<a class="noThumb" href="../../../ppl/b/7/cf967d1e0d6235c137b.html">
-						Nikander, Gustaf Adolf<br/>*1855-07-31<br/>+...
-						</a>
+				<div class="tree" id="toggle_anc" style="display:block">
+					<div id="treeContainer" style="width:614px; height:300px; top: 0px">
+						<div class="boxbg male AncCol0" style="top: 80px; left: 6px;">
+							<a class="noThumb" href="../../../ppl/b/7/cf967d1e0d6235c137b.html">
+							Nikander, Gustaf Adolf<br>*1855-07-31<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 85px; left: 10px;"></div>
+						<div class="bvline" style="top: 100px; left: 285px; width: 15px"></div>
+						<div class="gvline" style="top: 105px; left: 285px; width: 20px"></div>
+						<div class="boxbg male AncCol1" style="top: 5px; left: 316px;">
+							<a class="noThumb" href="../../../ppl/c/b/cf967e023cc669db1bc.html">
+							Nikander, Gabriel<br>*1815-09-24<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 10px; left: 320px;"></div>
+						<div class="bvline" style="top: 25px; left: 300px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 25px; left: 300px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol1" style="top: 155px; left: 316px;">
+							<a class="noThumb" href="../../../ppl/1/2/cf967ec55355c43c821.html">
+							, Fredrica Gustafva Ericsdotter<br>*1816-12-12<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 160px; left: 320px;"></div>
+						<div class="bvline" style="top: 175px; left: 300px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 100px; left: 300px; height: 76px;"></div>
+					
 					</div>
-					<div class="shadow" style="top: 85px; left: 10px;"></div>
-					<div class="bvline" style="top: 100px; left: 285px; width: 15px"></div>
-					<div class="gvline" style="top: 105px; left: 285px; width: 20px"></div>
-					<div class="boxbg male AncCol1" style="top: 5px; left: 316px;">
-						<a class="noThumb" href="../../../ppl/c/b/cf967e023cc669db1bc.html">
-						Nikander, Gabriel<br/>*1815-09-24<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 10px; left: 320px;"></div>
-					<div class="bvline" style="top: 25px; left: 300px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 25px; left: 300px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol1" style="top: 155px; left: 316px;">
-						<a class="noThumb" href="../../../ppl/1/2/cf967ec55355c43c821.html">
-						, Fredrica Gustafva Ericsdotter<br/>*1816-12-12<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 160px; left: 320px;"></div>
-					<div class="bvline" style="top: 175px; left: 300px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 100px; left: 300px; height: 76px;"></div>
-				
 				</div>
 			</div>
 			<div class="subsection" id="sourcerefs">
 				<h4>Source References</h4>
-				<ol>
+				<ol id="srcr">
 					<li>
-						<a href="../../../src/d/3/f800c601c13d4e947af989a43d.html" title="Nummen seurakunta: Nummi Syntyneet 1843-1865" name ="sref1">
+						<a href="../../../src/4/8/dd203a1e7c46763f4f98e76c384.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Muuttaneet 1888-1909" name ="sref1">
+						Helsingin ruotsalais-suomalainen seurakunta: Helsinki Muuttaneet 1888-1909
+						</a>
+						<ol id="citr">
+							<li id="sref1a">
+								<ul>
+									<li>
+									Page: MKO8-15/34
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Helsinki muuttaneet 1888-1909 (MKO8-15)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19856&amp;pnum=34 / Viitattu 03.01.2024</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19856&amp;pnum=34">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19856&amp;pnum=34</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Monospace';">Poismuuttaneita 1890</span></p><p><span style="font-family:'Monospace';">[September] &nbsp;6 &nbsp;530 &nbsp;Arb. Gust. Adolf Nikander &nbsp;4-397 &nbsp;1 - &nbsp; Porvoo</span></p><p>&nbsp;</p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../src/2/e/f35e697ddc8179667bb5744f2e2.html" title="Porvoon maaseurakunta: Porvoo msrk Muuttaneet 1880-1900" name ="sref2">
+						Porvoon maaseurakunta: Porvoo msrk Muuttaneet 1880-1900
+						</a>
+						<ol id="citr">
+							<li id="sref2a">
+								<ul>
+									<li>
+									Page: Bb:6/144-145
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Porvoo maaseurakunta muuttaneet 1880-1900 (AP I Bb:6)  Sivu 144  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38705&amp;pnum=77 / Viitattu 03.01.2024</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38705&amp;pnum=77">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38705&amp;pnum=77</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Monospace';">&nbsp; &nbsp; &nbsp; &nbsp; Pag 144</span><br /><span style="font-family:'Monospace';">Längd öfver Inflyttade för år 1890 i Borgå lands-församling</span></p><p><span style="font-family:'Monospace';">[Oktober] &nbsp;[3] &nbsp;63 &nbsp;Nikander, Gustaf Adolf &nbsp;Arb &nbsp; 1 - &nbsp; H:fors &nbsp;400</span></p><p>&nbsp;</p><p>&nbsp;</p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../src/6/5/f35ee4a782b1b14429fdeb1f256.html" title="Porvoon maaseurakunta: Porvoo msrk Rippikirja 1890-1899" name ="sref3">
+						Porvoon maaseurakunta: Porvoo msrk Rippikirja 1890-1899
+						</a>
+						<ol id="citr">
+							<li id="sref3a">
+								<ul>
+									<li>
+									Page: Aa:29/400
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Porvoo maaseurakunta rippikirja 1890-1899 (AP_LÄNSI I Aa:29)  Sivu 400 Norrweckoski Clemets ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=408 / Viitattu 02.01.2024</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=408">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=408</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Monospace';">400 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Norrveckoski</span></p><p><span style="font-family:'Monospace';">Clemets</span><br /><span style="font-family:'Monospace';">frälse &nbsp; 1/3 mtl. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Eges af Johan Johansson Hannusas</span></p><p>&nbsp;</p><p>&nbsp;</p><p><span style="font-family:'Monospace';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2.g gift</span><br /><span style="font-family:'Monospace';">Inh Gustaf Adolf Nikander &nbsp; &nbsp;31/7 1855 &nbsp;Nummis &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;}92-10 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Ifr. &nbsp;H:fors 1890-63 }vigde 29/12 18&lt;tahra&gt;</span><br /><span style="font-family:'Monospace';">Hu Maria Lovisa Nordberg &nbsp; &nbsp; 24/8 1855 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;90-413 &nbsp; &nbsp;} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; } &nbsp; &nbsp; &nbsp;1889</span></p><p>&nbsp;</p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref3b">
+								<ul>
+									<li>
+									Page: Aa:29/10
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Porvoo maaseurakunta rippikirja 1890-1899 (AP_LÄNSI I Aa:29)  Sivu 10 Andersböle Smeds skatteh ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=17 / Viitattu 02.01.2024</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=17">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=17</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Monospace';">10 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Andersböle</span></p><p><span style="font-family:'Monospace';">Smeds</span><br /><span style="font-family:'Monospace';">skatteh. 1/3 mtl.</span></p><p><span style="font-family:'Monospace';">B:bo Gustaf Adolf Nikander &nbsp;31/7 1855 &nbsp; &nbsp;Nummis &nbsp; &nbsp;}92-400</span><br /><span style="font-family:'Monospace';">Hu Maria Lovisa Nordberg &nbsp; &nbsp;24/8 1855 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;}</span></p><p>&nbsp;</p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../src/d/3/f800c601c13d4e947af989a43d.html" title="Nummen seurakunta: Nummi Syntyneet 1843-1865" name ="sref4">
 						Nummen seurakunta: Nummi Syntyneet 1843-1865
 						</a>
-						<ol>
-							<li id="sref1a">
+						<ol id="citr">
+							<li id="sref4a">
 								<ul>
 									<li>
 									Page: TK704/162-163
@@ -934,11 +991,11 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/9/6/f80123d97b840684a184417ff69.html" title="Nummen seurakunta: Nummi Rippikirja 1851-1857" name ="sref2">
+						<a href="../../../src/9/6/f80123d97b840684a184417ff69.html" title="Nummen seurakunta: Nummi Rippikirja 1851-1857" name ="sref5">
 						Nummen seurakunta: Nummi Rippikirja 1851-1857
 						</a>
-						<ol>
-							<li id="sref2a">
+						<ol id="citr">
+							<li id="sref5a">
 								<ul>
 									<li>
 									Page: 249
@@ -960,11 +1017,11 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/c/9/f80147d1163386c0251b3e4ba9c.html" title="Nummen seurakunta: Nummi Rippikirja 1866-1872" name ="sref3">
+						<a href="../../../src/c/9/f80147d1163386c0251b3e4ba9c.html" title="Nummen seurakunta: Nummi Rippikirja 1866-1872" name ="sref6">
 						Nummen seurakunta: Nummi Rippikirja 1866-1872
 						</a>
-						<ol>
-							<li id="sref3a">
+						<ol id="citr">
+							<li id="sref6a">
 								<ul>
 									<li>
 									Page: 266
@@ -983,11 +1040,11 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/6/e/f80157075af42cb51b2d4ce66e6.html" title="Nummen seurakunta: Nummi Rippikirja 1873-1882" name ="sref4">
+						<a href="../../../src/6/e/f80157075af42cb51b2d4ce66e6.html" title="Nummen seurakunta: Nummi Rippikirja 1873-1882" name ="sref7">
 						Nummen seurakunta: Nummi Rippikirja 1873-1882
 						</a>
-						<ol>
-							<li id="sref4a">
+						<ol id="citr">
+							<li id="sref7a">
 								<ul>
 									<li>
 									Page: MKO36-48/312
@@ -1003,23 +1060,7 @@
 									</li>
 								</ul>
 							</li>
-							<li id="sref4b">
-								<ul>
-									<li>
-									Page: MKO36-48/313
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Nummi rippikirja 1873-1882 (MKO36-48)  Sivu 313 Sjerla Salmi ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15610&amp;pnum=309 / Viitattu 05.01.2024</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15610&amp;pnum=309">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15610&amp;pnum=309</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Monospace';">313</span></p><p><span style="font-family:'Monospace';">Sjerla Salmi hn</span></p><p><span style="font-family:'Monospace';">F.d. skarpskytten</span><br /><span style="font-family:'Monospace';">Drg Gust. Adolf Patron (Nikander) &nbsp; &nbsp;31/7 1855 &nbsp; &nbsp;här &nbsp; &nbsp;1878 Lif. Gard. Finska Sk.Bat &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1879 p.311</span></p><p>&nbsp;</p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref4c">
+							<li id="sref7b">
 								<ul>
 									<li>
 									Page: MKO36-48/311
@@ -1035,23 +1076,23 @@
 									</li>
 								</ul>
 							</li>
-							<li id="sref4d">
+							<li id="sref7c">
 								<ul>
 									<li>
-									Page: MKO36-48/272
+									Page: MKO36-48/313
 									</li>
 									<li>
-									Citation: <div class="grampsstylednote"><p>Nummi rippikirja 1873-1882 (MKO36-48)  Sivu 272 Rettlax Björni ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15610&amp;pnum=268 / Viitattu 05.01.2024</p></div>
+									Citation: <div class="grampsstylednote"><p>Nummi rippikirja 1873-1882 (MKO36-48)  Sivu 313 Sjerla Salmi ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15610&amp;pnum=309 / Viitattu 05.01.2024</p></div>
 									</li>
 									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15610&amp;pnum=268">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15610&amp;pnum=268</a></p></div>
+									Link: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15610&amp;pnum=309">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15610&amp;pnum=309</a></p></div>
 									</li>
 									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Monospace';">272</span></p><p><span style="font-family:'Monospace';">Rettlax Bjärni hn</span></p><p><span style="font-family:'Monospace';">Drg Gust. Adolf Patron (Nikander) &nbsp; &nbsp;31/7 1855 &nbsp; &nbsp;här &nbsp; &nbsp;1880 p.311 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1881 p.280</span></p><p>&nbsp;</p></div>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Monospace';">313</span></p><p><span style="font-family:'Monospace';">Sjerla Salmi hn</span></p><p><span style="font-family:'Monospace';">F.d. skarpskytten</span><br /><span style="font-family:'Monospace';">Drg Gust. Adolf Patron (Nikander) &nbsp; &nbsp;31/7 1855 &nbsp; &nbsp;här &nbsp; &nbsp;1878 Lif. Gard. Finska Sk.Bat &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1879 p.311</span></p><p>&nbsp;</p></div>
 									</li>
 								</ul>
 							</li>
-							<li id="sref4e">
+							<li id="sref7d">
 								<ul>
 									<li>
 									Page: MKO36-48/280
@@ -1067,7 +1108,23 @@
 									</li>
 								</ul>
 							</li>
-							<li id="sref4f">
+							<li id="sref7e">
+								<ul>
+									<li>
+									Page: MKO36-48/272
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Nummi rippikirja 1873-1882 (MKO36-48)  Sivu 272 Rettlax Björni ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15610&amp;pnum=268 / Viitattu 05.01.2024</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15610&amp;pnum=268">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=15610&amp;pnum=268</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Monospace';">272</span></p><p><span style="font-family:'Monospace';">Rettlax Bjärni hn</span></p><p><span style="font-family:'Monospace';">Drg Gust. Adolf Patron (Nikander) &nbsp; &nbsp;31/7 1855 &nbsp; &nbsp;här &nbsp; &nbsp;1880 p.311 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1881 p.280</span></p><p>&nbsp;</p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref7f">
 								<ul>
 									<li>
 									Page: MKO36-48/277
@@ -1083,7 +1140,7 @@
 									</li>
 								</ul>
 							</li>
-							<li id="sref4g">
+							<li id="sref7g">
 								<ul>
 									<li>
 									Page: MKO36-48/49
@@ -1102,11 +1159,11 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/6/6/f8015b14c7030e4088e4735ab66.html" title="Nummen seurakunta: Nummi Muuttaneet 1863-1885" name ="sref5">
+						<a href="../../../src/6/6/f8015b14c7030e4088e4735ab66.html" title="Nummen seurakunta: Nummi Muuttaneet 1863-1885" name ="sref8">
 						Nummen seurakunta: Nummi Muuttaneet 1863-1885
 						</a>
-						<ol>
-							<li id="sref5a">
+						<ol id="citr">
+							<li id="sref8a">
 								<ul>
 									<li>
 									Page: MKO1-3/39
@@ -1122,7 +1179,7 @@
 									</li>
 								</ul>
 							</li>
-							<li id="sref5b">
+							<li id="sref8b">
 								<ul>
 									<li>
 									Page: MKO1-3/45
@@ -1138,7 +1195,7 @@
 									</li>
 								</ul>
 							</li>
-							<li id="sref5c">
+							<li id="sref8c">
 								<ul>
 									<li>
 									Page: MKO1-3/59
@@ -1157,11 +1214,11 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/6/2/e1874ddb65965dca5a84a089526.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Muuttaneet 1865-1879" name ="sref6">
+						<a href="../../../src/6/2/e1874ddb65965dca5a84a089526.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Muuttaneet 1865-1879" name ="sref9">
 						Helsingin ruotsalais-suomalainen seurakunta: Helsinki Muuttaneet 1865-1879
 						</a>
-						<ol>
-							<li id="sref6a">
+						<ol id="citr">
+							<li id="sref9a">
 								<ul>
 									<li>
 									Page: MKO4-10/244
@@ -1177,7 +1234,7 @@
 									</li>
 								</ul>
 							</li>
-							<li id="sref6b">
+							<li id="sref9b">
 								<ul>
 									<li>
 									Page: MKO4-10/281
@@ -1196,11 +1253,11 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/6/8/e1875f0dbf91819fff90b0d1786.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Rippikirjahakemisto 1870-1881" name ="sref7">
+						<a href="../../../src/6/8/e1875f0dbf91819fff90b0d1786.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Rippikirjahakemisto 1870-1881" name ="sref10">
 						Helsingin ruotsalais-suomalainen seurakunta: Helsinki Rippikirjahakemisto 1870-1881
 						</a>
-						<ol>
-							<li id="sref7a">
+						<ol id="citr">
+							<li id="sref10a">
 								<ul>
 									<li>
 									Page: MKO76-87_NMIE/514-515
@@ -1219,11 +1276,11 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/b/7/cde65158bf529623e7b.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Rippikirja 1870-1881" name ="sref8">
+						<a href="../../../src/b/7/cde65158bf529623e7b.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Rippikirja 1870-1881" name ="sref11">
 						Helsingin ruotsalais-suomalainen seurakunta: Helsinki Rippikirja 1870-1881
 						</a>
-						<ol>
-							<li id="sref8a">
+						<ol id="citr">
+							<li id="sref11a">
 								<ul>
 									<li>
 									Page: IV/593
@@ -1242,11 +1299,11 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/b/4/f5df89073f241ccf8537154be4b.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Muuttaneet 1853-1887" name ="sref9">
+						<a href="../../../src/b/4/f5df89073f241ccf8537154be4b.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Muuttaneet 1853-1887" name ="sref12">
 						Helsingin ruotsalais-suomalainen seurakunta: Helsinki Muuttaneet 1853-1887
 						</a>
-						<ol>
-							<li id="sref9a">
+						<ol id="citr">
+							<li id="sref12a">
 								<ul>
 									<li>
 									Page: MKO1-8/222
@@ -1265,11 +1322,11 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/8/8/f802b9c37794261187170a99888.html" title="Kaartin seurakunta: Kaarti Muuttokirjat 1840-1880" name ="sref10">
+						<a href="../../../src/8/8/f802b9c37794261187170a99888.html" title="Kaartin seurakunta: Kaarti Muuttokirjat 1840-1880" name ="sref13">
 						Kaartin seurakunta: Kaarti Muuttokirjat 1840-1880
 						</a>
-						<ol>
-							<li id="sref10a">
+						<ol id="citr">
+							<li id="sref13a">
 								<ul>
 									<li>
 									Page: ES163/392
@@ -1288,11 +1345,11 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/c/4/f802cde584fb080fc3a2bef04c.html" title="Kaartin seurakunta: Kaarti Rippikirja 1877-1878" name ="sref11">
+						<a href="../../../src/c/4/f802cde584fb080fc3a2bef04c.html" title="Kaartin seurakunta: Kaarti Rippikirja 1877-1878" name ="sref14">
 						Kaartin seurakunta: Kaarti Rippikirja 1877-1878
 						</a>
-						<ol>
-							<li id="sref11a">
+						<ol id="citr">
+							<li id="sref14a">
 								<ul>
 									<li>
 									Page: OS371/96-97
@@ -1311,11 +1368,11 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/c/4/f802d2828ab5f235486e6cd8f4c.html" title="Kaartin seurakunta: Kaarti Muuttaneet 1875-1883" name ="sref12">
+						<a href="../../../src/c/4/f802d2828ab5f235486e6cd8f4c.html" title="Kaartin seurakunta: Kaarti Muuttaneet 1875-1883" name ="sref15">
 						Kaartin seurakunta: Kaarti Muuttaneet 1875-1883
 						</a>
-						<ol>
-							<li id="sref12a">
+						<ol id="citr">
+							<li id="sref15a">
 								<ul>
 									<li>
 									Page: OS372-373/191
@@ -1337,95 +1394,10 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/4/8/dd203a1e7c46763f4f98e76c384.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Muuttaneet 1888-1909" name ="sref13">
-						Helsingin ruotsalais-suomalainen seurakunta: Helsinki Muuttaneet 1888-1909
-						</a>
-						<ol>
-							<li id="sref13a">
-								<ul>
-									<li>
-									Page: MKO8-15/34
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Helsinki muuttaneet 1888-1909 (MKO8-15)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19856&amp;pnum=34 / Viitattu 03.01.2024</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19856&amp;pnum=34">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19856&amp;pnum=34</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Monospace';">Poismuuttaneita 1890</span></p><p><span style="font-family:'Monospace';">[September] &nbsp;6 &nbsp;530 &nbsp;Arb. Gust. Adolf Nikander &nbsp;4-397 &nbsp;1 - &nbsp; Porvoo</span></p><p>&nbsp;</p></div>
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
-						<a href="../../../src/2/e/f35e697ddc8179667bb5744f2e2.html" title="Porvoon maaseurakunta: Porvoo msrk Muuttaneet 1880-1900" name ="sref14">
-						Porvoon maaseurakunta: Porvoo msrk Muuttaneet 1880-1900
-						</a>
-						<ol>
-							<li id="sref14a">
-								<ul>
-									<li>
-									Page: Bb:6/144-145
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Porvoo maaseurakunta muuttaneet 1880-1900 (AP I Bb:6)  Sivu 144  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38705&amp;pnum=77 / Viitattu 03.01.2024</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38705&amp;pnum=77">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38705&amp;pnum=77</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Monospace';">&nbsp; &nbsp; &nbsp; &nbsp; Pag 144</span><br /><span style="font-family:'Monospace';">Längd öfver Inflyttade för år 1890 i Borgå lands-församling</span></p><p><span style="font-family:'Monospace';">[Oktober] &nbsp;[3] &nbsp;63 &nbsp;Nikander, Gustaf Adolf &nbsp;Arb &nbsp; 1 - &nbsp; H:fors &nbsp;400</span></p><p>&nbsp;</p><p>&nbsp;</p></div>
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
-						<a href="../../../src/6/5/f35ee4a782b1b14429fdeb1f256.html" title="Porvoon maaseurakunta: Porvoo msrk Rippikirja 1890-1899" name ="sref15">
-						Porvoon maaseurakunta: Porvoo msrk Rippikirja 1890-1899
-						</a>
-						<ol>
-							<li id="sref15a">
-								<ul>
-									<li>
-									Page: Aa:29/400
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Porvoo maaseurakunta rippikirja 1890-1899 (AP_LÄNSI I Aa:29)  Sivu 400 Norrweckoski Clemets ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=408 / Viitattu 02.01.2024</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=408">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=408</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Monospace';">400 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Norrveckoski</span></p><p><span style="font-family:'Monospace';">Clemets</span><br /><span style="font-family:'Monospace';">frälse &nbsp; 1/3 mtl. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Eges af Johan Johansson Hannusas</span></p><p>&nbsp;</p><p>&nbsp;</p><p><span style="font-family:'Monospace';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2.g gift</span><br /><span style="font-family:'Monospace';">Inh Gustaf Adolf Nikander &nbsp; &nbsp;31/7 1855 &nbsp;Nummis &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;}92-10 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Ifr. &nbsp;H:fors 1890-63 }vigde 29/12 18&lt;tahra&gt;</span><br /><span style="font-family:'Monospace';">Hu Maria Lovisa Nordberg &nbsp; &nbsp; 24/8 1855 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;90-413 &nbsp; &nbsp;} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; } &nbsp; &nbsp; &nbsp;1889</span></p><p>&nbsp;</p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref15b">
-								<ul>
-									<li>
-									Page: Aa:29/10
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Porvoo maaseurakunta rippikirja 1890-1899 (AP_LÄNSI I Aa:29)  Sivu 10 Andersböle Smeds skatteh ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=17 / Viitattu 02.01.2024</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=17">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=17</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Monospace';">10 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Andersböle</span></p><p><span style="font-family:'Monospace';">Smeds</span><br /><span style="font-family:'Monospace';">skatteh. 1/3 mtl.</span></p><p><span style="font-family:'Monospace';">B:bo Gustaf Adolf Nikander &nbsp;31/7 1855 &nbsp; &nbsp;Nummis &nbsp; &nbsp;}92-400</span><br /><span style="font-family:'Monospace';">Hu Maria Lovisa Nordberg &nbsp; &nbsp;24/8 1855 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;}</span></p><p>&nbsp;</p></div>
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
 						<a href="../../../src/5/6/f8098a4312a6d7519a9fd371965.html" title="Nummen seurakunta: Nummi VIhityt 1816-1891" name ="sref16">
 						Nummen seurakunta: Nummi VIhityt 1816-1891
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref16a">
 								<ul>
 									<li>
@@ -1448,7 +1420,7 @@
 						<a href="../../../src/4/b/f35f32344497239305bfc51f3b4.html" title="Porvoon maaseurakunta: Porvoo msrk Vihityt 1889-1904" name ="sref17">
 						Porvoon maaseurakunta: Porvoo msrk Vihityt 1889-1904
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref17a">
 								<ul>
 									<li>
@@ -1471,7 +1443,7 @@
 						<a href="../../../src/1/4/f809726bff7562ca38a13b16541.html" title="Nummi Rippikirja 1883-1892" name ="sref18">
 						Nummi Rippikirja 1883-1892
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref18a">
 								<ul>
 									<li>
@@ -1494,7 +1466,7 @@
 						<a href="../../../src/8/d/f8097dfc5624f1e83dfd81aa5d8.html" title="Kirkkonummen seurakunta: Kirkkonummi Muuttaneet 1852-1883" name ="sref19">
 						Kirkkonummen seurakunta: Kirkkonummi Muuttaneet 1852-1883
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref19a">
 								<ul>
 									<li>
@@ -1517,7 +1489,7 @@
 						<a href="../../../src/6/8/f145b441e0449c4b7713cee9886.html" title="Kirkkonummen seurakunta: Kirkkonummi Rippikirja 1878-1887" name ="sref20">
 						Kirkkonummen seurakunta: Kirkkonummi Rippikirja 1878-1887
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref20a">
 								<ul>
 									<li>
@@ -1540,7 +1512,7 @@
 						<a href="../../../src/9/b/f8098455a171add3330360f2bb9.html" title="Kirkkonummen seurakunta: Kirkkonummi Muuttaneet 1884-1910" name ="sref21">
 						Kirkkonummen seurakunta: Kirkkonummi Muuttaneet 1884-1910
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref21a">
 								<ul>
 									<li>
@@ -1563,7 +1535,7 @@
 						<a href="../../../src/4/8/df5ac12a7c74ade1f5eaf6f9c84.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Muuttaneet 1880-1889" name ="sref22">
 						Helsingin ruotsalais-suomalainen seurakunta: Helsinki Muuttaneet 1880-1889
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref22a">
 								<ul>
 									<li>
@@ -1586,7 +1558,7 @@
 						<a href="../../../src/2/d/f35f34546097021d962d6b10cd2.html" title="Porvoon maaseurakunta: Porvoo msrk Lastenkirja 1890-1899" name ="sref23">
 						Porvoon maaseurakunta: Porvoo msrk Lastenkirja 1890-1899
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref23a">
 								<ul>
 									<li>
@@ -1625,7 +1597,7 @@
 						<a href="../../../src/7/0/f16a42ae9774b0ba5a082769407.html" title="Porvoon maaseurakunta: Porvoo msrk Rippikirja 1900-1909" name ="sref24">
 						Porvoon maaseurakunta: Porvoo msrk Rippikirja 1900-1909
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref24a">
 								<ul>
 									<li>
@@ -1650,7 +1622,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2024-01-06 21:32:26<br />Created for Entire Database
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2<br />Last change was the 2024-01-06 21:32:26<br />Created for Entire Database
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

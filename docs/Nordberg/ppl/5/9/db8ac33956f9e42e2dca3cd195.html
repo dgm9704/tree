@@ -1,27 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>Nordberg Family Tree - , Maria Serafia Johansdotter</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
-	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">Nordberg Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">Nordberg Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li class = "CurrentSection"><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
 					<li><a href="../../../families.html" title="Families">Families</a></li>
@@ -29,13 +39,43 @@
 					<li><a href="../../../places.html" title="Places">Places</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="IndividualDetail">
 			<h3>, Maria Serafia Johansdotter<sup><small></small></sup></h3>
 			<div id="summaryarea">
@@ -54,7 +94,7 @@
 			</div>
 			<div class="subsection" id="events">
 				<h4>Events</h4>
-				<table class="infolist eventlist">
+				<table class="infolist eventlist toggle_event ltr" id="toggle_event" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnEvent">Event</th>
@@ -66,7 +106,7 @@
 					</thead>
 					<tbody>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/f/8/db8ac3b3c4f2f3870e861ca258f.html" title="Birth">
 								Birth
 								</a>
@@ -78,9 +118,6 @@
 							 <a href="#sref1a">1a</a> <a href="#sref2a">2a</a> <a href="#sref3a">3a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -88,59 +125,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/1/9/db8b600719a3da2cd12b5c19c91.html" title="Residence">
-								Residence
-								</a>
-							</td>
-							<td class="ColumnDate">from 1859 to 1861</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/3/3/db8b2651fa09af6165dac65d33.html" title="Nissilä, Monnby, Askola, Suomi">
-								Nissilä, Monnby, Askola, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref4a">4a</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/c/4/db8b2c7696b7ac93f989a6d5b4c.html" title="Residence">
-								Residence
-								</a>
-							</td>
-							<td class="ColumnDate">from 1861 to 1862</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/4/f/cdf82f07db43cb400f4.html" title="Jaakola Gård, Laha, Borgnäs, Suomi">
-								Jaakola Gård, Laha, Borgnäs, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref5a">5a</a> <a href="#sref4b">4b</a> <a href="#sref1a">1a</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/9/b/db8b2a71a0b60632622e98ee2b9.html" title="Residence">
 								Residence
 								</a>
@@ -153,12 +138,9 @@
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref4b">4b</a> <a href="#sref6a">6a</a>
+							 <a href="#sref4a">4a</a> <a href="#sref5a">5a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -166,12 +148,35 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/0/9/db8b277f2ae26aad8fcca78890.html" title="Residence">
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/c/4/db8b2c7696b7ac93f989a6d5b4c.html" title="Residence">
 								Residence
 								</a>
 							</td>
-							<td class="ColumnDate">from 1863 to 1864</td>
+							<td class="ColumnDate">from 1861 to 1862</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/4/f/cdf82f07db43cb400f4.html" title="Jaakola Gård, Laha, Borgnäs, Suomi">
+								Jaakola Gård, Laha, Borgnäs, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref6a">6a</a> <a href="#sref4a">4a</a> <a href="#sref1a">1a</a>
+							</td>
+							<tr>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/1/9/db8b600719a3da2cd12b5c19c91.html" title="Residence">
+								Residence
+								</a>
+							</td>
+							<td class="ColumnDate">from 1859 to 1861</td>
 							<td class="ColumnPlace">
 								<a href="../../../plc/3/3/db8b2651fa09af6165dac65d33.html" title="Nissilä, Monnby, Askola, Suomi">
 								Nissilä, Monnby, Askola, Suomi
@@ -179,12 +184,9 @@
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref4a">4a</a> <a href="#sref6b">6b</a>
+							 <a href="#sref4b">4b</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -192,7 +194,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/5/1/db8b1a2145b1e85edc145b34115.html" title="Residence (Unknown)">
 								Residence (Unknown)
 								</a>
@@ -205,12 +207,32 @@
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref4c">4c</a> <a href="#sref6c">6c</a> <a href="#sref7a">7a</a> <a href="#sref8a">8a</a> <a href="#sref9a">9a</a> <a href="#sref2a">2a</a>
+							 <a href="#sref4c">4c</a> <a href="#sref5b">5b</a> <a href="#sref7a">7a</a> <a href="#sref8a">8a</a> <a href="#sref9a">9a</a> <a href="#sref2a">2a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
 								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/0/9/db8b277f2ae26aad8fcca78890.html" title="Residence">
+								Residence
+								</a>
+							</td>
+							<td class="ColumnDate">from 1863 to 1864</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/3/3/db8b2651fa09af6165dac65d33.html" title="Nissilä, Monnby, Askola, Suomi">
+								Nissilä, Monnby, Askola, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref4b">4b</a> <a href="#sref5c">5c</a>
+							</td>
+							<tr>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -222,7 +244,7 @@
 			</div>
 			<div class="subsection" id="parents">
 				<h4>Parents</h4>
-				<table class="infolist">
+				<table class="infolist toggle_parent ltr" id="toggle_parent" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnAttribute">Relation to main person</th>
@@ -288,7 +310,7 @@
 			</div>
 			<div class="subsection" id="families">
 				<h4>Families</h4>
-				<table class="infolist">
+				<table class="infolist" id="toggle_families" style="display:block">
 					<tr class="BeginFamily">
 						<td class="ColumnValue" colspan="3"><H4 class="subsection"><a href="../../../fam/a/0/db8ac27b7c967dbb70ab94e10a.html" title="Family of Nordberg, Gustaf Adolf and , Maria Serafia Johansdotter">Family of Nordberg, Gustaf Adolf and , Maria Serafia Johansdotter</a></H4></td>
 					</tr>
@@ -306,9 +328,8 @@
 					</tr>
 					<tr>
 						<td class="ColumnType">&nbsp;</td>
-						<td class="ColumnAttribute">&nbsp;</td>
-						<td class="ColumnValue">
-							<table class="infolist eventlist">
+						<td class="ColumnValue" colspan="2">
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnEvent">Event</th>
@@ -320,7 +341,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/7/a/db8ac4390f2496edb2fafd8d2a7.html" title="Marriage">
 											Marriage
 											</a>
@@ -336,9 +357,6 @@
 										 <a href="#sref2a">2a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -346,7 +364,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/5/3/db8ac536f5c6f09998f7c96b335.html" title="Residence">
 											Residence
 											</a>
@@ -362,9 +380,6 @@
 										 <a href="#sref2a">2a</a> <a href="#sref10a">10a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -372,7 +387,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/6/4/db8afbf15bf1877dfc5f8d80746.html" title="Residence">
 											Residence
 											</a>
@@ -388,9 +403,6 @@
 										 <a href="#sref11a">11a</a> <a href="#sref12a">12a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -398,7 +410,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/e/7/db8afe08c097a5d1aa191d3e37e.html" title="Residence">
 											Residence
 											</a>
@@ -414,9 +426,6 @@
 										 <a href="#sref11b">11b</a> <a href="#sref12b">12b</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -424,7 +433,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/5/0/db8bcd9bcab7f90fba9bca7d205.html" title="Residence">
 											Residence
 											</a>
@@ -440,9 +449,6 @@
 										 <a href="#sref11c">11c</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -450,7 +456,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/0/f/db8bcee99555508943285958f0.html" title="Residence">
 											Residence
 											</a>
@@ -466,9 +472,6 @@
 										 <a href="#sref13a">13a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -476,7 +479,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/1/d/db8bd0e3cef4f1bd770177c84d1.html" title="Residence">
 											Residence
 											</a>
@@ -492,9 +495,6 @@
 										 <a href="#sref14a">14a</a> <a href="#sref13b">13b</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -502,7 +502,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/e/d/db8bd383538262e690a9c592dde.html" title="Residence">
 											Residence
 											</a>
@@ -518,9 +518,6 @@
 										 <a href="#sref13c">13c</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -528,7 +525,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/9/4/f16a43df46254d3c02ff4a3f149.html" title="Residence">
 											Residence
 											</a>
@@ -544,9 +541,6 @@
 										 <a href="#sref15a">15a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -554,7 +548,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/3/1/f16a46a0dfd3a570a23d9e77913.html" title="Residence">
 											Residence
 											</a>
@@ -570,9 +564,6 @@
 										 <a href="#sref15b">15b</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -580,7 +571,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/a/e/f16a491bdde2f547a1c1f0f02ea.html" title="Residence">
 											Residence
 											</a>
@@ -596,9 +587,6 @@
 										 <a href="#sref15c">15c</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -606,7 +594,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/8/5/f16a4c1ef9e404656bbcb54b058.html" title="Residence">
 											Residence
 											</a>
@@ -622,9 +610,6 @@
 										 <a href="#sref15d">15d</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -632,7 +617,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/8/c/f16a5f25ad825cee73446b585c8.html" title="Residence">
 											Residence
 											</a>
@@ -648,9 +633,6 @@
 										 <a href="#sref15e">15e</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -661,10 +643,9 @@
 							</table>
 						</td>
 						<tr>
-							<td class="ColumnType">&nbsp;</td>
 							<td class="ColumnAttribute">Children</td>
-							<td class="ColumnValue" />
-							<table class="infolist eventlist">
+							<td class="ColumnValue Child" colspan="2" />
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnName">Name</th>
@@ -684,7 +665,7 @@
 			</div>
 			<div class="subsection" id="pedigree">
 				<h4>Pedigree</h4>
-				<ol class="pedigreegen">
+				<ol class="pedigreegen" id="toggle_pedigree" style="display:block">
 					<li>
 						<a href="../../../ppl/9/1/db8b61133794a694a5c6ca5819.html">, Johan Andersson</a>
 						<ol>
@@ -733,45 +714,47 @@
 			</div>
 			<div class="subsection" id="tree">
 				<h4>Ancestors</h4>
-				<div id="treeContainer" style="width:614px; height:300px; top: 0px">
-					<div class="boxbg female AncCol0" style="top: 80px; left: 6px;">
-						<a class="noThumb" href="../../../ppl/5/9/db8ac33956f9e42e2dca3cd195.html">
-						, Maria Serafia Johansdotter<br/>*1840-11-12<br/>+...
-						</a>
+				<div class="tree" id="toggle_anc" style="display:block">
+					<div id="treeContainer" style="width:614px; height:300px; top: 0px">
+						<div class="boxbg female AncCol0" style="top: 80px; left: 6px;">
+							<a class="noThumb" href="../../../ppl/5/9/db8ac33956f9e42e2dca3cd195.html">
+							, Maria Serafia Johansdotter<br>*1840-11-12<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 85px; left: 10px;"></div>
+						<div class="bvline" style="top: 100px; left: 285px; width: 15px"></div>
+						<div class="gvline" style="top: 105px; left: 285px; width: 20px"></div>
+						<div class="boxbg male AncCol1" style="top: 5px; left: 316px;">
+							<a class="noThumb" href="../../../ppl/9/1/db8b61133794a694a5c6ca5819.html">
+							, Johan Andersson<br>*1816-05-15<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 10px; left: 320px;"></div>
+						<div class="bvline" style="top: 25px; left: 300px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 25px; left: 300px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol1" style="top: 155px; left: 316px;">
+							<a class="noThumb" href="../../../ppl/b/1/db8b61e02fd5924e2f6bd903d1b.html">
+							Gahm, Albertina<br>*1817-10-08<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 160px; left: 320px;"></div>
+						<div class="bvline" style="top: 175px; left: 300px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 100px; left: 300px; height: 76px;"></div>
+					
 					</div>
-					<div class="shadow" style="top: 85px; left: 10px;"></div>
-					<div class="bvline" style="top: 100px; left: 285px; width: 15px"></div>
-					<div class="gvline" style="top: 105px; left: 285px; width: 20px"></div>
-					<div class="boxbg male AncCol1" style="top: 5px; left: 316px;">
-						<a class="noThumb" href="../../../ppl/9/1/db8b61133794a694a5c6ca5819.html">
-						, Johan Andersson<br/>*1816-05-15<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 10px; left: 320px;"></div>
-					<div class="bvline" style="top: 25px; left: 300px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 25px; left: 300px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol1" style="top: 155px; left: 316px;">
-						<a class="noThumb" href="../../../ppl/b/1/db8b61e02fd5924e2f6bd903d1b.html">
-						Gahm, Albertina<br/>*1817-10-08<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 160px; left: 320px;"></div>
-					<div class="bvline" style="top: 175px; left: 300px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 100px; left: 300px; height: 76px;"></div>
-				
 				</div>
 			</div>
 			<div class="subsection" id="sourcerefs">
 				<h4>Source References</h4>
-				<ol>
+				<ol id="srcr">
 					<li>
 						<a href="../../../src/4/8/db8b33b57a57d6565d3b3b6ea84.html" title="Askolan seurakunta: Askola Muuttokirjat 1851-1864" name ="sref1">
 						Askolan seurakunta: Askola Muuttokirjat 1851-1864
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref1a">
 								<ul>
 									<li>
@@ -788,7 +771,7 @@
 						<a href="../../../src/2/7/db8ac136d236fb5e43185e0472.html" title="Porvoon kaupunkiseurakunta: Porvoo kaup Rippikirja 1877-1886" name ="sref2">
 						Porvoon kaupunkiseurakunta: Porvoo kaup Rippikirja 1877-1886
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref2a">
 								<ul>
 									<li>
@@ -805,7 +788,7 @@
 						<a href="../../../src/3/9/db8bb4e8fae5060ebb452ccf093.html" title="Askolan seurakunta: Askola Lastenkirja 1840-1855" name ="sref3">
 						Askolan seurakunta: Askola Lastenkirja 1840-1855
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref3a">
 								<ul>
 									<li>
@@ -822,24 +805,24 @@
 						<a href="../../../src/2/9/db8b1fb714d2047cf2a7a7c6c92.html" title="Askolan seurakunta: Askola Rippikirja 1859-1868" name ="sref4">
 						Askolan seurakunta: Askola Rippikirja 1859-1868
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref4a">
-								<ul>
-									<li>
-									Page: 393
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=6252974">http://digi.narc.fi/digi/view.ka?kuid=6252974</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5850797857&amp;aineistoId=1152187148">https://astia.narc.fi/uusiastia/viewer/?fileId=5850797857&amp;aineistoId=1152187148</a></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref4b">
 								<ul>
 									<li>
 									Page: 421
 									</li>
 									<li>
 									Link: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=6253000">http://digi.narc.fi/digi/view.ka?kuid=6253000</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5850796984&amp;aineistoId=1152187148">https://astia.narc.fi/uusiastia/viewer/?fileId=5850796984&amp;aineistoId=1152187148</a></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref4b">
+								<ul>
+									<li>
+									Page: 393
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=6252974">http://digi.narc.fi/digi/view.ka?kuid=6252974</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5850797857&amp;aineistoId=1152187148">https://astia.narc.fi/uusiastia/viewer/?fileId=5850797857&amp;aineistoId=1152187148</a></p></div>
 									</li>
 								</ul>
 							</li>
@@ -856,11 +839,48 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/9/7/db7209004b07c97caaf35718179.html" title="Pornaisten seurakunta: Pornainen Rippikirja 1862-1872" name ="sref5">
+						<a href="../../../src/6/0/db8b22087601ac1079ef124f706.html" title="Askolan seurakunta: Askola Lastenkirja 1856-1869" name ="sref5">
+						Askolan seurakunta: Askola Lastenkirja 1856-1869
+						</a>
+						<ol id="citr">
+							<li id="sref5a">
+								<ul>
+									<li>
+									Page: 421-422
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=6254137">http://digi.narc.fi/digi/view.ka?kuid=6254137</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5850595392&amp;aineistoId=1152263778">https://astia.narc.fi/uusiastia/viewer/?fileId=5850595392&amp;aineistoId=1152263778</a></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref5b">
+								<ul>
+									<li>
+									Page: 391-392
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=6254121">http://digi.narc.fi/digi/view.ka?kuid=6254121</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5850596174&amp;aineistoId=1152263778">https://astia.narc.fi/uusiastia/viewer/?fileId=5850596174&amp;aineistoId=1152263778</a></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref5c">
+								<ul>
+									<li>
+									Page: 393-394
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=6254123">http://digi.narc.fi/digi/view.ka?kuid=6254123</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5850596188&amp;aineistoId=1152263778">https://astia.narc.fi/uusiastia/viewer/?fileId=5850596188&amp;aineistoId=1152263778</a></p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../src/9/7/db7209004b07c97caaf35718179.html" title="Pornaisten seurakunta: Pornainen Rippikirja 1862-1872" name ="sref6">
 						Pornaisten seurakunta: Pornainen Rippikirja 1862-1872
 						</a>
-						<ol>
-							<li id="sref5a">
+						<ol id="citr">
+							<li id="sref6a">
 								<ul>
 									<li>
 									Page: 88
@@ -873,47 +893,10 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/6/0/db8b22087601ac1079ef124f706.html" title="Askolan seurakunta: Askola Lastenkirja 1856-1869" name ="sref6">
-						Askolan seurakunta: Askola Lastenkirja 1856-1869
-						</a>
-						<ol>
-							<li id="sref6a">
-								<ul>
-									<li>
-									Page: 421-422
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=6254137">http://digi.narc.fi/digi/view.ka?kuid=6254137</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5850595392&amp;aineistoId=1152263778">https://astia.narc.fi/uusiastia/viewer/?fileId=5850595392&amp;aineistoId=1152263778</a></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref6b">
-								<ul>
-									<li>
-									Page: 393-394
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=6254123">http://digi.narc.fi/digi/view.ka?kuid=6254123</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5850596188&amp;aineistoId=1152263778">https://astia.narc.fi/uusiastia/viewer/?fileId=5850596188&amp;aineistoId=1152263778</a></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref6c">
-								<ul>
-									<li>
-									Page: 391-392
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=6254121">http://digi.narc.fi/digi/view.ka?kuid=6254121</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5850596174&amp;aineistoId=1152263778">https://astia.narc.fi/uusiastia/viewer/?fileId=5850596174&amp;aineistoId=1152263778</a></p></div>
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
 						<a href="../../../src/1/9/db8b197fb1e32876ed90f520391.html" title="Askolan seurakunta: Askola Rippikirja 1870-1879" name ="sref7">
 						Askolan seurakunta: Askola Rippikirja 1870-1879
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref7a">
 								<ul>
 									<li>
@@ -930,7 +913,7 @@
 						<a href="../../../src/a/c/db8b1c104f14c48185cd69d7aca.html" title="Askolan seurakunta: Askola Lastenkirja 1870-1879" name ="sref8">
 						Askolan seurakunta: Askola Lastenkirja 1870-1879
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref8a">
 								<ul>
 									<li>
@@ -947,7 +930,7 @@
 						<a href="../../../src/c/f/db8b16ae67f36ad7afd5bd829fc.html" title="Askolan seurakunta: Askola Muuttaneet 1871-1884" name ="sref9">
 						Askolan seurakunta: Askola Muuttaneet 1871-1884
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref9a">
 								<ul>
 									<li>
@@ -964,7 +947,7 @@
 						<a href="../../../src/7/1/db8ac50870266a0a0b9b1398317.html" title="Porvoon kaupunkiseurakunta: Porvoo kaup Lastenkirja 1877-1888" name ="sref10">
 						Porvoon kaupunkiseurakunta: Porvoo kaup Lastenkirja 1877-1888
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref10a">
 								<ul>
 									<li>
@@ -987,7 +970,7 @@
 						<a href="../../../src/5/a/f35e8131f262e5b3b666aca39a5.html" title="Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Rippikirja 1880-1890" name ="sref11">
 						Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Rippikirja 1880-1890
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref11a">
 								<ul>
 									<li>
@@ -1033,7 +1016,7 @@
 						<a href="../../../src/b/8/db8afbbe34252728d922ae86a8b.html" title="Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Lastenkirja 1880-1889" name ="sref12">
 						Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Lastenkirja 1880-1889
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref12a">
 								<ul>
 									<li>
@@ -1060,7 +1043,7 @@
 						<a href="../../../src/2/d/cf9325616952d40d6d2.html" title="Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Rippikirja 1890-1899" name ="sref13">
 						Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Rippikirja 1890-1899
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref13a">
 								<ul>
 									<li>
@@ -1115,7 +1098,7 @@
 						<a href="../../../src/6/2/db8bd0a894e3a39e2cb43f57c26.html" title="Porvoon suomalainen seurakunta: Porvoo suom Rippikirja 1880-1889" name ="sref14">
 						Porvoon suomalainen seurakunta: Porvoo suom Rippikirja 1880-1889
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref14a">
 								<ul>
 									<li>
@@ -1138,7 +1121,7 @@
 						<a href="../../../src/7/0/f16a42ae9774b0ba5a082769407.html" title="Porvoon maaseurakunta: Porvoo msrk Rippikirja 1900-1909" name ="sref15">
 						Porvoon maaseurakunta: Porvoo msrk Rippikirja 1900-1909
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref15a">
 								<ul>
 									<li>
@@ -1239,7 +1222,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2017-10-23 00:41:42<br />Created for Entire Database
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2<br />Last change was the 2017-10-23 00:41:42<br />Created for Entire Database
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

@@ -1,27 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>Nordberg Family Tree - Nyström, Viktor Wilhelm</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
-	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">Nordberg Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">Nordberg Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li class = "CurrentSection"><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
 					<li><a href="../../../families.html" title="Families">Families</a></li>
@@ -29,13 +39,43 @@
 					<li><a href="../../../places.html" title="Places">Places</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="IndividualDetail">
 			<h3>Nyström, Viktor Wilhelm<sup><small></small></sup></h3>
 			<div id="summaryarea">
@@ -58,7 +98,7 @@
 			</div>
 			<div class="subsection" id="events">
 				<h4>Events</h4>
-				<table class="infolist eventlist">
+				<table class="infolist eventlist toggle_event ltr" id="toggle_event" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnEvent">Event</th>
@@ -70,33 +110,7 @@
 					</thead>
 					<tbody>
 						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/5/5/e8247b713b745a8642c90ed2f55.html" title="Birth">
-								Birth
-								</a>
-							</td>
-							<td class="ColumnDate">1881-06-02</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/5/6/e82478dea7034bf7ec557d7af65.html" title="Kirkkonummi, Suomi">
-								Kirkkonummi, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref1a">1a</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/2/6/f14717f97625bb7fe2cfcbedb62.html" title="Residence">
 								Residence
 								</a>
@@ -109,12 +123,9 @@
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref2a">2a</a> <a href="#sref3a">3a</a> <a href="#sref4a">4a</a>
+							 <a href="#sref1a">1a</a> <a href="#sref2a">2a</a> <a href="#sref3a">3a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -122,25 +133,22 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/2/b/f147183f5965edf857c861409b2.html" title="Residence">
-								Residence
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/5/5/e8247b713b745a8642c90ed2f55.html" title="Birth">
+								Birth
 								</a>
 							</td>
-							<td class="ColumnDate">from 1897-10-14 to 1900</td>
+							<td class="ColumnDate">1881-06-02</td>
 							<td class="ColumnPlace">
-								<a href="../../../plc/3/9/f14720af5da5b0c1e02374e3093.html" title="Prästgården, Esbo, Suomi">
-								Prästgården, Esbo, Suomi
+								<a href="../../../plc/5/6/e82478dea7034bf7ec557d7af65.html" title="Kirkkonummi, Suomi">
+								Kirkkonummi, Suomi
 								</a>
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref2a">2a</a> <a href="#sref3a">3a</a> <a href="#sref4a">4a</a> <a href="#sref5a">5a</a>
+							 <a href="#sref4a">4a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -148,7 +156,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/1/8/f147253819d12f2ecc13bdedc81.html" title="Residence">
 								Residence
 								</a>
@@ -161,12 +169,9 @@
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref5b">5b</a> <a href="#sref4b">4b</a>
+							 <a href="#sref5a">5a</a> <a href="#sref3b">3b</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -174,25 +179,22 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/6/2/f147291623258495da1a6424226.html" title="Residence">
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/2/b/f147183f5965edf857c861409b2.html" title="Residence">
 								Residence
 								</a>
 							</td>
-							<td class="ColumnDate">after 1902-12-24</td>
+							<td class="ColumnDate">from 1897-10-14 to 1900</td>
 							<td class="ColumnPlace">
-								<a href="../../../plc/5/5/cb589cc7f8d1b88b055.html" title="Helsinki, Suomi">
-								Helsinki, Suomi
+								<a href="../../../plc/3/9/f14720af5da5b0c1e02374e3093.html" title="Prästgården, Esbo, Suomi">
+								Prästgården, Esbo, Suomi
 								</a>
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref5b">5b</a> <a href="#sref4b">4b</a> <a href="#sref6a">6a</a>
+							 <a href="#sref1a">1a</a> <a href="#sref2a">2a</a> <a href="#sref3a">3a</a> <a href="#sref5b">5b</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -200,7 +202,72 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/6/3/f14a2afbe707a18d1a469b84636.html" title="Residence">
+								Residence
+								</a>
+							</td>
+							<td class="ColumnDate">1910</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/8/4/e824c5cd07c6c47d763f376f448.html" title="Jägaregatan 13, Simpan, 7. Stadsdelen, Helsinki, Suomi">
+								Jägaregatan 13, Simpan, 7. Stadsdelen, Helsinki, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref6a">6a</a>
+							</td>
+							<tr>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/a/9/e824887f0f549e233da43838c9a.html" title="Death">
+								Death
+								</a>
+							</td>
+							<td class="ColumnDate">1938-06-13</td>
+							<td class="ColumnPlace">&nbsp;</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref7a">7a</a> <a href="#sref8a">8a</a> <a href="#sref9a">9a</a>
+							</td>
+							<tr>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/2/b/e8248c486427845e1ec0bf8c1b2.html" title="Burial">
+								Burial
+								</a>
+							</td>
+							<td class="ColumnDate">1938-06-19</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/7/8/f14525a108d49d9ad2628018287.html" title="hauta 257, rivi 14, kortteli 65, Malmin hautausmaa, Helsinki, Suomi">
+								hauta 257, rivi 14, kortteli 65, Malmin hautausmaa, Helsinki, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref9a">9a</a> <a href="#sref9b">9b</a> <a href="#sref7a">7a</a> <a href="#sref8a">8a</a>
+							</td>
+							<tr>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/1/9/f14775e1de52c65166bc92b4791.html" title="Occupation">
 								Occupation
 								</a>
@@ -215,12 +282,9 @@
 							postiljooni
 							</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref7a">7a</a> <a href="#sref7b">7b</a> <a href="#sref7c">7c</a> <a href="#sref7d">7d</a> <a href="#sref7e">7e</a> <a href="#sref7f">7f</a> <a href="#sref7g">7g</a> <a href="#sref7h">7h</a> <a href="#sref7i">7i</a> <a href="#sref7j">7j</a> <a href="#sref7k">7k</a> <a href="#sref7l">7l</a> <a href="#sref7m">7m</a> <a href="#sref7n">7n</a> <a href="#sref7o">7o</a> <a href="#sref7p">7p</a>
+							 <a href="#sref10a">10a</a> <a href="#sref10b">10b</a> <a href="#sref10c">10c</a> <a href="#sref10d">10d</a> <a href="#sref10e">10e</a> <a href="#sref10f">10f</a> <a href="#sref10g">10g</a> <a href="#sref10h">10h</a> <a href="#sref10i">10i</a> <a href="#sref10j">10j</a> <a href="#sref10k">10k</a> <a href="#sref10l">10l</a> <a href="#sref10m">10m</a> <a href="#sref10n">10n</a> <a href="#sref10o">10o</a> <a href="#sref10p">10p</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -228,73 +292,22 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/6/3/f14a2afbe707a18d1a469b84636.html" title="Residence">
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/6/2/f147291623258495da1a6424226.html" title="Residence">
 								Residence
 								</a>
 							</td>
-							<td class="ColumnDate">1910</td>
+							<td class="ColumnDate">after 1902-12-24</td>
 							<td class="ColumnPlace">
-								<a href="../../../plc/8/4/e824c5cd07c6c47d763f376f448.html" title="Jägaregatan 13, Simpan, 7. Stadsdelen, Helsinki, Suomi">
-								Jägaregatan 13, Simpan, 7. Stadsdelen, Helsinki, Suomi
+								<a href="../../../plc/5/5/cb589cc7f8d1b88b055.html" title="Helsinki, Suomi">
+								Helsinki, Suomi
 								</a>
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref8a">8a</a>
+							 <a href="#sref5a">5a</a> <a href="#sref3b">3b</a> <a href="#sref11a">11a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/a/9/e824887f0f549e233da43838c9a.html" title="Death">
-								Death
-								</a>
-							</td>
-							<td class="ColumnDate">1938-06-13</td>
-							<td class="ColumnPlace">&nbsp;</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref9a">9a</a> <a href="#sref10a">10a</a> <a href="#sref11a">11a</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/2/b/e8248c486427845e1ec0bf8c1b2.html" title="Burial">
-								Burial
-								</a>
-							</td>
-							<td class="ColumnDate">1938-06-19</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/7/8/f14525a108d49d9ad2628018287.html" title="hauta 257, rivi 14, kortteli 65, Malmin hautausmaa, Helsinki, Suomi">
-								hauta 257, rivi 14, kortteli 65, Malmin hautausmaa, Helsinki, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref11a">11a</a> <a href="#sref11b">11b</a> <a href="#sref9a">9a</a> <a href="#sref10a">10a</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -306,7 +319,7 @@
 			</div>
 			<div class="subsection" id="parents">
 				<h4>Parents</h4>
-				<table class="infolist">
+				<table class="infolist toggle_parent ltr" id="toggle_parent" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnAttribute">Relation to main person</th>
@@ -337,7 +350,7 @@
 			</div>
 			<div class="subsection" id="families">
 				<h4>Families</h4>
-				<table class="infolist">
+				<table class="infolist" id="toggle_families" style="display:block">
 					<tr class="BeginFamily">
 						<td class="ColumnValue" colspan="3"><H4 class="subsection"><a href="../../../fam/5/7/cb589cc849649a1de75.html" title="Family of Nyström, Viktor Wilhelm and Nordberg, Elin Maria">Family of Nyström, Viktor Wilhelm and Nordberg, Elin Maria</a></H4></td>
 					</tr>
@@ -355,9 +368,8 @@
 					</tr>
 					<tr>
 						<td class="ColumnType">&nbsp;</td>
-						<td class="ColumnAttribute">&nbsp;</td>
-						<td class="ColumnValue">
-							<table class="infolist eventlist">
+						<td class="ColumnValue" colspan="2">
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnEvent">Event</th>
@@ -369,7 +381,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/b/7/cb589cfbfba4c2d037b.html" title="Marriage">
 											Marriage
 											</a>
@@ -382,12 +394,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref11c">11c</a>
+										 <a href="#sref9c">9c</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -395,7 +404,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/5/6/e824c5d7def3feebfade6247365.html" title="Residence">
 											Residence
 											</a>
@@ -411,9 +420,6 @@
 										 <a href="#sref12a">12a</a> <a href="#sref13a">13a</a> <a href="#sref14a">14a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -421,7 +427,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/d/6/e824c23795a7b4635e7572db56d.html" title="Residence">
 											Residence
 											</a>
@@ -437,9 +443,6 @@
 										 <a href="#sref15a">15a</a> <a href="#sref14b">14b</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -447,7 +450,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/d/6/e824ba0383c5f31f367ae34416d.html" title="Residence">
 											Residence
 											</a>
@@ -463,9 +466,6 @@
 										 <a href="#sref16a">16a</a> <a href="#sref17a">17a</a> <a href="#sref14c">14c</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -473,7 +473,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/f/5/e824abc4bdd1eaa0dcd7603485f.html" title="Residence">
 											Residence
 											</a>
@@ -489,9 +489,6 @@
 										 <a href="#sref14d">14d</a> <a href="#sref14e">14e</a> <a href="#sref18a">18a</a> <a href="#sref14f">14f</a> <a href="#sref19a">19a</a> <a href="#sref14g">14g</a> <a href="#sref20a">20a</a> <a href="#sref14h">14h</a> <a href="#sref21a">21a</a> <a href="#sref22a">22a</a> <a href="#sref14i">14i</a> <a href="#sref23a">23a</a> <a href="#sref14j">14j</a> <a href="#sref14k">14k</a> <a href="#sref14l">14l</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -502,10 +499,9 @@
 							</table>
 						</td>
 						<tr>
-							<td class="ColumnType">&nbsp;</td>
 							<td class="ColumnAttribute">Children</td>
-							<td class="ColumnValue" />
-							<table class="infolist eventlist">
+							<td class="ColumnValue Child" colspan="2" />
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnName">Name</th>
@@ -524,7 +520,7 @@
 			</div>
 			<div class="subsection" id="pedigree">
 				<h4>Pedigree</h4>
-				<ol class="pedigreegen">
+				<ol class="pedigreegen" id="toggle_pedigree" style="display:block">
 					<li>
 						<a href="../../../ppl/8/1/f145b326bd0fbcc9236cb35618.html">Nyström, Eric Johan</a>
 						<ol>
@@ -555,69 +551,48 @@
 			</div>
 			<div class="subsection" id="tree">
 				<h4>Ancestors</h4>
-				<div id="treeContainer" style="width:614px; height:300px; top: 0px">
-					<div class="boxbg male AncCol0" style="top: 80px; left: 6px;">
-						<a class="noThumb" href="../../../ppl/9/a/cea5cca2afb352181a9.html">
-						Nyström, Viktor Wilhelm<br/>*1881-06-02<br/>+1938-06-13
-						</a>
+				<div class="tree" id="toggle_anc" style="display:block">
+					<div id="treeContainer" style="width:614px; height:300px; top: 0px">
+						<div class="boxbg male AncCol0" style="top: 80px; left: 6px;">
+							<a class="noThumb" href="../../../ppl/9/a/cea5cca2afb352181a9.html">
+							Nyström, Viktor Wilhelm<br>*1881-06-02<br>+1938-06-13
+							</a>
+						</div>
+						<div class="shadow" style="top: 85px; left: 10px;"></div>
+						<div class="bvline" style="top: 100px; left: 285px; width: 15px"></div>
+						<div class="gvline" style="top: 105px; left: 285px; width: 20px"></div>
+						<div class="boxbg male AncCol1" style="top: 5px; left: 316px;">
+							<a class="noThumb" href="../../../ppl/8/1/f145b326bd0fbcc9236cb35618.html">
+							Nyström, Eric Johan<br>*1843-06-03<br>+1889-11-06
+							</a>
+						</div>
+						<div class="shadow" style="top: 10px; left: 320px;"></div>
+						<div class="bvline" style="top: 25px; left: 300px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 25px; left: 300px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol1" style="top: 155px; left: 316px;">
+							<a class="noThumb" href="../../../ppl/e/e/f145bd077fc4556bfd054b354ee.html">
+							Vesterlund, Maria Serafia<br>*1839-03-30<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 160px; left: 320px;"></div>
+						<div class="bvline" style="top: 175px; left: 300px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 100px; left: 300px; height: 76px;"></div>
+					
 					</div>
-					<div class="shadow" style="top: 85px; left: 10px;"></div>
-					<div class="bvline" style="top: 100px; left: 285px; width: 15px"></div>
-					<div class="gvline" style="top: 105px; left: 285px; width: 20px"></div>
-					<div class="boxbg male AncCol1" style="top: 5px; left: 316px;">
-						<a class="noThumb" href="../../../ppl/8/1/f145b326bd0fbcc9236cb35618.html">
-						Nyström, Eric Johan<br/>*1843-06-03<br/>+1889-11-06
-						</a>
-					</div>
-					<div class="shadow" style="top: 10px; left: 320px;"></div>
-					<div class="bvline" style="top: 25px; left: 300px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 25px; left: 300px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol1" style="top: 155px; left: 316px;">
-						<a class="noThumb" href="../../../ppl/e/e/f145bd077fc4556bfd054b354ee.html">
-						Vesterlund, Maria Serafia<br/>*1839-03-30<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 160px; left: 320px;"></div>
-					<div class="bvline" style="top: 175px; left: 300px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 100px; left: 300px; height: 76px;"></div>
-				
 				</div>
 			</div>
 			<div class="subsection" id="sourcerefs">
 				<h4>Source References</h4>
-				<ol>
+				<ol id="srcr">
 					<li>
-						<a href="../../../src/a/6/e82479a1fc16674e302154fe46a.html" title="Kirkkonummen seurakunta: Kirkkonummi Syntyneet 1853-1884" name ="sref1">
-						Kirkkonummen seurakunta: Kirkkonummi Syntyneet 1853-1884
-						</a>
-						<ol>
-							<li id="sref1a">
-								<ul>
-									<li>
-									Page: 369/370
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Kirkkonummi syntyneet 1853-1884 (AP I C:6)  Sivu 369 1881 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29146&amp;pnum=190 / Viitattu 30.12.2023</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29146&amp;pnum=190">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29146&amp;pnum=190</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">1881</span></p><p><span style="font-family:'Courier New';">Junii &nbsp;2 &nbsp;5 657 Par: Träskby Torparen Eric Johan Nyström och</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;hu. Maria Sofia &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 40_45</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Victor Wilhelm</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Test: Torp. Karl Gustaf Strömberg och hu Maria</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Charlotta &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;af Lybeck</span></p></div>
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
-						<a href="../../../src/f/3/f1471236a2714bfaabe0929653f.html" title="Kirkkonummen seurakunta: Kirkkonummi Rippikirja 1888-1897" name ="sref2">
+						<a href="../../../src/f/3/f1471236a2714bfaabe0929653f.html" title="Kirkkonummen seurakunta: Kirkkonummi Rippikirja 1888-1897" name ="sref1">
 						Kirkkonummen seurakunta: Kirkkonummi Rippikirja 1888-1897
 						</a>
-						<ol>
-							<li id="sref2a">
+						<ol id="citr">
+							<li id="sref1a">
 								<ul>
 									<li>
 									Page: 810
@@ -636,11 +611,11 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/8/c/f147198dd794c9c527c045abfc8.html" title="Kirkkonummen seurakunta: Kirkkonummi Muuttaneet 1893-1910" name ="sref3">
+						<a href="../../../src/8/c/f147198dd794c9c527c045abfc8.html" title="Kirkkonummen seurakunta: Kirkkonummi Muuttaneet 1893-1910" name ="sref2">
 						Kirkkonummen seurakunta: Kirkkonummi Muuttaneet 1893-1910
 						</a>
-						<ol>
-							<li id="sref3a">
+						<ol id="citr">
+							<li id="sref2a">
 								<ul>
 									<li>
 									Page: 317-318
@@ -659,11 +634,11 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/c/2/f1471c9930a29c9fc612627c02c.html" title="Espoon seurakunta: Espoo Muuttaneet 1892-1926" name ="sref4">
+						<a href="../../../src/c/2/f1471c9930a29c9fc612627c02c.html" title="Espoon seurakunta: Espoo Muuttaneet 1892-1926" name ="sref3">
 						Espoon seurakunta: Espoo Muuttaneet 1892-1926
 						</a>
-						<ol>
-							<li id="sref4a">
+						<ol id="citr">
+							<li id="sref3a">
 								<ul>
 									<li>
 									Page: kuva 36
@@ -679,7 +654,7 @@
 									</li>
 								</ul>
 							</li>
-							<li id="sref4b">
+							<li id="sref3b">
 								<ul>
 									<li>
 									Page: kuva 59
@@ -698,27 +673,34 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/9/4/f1472122b017d82016800745c49.html" title="Espoon seurakunta: Espoo Rippikirja 1894-1902" name ="sref5">
-						Espoon seurakunta: Espoo Rippikirja 1894-1902
+						<a href="../../../src/a/6/e82479a1fc16674e302154fe46a.html" title="Kirkkonummen seurakunta: Kirkkonummi Syntyneet 1853-1884" name ="sref4">
+						Kirkkonummen seurakunta: Kirkkonummi Syntyneet 1853-1884
 						</a>
-						<ol>
-							<li id="sref5a">
+						<ol id="citr">
+							<li id="sref4a">
 								<ul>
 									<li>
-									Page: 532
+									Page: 369/370
 									</li>
 									<li>
-									Citation: <div class="grampsstylednote"><p>Espoo rippikirja 1894-1902 (AP_II I Aa 10)  Sivu 532 Prestgården, boställe ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=30912&amp;pnum=189 / Viitattu 17.07.2022</p></div>
+									Citation: <div class="grampsstylednote"><p>Kirkkonummi syntyneet 1853-1884 (AP I C:6)  Sivu 369 1881 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29146&amp;pnum=190 / Viitattu 30.12.2023</p></div>
 									</li>
 									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=30912&amp;pnum=189">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=30912&amp;pnum=189</a></p></div>
+									Link: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29146&amp;pnum=190">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=29146&amp;pnum=190</a></p></div>
 									</li>
 									<li>
-									Citation: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">532 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Prestgården</span><br /><span style="font-family:'Courier New';">boställe</span><br /><span style="font-family:'Courier New';">[...]</span><br /><span style="font-family:'Courier New';">Drg Viktor Wilhelm Nyström &nbsp;2/6 1881 &nbsp; &nbsp;Kyrkslätt &nbsp; &nbsp;Kyrkslätt 97 No63 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1900/469</span></p></div>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">1881</span></p><p><span style="font-family:'Courier New';">Junii &nbsp;2 &nbsp;5 657 Par: Träskby Torparen Eric Johan Nyström och</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;hu. Maria Sofia &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 40_45</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Victor Wilhelm</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Test: Torp. Karl Gustaf Strömberg och hu Maria</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Charlotta &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;af Lybeck</span></p></div>
 									</li>
 								</ul>
 							</li>
-							<li id="sref5b">
+						</ol>
+					</li>
+					<li>
+						<a href="../../../src/9/4/f1472122b017d82016800745c49.html" title="Espoon seurakunta: Espoo Rippikirja 1894-1902" name ="sref5">
+						Espoon seurakunta: Espoo Rippikirja 1894-1902
+						</a>
+						<ol id="citr">
+							<li id="sref5a">
 								<ul>
 									<li>
 									Page: 469
@@ -734,348 +716,30 @@
 									</li>
 								</ul>
 							</li>
-						</ol>
-					</li>
-					<li>
-						<a href="../../../src/4/d/f1472ddc855128eb49bd222eed4.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Muuttaneet 1902-1906" name ="sref6">
-						Helsingin ruotsalais-suomalainen seurakunta: Helsinki Muuttaneet 1902-1906
-						</a>
-						<ol>
-							<li id="sref6a">
+							<li id="sref5b">
 								<ul>
 									<li>
-									Page: kuva 47
+									Page: 532
 									</li>
 									<li>
-									Citation: <div class="grampsstylednote"><p>Helsinki muuttaneet 1902-1906 (MKO32-36)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23490&amp;pnum=47 / Viitattu 17.07.2022</p></div>
+									Citation: <div class="grampsstylednote"><p>Espoo rippikirja 1894-1902 (AP_II I Aa 10)  Sivu 532 Prestgården, boställe ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=30912&amp;pnum=189 / Viitattu 17.07.2022</p></div>
 									</li>
 									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23490&amp;pnum=47">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23490&amp;pnum=47</a></p></div>
+									Link: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=30912&amp;pnum=189">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=30912&amp;pnum=189</a></p></div>
 									</li>
 									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">December 1902</span><br /><span style="font-family:'Courier New';">[...]</span><br /><span style="font-family:'Courier New';">[24] &nbsp;3568 &nbsp;Nyström, Viktor Wilhelm &nbsp;1 - &nbsp;4-786 &nbsp;f:1881</span></p></div>
+									Citation: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">532 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Prestgården</span><br /><span style="font-family:'Courier New';">boställe</span><br /><span style="font-family:'Courier New';">[...]</span><br /><span style="font-family:'Courier New';">Drg Viktor Wilhelm Nyström &nbsp;2/6 1881 &nbsp; &nbsp;Kyrkslätt &nbsp; &nbsp;Kyrkslätt 97 No63 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1900/469</span></p></div>
 									</li>
 								</ul>
 							</li>
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/f/f/f1477198a446099862afb4d8fff.html" title="Suomen Postiljooniyhdistys: Postimies" name ="sref7">
-						Suomen Postiljooniyhdistys: Postimies
-						</a>
-						<ol>
-							<li id="sref7a">
-								<ul>
-									<li>
-									Date: 1910-01-01
-									</li>
-									<li>
-									Page: 1910-1/1
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Postimies, 01.01.1910, nro 1, s. 1<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/885481?page=1<br />Kansalliskirjaston digitaaliset aineistot</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/885481?term=Nystr%C3%B6m&amp;page=1">https://digi.kansalliskirjasto.fi/aikakausi/binding/885481?term=Nystr%C3%B6m&amp;page=1</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">Onnellista Uutta Vuotta &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Godt Nytt År</span><br /><span style="font-family:'Courier New';">toivottavat kaikille tovereille: &nbsp; &nbsp; &nbsp; önskar åt alla kamrater:</span></p><p><span style="font-family:'Courier New';">Helsingistä: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; I Helsingfors:</span><br /><span style="font-family:'Courier New';">[...]</span><br /><span style="font-family:'Courier New';">V. Nyström</span></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref7b">
-								<ul>
-									<li>
-									Date: 1911-01-01
-									</li>
-									<li>
-									Page: 1911-1/5
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Postimies, 01.01.1911, nro 1, s. 5<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/885501?page=5<br />Kansalliskirjaston digitaaliset aineistot</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="../../../src/e/b/f145d079b6f5f614d929cf2f2be.html">https://digi.kansalliskirjasto.fi/aikakausi/binding/885501?page=5</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">Onnellista Uutta Vuotta &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Godt Nytt År</span><br /><span style="font-family:'Courier New';">toivottavat kaikille tovereille: &nbsp; &nbsp; &nbsp; tillönskas alla kamrater:</span></p><p><span style="font-family:'Courier New';">Helsingistä: - I Helsingfors:</span><br /><span style="font-family:'Courier New';">[...]</span><br /><span style="font-family:'Courier New';">Elin ja V. Nyström</span></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref7c">
-								<ul>
-									<li>
-									Date: 1912-01-01
-									</li>
-									<li>
-									Page: 1912-1/5
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Postimies, 01.01.1912, nro 1, s. 5<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/885521?page=5<br />Kansalliskirjaston digitaaliset aineistot</p><p>&nbsp;</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/885521?term=Nystr%C3%B6m&amp;page=5">https://digi.kansalliskirjasto.fi/aikakausi/binding/885521?term=Nystr%C3%B6m&amp;page=5</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">Onnellista Uutta Vuotta &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Godt Nytt År</span><br /><span style="font-family:'Courier New';">toivottavat kaikille tovereille: &nbsp; &nbsp; &nbsp; tillönskas alla kamrater:</span></p><p><span style="font-family:'Courier New';">Helsingissä: - I Helsingfors:</span><br /><span style="font-family:'Courier New';">[...]</span><br /><span style="font-family:'Courier New';">Nyström, Elin &amp; W. V.</span></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref7d">
-								<ul>
-									<li>
-									Date: 1912-09-16
-									</li>
-									<li>
-									Page: 1912-18/10
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Postimies, 16.09.1912, nro 18, s. 10<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/885536?page=10<br />Kansalliskirjaston digitaaliset aineistot</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/885536?term=Nystr%C3%B6m&amp;page=10">https://digi.kansalliskirjasto.fi/aikakausi/binding/885536?term=Nystr%C3%B6m&amp;page=10</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>&nbsp; &nbsp; &nbsp; &nbsp; Postiljoonioppikurssit.</strong></span><span style="font-family:'Courier New';"></span><br /><span style="font-family:'Courier New';">&nbsp; Suomen ensimäisiin postiljoonioppikurssei-</span><br /><span style="font-family:'Courier New';">hin on hyväksytty seuraavat postiljoonit:</span><br /><span style="font-family:'Courier New';">&nbsp; </span><em><span style="font-family:'Courier New';">Helsinkiin: </span></em><span style="font-family:'Courier New';">[...]</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;V. W.</span><br /><span style="font-family:'Courier New';">Nyström, [...]</span></p><p>&nbsp;</p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref7e">
-								<ul>
-									<li>
-									Date: 1913-01-01
-									</li>
-									<li>
-									Page: 1913-1/9
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Postimies, 01.01.1913, nro 1, s. 9<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/898362?page=9<br />Kansalliskirjaston digitaaliset aineistot</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/898362?term=Nystr%C3%B6m&amp;page=9">https://digi.kansalliskirjasto.fi/aikakausi/binding/898362?term=Nystr%C3%B6m&amp;page=9</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Nimityksiä.</strong></span></p><p><span style="font-family:'Courier New';"><strong></strong></span><span style="font-family:'Courier New';">&nbsp; Vakinaisiksi postiljooneiksi allamainituille</span><br /><span style="font-family:'Courier New';">paikkakunnille on Postihallitus nimittänyt seu-</span><br /><span style="font-family:'Courier New';">raavat ylimääräiset postiljoonit:</span></p><p><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><em><span style="font-family:'Courier New';">Helsinkiin:</span></em><br /><em><span style="font-family:'Courier New';"></span></em><span style="font-family:'Courier New';">[...] &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ; Viktor</span><br /><span style="font-family:'Courier New';">Wilhelm Nyström;</span></p><p>&nbsp;</p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref7f">
-								<ul>
-									<li>
-									Date: 1914-01-01
-									</li>
-									<li>
-									Page: 1914-1/3
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Postimies, 01.01.1914, nro 1, s. 3<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/898382?page=3<br />Kansalliskirjaston digitaaliset aineistot</p><p>&nbsp;</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/898382?term=Nystr%C3%B6m&amp;page=3">https://digi.kansalliskirjasto.fi/aikakausi/binding/898382?term=Nystr%C3%B6m&amp;page=3</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">&nbsp; &nbsp; Onnellista Uutta Vuotta!</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Godt Nytt År!</span><br /><span style="font-family:'Courier New';">toivottavat kaikille tovereille: &nbsp;- önskas åt alla kamrater:</span></p><p><span style="font-family:'Courier New';">Helsingistä: - fr. Helsingfors:</span><br /><span style="font-family:'Courier New';">[...]</span><br /><span style="font-family:'Courier New';">Elin &amp; Victor Nyström,</span></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref7g">
-								<ul>
-									<li>
-									Date: 1915-01-01
-									</li>
-									<li>
-									Page: 1915-1/7
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Postimies, 01.01.1915, nro 1, s. 7<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/898404?page=7<br />Kansalliskirjaston digitaaliset aineistot</p><p>&nbsp;</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/898404?term=Nystr%C3%B6m&amp;page=7">https://digi.kansalliskirjasto.fi/aikakausi/binding/898404?term=Nystr%C3%B6m&amp;page=7</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">Onnellista Uutta Vuotta &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Godt Nytt År</span><br /><span style="font-family:'Courier New';">toivottavat kaikille tovereille: &nbsp; &nbsp; &nbsp; önskas alla kamrater:</span></p><p><span style="font-family:'Courier New';">Helsinki - Helsingfors</span><br /><span style="font-family:'Courier New';">[...]</span><br /><span style="font-family:'Courier New';">Nyström, Elin &amp; V. V.</span></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref7h">
-								<ul>
-									<li>
-									Date: 1919-01-01
-									</li>
-									<li>
-									Page: 1919-1/7
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Postimies, 01.01.1919, nro 1, s. 7<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/898481?page=7<br />Kansalliskirjaston digitaaliset aineistot</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/898481?page=7">https://digi.kansalliskirjasto.fi/aikakausi/binding/898481?page=7</a></p></div>
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">Onnellista Uutta Vuotta &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| &nbsp; Godt Nytt År</span><br /><span style="font-family:'Courier New';">toivottavat kaikille tovereille: &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; tillönskas alla kamrater:</span></p><p><span style="font-family:'Courier New';">Helsinki: - Helsingfors:</span><br /><span style="font-family:'Courier New';">[...]</span><br /><span style="font-family:'Courier New';">Nyström, V. W. med familj</span></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref7i">
-								<ul>
-									<li>
-									Date: 1920-01-01
-									</li>
-									<li>
-									Page: 1920-1/1
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Postimies, 01.01.1920, nro 1, s. 1<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/898493?page=1<br />Kansalliskirjaston digitaaliset aineistot</p><p>&nbsp;</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/898493?term=Nystr%C3%B6m&amp;page=1">https://digi.kansalliskirjasto.fi/aikakausi/binding/898493?term=Nystr%C3%B6m&amp;page=1</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">Onnellista Uutta Vuotta &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Godt Nytt År</span><br /><span style="font-family:'Courier New';">toivottavat kaikille tovereille: &nbsp; &nbsp; &nbsp; tillönskas alla kamrater:</span></p><p><span style="font-family:'Courier New';">Helsinki - Helsingfors:</span><br /><span style="font-family:'Courier New';">[...]</span><br /><span style="font-family:'Courier New';">Nyström, V. W. &amp; E</span></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref7j">
-								<ul>
-									<li>
-									Date: 1928-03-01
-									</li>
-									<li>
-									Page: 1928-3/11
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Postimies, 01.03.1928, nro 3, s. 11<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/898568?page=11<br />Kansalliskirjaston digitaaliset aineistot</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/898568?term=Nystr%C3%B6m&amp;page=11">https://digi.kansalliskirjasto.fi/aikakausi/binding/898568?term=Nystr%C3%B6m&amp;page=11</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><strong><span style="font-family:'Courier New';">Sport.</span></strong><span style="font-family:'Courier New';"></span><br /><span style="font-family:'Courier New';">&nbsp; Söndagen den 19 febr. hade brevbärarna vid Sör-</span><br /><span style="font-family:'Courier New';">näs brevbärarekontor anordnat sedvanlig skidtäv-</span><br /><span style="font-family:'Courier New';">lan sinsemellan å 5 km. bana.</span><br /><span style="font-family:'Courier New';">Tävlades om de av O. Vaulo och A. Tiljander </span><br /><span style="font-family:'Courier New';">instiftade vandringsprisen. Tävlingen gick i tvenne </span><br /><span style="font-family:'Courier New';">klasser: allmänna klassen och oldboysklassen. I</span><br /><span style="font-family:'Courier New';">allmänna klassen segrade Otto Holmberg med tiden</span><br /><span style="font-family:'Courier New';">20,55 och erhöll han I priset och tredje inteckningen</span><br /><span style="font-family:'Courier New';">i Vaulos pokal samt därmed pokalen till egen för</span><br /><span style="font-family:'Courier New';">alltid. II priset erhöll V. V. Siik tid 23,17 och III</span><br /><span style="font-family:'Courier New';">priset E. Hurskainen tid 25,30. Följande voro L.</span><br /><span style="font-family:'Courier New';">Lehtonen och G. Piironen.</span><br /><span style="font-family:'Courier New';">&nbsp; Oldboysklassen vanns av V. Halme med tiden</span><br /><span style="font-family:'Courier New';">24,10, som erhöll I pris och det av A. Tiljander</span><br /><span style="font-family:'Courier New';">skänkta bordsuret för ett år framåt. II pris erhöll</span><br /><span style="font-family:'Courier New';">fjolårets första man B. Lindfors, tid 26,05 och III</span><br /><span style="font-family:'Courier New';">pris K. Sirén tid 26,54. Följande voro B. Väisä-</span><br /><span style="font-family:'Courier New';">nen och V. Nyström. Prisen utgjordes av smärre</span><br /><span style="font-family:'Courier New';">silverpjäser, som erhållits genom frivilliga bidrag</span><br /><span style="font-family:'Courier New';">av brevbärarna. Att intresset för skidning vid Sör-</span><br /><span style="font-family:'Courier New';">näs brevbärarekontor är stort, visar oss det livliga</span><br /><span style="font-family:'Courier New';">deltagandet, men — låt oss hoppas — att det till</span><br /><span style="font-family:'Courier New';">nästa år är ännu större. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><em><span style="font-family:'Courier New';">T — r.</span></em><em></em></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref7k">
-								<ul>
-									<li>
-									Date: 1929-01-01
-									</li>
-									<li>
-									Page: 1929-1/1
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Postimies, 01.01.1929, nro 1, s. 1<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/898577?page=1<br />Kansalliskirjaston digitaaliset aineistot</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/898577?term=Nystr%C3%B6m&amp;page=1">https://digi.kansalliskirjasto.fi/aikakausi/binding/898577?term=Nystr%C3%B6m&amp;page=1</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><strong><span style="font-family:'Courier New';">Onnellista Uutta Vuotta</span></strong><span style="font-family:'Courier New';"></span><br /><span style="font-family:'Courier New';"></span><em><span style="font-family:'Courier New';">toivottavat kaikille työtovereille Helsingistä:</span></em><span style="font-family:'Courier New';"></span><br /><span style="font-family:'Courier New';">[...]</span><br /><span style="font-family:'Courier New';">Elin &amp; V. Nyström</span></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref7l">
-								<ul>
-									<li>
-									Date: 1932-03-01
-									</li>
-									<li>
-									Page: 1932-3/21
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Postimies, 01.03.1932, nro 3, s. 21<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/885555?page=21<br />Kansalliskirjaston digitaaliset aineistot</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/885555?term=Nystr%C3%B6m&amp;page=21">https://digi.kansalliskirjasto.fi/aikakausi/binding/885555?term=Nystr%C3%B6m&amp;page=21</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><strong><span style="font-family:'Courier New';">Osastoilta.</span></strong><span style="font-family:'Courier New';"></span><br /><span style="font-family:'Courier New';"></span><em><span style="font-family:'Courier New';">Helsingin osaston vuosikokous</span></em><span style="font-family:'Courier New';"> pidettiin tam-</span><br /><span style="font-family:'Courier New';">mikuun 31 p:nä postikonttorissa. [...]</span><br /><span style="font-family:'Courier New';">&nbsp; Jäsenmaksujen kantomiehiksi valittiin pää-</span><br /><span style="font-family:'Courier New';">konttoriin V. Väänänen, Töölööseen G. Björk-</span><br /><span style="font-family:'Courier New';">lund, Söörnääsiin V. V. Nyström, [..]</span></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref7m">
-								<ul>
-									<li>
-									Date: 1938-09-01
-									</li>
-									<li>
-									Page: 1938-8-9/21
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Postimies, 01.09.1938, nro 8-9, s. 21<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/885599?page=21<br />Kansalliskirjaston digitaaliset aineistot</p><p>&nbsp;</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/885599?term=Nystr%C3%B6m&amp;page=21">https://digi.kansalliskirjasto.fi/aikakausi/binding/885599?term=Nystr%C3%B6m&amp;page=21</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>Suomen Postimiesliiton Hautausapukassan asiamiehille</strong></span><br /><span style="font-family:'Courier New';"><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ja jäsenille.</strong></span><br /><span style="font-family:'Courier New';"><strong></strong></span><span style="font-family:'Courier New';">Tapausmaksujen kanto kuolleista jäsenistä [...]</span><br /><span style="font-family:'Courier New';">n:o 581 Nyström, Viktor V., H:gistä, kuoli 13.6. -38,</span><br /><span style="font-family:'Courier New';">[...]</span></p><p><span style="font-family:'Courier New';"></span><strong><span style="font-family:'Courier New';">Till F.P.F:ds Begravningshjälpkassa ombudsmän</span></strong><br /><strong><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; och medlemmar.</span></strong><br /><strong><span style="font-family:'Courier New';"></span></strong><span style="font-family:'Courier New';">Upphörd efter avlidna medlemmar [...]</span><br /><span style="font-family:'Courier New';">n:o 581 Nyström, Viktor V., från Hfors, avled 13.</span><br /><span style="font-family:'Courier New';">6. -38, [...]</span></p><p>&nbsp;</p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref7n">
-								<ul>
-									<li>
-									Date: 1938-09-01
-									</li>
-									<li>
-									Page: 1938-8-9/28
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Postimies, 01.09.1938, nro 8-9, s. 28<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/885599?page=28<br />Kansalliskirjaston digitaaliset aineistot</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/885599?term=Nystr%C3%B6m&amp;page=28">https://digi.kansalliskirjasto.fi/aikakausi/binding/885599?term=Nystr%C3%B6m&amp;page=28</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Jäsentilastoa.</strong></span><span style="font-family:'Courier New';"></span><br /><span style="font-family:'Courier New';">[...]</span><br /><span style="font-family:'Courier New';"></span><em><span style="font-family:'Courier New';">Kuollut:</span></em><span style="font-family:'Courier New';"></span><br /><span style="font-family:'Courier New';">[...]</span><br /><span style="font-family:'Courier New';">13. 6. Viktor Vilhelm Nyström, Helsinki, 57 v.</span></p><p>&nbsp;</p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref7o">
-								<ul>
-									<li>
-									Date: 1938-12-01
-									</li>
-									<li>
-									Page: 1938-12/28
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Postimies, 01.12.1938, nro 12, s. 28<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/885602?page=28<br />Kansalliskirjaston digitaaliset aineistot</p><p>&nbsp;</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/885602?term=Nystr%C3%B6m&amp;page=28">https://digi.kansalliskirjasto.fi/aikakausi/binding/885602?term=Nystr%C3%B6m&amp;page=28</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>&nbsp; &nbsp; &nbsp;Suomen Postimiesliiton Hautausapukassan asia-</strong></span><br /><span style="font-family:'Courier New';"><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;miehille ja jäsenille.</strong></span><br /><span style="font-family:'Courier New';"><strong></strong></span><span style="font-family:'Courier New';">&nbsp; Tarkistusta varten ilmoitetaan että vuoden sattuneet</span><br /><span style="font-family:'Courier New';">tapaukset ovat seuraavat:</span><br /><span style="font-family:'Courier New';">&nbsp; [...] &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; N:o 581 Nyström,</span><br /><span style="font-family:'Courier New';">Viktor V. [..]</span><br /><span style="font-family:'Courier New';">&nbsp; Huom! Erääntyneet maksut pyydetään tilittämään</span><br /><span style="font-family:'Courier New';">joulukuun aikana.</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><strong><span style="font-family:'Courier New';">A. T. RENHOLA.</span></strong><span style="font-family:'Courier New';"></span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp;Rahastonhoitaja, H:ki Kasarmink. 4. B. 26</span></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref7p">
-								<ul>
-									<li>
-									Date: 1939-03-01
-									</li>
-									<li>
-									Page: 1939-3/9
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Postimies, 01.03.1939, nro 3, s. 9<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/885605?page=9<br />Kansalliskirjaston digitaaliset aineistot</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/885605?term=Nystr%C3%B6m&amp;page=9">https://digi.kansalliskirjasto.fi/aikakausi/binding/885605?term=Nystr%C3%B6m&amp;page=9</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Helsingforsavdelningens</strong></span><br /><span style="font-family:'Courier New';"><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; årsmöte</strong></span><br /><span style="font-family:'Courier New';"><strong></strong></span><span style="font-family:'Courier New';">avhölls söndangen den 29 jan. å värdebrevbärarsalen</span><br /><span style="font-family:'Courier New';">i det nya huvuspostkontoret. Närvarande voro ett</span><br /><span style="font-family:'Courier New';">60-tal medlemmar.</span><br /><span style="font-family:'Courier New';">&nbsp; Ordf. Th. Österholm öppnade mötet och hälsade</span><br /><span style="font-family:'Courier New';">deltagarna välkomna, varefter han höll parentation</span><br /><span style="font-family:'Courier New';">över de under året avlidna: J. A. Lindfors, A. E.</span><br /><span style="font-family:'Courier New';">Forssander, V. K. Muotinen och V. V. Nyström.</span><br /><span style="font-family:'Courier New';">[...]</span></p></div>
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
-						<a href="../../../src/8/3/dcde0a1be9d745544ed78a5f038.html" title="Helsingin ja ympäristön osote- ja ammattikalenteri" name ="sref8">
+						<a href="../../../src/8/3/dcde0a1be9d745544ed78a5f038.html" title="Helsingin ja ympäristön osote- ja ammattikalenteri" name ="sref6">
 						Helsingin ja ympäristön osote- ja ammattikalenteri
 						</a>
-						<ol>
-							<li id="sref8a">
+						<ol id="citr">
+							<li id="sref6a">
 								<ul>
 									<li>
 									Page: 1910/460
@@ -1094,11 +758,11 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/9/d/f14512880813e77217f42ad78d9.html" title="Hautahaku" name ="sref9">
+						<a href="../../../src/9/d/f14512880813e77217f42ad78d9.html" title="Hautahaku" name ="sref7">
 						Hautahaku
 						</a>
-						<ol>
-							<li id="sref9a">
+						<ol id="citr">
+							<li id="sref7a">
 								<ul>
 									<li>
 									Page: 03-00-065-14-00257/NYSTRÖM VIKTOR WILHELM
@@ -1111,11 +775,11 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/f/2/f14522ab96e12293bee68ca5f2f.html" title="Hautakivi Nyström Malmi" name ="sref10">
+						<a href="../../../src/f/2/f14522ab96e12293bee68ca5f2f.html" title="Hautakivi Nyström Malmi" name ="sref8">
 						Hautakivi Nyström Malmi
 						</a>
-						<ol>
-							<li id="sref10a">
+						<ol id="citr">
+							<li id="sref8a">
 								<ul>
 									<li>
 									Page: NYSTRÖM VIKTOR WILHELM
@@ -1125,11 +789,11 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/9/1/cdea76d18dc4cf3ac19.html" title="Hufvudstadsbladet" name ="sref11">
+						<a href="../../../src/9/1/cdea76d18dc4cf3ac19.html" title="Hufvudstadsbladet" name ="sref9">
 						Hufvudstadsbladet
 						</a>
-						<ol>
-							<li id="sref11a">
+						<ol id="citr">
+							<li id="sref9a">
 								<ul>
 									<li>
 									Date: 1938-06-14
@@ -1148,7 +812,7 @@
 									</li>
 								</ul>
 							</li>
-							<li id="sref11b">
+							<li id="sref9b">
 								<ul>
 									<li>
 									Date: 1938-06-22
@@ -1167,7 +831,7 @@
 									</li>
 								</ul>
 							</li>
-							<li id="sref11c">
+							<li id="sref9c">
 								<ul>
 									<li>
 									Date: 1910-06-06
@@ -1189,10 +853,344 @@
 						</ol>
 					</li>
 					<li>
+						<a href="../../../src/f/f/f1477198a446099862afb4d8fff.html" title="Suomen Postiljooniyhdistys: Postimies" name ="sref10">
+						Suomen Postiljooniyhdistys: Postimies
+						</a>
+						<ol id="citr">
+							<li id="sref10a">
+								<ul>
+									<li>
+									Date: 1910-01-01
+									</li>
+									<li>
+									Page: 1910-1/1
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Postimies, 01.01.1910, nro 1, s. 1<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/885481?page=1<br />Kansalliskirjaston digitaaliset aineistot</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/885481?term=Nystr%C3%B6m&amp;page=1">https://digi.kansalliskirjasto.fi/aikakausi/binding/885481?term=Nystr%C3%B6m&amp;page=1</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">Onnellista Uutta Vuotta &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Godt Nytt År</span><br /><span style="font-family:'Courier New';">toivottavat kaikille tovereille: &nbsp; &nbsp; &nbsp; önskar åt alla kamrater:</span></p><p><span style="font-family:'Courier New';">Helsingistä: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; I Helsingfors:</span><br /><span style="font-family:'Courier New';">[...]</span><br /><span style="font-family:'Courier New';">V. Nyström</span></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref10b">
+								<ul>
+									<li>
+									Date: 1911-01-01
+									</li>
+									<li>
+									Page: 1911-1/5
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Postimies, 01.01.1911, nro 1, s. 5<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/885501?page=5<br />Kansalliskirjaston digitaaliset aineistot</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="../../../src/e/b/f145d079b6f5f614d929cf2f2be.html">https://digi.kansalliskirjasto.fi/aikakausi/binding/885501?page=5</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">Onnellista Uutta Vuotta &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Godt Nytt År</span><br /><span style="font-family:'Courier New';">toivottavat kaikille tovereille: &nbsp; &nbsp; &nbsp; tillönskas alla kamrater:</span></p><p><span style="font-family:'Courier New';">Helsingistä: - I Helsingfors:</span><br /><span style="font-family:'Courier New';">[...]</span><br /><span style="font-family:'Courier New';">Elin ja V. Nyström</span></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref10c">
+								<ul>
+									<li>
+									Date: 1912-01-01
+									</li>
+									<li>
+									Page: 1912-1/5
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Postimies, 01.01.1912, nro 1, s. 5<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/885521?page=5<br />Kansalliskirjaston digitaaliset aineistot</p><p>&nbsp;</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/885521?term=Nystr%C3%B6m&amp;page=5">https://digi.kansalliskirjasto.fi/aikakausi/binding/885521?term=Nystr%C3%B6m&amp;page=5</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">Onnellista Uutta Vuotta &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Godt Nytt År</span><br /><span style="font-family:'Courier New';">toivottavat kaikille tovereille: &nbsp; &nbsp; &nbsp; tillönskas alla kamrater:</span></p><p><span style="font-family:'Courier New';">Helsingissä: - I Helsingfors:</span><br /><span style="font-family:'Courier New';">[...]</span><br /><span style="font-family:'Courier New';">Nyström, Elin &amp; W. V.</span></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref10d">
+								<ul>
+									<li>
+									Date: 1912-09-16
+									</li>
+									<li>
+									Page: 1912-18/10
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Postimies, 16.09.1912, nro 18, s. 10<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/885536?page=10<br />Kansalliskirjaston digitaaliset aineistot</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/885536?term=Nystr%C3%B6m&amp;page=10">https://digi.kansalliskirjasto.fi/aikakausi/binding/885536?term=Nystr%C3%B6m&amp;page=10</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>&nbsp; &nbsp; &nbsp; &nbsp; Postiljoonioppikurssit.</strong></span><span style="font-family:'Courier New';"></span><br /><span style="font-family:'Courier New';">&nbsp; Suomen ensimäisiin postiljoonioppikurssei-</span><br /><span style="font-family:'Courier New';">hin on hyväksytty seuraavat postiljoonit:</span><br /><span style="font-family:'Courier New';">&nbsp; </span><em><span style="font-family:'Courier New';">Helsinkiin: </span></em><span style="font-family:'Courier New';">[...]</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;V. W.</span><br /><span style="font-family:'Courier New';">Nyström, [...]</span></p><p>&nbsp;</p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref10e">
+								<ul>
+									<li>
+									Date: 1913-01-01
+									</li>
+									<li>
+									Page: 1913-1/9
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Postimies, 01.01.1913, nro 1, s. 9<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/898362?page=9<br />Kansalliskirjaston digitaaliset aineistot</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/898362?term=Nystr%C3%B6m&amp;page=9">https://digi.kansalliskirjasto.fi/aikakausi/binding/898362?term=Nystr%C3%B6m&amp;page=9</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Nimityksiä.</strong></span></p><p><span style="font-family:'Courier New';"><strong></strong></span><span style="font-family:'Courier New';">&nbsp; Vakinaisiksi postiljooneiksi allamainituille</span><br /><span style="font-family:'Courier New';">paikkakunnille on Postihallitus nimittänyt seu-</span><br /><span style="font-family:'Courier New';">raavat ylimääräiset postiljoonit:</span></p><p><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><em><span style="font-family:'Courier New';">Helsinkiin:</span></em><br /><em><span style="font-family:'Courier New';"></span></em><span style="font-family:'Courier New';">[...] &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ; Viktor</span><br /><span style="font-family:'Courier New';">Wilhelm Nyström;</span></p><p>&nbsp;</p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref10f">
+								<ul>
+									<li>
+									Date: 1914-01-01
+									</li>
+									<li>
+									Page: 1914-1/3
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Postimies, 01.01.1914, nro 1, s. 3<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/898382?page=3<br />Kansalliskirjaston digitaaliset aineistot</p><p>&nbsp;</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/898382?term=Nystr%C3%B6m&amp;page=3">https://digi.kansalliskirjasto.fi/aikakausi/binding/898382?term=Nystr%C3%B6m&amp;page=3</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">&nbsp; &nbsp; Onnellista Uutta Vuotta!</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Godt Nytt År!</span><br /><span style="font-family:'Courier New';">toivottavat kaikille tovereille: &nbsp;- önskas åt alla kamrater:</span></p><p><span style="font-family:'Courier New';">Helsingistä: - fr. Helsingfors:</span><br /><span style="font-family:'Courier New';">[...]</span><br /><span style="font-family:'Courier New';">Elin &amp; Victor Nyström,</span></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref10g">
+								<ul>
+									<li>
+									Date: 1915-01-01
+									</li>
+									<li>
+									Page: 1915-1/7
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Postimies, 01.01.1915, nro 1, s. 7<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/898404?page=7<br />Kansalliskirjaston digitaaliset aineistot</p><p>&nbsp;</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/898404?term=Nystr%C3%B6m&amp;page=7">https://digi.kansalliskirjasto.fi/aikakausi/binding/898404?term=Nystr%C3%B6m&amp;page=7</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">Onnellista Uutta Vuotta &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Godt Nytt År</span><br /><span style="font-family:'Courier New';">toivottavat kaikille tovereille: &nbsp; &nbsp; &nbsp; önskas alla kamrater:</span></p><p><span style="font-family:'Courier New';">Helsinki - Helsingfors</span><br /><span style="font-family:'Courier New';">[...]</span><br /><span style="font-family:'Courier New';">Nyström, Elin &amp; V. V.</span></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref10h">
+								<ul>
+									<li>
+									Date: 1919-01-01
+									</li>
+									<li>
+									Page: 1919-1/7
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Postimies, 01.01.1919, nro 1, s. 7<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/898481?page=7<br />Kansalliskirjaston digitaaliset aineistot</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/898481?page=7">https://digi.kansalliskirjasto.fi/aikakausi/binding/898481?page=7</a></p></div>
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">Onnellista Uutta Vuotta &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| &nbsp; Godt Nytt År</span><br /><span style="font-family:'Courier New';">toivottavat kaikille tovereille: &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; tillönskas alla kamrater:</span></p><p><span style="font-family:'Courier New';">Helsinki: - Helsingfors:</span><br /><span style="font-family:'Courier New';">[...]</span><br /><span style="font-family:'Courier New';">Nyström, V. W. med familj</span></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref10i">
+								<ul>
+									<li>
+									Date: 1920-01-01
+									</li>
+									<li>
+									Page: 1920-1/1
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Postimies, 01.01.1920, nro 1, s. 1<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/898493?page=1<br />Kansalliskirjaston digitaaliset aineistot</p><p>&nbsp;</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/898493?term=Nystr%C3%B6m&amp;page=1">https://digi.kansalliskirjasto.fi/aikakausi/binding/898493?term=Nystr%C3%B6m&amp;page=1</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">Onnellista Uutta Vuotta &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Godt Nytt År</span><br /><span style="font-family:'Courier New';">toivottavat kaikille tovereille: &nbsp; &nbsp; &nbsp; tillönskas alla kamrater:</span></p><p><span style="font-family:'Courier New';">Helsinki - Helsingfors:</span><br /><span style="font-family:'Courier New';">[...]</span><br /><span style="font-family:'Courier New';">Nyström, V. W. &amp; E</span></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref10j">
+								<ul>
+									<li>
+									Date: 1928-03-01
+									</li>
+									<li>
+									Page: 1928-3/11
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Postimies, 01.03.1928, nro 3, s. 11<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/898568?page=11<br />Kansalliskirjaston digitaaliset aineistot</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/898568?term=Nystr%C3%B6m&amp;page=11">https://digi.kansalliskirjasto.fi/aikakausi/binding/898568?term=Nystr%C3%B6m&amp;page=11</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><strong><span style="font-family:'Courier New';">Sport.</span></strong><span style="font-family:'Courier New';"></span><br /><span style="font-family:'Courier New';">&nbsp; Söndagen den 19 febr. hade brevbärarna vid Sör-</span><br /><span style="font-family:'Courier New';">näs brevbärarekontor anordnat sedvanlig skidtäv-</span><br /><span style="font-family:'Courier New';">lan sinsemellan å 5 km. bana.</span><br /><span style="font-family:'Courier New';">Tävlades om de av O. Vaulo och A. Tiljander </span><br /><span style="font-family:'Courier New';">instiftade vandringsprisen. Tävlingen gick i tvenne </span><br /><span style="font-family:'Courier New';">klasser: allmänna klassen och oldboysklassen. I</span><br /><span style="font-family:'Courier New';">allmänna klassen segrade Otto Holmberg med tiden</span><br /><span style="font-family:'Courier New';">20,55 och erhöll han I priset och tredje inteckningen</span><br /><span style="font-family:'Courier New';">i Vaulos pokal samt därmed pokalen till egen för</span><br /><span style="font-family:'Courier New';">alltid. II priset erhöll V. V. Siik tid 23,17 och III</span><br /><span style="font-family:'Courier New';">priset E. Hurskainen tid 25,30. Följande voro L.</span><br /><span style="font-family:'Courier New';">Lehtonen och G. Piironen.</span><br /><span style="font-family:'Courier New';">&nbsp; Oldboysklassen vanns av V. Halme med tiden</span><br /><span style="font-family:'Courier New';">24,10, som erhöll I pris och det av A. Tiljander</span><br /><span style="font-family:'Courier New';">skänkta bordsuret för ett år framåt. II pris erhöll</span><br /><span style="font-family:'Courier New';">fjolårets första man B. Lindfors, tid 26,05 och III</span><br /><span style="font-family:'Courier New';">pris K. Sirén tid 26,54. Följande voro B. Väisä-</span><br /><span style="font-family:'Courier New';">nen och V. Nyström. Prisen utgjordes av smärre</span><br /><span style="font-family:'Courier New';">silverpjäser, som erhållits genom frivilliga bidrag</span><br /><span style="font-family:'Courier New';">av brevbärarna. Att intresset för skidning vid Sör-</span><br /><span style="font-family:'Courier New';">näs brevbärarekontor är stort, visar oss det livliga</span><br /><span style="font-family:'Courier New';">deltagandet, men — låt oss hoppas — att det till</span><br /><span style="font-family:'Courier New';">nästa år är ännu större. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><em><span style="font-family:'Courier New';">T — r.</span></em><em></em></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref10k">
+								<ul>
+									<li>
+									Date: 1929-01-01
+									</li>
+									<li>
+									Page: 1929-1/1
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Postimies, 01.01.1929, nro 1, s. 1<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/898577?page=1<br />Kansalliskirjaston digitaaliset aineistot</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/898577?term=Nystr%C3%B6m&amp;page=1">https://digi.kansalliskirjasto.fi/aikakausi/binding/898577?term=Nystr%C3%B6m&amp;page=1</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><strong><span style="font-family:'Courier New';">Onnellista Uutta Vuotta</span></strong><span style="font-family:'Courier New';"></span><br /><span style="font-family:'Courier New';"></span><em><span style="font-family:'Courier New';">toivottavat kaikille työtovereille Helsingistä:</span></em><span style="font-family:'Courier New';"></span><br /><span style="font-family:'Courier New';">[...]</span><br /><span style="font-family:'Courier New';">Elin &amp; V. Nyström</span></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref10l">
+								<ul>
+									<li>
+									Date: 1932-03-01
+									</li>
+									<li>
+									Page: 1932-3/21
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Postimies, 01.03.1932, nro 3, s. 21<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/885555?page=21<br />Kansalliskirjaston digitaaliset aineistot</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/885555?term=Nystr%C3%B6m&amp;page=21">https://digi.kansalliskirjasto.fi/aikakausi/binding/885555?term=Nystr%C3%B6m&amp;page=21</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><strong><span style="font-family:'Courier New';">Osastoilta.</span></strong><span style="font-family:'Courier New';"></span><br /><span style="font-family:'Courier New';"></span><em><span style="font-family:'Courier New';">Helsingin osaston vuosikokous</span></em><span style="font-family:'Courier New';"> pidettiin tam-</span><br /><span style="font-family:'Courier New';">mikuun 31 p:nä postikonttorissa. [...]</span><br /><span style="font-family:'Courier New';">&nbsp; Jäsenmaksujen kantomiehiksi valittiin pää-</span><br /><span style="font-family:'Courier New';">konttoriin V. Väänänen, Töölööseen G. Björk-</span><br /><span style="font-family:'Courier New';">lund, Söörnääsiin V. V. Nyström, [..]</span></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref10m">
+								<ul>
+									<li>
+									Date: 1938-09-01
+									</li>
+									<li>
+									Page: 1938-8-9/21
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Postimies, 01.09.1938, nro 8-9, s. 21<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/885599?page=21<br />Kansalliskirjaston digitaaliset aineistot</p><p>&nbsp;</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/885599?term=Nystr%C3%B6m&amp;page=21">https://digi.kansalliskirjasto.fi/aikakausi/binding/885599?term=Nystr%C3%B6m&amp;page=21</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>Suomen Postimiesliiton Hautausapukassan asiamiehille</strong></span><br /><span style="font-family:'Courier New';"><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ja jäsenille.</strong></span><br /><span style="font-family:'Courier New';"><strong></strong></span><span style="font-family:'Courier New';">Tapausmaksujen kanto kuolleista jäsenistä [...]</span><br /><span style="font-family:'Courier New';">n:o 581 Nyström, Viktor V., H:gistä, kuoli 13.6. -38,</span><br /><span style="font-family:'Courier New';">[...]</span></p><p><span style="font-family:'Courier New';"></span><strong><span style="font-family:'Courier New';">Till F.P.F:ds Begravningshjälpkassa ombudsmän</span></strong><br /><strong><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; och medlemmar.</span></strong><br /><strong><span style="font-family:'Courier New';"></span></strong><span style="font-family:'Courier New';">Upphörd efter avlidna medlemmar [...]</span><br /><span style="font-family:'Courier New';">n:o 581 Nyström, Viktor V., från Hfors, avled 13.</span><br /><span style="font-family:'Courier New';">6. -38, [...]</span></p><p>&nbsp;</p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref10n">
+								<ul>
+									<li>
+									Date: 1938-09-01
+									</li>
+									<li>
+									Page: 1938-8-9/28
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Postimies, 01.09.1938, nro 8-9, s. 28<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/885599?page=28<br />Kansalliskirjaston digitaaliset aineistot</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/885599?term=Nystr%C3%B6m&amp;page=28">https://digi.kansalliskirjasto.fi/aikakausi/binding/885599?term=Nystr%C3%B6m&amp;page=28</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Jäsentilastoa.</strong></span><span style="font-family:'Courier New';"></span><br /><span style="font-family:'Courier New';">[...]</span><br /><span style="font-family:'Courier New';"></span><em><span style="font-family:'Courier New';">Kuollut:</span></em><span style="font-family:'Courier New';"></span><br /><span style="font-family:'Courier New';">[...]</span><br /><span style="font-family:'Courier New';">13. 6. Viktor Vilhelm Nyström, Helsinki, 57 v.</span></p><p>&nbsp;</p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref10o">
+								<ul>
+									<li>
+									Date: 1938-12-01
+									</li>
+									<li>
+									Page: 1938-12/28
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Postimies, 01.12.1938, nro 12, s. 28<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/885602?page=28<br />Kansalliskirjaston digitaaliset aineistot</p><p>&nbsp;</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/885602?term=Nystr%C3%B6m&amp;page=28">https://digi.kansalliskirjasto.fi/aikakausi/binding/885602?term=Nystr%C3%B6m&amp;page=28</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>&nbsp; &nbsp; &nbsp;Suomen Postimiesliiton Hautausapukassan asia-</strong></span><br /><span style="font-family:'Courier New';"><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;miehille ja jäsenille.</strong></span><br /><span style="font-family:'Courier New';"><strong></strong></span><span style="font-family:'Courier New';">&nbsp; Tarkistusta varten ilmoitetaan että vuoden sattuneet</span><br /><span style="font-family:'Courier New';">tapaukset ovat seuraavat:</span><br /><span style="font-family:'Courier New';">&nbsp; [...] &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; N:o 581 Nyström,</span><br /><span style="font-family:'Courier New';">Viktor V. [..]</span><br /><span style="font-family:'Courier New';">&nbsp; Huom! Erääntyneet maksut pyydetään tilittämään</span><br /><span style="font-family:'Courier New';">joulukuun aikana.</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><strong><span style="font-family:'Courier New';">A. T. RENHOLA.</span></strong><span style="font-family:'Courier New';"></span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp;Rahastonhoitaja, H:ki Kasarmink. 4. B. 26</span></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref10p">
+								<ul>
+									<li>
+									Date: 1939-03-01
+									</li>
+									<li>
+									Page: 1939-3/9
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Postimies, 01.03.1939, nro 3, s. 9<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/885605?page=9<br />Kansalliskirjaston digitaaliset aineistot</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/885605?term=Nystr%C3%B6m&amp;page=9">https://digi.kansalliskirjasto.fi/aikakausi/binding/885605?term=Nystr%C3%B6m&amp;page=9</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Helsingforsavdelningens</strong></span><br /><span style="font-family:'Courier New';"><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; årsmöte</strong></span><br /><span style="font-family:'Courier New';"><strong></strong></span><span style="font-family:'Courier New';">avhölls söndangen den 29 jan. å värdebrevbärarsalen</span><br /><span style="font-family:'Courier New';">i det nya huvuspostkontoret. Närvarande voro ett</span><br /><span style="font-family:'Courier New';">60-tal medlemmar.</span><br /><span style="font-family:'Courier New';">&nbsp; Ordf. Th. Österholm öppnade mötet och hälsade</span><br /><span style="font-family:'Courier New';">deltagarna välkomna, varefter han höll parentation</span><br /><span style="font-family:'Courier New';">över de under året avlidna: J. A. Lindfors, A. E.</span><br /><span style="font-family:'Courier New';">Forssander, V. K. Muotinen och V. V. Nyström.</span><br /><span style="font-family:'Courier New';">[...]</span></p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../src/4/d/f1472ddc855128eb49bd222eed4.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Muuttaneet 1902-1906" name ="sref11">
+						Helsingin ruotsalais-suomalainen seurakunta: Helsinki Muuttaneet 1902-1906
+						</a>
+						<ol id="citr">
+							<li id="sref11a">
+								<ul>
+									<li>
+									Page: kuva 47
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Helsinki muuttaneet 1902-1906 (MKO32-36)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23490&amp;pnum=47 / Viitattu 17.07.2022</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23490&amp;pnum=47">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23490&amp;pnum=47</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">December 1902</span><br /><span style="font-family:'Courier New';">[...]</span><br /><span style="font-family:'Courier New';">[24] &nbsp;3568 &nbsp;Nyström, Viktor Wilhelm &nbsp;1 - &nbsp;4-786 &nbsp;f:1881</span></p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
 						<a href="../../../src/e/9/e824c6ca8f7600fae5ed7bfe79e.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1911" name ="sref12">
 						Uudenmaan lääni: Uusimaa Henkikirja 1911
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref12a">
 								<ul>
 									<li>
@@ -1215,7 +1213,7 @@
 						<a href="../../../src/d/7/e824c76d63063029e69dd4fcd7d.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1912" name ="sref13">
 						Uudenmaan lääni: Uusimaa Henkikirja 1912
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref13a">
 								<ul>
 									<li>
@@ -1238,7 +1236,7 @@
 						<a href="../../../src/3/0/dcde088884844f55819d0fcc103.html" title="Paul, Aksel: Adress- och yrkeskalender för Helsingfors jämte förorter" name ="sref14">
 						Paul, Aksel: Adress- och yrkeskalender för Helsingfors jämte förorter
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref14a">
 								<ul>
 									<li>
@@ -1437,7 +1435,7 @@
 						<a href="../../../src/9/b/e824c2d64de341418829e9eeb9.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1913" name ="sref15">
 						Uudenmaan lääni: Uusimaa Henkikirja 1913
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref15a">
 								<ul>
 									<li>
@@ -1460,7 +1458,7 @@
 						<a href="../../../src/4/3/e824bce3f1b4ac1c80202118134.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1914" name ="sref16">
 						Uudenmaan lääni: Uusimaa Henkikirja 1914
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref16a">
 								<ul>
 									<li>
@@ -1483,7 +1481,7 @@
 						<a href="../../../src/5/7/dce11b97c267f78788634f92175.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1915" name ="sref17">
 						Uudenmaan lääni: Uusimaa Henkikirja 1915
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref17a">
 								<ul>
 									<li>
@@ -1506,7 +1504,7 @@
 						<a href="../../../src/6/7/e824afb41187bd142c543e4a576.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1916" name ="sref18">
 						Uudenmaan lääni: Uusimaa Henkikirja 1916
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref18a">
 								<ul>
 									<li>
@@ -1529,7 +1527,7 @@
 						<a href="../../../src/d/8/e824b0bd38f250626a9b79a328d.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1917" name ="sref19">
 						Uudenmaan lääni: Uusimaa Henkikirja 1917
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref19a">
 								<ul>
 									<li>
@@ -1552,7 +1550,7 @@
 						<a href="../../../src/8/f/e187980ac952b12b9ebab94f0f8.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1918" name ="sref20">
 						Uudenmaan lääni: Uusimaa Henkikirja 1918
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref20a">
 								<ul>
 									<li>
@@ -1575,7 +1573,7 @@
 						<a href="../../../src/e/4/e824b23c86751e06c3388d8c74e.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1919" name ="sref21">
 						Uudenmaan lääni: Uusimaa Henkikirja 1919
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref21a">
 								<ul>
 									<li>
@@ -1598,7 +1596,7 @@
 						<a href="../../../src/7/c/e824b2efe1c236c92cc8837c1c7.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1920" name ="sref22">
 						Uudenmaan lääni: Uusimaa Henkikirja 1920
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref22a">
 								<ul>
 									<li>
@@ -1621,7 +1619,7 @@
 						<a href="../../../src/d/0/f7fb9b2629c323bb84e4f27740d.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1923" name ="sref23">
 						Uudenmaan lääni: Uusimaa Henkikirja 1923
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref23a">
 								<ul>
 									<li>
@@ -1649,7 +1647,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2022-07-18 10:58:16<br />Created for Entire Database
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2<br />Last change was the 2022-07-18 10:58:16<br />Created for Entire Database
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

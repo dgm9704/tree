@@ -1,27 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>Nordberg Family Tree - Korhonen, Edla</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
-	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">Nordberg Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">Nordberg Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li class = "CurrentSection"><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
 					<li><a href="../../../families.html" title="Families">Families</a></li>
@@ -29,13 +39,43 @@
 					<li><a href="../../../places.html" title="Places">Places</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="IndividualDetail">
 			<h3>Korhonen, Edla<sup><small></small></sup></h3>
 			<div id="summaryarea">
@@ -64,7 +104,7 @@
 			</div>
 			<div class="subsection" id="events">
 				<h4>Events</h4>
-				<table class="infolist eventlist">
+				<table class="infolist eventlist toggle_event ltr" id="toggle_event" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnEvent">Event</th>
@@ -76,7 +116,7 @@
 					</thead>
 					<tbody>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/9/1/cb589cc85196e68ad19.html" title="Birth">
 								Birth
 								</a>
@@ -92,9 +132,6 @@
 							 <a href="#sref1a">1a</a> <a href="#sref2a">2a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -102,7 +139,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/2/f/cea466228422d1f98f2.html" title="Death">
 								Death
 								</a>
@@ -118,9 +155,6 @@
 							 <a href="#sref3a">3a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -132,7 +166,7 @@
 			</div>
 			<div class="subsection" id="parents">
 				<h4>Parents</h4>
-				<table class="infolist">
+				<table class="infolist toggle_parent ltr" id="toggle_parent" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnAttribute">Relation to main person</th>
@@ -212,7 +246,7 @@
 			</div>
 			<div class="subsection" id="families">
 				<h4>Families</h4>
-				<table class="infolist">
+				<table class="infolist" id="toggle_families" style="display:block">
 					<tr class="BeginFamily">
 						<td class="ColumnValue" colspan="3"><H4 class="subsection"><a href="../../../fam/2/b/cb589cc8521134956b2.html" title="Family of Robinson, Alexander and Korhonen, Edla">Family of Robinson, Alexander and Korhonen, Edla</a></H4></td>
 					</tr>
@@ -230,9 +264,8 @@
 					</tr>
 					<tr>
 						<td class="ColumnType">&nbsp;</td>
-						<td class="ColumnAttribute">&nbsp;</td>
-						<td class="ColumnValue">
-							<table class="infolist eventlist">
+						<td class="ColumnValue" colspan="2">
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnEvent">Event</th>
@@ -244,7 +277,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/1/7/cb589cfc0545124fc71.html" title="Marriage">
 											Marriage
 											</a>
@@ -260,9 +293,6 @@
 										 <a href="#sref4a">4a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -270,7 +300,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/f/5/cea2a53a641723a8d5f.html" title="Emigration">
 											Emigration
 											</a>
@@ -286,9 +316,6 @@
 										&nbsp;
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -296,7 +323,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/a/9/cea2a564b270277649a.html" title="Immigration">
 											Immigration
 											</a>
@@ -312,9 +339,6 @@
 										&nbsp;
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -322,7 +346,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/5/c/cea7b843e9f534c3cc5.html" title="Census">
 											Census
 											</a>
@@ -338,9 +362,6 @@
 										 <a href="#sref5a">5a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -348,7 +369,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/d/7/cea7bcd74a95b82a97d.html" title="Census">
 											Census
 											</a>
@@ -364,9 +385,6 @@
 										 <a href="#sref6a">6a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -374,7 +392,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/3/3/cea7c6e36383f9aee33.html" title="Census">
 											Census
 											</a>
@@ -390,9 +408,6 @@
 										 <a href="#sref7a">7a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -400,7 +415,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/2/9/cea7c9252b538c3f992.html" title="Census">
 											Census
 											</a>
@@ -416,9 +431,6 @@
 										 <a href="#sref8a">8a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -426,7 +438,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/8/7/cea7ca5273f5825f878.html" title="Census">
 											Census
 											</a>
@@ -442,9 +454,6 @@
 										 <a href="#sref9a">9a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -452,7 +461,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/9/5/ceaab63fd7a3f6ac159.html" title="Residence">
 											Residence
 											</a>
@@ -468,9 +477,6 @@
 										 <a href="#sref10a">10a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -478,7 +484,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/4/6/ceaab5f4e7b03d02864.html" title="Census">
 											Census
 											</a>
@@ -494,9 +500,6 @@
 										 <a href="#sref10a">10a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -507,10 +510,9 @@
 							</table>
 						</td>
 						<tr>
-							<td class="ColumnType">&nbsp;</td>
 							<td class="ColumnAttribute">Children</td>
-							<td class="ColumnValue" />
-							<table class="infolist eventlist">
+							<td class="ColumnValue Child" colspan="2" />
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnName">Name</th>
@@ -537,7 +539,7 @@
 			</div>
 			<div class="subsection" id="pedigree">
 				<h4>Pedigree</h4>
-				<ol class="pedigreegen">
+				<ol class="pedigreegen" id="toggle_pedigree" style="display:block">
 					<li>
 						<a href="../../../ppl/c/0/cb589cc84e63bbab10c.html">Korhonen, Adam Gabrielsson</a>
 						<ol>
@@ -613,177 +615,179 @@
 			</div>
 			<div class="subsection" id="tree">
 				<h4>Ancestors</h4>
-				<div id="treeContainer" style="width:1234px; height:1200px; top: 0px">
-					<div class="boxbg female AncCol0" style="top: 530px; left: 6px;">
-						<a class="noThumb" href="../../../ppl/b/d/cb589cc85137c8430db.html">
-						Korhonen, Edla<br/>*1866-10-25<br/>+1936-01-12
-						</a>
+				<div class="tree" id="toggle_anc" style="display:block">
+					<div id="treeContainer" style="width:1234px; height:1200px; top: 0px">
+						<div class="boxbg female AncCol0" style="top: 530px; left: 6px;">
+							<a class="noThumb" href="../../../ppl/b/d/cb589cc85137c8430db.html">
+							Korhonen, Edla<br>*1866-10-25<br>+1936-01-12
+							</a>
+						</div>
+						<div class="shadow" style="top: 535px; left: 10px;"></div>
+						<div class="bvline" style="top: 550px; left: 285px; width: 15px"></div>
+						<div class="gvline" style="top: 555px; left: 285px; width: 20px"></div>
+						<div class="boxbg male AncCol1" style="top: 230px; left: 316px;">
+							<a class="noThumb" href="../../../ppl/c/0/cb589cc84e63bbab10c.html">
+							Korhonen, Adam Gabrielsson<br>*1829-12-23<br>+1896-05-10
+							</a>
+						</div>
+						<div class="shadow" style="top: 235px; left: 320px;"></div>
+						<div class="bvline" style="top: 250px; left: 300px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 250px; left: 300px; height: 301px;"></div>
+					
+						<div class="bvline" style="top: 250px; left: 595px; width: 15px"></div>
+						<div class="gvline" style="top: 255px; left: 595px; width: 20px"></div>
+						<div class="boxbg male AncCol2" style="top: 80px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/d/c/cb589cc96125216f2cd.html">
+							Korhonen, Gabriel Påhlsson<br>*1803-12-19<br>+1860-05-01
+							</a>
+						</div>
+						<div class="shadow" style="top: 85px; left: 630px;"></div>
+						<div class="bvline" style="top: 100px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 100px; left: 610px; height: 151px;"></div>
+					
+						<div class="bvline" style="top: 100px; left: 905px; width: 15px"></div>
+						<div class="gvline" style="top: 105px; left: 905px; width: 20px"></div>
+						<div class="boxbg male AncCol3" style="top: 5px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/3/3/cb589ccc8ab1e1e3133.html">
+							Korhonen, Påhl Mattsson<br>*1775<br>+1840-11-08
+							</a>
+						</div>
+						<div class="shadow" style="top: 10px; left: 940px;"></div>
+						<div class="bvline" style="top: 25px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 25px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol3" style="top: 155px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/3/5/cb589ccc88138971b53.html">
+							Huttunen, Lisa Michelsdotter<br>*1778<br>+1854-07-22
+							</a>
+						</div>
+						<div class="shadow" style="top: 160px; left: 940px;"></div>
+						<div class="bvline" style="top: 175px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 100px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol2" style="top: 380px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/d/4/cb589cc95ec038e744d.html">
+							Raatikainen, Anna Lisa Samuelsdotter<br>*1803<br>+1871-11-09
+							</a>
+						</div>
+						<div class="shadow" style="top: 385px; left: 630px;"></div>
+						<div class="bvline" style="top: 400px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 250px; left: 610px; height: 151px;"></div>
+					
+						<div class="bvline" style="top: 400px; left: 905px; width: 15px"></div>
+						<div class="gvline" style="top: 405px; left: 905px; width: 20px"></div>
+						<div class="boxbg male AncCol3" style="top: 305px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/c/c/cb589ccc7ae38cea7cc.html">
+							Radikain, Samuel Samuelsson<br>*1771-03-02<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 310px; left: 940px;"></div>
+						<div class="bvline" style="top: 325px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 325px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol3" style="top: 455px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/e/2/cb589ccc7db4472152e.html">
+							Vepsäläin, Lisa<br>*1777<br>+1809-01-10
+							</a>
+						</div>
+						<div class="shadow" style="top: 460px; left: 940px;"></div>
+						<div class="bvline" style="top: 475px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 400px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol1" style="top: 830px; left: 316px;">
+							<a class="noThumb" href="../../../ppl/3/2/cb589cc84c27af4bb23.html">
+							Jääskeläinen, Eva Pettersdotter<br>*1842-10-30<br>+1927-09-10
+							</a>
+						</div>
+						<div class="shadow" style="top: 835px; left: 320px;"></div>
+						<div class="bvline" style="top: 850px; left: 300px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 550px; left: 300px; height: 301px;"></div>
+					
+						<div class="bvline" style="top: 850px; left: 595px; width: 15px"></div>
+						<div class="gvline" style="top: 855px; left: 595px; width: 20px"></div>
+						<div class="boxbg male AncCol2" style="top: 680px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/2/f/cb589cc94d005da5cf2.html">
+							Jääskeläinen, Petter Mattsson<br>*1806-02-15<br>+1879-06-26
+							</a>
+						</div>
+						<div class="shadow" style="top: 685px; left: 630px;"></div>
+						<div class="bvline" style="top: 700px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 700px; left: 610px; height: 151px;"></div>
+					
+						<div class="bvline" style="top: 700px; left: 905px; width: 15px"></div>
+						<div class="gvline" style="top: 705px; left: 905px; width: 20px"></div>
+						<div class="boxbg male AncCol3" style="top: 605px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/2/8/cb589ccc61103fcae82.html">
+							Jäskeläin, Matts<br>*1783<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 610px; left: 940px;"></div>
+						<div class="bvline" style="top: 625px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 625px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol3" style="top: 755px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/d/1/cb589ccc62b04f0131d.html">
+							Westerinen, Elisabeth<br>*1784<br>+1819-12-10
+							</a>
+						</div>
+						<div class="shadow" style="top: 760px; left: 940px;"></div>
+						<div class="bvline" style="top: 775px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 700px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol2" style="top: 980px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/8/0/cb589cc948c07b4ff08.html">
+							Tarvainen, Caisa Mathilda<br>*1812-11-15<br>+1884-11-01
+							</a>
+						</div>
+						<div class="shadow" style="top: 985px; left: 630px;"></div>
+						<div class="bvline" style="top: 1000px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 850px; left: 610px; height: 151px;"></div>
+					
+						<div class="bvline" style="top: 1000px; left: 905px; width: 15px"></div>
+						<div class="gvline" style="top: 1005px; left: 905px; width: 20px"></div>
+						<div class="boxbg male AncCol3" style="top: 905px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/1/f/cb589ccc4d95f33fbf1.html">
+							Tarvain, Matts<br>*1767<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 910px; left: 940px;"></div>
+						<div class="bvline" style="top: 925px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 925px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol3" style="top: 1055px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/4/8/cb589ccc4c00d9da784.html">
+							Knutin, Elisabeth<br>*1771-08-02<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 1060px; left: 940px;"></div>
+						<div class="bvline" style="top: 1075px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 1000px; left: 920px; height: 76px;"></div>
+					
 					</div>
-					<div class="shadow" style="top: 535px; left: 10px;"></div>
-					<div class="bvline" style="top: 550px; left: 285px; width: 15px"></div>
-					<div class="gvline" style="top: 555px; left: 285px; width: 20px"></div>
-					<div class="boxbg male AncCol1" style="top: 230px; left: 316px;">
-						<a class="noThumb" href="../../../ppl/c/0/cb589cc84e63bbab10c.html">
-						Korhonen, Adam Gabrielsson<br/>*1829-12-23<br/>+1896-05-10
-						</a>
-					</div>
-					<div class="shadow" style="top: 235px; left: 320px;"></div>
-					<div class="bvline" style="top: 250px; left: 300px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 250px; left: 300px; height: 301px;"></div>
-				
-					<div class="bvline" style="top: 250px; left: 595px; width: 15px"></div>
-					<div class="gvline" style="top: 255px; left: 595px; width: 20px"></div>
-					<div class="boxbg male AncCol2" style="top: 80px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/d/c/cb589cc96125216f2cd.html">
-						Korhonen, Gabriel Påhlsson<br/>*1803-12-19<br/>+1860-05-01
-						</a>
-					</div>
-					<div class="shadow" style="top: 85px; left: 630px;"></div>
-					<div class="bvline" style="top: 100px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 100px; left: 610px; height: 151px;"></div>
-				
-					<div class="bvline" style="top: 100px; left: 905px; width: 15px"></div>
-					<div class="gvline" style="top: 105px; left: 905px; width: 20px"></div>
-					<div class="boxbg male AncCol3" style="top: 5px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/3/3/cb589ccc8ab1e1e3133.html">
-						Korhonen, Påhl Mattsson<br/>*1775<br/>+1840-11-08
-						</a>
-					</div>
-					<div class="shadow" style="top: 10px; left: 940px;"></div>
-					<div class="bvline" style="top: 25px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 25px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol3" style="top: 155px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/3/5/cb589ccc88138971b53.html">
-						Huttunen, Lisa Michelsdotter<br/>*1778<br/>+1854-07-22
-						</a>
-					</div>
-					<div class="shadow" style="top: 160px; left: 940px;"></div>
-					<div class="bvline" style="top: 175px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 100px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol2" style="top: 380px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/d/4/cb589cc95ec038e744d.html">
-						Raatikainen, Anna Lisa Samuelsdotter<br/>*1803<br/>+1871-11-09
-						</a>
-					</div>
-					<div class="shadow" style="top: 385px; left: 630px;"></div>
-					<div class="bvline" style="top: 400px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 250px; left: 610px; height: 151px;"></div>
-				
-					<div class="bvline" style="top: 400px; left: 905px; width: 15px"></div>
-					<div class="gvline" style="top: 405px; left: 905px; width: 20px"></div>
-					<div class="boxbg male AncCol3" style="top: 305px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/c/c/cb589ccc7ae38cea7cc.html">
-						Radikain, Samuel Samuelsson<br/>*1771-03-02<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 310px; left: 940px;"></div>
-					<div class="bvline" style="top: 325px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 325px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol3" style="top: 455px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/e/2/cb589ccc7db4472152e.html">
-						Vepsäläin, Lisa<br/>*1777<br/>+1809-01-10
-						</a>
-					</div>
-					<div class="shadow" style="top: 460px; left: 940px;"></div>
-					<div class="bvline" style="top: 475px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 400px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol1" style="top: 830px; left: 316px;">
-						<a class="noThumb" href="../../../ppl/3/2/cb589cc84c27af4bb23.html">
-						Jääskeläinen, Eva Pettersdotter<br/>*1842-10-30<br/>+1927-09-10
-						</a>
-					</div>
-					<div class="shadow" style="top: 835px; left: 320px;"></div>
-					<div class="bvline" style="top: 850px; left: 300px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 550px; left: 300px; height: 301px;"></div>
-				
-					<div class="bvline" style="top: 850px; left: 595px; width: 15px"></div>
-					<div class="gvline" style="top: 855px; left: 595px; width: 20px"></div>
-					<div class="boxbg male AncCol2" style="top: 680px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/2/f/cb589cc94d005da5cf2.html">
-						Jääskeläinen, Petter Mattsson<br/>*1806-02-15<br/>+1879-06-26
-						</a>
-					</div>
-					<div class="shadow" style="top: 685px; left: 630px;"></div>
-					<div class="bvline" style="top: 700px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 700px; left: 610px; height: 151px;"></div>
-				
-					<div class="bvline" style="top: 700px; left: 905px; width: 15px"></div>
-					<div class="gvline" style="top: 705px; left: 905px; width: 20px"></div>
-					<div class="boxbg male AncCol3" style="top: 605px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/2/8/cb589ccc61103fcae82.html">
-						Jäskeläin, Matts<br/>*1783<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 610px; left: 940px;"></div>
-					<div class="bvline" style="top: 625px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 625px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol3" style="top: 755px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/d/1/cb589ccc62b04f0131d.html">
-						Westerinen, Elisabeth<br/>*1784<br/>+1819-12-10
-						</a>
-					</div>
-					<div class="shadow" style="top: 760px; left: 940px;"></div>
-					<div class="bvline" style="top: 775px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 700px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol2" style="top: 980px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/8/0/cb589cc948c07b4ff08.html">
-						Tarvainen, Caisa Mathilda<br/>*1812-11-15<br/>+1884-11-01
-						</a>
-					</div>
-					<div class="shadow" style="top: 985px; left: 630px;"></div>
-					<div class="bvline" style="top: 1000px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 850px; left: 610px; height: 151px;"></div>
-				
-					<div class="bvline" style="top: 1000px; left: 905px; width: 15px"></div>
-					<div class="gvline" style="top: 1005px; left: 905px; width: 20px"></div>
-					<div class="boxbg male AncCol3" style="top: 905px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/1/f/cb589ccc4d95f33fbf1.html">
-						Tarvain, Matts<br/>*1767<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 910px; left: 940px;"></div>
-					<div class="bvline" style="top: 925px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 925px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol3" style="top: 1055px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/4/8/cb589ccc4c00d9da784.html">
-						Knutin, Elisabeth<br/>*1771-08-02<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 1060px; left: 940px;"></div>
-					<div class="bvline" style="top: 1075px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 1000px; left: 920px; height: 76px;"></div>
-				
 				</div>
 			</div>
 			<div class="subsection" id="sourcerefs">
 				<h4>Source References</h4>
-				<ol>
+				<ol id="srcr">
 					<li>
 						<a href="../../../src/4/f/cde6260bdbc4ac95df4.html" title="Rautalammin seurakunta: Rautalampi Syntyneet 1862-1879" name ="sref1">
 						Rautalammin seurakunta: Rautalampi Syntyneet 1862-1879
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref1a">
 								<ul>
 									<li>
@@ -800,7 +804,7 @@
 						<a href="../../../src/5/6/dcf2b1dca8654f628c3a95cd365.html" title="Rautalammin seurakunta: Rautalampi Lastenkirja 1862-1871" name ="sref2">
 						Rautalammin seurakunta: Rautalampi Lastenkirja 1862-1871
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref2a">
 								<ul>
 									<li>
@@ -823,7 +827,7 @@
 						<a href="../../../src/e/6/d1cd57ef5fb6731dc6e.html" title="Minnesota Deaths and Burials 1835-1990" name ="sref3">
 						Minnesota Deaths and Burials 1835-1990
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref3a">
 								<ul>
 									<li>
@@ -843,7 +847,7 @@
 						<a href="../../../src/b/4/d1cd3d25a033723f24b.html" title="Kymin seurakunta: Kymi Vihityt 1888-1899" name ="sref4">
 						Kymin seurakunta: Kymi Vihityt 1888-1899
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref4a">
 								<ul>
 									<li>
@@ -860,7 +864,7 @@
 						<a href="../../../src/d/d/cea7b59ded76a48bedd.html" title="U.S. Census Bureau: United States Census, 1900" name ="sref5">
 						U.S. Census Bureau: United States Census, 1900
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref5a">
 								<ul>
 									<li>
@@ -883,7 +887,7 @@
 						<a href="../../../src/0/5/cea7bb8478c39649250.html" title="U.S. Census Bureau: Minnesota, State Census, 1905" name ="sref6">
 						U.S. Census Bureau: Minnesota, State Census, 1905
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref6a">
 								<ul>
 									<li>
@@ -906,7 +910,7 @@
 						<a href="../../../src/5/5/cea7c6b3a1f1b128455.html" title="U.S. Census Bureau: United States Census, 1910" name ="sref7">
 						U.S. Census Bureau: United States Census, 1910
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref7a">
 								<ul>
 									<li>
@@ -929,7 +933,7 @@
 						<a href="../../../src/b/7/cea7c8752cb3f8be17b.html" title="U.S. Census Bureau: United States Census, 1920" name ="sref8">
 						U.S. Census Bureau: United States Census, 1920
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref8a">
 								<ul>
 									<li>
@@ -952,7 +956,7 @@
 						<a href="../../../src/d/1/ce9c1874bb2477f311d.html" title="U.S. Census Bureau: United States Census, 1930" name ="sref9">
 						U.S. Census Bureau: United States Census, 1930
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref9a">
 								<ul>
 									<li>
@@ -975,7 +979,7 @@
 						<a href="../../../src/1/7/ce9d7529ae85d452b71.html" title="U.S. Census Bureau: United States Census, 1940" name ="sref10">
 						U.S. Census Bureau: United States Census, 1940
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref10a">
 								<ul>
 									<li>
@@ -1000,7 +1004,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2018-08-13 20:14:29<br />Created for Entire Database
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2<br />Last change was the 2018-08-13 20:14:29<br />Created for Entire Database
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

@@ -1,26 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>Nordberg Family Tree - Places</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
 </head>
-<body  onload = "initialize();" >
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">Nordberg Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">Nordberg Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
 					<li><a href="../../../families.html" title="Families">Families</a></li>
@@ -28,13 +39,43 @@
 					<li class = "CurrentSection"><a href="../../../places.html" title="Places">Places</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="PlaceDetail">
 			<h3>Loppi, Suomi</h3>
 			<div id="summaryarea">
@@ -72,7 +113,7 @@
 							<th class="ColumnAttribute">Enclosed By</th>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/1/a/cb589cfeb254c33cda1.html" title="Suomi">Suomi</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/1/a/cb589cfeb254c33cda1.html" title="Suomi">Suomi</a></td>
 						</tr>
 						<tr>
 							<td>
@@ -83,89 +124,97 @@
 							<th class="ColumnAttribute">Place Encloses</th>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/5/a/cf8ec9c17a02cf151a5.html" title="kirkonkylä">kirkonkylä</a></td>
+							<td class="ColumnPlace">Joentaka</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/4/0/cb589ccc40934e82e04.html" title="Sajaniemi">Sajaniemi</a></td>
+							<td class="ColumnPlace">Järventaka</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">Joentaka</td>
+							<td class="ColumnPlace">Launoinen</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">Läyliäinen</td>
+							<td class="ColumnPlace">Lopen Takamaa</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">Launoinen</td>
+							<td class="ColumnPlace">Läyliäinen</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">Järventaka</td>
+							<td class="ColumnPlace">Metsäkylä</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">Lopen Takamaa</td>
+							<td class="ColumnPlace"><a href="../../../plc/4/0/cb589ccc40934e82e04.html" title="Sajaniemi">Sajaniemi</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">Metsäkylä</td>
+							<td class="ColumnPlace"><a href="../../../plc/5/a/cf8ec9c17a02cf151a5.html" title="kirkonkylä">kirkonkylä</a></td>
 						</tr>
 					</tbody>
 				</table>
 			</div>
-			<div id="popup"></div>
+			<div class="ol-popup" id="popup"><a class="ol-popup-closer" href="#" id="popup-closer"></a><div class="ol-popup-title" id="popup-title"></div><div id="popup-content"></div></div>
+			<div class="ol-popup" id="tooltip"><div id="tooltip-content"></div></div>
 			<div class="subsection" id="references">
 				<h4>References</h4>
 				<ol class="Col1" role="Volume-n-Page" type=1>
 					<li>
 						<a href="../../../ppl/4/e/cf9688949481c81b0e4.html">
 						Lindfors, Eva
-						 (1842-07-18) 
+						 (1842-07-18 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/d/4/df4d5ed80126484a7afef4d0f4d.html">
 						Nyman, Edvin
-						 (1855-09-29) 
+						 (1855-09-29 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/3/1/df6ad7fa78a215766ee33b66213.html">
 						, Otto Selim Johansson
-						 (1856-09-03) 
+						 (1856-09-03 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/8/d/df5a7aec2c96ea91b085cc388d8.html">
 						Liukkonen, August
-						 (1857-11-09) 
+						 (1857-11-09 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/a/2/df5a8e265b46a0db1cfa8ae642a.html">
 						Rosenberg, Kaarlo Wihtori
-						 (1874-02-21) 
+						 (1874-02-21 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/0/1/df7160ab41974fc795bbb4b3e10.html">
 						Wild, Maria Eufrosyne
-						 (1875-07-09) 
+						 (1875-07-09 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/4/7/df776489a0171ebe67744eac474.html">
 						Nyberg, Ida Maria
-						 (1878-04-01) 
+						 (1878-04-01 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/4/6/df713205bbf1173e21c11f22264.html">
 						Wild, Hilda Sofia
-						 (1879-03-30) 
+						 (1879-03-30 Birth) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/c/f/cb589ccbed97a687efc.html">
+						Ahlberg, Josefina Wilhelmina
+						 (1881-10-27) 
 						
 						</a>
 					</li>
@@ -184,9 +233,9 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/c/f/cb589ccbed97a687efc.html">
-						Ahlberg, Josefina Wilhelmina
-						 (1881-10-27) 
+						<a href="../../../fam/4/7/df5a7a4c2dc110e3ac16f97dd74.html">
+						Family of Liukkonen, August and , Maria Aurora Ottosdotter
+						 (1883-07-02) 
 						
 						</a>
 					</li>
@@ -198,23 +247,9 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../fam/4/7/df5a7a4c2dc110e3ac16f97dd74.html">
-						Family of Liukkonen, August and , Maria Aurora Ottosdotter
-						 (1883-07-02) 
-						
-						</a>
-					</li>
-					<li>
 						<a href="../../../ppl/9/3/cb589ccc20413f61d39.html">
 						, Maria Aurora Ottosdotter
 						 (1883-07-02) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../fam/4/1/df6ad798a139aa699b15bf7c14.html">
-						Family of , Otto Selim Johansson and Korzard, Maria Mathilda
-						 (1885-10-04) 
 						
 						</a>
 					</li>
@@ -233,6 +268,20 @@
 						</a>
 					</li>
 					<li>
+						<a href="../../../fam/4/1/df6ad798a139aa699b15bf7c14.html">
+						Family of , Otto Selim Johansson and Korzard, Maria Mathilda
+						 (1885-10-04) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/e/c/df5a858a1961be4be9915d75fce.html">
+						Nygren, Juho Edward
+						 (1891-08-06) 
+						
+						</a>
+					</li>
+					<li>
 						<a href="../../../fam/b/4/df5a8572afa1ef4e5dbcdc8ee4b.html">
 						Family of Nygren, Juho Edward and Wesander, Josefina
 						 (1891-08-06) 
@@ -247,22 +296,8 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/e/c/df5a858a1961be4be9915d75fce.html">
-						Nygren, Juho Edward
-						 (1891-08-06) 
-						
-						</a>
-					</li>
-					<li>
 						<a href="../../../fam/c/f/df6b219889336aad6e9f7dc3cfc.html">
 						Family of Korzard, Otto Alexander and , Alexandra Enokintytär
-						 (1892-11-18) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/f/1/df6b21c5d695f2c3b272312bb1f.html">
-						, Alexandra Enokintytär
 						 (1892-11-18) 
 						
 						</a>
@@ -275,9 +310,23 @@
 						</a>
 					</li>
 					<li>
+						<a href="../../../ppl/f/1/df6b21c5d695f2c3b272312bb1f.html">
+						, Alexandra Enokintytär
+						 (1892-11-18) 
+						
+						</a>
+					</li>
+					<li>
 						<a href="../../../ppl/d/c/df6b28f46553cb2eb09939456cd.html">
 						Korzard, Otto Selim
-						 (1893-11-28) 
+						 (1893-11-28 Birth) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../fam/0/e/df7160839dc4eadbde3ce6cbe0.html">
+						Family of Korzard, Karl Ferdinand and Wild, Maria Eufrosyne
+						 (1896-01-25) 
 						
 						</a>
 					</li>
@@ -296,22 +345,15 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../fam/0/e/df7160839dc4eadbde3ce6cbe0.html">
-						Family of Korzard, Karl Ferdinand and Wild, Maria Eufrosyne
-						 (1896-01-25) 
-						
-						</a>
-					</li>
-					<li>
 						<a href="../../../ppl/d/f/df776512a9075a2f1e91a3e75fd.html">
 						Nyberg, Helmi Maria
-						 (1897-12-05) 
+						 (1897-12-05 Birth) 
 						
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/4/6/df713205bbf1173e21c11f22264.html">
-						Wild, Hilda Sofia
+						<a href="../../../fam/5/c/df7131cba331e8e144ba66420c5.html">
+						Family of Korzard, August and Wild, Hilda Sofia
 						 (1898-02-12) 
 						
 						</a>
@@ -324,8 +366,8 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../fam/5/c/df7131cba331e8e144ba66420c5.html">
-						Family of Korzard, August and Wild, Hilda Sofia
+						<a href="../../../ppl/4/6/df713205bbf1173e21c11f22264.html">
+						Wild, Hilda Sofia
 						 (1898-02-12) 
 						
 						</a>
@@ -333,13 +375,13 @@
 					<li>
 						<a href="../../../ppl/f/9/df7176a0dbb3f678c09f9c3519f.html">
 						Korzard, Hilma Maria
-						 (1899-03-25) 
+						 (1899-03-25 Birth) 
 						
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/a/2/df5a8e265b46a0db1cfa8ae642a.html">
-						Rosenberg, Kaarlo Wihtori
+						<a href="../../../ppl/6/5/cb589ccc2c1701aed56.html">
+						Wesander, Evelina
 						 (1899-06-01) 
 						
 						</a>
@@ -352,9 +394,16 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/6/5/cb589ccc2c1701aed56.html">
-						Wesander, Evelina
+						<a href="../../../ppl/a/2/df5a8e265b46a0db1cfa8ae642a.html">
+						Rosenberg, Kaarlo Wihtori
 						 (1899-06-01) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/9/c/df6a7e0ca9f684c3e5dddc3a8c9.html">
+						Korzard, Vihtori Arthur
+						 (1900-10-26) 
 						
 						</a>
 					</li>
@@ -373,23 +422,16 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/9/c/df6a7e0ca9f684c3e5dddc3a8c9.html">
-						Korzard, Vihtori Arthur
-						 (1900-10-26) 
-						
-						</a>
-					</li>
-					<li>
 						<a href="../../../ppl/e/c/df7766193ccf5e489bb171dece.html">
 						Korzard, Vihtori Bernhard
-						 (1901-04-18) 
+						 (1901-04-18 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/a/9/df7766f7f245e0fd21942d319a.html">
 						Korzard, Ida Wilhelmina
-						 (1901-04-18) 
+						 (1901-04-18 Birth) 
 						
 						</a>
 					</li>
@@ -399,7 +441,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2018-08-28 23:39:47<br />Created for Entire Database
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2<br />Last change was the 2018-08-28 23:39:47<br />Created for Entire Database
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

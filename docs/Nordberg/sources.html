@@ -1,26 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>Nordberg Family Tree - Sources</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">Nordberg Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">Nordberg Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li><a href="individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="index.html" title="Surnames">Surnames</a></li>
 					<li><a href="families.html" title="Families">Families</a></li>
@@ -28,18 +39,48 @@
 					<li><a href="places.html" title="Places">Places</a></li>
 					<li class = "CurrentSection"><a href="sources.html" title="Sources">Sources</a></li>
 					<li><a href="repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="media.html" title="Media">Media</a></li>
-					<li><a href="thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="updates.html" title="Updates">Updates</a></li>
 					<li><a href="statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="Sources">
 			<p id="description">
 			This page contains an index of all the sources in the database, sorted by their title. Clicking on a source&#8217;s title will take you to that source&#8217;s page.
 			</p>
-			<table class="infolist primobjlist sourcelist">
+			<table class="infolist primobjlist sourcelist ltr">
 				<thead>
 					<tr>
 						<th class="ColumnRowLabel">Number</th>
@@ -50,6 +91,15 @@
 				<tbody>
 					<tr>
 						<td class="ColumnRowLabel">1</td>
+						<td class="ColumnAuthor">Paul, Aksel</td>
+						<td class="ColumnName">
+							<a href="src/3/0/dcde088884844f55819d0fcc103.html" title="Adress- och yrkeskalender för Helsingfors jämte förorter">
+							Adress- och yrkeskalender för Helsingfors jämte förorter
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnRowLabel">2</td>
 						<td class="ColumnAuthor">Tidnings- och Tryckeriaktiebolaget</td>
 						<td class="ColumnName">
 							<a href="src/e/0/dcde071bb604b94ae4ef5894f0e.html" title="Adressbok och yrkeskalender för Helsingfors">
@@ -58,20 +108,11 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">2</td>
+						<td class="ColumnRowLabel">3</td>
 						<td class="ColumnAuthor"></td>
 						<td class="ColumnName">
 							<a href="src/c/e/ec7199ba958ccdf89b93baf6ec.html" title="Adresskalender för Helsingfors stad">
 							Adresskalender för Helsingfors stad
-							</a>
-						</td>
-					</tr>
-					<tr>
-						<td class="ColumnRowLabel">3</td>
-						<td class="ColumnAuthor">Paul, Aksel</td>
-						<td class="ColumnName">
-							<a href="src/3/0/dcde088884844f55819d0fcc103.html" title="Adress- och yrkeskalender för Helsingfors jämte förorter">
-							Adress- och yrkeskalender för Helsingfors jämte förorter
 							</a>
 						</td>
 					</tr>
@@ -383,15 +424,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">38</td>
-						<td class="ColumnAuthor">Hämeen Sanomat Oy</td>
-						<td class="ColumnName">
-							<a href="src/7/f/f608af774b24620f7eda31b11f7.html" title="Hämeen Sanomat">
-							Hämeen Sanomat
-							</a>
-						</td>
-					</tr>
-					<tr>
-						<td class="ColumnRowLabel">39</td>
 						<td class="ColumnAuthor">Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/6/3/eceafea4186429e7fed8ae43136.html" title="Häme Henkikirja 1907">
@@ -400,7 +432,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">40</td>
+						<td class="ColumnRowLabel">39</td>
 						<td class="ColumnAuthor">Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/7/1/eceb02d116f56a9c4f01890e517.html" title="Häme Henkikirja 1908">
@@ -409,7 +441,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">41</td>
+						<td class="ColumnRowLabel">40</td>
 						<td class="ColumnAuthor">Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/5/f/eceb06eb1662a231a90f05880f5.html" title="Häme Henkikirja 1909">
@@ -418,7 +450,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">42</td>
+						<td class="ColumnRowLabel">41</td>
 						<td class="ColumnAuthor">Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/e/6/eceb0a0e84c5959267ad2e2aa6e.html" title="Häme Henkikirja 1910">
@@ -427,7 +459,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">43</td>
+						<td class="ColumnRowLabel">42</td>
 						<td class="ColumnAuthor">Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/e/e/eceb0c640d5699ca26f4d2662ee.html" title="Häme Henkikirja 1911">
@@ -436,7 +468,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">44</td>
+						<td class="ColumnRowLabel">43</td>
 						<td class="ColumnAuthor">Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/5/d/eceb0fa0a0b6945ad69406db8d5.html" title="Häme Henkikirja 1912">
@@ -445,7 +477,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">45</td>
+						<td class="ColumnRowLabel">44</td>
 						<td class="ColumnAuthor">Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/6/c/eceb1992bdf7561bfe8bb3c1ac6.html" title="Häme Henkikirja 1913">
@@ -454,7 +486,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">46</td>
+						<td class="ColumnRowLabel">45</td>
 						<td class="ColumnAuthor">Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/b/8/eceb34d101f66c4c8f588366c8b.html" title="Häme Henkikirja 1914">
@@ -463,7 +495,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">47</td>
+						<td class="ColumnRowLabel">46</td>
 						<td class="ColumnAuthor">Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/5/a/eceb4f368544f3fe31602a9b6a5.html" title="Häme Henkikirja 1915">
@@ -472,7 +504,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">48</td>
+						<td class="ColumnRowLabel">47</td>
 						<td class="ColumnAuthor">Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/4/a/eceb813059c590a41ad6c2dfea4.html" title="Häme Henkikirja 1916">
@@ -481,7 +513,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">49</td>
+						<td class="ColumnRowLabel">48</td>
 						<td class="ColumnAuthor">Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/1/c/eceb8b636762cd9ea66b64e19c1.html" title="Häme Henkikirja 1917">
@@ -490,7 +522,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">50</td>
+						<td class="ColumnRowLabel">49</td>
 						<td class="ColumnAuthor">Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/f/9/eceb93c578d18b4292fa1d6649f.html" title="Häme Henkikirja 1918">
@@ -499,7 +531,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">51</td>
+						<td class="ColumnRowLabel">50</td>
 						<td class="ColumnAuthor">Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/9/d/ecebf52bbf5e5295491cdfd9.html" title="Häme Henkikirja 1919">
@@ -508,7 +540,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">52</td>
+						<td class="ColumnRowLabel">51</td>
 						<td class="ColumnAuthor">Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/7/5/eced49e552e47f183805986f57.html" title="Häme Henkikirja 1920">
@@ -517,7 +549,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">53</td>
+						<td class="ColumnRowLabel">52</td>
 						<td class="ColumnAuthor">Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/f/f/f357dd1331c4223acea863ee9ff.html" title="Häme Henkikirja 1921">
@@ -526,11 +558,20 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">54</td>
+						<td class="ColumnRowLabel">53</td>
 						<td class="ColumnAuthor">Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/5/3/f60925882df10be479f42f70135.html" title="Häme Henkikirja 1922">
 							Häme Henkikirja 1922
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnRowLabel">54</td>
+						<td class="ColumnAuthor">Hämeen Sanomat Oy</td>
+						<td class="ColumnName">
+							<a href="src/7/f/f608af774b24620f7eda31b11f7.html" title="Hämeen Sanomat">
+							Hämeen Sanomat
 							</a>
 						</td>
 					</tr>
@@ -709,8 +750,8 @@
 						<td class="ColumnRowLabel">74</td>
 						<td class="ColumnAuthor"></td>
 						<td class="ColumnName">
-							<a href="src/e/d/f35f4d6226743390a87ce5222de.html" title="Hautakivi Nordberg/Hjorth Näsinmäki">
-							Hautakivi Nordberg/Hjorth Näsinmäki
+							<a href="src/2/8/f37e9ed7c102176819594eb9382.html" title="Hautakivi Nordberg Mount Wollaston">
+							Hautakivi Nordberg Mount Wollaston
 							</a>
 						</td>
 					</tr>
@@ -718,8 +759,8 @@
 						<td class="ColumnRowLabel">75</td>
 						<td class="ColumnAuthor"></td>
 						<td class="ColumnName">
-							<a href="src/2/8/f37e9ed7c102176819594eb9382.html" title="Hautakivi Nordberg Mount Wollaston">
-							Hautakivi Nordberg Mount Wollaston
+							<a href="src/e/d/f35f4d6226743390a87ce5222de.html" title="Hautakivi Nordberg/Hjorth Näsinmäki">
+							Hautakivi Nordberg/Hjorth Näsinmäki
 							</a>
 						</td>
 					</tr>
@@ -754,8 +795,8 @@
 						<td class="ColumnRowLabel">79</td>
 						<td class="ColumnAuthor"></td>
 						<td class="ColumnName">
-							<a href="src/7/d/f6129cd388252bcb1917e2197d7.html" title="Hautakivi Salmi Koski TL">
-							Hautakivi Salmi Koski TL
+							<a href="src/d/4/f612bf1898221fcadc9ca4c324d.html" title="Hautakivi Salmi (Yrjö, Amanda) Koski TL">
+							Hautakivi Salmi (Yrjö, Amanda) Koski TL
 							</a>
 						</td>
 					</tr>
@@ -763,8 +804,8 @@
 						<td class="ColumnRowLabel">80</td>
 						<td class="ColumnAuthor"></td>
 						<td class="ColumnName">
-							<a href="src/d/4/f612bf1898221fcadc9ca4c324d.html" title="Hautakivi Salmi (Yrjö, Amanda) Koski TL">
-							Hautakivi Salmi (Yrjö, Amanda) Koski TL
+							<a href="src/7/d/f6129cd388252bcb1917e2197d7.html" title="Hautakivi Salmi Koski TL">
+							Hautakivi Salmi Koski TL
 							</a>
 						</td>
 					</tr>
@@ -2869,8 +2910,8 @@
 						<td class="ColumnRowLabel">314</td>
 						<td class="ColumnAuthor">Pornaisten seurakunta</td>
 						<td class="ColumnName">
-							<a href="src/b/c/df69c22d86a642cd955b9c9ebcb.html" title="Pornainen Vihityt">
-							Pornainen Vihityt
+							<a href="src/b/a/f5dc19f262328ae8c2a5a5c67ab.html" title="Pornainen Vihityt-Syntyneet-Kuolleet 1801-1825">
+							Pornainen Vihityt-Syntyneet-Kuolleet 1801-1825
 							</a>
 						</td>
 					</tr>
@@ -2878,8 +2919,8 @@
 						<td class="ColumnRowLabel">315</td>
 						<td class="ColumnAuthor">Pornaisten seurakunta</td>
 						<td class="ColumnName">
-							<a href="src/b/a/f5dc19f262328ae8c2a5a5c67ab.html" title="Pornainen Vihityt-Syntyneet-Kuolleet 1801-1825">
-							Pornainen Vihityt-Syntyneet-Kuolleet 1801-1825
+							<a href="src/b/c/df69c22d86a642cd955b9c9ebcb.html" title="Pornainen Vihityt">
+							Pornainen Vihityt
 							</a>
 						</td>
 					</tr>
@@ -3164,24 +3205,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">347</td>
-						<td class="ColumnAuthor">Porvoon maaseurakunta</td>
-						<td class="ColumnName">
-							<a href="src/b/0/f5ae6df9bf869b343c4141410b.html" title="Porvoon msrk Lastenkirja 1762-1771">
-							Porvoon msrk Lastenkirja 1762-1771
-							</a>
-						</td>
-					</tr>
-					<tr>
-						<td class="ColumnRowLabel">348</td>
-						<td class="ColumnAuthor">Porvoon tuomiokunta</td>
-						<td class="ColumnName">
-							<a href="src/6/b/e8ee2b20e50532734c0a41bebb6.html" title="Porvoon tuomiokunnan renovoidut tuomiokirjat - Ilmoitusasioiden pöytäkirjat 1870-1870">
-							Porvoon tuomiokunnan renovoidut tuomiokirjat - Ilmoitusasioiden pöytäkirjat 1870-1870
-							</a>
-						</td>
-					</tr>
-					<tr>
-						<td class="ColumnRowLabel">349</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/f/3/d6d0d9df696356e482e7c6c443f.html" title="Porvoo rtksrk Kuolleet 1770-1804">
@@ -3190,7 +3213,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">350</td>
+						<td class="ColumnRowLabel">348</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/8/6/d6e06ad8e4e4dd78de64e865868.html" title="Porvoo rtksrk Kuolleet 1805-1818">
@@ -3199,7 +3222,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">351</td>
+						<td class="ColumnRowLabel">349</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/e/7/df8764f4e433ea46497acb4bb7e.html" title="Porvoo rtksrk Kuolleet 1819-1831">
@@ -3208,7 +3231,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">352</td>
+						<td class="ColumnRowLabel">350</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/4/d/d6e0f3c5d5a2ca0aa9469a59d4.html" title="Porvoo rtksrk Kuolleet 1832-1851">
@@ -3217,7 +3240,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">353</td>
+						<td class="ColumnRowLabel">351</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/4/a/d6cd9d482e462331073f995d4a4.html" title="Porvoo rtksrk Kuolleet 1852-1873">
@@ -3226,7 +3249,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">354</td>
+						<td class="ColumnRowLabel">352</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/6/b/db881edf0336a2aef63eaf61eb6.html" title="Porvoo rtksrk Kuulutustodistukset 1832-1846">
@@ -3235,7 +3258,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">355</td>
+						<td class="ColumnRowLabel">353</td>
 						<td class="ColumnAuthor">Porvoo ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/e/1/ed142996b2e2db46020f0a74a1e.html" title="Porvoo rtksrk Lastenkirja 1762-1771">
@@ -3244,7 +3267,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">356</td>
+						<td class="ColumnRowLabel">354</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/4/e/d6d0b8750ba3461d04df9858de4.html" title="Porvoo rtksrk Lastenkirja 1771-1781">
@@ -3253,7 +3276,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">357</td>
+						<td class="ColumnRowLabel">355</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/3/9/d6d0bfda0432268bf4e8108c393.html" title="Porvoo rtksrk Lastenkirja 1781-1791">
@@ -3262,7 +3285,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">358</td>
+						<td class="ColumnRowLabel">356</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/1/9/d6d0c4bb5b07cb81f05866cea91.html" title="Porvoo rtksrk Lastenkirja 1791-1803">
@@ -3271,7 +3294,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">359</td>
+						<td class="ColumnRowLabel">357</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/e/5/d92e5dd42e222de60753238ab5e.html" title="Porvoo rtksrk Lastenkirja 1803-1820">
@@ -3280,7 +3303,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">360</td>
+						<td class="ColumnRowLabel">358</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/d/1/d931e49e9d160c9da9b335a291d.html" title="Porvoo rtksrk Lastenkirja 1820-1831">
@@ -3289,7 +3312,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">361</td>
+						<td class="ColumnRowLabel">359</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/0/9/d6cac3ebefa7ac5b3c739d52590.html" title="Porvoo rtksrk Lastenkirja 1831-1848">
@@ -3298,7 +3321,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">362</td>
+						<td class="ColumnRowLabel">360</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/2/8/db8a9276e0643ec55c8ba3c3182.html" title="Porvoo rtksrk Lastenkirja 1848-1860">
@@ -3307,7 +3330,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">363</td>
+						<td class="ColumnRowLabel">361</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/6/9/db7170159ec6d39e88bc913b496.html" title="Porvoo rtksrk Lastenkirja 1860-1868">
@@ -3316,7 +3339,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">364</td>
+						<td class="ColumnRowLabel">362</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/2/b/df97ac685cf568e61bcce3fdfb2.html" title="Porvoo rtksrk Lastenkirja 1869-1879">
@@ -3325,7 +3348,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">365</td>
+						<td class="ColumnRowLabel">363</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/b/8/db8afbbe34252728d922ae86a8b.html" title="Porvoo rtksrk Lastenkirja 1880-1889">
@@ -3334,7 +3357,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">366</td>
+						<td class="ColumnRowLabel">364</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/0/c/db74fe24dbf7525c14f98f33fc0.html" title="Porvoo rtksrk Muuttaneet 1796-1857">
@@ -3343,7 +3366,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">367</td>
+						<td class="ColumnRowLabel">365</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/0/7/db74e573edf53dca188b1fe1e70.html" title="Porvoo rtksrk Muuttaneet 1846-1850">
@@ -3352,7 +3375,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">368</td>
+						<td class="ColumnRowLabel">366</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/5/5/db71a9b87f328d263bbfc47755.html" title="Porvoo rtksrk Muuttaneet 1857-1879">
@@ -3361,7 +3384,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">369</td>
+						<td class="ColumnRowLabel">367</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/f/e/db712d4fc57d125f52d560d2ef.html" title="Porvoo rtksrk Muuttaneet 1861-1868">
@@ -3370,7 +3393,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">370</td>
+						<td class="ColumnRowLabel">368</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/c/2/db8bdba29961fd370463653a82c.html" title="Porvoo rtksrk Muuttaneet 1886-1900">
@@ -3379,7 +3402,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">371</td>
+						<td class="ColumnRowLabel">369</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/5/8/e90949f79c772df14277d4c3985.html" title="Porvoo rtksrk Muuttokirjat 1843-1844">
@@ -3388,7 +3411,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">372</td>
+						<td class="ColumnRowLabel">370</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/f/8/db74ff2422c470d16e88d23ed8f.html" title="Porvoo rtksrk Muuttokirjat 1845-1846">
@@ -3397,7 +3420,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">373</td>
+						<td class="ColumnRowLabel">371</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/5/e/de1bdba13a46eccc9df8f6fde5.html" title="Porvoo rtksrk Perukirjat 1819-1923">
@@ -3406,7 +3429,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">374</td>
+						<td class="ColumnRowLabel">372</td>
 						<td class="ColumnAuthor">Porvoo ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/c/d/e38988a40e27fc0b0cd6562cddc.html" title="Porvoo rtksrk Perukirjat liitteineen 1858-1867">
@@ -3415,7 +3438,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">375</td>
+						<td class="ColumnRowLabel">373</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/c/4/d94b44659c15e1bace2e93e104c.html" title="Porvoo rtksrk Rippikirja 1749-1759">
@@ -3424,7 +3447,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">376</td>
+						<td class="ColumnRowLabel">374</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/9/2/d6e4395cc5c7786a314c1b36829.html" title="Porvoo rtksrk Rippikirja 1754-1770">
@@ -3433,7 +3456,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">377</td>
+						<td class="ColumnRowLabel">375</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/a/2/d6ce208ff563b4301d682b6a32a.html" title="Porvoo rtksrk Rippikirja 1771-1776">
@@ -3442,7 +3465,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">378</td>
+						<td class="ColumnRowLabel">376</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/b/1/d6ce1e32504608c072239f4321b.html" title="Porvoo rtksrk Rippikirja 1777-1782">
@@ -3451,7 +3474,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">379</td>
+						<td class="ColumnRowLabel">377</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/5/6/d6ce0f8a2fb1b7efba3377d1265.html" title="Porvoo rtksrk Rippikirja 1786-1794">
@@ -3460,7 +3483,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">380</td>
+						<td class="ColumnRowLabel">378</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/f/c/d6cdda448716a020f78957f81cf.html" title="Porvoo rtksrk Rippikirja 1795-1802">
@@ -3469,7 +3492,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">381</td>
+						<td class="ColumnRowLabel">379</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/7/4/d6cdc2a86263f2f0fee504a4247.html" title="Porvoo rtksrk Rippikirja 1803-1812">
@@ -3478,7 +3501,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">382</td>
+						<td class="ColumnRowLabel">380</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/a/9/d6cdbfbe30416ec646fdadfa39a.html" title="Porvoo rtksrk Rippikirja 1813-1820">
@@ -3487,7 +3510,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">383</td>
+						<td class="ColumnRowLabel">381</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/d/1/d6cdb6e892b39137797a08ac81d.html" title="Porvoo rtksrk Rippikirja 1821-1829">
@@ -3496,7 +3519,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">384</td>
+						<td class="ColumnRowLabel">382</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/f/0/d6ca98778dc10e0561f9c06980f.html" title="Porvoo rtksrk Rippikirja 1829-1839">
@@ -3505,7 +3528,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">385</td>
+						<td class="ColumnRowLabel">383</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/a/f/db7f1b5c6071ba83807beed0bfa.html" title="Porvoo rtksrk Rippikirja 1840-1848">
@@ -3514,7 +3537,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">386</td>
+						<td class="ColumnRowLabel">384</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/5/7/db7f1d99179967edd7fa10f675.html" title="Porvoo rtksrk Rippikirja 1849-1858">
@@ -3523,7 +3546,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">387</td>
+						<td class="ColumnRowLabel">385</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/f/f/d6cda20a4443c79320f8ff5ffff.html" title="Porvoo rtksrk Rippikirja 1859-1868">
@@ -3532,7 +3555,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">388</td>
+						<td class="ColumnRowLabel">386</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/e/a/db8ab6037e9d25a7461400cbae.html" title="Porvoo rtksrk Rippikirja 1869-1878">
@@ -3541,7 +3564,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">389</td>
+						<td class="ColumnRowLabel">387</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/5/a/f35e8131f262e5b3b666aca39a5.html" title="Porvoo rtksrk Rippikirja 1880-1890">
@@ -3550,7 +3573,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">390</td>
+						<td class="ColumnRowLabel">388</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/2/d/cf9325616952d40d6d2.html" title="Porvoo rtksrk Rippikirja 1890-1899">
@@ -3559,7 +3582,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">391</td>
+						<td class="ColumnRowLabel">389</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/c/1/cdccc33aada5d1bc81c.html" title="Porvoo rtksrk Syntyneet 1742-1756">
@@ -3568,7 +3591,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">392</td>
+						<td class="ColumnRowLabel">390</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/0/e/d6d0f6d6deb45654ad708990e0.html" title="Porvoo rtksrk Syntyneet 1757-1778">
@@ -3577,7 +3600,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">393</td>
+						<td class="ColumnRowLabel">391</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/b/6/de191cd15dfc08af758240d56b.html" title="Porvoo rtksrk Syntyneet 1779-1795">
@@ -3586,7 +3609,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">394</td>
+						<td class="ColumnRowLabel">392</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/1/6/df816e0a1602e3e9ea972e96a61.html" title="Porvoo rtksrk Syntyneet 1796-1806">
@@ -3595,7 +3618,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">395</td>
+						<td class="ColumnRowLabel">393</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/3/7/d6cdacb25a48d6a1cbd4dbcd73.html" title="Porvoo rtksrk Syntyneet 1807-1816">
@@ -3604,7 +3627,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">396</td>
+						<td class="ColumnRowLabel">394</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/0/4/d6cdb01c64c13af50ff2b95ba40.html" title="Porvoo rtksrk Syntyneet 1817-1825">
@@ -3613,7 +3636,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">397</td>
+						<td class="ColumnRowLabel">395</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/e/7/db7f15f20625e2c9b2369407e7e.html" title="Porvoo rtksrk Syntyneet 1826-1832">
@@ -3622,7 +3645,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">398</td>
+						<td class="ColumnRowLabel">396</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/7/2/d6ce578bcc53be09fa28b6d6627.html" title="Porvoo rtksrk Syntyneet 1833-1840">
@@ -3631,7 +3654,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">399</td>
+						<td class="ColumnRowLabel">397</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/d/b/db8a970c451636eb9c5ac647cbd.html" title="Porvoo rtksrk Syntyneet 1841-1850">
@@ -3640,7 +3663,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">400</td>
+						<td class="ColumnRowLabel">398</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/4/3/db8a996fe4a6d2142b6f963ad34.html" title="Porvoo rtksrk Syntyneet 1851-1860">
@@ -3649,7 +3672,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">401</td>
+						<td class="ColumnRowLabel">399</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/7/6/cf931e58e3d67d78067.html" title="Porvoo rtksrk Syntyneet 1861-1873">
@@ -3658,7 +3681,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">402</td>
+						<td class="ColumnRowLabel">400</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/b/c/ebfe1eda0d456bb4ebfb23b45cb.html" title="Porvoo rtksrk Vihityt 1742-1764">
@@ -3667,7 +3690,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">403</td>
+						<td class="ColumnRowLabel">401</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/8/b/d6ce0c487d74c90ec3c6f73b1b8.html" title="Porvoo rtksrk Vihityt 1765-1804">
@@ -3676,7 +3699,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">404</td>
+						<td class="ColumnRowLabel">402</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/f/b/d6ca92a86b3679725400d86aebf.html" title="Porvoo rtksrk Vihityt 1805-1841">
@@ -3685,7 +3708,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">405</td>
+						<td class="ColumnRowLabel">403</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/9/9/cf932f76149565a5899.html" title="Porvoo rtksrk Vihityt 1842-1888">
@@ -3694,7 +3717,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">406</td>
+						<td class="ColumnRowLabel">404</td>
 						<td class="ColumnAuthor">Porvoon ruotsalainen tuomiokirkkoseurakunta</td>
 						<td class="ColumnName">
 							<a href="src/c/6/f5df92fc3cd7693dd68275f656c.html" title="Porvoo rtsrk Muuttokirjat 1860-1861">
@@ -3703,7 +3726,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">407</td>
+						<td class="ColumnRowLabel">405</td>
 						<td class="ColumnAuthor">Suomen asutuksen yleisluettelo</td>
 						<td class="ColumnName">
 							<a href="src/1/d/cdbd0d02549650518d1.html" title="Porvoo SAY 1760-1779">
@@ -3712,7 +3735,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">408</td>
+						<td class="ColumnRowLabel">406</td>
 						<td class="ColumnAuthor">Porvoon suomalainen seurakunta</td>
 						<td class="ColumnName">
 							<a href="src/b/7/e904b5aa9e65a0900e554e27c7b.html" title="Porvoo suom Rippikirja 1747-1770">
@@ -3721,7 +3744,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">409</td>
+						<td class="ColumnRowLabel">407</td>
 						<td class="ColumnAuthor">Porvoon suomalainen seurakunta</td>
 						<td class="ColumnName">
 							<a href="src/6/2/db8bd0a894e3a39e2cb43f57c26.html" title="Porvoo suom Rippikirja 1880-1889">
@@ -3730,11 +3753,29 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">410</td>
+						<td class="ColumnRowLabel">408</td>
 						<td class="ColumnAuthor"></td>
 						<td class="ColumnName">
 							<a href="src/6/b/f3827aec9dd5952eb4c997a1bb6.html" title="Porvoo Vihityt 1842-1888">
 							Porvoo Vihityt 1842-1888
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnRowLabel">409</td>
+						<td class="ColumnAuthor">Porvoon maaseurakunta</td>
+						<td class="ColumnName">
+							<a href="src/b/0/f5ae6df9bf869b343c4141410b.html" title="Porvoon msrk Lastenkirja 1762-1771">
+							Porvoon msrk Lastenkirja 1762-1771
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnRowLabel">410</td>
+						<td class="ColumnAuthor">Porvoon tuomiokunta</td>
+						<td class="ColumnName">
+							<a href="src/6/b/e8ee2b20e50532734c0a41bebb6.html" title="Porvoon tuomiokunnan renovoidut tuomiokirjat - Ilmoitusasioiden pöytäkirjat 1870-1870">
+							Porvoon tuomiokunnan renovoidut tuomiokirjat - Ilmoitusasioiden pöytäkirjat 1870-1870
 							</a>
 						</td>
 					</tr>
@@ -5207,19 +5248,19 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">574</td>
-						<td class="ColumnAuthor">Oy Turunmaa</td>
+						<td class="ColumnAuthor">Oy Turun Sanomat</td>
 						<td class="ColumnName">
-							<a href="src/2/f/f6128a999a518b2471788f5b0f2.html" title="Turunmaa">
-							Turunmaa
+							<a href="src/d/c/f612c59f26e3a202eea614736cd.html" title="Turun Sanomat">
+							Turun Sanomat
 							</a>
 						</td>
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">575</td>
-						<td class="ColumnAuthor">Oy Turun Sanomat</td>
+						<td class="ColumnAuthor">Oy Turunmaa</td>
 						<td class="ColumnName">
-							<a href="src/d/c/f612c59f26e3a202eea614736cd.html" title="Turun Sanomat">
-							Turun Sanomat
+							<a href="src/2/f/f6128a999a518b2471788f5b0f2.html" title="Turunmaa">
+							Turunmaa
 							</a>
 						</td>
 					</tr>
@@ -5477,6 +5518,15 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">604</td>
+						<td class="ColumnAuthor">Uuden Suomettaren Oy</td>
+						<td class="ColumnName">
+							<a href="src/0/6/cdea804daa770fdbc60.html" title="Uusi suometar">
+							Uusi suometar
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnRowLabel">605</td>
 						<td class="ColumnAuthor">Uudenmaan lääni</td>
 						<td class="ColumnName">
 							<a href="src/4/2/ce84935d807686a2f24.html" title="Uusimaa Henkikirja 1845">
@@ -5485,7 +5535,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">605</td>
+						<td class="ColumnRowLabel">606</td>
 						<td class="ColumnAuthor">Uudenmaan lääni</td>
 						<td class="ColumnName">
 							<a href="src/2/e/ce84896d42355cc65e2.html" title="Uusimaa Henkikirja 1850">
@@ -5494,7 +5544,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">606</td>
+						<td class="ColumnRowLabel">607</td>
 						<td class="ColumnAuthor">Uudenmaan lääni</td>
 						<td class="ColumnName">
 							<a href="src/5/f/ce83e1ab59162d4b3f5.html" title="Uusimaa Henkikirja 1855">
@@ -5503,7 +5553,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">607</td>
+						<td class="ColumnRowLabel">608</td>
 						<td class="ColumnAuthor">Uudenmaan lääni</td>
 						<td class="ColumnName">
 							<a href="src/f/d/ce82173cc4056f5dbdf.html" title="Uusimaa Henkikirja 1860">
@@ -5512,7 +5562,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">608</td>
+						<td class="ColumnRowLabel">609</td>
 						<td class="ColumnAuthor">Uudenmaan lääni</td>
 						<td class="ColumnName">
 							<a href="src/7/7/ce8218e5bcb1c088d77.html" title="Uusimaa Henkikirja 1865">
@@ -5521,7 +5571,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">609</td>
+						<td class="ColumnRowLabel">610</td>
 						<td class="ColumnAuthor">Uudenmaan lääni</td>
 						<td class="ColumnName">
 							<a href="src/9/0/f87f1989c617df869681dc5da09.html" title="Uusimaa Henkikirja 1869">
@@ -5530,7 +5580,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">610</td>
+						<td class="ColumnRowLabel">611</td>
 						<td class="ColumnAuthor">Uudenmaan lääni</td>
 						<td class="ColumnName">
 							<a href="src/5/d/ce821aacc9b0f09d9d5.html" title="Uusimaa Henkikirja 1870">
@@ -5539,7 +5589,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">611</td>
+						<td class="ColumnRowLabel">612</td>
 						<td class="ColumnAuthor">Uudenmaan lääni</td>
 						<td class="ColumnName">
 							<a href="src/2/c/de1203029595a742f64657e5cc2.html" title="Uusimaa Henkikirja 1875">
@@ -5548,7 +5598,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">612</td>
+						<td class="ColumnRowLabel">613</td>
 						<td class="ColumnAuthor">Uudenmaan lääni</td>
 						<td class="ColumnName">
 							<a href="src/d/1/e16139912c44a850f6c6514701d.html" title="Uusimaa Henkikirja 1876">
@@ -5557,7 +5607,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">613</td>
+						<td class="ColumnRowLabel">614</td>
 						<td class="ColumnAuthor">Uudenmaan lääni</td>
 						<td class="ColumnName">
 							<a href="src/c/9/f15f303d04766c39801d4dace9c.html" title="Uusimaa Henkikirja 1877">
@@ -5566,7 +5616,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">614</td>
+						<td class="ColumnRowLabel">615</td>
 						<td class="ColumnAuthor">Uudenmaan lääni</td>
 						<td class="ColumnName">
 							<a href="src/d/6/f15f008182d659ef53bc6da776d.html" title="Uusimaa Henkikirja 1878">
@@ -5575,7 +5625,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">615</td>
+						<td class="ColumnRowLabel">616</td>
 						<td class="ColumnAuthor">Uudenmaan lääni</td>
 						<td class="ColumnName">
 							<a href="src/9/8/f15f10358887d7b94e7af19fc89.html" title="Uusimaa Henkikirja 1879">
@@ -5584,7 +5634,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">616</td>
+						<td class="ColumnRowLabel">617</td>
 						<td class="ColumnAuthor">Uudenmaan lääni</td>
 						<td class="ColumnName">
 							<a href="src/9/7/ec84a8e4f5547bb63d25501e579.html" title="Uusimaa Henkikirja 1884">
@@ -5593,7 +5643,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">617</td>
+						<td class="ColumnRowLabel">618</td>
 						<td class="ColumnAuthor">Uudenmaan lääni</td>
 						<td class="ColumnName">
 							<a href="src/3/9/f162338ce84362ba8c1529cff93.html" title="Uusimaa Henkikirja 1898">
@@ -5602,7 +5652,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">618</td>
+						<td class="ColumnRowLabel">619</td>
 						<td class="ColumnAuthor">Uudenmaan lääni</td>
 						<td class="ColumnName">
 							<a href="src/4/6/f1623628e505320ec02695f4e64.html" title="Uusimaa Henkikirja 1899">
@@ -5611,7 +5661,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">619</td>
+						<td class="ColumnRowLabel">620</td>
 						<td class="ColumnAuthor">Uudenmaan lääni</td>
 						<td class="ColumnName">
 							<a href="src/c/8/d3f883e7d90233732a94924698c.html" title="Uusimaa Henkikirja 1900">
@@ -5620,7 +5670,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">620</td>
+						<td class="ColumnRowLabel">621</td>
 						<td class="ColumnAuthor">Uudenmaan lääni</td>
 						<td class="ColumnName">
 							<a href="src/f/b/e181a4eca746e1aefa9429df6bf.html" title="Uusimaa Henkikirja 1901">
@@ -5629,7 +5679,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">621</td>
+						<td class="ColumnRowLabel">622</td>
 						<td class="ColumnAuthor">Uudenmaan lääni</td>
 						<td class="ColumnName">
 							<a href="src/8/b/f16297db84267e379a93e909bb8.html" title="Uusimaa Henkikirja 1902">
@@ -5638,7 +5688,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">622</td>
+						<td class="ColumnRowLabel">623</td>
 						<td class="ColumnAuthor">Uudenmaan lääni</td>
 						<td class="ColumnName">
 							<a href="src/a/7/e181ba08249788ad9b1bde1687a.html" title="Uusimaa Henkikirja 1903">
@@ -5647,7 +5697,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">623</td>
+						<td class="ColumnRowLabel">624</td>
 						<td class="ColumnAuthor">Uudenmaan lääni</td>
 						<td class="ColumnName">
 							<a href="src/1/f/e181cef685f5e2e3c48e5e678f1.html" title="Uusimaa Henkikirja 1904">
@@ -5656,7 +5706,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">624</td>
+						<td class="ColumnRowLabel">625</td>
 						<td class="ColumnAuthor">Uudenmaan lääni</td>
 						<td class="ColumnName">
 							<a href="src/d/6/e1818be389d6ec01a54b6ee766d.html" title="Uusimaa Henkikirja 1907">
@@ -5665,7 +5715,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">625</td>
+						<td class="ColumnRowLabel">626</td>
 						<td class="ColumnAuthor">Uudenmaan lääni</td>
 						<td class="ColumnName">
 							<a href="src/4/6/e1819659b836165c9f4f636d64.html" title="Uusimaa Henkikirja 1908">
@@ -5674,7 +5724,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">626</td>
+						<td class="ColumnRowLabel">627</td>
 						<td class="ColumnAuthor">Uudenman lääni</td>
 						<td class="ColumnName">
 							<a href="src/d/c/e1864fbde375fed76a5da4fa0cd.html" title="Uusimaa Henkikirja 1909">
@@ -5683,7 +5733,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">627</td>
+						<td class="ColumnRowLabel">628</td>
 						<td class="ColumnAuthor">Uudenmaan lääni</td>
 						<td class="ColumnName">
 							<a href="src/d/8/dce0bc150c27ea9b671dde63d8d.html" title="Uusimaa Henkikirja 1910">
@@ -5692,7 +5742,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">628</td>
+						<td class="ColumnRowLabel">629</td>
 						<td class="ColumnAuthor">Uudenmaan lääni</td>
 						<td class="ColumnName">
 							<a href="src/e/9/e824c6ca8f7600fae5ed7bfe79e.html" title="Uusimaa Henkikirja 1911">
@@ -5701,7 +5751,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">629</td>
+						<td class="ColumnRowLabel">630</td>
 						<td class="ColumnAuthor">Uudenmaan lääni</td>
 						<td class="ColumnName">
 							<a href="src/d/7/e824c76d63063029e69dd4fcd7d.html" title="Uusimaa Henkikirja 1912">
@@ -5710,7 +5760,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">630</td>
+						<td class="ColumnRowLabel">631</td>
 						<td class="ColumnAuthor">Uudenmaan lääni</td>
 						<td class="ColumnName">
 							<a href="src/9/b/e824c2d64de341418829e9eeb9.html" title="Uusimaa Henkikirja 1913">
@@ -5719,7 +5769,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">631</td>
+						<td class="ColumnRowLabel">632</td>
 						<td class="ColumnAuthor">Uudenmaan lääni</td>
 						<td class="ColumnName">
 							<a href="src/4/3/e824bce3f1b4ac1c80202118134.html" title="Uusimaa Henkikirja 1914">
@@ -5728,7 +5778,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">632</td>
+						<td class="ColumnRowLabel">633</td>
 						<td class="ColumnAuthor">Uudenmaan lääni</td>
 						<td class="ColumnName">
 							<a href="src/5/7/dce11b97c267f78788634f92175.html" title="Uusimaa Henkikirja 1915">
@@ -5737,7 +5787,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">633</td>
+						<td class="ColumnRowLabel">634</td>
 						<td class="ColumnAuthor">Uudenmaan lääni</td>
 						<td class="ColumnName">
 							<a href="src/6/7/e824afb41187bd142c543e4a576.html" title="Uusimaa Henkikirja 1916">
@@ -5746,7 +5796,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">634</td>
+						<td class="ColumnRowLabel">635</td>
 						<td class="ColumnAuthor">Uudenmaan lääni</td>
 						<td class="ColumnName">
 							<a href="src/d/8/e824b0bd38f250626a9b79a328d.html" title="Uusimaa Henkikirja 1917">
@@ -5755,7 +5805,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">635</td>
+						<td class="ColumnRowLabel">636</td>
 						<td class="ColumnAuthor">Uudenmaan lääni</td>
 						<td class="ColumnName">
 							<a href="src/8/f/e187980ac952b12b9ebab94f0f8.html" title="Uusimaa Henkikirja 1918">
@@ -5764,7 +5814,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">636</td>
+						<td class="ColumnRowLabel">637</td>
 						<td class="ColumnAuthor">Uudenmaan lääni</td>
 						<td class="ColumnName">
 							<a href="src/e/4/e824b23c86751e06c3388d8c74e.html" title="Uusimaa Henkikirja 1919">
@@ -5773,7 +5823,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">637</td>
+						<td class="ColumnRowLabel">638</td>
 						<td class="ColumnAuthor">Uudenmaan lääni</td>
 						<td class="ColumnName">
 							<a href="src/7/c/e824b2efe1c236c92cc8837c1c7.html" title="Uusimaa Henkikirja 1920">
@@ -5782,7 +5832,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">638</td>
+						<td class="ColumnRowLabel">639</td>
 						<td class="ColumnAuthor">Uudenmaan lääni</td>
 						<td class="ColumnName">
 							<a href="src/d/0/f7fb9b2629c323bb84e4f27740d.html" title="Uusimaa Henkikirja 1923">
@@ -5791,7 +5841,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">639</td>
+						<td class="ColumnRowLabel">640</td>
 						<td class="ColumnAuthor">Uudenmaan ja Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/f/e/d6d478c3ae95568b24ba2663fef.html" title="Uusimaa ja Häme Henkikirja 1768">
@@ -5800,7 +5850,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">640</td>
+						<td class="ColumnRowLabel">641</td>
 						<td class="ColumnAuthor">Uudenmaan ja Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/9/6/d6d47b7fb8a793749de11a6ee69.html" title="Uusimaa ja Häme Henkikirja 1769">
@@ -5809,7 +5859,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">641</td>
+						<td class="ColumnRowLabel">642</td>
 						<td class="ColumnAuthor">Uudenmaan ja Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/7/c/d6d462afc91452f19e6d01889c7.html" title="Uusimaa ja Häme Henkikirja 1771">
@@ -5818,7 +5868,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">642</td>
+						<td class="ColumnRowLabel">643</td>
 						<td class="ColumnAuthor">Uudenmaan ja Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/d/7/d6d47fca1c410461dab53bb527d.html" title="Uusimaa ja Häme Henkikirja 1772">
@@ -5827,7 +5877,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">643</td>
+						<td class="ColumnRowLabel">644</td>
 						<td class="ColumnAuthor">Uudenmaan ja Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/2/7/d6d4846c4dd51a69fcca891b972.html" title="Uusimaa ja Häme Henkikirja 1773">
@@ -5836,7 +5886,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">644</td>
+						<td class="ColumnRowLabel">645</td>
 						<td class="ColumnAuthor">Uudenmaan ja Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/6/3/d6d486ba44638577abf34859d36.html" title="Uusimaa ja Häme Henkikirja 1774">
@@ -5845,7 +5895,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">645</td>
+						<td class="ColumnRowLabel">646</td>
 						<td class="ColumnAuthor">Uudenmaan ja Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/d/2/d6d48ba913e413d2a1b1e86442d.html" title="Uusimaa ja Häme Henkikirja 1777">
@@ -5854,7 +5904,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">646</td>
+						<td class="ColumnRowLabel">647</td>
 						<td class="ColumnAuthor">Uudenmaan ja Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/9/6/d6d490c51b96202a4019e79cb69.html" title="Uusimaa ja Häme Henkikirja 1778">
@@ -5863,7 +5913,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">647</td>
+						<td class="ColumnRowLabel">648</td>
 						<td class="ColumnAuthor">Uudenmaan ja Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/7/f/d6d4922d76e57a23a32c60c7cf7.html" title="Uusimaa ja Häme Henkikirja 1779">
@@ -5872,7 +5922,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">648</td>
+						<td class="ColumnRowLabel">649</td>
 						<td class="ColumnAuthor">Uudenmaan ja Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/c/d/d6d492e78e038699d51ef4284dc.html" title="Uusimaa ja Häme Henkikirja 1780">
@@ -5881,7 +5931,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">649</td>
+						<td class="ColumnRowLabel">650</td>
 						<td class="ColumnAuthor">Uudenmaan ja Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/4/0/d6d4a26ac137a3277bb8a331204.html" title="Uusimaa ja Häme Henkikirja 1783">
@@ -5890,7 +5940,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">650</td>
+						<td class="ColumnRowLabel">651</td>
 						<td class="ColumnAuthor">Uudenmaan ja Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/0/1/d6d4a9799ed2606e0b405bd2a10.html" title="Uusimaa ja Häme Henkikirja 1785">
@@ -5899,7 +5949,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">651</td>
+						<td class="ColumnRowLabel">652</td>
 						<td class="ColumnAuthor">Uudenmaan ja Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/0/5/d6d4aacf33889129acd6e69f50.html" title="Uusimaa ja Häme Henkikirja 1786">
@@ -5908,7 +5958,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">652</td>
+						<td class="ColumnRowLabel">653</td>
 						<td class="ColumnAuthor">Uudenmaan ja Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/a/8/d6d4ac4eb881cff41f6f92c828a.html" title="Uusimaa ja Häme Henkikirja 1787">
@@ -5917,7 +5967,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">653</td>
+						<td class="ColumnRowLabel">654</td>
 						<td class="ColumnAuthor">Uudenmaan ja Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/8/4/d6d4adfe5c9ef0050e8d16de48.html" title="Uusimaa ja Häme Henkikirja 1788">
@@ -5926,7 +5976,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">654</td>
+						<td class="ColumnRowLabel">655</td>
 						<td class="ColumnAuthor">Uudenmaan ja Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/0/e/d6d4af5e0fb2427e399787d20e0.html" title="Uusimaa ja Häme Henkikirja 1789">
@@ -5935,7 +5985,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">655</td>
+						<td class="ColumnRowLabel">656</td>
 						<td class="ColumnAuthor">Uudenmaan ja Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/4/8/d6d4c3506b5669d0f9527ac4d84.html" title="Uusimaa ja Häme Henkikirja 1791">
@@ -5944,7 +5994,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">656</td>
+						<td class="ColumnRowLabel">657</td>
 						<td class="ColumnAuthor">Uudenmaan ja Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/d/9/e38da7a48d275b71d83ab303b9d.html" title="Uusimaa ja Häme Henkikirja 1792">
@@ -5953,7 +6003,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">657</td>
+						<td class="ColumnRowLabel">658</td>
 						<td class="ColumnAuthor">Uudenmaan ja Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/7/5/e38da010b6d71ca285f0e8d9557.html" title="Uusimaa ja Häme Henkikirja 1793">
@@ -5962,20 +6012,11 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="ColumnRowLabel">658</td>
+						<td class="ColumnRowLabel">659</td>
 						<td class="ColumnAuthor">Uudenmaan ja Hämeen lääni</td>
 						<td class="ColumnName">
 							<a href="src/a/a/d6d4c4d930a291f092143729aaa.html" title="Uusimaa ja Häme Henkikirja 1795">
 							Uusimaa ja Häme Henkikirja 1795
-							</a>
-						</td>
-					</tr>
-					<tr>
-						<td class="ColumnRowLabel">659</td>
-						<td class="ColumnAuthor">Uuden Suomettaren Oy</td>
-						<td class="ColumnName">
-							<a href="src/0/6/cdea804daa770fdbc60.html" title="Uusi suometar">
-							Uusi suometar
 							</a>
 						</td>
 					</tr>
@@ -6489,7 +6530,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6 on 2024-02-11<br />Created for Entire Database
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2 on 2024-07-07<br />Created for Entire Database
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

@@ -1,26 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>Nordberg Family Tree - Family of Forsblom, Johan and Nordberg, Hedwig Sofia</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">Nordberg Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">Nordberg Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
 					<li class = "CurrentSection"><a href="../../../families.html" title="Families">Families</a></li>
@@ -28,13 +39,43 @@
 					<li><a href="../../../places.html" title="Places">Places</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="RelationshipDetail">
 			<h2>Family of Forsblom, Johan and Nordberg, Hedwig Sofia<sup><small></small></sup></h2>
 			<div class="subsection" id="families">
@@ -66,9 +107,8 @@
 					</tr>
 					<tr>
 						<td class="ColumnType">&nbsp;</td>
-						<td class="ColumnAttribute">&nbsp;</td>
-						<td class="ColumnValue">
-							<table class="infolist eventlist">
+						<td class="ColumnValue" colspan="2">
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnEvent">Event</th>
@@ -80,7 +120,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/f/2/cb589cfcb6c4649222f.html" title="Marriage">
 											Marriage
 											</a>
@@ -96,9 +136,6 @@
 										 <a href="#sref1a">1a</a> <a href="#sref2a">2a</a> <a href="#sref3a">3a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -106,7 +143,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/3/5/db8829ac4df509bab238256a253.html" title="Residence">
 											Residence
 											</a>
@@ -122,9 +159,6 @@
 										 <a href="#sref4a">4a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -132,7 +166,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/8/c/db884c533d2188763ffb6af2ac8.html" title="Residence">
 											Residence
 											</a>
@@ -148,9 +182,6 @@
 										 <a href="#sref5a">5a</a> <a href="#sref6a">6a</a> <a href="#sref7a">7a</a> <a href="#sref8a">8a</a> <a href="#sref9a">9a</a> <a href="#sref10a">10a</a> <a href="#sref5b">5b</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -158,7 +189,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/6/c/db886a112c11f656c713502e7c6.html" title="Residence">
 											Residence
 											</a>
@@ -174,9 +205,6 @@
 										 <a href="#sref9a">9a</a> <a href="#sref5b">5b</a> <a href="#sref11a">11a</a> <a href="#sref12a">12a</a> <a href="#sref11b">11b</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -184,7 +212,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/b/d/db8882ab74a4b220085c1251db.html" title="Residence">
 											Residence
 											</a>
@@ -200,9 +228,6 @@
 										 <a href="#sref11b">11b</a> <a href="#sref5c">5c</a> <a href="#sref13a">13a</a> <a href="#sref9b">9b</a> <a href="#sref10b">10b</a> <a href="#sref5d">5d</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -210,7 +235,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/d/e/db889373fa5a558f356b17aded.html" title="Residence">
 											Residence
 											</a>
@@ -226,9 +251,6 @@
 										 <a href="#sref14a">14a</a> <a href="#sref15a">15a</a> <a href="#sref16a">16a</a> <a href="#sref17a">17a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -239,10 +261,9 @@
 							</table>
 						</td>
 						<tr>
-							<td class="ColumnType">&nbsp;</td>
 							<td class="ColumnAttribute">Children</td>
-							<td class="ColumnValue" />
-							<table class="infolist eventlist">
+							<td class="ColumnValue Child" colspan="2" />
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnName">Name</th>
@@ -260,14 +281,19 @@
 					</tr>
 				</table>
 			</div>
+			<h4>Family Map</h4>
+			<div id="toggle_map" style="display:block">
+				<br />
+					<br />
+			</div>
 			<div class="subsection" id="sourcerefs">
 				<h4>Source References</h4>
-				<ol>
+				<ol id="srcr">
 					<li>
 						<a href="../../../src/a/f/db7f1b5c6071ba83807beed0bfa.html" title="Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Rippikirja 1840-1848" name ="sref1">
 						Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Rippikirja 1840-1848
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref1a">
 								<ul>
 									<li>
@@ -284,7 +310,7 @@
 						<a href="../../../src/6/b/db881edf0336a2aef63eaf61eb6.html" title="Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Kuulutustodistukset 1832-1846" name ="sref2">
 						Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Kuulutustodistukset 1832-1846
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref2a">
 								<ul>
 									<li>
@@ -301,7 +327,7 @@
 						<a href="../../../src/f/b/d6ca92a86b3679725400d86aebf.html" title="Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Vihityt 1805-1841" name ="sref3">
 						Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Vihityt 1805-1841
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref3a">
 								<ul>
 									<li>
@@ -318,7 +344,7 @@
 						<a href="../../../src/a/1/d6caad846e34bacdc528af47c1a.html" title="Pornaisten seurakunta: Pornainen Rippikirja 1832-1842" name ="sref4">
 						Pornaisten seurakunta: Pornainen Rippikirja 1832-1842
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref4a">
 								<ul>
 									<li>
@@ -335,7 +361,7 @@
 						<a href="../../../src/4/f/db73977a10d53c155b88224d0f4.html" title="Mäntsälän seurakunta: Mäntsälä Muuttaneet 1738-1880" name ="sref5">
 						Mäntsälän seurakunta: Mäntsälä Muuttaneet 1738-1880
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref5a">
 								<ul>
 									<li>
@@ -382,7 +408,7 @@
 						<a href="../../../src/8/f/db8864cdf981c72c9cea8b5e4f8.html" title="Mäntsälän seurakunta: Mäntsälä Muuttokirjat 1841-1845" name ="sref6">
 						Mäntsälän seurakunta: Mäntsälä Muuttokirjat 1841-1845
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref6a">
 								<ul>
 									<li>
@@ -399,7 +425,7 @@
 						<a href="../../../src/1/d/db750e966ff359a7cb9c4f938d1.html" title="Mäntsälän seurakunta: Mäntsälä Rippikirja 1830-1840" name ="sref7">
 						Mäntsälän seurakunta: Mäntsälä Rippikirja 1830-1840
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref7a">
 								<ul>
 									<li>
@@ -416,7 +442,7 @@
 						<a href="../../../src/d/4/db884ddab685a3206681bc5e74d.html" title="Mäntsälän seurakunta: Mäntsälä Lastenkirja 1829-1842" name ="sref8">
 						Mäntsälän seurakunta: Mäntsälä Lastenkirja 1829-1842
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref8a">
 								<ul>
 									<li>
@@ -433,7 +459,7 @@
 						<a href="../../../src/b/8/db75091f6c6299cbef95db1118b.html" title="Mäntsälän seurakunta: Mäntsälä Rippikirja 1843-1852" name ="sref9">
 						Mäntsälän seurakunta: Mäntsälä Rippikirja 1843-1852
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref9a">
 								<ul>
 									<li>
@@ -460,7 +486,7 @@
 						<a href="../../../src/c/4/db886146670362cf0239ddb4d4c.html" title="Mäntsälän seurakunta: Mäntsälä Lastenkirja 1843-1853" name ="sref10">
 						Mäntsälän seurakunta: Mäntsälä Lastenkirja 1843-1853
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref10a">
 								<ul>
 									<li>
@@ -487,7 +513,7 @@
 						<a href="../../../src/7/f/db88756245113342d66ba75eaf7.html" title="Hausjärven seurakunta: Hausjärvi Muuttaneet 1844-1870" name ="sref11">
 						Hausjärven seurakunta: Hausjärvi Muuttaneet 1844-1870
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref11a">
 								<ul>
 									<li>
@@ -514,7 +540,7 @@
 						<a href="../../../src/9/4/db887949662208d92c0713b0649.html" title="Hausjärven seurakunta: Hausjärvi Rippikirja 1839-1846" name ="sref12">
 						Hausjärven seurakunta: Hausjärvi Rippikirja 1839-1846
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref12a">
 								<ul>
 									<li>
@@ -531,7 +557,7 @@
 						<a href="../../../src/e/f/db888b140426dfc0b95fe9478fe.html" title="Mäntsälän seurakunta: Mäntsälä Muuttokirjat 1846-1850" name ="sref13">
 						Mäntsälän seurakunta: Mäntsälä Muuttokirjat 1846-1850
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref13a">
 								<ul>
 									<li>
@@ -548,7 +574,7 @@
 						<a href="../../../src/a/1/db71ba79e4a74b8bfb835a8a11a.html" title="Pornaisten seurakunta: Pornainen Rippikirja 1852-1861" name ="sref14">
 						Pornaisten seurakunta: Pornainen Rippikirja 1852-1861
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref14a">
 								<ul>
 									<li>
@@ -565,7 +591,7 @@
 						<a href="../../../src/5/5/db71bd231d663ddcdc4011ebd55.html" title="Pornaisten seurakunta: Pornainen Lastenkirja 1843-1861" name ="sref15">
 						Pornaisten seurakunta: Pornainen Lastenkirja 1843-1861
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref15a">
 								<ul>
 									<li>
@@ -582,7 +608,7 @@
 						<a href="../../../src/9/7/db7209004b07c97caaf35718179.html" title="Pornaisten seurakunta: Pornainen Rippikirja 1862-1872" name ="sref16">
 						Pornaisten seurakunta: Pornainen Rippikirja 1862-1872
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref16a">
 								<ul>
 									<li>
@@ -599,7 +625,7 @@
 						<a href="../../../src/3/d/db889dce07335762df603797fd3.html" title="Pornaisten seurakunta: Pornainen Rippikirja 1872-1880" name ="sref17">
 						Pornaisten seurakunta: Pornainen Rippikirja 1872-1880
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref17a">
 								<ul>
 									<li>
@@ -618,7 +644,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2017-10-22 01:11:12<br />Created for Entire Database
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2<br />Last change was the 2017-10-22 01:11:12<br />Created for Entire Database
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

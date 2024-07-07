@@ -1,26 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>Nordberg Family Tree - Family of Nordberg, Adolf Alarik and Hagfors, Edla Johansdotter</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">Nordberg Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">Nordberg Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
 					<li class = "CurrentSection"><a href="../../../families.html" title="Families">Families</a></li>
@@ -28,13 +39,43 @@
 					<li><a href="../../../places.html" title="Places">Places</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="RelationshipDetail">
 			<h2>Family of Nordberg, Adolf Alarik and Hagfors, Edla Johansdotter<sup><small></small></sup></h2>
 			<div class="subsection" id="families">
@@ -66,9 +107,8 @@
 					</tr>
 					<tr>
 						<td class="ColumnType">&nbsp;</td>
-						<td class="ColumnAttribute">&nbsp;</td>
-						<td class="ColumnValue">
-							<table class="infolist eventlist">
+						<td class="ColumnValue" colspan="2">
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnEvent">Event</th>
@@ -80,7 +120,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/7/6/cb589cfd45518f4c667.html" title="Marriage">
 											Marriage
 											</a>
@@ -96,9 +136,6 @@
 										 <a href="#sref1a">1a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -106,7 +143,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/0/3/db77df8c4c73b89ff50b8ba3130.html" title="Residence">
 											Residence
 											</a>
@@ -122,9 +159,6 @@
 										 <a href="#sref2a">2a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -132,7 +166,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/8/6/db7814876f858893ac2a6b12d68.html" title="Residence">
 											Residence
 											</a>
@@ -148,9 +182,6 @@
 										 <a href="#sref3a">3a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -158,7 +189,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/9/8/db781933fae5b43d3e21cfbb689.html" title="Residence">
 											Residence
 											</a>
@@ -174,9 +205,6 @@
 										 <a href="#sref3b">3b</a> <a href="#sref4a">4a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -184,7 +212,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/2/a/db78227441f35a7781774d08aa2.html" title="Residence">
 											Residence
 											</a>
@@ -200,9 +228,6 @@
 										 <a href="#sref3b">3b</a> <a href="#sref4a">4a</a> <a href="#sref5a">5a</a> <a href="#sref6a">6a</a> <a href="#sref6b">6b</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -210,7 +235,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/0/4/db7828b2f977a966ebea582840.html" title="Residence">
 											Residence
 											</a>
@@ -226,9 +251,6 @@
 										 <a href="#sref6c">6c</a> <a href="#sref5b">5b</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -236,7 +258,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/b/c/db78308078960884c704de550cb.html" title="Residence">
 											Residence
 											</a>
@@ -252,13 +274,26 @@
 										 <a href="#sref6c">6c</a> <a href="#sref5b">5b</a> <a href="#sref7a">7a</a> <a href="#sref8a">8a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 													<i class="NoteType">
-													Event Note
+													Note: 1
+													</i>
+													<div class="grampsstylednote">
+														<p>
+														Joka paikassa lukee että muutto on Tammelaan, mutta löytyvät Ypäjältä
+														</p>
+													</div>
+													<i class="NoteType">
+													Note: 2
+													</i>
+													<div class="grampsstylednote">
+														<p>
+														Joka paikassa lukee että muutto on Tammelaan, mutta löytyvät Ypäjältä
+														</p>
+													</div>
+													<i class="NoteType">
+													Note: 3
 													</i>
 													<div class="grampsstylednote">
 														<p>
@@ -270,7 +305,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/5/0/db78504841823d3037ff03e5f05.html" title="Residence">
 											Residence
 											</a>
@@ -286,9 +321,6 @@
 										 <a href="#sref5c">5c</a> <a href="#sref6d">6d</a> <a href="#sref6e">6e</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -296,7 +328,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/f/7/db7eb20c2ea1483c5c47e2d5b7f.html" title="Residence">
 											Residence
 											</a>
@@ -312,9 +344,6 @@
 										 <a href="#sref9a">9a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -322,7 +351,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/3/1/f360fa3d3f957b23f396878d313.html" title="Residence">
 											Residence
 											</a>
@@ -338,9 +367,6 @@
 										 <a href="#sref10a">10a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -351,10 +377,9 @@
 							</table>
 						</td>
 						<tr>
-							<td class="ColumnType">&nbsp;</td>
 							<td class="ColumnAttribute">Children</td>
-							<td class="ColumnValue" />
-							<table class="infolist eventlist">
+							<td class="ColumnValue Child" colspan="2" />
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnName">Name</th>
@@ -376,14 +401,19 @@
 					</tr>
 				</table>
 			</div>
+			<h4>Family Map</h4>
+			<div id="toggle_map" style="display:block">
+				<br />
+					<br />
+			</div>
 			<div class="subsection" id="sourcerefs">
 				<h4>Source References</h4>
-				<ol>
+				<ol id="srcr">
 					<li>
 						<a href="../../../src/7/8/cea0c7154bc11679287.html" title="Someron seurakunta: Somero Vihityt 1821-1882" name ="sref1">
 						Someron seurakunta: Somero Vihityt 1821-1882
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref1a">
 								<ul>
 									<li>
@@ -403,7 +433,7 @@
 						<a href="../../../src/4/4/db70daeaa8d497a74da1d4c4144.html" title="Someron seurakunta: Somero Rippikirja 1871-1880" name ="sref2">
 						Someron seurakunta: Somero Rippikirja 1871-1880
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref2a">
 								<ul>
 									<li>
@@ -420,7 +450,7 @@
 						<a href="../../../src/f/6/db74aae2c8a3c89f71219dc446f.html" title="Someron seurakunta: Somero Rippikirja 1881-1890" name ="sref3">
 						Someron seurakunta: Somero Rippikirja 1881-1890
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref3a">
 								<ul>
 									<li>
@@ -447,7 +477,7 @@
 						<a href="../../../src/8/f/db70cc36044358e70dcc1e1bff8.html" title="Someron seurakunta: Somero Muuttaneet 1843-1891" name ="sref4">
 						Someron seurakunta: Somero Muuttaneet 1843-1891
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref4a">
 								<ul>
 									<li>
@@ -464,7 +494,7 @@
 						<a href="../../../src/e/a/db7823fbed04a0e184ac8196eae.html" title="Kosken Tl seurakunta: Koski Tl Muuttaneet 1887-1907" name ="sref5">
 						Kosken Tl seurakunta: Koski Tl Muuttaneet 1887-1907
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref5a">
 								<ul>
 									<li>
@@ -501,7 +531,7 @@
 						<a href="../../../src/a/2/db78262c4904dc64af2da800d2a.html" title="Kosken Tl seurakunta: Koski Tl Rippikirja 1887-1896" name ="sref6">
 						Kosken Tl seurakunta: Koski Tl Rippikirja 1887-1896
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref6a">
 								<ul>
 									<li>
@@ -558,7 +588,7 @@
 						<a href="../../../src/1/e/db784c8d2505709cc4f7895b3e1.html" title="Ypäjän seurakunta: Ypäjä Rippikirja 1880-1889" name ="sref7">
 						Ypäjän seurakunta: Ypäjä Rippikirja 1880-1889
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref7a">
 								<ul>
 									<li>
@@ -575,7 +605,7 @@
 						<a href="../../../src/9/5/db784bdc0f829d09baf6d3e9e59.html" title="Ypäjän seurakunta: Ypäjä Muuttaneet 1886-1891" name ="sref8">
 						Ypäjän seurakunta: Ypäjä Muuttaneet 1886-1891
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref8a">
 								<ul>
 									<li>
@@ -592,7 +622,7 @@
 						<a href="../../../src/2/6/db7eb1bca92b0340fc48a10c62.html" title="Kosken Tl seurakunta: Koski Tl Rippikirja 1897-1906" name ="sref9">
 						Kosken Tl seurakunta: Koski Tl Rippikirja 1897-1906
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref9a">
 								<ul>
 									<li>
@@ -612,7 +642,7 @@
 						<a href="../../../src/7/3/f360f9af38f7e835c3e96212437.html" title="Koski TL seurakunta: Koski TL Rippikirja 1907-1916" name ="sref10">
 						Koski TL seurakunta: Koski TL Rippikirja 1907-1916
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref10a">
 								<ul>
 									<li>
@@ -637,7 +667,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2022-12-31 13:47:11<br />Created for Entire Database
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2<br />Last change was the 2022-12-31 13:47:11<br />Created for Entire Database
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

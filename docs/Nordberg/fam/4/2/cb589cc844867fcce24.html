@@ -1,26 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>Nordberg Family Tree - Family of Stordell, Karl Fredrik and Nordberg, Maria Charlotta Wilhelmina</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">Nordberg Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">Nordberg Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
 					<li class = "CurrentSection"><a href="../../../families.html" title="Families">Families</a></li>
@@ -28,13 +39,43 @@
 					<li><a href="../../../places.html" title="Places">Places</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="RelationshipDetail">
 			<h2>Family of Stordell, Karl Fredrik and Nordberg, Maria Charlotta Wilhelmina<sup><small></small></sup></h2>
 			<div class="subsection" id="families">
@@ -66,9 +107,8 @@
 					</tr>
 					<tr>
 						<td class="ColumnType">&nbsp;</td>
-						<td class="ColumnAttribute">&nbsp;</td>
-						<td class="ColumnValue">
-							<table class="infolist eventlist">
+						<td class="ColumnValue" colspan="2">
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnEvent">Event</th>
@@ -80,7 +120,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/8/a/cb589cfbfb040f0b4a8.html" title="Marriage Banns">
 											Marriage Banns
 											</a>
@@ -96,13 +136,26 @@
 										 <a href="#sref1a">1a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 													<i class="NoteType">
-													Research
+													Note: 1 (Research)
+													</i>
+													<div class="grampsstylednote">
+														<p>
+														Ei löydy vihkimisestä tietoa, etsitty Nya Pressen 19.11.1907 asti
+														</p>
+													</div>
+													<i class="NoteType">
+													Note: 2 (Research)
+													</i>
+													<div class="grampsstylednote">
+														<p>
+														Ei löydy vihkimisestä tietoa, etsitty Nya Pressen 19.11.1907 asti
+														</p>
+													</div>
+													<i class="NoteType">
+													Note: 3 (Research)
 													</i>
 													<div class="grampsstylednote">
 														<p>
@@ -114,12 +167,12 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/5/7/f14aa816c3458ec39156b8ce175.html" title="Marriage">
 											Marriage
 											</a>
 										</td>
-										<td class="ColumnDate">1907-06-00</td>
+										<td class="ColumnDate">1907-06</td>
 										<td class="ColumnPlace">
 											<a href="../../../plc/5/5/cb589cc7f8d1b88b055.html" title="Helsinki, Suomi">
 											Helsinki, Suomi
@@ -130,9 +183,6 @@
 										 <a href="#sref1a">1a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -140,7 +190,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/1/e/dcde078f6407ba7e577c9643ae1.html" title="Residence">
 											Residence
 											</a>
@@ -158,9 +208,6 @@
 										 <a href="#sref2a">2a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -168,7 +215,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/e/5/dcde091937862c54401a33fff5e.html" title="Residence">
 											Residence
 											</a>
@@ -186,9 +233,6 @@
 										 <a href="#sref3a">3a</a> <a href="#sref4a">4a</a> <a href="#sref5a">5a</a> <a href="#sref2b">2b</a> <a href="#sref6a">6a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -196,7 +240,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/9/4/dcde0cc1bdf34680b1623a28849.html" title="Residence">
 											Residence
 											</a>
@@ -214,9 +258,6 @@
 										 <a href="#sref7a">7a</a> <a href="#sref7b">7b</a> <a href="#sref8a">8a</a> <a href="#sref7c">7c</a> <a href="#sref3b">3b</a> <a href="#sref9a">9a</a> <a href="#sref4b">4b</a> <a href="#sref7d">7d</a> <a href="#sref4c">4c</a> <a href="#sref2c">2c</a> <a href="#sref10a">10a</a> <a href="#sref3c">3c</a> <a href="#sref4d">4d</a> <a href="#sref7e">7e</a> <a href="#sref11a">11a</a> <a href="#sref7f">7f</a> <a href="#sref12a">12a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -224,7 +265,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/6/1/dce08030f565715d5ac50fce16.html" title="Residence">
 											Residence
 											</a>
@@ -242,9 +283,6 @@
 										 <a href="#sref3d">3d</a> <a href="#sref2d">2d</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -252,7 +290,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/0/a/e18799971c749a4c24509817fa0.html" title="Residence">
 											Residence
 											</a>
@@ -270,9 +308,6 @@
 										 <a href="#sref3e">3e</a> <a href="#sref2e">2e</a> <a href="#sref13a">13a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -280,7 +315,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/1/3/e187b683bf12f482e2907384131.html" title="Residence">
 											Residence
 											</a>
@@ -298,9 +333,6 @@
 										 <a href="#sref4e">4e</a> <a href="#sref14a">14a</a> <a href="#sref3f">3f</a> <a href="#sref15a">15a</a> <a href="#sref3g">3g</a> <a href="#sref16a">16a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -308,7 +340,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/b/3/e8317d3e2a9388d41cff1fa363b.html" title="Residence">
 											Residence
 											</a>
@@ -326,9 +358,6 @@
 										 <a href="#sref3h">3h</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -336,7 +365,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/b/0/f14dd3ee84b3720c1f33b56e40b.html" title="Residence">
 											Residence
 											</a>
@@ -354,9 +383,6 @@
 										 <a href="#sref17a">17a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -369,14 +395,19 @@
 					</tr>
 				</table>
 			</div>
+			<h4>Family Map</h4>
+			<div id="toggle_map" style="display:block">
+				<br />
+					<br />
+			</div>
 			<div class="subsection" id="sourcerefs">
 				<h4>Source References</h4>
-				<ol>
+				<ol id="srcr">
 					<li>
 						<a href="../../../src/e/7/e1834b93902eb7158fb397787e.html" title="Nya Pressen" name ="sref1">
 						Nya Pressen
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref1a">
 								<ul>
 									<li>
@@ -402,7 +433,7 @@
 						<a href="../../../src/e/0/dcde071bb604b94ae4ef5894f0e.html" title="Tidnings- och Tryckeriaktiebolaget: Adressbok och yrkeskalender för Helsingfors" name ="sref2">
 						Tidnings- och Tryckeriaktiebolaget: Adressbok och yrkeskalender för Helsingfors
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref2a">
 								<ul>
 									<li>
@@ -501,7 +532,7 @@
 						<a href="../../../src/3/0/dcde088884844f55819d0fcc103.html" title="Paul, Aksel: Adress- och yrkeskalender för Helsingfors jämte förorter" name ="sref3">
 						Paul, Aksel: Adress- och yrkeskalender för Helsingfors jämte förorter
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref3a">
 								<ul>
 									<li>
@@ -648,7 +679,7 @@
 						<a href="../../../src/8/3/dcde0a1be9d745544ed78a5f038.html" title="Helsingin ja ympäristön osote- ja ammattikalenteri" name ="sref4">
 						Helsingin ja ympäristön osote- ja ammattikalenteri
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref4a">
 								<ul>
 									<li>
@@ -747,7 +778,7 @@
 						<a href="../../../src/d/c/e1864fbde375fed76a5da4fa0cd.html" title="Uudenman lääni: Uusimaa Henkikirja 1909" name ="sref5">
 						Uudenman lääni: Uusimaa Henkikirja 1909
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref5a">
 								<ul>
 									<li>
@@ -770,7 +801,7 @@
 						<a href="../../../src/d/8/dce0bc150c27ea9b671dde63d8d.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1910" name ="sref6">
 						Uudenmaan lääni: Uusimaa Henkikirja 1910
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref6a">
 								<ul>
 									<li>
@@ -796,7 +827,7 @@
 						<a href="../../../src/0/d/dcde0c564de69c65cfe033977d0.html" title="Helsingin nimikirja ja suomalainen osotekalenteri" name ="sref7">
 						Helsingin nimikirja ja suomalainen osotekalenteri
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref7a">
 								<ul>
 									<li>
@@ -917,7 +948,7 @@
 						<a href="../../../src/e/9/e824c6ca8f7600fae5ed7bfe79e.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1911" name ="sref8">
 						Uudenmaan lääni: Uusimaa Henkikirja 1911
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref8a">
 								<ul>
 									<li>
@@ -943,7 +974,7 @@
 						<a href="../../../src/d/7/e824c76d63063029e69dd4fcd7d.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1912" name ="sref9">
 						Uudenmaan lääni: Uusimaa Henkikirja 1912
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref9a">
 								<ul>
 									<li>
@@ -966,7 +997,7 @@
 						<a href="../../../src/9/b/e824c2d64de341418829e9eeb9.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1913" name ="sref10">
 						Uudenmaan lääni: Uusimaa Henkikirja 1913
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref10a">
 								<ul>
 									<li>
@@ -989,7 +1020,7 @@
 						<a href="../../../src/4/3/e824bce3f1b4ac1c80202118134.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1914" name ="sref11">
 						Uudenmaan lääni: Uusimaa Henkikirja 1914
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref11a">
 								<ul>
 									<li>
@@ -1012,7 +1043,7 @@
 						<a href="../../../src/5/7/dce11b97c267f78788634f92175.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1915" name ="sref12">
 						Uudenmaan lääni: Uusimaa Henkikirja 1915
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref12a">
 								<ul>
 									<li>
@@ -1038,7 +1069,7 @@
 						<a href="../../../src/8/f/e187980ac952b12b9ebab94f0f8.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1918" name ="sref13">
 						Uudenmaan lääni: Uusimaa Henkikirja 1918
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref13a">
 								<ul>
 									<li>
@@ -1061,7 +1092,7 @@
 						<a href="../../../src/e/4/e824b23c86751e06c3388d8c74e.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1919" name ="sref14">
 						Uudenmaan lääni: Uusimaa Henkikirja 1919
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref14a">
 								<ul>
 									<li>
@@ -1084,7 +1115,7 @@
 						<a href="../../../src/7/c/e824b2efe1c236c92cc8837c1c7.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1920" name ="sref15">
 						Uudenmaan lääni: Uusimaa Henkikirja 1920
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref15a">
 								<ul>
 									<li>
@@ -1107,7 +1138,7 @@
 						<a href="../../../src/d/0/f7fb9b2629c323bb84e4f27740d.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1923" name ="sref16">
 						Uudenmaan lääni: Uusimaa Henkikirja 1923
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref16a">
 								<ul>
 									<li>
@@ -1133,7 +1164,7 @@
 						<a href="../../../src/e/2/f14d3a78d7c362d4fb10e22262e.html" title="Helsingin kaupunki tilastotoimisto: Helsinki Kuolleiden kortisto" name ="sref17">
 						Helsingin kaupunki tilastotoimisto: Helsinki Kuolleiden kortisto
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref17a">
 								<ul>
 									<li>
@@ -1158,7 +1189,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2022-07-19 14:05:20<br />Created for Entire Database
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2<br />Last change was the 2022-07-19 14:05:20<br />Created for Entire Database
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

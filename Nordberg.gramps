@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2024-02-11" version="5.1.6"/>
+    <created date="2024-07-07" version="5.2.2"/>
     <researcher>
     </researcher>
   </header>
@@ -83,7 +83,7 @@
       <place hlink="_cb589cc7f8d1b88b055"/>
       <citationref hlink="_defd49e6bdd10241bcf2f7ec1f9"/>
     </event>
-    <event handle="_cb589cc83b25b7d8f4b" change="1707683723" id="E0067">
+    <event handle="_cb589cc83b25b7d8f4b" change="1707775079" id="E0067">
       <type>Birth</type>
       <dateval val="1847-01-16"/>
       <place hlink="_cdfa144c48f5f32c9ad"/>
@@ -14807,9 +14807,9 @@
       <place hlink="_e10c216106e761d03c131abecef"/>
       <citationref hlink="_ec0059c57a624a88c58896495d1"/>
     </event>
-    <event handle="_ec00d9865da2bc30a05bb0dcea2" change="1621802460" id="E0337">
+    <event handle="_ec00d9865da2bc30a05bb0dcea2" change="1720381001" id="E0337">
       <type>Birth</type>
-      <dateval val="1734" quality="calculated"/>
+      <dateval val="1734"/>
       <citationref hlink="_e10c2206758440d21adf6393d2a"/>
       <citationref hlink="_ec00090ba582b491e77a42ff926"/>
     </event>
@@ -17718,6 +17718,76 @@
       <datespan start="1874-05-26" stop="1876"/>
       <place hlink="_f8197b2e1932e3dc8e8d06d2ecd"/>
       <citationref hlink="_f8197e77ef729f9ed4dbab6065a"/>
+    </event>
+    <event handle="_fa59252a5763241f103b14a1534" change="1720380023" id="E0979">
+      <type>Residence</type>
+      <dateval val="1749" type="after"/>
+      <place hlink="_e10c216106e761d03c131abecef"/>
+      <citationref hlink="_e10c2206758440d21adf6393d2a"/>
+    </event>
+    <event handle="_fa5926547a43bb7a7d7bb7d035d" change="1720380128" id="E0980">
+      <type>Residence</type>
+      <dateval val="1759" type="before"/>
+      <place hlink="_fa59271c52a28bf86d80a45e244"/>
+      <citationref hlink="_fa59265069049ddebca40ecec69"/>
+    </event>
+    <event handle="_fa59292feb94bd534ef43babe98" change="1720380312" id="E0981">
+      <type>Birth</type>
+      <dateval val="1728" quality="calculated"/>
+      <citationref hlink="_fa59265069049ddebca40ecec69"/>
+    </event>
+    <event handle="_fa59296c090afd864812fde8c9" change="1720380337" id="E0982">
+      <type>Marriage</type>
+      <dateval val="1759" type="before"/>
+      <citationref hlink="_fa59265069049ddebca40ecec69"/>
+    </event>
+    <event handle="_fa5929d73dd341bdfeea799009b" change="1720380381" id="E0983">
+      <type>Residence</type>
+      <dateval val="1759" type="before"/>
+      <place hlink="_fa59271c52a28bf86d80a45e244"/>
+      <citationref hlink="_fa59265069049ddebca40ecec69"/>
+    </event>
+    <event handle="_fa592acde1e7c2c2114a30e0c48" change="1720380482" id="E0984">
+      <type>Residence</type>
+      <datespan start="1754" stop="1770"/>
+      <place hlink="_fa59271c52a28bf86d80a45e244"/>
+      <citationref hlink="_fa592ac94913ce306fdde012727"/>
+    </event>
+    <event handle="_fa592b92c242a997304edc82274" change="1720380562" id="E0985">
+      <type>Residence</type>
+      <datespan start="1771" stop="1776"/>
+      <place hlink="_fa59271c52a28bf86d80a45e244"/>
+      <citationref hlink="_fa592b8e71d2ca1a8814773b822"/>
+    </event>
+    <event handle="_fa592c57f7842aef6b672cd0123" change="1720380643" id="E0986">
+      <type>Residence</type>
+      <datespan start="1777" stop="1782"/>
+      <place hlink="_fa59271c52a28bf86d80a45e244"/>
+      <citationref hlink="_fa592c4dcc75ad2d9627add2c4e"/>
+    </event>
+    <event handle="_fa592d804227f03dcdbb5d9efc5" change="1720380765" id="E0987">
+      <type>Residence</type>
+      <datespan start="1786" stop="1794"/>
+      <place hlink="_fa59271c52a28bf86d80a45e244"/>
+      <citationref hlink="_fa592d7be3621331eced6eae482"/>
+    </event>
+    <event handle="_fa592ec2d3b26bc94a90cb80e5e" change="1720380897" id="E0988">
+      <type>Residence</type>
+      <datespan start="1792" stop="1802"/>
+      <place hlink="_fa59271c52a28bf86d80a45e244"/>
+      <citationref hlink="_fa592ebe6421f6f6f770a92bc"/>
+    </event>
+    <event handle="_fa592f8c5805399db316b393514" change="1720380979" id="E0989">
+      <type>Residence</type>
+      <datespan start="1803" stop="1812"/>
+      <place hlink="_fa59271c52a28bf86d80a45e244"/>
+      <citationref hlink="_fa592f87c6daf13950936d90f6"/>
+    </event>
+    <event handle="_fa593014b944a377c9e303d5ada" change="1720381035" id="E0990">
+      <type>Death</type>
+      <dateval val="1808-11-18"/>
+      <place hlink="_fa59271c52a28bf86d80a45e244"/>
+      <citationref hlink="_fa592f87c6daf13950936d90f6"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -30017,14 +30087,18 @@
       </name>
       <childof hlink="_ec0001f309a5cb87a06ac0bbaa"/>
     </person>
-    <person handle="_ec00c4a3d9d13c44f52ae99af85" change="1621803256" id="I0080">
+    <person handle="_ec00c4a3d9d13c44f52ae99af85" change="1720381038" id="I0080">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Caisa</first>
         <surname derivation="Patronymic">Matsdotter</surname>
       </name>
       <eventref hlink="_ec00d9865da2bc30a05bb0dcea2" role="Primary"/>
+      <eventref hlink="_fa59252a5763241f103b14a1534" role="Primary"/>
+      <eventref hlink="_fa5926547a43bb7a7d7bb7d035d" role="Primary"/>
+      <eventref hlink="_fa593014b944a377c9e303d5ada" role="Primary"/>
       <childof hlink="_ec0001f309a5cb87a06ac0bbaa"/>
+      <parentin hlink="_fa5928473bc6e0a9d67f279965"/>
     </person>
     <person handle="_ec00c62bd3f3bcb1ccf43e59b6a" change="1621803256" id="I0081">
       <gender>M</gender>
@@ -31296,6 +31370,15 @@
       </name>
       <eventref hlink="_f817236b41f75899eed59b28205" role="Primary"/>
       <childof hlink="_f81722dff264af64bbece1d775c"/>
+    </person>
+    <person handle="_fa5928953ac43562e1a84e71c9a" change="1720381038" id="I0198">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Anders</first>
+        <surname derivation="Patronymic">Johansson</surname>
+      </name>
+      <eventref hlink="_fa59292feb94bd534ef43babe98" role="Primary"/>
+      <parentin hlink="_fa5928473bc6e0a9d67f279965"/>
     </person>
   </people>
   <families>
@@ -34987,6 +35070,19 @@
       <rel type="Unmarried"/>
       <mother hlink="_e820bf91e7159e5183e46e425ed"/>
       <childref hlink="_f81722eeabd3004a70abea0aef"/>
+    </family>
+    <family handle="_fa5928473bc6e0a9d67f279965" change="1720381038" id="F0043">
+      <rel type="Married"/>
+      <father hlink="_fa5928953ac43562e1a84e71c9a"/>
+      <mother hlink="_ec00c4a3d9d13c44f52ae99af85"/>
+      <eventref hlink="_fa59296c090afd864812fde8c9" role="Family"/>
+      <eventref hlink="_fa5929d73dd341bdfeea799009b" role="Family"/>
+      <eventref hlink="_fa592acde1e7c2c2114a30e0c48" role="Family"/>
+      <eventref hlink="_fa592b92c242a997304edc82274" role="Family"/>
+      <eventref hlink="_fa592c57f7842aef6b672cd0123" role="Family"/>
+      <eventref hlink="_fa592d804227f03dcdbb5d9efc5" role="Family"/>
+      <eventref hlink="_fa592ec2d3b26bc94a90cb80e5e" role="Family"/>
+      <eventref hlink="_fa592f8c5805399db316b393514" role="Family"/>
     </family>
   </families>
   <citations>
@@ -47501,6 +47597,55 @@
       <noteref hlink="_f8803c5164b763071f8ecc5847e"/>
       <sourceref hlink="_f880371d4322496fd49b8edfc1a"/>
     </citation>
+    <citation handle="_fa59265069049ddebca40ecec69" change="1720380011" id="C1754">
+      <page>144</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa59262210c61da86ccf4496025"/>
+      <noteref hlink="_fa59264c2555041bd14010442d"/>
+      <sourceref hlink="_d94b44659c15e1bace2e93e104c"/>
+    </citation>
+    <citation handle="_fa592ac94913ce306fdde012727" change="1720380480" id="C1755">
+      <page>171</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa592a9f97d41094bdc6a9f9b5"/>
+      <noteref hlink="_fa592ac0d2531891116a209abb5"/>
+      <sourceref hlink="_d6e4395cc5c7786a314c1b36829"/>
+    </citation>
+    <citation handle="_fa592b8e71d2ca1a8814773b822" change="1720380561" id="C1756">
+      <page>167</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa592b6a0517905c1bbd1ac9b50"/>
+      <noteref hlink="_fa592b830c49f8e5f6aba1b9b4"/>
+      <sourceref hlink="_d6ce208ff563b4301d682b6a32a"/>
+    </citation>
+    <citation handle="_fa592c4dcc75ad2d9627add2c4e" change="1720380639" id="C1757">
+      <page>170</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa592c2672452a8021d6fe1ae41"/>
+      <noteref hlink="_fa592c4a7814903ec7c924a8074"/>
+      <sourceref hlink="_d6ce1e32504608c072239f4321b"/>
+    </citation>
+    <citation handle="_fa592d7be3621331eced6eae482" change="1720380763" id="C1758">
+      <page>Aa:6/224</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa592d59024675648ad74822d61"/>
+      <noteref hlink="_fa592d784ff4fcede7e8c3b4730"/>
+      <sourceref hlink="_d6ce0f8a2fb1b7efba3377d1265"/>
+    </citation>
+    <citation handle="_fa592ebe6421f6f6f770a92bc" change="1720380895" id="C1759">
+      <page>Aa:7/176</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa592e9608cc3750829c296fd"/>
+      <noteref hlink="_fa592ebc07f405e7eb488bdf37a"/>
+      <sourceref hlink="_d6cdda448716a020f78957f81cf"/>
+    </citation>
+    <citation handle="_fa592f87c6daf13950936d90f6" change="1720380977" id="C1760">
+      <page>Aa:9/367</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa592f64c4672f2631ee5f14718"/>
+      <noteref hlink="_fa592f85aae692ed8c38d7920f0"/>
+      <sourceref hlink="_d6cdc2a86263f2f0fee504a4247"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -48125,10 +48270,11 @@
       <sauthor>Porvoon ruotsalainen tuomiokirkkoseurakunta</sauthor>
       <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
     </source>
-    <source handle="_d6ce0f8a2fb1b7efba3377d1265" change="1508688038" id="S0142">
+    <source handle="_d6ce0f8a2fb1b7efba3377d1265" change="1720380727" id="S0142">
       <stitle>Porvoo rtksrk Rippikirja 1786-1794</stitle>
       <sauthor>Porvoon ruotsalainen tuomiokirkkoseurakunta</sauthor>
       <reporef hlink="_cdea29a49637c6553bc" medium="Book"/>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
     <source handle="_d6ce1e32504608c072239f4321b" change="1508688034" id="S0143">
       <stitle>Porvoo rtksrk Rippikirja 1777-1782</stitle>
@@ -54363,6 +54509,14 @@
       <code>S.183</code>
       <pname value="No 183"/>
       <placeref hlink="_f8197b1e3a45079c04ad0974869"/>
+    </placeobj>
+    <placeobj handle="_fa59271a14223bb9089fb7f5d9" change="1720380094" id="P0316" type="Village">
+      <pname value="Åmisby"/>
+      <placeref hlink="_cb589cc90f055fc9f0c"/>
+    </placeobj>
+    <placeobj handle="_fa59271c52a28bf86d80a45e244" change="1720380095" id="P0398" type="Farm">
+      <pname value="Grindas"/>
+      <placeref hlink="_fa59271a14223bb9089fb7f5d9"/>
     </placeobj>
   </places>
   <repositories>
@@ -67835,7 +67989,7 @@ Käydään läpi rippikirjaa 1749-1759 jossa pitäisi olla merkittynä 9-19 vuot
 
 </text>
     </note>
-    <note handle="_e9024cc0fec3533b7ce8e4a5264" change="1621786702" id="N0189" type="Transcript">
+    <note handle="_e9024cc0fec3533b7ce8e4a5264" change="1720378509" id="N0189" type="Transcript" format="1">
       <text>81
 Caus Hem
 
@@ -67850,10 +68004,13 @@ Dr Maria? Mattsdr? gift
 Dr Johanna Matsdr  gift till Sjö??
 
 Dr Caisa Matsdr 15  144
-Son Joh: Matsson scholari? 49 d 11 Maij 49 ????????????
+Son Joh: Matsson scholari? 49 d 11 Maij 49 ?? Stockholm ??? ??????
 Dr Helena Matsdr
 
 </text>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="261"/>
+      </style>
     </note>
     <note handle="_e90476f94db51505ffcc41c6dea" change="1601283657" id="N0190" type="Research">
       <text>Ei löydy Porvoo Vihittyjen luettelot 1765-1804, ainakaan vv. 1765-1769</text>
@@ -82788,6 +82945,69 @@ pig. Sofia Wilhelm. Holmström    16/1 1847  Ekenäs Landsförs.    p.400       
     </note>
     <note handle="_f88054d0c701fd64bc7b07eec96" change="1707687890" id="N3665" type="Citation">
       <text>Inkoo rippikirja 1866-1872 (AP I Aa:19)  Sivu 288 Rankila, Smeds No 3 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=28006&amp;pnum=298 / Viitattu 11.02.2024</text>
+    </note>
+    <note handle="_fa59262210c61da86ccf4496025" change="1720379992" id="N3666" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Rippikirjat 1749-1759, jakso 144, sivu 144: &lt;Åmisby&gt; Grindas, Sillwijk Nilsas, B.C 14 Söderberg; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5862230762&amp;aineistoId=1167474982 / Viitattu 7.7.2024</text>
+    </note>
+    <note handle="_fa59264c2555041bd14010442d" change="1720380009" id="N3667" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5862230762&amp;aineistoId=1167474982</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5862230762&amp;aineistoId=1167474982">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_fa592a9f97d41094bdc6a9f9b5" change="1720380463" id="N3668" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Rippikirjat 1754-1770, jakso 174, sivu 171: &lt;Åmisby&gt; Grindas; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5862608951&amp;aineistoId=1167501303 / Viitattu 7.7.2024</text>
+    </note>
+    <note handle="_fa592ac0d2531891116a209abb5" change="1720380476" id="N3669" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5862608951&amp;aineistoId=1167501303</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5862608951&amp;aineistoId=1167501303">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_fa592b6a0517905c1bbd1ac9b50" change="1720380546" id="N3670" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Rippikirjat 1771-1776, jakso 172, sivu 167: &lt;Åminsby&gt; Grindas; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5862618950&amp;aineistoId=1167527208 / Viitattu 7.7.2024</text>
+    </note>
+    <note handle="_fa592b830c49f8e5f6aba1b9b4" change="1720380556" id="N3671" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5862618950&amp;aineistoId=1167527208</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5862618950&amp;aineistoId=1167527208">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_fa592c2672452a8021d6fe1ae41" change="1720380623" id="N3672" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Rippikirjat 1777-1782, jakso 174, sivu 170: &lt;Åminsby,&gt; Grindas; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5862641883&amp;aineistoId=1167564064 / Viitattu 7.7.2024</text>
+    </note>
+    <note handle="_fa592c4a7814903ec7c924a8074" change="1720380638" id="N3673" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5862641883&amp;aineistoId=1167564064</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5862641883&amp;aineistoId=1167564064">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_fa592d59024675648ad74822d61" change="1720380749" id="N3674" type="Citation">
+      <text>Porvoo maaseurakunta rippikirja 1786-1794 (AP I Aa:6)  Sivu 224 Åminsby Grindas ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38642&amp;pnum=228 / Viitattu 07.07.2024</text>
+    </note>
+    <note handle="_fa592d784ff4fcede7e8c3b4730" change="1720380761" id="N3675" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38642&amp;pnum=228</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38642&amp;pnum=228">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_fa592e9608cc3750829c296fd" change="1720380878" id="N3676" type="Citation">
+      <text>Porvoo maaseurakunta rippikirja 1792-1802 (AP_LÄNSI I Aa:7)  Sivu 176 Åminsby Grindas   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38643&amp;pnum=180 / Viitattu 07.07.2024</text>
+    </note>
+    <note handle="_fa592ebc07f405e7eb488bdf37a" change="1720380894" id="N3677" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38643&amp;pnum=180</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38643&amp;pnum=180">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_fa592f64c4672f2631ee5f14718" change="1720380963" id="N3678" type="Citation">
+      <text>Porvoo maaseurakunta rippikirja 1803-1812 (AP_LÄNSI I Aa:9)  Sivu 367 Åminsby Grindas Skatte hemman ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38645&amp;pnum=370 / Viitattu 07.07.2024</text>
+    </note>
+    <note handle="_fa592f85aae692ed8c38d7920f0" change="1720380977" id="N3679" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38645&amp;pnum=370</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38645&amp;pnum=370">
+        <range start="0" end="78"/>
+      </style>
     </note>
   </notes>
   <bookmarks>

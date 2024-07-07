@@ -1,27 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>Nordberg Family Tree - Nordberg, Hjalmar Ferdinand</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
-	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">Nordberg Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">Nordberg Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li class = "CurrentSection"><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
 					<li><a href="../../../families.html" title="Families">Families</a></li>
@@ -29,13 +39,43 @@
 					<li><a href="../../../places.html" title="Places">Places</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="IndividualDetail">
 			<h3>Nordberg, Hjalmar Ferdinand<sup><small></small></sup></h3>
 			<div id="summaryarea">
@@ -66,7 +106,7 @@
 			</div>
 			<div class="subsection" id="events">
 				<h4>Events</h4>
-				<table class="infolist eventlist">
+				<table class="infolist eventlist toggle_event ltr" id="toggle_event" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnEvent">Event</th>
@@ -78,25 +118,20 @@
 					</thead>
 					<tbody>
 						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/f/4/cb589cd2cea729f954f.html" title="Birth">
-								Birth
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/d/6/eced93c06e67083e56df81b996d.html" title="Name change">
+								Name change
 								</a>
 							</td>
-							<td class="ColumnDate">1890-10-14</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/2/c/db7edff94ee77607b8e81650c2.html" title="Yli Augusti, Joensuu, Somero, Suomi">
-								Yli Augusti, Joensuu, Somero, Suomi
-								</a>
+							<td class="ColumnDate">estimated between 1917 and 1919</td>
+							<td class="ColumnPlace">&nbsp;</td>
+							<td class="ColumnDescription">
+							Pohjanvuori
 							</td>
-							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref1a">1a</a> <a href="#sref2a">2a</a>
+							&nbsp;
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -104,59 +139,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/0/9/ece7a15f46628872419d68ecb90.html" title="Residence">
-								Residence
-								</a>
-							</td>
-							<td class="ColumnDate">from 1890 to 1899</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/2/c/db7edff94ee77607b8e81650c2.html" title="Yli Augusti, Joensuu, Somero, Suomi">
-								Yli Augusti, Joensuu, Somero, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref1a">1a</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/f/b/ece7a26ca1d1d165560dc6ea8bf.html" title="Residence">
-								Residence
-								</a>
-							</td>
-							<td class="ColumnDate">from 1900 to 1909</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/2/c/db7edff94ee77607b8e81650c2.html" title="Yli Augusti, Joensuu, Somero, Suomi">
-								Yli Augusti, Joensuu, Somero, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref3a">3a</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/5/3/ece7aab987040e90f4062118035.html" title="Name change">
 								Name change
 								</a>
@@ -171,12 +154,9 @@
 							Vuori
 							</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref3a">3a</a> <a href="#sref4a">4a</a>
+							 <a href="#sref1a">1a</a> <a href="#sref2a">2a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -184,23 +164,68 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/d/6/eced93c06e67083e56df81b996d.html" title="Name change">
-								Name change
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/0/9/ece7a15f46628872419d68ecb90.html" title="Residence">
+								Residence
 								</a>
 							</td>
-							<td class="ColumnDate">estimated between 1917 and 1919</td>
-							<td class="ColumnPlace">&nbsp;</td>
-							<td class="ColumnDescription">
-							Pohjanvuori
+							<td class="ColumnDate">from 1890 to 1899</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/2/c/db7edff94ee77607b8e81650c2.html" title="Yli Augusti, Joensuu, Somero, Suomi">
+								Yli Augusti, Joensuu, Somero, Suomi
+								</a>
 							</td>
+							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							&nbsp;
+							 <a href="#sref3a">3a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
 								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/f/4/cb589cd2cea729f954f.html" title="Birth">
+								Birth
+								</a>
+							</td>
+							<td class="ColumnDate">1890-10-14</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/2/c/db7edff94ee77607b8e81650c2.html" title="Yli Augusti, Joensuu, Somero, Suomi">
+								Yli Augusti, Joensuu, Somero, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref3a">3a</a> <a href="#sref4a">4a</a>
+							</td>
+							<tr>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/f/b/ece7a26ca1d1d165560dc6ea8bf.html" title="Residence">
+								Residence
+								</a>
+							</td>
+							<td class="ColumnDate">from 1900 to 1909</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/2/c/db7edff94ee77607b8e81650c2.html" title="Yli Augusti, Joensuu, Somero, Suomi">
+								Yli Augusti, Joensuu, Somero, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref1a">1a</a>
+							</td>
+							<tr>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -212,7 +237,7 @@
 			</div>
 			<div class="subsection" id="parents">
 				<h4>Parents</h4>
-				<table class="infolist">
+				<table class="infolist toggle_parent ltr" id="toggle_parent" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnAttribute">Relation to main person</th>
@@ -278,7 +303,7 @@
 			</div>
 			<div class="subsection" id="families">
 				<h4>Families</h4>
-				<table class="infolist">
+				<table class="infolist" id="toggle_families" style="display:block">
 					<tr class="BeginFamily">
 						<td class="ColumnValue" colspan="3"><H4 class="subsection"><a href="../../../fam/9/2/eced97242ef3ee2770424bafd29.html" title="Family of Nordberg, Hjalmar Ferdinand and , Sandra">Family of Nordberg, Hjalmar Ferdinand and , Sandra</a></H4></td>
 					</tr>
@@ -296,9 +321,8 @@
 					</tr>
 					<tr>
 						<td class="ColumnType">&nbsp;</td>
-						<td class="ColumnAttribute">&nbsp;</td>
-						<td class="ColumnValue">
-							<table class="infolist eventlist">
+						<td class="ColumnValue" colspan="2">
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnEvent">Event</th>
@@ -310,7 +334,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/e/4/eceda74d95e79a755e769e1934e.html" title="Residence">
 											Residence
 											</a>
@@ -326,9 +350,6 @@
 										 <a href="#sref5a">5a</a> <a href="#sref6a">6a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -343,7 +364,7 @@
 			</div>
 			<div class="subsection" id="pedigree">
 				<h4>Pedigree</h4>
-				<ol class="pedigreegen">
+				<ol class="pedigreegen" id="toggle_pedigree" style="display:block">
 					<li>
 						<a href="../../../ppl/9/2/cb589ccf0387502cd29.html">Nordberg, Otto Ferdinand</a>
 						<ol>
@@ -381,146 +402,114 @@
 			</div>
 			<div class="subsection" id="tree">
 				<h4>Ancestors</h4>
-				<div id="treeContainer" style="width:1234px; height:600px; top: 0px">
-					<div class="boxbg male AncCol0" style="top: 305px; left: 6px;">
-						<a class="noThumb" href="../../../ppl/c/8/cb589cd2ce33616538c.html">
-						Nordberg, Hjalmar Ferdinand<br/>*1890-10-14<br/>+...
-						</a>
+				<div class="tree" id="toggle_anc" style="display:block">
+					<div id="treeContainer" style="width:1234px; height:600px; top: 0px">
+						<div class="boxbg male AncCol0" style="top: 305px; left: 6px;">
+							<a class="noThumb" href="../../../ppl/c/8/cb589cd2ce33616538c.html">
+							Nordberg, Hjalmar Ferdinand<br>*1890-10-14<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 310px; left: 10px;"></div>
+						<div class="bvline" style="top: 325px; left: 285px; width: 15px"></div>
+						<div class="gvline" style="top: 330px; left: 285px; width: 20px"></div>
+						<div class="boxbg male AncCol1" style="top: 230px; left: 316px;">
+							<a class="noThumb" href="../../../ppl/9/2/cb589ccf0387502cd29.html">
+							Nordberg, Otto Ferdinand<br>*1859-08-08<br>+calculated 1922-12-04
+							</a>
+						</div>
+						<div class="shadow" style="top: 235px; left: 320px;"></div>
+						<div class="bvline" style="top: 250px; left: 300px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 250px; left: 300px; height: 76px;"></div>
+					
+						<div class="bvline" style="top: 250px; left: 595px; width: 15px"></div>
+						<div class="gvline" style="top: 255px; left: 595px; width: 20px"></div>
+						<div class="boxbg male AncCol2" style="top: 80px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/6/2/cb589ccbd5f5a90ec26.html">
+							Nordberg, Adolf Fredrik<br>*1829-11-25<br>+1894-01-16
+							</a>
+						</div>
+						<div class="shadow" style="top: 85px; left: 630px;"></div>
+						<div class="bvline" style="top: 100px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 100px; left: 610px; height: 151px;"></div>
+					
+						<div class="bvline" style="top: 100px; left: 905px; width: 15px"></div>
+						<div class="gvline" style="top: 105px; left: 905px; width: 20px"></div>
+						<div class="boxbg male AncCol3" style="top: 5px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/2/b/cb589ccbc7f6a601fb2.html">
+							Nordberg, Johan Johansson<br>*1784-06-12<br>+1866-12-20
+							</a>
+						</div>
+						<div class="shadow" style="top: 10px; left: 940px;"></div>
+						<div class="bvline" style="top: 25px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 25px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol3" style="top: 155px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/2/3/cb589ccbcb82fdc1632.html">
+							, Hedwig Johansdotter<br>*1792-04-13<br>+1830-03-05
+							</a>
+						</div>
+						<div class="shadow" style="top: 160px; left: 940px;"></div>
+						<div class="bvline" style="top: 175px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 100px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol2" style="top: 380px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/8/7/cea11e992eb0f1ddc78.html">
+							Skogström, Maria Lovisa<br>*1823-10-01<br>+1892-07-01
+							</a>
+						</div>
+						<div class="shadow" style="top: 385px; left: 630px;"></div>
+						<div class="bvline" style="top: 400px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 250px; left: 610px; height: 151px;"></div>
+					
+						<div class="bvline" style="top: 400px; left: 905px; width: 15px"></div>
+						<div class="gvline" style="top: 405px; left: 905px; width: 20px"></div>
+						<div class="boxbg male AncCol3" style="top: 305px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/8/1/db77b6b5dbc11be4ec36fc84418.html">
+							Skogström, Israel<br>*1788-10-12<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 310px; left: 940px;"></div>
+						<div class="bvline" style="top: 325px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 325px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol3" style="top: 455px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/d/0/db77ba49bfe29468bb8bd729a0d.html">
+							, Maria Mattsdotter<br>*1789-02-16<br>+1841-07-14
+							</a>
+						</div>
+						<div class="shadow" style="top: 460px; left: 940px;"></div>
+						<div class="bvline" style="top: 475px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 400px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol1" style="top: 380px; left: 316px;">
+							<a class="noThumb" href="../../../ppl/1/6/cea12275cdd132f5c61.html">
+							, Serafia Juhontytär<br>*1860-12-03<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 385px; left: 320px;"></div>
+						<div class="bvline" style="top: 400px; left: 300px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 325px; left: 300px; height: 76px;"></div>
+					
 					</div>
-					<div class="shadow" style="top: 310px; left: 10px;"></div>
-					<div class="bvline" style="top: 325px; left: 285px; width: 15px"></div>
-					<div class="gvline" style="top: 330px; left: 285px; width: 20px"></div>
-					<div class="boxbg male AncCol1" style="top: 230px; left: 316px;">
-						<a class="noThumb" href="../../../ppl/9/2/cb589ccf0387502cd29.html">
-						Nordberg, Otto Ferdinand<br/>*1859-08-08<br/>+calculated 1922-12-04
-						</a>
-					</div>
-					<div class="shadow" style="top: 235px; left: 320px;"></div>
-					<div class="bvline" style="top: 250px; left: 300px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 250px; left: 300px; height: 76px;"></div>
-				
-					<div class="bvline" style="top: 250px; left: 595px; width: 15px"></div>
-					<div class="gvline" style="top: 255px; left: 595px; width: 20px"></div>
-					<div class="boxbg male AncCol2" style="top: 80px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/6/2/cb589ccbd5f5a90ec26.html">
-						Nordberg, Adolf Fredrik<br/>*1829-11-25<br/>+1894-01-16
-						</a>
-					</div>
-					<div class="shadow" style="top: 85px; left: 630px;"></div>
-					<div class="bvline" style="top: 100px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 100px; left: 610px; height: 151px;"></div>
-				
-					<div class="bvline" style="top: 100px; left: 905px; width: 15px"></div>
-					<div class="gvline" style="top: 105px; left: 905px; width: 20px"></div>
-					<div class="boxbg male AncCol3" style="top: 5px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/2/b/cb589ccbc7f6a601fb2.html">
-						Nordberg, Johan Johansson<br/>*1784-06-12<br/>+1866-12-20
-						</a>
-					</div>
-					<div class="shadow" style="top: 10px; left: 940px;"></div>
-					<div class="bvline" style="top: 25px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 25px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol3" style="top: 155px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/2/3/cb589ccbcb82fdc1632.html">
-						, Hedwig Johansdotter<br/>*1792-04-13<br/>+1830-03-05
-						</a>
-					</div>
-					<div class="shadow" style="top: 160px; left: 940px;"></div>
-					<div class="bvline" style="top: 175px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 100px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol2" style="top: 380px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/8/7/cea11e992eb0f1ddc78.html">
-						Skogström, Maria Lovisa<br/>*1823-10-01<br/>+1892-07-01
-						</a>
-					</div>
-					<div class="shadow" style="top: 385px; left: 630px;"></div>
-					<div class="bvline" style="top: 400px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 250px; left: 610px; height: 151px;"></div>
-				
-					<div class="bvline" style="top: 400px; left: 905px; width: 15px"></div>
-					<div class="gvline" style="top: 405px; left: 905px; width: 20px"></div>
-					<div class="boxbg male AncCol3" style="top: 305px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/8/1/db77b6b5dbc11be4ec36fc84418.html">
-						Skogström, Israel<br/>*1788-10-12<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 310px; left: 940px;"></div>
-					<div class="bvline" style="top: 325px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 325px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol3" style="top: 455px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/d/0/db77ba49bfe29468bb8bd729a0d.html">
-						, Maria Mattsdotter<br/>*1789-02-16<br/>+1841-07-14
-						</a>
-					</div>
-					<div class="shadow" style="top: 460px; left: 940px;"></div>
-					<div class="bvline" style="top: 475px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 400px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol1" style="top: 380px; left: 316px;">
-						<a class="noThumb" href="../../../ppl/1/6/cea12275cdd132f5c61.html">
-						, Serafia Juhontytär<br/>*1860-12-03<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 385px; left: 320px;"></div>
-					<div class="bvline" style="top: 400px; left: 300px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 325px; left: 300px; height: 76px;"></div>
-				
 				</div>
 			</div>
 			<div class="subsection" id="sourcerefs">
 				<h4>Source References</h4>
-				<ol>
+				<ol id="srcr">
 					<li>
-						<a href="../../../src/1/c/db74b197b8746a313e2ca42c2c1.html" title="Someron seurakunta: Somero Rippikirja 1890-1899" name ="sref1">
-						Someron seurakunta: Somero Rippikirja 1890-1899
-						</a>
-						<ol>
-							<li id="sref1a">
-								<ul>
-									<li>
-									Page: 252
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=11899&amp;pnum=249">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=11899&amp;pnum=249</a></p></div>
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
-						<a href="../../../src/e/d/db781bcfc2345f6c665a556cfde.html" title="Someron seurakunta: Somero Syntyneet 1886-1891" name ="sref2">
-						Someron seurakunta: Somero Syntyneet 1886-1891
-						</a>
-						<ol>
-							<li id="sref2a">
-								<ul>
-									<li>
-									Page: 278-279
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=12229&amp;pnum=105">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=12229&amp;pnum=105</a></p></div>
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
-						<a href="../../../src/b/0/db7ef84acd247e5c9ee660ace0b.html" title="Someron seurakunta: Somero Rippikirja 1900-1909" name ="sref3">
+						<a href="../../../src/b/0/db7ef84acd247e5c9ee660ace0b.html" title="Someron seurakunta: Somero Rippikirja 1900-1909" name ="sref1">
 						Someron seurakunta: Somero Rippikirja 1900-1909
 						</a>
-						<ol>
-							<li id="sref3a">
+						<ol id="citr">
+							<li id="sref1a">
 								<ul>
 									<li>
 									Page: 260
@@ -539,11 +528,11 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/1/c/eceb8b636762cd9ea66b64e19c1.html" title="Hämeen lääni: Häme Henkikirja 1917" name ="sref4">
+						<a href="../../../src/1/c/eceb8b636762cd9ea66b64e19c1.html" title="Hämeen lääni: Häme Henkikirja 1917" name ="sref2">
 						Hämeen lääni: Häme Henkikirja 1917
 						</a>
-						<ol>
-							<li id="sref4a">
+						<ol id="citr">
+							<li id="sref2a">
 								<ul>
 									<li>
 									Page: H:237/45
@@ -562,10 +551,44 @@
 						</ol>
 					</li>
 					<li>
+						<a href="../../../src/1/c/db74b197b8746a313e2ca42c2c1.html" title="Someron seurakunta: Somero Rippikirja 1890-1899" name ="sref3">
+						Someron seurakunta: Somero Rippikirja 1890-1899
+						</a>
+						<ol id="citr">
+							<li id="sref3a">
+								<ul>
+									<li>
+									Page: 252
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=11899&amp;pnum=249">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=11899&amp;pnum=249</a></p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../src/e/d/db781bcfc2345f6c665a556cfde.html" title="Someron seurakunta: Somero Syntyneet 1886-1891" name ="sref4">
+						Someron seurakunta: Somero Syntyneet 1886-1891
+						</a>
+						<ol id="citr">
+							<li id="sref4a">
+								<ul>
+									<li>
+									Page: 278-279
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=12229&amp;pnum=105">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=12229&amp;pnum=105</a></p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
 						<a href="../../../src/9/d/ecebf52bbf5e5295491cdfd9.html" title="Hämeen lääni: Häme Henkikirja 1919" name ="sref5">
 						Hämeen lääni: Häme Henkikirja 1919
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref5a">
 								<ul>
 									<li>
@@ -588,7 +611,7 @@
 						<a href="../../../src/7/5/eced49e552e47f183805986f57.html" title="Hämeen lääni: Häme Henkikirja 1920" name ="sref6">
 						Hämeen lääni: Häme Henkikirja 1920
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref6a">
 								<ul>
 									<li>
@@ -613,7 +636,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2023-07-30 22:58:09<br />Created for Entire Database
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2<br />Last change was the 2023-07-30 22:58:09<br />Created for Entire Database
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

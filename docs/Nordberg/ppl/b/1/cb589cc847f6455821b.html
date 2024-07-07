@@ -1,27 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>Nordberg Family Tree - Nordberg, Elin Maria</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
-	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">Nordberg Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">Nordberg Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li class = "CurrentSection"><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
 					<li><a href="../../../families.html" title="Families">Families</a></li>
@@ -29,13 +39,43 @@
 					<li><a href="../../../places.html" title="Places">Places</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="IndividualDetail">
 			<h3>Nordberg, Elin Maria<sup><small></small></sup></h3>
 			<div id="summaryarea">
@@ -64,7 +104,7 @@
 			</div>
 			<div class="subsection" id="events">
 				<h4>Events</h4>
-				<table class="infolist eventlist">
+				<table class="infolist eventlist toggle_event ltr" id="toggle_event" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnEvent">Event</th>
@@ -76,7 +116,7 @@
 					</thead>
 					<tbody>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/f/f/cb589cc848623f980ff.html" title="Birth">
 								Birth
 								</a>
@@ -92,9 +132,6 @@
 							 <a href="#sref1a">1a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -102,7 +139,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/d/9/f1511c880fb312837d36881789d.html" title="Baptism">
 								Baptism
 								</a>
@@ -118,9 +155,6 @@
 							 <a href="#sref1a">1a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -128,7 +162,30 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/9/f/f16251ad2e66932dc0e8d6694f9.html" title="Residence">
+								Residence
+								</a>
+							</td>
+							<td class="ColumnDate">1900</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/2/3/d3f864f9e944466a6b4ba057832.html" title="Albertsgatan 20 tr F, Höken, 5. Stadsdelen, Helsinki, Suomi">
+								Albertsgatan 20 tr F, Höken, 5. Stadsdelen, Helsinki, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref2a">2a</a>
+							</td>
+							<tr>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/c/0/f1623c2cba14e8addca6d37f20c.html" title="Residence">
 								Residence
 								</a>
@@ -141,12 +198,9 @@
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref2a">2a</a> <a href="#sref3a">3a</a> <a href="#sref2b">2b</a> <a href="#sref4a">4a</a> <a href="#sref2c">2c</a>
+							 <a href="#sref3a">3a</a> <a href="#sref4a">4a</a> <a href="#sref3b">3b</a> <a href="#sref5a">5a</a> <a href="#sref3c">3c</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 										<i class="NoteType">
@@ -162,33 +216,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/9/f/f16251ad2e66932dc0e8d6694f9.html" title="Residence">
-								Residence
-								</a>
-							</td>
-							<td class="ColumnDate">1900</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/2/3/d3f864f9e944466a6b4ba057832.html" title="Albertsgatan 20 tr F, Höken, 5. Stadsdelen, Helsinki, Suomi">
-								Albertsgatan 20 tr F, Höken, 5. Stadsdelen, Helsinki, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref5a">5a</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/4/e/f1625463c725d329f59f96d0fe4.html" title="Residence">
 								Residence
 								</a>
@@ -201,12 +229,9 @@
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref2d">2d</a> <a href="#sref6a">6a</a>
+							 <a href="#sref3d">3d</a> <a href="#sref6a">6a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -214,7 +239,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/6/8/f1629d8628c4d44ff2d6c8f3e86.html" title="Residence">
 								Residence
 								</a>
@@ -227,12 +252,9 @@
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref2e">2e</a> <a href="#sref7a">7a</a> <a href="#sref2f">2f</a> <a href="#sref8a">8a</a> <a href="#sref2g">2g</a> <a href="#sref9a">9a</a>
+							 <a href="#sref3e">3e</a> <a href="#sref7a">7a</a> <a href="#sref3f">3f</a> <a href="#sref8a">8a</a> <a href="#sref3g">3g</a> <a href="#sref9a">9a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -240,7 +262,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/7/4/d48d980e27d49e6ce4a70c73347.html" title="Baptism (Witness)">
 								Baptism (Witness)
 								</a>
@@ -256,9 +278,6 @@
 							 <a href="#sref10a">10a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -266,7 +285,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/7/3/e1818d6e22a1e8a684c647e2937.html" title="Residence">
 								Residence
 								</a>
@@ -282,9 +301,6 @@
 							 <a href="#sref11a">11a</a> <a href="#sref12a">12a</a> <a href="#sref11b">11b</a> <a href="#sref13a">13a</a> <a href="#sref11c">11c</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -292,7 +308,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/0/1/e8248aea4c25a3b9e50870b3610.html" title="Death">
 								Death
 								</a>
@@ -304,9 +320,6 @@
 							 <a href="#sref14a">14a</a> <a href="#sref15a">15a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -314,7 +327,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/7/f/e8248bf96c91d7fa978d849f9f7.html" title="Burial">
 								Burial
 								</a>
@@ -330,9 +343,6 @@
 							 <a href="#sref15a">15a</a> <a href="#sref14a">14a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -344,7 +354,7 @@
 			</div>
 			<div class="subsection" id="parents">
 				<h4>Parents</h4>
-				<table class="infolist">
+				<table class="infolist toggle_parent ltr" id="toggle_parent" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnAttribute">Relation to main person</th>
@@ -403,7 +413,7 @@
 			</div>
 			<div class="subsection" id="families">
 				<h4>Families</h4>
-				<table class="infolist">
+				<table class="infolist" id="toggle_families" style="display:block">
 					<tr class="BeginFamily">
 						<td class="ColumnValue" colspan="3"><H4 class="subsection"><a href="../../../fam/5/7/cb589cc849649a1de75.html" title="Family of Nyström, Viktor Wilhelm and Nordberg, Elin Maria">Family of Nyström, Viktor Wilhelm and Nordberg, Elin Maria</a></H4></td>
 					</tr>
@@ -421,9 +431,8 @@
 					</tr>
 					<tr>
 						<td class="ColumnType">&nbsp;</td>
-						<td class="ColumnAttribute">&nbsp;</td>
-						<td class="ColumnValue">
-							<table class="infolist eventlist">
+						<td class="ColumnValue" colspan="2">
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnEvent">Event</th>
@@ -435,7 +444,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/b/7/cb589cfbfba4c2d037b.html" title="Marriage">
 											Marriage
 											</a>
@@ -451,9 +460,6 @@
 										 <a href="#sref16a">16a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -461,7 +467,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/5/6/e824c5d7def3feebfade6247365.html" title="Residence">
 											Residence
 											</a>
@@ -474,12 +480,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref17a">17a</a> <a href="#sref18a">18a</a> <a href="#sref2h">2h</a>
+										 <a href="#sref17a">17a</a> <a href="#sref18a">18a</a> <a href="#sref3h">3h</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -487,7 +490,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/d/6/e824c23795a7b4635e7572db56d.html" title="Residence">
 											Residence
 											</a>
@@ -500,12 +503,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref19a">19a</a> <a href="#sref2i">2i</a>
+										 <a href="#sref19a">19a</a> <a href="#sref3i">3i</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -513,7 +513,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/d/6/e824ba0383c5f31f367ae34416d.html" title="Residence">
 											Residence
 											</a>
@@ -526,12 +526,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref20a">20a</a> <a href="#sref21a">21a</a> <a href="#sref2j">2j</a>
+										 <a href="#sref20a">20a</a> <a href="#sref21a">21a</a> <a href="#sref3j">3j</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -539,7 +536,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/f/5/e824abc4bdd1eaa0dcd7603485f.html" title="Residence">
 											Residence
 											</a>
@@ -552,12 +549,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref2k">2k</a> <a href="#sref2l">2l</a> <a href="#sref22a">22a</a> <a href="#sref2m">2m</a> <a href="#sref23a">23a</a> <a href="#sref2n">2n</a> <a href="#sref24a">24a</a> <a href="#sref2o">2o</a> <a href="#sref25a">25a</a> <a href="#sref26a">26a</a> <a href="#sref2p">2p</a> <a href="#sref27a">27a</a> <a href="#sref2q">2q</a> <a href="#sref2r">2r</a> <a href="#sref2s">2s</a>
+										 <a href="#sref3k">3k</a> <a href="#sref3l">3l</a> <a href="#sref22a">22a</a> <a href="#sref3m">3m</a> <a href="#sref23a">23a</a> <a href="#sref3n">3n</a> <a href="#sref24a">24a</a> <a href="#sref3o">3o</a> <a href="#sref25a">25a</a> <a href="#sref26a">26a</a> <a href="#sref3p">3p</a> <a href="#sref27a">27a</a> <a href="#sref3q">3q</a> <a href="#sref3r">3r</a> <a href="#sref3s">3s</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -568,10 +562,9 @@
 							</table>
 						</td>
 						<tr>
-							<td class="ColumnType">&nbsp;</td>
 							<td class="ColumnAttribute">Children</td>
-							<td class="ColumnValue" />
-							<table class="infolist eventlist">
+							<td class="ColumnValue Child" colspan="2" />
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnName">Name</th>
@@ -590,7 +583,7 @@
 			</div>
 			<div class="subsection" id="pedigree">
 				<h4>Pedigree</h4>
-				<ol class="pedigreegen">
+				<ol class="pedigreegen" id="toggle_pedigree" style="display:block">
 					<li>
 						<a href="../../../ppl/f/e/cb589cc83d1028d9fef.html">Nordberg, Ferdinand</a>
 						<ol>
@@ -633,177 +626,179 @@
 			</div>
 			<div class="subsection" id="tree">
 				<h4>Ancestors</h4>
-				<div id="treeContainer" style="width:1234px; height:1200px; top: 0px">
-					<div class="boxbg female AncCol0" style="top: 530px; left: 6px;">
-						<a class="noThumb" href="../../../ppl/b/1/cb589cc847f6455821b.html">
-						Nordberg, Elin Maria<br/>*1877-07-13<br/>+1959-10-22
-						</a>
+				<div class="tree" id="toggle_anc" style="display:block">
+					<div id="treeContainer" style="width:1234px; height:1200px; top: 0px">
+						<div class="boxbg female AncCol0" style="top: 530px; left: 6px;">
+							<a class="noThumb" href="../../../ppl/b/1/cb589cc847f6455821b.html">
+							Nordberg, Elin Maria<br>*1877-07-13<br>+1959-10-22
+							</a>
+						</div>
+						<div class="shadow" style="top: 535px; left: 10px;"></div>
+						<div class="bvline" style="top: 550px; left: 285px; width: 15px"></div>
+						<div class="gvline" style="top: 555px; left: 285px; width: 20px"></div>
+						<div class="boxbg male AncCol1" style="top: 230px; left: 316px;">
+							<a class="noThumb" href="../../../ppl/f/e/cb589cc83d1028d9fef.html">
+							Nordberg, Ferdinand<br>*1848-03-31<br>+1886-05-05
+							</a>
+						</div>
+						<div class="shadow" style="top: 235px; left: 320px;"></div>
+						<div class="bvline" style="top: 250px; left: 300px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 250px; left: 300px; height: 301px;"></div>
+					
+						<div class="bvline" style="top: 250px; left: 595px; width: 15px"></div>
+						<div class="gvline" style="top: 255px; left: 595px; width: 20px"></div>
+						<div class="boxbg male AncCol2" style="top: 80px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/9/a/cb589cc90e9501389a9.html">
+							Nordberg, Carl Johan<br>*1812-10-22<br>+1871-06-28
+							</a>
+						</div>
+						<div class="shadow" style="top: 85px; left: 630px;"></div>
+						<div class="bvline" style="top: 100px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 100px; left: 610px; height: 151px;"></div>
+					
+						<div class="bvline" style="top: 100px; left: 905px; width: 15px"></div>
+						<div class="gvline" style="top: 105px; left: 905px; width: 20px"></div>
+						<div class="boxbg male AncCol3" style="top: 5px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/2/b/cb589ccbc7f6a601fb2.html">
+							Nordberg, Johan Johansson<br>*1784-06-12<br>+1866-12-20
+							</a>
+						</div>
+						<div class="shadow" style="top: 10px; left: 940px;"></div>
+						<div class="bvline" style="top: 25px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 25px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol3" style="top: 155px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/2/3/cb589ccbcb82fdc1632.html">
+							, Hedwig Johansdotter<br>*1792-04-13<br>+1830-03-05
+							</a>
+						</div>
+						<div class="shadow" style="top: 160px; left: 940px;"></div>
+						<div class="bvline" style="top: 175px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 100px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol2" style="top: 380px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/4/2/cb589cc91586733b724.html">
+							Weckström, Anna Johansdotter<br>*1810-05-04<br>+1885-02-24
+							</a>
+						</div>
+						<div class="shadow" style="top: 385px; left: 630px;"></div>
+						<div class="bvline" style="top: 400px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 250px; left: 610px; height: 151px;"></div>
+					
+						<div class="bvline" style="top: 400px; left: 905px; width: 15px"></div>
+						<div class="gvline" style="top: 405px; left: 905px; width: 20px"></div>
+						<div class="boxbg male AncCol3" style="top: 305px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/a/7/cb589ccbdb316711b7a.html">
+							Weckström, Johannes Isaacsson<br>*1781-05-10<br>+1815-11-03
+							</a>
+						</div>
+						<div class="shadow" style="top: 310px; left: 940px;"></div>
+						<div class="bvline" style="top: 325px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 325px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol3" style="top: 455px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/c/5/cb589ccbd96066ca75c.html">
+							, Christina Henricsdotter<br>*1778<br>+1845-08-16
+							</a>
+						</div>
+						<div class="shadow" style="top: 460px; left: 940px;"></div>
+						<div class="bvline" style="top: 475px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 400px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol1" style="top: 830px; left: 316px;">
+							<a class="noThumb" href="../../../ppl/a/2/cb589cc83ac79e7ec2a.html">
+							Holmström, Sofia Wilhelmina<br>*1847-01-16<br>+1884-06-14
+							</a>
+						</div>
+						<div class="shadow" style="top: 835px; left: 320px;"></div>
+						<div class="bvline" style="top: 850px; left: 300px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 550px; left: 300px; height: 301px;"></div>
+					
+						<div class="bvline" style="top: 850px; left: 595px; width: 15px"></div>
+						<div class="gvline" style="top: 855px; left: 595px; width: 20px"></div>
+						<div class="boxbg male AncCol2" style="top: 680px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/e/4/cb589cc8ec053a33e4e.html">
+							Holmström, Gustaf Adolph<br>*1816-06-01<br>+1857-03-22
+							</a>
+						</div>
+						<div class="shadow" style="top: 685px; left: 630px;"></div>
+						<div class="bvline" style="top: 700px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 700px; left: 610px; height: 151px;"></div>
+					
+						<div class="bvline" style="top: 700px; left: 905px; width: 15px"></div>
+						<div class="gvline" style="top: 705px; left: 905px; width: 20px"></div>
+						<div class="boxbg male AncCol3" style="top: 605px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/b/9/cb589ccb8e61c75d89b.html">
+							Holmström, Henric Sigfridsson<br>*1777-04-08<br>+1819-09-15
+							</a>
+						</div>
+						<div class="shadow" style="top: 610px; left: 940px;"></div>
+						<div class="bvline" style="top: 625px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 625px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol3" style="top: 755px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/7/8/cb589ccb91866738787.html">
+							Söderlund, Greta Hansdotter<br>*1781-04-05<br>+1838-02-18
+							</a>
+						</div>
+						<div class="shadow" style="top: 760px; left: 940px;"></div>
+						<div class="bvline" style="top: 775px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 700px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol2" style="top: 980px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/5/7/cb589cc8fd959dc8075.html">
+							Wikström, Gustafva Henricsdotter<br>*1816-04-15<br>+1898-06-10
+							</a>
+						</div>
+						<div class="shadow" style="top: 985px; left: 630px;"></div>
+						<div class="bvline" style="top: 1000px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 850px; left: 610px; height: 151px;"></div>
+					
+						<div class="bvline" style="top: 1000px; left: 905px; width: 15px"></div>
+						<div class="gvline" style="top: 1005px; left: 905px; width: 20px"></div>
+						<div class="boxbg male AncCol3" style="top: 905px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/7/2/cb589ccba4b73517c27.html">
+							Wikström, Henrik Eriksson<br>*1782-10-03<br>+1833-11-04
+							</a>
+						</div>
+						<div class="shadow" style="top: 910px; left: 940px;"></div>
+						<div class="bvline" style="top: 925px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 925px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol3" style="top: 1055px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/4/e/cb589ccba855090aae4.html">
+							, Edla Isaacsdotter<br>*1794-11-30<br>+1864-02-12
+							</a>
+						</div>
+						<div class="shadow" style="top: 1060px; left: 940px;"></div>
+						<div class="bvline" style="top: 1075px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 1000px; left: 920px; height: 76px;"></div>
+					
 					</div>
-					<div class="shadow" style="top: 535px; left: 10px;"></div>
-					<div class="bvline" style="top: 550px; left: 285px; width: 15px"></div>
-					<div class="gvline" style="top: 555px; left: 285px; width: 20px"></div>
-					<div class="boxbg male AncCol1" style="top: 230px; left: 316px;">
-						<a class="noThumb" href="../../../ppl/f/e/cb589cc83d1028d9fef.html">
-						Nordberg, Ferdinand<br/>*1848-03-31<br/>+1886-05-05
-						</a>
-					</div>
-					<div class="shadow" style="top: 235px; left: 320px;"></div>
-					<div class="bvline" style="top: 250px; left: 300px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 250px; left: 300px; height: 301px;"></div>
-				
-					<div class="bvline" style="top: 250px; left: 595px; width: 15px"></div>
-					<div class="gvline" style="top: 255px; left: 595px; width: 20px"></div>
-					<div class="boxbg male AncCol2" style="top: 80px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/9/a/cb589cc90e9501389a9.html">
-						Nordberg, Carl Johan<br/>*1812-10-22<br/>+1871-06-28
-						</a>
-					</div>
-					<div class="shadow" style="top: 85px; left: 630px;"></div>
-					<div class="bvline" style="top: 100px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 100px; left: 610px; height: 151px;"></div>
-				
-					<div class="bvline" style="top: 100px; left: 905px; width: 15px"></div>
-					<div class="gvline" style="top: 105px; left: 905px; width: 20px"></div>
-					<div class="boxbg male AncCol3" style="top: 5px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/2/b/cb589ccbc7f6a601fb2.html">
-						Nordberg, Johan Johansson<br/>*1784-06-12<br/>+1866-12-20
-						</a>
-					</div>
-					<div class="shadow" style="top: 10px; left: 940px;"></div>
-					<div class="bvline" style="top: 25px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 25px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol3" style="top: 155px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/2/3/cb589ccbcb82fdc1632.html">
-						, Hedwig Johansdotter<br/>*1792-04-13<br/>+1830-03-05
-						</a>
-					</div>
-					<div class="shadow" style="top: 160px; left: 940px;"></div>
-					<div class="bvline" style="top: 175px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 100px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol2" style="top: 380px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/4/2/cb589cc91586733b724.html">
-						Weckström, Anna Johansdotter<br/>*1810-05-04<br/>+1885-02-24
-						</a>
-					</div>
-					<div class="shadow" style="top: 385px; left: 630px;"></div>
-					<div class="bvline" style="top: 400px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 250px; left: 610px; height: 151px;"></div>
-				
-					<div class="bvline" style="top: 400px; left: 905px; width: 15px"></div>
-					<div class="gvline" style="top: 405px; left: 905px; width: 20px"></div>
-					<div class="boxbg male AncCol3" style="top: 305px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/a/7/cb589ccbdb316711b7a.html">
-						Weckström, Johannes Isaacsson<br/>*1781-05-10<br/>+1815-11-03
-						</a>
-					</div>
-					<div class="shadow" style="top: 310px; left: 940px;"></div>
-					<div class="bvline" style="top: 325px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 325px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol3" style="top: 455px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/c/5/cb589ccbd96066ca75c.html">
-						, Christina Henricsdotter<br/>*1778<br/>+1845-08-16
-						</a>
-					</div>
-					<div class="shadow" style="top: 460px; left: 940px;"></div>
-					<div class="bvline" style="top: 475px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 400px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol1" style="top: 830px; left: 316px;">
-						<a class="noThumb" href="../../../ppl/a/2/cb589cc83ac79e7ec2a.html">
-						Holmström, Sofia Wilhelmina<br/>*1847-01-16<br/>+1884-06-14
-						</a>
-					</div>
-					<div class="shadow" style="top: 835px; left: 320px;"></div>
-					<div class="bvline" style="top: 850px; left: 300px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 550px; left: 300px; height: 301px;"></div>
-				
-					<div class="bvline" style="top: 850px; left: 595px; width: 15px"></div>
-					<div class="gvline" style="top: 855px; left: 595px; width: 20px"></div>
-					<div class="boxbg male AncCol2" style="top: 680px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/e/4/cb589cc8ec053a33e4e.html">
-						Holmström, Gustaf Adolph<br/>*1816-06-01<br/>+1857-03-22
-						</a>
-					</div>
-					<div class="shadow" style="top: 685px; left: 630px;"></div>
-					<div class="bvline" style="top: 700px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 700px; left: 610px; height: 151px;"></div>
-				
-					<div class="bvline" style="top: 700px; left: 905px; width: 15px"></div>
-					<div class="gvline" style="top: 705px; left: 905px; width: 20px"></div>
-					<div class="boxbg male AncCol3" style="top: 605px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/b/9/cb589ccb8e61c75d89b.html">
-						Holmström, Henric Sigfridsson<br/>*1777-04-08<br/>+1819-09-15
-						</a>
-					</div>
-					<div class="shadow" style="top: 610px; left: 940px;"></div>
-					<div class="bvline" style="top: 625px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 625px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol3" style="top: 755px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/7/8/cb589ccb91866738787.html">
-						Söderlund, Greta Hansdotter<br/>*1781-04-05<br/>+1838-02-18
-						</a>
-					</div>
-					<div class="shadow" style="top: 760px; left: 940px;"></div>
-					<div class="bvline" style="top: 775px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 700px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol2" style="top: 980px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/5/7/cb589cc8fd959dc8075.html">
-						Wikström, Gustafva Henricsdotter<br/>*1816-04-15<br/>+1898-06-10
-						</a>
-					</div>
-					<div class="shadow" style="top: 985px; left: 630px;"></div>
-					<div class="bvline" style="top: 1000px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 850px; left: 610px; height: 151px;"></div>
-				
-					<div class="bvline" style="top: 1000px; left: 905px; width: 15px"></div>
-					<div class="gvline" style="top: 1005px; left: 905px; width: 20px"></div>
-					<div class="boxbg male AncCol3" style="top: 905px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/7/2/cb589ccba4b73517c27.html">
-						Wikström, Henrik Eriksson<br/>*1782-10-03<br/>+1833-11-04
-						</a>
-					</div>
-					<div class="shadow" style="top: 910px; left: 940px;"></div>
-					<div class="bvline" style="top: 925px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 925px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol3" style="top: 1055px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/4/e/cb589ccba855090aae4.html">
-						, Edla Isaacsdotter<br/>*1794-11-30<br/>+1864-02-12
-						</a>
-					</div>
-					<div class="shadow" style="top: 1060px; left: 940px;"></div>
-					<div class="bvline" style="top: 1075px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 1000px; left: 920px; height: 76px;"></div>
-				
 				</div>
 			</div>
 			<div class="subsection" id="sourcerefs">
 				<h4>Source References</h4>
-				<ol>
+				<ol id="srcr">
 					<li>
 						<a href="../../../src/3/0/cdea877adb954644203.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Syntyneet 1856-1884" name ="sref1">
 						Helsingin ruotsalais-suomalainen seurakunta: Helsinki Syntyneet 1856-1884
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref1a">
 								<ul>
 									<li>
@@ -826,377 +821,11 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/3/0/dcde088884844f55819d0fcc103.html" title="Paul, Aksel: Adress- och yrkeskalender för Helsingfors jämte förorter" name ="sref2">
-						Paul, Aksel: Adress- och yrkeskalender för Helsingfors jämte förorter
-						</a>
-						<ol>
-							<li id="sref2a">
-								<ul>
-									<li>
-									Page: 1898/294
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1898, s. 526<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1154631?page=526<br />Kansalliskirjaston digitaaliset aineistot</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1154631?term=Nordberg&amp;page=526">https://digi.kansalliskirjasto.fi/aikakausi/binding/1154631?term=Nordberg&amp;page=526</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">294</span><br /><span style="font-family:'Courier New';">Nordberg, [...]</span><br /><span style="font-family:'Courier New';">- E., fröken, sömmerska, Vladimirsg. 52.</span></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref2b">
-								<ul>
-									<li>
-									Page: 1899/348
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1899, s. 588<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1154558?page=588<br />Kansalliskirjaston digitaaliset aineistot</p><p>&nbsp;</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1154558?term=Nordberg&amp;page=588">https://digi.kansalliskirjasto.fi/aikakausi/binding/1154558?term=Nordberg&amp;page=588</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">348</span></p><p><span style="font-family:'Courier New';">Nordberg, [...]</span><br /><span style="font-family:'Courier New';">- E., fröken, sömmerska, Vladimirsg. 52</span></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref2c">
-								<ul>
-									<li>
-									Page: 1900/381
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1900, s. 573<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1154785?page=573<br />Kansalliskirjaston digitaaliset aineistot</p><p>&nbsp;</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1154785?term=Nordberg&amp;page=573">https://digi.kansalliskirjasto.fi/aikakausi/binding/1154785?term=Nordberg&amp;page=573</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">381</span></p><p><span style="font-family:'Courier New';">Nordberg, [...]</span><br /><span style="font-family:'Courier New';">- E., fröken, sömmerska, Vladimirsg. 52.</span><br /><span style="font-family:'Courier New';">- E. F., bleckslagare, Albertsg. 20.</span></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref2d">
-								<ul>
-									<li>
-									Page: 1901/417
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1901, s. 605<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1154557?page=605<br />Kansalliskirjaston digitaaliset aineistot</p><p>&nbsp;</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1154557?term=Nordberg&amp;page=605">https://digi.kansalliskirjasto.fi/aikakausi/binding/1154557?term=Nordberg&amp;page=605</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">417</span></p><p><span style="font-family:'Courier New';">Nordberg, [...]</span><br /><span style="font-family:'Courier New';">- E., fröken, sömmerska, Vladimirsg. 52.</span><br /><span style="font-family:'Courier New';">- E. F., bleckslagare, Albertsg. 20.</span></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref2e">
-								<ul>
-									<li>
-									Page: 1902/452
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1902, s. 648<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1154786?page=648<br />Kansalliskirjaston digitaaliset aineistot</p><p>&nbsp;</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1154786?term=Nordberg&amp;page=648">https://digi.kansalliskirjasto.fi/aikakausi/binding/1154786?term=Nordberg&amp;page=648</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">452</span></p><p><span style="font-family:'Courier New';">Nordberg, [...]</span><br /><span style="font-family:'Courier New';">- E., fröken, sömmerska, Vladimirsg. 52.</span><br /><span style="font-family:'Courier New';">- E. F., bleckslagare, Albertsg. 20.</span><br /><span style="font-family:'Courier New';">[..]</span><br /><span style="font-family:'Courier New';">- Elin M., fröken, sömmerska, V. Chaussén, St. Fjälldal 2 kv 24.</span></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref2f">
-								<ul>
-									<li>
-									Page: 1903/700
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1903, s. 700<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1154787?page=700<br />Kansalliskirjaston digitaaliset aineistot</p><p>&nbsp;</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1154787?page=700">https://digi.kansalliskirjasto.fi/aikakausi/binding/1154787?page=700</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>Nordberg</strong></span><span style="font-family:'Courier New';">[...]</span><br /><span style="font-family:'Courier New';">- </span><strong><span style="font-family:'Courier New';">E. F.,</span></strong><span style="font-family:'Courier New';"> bleckslagare, Albertsg. 20 tr F.</span><br /><span style="font-family:'Courier New';">- </span><strong><span style="font-family:'Courier New';">Elin M., frk.,</span></strong><span style="font-family:'Courier New';"> sömmerska, V. Chaussén, St. Fjälldal 2 kv 24 </span><br /><span style="font-family:'Courier New';">[...]</span><br /><span style="font-family:'Courier New';">- </span><strong><span style="font-family:'Courier New';">Maria,</span></strong><span style="font-family:'Courier New';"> frk., butikbitr., Albertsg. 20 tr F.</span></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref2g">
-								<ul>
-									<li>
-									Page: 1904/368
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1904, s. 516<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1154556?page=516<br />Kansalliskirjaston digitaaliset aineistot</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1154556?page=516">https://digi.kansalliskirjasto.fi/aikakausi/binding/1154556?page=516</a></p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1154556?term=Nordberg&amp;page=516">https://digi.kansalliskirjasto.fi/aikakausi/binding/1154556?term=Nordberg&amp;page=516</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">Nordberg, [...]</span><br /><span style="font-family:'Courier New';">- </span><strong><span style="font-family:'Courier New';">Elin M.,</span></strong><span style="font-family:'Courier New';"> frk., sömm, V. Ch., St. Fjälldal2kv24</span></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref2h">
-								<ul>
-									<li>
-									Page: 1911/469
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1911, s. 679<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1155512?page=679<br />Kansalliskirjaston digitaaliset aineistot</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1155512?page=679">https://digi.kansalliskirjasto.fi/aikakausi/binding/1155512?page=679</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>Nyström</strong></span><br /><span style="font-family:'Courier New';"><strong>&nbsp;- Viktor W., </strong></span><span style="font-family:'Courier New';">postilj., Jägareg. 13 tr F.</span></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref2i">
-								<ul>
-									<li>
-									Page: 1912/478
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1912, s. 699<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1155513?page=699<br />Kansalliskirjaston digitaaliset aineistot</p><p>&nbsp;</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1155513?page=699">https://digi.kansalliskirjasto.fi/aikakausi/binding/1155513?page=699</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>Nyström</strong></span><br /><span style="font-family:'Courier New';"><strong>&nbsp;- Viktor W.,</strong></span><span style="font-family:'Courier New';"> postilj., gårdsk., Skeppareg. 21.</span></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref2j">
-								<ul>
-									<li>
-									Page: 1913/449
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1913, s. 685<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1156469?page=685<br />Kansalliskirjaston digitaaliset aineistot</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1156469?page=685">https://digi.kansalliskirjasto.fi/aikakausi/binding/1156469?page=685</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>Nyström</strong></span><br /><span style="font-family:'Courier New';"><strong>&nbsp;- Viktor W.,</strong></span><span style="font-family:'Courier New';"> postiljon, Eriksg. 27.</span></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref2k">
-								<ul>
-									<li>
-									Page: 1915/610
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1915, s. 850<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1156468?page=850<br />Kansalliskirjaston digitaaliset aineistot</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1156468?page=850">https://digi.kansalliskirjasto.fi/aikakausi/binding/1156468?page=850</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>Nyström</strong></span><span style="font-family:'Courier New';"></span><br /><span style="font-family:'Courier New';">- </span><strong><span style="font-family:'Courier New';">Viktor W.</span></strong><span style="font-family:'Courier New';">, postiljon, Skeppsredareg. 3 tr D l 50</span></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref2l">
-								<ul>
-									<li>
-									Page: 1916/660
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1916, s. 910<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1156467?page=910<br />Kansalliskirjaston digitaaliset aineistot</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1156467?page=910">https://digi.kansalliskirjasto.fi/aikakausi/binding/1156467?page=910</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>Nyström</strong></span><br /><span style="font-family:'Courier New';"><strong>&nbsp;- Viktor W.,</strong></span><span style="font-family:'Courier New';"> postiljon, Skeppsredareg. 3 tr D l 50.</span></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref2m">
-								<ul>
-									<li>
-									Page: 1917/710
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1917, s. 968<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1156466?page=968<br />Kansalliskirjaston digitaaliset aineistot</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1156466?page=968">https://digi.kansalliskirjasto.fi/aikakausi/binding/1156466?page=968</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>Nyström</strong></span><br /><span style="font-family:'Courier New';"><strong>&nbsp;- Viktor W.</strong></span><span style="font-family:'Courier New';">, postiljon, Skeppsredareg. 3 tr D l 50.</span></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref2n">
-								<ul>
-									<li>
-									Page: 1918/648
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1918, s. 852<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1156465?page=852<br />Kansalliskirjaston digitaaliset aineistot</p><p>&nbsp;</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1156465?page=852">https://digi.kansalliskirjasto.fi/aikakausi/binding/1156465?page=852</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>Nyström</strong></span><br /><span style="font-family:'Courier New';"><strong>&nbsp;- Viktor W.,</strong></span><span style="font-family:'Courier New';"> postiljon, Skeppsredareg. 3 tr D l 50.</span></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref2o">
-								<ul>
-									<li>
-									Page: 1919/645
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1919, s. 763<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1155509?page=763<br />Kansalliskirjaston digitaaliset aineistot</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1155509?page=763">https://digi.kansalliskirjasto.fi/aikakausi/binding/1155509?page=763</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>Nyström</strong></span><br /><span style="font-family:'Courier New';"><strong>&nbsp;- Viktor W.,</strong></span><span style="font-family:'Courier New';"> postiljon, Skeppsredareg. 3 tr D l 50.</span></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref2p">
-								<ul>
-									<li>
-									Page: 1922/580
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1922, s. 684<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1155508?page=684<br />Kansalliskirjaston digitaaliset aineistot</p><p>&nbsp;</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1155508?page=684">https://digi.kansalliskirjasto.fi/aikakausi/binding/1155508?page=684</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>Nyström</strong></span><br /><span style="font-family:'Courier New';"><strong>&nbsp;- Viktor W.,</strong></span><span style="font-family:'Courier New';"> postiljon, Skeppsredareg. 3 D 50</span></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref2q">
-								<ul>
-									<li>
-									Page: 1924/670
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1924, s. 750<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1158697?page=750<br />Kansalliskirjaston digitaaliset aineistot</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1158697?page=750">https://digi.kansalliskirjasto.fi/aikakausi/binding/1158697?page=750</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>Nyström</strong></span><br /><span style="font-family:'Courier New';"><strong>&nbsp;- Viktor W.,</strong></span><span style="font-family:'Courier New';"> postiljon, Skeppsredareg. 3 D 50</span></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref2r">
-								<ul>
-									<li>
-									Page: 1926/514
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1926, s. 594<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1158698?page=594<br />Kansalliskirjaston digitaaliset aineistot</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1158698?page=594">https://digi.kansalliskirjasto.fi/aikakausi/binding/1158698?page=594</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>Nyström</strong></span><br /><span style="font-family:'Courier New';"><strong>&nbsp;- Viktor W.,</strong></span><span style="font-family:'Courier New';"> postiljon, Skeppsredareg. 3 D 50</span></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref2s">
-								<ul>
-									<li>
-									Page: 1928/383
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1928, s. 467<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1158699?page=467<br />Kansalliskirjaston digitaaliset aineistot</p><p>&nbsp;</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1158699?page=467">https://digi.kansalliskirjasto.fi/aikakausi/binding/1158699?page=467</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>Nyström</strong></span><br /><span style="font-family:'Courier New';"><strong>&nbsp;- Viktor W.,</strong></span><span style="font-family:'Courier New';"> postiljon, Skeppsredareg. 3 D 50</span></p></div>
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
-						<a href="../../../src/3/9/f162338ce84362ba8c1529cff93.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1898" name ="sref3">
-						Uudenmaan lääni: Uusimaa Henkikirja 1898
-						</a>
-						<ol>
-							<li id="sref3a">
-								<ul>
-									<li>
-									Page: U:161/1025
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Uudenmaan läänin henkikirjat - U:161 Henkikirja, 4.-5. kaupunginosa 1898-1898, jakso 323: 81 Sparfven 35 Wladimirsg 52; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5260363460&amp;aineistoId=2108320606 / Viitattu 25.7.2022</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5260363460&amp;aineistoId=2108320606">https://astia.narc.fi/uusiastia/viewer/?fileId=5260363460&amp;aineistoId=2108320606</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">1025</span><br /><span style="font-family:'Courier New';">81. Sparfven &nbsp;35 &nbsp;Wladimirsg 52 &nbsp; &nbsp;[...]</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;H. &nbsp;Sömmerskan Ellen Maria</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Nordberg 77. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></p></div>
-									</li>
-									<li>
-									Research: <div class="grampsstylednote"><p>Ensimmäinen etunimi väärin <em>Ellen kun </em>po. Elin, mutta muut tiedot näyttäisi täsmäävän joten vaikuttaa olevan kirjoitusvirhe ja oikea henkilö</p></div>
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
-						<a href="../../../src/4/6/f1623628e505320ec02695f4e64.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1899" name ="sref4">
-						Uudenmaan lääni: Uusimaa Henkikirja 1899
-						</a>
-						<ol>
-							<li id="sref4a">
-								<ul>
-									<li>
-									Page: U:168/1062
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Uudenmaan läänin henkikirjat - U:168 Henkikirja, 4.-5. kaupunginosa 1899-1899, jakso 340, sivu 1062: 81. Sparfven 35 Wladimirsg 52; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5643273160&amp;aineistoId=2108421413 / Viitattu 25.7.2022</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5643273160&amp;aineistoId=2108421413">https://astia.narc.fi/uusiastia/viewer/?fileId=5643273160&amp;aineistoId=2108421413</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">1062</span><br /><span style="font-family:'Courier New';">81. Sparfven &nbsp;35 &nbsp;Wladimirsg 52 &nbsp; &nbsp;[...]</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Sömmerskan Elin Maria Nordbeck. 77</span></p></div>
-									</li>
-									<li>
-									Research: <div class="grampsstylednote"><p>Sukunimi väärin Nordbeck kun po.Nordberg, mutta muut tiedot näyttäisi täsmäävän joten vaikuttaa olevan kirjoitusvirhe ja oikea henkilö</p></div>
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
-						<a href="../../../src/c/8/d3f883e7d90233732a94924698c.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1900" name ="sref5">
+						<a href="../../../src/c/8/d3f883e7d90233732a94924698c.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1900" name ="sref2">
 						Uudenmaan lääni: Uusimaa Henkikirja 1900
 						</a>
-						<ol>
-							<li id="sref5a">
+						<ol id="citr">
+							<li id="sref2a">
 								<ul>
 									<li>
 									Page: U:175/1593
@@ -1218,10 +847,376 @@
 						</ol>
 					</li>
 					<li>
+						<a href="../../../src/3/0/dcde088884844f55819d0fcc103.html" title="Paul, Aksel: Adress- och yrkeskalender för Helsingfors jämte förorter" name ="sref3">
+						Paul, Aksel: Adress- och yrkeskalender för Helsingfors jämte förorter
+						</a>
+						<ol id="citr">
+							<li id="sref3a">
+								<ul>
+									<li>
+									Page: 1898/294
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1898, s. 526<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1154631?page=526<br />Kansalliskirjaston digitaaliset aineistot</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1154631?term=Nordberg&amp;page=526">https://digi.kansalliskirjasto.fi/aikakausi/binding/1154631?term=Nordberg&amp;page=526</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">294</span><br /><span style="font-family:'Courier New';">Nordberg, [...]</span><br /><span style="font-family:'Courier New';">- E., fröken, sömmerska, Vladimirsg. 52.</span></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref3b">
+								<ul>
+									<li>
+									Page: 1899/348
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1899, s. 588<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1154558?page=588<br />Kansalliskirjaston digitaaliset aineistot</p><p>&nbsp;</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1154558?term=Nordberg&amp;page=588">https://digi.kansalliskirjasto.fi/aikakausi/binding/1154558?term=Nordberg&amp;page=588</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">348</span></p><p><span style="font-family:'Courier New';">Nordberg, [...]</span><br /><span style="font-family:'Courier New';">- E., fröken, sömmerska, Vladimirsg. 52</span></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref3c">
+								<ul>
+									<li>
+									Page: 1900/381
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1900, s. 573<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1154785?page=573<br />Kansalliskirjaston digitaaliset aineistot</p><p>&nbsp;</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1154785?term=Nordberg&amp;page=573">https://digi.kansalliskirjasto.fi/aikakausi/binding/1154785?term=Nordberg&amp;page=573</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">381</span></p><p><span style="font-family:'Courier New';">Nordberg, [...]</span><br /><span style="font-family:'Courier New';">- E., fröken, sömmerska, Vladimirsg. 52.</span><br /><span style="font-family:'Courier New';">- E. F., bleckslagare, Albertsg. 20.</span></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref3d">
+								<ul>
+									<li>
+									Page: 1901/417
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1901, s. 605<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1154557?page=605<br />Kansalliskirjaston digitaaliset aineistot</p><p>&nbsp;</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1154557?term=Nordberg&amp;page=605">https://digi.kansalliskirjasto.fi/aikakausi/binding/1154557?term=Nordberg&amp;page=605</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">417</span></p><p><span style="font-family:'Courier New';">Nordberg, [...]</span><br /><span style="font-family:'Courier New';">- E., fröken, sömmerska, Vladimirsg. 52.</span><br /><span style="font-family:'Courier New';">- E. F., bleckslagare, Albertsg. 20.</span></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref3e">
+								<ul>
+									<li>
+									Page: 1902/452
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1902, s. 648<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1154786?page=648<br />Kansalliskirjaston digitaaliset aineistot</p><p>&nbsp;</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1154786?term=Nordberg&amp;page=648">https://digi.kansalliskirjasto.fi/aikakausi/binding/1154786?term=Nordberg&amp;page=648</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">452</span></p><p><span style="font-family:'Courier New';">Nordberg, [...]</span><br /><span style="font-family:'Courier New';">- E., fröken, sömmerska, Vladimirsg. 52.</span><br /><span style="font-family:'Courier New';">- E. F., bleckslagare, Albertsg. 20.</span><br /><span style="font-family:'Courier New';">[..]</span><br /><span style="font-family:'Courier New';">- Elin M., fröken, sömmerska, V. Chaussén, St. Fjälldal 2 kv 24.</span></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref3f">
+								<ul>
+									<li>
+									Page: 1903/700
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1903, s. 700<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1154787?page=700<br />Kansalliskirjaston digitaaliset aineistot</p><p>&nbsp;</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1154787?page=700">https://digi.kansalliskirjasto.fi/aikakausi/binding/1154787?page=700</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>Nordberg</strong></span><span style="font-family:'Courier New';">[...]</span><br /><span style="font-family:'Courier New';">- </span><strong><span style="font-family:'Courier New';">E. F.,</span></strong><span style="font-family:'Courier New';"> bleckslagare, Albertsg. 20 tr F.</span><br /><span style="font-family:'Courier New';">- </span><strong><span style="font-family:'Courier New';">Elin M., frk.,</span></strong><span style="font-family:'Courier New';"> sömmerska, V. Chaussén, St. Fjälldal 2 kv 24 </span><br /><span style="font-family:'Courier New';">[...]</span><br /><span style="font-family:'Courier New';">- </span><strong><span style="font-family:'Courier New';">Maria,</span></strong><span style="font-family:'Courier New';"> frk., butikbitr., Albertsg. 20 tr F.</span></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref3g">
+								<ul>
+									<li>
+									Page: 1904/368
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1904, s. 516<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1154556?page=516<br />Kansalliskirjaston digitaaliset aineistot</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1154556?page=516">https://digi.kansalliskirjasto.fi/aikakausi/binding/1154556?page=516</a></p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1154556?term=Nordberg&amp;page=516">https://digi.kansalliskirjasto.fi/aikakausi/binding/1154556?term=Nordberg&amp;page=516</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">Nordberg, [...]</span><br /><span style="font-family:'Courier New';">- </span><strong><span style="font-family:'Courier New';">Elin M.,</span></strong><span style="font-family:'Courier New';"> frk., sömm, V. Ch., St. Fjälldal2kv24</span></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref3h">
+								<ul>
+									<li>
+									Page: 1911/469
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1911, s. 679<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1155512?page=679<br />Kansalliskirjaston digitaaliset aineistot</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1155512?page=679">https://digi.kansalliskirjasto.fi/aikakausi/binding/1155512?page=679</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>Nyström</strong></span><br /><span style="font-family:'Courier New';"><strong>&nbsp;- Viktor W., </strong></span><span style="font-family:'Courier New';">postilj., Jägareg. 13 tr F.</span></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref3i">
+								<ul>
+									<li>
+									Page: 1912/478
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1912, s. 699<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1155513?page=699<br />Kansalliskirjaston digitaaliset aineistot</p><p>&nbsp;</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1155513?page=699">https://digi.kansalliskirjasto.fi/aikakausi/binding/1155513?page=699</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>Nyström</strong></span><br /><span style="font-family:'Courier New';"><strong>&nbsp;- Viktor W.,</strong></span><span style="font-family:'Courier New';"> postilj., gårdsk., Skeppareg. 21.</span></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref3j">
+								<ul>
+									<li>
+									Page: 1913/449
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1913, s. 685<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1156469?page=685<br />Kansalliskirjaston digitaaliset aineistot</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1156469?page=685">https://digi.kansalliskirjasto.fi/aikakausi/binding/1156469?page=685</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>Nyström</strong></span><br /><span style="font-family:'Courier New';"><strong>&nbsp;- Viktor W.,</strong></span><span style="font-family:'Courier New';"> postiljon, Eriksg. 27.</span></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref3k">
+								<ul>
+									<li>
+									Page: 1915/610
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1915, s. 850<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1156468?page=850<br />Kansalliskirjaston digitaaliset aineistot</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1156468?page=850">https://digi.kansalliskirjasto.fi/aikakausi/binding/1156468?page=850</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>Nyström</strong></span><span style="font-family:'Courier New';"></span><br /><span style="font-family:'Courier New';">- </span><strong><span style="font-family:'Courier New';">Viktor W.</span></strong><span style="font-family:'Courier New';">, postiljon, Skeppsredareg. 3 tr D l 50</span></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref3l">
+								<ul>
+									<li>
+									Page: 1916/660
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1916, s. 910<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1156467?page=910<br />Kansalliskirjaston digitaaliset aineistot</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1156467?page=910">https://digi.kansalliskirjasto.fi/aikakausi/binding/1156467?page=910</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>Nyström</strong></span><br /><span style="font-family:'Courier New';"><strong>&nbsp;- Viktor W.,</strong></span><span style="font-family:'Courier New';"> postiljon, Skeppsredareg. 3 tr D l 50.</span></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref3m">
+								<ul>
+									<li>
+									Page: 1917/710
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1917, s. 968<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1156466?page=968<br />Kansalliskirjaston digitaaliset aineistot</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1156466?page=968">https://digi.kansalliskirjasto.fi/aikakausi/binding/1156466?page=968</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>Nyström</strong></span><br /><span style="font-family:'Courier New';"><strong>&nbsp;- Viktor W.</strong></span><span style="font-family:'Courier New';">, postiljon, Skeppsredareg. 3 tr D l 50.</span></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref3n">
+								<ul>
+									<li>
+									Page: 1918/648
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1918, s. 852<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1156465?page=852<br />Kansalliskirjaston digitaaliset aineistot</p><p>&nbsp;</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1156465?page=852">https://digi.kansalliskirjasto.fi/aikakausi/binding/1156465?page=852</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>Nyström</strong></span><br /><span style="font-family:'Courier New';"><strong>&nbsp;- Viktor W.,</strong></span><span style="font-family:'Courier New';"> postiljon, Skeppsredareg. 3 tr D l 50.</span></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref3o">
+								<ul>
+									<li>
+									Page: 1919/645
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1919, s. 763<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1155509?page=763<br />Kansalliskirjaston digitaaliset aineistot</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1155509?page=763">https://digi.kansalliskirjasto.fi/aikakausi/binding/1155509?page=763</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>Nyström</strong></span><br /><span style="font-family:'Courier New';"><strong>&nbsp;- Viktor W.,</strong></span><span style="font-family:'Courier New';"> postiljon, Skeppsredareg. 3 tr D l 50.</span></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref3p">
+								<ul>
+									<li>
+									Page: 1922/580
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1922, s. 684<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1155508?page=684<br />Kansalliskirjaston digitaaliset aineistot</p><p>&nbsp;</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1155508?page=684">https://digi.kansalliskirjasto.fi/aikakausi/binding/1155508?page=684</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>Nyström</strong></span><br /><span style="font-family:'Courier New';"><strong>&nbsp;- Viktor W.,</strong></span><span style="font-family:'Courier New';"> postiljon, Skeppsredareg. 3 D 50</span></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref3q">
+								<ul>
+									<li>
+									Page: 1924/670
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1924, s. 750<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1158697?page=750<br />Kansalliskirjaston digitaaliset aineistot</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1158697?page=750">https://digi.kansalliskirjasto.fi/aikakausi/binding/1158697?page=750</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>Nyström</strong></span><br /><span style="font-family:'Courier New';"><strong>&nbsp;- Viktor W.,</strong></span><span style="font-family:'Courier New';"> postiljon, Skeppsredareg. 3 D 50</span></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref3r">
+								<ul>
+									<li>
+									Page: 1926/514
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1926, s. 594<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1158698?page=594<br />Kansalliskirjaston digitaaliset aineistot</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1158698?page=594">https://digi.kansalliskirjasto.fi/aikakausi/binding/1158698?page=594</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>Nyström</strong></span><br /><span style="font-family:'Courier New';"><strong>&nbsp;- Viktor W.,</strong></span><span style="font-family:'Courier New';"> postiljon, Skeppsredareg. 3 D 50</span></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref3s">
+								<ul>
+									<li>
+									Page: 1928/383
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Adress- och yrkeskalender för Helsingfors jämte förorter, 01.01.1928, s. 467<br />https://digi.kansalliskirjasto.fi/aikakausi/binding/1158699?page=467<br />Kansalliskirjaston digitaaliset aineistot</p><p>&nbsp;</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://digi.kansalliskirjasto.fi/aikakausi/binding/1158699?page=467">https://digi.kansalliskirjasto.fi/aikakausi/binding/1158699?page=467</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><strong></strong><span style="font-family:'Courier New';"><strong>Nyström</strong></span><br /><span style="font-family:'Courier New';"><strong>&nbsp;- Viktor W.,</strong></span><span style="font-family:'Courier New';"> postiljon, Skeppsredareg. 3 D 50</span></p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../src/3/9/f162338ce84362ba8c1529cff93.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1898" name ="sref4">
+						Uudenmaan lääni: Uusimaa Henkikirja 1898
+						</a>
+						<ol id="citr">
+							<li id="sref4a">
+								<ul>
+									<li>
+									Page: U:161/1025
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Uudenmaan läänin henkikirjat - U:161 Henkikirja, 4.-5. kaupunginosa 1898-1898, jakso 323: 81 Sparfven 35 Wladimirsg 52; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5260363460&amp;aineistoId=2108320606 / Viitattu 25.7.2022</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5260363460&amp;aineistoId=2108320606">https://astia.narc.fi/uusiastia/viewer/?fileId=5260363460&amp;aineistoId=2108320606</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">1025</span><br /><span style="font-family:'Courier New';">81. Sparfven &nbsp;35 &nbsp;Wladimirsg 52 &nbsp; &nbsp;[...]</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;H. &nbsp;Sömmerskan Ellen Maria</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Nordberg 77. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></p></div>
+									</li>
+									<li>
+									Research: <div class="grampsstylednote"><p>Ensimmäinen etunimi väärin <em>Ellen kun </em>po. Elin, mutta muut tiedot näyttäisi täsmäävän joten vaikuttaa olevan kirjoitusvirhe ja oikea henkilö</p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../src/4/6/f1623628e505320ec02695f4e64.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1899" name ="sref5">
+						Uudenmaan lääni: Uusimaa Henkikirja 1899
+						</a>
+						<ol id="citr">
+							<li id="sref5a">
+								<ul>
+									<li>
+									Page: U:168/1062
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Uudenmaan läänin henkikirjat - U:168 Henkikirja, 4.-5. kaupunginosa 1899-1899, jakso 340, sivu 1062: 81. Sparfven 35 Wladimirsg 52; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5643273160&amp;aineistoId=2108421413 / Viitattu 25.7.2022</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5643273160&amp;aineistoId=2108421413">https://astia.narc.fi/uusiastia/viewer/?fileId=5643273160&amp;aineistoId=2108421413</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">1062</span><br /><span style="font-family:'Courier New';">81. Sparfven &nbsp;35 &nbsp;Wladimirsg 52 &nbsp; &nbsp;[...]</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Sömmerskan Elin Maria Nordbeck. 77</span></p></div>
+									</li>
+									<li>
+									Research: <div class="grampsstylednote"><p>Sukunimi väärin Nordbeck kun po.Nordberg, mutta muut tiedot näyttäisi täsmäävän joten vaikuttaa olevan kirjoitusvirhe ja oikea henkilö</p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
 						<a href="../../../src/f/b/e181a4eca746e1aefa9429df6bf.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1901" name ="sref6">
 						Uudenmaan lääni: Uusimaa Henkikirja 1901
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref6a">
 								<ul>
 									<li>
@@ -1247,7 +1242,7 @@
 						<a href="../../../src/8/b/f16297db84267e379a93e909bb8.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1902" name ="sref7">
 						Uudenmaan lääni: Uusimaa Henkikirja 1902
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref7a">
 								<ul>
 									<li>
@@ -1273,7 +1268,7 @@
 						<a href="../../../src/a/7/e181ba08249788ad9b1bde1687a.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1903" name ="sref8">
 						Uudenmaan lääni: Uusimaa Henkikirja 1903
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref8a">
 								<ul>
 									<li>
@@ -1296,7 +1291,7 @@
 						<a href="../../../src/1/f/e181cef685f5e2e3c48e5e678f1.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1904" name ="sref9">
 						Uudenmaan lääni: Uusimaa Henkikirja 1904
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref9a">
 								<ul>
 									<li>
@@ -1319,7 +1314,7 @@
 						<a href="../../../src/6/c/d002fa78042096897c6.html" title="Helsingin jakamaton seurakunta: Helsinki Syntyneet 1885-1906" name ="sref10">
 						Helsingin jakamaton seurakunta: Helsinki Syntyneet 1885-1906
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref10a">
 								<ul>
 									<li>
@@ -1342,7 +1337,7 @@
 						<a href="../../../src/e/0/dcde071bb604b94ae4ef5894f0e.html" title="Tidnings- och Tryckeriaktiebolaget: Adressbok och yrkeskalender för Helsingfors" name ="sref11">
 						Tidnings- och Tryckeriaktiebolaget: Adressbok och yrkeskalender för Helsingfors
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref11a">
 								<ul>
 									<li>
@@ -1403,7 +1398,7 @@
 						<a href="../../../src/d/6/e1818be389d6ec01a54b6ee766d.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1907" name ="sref12">
 						Uudenmaan lääni: Uusimaa Henkikirja 1907
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref12a">
 								<ul>
 									<li>
@@ -1426,7 +1421,7 @@
 						<a href="../../../src/4/6/e1819659b836165c9f4f636d64.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1908" name ="sref13">
 						Uudenmaan lääni: Uusimaa Henkikirja 1908
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref13a">
 								<ul>
 									<li>
@@ -1449,7 +1444,7 @@
 						<a href="../../../src/f/2/f14522ab96e12293bee68ca5f2f.html" title="Hautakivi Nyström Malmi" name ="sref14">
 						Hautakivi Nyström Malmi
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref14a">
 								<ul>
 									<li>
@@ -1463,7 +1458,7 @@
 						<a href="../../../src/9/d/f14512880813e77217f42ad78d9.html" title="Hautahaku" name ="sref15">
 						Hautahaku
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref15a">
 								<ul>
 									<li>
@@ -1480,7 +1475,7 @@
 						<a href="../../../src/9/1/cdea76d18dc4cf3ac19.html" title="Hufvudstadsbladet" name ="sref16">
 						Hufvudstadsbladet
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref16a">
 								<ul>
 									<li>
@@ -1506,7 +1501,7 @@
 						<a href="../../../src/e/9/e824c6ca8f7600fae5ed7bfe79e.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1911" name ="sref17">
 						Uudenmaan lääni: Uusimaa Henkikirja 1911
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref17a">
 								<ul>
 									<li>
@@ -1529,7 +1524,7 @@
 						<a href="../../../src/d/7/e824c76d63063029e69dd4fcd7d.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1912" name ="sref18">
 						Uudenmaan lääni: Uusimaa Henkikirja 1912
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref18a">
 								<ul>
 									<li>
@@ -1552,7 +1547,7 @@
 						<a href="../../../src/9/b/e824c2d64de341418829e9eeb9.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1913" name ="sref19">
 						Uudenmaan lääni: Uusimaa Henkikirja 1913
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref19a">
 								<ul>
 									<li>
@@ -1575,7 +1570,7 @@
 						<a href="../../../src/4/3/e824bce3f1b4ac1c80202118134.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1914" name ="sref20">
 						Uudenmaan lääni: Uusimaa Henkikirja 1914
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref20a">
 								<ul>
 									<li>
@@ -1598,7 +1593,7 @@
 						<a href="../../../src/5/7/dce11b97c267f78788634f92175.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1915" name ="sref21">
 						Uudenmaan lääni: Uusimaa Henkikirja 1915
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref21a">
 								<ul>
 									<li>
@@ -1621,7 +1616,7 @@
 						<a href="../../../src/6/7/e824afb41187bd142c543e4a576.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1916" name ="sref22">
 						Uudenmaan lääni: Uusimaa Henkikirja 1916
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref22a">
 								<ul>
 									<li>
@@ -1644,7 +1639,7 @@
 						<a href="../../../src/d/8/e824b0bd38f250626a9b79a328d.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1917" name ="sref23">
 						Uudenmaan lääni: Uusimaa Henkikirja 1917
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref23a">
 								<ul>
 									<li>
@@ -1667,7 +1662,7 @@
 						<a href="../../../src/8/f/e187980ac952b12b9ebab94f0f8.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1918" name ="sref24">
 						Uudenmaan lääni: Uusimaa Henkikirja 1918
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref24a">
 								<ul>
 									<li>
@@ -1690,7 +1685,7 @@
 						<a href="../../../src/e/4/e824b23c86751e06c3388d8c74e.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1919" name ="sref25">
 						Uudenmaan lääni: Uusimaa Henkikirja 1919
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref25a">
 								<ul>
 									<li>
@@ -1713,7 +1708,7 @@
 						<a href="../../../src/7/c/e824b2efe1c236c92cc8837c1c7.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1920" name ="sref26">
 						Uudenmaan lääni: Uusimaa Henkikirja 1920
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref26a">
 								<ul>
 									<li>
@@ -1736,7 +1731,7 @@
 						<a href="../../../src/d/0/f7fb9b2629c323bb84e4f27740d.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1923" name ="sref27">
 						Uudenmaan lääni: Uusimaa Henkikirja 1923
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref27a">
 								<ul>
 									<li>
@@ -1764,7 +1759,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2022-07-26 01:15:54<br />Created for Entire Database
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2<br />Last change was the 2022-07-26 01:15:54<br />Created for Entire Database
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

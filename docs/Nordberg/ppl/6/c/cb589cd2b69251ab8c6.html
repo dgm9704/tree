@@ -1,27 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>Nordberg Family Tree - Nordberg, Edla Sofia</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
-	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">Nordberg Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">Nordberg Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li class = "CurrentSection"><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
 					<li><a href="../../../families.html" title="Families">Families</a></li>
@@ -29,13 +39,43 @@
 					<li><a href="../../../places.html" title="Places">Places</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="IndividualDetail">
 			<h3>Nordberg, Edla Sofia<sup><small></small></sup></h3>
 			<div id="summaryarea">
@@ -58,7 +98,7 @@
 			</div>
 			<div class="subsection" id="events">
 				<h4>Events</h4>
-				<table class="infolist eventlist">
+				<table class="infolist eventlist toggle_event ltr" id="toggle_event" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnEvent">Event</th>
@@ -70,7 +110,7 @@
 					</thead>
 					<tbody>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/1/a/cb589cd2b701e21e3a1.html" title="Birth">
 								Birth
 								</a>
@@ -86,9 +126,6 @@
 							 <a href="#sref1a">1a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -96,33 +133,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/3/5/db7ebd4bd314eb41b79beeaa953.html" title="Residence">
-								Residence
-								</a>
-							</td>
-							<td class="ColumnDate">from 1897 to 1898</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/e/3/db7ebcf83ae47c5be4ce38b223e.html" title="Seppä, Talola, Koski Tl, Suomi">
-								Seppä, Talola, Koski Tl, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref2a">2a</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/5/4/db7eb54464851799811e8cd4f45.html" title="Residence">
 								Residence
 								</a>
@@ -135,12 +146,9 @@
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref2b">2b</a>
+							 <a href="#sref2a">2a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -148,7 +156,49 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/3/5/db7ebd4bd314eb41b79beeaa953.html" title="Residence">
+								Residence
+								</a>
+							</td>
+							<td class="ColumnDate">from 1897 to 1898</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/e/3/db7ebcf83ae47c5be4ce38b223e.html" title="Seppä, Talola, Koski Tl, Suomi">
+								Seppä, Talola, Koski Tl, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref2b">2b</a>
+							</td>
+							<tr>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/3/2/f60f5bfcac55a847fea84dca223.html" title="Death">
+								Death
+								</a>
+							</td>
+							<td class="ColumnDate">1954-05-01</td>
+							<td class="ColumnPlace">&nbsp;</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref3a">3a</a> <a href="#sref4a">4a</a>
+							</td>
+							<tr>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/5/d/f60f19b2c02147ea672a3612ed5.html" title="Residence">
 								Residence
 								</a>
@@ -161,12 +211,9 @@
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref3a">3a</a>
+							 <a href="#sref5a">5a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -174,29 +221,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/3/2/f60f5bfcac55a847fea84dca223.html" title="Death">
-								Death
-								</a>
-							</td>
-							<td class="ColumnDate">1954-05-01</td>
-							<td class="ColumnPlace">&nbsp;</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref4a">4a</a> <a href="#sref5a">5a</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/e/0/f60f5c3091a71fa5b130d3ad30e.html" title="Burial">
 								Burial
 								</a>
@@ -209,12 +234,9 @@
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref4a">4a</a>
+							 <a href="#sref3a">3a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -226,7 +248,7 @@
 			</div>
 			<div class="subsection" id="parents">
 				<h4>Parents</h4>
-				<table class="infolist">
+				<table class="infolist toggle_parent ltr" id="toggle_parent" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnAttribute">Relation to main person</th>
@@ -299,7 +321,7 @@
 			</div>
 			<div class="subsection" id="families">
 				<h4>Families</h4>
-				<table class="infolist">
+				<table class="infolist" id="toggle_families" style="display:block">
 					<tr class="BeginFamily">
 						<td class="ColumnValue" colspan="3"><H4 class="subsection"><a href="../../../fam/7/3/cb589cd2b86404ed137.html" title="Family of Lindström, August Emil and Nordberg, Edla Sofia">Family of Lindström, August Emil and Nordberg, Edla Sofia</a></H4></td>
 					</tr>
@@ -317,9 +339,8 @@
 					</tr>
 					<tr>
 						<td class="ColumnType">&nbsp;</td>
-						<td class="ColumnAttribute">&nbsp;</td>
-						<td class="ColumnValue">
-							<table class="infolist eventlist">
+						<td class="ColumnValue" colspan="2">
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnEvent">Event</th>
@@ -331,7 +352,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/3/6/cb589cfdfe33d8fec63.html" title="Marriage">
 											Marriage
 											</a>
@@ -344,12 +365,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref2b">2b</a> <a href="#sref6a">6a</a> <a href="#sref7a">7a</a>
+										 <a href="#sref2a">2a</a> <a href="#sref6a">6a</a> <a href="#sref7a">7a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -357,7 +375,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/d/9/db7eb8cca0c311ee8c22d070d9d.html" title="Residence">
 											Residence
 											</a>
@@ -373,9 +391,6 @@
 										 <a href="#sref2c">2c</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -383,7 +398,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/f/7/f60bb54a4de3e888f4a4edd4c7f.html" title="Residence">
 											Residence
 											</a>
@@ -396,12 +411,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref3b">3b</a>
+										 <a href="#sref5b">5b</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -409,7 +421,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/0/4/f60bb609e186e00012ee97e4f40.html" title="Residence">
 											Residence
 											</a>
@@ -422,12 +434,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref3b">3b</a> <a href="#sref8a">8a</a> <a href="#sref9a">9a</a> <a href="#sref3a">3a</a>
+										 <a href="#sref5b">5b</a> <a href="#sref8a">8a</a> <a href="#sref9a">9a</a> <a href="#sref5a">5a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -438,10 +447,9 @@
 							</table>
 						</td>
 						<tr>
-							<td class="ColumnType">&nbsp;</td>
 							<td class="ColumnAttribute">Children</td>
-							<td class="ColumnValue" />
-							<table class="infolist eventlist">
+							<td class="ColumnValue Child" colspan="2" />
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnName">Name</th>
@@ -460,7 +468,7 @@
 			</div>
 			<div class="subsection" id="pedigree">
 				<h4>Pedigree</h4>
-				<ol class="pedigreegen">
+				<ol class="pedigreegen" id="toggle_pedigree" style="display:block">
 					<li>
 						<a href="../../../ppl/2/8/cb589ccf01316f48782.html">Nordberg, Adolf Alarik</a>
 						<ol>
@@ -509,133 +517,135 @@
 			</div>
 			<div class="subsection" id="tree">
 				<h4>Ancestors</h4>
-				<div id="treeContainer" style="width:1234px; height:825px; top: 0px">
-					<div class="boxbg female AncCol0" style="top: 417px; left: 6px;">
-						<a class="noThumb" href="../../../ppl/6/c/cb589cd2b69251ab8c6.html">
-						Nordberg, Edla Sofia<br/>*1881-12-11<br/>+1954-05-01
-						</a>
+				<div class="tree" id="toggle_anc" style="display:block">
+					<div id="treeContainer" style="width:1234px; height:825px; top: 0px">
+						<div class="boxbg female AncCol0" style="top: 417px; left: 6px;">
+							<a class="noThumb" href="../../../ppl/6/c/cb589cd2b69251ab8c6.html">
+							Nordberg, Edla Sofia<br>*1881-12-11<br>+1954-05-01
+							</a>
+						</div>
+						<div class="shadow" style="top: 422px; left: 10px;"></div>
+						<div class="bvline" style="top: 437px; left: 285px; width: 15px"></div>
+						<div class="gvline" style="top: 442px; left: 285px; width: 20px"></div>
+						<div class="boxbg male AncCol1" style="top: 230px; left: 316px;">
+							<a class="noThumb" href="../../../ppl/2/8/cb589ccf01316f48782.html">
+							Nordberg, Adolf Alarik<br>*1856-09-08<br>+1945-07-09
+							</a>
+						</div>
+						<div class="shadow" style="top: 235px; left: 320px;"></div>
+						<div class="bvline" style="top: 250px; left: 300px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 250px; left: 300px; height: 188px;"></div>
+					
+						<div class="bvline" style="top: 250px; left: 595px; width: 15px"></div>
+						<div class="gvline" style="top: 255px; left: 595px; width: 20px"></div>
+						<div class="boxbg male AncCol2" style="top: 80px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/6/2/cb589ccbd5f5a90ec26.html">
+							Nordberg, Adolf Fredrik<br>*1829-11-25<br>+1894-01-16
+							</a>
+						</div>
+						<div class="shadow" style="top: 85px; left: 630px;"></div>
+						<div class="bvline" style="top: 100px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 100px; left: 610px; height: 151px;"></div>
+					
+						<div class="bvline" style="top: 100px; left: 905px; width: 15px"></div>
+						<div class="gvline" style="top: 105px; left: 905px; width: 20px"></div>
+						<div class="boxbg male AncCol3" style="top: 5px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/2/b/cb589ccbc7f6a601fb2.html">
+							Nordberg, Johan Johansson<br>*1784-06-12<br>+1866-12-20
+							</a>
+						</div>
+						<div class="shadow" style="top: 10px; left: 940px;"></div>
+						<div class="bvline" style="top: 25px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 25px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol3" style="top: 155px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/2/3/cb589ccbcb82fdc1632.html">
+							, Hedwig Johansdotter<br>*1792-04-13<br>+1830-03-05
+							</a>
+						</div>
+						<div class="shadow" style="top: 160px; left: 940px;"></div>
+						<div class="bvline" style="top: 175px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 100px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol2" style="top: 380px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/8/7/cea11e992eb0f1ddc78.html">
+							Skogström, Maria Lovisa<br>*1823-10-01<br>+1892-07-01
+							</a>
+						</div>
+						<div class="shadow" style="top: 385px; left: 630px;"></div>
+						<div class="bvline" style="top: 400px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 250px; left: 610px; height: 151px;"></div>
+					
+						<div class="bvline" style="top: 400px; left: 905px; width: 15px"></div>
+						<div class="gvline" style="top: 405px; left: 905px; width: 20px"></div>
+						<div class="boxbg male AncCol3" style="top: 305px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/8/1/db77b6b5dbc11be4ec36fc84418.html">
+							Skogström, Israel<br>*1788-10-12<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 310px; left: 940px;"></div>
+						<div class="bvline" style="top: 325px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 325px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol3" style="top: 455px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/d/0/db77ba49bfe29468bb8bd729a0d.html">
+							, Maria Mattsdotter<br>*1789-02-16<br>+1841-07-14
+							</a>
+						</div>
+						<div class="shadow" style="top: 460px; left: 940px;"></div>
+						<div class="bvline" style="top: 475px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 400px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol1" style="top: 605px; left: 316px;">
+							<a class="noThumb" href="../../../ppl/7/0/cea0c6574c440277107.html">
+							Hagfors, Edla Johansdotter<br>*1855-02-12<br>+1925-06-05
+							</a>
+						</div>
+						<div class="shadow" style="top: 610px; left: 320px;"></div>
+						<div class="bvline" style="top: 625px; left: 300px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 437px; left: 300px; height: 188px;"></div>
+					
+						<div class="bvline" style="top: 625px; left: 595px; width: 15px"></div>
+						<div class="gvline" style="top: 630px; left: 595px; width: 20px"></div>
+						<div class="boxbg male AncCol2" style="top: 530px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/8/6/db77e45962130d2e335d852ad68.html">
+							Hagfors, Johan Michelsson<br>*1830-01-04<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 535px; left: 630px;"></div>
+						<div class="bvline" style="top: 550px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 550px; left: 610px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol2" style="top: 680px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/0/4/db77e4fe06e248239f48c501040.html">
+							, Anna Lisa Gustafsdotter<br>*1837-04-15<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 685px; left: 630px;"></div>
+						<div class="bvline" style="top: 700px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 625px; left: 610px; height: 76px;"></div>
+					
 					</div>
-					<div class="shadow" style="top: 422px; left: 10px;"></div>
-					<div class="bvline" style="top: 437px; left: 285px; width: 15px"></div>
-					<div class="gvline" style="top: 442px; left: 285px; width: 20px"></div>
-					<div class="boxbg male AncCol1" style="top: 230px; left: 316px;">
-						<a class="noThumb" href="../../../ppl/2/8/cb589ccf01316f48782.html">
-						Nordberg, Adolf Alarik<br/>*1856-09-08<br/>+1945-07-09
-						</a>
-					</div>
-					<div class="shadow" style="top: 235px; left: 320px;"></div>
-					<div class="bvline" style="top: 250px; left: 300px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 250px; left: 300px; height: 188px;"></div>
-				
-					<div class="bvline" style="top: 250px; left: 595px; width: 15px"></div>
-					<div class="gvline" style="top: 255px; left: 595px; width: 20px"></div>
-					<div class="boxbg male AncCol2" style="top: 80px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/6/2/cb589ccbd5f5a90ec26.html">
-						Nordberg, Adolf Fredrik<br/>*1829-11-25<br/>+1894-01-16
-						</a>
-					</div>
-					<div class="shadow" style="top: 85px; left: 630px;"></div>
-					<div class="bvline" style="top: 100px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 100px; left: 610px; height: 151px;"></div>
-				
-					<div class="bvline" style="top: 100px; left: 905px; width: 15px"></div>
-					<div class="gvline" style="top: 105px; left: 905px; width: 20px"></div>
-					<div class="boxbg male AncCol3" style="top: 5px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/2/b/cb589ccbc7f6a601fb2.html">
-						Nordberg, Johan Johansson<br/>*1784-06-12<br/>+1866-12-20
-						</a>
-					</div>
-					<div class="shadow" style="top: 10px; left: 940px;"></div>
-					<div class="bvline" style="top: 25px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 25px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol3" style="top: 155px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/2/3/cb589ccbcb82fdc1632.html">
-						, Hedwig Johansdotter<br/>*1792-04-13<br/>+1830-03-05
-						</a>
-					</div>
-					<div class="shadow" style="top: 160px; left: 940px;"></div>
-					<div class="bvline" style="top: 175px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 100px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol2" style="top: 380px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/8/7/cea11e992eb0f1ddc78.html">
-						Skogström, Maria Lovisa<br/>*1823-10-01<br/>+1892-07-01
-						</a>
-					</div>
-					<div class="shadow" style="top: 385px; left: 630px;"></div>
-					<div class="bvline" style="top: 400px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 250px; left: 610px; height: 151px;"></div>
-				
-					<div class="bvline" style="top: 400px; left: 905px; width: 15px"></div>
-					<div class="gvline" style="top: 405px; left: 905px; width: 20px"></div>
-					<div class="boxbg male AncCol3" style="top: 305px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/8/1/db77b6b5dbc11be4ec36fc84418.html">
-						Skogström, Israel<br/>*1788-10-12<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 310px; left: 940px;"></div>
-					<div class="bvline" style="top: 325px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 325px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol3" style="top: 455px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/d/0/db77ba49bfe29468bb8bd729a0d.html">
-						, Maria Mattsdotter<br/>*1789-02-16<br/>+1841-07-14
-						</a>
-					</div>
-					<div class="shadow" style="top: 460px; left: 940px;"></div>
-					<div class="bvline" style="top: 475px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 400px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol1" style="top: 605px; left: 316px;">
-						<a class="noThumb" href="../../../ppl/7/0/cea0c6574c440277107.html">
-						Hagfors, Edla Johansdotter<br/>*1855-02-12<br/>+1925-06-05
-						</a>
-					</div>
-					<div class="shadow" style="top: 610px; left: 320px;"></div>
-					<div class="bvline" style="top: 625px; left: 300px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 437px; left: 300px; height: 188px;"></div>
-				
-					<div class="bvline" style="top: 625px; left: 595px; width: 15px"></div>
-					<div class="gvline" style="top: 630px; left: 595px; width: 20px"></div>
-					<div class="boxbg male AncCol2" style="top: 530px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/8/6/db77e45962130d2e335d852ad68.html">
-						Hagfors, Johan Michelsson<br/>*1830-01-04<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 535px; left: 630px;"></div>
-					<div class="bvline" style="top: 550px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 550px; left: 610px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol2" style="top: 680px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/0/4/db77e4fe06e248239f48c501040.html">
-						, Anna Lisa Gustafsdotter<br/>*1837-04-15<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 685px; left: 630px;"></div>
-					<div class="bvline" style="top: 700px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 625px; left: 610px; height: 76px;"></div>
-				
 				</div>
 			</div>
 			<div class="subsection" id="sourcerefs">
 				<h4>Source References</h4>
-				<ol>
+				<ol id="srcr">
 					<li>
 						<a href="../../../src/e/b/ce9aa07c336328b8bbe.html" title="Someron seurakunta: Somero Syntyneet 1865-1884" name ="sref1">
 						Someron seurakunta: Somero Syntyneet 1865-1884
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref1a">
 								<ul>
 									<li>
@@ -652,18 +662,8 @@
 						<a href="../../../src/2/6/db7eb1bca92b0340fc48a10c62.html" title="Kosken Tl seurakunta: Koski Tl Rippikirja 1897-1906" name ="sref2">
 						Kosken Tl seurakunta: Koski Tl Rippikirja 1897-1906
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref2a">
-								<ul>
-									<li>
-									Page: I/548
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=13644&amp;pnum=93">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=13644&amp;pnum=93</a></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref2b">
 								<ul>
 									<li>
 									Page: 331
@@ -673,6 +673,16 @@
 									</li>
 									<li>
 									Link: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=13643&amp;pnum=291">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=13643&amp;pnum=291</a></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref2b">
+								<ul>
+									<li>
+									Page: I/548
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=13644&amp;pnum=93">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=13644&amp;pnum=93</a></p></div>
 									</li>
 								</ul>
 							</li>
@@ -692,11 +702,45 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/7/3/f360f9af38f7e835c3e96212437.html" title="Koski TL seurakunta: Koski TL Rippikirja 1907-1916" name ="sref3">
+						<a href="../../../src/9/3/f60f5619bfe1b829bd4b3701d39.html" title="Hautakivi Saari/Nordberg/Salo Koski TL" name ="sref3">
+						Hautakivi Saari/Nordberg/Salo Koski TL
+						</a>
+						<ol id="citr">
+							<li id="sref3a">
+								<ul>
+									<li>
+									Page: SALO EDLA SOFIA
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../src/5/7/f60f6c65d05683febf5a1c24875.html" title="Kansaneläkelaitos: Vuosina 1952-1954 kuolleiden yli-ikäisten henkilöiden hakemistokortit" name ="sref4">
+						Kansaneläkelaitos: Vuosina 1952-1954 kuolleiden yli-ikäisten henkilöiden hakemistokortit
+						</a>
+						<ol id="citr">
+							<li id="sref4a">
+								<ul>
+									<li>
+									Page: Tiedosto 473
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Kansaneläkelaitoksen henkilökortit -arkisto. Bg Vuosina 1952-1954 kuolleiden yli-ikäisten henkilöiden hakemistokortit. 15_7 Vuosina 1952-1954 kuolleiden yli-ikäisten henkilöiden hakemistokortit, Saarinen, Eriika - Siro, Kalle  (--). Tiedosto 473. Kansallisarkisto. Viitattu 1.8.2023.</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p>https://astia.narc.fi/uusiastia/viewer/?fileId=4507399641&amp;aineistoId=1050686381</p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../src/7/3/f360f9af38f7e835c3e96212437.html" title="Koski TL seurakunta: Koski TL Rippikirja 1907-1916" name ="sref5">
 						Koski TL seurakunta: Koski TL Rippikirja 1907-1916
 						</a>
-						<ol>
-							<li id="sref3a">
+						<ol id="citr">
+							<li id="sref5a">
 								<ul>
 									<li>
 									Page: Aa:22/536
@@ -712,7 +756,7 @@
 									</li>
 								</ul>
 							</li>
-							<li id="sref3b">
+							<li id="sref5b">
 								<ul>
 									<li>
 									Page: Aa:22/698
@@ -731,44 +775,10 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/9/3/f60f5619bfe1b829bd4b3701d39.html" title="Hautakivi Saari/Nordberg/Salo Koski TL" name ="sref4">
-						Hautakivi Saari/Nordberg/Salo Koski TL
-						</a>
-						<ol>
-							<li id="sref4a">
-								<ul>
-									<li>
-									Page: SALO EDLA SOFIA
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
-						<a href="../../../src/5/7/f60f6c65d05683febf5a1c24875.html" title="Kansaneläkelaitos: Vuosina 1952-1954 kuolleiden yli-ikäisten henkilöiden hakemistokortit" name ="sref5">
-						Kansaneläkelaitos: Vuosina 1952-1954 kuolleiden yli-ikäisten henkilöiden hakemistokortit
-						</a>
-						<ol>
-							<li id="sref5a">
-								<ul>
-									<li>
-									Page: Tiedosto 473
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Kansaneläkelaitoksen henkilökortit -arkisto. Bg Vuosina 1952-1954 kuolleiden yli-ikäisten henkilöiden hakemistokortit. 15_7 Vuosina 1952-1954 kuolleiden yli-ikäisten henkilöiden hakemistokortit, Saarinen, Eriika - Siro, Kalle  (--). Tiedosto 473. Kansallisarkisto. Viitattu 1.8.2023.</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p>https://astia.narc.fi/uusiastia/viewer/?fileId=4507399641&amp;aineistoId=1050686381</p></div>
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
 						<a href="../../../src/3/6/db7ecaf4bff288c729da0672f63.html" title="Kosken Tl seurakunta: Koski Tl Kuulutetut 1886-1909" name ="sref6">
 						Kosken Tl seurakunta: Koski Tl Kuulutetut 1886-1909
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref6a">
 								<ul>
 									<li>
@@ -788,7 +798,7 @@
 						<a href="../../../src/9/2/db7eb6802ff3dac643e21eaa829.html" title="Kosken Tl seurakunta: Koski Tl Vihityt 1895-1905" name ="sref7">
 						Kosken Tl seurakunta: Koski Tl Vihityt 1895-1905
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref7a">
 								<ul>
 									<li>
@@ -811,7 +821,7 @@
 						<a href="../../../src/e/1/f60bb90ef48379140114b6a7f1e.html" title="Rymättylä seurakunta: Rymättylä Muuttaneet 1899-1908" name ="sref8">
 						Rymättylä seurakunta: Rymättylä Muuttaneet 1899-1908
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref8a">
 								<ul>
 									<li>
@@ -834,7 +844,7 @@
 						<a href="../../../src/2/6/f60bbc3bf6b4839fe9a30b35562.html" title="Rymättylän seurakunta: Rymättylä Rippikirja 1908-1917" name ="sref9">
 						Rymättylän seurakunta: Rymättylä Rippikirja 1908-1917
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref9a">
 								<ul>
 									<li>
@@ -859,7 +869,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2023-08-01 20:37:30<br />Created for Entire Database
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2<br />Last change was the 2023-08-01 20:37:30<br />Created for Entire Database
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

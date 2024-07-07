@@ -1,26 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>Nordberg Family Tree - Sources - Porvoo msrk Rippikirja 1890-1899</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">Nordberg Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">Nordberg Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
 					<li><a href="../../../families.html" title="Families">Families</a></li>
@@ -28,16 +39,46 @@
 					<li><a href="../../../places.html" title="Places">Places</a></li>
 					<li class = "CurrentSection"><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="SourceDetail">
 			<h3>Porvoo msrk Rippikirja 1890-1899</h3>
-			<table class="infolist source">
+			<table class="infolist source ltr">
 				<tbody>
 					<tr>
 						<td class="ColumnAttribute">Author</td>
@@ -47,7 +88,7 @@
 			</table>
 			<div class="subsection" id="repositories">
 				<h4>Repositories</h4>
-				<table class="infolist">
+				<table class="infolist ltr">
 					<thead>
 						<tr>
 							<th class="ColumnRowLabel">Number</th>
@@ -78,77 +119,11 @@
 				<h4>References</h4>
 				<ol class="Col1" role="Volume-n-Page" type=1>
 					<li>
-					Aa:29/405
-						<ol class="Col1" role="Volume-n-Page" type=a>
-							<li>
-								<a href="../../../evt/3/d/cb589cd8465635cc5d3.html">
-								Death, Nordberg, Anders Herman
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../ppl/3/7/cea5b4fb1ec1ea14873.html">
-								Kullström, Maria Lovisa
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../ppl/a/f/cb589cd84543096b0fa.html">
-								Nordberg, Anders Herman
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/4/4/cf9325abe2a17a0c844.html">
-								Residence, Family of Nordberg, Anders Herman and Kullström, Maria Lovisa
-								
-								
-								</a>
-							</li>
-						</ol>
-					</li>
-					<li>
-					Aa:29/10
-						<ol class="Col1" role="Volume-n-Page" type=a>
-							<li>
-								<a href="../../../ppl/c/9/cb589ccef9a28b5839c.html">
-								Nordberg, Maria Lovisa
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/b/7/f7ff41c75de3d9340c10b52817b.html">
-								Residence, Family of Nikander, Gustaf Adolf and Nordberg, Maria Lovisa
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../ppl/b/7/cf967d1e0d6235c137b.html">
-								Nikander, Gustaf Adolf
-								
-								
-								</a>
-							</li>
-						</ol>
-					</li>
-					<li>
-					Aa:28/11
+					Aa:29/415
 						<ol class="Col1" role="Volume-n-Page" type=a>
 							<li>
 								<a href="../../../ppl/2/8/cea5b5f465a781c6e82.html">
 								, Mathilda Andersdotter
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/8/1/f35eedb70ff2ad8f5c20dcc1218.html">
-								Residence, Family of Nordberg, Anders Wilhelm and , Mathilda Andersdotter
 								
 								
 								</a>
@@ -160,35 +135,70 @@
 								
 								</a>
 							</li>
+							<li>
+								<a href="../../../evt/5/4/f35eec00ee145c75a9411e50745.html">
+								Residence, Nordberg, Anders Wilhelm
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../evt/8/8/cb589cfd43c6ceac588.html">
+								Marriage, Family of Nordberg, Anders Wilhelm and , Mathilda Andersdotter
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../evt/b/a/f35eec8e7374ae0f4be5d7e2aab.html">
+								Residence, Family of Nordberg, Anders Wilhelm and , Mathilda Andersdotter
+								
+								
+								</a>
+							</li>
 						</ol>
 					</li>
 					<li>
-					Aa:29/413
+					Aa:29/400
 						<ol class="Col1" role="Volume-n-Page" type=a>
 							<li>
-								<a href="../../../evt/d/0/f35ee888ce03630d4c3ebe3fa0d.html">
-								Residence, Family of Kullström, Johan Emil and Weckström, Engla Maria
+								<a href="../../../evt/5/3/f800bbda4a17205af9063c6c635.html">
+								Residence, Nikander, Gustaf Adolf
 								
 								
 								</a>
 							</li>
 							<li>
-								<a href="../../../ppl/1/8/f35ee788778b07c790af6ea781.html">
-								Weckström, Engla Maria
+								<a href="../../../ppl/b/7/cf967d1e0d6235c137b.html">
+								Nikander, Gustaf Adolf
 								
 								
 								</a>
 							</li>
 							<li>
-								<a href="../../../ppl/3/6/cb589cdf2c575168263.html">
-								Kullström, Johan Emil
+								<a href="../../../evt/f/4/f7ff3e44f1c557ff8ae0b75554f.html">
+								Residence, Family of Nikander, Gustaf Adolf and Nordberg, Maria Lovisa
 								
 								
 								</a>
 							</li>
 							<li>
-								<a href="../../../evt/6/e/f35ee7febc7102aa332b74421e6.html">
-								Birth, Weckström, Engla Maria
+								<a href="../../../evt/b/2/f808e9c9102507b36db9faaf42b.html">
+								Death, Enqvist, Wilhelmina Elisabeth
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../evt/b/d/f808ebfd0466b0098a8bbafa8db.html">
+								Marriage, Family of Nikander, Gustaf Adolf and Enqvist, Wilhelmina Elisabeth
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/f/b/f808e7bc5c139cf528b5f2df2bf.html">
+								Enqvist, Wilhelmina Elisabeth
 								
 								
 								</a>
@@ -200,79 +210,11 @@
 								
 								</a>
 							</li>
-							<li>
-								<a href="../../../evt/b/3/f35ee6c9ea26014a862b979033b.html">
-								Residence, Kullström, Johan Johansson
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/9/3/cb589d00e29187acf39.html">
-								Marriage, Family of Kullström, Johan Emil and Weckström, Engla Maria
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/4/9/f35ee74cdfd130e95d5d200ec94.html">
-								Residence, Kullström, Johan Emil
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../ppl/6/0/cea5cc5c27f6ece3606.html">
-								Kullström, Johan Johansson
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/9/7/f35ee525966346387c8317e0e79.html">
-								Residence, Nordberg, Maria Lovisa
-								
-								
-								</a>
-							</li>
 						</ol>
 					</li>
 					<li>
-					Aa:29/568
+					Aa:30/1318
 						<ol class="Col1" role="Volume-n-Page" type=a>
-							<li>
-								<a href="../../../ppl/1/4/f37c0ff34c53ba0b8598e359341.html">
-								Winqvist, Hulda Maria
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/b/8/f37c10d718b2857b8d31a63918b.html">
-								Birth, Winqvist, Hulda Maria
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/6/4/f37c11a79884fbcaa1f153de246.html">
-								Residence, Winqvist, Hulda Maria
-								
-								
-								</a>
-							</li>
-						</ol>
-					</li>
-					<li>
-					Aa:29/407
-						<ol class="Col1" role="Volume-n-Page" type=a>
-							<li>
-								<a href="../../../evt/0/c/cb589d00e801c5767c0.html">
-								Marriage, Family of Nordberg, Anders Herman Andersson and Winqvist, Hulda Maria
-								
-								
-								</a>
-							</li>
 							<li>
 								<a href="../../../ppl/1/2/cb589cdf4a353d7b321.html">
 								Nordberg, Anders Herman Andersson
@@ -288,8 +230,152 @@
 								</a>
 							</li>
 							<li>
+								<a href="../../../evt/0/5/f37c19bc7cc43c6131fd963e350.html">
+								Residence, Family of Nordberg, Anders Herman Andersson and Winqvist, Hulda Maria
+								
+								
+								</a>
+							</li>
+						</ol>
+					</li>
+					<li>
+					Aa:29/407
+						<ol class="Col1" role="Volume-n-Page" type=a>
+							<li>
+								<a href="../../../ppl/1/2/cb589cdf4a353d7b321.html">
+								Nordberg, Anders Herman Andersson
+								
+								
+								</a>
+							</li>
+							<li>
 								<a href="../../../evt/b/4/f37c154ffd472950da391a13b4b.html">
 								Residence, Family of Nordberg, Anders Herman Andersson and Winqvist, Hulda Maria
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../evt/0/c/cb589d00e801c5767c0.html">
+								Marriage, Family of Nordberg, Anders Herman Andersson and Winqvist, Hulda Maria
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/1/4/f37c0ff34c53ba0b8598e359341.html">
+								Winqvist, Hulda Maria
+								
+								
+								</a>
+							</li>
+						</ol>
+					</li>
+					<li>
+					Aa:29/568
+						<ol class="Col1" role="Volume-n-Page" type=a>
+							<li>
+								<a href="../../../evt/6/4/f37c11a79884fbcaa1f153de246.html">
+								Residence, Winqvist, Hulda Maria
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../evt/b/8/f37c10d718b2857b8d31a63918b.html">
+								Birth, Winqvist, Hulda Maria
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/1/4/f37c0ff34c53ba0b8598e359341.html">
+								Winqvist, Hulda Maria
+								
+								
+								</a>
+							</li>
+						</ol>
+					</li>
+					<li>
+					Aa:28/11
+						<ol class="Col1" role="Volume-n-Page" type=a>
+							<li>
+								<a href="../../../evt/8/1/f35eedb70ff2ad8f5c20dcc1218.html">
+								Residence, Family of Nordberg, Anders Wilhelm and , Mathilda Andersdotter
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/2/8/cea5b5f465a781c6e82.html">
+								, Mathilda Andersdotter
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/e/1/cb589ccefbf505bde1e.html">
+								Nordberg, Anders Wilhelm
+								
+								
+								</a>
+							</li>
+						</ol>
+					</li>
+					<li>
+					Aa:29/10
+						<ol class="Col1" role="Volume-n-Page" type=a>
+							<li>
+								<a href="../../../evt/b/7/f7ff41c75de3d9340c10b52817b.html">
+								Residence, Family of Nikander, Gustaf Adolf and Nordberg, Maria Lovisa
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/b/7/cf967d1e0d6235c137b.html">
+								Nikander, Gustaf Adolf
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/c/9/cb589ccef9a28b5839c.html">
+								Nordberg, Maria Lovisa
+								
+								
+								</a>
+							</li>
+						</ol>
+					</li>
+					<li>
+					Aa:29/405
+						<ol class="Col1" role="Volume-n-Page" type=a>
+							<li>
+								<a href="../../../evt/4/4/cf9325abe2a17a0c844.html">
+								Residence, Family of Nordberg, Anders Herman and Kullström, Maria Lovisa
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/a/f/cb589cd84543096b0fa.html">
+								Nordberg, Anders Herman
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/3/7/cea5b4fb1ec1ea14873.html">
+								Kullström, Maria Lovisa
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../evt/3/d/cb589cd8465635cc5d3.html">
+								Death, Nordberg, Anders Herman
 								
 								
 								</a>
@@ -309,6 +395,81 @@
 							<li>
 								<a href="../../../evt/4/b/f37c13634f158c23c01347c7cb4.html">
 								Residence, Winqvist, Hulda Maria
+								
+								
+								</a>
+							</li>
+						</ol>
+					</li>
+					<li>
+					Aa:29/413
+						<ol class="Col1" role="Volume-n-Page" type=a>
+							<li>
+								<a href="../../../ppl/1/8/f35ee788778b07c790af6ea781.html">
+								Weckström, Engla Maria
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../evt/6/e/f35ee7febc7102aa332b74421e6.html">
+								Birth, Weckström, Engla Maria
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../evt/4/9/f35ee74cdfd130e95d5d200ec94.html">
+								Residence, Kullström, Johan Emil
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../evt/b/3/f35ee6c9ea26014a862b979033b.html">
+								Residence, Kullström, Johan Johansson
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../evt/9/3/cb589d00e29187acf39.html">
+								Marriage, Family of Kullström, Johan Emil and Weckström, Engla Maria
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/6/0/cea5cc5c27f6ece3606.html">
+								Kullström, Johan Johansson
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/3/6/cb589cdf2c575168263.html">
+								Kullström, Johan Emil
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../evt/d/0/f35ee888ce03630d4c3ebe3fa0d.html">
+								Residence, Family of Kullström, Johan Emil and Weckström, Engla Maria
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../evt/9/7/f35ee525966346387c8317e0e79.html">
+								Residence, Nordberg, Maria Lovisa
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/c/9/cb589ccef9a28b5839c.html">
+								Nordberg, Maria Lovisa
 								
 								
 								</a>
@@ -341,133 +502,13 @@
 							</li>
 						</ol>
 					</li>
-					<li>
-					Aa:29/415
-						<ol class="Col1" role="Volume-n-Page" type=a>
-							<li>
-								<a href="../../../ppl/2/8/cea5b5f465a781c6e82.html">
-								, Mathilda Andersdotter
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/5/4/f35eec00ee145c75a9411e50745.html">
-								Residence, Nordberg, Anders Wilhelm
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../ppl/e/1/cb589ccefbf505bde1e.html">
-								Nordberg, Anders Wilhelm
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/b/a/f35eec8e7374ae0f4be5d7e2aab.html">
-								Residence, Family of Nordberg, Anders Wilhelm and , Mathilda Andersdotter
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/8/8/cb589cfd43c6ceac588.html">
-								Marriage, Family of Nordberg, Anders Wilhelm and , Mathilda Andersdotter
-								
-								
-								</a>
-							</li>
-						</ol>
-					</li>
-					<li>
-					Aa:30/1318
-						<ol class="Col1" role="Volume-n-Page" type=a>
-							<li>
-								<a href="../../../evt/0/5/f37c19bc7cc43c6131fd963e350.html">
-								Residence, Family of Nordberg, Anders Herman Andersson and Winqvist, Hulda Maria
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../ppl/1/4/f37c0ff34c53ba0b8598e359341.html">
-								Winqvist, Hulda Maria
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../ppl/1/2/cb589cdf4a353d7b321.html">
-								Nordberg, Anders Herman Andersson
-								
-								
-								</a>
-							</li>
-						</ol>
-					</li>
-					<li>
-					Aa:29/400
-						<ol class="Col1" role="Volume-n-Page" type=a>
-							<li>
-								<a href="../../../ppl/c/9/cb589ccef9a28b5839c.html">
-								Nordberg, Maria Lovisa
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/b/d/f808ebfd0466b0098a8bbafa8db.html">
-								Marriage, Family of Nikander, Gustaf Adolf and Enqvist, Wilhelmina Elisabeth
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/5/3/f800bbda4a17205af9063c6c635.html">
-								Residence, Nikander, Gustaf Adolf
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../ppl/b/7/cf967d1e0d6235c137b.html">
-								Nikander, Gustaf Adolf
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/f/4/f7ff3e44f1c557ff8ae0b75554f.html">
-								Residence, Family of Nikander, Gustaf Adolf and Nordberg, Maria Lovisa
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../ppl/f/b/f808e7bc5c139cf528b5f2df2bf.html">
-								Enqvist, Wilhelmina Elisabeth
-								
-								
-								</a>
-							</li>
-							<li>
-								<a href="../../../evt/b/2/f808e9c9102507b36db9faaf42b.html">
-								Death, Enqvist, Wilhelmina Elisabeth
-								
-								
-								</a>
-							</li>
-						</ol>
-					</li>
 				</ol>
 			</div>
 		</div>
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6 on 2024-02-11<br />Created for Entire Database
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2 on 2024-07-07<br />Created for Entire Database
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

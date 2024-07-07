@@ -1,26 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>Nordberg Family Tree - Places</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
 </head>
-<body  onload = "initialize();" >
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">Nordberg Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">Nordberg Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
 					<li><a href="../../../families.html" title="Families">Families</a></li>
@@ -28,13 +39,43 @@
 					<li class = "CurrentSection"><a href="../../../places.html" title="Places">Places</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="PlaceDetail">
 			<h3>Suomi</h3>
 			<div id="summaryarea">
@@ -76,235 +117,229 @@
 							<th class="ColumnAttribute">Place Encloses</th>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/8/1/cdf82ee48671ea8ed18.html" title="Borgnäs">Borgnäs</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/2/7/f160982616a675a7a46d09d1772.html" title="1:sta Nylands finska skarpskyttebataljon">1:sta Nylands finska skarpskyttebataljon</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/e/2/cb589cc912732a4072e.html" title="Tusby">Tusby</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/a/e/db8ace7dd09700bc3d761127eea.html" title="Askola">Askola</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/8/4/cb589cc919979dd6148.html" title="Karkkila">Karkkila</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/8/1/cdf82ee48671ea8ed18.html" title="Borgnäs">Borgnäs</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/c/1/cb589cc83b65110951c.html" title="Ekenäs">Ekenäs</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/c/0/cb589cc90f055fc9f0c.html" title="Borgå">Borgå</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/d/7/cea13a5ae3a027e847d.html" title="Tenala">Tenala</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/d/3/cea12af8565247eda3d.html" title="Bromarf">Bromarf</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/d/3/cea12af8565247eda3d.html" title="Bromarf">Bromarf</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/c/1/cb589cc83b65110951c.html" title="Ekenäs">Ekenäs</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/0/a/cea1539e33861a5d8a0.html" title="Snappertuna">Snappertuna</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/0/c/cf99bf0f22527758ac0.html" title="Esbo">Esbo</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/9/4/cb589cef1d8652e7749.html" title="Hangö">Hangö</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/1/a/cf837c53e4575bb30a1.html" title="Eura">Eura</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/7/a/cea1e69c08f6de1a8a7.html" title="Padva skatte">Padva skatte</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/5/1/cf83a4e2b910d20a115.html" title="Eurajoki">Eurajoki</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/7/0/cb589cc805307692607.html" title="Rautalampi">Rautalampi</a></td>
+							<td class="ColumnPlace">Finby</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/8/c/cea12a3218232cd56c8.html" title="Pielavesi">Pielavesi</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/9/4/cb589cef1d8652e7749.html" title="Hangö">Hangö</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/2/e/cea1516fa6e476172e2.html" title="Kymi">Kymi</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/3/a/df22e6116a335ab53fa35f1b8a3.html" title="Hanko">Hanko</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/f/2/d48dad008a97d3eb02c5ce89e2f.html" title="Viipurin msrk">Viipurin msrk</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/4/a/d486cc4c67cb1e6b9b970daba4.html" title="Hausjärvi">Hausjärvi</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/9/5/cb589cc922f7c0aaf59.html" title="Mariefors">Mariefors</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/f/6/cde645849100ef0456f.html" title="Helsinge">Helsinge</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/2/9/ce8221b72cd07b47c92.html" title="Nurmijärvi">Nurmijärvi</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/5/5/cb589cc7f8d1b88b055.html" title="Helsinki">Helsinki</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/3/a/cea11f0929a42eefca3.html" title="Sibbo">Sibbo</a></td>
+							<td class="ColumnPlace">Ingå</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/a/7/ce9a9fdc1a3005f117a.html" title="Somero">Somero</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/7/a/cf9699fdd2e34c0b9a7.html" title="Janakkala">Janakkala</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/e/1/cea0ca2bfb32dc3411e.html" title="Koski Tl">Koski Tl</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/1/e/f7c17084d3c6c64ff20a22b82e1.html" title="Joensuu">Joensuu</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/1/a/cf837c53e4575bb30a1.html" title="Eura">Eura</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/f/7/f7cbec568d97f5dc568d5947e7f.html" title="Kaarina">Kaarina</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/5/1/cf83a4e2b910d20a115.html" title="Eurajoki">Eurajoki</a></td>
+							<td class="ColumnPlace">Karis</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/b/c/cf966ba1f1e3c8291cb.html" title="Pedersöre">Pedersöre</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/8/4/cb589cc919979dd6148.html" title="Karkkila">Karkkila</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/b/c/cf967eae50849409ccb.html" title="Pusula">Pusula</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/6/4/ceac13124233c5cf246.html" title="Karttula">Karttula</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/6/3/cea1d382fcb2a203436.html" title="Loppi">Loppi</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/c/f/db77f3f5481706e608d94d806fc.html" title="Kiikala">Kiikala</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/7/a/cf9699fdd2e34c0b9a7.html" title="Janakkala">Janakkala</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/5/6/e82478dea7034bf7ec557d7af65.html" title="Kirkkonummi">Kirkkonummi</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/0/c/cf99bf0f22527758ac0.html" title="Esbo">Esbo</a></td>
+							<td class="ColumnPlace">Kiukainen</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/f/6/cde645849100ef0456f.html" title="Helsinge">Helsinge</a></td>
+							<td class="ColumnPlace">Koivisto</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/4/a/d486cc4c67cb1e6b9b970daba4.html" title="Hausjärvi">Hausjärvi</a></td>
+							<td class="ColumnPlace">Korpo</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/7/a/d4878f85dc1547a405d1a9fbaa7.html" title="Räisälä">Räisälä</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/5/e/df54ac32203562c78c6743ea8e5.html" title="Koski HL">Koski HL</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/d/e/ceac01189c916d9d2ed.html" title="Pojo">Pojo</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/e/1/cea0ca2bfb32dc3411e.html" title="Koski Tl">Koski Tl</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/c/f/db77f3f5481706e608d94d806fc.html" title="Kiikala">Kiikala</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/2/e/cea1516fa6e476172e2.html" title="Kymi">Kymi</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/0/f/db7eb4399254b6ae8165ebeccf0.html" title="Marttila">Marttila</a></td>
+							<td class="ColumnPlace">Lahti</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/1/1/cea11e7c672589a5611.html" title="Mäntsälä">Mäntsälä</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/d/e/cf839fb0439353938ed.html" title="Lappi">Lappi</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/a/e/db8ace7dd09700bc3d761127eea.html" title="Askola">Askola</a></td>
+							<td class="ColumnPlace">Liljendal</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/8/1/d9572f436b744cb0b8d5aa03818.html" title="Vesanto">Vesanto</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/6/4/ceac1478b0919bf2446.html" title="Lojo">Lojo</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/3/a/df22e6116a335ab53fa35f1b8a3.html" title="Hanko">Hanko</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/6/3/cea1d382fcb2a203436.html" title="Loppi">Loppi</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/d/e/cf839fb0439353938ed.html" title="Lappi">Lappi</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/6/3/f7cefe98d1a7b52ed23da3e9836.html" title="Maaria">Maaria</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/6/4/ceac13124233c5cf246.html" title="Karttula">Karttula</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/9/5/cb589cc922f7c0aaf59.html" title="Mariefors">Mariefors</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/e/e/df4d632a2bd25eab6ab33588eee.html" title="Pyhäjärvi">Pyhäjärvi</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/0/f/db7eb4399254b6ae8165ebeccf0.html" title="Marttila">Marttila</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/5/e/df54ac32203562c78c6743ea8e5.html" title="Koski HL">Koski HL</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/1/1/cea11e7c672589a5611.html" title="Mäntsälä">Mäntsälä</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/0/b/d89f6013d8242e7cd32ea5d48b0.html" title="Vihti">Vihti</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/f/8/cf967cc75d96b616c8f.html" title="Nummi">Nummi</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/2/7/f160982616a675a7a46d09d1772.html" title="1:sta Nylands finska skarpskyttebataljon">1:sta Nylands finska skarpskyttebataljon</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/2/9/ce8221b72cd07b47c92.html" title="Nurmijärvi">Nurmijärvi</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/f/7/f7cbec568d97f5dc568d5947e7f.html" title="Kaarina">Kaarina</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/7/a/cea1e69c08f6de1a8a7.html" title="Padva skatte">Padva skatte</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/7/9/f150ce5da0e5fb2c645f3198397.html" title="Perno">Perno</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/b/c/cf966ba1f1e3c8291cb.html" title="Pedersöre">Pedersöre</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">Sääminki</td>
+							<td class="ColumnPlace"><a href="../../../plc/7/9/f150ce5da0e5fb2c645f3198397.html" title="Perno">Perno</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/0/0/f608adbe1bd20932549c7eb8300.html" title="Riihimäki">Riihimäki</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/8/c/cea12a3218232cd56c8.html" title="Pielavesi">Pielavesi</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/2/0/f60bb5cb5d34ac4a9ad3d28be02.html" title="Rymättylä">Rymättylä</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/7/c/f7ce6dcf8a048ca3a431a4f1bc7.html" title="Piikkiö">Piikkiö</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/1/e/f7c17084d3c6c64ff20a22b82e1.html" title="Joensuu">Joensuu</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/d/e/ceac01189c916d9d2ed.html" title="Pojo">Pojo</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/e/a/f7c267b8540348d570625aeecae.html" title="Siuntio">Siuntio</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/b/c/cf967eae50849409ccb.html" title="Pusula">Pusula</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/f/4/f7c8c14f95d6a28374e96d8034f.html" title="Rantasalmi">Rantasalmi</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/e/e/df4d632a2bd25eab6ab33588eee.html" title="Pyhäjärvi">Pyhäjärvi</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/7/c/f7ce6dcf8a048ca3a431a4f1bc7.html" title="Piikkiö">Piikkiö</a></td>
+							<td class="ColumnPlace">Raasepori</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/6/3/f7cefe98d1a7b52ed23da3e9836.html" title="Maaria">Maaria</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/f/4/f7c8c14f95d6a28374e96d8034f.html" title="Rantasalmi">Rantasalmi</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">Karis</td>
+							<td class="ColumnPlace"><a href="../../../plc/7/0/cb589cc805307692607.html" title="Rautalampi">Rautalampi</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">Raasepori</td>
+							<td class="ColumnPlace"><a href="../../../plc/9/c/f7fc1e1ef9d7482f12ddcd603c9.html" title="Rautu">Rautu</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">Finby</td>
+							<td class="ColumnPlace"><a href="../../../plc/0/0/f608adbe1bd20932549c7eb8300.html" title="Riihimäki">Riihimäki</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">Koivisto</td>
+							<td class="ColumnPlace"><a href="../../../plc/2/0/f60bb5cb5d34ac4a9ad3d28be02.html" title="Rymättylä">Rymättylä</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">Ingå</td>
+							<td class="ColumnPlace"><a href="../../../plc/7/a/d4878f85dc1547a405d1a9fbaa7.html" title="Räisälä">Räisälä</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">Korpo</td>
+							<td class="ColumnPlace"><a href="../../../plc/3/a/cea11f0929a42eefca3.html" title="Sibbo">Sibbo</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">Kiukainen</td>
+							<td class="ColumnPlace"><a href="../../../plc/e/a/f7c267b8540348d570625aeecae.html" title="Siuntio">Siuntio</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">Viipurin tksrk</td>
+							<td class="ColumnPlace"><a href="../../../plc/0/a/cea1539e33861a5d8a0.html" title="Snappertuna">Snappertuna</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">Ypäjä</td>
+							<td class="ColumnPlace">Somerniemi</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">Lahti</td>
+							<td class="ColumnPlace"><a href="../../../plc/a/7/ce9a9fdc1a3005f117a.html" title="Somero">Somero</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">Somerniemi</td>
+							<td class="ColumnPlace">Sääminki</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">Liljendal</td>
+							<td class="ColumnPlace">Tammela</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">Tammela</td>
+							<td class="ColumnPlace"><a href="../../../plc/d/7/cea13a5ae3a027e847d.html" title="Tenala">Tenala</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/c/d/cde62768b9e01659bdc.html" title="Viipuri">Viipuri</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/1/9/f60bb6e26832160ae2e9daa3691.html" title="Turku">Turku</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/9/c/f7fc1e1ef9d7482f12ddcd603c9.html" title="Rautu">Rautu</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/e/2/cb589cc912732a4072e.html" title="Tusby">Tusby</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/6/4/ceac1478b0919bf2446.html" title="Lojo">Lojo</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/8/1/d9572f436b744cb0b8d5aa03818.html" title="Vesanto">Vesanto</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/c/0/cb589cc90f055fc9f0c.html" title="Borgå">Borgå</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/0/b/d89f6013d8242e7cd32ea5d48b0.html" title="Vihti">Vihti</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/5/5/cb589cc7f8d1b88b055.html" title="Helsinki">Helsinki</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/c/d/cde62768b9e01659bdc.html" title="Viipuri">Viipuri</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/f/8/cf967cc75d96b616c8f.html" title="Nummi">Nummi</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/f/2/d48dad008a97d3eb02c5ce89e2f.html" title="Viipurin msrk">Viipurin msrk</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/5/6/e82478dea7034bf7ec557d7af65.html" title="Kirkkonummi">Kirkkonummi</a></td>
+							<td class="ColumnPlace">Viipurin tksrk</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/1/9/f60bb6e26832160ae2e9daa3691.html" title="Turku">Turku</a></td>
+							<td class="ColumnPlace">Ypäjä</td>
 						</tr>
 					</tbody>
 				</table>
 			</div>
-			<div id="popup"></div>
+			<div class="ol-popup" id="popup"><a class="ol-popup-closer" href="#" id="popup-closer"></a><div class="ol-popup-title" id="popup-title"></div><div id="popup-content"></div></div>
+			<div class="ol-popup" id="tooltip"><div id="tooltip-content"></div></div>
 			<div class="subsection" id="references">
 				<h4>References</h4>
 				<ol class="Col1" role="Volume-n-Page" type=1>
-					<li>
-						<a href="../../../ppl/2/d/cea28ff257c436275d2.html">
-						Robinson, Alexander
-						 (1893) 
-						
-						</a>
-					</li>
 					<li>
 						<a href="../../../fam/2/b/cb589cc8521134956b2.html">
 						Family of Robinson, Alexander and Korhonen, Edla
@@ -320,23 +355,30 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/b/d/cea5c238f8e496d74db.html">
-						Wahrman, Alli Adele
-						 (1936-12-05) 
+						<a href="../../../ppl/2/d/cea28ff257c436275d2.html">
+						Robinson, Alexander
+						 (1893) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/a/5/f1670ad95187db22e5b0304a15a.html">
 						Nordberg, Paavo Juhani
-						 (1936-12-05) 
+						 (1936-12-05 Name change) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/8/2/cb589cc80b85ba4f528.html">
 						Nordberg, Paul Wilhelm Waldemar
-						 (1936-12-05) 
+						 (1936-12-05 Name change) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/b/d/cea5c238f8e496d74db.html">
+						Wahrman, Alli Adele
+						 (1936-12-05 Name change) 
 						
 						</a>
 					</li>
@@ -346,7 +388,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2024-01-02 03:45:03<br />Created for Entire Database
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2<br />Last change was the 2024-01-02 03:45:03<br />Created for Entire Database
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

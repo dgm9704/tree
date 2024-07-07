@@ -1,27 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>Nordberg Family Tree - Korhonen, Karl</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
-	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">Nordberg Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">Nordberg Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li class = "CurrentSection"><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
 					<li><a href="../../../families.html" title="Families">Families</a></li>
@@ -29,13 +39,43 @@
 					<li><a href="../../../places.html" title="Places">Places</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="IndividualDetail">
 			<h3>Korhonen, Karl<sup><small></small></sup></h3>
 			<div id="summaryarea">
@@ -54,7 +94,7 @@
 			</div>
 			<div class="subsection" id="events">
 				<h4>Events</h4>
-				<table class="infolist eventlist">
+				<table class="infolist eventlist toggle_event ltr" id="toggle_event" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnEvent">Event</th>
@@ -66,7 +106,7 @@
 					</thead>
 					<tbody>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/f/6/cb589cc85d84febe66f.html" title="Birth">
 								Birth
 								</a>
@@ -82,9 +122,6 @@
 							 <a href="#sref1a">1a</a> <a href="#sref2a">2a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -92,59 +129,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/a/e/dd20156838b4eff4d635281a2ea.html" title="Residence">
-								Residence
-								</a>
-							</td>
-							<td class="ColumnDate">from 1891 to 1898</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/1/f/dd2013e7a952d95eb0095006df1.html" title="Pienikoipiniemi, Kirkonkylä, Rautalampi, Suomi">
-								Pienikoipiniemi, Kirkonkylä, Rautalampi, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref3a">3a</a> <a href="#sref4a">4a</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/e/c/dd20177a6253ae5742aaecffbce.html" title="Residence">
-								Residence
-								</a>
-							</td>
-							<td class="ColumnDate">from 1898 to 1899</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/5/3/dd20177421d6efb62b7d11fc135.html" title="Kengänlaks, Kerkonjoensuu, Rautalampi, Suomi">
-								Kengänlaks, Kerkonjoensuu, Rautalampi, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref4b">4b</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/5/1/dd20190052a5bd2ddca28ea0a15.html" title="Residence">
 								Residence
 								</a>
@@ -157,12 +142,9 @@
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref4c">4c</a> <a href="#sref5a">5a</a>
+							 <a href="#sref3a">3a</a> <a href="#sref4a">4a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -170,7 +152,53 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/e/c/dd20177a6253ae5742aaecffbce.html" title="Residence">
+								Residence
+								</a>
+							</td>
+							<td class="ColumnDate">from 1898 to 1899</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/5/3/dd20177421d6efb62b7d11fc135.html" title="Kengänlaks, Kerkonjoensuu, Rautalampi, Suomi">
+								Kengänlaks, Kerkonjoensuu, Rautalampi, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref3b">3b</a>
+							</td>
+							<tr>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/a/e/dd20156838b4eff4d635281a2ea.html" title="Residence">
+								Residence
+								</a>
+							</td>
+							<td class="ColumnDate">from 1891 to 1898</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/1/f/dd2013e7a952d95eb0095006df1.html" title="Pienikoipiniemi, Kirkonkylä, Rautalampi, Suomi">
+								Pienikoipiniemi, Kirkonkylä, Rautalampi, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref5a">5a</a> <a href="#sref3c">3c</a>
+							</td>
+							<tr>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/a/9/dd20326bb9978904d053a076a9a.html" title="Residence">
 								Residence
 								</a>
@@ -183,12 +211,9 @@
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref4c">4c</a> <a href="#sref5a">5a</a>
+							 <a href="#sref3a">3a</a> <a href="#sref4a">4a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -200,7 +225,7 @@
 			</div>
 			<div class="subsection" id="parents">
 				<h4>Parents</h4>
-				<table class="infolist">
+				<table class="infolist toggle_parent ltr" id="toggle_parent" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnAttribute">Relation to main person</th>
@@ -280,7 +305,7 @@
 			</div>
 			<div class="subsection" id="pedigree">
 				<h4>Pedigree</h4>
-				<ol class="pedigreegen">
+				<ol class="pedigreegen" id="toggle_pedigree" style="display:block">
 					<li>
 						<a href="../../../ppl/c/0/cb589cc84e63bbab10c.html">Korhonen, Adam Gabrielsson</a>
 						<ol>
@@ -319,177 +344,179 @@
 			</div>
 			<div class="subsection" id="tree">
 				<h4>Ancestors</h4>
-				<div id="treeContainer" style="width:1234px; height:1200px; top: 0px">
-					<div class="boxbg male AncCol0" style="top: 530px; left: 6px;">
-						<a class="noThumb" href="../../../ppl/c/2/cb589cc85d115f7292c.html">
-						Korhonen, Karl<br/>*1879-01-19<br/>+...
-						</a>
+				<div class="tree" id="toggle_anc" style="display:block">
+					<div id="treeContainer" style="width:1234px; height:1200px; top: 0px">
+						<div class="boxbg male AncCol0" style="top: 530px; left: 6px;">
+							<a class="noThumb" href="../../../ppl/c/2/cb589cc85d115f7292c.html">
+							Korhonen, Karl<br>*1879-01-19<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 535px; left: 10px;"></div>
+						<div class="bvline" style="top: 550px; left: 285px; width: 15px"></div>
+						<div class="gvline" style="top: 555px; left: 285px; width: 20px"></div>
+						<div class="boxbg male AncCol1" style="top: 230px; left: 316px;">
+							<a class="noThumb" href="../../../ppl/c/0/cb589cc84e63bbab10c.html">
+							Korhonen, Adam Gabrielsson<br>*1829-12-23<br>+1896-05-10
+							</a>
+						</div>
+						<div class="shadow" style="top: 235px; left: 320px;"></div>
+						<div class="bvline" style="top: 250px; left: 300px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 250px; left: 300px; height: 301px;"></div>
+					
+						<div class="bvline" style="top: 250px; left: 595px; width: 15px"></div>
+						<div class="gvline" style="top: 255px; left: 595px; width: 20px"></div>
+						<div class="boxbg male AncCol2" style="top: 80px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/d/c/cb589cc96125216f2cd.html">
+							Korhonen, Gabriel Påhlsson<br>*1803-12-19<br>+1860-05-01
+							</a>
+						</div>
+						<div class="shadow" style="top: 85px; left: 630px;"></div>
+						<div class="bvline" style="top: 100px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 100px; left: 610px; height: 151px;"></div>
+					
+						<div class="bvline" style="top: 100px; left: 905px; width: 15px"></div>
+						<div class="gvline" style="top: 105px; left: 905px; width: 20px"></div>
+						<div class="boxbg male AncCol3" style="top: 5px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/3/3/cb589ccc8ab1e1e3133.html">
+							Korhonen, Påhl Mattsson<br>*1775<br>+1840-11-08
+							</a>
+						</div>
+						<div class="shadow" style="top: 10px; left: 940px;"></div>
+						<div class="bvline" style="top: 25px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 25px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol3" style="top: 155px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/3/5/cb589ccc88138971b53.html">
+							Huttunen, Lisa Michelsdotter<br>*1778<br>+1854-07-22
+							</a>
+						</div>
+						<div class="shadow" style="top: 160px; left: 940px;"></div>
+						<div class="bvline" style="top: 175px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 100px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol2" style="top: 380px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/d/4/cb589cc95ec038e744d.html">
+							Raatikainen, Anna Lisa Samuelsdotter<br>*1803<br>+1871-11-09
+							</a>
+						</div>
+						<div class="shadow" style="top: 385px; left: 630px;"></div>
+						<div class="bvline" style="top: 400px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 250px; left: 610px; height: 151px;"></div>
+					
+						<div class="bvline" style="top: 400px; left: 905px; width: 15px"></div>
+						<div class="gvline" style="top: 405px; left: 905px; width: 20px"></div>
+						<div class="boxbg male AncCol3" style="top: 305px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/c/c/cb589ccc7ae38cea7cc.html">
+							Radikain, Samuel Samuelsson<br>*1771-03-02<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 310px; left: 940px;"></div>
+						<div class="bvline" style="top: 325px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 325px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol3" style="top: 455px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/e/2/cb589ccc7db4472152e.html">
+							Vepsäläin, Lisa<br>*1777<br>+1809-01-10
+							</a>
+						</div>
+						<div class="shadow" style="top: 460px; left: 940px;"></div>
+						<div class="bvline" style="top: 475px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 400px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol1" style="top: 830px; left: 316px;">
+							<a class="noThumb" href="../../../ppl/3/2/cb589cc84c27af4bb23.html">
+							Jääskeläinen, Eva Pettersdotter<br>*1842-10-30<br>+1927-09-10
+							</a>
+						</div>
+						<div class="shadow" style="top: 835px; left: 320px;"></div>
+						<div class="bvline" style="top: 850px; left: 300px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 550px; left: 300px; height: 301px;"></div>
+					
+						<div class="bvline" style="top: 850px; left: 595px; width: 15px"></div>
+						<div class="gvline" style="top: 855px; left: 595px; width: 20px"></div>
+						<div class="boxbg male AncCol2" style="top: 680px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/2/f/cb589cc94d005da5cf2.html">
+							Jääskeläinen, Petter Mattsson<br>*1806-02-15<br>+1879-06-26
+							</a>
+						</div>
+						<div class="shadow" style="top: 685px; left: 630px;"></div>
+						<div class="bvline" style="top: 700px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 700px; left: 610px; height: 151px;"></div>
+					
+						<div class="bvline" style="top: 700px; left: 905px; width: 15px"></div>
+						<div class="gvline" style="top: 705px; left: 905px; width: 20px"></div>
+						<div class="boxbg male AncCol3" style="top: 605px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/2/8/cb589ccc61103fcae82.html">
+							Jäskeläin, Matts<br>*1783<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 610px; left: 940px;"></div>
+						<div class="bvline" style="top: 625px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 625px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol3" style="top: 755px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/d/1/cb589ccc62b04f0131d.html">
+							Westerinen, Elisabeth<br>*1784<br>+1819-12-10
+							</a>
+						</div>
+						<div class="shadow" style="top: 760px; left: 940px;"></div>
+						<div class="bvline" style="top: 775px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 700px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol2" style="top: 980px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/8/0/cb589cc948c07b4ff08.html">
+							Tarvainen, Caisa Mathilda<br>*1812-11-15<br>+1884-11-01
+							</a>
+						</div>
+						<div class="shadow" style="top: 985px; left: 630px;"></div>
+						<div class="bvline" style="top: 1000px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 850px; left: 610px; height: 151px;"></div>
+					
+						<div class="bvline" style="top: 1000px; left: 905px; width: 15px"></div>
+						<div class="gvline" style="top: 1005px; left: 905px; width: 20px"></div>
+						<div class="boxbg male AncCol3" style="top: 905px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/1/f/cb589ccc4d95f33fbf1.html">
+							Tarvain, Matts<br>*1767<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 910px; left: 940px;"></div>
+						<div class="bvline" style="top: 925px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 925px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol3" style="top: 1055px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/4/8/cb589ccc4c00d9da784.html">
+							Knutin, Elisabeth<br>*1771-08-02<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 1060px; left: 940px;"></div>
+						<div class="bvline" style="top: 1075px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 1000px; left: 920px; height: 76px;"></div>
+					
 					</div>
-					<div class="shadow" style="top: 535px; left: 10px;"></div>
-					<div class="bvline" style="top: 550px; left: 285px; width: 15px"></div>
-					<div class="gvline" style="top: 555px; left: 285px; width: 20px"></div>
-					<div class="boxbg male AncCol1" style="top: 230px; left: 316px;">
-						<a class="noThumb" href="../../../ppl/c/0/cb589cc84e63bbab10c.html">
-						Korhonen, Adam Gabrielsson<br/>*1829-12-23<br/>+1896-05-10
-						</a>
-					</div>
-					<div class="shadow" style="top: 235px; left: 320px;"></div>
-					<div class="bvline" style="top: 250px; left: 300px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 250px; left: 300px; height: 301px;"></div>
-				
-					<div class="bvline" style="top: 250px; left: 595px; width: 15px"></div>
-					<div class="gvline" style="top: 255px; left: 595px; width: 20px"></div>
-					<div class="boxbg male AncCol2" style="top: 80px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/d/c/cb589cc96125216f2cd.html">
-						Korhonen, Gabriel Påhlsson<br/>*1803-12-19<br/>+1860-05-01
-						</a>
-					</div>
-					<div class="shadow" style="top: 85px; left: 630px;"></div>
-					<div class="bvline" style="top: 100px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 100px; left: 610px; height: 151px;"></div>
-				
-					<div class="bvline" style="top: 100px; left: 905px; width: 15px"></div>
-					<div class="gvline" style="top: 105px; left: 905px; width: 20px"></div>
-					<div class="boxbg male AncCol3" style="top: 5px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/3/3/cb589ccc8ab1e1e3133.html">
-						Korhonen, Påhl Mattsson<br/>*1775<br/>+1840-11-08
-						</a>
-					</div>
-					<div class="shadow" style="top: 10px; left: 940px;"></div>
-					<div class="bvline" style="top: 25px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 25px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol3" style="top: 155px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/3/5/cb589ccc88138971b53.html">
-						Huttunen, Lisa Michelsdotter<br/>*1778<br/>+1854-07-22
-						</a>
-					</div>
-					<div class="shadow" style="top: 160px; left: 940px;"></div>
-					<div class="bvline" style="top: 175px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 100px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol2" style="top: 380px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/d/4/cb589cc95ec038e744d.html">
-						Raatikainen, Anna Lisa Samuelsdotter<br/>*1803<br/>+1871-11-09
-						</a>
-					</div>
-					<div class="shadow" style="top: 385px; left: 630px;"></div>
-					<div class="bvline" style="top: 400px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 250px; left: 610px; height: 151px;"></div>
-				
-					<div class="bvline" style="top: 400px; left: 905px; width: 15px"></div>
-					<div class="gvline" style="top: 405px; left: 905px; width: 20px"></div>
-					<div class="boxbg male AncCol3" style="top: 305px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/c/c/cb589ccc7ae38cea7cc.html">
-						Radikain, Samuel Samuelsson<br/>*1771-03-02<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 310px; left: 940px;"></div>
-					<div class="bvline" style="top: 325px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 325px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol3" style="top: 455px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/e/2/cb589ccc7db4472152e.html">
-						Vepsäläin, Lisa<br/>*1777<br/>+1809-01-10
-						</a>
-					</div>
-					<div class="shadow" style="top: 460px; left: 940px;"></div>
-					<div class="bvline" style="top: 475px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 400px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol1" style="top: 830px; left: 316px;">
-						<a class="noThumb" href="../../../ppl/3/2/cb589cc84c27af4bb23.html">
-						Jääskeläinen, Eva Pettersdotter<br/>*1842-10-30<br/>+1927-09-10
-						</a>
-					</div>
-					<div class="shadow" style="top: 835px; left: 320px;"></div>
-					<div class="bvline" style="top: 850px; left: 300px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 550px; left: 300px; height: 301px;"></div>
-				
-					<div class="bvline" style="top: 850px; left: 595px; width: 15px"></div>
-					<div class="gvline" style="top: 855px; left: 595px; width: 20px"></div>
-					<div class="boxbg male AncCol2" style="top: 680px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/2/f/cb589cc94d005da5cf2.html">
-						Jääskeläinen, Petter Mattsson<br/>*1806-02-15<br/>+1879-06-26
-						</a>
-					</div>
-					<div class="shadow" style="top: 685px; left: 630px;"></div>
-					<div class="bvline" style="top: 700px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 700px; left: 610px; height: 151px;"></div>
-				
-					<div class="bvline" style="top: 700px; left: 905px; width: 15px"></div>
-					<div class="gvline" style="top: 705px; left: 905px; width: 20px"></div>
-					<div class="boxbg male AncCol3" style="top: 605px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/2/8/cb589ccc61103fcae82.html">
-						Jäskeläin, Matts<br/>*1783<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 610px; left: 940px;"></div>
-					<div class="bvline" style="top: 625px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 625px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol3" style="top: 755px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/d/1/cb589ccc62b04f0131d.html">
-						Westerinen, Elisabeth<br/>*1784<br/>+1819-12-10
-						</a>
-					</div>
-					<div class="shadow" style="top: 760px; left: 940px;"></div>
-					<div class="bvline" style="top: 775px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 700px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol2" style="top: 980px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/8/0/cb589cc948c07b4ff08.html">
-						Tarvainen, Caisa Mathilda<br/>*1812-11-15<br/>+1884-11-01
-						</a>
-					</div>
-					<div class="shadow" style="top: 985px; left: 630px;"></div>
-					<div class="bvline" style="top: 1000px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 850px; left: 610px; height: 151px;"></div>
-				
-					<div class="bvline" style="top: 1000px; left: 905px; width: 15px"></div>
-					<div class="gvline" style="top: 1005px; left: 905px; width: 20px"></div>
-					<div class="boxbg male AncCol3" style="top: 905px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/1/f/cb589ccc4d95f33fbf1.html">
-						Tarvain, Matts<br/>*1767<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 910px; left: 940px;"></div>
-					<div class="bvline" style="top: 925px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 925px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol3" style="top: 1055px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/4/8/cb589ccc4c00d9da784.html">
-						Knutin, Elisabeth<br/>*1771-08-02<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 1060px; left: 940px;"></div>
-					<div class="bvline" style="top: 1075px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 1000px; left: 920px; height: 76px;"></div>
-				
 				</div>
 			</div>
 			<div class="subsection" id="sourcerefs">
 				<h4>Source References</h4>
-				<ol>
+				<ol id="srcr">
 					<li>
 						<a href="../../../src/0/5/dcf2c30b36017aeb92a108e2350.html" title="Rautalammin seurakunta: Rautalampi Lastenkirja 1872-1881" name ="sref1">
 						Rautalammin seurakunta: Rautalampi Lastenkirja 1872-1881
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref1a">
 								<ul>
 									<li>
@@ -506,7 +533,7 @@
 						<a href="../../../src/4/f/cde6260bdbc4ac95df4.html" title="Rautalammin seurakunta: Rautalampi Syntyneet 1862-1879" name ="sref2">
 						Rautalammin seurakunta: Rautalampi Syntyneet 1862-1879
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref2a">
 								<ul>
 									<li>
@@ -520,48 +547,11 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/f/2/dd0a4b89bd1fc2515d54fd6c2f.html" title="Rautalammin seurakunta: Rautalampi Lastenkirja 1891-1900" name ="sref3">
-						Rautalammin seurakunta: Rautalampi Lastenkirja 1891-1900
-						</a>
-						<ol>
-							<li id="sref3a">
-								<ul>
-									<li>
-									Page: 992
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=2505&amp;pnum=501">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=2505&amp;pnum=501</a></p></div>
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
-						<a href="../../../src/4/9/dcf2e2f108741af5fc66ab32494.html" title="Rautalammin seurakunta: Rautalampi Rippikirja 1891-1900" name ="sref4">
+						<a href="../../../src/4/9/dcf2e2f108741af5fc66ab32494.html" title="Rautalammin seurakunta: Rautalampi Rippikirja 1891-1900" name ="sref3">
 						Rautalammin seurakunta: Rautalampi Rippikirja 1891-1900
 						</a>
-						<ol>
-							<li id="sref4a">
-								<ul>
-									<li>
-									Page: II/992
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=2616&amp;pnum=472">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=2616&amp;pnum=472</a></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref4b">
-								<ul>
-									<li>
-									Page: I/376
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=2615&amp;pnum=386">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=2615&amp;pnum=386</a></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref4c">
+						<ol id="citr">
+							<li id="sref3a">
 								<ul>
 									<li>
 									Page: I/449
@@ -571,14 +561,34 @@
 									</li>
 								</ul>
 							</li>
+							<li id="sref3b">
+								<ul>
+									<li>
+									Page: I/376
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=2615&amp;pnum=386">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=2615&amp;pnum=386</a></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref3c">
+								<ul>
+									<li>
+									Page: II/992
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=2616&amp;pnum=472">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=2616&amp;pnum=472</a></p></div>
+									</li>
+								</ul>
+							</li>
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/4/9/cfcd66c05e11d220f94.html" title="Rautalammin seurakunta: Rautalampi Muuttaneet 1880-1902" name ="sref5">
+						<a href="../../../src/4/9/cfcd66c05e11d220f94.html" title="Rautalammin seurakunta: Rautalampi Muuttaneet 1880-1902" name ="sref4">
 						Rautalammin seurakunta: Rautalampi Muuttaneet 1880-1902
 						</a>
-						<ol>
-							<li id="sref5a">
+						<ol id="citr">
+							<li id="sref4a">
 								<ul>
 									<li>
 									Page: 187
@@ -590,13 +600,30 @@
 							</li>
 						</ol>
 					</li>
+					<li>
+						<a href="../../../src/f/2/dd0a4b89bd1fc2515d54fd6c2f.html" title="Rautalammin seurakunta: Rautalampi Lastenkirja 1891-1900" name ="sref5">
+						Rautalammin seurakunta: Rautalampi Lastenkirja 1891-1900
+						</a>
+						<ol id="citr">
+							<li id="sref5a">
+								<ul>
+									<li>
+									Page: 992
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=2505&amp;pnum=501">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=2505&amp;pnum=501</a></p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
 				</ol>
 			</div>
 		</div>
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2018-02-26 20:11:42<br />Created for Entire Database
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2<br />Last change was the 2018-02-26 20:11:42<br />Created for Entire Database
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

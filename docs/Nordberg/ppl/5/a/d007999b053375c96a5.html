@@ -1,27 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>Nordberg Family Tree - Laaksonen, Karl Viktor</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
-	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">Nordberg Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">Nordberg Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li class = "CurrentSection"><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
 					<li><a href="../../../families.html" title="Families">Families</a></li>
@@ -29,13 +39,43 @@
 					<li><a href="../../../places.html" title="Places">Places</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="IndividualDetail">
 			<h3>Laaksonen, Karl Viktor<sup><small></small></sup></h3>
 			<div id="summaryarea">
@@ -60,7 +100,7 @@
 			</div>
 			<div class="subsection" id="events">
 				<h4>Events</h4>
-				<table class="infolist eventlist">
+				<table class="infolist eventlist toggle_event ltr" id="toggle_event" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnEvent">Event</th>
@@ -72,7 +112,7 @@
 					</thead>
 					<tbody>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/9/5/d007999319c3c99f759.html" title="Birth">
 								Birth
 								</a>
@@ -88,9 +128,6 @@
 							 <a href="#sref1a">1a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -98,59 +135,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/3/a/d007a6e2a6d3513d1a3.html" title="Residence">
-								Residence
-								</a>
-							</td>
-							<td class="ColumnDate">from 1878 to 1879</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/7/7/d007a5564f60f1c5277.html" title="Knektilä, Hyvinkää, Nurmijärvi, Suomi">
-								Knektilä, Hyvinkää, Nurmijärvi, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref2a">2a</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/6/5/d007a90a95d2b3b0856.html" title="Residence">
-								Residence
-								</a>
-							</td>
-							<td class="ColumnDate">from 1879 to 1880</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/7/d/d007a8200f54f0fe2d7.html" title="Palojoki Yli, Hyvinkää, Nurmijärvi, Suomi">
-								Palojoki Yli, Hyvinkää, Nurmijärvi, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref2b">2b</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/b/e/d00a15e5d7d005ba9eb.html" title="Residence">
 								Residence
 								</a>
@@ -163,12 +148,9 @@
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref3a">3a</a>
+							 <a href="#sref2a">2a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -176,15 +158,38 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/c/b/d00a192ef970b4024bc.html" title="Residence">
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/6/5/d007a90a95d2b3b0856.html" title="Residence">
 								Residence
 								</a>
 							</td>
-							<td class="ColumnDate">from 1881 to 1883</td>
+							<td class="ColumnDate">from 1879 to 1880</td>
 							<td class="ColumnPlace">
-								<a href="../../../plc/5/f/d00a1791368728f75f5.html" title="Wilhelmsberg, Nukari, Nurmijärvi, Suomi">
-								Wilhelmsberg, Nukari, Nurmijärvi, Suomi
+								<a href="../../../plc/7/d/d007a8200f54f0fe2d7.html" title="Palojoki Yli, Hyvinkää, Nurmijärvi, Suomi">
+								Palojoki Yli, Hyvinkää, Nurmijärvi, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref3a">3a</a>
+							</td>
+							<tr>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/3/a/d007a6e2a6d3513d1a3.html" title="Residence">
+								Residence
+								</a>
+							</td>
+							<td class="ColumnDate">from 1878 to 1879</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/7/7/d007a5564f60f1c5277.html" title="Knektilä, Hyvinkää, Nurmijärvi, Suomi">
+								Knektilä, Hyvinkää, Nurmijärvi, Suomi
 								</a>
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
@@ -192,9 +197,6 @@
 							 <a href="#sref3b">3b</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -202,7 +204,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/2/8/d486740f7d42b714a1cca7ef82.html" title="Residence">
 								Residence
 								</a>
@@ -215,12 +217,9 @@
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref3b">3b</a> <a href="#sref4a">4a</a>
+							 <a href="#sref2b">2b</a> <a href="#sref4a">4a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -228,7 +227,30 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/c/b/d00a192ef970b4024bc.html" title="Residence">
+								Residence
+								</a>
+							</td>
+							<td class="ColumnDate">from 1881 to 1883</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/5/f/d00a1791368728f75f5.html" title="Wilhelmsberg, Nukari, Nurmijärvi, Suomi">
+								Wilhelmsberg, Nukari, Nurmijärvi, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref2b">2b</a>
+							</td>
+							<tr>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/0/d/d48675333e514c9a732c25d06d0.html" title="Residence">
 								Residence
 								</a>
@@ -244,9 +266,6 @@
 							 <a href="#sref4a">4a</a> <a href="#sref5a">5a</a> <a href="#sref6a">6a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -254,7 +273,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/a/6/d486e5faa753ed7d2356b72576a.html" title="Residence">
 								Residence
 								</a>
@@ -270,9 +289,6 @@
 							 <a href="#sref7a">7a</a> <a href="#sref8a">8a</a> <a href="#sref9a">9a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -280,33 +296,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/c/1/d486ed83d4d409db73589f89d1c.html" title="Residence">
-								Residence
-								</a>
-							</td>
-							<td class="ColumnDate">from 1889-12-04 to 1892</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/2/1/d48756f5f1d1b8b98e2f05dd512.html" title="Gröndahls, Gustavelund, Kyrkoby, Tusby, Suomi">
-								Gröndahls, Gustavelund, Kyrkoby, Tusby, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref9a">9a</a> <a href="#sref10a">10a</a> <a href="#sref6b">6b</a> <a href="#sref11a">11a</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/a/7/d48760453161ad29e6c6bbb157a.html" title="Residence">
 								Residence
 								</a>
@@ -319,12 +309,9 @@
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref11b">11b</a> <a href="#sref10b">10b</a>
+							 <a href="#sref10a">10a</a> <a href="#sref11a">11a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -332,7 +319,30 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/c/1/d486ed83d4d409db73589f89d1c.html" title="Residence">
+								Residence
+								</a>
+							</td>
+							<td class="ColumnDate">from 1889-12-04 to 1892</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/2/1/d48756f5f1d1b8b98e2f05dd512.html" title="Gröndahls, Gustavelund, Kyrkoby, Tusby, Suomi">
+								Gröndahls, Gustavelund, Kyrkoby, Tusby, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref9a">9a</a> <a href="#sref11b">11b</a> <a href="#sref6b">6b</a> <a href="#sref10b">10b</a>
+							</td>
+							<tr>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/b/2/d4876f2764c2abf9ac7039b5d2b.html" title="Residence">
 								Residence
 								</a>
@@ -348,9 +358,6 @@
 							 <a href="#sref12a">12a</a> <a href="#sref8b">8b</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -358,7 +365,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/a/2/d4878c8238e27c8517254ca342a.html" title="Residence">
 								Residence
 								</a>
@@ -374,9 +381,6 @@
 							&nbsp;
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -388,7 +392,7 @@
 			</div>
 			<div class="subsection" id="parents">
 				<h4>Parents</h4>
-				<table class="infolist">
+				<table class="infolist toggle_parent ltr" id="toggle_parent" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnAttribute">Relation to main person</th>
@@ -447,7 +451,7 @@
 			</div>
 			<div class="subsection" id="families">
 				<h4>Families</h4>
-				<table class="infolist">
+				<table class="infolist" id="toggle_families" style="display:block">
 					<tr class="BeginFamily">
 						<td class="ColumnValue" colspan="3"><H4 class="subsection"><a href="../../../fam/8/7/d4878df4e4a200b0df7f9ee9878.html" title="Family of Laaksonen, Karl Viktor and Rakkolainen, Maria Heikintytär">Family of Laaksonen, Karl Viktor and Rakkolainen, Maria Heikintytär</a></H4></td>
 					</tr>
@@ -467,7 +471,7 @@
 			</div>
 			<div class="subsection" id="pedigree">
 				<h4>Pedigree</h4>
-				<ol class="pedigreegen">
+				<ol class="pedigreegen" id="toggle_pedigree" style="display:block">
 					<li>
 						<a href="../../../ppl/a/6/ce849db87a510e0466a.html">, Anna Carolina Johansdotter</a>
 						<ol>
@@ -485,35 +489,37 @@
 			</div>
 			<div class="subsection" id="tree">
 				<h4>Ancestors</h4>
-				<div id="treeContainer" style="width:614px; height:150px; top: 0px">
-					<div class="boxbg male AncCol0" style="top: 5px; left: 6px;">
-						<a class="noThumb" href="../../../ppl/5/a/d007999b053375c96a5.html">
-						Laaksonen, Karl Viktor<br/>*1863-03-30<br/>+...
-						</a>
+				<div class="tree" id="toggle_anc" style="display:block">
+					<div id="treeContainer" style="width:614px; height:150px; top: 0px">
+						<div class="boxbg male AncCol0" style="top: 5px; left: 6px;">
+							<a class="noThumb" href="../../../ppl/5/a/d007999b053375c96a5.html">
+							Laaksonen, Karl Viktor<br>*1863-03-30<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 10px; left: 10px;"></div>
+						<div class="bvline" style="top: 25px; left: 285px; width: 15px"></div>
+						<div class="gvline" style="top: 30px; left: 285px; width: 20px"></div>
+						<div class="boxbg female AncCol1" style="top: 5px; left: 316px;">
+							<a class="noThumb" href="../../../ppl/a/6/ce849db87a510e0466a.html">
+							, Anna Carolina Johansdotter<br>*1840-06-25<br>+1907-09-11
+							</a>
+						</div>
+						<div class="shadow" style="top: 10px; left: 320px;"></div>
+						<div class="bvline" style="top: 25px; left: 300px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 25px; left: 300px; height: 1px;"></div>
+					
 					</div>
-					<div class="shadow" style="top: 10px; left: 10px;"></div>
-					<div class="bvline" style="top: 25px; left: 285px; width: 15px"></div>
-					<div class="gvline" style="top: 30px; left: 285px; width: 20px"></div>
-					<div class="boxbg female AncCol1" style="top: 5px; left: 316px;">
-						<a class="noThumb" href="../../../ppl/a/6/ce849db87a510e0466a.html">
-						, Anna Carolina Johansdotter<br/>*1840-06-25<br/>+1907-09-11
-						</a>
-					</div>
-					<div class="shadow" style="top: 10px; left: 320px;"></div>
-					<div class="bvline" style="top: 25px; left: 300px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 25px; left: 300px; height: 1px;"></div>
-				
 				</div>
 			</div>
 			<div class="subsection" id="sourcerefs">
 				<h4>Source References</h4>
-				<ol>
+				<ol id="srcr">
 					<li>
 						<a href="../../../src/6/f/cf8ea7f8f571a33caf6.html" title="Nurmijärven seurakunta: Nurmijärvi Syntyneet 1861-1883" name ="sref1">
 						Nurmijärven seurakunta: Nurmijärvi Syntyneet 1861-1883
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref1a">
 								<ul>
 									<li>
@@ -530,44 +536,11 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/7/4/cf8eb7164095bd0d547.html" title="Nurmijärven seurakunta: Nurmijärvi Rippikirja 1875-1880" name ="sref2">
-						Nurmijärven seurakunta: Nurmijärvi Rippikirja 1875-1880
-						</a>
-						<ol>
-							<li id="sref2a">
-								<ul>
-									<li>
-									Page: 11
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/kirjat/Kirkonkirjat/nurmijarvi/rippikirja_1875-1880_mko152-163/68.htm">http://www.sukuhistoria.fi/sshy/kirjat/Kirkonkirjat/nurmijarvi/rippikirja_1875-1880_mko152-163/68.htm</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p>Hyvingä No 11 Knektilä (Heikkilä) Skatte 3/16 mantal</p><p>Drg	Karl Viktor Annasson	30/3 1863	adm 1878	fr.p. 126 BB &nbsp; &nbsp;till pg 74</p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref2b">
-								<ul>
-									<li>
-									Page: 74
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=8593&amp;pnum=74">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=8593&amp;pnum=74</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p>Hyvingä No 12 Palojoki Yli</p><p>Drg	Karl Viktor Annasson	30/3 1863		79 frp. 68</p></div>
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
-						<a href="../../../src/9/3/d007838a46c04f53839.html" title="Nurmijärven seurakunta: Nurmijärvi Rippikirja 1881-1890" name ="sref3">
+						<a href="../../../src/9/3/d007838a46c04f53839.html" title="Nurmijärven seurakunta: Nurmijärvi Rippikirja 1881-1890" name ="sref2">
 						Nurmijärven seurakunta: Nurmijärvi Rippikirja 1881-1890
 						</a>
-						<ol>
-							<li id="sref3a">
+						<ol id="citr">
+							<li id="sref2a">
 								<ul>
 									<li>
 									Page: 74
@@ -580,7 +553,7 @@
 									</li>
 								</ul>
 							</li>
-							<li id="sref3b">
+							<li id="sref2b">
 								<ul>
 									<li>
 									Page: 411
@@ -596,10 +569,43 @@
 						</ol>
 					</li>
 					<li>
+						<a href="../../../src/7/4/cf8eb7164095bd0d547.html" title="Nurmijärven seurakunta: Nurmijärvi Rippikirja 1875-1880" name ="sref3">
+						Nurmijärven seurakunta: Nurmijärvi Rippikirja 1875-1880
+						</a>
+						<ol id="citr">
+							<li id="sref3a">
+								<ul>
+									<li>
+									Page: 74
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=8593&amp;pnum=74">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=8593&amp;pnum=74</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p>Hyvingä No 12 Palojoki Yli</p><p>Drg	Karl Viktor Annasson	30/3 1863		79 frp. 68</p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref3b">
+								<ul>
+									<li>
+									Page: 11
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/kirjat/Kirkonkirjat/nurmijarvi/rippikirja_1875-1880_mko152-163/68.htm">http://www.sukuhistoria.fi/sshy/kirjat/Kirkonkirjat/nurmijarvi/rippikirja_1875-1880_mko152-163/68.htm</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p>Hyvingä No 11 Knektilä (Heikkilä) Skatte 3/16 mantal</p><p>Drg	Karl Viktor Annasson	30/3 1863	adm 1878	fr.p. 126 BB &nbsp; &nbsp;till pg 74</p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
 						<a href="../../../src/f/3/d0077e236757274da3f.html" title="Nurmijärven seurakunta: Nurmijärvi Muuttaneet 1881-1889" name ="sref4">
 						Nurmijärven seurakunta: Nurmijärvi Muuttaneet 1881-1889
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref4a">
 								<ul>
 									<li>
@@ -619,7 +625,7 @@
 						<a href="../../../src/f/3/d486c74ad9773f993fea63fdf3f.html" title="Tuusulan seurakunta: Tuusula Muuttaneet 1875-1887" name ="sref5">
 						Tuusulan seurakunta: Tuusula Muuttaneet 1875-1887
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref5a">
 								<ul>
 									<li>
@@ -636,7 +642,7 @@
 						<a href="../../../src/7/a/d0076156c69697796a7.html" title="Tuusulan Seurakunta: Tuusula Rippikirja 1880-1889" name ="sref6">
 						Tuusulan Seurakunta: Tuusula Rippikirja 1880-1889
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref6a">
 								<ul>
 									<li>
@@ -669,7 +675,7 @@
 						<a href="../../../src/3/3/d486cca5c69495402e10dde5e33.html" title="Hausjärven seurakunta: Hausjärvi Muuttaneet 1887-1891 sisään" name ="sref7">
 						Hausjärven seurakunta: Hausjärvi Muuttaneet 1887-1891 sisään
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref7a">
 								<ul>
 									<li>
@@ -689,7 +695,7 @@
 						<a href="../../../src/0/1/d486e70321a5199be80c2086410.html" title="Hausjärven seurakunta: Hausjärvi Rippikirja 1885-1894" name ="sref8">
 						Hausjärven seurakunta: Hausjärvi Rippikirja 1885-1894
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref8a">
 								<ul>
 									<li>
@@ -722,7 +728,7 @@
 						<a href="../../../src/e/8/d486ec318f74f541c02e1d0ec8e.html" title="Hausjärven seurakunta: Hausjärvi Muuttaneet 1887-1891 ulos" name ="sref9">
 						Hausjärven seurakunta: Hausjärvi Muuttaneet 1887-1891 ulos
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref9a">
 								<ul>
 									<li>
@@ -739,57 +745,11 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/4/0/d4875231e0d7e1f7dc07a62504.html" title="Tuusulan seurakunta: Tuusula Muuttaneet 1888-1904" name ="sref10">
-						Tuusulan seurakunta: Tuusula Muuttaneet 1888-1904
-						</a>
-						<ol>
-							<li id="sref10a">
-								<ul>
-									<li>
-									Page: 12
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=13006&amp;pnum=12">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=13006&amp;pnum=12</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p>Längd öfver Inflyttade för år 1889 i Tusby församling.<br />Tuusulan seurakuntaan muuttaneet vuonna 1889.</p><p>[decemb.]	4	Laaksonen, Karl Viktor, drg	1|-	Hausjärvi	99	65/1	delg. Hausjärvi delg. app. n. 19.12.89</p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref10b">
-								<ul>
-									<li>
-									Page: 38
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=13006&amp;pnum=38">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=13006&amp;pnum=38</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p>Läng öfver Utflyttade för år 1893 i Thusby församling.<br />Seurakunnasta muuttaneet vuonna 18[93]</p><p>[Jouluk.]	[2]	133	Laaksonen, Karl its	1|-	Hausjärvi	492</p></div>
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
-						<a href="../../../src/b/e/d0075a5702010d472eb.html" title="Tuusulan Seurakunta: Tuusula Rippikirja 1890-1899" name ="sref11">
+						<a href="../../../src/b/e/d0075a5702010d472eb.html" title="Tuusulan Seurakunta: Tuusula Rippikirja 1890-1899" name ="sref10">
 						Tuusulan Seurakunta: Tuusula Rippikirja 1890-1899
 						</a>
-						<ol>
-							<li id="sref11a">
-								<ul>
-									<li>
-									Page: 146
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=12977&amp;pnum=144">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=12977&amp;pnum=144</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p>Kirkonkylä	Kyrkoby<br />Gustavelundin torpat<br />Torp Gröndahl</p><p>[rengit]<br />Karl Viktor Laaksonen	30/3 1865	Nurmijärvi	[VK 99]	492.92 [äidinkieli suomi]</p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref11b">
+						<ol id="citr">
+							<li id="sref10a">
 								<ul>
 									<li>
 									Page: 492
@@ -802,13 +762,59 @@
 									</li>
 								</ul>
 							</li>
+							<li id="sref10b">
+								<ul>
+									<li>
+									Page: 146
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=12977&amp;pnum=144">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=12977&amp;pnum=144</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p>Kirkonkylä	Kyrkoby<br />Gustavelundin torpat<br />Torp Gröndahl</p><p>[rengit]<br />Karl Viktor Laaksonen	30/3 1865	Nurmijärvi	[VK 99]	492.92 [äidinkieli suomi]</p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../src/4/0/d4875231e0d7e1f7dc07a62504.html" title="Tuusulan seurakunta: Tuusula Muuttaneet 1888-1904" name ="sref11">
+						Tuusulan seurakunta: Tuusula Muuttaneet 1888-1904
+						</a>
+						<ol id="citr">
+							<li id="sref11a">
+								<ul>
+									<li>
+									Page: 38
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=13006&amp;pnum=38">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=13006&amp;pnum=38</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p>Läng öfver Utflyttade för år 1893 i Thusby församling.<br />Seurakunnasta muuttaneet vuonna 18[93]</p><p>[Jouluk.]	[2]	133	Laaksonen, Karl its	1|-	Hausjärvi	492</p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref11b">
+								<ul>
+									<li>
+									Page: 12
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=13006&amp;pnum=12">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=13006&amp;pnum=12</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p>Längd öfver Inflyttade för år 1889 i Tusby församling.<br />Tuusulan seurakuntaan muuttaneet vuonna 1889.</p><p>[decemb.]	4	Laaksonen, Karl Viktor, drg	1|-	Hausjärvi	99	65/1	delg. Hausjärvi delg. app. n. 19.12.89</p></div>
+									</li>
+								</ul>
+							</li>
 						</ol>
 					</li>
 					<li>
 						<a href="../../../src/a/e/d4876e0113f7c849743287e8aea.html" title="Hausjärven seurakunta: Hausjärvi Muuttaneet 1892-1908" name ="sref12">
 						Hausjärven seurakunta: Hausjärvi Muuttaneet 1892-1908
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref12a">
 								<ul>
 									<li>
@@ -830,7 +836,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2020-05-02 13:04:59<br />Created for Entire Database
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2<br />Last change was the 2020-05-02 13:04:59<br />Created for Entire Database
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

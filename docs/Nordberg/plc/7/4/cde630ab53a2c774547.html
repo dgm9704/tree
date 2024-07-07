@@ -1,26 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>Nordberg Family Tree - Places</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
 </head>
-<body  onload = "initialize();" >
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">Nordberg Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">Nordberg Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
 					<li><a href="../../../families.html" title="Families">Families</a></li>
@@ -28,13 +39,43 @@
 					<li class = "CurrentSection"><a href="../../../places.html" title="Places">Places</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="PlaceDetail">
 			<h3>Gula Willan, Helsinki, Suomi</h3>
 			<div id="summaryarea">
@@ -57,7 +98,7 @@
 							<th class="ColumnAttribute">Enclosed By</th>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/5/5/cb589cc7f8d1b88b055.html" title="Helsinki">Helsinki</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/5/5/cb589cc7f8d1b88b055.html" title="Helsinki">Helsinki</a></td>
 						</tr>
 						<tr>
 							<td>
@@ -71,61 +112,65 @@
 				</table>
 			</div>
 			<div class="subsection narrative">
-				<h4>Narrative</h4>
-				<div class="grampsstylednote">
-					<p>
-					<strong>Tekoälyn hallusinoimaa tekstiä! Mitään oikeaa lähdettä väitteille ei ole löytynyt, ja kuulostaa muutenkin kaikin puolin keksityltä.</strong>
-					</p>
-					<p>
-					1830-luku oli Siltasaaressa muutosten aikaa. Vanha Hämeentie kunnostettiin ja sillat linjattiin Unioninkadun suoraksi jatkeeksi vuonna 1832. Tämä paransi saaren liikenneyhteyksiä ja houkutteli varakkaita porvareita rakentamaan sinne huviloita ja kesäasuntoja.
-					</p>
-					<p>
-					Kuuluisin näistä huviloista oli Gula Villan (Keltainen huvila), jonka kauppias Johan Fredrik Hackman rakennutti vuonna 1848. Hän oli myös yksi Sveaborgin linnoituksen perustajista ja Suomen ensimmäisen höyrylaivan omistajista. Hän kuoli kuitenkin jo seuraavana vuonna.
-					</p>
-					<p>
-					Gula Villan siirtyi Hackmanin kuoleman jälkeen useiden tunnettujen sukujen omistukseen, kuten von Wrighteille, Borgströmeille ja Lönnbohmeille. Se oli myös kulttuurinen keskus, jossa pidettiin kirjallisia salongeja, konsertteja ja näyttelyitä. Siellä vierailivat muun muassa Zacharias Topelius, Jean Sibelius ja Akseli Gallen-Kallela.
-					</p>
-					<p>
-					Gula Villan purettiin vuonna 1913 Lars Sonckin suunnitteleman uuden asuinkerrostalon tieltä. Sen paikalla on nykyään osoite Hämeentie 2.
-					</p>
-					<p>
-					&nbsp;
-					</p>
-				</div>
-				<h4>Narrative</h4>
-				<div class="grampsstylednote">
-					<p>
-					1855 henkikirjassa Langéen Gula Villan https://digihakemisto.net/item/2106353241/5728708528/822<br />
-					1856 henkikirjassa Langéen Gula Villan https://digihakemisto.net/item/2106370350/5646443436/697<br />
-					1857 henkikirjassa Langéen Gula Villan https://digihakemisto.net/item/2106384744/5321369633/767<br />
-					1858 henkikirjassa Langéen Gula Villan https://digihakemisto.net/item/2106400539/5672354319/586<br />
-					1859 henkikirjassa Langéen Gula Villan https://digihakemisto.net/item/2106413238/5272414717/924<br />
-					1860 henkikirjassa Langéen Gula Villan https://digihakemisto.net/item/2106432275/6189709949/807<br />
-					1861 henkikirjassa Langéen Gula Villan https://digihakemisto.net/item/2106449512/5321402690/787<br />
-					1862 henkikirjassa Langéen Gula Willan, ei löydy "Gloviken" https://digihakemisto.net/item/2106466065/5638268994/843<br />
-					1863 henkikirjassa Langéen Gloviken, ei löydy "Gula Willan" https://digihakemisto.net/item/2106484215/5686562909/978<br />
-					1864 henkikirjassa Langéen Gloviken https://digihakemisto.net/item/2106504498/5686614934/963<br />
-					1865 henkikirjassa Langéen Gloviken (alla lisäys ehkä Bredviken) https://digihakemisto.net/item/2106525843/6189777699/1098<br />
-					1866 henkikirjassa Langéen Gloviken https://digihakemisto.net/item/2106606547/5666900352/840<br />
-					1867 henkikirjassa Langéen Broholmen Gloviken https://digihakemisto.net/item/2106606547/5666900352/840<br />
-					1868 henkikirjassa Langéen Broholmen Gloviken https://digihakemisto.net/item/2106642856/5338221206/752<br />
-					1869 henkikirjassa Langéen Gloviken https://digihakemisto.net/item/2106679954/5298908480/830<br />
-					1870 henkikirjassa Langéen Gloviken Bredvik Broholmen https://digihakemisto.net/item/2106700678/6189822012/1315<br />
-					1871 henkikirjassa Langéen Gloviken och Broholmen: Bredvik https://digihakemisto.net/item/2106751690/5686508762/623<br />
-					1872 henkikirjassa Langéen Gloviken å Broholmen: Bredvik https://digihakemisto.net/item/2106781925/5298904371/560
-					</p>
-					<p>
-					&nbsp;
-					</p>
+				<h4>Notes</h4>
+				<div class="subsection narrative" id="toggle_note" style="display:block">
+					<h4>Note: 1 (Source text)</h4>
+					<div class="grampsstylednote">
+						<p>
+						<strong>Tekoälyn hallusinoimaa tekstiä! Mitään oikeaa lähdettä väitteille ei ole löytynyt, ja kuulostaa muutenkin kaikin puolin keksityltä.</strong>
+						</p>
+						<p>
+						1830-luku oli Siltasaaressa muutosten aikaa. Vanha Hämeentie kunnostettiin ja sillat linjattiin Unioninkadun suoraksi jatkeeksi vuonna 1832. Tämä paransi saaren liikenneyhteyksiä ja houkutteli varakkaita porvareita rakentamaan sinne huviloita ja kesäasuntoja.
+						</p>
+						<p>
+						Kuuluisin näistä huviloista oli Gula Villan (Keltainen huvila), jonka kauppias Johan Fredrik Hackman rakennutti vuonna 1848. Hän oli myös yksi Sveaborgin linnoituksen perustajista ja Suomen ensimmäisen höyrylaivan omistajista. Hän kuoli kuitenkin jo seuraavana vuonna.
+						</p>
+						<p>
+						Gula Villan siirtyi Hackmanin kuoleman jälkeen useiden tunnettujen sukujen omistukseen, kuten von Wrighteille, Borgströmeille ja Lönnbohmeille. Se oli myös kulttuurinen keskus, jossa pidettiin kirjallisia salongeja, konsertteja ja näyttelyitä. Siellä vierailivat muun muassa Zacharias Topelius, Jean Sibelius ja Akseli Gallen-Kallela.
+						</p>
+						<p>
+						Gula Villan purettiin vuonna 1913 Lars Sonckin suunnitteleman uuden asuinkerrostalon tieltä. Sen paikalla on nykyään osoite Hämeentie 2.
+						</p>
+						<p>
+						&nbsp;
+						</p>
+					</div>
+					<h4>Note: 2 (Research)</h4>
+					<div class="grampsstylednote">
+						<p>
+						1855 henkikirjassa Langéen Gula Villan https://digihakemisto.net/item/2106353241/5728708528/822<br />
+						1856 henkikirjassa Langéen Gula Villan https://digihakemisto.net/item/2106370350/5646443436/697<br />
+						1857 henkikirjassa Langéen Gula Villan https://digihakemisto.net/item/2106384744/5321369633/767<br />
+						1858 henkikirjassa Langéen Gula Villan https://digihakemisto.net/item/2106400539/5672354319/586<br />
+						1859 henkikirjassa Langéen Gula Villan https://digihakemisto.net/item/2106413238/5272414717/924<br />
+						1860 henkikirjassa Langéen Gula Villan https://digihakemisto.net/item/2106432275/6189709949/807<br />
+						1861 henkikirjassa Langéen Gula Villan https://digihakemisto.net/item/2106449512/5321402690/787<br />
+						1862 henkikirjassa Langéen Gula Willan, ei löydy "Gloviken" https://digihakemisto.net/item/2106466065/5638268994/843<br />
+						1863 henkikirjassa Langéen Gloviken, ei löydy "Gula Willan" https://digihakemisto.net/item/2106484215/5686562909/978<br />
+						1864 henkikirjassa Langéen Gloviken https://digihakemisto.net/item/2106504498/5686614934/963<br />
+						1865 henkikirjassa Langéen Gloviken (alla lisäys ehkä Bredviken) https://digihakemisto.net/item/2106525843/6189777699/1098<br />
+						1866 henkikirjassa Langéen Gloviken https://digihakemisto.net/item/2106606547/5666900352/840<br />
+						1867 henkikirjassa Langéen Broholmen Gloviken https://digihakemisto.net/item/2106606547/5666900352/840<br />
+						1868 henkikirjassa Langéen Broholmen Gloviken https://digihakemisto.net/item/2106642856/5338221206/752<br />
+						1869 henkikirjassa Langéen Gloviken https://digihakemisto.net/item/2106679954/5298908480/830<br />
+						1870 henkikirjassa Langéen Gloviken Bredvik Broholmen https://digihakemisto.net/item/2106700678/6189822012/1315<br />
+						1871 henkikirjassa Langéen Gloviken och Broholmen: Bredvik https://digihakemisto.net/item/2106751690/5686508762/623<br />
+						1872 henkikirjassa Langéen Gloviken å Broholmen: Bredvik https://digihakemisto.net/item/2106781925/5298904371/560
+						</p>
+						<p>
+						&nbsp;
+						</p>
+					</div>
 				</div>
 			</div>
-			<div id="popup"></div>
+			<div class="ol-popup" id="popup"><a class="ol-popup-closer" href="#" id="popup-closer"></a><div class="ol-popup-title" id="popup-title"></div><div id="popup-content"></div></div>
+			<div class="ol-popup" id="tooltip"><div id="tooltip-content"></div></div>
 			<div class="subsection" id="references">
 				<h4>References</h4>
 				<ol class="Col1" role="Volume-n-Page" type=1>
 					<li>
-						<a href="../../../ppl/f/e/cb589cc83d1028d9fef.html">
-						Nordberg, Ferdinand
+						<a href="../../../ppl/a/2/cb589cc83ac79e7ec2a.html">
+						Holmström, Sofia Wilhelmina
 						 (1869) 
 						
 						</a>
@@ -138,8 +183,8 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/a/2/cb589cc83ac79e7ec2a.html">
-						Holmström, Sofia Wilhelmina
+						<a href="../../../ppl/f/e/cb589cc83d1028d9fef.html">
+						Nordberg, Ferdinand
 						 (1869) 
 						
 						</a>
@@ -147,7 +192,7 @@
 					<li>
 						<a href="../../../ppl/f/e/cb589cc83d1028d9fef.html">
 						Nordberg, Ferdinand
-						 (after 1869-12-00) 
+						 (after 1869-12 Residence) 
 						
 						</a>
 					</li>
@@ -159,15 +204,15 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/f/e/cb589cc83d1028d9fef.html">
-						Nordberg, Ferdinand
+						<a href="../../../fam/f/6/cb589cc803c2012656f.html">
+						Family of Nordberg, Ferdinand and Holmström, Sofia Wilhelmina
 						 (1870-06-06) 
 						
 						</a>
 					</li>
 					<li>
-						<a href="../../../fam/f/6/cb589cc803c2012656f.html">
-						Family of Nordberg, Ferdinand and Holmström, Sofia Wilhelmina
+						<a href="../../../ppl/f/e/cb589cc83d1028d9fef.html">
+						Nordberg, Ferdinand
 						 (1870-06-06) 
 						
 						</a>
@@ -175,42 +220,42 @@
 					<li>
 						<a href="../../../ppl/8/8/cb589cc80270f9c6988.html">
 						Nordberg, Emil Ferdinand
-						 (1871-01-19) 
+						 (1871-01-19 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/4/0/cb589cc84347c619504.html">
 						Nordberg, Maria Charlotta Wilhelmina
-						 (1873-06-07) 
+						 (1873-06-07 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/f/c/cb589cc84532e6710cf.html">
 						Nordberg, Viktor Leonard
-						 (1875-11-13) 
+						 (1875-11-13 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/f/c/cb589cc84532e6710cf.html">
 						Nordberg, Viktor Leonard
-						 (1877-04-30) 
+						 (1877-04-30 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/b/1/cb589cc847f6455821b.html">
 						Nordberg, Elin Maria
-						 (1877-07-13) 
+						 (1877-07-13 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/c/6/cb589cc84a03bdf266c.html">
 						Nordberg, Viktor Ferdinand
-						 (1882-02-19) 
+						 (1882-02-19 Birth) 
 						
 						</a>
 					</li>
@@ -220,7 +265,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2024-02-11 16:23:10<br />Created for Entire Database
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2<br />Last change was the 2024-02-11 16:23:10<br />Created for Entire Database
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

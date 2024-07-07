@@ -1,26 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>Nordberg Family Tree - Families</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">Nordberg Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">Nordberg Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li><a href="individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="index.html" title="Surnames">Surnames</a></li>
 					<li class = "CurrentSection"><a href="families.html" title="Families">Families</a></li>
@@ -28,20 +39,50 @@
 					<li><a href="places.html" title="Places">Places</a></li>
 					<li><a href="sources.html" title="Sources">Sources</a></li>
 					<li><a href="repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="media.html" title="Media">Media</a></li>
-					<li><a href="thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="updates.html" title="Updates">Updates</a></li>
 					<li><a href="statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="Relationships">
 			<p id="description">
 			This page contains an index of all the families/ relationships in the database, sorted by their family name/ surname. Clicking on a person&#8217;s name will take you to their family/ relationship&#8217;s page.
 			</p>
-			<div id="alphanav">
-				<ul>
-					<li><a href="#&nbsp;" title="Alphabet Menu: &nbsp;">&nbsp;</a></li>
+			<div id="ltr">
+				<ul class="ltr">
+					<li><a href="#…" title="Alphabet Menu: …">…</a></li>
 					<li><a href="#A" title="Alphabet Menu: A">A</a></li>
 					<li><a href="#B" title="Alphabet Menu: B">B</a></li>
 					<li><a href="#C" title="Alphabet Menu: C">C</a></li>
@@ -66,7 +107,7 @@
 					<li><a href="#W" title="Alphabet Menu: W">W</a></li>
 				</ul>
 			</div>
-			<table class="infolist relationships">
+			<table class="infolist relationships ltr">
 				<thead>
 					<tr>
 						<th class="ColumnRowLabel">Letter</th>
@@ -77,9 +118,11 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr class ="BeginFamily">
+					<tr class="BeginLetter BeginFamily">
 						<td class="ColumnRowLabel">
-							<a name="&nbsp;" title="Families beginning with letter &nbsp;">&nbsp;</a>
+							<a id="…" name="…" title="Families beginning with letter …">
+							…
+							</a>
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/4/f15116b8ca023f7d8124e897a43.html">, Albert Johansson</a>
@@ -95,7 +138,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/1/df6b21c5d695f2c3b272312bb1f.html">, Alexandra Enokintytär</a>
@@ -111,7 +153,21 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
+						</td>
+						<td class="ColumnPartner">
+							<a href="ppl/a/9/fa5928953ac43562e1a84e71c9a.html">, Anders Johansson</a>
+						</td>
+						<td class="ColumnPartner">
+							<a href="fam/5/6/fa5928473bc6e0a9d67f279965.html" title="Family of , Anders Johansson and , Caisa Matsdotter">
+							Family of , Anders Johansson and , Caisa Matsdotter
+							
+							</a>
+						</td>
+						<td class="ColumnDate">before 1759</td>
+						<td class="ColumnDate">&nbsp;</td>
+					</tr>
+					<tr class ="BeginFamily">
+						<td class="ColumnRowLabel">
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/5/6/cb589ceaf9211094265.html">, Anders Mattsson</a>
@@ -127,7 +183,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -143,7 +198,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/a/6/ce849db87a510e0466a.html">, Anna Carolina Johansdotter</a>
@@ -159,7 +213,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -175,7 +228,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/f/cea5bdd36ee6d8e76f8.html">, Anna Christina Mattsdotter</a>
@@ -191,7 +243,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -207,7 +258,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/9/cb589ccf3f451e7d793.html">, Anna Eliasdotter</a>
@@ -223,7 +273,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/6/d94b39a138a18aba509a80cc368.html">, Anna Ersdotter</a>
@@ -239,7 +288,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/8/cea5bd4d31d4851a584.html">, Anna Gretha Johansdotter</a>
@@ -255,7 +303,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/1/a/ec00029b896270a220b21f3c3a1.html">, Anna Hansdotter</a>
@@ -271,7 +318,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/2/cdcccf793e44637bd23.html">, Anna Johansdotter</a>
@@ -287,7 +333,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/0/5/cb589cd2e0e595df650.html">, Anna Johansdotter</a>
@@ -303,7 +348,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/c/ebd425f4bdf7a6e6076dd537ac7.html">, Anna Larsdotter</a>
@@ -319,7 +363,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/0/4/db77e4fe06e248239f48c501040.html">, Anna Lisa Gustafsdotter</a>
@@ -335,7 +378,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/c/db8bd5742505843c32619cb8c6.html">, Anna Lovisa Johansdotter</a>
@@ -351,7 +393,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/3/ed1428675536225e1b7b7b87a34.html">, Anna Mattsdotter</a>
@@ -367,7 +408,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/2/d1cd144b94c5e70ef2f.html">, Anna Michelsdotter</a>
@@ -383,7 +423,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/b/5/e37e1309827750365ce2ab68e5b.html">, Anna Stina Jonaedotter</a>
@@ -399,7 +438,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/1/cb589cd98765579f41c.html">, Anna Thomasdotter</a>
@@ -415,7 +453,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/e/e/cf96689c0f3134f33ee.html">, August Gustafsson</a>
@@ -431,7 +468,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/b/d8aa956fd93afcc2976047deb9.html">, August Lundström</a>
@@ -447,7 +483,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/1/9/cb589ceafee33b69191.html">, Beata Mattsdotter</a>
@@ -463,7 +498,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/b/cea5bfedcac46bfefb4.html">, Caisa Hansdotter</a>
@@ -479,7 +513,21 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
+						</td>
+						<td class="ColumnPartner">
+							<a href="ppl/5/8/ec00c4a3d9d13c44f52ae99af85.html">, Caisa Matsdotter</a>
+						</td>
+						<td class="ColumnPartner">
+							<a href="fam/5/6/fa5928473bc6e0a9d67f279965.html" title="Family of , Anders Johansson and , Caisa Matsdotter">
+							Family of , Anders Johansson and , Caisa Matsdotter
+							
+							</a>
+						</td>
+						<td class="ColumnDate">before 1759</td>
+						<td class="ColumnDate">&nbsp;</td>
+					</tr>
+					<tr class ="BeginFamily">
+						<td class="ColumnRowLabel">
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/6/cb589ccedf829c98867.html">, Carl Johansson</a>
@@ -495,7 +543,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/6/cb589ccec366d226d64.html">, Catharina Henricsdotter</a>
@@ -511,7 +558,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/b/8/ebd6f62c00c7dd77db2a60b7c8b.html">, Catharina Jonasdotter</a>
@@ -527,7 +573,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/5/cb589ccbd96066ca75c.html">, Christina Henricsdotter</a>
@@ -543,7 +588,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -559,7 +603,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/e/cb589ccba855090aae4.html">, Edla Isaacsdotter</a>
@@ -575,7 +618,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -591,7 +633,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/1/cf83a546edb2f344c19.html">, Eeva Kristiina</a>
@@ -607,7 +648,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/d/ed00d8e90512e14f3402124c1d4.html">, Elias Olofsson</a>
@@ -623,7 +663,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/4/cb589cd9a3702639a44.html">, Elisabet Eriksdotter</a>
@@ -639,7 +678,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/2/cb589ceb10f169fa028.html">, Elisabet Hansdotter</a>
@@ -655,7 +693,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/3/db88d5b26e422a094e89de6843f.html">, Elisabeth Johansdotter</a>
@@ -671,7 +708,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/b/3/f381fea59d04253813667eadd3b.html">, Emma Sofia Andersdotter</a>
@@ -687,7 +723,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/4/cb589cdf595615c9947.html">, Engla Maria Johansdotter</a>
@@ -703,7 +738,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/a/0/f121f7cc58a3bf2620df1e8d50a.html">, Eric Ericsson</a>
@@ -719,7 +753,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/c/cb589cd430675abaac9.html">, Eric Ericsson</a>
@@ -735,7 +768,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/e/ed14284edc2b94ab6220f430e9.html">, Eric Mattsson</a>
@@ -751,7 +783,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/0/c/cb589cd42e10ad532c0.html">, Eric Mattsson</a>
@@ -767,7 +798,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -783,7 +813,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/0/5/cb589cd98a44c40b850.html">, Erik Jöransson</a>
@@ -799,7 +828,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/3/cb589cd51e54c2fb934.html">, Erika Vilhelmina Hansdotter</a>
@@ -815,7 +843,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/e/d1cd1022dab4ede98ef.html">, Eva Stina Thomasdotter</a>
@@ -831,7 +858,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/1/2/cf967ec55355c43c821.html">, Fredrica Gustafva Ericsdotter</a>
@@ -847,7 +873,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/5/6/f121f9c5d7147577ccfedd94065.html">, Greta Hansdotter</a>
@@ -863,7 +888,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/6/ebb0a58377737ed4b8c6631c764.html">, Greta Johansdotter</a>
@@ -879,7 +903,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/1/d931beb3f7a1dbda52852432a19.html">, Göran Johansson</a>
@@ -895,7 +918,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/9/cb589cd984027c81e9f.html">, Göran Thomasson</a>
@@ -911,7 +933,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/c/cb589ce0681561fa0c7.html">, Hans Eriksson</a>
@@ -927,7 +948,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/5/cb589cd16f41591ce58.html">, Hans Samuelsson</a>
@@ -943,7 +963,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/4/db88f11d0991d93d4c154da9643.html">, Hedda Johansdotter</a>
@@ -959,7 +978,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/6/ec074ff027a5647c718b58a9668.html">, Hedwig Henricsdotter</a>
@@ -975,7 +993,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -991,7 +1008,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/2/3/cb589ccbcb82fdc1632.html">, Hedwig Johansdotter</a>
@@ -1007,7 +1023,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/a/8/cb589cced973d0ae18a.html">, Helena Ericsdotter</a>
@@ -1023,7 +1038,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/f/cb589ccf05f327c59fd.html">, Henric Matsson</a>
@@ -1039,7 +1053,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/5/2/cb589cdf64430166525.html">, Hilda Sofia Johansdotter</a>
@@ -1055,7 +1068,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/e/cb589cd26eb525e6be4.html">, Hinrich Matsson</a>
@@ -1071,7 +1083,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/e/7/cb589cce6c6503d9a7e.html">, Isaac Thomasson</a>
@@ -1087,7 +1098,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -1103,7 +1113,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -1119,7 +1128,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/1/db8b61133794a694a5c6ca5819.html">, Johan Andersson</a>
@@ -1135,7 +1143,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/2/e/cf9673bb247774de3e2.html">, Johan Carlsson</a>
@@ -1151,7 +1158,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/a/cb589cced6c188d19a3.html">, Johan Henricsson</a>
@@ -1167,7 +1173,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/5/cb589cdf5e30746d45f.html">, Johan Herman Johansson</a>
@@ -1183,7 +1188,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/7/cb589ccec504a61ee7c.html">, Johan Mattsson</a>
@@ -1199,7 +1203,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/b/df69b1a3cfc28ee5fd9136572bf.html">, Johanna Isaksdotter</a>
@@ -1215,7 +1218,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/2/c/cf966dc86d233ff50c2.html">, Johannes Johansson</a>
@@ -1231,7 +1233,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/2/ecfa50b22b076ae1d19f6d35d26.html">, Jonas Arvidsson</a>
@@ -1247,7 +1248,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/5/cb589ccf07425d5435f.html">, Lena Danielsdotter</a>
@@ -1263,7 +1263,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/5/9/cb589ce078b19c19395.html">, Lisa Eriksdotter</a>
@@ -1279,7 +1278,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/2/f38280dfa37700f510763438529.html">, Lovisa Jonadotter</a>
@@ -1295,7 +1293,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/b/d/ebd72e50d9e26d37402264eb5db.html">, Maja Hindricsdotter</a>
@@ -1311,7 +1308,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/b/d/e9056c9f1ca6adaca885c9841db.html">, Maja Lena Gustafsdotter</a>
@@ -1327,7 +1323,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/7/cb589cce33e62f52c74.html">, Margareta Ericsdotter</a>
@@ -1343,7 +1338,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -1359,7 +1353,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/2/d/cb589cd9993629d7ed2.html">, Margareta Henricsdotter</a>
@@ -1375,7 +1368,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/6/cb589cce672340dc063.html">, Margareta Jöransdotter</a>
@@ -1391,7 +1383,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -1407,7 +1398,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/2/cb589cd42b25d62d627.html">, Margareta Jöransdotter</a>
@@ -1423,7 +1413,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/0/d/cb589ce058e687885d0.html">, Margetha Thomasdotter</a>
@@ -1439,7 +1428,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/f/ebd9c34715d7d6ef57044ad5df9.html">, Maria</a>
@@ -1455,7 +1443,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/5/cb589ce635a30882b5f.html">, Maria Alina / Lina Henriksdotter Isaksson</a>
@@ -1471,7 +1458,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/0/2/ecfa51daddc4382ee7d9d028c20.html">, Maria Andersdotter</a>
@@ -1487,7 +1473,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/3/cb589ccc20413f61d39.html">, Maria Aurora Ottosdotter</a>
@@ -1503,7 +1488,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/3/cea5c07b19e16a73a39.html">, Maria Elisabeth Michelsdotter</a>
@@ -1519,7 +1503,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/7/cea5bc69b061d0c117c.html">, Maria Helena Gustafsdotter</a>
@@ -1535,7 +1518,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/5/e/cb589cce090260294e5.html">, Maria Henricsdotter</a>
@@ -1551,7 +1533,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/f/cf9684c1797418d3ff6.html">, Maria Johansdotter</a>
@@ -1567,7 +1548,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/c/cea5b9c68cd4e2b90c7.html">, Maria Lovisa Johansdotter</a>
@@ -1583,7 +1563,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/0/db77ba49bfe29468bb8bd729a0d.html">, Maria Mattsdotter</a>
@@ -1599,7 +1578,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/5/9/db8ac33956f9e42e2dca3cd195.html">, Maria Serafia Johansdotter</a>
@@ -1615,7 +1593,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/a/db77f97b87c12c19b94f4b66da7.html">, Maria Simonsdotter</a>
@@ -1631,7 +1608,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/a/8/cb589cd5e727bdf948a.html">, Maria Thomasdotter</a>
@@ -1647,7 +1623,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/2/cb589ccf354099b052c.html">, Mathias Henricsson</a>
@@ -1663,7 +1638,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/2/8/cea5b5f465a781c6e82.html">, Mathilda Andersdotter</a>
@@ -1679,7 +1653,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/c/ec00020f95ef8bca201db78ac3.html">, Mats Claesson</a>
@@ -1695,7 +1668,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/f/d94b3966ceb183addc7266cd9fc.html">, Mats Henricsson</a>
@@ -1711,7 +1683,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/3/cb589cd99a96f21e63d.html">, Matts Henricsson</a>
@@ -1727,7 +1698,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/6/cb589cd2de87e9d426d.html">, Matts Mårtensson</a>
@@ -1743,7 +1713,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/5/f/d1cd0fdc8f30fb2abf5.html">, Michel Michelsson</a>
@@ -1759,7 +1728,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/1/df6ad7fa78a215766ee33b66213.html">, Otto Selim Johansson</a>
@@ -1775,7 +1743,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/2/f/eced977b6a957f4acc3034c06f2.html">, Sandra</a>
@@ -1791,7 +1758,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/1/6/cea12275cdd132f5c61.html">, Serafia Juhontytär</a>
@@ -1807,7 +1773,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/5/e/cb589ce05556f4997e5.html">, Simon Thomasson</a>
@@ -1823,7 +1788,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/b/5/cb589cd1a801c9ab65b.html">, Sophia Thomasdotter</a>
@@ -1839,7 +1803,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/5/4/ed00df2768f38f83b8b8e76e245.html">, Stina Christersdotter</a>
@@ -1855,7 +1818,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/a/cb589ceb0340c60cea4.html">, Thomas Mattsson</a>
@@ -1871,7 +1833,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -1885,9 +1846,11 @@
 						<td class="ColumnDate">1737-11-21</td>
 						<td class="ColumnDate">&nbsp;</td>
 					</tr>
-					<tr class ="BeginFamily">
+					<tr class="BeginLetter BeginFamily">
 						<td class="ColumnRowLabel">
-							<a name="A" title="Families beginning with letter A">A</a>
+							<a id="A" name="A" title="Families beginning with letter A">
+							A
+							</a>
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/8/cb589ccc1ba34111084.html">Ahlberg, Amanda Aurora</a>
@@ -1903,7 +1866,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/b/ce8259444127a2fadb4.html">Ahlberg, Johan Aron</a>
@@ -1919,7 +1881,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/d/cb589ccc0b218bf79dd.html">Ahlberg, Johan Emil</a>
@@ -1935,7 +1896,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/f/cb589ccbed97a687efc.html">Ahlberg, Josefina Wilhelmina</a>
@@ -1951,7 +1911,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/4/cb589ccbf013606ba4c.html">Ahlberg, Maria Sofia</a>
@@ -1965,9 +1924,11 @@
 						<td class="ColumnDate">1883-11-01</td>
 						<td class="ColumnDate">&nbsp;</td>
 					</tr>
-					<tr class ="BeginFamily">
+					<tr class="BeginLetter BeginFamily">
 						<td class="ColumnRowLabel">
-							<a name="B" title="Families beginning with letter B">B</a>
+							<a id="B" name="B" title="Families beginning with letter B">
+							B
+							</a>
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/1/4/e8f120c24026abe4851030efd41.html">Backman, Anders</a>
@@ -1983,7 +1944,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/c/cf99c128c763502accd.html">Backman, Maria Sofia</a>
@@ -1999,7 +1959,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/5/6/f7ffcc57c0f319e2b512ebbec65.html">Bäckström, Gunnar Waldemar</a>
@@ -2015,7 +1974,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/c/f1511a88336c4a0f0034cf44cf.html">Bäckström, Mathilda Charlotta</a>
@@ -2031,7 +1989,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/e/f/cb589cef1be73e25dfe.html">Bergman, Berta Johanna</a>
@@ -2047,7 +2004,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/e/9/cb589ce34d37c5ce89e.html">Bergman, Gustaf Albert Richard</a>
@@ -2063,7 +2019,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/2/f36b59ed55d7bfc28a6d4a73424.html">Bergvall, Gustaf Adolf Gunnar</a>
@@ -2079,7 +2034,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/2/6/cb589ce4d680d56a462.html">Björkman, Anna Cristina</a>
@@ -2095,7 +2049,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/3/cb589cdbef71dd38d3f.html">Björkman, Anna Maria</a>
@@ -2111,7 +2064,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/5/3/cb589ce56de5e35b235.html">Björkman, Carl Johan</a>
@@ -2127,7 +2079,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/0/9/cb589cdbeb27440f790.html">Björkman, Carl Robert</a>
@@ -2143,7 +2094,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/2/cb589cf131477bd5428.html">Björkman, Charlotta Gustafa</a>
@@ -2159,7 +2109,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/e/4/cb589cd1fbe6cd6ee4e.html">Björkman, Erik Johan</a>
@@ -2175,7 +2124,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/e/9/cb589cdbed9754c859e.html">Björkman, Eva Elisabet / Lisa Björkman</a>
@@ -2191,7 +2139,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/e/cb589ce55d040fb67e6.html">Björkman, Eva Karolina</a>
@@ -2207,7 +2154,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/a/0/cb589cd200253f37b0a.html">Björkman, Eva Sofia</a>
@@ -2223,7 +2169,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/e/cb589ce4d4a596b4aef.html">Björkman, Fredrika</a>
@@ -2239,7 +2184,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/1/f/cb589cdbe6f0d8900f1.html">Björkman, Johan Erik</a>
@@ -2255,7 +2199,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/b/e/cb589cd1fdd2794e8eb.html">Björkman, Magnus</a>
@@ -2271,7 +2214,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/2/7/cb589ce56b679ed8b72.html">Björkman, Serafina</a>
@@ -2287,7 +2229,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/c/cb589cdcb8503de13c7.html">Björkman, Viktorina</a>
@@ -2303,7 +2244,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/c/cb589cf5f9c741fa4cd.html">Blom, Anna Ottilia</a>
@@ -2319,7 +2259,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/5/cb589cf6131329ad25d.html">Blom, Erik Valdemar</a>
@@ -2335,7 +2274,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -2351,7 +2289,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/e/cb589cf5f38355e3ce3.html">Blom, Gustaf Adolf</a>
@@ -2367,7 +2304,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/d/cb589cf645f476102d6.html">Blomqvist, Aili Adéle</a>
@@ -2383,7 +2319,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/0/9/cb589cf639d27144290.html">Blomqvist, Edit Maria</a>
@@ -2399,7 +2334,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/1/e90893c0a5cd0fe9c9c7ac3d13.html">Blomqvist, Sofia Lovisa</a>
@@ -2415,7 +2349,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/4/db77b7844174937ebe591f4a846.html">Borg, Helena Eriksdotter</a>
@@ -2431,7 +2364,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/e/5/cf9664eb3f407eaea5e.html">Brandt, Otto Vilhelm</a>
@@ -2447,7 +2379,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/a/0/cb589ce92bc5e208d0a.html">Brandt, Runar Wilhelm</a>
@@ -2463,7 +2394,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/7/cb589cce5982a8fd87c.html">Broström, Eric Ericsson</a>
@@ -2479,7 +2409,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/6/cb589cd18ff4c60db6f.html">Broström, Maria Sofia</a>
@@ -2495,7 +2424,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/7/cb589cd967a01f04377.html">Brunström, Henrik August</a>
@@ -2509,9 +2437,11 @@
 						<td class="ColumnDate">&nbsp;</td>
 						<td class="ColumnDate">&nbsp;</td>
 					</tr>
-					<tr class ="BeginFamily">
+					<tr class="BeginLetter BeginFamily">
 						<td class="ColumnRowLabel">
-							<a name="C" title="Families beginning with letter C">C</a>
+							<a id="C" name="C" title="Families beginning with letter C">
+							C
+							</a>
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/c/ebd6f2952ab329f7cd89b2d33cf.html">Curlander, Henric</a>
@@ -2527,7 +2457,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -2543,7 +2472,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -2559,7 +2487,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/e/ebc32dd0e3b5f3bbf2e85854eec.html">Curlander, Maria Henricsdotter</a>
@@ -2573,9 +2500,11 @@
 						<td class="ColumnDate">1773-01-24</td>
 						<td class="ColumnDate">&nbsp;</td>
 					</tr>
-					<tr class ="BeginFamily">
+					<tr class="BeginLetter BeginFamily">
 						<td class="ColumnRowLabel">
-							<a name=" " title="Families beginning with letter  "> </a>
+							<a id="E" name="E" title="Families beginning with letter E">
+							E
+							</a>
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/3/cb589cdae9945b46b3d.html">Ekholm, Adolf Viktor</a>
@@ -2591,7 +2520,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/e/cb589cdaf2b161df0e6.html">Ekholm, Eva Gustava</a>
@@ -2607,7 +2535,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/e/cb589ce35640fbd71ec.html">Ekholm, Karl Edvin</a>
@@ -2623,7 +2550,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/a/7/cb589cdaf4830a2a67a.html">Ekholm, Klara Teresia</a>
@@ -2639,7 +2565,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/5/3/cb589ceb12c586e3835.html">Eklund, Fredrik Hansson</a>
@@ -2655,7 +2580,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/6/cb589cd3e2464cfec6f.html">Elgström, Anna Erica</a>
@@ -2671,7 +2595,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/6/cb589ccead339727b64.html">Elgström, Eva Maria</a>
@@ -2687,7 +2610,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/3/cb589cd3e851b890138.html">Elgström, Gustaf Adolf</a>
@@ -2703,7 +2625,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/0/a/cf83ab4bfc4489a6ea0.html">Elo, Vihtori</a>
@@ -2719,7 +2640,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/e/8/e908b555c4846db2c292a5ae18e.html">Enberg, Hedvig Lovisa</a>
@@ -2735,7 +2655,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/5/3/df5016ac7c2758219356fc4ed35.html">Enqvist, Kaarlo Kustaa</a>
@@ -2751,7 +2670,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/b/f808e7bc5c139cf528b5f2df2bf.html">Enqvist, Wilhelmina Elisabeth</a>
@@ -2767,7 +2685,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/c/e908deba4db6b6f5bce522a03cf.html">Eskolin, Anna Lovisa</a>
@@ -2781,9 +2698,11 @@
 						<td class="ColumnDate">1843-10-26</td>
 						<td class="ColumnDate">&nbsp;</td>
 					</tr>
-					<tr class ="BeginFamily">
+					<tr class="BeginLetter BeginFamily">
 						<td class="ColumnRowLabel">
-							<a name="F" title="Families beginning with letter F">F</a>
+							<a id="F" name="F" title="Families beginning with letter F">
+							F
+							</a>
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/6/cb589ce01494754ba67.html">Fagerholm, Aina Irene</a>
@@ -2799,7 +2718,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/2/cb589ce018564c3e62f.html">Fagerholm, Anni Aurora</a>
@@ -2815,7 +2733,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/d/cb589cd958d710d99d9.html">Fagerholm, Berndt August</a>
@@ -2831,7 +2748,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/d/cb589ce00f74110a5dc.html">Fagerholm, Fridolf Leonard</a>
@@ -2847,7 +2763,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/2/cb589cd95a91988c428.html">Fagerholm, Johan Edvin</a>
@@ -2863,7 +2778,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/3/cb589ce016674d2d239.html">Fagerholm, Olga Kristina Vilhelmina</a>
@@ -2879,7 +2793,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/9/cb589cd957211aed794.html">Fagerholm, Otto Fridolf</a>
@@ -2895,7 +2808,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/e/2/f150cdb524e200b5b297b815a2e.html">Fagerström, Johan</a>
@@ -2911,7 +2823,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/5/b/cb589cd5a78350bceb5.html">Fibelkorn, Eva Sofia</a>
@@ -2927,7 +2838,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -2943,7 +2853,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/7/cb589cd59e7103bee77.html">Fibelkorn, Karolina</a>
@@ -2959,7 +2868,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/f/cb589cd5a425da2a6f3.html">Fibelkorn, Klara Erika</a>
@@ -2975,7 +2883,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -2991,7 +2898,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/f/cb589cd1a3463a1eff8.html">Fibelkorn, Lovisa Jöransdotter</a>
@@ -3007,7 +2913,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/a/cb589cd5a15423180ad.html">Fibelkorn, Lovisa Ulrika</a>
@@ -3023,7 +2928,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/e/e820bf91e7159e5183e46e425ed.html">Finnberg, Maria Mathilda</a>
@@ -3039,7 +2943,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -3055,7 +2958,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -3071,7 +2973,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/a/5/cea5ce599ff38d3575a.html">Forsblom, Johan</a>
@@ -3087,7 +2988,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/1/8/cb589cceed0597fda81.html">Forsblom, Johan Fredric</a>
@@ -3103,7 +3003,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/0/cb589cceea947c3fd08.html">Forsblom, Maria Sofia</a>
@@ -3119,7 +3018,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/6/cb589cda7a80e66f664.html">Forsström, Axel Waldemar</a>
@@ -3135,7 +3033,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/e/cb589cda94d1d591be9.html">Forsström, Julia Irene</a>
@@ -3151,7 +3048,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/4/cb589cdab4f0204504c.html">Förström, Johan August</a>
@@ -3167,7 +3063,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/2/4/cb589ce290173420542.html">Förström, Johan Gregorius</a>
@@ -3183,7 +3078,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/0/cb589ce28bd0c218c0f.html">Förström, Karl August</a>
@@ -3199,7 +3093,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/c/cb589cee2bd59680ec6.html">Förström, Karl Bruno</a>
@@ -3215,7 +3108,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/a/8/cb589cd5191762b0e8a.html">Förström, Karl Edvard</a>
@@ -3231,7 +3123,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/0/1/cea5b7bf5c24114ea10.html">Frejborg, Helena Sophia Carlsdotter</a>
@@ -3247,7 +3138,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/2/9/d8a74905c44ccfeb3ed64fad92.html">Frisk, Anna Maja</a>
@@ -3261,9 +3151,11 @@
 						<td class="ColumnDate"></td>
 						<td class="ColumnDate"></td>
 					</tr>
-					<tr class ="BeginFamily">
+					<tr class="BeginLetter BeginFamily">
 						<td class="ColumnRowLabel">
-							<a name="G" title="Families beginning with letter G">G</a>
+							<a id="G" name="G" title="Families beginning with letter G">
+							G
+							</a>
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/b/1/db8b61e02fd5924e2f6bd903d1b.html">Gahm, Albertina</a>
@@ -3279,7 +3171,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/5/cb589cce2df089a9958.html">Grabb, Fredrik Eriksson</a>
@@ -3295,7 +3186,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/9/cb589cdd14f7cfbf697.html">Granholm, John August</a>
@@ -3311,7 +3201,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/4/cb589cdb1b77f41be44.html">Grönroos, August Wilhelm</a>
@@ -3327,7 +3216,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -3343,7 +3231,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/f/cb589cd6afb06c03efd.html">Grönroos, Fredrika Charlotta</a>
@@ -3357,9 +3244,11 @@
 						<td class="ColumnDate">&nbsp;</td>
 						<td class="ColumnDate">&nbsp;</td>
 					</tr>
-					<tr class ="BeginFamily">
+					<tr class="BeginLetter BeginFamily">
 						<td class="ColumnRowLabel">
-							<a name="H" title="Families beginning with letter H">H</a>
+							<a id="H" name="H" title="Families beginning with letter H">
+							H
+							</a>
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/0/cea0c6574c440277107.html">Hagfors, Edla Johansdotter</a>
@@ -3375,7 +3264,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/6/db77e45962130d2e335d852ad68.html">Hagfors, Johan Michelsson</a>
@@ -3391,7 +3279,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -3407,7 +3294,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/0/2/dd20ac6d3a16d45d4d0a9116920.html">Häll, Amanda</a>
@@ -3423,7 +3309,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/6/f5e5b3ce0c62b70519922135369.html">Häll, Wilhelm Henriksson</a>
@@ -3439,7 +3324,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/e/a/cea5c9e6aae6267a1ae.html">Hämäläin, Anna Caisa</a>
@@ -3455,7 +3339,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/8/f150a2d991d3883684f326f0686.html">Harlin, Alexander</a>
@@ -3471,7 +3354,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -3487,7 +3369,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/1/d/f7caf20ec903e9e778d5aeef6d1.html">Harlin, Salomon</a>
@@ -3503,7 +3384,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/5/9/f35f5dab0405949191dcd156695.html">Hjorth, Karl Alfons</a>
@@ -3519,7 +3399,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/1/9/df9726f602e598601c419313491.html">Holmberg, Hedda Lovisa</a>
@@ -3535,7 +3414,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/1/4/cb589ce2cbb287e4441.html">Holmström, Adolf Fredrik</a>
@@ -3551,7 +3429,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/e/f/cb589ce2ee431e1e1fe.html">Holmström, Adolf Waldemar</a>
@@ -3567,7 +3444,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/f/cb589cd66316a3acdf3.html">Holmström, Agda Augusta</a>
@@ -3583,7 +3459,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/2/cb589cd65a63ae7f328.html">Holmström, Aina Matilda</a>
@@ -3599,7 +3474,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/8/cb589ce30162207578c.html">Holmström, Albert Gotthard</a>
@@ -3615,7 +3489,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/3/cb589cdade205d4933f.html">Holmström, Alexander Ferdinand</a>
@@ -3631,7 +3504,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/5/b/cb589cdc97c6fdf6db5.html">Holmström, Alexander Niktor</a>
@@ -3647,7 +3519,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/f/cb589cd67987a2ed1fd.html">Holmström, Alina Charlotta</a>
@@ -3663,7 +3534,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -3679,7 +3549,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/b/4/cb589ce2d6819bb7f4b.html">Holmström, Alma Elenora</a>
@@ -3695,7 +3564,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/e/7/cb589cd668d4b49fa7e.html">Holmström, Anna Alexandra</a>
@@ -3711,7 +3579,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/8/cb589cdca0077da6188.html">Holmström, Anna Cecilia</a>
@@ -3727,7 +3594,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/3/cb589ce1b055ddde13d.html">Holmström, Arthur Wilhelm</a>
@@ -3743,7 +3609,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/c/cb589cd65d55bb123c8.html">Holmström, Artur Albert</a>
@@ -3759,7 +3624,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/b/0/cb589cdcd473359d90b.html">Holmström, Artur Armas</a>
@@ -3775,7 +3639,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/4/cb589ce1bcb7aeb1046.html">Holmström, Arvid</a>
@@ -3791,7 +3654,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/0/cb589cdd3c75c086f0c.html">Holmström, August Evert</a>
@@ -3807,7 +3669,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -3823,7 +3684,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/b/cb589ce2cf65bf7deb3.html">Holmström, Cecilia Wilhelmina</a>
@@ -3839,7 +3699,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/a/cb589ce1ced1f7fa8a7.html">Holmström, Doris</a>
@@ -3855,7 +3714,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/1/6/cb589cdca300e3cb161.html">Holmström, Edit Sofia</a>
@@ -3871,7 +3729,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/3/cb589ce2dfa20237334.html">Holmström, Edvard Wilhelm</a>
@@ -3887,7 +3744,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/0/a/cb589cdc9a12db4a8a0.html">Holmström, Elina Alexandra</a>
@@ -3903,7 +3759,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/3/cb589cdad9913934636.html">Holmström, Elvina Lovisa</a>
@@ -3919,7 +3774,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/5/c/cb589cd656e74269ec5.html">Holmström, Erik Viktor</a>
@@ -3935,7 +3789,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -3951,7 +3804,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/a/cb589ce1c582355f9a3.html">Holmström, Gerda</a>
@@ -3967,7 +3819,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/e/9/cb589cd648d2cf3159e.html">Holmström, Gustaf Adolf</a>
@@ -3983,7 +3834,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/d/cb589cdac4b4d3b41d9.html">Holmström, Gustaf Adolf</a>
@@ -3999,7 +3849,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/e/4/cb589cc8ec053a33e4e.html">Holmström, Gustaf Adolph</a>
@@ -4015,7 +3864,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/1/2/cb589ce2c9316f73c21.html">Holmström, Gustaf Maximinus</a>
@@ -4026,12 +3874,11 @@
 							
 							</a>
 						</td>
-						<td class="ColumnDate">1892-05-00</td>
+						<td class="ColumnDate">1892-05</td>
 						<td class="ColumnDate">&nbsp;</td>
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/2/2/cb589cd6603316b5f22.html">Holmström, Gustaf Uno</a>
@@ -4047,7 +3894,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/b/9/cb589ccb8e61c75d89b.html">Holmström, Henric Sigfridsson</a>
@@ -4063,7 +3909,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/d/cb589ce1aad6e0a17d6.html">Holmström, Hugo Herenius</a>
@@ -4079,7 +3924,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -4095,7 +3939,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/d/cb589cdc95e7ae5aed7.html">Holmström, Hulda Matilda</a>
@@ -4111,7 +3954,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/1/cb589ce32b136e89c13.html">Holmström, Ida Olivia</a>
@@ -4127,7 +3969,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/1/cb589cd63576469911c.html">Holmström, Isak Ferdinand</a>
@@ -4143,7 +3984,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/0/5/cb589cd1e7444223550.html">Holmström, Isak Irenæus</a>
@@ -4159,7 +3999,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -4175,7 +4014,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/4/cb589cce75345710c43.html">Holmström, Isak Isaacsson</a>
@@ -4191,7 +4029,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -4207,7 +4044,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/1/cb589ccdff5447ddc1f.html">Holmström, Jacob Sigfridsson</a>
@@ -4223,7 +4059,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/b/4/cb589cdc9184c0f654b.html">Holmström, Johan Alfred</a>
@@ -4239,7 +4074,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/1/f/cb589cd637666f692f1.html">Holmström, Johan Robert</a>
@@ -4255,7 +4089,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/1/2/cb589cd1f3d51360821.html">Holmström, Johan Zaceus Isaksson</a>
@@ -4271,7 +4104,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/2/7/cb589ce1b750e4f9d72.html">Holmström, Julius</a>
@@ -4287,7 +4119,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/5/b/cb589cdd028299171b5.html">Holmström, Karl Axel</a>
@@ -4303,7 +4134,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/1/f/cb589cd68a1655a75f1.html">Holmström, Karl Evert</a>
@@ -4319,7 +4149,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/1/9/cb589cd673a58d81991.html">Holmström, Karl Lambert Severin</a>
@@ -4335,7 +4164,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/1/8/cb589cd6461739b5081.html">Holmström, Karl Wiktor</a>
@@ -4351,7 +4179,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/7/cb589cdae054c744077.html">Holmström, Klara Gustava</a>
@@ -4367,7 +4194,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/8/cb589cd1ef743e09087.html">Holmström, Kristina Charlotta</a>
@@ -4383,7 +4209,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/a/cb589cd1ea72c297ca8.html">Holmström, Lambert</a>
@@ -4399,7 +4224,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -4415,7 +4239,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/4/cb589cd67cb34abbe47.html">Holmström, Lydia Teresia</a>
@@ -4431,7 +4254,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/5/cb589ce2e4e7943b053.html">Holmström, Magnus Alfred</a>
@@ -4447,7 +4269,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/e/3/cb589cdacdc41e5f33e.html">Holmström, Magnus Leander</a>
@@ -4463,7 +4284,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -4479,7 +4299,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/2/f/cb589ce2dbf64f907f2.html">Holmström, Maria Alexandra</a>
@@ -4495,7 +4314,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/a/cb589cdc9d17317caa8.html">Holmström, Maria Irene</a>
@@ -4511,7 +4329,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -4527,7 +4344,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/7/cb589cdcbb774a90477.html">Holmström, Meri Viktoria</a>
@@ -4543,7 +4359,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/1/cb589ce2e9776cc2d19.html">Holmström, Olga Emelia</a>
@@ -4559,7 +4374,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/0/4/cb589cdcb3a558c2640.html">Holmström, Oskar Mikael</a>
@@ -4575,7 +4389,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/e/6/cb589ce1cb362a3db6e.html">Holmström, Sigrid</a>
@@ -4591,7 +4404,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/4/cb589cdcfe325ada24d.html">Holmström, Sigrid Matilda</a>
@@ -4607,7 +4419,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/a/2/cb589cc83ac79e7ec2a.html">Holmström, Sofia Wilhelmina</a>
@@ -4623,7 +4434,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/1/cb589ccb9ff143d021d.html">Holmström, Sophia Wilhelmina</a>
@@ -4639,7 +4449,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/7/cb589cdcb095d743679.html">Holmström, Svea Linnea</a>
@@ -4655,7 +4464,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/1/c/cb589ce1c934ebc38c1.html">Holmström, Vera Alexandra</a>
@@ -4671,7 +4479,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/a/d/cea5ca4957a1aedbcda.html">Huttuin, Judith</a>
@@ -4687,7 +4494,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/5/cb589ccc88138971b53.html">Huttunen, Lisa Michelsdotter</a>
@@ -4701,9 +4507,11 @@
 						<td class="ColumnDate">&nbsp;</td>
 						<td class="ColumnDate">&nbsp;</td>
 					</tr>
-					<tr class ="BeginFamily">
+					<tr class="BeginLetter BeginFamily">
 						<td class="ColumnRowLabel">
-							<a name="I" title="Families beginning with letter I">I</a>
+							<a id="I" name="I" title="Families beginning with letter I">
+							I
+							</a>
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/b/f/cb589cf0e94651ee1fb.html">Iljin, Olga</a>
@@ -4717,9 +4525,11 @@
 						<td class="ColumnDate">&nbsp;</td>
 						<td class="ColumnDate">&nbsp;</td>
 					</tr>
-					<tr class ="BeginFamily">
+					<tr class="BeginLetter BeginFamily">
 						<td class="ColumnRowLabel">
-							<a name="J" title="Families beginning with letter J">J</a>
+							<a id="J" name="J" title="Families beginning with letter J">
+							J
+							</a>
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/2/cb589cc84c27af4bb23.html">Jääskeläinen, Eva Pettersdotter</a>
@@ -4735,7 +4545,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/5/cb589cc94eb357a1154.html">Jääskeläinen, Maria Wilhelmina Pettersdotter</a>
@@ -4751,7 +4560,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -4767,7 +4575,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/2/f/cb589cc94d005da5cf2.html">Jääskeläinen, Petter Mattsson</a>
@@ -4783,7 +4590,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/2/8/cb589ccc61103fcae82.html">Jäskeläin, Matts</a>
@@ -4799,7 +4605,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -4815,7 +4620,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/d/cb589ce93e32e02d8d3.html">Johansson, Dorit Hildur</a>
@@ -4829,9 +4633,11 @@
 						<td class="ColumnDate">&nbsp;</td>
 						<td class="ColumnDate">&nbsp;</td>
 					</tr>
-					<tr class ="BeginFamily">
+					<tr class="BeginLetter BeginFamily">
 						<td class="ColumnRowLabel">
-							<a name="K" title="Families beginning with letter K">K</a>
+							<a id="K" name="K" title="Families beginning with letter K">
+							K
+							</a>
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/0/8/cea5ca9698377fd2d80.html">Kanninen, Maria Johansdotter</a>
@@ -4847,7 +4653,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/c/df7e1dc5613623f6e09f3d617cd.html">Karbin, Hilda Johanna</a>
@@ -4863,7 +4668,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/1/8/ce9bae21ed62389c981.html">Kivimäki, Edla Wilhelmina</a>
@@ -4879,7 +4683,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -4895,7 +4698,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/8/cf837ee34744d06198d.html">Kivimäki, Kustaa Wilhelm Kustaanpoika</a>
@@ -4911,7 +4713,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/1/9/ce9c4ebe6484d7b1b91.html">Kivimäki, Maria Fredrika Samuelintytär</a>
@@ -4927,7 +4728,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -4943,7 +4743,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/4/df5485edb1c402a7f92f044dc48.html">Klick, Hilda Amanda</a>
@@ -4959,7 +4758,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/8/cb589ccc4c00d9da784.html">Knutin, Elisabeth</a>
@@ -4975,7 +4773,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/6/f7caf3be8f66e0b03c5fa312c69.html">Kopoin, Anna Maria</a>
@@ -4991,7 +4788,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/0/cb589cc84e63bbab10c.html">Korhonen, Adam Gabrielsson</a>
@@ -5007,7 +4803,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/3/cb589cc969d7d3d6736.html">Korhonen, Albert Gabrielsson</a>
@@ -5023,7 +4818,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/8/cea5c9a794742f9af86.html">Korhonen, Caisa</a>
@@ -5039,7 +4833,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/0/f/cb589ccf7722269a3f0.html">Korhonen, Christer</a>
@@ -5055,7 +4848,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/e/3/cb589cc8576658f573e.html">Korhonen, Daniel</a>
@@ -5071,7 +4863,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/b/d/cb589cc85137c8430db.html">Korhonen, Edla</a>
@@ -5087,7 +4878,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/c/cb589cc96125216f2cd.html">Korhonen, Gabriel Påhlsson</a>
@@ -5103,7 +4893,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/6/cb589cc96375d92b069.html">Korhonen, Gerhard Gabrielsson</a>
@@ -5119,7 +4908,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/1/cb589cc804b2d4cd313.html">Korhonen, Hilda Maria</a>
@@ -5135,7 +4923,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/e/3/dd20e42fe441673d2e2b6b4b93e.html">Korhonen, Karin Irma Alexandra</a>
@@ -5151,7 +4938,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/4/cea5c9508bb7393b04c.html">Korhonen, Maria</a>
@@ -5167,7 +4953,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/3/cb589ccf73d20cb8536.html">Korhonen, Matts</a>
@@ -5183,7 +4968,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/3/cb589ccc8ab1e1e3133.html">Korhonen, Påhl Mattsson</a>
@@ -5199,7 +4983,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/2/3/cb589cc861266c77e32.html">Korhonen, Wilhelm</a>
@@ -5215,7 +4998,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/8/cf96833c846387dd988.html">Korzard, Alexander</a>
@@ -5231,7 +5013,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/a/cb589ccc3fc36ec92a3.html">Korzard, August</a>
@@ -5247,7 +5028,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/0/c/cf9684197b32c161dc0.html">Korzard, Jakob</a>
@@ -5263,7 +5043,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/6/cb589ccc35e52a1e86d.html">Korzard, Karl Ferdinand</a>
@@ -5279,7 +5058,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/1/c/cb589ccc386678948c1.html">Korzard, Maria Mathilda</a>
@@ -5295,7 +5073,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/1/cb589ccc3d42404631d.html">Korzard, Otto Alexander</a>
@@ -5311,7 +5088,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/6/cf96898f6862df0e76f.html">Korzard, Otto Selim</a>
@@ -5327,7 +5103,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/0/5/cf96872428355f95e50.html">Korzard, Rudolf</a>
@@ -5343,7 +5118,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/c/df6a7e0ca9f684c3e5dddc3a8c9.html">Korzard, Vihtori Arthur</a>
@@ -5359,7 +5133,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/6/f5dbefd42bfffb065d136c4c64.html">Kullberg, Gustaf Eriksson</a>
@@ -5375,7 +5148,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/9/cea5b6a054a7d7bbb99.html">Kullberg, Lena Sofia</a>
@@ -5391,7 +5163,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -5407,7 +5178,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/8/f5dc31788967631eacb6b43bd87.html">Kullberg, Maria Lovisa Gustafsdotter</a>
@@ -5423,7 +5193,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/2/cb589ce8dde7ebd9d24.html">Kullström, Astrid Linnea</a>
@@ -5439,7 +5208,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/6/cb589cdf2c575168263.html">Kullström, Johan Emil</a>
@@ -5455,7 +5223,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/0/cea5cc5c27f6ece3606.html">Kullström, Johan Johansson</a>
@@ -5471,7 +5238,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/7/cea5b4fb1ec1ea14873.html">Kullström, Maria Lovisa</a>
@@ -5485,9 +5251,11 @@
 						<td class="ColumnDate">1860-10-23</td>
 						<td class="ColumnDate">&nbsp;</td>
 					</tr>
-					<tr class ="BeginFamily">
+					<tr class="BeginLetter BeginFamily">
 						<td class="ColumnRowLabel">
-							<a name="L" title="Families beginning with letter L">L</a>
+							<a id="L" name="L" title="Families beginning with letter L">
+							L
+							</a>
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/5/a/d007999b053375c96a5.html">Laaksonen, Karl Viktor</a>
@@ -5503,7 +5271,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/8/f612bca7c897baf6717dca4078d.html">Lagerlund, Yrjö Nikolai</a>
@@ -5519,7 +5286,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/b/5/f608cd5c8ec5fa81019918ec95b.html">Lampo, Lauri</a>
@@ -5535,7 +5301,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/1/cb589cd579c4e7ba01d.html">Långström, Maria Mathilda</a>
@@ -5551,7 +5316,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/2/f1513a714e07934f16eb114c2c.html">Lax, Johan Leonard</a>
@@ -5567,7 +5331,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/d/cf966bb18da61042fdf.html">Lillqvist, Anders Jakobsson</a>
@@ -5583,7 +5346,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/e/df7dee6718cc303f298acd0e3.html">Lind, August Wilhelm</a>
@@ -5599,7 +5361,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -5615,7 +5376,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/b/df7dfe3616d3f31f909a7d09ebd.html">Lind, Karl Oskar</a>
@@ -5631,7 +5391,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/b/4/cb589ceb1c63285654b.html">Lindberg, Christina Isaksdotter</a>
@@ -5647,7 +5406,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/e/cea296f0fed2cabb9e6.html">Lindberg, Loris Carl</a>
@@ -5663,7 +5421,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/1/f/cb589ce8bcd56ec4cf1.html">Lindfors, Alma Lovisa</a>
@@ -5679,7 +5436,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/2/cb589ce8ced767f9324.html">Lindfors, Anders Herman</a>
@@ -5695,7 +5451,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/2/2/cb589cf6684197d7622.html">Lindfors, Deary Margareta</a>
@@ -5711,7 +5466,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/e/cf9688949481c81b0e4.html">Lindfors, Eva</a>
@@ -5727,7 +5481,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/7/cb589ce8b216654ad76.html">Lindfors, Gustaf Adolf</a>
@@ -5743,7 +5496,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/3/cb589cdf1991e44e633.html">Lindfors, Gustaf Adolf Gustafsson</a>
@@ -5759,7 +5511,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/0/4/cf967a9a89f5bacb440.html">Lindfors, Gustaf Johansson</a>
@@ -5775,7 +5526,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/6/cb589cdf1d9344a636d.html">Lindfors, Herman Gustafsson</a>
@@ -5791,7 +5541,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -5807,7 +5556,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/e/0/cb589ce8c7a49a1e70e.html">Lindfors, Herman Julius</a>
@@ -5823,7 +5571,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/b/1/cb589ce8b794c9ad21b.html">Lindfors, Hilda Sofia</a>
@@ -5839,7 +5586,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/9/cb589ce8c222b93329f.html">Lindfors, Otto Valdemar</a>
@@ -5855,7 +5601,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/a/e/cb589cf663b22fd18ea.html">Lindfors, Tor Herman</a>
@@ -5871,7 +5616,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/0/e/cb589cdd473740cbde0.html">Lindgren, Karl Frans</a>
@@ -5887,7 +5631,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/2/9/cb589cd69fd5cf21c92.html">Lindgren, Karl Gustaf</a>
@@ -5903,7 +5646,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/2/cea0cb8b87f5b09de23.html">Lindström, August Emil</a>
@@ -5919,7 +5661,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/3/f60bb6654273ff6f9ce5a6d6d39.html">Lindström, Lyyli Sofia</a>
@@ -5935,7 +5676,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/d/df5a7aec2c96ea91b085cc388d8.html">Liukkonen, August</a>
@@ -5951,7 +5691,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/b/9/cb589cf0f8b13e1e99b.html">Lundberg, Anna Elvina</a>
@@ -5965,9 +5704,11 @@
 						<td class="ColumnDate">&nbsp;</td>
 						<td class="ColumnDate">&nbsp;</td>
 					</tr>
-					<tr class ="BeginFamily">
+					<tr class="BeginLetter BeginFamily">
 						<td class="ColumnRowLabel">
-							<a name="M" title="Families beginning with letter M">M</a>
+							<a id="M" name="M" title="Families beginning with letter M">
+							M
+							</a>
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/b/7/f14f4ab978352cd638bf5300b7b.html">Malin, Amalia Charlotta</a>
@@ -5983,7 +5724,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/9/db77efa91974b2e55401dcfd94.html">Malm, Ewa Johansdotter</a>
@@ -5999,7 +5739,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/e/4/db77f902c1b1f46e2e16176374e.html">Malm, Johan</a>
@@ -6015,7 +5754,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/e/f/e820c826bcf4a4710d089130cfe.html">Malmelin, Martin William</a>
@@ -6026,12 +5764,11 @@
 							
 							</a>
 						</td>
-						<td class="ColumnDate">1917-10-00</td>
+						<td class="ColumnDate">1917-10</td>
 						<td class="ColumnDate">&nbsp;</td>
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/1/d48da7cb87a684956b6ae276d18.html">Metelinen, Anna Maria Paavontytär</a>
@@ -6045,9 +5782,11 @@
 						<td class="ColumnDate">1907-06-01</td>
 						<td class="ColumnDate">&nbsp;</td>
 					</tr>
-					<tr class ="BeginFamily">
+					<tr class="BeginLetter BeginFamily">
 						<td class="ColumnRowLabel">
-							<a name="N" title="Families beginning with letter N">N</a>
+							<a id="N" name="N" title="Families beginning with letter N">
+							N
+							</a>
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/2/0/cea5b002b1228d26b02.html">Nikander, Erika Aurora</a>
@@ -6063,7 +5802,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/1/7/cb589cd2a0578278d71.html">Nikander, Fanny Maria</a>
@@ -6079,7 +5817,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/b/cf967e023cc669db1bc.html">Nikander, Gabriel</a>
@@ -6095,7 +5832,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/b/7/cf967d1e0d6235c137b.html">Nikander, Gustaf Adolf</a>
@@ -6111,7 +5847,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -6127,7 +5862,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/2/8/cb589ccf01316f48782.html">Nordberg, Adolf Alarik</a>
@@ -6143,7 +5877,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/2/cb589ccbd5f5a90ec26.html">Nordberg, Adolf Fredrik</a>
@@ -6159,7 +5892,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/a/cb589cd2c683e5aa3a8.html">Nordberg, Amanda Katariina ²</a>
@@ -6175,7 +5907,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/a/f/cb589cd84543096b0fa.html">Nordberg, Anders Herman</a>
@@ -6191,7 +5922,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/1/2/cb589cdf4a353d7b321.html">Nordberg, Anders Herman Andersson</a>
@@ -6207,7 +5937,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/e/1/cb589ccefbf505bde1e.html">Nordberg, Anders Wilhelm</a>
@@ -6223,7 +5952,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/e/1/cb589cd83583e01fb1e.html">Nordberg, Anna Margaretha</a>
@@ -6239,7 +5967,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/6/cb589cc91873053d367.html">Nordberg, Anna Sofia</a>
@@ -6255,7 +5982,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/1/cb589cd84884ffc1f16.html">Nordberg, Carl</a>
@@ -6271,7 +5997,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/a/cb589cc90e9501389a9.html">Nordberg, Carl Johan</a>
@@ -6287,7 +6012,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/a/a/cb589cd27943eb804aa.html">Nordberg, Carl Staffansson</a>
@@ -6303,7 +6027,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/c/cb589cd2b69251ab8c6.html">Nordberg, Edla Sofia</a>
@@ -6319,7 +6042,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/b/1/cb589cc847f6455821b.html">Nordberg, Elin Maria</a>
@@ -6335,7 +6057,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/8/cb589cc80270f9c6988.html">Nordberg, Emil Ferdinand</a>
@@ -6351,7 +6072,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/e/cb589cdf3881fceaae6.html">Nordberg, Engla Christina</a>
@@ -6367,7 +6087,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/e/cb589cc83d1028d9fef.html">Nordberg, Ferdinand</a>
@@ -6383,7 +6102,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/a/4/cb589cd84ba72f52d4a.html">Nordberg, Fredrik</a>
@@ -6399,7 +6117,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/8/cb589cd83964c8db086.html">Nordberg, Gustaf</a>
@@ -6415,7 +6132,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/f/cb589ccef474c154af7.html">Nordberg, Gustaf Adolf</a>
@@ -6431,7 +6147,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/e/cb589cd2b4232af04e3.html">Nordberg, Gustaf Adolf</a>
@@ -6447,7 +6162,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/b/a/cb589ccbd2873c821ab.html">Nordberg, Gustaf Johansson</a>
@@ -6463,7 +6177,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/0/9/cb589cd273c0aa05090.html">Nordberg, Gustaf Staffansson</a>
@@ -6479,7 +6192,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/c/cb589ccbcee38fb13c9.html">Nordberg, Hedwig Sofia</a>
@@ -6495,7 +6207,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/7/cb589cc91e0607d4c76.html">Nordberg, Helena Lovisa</a>
@@ -6511,7 +6222,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/0/db8acef38b0567273040a29c107.html">Nordberg, Herman</a>
@@ -6527,7 +6237,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/3/cb589cd2a672da6d13f.html">Nordberg, Hilda Adele</a>
@@ -6543,7 +6252,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/8/cb589cd2ce33616538c.html">Nordberg, Hjalmar Ferdinand</a>
@@ -6559,7 +6267,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/5/6/cb589cdf4fe6091c665.html">Nordberg, Hulda Maria</a>
@@ -6575,7 +6282,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/2/7/cb589cd842d7d79f472.html">Nordberg, Johan</a>
@@ -6591,7 +6297,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/2/b/cb589ccbc7f6a601fb2.html">Nordberg, Johan Johansson</a>
@@ -6607,7 +6312,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/9/cb589cd832709bc7f9c.html">Nordberg, Kristina Sofia</a>
@@ -6623,7 +6327,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/0/cb589cc84347c619504.html">Nordberg, Maria Charlotta Wilhelmina</a>
@@ -6634,12 +6337,11 @@
 							
 							</a>
 						</td>
-						<td class="ColumnDate">1907-06-00</td>
+						<td class="ColumnDate">1907-06</td>
 						<td class="ColumnDate">&nbsp;</td>
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/2/cb589cdf33c2fb66a2f.html">Nordberg, Maria Lovisa</a>
@@ -6655,7 +6357,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/9/cb589ccef9a28b5839c.html">Nordberg, Maria Lovisa</a>
@@ -6671,7 +6372,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/a/b/cb589cd85386bbd5dba.html">Nordberg, Maria Lovisa ³</a>
@@ -6687,7 +6387,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/5/6/cb589cd276e459bbf65.html">Nordberg, Maria Staffansdotter</a>
@@ -6703,7 +6402,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/4/cb589cc920502ce8c4c.html">Nordberg, Maria Wilhelmina</a>
@@ -6719,7 +6417,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/1/cb589ce9266059e8e1c.html">Nordberg, Nellie Eliza</a>
@@ -6735,7 +6432,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/2/cb589ccf0387502cd29.html">Nordberg, Otto Ferdinand</a>
@@ -6751,7 +6447,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/9/cb589cc92dd6232fd94.html">Nordberg, Otto Wilhelm</a>
@@ -6767,7 +6462,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/2/cb589cc80b85ba4f528.html">Nordberg, Paul Wilhelm Waldemar</a>
@@ -6783,7 +6477,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/e/8/cb589cd2af9699ca88e.html">Nordberg, Signe Lydia</a>
@@ -6799,7 +6492,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/6/cb589cdf4285693996f.html">Nordberg, Sofia Lovisa</a>
@@ -6815,7 +6507,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/b/0/db88f0ea30359b8c5a48f54810b.html">Nordberg, Staffan</a>
@@ -6831,7 +6522,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/0/c/cb589ccecb9359c7dc0.html">Nordberg, Staffan Johansson</a>
@@ -6847,7 +6537,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -6863,7 +6552,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/7/df776489a0171ebe67744eac474.html">Nyberg, Ida Maria</a>
@@ -6879,7 +6567,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/e/c/df5a858a1961be4be9915d75fce.html">Nygren, Juho Edward</a>
@@ -6895,7 +6582,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/4/df4d5ed80126484a7afef4d0f4d.html">Nyman, Edvin</a>
@@ -6911,7 +6597,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/4/cea5c58f2224fbd6a49.html">Nyström, Elsa Maria</a>
@@ -6927,7 +6612,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/1/f145b326bd0fbcc9236cb35618.html">Nyström, Eric Johan</a>
@@ -6943,7 +6627,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/e/cb589cc945367eb70ef.html">Nyström, Ragnar Viktor</a>
@@ -6959,7 +6642,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/a/cea5cca2afb352181a9.html">Nyström, Viktor Wilhelm</a>
@@ -6973,9 +6655,11 @@
 						<td class="ColumnDate">about 1910-06-04</td>
 						<td class="ColumnDate">&nbsp;</td>
 					</tr>
-					<tr class ="BeginFamily">
+					<tr class="BeginLetter BeginFamily">
 						<td class="ColumnRowLabel">
-							<a name="O" title="Families beginning with letter O">O</a>
+							<a id="O" name="O" title="Families beginning with letter O">
+							O
+							</a>
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/5/f7c266f5d58467204ea55cbc65d.html">Olin, Florinda Ulrica</a>
@@ -6991,7 +6675,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/4/f5df374647151a9783f699504f.html">Österman, Justus</a>
@@ -7005,9 +6688,11 @@
 						<td class="ColumnDate">1859-09-13</td>
 						<td class="ColumnDate">&nbsp;</td>
 					</tr>
-					<tr class ="BeginFamily">
+					<tr class="BeginLetter BeginFamily">
 						<td class="ColumnRowLabel">
-							<a name="P" title="Families beginning with letter P">P</a>
+							<a id="P" name="P" title="Families beginning with letter P">
+							P
+							</a>
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/1/cb589ccf75008bec417.html">Pulkkinen, Anna</a>
@@ -7021,9 +6706,11 @@
 						<td class="ColumnDate">&nbsp;</td>
 						<td class="ColumnDate">&nbsp;</td>
 					</tr>
-					<tr class ="BeginFamily">
+					<tr class="BeginLetter BeginFamily">
 						<td class="ColumnRowLabel">
-							<a name="Q" title="Families beginning with letter Q">Q</a>
+							<a id="Q" name="Q" title="Families beginning with letter Q">
+							Q
+							</a>
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/a/d8a748590c369fa553adacce3a3.html">Quist, Eric Johan</a>
@@ -7039,7 +6726,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/e/d8a73e1a03d3179edfecfc688e3.html">Quist, Johan Fredrik</a>
@@ -7055,7 +6741,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/b/9/d8a749b91eb36dfbe7b81352b9b.html">Quist, Maria Christina</a>
@@ -7069,9 +6754,11 @@
 						<td class="ColumnDate">1847-11-16</td>
 						<td class="ColumnDate">&nbsp;</td>
 					</tr>
-					<tr class ="BeginFamily">
+					<tr class="BeginLetter BeginFamily">
 						<td class="ColumnRowLabel">
-							<a name="R" title="Families beginning with letter R">R</a>
+							<a id="R" name="R" title="Families beginning with letter R">
+							R
+							</a>
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/4/cb589cc95ec038e744d.html">Raatikainen, Anna Lisa Samuelsdotter</a>
@@ -7087,7 +6774,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/1/e/cb589ccf6472f0904e1.html">Radikain, Elisabeth</a>
@@ -7103,7 +6789,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/a/d/cb589ccf62401dcffda.html">Radikain, Magnus</a>
@@ -7119,7 +6804,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/b/c/cb589ccf68f747e40cb.html">Radikain, Mathias</a>
@@ -7135,7 +6819,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/c/cb589ccf6b3558a7fcd.html">Radikain, Påhl</a>
@@ -7151,7 +6834,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/3/cb589ccf5e64e17f038.html">Radikain, Samuel</a>
@@ -7167,7 +6849,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/7/cb589ccc80002dab074.html">Radikain, Samuel Samuelsson</a>
@@ -7183,7 +6864,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/c/cb589ccc7ae38cea7cc.html">Radikain, Samuel Samuelsson</a>
@@ -7199,7 +6879,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -7215,7 +6894,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/3/d4878e26b246fe90aae66b0c638.html">Rakkolainen, Maria Heikintytär</a>
@@ -7231,7 +6909,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/d/cb589ce13461aa427dc.html">Rehnberg, Hilma Irene</a>
@@ -7247,7 +6924,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/2/d/cea28ff257c436275d2.html">Robinson, Alexander</a>
@@ -7263,7 +6939,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/1/1/cb589cc9a314d4c5b11.html">Robinson, Inez Lempi</a>
@@ -7279,7 +6954,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/a/2/df5a8e265b46a0db1cfa8ae642a.html">Rosenberg, Kaarlo Wihtori</a>
@@ -7293,9 +6967,11 @@
 						<td class="ColumnDate">1899-06-01</td>
 						<td class="ColumnDate">&nbsp;</td>
 					</tr>
-					<tr class ="BeginFamily">
+					<tr class="BeginLetter BeginFamily">
 						<td class="ColumnRowLabel">
-							<a name="S" title="Families beginning with letter S">S</a>
+							<a id="S" name="S" title="Families beginning with letter S">
+							S
+							</a>
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/6/f60f5d893d748e6bd02635cf86f.html">Saari, Aarne Edvard</a>
@@ -7311,7 +6987,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/0/b/cb589cdd50c6b1b57b0.html">Sandblom, Amanda Josefina</a>
@@ -7327,7 +7002,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/b/9/cb589cd20ce7684249b.html">Sandblom, August</a>
@@ -7343,7 +7017,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/d/cb589cd6adf5724d6d8.html">Sandblom, Augusta</a>
@@ -7359,7 +7032,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/7/cb589cd1c5c3f9a1679.html">Sandblom, Eric Thomasson</a>
@@ -7375,7 +7047,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/2/cb589cd6aa429947f2c.html">Sandblom, Erika Alexandra</a>
@@ -7391,7 +7062,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/e/cb589cf481958572eec.html">Sandblom, Ernst Ludvig</a>
@@ -7407,7 +7077,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/5/e/cb589cce80b710cace5.html">Sandblom, Eva Isaacsdotter</a>
@@ -7423,7 +7092,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/c/cb589cd1d4f504c3ec6.html">Sandblom, Hans Thomasson</a>
@@ -7439,7 +7107,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/0/d/cb589cd6a5f783721d0.html">Sandblom, Johan Gustaf</a>
@@ -7455,7 +7122,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/5/cb589cd62b23e396b5c.html">Sandblom, Klara Karolina</a>
@@ -7471,7 +7137,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/5/cb589cd6a7b72305f59.html">Sandblom, Knut Edvin</a>
@@ -7487,7 +7152,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/5/8/cb589cce78504191a85.html">Sandblom, Lovisa Isaacsdotter</a>
@@ -7503,7 +7167,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/9/cb589cd51c977c0379f.html">Sandblom, Maria Wilhelmina</a>
@@ -7519,7 +7182,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/1/a/cb589ce6c4f4815a5a1.html">Sandblom, Otto Emil</a>
@@ -7535,7 +7197,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/c/cb589cdc8850e22b0cc.html">Sandblom, Otto Reinhold</a>
@@ -7551,7 +7212,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/e/e/cb589cdda757a4e6dee.html">Sandblom, Selma Sofia</a>
@@ -7567,7 +7227,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -7583,7 +7242,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/0/d/cb589cce7ad7f8320d0.html">Sandblom, Stephan Isaacsson</a>
@@ -7599,7 +7257,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/1/cb589cd62e96593b514.html">Sandblom, Tobias</a>
@@ -7615,7 +7272,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/0/c/cb589cd0a042b2343c0.html">Sandell, Anders Ericsson</a>
@@ -7631,7 +7287,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/b/cb589cd41cf570329b9.html">Sandell, Christina Carolina</a>
@@ -7647,7 +7302,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/7/cb589cd40390fc4c376.html">Sandell, Erica Carolina</a>
@@ -7663,7 +7317,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/a/cb589cd0a2d12e3ddaf.html">Sandell, Johan Eriksson</a>
@@ -7679,7 +7332,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/6/cb589cd09b035e1ef69.html">Sandholm, Anna Thomasdotter</a>
@@ -7695,7 +7347,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -7711,7 +7362,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/b/cb589ce6b2c10a6fdb4.html">Sandin, Axel Sigurd</a>
@@ -7727,7 +7377,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/0/b/cb589ce6aed1c18acb0.html">Sandin, Edith Ingrid</a>
@@ -7743,7 +7392,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/1/cb589ce6a9374fcbe1f.html">Sandin, Georg Vilhelm</a>
@@ -7759,7 +7407,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -7775,7 +7422,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/c/cb589ce69e84e434bcd.html">Sandin, Johan Edvard</a>
@@ -7791,7 +7437,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/5/cb589ce6a3c29937f57.html">Sandin, Karl Arthur</a>
@@ -7807,7 +7452,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/5/c/cb589cdc80140115cc5.html">Sandin, Klara Charlotta</a>
@@ -7823,7 +7467,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/2/cb589cdc72e776ae226.html">Sandin, Lovisa Erika</a>
@@ -7839,7 +7482,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/8/cb589cdc6b36601a687.html">Sandin, Maria Karolina</a>
@@ -7855,7 +7497,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/c/cb589cdc77d5ae436cf.html">Sandin, Otto Reinhold</a>
@@ -7871,7 +7512,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/b/6/cb589ce698f21ba2b6b.html">Sandin, Otto Valdemar</a>
@@ -7887,7 +7527,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/3/df9ac7b61d35c95c5ea45bc8c33.html">Siiberg, Maria Alexandra</a>
@@ -7903,7 +7542,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/0/cf96997df6124f62906.html">Sillanpää, Erika Maria Kustaantytär</a>
@@ -7919,7 +7557,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/f/cb589cce37066a36efd.html">Sjöberg Ericsdotter, Anna</a>
@@ -7935,7 +7572,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/2/cb589ce661f426c6229.html">Sjöholm, Arthur Ferdinand</a>
@@ -7951,7 +7587,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/9/cb589ce4d15405dca9f.html">Sjöholm, Eva Carolina</a>
@@ -7967,7 +7602,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/5/cb589cd5e420d8e1c58.html">Sjöholm, Johan Tomasson</a>
@@ -7983,7 +7617,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/0/cb589cdbe093adb4b04.html">Sjöholm, Leander</a>
@@ -7994,12 +7627,11 @@
 							
 							</a>
 						</td>
-						<td class="ColumnDate">1829-11-00</td>
+						<td class="ColumnDate">1829-11</td>
 						<td class="ColumnDate">&nbsp;</td>
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/8/cb589cda2f1365acf84.html">Sjösten, Alexandra Augusta</a>
@@ -8015,7 +7647,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/e/8/cb589cf3b7f39ca368e.html">Sjösten, Arne Rudolf</a>
@@ -8031,7 +7662,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/a/0/cb589cf3ad34354bc0a.html">Sjösten, Edvard Valdemar</a>
@@ -8047,7 +7677,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/8/cb589cda22c1331e98d.html">Sjösten, Erika Teresia</a>
@@ -8063,7 +7692,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -8079,7 +7707,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/6/cb589cf3b5f529d1666.html">Sjösten, Henrik Alexander</a>
@@ -8095,7 +7722,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/2/0/cb589cf3af77602c102.html">Sjösten, Karin (Katarina) Maria</a>
@@ -8111,7 +7737,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/1/db77b6b5dbc11be4ec36fc84418.html">Skogström, Israel</a>
@@ -8127,7 +7752,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -8143,7 +7767,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/7/cea11e992eb0f1ddc78.html">Skogström, Maria Lovisa</a>
@@ -8159,7 +7782,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/e/4/df540cec66673128192bef0df4e.html">Skott, Johan Karlsson</a>
@@ -8175,7 +7797,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/9/df54843125e245c8ed97ff0089d.html">Skott, Karl Gustaf</a>
@@ -8191,7 +7812,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/e/cb589cd3f65065174ec.html">Söderlund, Adolphina</a>
@@ -8207,7 +7827,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/5/2/cb589cd5ce036020925.html">Söderlund, Albertina Johansdotter</a>
@@ -8223,7 +7842,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/2/e/cb589cce0db4c9ff7e2.html">Söderlund, Anders Hansson</a>
@@ -8239,7 +7857,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/b/2/cb589cd08be55bce92b.html">Söderlund, Anna Helena Andersdotter</a>
@@ -8255,7 +7872,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/6/cb589cce14f706c8f67.html">Söderlund, Carl Gustaf Hansson</a>
@@ -8271,7 +7887,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/b/f/cb589cd0925267073fb.html">Söderlund, Carl Magnus</a>
@@ -8287,7 +7902,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/2/8/cb589cd50730af00582.html">Söderlund, Engla Maria Henriksdotter</a>
@@ -8303,7 +7917,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/e/7/cb589cd5c50004c767e.html">Söderlund, Eva Kristina</a>
@@ -8319,7 +7932,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/c/cb589cf118207ddc4c3.html">Söderlund, Eva Lovisa</a>
@@ -8335,7 +7947,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/b/1/cb589cd5c7a0c4d841b.html">Söderlund, Fredrika Johansdotter</a>
@@ -8351,7 +7962,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/8/cb589ccb91866738787.html">Söderlund, Greta Hansdotter</a>
@@ -8367,7 +7977,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/2/0/cb589cd0954461f0302.html">Söderlund, Gustaf</a>
@@ -8383,7 +7992,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -8399,7 +8007,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/5/e/cb589cce0702a0dfce5.html">Söderlund, Hans Henricsson</a>
@@ -8415,7 +8022,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/3/cb589cd15e44052dd33.html">Söderlund, Henrik Hansson</a>
@@ -8431,7 +8037,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/1/cb589cd1b06340c8d18.html">Söderlund, Kristina Elisabet Isaksdotter</a>
@@ -8447,7 +8052,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/a/e/cb589cd5bb94e2029ea.html">Söderlund, Maria Elisabet</a>
@@ -8463,7 +8067,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/2/cb589cd3fb54e0abf29.html">Söderlund, Odert Gyrillus</a>
@@ -8479,7 +8082,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/c/ebd425a22fa140b0f528978abc6.html">Sommardahl, Lars</a>
@@ -8495,7 +8097,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/5/ebb0a5009a4205bca7113657956.html">Sommardahl, Sigfrid Larsson</a>
@@ -8511,7 +8112,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -8527,7 +8127,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -8543,7 +8142,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/4/e907f6c56873b0302e981f93548.html">Stjernberg, Carl Gustafsson</a>
@@ -8559,7 +8157,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/1/e908931435d354a5e2a026b371c.html">Stjernberg, Gustaf Gustafsson</a>
@@ -8575,7 +8172,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -8591,7 +8187,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -8607,7 +8202,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/6/cf99c0ba42a1b623166.html">Stordell, Karl Adolf</a>
@@ -8623,7 +8217,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/0/7/cf99bf30a9136795670.html">Stordell, Karl Fredrik</a>
@@ -8639,7 +8232,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -8650,12 +8242,11 @@
 							
 							</a>
 						</td>
-						<td class="ColumnDate">1907-06-00</td>
+						<td class="ColumnDate">1907-06</td>
 						<td class="ColumnDate">&nbsp;</td>
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/a/b/e820bffcb0417beb1d9e61ccbba.html">Stordell, Maria Cecilia</a>
@@ -8666,12 +8257,11 @@
 							
 							</a>
 						</td>
-						<td class="ColumnDate">1917-10-00</td>
+						<td class="ColumnDate">1917-10</td>
 						<td class="ColumnDate">&nbsp;</td>
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/c/cb589cd94735585e1c7.html">Sundström, Eva Erika</a>
@@ -8687,7 +8277,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/1/cb589cd943e4203dd17.html">Sundström, Fredrik Johan</a>
@@ -8703,7 +8292,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/e/cb589ce003b675ef8e4.html">Sundström, Gustaf Johan</a>
@@ -8719,7 +8307,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/3/cb589cea3797f415837.html">Sundström, Gustaf Wilhelm Waldemar</a>
@@ -8735,7 +8322,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/1/e/cb589cea35a7867c2e1.html">Sundström, Tyra Wilhelmina</a>
@@ -8751,7 +8337,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/a/e3895bbe1b045f26fcf4f3bf2a3.html">Sunnman, Anders Gustaf Fredricsson</a>
@@ -8767,7 +8352,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/a/d/cb589cced27547f2ada.html">Sunnman, Fredric Johansson</a>
@@ -8783,7 +8367,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/0/e90577c74d147ffd733c7936c06.html">Sunnman, Maria Sofia</a>
@@ -8799,7 +8382,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/1/cb589cd94e44ca6191f.html">Svartström, Karl Herbert William</a>
@@ -8813,9 +8395,11 @@
 						<td class="ColumnDate">&nbsp;</td>
 						<td class="ColumnDate">&nbsp;</td>
 					</tr>
-					<tr class ="BeginFamily">
+					<tr class="BeginLetter BeginFamily">
 						<td class="ColumnRowLabel">
-							<a name="T" title="Families beginning with letter T">T</a>
+							<a id="T" name="T" title="Families beginning with letter T">
+							T
+							</a>
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/1/f/cb589ccc4d95f33fbf1.html">Tarvain, Matts</a>
@@ -8831,7 +8415,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/0/cb589cc948c07b4ff08.html">Tarvainen, Caisa Mathilda</a>
@@ -8847,7 +8430,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/5/c/cb589ccf60565c28fc5.html">Taskitar, Anna</a>
@@ -8863,7 +8445,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/0/db88d4be2ea5f49985defcc8209.html">Tegelman, Aron Carlsson</a>
@@ -8879,7 +8460,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/3/cf9663480e527c94237.html">Thompson, ?</a>
@@ -8895,7 +8475,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/b/6/f5e5b43a8c675d81c1ed107386b.html">Törnqvist, Wendla</a>
@@ -8911,7 +8490,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/1/8/f150cf3ac5b376a51a471c3981.html">Tunberg, Anna Helena</a>
@@ -8925,9 +8503,11 @@
 						<td class="ColumnDate"></td>
 						<td class="ColumnDate"></td>
 					</tr>
-					<tr class ="BeginFamily">
+					<tr class="BeginLetter BeginFamily">
 						<td class="ColumnRowLabel">
-							<a name="U" title="Families beginning with letter U">U</a>
+							<a id="U" name="U" title="Families beginning with letter U">
+							U
+							</a>
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/3/6/cb589ceb0a04ccf0163.html">Uppman, Margareta Mattsdotter</a>
@@ -8941,9 +8521,11 @@
 						<td class="ColumnDate">1740-11-09</td>
 						<td class="ColumnDate">&nbsp;</td>
 					</tr>
-					<tr class ="BeginFamily">
+					<tr class="BeginLetter BeginFamily">
 						<td class="ColumnRowLabel">
-							<a name="V" title="Families beginning with letter V">V</a>
+							<a id="V" name="V" title="Families beginning with letter V">
+							V
+							</a>
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/e/2/cb589ccc7db4472152e.html">Vepsäläin, Lisa</a>
@@ -8959,7 +8541,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/e/e/f145bd077fc4556bfd054b354ee.html">Vesterlund, Maria Serafia</a>
@@ -8975,7 +8556,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/4/cf83a474892007cb146.html">Virtanen, Iisakki</a>
@@ -8991,7 +8571,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -9005,9 +8584,11 @@
 						<td class="ColumnDate"></td>
 						<td class="ColumnDate"></td>
 					</tr>
-					<tr class ="BeginFamily">
+					<tr class="BeginLetter BeginFamily">
 						<td class="ColumnRowLabel">
-							<a name="W" title="Families beginning with letter W">W</a>
+							<a id="W" name="W" title="Families beginning with letter W">
+							W
+							</a>
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/b/d/cea5c238f8e496d74db.html">Wahrman, Alli Adele</a>
@@ -9023,7 +8604,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/5/b/f1513d8e1714bef0a1a8d9aeb5.html">Wårström, Amanda</a>
@@ -9039,7 +8619,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/2/cb589cc91586733b724.html">Weckström, Anna Johansdotter</a>
@@ -9055,7 +8634,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/1/8/f35ee788778b07c790af6ea781.html">Weckström, Engla Maria</a>
@@ -9071,7 +8649,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/0/1/cb589ccf3cc6e815710.html">Weckström, Isaac Mattsson</a>
@@ -9087,7 +8664,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/a/7/cb589ccbdb316711b7a.html">Weckström, Johannes Isaacsson</a>
@@ -9103,7 +8679,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/a/8/cb589cf12dd18cafb8a.html">Wennerqvist, Erik Konstantin Andersson</a>
@@ -9119,7 +8694,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/2/0/cb589cf12bc5b3d4c02.html">Wennerqvist, Reinhold Engelbrekt</a>
@@ -9135,7 +8709,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/5/cb589ccc2c1701aed56.html">Wesander, Evelina</a>
@@ -9151,7 +8724,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/2/6/cb589ccc22d4f968a62.html">Wesander, Josefina</a>
@@ -9167,7 +8739,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/8/cf8e9d926742f58bf89.html">Wesander, Otto</a>
@@ -9183,7 +8754,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/3/f14f491a65a2c7be64eeafc3337.html">Westerholm, Karl Jakob</a>
@@ -9199,7 +8769,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/1/cb589ccc62b04f0131d.html">Westerinen, Elisabeth</a>
@@ -9215,7 +8784,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/d/cb589ce11e632116bd9.html">Wiberg, Gustaf Martin</a>
@@ -9231,7 +8799,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/9/f7c2651ec2a3c7e5484560b2296.html">Wikström, Anders Johan</a>
@@ -9247,7 +8814,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/4/d8a141f7ebd5c059046e7ec4744.html">Wikström, Edla Gustava Henricsdotter</a>
@@ -9263,7 +8829,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/e/cb589cd9c65298b59ef.html">Wikström, Emil Teodor</a>
@@ -9279,7 +8844,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/6/cb589cda0d56aca7769.html">Wikström, Erik Anders</a>
@@ -9295,7 +8859,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/f/cb589cd14207ffb4dfc.html">Wikström, Erik Fredricsson</a>
@@ -9311,7 +8874,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/4/cb589cd4d6e61804b4f.html">Wikström, Erik Mauritz</a>
@@ -9327,7 +8889,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -9343,7 +8904,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/e/3/cb589cd4da87152b43e.html">Wikström, Erika Serefina</a>
@@ -9359,7 +8919,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/9/cb589cd456d1bc37c94.html">Wikström, Gabriel Emanuel</a>
@@ -9375,7 +8934,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/a/f/cb589cd13c1402a7ffa.html">Wikström, Greta Fredriksdotter</a>
@@ -9391,7 +8949,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/c/d8a1488a11dae2a70c10d6c7c9.html">Wikström, Gustaf Adolph</a>
@@ -9407,7 +8964,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -9423,7 +8979,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/5/7/cb589cc8fd959dc8075.html">Wikström, Gustafva Henricsdotter</a>
@@ -9439,7 +8994,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/d/5/cb589cd14c370431f5d.html">Wikström, Gustava Fredricsdotter</a>
@@ -9455,7 +9009,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/a/cb589cd4fa32ed46aac.html">Wikström, Henric Emanuel</a>
@@ -9471,7 +9024,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/2/cb589ccba4b73517c27.html">Wikström, Henrik Eriksson</a>
@@ -9487,7 +9039,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/6/cb589cd138c42743d69.html">Wikström, Henrik Fredriksson</a>
@@ -9503,7 +9054,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/0/2/cb589cd9c235580df20.html">Wikström, Ida Josefina</a>
@@ -9519,7 +9069,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/e/8/cb589cd4dd06373c68e.html">Wikström, Lovisa Christina</a>
@@ -9535,7 +9084,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/1/f/cb589cd9c991f9ed3f1.html">Wikström, Lydia Charlotta</a>
@@ -9551,7 +9099,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/3/f150a32e29e3c5a604d3aa3b936.html">Wikström, Maria Gustava</a>
@@ -9567,7 +9114,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/b/8/cb589cdccdb2006ef8b.html">Wikström, Ragnar Erik</a>
@@ -9583,7 +9129,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/a/8/d8a1435cd023e816fab67f16c8a.html">Wikström, Sofia Johanna</a>
@@ -9599,7 +9144,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/0/9/f150c32102b498369bb36e29c90.html">Wikström, Ulrika Charlotta</a>
@@ -9615,7 +9159,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/6/df713205bbf1173e21c11f22264.html">Wild, Hilda Sofia</a>
@@ -9631,7 +9174,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/0/1/df7160ab41974fc795bbb4b3e10.html">Wild, Maria Eufrosyne</a>
@@ -9647,7 +9189,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/1/4/f37c0ff34c53ba0b8598e359341.html">Winqvist, Hulda Maria</a>
@@ -9663,7 +9204,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/7/4/f381fc7a5ee277730587e64c347.html">Winqvist, Karl Gustaf Gustafsson</a>
@@ -9679,7 +9219,6 @@
 					</tr>
 					<tr>
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 						&nbsp;
@@ -9699,7 +9238,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2024-01-10 07:28:25<br />Created for Entire Database
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2<br />Last change was the 2024-07-07 22:37:18<br />Created for Entire Database
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

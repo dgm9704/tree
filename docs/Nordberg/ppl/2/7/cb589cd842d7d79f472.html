@@ -1,27 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>Nordberg Family Tree - Nordberg, Johan</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
-	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">Nordberg Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">Nordberg Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li class = "CurrentSection"><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
 					<li><a href="../../../families.html" title="Families">Families</a></li>
@@ -29,13 +39,43 @@
 					<li><a href="../../../places.html" title="Places">Places</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="IndividualDetail">
 			<h3>Nordberg, Johan<sup><small></small></sup></h3>
 			<div id="summaryarea">
@@ -64,7 +104,7 @@
 			</div>
 			<div class="subsection" id="events">
 				<h4>Events</h4>
-				<table class="infolist eventlist">
+				<table class="infolist eventlist toggle_event ltr" id="toggle_event" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnEvent">Event</th>
@@ -76,7 +116,7 @@
 					</thead>
 					<tbody>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/a/0/cb589cd84343b0aef0a.html" title="Birth">
 								Birth
 								</a>
@@ -92,9 +132,6 @@
 							 <a href="#sref1a">1a</a> <a href="#sref2a">2a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -102,7 +139,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/6/e/df8789399854d85b75a0889d5e6.html" title="Residence">
 								Residence
 								</a>
@@ -118,9 +155,6 @@
 							 <a href="#sref3a">3a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -128,15 +162,15 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/2/0/e8eeba7577644e56c5d5fc47c02.html" title="Residence">
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/5/2/df87a2bbc8d673c1c7b3cad5025.html" title="Residence">
 								Residence
 								</a>
 							</td>
-							<td class="ColumnDate">from 1849 to 1850</td>
+							<td class="ColumnDate">1851</td>
 							<td class="ColumnPlace">
-								<a href="../../../plc/4/6/cb589cd83d929db3d64.html" title="Lassas, Hindhår, Borgå, Suomi">
-								Lassas, Hindhår, Borgå, Suomi
+								<a href="../../../plc/6/c/cb589cd851a2637b2c6.html" title="Hannusas, Norrveckoski, Borgå, Suomi">
+								Hannusas, Norrveckoski, Borgå, Suomi
 								</a>
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
@@ -144,9 +178,6 @@
 							 <a href="#sref4a">4a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -154,7 +185,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/b/2/e8eed6bb0ef6e31b868c69ad22b.html" title="Residence">
 								Residence
 								</a>
@@ -170,9 +201,6 @@
 							 <a href="#sref4b">4b</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -180,15 +208,15 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/5/2/df87a2bbc8d673c1c7b3cad5025.html" title="Residence">
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/2/0/e8eeba7577644e56c5d5fc47c02.html" title="Residence">
 								Residence
 								</a>
 							</td>
-							<td class="ColumnDate">1851</td>
+							<td class="ColumnDate">from 1849 to 1850</td>
 							<td class="ColumnPlace">
-								<a href="../../../plc/6/c/cb589cd851a2637b2c6.html" title="Hannusas, Norrveckoski, Borgå, Suomi">
-								Hannusas, Norrveckoski, Borgå, Suomi
+								<a href="../../../plc/4/6/cb589cd83d929db3d64.html" title="Lassas, Hindhår, Borgå, Suomi">
+								Lassas, Hindhår, Borgå, Suomi
 								</a>
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
@@ -196,9 +224,6 @@
 							 <a href="#sref4c">4c</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -206,7 +231,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/2/5/f36ba977e7071e9f2834d0dad52.html" title="Residence">
 								Residence
 								</a>
@@ -222,9 +247,6 @@
 							 <a href="#sref5a">5a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -232,7 +254,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/5/e/f36badc7eaf107907aefd01c6e5.html" title="Residence">
 								Residence
 								</a>
@@ -248,9 +270,6 @@
 							 <a href="#sref6a">6a</a> <a href="#sref7a">7a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -262,7 +281,7 @@
 			</div>
 			<div class="subsection" id="parents">
 				<h4>Parents</h4>
-				<table class="infolist">
+				<table class="infolist toggle_parent ltr" id="toggle_parent" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnAttribute">Relation to main person</th>
@@ -377,7 +396,7 @@
 			</div>
 			<div class="subsection" id="families">
 				<h4>Families</h4>
-				<table class="infolist">
+				<table class="infolist" id="toggle_families" style="display:block">
 					<tr class="BeginFamily">
 						<td class="ColumnValue" colspan="3"><H4 class="subsection"><a href="../../../fam/6/7/cb589cd844945b4bc76.html" title="Family of Nordberg, Johan and , Anna Christina Mattsdotter">Family of Nordberg, Johan and , Anna Christina Mattsdotter</a></H4></td>
 					</tr>
@@ -395,9 +414,8 @@
 					</tr>
 					<tr>
 						<td class="ColumnType">&nbsp;</td>
-						<td class="ColumnAttribute">&nbsp;</td>
-						<td class="ColumnValue">
-							<table class="infolist eventlist">
+						<td class="ColumnValue" colspan="2">
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnEvent">Event</th>
@@ -409,7 +427,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/7/c/cb589cfee643de2a3c7.html" title="Marriage">
 											Marriage
 											</a>
@@ -418,12 +436,9 @@
 										<td class="ColumnPlace">&nbsp;</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref4c">4c</a> <a href="#sref8a">8a</a>
+										 <a href="#sref4a">4a</a> <a href="#sref8a">8a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -431,7 +446,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/0/7/e8ef6139e4c4ec0daa61d9ae570.html" title="Residence">
 											Residence
 											</a>
@@ -447,9 +462,6 @@
 										 <a href="#sref4d">4d</a> <a href="#sref9a">9a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -457,7 +469,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/4/a/e8f19b344747f4d168934aaba4.html" title="Residence">
 											Residence
 											</a>
@@ -473,9 +485,6 @@
 										 <a href="#sref10a">10a</a> <a href="#sref9a">9a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -483,7 +492,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/b/9/e8f244d0e1e3cf617e763463a9b.html" title="Residence">
 											Residence
 											</a>
@@ -499,9 +508,6 @@
 										 <a href="#sref11a">11a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -509,7 +515,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/2/8/f36ba82ba5c6b5559e373c11682.html" title="Residence">
 											Residence
 											</a>
@@ -525,9 +531,6 @@
 										 <a href="#sref5a">5a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -538,10 +541,9 @@
 							</table>
 						</td>
 						<tr>
-							<td class="ColumnType">&nbsp;</td>
 							<td class="ColumnAttribute">Children</td>
-							<td class="ColumnValue" />
-							<table class="infolist eventlist">
+							<td class="ColumnValue Child" colspan="2" />
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnName">Name</th>
@@ -564,7 +566,7 @@
 			</div>
 			<div class="subsection" id="pedigree">
 				<h4>Pedigree</h4>
-				<ol class="pedigreegen">
+				<ol class="pedigreegen" id="toggle_pedigree" style="display:block">
 					<li>
 						<a href="../../../ppl/0/9/cb589cd273c0aa05090.html">Nordberg, Gustaf Staffansson</a>
 						<ol>
@@ -643,89 +645,91 @@
 			</div>
 			<div class="subsection" id="tree">
 				<h4>Ancestors</h4>
-				<div id="treeContainer" style="width:1234px; height:450px; top: 0px">
-					<div class="boxbg male AncCol0" style="top: 230px; left: 6px;">
-						<a class="noThumb" href="../../../ppl/2/7/cb589cd842d7d79f472.html">
-						Nordberg, Johan<br/>*1829-01-09<br/>+...
-						</a>
+				<div class="tree" id="toggle_anc" style="display:block">
+					<div id="treeContainer" style="width:1234px; height:450px; top: 0px">
+						<div class="boxbg male AncCol0" style="top: 230px; left: 6px;">
+							<a class="noThumb" href="../../../ppl/2/7/cb589cd842d7d79f472.html">
+							Nordberg, Johan<br>*1829-01-09<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 235px; left: 10px;"></div>
+						<div class="bvline" style="top: 250px; left: 285px; width: 15px"></div>
+						<div class="gvline" style="top: 255px; left: 285px; width: 20px"></div>
+						<div class="boxbg male AncCol1" style="top: 155px; left: 316px;">
+							<a class="noThumb" href="../../../ppl/0/9/cb589cd273c0aa05090.html">
+							Nordberg, Gustaf Staffansson<br>*1794-10-02<br>+1851-02-24
+							</a>
+						</div>
+						<div class="shadow" style="top: 160px; left: 320px;"></div>
+						<div class="bvline" style="top: 175px; left: 300px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 175px; left: 300px; height: 76px;"></div>
+					
+						<div class="bvline" style="top: 175px; left: 595px; width: 15px"></div>
+						<div class="gvline" style="top: 180px; left: 595px; width: 20px"></div>
+						<div class="boxbg male AncCol2" style="top: 80px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/0/c/cb589ccecb9359c7dc0.html">
+							Nordberg, Staffan Johansson<br>*1771-12-24<br>+1855-04-16
+							</a>
+						</div>
+						<div class="shadow" style="top: 85px; left: 630px;"></div>
+						<div class="bvline" style="top: 100px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 100px; left: 610px; height: 76px;"></div>
+					
+						<div class="bvline" style="top: 100px; left: 905px; width: 15px"></div>
+						<div class="gvline" style="top: 105px; left: 905px; width: 20px"></div>
+						<div class="boxbg male AncCol3" style="top: 5px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/c/7/cb589ccec504a61ee7c.html">
+							, Johan Mattsson<br>*1740<br>+1798-12-01
+							</a>
+						</div>
+						<div class="shadow" style="top: 10px; left: 940px;"></div>
+						<div class="bvline" style="top: 25px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 25px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol3" style="top: 155px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/4/6/cb589ccec366d226d64.html">
+							, Catharina Henricsdotter<br>*1748-09-16<br>+1833-02-26
+							</a>
+						</div>
+						<div class="shadow" style="top: 160px; left: 940px;"></div>
+						<div class="bvline" style="top: 175px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 100px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol2" style="top: 230px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/4/b/cea5bfedcac46bfefb4.html">
+							, Caisa Hansdotter<br>*1772<br>+1818-02-07
+							</a>
+						</div>
+						<div class="shadow" style="top: 235px; left: 630px;"></div>
+						<div class="bvline" style="top: 250px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 175px; left: 610px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol1" style="top: 305px; left: 316px;">
+							<a class="noThumb" href="../../../ppl/4/8/cea5bd4d31d4851a584.html">
+							, Anna Gretha Johansdotter<br>*1797-06-22<br>+1864-02-13
+							</a>
+						</div>
+						<div class="shadow" style="top: 310px; left: 320px;"></div>
+						<div class="bvline" style="top: 325px; left: 300px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 250px; left: 300px; height: 76px;"></div>
+					
 					</div>
-					<div class="shadow" style="top: 235px; left: 10px;"></div>
-					<div class="bvline" style="top: 250px; left: 285px; width: 15px"></div>
-					<div class="gvline" style="top: 255px; left: 285px; width: 20px"></div>
-					<div class="boxbg male AncCol1" style="top: 155px; left: 316px;">
-						<a class="noThumb" href="../../../ppl/0/9/cb589cd273c0aa05090.html">
-						Nordberg, Gustaf Staffansson<br/>*1794-10-02<br/>+1851-02-24
-						</a>
-					</div>
-					<div class="shadow" style="top: 160px; left: 320px;"></div>
-					<div class="bvline" style="top: 175px; left: 300px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 175px; left: 300px; height: 76px;"></div>
-				
-					<div class="bvline" style="top: 175px; left: 595px; width: 15px"></div>
-					<div class="gvline" style="top: 180px; left: 595px; width: 20px"></div>
-					<div class="boxbg male AncCol2" style="top: 80px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/0/c/cb589ccecb9359c7dc0.html">
-						Nordberg, Staffan Johansson<br/>*1771-12-24<br/>+1855-04-16
-						</a>
-					</div>
-					<div class="shadow" style="top: 85px; left: 630px;"></div>
-					<div class="bvline" style="top: 100px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 100px; left: 610px; height: 76px;"></div>
-				
-					<div class="bvline" style="top: 100px; left: 905px; width: 15px"></div>
-					<div class="gvline" style="top: 105px; left: 905px; width: 20px"></div>
-					<div class="boxbg male AncCol3" style="top: 5px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/c/7/cb589ccec504a61ee7c.html">
-						, Johan Mattsson<br/>*1740<br/>+1798-12-01
-						</a>
-					</div>
-					<div class="shadow" style="top: 10px; left: 940px;"></div>
-					<div class="bvline" style="top: 25px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 25px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol3" style="top: 155px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/4/6/cb589ccec366d226d64.html">
-						, Catharina Henricsdotter<br/>*1748-09-16<br/>+1833-02-26
-						</a>
-					</div>
-					<div class="shadow" style="top: 160px; left: 940px;"></div>
-					<div class="bvline" style="top: 175px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 100px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol2" style="top: 230px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/4/b/cea5bfedcac46bfefb4.html">
-						, Caisa Hansdotter<br/>*1772<br/>+1818-02-07
-						</a>
-					</div>
-					<div class="shadow" style="top: 235px; left: 630px;"></div>
-					<div class="bvline" style="top: 250px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 175px; left: 610px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol1" style="top: 305px; left: 316px;">
-						<a class="noThumb" href="../../../ppl/4/8/cea5bd4d31d4851a584.html">
-						, Anna Gretha Johansdotter<br/>*1797-06-22<br/>+1864-02-13
-						</a>
-					</div>
-					<div class="shadow" style="top: 310px; left: 320px;"></div>
-					<div class="bvline" style="top: 325px; left: 300px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 250px; left: 300px; height: 76px;"></div>
-				
 				</div>
 			</div>
 			<div class="subsection" id="sourcerefs">
 				<h4>Source References</h4>
-				<ol>
+				<ol id="srcr">
 					<li>
 						<a href="../../../src/d/1/d931e49e9d160c9da9b335a291d.html" title="Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Lastenkirja 1820-1831" name ="sref1">
 						Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Lastenkirja 1820-1831
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref1a">
 								<ul>
 									<li>
@@ -742,7 +746,7 @@
 						<a href="../../../src/e/7/db7f15f20625e2c9b2369407e7e.html" title="Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Syntyneet 1826-1832" name ="sref2">
 						Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Syntyneet 1826-1832
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref2a">
 								<ul>
 									<li>
@@ -762,7 +766,7 @@
 						<a href="../../../src/a/f/db7f1b5c6071ba83807beed0bfa.html" title="Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Rippikirja 1840-1848" name ="sref3">
 						Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Rippikirja 1840-1848
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref3a">
 								<ul>
 									<li>
@@ -782,17 +786,17 @@
 						<a href="../../../src/5/7/db7f1d99179967edd7fa10f675.html" title="Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Rippikirja 1849-1858" name ="sref4">
 						Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Rippikirja 1849-1858
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref4a">
 								<ul>
 									<li>
-									Page: 162
+									Page: 290
 									</li>
 									<li>
-									Link: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=7961463">http://digi.narc.fi/digi/view.ka?kuid=7961463</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5862694802&amp;aineistoId=1168047261">https://astia.narc.fi/uusiastia/viewer/?fileId=5862694802&amp;aineistoId=1168047261</a></p></div>
+									Link: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=7961583">http://digi.narc.fi/digi/view.ka?kuid=7961583</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5862694874&amp;aineistoId=1168047261">https://astia.narc.fi/uusiastia/viewer/?fileId=5862694874&amp;aineistoId=1168047261</a></p></div>
 									</li>
 									<li>
-									Transcript: <div class="grampsstylednote"><p>162 Hindhår</p><p>No 5<br />Lassas Frälsehemman</p><p>Landbonde f.d Uppsyningsman<br />Gustaf Johansson 21/8 1809<br />Hu Maria Andersdotter Stjernberg(?) 9/6 1822</p><p>&nbsp;</p><p>Mor. Landbond. Enka<br />Ea Greta Johansdotter 9/7 1770<br />systerson<br />Johan Nordberg 9/1 1829<br />Stadsdreng(?) <br />Carl Vilhelm Ekholm 28/9 1826<br />Hu Anna Cajsa Andersdotter 14/10 1830</p><p>Dreng Carl Fredric Johansson 27/7 1824<br />Piga Anna Fredrika Wahlberg 22/4 1828<br />Piga Stina Ericsdotter Ekblom 18/8 1826<br />QP Piga Maria Christina Ericsdotter 26/7 1826<br />Piga Maria Lovisa ??? 2/2 1833<br />Dreng Petter Johan Björkroth 10/5 1832<br />Piga Helena Gustafsdotter 19/7 1833<br />Dreng Anders JohanJordman 7/4 1804<br />Piga Hedda Lena Blomqvist 26/9 1834<br />Dreng Johan Snäll 1/7 1831<br />Dreng Matts Johansson 22/12 1830<br />Dreng Carl Johan Gustafsson 24/6 1832<br />Dreng <a href="../../../ppl/a/f/cb589cd84543096b0fa.html">Anders Herman Nordberg</a> 27/11 1835<br />Piga Sofia Eklund 28/7 1835</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></div>
+									Transcript: <div class="grampsstylednote"><p>290 Norrveckoski</p><p>Hannusas<br />2a<br />Bonde; Uppsyningsman, Sexman                     Dog den 24 Februari 181<br />Gustaf Staffansson Nordberg 2/10 1794<br />Ea Hu Annan Gretha Johansdotter 22/6 1797</p><p>Dotter Anna Margaretha Nordberg 29/11 1819<br />Son Gustaf Nordberg 18/5 1825<br />Hu Maria Lovisa Johansdotter 14/1 1826<br />Son Fredrik Nordberg 9/12 1830  1849 till p. 132<br />Son Carl Nordberg 28/2 1827</p><p>Son Anders Herman Nordberg 27/11 1835  1852 till p. 162<br />Son Anders Herman Nordberg 27/11 1835                                          1857 fr pag 3<br />Son Johan Nordberg 9/1 1829 d. 27 Sept 1851 lysning med ??? 1854 fr p. 432, 1854 till p. 3 vigde 4/11 1851<br />Son Adolf Nordberg 1/11 1839</p><p>Dotter Maria Lovisa Nordberg 17/10 1842</p><p>Piga Anna Stina Nordström 6/8 1826  1852 till p. 283                  1850 fr p. 289. 30/10 1852 lysning med Gust. Adolf Nyholm p. 279</p><p>Kyrkfattig<br />?? Greta Lisa Henricsdotter 1796    dog den 4 october 1847 För stöd fått ???????????</p></div>
 									</li>
 								</ul>
 							</li>
@@ -812,13 +816,13 @@
 							<li id="sref4c">
 								<ul>
 									<li>
-									Page: 290
+									Page: 162
 									</li>
 									<li>
-									Link: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=7961583">http://digi.narc.fi/digi/view.ka?kuid=7961583</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5862694874&amp;aineistoId=1168047261">https://astia.narc.fi/uusiastia/viewer/?fileId=5862694874&amp;aineistoId=1168047261</a></p></div>
+									Link: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=7961463">http://digi.narc.fi/digi/view.ka?kuid=7961463</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5862694802&amp;aineistoId=1168047261">https://astia.narc.fi/uusiastia/viewer/?fileId=5862694802&amp;aineistoId=1168047261</a></p></div>
 									</li>
 									<li>
-									Transcript: <div class="grampsstylednote"><p>290 Norrveckoski</p><p>Hannusas<br />2a<br />Bonde; Uppsyningsman, Sexman                     Dog den 24 Februari 181<br />Gustaf Staffansson Nordberg 2/10 1794<br />Ea Hu Annan Gretha Johansdotter 22/6 1797</p><p>Dotter Anna Margaretha Nordberg 29/11 1819<br />Son Gustaf Nordberg 18/5 1825<br />Hu Maria Lovisa Johansdotter 14/1 1826<br />Son Fredrik Nordberg 9/12 1830  1849 till p. 132<br />Son Carl Nordberg 28/2 1827</p><p>Son Anders Herman Nordberg 27/11 1835  1852 till p. 162<br />Son Anders Herman Nordberg 27/11 1835                                          1857 fr pag 3<br />Son Johan Nordberg 9/1 1829 d. 27 Sept 1851 lysning med ??? 1854 fr p. 432, 1854 till p. 3 vigde 4/11 1851<br />Son Adolf Nordberg 1/11 1839</p><p>Dotter Maria Lovisa Nordberg 17/10 1842</p><p>Piga Anna Stina Nordström 6/8 1826  1852 till p. 283                  1850 fr p. 289. 30/10 1852 lysning med Gust. Adolf Nyholm p. 279</p><p>Kyrkfattig<br />?? Greta Lisa Henricsdotter 1796    dog den 4 october 1847 För stöd fått ???????????</p></div>
+									Transcript: <div class="grampsstylednote"><p>162 Hindhår</p><p>No 5<br />Lassas Frälsehemman</p><p>Landbonde f.d Uppsyningsman<br />Gustaf Johansson 21/8 1809<br />Hu Maria Andersdotter Stjernberg(?) 9/6 1822</p><p>&nbsp;</p><p>Mor. Landbond. Enka<br />Ea Greta Johansdotter 9/7 1770<br />systerson<br />Johan Nordberg 9/1 1829<br />Stadsdreng(?) <br />Carl Vilhelm Ekholm 28/9 1826<br />Hu Anna Cajsa Andersdotter 14/10 1830</p><p>Dreng Carl Fredric Johansson 27/7 1824<br />Piga Anna Fredrika Wahlberg 22/4 1828<br />Piga Stina Ericsdotter Ekblom 18/8 1826<br />QP Piga Maria Christina Ericsdotter 26/7 1826<br />Piga Maria Lovisa ??? 2/2 1833<br />Dreng Petter Johan Björkroth 10/5 1832<br />Piga Helena Gustafsdotter 19/7 1833<br />Dreng Anders JohanJordman 7/4 1804<br />Piga Hedda Lena Blomqvist 26/9 1834<br />Dreng Johan Snäll 1/7 1831<br />Dreng Matts Johansson 22/12 1830<br />Dreng Carl Johan Gustafsson 24/6 1832<br />Dreng <a href="../../../ppl/a/f/cb589cd84543096b0fa.html">Anders Herman Nordberg</a> 27/11 1835<br />Piga Sofia Eklund 28/7 1835</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></div>
 									</li>
 								</ul>
 							</li>
@@ -841,7 +845,7 @@
 						<a href="../../../src/5/e/cf9322ce51178c4d1e5.html" title="Porvoon maaseurakunta: Porvoo msrk Rippikirja 1880-1889" name ="sref5">
 						Porvoon maaseurakunta: Porvoo msrk Rippikirja 1880-1889
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref5a">
 								<ul>
 									<li>
@@ -861,7 +865,7 @@
 						<a href="../../../src/6/5/f35ee4a782b1b14429fdeb1f256.html" title="Porvoon maaseurakunta: Porvoo msrk Rippikirja 1890-1899" name ="sref6">
 						Porvoon maaseurakunta: Porvoo msrk Rippikirja 1890-1899
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref6a">
 								<ul>
 									<li>
@@ -881,7 +885,7 @@
 						<a href="../../../src/2/d/f35f34546097021d962d6b10cd2.html" title="Porvoon maaseurakunta: Porvoo msrk Lastenkirja 1890-1899" name ="sref7">
 						Porvoon maaseurakunta: Porvoo msrk Lastenkirja 1890-1899
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref7a">
 								<ul>
 									<li>
@@ -901,7 +905,7 @@
 						<a href="../../../src/9/9/cf932f76149565a5899.html" title="Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Vihityt 1842-1888" name ="sref8">
 						Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Vihityt 1842-1888
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref8a">
 								<ul>
 									<li>
@@ -921,7 +925,7 @@
 						<a href="../../../src/2/8/db8a9276e0643ec55c8ba3c3182.html" title="Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Lastenkirja 1848-1860" name ="sref9">
 						Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Lastenkirja 1848-1860
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref9a">
 								<ul>
 									<li>
@@ -941,7 +945,7 @@
 						<a href="../../../src/f/f/d6cda20a4443c79320f8ff5ffff.html" title="Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Rippikirja 1859-1868" name ="sref10">
 						Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Rippikirja 1859-1868
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref10a">
 								<ul>
 									<li>
@@ -961,7 +965,7 @@
 						<a href="../../../src/e/a/db8ab6037e9d25a7461400cbae.html" title="Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Rippikirja 1869-1878" name ="sref11">
 						Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Rippikirja 1869-1878
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref11a">
 								<ul>
 									<li>
@@ -989,7 +993,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2023-01-03 21:31:52<br />Created for Entire Database
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2<br />Last change was the 2023-01-03 21:31:52<br />Created for Entire Database
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

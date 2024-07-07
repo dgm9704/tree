@@ -1,26 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>Nordberg Family Tree - Places</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
 </head>
-<body  onload = "initialize();" >
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">Nordberg Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">Nordberg Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
 					<li><a href="../../../families.html" title="Families">Families</a></li>
@@ -28,13 +39,43 @@
 					<li class = "CurrentSection"><a href="../../../places.html" title="Places">Places</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="PlaceDetail">
 			<h3>Danskog, Ekenäs, Suomi</h3>
 			<div id="summaryarea">
@@ -57,7 +98,7 @@
 							<th class="ColumnAttribute">Enclosed By</th>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/c/1/cb589cc83b65110951c.html" title="Ekenäs">Ekenäs</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/c/1/cb589cc83b65110951c.html" title="Ekenäs">Ekenäs</a></td>
 						</tr>
 						<tr>
 							<td>
@@ -68,40 +109,27 @@
 							<th class="ColumnAttribute">Place Encloses</th>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/1/e/eba932e2f2b79b8c277926799e1.html" title="Byviken">Byviken</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/1/e/eba932e2f2b79b8c277926799e1.html" title="Byviken">Byviken</a></td>
 						</tr>
 					</tbody>
 				</table>
 			</div>
-			<div id="popup"></div>
+			<div class="ol-popup" id="popup"><a class="ol-popup-closer" href="#" id="popup-closer"></a><div class="ol-popup-title" id="popup-title"></div><div id="popup-content"></div></div>
+			<div class="ol-popup" id="tooltip"><div id="tooltip-content"></div></div>
 			<div class="subsection" id="references">
 				<h4>References</h4>
 				<ol class="Col1" role="Volume-n-Page" type=1>
 					<li>
 						<a href="../../../ppl/6/7/ebd9abf90fe73dec4247db6d676.html">
 						, Johan Henricsson
-						 (1732-03-19) 
+						 (1732-03-19 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/0/1/ebd9e0e1d43428f01cf2024dc10.html">
 						, Henric Henricsson
-						 (1735-04-24) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/b/d/ebd72e50d9e26d37402264eb5db.html">
-						, Maja Hindricsdotter
-						 (between 1738 and 1740) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/f/c/ebd6f2952ab329f7cd89b2d33cf.html">
-						Curlander, Henric
-						 (between 1738 and 1740) 
+						 (1735-04-24 Birth) 
 						
 						</a>
 					</li>
@@ -115,6 +143,20 @@
 					<li>
 						<a href="../../../ppl/b/d/ebd72e50d9e26d37402264eb5db.html">
 						, Maja Hindricsdotter
+						 (between 1738 and 1740) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/f/c/ebd6f2952ab329f7cd89b2d33cf.html">
+						Curlander, Henric
+						 (between 1738 and 1740) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/b/d/ebd72e50d9e26d37402264eb5db.html">
+						, Maja Hindricsdotter
 						 (between 1741 and 1743) 
 						
 						</a>
@@ -136,14 +178,7 @@
 					<li>
 						<a href="../../../ppl/b/d/ebd72e50d9e26d37402264eb5db.html">
 						, Maja Hindricsdotter
-						 (1743) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/b/8/ebd6f62c00c7dd77db2a60b7c8b.html">
-						, Catharina Jonasdotter
-						 (between 1745 and 1747) 
+						 (1743 Death) 
 						
 						</a>
 					</li>
@@ -155,6 +190,13 @@
 						</a>
 					</li>
 					<li>
+						<a href="../../../ppl/b/8/ebd6f62c00c7dd77db2a60b7c8b.html">
+						, Catharina Jonasdotter
+						 (between 1745 and 1747) 
+						
+						</a>
+					</li>
+					<li>
 						<a href="../../../ppl/f/c/ebd6f2952ab329f7cd89b2d33cf.html">
 						Curlander, Henric
 						 (between 1745 and 1747) 
@@ -164,13 +206,6 @@
 					<li>
 						<a href="../../../ppl/f/c/ebd6f2952ab329f7cd89b2d33cf.html">
 						Curlander, Henric
-						 (1745-03-17) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/b/8/ebd6f62c00c7dd77db2a60b7c8b.html">
-						, Catharina Jonasdotter
 						 (1745-03-17) 
 						
 						</a>
@@ -183,15 +218,22 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/f/c/ebd6f2952ab329f7cd89b2d33cf.html">
-						Curlander, Henric
+						<a href="../../../ppl/b/8/ebd6f62c00c7dd77db2a60b7c8b.html">
+						, Catharina Jonasdotter
+						 (1745-03-17) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/b/8/ebd6f62c00c7dd77db2a60b7c8b.html">
+						, Catharina Jonasdotter
 						 (between 1748 and 1754) 
 						
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/b/8/ebd6f62c00c7dd77db2a60b7c8b.html">
-						, Catharina Jonasdotter
+						<a href="../../../ppl/f/c/ebd6f2952ab329f7cd89b2d33cf.html">
+						Curlander, Henric
 						 (between 1748 and 1754) 
 						
 						</a>
@@ -206,20 +248,20 @@
 					<li>
 						<a href="../../../ppl/c/e/ebc32dd0e3b5f3bbf2e85854eec.html">
 						Curlander, Maria Henricsdotter
-						 (1749-03-17) 
+						 (1749-03-17 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/8/3/ebe57b1eeda47d501b545c4b638.html">
 						, Jonas Henricsson
-						 (1754-04-28) 
+						 (1754-04-28 Birth) 
 						
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/b/8/ebd6f62c00c7dd77db2a60b7c8b.html">
-						, Catharina Jonasdotter
+						<a href="../../../ppl/f/c/ebd6f2952ab329f7cd89b2d33cf.html">
+						Curlander, Henric
 						 (between 1755 and 1761) 
 						
 						</a>
@@ -232,8 +274,8 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/f/c/ebd6f2952ab329f7cd89b2d33cf.html">
-						Curlander, Henric
+						<a href="../../../ppl/b/8/ebd6f62c00c7dd77db2a60b7c8b.html">
+						, Catharina Jonasdotter
 						 (between 1755 and 1761) 
 						
 						</a>
@@ -241,34 +283,27 @@
 					<li>
 						<a href="../../../ppl/6/7/ebd9abf90fe73dec4247db6d676.html">
 						, Johan Henricsson
-						 (1757-01-11) 
+						 (1757-01-11 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/c/a/ebe58913f923b10c7a33ac47cac.html">
 						, Elisabetha Henricsdotter
-						 (1757-09-24) 
+						 (1757-09-24 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/1/7/ebe5bc8a226136a6c954c261171.html">
 						, Margaretha Henricsdotter
-						 (1761-04-01) 
+						 (1761-04-01 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/f/c/ebd6f2952ab329f7cd89b2d33cf.html">
 						Curlander, Henric
-						 (between 1762 and 1767) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/b/8/ebd6f62c00c7dd77db2a60b7c8b.html">
-						, Catharina Jonasdotter
 						 (between 1762 and 1767) 
 						
 						</a>
@@ -281,15 +316,15 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/f/c/ebd6f2952ab329f7cd89b2d33cf.html">
-						Curlander, Henric
-						 (between 1768 and 1773) 
+						<a href="../../../ppl/b/8/ebd6f62c00c7dd77db2a60b7c8b.html">
+						, Catharina Jonasdotter
+						 (between 1762 and 1767) 
 						
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/b/8/ebd6f62c00c7dd77db2a60b7c8b.html">
-						, Catharina Jonasdotter
+						<a href="../../../ppl/f/c/ebd6f2952ab329f7cd89b2d33cf.html">
+						Curlander, Henric
 						 (between 1768 and 1773) 
 						
 						</a>
@@ -302,22 +337,22 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/f/c/ebd6f2952ab329f7cd89b2d33cf.html">
-						Curlander, Henric
-						 (1768-08-20) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/f/c/ebd6f2952ab329f7cd89b2d33cf.html">
-						Curlander, Henric
-						 (between 1774 and 1775) 
-						
-						</a>
-					</li>
-					<li>
 						<a href="../../../ppl/b/8/ebd6f62c00c7dd77db2a60b7c8b.html">
 						, Catharina Jonasdotter
+						 (between 1768 and 1773) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/f/c/ebd6f2952ab329f7cd89b2d33cf.html">
+						Curlander, Henric
+						 (1768-08-20 Death) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/f/c/ebd6f2952ab329f7cd89b2d33cf.html">
+						Curlander, Henric
 						 (between 1774 and 1775) 
 						
 						</a>
@@ -332,27 +367,34 @@
 					<li>
 						<a href="../../../ppl/b/8/ebd6f62c00c7dd77db2a60b7c8b.html">
 						, Catharina Jonasdotter
-						 (1775-11-06) 
+						 (between 1774 and 1775) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/b/8/ebd6f62c00c7dd77db2a60b7c8b.html">
+						, Catharina Jonasdotter
+						 (1775-11-06 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/b/9/cb589ccb8e61c75d89b.html">
 						Holmström, Henric Sigfridsson
-						 (1777-04-08) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/6/5/ebb0a5009a4205bca7113657956.html">
-						Sommardahl, Sigfrid Larsson
-						 (1785-02-07) 
+						 (1777-04-08 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/4/6/ebb0a58377737ed4b8c6631c764.html">
 						, Greta Johansdotter
+						 (1785-02-07) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/6/5/ebb0a5009a4205bca7113657956.html">
+						Sommardahl, Sigfrid Larsson
 						 (1785-02-07) 
 						
 						</a>
@@ -367,56 +409,56 @@
 					<li>
 						<a href="../../../ppl/f/6/cb589ccb9444e6f7f6f.html">
 						Holmström, Eva Stina
-						 (1804-02-22) 
+						 (1804-02-22 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/f/6/cb589ccb9444e6f7f6f.html">
 						Holmström, Eva Stina
-						 (1804-03-12) 
+						 (1804-03-12 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/3/3/cb589ccb97a1bce9a33.html">
 						Holmström, Hans Henric
-						 (1805-09-14) 
+						 (1805-09-14 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/4/c/cb589ccb9a04c9e78c4.html">
 						Holmström, Lars Fredric
-						 (1809-03-21) 
+						 (1809-03-21 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/1/6/cb589ccb9d63abd8961.html">
 						Holmström, Eva Carolina
-						 (1811-02-26) 
+						 (1811-02-26 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/e/4/cb589cc8ec053a33e4e.html">
 						Holmström, Gustaf Adolph
-						 (1816-06-01) 
+						 (1816-06-01 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/f/6/cb589cd3e2464cfec6f.html">
 						Elgström, Anna Erica
-						 (1861-04-21) 
+						 (1861-04-21 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/2/8/cb589cd50730af00582.html">
 						Söderlund, Engla Maria Henriksdotter
-						 (1907-01-14) 
+						 (1907-01-14 Death) 
 						
 						</a>
 					</li>
@@ -426,7 +468,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2021-04-26 18:06:34<br />Created for Entire Database
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2<br />Last change was the 2021-04-26 18:06:34<br />Created for Entire Database
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

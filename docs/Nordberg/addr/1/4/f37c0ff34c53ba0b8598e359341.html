@@ -1,26 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>Nordberg Family Tree - Address Book</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">Nordberg Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">Nordberg Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
 					<li><a href="../../../families.html" title="Families">Families</a></li>
@@ -28,13 +39,43 @@
 					<li><a href="../../../places.html" title="Places">Places</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li class = "CurrentSection"><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="AddressBookDetail">
 			<h3>
 				<a href="../../../ppl/1/4/f37c0ff34c53ba0b8598e359341.html">Winqvist, Hulda Maria</a>
@@ -42,33 +83,281 @@
 			<div class="content Residence">
 				<h4>Residence</h4>
 				<table class="infolist place">
+					<tbody>
+						<tr>
+							<td class="ColumnAttribute">Church Parish</td>
+							<td class="ColumnValue">Borgå</td>
+						</tr>
+						<tr>
+							<td class="ColumnAttribute">Country</td>
+							<td class="ColumnValue">Suomi</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+							&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<th class="ColumnAttribute" colspan="1">Alternate Names</th>
+							<th class="ColumnAttribute" colspan="1">Language</th>
+							<th class="ColumnAttribute" colspan="1">Date range in which the name is valid.</th>
+						</tr>
+						<tr>
+							<td class="ColumnValue">Porvoo</td>
+							<td class="ColumnValue">fi</td>
+							<td class="ColumnValue"></td>
+						</tr>
+						<tr>
+							<td>
+							&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<th class="ColumnAttribute">Enclosed By</th>
+						</tr>
+						<tr>
+							<td class="ColumnPlace"><a href="../../../plc/1/a/cb589cfeb254c33cda1.html" title="Suomi">Suomi</a></td>
+						</tr>
+						<tr>
+							<td>
+							&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<th class="ColumnAttribute">Place Encloses</th>
+						</tr>
+						<tr>
+							<td class="ColumnPlace"><a href="../../../plc/c/f/cb589cd2ade491812fc.html" title="Andersböle">Andersböle</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnPlace">Fagerstad</td>
+						</tr>
+						<tr>
+							<td class="ColumnPlace">Gammelbacka</td>
+						</tr>
+						<tr>
+							<td class="ColumnPlace">Gammelgård</td>
+						</tr>
+						<tr>
+							<td class="ColumnPlace"><a href="../../../plc/2/d/cb589ccbc8775a4d7d2.html" title="Hindhår">Hindhår</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnPlace">Kerkko</td>
+						</tr>
+						<tr>
+							<td class="ColumnPlace">Kiala</td>
+						</tr>
+						<tr>
+							<td class="ColumnPlace">Krogsnäs</td>
+						</tr>
+						<tr>
+							<td class="ColumnPlace"><a href="../../../plc/e/c/e37e0e3b6df617f2fec1a952ece.html" title="Kullo">Kullo</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnPlace"><a href="../../../plc/0/c/cb589ce8cd6584aa7c0.html" title="Mickelsböle">Mickelsböle</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnPlace"><a href="../../../plc/1/5/cdf82fb91b45aadb551.html" title="Norrveckoski">Norrveckoski</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnPlace">Näsebacka</td>
+						</tr>
+						<tr>
+							<td class="ColumnPlace"><a href="../../../plc/7/0/f35f51bedaa5437a7ec124cc07.html" title="Näsinmäen hautausmaa">Näsinmäen hautausmaa</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnPlace">Prestgårdsbacka</td>
+						</tr>
+						<tr>
+							<td class="ColumnPlace"><a href="../../../plc/e/2/cb589cdf1a006f5082e.html" title="Saxby">Saxby</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnPlace"><a href="../../../plc/8/3/db74eb30e1c5fa38ad20956a338.html" title="Stad">Stad</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnPlace"><a href="../../../plc/8/6/f16a451dcd418d357fe0e8bd568.html" title="Strömsberg">Strömsberg</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnPlace">Strömsbergs gård</td>
+						</tr>
+						<tr>
+							<td class="ColumnPlace"><a href="../../../plc/f/2/db712fc4efd1e4efa9a2c11ce2f.html" title="Svartså">Svartså</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnPlace"><a href="../../../plc/f/0/cea130ab1076a8a160f.html" title="Söderveckoski">Söderveckoski</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnPlace">Åmisby</td>
+						</tr>
+					</tbody>
 				</table>
 			</div>
 			<div class="content Residence">
 				<h4>Residence</h4>
 				<table class="infolist place">
+					<tbody>
+						<tr>
+							<td class="ColumnAttribute">Church Parish</td>
+							<td class="ColumnValue">Sääminki</td>
+						</tr>
+						<tr>
+							<td class="ColumnAttribute">Postal Code</td>
+							<td class="ColumnValue">4</td>
+						</tr>
+						<tr>
+							<td class="ColumnAttribute">Country</td>
+							<td class="ColumnValue">Suomi</td>
+						</tr>
+						<tr>
+							<td>
+							&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<th class="ColumnAttribute">Enclosed By</th>
+						</tr>
+						<tr>
+							<td class="ColumnPlace">Pihlajanniemi</td>
+						</tr>
+						<tr>
+							<td>
+							&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<th class="ColumnAttribute">Place Encloses</th>
+						</tr>
+					</tbody>
 				</table>
 			</div>
 			<div class="content Residence">
 				<h4>Residence</h4>
 				<table class="infolist place">
+					<tbody>
+						<tr>
+							<td class="ColumnAttribute">Church Parish</td>
+							<td class="ColumnValue">Borgå</td>
+						</tr>
+						<tr>
+							<td class="ColumnAttribute">Country</td>
+							<td class="ColumnValue">Suomi</td>
+						</tr>
+						<tr>
+							<td>
+							&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<th class="ColumnAttribute">Enclosed By</th>
+						</tr>
+						<tr>
+							<td class="ColumnPlace"><a href="../../../plc/c/0/cb589cc90f055fc9f0c.html" title="Borgå">Borgå</a></td>
+						</tr>
+						<tr>
+							<td>
+							&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<th class="ColumnAttribute">Place Encloses</th>
+						</tr>
+						<tr>
+							<td class="ColumnPlace">2. qvarteret</td>
+						</tr>
+						<tr>
+							<td class="ColumnPlace">4. qvarteret</td>
+						</tr>
+					</tbody>
 				</table>
 			</div>
 			<div class="content Residence">
 				<h4>Residence</h4>
 				<table class="infolist place">
+					<tbody>
+						<tr>
+							<td class="ColumnAttribute">Church Parish</td>
+							<td class="ColumnValue">Borgå</td>
+						</tr>
+						<tr>
+							<td class="ColumnAttribute">Country</td>
+							<td class="ColumnValue">Suomi</td>
+						</tr>
+						<tr>
+							<td>
+							&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<th class="ColumnAttribute">Enclosed By</th>
+						</tr>
+						<tr>
+							<td class="ColumnPlace"><a href="../../../plc/f/0/cea130ab1076a8a160f.html" title="Söderveckoski">Söderveckoski</a></td>
+						</tr>
+						<tr>
+							<td>
+							&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<th class="ColumnAttribute">Place Encloses</th>
+						</tr>
+					</tbody>
 				</table>
 			</div>
 			<div class="content Residence">
 				<h4>Residence</h4>
 				<table class="infolist place">
+					<tbody>
+						<tr>
+							<td class="ColumnAttribute">Church Parish</td>
+							<td class="ColumnValue">Borgå</td>
+						</tr>
+						<tr>
+							<td class="ColumnAttribute">Country</td>
+							<td class="ColumnValue">Suomi</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+							&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<th class="ColumnAttribute" colspan="1">Alternate Names</th>
+							<th class="ColumnAttribute" colspan="1">Language</th>
+							<th class="ColumnAttribute" colspan="1">Date range in which the name is valid.</th>
+						</tr>
+						<tr>
+							<td class="ColumnValue">Finnas</td>
+							<td class="ColumnValue"></td>
+							<td class="ColumnValue"></td>
+						</tr>
+						<tr>
+							<td>
+							&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<th class="ColumnAttribute">Enclosed By</th>
+						</tr>
+						<tr>
+							<td class="ColumnPlace"><a href="../../../plc/f/0/cea130ab1076a8a160f.html" title="Söderveckoski">Söderveckoski</a></td>
+						</tr>
+						<tr>
+							<td>
+							&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<th class="ColumnAttribute">Place Encloses</th>
+						</tr>
+					</tbody>
 				</table>
 			</div>
 		</div>
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6 on 2024-02-11<br />Created for Entire Database
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2 on 2024-07-07<br />Created for Entire Database
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

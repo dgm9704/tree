@@ -1,26 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>Nordberg Family Tree - Individuals</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">Nordberg Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">Nordberg Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li class = "CurrentSection"><a href="individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="index.html" title="Surnames">Surnames</a></li>
 					<li><a href="families.html" title="Families">Families</a></li>
@@ -28,20 +39,50 @@
 					<li><a href="places.html" title="Places">Places</a></li>
 					<li><a href="sources.html" title="Sources">Sources</a></li>
 					<li><a href="repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="media.html" title="Media">Media</a></li>
-					<li><a href="thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="updates.html" title="Updates">Updates</a></li>
 					<li><a href="statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="Individuals">
 			<p id="description">
 			This page contains an index of all the individuals in the database, sorted by their last names. Selecting the person&#8217;s name will take you to that person&#8217;s individual page.
 			</p>
-			<div id="alphanav">
-				<ul>
-					<li><a href="#&nbsp;" title="Alphabet Menu: &nbsp;">&nbsp;</a></li>
+			<div id="ltr">
+				<ul class="ltr">
+					<li><a href="#…" title="Alphabet Menu: …">…</a></li>
 					<li><a href="#A" title="Alphabet Menu: A">A</a></li>
 					<li><a href="#B" title="Alphabet Menu: B">B</a></li>
 					<li><a href="#C" title="Alphabet Menu: C">C</a></li>
@@ -66,7 +107,7 @@
 					<li><a href="#W" title="Alphabet Menu: W">W</a></li>
 				</ul>
 			</div>
-			<table class="infolist primobjlist IndividualList">
+			<table class="infolist primobjlist IndividualList ltr">
 				<thead>
 					<tr>
 						<th class="ColumnSurname">Group as</th>
@@ -79,7 +120,7 @@
 				</thead>
 				<tbody>
 					<tr class = "BeginSurname">
-						<td class="ColumnSurname"><a id="&nbsp" name="&nbsp" title="Surnames <absent> beginning with letter &nbsp">&lt;absent&gt;</a></td>
+						<td class="ColumnSurname"><a id="…" name="…" title="Surnames <absent> beginning with letter …">&lt;absent&gt;</a></td>
 						<td class="ColumnName">
 							<a href="ppl/8/e/cb589ce075c534958e8.html">, Abraham Eriksson</a>
 						</td>
@@ -245,6 +286,18 @@
 						<td class="ColumnParents">
 							<span class="mother">, Lisa Eriksdotter</span>
 						</td>
+					</tr>
+					<tr>
+						<td class="ColumnSurname">&nbsp;</td>
+						<td class="ColumnName">
+							<a href="ppl/a/9/fa5928953ac43562e1a84e71c9a.html">, Anders Johansson</a>
+						</td>
+						<td class="ColumnBirth">calculated 1728</td>
+						<td class="ColumnDeath">&nbsp;</td>
+						<td class="ColumnPartner">
+							<a href="ppl/5/8/ec00c4a3d9d13c44f52ae99af85.html">, Caisa Matsdotter</a>
+						</td>
+						<td class="ColumnParents">&nbsp;</td>
 					</tr>
 					<tr>
 						<td class="ColumnSurname">&nbsp;</td>
@@ -749,10 +802,10 @@
 						<td class="ColumnName">
 							<a href="ppl/5/8/ec00c4a3d9d13c44f52ae99af85.html">, Caisa Matsdotter</a>
 						</td>
-						<td class="ColumnBirth">calculated 1734</td>
-						<td class="ColumnDeath">&nbsp;</td>
+						<td class="ColumnBirth">1734</td>
+						<td class="ColumnDeath">1808-11-18</td>
 						<td class="ColumnPartner">
-						&nbsp;
+							<a href="ppl/a/9/fa5928953ac43562e1a84e71c9a.html">, Anders Johansson</a>
 						</td>
 						<td class="ColumnParents">
 							<span class="father fatherNmother">, Mats Claesson</span>
@@ -2926,7 +2979,7 @@
 							<a href="ppl/7/2/cb589cd42b25d62d627.html">, Margareta Jöransdotter</a>
 						</td>
 						<td class="ColumnBirth">1700-01-03</td>
-						<td class="ColumnDeath">1741-02-00</td>
+						<td class="ColumnDeath">1741-02</td>
 						<td class="ColumnPartner">
 							<a href="ppl/0/c/cb589cd42e10ad532c0.html">, Eric Mattsson</a>
 						</td>
@@ -4114,8 +4167,8 @@
 							<span class="mother">, Anna Christina Mattsdotter</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Bäckström">Bäckström</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="B" name="B" title="Surnames Bäckström beginning with letter B">Bäckström</a></td>
 						<td class="ColumnName">
 							<a href="ppl/5/6/f7ffcc57c0f319e2b512ebbec65.html">Bäckström, Gunnar Waldemar</a>
 						</td>
@@ -4138,8 +4191,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Bergman">Bergman</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="B" name="B" title="Surnames Bergman beginning with letter B">Bergman</a></td>
 						<td class="ColumnName">
 							<a href="ppl/e/f/cb589cef1be73e25dfe.html">Bergman, Berta Johanna</a>
 						</td>
@@ -4165,8 +4218,8 @@
 							<span class="mother">Holmström, Klara Gustava</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Bergvall">Bergvall</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="B" name="B" title="Surnames Bergvall beginning with letter B">Bergvall</a></td>
 						<td class="ColumnName">
 							<a href="ppl/4/2/f36b59ed55d7bfc28a6d4a73424.html">Bergvall, Gustaf Adolf Gunnar</a>
 						</td>
@@ -4177,8 +4230,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Björkman">Björkman</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="B" name="B" title="Surnames Björkman beginning with letter B">Björkman</a></td>
 						<td class="ColumnName">
 							<a href="ppl/2/6/cb589ce4d680d56a462.html">Björkman, Anna Cristina</a>
 						</td>
@@ -4486,8 +4539,8 @@
 							<span class="father">Björkman, Carl Johan</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Blom">Blom</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="B" name="B" title="Surnames Blom beginning with letter B">Blom</a></td>
 						<td class="ColumnName">
 							<a href="ppl/d/c/cb589cf5f9c741fa4cd.html">Blom, Anna Ottilia</a>
 						</td>
@@ -4581,8 +4634,8 @@
 							<span class="mother">Lindfors, Hilda Sofia</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Blomqvist">Blomqvist</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="B" name="B" title="Surnames Blomqvist beginning with letter B">Blomqvist</a></td>
 						<td class="ColumnName">
 							<a href="ppl/6/d/cb589cf645f476102d6.html">Blomqvist, Aili Adéle</a>
 						</td>
@@ -4633,8 +4686,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Borg">Borg</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="B" name="B" title="Surnames Borg beginning with letter B">Borg</a></td>
 						<td class="ColumnName">
 							<a href="ppl/6/4/db77b7844174937ebe591f4a846.html">Borg, Helena Eriksdotter</a>
 						</td>
@@ -4645,8 +4698,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Brandt">Brandt</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="B" name="B" title="Surnames Brandt beginning with letter B">Brandt</a></td>
 						<td class="ColumnName">
 							<a href="ppl/e/5/cf9664eb3f407eaea5e.html">Brandt, Otto Vilhelm</a>
 						</td>
@@ -4671,8 +4724,8 @@
 							<span class="mother">Nordberg, Hulda Maria</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Broström">Broström</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="B" name="B" title="Surnames Broström beginning with letter B">Broström</a></td>
 						<td class="ColumnName">
 							<a href="ppl/8/1/cb589cd193909827a18.html">Broström, Elias</a>
 						</td>
@@ -4754,8 +4807,8 @@
 							<span class="father">Broström, Eric Ericsson</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Brunström">Brunström</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="B" name="B" title="Surnames Brunström beginning with letter B">Brunström</a></td>
 						<td class="ColumnName">
 							<a href="ppl/c/0/cb589cd96d90ba9600c.html">Brunström, Berndt Victor</a>
 						</td>
@@ -4853,7 +4906,7 @@
 						</td>
 					</tr>
 					<tr class = "BeginSurname">
-						<td class="ColumnSurname"><a id=" " name=" " title="Surnames Ekholm beginning with letter  ">Ekholm</a></td>
+						<td class="ColumnSurname"><a id="E" name="E" title="Surnames Ekholm beginning with letter E">Ekholm</a></td>
 						<td class="ColumnName">
 							<a href="ppl/d/3/cb589cdae9945b46b3d.html">Ekholm, Adolf Viktor</a>
 						</td>
@@ -4933,8 +4986,8 @@
 							<span class="mother">Fibelkorn, Klara Erika</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Eklund">Eklund</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="E" name="E" title="Surnames Eklund beginning with letter E">Eklund</a></td>
 						<td class="ColumnName">
 							<a href="ppl/3/b/f150f5379394c691fa4f6ca38b3.html">Eklund, Adolf</a>
 						</td>
@@ -4972,8 +5025,8 @@
 							<span class="father">, Hans Eriksson</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Elgström">Elgström</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="E" name="E" title="Surnames Elgström beginning with letter E">Elgström</a></td>
 						<td class="ColumnName">
 							<a href="ppl/2/e/cb589cd3e0252e34be2.html">Elgström, Anders Johan</a>
 						</td>
@@ -5054,8 +5107,8 @@
 							<span class="mother">Söderlund, Anna Helena Andersdotter</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Elo">Elo</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="E" name="E" title="Surnames Elo beginning with letter E">Elo</a></td>
 						<td class="ColumnName">
 							<a href="ppl/0/a/cf83ab4bfc4489a6ea0.html">Elo, Vihtori</a>
 						</td>
@@ -5066,8 +5119,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Enberg">Enberg</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="E" name="E" title="Surnames Enberg beginning with letter E">Enberg</a></td>
 						<td class="ColumnName">
 							<a href="ppl/e/8/e908b555c4846db2c292a5ae18e.html">Enberg, Hedvig Lovisa</a>
 						</td>
@@ -5078,8 +5131,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Enqvist">Enqvist</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="E" name="E" title="Surnames Enqvist beginning with letter E">Enqvist</a></td>
 						<td class="ColumnName">
 							<a href="ppl/e/a/df502531695364b4c9f654a61ae.html">Enqvist, Elsa Irenia</a>
 						</td>
@@ -5162,8 +5215,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Eskolin">Eskolin</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="E" name="E" title="Surnames Eskolin beginning with letter E">Eskolin</a></td>
 						<td class="ColumnName">
 							<a href="ppl/f/c/e908deba4db6b6f5bce522a03cf.html">Eskolin, Anna Lovisa</a>
 						</td>
@@ -5321,8 +5374,8 @@
 							<span class="mother">Sandell, Erica Carolina</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Fagerström">Fagerström</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="F" name="F" title="Surnames Fagerström beginning with letter F">Fagerström</a></td>
 						<td class="ColumnName">
 							<a href="ppl/8/c/f15228df7271c211335ebf815c8.html">Fagerström, Amanda Karolina</a>
 						</td>
@@ -5408,8 +5461,8 @@
 							<span class="mother">Tunberg, Anna Helena</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Fibelkorn">Fibelkorn</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="F" name="F" title="Surnames Fibelkorn beginning with letter F">Fibelkorn</a></td>
 						<td class="ColumnName">
 							<a href="ppl/5/b/cb589cd5a78350bceb5.html">Fibelkorn, Eva Sofia</a>
 						</td>
@@ -5485,8 +5538,8 @@
 							<span class="mother">Fibelkorn, Lovisa Jöransdotter</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Finnberg">Finnberg</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="F" name="F" title="Surnames Finnberg beginning with letter F">Finnberg</a></td>
 						<td class="ColumnName">
 							<a href="ppl/d/0/f8171c22c763b7b02a7f7fd830d.html">Finnberg, Karl Rudolf</a>
 						</td>
@@ -5525,8 +5578,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Forsblom">Forsblom</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="F" name="F" title="Surnames Forsblom beginning with letter F">Forsblom</a></td>
 						<td class="ColumnName">
 							<a href="ppl/8/f/cb589cd299d5bef75f8.html">Forsblom, Edla Emilia</a>
 						</td>
@@ -5705,8 +5758,8 @@
 							<span class="mother">Nordberg, Hedwig Sofia</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Forsström">Forsström</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="F" name="F" title="Surnames Forsström beginning with letter F">Forsström</a></td>
 						<td class="ColumnName">
 							<a href="ppl/a/4/cb589cda7d212778f4a.html">Forsström, Aina Maria</a>
 						</td>
@@ -5857,8 +5910,8 @@
 							<span class="mother">Långström, Maria Mathilda</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Förström">Förström</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="F" name="F" title="Surnames Förström beginning with letter F">Förström</a></td>
 						<td class="ColumnName">
 							<a href="ppl/c/4/cb589cdab4f0204504c.html">Förström, Johan August</a>
 						</td>
@@ -5950,8 +6003,8 @@
 							<span class="mother">Fibelkorn, Karolina</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Frejborg">Frejborg</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="F" name="F" title="Surnames Frejborg beginning with letter F">Frejborg</a></td>
 						<td class="ColumnName">
 							<a href="ppl/0/1/cea5b7bf5c24114ea10.html">Frejborg, Helena Sophia Carlsdotter</a>
 						</td>
@@ -5962,8 +6015,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Frisk">Frisk</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="F" name="F" title="Surnames Frisk beginning with letter F">Frisk</a></td>
 						<td class="ColumnName">
 							<a href="ppl/2/9/d8a74905c44ccfeb3ed64fad92.html">Frisk, Anna Maja</a>
 						</td>
@@ -5986,8 +6039,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Grabb">Grabb</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="G" name="G" title="Surnames Grabb beginning with letter G">Grabb</a></td>
 						<td class="ColumnName">
 							<a href="ppl/8/5/cb589cce2df089a9958.html">Grabb, Fredrik Eriksson</a>
 						</td>
@@ -6000,8 +6053,8 @@
 							<span class="mother">, Greta Hansdotter</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Granholm">Granholm</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="G" name="G" title="Surnames Granholm beginning with letter G">Granholm</a></td>
 						<td class="ColumnName">
 							<a href="ppl/5/6/cb589cdd18430896d65.html">Granholm, Berner Edvin</a>
 						</td>
@@ -6027,8 +6080,8 @@
 							<span class="mother">Holmström, Alina Charlotta</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Grönroos">Grönroos</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="G" name="G" title="Surnames Grönroos beginning with letter G">Grönroos</a></td>
 						<td class="ColumnName">
 							<a href="ppl/4/4/cb589cdb1b77f41be44.html">Grönroos, August Wilhelm</a>
 						</td>
@@ -6185,8 +6238,8 @@
 							<span class="mother">, Anna Lisa Gustafsdotter</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Häll">Häll</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="H" name="H" title="Surnames Häll beginning with letter H">Häll</a></td>
 						<td class="ColumnName">
 							<a href="ppl/0/2/dd20ac6d3a16d45d4d0a9116920.html">Häll, Amanda</a>
 						</td>
@@ -6212,8 +6265,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Hämäläin">Hämäläin</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="H" name="H" title="Surnames Hämäläin beginning with letter H">Hämäläin</a></td>
 						<td class="ColumnName">
 							<a href="ppl/e/a/cea5c9e6aae6267a1ae.html">Hämäläin, Anna Caisa</a>
 						</td>
@@ -6224,8 +6277,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Harlin">Harlin</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="H" name="H" title="Surnames Harlin beginning with letter H">Harlin</a></td>
 						<td class="ColumnName">
 							<a href="ppl/6/8/f150a2d991d3883684f326f0686.html">Harlin, Alexander</a>
 						</td>
@@ -6342,8 +6395,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Hjorth">Hjorth</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="H" name="H" title="Surnames Hjorth beginning with letter H">Hjorth</a></td>
 						<td class="ColumnName">
 							<a href="ppl/5/9/f35f5dab0405949191dcd156695.html">Hjorth, Karl Alfons</a>
 						</td>
@@ -6354,8 +6407,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Holmberg">Holmberg</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="H" name="H" title="Surnames Holmberg beginning with letter H">Holmberg</a></td>
 						<td class="ColumnName">
 							<a href="ppl/e/4/cb589cce1cd6a8f984e.html">Holmberg, Carl August</a>
 						</td>
@@ -6436,8 +6489,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Holmström">Holmström</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="H" name="H" title="Surnames Holmström beginning with letter H">Holmström</a></td>
 						<td class="ColumnName">
 							<a href="ppl/1/4/cb589ce2cbb287e4441.html">Holmström, Adolf Fredrik</a>
 						</td>
@@ -8130,8 +8183,8 @@
 							<span class="father">Holmström, Johan Robert</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Huttuin">Huttuin</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="H" name="H" title="Surnames Huttuin beginning with letter H">Huttuin</a></td>
 						<td class="ColumnName">
 							<a href="ppl/a/d/cea5ca4957a1aedbcda.html">Huttuin, Judith</a>
 						</td>
@@ -8142,8 +8195,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Huttunen">Huttunen</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="H" name="H" title="Surnames Huttunen beginning with letter H">Huttunen</a></td>
 						<td class="ColumnName">
 							<a href="ppl/3/5/cb589ccc88138971b53.html">Huttunen, Lisa Michelsdotter</a>
 						</td>
@@ -8490,8 +8543,8 @@
 							<span class="mother">Tarvainen, Caisa Mathilda</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Jäskeläin">Jäskeläin</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="J" name="J" title="Surnames Jäskeläin beginning with letter J">Jäskeläin</a></td>
 						<td class="ColumnName">
 							<a href="ppl/2/8/cb589ccc61103fcae82.html">Jäskeläin, Matts</a>
 						</td>
@@ -8502,8 +8555,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Johansson">Johansson</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="J" name="J" title="Surnames Johansson beginning with letter J">Johansson</a></td>
 						<td class="ColumnName">
 							<a href="ppl/3/d/cb589ce93e32e02d8d3.html">Johansson, Dorit Hildur</a>
 						</td>
@@ -8543,8 +8596,8 @@
 							<span class="father">, Johan Herman Johansson</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Jokinen">Jokinen</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="J" name="J" title="Surnames Jokinen beginning with letter J">Jokinen</a></td>
 						<td class="ColumnName">
 							<a href="ppl/4/9/cf8f23268c000d60194.html">Jokinen, Karl Evert</a>
 						</td>
@@ -8585,8 +8638,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Karbin">Karbin</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="K" name="K" title="Surnames Karbin beginning with letter K">Karbin</a></td>
 						<td class="ColumnName">
 							<a href="ppl/d/c/df7e1dc5613623f6e09f3d617cd.html">Karbin, Hilda Johanna</a>
 						</td>
@@ -8627,8 +8680,8 @@
 							<span class="mother">Karbin, Hilda Johanna</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Kivimäki">Kivimäki</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="K" name="K" title="Surnames Kivimäki beginning with letter K">Kivimäki</a></td>
 						<td class="ColumnName">
 							<a href="ppl/b/5/cf8383f57a86b46c55b.html">Kivimäki, Alma Fredrika</a>
 						</td>
@@ -8743,8 +8796,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Klick">Klick</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="K" name="K" title="Surnames Klick beginning with letter K">Klick</a></td>
 						<td class="ColumnName">
 							<a href="ppl/8/4/df5485edb1c402a7f92f044dc48.html">Klick, Hilda Amanda</a>
 						</td>
@@ -8755,8 +8808,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Knutin">Knutin</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="K" name="K" title="Surnames Knutin beginning with letter K">Knutin</a></td>
 						<td class="ColumnName">
 							<a href="ppl/4/8/cb589ccc4c00d9da784.html">Knutin, Elisabeth</a>
 						</td>
@@ -8767,8 +8820,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Kopoin">Kopoin</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="K" name="K" title="Surnames Kopoin beginning with letter K">Kopoin</a></td>
 						<td class="ColumnName">
 							<a href="ppl/9/6/f7caf3be8f66e0b03c5fa312c69.html">Kopoin, Anna Maria</a>
 						</td>
@@ -8779,8 +8832,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Korhonen">Korhonen</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="K" name="K" title="Surnames Korhonen beginning with letter K">Korhonen</a></td>
 						<td class="ColumnName">
 							<a href="ppl/c/0/cb589cc84e63bbab10c.html">Korhonen, Adam Gabrielsson</a>
 						</td>
@@ -9257,8 +9310,8 @@
 							<span class="mother">Jääskeläinen, Eva Pettersdotter</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Korsisaari">Korsisaari</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="K" name="K" title="Surnames Korsisaari beginning with letter K">Korsisaari</a></td>
 						<td class="ColumnName">
 							<a href="ppl/0/2/cf969af4ea979a4b820.html">Korsisaari, Otto Emil</a>
 						</td>
@@ -9272,8 +9325,8 @@
 							<span class="mother">Sillanpää, Erika Maria Kustaantytär</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Korzard">Korzard</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="K" name="K" title="Surnames Korzard beginning with letter K">Korzard</a></td>
 						<td class="ColumnName">
 							<a href="ppl/b/a/cf9686838a51541c0ab.html">Korzard, Agatha Charlotta</a>
 						</td>
@@ -9749,8 +9802,8 @@
 							<span class="mother">, Alexandra Enokintytär</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Kullberg">Kullberg</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="K" name="K" title="Surnames Kullberg beginning with letter K">Kullberg</a></td>
 						<td class="ColumnName">
 							<a href="ppl/1/6/f5dc2ff6829484e35a03e3aa561.html">Kullberg, Carl Gustafsson</a>
 						</td>
@@ -9849,8 +9902,8 @@
 							<span class="mother">Nordberg, Maria Staffansdotter</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Kullström">Kullström</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="K" name="K" title="Surnames Kullström beginning with letter K">Kullström</a></td>
 						<td class="ColumnName">
 							<a href="ppl/4/2/cb589ce8dde7ebd9d24.html">Kullström, Astrid Linnea</a>
 						</td>
@@ -9946,8 +9999,8 @@
 							<span class="mother">, Anna Carolina Johansdotter</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Lagerlund">Lagerlund</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="L" name="L" title="Surnames Lagerlund beginning with letter L">Lagerlund</a></td>
 						<td class="ColumnName">
 							<a href="ppl/2/7/f612c87290726b15f1cf3509372.html">Lagerlund, Helvi Heleena</a>
 						</td>
@@ -10003,8 +10056,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Lampo">Lampo</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="L" name="L" title="Surnames Lampo beginning with letter L">Lampo</a></td>
 						<td class="ColumnName">
 							<a href="ppl/b/5/f608cd5c8ec5fa81019918ec95b.html">Lampo, Lauri</a>
 						</td>
@@ -10015,8 +10068,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Långström">Långström</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="L" name="L" title="Surnames Långström beginning with letter L">Långström</a></td>
 						<td class="ColumnName">
 							<a href="ppl/d/1/cb589cd579c4e7ba01d.html">Långström, Maria Mathilda</a>
 						</td>
@@ -10028,8 +10081,8 @@
 							<span class="mother">Broström, Maria Sofia</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Lax">Lax</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="L" name="L" title="Surnames Lax beginning with letter L">Lax</a></td>
 						<td class="ColumnName">
 							<a href="ppl/3/d/f15b052e2c63c0b77e14f163bd3.html">Lax, Axel Leonard</a>
 						</td>
@@ -10070,8 +10123,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Lillqvist">Lillqvist</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="L" name="L" title="Surnames Lillqvist beginning with letter L">Lillqvist</a></td>
 						<td class="ColumnName">
 							<a href="ppl/2/2/cb589ce8eb555858322.html">Lillqvist, Anders Alfred</a>
 						</td>
@@ -10217,8 +10270,8 @@
 							<span class="mother">Nordberg, Maria Lovisa</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Lind">Lind</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="L" name="L" title="Surnames Lind beginning with letter L">Lind</a></td>
 						<td class="ColumnName">
 							<a href="ppl/8/e/df7dfd45b8076c9086b940569e8.html">Lind, Albert Wilhelm</a>
 						</td>
@@ -10365,8 +10418,8 @@
 							<span class="mother">Siiberg, Maria Alexandra</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Lindberg">Lindberg</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="L" name="L" title="Surnames Lindberg beginning with letter L">Lindberg</a></td>
 						<td class="ColumnName">
 							<a href="ppl/b/8/cb589ce19665a18748b.html">Lindberg, Axel Severin</a>
 						</td>
@@ -10474,8 +10527,8 @@
 							<span class="mother">Sjösten, Erika Teresia</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Lindfors">Lindfors</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="L" name="L" title="Surnames Lindfors beginning with letter L">Lindfors</a></td>
 						<td class="ColumnName">
 							<a href="ppl/1/f/cb589ce8bcd56ec4cf1.html">Lindfors, Alma Lovisa</a>
 						</td>
@@ -10674,8 +10727,8 @@
 							<span class="father">Lindfors, Anders Herman</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Lindgren">Lindgren</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="L" name="L" title="Surnames Lindgren beginning with letter L">Lindgren</a></td>
 						<td class="ColumnName">
 							<a href="ppl/8/e/cb589cd6a1b069cf3e8.html">Lindgren, Johan Alfred</a>
 						</td>
@@ -10742,8 +10795,8 @@
 							<span class="father">Lindgren, Karl Gustaf</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Lindström">Lindström</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="L" name="L" title="Surnames Lindström beginning with letter L">Lindström</a></td>
 						<td class="ColumnName">
 							<a href="ppl/3/2/cea0cb8b87f5b09de23.html">Lindström, August Emil</a>
 						</td>
@@ -10840,8 +10893,8 @@
 							<span class="mother">Nordberg, Edla Sofia</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Liukkonen">Liukkonen</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="L" name="L" title="Surnames Liukkonen beginning with letter L">Liukkonen</a></td>
 						<td class="ColumnName">
 							<a href="ppl/8/d/df5a7aec2c96ea91b085cc388d8.html">Liukkonen, August</a>
 						</td>
@@ -10972,8 +11025,8 @@
 							<span class="mother">, Maria Aurora Ottosdotter</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Lundberg">Lundberg</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="L" name="L" title="Surnames Lundberg beginning with letter L">Lundberg</a></td>
 						<td class="ColumnName">
 							<a href="ppl/b/9/cb589cf0f8b13e1e99b.html">Lundberg, Anna Elvina</a>
 						</td>
@@ -11041,8 +11094,8 @@
 							<span class="mother">Björkman, Anna Cristina</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Lundström">Lundström</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="L" name="L" title="Surnames Lundström beginning with letter L">Lundström</a></td>
 						<td class="ColumnName">
 							<a href="ppl/1/d/cb589ce7c68318647d1.html">Lundström, Ernst Oswald</a>
 						</td>
@@ -11081,8 +11134,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Malm">Malm</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="M" name="M" title="Surnames Malm beginning with letter M">Malm</a></td>
 						<td class="ColumnName">
 							<a href="ppl/4/9/db77efa91974b2e55401dcfd94.html">Malm, Ewa Johansdotter</a>
 						</td>
@@ -11108,8 +11161,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Malmelin">Malmelin</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="M" name="M" title="Surnames Malmelin beginning with letter M">Malmelin</a></td>
 						<td class="ColumnName">
 							<a href="ppl/e/f/e820c826bcf4a4710d089130cfe.html">Malmelin, Martin William</a>
 						</td>
@@ -11120,8 +11173,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Metelinen">Metelinen</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="M" name="M" title="Surnames Metelinen beginning with letter M">Metelinen</a></td>
 						<td class="ColumnName">
 							<a href="ppl/8/1/d48da7cb87a684956b6ae276d18.html">Metelinen, Anna Maria Paavontytär</a>
 						</td>
@@ -11319,8 +11372,8 @@
 							<span class="mother">Enqvist, Wilhelmina Elisabeth</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Nordberg">Nordberg</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="N" name="N" title="Surnames Nordberg beginning with letter N">Nordberg</a></td>
 						<td class="ColumnName">
 							<a href="ppl/3/a/cb589cd850655bda1a3.html">Nordberg, Adolf</a>
 						</td>
@@ -12725,8 +12778,8 @@
 							<span class="mother">Frejborg, Helena Sophia Carlsdotter</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Nyberg">Nyberg</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="N" name="N" title="Surnames Nyberg beginning with letter N">Nyberg</a></td>
 						<td class="ColumnName">
 							<a href="ppl/d/f/df776512a9075a2f1e91a3e75fd.html">Nyberg, Helmi Maria</a>
 						</td>
@@ -12752,8 +12805,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Nygren">Nygren</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="N" name="N" title="Surnames Nygren beginning with letter N">Nygren</a></td>
 						<td class="ColumnName">
 							<a href="ppl/9/4/df5ae4f58755b74ae8499b69449.html">Nygren, Jenny Maria</a>
 						</td>
@@ -12824,8 +12877,8 @@
 							<span class="mother">Wesander, Josefina</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Nyman">Nyman</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="N" name="N" title="Surnames Nyman beginning with letter N">Nyman</a></td>
 						<td class="ColumnName">
 							<a href="ppl/d/4/df4d5ed80126484a7afef4d0f4d.html">Nyman, Edvin</a>
 						</td>
@@ -12938,8 +12991,8 @@
 							<span class="mother">Ahlberg, Josefina Wilhelmina</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Nyström">Nyström</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="N" name="N" title="Surnames Nyström beginning with letter N">Nyström</a></td>
 						<td class="ColumnName">
 							<a href="ppl/f/d/f145205d9324bf78d163d7650df.html">Nyström, Bo Håkan</a>
 						</td>
@@ -13034,8 +13087,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Österman">Österman</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="O" name="O" title="Surnames Österman beginning with letter O">Österman</a></td>
 						<td class="ColumnName">
 							<a href="ppl/f/4/f5df374647151a9783f699504f.html">Österman, Justus</a>
 						</td>
@@ -13061,8 +13114,8 @@
 							<span class="mother">, Anna Carolina Johansdotter</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Pulkkinen">Pulkkinen</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="P" name="P" title="Surnames Pulkkinen beginning with letter P">Pulkkinen</a></td>
 						<td class="ColumnName">
 							<a href="ppl/7/1/cb589ccf75008bec417.html">Pulkkinen, Anna</a>
 						</td>
@@ -13160,8 +13213,8 @@
 							<span class="mother">Vepsäläin, Lisa</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Radikain">Radikain</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="R" name="R" title="Surnames Radikain beginning with letter R">Radikain</a></td>
 						<td class="ColumnName">
 							<a href="ppl/4/6/cb589ccf6da6b4de964.html">Radikain, Anna</a>
 						</td>
@@ -13412,8 +13465,8 @@
 							<span class="mother">Taskitar, Anna</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Rakkolainen">Rakkolainen</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="R" name="R" title="Surnames Rakkolainen beginning with letter R">Rakkolainen</a></td>
 						<td class="ColumnName">
 							<a href="ppl/8/3/d4878e26b246fe90aae66b0c638.html">Rakkolainen, Maria Heikintytär</a>
 						</td>
@@ -13424,8 +13477,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Rehnberg">Rehnberg</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="R" name="R" title="Surnames Rehnberg beginning with letter R">Rehnberg</a></td>
 						<td class="ColumnName">
 							<a href="ppl/c/d/cb589ce13461aa427dc.html">Rehnberg, Hilma Irene</a>
 						</td>
@@ -13437,8 +13490,8 @@
 							<span class="mother">Wikström, Lydia Charlotta</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Robinson">Robinson</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="R" name="R" title="Surnames Robinson beginning with letter R">Robinson</a></td>
 						<td class="ColumnName">
 							<a href="ppl/2/d/cea28ff257c436275d2.html">Robinson, Alexander</a>
 						</td>
@@ -13602,8 +13655,8 @@
 							<span class="mother">Korhonen, Edla</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Rosenberg">Rosenberg</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="R" name="R" title="Surnames Rosenberg beginning with letter R">Rosenberg</a></td>
 						<td class="ColumnName">
 							<a href="ppl/a/2/df5a8e265b46a0db1cfa8ae642a.html">Rosenberg, Kaarlo Wihtori</a>
 						</td>
@@ -13626,8 +13679,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Sandblom">Sandblom</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="S" name="S" title="Surnames Sandblom beginning with letter S">Sandblom</a></td>
 						<td class="ColumnName">
 							<a href="ppl/0/b/cb589cdd50c6b1b57b0.html">Sandblom, Amanda Josefina</a>
 						</td>
@@ -13903,8 +13956,8 @@
 							<span class="father">Sandblom, Hans Thomasson</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Sandell">Sandell</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="S" name="S" title="Surnames Sandell beginning with letter S">Sandell</a></td>
 						<td class="ColumnName">
 							<a href="ppl/6/e/cb589cd41347a301de6.html">Sandell, Albertina</a>
 						</td>
@@ -14039,8 +14092,8 @@
 							<span class="father">Sandell, Anders Ericsson</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Sandholm">Sandholm</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="S" name="S" title="Surnames Sandholm beginning with letter S">Sandholm</a></td>
 						<td class="ColumnName">
 							<a href="ppl/9/6/cb589cd09b035e1ef69.html">Sandholm, Anna Thomasdotter</a>
 						</td>
@@ -14050,8 +14103,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Sandin">Sandin</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="S" name="S" title="Surnames Sandin beginning with letter S">Sandin</a></td>
 						<td class="ColumnName">
 							<a href="ppl/5/5/cb589cdc7e209a67555.html">Sandin, August Ferdinand</a>
 						</td>
@@ -14238,8 +14291,8 @@
 							<span class="father">Sandin, Otto Reinhold</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Siiberg">Siiberg</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="S" name="S" title="Surnames Siiberg beginning with letter S">Siiberg</a></td>
 						<td class="ColumnName">
 							<a href="ppl/3/3/df9ac7b61d35c95c5ea45bc8c33.html">Siiberg, Maria Alexandra</a>
 						</td>
@@ -14250,8 +14303,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Sillanpää">Sillanpää</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="S" name="S" title="Surnames Sillanpää beginning with letter S">Sillanpää</a></td>
 						<td class="ColumnName">
 							<a href="ppl/6/0/cf96997df6124f62906.html">Sillanpää, Erika Maria Kustaantytär</a>
 						</td>
@@ -14262,8 +14315,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Sjöberg">Sjöberg</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="S" name="S" title="Surnames Sjöberg beginning with letter S">Sjöberg</a></td>
 						<td class="ColumnName">
 							<a href="ppl/d/f/cb589cce37066a36efd.html">Sjöberg Ericsdotter, Anna</a>
 						</td>
@@ -14276,8 +14329,8 @@
 							<span class="mother">, Greta Hansdotter</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Sjöholm">Sjöholm</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="S" name="S" title="Surnames Sjöholm beginning with letter S">Sjöholm</a></td>
 						<td class="ColumnName">
 							<a href="ppl/a/1/cb589ce667653bfc51a.html">Sjöholm, Arthur Edvard</a>
 						</td>
@@ -14368,8 +14421,8 @@
 							<span class="father">Sjöholm, Johan Tomasson</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Sjösten">Sjösten</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="S" name="S" title="Surnames Sjösten beginning with letter S">Sjösten</a></td>
 						<td class="ColumnName">
 							<a href="ppl/4/8/cb589cda2f1365acf84.html">Sjösten, Alexandra Augusta</a>
 						</td>
@@ -14531,8 +14584,8 @@
 							<span class="mother">, Maria Alina / Lina Henriksdotter Isaksson</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Skogström">Skogström</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="S" name="S" title="Surnames Skogström beginning with letter S">Skogström</a></td>
 						<td class="ColumnName">
 							<a href="ppl/8/1/db77b6b5dbc11be4ec36fc84418.html">Skogström, Israel</a>
 						</td>
@@ -14559,8 +14612,8 @@
 							<span class="mother">, Maria Mattsdotter</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Skott">Skott</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="S" name="S" title="Surnames Skott beginning with letter S">Skott</a></td>
 						<td class="ColumnName">
 							<a href="ppl/e/4/df540cec66673128192bef0df4e.html">Skott, Johan Karlsson</a>
 						</td>
@@ -14583,8 +14636,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Söderlund">Söderlund</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="S" name="S" title="Surnames Söderlund beginning with letter S">Söderlund</a></td>
 						<td class="ColumnName">
 							<a href="ppl/c/e/cb589cd3f65065174ec.html">Söderlund, Adolphina</a>
 						</td>
@@ -15022,8 +15075,8 @@
 							<span class="father">Söderlund, Gustaf</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Sommardahl">Sommardahl</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="S" name="S" title="Surnames Sommardahl beginning with letter S">Sommardahl</a></td>
 						<td class="ColumnName">
 							<a href="ppl/9/3/ec075c5805c678d95874a2dfb39.html">Sommardahl, Fredric Sigfridsson</a>
 						</td>
@@ -15081,8 +15134,8 @@
 							<span class="mother">, Anna Larsdotter</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Stjernberg">Stjernberg</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="S" name="S" title="Surnames Stjernberg beginning with letter S">Stjernberg</a></td>
 						<td class="ColumnName">
 							<a href="ppl/2/9/e90896f470b13d8140618308092.html">Stjernberg, Alma Sofia</a>
 						</td>
@@ -15245,8 +15298,8 @@
 							<span class="mother">Blomqvist, Sofia Lovisa</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Stordell">Stordell</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="S" name="S" title="Surnames Stordell beginning with letter S">Stordell</a></td>
 						<td class="ColumnName">
 							<a href="ppl/d/f/e186c7fcb1d480a719788f71bfd.html">Stordell, Adolf Fredrik</a>
 						</td>
@@ -15333,8 +15386,8 @@
 							<span class="mother">Backman, Maria Sofia</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Sundström">Sundström</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="S" name="S" title="Surnames Sundström beginning with letter S">Sundström</a></td>
 						<td class="ColumnName">
 							<a href="ppl/c/5/cb589cd945a132ed15c.html">Sundström, Carl Gustaf</a>
 						</td>
@@ -15440,8 +15493,8 @@
 							<span class="father">Sundström, Gustaf Johan</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Sunnman">Sunnman</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="S" name="S" title="Surnames Sunnman beginning with letter S">Sunnman</a></td>
 						<td class="ColumnName">
 							<a href="ppl/3/a/e3895bbe1b045f26fcf4f3bf2a3.html">Sunnman, Anders Gustaf Fredricsson</a>
 						</td>
@@ -15515,8 +15568,8 @@
 							<span class="mother">, Maja Lena Gustafsdotter</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Svarström">Svarström</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="S" name="S" title="Surnames Svarström beginning with letter S">Svarström</a></td>
 						<td class="ColumnName">
 							<a href="ppl/2/6/cb589cd94c833662362.html">Svarström, Anna Viktoria</a>
 						</td>
@@ -15529,8 +15582,8 @@
 							<span class="mother">Söderlund, Adolphina</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Svartström">Svartström</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="S" name="S" title="Surnames Svartström beginning with letter S">Svartström</a></td>
 						<td class="ColumnName">
 							<a href="ppl/f/1/cb589cd94e44ca6191f.html">Svartström, Karl Herbert William</a>
 						</td>
@@ -15554,8 +15607,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Tarvainen">Tarvainen</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="T" name="T" title="Surnames Tarvainen beginning with letter T">Tarvainen</a></td>
 						<td class="ColumnName">
 							<a href="ppl/8/d/cb589ccc52201b70cd8.html">Tarvainen, Anna</a>
 						</td>
@@ -15674,8 +15727,8 @@
 							<span class="mother">Knutin, Elisabeth</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Taskitar">Taskitar</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="T" name="T" title="Surnames Taskitar beginning with letter T">Taskitar</a></td>
 						<td class="ColumnName">
 							<a href="ppl/5/c/cb589ccf60565c28fc5.html">Taskitar, Anna</a>
 						</td>
@@ -15686,8 +15739,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Tegelman">Tegelman</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="T" name="T" title="Surnames Tegelman beginning with letter T">Tegelman</a></td>
 						<td class="ColumnName">
 							<a href="ppl/9/0/db88d4be2ea5f49985defcc8209.html">Tegelman, Aron Carlsson</a>
 						</td>
@@ -15698,8 +15751,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Thompson">Thompson</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="T" name="T" title="Surnames Thompson beginning with letter T">Thompson</a></td>
 						<td class="ColumnName">
 							<a href="ppl/7/3/cf9663480e527c94237.html">Thompson, ?</a>
 						</td>
@@ -15710,8 +15763,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Törnqvist">Törnqvist</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="T" name="T" title="Surnames Törnqvist beginning with letter T">Törnqvist</a></td>
 						<td class="ColumnName">
 							<a href="ppl/b/6/f5e5b43a8c675d81c1ed107386b.html">Törnqvist, Wendla</a>
 						</td>
@@ -15722,8 +15775,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Tunberg">Tunberg</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="T" name="T" title="Surnames Tunberg beginning with letter T">Tunberg</a></td>
 						<td class="ColumnName">
 							<a href="ppl/1/8/f150cf3ac5b376a51a471c3981.html">Tunberg, Anna Helena</a>
 						</td>
@@ -15801,8 +15854,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Vesterlund">Vesterlund</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="V" name="V" title="Surnames Vesterlund beginning with letter V">Vesterlund</a></td>
 						<td class="ColumnName">
 							<a href="ppl/e/e/f145bd077fc4556bfd054b354ee.html">Vesterlund, Maria Serafia</a>
 						</td>
@@ -15813,8 +15866,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Viljanen">Viljanen</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="V" name="V" title="Surnames Viljanen beginning with letter V">Viljanen</a></td>
 						<td class="ColumnName">
 							<a href="ppl/3/c/cb589ce6fee30421cc3.html">Viljanen, Erkki</a>
 						</td>
@@ -15827,8 +15880,8 @@
 							<span class="mother">Holmström, Elina Alexandra</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Virtanen">Virtanen</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="V" name="V" title="Surnames Virtanen beginning with letter V">Virtanen</a></td>
 						<td class="ColumnName">
 							<a href="ppl/6/4/cf83a474892007cb146.html">Virtanen, Iisakki</a>
 						</td>
@@ -15867,8 +15920,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Wårström">Wårström</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="W" name="W" title="Surnames Wårström beginning with letter W">Wårström</a></td>
 						<td class="ColumnName">
 							<a href="ppl/5/b/f1513d8e1714bef0a1a8d9aeb5.html">Wårström, Amanda</a>
 						</td>
@@ -15879,8 +15932,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Weckström">Weckström</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="W" name="W" title="Surnames Weckström beginning with letter W">Weckström</a></td>
 						<td class="ColumnName">
 							<a href="ppl/2/a/cb589ccf4776112efa2.html">Weckström, Anna Isaacsdotter</a>
 						</td>
@@ -16011,8 +16064,8 @@
 							<span class="mother">, Anna Eliasdotter</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Wennerqvist">Wennerqvist</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="W" name="W" title="Surnames Wennerqvist beginning with letter W">Wennerqvist</a></td>
 						<td class="ColumnName">
 							<a href="ppl/1/6/cb589cf129f076e9061.html">Wennerqvist, Charlotta Serafina</a>
 						</td>
@@ -16051,8 +16104,8 @@
 							<span class="mother">Björkman, Serafina</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Wesander">Wesander</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="W" name="W" title="Surnames Wesander beginning with letter W">Wesander</a></td>
 						<td class="ColumnName">
 							<a href="ppl/6/5/cb589ccc2c1701aed56.html">Wesander, Evelina</a>
 						</td>
@@ -16093,8 +16146,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Westerholm">Westerholm</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="W" name="W" title="Surnames Westerholm beginning with letter W">Westerholm</a></td>
 						<td class="ColumnName">
 							<a href="ppl/8/d/f15b666f314be7f7a394a6ad8.html">Westerholm, Agnes Fredrika</a>
 						</td>
@@ -16252,8 +16305,8 @@
 							<span class="mother">Malin, Amalia Charlotta</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Westerinen">Westerinen</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="W" name="W" title="Surnames Westerinen beginning with letter W">Westerinen</a></td>
 						<td class="ColumnName">
 							<a href="ppl/d/1/cb589ccc62b04f0131d.html">Westerinen, Elisabeth</a>
 						</td>
@@ -16264,8 +16317,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Wiberg">Wiberg</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="W" name="W" title="Surnames Wiberg beginning with letter W">Wiberg</a></td>
 						<td class="ColumnName">
 							<a href="ppl/e/0/cb589ce120e0a37970e.html">Wiberg, Adéle Josefina</a>
 						</td>
@@ -16361,8 +16414,8 @@
 							<span class="mother">Wikström, Ida Josefina</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Wikström">Wikström</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="W" name="W" title="Surnames Wikström beginning with letter W">Wikström</a></td>
 						<td class="ColumnName">
 							<a href="ppl/0/f/d8a147445c2147f983f88fb26f0.html">Wikström, Alexander</a>
 						</td>
@@ -16822,8 +16875,8 @@
 							<span class="mother">, Edla Isaacsdotter</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Wild">Wild</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="W" name="W" title="Surnames Wild beginning with letter W">Wild</a></td>
 						<td class="ColumnName">
 							<a href="ppl/4/6/df713205bbf1173e21c11f22264.html">Wild, Hilda Sofia</a>
 						</td>
@@ -16846,8 +16899,8 @@
 						</td>
 						<td class="ColumnParents">&nbsp;</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Wilkman">Wilkman</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="W" name="W" title="Surnames Wilkman beginning with letter W">Wilkman</a></td>
 						<td class="ColumnName">
 							<a href="ppl/6/f/e90b95cc28d370e017f9c3893f6.html">Wilkman, Gustaf Adolf</a>
 						</td>
@@ -16861,8 +16914,8 @@
 							<span class="mother">Blomqvist, Sofia Lovisa</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="ColumnSurname"><a title="Surnames Winqvist">Winqvist</a></td>
+					<tr class = "BeginSurname">
+						<td class="ColumnSurname"><a id="W" name="W" title="Surnames Winqvist beginning with letter W">Winqvist</a></td>
 						<td class="ColumnName">
 							<a href="ppl/b/b/f3826e303632b4a68c9b0debb.html">Winqvist, Alexander ²</a>
 						</td>
@@ -17045,7 +17098,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2024-01-11 00:59:02<br />Created for Entire Database
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2<br />Last change was the 2024-07-07 22:37:18<br />Created for Entire Database
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

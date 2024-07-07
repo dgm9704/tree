@@ -1,26 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>Nordberg Family Tree - Places</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
 </head>
-<body  onload = "initialize();" >
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">Nordberg Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">Nordberg Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
 					<li><a href="../../../families.html" title="Families">Families</a></li>
@@ -28,13 +39,43 @@
 					<li class = "CurrentSection"><a href="../../../places.html" title="Places">Places</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="PlaceDetail">
 			<h3>Helsinki, Suomi</h3>
 			<div id="summaryarea">
@@ -72,7 +113,7 @@
 							<th class="ColumnAttribute">Enclosed By</th>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/1/a/cb589cfeb254c33cda1.html" title="Suomi">Suomi</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/1/a/cb589cfeb254c33cda1.html" title="Suomi">Suomi</a></td>
 						</tr>
 						<tr>
 							<td>
@@ -83,136 +124,144 @@
 							<th class="ColumnAttribute">Place Encloses</th>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/c/4/cb589ce351436da5c4c.html" title="Sandhamn">Sandhamn</a></td>
+							<td class="ColumnPlace">10. stadsdelen</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/0/7/cb589ce8d143d59df70.html" title="Biografen Gloria">Biografen Gloria</a></td>
+							<td class="ColumnPlace">11. Stadsdelen</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/1/f/df5464972da583f07aeb854a0f1.html" title="Keskusvankila">Keskusvankila</a></td>
+							<td class="ColumnPlace">12. Stadsdelen</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/d/e/df54942ba616503892df5f7a6ed.html" title="Kaartin seurakunta">Kaartin seurakunta</a></td>
+							<td class="ColumnPlace">2. Stadsdelen</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/d/9/df54a5f7621535f126d148eda9d.html" title="Kaartin tarkka-ampujapataljoona">Kaartin tarkka-ampujapataljoona</a></td>
+							<td class="ColumnPlace">3. Stadsdelen</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/4/5/e18759c91b0325941769f010b54.html" title="Thölö Sockerbruk">Thölö Sockerbruk</a></td>
+							<td class="ColumnPlace">4. Stadsdelen</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/0/d/f15effd2956d6e7c37f6afb9d0.html" title="Villan Wallgård">Villan Wallgård</a></td>
+							<td class="ColumnPlace">5. Stadsdelen</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/6/9/f7c280ee9cf3d46b01f8424e596.html" title="Ensimmäinen Suomen meriekipaasi">Ensimmäinen Suomen meriekipaasi</a></td>
+							<td class="ColumnPlace">6. Stadsdelen</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">2. Stadsdelen</td>
+							<td class="ColumnPlace">7. Stadsdelen</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">3. Stadsdelen</td>
+							<td class="ColumnPlace">8. Stadsdelen</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">5. Stadsdelen</td>
+							<td class="ColumnPlace"><a href="../../../plc/0/7/cb589ce8d143d59df70.html" title="Biografen Gloria">Biografen Gloria</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">12. Stadsdelen</td>
+							<td class="ColumnPlace"><a href="../../../plc/6/9/f7c280ee9cf3d46b01f8424e596.html" title="Ensimmäinen Suomen meriekipaasi">Ensimmäinen Suomen meriekipaasi</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">Hermanstad I</td>
+							<td class="ColumnPlace"><a href="../../../plc/7/4/cde630ab53a2c774547.html" title="Gula Willan">Gula Willan</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">6. Stadsdelen</td>
+							<td class="ColumnPlace">Hermanstad I</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">Hermanstad II</td>
+							<td class="ColumnPlace">Hermanstad II</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">Maunulan uurnalehto</td>
+							<td class="ColumnPlace"><a href="../../../plc/d/e/df54942ba616503892df5f7a6ed.html" title="Kaartin seurakunta">Kaartin seurakunta</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">11. Stadsdelen</td>
+							<td class="ColumnPlace"><a href="../../../plc/d/9/df54a5f7621535f126d148eda9d.html" title="Kaartin tarkka-ampujapataljoona">Kaartin tarkka-ampujapataljoona</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">Malmin hautausmaa</td>
+							<td class="ColumnPlace"><a href="../../../plc/1/f/df5464972da583f07aeb854a0f1.html" title="Keskusvankila">Keskusvankila</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">7. Stadsdelen</td>
+							<td class="ColumnPlace">Malmin hautausmaa</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">4. Stadsdelen</td>
+							<td class="ColumnPlace">Maunulan uurnalehto</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">8. Stadsdelen</td>
+							<td class="ColumnPlace">Rödbergsdal</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">Rödbergsdal</td>
+							<td class="ColumnPlace"><a href="../../../plc/c/4/cb589ce351436da5c4c.html" title="Sandhamn">Sandhamn</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">Tölö</td>
+							<td class="ColumnPlace">Suomen Kaarti</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">10. stadsdelen</td>
+							<td class="ColumnPlace"><a href="../../../plc/4/5/e18759c91b0325941769f010b54.html" title="Thölö Sockerbruk">Thölö Sockerbruk</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">Suomen Kaarti</td>
+							<td class="ColumnPlace">Tölö</td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/7/4/cde630ab53a2c774547.html" title="Gula Willan">Gula Willan</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/0/d/f15effd2956d6e7c37f6afb9d0.html" title="Villan Wallgård">Villan Wallgård</a></td>
 						</tr>
 					</tbody>
 				</table>
 			</div>
-			<div id="popup"></div>
+			<div class="ol-popup" id="popup"><a class="ol-popup-closer" href="#" id="popup-closer"></a><div class="ol-popup-title" id="popup-title"></div><div id="popup-content"></div></div>
+			<div class="ol-popup" id="tooltip"><div id="tooltip-content"></div></div>
 			<div class="subsection" id="references">
 				<h4>References</h4>
 				<ol class="Col1" role="Volume-n-Page" type=1>
 					<li>
 						<a href="../../../ppl/c/3/cb589cf10c974bb303c.html">
 						Lundberg, Carl Fridolf
-						 (0000-00-00) 
+						 (0000-00-00 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/4/2/cb589ce8ced767f9324.html">
 						Lindfors, Anders Herman
-						 (0000-00-00) 
+						 (0000-00-00 Burial) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/5/6/cb589cf82f41e39f265.html">
 						, Henric Hansson
-						 (1736-01-07) 
+						 (1736-01-07 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/1/e/cb589cf838b34d288e1.html">
 						, Hans Hansson
-						 (1744-03-25) 
+						 (1744-03-25 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/b/5/cb589cd1a801c9ab65b.html">
 						, Sophia Thomasdotter
-						 (1754-08-04) 
+						 (1754-08-04 Baptism) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/e/7/cb589cce6c6503d9a7e.html">
 						, Isaac Thomasson
-						 (1756-09-05) 
+						 (1756-09-05 Baptism) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/d/3/cb589cd1c9470525f3d.html">
 						, Michel Thomasson
-						 (1762-12-12) 
+						 (1762-12-12 Death) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/5/e/cb589cce0702a0dfce5.html">
+						Söderlund, Hans Henricsson
+						 (1763-11-10) 
 						
 						</a>
 					</li>
@@ -231,9 +280,9 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/5/e/cb589cce0702a0dfce5.html">
-						Söderlund, Hans Henricsson
-						 (1763-11-10) 
+						<a href="../../../ppl/b/5/cb589cd1a801c9ab65b.html">
+						, Sophia Thomasdotter
+						 (1778-03-25) 
 						
 						</a>
 					</li>
@@ -252,44 +301,37 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/b/5/cb589cd1a801c9ab65b.html">
-						, Sophia Thomasdotter
-						 (1778-03-25) 
-						
-						</a>
-					</li>
-					<li>
 						<a href="../../../ppl/4/a/cb589ceb0340c60cea4.html">
 						, Thomas Mattsson
-						 (1779-11-14) 
+						 (1779-11-14 Burial) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/8/1/cb589cd1b06340c8d18.html">
 						Söderlund, Kristina Elisabet Isaksdotter
-						 (1780-10-08) 
+						 (1780-10-08 Baptism) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/d/f/cb589cf81950c1311fd.html">
 						, Matts Andersson
-						 (1780-12-26) 
+						 (1780-12-26 Burial) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/b/5/cb589cd1a801c9ab65b.html">
 						, Sophia Thomasdotter
-						 (1789-12-13) 
+						 (1789-12-13 Burial) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/c/e/cb589cd1ce14fe9faec.html">
 						, Thomas Thomasson
-						 (1790-01-30) 
+						 (1790-01-30 Death) 
 						
 						</a>
 					</li>
@@ -322,15 +364,15 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/e/7/cb589cce6c6503d9a7e.html">
-						, Isaac Thomasson
+						<a href="../../../fam/7/c/cb589ccbab060ae67c7.html">
+						Family of , Isaac Thomasson and , Margareta Jöransdotter
 						 (1791-06-09) 
 						
 						</a>
 					</li>
 					<li>
-						<a href="../../../fam/7/c/cb589ccbab060ae67c7.html">
-						Family of , Isaac Thomasson and , Margareta Jöransdotter
+						<a href="../../../ppl/e/7/cb589cce6c6503d9a7e.html">
+						, Isaac Thomasson
 						 (1791-06-09) 
 						
 						</a>
@@ -345,7 +387,7 @@
 					<li>
 						<a href="../../../ppl/9/7/cb589cd1c5c3f9a1679.html">
 						Sandblom, Eric Thomasson
-						 (1794-11-06) 
+						 (1794-11-06 Death) 
 						
 						</a>
 					</li>
@@ -378,13 +420,6 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/6/c/cb589cd1d4f504c3ec6.html">
-						Sandblom, Hans Thomasson
-						 (1801-12-27) 
-						
-						</a>
-					</li>
-					<li>
 						<a href="../../../fam/d/a/cb589cd1d846bd2f2ad.html">
 						Family of Sandblom, Hans Thomasson
 						 (1801-12-27) 
@@ -392,16 +427,23 @@
 						</a>
 					</li>
 					<li>
+						<a href="../../../ppl/6/c/cb589cd1d4f504c3ec6.html">
+						Sandblom, Hans Thomasson
+						 (1801-12-27) 
+						
+						</a>
+					</li>
+					<li>
 						<a href="../../../ppl/e/7/cb589cce6c6503d9a7e.html">
 						, Isaac Thomasson
-						 (1804-04-29) 
+						 (1804-04-29 Burial) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/6/3/cb589cd18b22f064936.html">
 						Broström, Henric Johan
-						 (1804-08-13) 
+						 (1804-08-13 Birth) 
 						
 						</a>
 					</li>
@@ -436,133 +478,133 @@
 					<li>
 						<a href="../../../ppl/2/0/cb589cd5b5f71e43d02.html">
 						Söderlund, Carl Johan Johansson
-						 (1808-02-13) 
+						 (1808-02-13 Baptism) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/4/c/cb589ccb9a04c9e78c4.html">
 						Holmström, Lars Fredric
-						 (1809-04-01) 
+						 (1809-04-01 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/f/1/cb589cd18d90b3ffc1f.html">
 						Broström, Isak
-						 (1809-05-05) 
+						 (1809-05-05 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/a/e/cb589cd5bb94e2029ea.html">
 						Söderlund, Maria Elisabet
-						 (1809-11-12) 
+						 (1809-11-12 Baptism) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/f/6/cb589cd18ff4c60db6f.html">
 						Broström, Maria Sofia
-						 (1815-11-25) 
+						 (1815-11-25 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/a/4/cb589cf862779088a4a.html">
 						, Anna Hansdotter
-						 (1817-06-08) 
+						 (1817-06-08 Burial) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/7/7/cb589cd59e7103bee77.html">
 						Fibelkorn, Karolina
-						 (1818-05-16) 
+						 (1818-05-16 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/8/1/cb589cd193909827a18.html">
 						Broström, Elias
-						 (1818-07-04) 
+						 (1818-07-04 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/9/b/cb589cd41cf570329b9.html">
 						Sandell, Christina Carolina
-						 (1820-12-29) 
+						 (1820-12-29 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/5/a/cb589cd19704179b4a5.html">
 						Broström, Lovisa
-						 (1822-10-30) 
+						 (1822-10-30 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/6/7/cb589cd40390fc4c376.html">
 						Sandell, Erica Carolina
-						 (1823-07-18) 
+						 (1823-07-18 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/5/1/cb589cd40aa58920415.html">
 						Sandell, Christina Ulrica
-						 (1828-12-30) 
+						 (1828-12-30 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/a/0/cb589cd40d5554d040a.html">
 						Sandell, Isac
-						 (1831-12-26) 
+						 (1831-12-26 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/d/3/cb589cd40ff7042493d.html">
 						Sandell, Isak August
-						 (1832-12-03) 
+						 (1832-12-03 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/6/e/cb589cd41347a301de6.html">
 						Sandell, Albertina
-						 (1835-01-15) 
+						 (1835-01-15 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/f/9/cb589ce4d15405dca9f.html">
 						Sjöholm, Eva Carolina
-						 (1835-12-27) 
+						 (1835-12-27 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/3/8/cb589ce564002604d83.html">
 						Björkman, Engla
-						 (1836-12-01) 
+						 (1836-12-01 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/3/8/cb589ce564002604d83.html">
 						Björkman, Engla
-						 (1837-02-18) 
+						 (1837-02-18 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/9/a/cb589cd4172615e16a9.html">
 						Sandell, Otto Reinhold
-						 (1837-06-03) 
+						 (1837-06-03 Birth) 
 						
 						</a>
 					</li>
@@ -583,28 +625,21 @@
 					<li>
 						<a href="../../../ppl/7/8/cb589cd1ef743e09087.html">
 						Holmström, Kristina Charlotta
-						 (1839-05-22) 
+						 (1839-05-22 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/2/8/cb589cd50730af00582.html">
 						Söderlund, Engla Maria Henriksdotter
-						 (1839-05-26) 
+						 (1839-05-26 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/0/6/cb589ce55ee18e5ba60.html">
 						Björkman, Maria Wilhelmina
-						 (1839-07-31) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/d/1/cb589ccb9ff143d021d.html">
-						Holmström, Sophia Wilhelmina
-						 (1839-12-31) 
+						 (1839-07-31 Birth) 
 						
 						</a>
 					</li>
@@ -616,23 +651,23 @@
 						</a>
 					</li>
 					<li>
+						<a href="../../../ppl/d/1/cb589ccb9ff143d021d.html">
+						Holmström, Sophia Wilhelmina
+						 (1839-12-31) 
+						
+						</a>
+					</li>
+					<li>
 						<a href="../../../ppl/c/c/cb589cdc8850e22b0cc.html">
 						Sandblom, Otto Reinhold
-						 (1840-04-09) 
+						 (1840-04-09 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/c/4/cb589cdab4f0204504c.html">
 						Förström, Johan August
-						 (1843-12-29) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/b/1/cb589cd5c7a0c4d841b.html">
-						Söderlund, Fredrika Johansdotter
-						 (1844-09-16) 
+						 (1843-12-29 Birth) 
 						
 						</a>
 					</li>
@@ -644,29 +679,36 @@
 						</a>
 					</li>
 					<li>
+						<a href="../../../ppl/b/1/cb589cd5c7a0c4d841b.html">
+						Söderlund, Fredrika Johansdotter
+						 (1844-09-16) 
+						
+						</a>
+					</li>
+					<li>
 						<a href="../../../ppl/d/6/cb589cdf1d9344a636d.html">
 						Lindfors, Herman Gustafsson
-						 (1844-12-20) 
+						 (1844-12-20 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/e/c/cb589cdf20f0907d6ce.html">
 						Lindfors, Anna Lovisa Gustafsdotter
-						 (1846-11-26) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/4/e/cb589ccba855090aae4.html">
-						, Edla Isaacsdotter
-						 (1846-11-29) 
+						 (1846-11-26 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../fam/4/6/cb589ccbab76d710864.html">
 						Family of , Edla Isaacsdotter
+						 (1846-11-29) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/4/e/cb589ccba855090aae4.html">
+						, Edla Isaacsdotter
 						 (1846-11-29) 
 						
 						</a>
@@ -688,35 +730,28 @@
 					<li>
 						<a href="../../../ppl/6/8/f150a2d991d3883684f326f0686.html">
 						Harlin, Alexander
-						 (between 1850-04-02 and 1853-02-10) 
+						 (between 1850-04-02 and 1853-02-10 Residence) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/2/0/cb589cd5b5f71e43d02.html">
 						Söderlund, Carl Johan Johansson
-						 (1853-03-28) 
+						 (1853-03-28 Burial) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/8/1/cb589cd1b06340c8d18.html">
 						Söderlund, Kristina Elisabet Isaksdotter
-						 (1853-06-26) 
+						 (1853-06-26 Burial) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/b/9/cb589cf0f8b13e1e99b.html">
 						Lundberg, Anna Elvina
-						 (1854-07-14) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/e/8/cb589cd4dd06373c68e.html">
-						Wikström, Lovisa Christina
-						 (1854-10-26) 
+						 (1854-07-14 Birth) 
 						
 						</a>
 					</li>
@@ -728,23 +763,23 @@
 						</a>
 					</li>
 					<li>
+						<a href="../../../ppl/e/8/cb589cd4dd06373c68e.html">
+						Wikström, Lovisa Christina
+						 (1854-10-26) 
+						
+						</a>
+					</li>
+					<li>
 						<a href="../../../ppl/6/8/f150a2d991d3883684f326f0686.html">
 						Harlin, Alexander
-						 (before 1854-11-09) 
+						 (before 1854-11-09 Residence) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/0/6/cb589ce55ee18e5ba60.html">
 						Björkman, Maria Wilhelmina
-						 (1856-03-28) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/e/3/cb589cd4da87152b43e.html">
-						Wikström, Erika Serefina
-						 (1856-11-27) 
+						 (1856-03-28 Death) 
 						
 						</a>
 					</li>
@@ -756,57 +791,57 @@
 						</a>
 					</li>
 					<li>
+						<a href="../../../ppl/e/3/cb589cd4da87152b43e.html">
+						Wikström, Erika Serefina
+						 (1856-11-27) 
+						
+						</a>
+					</li>
+					<li>
 						<a href="../../../ppl/7/1/cb589cf0fcd5586ae17.html">
 						Lundberg, Maria Matilda
-						 (1857-03-31) 
+						 (1857-03-31 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/5/c/cb589cdc80140115cc5.html">
 						Sandin, Klara Charlotta
-						 (1857-05-12) 
+						 (1857-05-12 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/a/e/cb589cd5bb94e2029ea.html">
 						Söderlund, Maria Elisabet
-						 (1858-03-21) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/8/c/f15228df7271c211335ebf815c8.html">
-						Fagerström, Amanda Karolina
-						 (1859-02-18) 
+						 (1858-03-21 Burial) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/7/3/f1520d8f5773a1e67d96b71237.html">
 						Fagerström, Anna Charlotta
-						 (1859-02-18) 
+						 (1859-02-18 Birth) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/8/c/f15228df7271c211335ebf815c8.html">
+						Fagerström, Amanda Karolina
+						 (1859-02-18 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/6/e/cb589cd41347a301de6.html">
 						Sandell, Albertina
-						 (1859-03-28) 
+						 (1859-03-28 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../fam/b/a/f150b73c784675f722d16ac44ab.html">
 						Family of Harlin, Alexander and Wikström, Ulrika Charlotta
-						 (1859-04-29) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/6/8/f150a2d991d3883684f326f0686.html">
-						Harlin, Alexander
 						 (1859-04-29) 
 						
 						</a>
@@ -819,141 +854,148 @@
 						</a>
 					</li>
 					<li>
+						<a href="../../../ppl/6/8/f150a2d991d3883684f326f0686.html">
+						Harlin, Alexander
+						 (1859-04-29) 
+						
+						</a>
+					</li>
+					<li>
 						<a href="../../../ppl/4/a/f7bc1d9c6d2117dd588dac72a4.html">
 						Harlin, Alexandra Charlotta
-						 (1859-06-21) 
+						 (1859-06-21 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/8/b/cb589cf100a1c789eb8.html">
 						Lundberg, Carl Magnus
-						 (1859-08-17) 
+						 (1859-08-17 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/8/b/cb589cf100a1c789eb8.html">
 						Lundberg, Carl Magnus
-						 (1859-10-10) 
+						 (1859-10-10 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/7/8/f5dc31788967631eacb6b43bd87.html">
 						Kullberg, Maria Lovisa Gustafsdotter
-						 (after 1859-10-28) 
+						 (after 1859-10-28 Residence) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/f/0/cb589ce28bd0c218c0f.html">
 						Förström, Karl August
-						 (1860-01-02) 
+						 (1860-01-02 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/8/c/f15228df7271c211335ebf815c8.html">
 						Fagerström, Amanda Karolina
-						 (1860-04-12) 
+						 (1860-04-12 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/6/f/cb589cf10696b89e4f6.html">
 						Lundberg, Eva Lovisa
-						 (1860-09-29) 
+						 (1860-09-29 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/f/4/f5df374647151a9783f699504f.html">
 						Österman, Justus
-						 (1861-05-03) 
+						 (1861-05-03 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/d/0/f15223504715cec63572ba800d.html">
 						Fagerström, Maria Sofia
-						 (1861-09-12) 
+						 (1861-09-12 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/c/3/cb589cf10c974bb303c.html">
 						Lundberg, Carl Fridolf
-						 (1862-04-28) 
+						 (1862-04-28 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/1/8/cb589cd6461739b5081.html">
 						Holmström, Karl Wiktor
-						 (1863-04-11) 
+						 (1863-04-11 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/c/2/cb589cd6aa429947f2c.html">
 						Sandblom, Erika Alexandra
-						 (1863-07-24) 
+						 (1863-07-24 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/6/f/cb589cf10696b89e4f6.html">
 						Lundberg, Eva Lovisa
-						 (1864-03-10) 
+						 (1864-03-10 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/f/c/cb589cdc77d5ae436cf.html">
 						Sandin, Otto Reinhold
-						 (1864-09-15) 
+						 (1864-09-15 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/3/6/cb589cdf2c575168263.html">
 						Kullström, Johan Emil
-						 (1864-10-10) 
+						 (1864-10-10 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/b/1/f7bf2a77d4f2d0381f0ac24db1b.html">
 						Harlin, Alma Maria
-						 (1864-11-03) 
+						 (1864-11-03 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/b/1/f7bf2a77d4f2d0381f0ac24db1b.html">
 						Harlin, Alma Maria
-						 (1864-12-14) 
+						 (1864-12-14 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/5/3/f15560b85a07ffd5b7fa8a95c35.html">
 						Fagerström, Karl Gustaf
-						 (1865-06-27) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/6/3/f150a32e29e3c5a604d3aa3b936.html">
-						Wikström, Maria Gustava
-						 (1865-10-06) 
+						 (1865-06-27 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../fam/a/7/f150a2d297622c1fce11def1c7a.html">
 						Family of Harlin, Alexander and Wikström, Maria Gustava
+						 (1865-10-06) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/6/3/f150a32e29e3c5a604d3aa3b936.html">
+						Wikström, Maria Gustava
 						 (1865-10-06) 
 						
 						</a>
@@ -968,41 +1010,41 @@
 					<li>
 						<a href="../../../ppl/5/3/f15560b85a07ffd5b7fa8a95c35.html">
 						Fagerström, Karl Gustaf
-						 (1867-08-22) 
+						 (1867-08-22 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/1/9/cb589cd673a58d81991.html">
 						Holmström, Karl Lambert Severin
-						 (1867-11-17) 
+						 (1867-11-17 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/8/1/cb589cd193909827a18.html">
 						Broström, Elias
-						 (1868-03-21) 
+						 (1868-03-21 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/7/4/cb589cdf595615c9947.html">
 						, Engla Maria Johansdotter
-						 (1868-11-20) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../fam/a/7/f150a2d297622c1fce11def1c7a.html">
-						Family of Harlin, Alexander and Wikström, Maria Gustava
-						 (between 1870 and 1871) 
+						 (1868-11-20 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/6/8/f150a2d991d3883684f326f0686.html">
 						Harlin, Alexander
+						 (between 1870 and 1871) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../fam/a/7/f150a2d297622c1fce11def1c7a.html">
+						Family of Harlin, Alexander and Wikström, Maria Gustava
 						 (between 1870 and 1871) 
 						
 						</a>
@@ -1015,8 +1057,8 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/f/e/cb589cc83d1028d9fef.html">
-						Nordberg, Ferdinand
+						<a href="../../../ppl/a/2/cb589cc83ac79e7ec2a.html">
+						Holmström, Sofia Wilhelmina
 						 (between 1870 and 1875) 
 						
 						</a>
@@ -1029,8 +1071,8 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/a/2/cb589cc83ac79e7ec2a.html">
-						Holmström, Sofia Wilhelmina
+						<a href="../../../ppl/f/e/cb589cc83d1028d9fef.html">
+						Nordberg, Ferdinand
 						 (between 1870 and 1875) 
 						
 						</a>
@@ -1038,41 +1080,41 @@
 					<li>
 						<a href="../../../ppl/f/e/cb589cc83d1028d9fef.html">
 						Nordberg, Ferdinand
-						 (between 1870 and 1886) 
+						 (between 1870 and 1886 Occupation) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/5/5/cb589cd676d09c30255.html">
 						Holmström, Amanda Emelia
-						 (1870-01-06) 
+						 (1870-01-06 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/6/7/cb589ce8b216654ad76.html">
 						Lindfors, Gustaf Adolf
-						 (1870-03-15) 
+						 (1870-03-15 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/1/a/cb589ce6c4f4815a5a1.html">
 						Sandblom, Otto Emil
-						 (1870-05-17) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../fam/a/7/f150a2d297622c1fce11def1c7a.html">
-						Family of Harlin, Alexander and Wikström, Maria Gustava
-						 (between 1871 and 1881) 
+						 (1870-05-17 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/6/8/f150a2d991d3883684f326f0686.html">
 						Harlin, Alexander
+						 (between 1871 and 1881) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../fam/a/7/f150a2d297622c1fce11def1c7a.html">
+						Family of Harlin, Alexander and Wikström, Maria Gustava
 						 (between 1871 and 1881) 
 						
 						</a>
@@ -1087,34 +1129,41 @@
 					<li>
 						<a href="../../../ppl/8/8/cb589cc80270f9c6988.html">
 						Nordberg, Emil Ferdinand
-						 (1871-02-05) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/b/7/f14f4ab978352cd638bf5300b7b.html">
-						Malin, Amalia Charlotta
-						 (1871-02-05) 
+						 (1871-02-05 Baptism) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/7/3/f14f491a65a2c7be64eeafc3337.html">
 						Westerholm, Karl Jakob
-						 (1871-02-05) 
+						 (1871-02-05 Baptism) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/b/7/f14f4ab978352cd638bf5300b7b.html">
+						Malin, Amalia Charlotta
+						 (1871-02-05 Baptism) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/1/f/cb589cd9c991f9ed3f1.html">
 						Wikström, Lydia Charlotta
-						 (1871-05-11) 
+						 (1871-05-11 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../fam/a/7/f150a2d297622c1fce11def1c7a.html">
 						Family of Harlin, Alexander and Wikström, Maria Gustava
+						 (1871-11-05) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/6/3/f150a32e29e3c5a604d3aa3b936.html">
+						Wikström, Maria Gustava
 						 (1871-11-05) 
 						
 						</a>
@@ -1127,22 +1176,8 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/6/3/f150a32e29e3c5a604d3aa3b936.html">
-						Wikström, Maria Gustava
-						 (1871-11-05) 
-						
-						</a>
-					</li>
-					<li>
 						<a href="../../../ppl/8/4/df5485edb1c402a7f92f044dc48.html">
 						Klick, Hilda Amanda
-						 (between 1872 and 1877) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/d/9/df54843125e245c8ed97ff0089d.html">
-						Skott, Karl Gustaf
 						 (between 1872 and 1877) 
 						
 						</a>
@@ -1155,36 +1190,36 @@
 						</a>
 					</li>
 					<li>
+						<a href="../../../ppl/d/9/df54843125e245c8ed97ff0089d.html">
+						Skott, Karl Gustaf
+						 (between 1872 and 1877) 
+						
+						</a>
+					</li>
+					<li>
 						<a href="../../../ppl/3/b/f150f5379394c691fa4f6ca38b3.html">
 						Eklund, Adolf
-						 (between 1872 and 1881) 
+						 (between 1872 and 1881 Residence) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/d/f/cb589cd67987a2ed1fd.html">
 						Holmström, Alina Charlotta
-						 (1872-07-06) 
+						 (1872-07-06 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/b/1/cb589ce8b794c9ad21b.html">
 						Lindfors, Hilda Sofia
-						 (1873-03-14) 
+						 (1873-03-14 Birth) 
 						
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/e/2/f150cdb524e200b5b297b815a2e.html">
-						Fagerström, Johan
-						 (1873-06-22) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/1/8/f150cf3ac5b376a51a471c3981.html">
-						Tunberg, Anna Helena
+						<a href="../../../fam/a/7/f150a2d297622c1fce11def1c7a.html">
+						Family of Harlin, Alexander and Wikström, Maria Gustava
 						 (1873-06-22) 
 						
 						</a>
@@ -1197,16 +1232,23 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/4/0/cb589cc84347c619504.html">
-						Nordberg, Maria Charlotta Wilhelmina
-						 (1873-06-22) 
+						<a href="../../../ppl/1/8/f150cf3ac5b376a51a471c3981.html">
+						Tunberg, Anna Helena
+						 (1873-06-22 Baptism) 
 						
 						</a>
 					</li>
 					<li>
-						<a href="../../../fam/a/7/f150a2d297622c1fce11def1c7a.html">
-						Family of Harlin, Alexander and Wikström, Maria Gustava
-						 (1873-06-22) 
+						<a href="../../../ppl/4/0/cb589cc84347c619504.html">
+						Nordberg, Maria Charlotta Wilhelmina
+						 (1873-06-22 Baptism) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/e/2/f150cdb524e200b5b297b815a2e.html">
+						Fagerström, Johan
+						 (1873-06-22 Baptism) 
 						
 						</a>
 					</li>
@@ -1220,55 +1262,55 @@
 					<li>
 						<a href="../../../ppl/a/4/cb589cda7d212778f4a.html">
 						Forsström, Aina Maria
-						 (1874-06-19) 
+						 (1874-06-19 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/e/4/df540cec66673128192bef0df4e.html">
 						Skott, Johan Karlsson
-						 (1874-09-01) 
+						 (1874-09-01 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/1/f/cb589ce8bcd56ec4cf1.html">
 						Lindfors, Alma Lovisa
-						 (1875-03-10) 
+						 (1875-03-10 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/5/2/cb589cdf64430166525.html">
 						, Hilda Sofia Johansdotter
-						 (1875-04-11) 
+						 (1875-04-11 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/3/4/cb589cda8c17c99ff43.html">
 						Forsström, Selma Adelia
-						 (1875-08-12) 
+						 (1875-08-12 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/7/4/cb589cd67cb34abbe47.html">
 						Holmström, Lydia Teresia
-						 (1875-11-01) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/3/b/f150f5379394c691fa4f6ca38b3.html">
-						Eklund, Adolf
-						 (1875-11-21) 
+						 (1875-11-01 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/6/8/f150a2d991d3883684f326f0686.html">
 						Harlin, Alexander
+						 (1875-11-21) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../fam/a/7/f150a2d297622c1fce11def1c7a.html">
+						Family of Harlin, Alexander and Wikström, Maria Gustava
 						 (1875-11-21) 
 						
 						</a>
@@ -1283,91 +1325,77 @@
 					<li>
 						<a href="../../../ppl/f/c/cb589cc84532e6710cf.html">
 						Nordberg, Viktor Leonard
-						 (1875-11-21) 
+						 (1875-11-21 Baptism) 
 						
 						</a>
 					</li>
 					<li>
-						<a href="../../../fam/a/7/f150a2d297622c1fce11def1c7a.html">
-						Family of Harlin, Alexander and Wikström, Maria Gustava
-						 (1875-11-21) 
+						<a href="../../../ppl/3/b/f150f5379394c691fa4f6ca38b3.html">
+						Eklund, Adolf
+						 (1875-11-21 Baptism) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/8/2/cb589cf131477bd5428.html">
 						Björkman, Charlotta Gustafa
-						 (1876-06-20) 
+						 (1876-06-20 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/4/a/f7bc1d9c6d2117dd588dac72a4.html">
 						Harlin, Alexandra Charlotta
-						 (before 1876-07-07) 
+						 (before 1876-07-07 Residence) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/b/7/cf967d1e0d6235c137b.html">
 						Nikander, Gustaf Adolf
-						 (between 1876-12-09 and 1877-08-14) 
+						 (between 1876-12-09 and 1877-08-14 Residence) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/e/0/cb589ce8c7a49a1e70e.html">
 						Lindfors, Herman Julius
-						 (1877-01-02) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/c/2/f1513a714e07934f16eb114c2c.html">
-						Lax, Johan Leonard
-						 (1877-08-09) 
+						 (1877-01-02 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/3/4/f15116b8ca023f7d8124e897a43.html">
 						, Albert Johansson
-						 (1877-08-09) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/5/b/f1513d8e1714bef0a1a8d9aeb5.html">
-						Wårström, Amanda
-						 (1877-08-09) 
+						 (1877-08-09 Baptism) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/f/c/f1511a88336c4a0f0034cf44cf.html">
 						Bäckström, Mathilda Charlotta
-						 (1877-08-09) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/b/1/cb589cc847f6455821b.html">
-						Nordberg, Elin Maria
-						 (1877-08-09) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/c/2/f1513a714e07934f16eb114c2c.html">
-						Lax, Johan Leonard
-						 (1877-09-16) 
+						 (1877-08-09 Baptism) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/5/b/f1513d8e1714bef0a1a8d9aeb5.html">
 						Wårström, Amanda
-						 (1877-09-16) 
+						 (1877-08-09 Baptism) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/c/2/f1513a714e07934f16eb114c2c.html">
+						Lax, Johan Leonard
+						 (1877-08-09 Baptism) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/b/1/cb589cc847f6455821b.html">
+						Nordberg, Elin Maria
+						 (1877-08-09 Baptism) 
 						
 						</a>
 					</li>
@@ -1379,64 +1407,78 @@
 						</a>
 					</li>
 					<li>
+						<a href="../../../ppl/5/b/f1513d8e1714bef0a1a8d9aeb5.html">
+						Wårström, Amanda
+						 (1877-09-16) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/c/2/f1513a714e07934f16eb114c2c.html">
+						Lax, Johan Leonard
+						 (1877-09-16) 
+						
+						</a>
+					</li>
+					<li>
 						<a href="../../../ppl/7/3/f14f491a65a2c7be64eeafc3337.html">
 						Westerholm, Karl Jakob
-						 (1877-10-29) 
+						 (1877-10-29 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/d/8/cb589ce65eb596fd98d.html">
 						Sjöholm, Berndt Alfred
-						 (1878-01-04) 
+						 (1878-01-04 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/3/d/f15b052e2c63c0b77e14f163bd3.html">
 						Lax, Axel Leonard
-						 (1878-02-12) 
+						 (1878-02-12 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/2/d/cf99c1cf42473b60ad2.html">
 						Stordell, Alexander Emanuel
-						 (1878-06-29) 
+						 (1878-06-29 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/b/7/cf967d1e0d6235c137b.html">
 						Nikander, Gustaf Adolf
-						 (after 1878-10-01) 
+						 (after 1878-10-01 Residence) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/2/2/cb589ce8eb555858322.html">
 						Lillqvist, Anders Alfred
-						 (1879-03-21) 
+						 (1879-03-21 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/3/4/f15116b8ca023f7d8124e897a43.html">
 						, Albert Johansson
-						 (1879-08-12) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/f/e/cb589cc83d1028d9fef.html">
-						Nordberg, Ferdinand
-						 (between 1880 and 1886) 
+						 (1879-08-12 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../fam/f/6/cb589cc803c2012656f.html">
 						Family of Nordberg, Ferdinand and Holmström, Sofia Wilhelmina
+						 (between 1880 and 1886) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/f/e/cb589cc83d1028d9fef.html">
+						Nordberg, Ferdinand
 						 (between 1880 and 1886) 
 						
 						</a>
@@ -1451,140 +1493,133 @@
 					<li>
 						<a href="../../../ppl/a/e/cb589cd68f230f5e1ea.html">
 						Holmström, Alina Vilhelmina
-						 (1880-04-20) 
+						 (1880-04-20 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/8/2/cb589cd64ee4b47c328.html">
 						Holmström, Augusta Viktoria
-						 (1880-06-17) 
+						 (1880-06-17 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/0/8/cb589ce30bf5f0e9680.html">
 						Holmström, Olga Maria
-						 (1880-06-30) 
+						 (1880-06-30 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/a/7/f15b05ad2bd5e99ecaa3df98c7a.html">
 						Lax, Elin Agnes Mathilda
-						 (1880-11-14) 
+						 (1880-11-14 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/a/7/f15b05ad2bd5e99ecaa3df98c7a.html">
 						Lax, Elin Agnes Mathilda
-						 (1881-05-02) 
+						 (1881-05-02 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/1/e/cb589ce8eec5432fce1.html">
 						Lillqvist, Ernst Nikolai
-						 (1881-09-01) 
+						 (1881-09-01 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/b/b/cb589cd651b13813fbb.html">
 						Holmström, Albert Ferdinand
-						 (1881-12-11) 
+						 (1881-12-11 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/7/c/cb589cdcb8503de13c7.html">
 						Björkman, Viktorina
-						 (1882-02-22) 
+						 (1882-02-22 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/c/6/cb589cc84a03bdf266c.html">
 						Nordberg, Viktor Ferdinand
-						 (1882-03-06) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/7/3/f1520d8f5773a1e67d96b71237.html">
-						Fagerström, Anna Charlotta
-						 (1882-03-06) 
+						 (1882-03-06 Baptism) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/b/4/f15217564c742c378bdef8f784b.html">
 						Fagerström, Johan Ferdinand
-						 (1882-03-06) 
+						 (1882-03-06 Baptism) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/7/3/f1520d8f5773a1e67d96b71237.html">
+						Fagerström, Anna Charlotta
+						 (1882-03-06 Baptism) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/2/0/cb589ccc3ad3998a502.html">
 						Korzard, Josefina Alexandra
-						 (after 1882-12-12) 
+						 (after 1882-12-12 Residence) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/e/7/cb589cda8806788437e.html">
 						Forsström, Gustaf Valfrid
-						 (1883-01-06) 
+						 (1883-01-06 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/3/9/cb589cd654443ff5f93.html">
 						Holmström, Erik Johan Alfred
-						 (1883-08-12) 
+						 (1883-08-12 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/d/6/cb589ccc35e52a1e86d.html">
 						Korzard, Karl Ferdinand
-						 (between 1883-11-23 and 1893) 
+						 (between 1883-11-23 and 1893 Residence) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/3/1/df6ad7fa78a215766ee33b66213.html">
 						, Otto Selim Johansson
-						 (before 1884) 
+						 (before 1884 Residence) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/0/c/cb589ce8f41654c0dc0.html">
 						Lillqvist, Elin Maria
-						 (1884-02-23) 
+						 (1884-02-23 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/c/6/cb589cc84a03bdf266c.html">
 						Nordberg, Viktor Ferdinand
-						 (1884-07-08) 
+						 (1884-07-08 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/4/3/cb589ce2dfa20237334.html">
 						Holmström, Edvard Wilhelm
-						 (1884-09-16) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/b/7/cf967d1e0d6235c137b.html">
-						Nikander, Gustaf Adolf
-						 (after 1885-02-18) 
+						 (1884-09-16 Birth) 
 						
 						</a>
 					</li>
@@ -1603,170 +1638,177 @@
 						</a>
 					</li>
 					<li>
+						<a href="../../../ppl/b/7/cf967d1e0d6235c137b.html">
+						Nikander, Gustaf Adolf
+						 (after 1885-02-18) 
+						
+						</a>
+					</li>
+					<li>
 						<a href="../../../ppl/5/c/cb589cd656e74269ec5.html">
 						Holmström, Erik Viktor
-						 (1885-03-27) 
+						 (1885-03-27 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/1/f/cb589cda8315c6d7ff1.html">
 						Forsström, Axel Verner
-						 (1885-08-11) 
+						 (1885-08-11 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/f/1/cb589ce8f771bb91b1f.html">
 						Lillqvist, Artur Emil
-						 (1885-08-21) 
+						 (1885-08-21 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/f/b/f808e7bc5c139cf528b5f2df2bf.html">
 						Enqvist, Wilhelmina Elisabeth
-						 (1885-09-24) 
+						 (1885-09-24 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/2/6/cb589ccc22d4f968a62.html">
 						Wesander, Josefina
-						 (between 1885-12-01 and 1889-11-27) 
+						 (between 1885-12-01 and 1889-11-27 Residence) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/3/5/cb589ce2e4e7943b053.html">
 						Holmström, Magnus Alfred
-						 (1886-04-29) 
+						 (1886-04-29 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/f/e/cb589cc83d1028d9fef.html">
 						Nordberg, Ferdinand
-						 (1886-05-05) 
+						 (1886-05-05 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/b/4/cb589cdc9184c0f654b.html">
 						Holmström, Johan Alfred
-						 (1886-08-10) 
+						 (1886-08-10 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/8/2/cb589cd65a63ae7f328.html">
 						Holmström, Aina Matilda
-						 (1887-03-18) 
+						 (1887-03-18 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/e/c/cb589ce335f07f651ce.html">
 						Holmström, Oskar Alfred
-						 (1887-08-14) 
+						 (1887-08-14 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/6/d/cb589ce1aad6e0a17d6.html">
 						Holmström, Hugo Herenius
-						 (1888-02-03) 
+						 (1888-02-03 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/9/1/cb589ce2e9776cc2d19.html">
 						Holmström, Olga Emelia
-						 (1888-06-05) 
+						 (1888-06-05 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/8/c/cb589cd65d55bb123c8.html">
 						Holmström, Artur Albert
-						 (1888-07-27) 
+						 (1888-07-27 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/2/a/cb589ccca145a7978a2.html">
 						Korhonen, Kustaa Alpi
-						 (1889-06-06) 
+						 (1889-06-06 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/9/e/cb589ce8fcb3cd726e9.html">
 						Lillqvist, Hulda Sofia
-						 (1889-06-19) 
+						 (1889-06-19 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/d/e/e820bf91e7159e5183e46e425ed.html">
 						Finnberg, Maria Mathilda
-						 (after 1889-08-22) 
+						 (after 1889-08-22 Residence) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/d/c/cb589ce69e84e434bcd.html">
 						Sandin, Johan Edvard
-						 (1889-09-23) 
+						 (1889-09-23 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/e/f/cb589ce2ee431e1e1fe.html">
 						Holmström, Adolf Waldemar
-						 (1890-05-09) 
+						 (1890-05-09 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/2/2/cb589cd6603316b5f22.html">
 						Holmström, Gustaf Uno
-						 (1890-05-24) 
+						 (1890-05-24 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/b/7/cf967d1e0d6235c137b.html">
 						Nikander, Gustaf Adolf
-						 (before 1890-10-03) 
+						 (before 1890-10-03 Residence) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/2/9/cb589ce1b400050ae92.html">
 						Holmström, Karl Konrad
-						 (1890-12-07) 
+						 (1890-12-07 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/d/4/cb589cdcfe325ada24d.html">
 						Holmström, Sigrid Matilda
-						 (1890-12-11) 
+						 (1890-12-11 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/e/e/cb589cdda757a4e6dee.html">
 						Sandblom, Selma Sofia
-						 (1890-12-22) 
+						 (1890-12-22 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/0/a/cb589cdc9a12db4a8a0.html">
 						Holmström, Elina Alexandra
-						 (1891-01-09) 
+						 (1891-01-09 Birth) 
 						
 						</a>
 					</li>
@@ -1794,189 +1836,189 @@
 					<li>
 						<a href="../../../ppl/c/e/cb589ce35640fbd71ec.html">
 						Ekholm, Karl Edvin
-						 (1891-03-15) 
+						 (1891-03-15 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/f/9/cb589ce8c222b93329f.html">
 						Lindfors, Otto Valdemar
-						 (1891-03-27) 
+						 (1891-03-27 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/f/7/cb589ce900469db557f.html">
 						Lillqvist, Otto Valdemar
-						 (1891-07-05) 
+						 (1891-07-05 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/a/b/e820bffcb0417beb1d9e61ccbba.html">
 						Stordell, Maria Cecilia
-						 (1891-09-24) 
+						 (1891-09-24 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/d/2/cb589cd66614c9c112d.html">
 						Holmström, Fredrik Vilhelm
-						 (1892-06-19) 
+						 (1892-06-19 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/2/7/cb589ce1b750e4f9d72.html">
 						Holmström, Julius
-						 (1892-07-19) 
+						 (1892-07-19 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/3/1/cb589cc804b2d4cd313.html">
 						Korhonen, Hilda Maria
-						 (after 1893-01-23) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/3/f/cb589cd66316a3acdf3.html">
-						Holmström, Agda Augusta
-						 (1894-03-21) 
+						 (after 1893-01-23 Residence) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/5/6/cb589ce2f385fc44865.html">
 						Holmström, Ester Sigrid
-						 (1894-03-21) 
+						 (1894-03-21 Birth) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/3/f/cb589cd66316a3acdf3.html">
+						Holmström, Agda Augusta
+						 (1894-03-21 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/f/1/cb589ce903c0f81e91f.html">
 						Lillqvist, Signe Maria
-						 (1894-06-30) 
+						 (1894-06-30 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/5/b/cb589cdd028299171b5.html">
 						Holmström, Karl Axel
-						 (1895-02-02) 
+						 (1895-02-02 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/c/5/cb589cd62b23e396b5c.html">
 						Sandblom, Klara Karolina
-						 (1895-10-23) 
+						 (1895-10-23 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/e/7/cb589cd668d4b49fa7e.html">
 						Holmström, Anna Alexandra
-						 (1895-12-16) 
+						 (1895-12-16 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/3/e/cb589cf5f38355e3ce3.html">
 						Blom, Gustaf Adolf
-						 (1896-02-16) 
+						 (1896-02-16 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/4/a/cb589ce2f8009db34a4.html">
 						Holmström, Axel Hugo
-						 (1896-04-16) 
+						 (1896-04-16 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/6/4/cb589ce1bcb7aeb1046.html">
 						Holmström, Arvid
-						 (1896-04-18) 
+						 (1896-04-18 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/d/e/e820bf91e7159e5183e46e425ed.html">
 						Finnberg, Maria Mathilda
-						 (1896-08-19) 
+						 (1896-08-19 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/5/c/db8acd3fbf26ea6d8dc2794d4c5.html">
 						Nordberg, Elin Maria
-						 (after 1896-09-10) 
+						 (after 1896-09-10 Residence) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/8/8/cb589cdca0077da6188.html">
 						Holmström, Anna Cecilia
-						 (1896-12-04) 
+						 (1896-12-04 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/e/4/cb589cdca617da0754e.html">
 						Holmström, Viktor Richard
-						 (1896-12-07) 
+						 (1896-12-07 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/a/9/cb589cdd05b5f6c579a.html">
 						Holmström, Johan Albert
-						 (1897-01-21) 
+						 (1897-01-21 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/0/9/cb589cf639d27144290.html">
 						Blomqvist, Edit Maria
-						 (1897-03-27) 
+						 (1897-03-27 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/e/3/cb589cc8576658f573e.html">
 						Korhonen, Daniel
-						 (between 1897-04-27 and 1898) 
+						 (between 1897-04-27 and 1898 Residence) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/d/d/cb589ce1c2301a22add.html">
 						Holmström, Elna Augusta
-						 (1897-05-23) 
+						 (1897-05-23 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/d/c/cb589cf5f9c741fa4cd.html">
 						Blom, Anna Ottilia
-						 (1897-07-05) 
+						 (1897-07-05 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/7/9/cb589cdd14f7cfbf697.html">
 						Granholm, John August
-						 (1897-10-04) 
+						 (1897-10-04 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/4/8/cb589ccc1ba34111084.html">
 						Ahlberg, Amanda Aurora
-						 (after 1897-11-25) 
+						 (after 1897-11-25 Residence) 
 						
 						</a>
 					</li>
@@ -1988,15 +2030,15 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/e/3/cb589cc8576658f573e.html">
-						Korhonen, Daniel
+						<a href="../../../ppl/0/2/dd20ac6d3a16d45d4d0a9116920.html">
+						Häll, Amanda
 						 (between 1898 and 1900-03-28) 
 						
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/0/2/dd20ac6d3a16d45d4d0a9116920.html">
-						Häll, Amanda
+						<a href="../../../ppl/e/3/cb589cc8576658f573e.html">
+						Korhonen, Daniel
 						 (between 1898 and 1900-03-28) 
 						
 						</a>
@@ -2004,28 +2046,21 @@
 					<li>
 						<a href="../../../ppl/2/1/cb589ce907551c64412.html">
 						Lillqvist, Karl Verner
-						 (1898-02-27) 
+						 (1898-02-27 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/6/7/cb589cc85f624f18676.html">
 						Korhonen, Eva Sofia
-						 (after 1898-03-24) 
+						 (after 1898-03-24 Residence) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/7/a/cb589ce2fcb216dd1a7.html">
 						Holmström, Karin Charlotta
-						 (1898-03-25) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/e/3/cb589cc8576658f573e.html">
-						Korhonen, Daniel
-						 (1898-04-03) 
+						 (1898-03-25 Birth) 
 						
 						</a>
 					</li>
@@ -2044,37 +2079,44 @@
 						</a>
 					</li>
 					<li>
+						<a href="../../../ppl/e/3/cb589cc8576658f573e.html">
+						Korhonen, Daniel
+						 (1898-04-03) 
+						
+						</a>
+					</li>
+					<li>
 						<a href="../../../ppl/f/6/cb589cd18ff4c60db6f.html">
 						Broström, Maria Sofia
-						 (1898-09-13) 
+						 (1898-09-13 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/3/1/dd20acc13535975b09ce26b5113.html">
 						Korhonen, Levi Daniel Nikolai
-						 (1898-09-23) 
+						 (1898-09-23 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/5/2/cb589cdf64430166525.html">
 						, Hilda Sofia Johansdotter
-						 (1898-11-21) 
+						 (1898-11-21 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/3/a/cb589ce1c582355f9a3.html">
 						Holmström, Gerda
-						 (1899-01-15) 
+						 (1899-01-15 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/5/d/cb589cdd08b6e649ed5.html">
 						Holmström, Elsa Aleksandra
-						 (1899-01-19) 
+						 (1899-01-19 Birth) 
 						
 						</a>
 					</li>
@@ -2123,20 +2165,20 @@
 					<li>
 						<a href="../../../ppl/5/6/cb589cdd18430896d65.html">
 						Granholm, Berner Edvin
-						 (1899-08-17) 
+						 (1899-08-17 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/3/c/cb589cdd3f54f8352c3.html">
 						Holmström, Edit Mathilda
-						 (1899-09-24) 
+						 (1899-09-24 Death) 
 						
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/8/8/cb589cc80270f9c6988.html">
-						Nordberg, Emil Ferdinand
+						<a href="../../../fam/7/2/cb589cc7f9c792dc427.html">
+						Family of Nordberg, Emil Ferdinand and Korhonen, Hilda Maria
 						 (1899-10-08) 
 						
 						</a>
@@ -2149,8 +2191,8 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../fam/7/2/cb589cc7f9c792dc427.html">
-						Family of Nordberg, Emil Ferdinand and Korhonen, Hilda Maria
+						<a href="../../../ppl/8/8/cb589cc80270f9c6988.html">
+						Nordberg, Emil Ferdinand
 						 (1899-10-08) 
 						
 						</a>
@@ -2158,125 +2200,118 @@
 					<li>
 						<a href="../../../ppl/4/3/cb589cf642110a34434.html">
 						Blomqvist, Karl Hugo
-						 (1899-12-08) 
+						 (1899-12-08 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/b/b/cb589cf60005ab4f1bb.html">
 						Blom, Karl Vilhelm
-						 (1900-01-30) 
+						 (1900-01-30 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/1/6/cb589cdca300e3cb161.html">
 						Holmström, Edit Sofia
-						 (1900-04-11) 
+						 (1900-04-11 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/6/c/cb589cee2bd59680ec6.html">
 						Förström, Karl Bruno
-						 (1900-08-07) 
+						 (1900-08-07 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/0/e/cb589cc80776138fae0.html">
 						Nordberg, Tyyni Elisabeth
-						 (1901-01-26) 
+						 (1901-01-26 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/4/9/cf8f23268c000d60194.html">
 						Jokinen, Karl Evert
-						 (1901-02-06) 
+						 (1901-02-06 Residence) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/4/a/cb589ccc3142d9ef4a4.html">
 						Jokinen, Otto Ferdinand
-						 (1901-02-06) 
+						 (1901-02-06 Residence) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/a/3/cb589cf60634c6fe53a.html">
 						Blom, Hemming Alexander
-						 (1901-05-15) 
+						 (1901-05-15 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/e/6/cb589ce1cb362a3db6e.html">
 						Holmström, Sigrid
-						 (1901-06-19) 
+						 (1901-06-19 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/c/8/cb589ce30162207578c.html">
 						Holmström, Albert Gotthard
-						 (1901-08-20) 
+						 (1901-08-20 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/c/e/cb589cf481958572eec.html">
 						Sandblom, Ernst Ludvig
-						 (1901-09-04) 
+						 (1901-09-04 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/2/3/cb589cc861266c77e32.html">
 						Korhonen, Wilhelm
-						 (after 1901-09-17) 
+						 (after 1901-09-17 Residence) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/5/f/cb589cdd0bd7d2394f5.html">
 						Holmström, John Aleksander
-						 (1901-12-18) 
+						 (1901-12-18 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/a/e/cb589cf663b22fd18ea.html">
 						Lindfors, Tor Herman
-						 (1902-04-01) 
+						 (1902-04-01 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/9/a/cea5cca2afb352181a9.html">
 						Nyström, Viktor Wilhelm
-						 (after 1902-12-24) 
+						 (after 1902-12-24 Residence) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/8/e/df7dfd45b8076c9086b940569e8.html">
 						Lind, Albert Wilhelm
-						 (after 1903) 
+						 (after 1903 Residence) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../fam/1/8/df540cbecf640ddc9444550ea81.html">
 						Family of Skott, Johan Karlsson and Ahlberg, Amanda Aurora
-						 (estimated 1903-07-25) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/4/8/cb589ccc1ba34111084.html">
-						Ahlberg, Amanda Aurora
 						 (estimated 1903-07-25) 
 						
 						</a>
@@ -2289,107 +2324,107 @@
 						</a>
 					</li>
 					<li>
+						<a href="../../../ppl/4/8/cb589ccc1ba34111084.html">
+						Ahlberg, Amanda Aurora
+						 (estimated 1903-07-25) 
+						
+						</a>
+					</li>
+					<li>
 						<a href="../../../ppl/e/8/cb589cf3b7f39ca368e.html">
 						Sjösten, Arne Rudolf
-						 (1903-08-16) 
+						 (1903-08-16 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/2/0/cb589cc809a5eba8702.html">
 						Nordberg, Maria Elvira Viola
-						 (1903-12-07) 
+						 (1903-12-07 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/7/a/cb589ce1ced1f7fa8a7.html">
 						Holmström, Doris
-						 (1903-12-24) 
+						 (1903-12-24 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/d/3/cb589cf60c95a7cf93d.html">
 						Blom, Lydia Sofia
-						 (1904-08-01) 
+						 (1904-08-01 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/f/4/cb589cd4d6e61804b4f.html">
 						Wikström, Erik Mauritz
-						 (1905-05-22) 
+						 (1905-05-22 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/a/4/cb589cc7f8356f9dc4a.html">
 						Nordberg, Alice Siviä Elina
-						 (1906-01-13) 
+						 (1906-01-13 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/2/3/cb589cc861266c77e32.html">
 						Korhonen, Wilhelm
-						 (before 1906-01-17) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/a/4/cb589cc7f8356f9dc4a.html">
-						Nordberg, Alice Siviä Elina
-						 (1906-02-21) 
+						 (before 1906-01-17 Residence) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/b/1/cb589cc847f6455821b.html">
 						Nordberg, Elin Maria
-						 (1906-02-21) 
+						 (1906-02-21 Baptism) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/a/4/cb589cc7f8356f9dc4a.html">
+						Nordberg, Alice Siviä Elina
+						 (1906-02-21 Baptism) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/2/3/cb589cc861266c77e32.html">
 						Korhonen, Wilhelm
-						 (1906-02-21) 
+						 (1906-02-21 Baptism) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/d/5/cb589cf6131329ad25d.html">
 						Blom, Erik Valdemar
-						 (1907-05-18) 
+						 (1907-05-18 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../fam/4/2/cb589cc844867fcce24.html">
 						Family of Stordell, Karl Fredrik and Nordberg, Maria Charlotta Wilhelmina
-						 (1907-06-00) 
+						 (1907-06) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/0/7/cf99bf30a9136795670.html">
 						Stordell, Karl Fredrik
-						 (1907-06-00) 
+						 (1907-06) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/4/0/cb589cc84347c619504.html">
 						Nordberg, Maria Charlotta Wilhelmina
-						 (1907-06-00) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/4/0/cb589cc84347c619504.html">
-						Nordberg, Maria Charlotta Wilhelmina
-						 (1907-06-02) 
+						 (1907-06) 
 						
 						</a>
 					</li>
@@ -2403,6 +2438,13 @@
 					<li>
 						<a href="../../../ppl/0/7/cf99bf30a9136795670.html">
 						Stordell, Karl Fredrik
+						 (1907-06-02) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/4/0/cb589cc84347c619504.html">
+						Nordberg, Maria Charlotta Wilhelmina
 						 (1907-06-02) 
 						
 						</a>
@@ -2410,70 +2452,56 @@
 					<li>
 						<a href="../../../ppl/7/7/cb589cdcbb774a90477.html">
 						Holmström, Meri Viktoria
-						 (1908-01-16) 
+						 (1908-01-16 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/3/3/cb589cdf1991e44e633.html">
 						Lindfors, Gustaf Adolf Gustafsson
-						 (1908-03-26) 
+						 (1908-03-26 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/9/7/cb589cdcb095d743679.html">
 						Holmström, Svea Linnea
-						 (1908-05-10) 
+						 (1908-05-10 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/8/2/cb589cc80b85ba4f528.html">
 						Nordberg, Paul Wilhelm Waldemar
-						 (1908-08-30) 
+						 (1908-08-30 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/6/d/cb589cf645f476102d6.html">
 						Blomqvist, Aili Adéle
-						 (1908-09-11) 
+						 (1908-09-11 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/9/a/cea5cca2afb352181a9.html">
 						Nyström, Viktor Wilhelm
-						 (between 1909 and 1938) 
+						 (between 1909 and 1938 Occupation) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/e/3/cb589cdacdc41e5f33e.html">
 						Holmström, Magnus Leander
-						 (1909-07-30) 
+						 (1909-07-30 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/4/c/cb589cf61a15af9d9c4.html">
 						Blom, Wivi Linnea
-						 (1910-02-19) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/9/a/cea5cca2afb352181a9.html">
-						Nyström, Viktor Wilhelm
-						 (about 1910-06-04) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/b/1/cb589cc847f6455821b.html">
-						Nordberg, Elin Maria
-						 (about 1910-06-04) 
+						 (1910-02-19 Birth) 
 						
 						</a>
 					</li>
@@ -2485,65 +2513,72 @@
 						</a>
 					</li>
 					<li>
+						<a href="../../../ppl/b/1/cb589cc847f6455821b.html">
+						Nordberg, Elin Maria
+						 (about 1910-06-04) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/9/a/cea5cca2afb352181a9.html">
+						Nyström, Viktor Wilhelm
+						 (about 1910-06-04) 
+						
+						</a>
+					</li>
+					<li>
 						<a href="../../../ppl/9/b/cb589cc80d910acb4b9.html">
 						Nordberg, Edit Maria Adele
-						 (1910-08-15) 
+						 (1910-08-15 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/a/3/cb589cf60634c6fe53a.html">
 						Blom, Hemming Alexander
-						 (1910-09-16) 
+						 (1910-09-16 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/b/0/cb589cdcd473359d90b.html">
 						Holmström, Artur Armas
-						 (1910-11-05) 
+						 (1910-11-05 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/f/e/cb589cc945367eb70ef.html">
 						Nyström, Ragnar Viktor
-						 (1911) 
+						 (1911 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/8/a/cb589cd1ea72c297ca8.html">
 						Holmström, Lambert
-						 (1911-05-11) 
+						 (1911-05-11 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/8/0/e8247c386c229de09d431edfd08.html">
 						Nyström, Helge Birger
-						 (1912-08-16) 
+						 (1912-08-16 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/8/0/e8247c386c229de09d431edfd08.html">
 						Nyström, Helge Birger
-						 (1914-08-22) 
+						 (1914-08-22 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/a/e/cb589cd68f230f5e1ea.html">
 						Holmström, Alina Vilhelmina
-						 (1916-07-14) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/e/f/e820c826bcf4a4710d089130cfe.html">
-						Malmelin, Martin William
-						 (1917-09-23) 
+						 (1916-07-14 Death) 
 						
 						</a>
 					</li>
@@ -2562,44 +2597,58 @@
 						</a>
 					</li>
 					<li>
+						<a href="../../../ppl/e/f/e820c826bcf4a4710d089130cfe.html">
+						Malmelin, Martin William
+						 (1917-09-23) 
+						
+						</a>
+					</li>
+					<li>
 						<a href="../../../ppl/f/c/cb589cdc77d5ae436cf.html">
 						Sandin, Otto Reinhold
-						 (1918-03-26) 
+						 (1918-03-26 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/e/9/cb589ce34d37c5ce89e.html">
 						Bergman, Gustaf Albert Richard
-						 (1918-07-17) 
+						 (1918-07-17 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/2/1/cb589ce907551c64412.html">
 						Lillqvist, Karl Verner
-						 (1923-02-25) 
+						 (1923-02-25 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/4/0/cb589cc84347c619504.html">
 						Nordberg, Maria Charlotta Wilhelmina
-						 (1925-11-16) 
+						 (1925-11-16 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/0/7/cf99bf30a9136795670.html">
 						Stordell, Karl Fredrik
-						 (1929-03-04) 
+						 (1929-03-04 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/3/6/cb589cdf2c575168263.html">
 						Kullström, Johan Emil
-						 (1933-09-18) 
+						 (1933-09-18 Death) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../fam/2/b/cb589cc947140ff72b2.html">
+						Family of Nyström, Ragnar Viktor and Nyström, Elsa Maria
+						 (before 1937-07-23) 
 						
 						</a>
 					</li>
@@ -2618,9 +2667,9 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../fam/2/b/cb589cc947140ff72b2.html">
-						Family of Nyström, Ragnar Viktor and Nyström, Elsa Maria
-						 (before 1937-07-23) 
+						<a href="../../../ppl/f/e/cb589cc945367eb70ef.html">
+						Nyström, Ragnar Viktor
+						 (between 1937-07-23 and 1937-08-19) 
 						
 						</a>
 					</li>
@@ -2634,13 +2683,6 @@
 					<li>
 						<a href="../../../ppl/9/4/cea5c58f2224fbd6a49.html">
 						Nyström, Elsa Maria
-						 (between 1937-07-23 and 1937-08-19) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/f/e/cb589cc945367eb70ef.html">
-						Nyström, Ragnar Viktor
 						 (between 1937-07-23 and 1937-08-19) 
 						
 						</a>
@@ -2648,350 +2690,350 @@
 					<li>
 						<a href="../../../ppl/3/c/cb589cf118207ddc4c3.html">
 						Söderlund, Eva Lovisa
-						 (1938-02-20) 
+						 (1938-02-20 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/f/e/cb589cda09d077de2ef.html">
 						Wikström, Johan August
-						 (1938-05-15) 
+						 (1938-05-15 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/1/f/cb589ce8bcd56ec4cf1.html">
 						Lindfors, Alma Lovisa
-						 (1940-04-01) 
+						 (1940-04-01 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/f/5/cb589cdf5e30746d45f.html">
 						, Johan Herman Johansson
-						 (1945-09-02) 
+						 (1945-09-02 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/1/a/cb589ce6c4f4815a5a1.html">
 						Sandblom, Otto Emil
-						 (1945-11-10) 
+						 (1945-11-10 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/c/c/cb589cdc8850e22b0cc.html">
 						Sandblom, Otto Reinhold
-						 (1945-11-10) 
+						 (1945-11-10 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/e/f/cb589ce2ee431e1e1fe.html">
 						Holmström, Adolf Waldemar
-						 (1948-01-20) 
+						 (1948-01-20 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/7/4/cb589cdf595615c9947.html">
 						, Engla Maria Johansdotter
-						 (1951-06-01) 
+						 (1951-06-01 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/d/5/cb589cf6131329ad25d.html">
 						Blom, Erik Valdemar
-						 (1951-08-27) 
+						 (1951-08-27 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/b/4/cb589cdc9184c0f654b.html">
 						Holmström, Johan Alfred
-						 (1952-03-14) 
+						 (1952-03-14 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/1/f/cb589cd9c991f9ed3f1.html">
 						Wikström, Lydia Charlotta
-						 (1952-10-07) 
+						 (1952-10-07 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/4/3/cb589ce2dfa20237334.html">
 						Holmström, Edvard Wilhelm
-						 (1956-12-07) 
+						 (1956-12-07 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/6/4/cb589ce1bcb7aeb1046.html">
 						Holmström, Arvid
-						 (1957-04-04) 
+						 (1957-04-04 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/7/5/cb589ce6a3c29937f57.html">
 						Sandin, Karl Arthur
-						 (1957-07-29) 
+						 (1957-07-29 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/8/2/cb589cf131477bd5428.html">
 						Björkman, Charlotta Gustafa
-						 (1957-11-28) 
+						 (1957-11-28 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/b/1/cb589ce8b794c9ad21b.html">
 						Lindfors, Hilda Sofia
-						 (1959-06-12) 
+						 (1959-06-12 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/e/e/cb589cdda757a4e6dee.html">
 						Sandblom, Selma Sofia
-						 (1959-08-26) 
+						 (1959-08-26 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/e/0/cb589ce8c7a49a1e70e.html">
 						Lindfors, Herman Julius
-						 (1960-05-23) 
+						 (1960-05-23 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/6/7/cb589ce8b216654ad76.html">
 						Lindfors, Gustaf Adolf
-						 (1963-12-20) 
+						 (1963-12-20 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/d/c/cb589ce69e84e434bcd.html">
 						Sandin, Johan Edvard
-						 (1964-02-13) 
+						 (1964-02-13 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/8/2/cb589cc80b85ba4f528.html">
 						Nordberg, Paul Wilhelm Waldemar
-						 (1964-06-02) 
+						 (1964-06-02 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/d/c/cb589cf5f9c741fa4cd.html">
 						Blom, Anna Ottilia
-						 (1965-11-04) 
+						 (1965-11-04 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/1/e/cb589ce8eec5432fce1.html">
 						Lillqvist, Ernst Nikolai
-						 (1966-02-05) 
+						 (1966-02-05 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/3/5/cb589ce2e4e7943b053.html">
 						Holmström, Magnus Alfred
-						 (1966-02-24) 
+						 (1966-02-24 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/9/1/cb589ce2e9776cc2d19.html">
 						Holmström, Olga Emelia
-						 (1970-01-13) 
+						 (1970-01-13 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/b/b/cb589cf60005ab4f1bb.html">
 						Blom, Karl Vilhelm
-						 (1970-08-02) 
+						 (1970-08-02 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/6/d/cb589ce1aad6e0a17d6.html">
 						Holmström, Hugo Herenius
-						 (1972-05-07) 
+						 (1972-05-07 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/2/7/cb589ce1b750e4f9d72.html">
 						Holmström, Julius
-						 (1972-05-12) 
+						 (1972-05-12 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/c/8/cb589ce30162207578c.html">
 						Holmström, Albert Gotthard
-						 (1972-08-11) 
+						 (1972-08-11 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/9/2/cb589ce330e414bcc29.html">
 						Holmström, Emilia Josefina
-						 (1975-03-01) 
+						 (1975-03-01 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/3/e/cb589cf5f38355e3ce3.html">
 						Blom, Gustaf Adolf
-						 (1975-04-09) 
+						 (1975-04-09 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/e/7/cb589cda8806788437e.html">
 						Forsström, Gustaf Valfrid
-						 (1976) 
+						 (1976 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/a/4/cb589cc7f8356f9dc4a.html">
 						Nordberg, Alice Siviä Elina
-						 (1977-05-09) 
+						 (1977-05-09 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/a/4/cb589cc7f8356f9dc4a.html">
 						Nordberg, Alice Siviä Elina
-						 (1977-07-30) 
+						 (1977-07-30 Estate Inventory) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/f/9/cb589ce8c222b93329f.html">
 						Lindfors, Otto Valdemar
-						 (1977-10-05) 
+						 (1977-10-05 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/0/9/cb589cf639d27144290.html">
 						Blomqvist, Edit Maria
-						 (1978-07-07) 
+						 (1978-07-07 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/c/e/cb589cf481958572eec.html">
 						Sandblom, Ernst Ludvig
-						 (1978-11-19) 
+						 (1978-11-19 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/2/0/cb589cc809a5eba8702.html">
 						Nordberg, Maria Elvira Viola
-						 (1979-07-20) 
+						 (1979-07-20 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/2/0/cb589cc809a5eba8702.html">
 						Nordberg, Maria Elvira Viola
-						 (1979-10-04) 
+						 (1979-10-04 Estate Inventory) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/9/b/cb589cc80d910acb4b9.html">
 						Nordberg, Edit Maria Adele
-						 (1980-09-13) 
+						 (1980-09-13 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/9/b/cb589cc80d910acb4b9.html">
 						Nordberg, Edit Maria Adele
-						 (1980-12-20) 
+						 (1980-12-20 Estate Inventory) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/5/6/cb589ce2f385fc44865.html">
 						Holmström, Ester Sigrid
-						 (1982-08-06) 
+						 (1982-08-06 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/4/a/cb589ce2f8009db34a4.html">
 						Holmström, Axel Hugo
-						 (1984-04-15) 
+						 (1984-04-15 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/7/a/cb589ce2fcb216dd1a7.html">
 						Holmström, Karin Charlotta
-						 (1985-05-16) 
+						 (1985-05-16 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/e/8/cb589cf3b7f39ca368e.html">
 						Sjösten, Arne Rudolf
-						 (1987-05-12) 
+						 (1987-05-12 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/4/c/cb589cf61a15af9d9c4.html">
 						Blom, Wivi Linnea
-						 (1987-09-28) 
+						 (1987-09-28 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/c/d/cb589ce13461aa427dc.html">
 						Rehnberg, Hilma Irene
-						 (1988-08-01) 
+						 (1988-08-01 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/6/d/cb589cf645f476102d6.html">
 						Blomqvist, Aili Adéle
-						 (1995-11-27) 
+						 (1995-11-27 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/b/8/cb589cdccdb2006ef8b.html">
 						Wikström, Ragnar Erik
-						 (1998-06-16) 
+						 (1998-06-16 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/d/3/cb589cf60c95a7cf93d.html">
 						Blom, Lydia Sofia
-						 (1999-11-19) 
+						 (1999-11-19 Death) 
 						
 						</a>
 					</li>
@@ -3001,7 +3043,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2024-01-03 23:07:53<br />Created for Entire Database
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2<br />Last change was the 2024-01-03 23:07:53<br />Created for Entire Database
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

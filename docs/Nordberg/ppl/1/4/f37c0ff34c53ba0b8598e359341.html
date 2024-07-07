@@ -1,27 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>Nordberg Family Tree - Winqvist, Hulda Maria</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
-	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">Nordberg Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">Nordberg Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li class = "CurrentSection"><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
 					<li><a href="../../../families.html" title="Families">Families</a></li>
@@ -29,13 +39,43 @@
 					<li><a href="../../../places.html" title="Places">Places</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="IndividualDetail">
 			<h3>Winqvist, Hulda Maria<sup><small></small></sup></h3>
 			<div id="summaryarea">
@@ -58,7 +98,7 @@
 			</div>
 			<div class="subsection" id="events">
 				<h4>Events</h4>
-				<table class="infolist eventlist">
+				<table class="infolist eventlist toggle_event ltr" id="toggle_event" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnEvent">Event</th>
@@ -70,25 +110,22 @@
 					</thead>
 					<tbody>
 						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/b/8/f37c10d718b2857b8d31a63918b.html" title="Birth">
-								Birth
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/7/5/f381d1a29b15323063185be8257.html" title="Residence">
+								Residence
 								</a>
 							</td>
-							<td class="ColumnDate">1870-08-31</td>
+							<td class="ColumnDate">from 1886 to 1889-10-12</td>
 							<td class="ColumnPlace">
-								<a href="../../../plc/c/0/cb589cc90f055fc9f0c.html" title="Borgå, Suomi">
-								Borgå, Suomi
+								<a href="../../../plc/7/9/f381e0a346a7f8067a20ba0f397.html" title="Kukkolanpelto, Pihlajanniemi, Sääminki, Suomi">
+								Kukkolanpelto, Pihlajanniemi, Sääminki, Suomi
 								</a>
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref1a">1a</a> <a href="#sref2a">2a</a> <a href="#sref3a">3a</a>
+							 <a href="#sref1a">1a</a> <a href="#sref2a">2a</a> <a href="#sref3a">3a</a> <a href="#sref4a">4a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -96,7 +133,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/1/e/f381d8c92a2334182279d4751e1.html" title="Residence">
 								Residence
 								</a>
@@ -112,9 +149,6 @@
 							 <a href="#sref3a">3a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -122,25 +156,22 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/7/5/f381d1a29b15323063185be8257.html" title="Residence">
-								Residence
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/b/8/f37c10d718b2857b8d31a63918b.html" title="Birth">
+								Birth
 								</a>
 							</td>
-							<td class="ColumnDate">from 1886 to 1889-10-12</td>
+							<td class="ColumnDate">1870-08-31</td>
 							<td class="ColumnPlace">
-								<a href="../../../plc/7/9/f381e0a346a7f8067a20ba0f397.html" title="Kukkolanpelto, Pihlajanniemi, Sääminki, Suomi">
-								Kukkolanpelto, Pihlajanniemi, Sääminki, Suomi
+								<a href="../../../plc/c/0/cb589cc90f055fc9f0c.html" title="Borgå, Suomi">
+								Borgå, Suomi
 								</a>
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref2a">2a</a> <a href="#sref4a">4a</a> <a href="#sref3a">3a</a> <a href="#sref5a">5a</a>
+							 <a href="#sref5a">5a</a> <a href="#sref1a">1a</a> <a href="#sref3a">3a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -148,33 +179,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/2/9/f381cef258861ed8fc0f5fe0392.html" title="Residence">
-								Residence
-								</a>
-							</td>
-							<td class="ColumnDate">from 1889-11-08 to 1890</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/8/3/db74eb30e1c5fa38ad20956a338.html" title="Stad, Borgå, Suomi">
-								Stad, Borgå, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref2a">2a</a> <a href="#sref4a">4a</a> <a href="#sref3a">3a</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/6/4/f37c11a79884fbcaa1f153de246.html" title="Residence">
 								Residence
 								</a>
@@ -187,12 +192,9 @@
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref1a">1a</a>
+							 <a href="#sref5a">5a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -200,7 +202,30 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/2/9/f381cef258861ed8fc0f5fe0392.html" title="Residence">
+								Residence
+								</a>
+							</td>
+							<td class="ColumnDate">from 1889-11-08 to 1890</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/8/3/db74eb30e1c5fa38ad20956a338.html" title="Stad, Borgå, Suomi">
+								Stad, Borgå, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref1a">1a</a> <a href="#sref2a">2a</a> <a href="#sref3a">3a</a>
+							</td>
+							<tr>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/4/b/f37c13634f158c23c01347c7cb4.html" title="Residence">
 								Residence
 								</a>
@@ -213,12 +238,9 @@
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref1b">1b</a>
+							 <a href="#sref5b">5b</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -226,29 +248,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/3/9/f37e971407c40d03dc7eb225d93.html" title="Death">
-								Death
-								</a>
-							</td>
-							<td class="ColumnDate">1946</td>
-							<td class="ColumnPlace">&nbsp;</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref6a">6a</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/2/5/f37e9854a5e32b84a9549b70052.html" title="Burial">
 								Burial
 								</a>
@@ -264,9 +264,25 @@
 							 <a href="#sref6a">6a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
 								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/3/9/f37e971407c40d03dc7eb225d93.html" title="Death">
+								Death
+								</a>
+							</td>
+							<td class="ColumnDate">1946</td>
+							<td class="ColumnPlace">&nbsp;</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref6a">6a</a>
+							</td>
+							<tr>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -278,7 +294,7 @@
 			</div>
 			<div class="subsection" id="parents">
 				<h4>Parents</h4>
-				<table class="infolist">
+				<table class="infolist toggle_parent ltr" id="toggle_parent" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnAttribute">Relation to main person</th>
@@ -411,7 +427,7 @@
 			</div>
 			<div class="subsection" id="families">
 				<h4>Families</h4>
-				<table class="infolist">
+				<table class="infolist" id="toggle_families" style="display:block">
 					<tr class="BeginFamily">
 						<td class="ColumnValue" colspan="3"><H4 class="subsection"><a href="../../../fam/a/f/cb589cdf4f00fd787fa.html" title="Family of Nordberg, Anders Herman Andersson and Winqvist, Hulda Maria">Family of Nordberg, Anders Herman Andersson and Winqvist, Hulda Maria</a></H4></td>
 					</tr>
@@ -429,9 +445,8 @@
 					</tr>
 					<tr>
 						<td class="ColumnType">&nbsp;</td>
-						<td class="ColumnAttribute">&nbsp;</td>
-						<td class="ColumnValue">
-							<table class="infolist eventlist">
+						<td class="ColumnValue" colspan="2">
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnEvent">Event</th>
@@ -443,7 +458,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/0/c/cb589d00e801c5767c0.html" title="Marriage">
 											Marriage
 											</a>
@@ -456,12 +471,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref1c">1c</a>
+										 <a href="#sref5c">5c</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -469,7 +481,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/b/4/f37c154ffd472950da391a13b4b.html" title="Residence">
 											Residence
 											</a>
@@ -482,12 +494,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref1c">1c</a> <a href="#sref7a">7a</a>
+										 <a href="#sref5c">5c</a> <a href="#sref7a">7a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -495,7 +504,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/0/5/f37c19bc7cc43c6131fd963e350.html" title="Residence">
 											Residence
 											</a>
@@ -508,12 +517,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref1d">1d</a> <a href="#sref7b">7b</a>
+										 <a href="#sref5d">5d</a> <a href="#sref7b">7b</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -521,7 +527,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/9/7/f37c295e6e027b0a8feb0659679.html" title="Residence">
 											Residence
 											</a>
@@ -537,9 +543,6 @@
 										 <a href="#sref8a">8a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -547,7 +550,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/1/c/f37c2797d665a54d75883f3cdc1.html" title="Residence">
 											Residence
 											</a>
@@ -563,9 +566,6 @@
 										 <a href="#sref8b">8b</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -573,7 +573,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/3/0/f37f324aa996affc74e0ad3b203.html" title="Immigration">
 											Immigration
 											</a>
@@ -589,9 +589,6 @@
 										 <a href="#sref9a">9a</a> <a href="#sref9b">9b</a> <a href="#sref9c">9c</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -599,7 +596,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/5/e/f37f35a44f2475e9b6dfe7218e5.html" title="Departure">
 											Departure
 											</a>
@@ -615,9 +612,6 @@
 										 <a href="#sref9b">9b</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -625,7 +619,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/4/2/f37f3494d5d2267c06d43a8cf24.html" title="Arrival">
 											Arrival
 											</a>
@@ -641,9 +635,6 @@
 										 <a href="#sref9a">9a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -651,7 +642,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/4/5/f37f37807b51c03be35f5adaf54.html" title="Residence">
 											Residence
 											</a>
@@ -667,9 +658,6 @@
 										 <a href="#sref9b">9b</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -680,10 +668,9 @@
 							</table>
 						</td>
 						<tr>
-							<td class="ColumnType">&nbsp;</td>
 							<td class="ColumnAttribute">Children</td>
-							<td class="ColumnValue" />
-							<table class="infolist eventlist">
+							<td class="ColumnValue Child" colspan="2" />
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnName">Name</th>
@@ -705,7 +692,7 @@
 			</div>
 			<div class="subsection" id="pedigree">
 				<h4>Pedigree</h4>
-				<ol class="pedigreegen">
+				<ol class="pedigreegen" id="toggle_pedigree" style="display:block">
 					<li>
 						<a href="../../../ppl/7/4/f381fc7a5ee277730587e64c347.html">Winqvist, Karl Gustaf Gustafsson</a>
 						<ol>
@@ -775,105 +762,48 @@
 			</div>
 			<div class="subsection" id="tree">
 				<h4>Ancestors</h4>
-				<div id="treeContainer" style="width:614px; height:300px; top: 0px">
-					<div class="boxbg female AncCol0" style="top: 80px; left: 6px;">
-						<a class="noThumb" href="../../../ppl/1/4/f37c0ff34c53ba0b8598e359341.html">
-						Winqvist, Hulda Maria<br/>*1870-08-31<br/>+1946
-						</a>
+				<div class="tree" id="toggle_anc" style="display:block">
+					<div id="treeContainer" style="width:614px; height:300px; top: 0px">
+						<div class="boxbg female AncCol0" style="top: 80px; left: 6px;">
+							<a class="noThumb" href="../../../ppl/1/4/f37c0ff34c53ba0b8598e359341.html">
+							Winqvist, Hulda Maria<br>*1870-08-31<br>+1946
+							</a>
+						</div>
+						<div class="shadow" style="top: 85px; left: 10px;"></div>
+						<div class="bvline" style="top: 100px; left: 285px; width: 15px"></div>
+						<div class="gvline" style="top: 105px; left: 285px; width: 20px"></div>
+						<div class="boxbg male AncCol1" style="top: 5px; left: 316px;">
+							<a class="noThumb" href="../../../ppl/7/4/f381fc7a5ee277730587e64c347.html">
+							Winqvist, Karl Gustaf Gustafsson<br>*1823-10-09<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 10px; left: 320px;"></div>
+						<div class="bvline" style="top: 25px; left: 300px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 25px; left: 300px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol1" style="top: 155px; left: 316px;">
+							<a class="noThumb" href="../../../ppl/b/3/f381fea59d04253813667eadd3b.html">
+							, Emma Sofia Andersdotter<br>*1839-10-28<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 160px; left: 320px;"></div>
+						<div class="bvline" style="top: 175px; left: 300px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 100px; left: 300px; height: 76px;"></div>
+					
 					</div>
-					<div class="shadow" style="top: 85px; left: 10px;"></div>
-					<div class="bvline" style="top: 100px; left: 285px; width: 15px"></div>
-					<div class="gvline" style="top: 105px; left: 285px; width: 20px"></div>
-					<div class="boxbg male AncCol1" style="top: 5px; left: 316px;">
-						<a class="noThumb" href="../../../ppl/7/4/f381fc7a5ee277730587e64c347.html">
-						Winqvist, Karl Gustaf Gustafsson<br/>*1823-10-09<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 10px; left: 320px;"></div>
-					<div class="bvline" style="top: 25px; left: 300px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 25px; left: 300px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol1" style="top: 155px; left: 316px;">
-						<a class="noThumb" href="../../../ppl/b/3/f381fea59d04253813667eadd3b.html">
-						, Emma Sofia Andersdotter<br/>*1839-10-28<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 160px; left: 320px;"></div>
-					<div class="bvline" style="top: 175px; left: 300px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 100px; left: 300px; height: 76px;"></div>
-				
 				</div>
 			</div>
 			<div class="subsection" id="sourcerefs">
 				<h4>Source References</h4>
-				<ol>
+				<ol id="srcr">
 					<li>
-						<a href="../../../src/6/5/f35ee4a782b1b14429fdeb1f256.html" title="Porvoon maaseurakunta: Porvoo msrk Rippikirja 1890-1899" name ="sref1">
-						Porvoon maaseurakunta: Porvoo msrk Rippikirja 1890-1899
-						</a>
-						<ol>
-							<li id="sref1a">
-								<ul>
-									<li>
-									Page: Aa:29/568
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Porvoo maaseurakunta rippikirja 1890-1899 (AP_LÄNSI I Aa:29)  Sivu 568 Söderweckoski ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=576 / Viitattu 08.01.2023</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=576">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=576</a></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref1b">
-								<ul>
-									<li>
-									Page: Aa:29/579
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Porvoo maaseurakunta rippikirja 1890-1899 (AP_LÄNSI I Aa:29)  Sivu 579 Söderweckoski ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=587 / Viitattu 08.01.2023</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=587">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=587</a></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref1c">
-								<ul>
-									<li>
-									Page: Aa:29/407
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Porvoo maaseurakunta rippikirja 1890-1899 (AP_LÄNSI I Aa:29)  Sivu 407 Norrweckoski Jonnas ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=415 / Viitattu 08.01.2023</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=415">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=415</a></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref1d">
-								<ul>
-									<li>
-									Page: Aa:30/1318
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Porvoo maaseurakunta rippikirja 1890-1899 (AP_ITÄ I Aa:30)  Sivu 1318 Prestgårdsbacken ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38665&amp;pnum=649 / Viitattu 08.01.2023</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38665&amp;pnum=649">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38665&amp;pnum=649</a></p></div>
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
-						<a href="../../../src/7/7/f381ce8d4b342aa543663235977.html" title="Porvoo kaupunkiseurakunta: Porvoo kaup Rippikirja 1890-1899" name ="sref2">
+						<a href="../../../src/7/7/f381ce8d4b342aa543663235977.html" title="Porvoo kaupunkiseurakunta: Porvoo kaup Rippikirja 1890-1899" name ="sref1">
 						Porvoo kaupunkiseurakunta: Porvoo kaup Rippikirja 1890-1899
 						</a>
-						<ol>
-							<li id="sref2a">
+						<ol id="citr">
+							<li id="sref1a">
 								<ul>
 									<li>
 									Page: Aa:69/560
@@ -889,10 +819,30 @@
 						</ol>
 					</li>
 					<li>
+						<a href="../../../src/0/f/f381d251a5418f560921e5df5f0.html" title="Porvoo kaupunkiseurakunta: Porvoo kaup Muuttaneet 1880-1900" name ="sref2">
+						Porvoo kaupunkiseurakunta: Porvoo kaup Muuttaneet 1880-1900
+						</a>
+						<ol id="citr">
+							<li id="sref2a">
+								<ul>
+									<li>
+									Page: Bb:10/114-115
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Porvoo kaupunkiseurakunta muuttaneet 1880-1900 (AP I Bb:10)  Sivu 114 1890 Sisäänmuuttaneet  1890 Ulosmuuttaneet ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38606&amp;pnum=60 / Viitattu 10.01.2023</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38606&amp;pnum=60">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38606&amp;pnum=60</a></p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
 						<a href="../../../src/a/4/f381d6ad804556ddb06c551b04a.html" title="Porvoon kaupunkiseurakunta: Porvoo kaup Muuttokirjoja 1887-1890" name ="sref3">
 						Porvoon kaupunkiseurakunta: Porvoo kaup Muuttokirjoja 1887-1890
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref3a">
 								<ul>
 									<li>
@@ -909,31 +859,11 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/0/f/f381d251a5418f560921e5df5f0.html" title="Porvoo kaupunkiseurakunta: Porvoo kaup Muuttaneet 1880-1900" name ="sref4">
-						Porvoo kaupunkiseurakunta: Porvoo kaup Muuttaneet 1880-1900
-						</a>
-						<ol>
-							<li id="sref4a">
-								<ul>
-									<li>
-									Page: Bb:10/114-115
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Porvoo kaupunkiseurakunta muuttaneet 1880-1900 (AP I Bb:10)  Sivu 114 1890 Sisäänmuuttaneet  1890 Ulosmuuttaneet ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38606&amp;pnum=60 / Viitattu 10.01.2023</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38606&amp;pnum=60">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38606&amp;pnum=60</a></p></div>
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
-						<a href="../../../src/b/7/f381da5445e25cc5b055fe98c7b.html" title="Säämingin seurakunta: Sääminki Muuttaneet 1880-1898" name ="sref5">
+						<a href="../../../src/b/7/f381da5445e25cc5b055fe98c7b.html" title="Säämingin seurakunta: Sääminki Muuttaneet 1880-1898" name ="sref4">
 						Säämingin seurakunta: Sääminki Muuttaneet 1880-1898
 						</a>
-						<ol>
-							<li id="sref5a">
+						<ol id="citr">
+							<li id="sref4a">
 								<ul>
 									<li>
 									Page: 46
@@ -949,10 +879,69 @@
 						</ol>
 					</li>
 					<li>
+						<a href="../../../src/6/5/f35ee4a782b1b14429fdeb1f256.html" title="Porvoon maaseurakunta: Porvoo msrk Rippikirja 1890-1899" name ="sref5">
+						Porvoon maaseurakunta: Porvoo msrk Rippikirja 1890-1899
+						</a>
+						<ol id="citr">
+							<li id="sref5a">
+								<ul>
+									<li>
+									Page: Aa:29/568
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Porvoo maaseurakunta rippikirja 1890-1899 (AP_LÄNSI I Aa:29)  Sivu 568 Söderweckoski ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=576 / Viitattu 08.01.2023</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=576">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=576</a></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref5b">
+								<ul>
+									<li>
+									Page: Aa:29/579
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Porvoo maaseurakunta rippikirja 1890-1899 (AP_LÄNSI I Aa:29)  Sivu 579 Söderweckoski ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=587 / Viitattu 08.01.2023</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=587">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=587</a></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref5c">
+								<ul>
+									<li>
+									Page: Aa:29/407
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Porvoo maaseurakunta rippikirja 1890-1899 (AP_LÄNSI I Aa:29)  Sivu 407 Norrweckoski Jonnas ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=415 / Viitattu 08.01.2023</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=415">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38664&amp;pnum=415</a></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref5d">
+								<ul>
+									<li>
+									Page: Aa:30/1318
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Porvoo maaseurakunta rippikirja 1890-1899 (AP_ITÄ I Aa:30)  Sivu 1318 Prestgårdsbacken ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38665&amp;pnum=649 / Viitattu 08.01.2023</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38665&amp;pnum=649">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38665&amp;pnum=649</a></p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
 						<a href="../../../src/2/8/f37e9ed7c102176819594eb9382.html" title="Hautakivi Nordberg Mount Wollaston" name ="sref6">
 						Hautakivi Nordberg Mount Wollaston
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref6a">
 								<ul>
 									<li>
@@ -969,7 +958,7 @@
 						<a href="../../../src/2/d/f35f34546097021d962d6b10cd2.html" title="Porvoon maaseurakunta: Porvoo msrk Lastenkirja 1890-1899" name ="sref7">
 						Porvoon maaseurakunta: Porvoo msrk Lastenkirja 1890-1899
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref7a">
 								<ul>
 									<li>
@@ -1002,7 +991,7 @@
 						<a href="../../../src/7/0/f16a42ae9774b0ba5a082769407.html" title="Porvoon maaseurakunta: Porvoo msrk Rippikirja 1900-1909" name ="sref8">
 						Porvoon maaseurakunta: Porvoo msrk Rippikirja 1900-1909
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref8a">
 								<ul>
 									<li>
@@ -1035,7 +1024,7 @@
 						<a href="../../../src/4/5/f37f316674d3d1e393014902e54.html" title="United States. District Court (Massachusetts): Massachusetts, Naturalization Records, 1906-1917" name ="sref9">
 						United States. District Court (Massachusetts): Massachusetts, Naturalization Records, 1906-1917
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref9a">
 								<ul>
 									<li>
@@ -1092,7 +1081,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2023-01-10 23:32:39<br />Created for Entire Database
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2<br />Last change was the 2023-01-10 23:32:39<br />Created for Entire Database
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

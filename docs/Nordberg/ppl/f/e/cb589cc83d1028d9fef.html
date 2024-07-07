@@ -1,27 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>Nordberg Family Tree - Nordberg, Ferdinand</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
-	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">Nordberg Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">Nordberg Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li class = "CurrentSection"><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
 					<li><a href="../../../families.html" title="Families">Families</a></li>
@@ -29,13 +39,43 @@
 					<li><a href="../../../places.html" title="Places">Places</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="IndividualDetail">
 			<h3>Nordberg, Ferdinand<sup><small></small></sup></h3>
 			<div id="summaryarea">
@@ -58,7 +98,7 @@
 			</div>
 			<div class="subsection" id="events">
 				<h4>Events</h4>
-				<table class="infolist eventlist">
+				<table class="infolist eventlist toggle_event ltr" id="toggle_event" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnEvent">Event</th>
@@ -70,7 +110,7 @@
 					</thead>
 					<tbody>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/d/c/cb589cc83d43625f0cd.html" title="Birth">
 								Birth
 								</a>
@@ -86,9 +126,6 @@
 							 <a href="#sref1a">1a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -96,7 +133,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/c/3/ce84f3571f429485f3c.html" title="Education">
 								Education
 								</a>
@@ -112,9 +149,6 @@
 							 <a href="#sref2a">2a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -122,7 +156,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/e/5/ce84f86974b66b1695e.html" title="Education">
 								Education
 								</a>
@@ -138,9 +172,6 @@
 							 <a href="#sref2b">2b</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -148,33 +179,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/2/f/ce855355fb605fe82f2.html" title="Confirmation">
-								Confirmation
-								</a>
-							</td>
-							<td class="ColumnDate">1863-06-24</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/e/2/cb589cc912732a4072e.html" title="Tusby, Suomi">
-								Tusby, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref3a">3a</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/0/0/ec867c86ed129363c8187502300.html" title="Residence">
 								Residence
 								</a>
@@ -187,12 +192,9 @@
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref4a">4a</a>
+							 <a href="#sref3a">3a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -200,7 +202,53 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/2/f/ce855355fb605fe82f2.html" title="Confirmation">
+								Confirmation
+								</a>
+							</td>
+							<td class="ColumnDate">1863-06-24</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/e/2/cb589cc912732a4072e.html" title="Tusby, Suomi">
+								Tusby, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref4a">4a</a>
+							</td>
+							<tr>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/c/3/cde6467ef0e24042c3c.html" title="Residence">
+								Residence
+								</a>
+							</td>
+							<td class="ColumnDate">from 1867-02-11 to 1869-11-26</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/d/3/cde645dff4827c02e3d.html" title="Erikas, Qvarnbacka, Helsinge, Suomi">
+								Erikas, Qvarnbacka, Helsinge, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref5a">5a</a> <a href="#sref6a">6a</a> <a href="#sref7a">7a</a>
+							</td>
+							<tr>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/d/8/cde63e4926106c5528d.html" title="Residence">
 								Residence
 								</a>
@@ -215,12 +263,9 @@
 							handelsbetjänt
 							</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref5a">5a</a> <a href="#sref6a">6a</a> <a href="#sref7a">7a</a> <a href="#sref8a">8a</a>
+							 <a href="#sref8a">8a</a> <a href="#sref9a">9a</a> <a href="#sref10a">10a</a> <a href="#sref5a">5a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -228,25 +273,24 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/c/3/cde6467ef0e24042c3c.html" title="Residence">
-								Residence
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/7/2/cb589cc83de57bb2327.html" title="Death">
+								Death
 								</a>
 							</td>
-							<td class="ColumnDate">from 1867-02-11 to 1869-11-26</td>
+							<td class="ColumnDate">1886-05-05</td>
 							<td class="ColumnPlace">
-								<a href="../../../plc/d/3/cde645dff4827c02e3d.html" title="Erikas, Qvarnbacka, Helsinge, Suomi">
-								Erikas, Qvarnbacka, Helsinge, Suomi
+								<a href="../../../plc/5/5/cb589cc7f8d1b88b055.html" title="Helsinki, Suomi">
+								Helsinki, Suomi
 								</a>
 							</td>
-							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnDescription">
+							drunknad
+							</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref8a">8a</a> <a href="#sref9a">9a</a> <a href="#sref10a">10a</a>
+							 <a href="#sref11a">11a</a> <a href="#sref12a">12a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -254,33 +298,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/0/a/e161441d2cc223041c7441737a0.html" title="Residence">
-								Residence
-								</a>
-							</td>
-							<td class="ColumnDate">after 1869-12-00</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/7/4/cde630ab53a2c774547.html" title="Gula Willan, Helsinki, Suomi">
-								Gula Willan, Helsinki, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref11a">11a</a> <a href="#sref7b">7b</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/7/7/cdf7bf813a24a107a77.html" title="Occupation">
 								Occupation
 								</a>
@@ -298,9 +316,6 @@
 							&nbsp;
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -308,27 +323,22 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/7/2/cb589cc83de57bb2327.html" title="Death">
-								Death
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/0/a/e161441d2cc223041c7441737a0.html" title="Residence">
+								Residence
 								</a>
 							</td>
-							<td class="ColumnDate">1886-05-05</td>
+							<td class="ColumnDate">after 1869-12</td>
 							<td class="ColumnPlace">
-								<a href="../../../plc/5/5/cb589cc7f8d1b88b055.html" title="Helsinki, Suomi">
-								Helsinki, Suomi
+								<a href="../../../plc/7/4/cde630ab53a2c774547.html" title="Gula Willan, Helsinki, Suomi">
+								Gula Willan, Helsinki, Suomi
 								</a>
 							</td>
-							<td class="ColumnDescription">
-							drunknad
-							</td>
+							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref12a">12a</a> <a href="#sref13a">13a</a>
+							 <a href="#sref13a">13a</a> <a href="#sref10b">10b</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -340,7 +350,7 @@
 			</div>
 			<div class="subsection" id="parents">
 				<h4>Parents</h4>
-				<table class="infolist">
+				<table class="infolist toggle_parent ltr" id="toggle_parent" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnAttribute">Relation to main person</th>
@@ -420,7 +430,7 @@
 			</div>
 			<div class="subsection" id="families">
 				<h4>Families</h4>
-				<table class="infolist">
+				<table class="infolist" id="toggle_families" style="display:block">
 					<tr class="BeginFamily">
 						<td class="ColumnValue" colspan="3"><H4 class="subsection"><a href="../../../fam/f/6/cb589cc803c2012656f.html" title="Family of Nordberg, Ferdinand and Holmström, Sofia Wilhelmina">Family of Nordberg, Ferdinand and Holmström, Sofia Wilhelmina</a></H4></td>
 					</tr>
@@ -438,9 +448,8 @@
 					</tr>
 					<tr>
 						<td class="ColumnType">&nbsp;</td>
-						<td class="ColumnAttribute">&nbsp;</td>
-						<td class="ColumnValue">
-							<table class="infolist eventlist">
+						<td class="ColumnValue" colspan="2">
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnEvent">Event</th>
@@ -452,7 +461,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/a/9/cdf7bc5583303a2519a.html" title="Residence">
 											Residence
 											</a>
@@ -465,12 +474,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref11a">11a</a> <a href="#sref6a">6a</a> <a href="#sref6b">6b</a> <a href="#sref7b">7b</a>
+										 <a href="#sref13a">13a</a> <a href="#sref9a">9a</a> <a href="#sref9b">9b</a> <a href="#sref10b">10b</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -478,7 +484,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/e/7/cb589cfbd532c38747e.html" title="Marriage">
 											Marriage
 											</a>
@@ -491,12 +497,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref14a">14a</a> <a href="#sref15a">15a</a> <a href="#sref7b">7b</a>
+										 <a href="#sref14a">14a</a> <a href="#sref15a">15a</a> <a href="#sref10b">10b</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -504,7 +507,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/d/b/cde651903760f109cbd.html" title="Residence">
 											Residence
 											</a>
@@ -520,9 +523,6 @@
 										 <a href="#sref16a">16a</a> <a href="#sref17a">17a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -530,7 +530,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/6/b/de1203b01f44b7dbcd137b647b6.html" title="Residence">
 											Residence
 											</a>
@@ -546,9 +546,6 @@
 										 <a href="#sref18a">18a</a> <a href="#sref19a">19a</a> <a href="#sref20a">20a</a> <a href="#sref21a">21a</a> <a href="#sref16a">16a</a> <a href="#sref17a">17a</a> <a href="#sref22a">22a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -556,7 +553,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/a/6/f15f3555bd6b49d503bdf7d06a.html" title="Residence">
 											Residence
 											</a>
@@ -572,9 +569,6 @@
 										 <a href="#sref23a">23a</a> <a href="#sref22b">22b</a> <a href="#sref16a">16a</a> <a href="#sref17a">17a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -582,7 +576,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/2/3/f15f02594867826a5b79c050032.html" title="Residence">
 											Residence
 											</a>
@@ -598,9 +592,6 @@
 										 <a href="#sref16a">16a</a> <a href="#sref17a">17a</a> <a href="#sref24a">24a</a> <a href="#sref25a">25a</a> <a href="#sref26a">26a</a> <a href="#sref27a">27a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -608,7 +599,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/8/4/ec7e311dfbd60d482c373fb948.html" title="Residence">
 											Residence
 											</a>
@@ -621,12 +612,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref16a">16a</a> <a href="#sref17a">17a</a> <a href="#sref12a">12a</a> <a href="#sref28a">28a</a> <a href="#sref29a">29a</a> <a href="#sref30a">30a</a> <a href="#sref13a">13a</a>
+										 <a href="#sref16a">16a</a> <a href="#sref17a">17a</a> <a href="#sref11a">11a</a> <a href="#sref28a">28a</a> <a href="#sref29a">29a</a> <a href="#sref30a">30a</a> <a href="#sref12a">12a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -637,10 +625,9 @@
 							</table>
 						</td>
 						<tr>
-							<td class="ColumnType">&nbsp;</td>
 							<td class="ColumnAttribute">Children</td>
-							<td class="ColumnValue" />
-							<table class="infolist eventlist">
+							<td class="ColumnValue Child" colspan="2" />
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnName">Name</th>
@@ -662,11 +649,13 @@
 			</div>
 			<div class="subsection" id="familymap">
 				<h4>Family Map</h4>
-				<a class="familymap" href="../../../maps/f/e/cb589cc83d1028d9fef.html" title="Family Map">Family Map</a>
+				<div id="toggle_map" style="display:block">
+					<a class="familymap" href="../../../maps/f/e/cb589cc83d1028d9fef.html" title="Family Map">Family Map</a>
+				</div>
 			</div>
 			<div class="subsection" id="pedigree">
 				<h4>Pedigree</h4>
-				<ol class="pedigreegen">
+				<ol class="pedigreegen" id="toggle_pedigree" style="display:block">
 					<li>
 						<a href="../../../ppl/9/a/cb589cc90e9501389a9.html">Nordberg, Carl Johan</a>
 						<ol>
@@ -727,177 +716,179 @@
 			</div>
 			<div class="subsection" id="tree">
 				<h4>Ancestors</h4>
-				<div id="treeContainer" style="width:1234px; height:1200px; top: 0px">
-					<div class="boxbg male AncCol0" style="top: 530px; left: 6px;">
-						<a class="noThumb" href="../../../ppl/f/e/cb589cc83d1028d9fef.html">
-						Nordberg, Ferdinand<br/>*1848-03-31<br/>+1886-05-05
-						</a>
+				<div class="tree" id="toggle_anc" style="display:block">
+					<div id="treeContainer" style="width:1234px; height:1200px; top: 0px">
+						<div class="boxbg male AncCol0" style="top: 530px; left: 6px;">
+							<a class="noThumb" href="../../../ppl/f/e/cb589cc83d1028d9fef.html">
+							Nordberg, Ferdinand<br>*1848-03-31<br>+1886-05-05
+							</a>
+						</div>
+						<div class="shadow" style="top: 535px; left: 10px;"></div>
+						<div class="bvline" style="top: 550px; left: 285px; width: 15px"></div>
+						<div class="gvline" style="top: 555px; left: 285px; width: 20px"></div>
+						<div class="boxbg male AncCol1" style="top: 230px; left: 316px;">
+							<a class="noThumb" href="../../../ppl/9/a/cb589cc90e9501389a9.html">
+							Nordberg, Carl Johan<br>*1812-10-22<br>+1871-06-28
+							</a>
+						</div>
+						<div class="shadow" style="top: 235px; left: 320px;"></div>
+						<div class="bvline" style="top: 250px; left: 300px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 250px; left: 300px; height: 301px;"></div>
+					
+						<div class="bvline" style="top: 250px; left: 595px; width: 15px"></div>
+						<div class="gvline" style="top: 255px; left: 595px; width: 20px"></div>
+						<div class="boxbg male AncCol2" style="top: 80px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/2/b/cb589ccbc7f6a601fb2.html">
+							Nordberg, Johan Johansson<br>*1784-06-12<br>+1866-12-20
+							</a>
+						</div>
+						<div class="shadow" style="top: 85px; left: 630px;"></div>
+						<div class="bvline" style="top: 100px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 100px; left: 610px; height: 151px;"></div>
+					
+						<div class="bvline" style="top: 100px; left: 905px; width: 15px"></div>
+						<div class="gvline" style="top: 105px; left: 905px; width: 20px"></div>
+						<div class="boxbg male AncCol3" style="top: 5px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/c/7/cb589ccec504a61ee7c.html">
+							, Johan Mattsson<br>*1740<br>+1798-12-01
+							</a>
+						</div>
+						<div class="shadow" style="top: 10px; left: 940px;"></div>
+						<div class="bvline" style="top: 25px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 25px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol3" style="top: 155px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/4/6/cb589ccec366d226d64.html">
+							, Catharina Henricsdotter<br>*1748-09-16<br>+1833-02-26
+							</a>
+						</div>
+						<div class="shadow" style="top: 160px; left: 940px;"></div>
+						<div class="bvline" style="top: 175px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 100px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol2" style="top: 380px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/2/3/cb589ccbcb82fdc1632.html">
+							, Hedwig Johansdotter<br>*1792-04-13<br>+1830-03-05
+							</a>
+						</div>
+						<div class="shadow" style="top: 385px; left: 630px;"></div>
+						<div class="bvline" style="top: 400px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 250px; left: 610px; height: 151px;"></div>
+					
+						<div class="bvline" style="top: 400px; left: 905px; width: 15px"></div>
+						<div class="gvline" style="top: 405px; left: 905px; width: 20px"></div>
+						<div class="boxbg male AncCol3" style="top: 305px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/3/a/cb589cced6c188d19a3.html">
+							, Johan Henricsson<br>*1753<br>+1813-01-13
+							</a>
+						</div>
+						<div class="shadow" style="top: 310px; left: 940px;"></div>
+						<div class="bvline" style="top: 325px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 325px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol3" style="top: 455px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/a/8/cb589cced973d0ae18a.html">
+							, Helena Ericsdotter<br>*1751-03-22<br>+1819-01-30
+							</a>
+						</div>
+						<div class="shadow" style="top: 460px; left: 940px;"></div>
+						<div class="bvline" style="top: 475px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 400px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol1" style="top: 830px; left: 316px;">
+							<a class="noThumb" href="../../../ppl/4/2/cb589cc91586733b724.html">
+							Weckström, Anna Johansdotter<br>*1810-05-04<br>+1885-02-24
+							</a>
+						</div>
+						<div class="shadow" style="top: 835px; left: 320px;"></div>
+						<div class="bvline" style="top: 850px; left: 300px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 550px; left: 300px; height: 301px;"></div>
+					
+						<div class="bvline" style="top: 850px; left: 595px; width: 15px"></div>
+						<div class="gvline" style="top: 855px; left: 595px; width: 20px"></div>
+						<div class="boxbg male AncCol2" style="top: 680px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/a/7/cb589ccbdb316711b7a.html">
+							Weckström, Johannes Isaacsson<br>*1781-05-10<br>+1815-11-03
+							</a>
+						</div>
+						<div class="shadow" style="top: 685px; left: 630px;"></div>
+						<div class="bvline" style="top: 700px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 700px; left: 610px; height: 151px;"></div>
+					
+						<div class="bvline" style="top: 700px; left: 905px; width: 15px"></div>
+						<div class="gvline" style="top: 705px; left: 905px; width: 20px"></div>
+						<div class="boxbg male AncCol3" style="top: 605px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/0/1/cb589ccf3cc6e815710.html">
+							Weckström, Isaac Mattsson<br>*1754-07-20<br>+1796-02-25
+							</a>
+						</div>
+						<div class="shadow" style="top: 610px; left: 940px;"></div>
+						<div class="bvline" style="top: 625px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 625px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol3" style="top: 755px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/3/9/cb589ccf3f451e7d793.html">
+							, Anna Eliasdotter<br>*1749<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 760px; left: 940px;"></div>
+						<div class="bvline" style="top: 775px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 700px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol2" style="top: 980px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/c/5/cb589ccbd96066ca75c.html">
+							, Christina Henricsdotter<br>*1778<br>+1845-08-16
+							</a>
+						</div>
+						<div class="shadow" style="top: 985px; left: 630px;"></div>
+						<div class="bvline" style="top: 1000px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 850px; left: 610px; height: 151px;"></div>
+					
+						<div class="bvline" style="top: 1000px; left: 905px; width: 15px"></div>
+						<div class="gvline" style="top: 1005px; left: 905px; width: 20px"></div>
+						<div class="boxbg male AncCol3" style="top: 905px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/d/f/cb589ccf05f327c59fd.html">
+							, Henric Matsson<br>*1743-11-16<br>+1811-12-22
+							</a>
+						</div>
+						<div class="shadow" style="top: 910px; left: 940px;"></div>
+						<div class="bvline" style="top: 925px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 925px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol3" style="top: 1055px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/f/5/cb589ccf07425d5435f.html">
+							, Lena Danielsdotter<br>*1746<br>+1811-12-27
+							</a>
+						</div>
+						<div class="shadow" style="top: 1060px; left: 940px;"></div>
+						<div class="bvline" style="top: 1075px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 1000px; left: 920px; height: 76px;"></div>
+					
 					</div>
-					<div class="shadow" style="top: 535px; left: 10px;"></div>
-					<div class="bvline" style="top: 550px; left: 285px; width: 15px"></div>
-					<div class="gvline" style="top: 555px; left: 285px; width: 20px"></div>
-					<div class="boxbg male AncCol1" style="top: 230px; left: 316px;">
-						<a class="noThumb" href="../../../ppl/9/a/cb589cc90e9501389a9.html">
-						Nordberg, Carl Johan<br/>*1812-10-22<br/>+1871-06-28
-						</a>
-					</div>
-					<div class="shadow" style="top: 235px; left: 320px;"></div>
-					<div class="bvline" style="top: 250px; left: 300px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 250px; left: 300px; height: 301px;"></div>
-				
-					<div class="bvline" style="top: 250px; left: 595px; width: 15px"></div>
-					<div class="gvline" style="top: 255px; left: 595px; width: 20px"></div>
-					<div class="boxbg male AncCol2" style="top: 80px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/2/b/cb589ccbc7f6a601fb2.html">
-						Nordberg, Johan Johansson<br/>*1784-06-12<br/>+1866-12-20
-						</a>
-					</div>
-					<div class="shadow" style="top: 85px; left: 630px;"></div>
-					<div class="bvline" style="top: 100px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 100px; left: 610px; height: 151px;"></div>
-				
-					<div class="bvline" style="top: 100px; left: 905px; width: 15px"></div>
-					<div class="gvline" style="top: 105px; left: 905px; width: 20px"></div>
-					<div class="boxbg male AncCol3" style="top: 5px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/c/7/cb589ccec504a61ee7c.html">
-						, Johan Mattsson<br/>*1740<br/>+1798-12-01
-						</a>
-					</div>
-					<div class="shadow" style="top: 10px; left: 940px;"></div>
-					<div class="bvline" style="top: 25px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 25px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol3" style="top: 155px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/4/6/cb589ccec366d226d64.html">
-						, Catharina Henricsdotter<br/>*1748-09-16<br/>+1833-02-26
-						</a>
-					</div>
-					<div class="shadow" style="top: 160px; left: 940px;"></div>
-					<div class="bvline" style="top: 175px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 100px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol2" style="top: 380px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/2/3/cb589ccbcb82fdc1632.html">
-						, Hedwig Johansdotter<br/>*1792-04-13<br/>+1830-03-05
-						</a>
-					</div>
-					<div class="shadow" style="top: 385px; left: 630px;"></div>
-					<div class="bvline" style="top: 400px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 250px; left: 610px; height: 151px;"></div>
-				
-					<div class="bvline" style="top: 400px; left: 905px; width: 15px"></div>
-					<div class="gvline" style="top: 405px; left: 905px; width: 20px"></div>
-					<div class="boxbg male AncCol3" style="top: 305px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/3/a/cb589cced6c188d19a3.html">
-						, Johan Henricsson<br/>*1753<br/>+1813-01-13
-						</a>
-					</div>
-					<div class="shadow" style="top: 310px; left: 940px;"></div>
-					<div class="bvline" style="top: 325px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 325px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol3" style="top: 455px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/a/8/cb589cced973d0ae18a.html">
-						, Helena Ericsdotter<br/>*1751-03-22<br/>+1819-01-30
-						</a>
-					</div>
-					<div class="shadow" style="top: 460px; left: 940px;"></div>
-					<div class="bvline" style="top: 475px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 400px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol1" style="top: 830px; left: 316px;">
-						<a class="noThumb" href="../../../ppl/4/2/cb589cc91586733b724.html">
-						Weckström, Anna Johansdotter<br/>*1810-05-04<br/>+1885-02-24
-						</a>
-					</div>
-					<div class="shadow" style="top: 835px; left: 320px;"></div>
-					<div class="bvline" style="top: 850px; left: 300px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 550px; left: 300px; height: 301px;"></div>
-				
-					<div class="bvline" style="top: 850px; left: 595px; width: 15px"></div>
-					<div class="gvline" style="top: 855px; left: 595px; width: 20px"></div>
-					<div class="boxbg male AncCol2" style="top: 680px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/a/7/cb589ccbdb316711b7a.html">
-						Weckström, Johannes Isaacsson<br/>*1781-05-10<br/>+1815-11-03
-						</a>
-					</div>
-					<div class="shadow" style="top: 685px; left: 630px;"></div>
-					<div class="bvline" style="top: 700px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 700px; left: 610px; height: 151px;"></div>
-				
-					<div class="bvline" style="top: 700px; left: 905px; width: 15px"></div>
-					<div class="gvline" style="top: 705px; left: 905px; width: 20px"></div>
-					<div class="boxbg male AncCol3" style="top: 605px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/0/1/cb589ccf3cc6e815710.html">
-						Weckström, Isaac Mattsson<br/>*1754-07-20<br/>+1796-02-25
-						</a>
-					</div>
-					<div class="shadow" style="top: 610px; left: 940px;"></div>
-					<div class="bvline" style="top: 625px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 625px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol3" style="top: 755px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/3/9/cb589ccf3f451e7d793.html">
-						, Anna Eliasdotter<br/>*1749<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 760px; left: 940px;"></div>
-					<div class="bvline" style="top: 775px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 700px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol2" style="top: 980px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/c/5/cb589ccbd96066ca75c.html">
-						, Christina Henricsdotter<br/>*1778<br/>+1845-08-16
-						</a>
-					</div>
-					<div class="shadow" style="top: 985px; left: 630px;"></div>
-					<div class="bvline" style="top: 1000px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 850px; left: 610px; height: 151px;"></div>
-				
-					<div class="bvline" style="top: 1000px; left: 905px; width: 15px"></div>
-					<div class="gvline" style="top: 1005px; left: 905px; width: 20px"></div>
-					<div class="boxbg male AncCol3" style="top: 905px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/d/f/cb589ccf05f327c59fd.html">
-						, Henric Matsson<br/>*1743-11-16<br/>+1811-12-22
-						</a>
-					</div>
-					<div class="shadow" style="top: 910px; left: 940px;"></div>
-					<div class="bvline" style="top: 925px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 925px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol3" style="top: 1055px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/f/5/cb589ccf07425d5435f.html">
-						, Lena Danielsdotter<br/>*1746<br/>+1811-12-27
-						</a>
-					</div>
-					<div class="shadow" style="top: 1060px; left: 940px;"></div>
-					<div class="bvline" style="top: 1075px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 1000px; left: 920px; height: 76px;"></div>
-				
 				</div>
 			</div>
 			<div class="subsection" id="sourcerefs">
 				<h4>Source References</h4>
-				<ol>
+				<ol id="srcr">
 					<li>
 						<a href="../../../src/0/e/cde63419ddc125dabe0.html" title="Kellokosken seurakunta: Kellokoski Syntyneet 1840-1872" name ="sref1">
 						Kellokosken seurakunta: Kellokoski Syntyneet 1840-1872
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref1a">
 								<ul>
 									<li>
@@ -926,7 +917,7 @@
 						<a href="../../../src/a/c/ce84f4301516ce36dca.html" title="Nurmijärvi: Nurmijärvi Koululaiset 1857-1879" name ="sref2">
 						Nurmijärvi: Nurmijärvi Koululaiset 1857-1879
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref2a">
 								<ul>
 									<li>
@@ -965,11 +956,34 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/2/8/ce8552f200d05c51c82.html" title="Tuusulan seurakunta: Tuusula Rippilapset 1853-1902" name ="sref3">
+						<a href="../../../src/3/3/cf8f2d45ac85aabf133.html" title="Tuusulan seurakunta: Tuusula Rippikirja 1863-1872" name ="sref3">
+						Tuusulan seurakunta: Tuusula Rippikirja 1863-1872
+						</a>
+						<ol id="citr">
+							<li id="sref3a">
+								<ul>
+									<li>
+									Page: 157
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Tuusulan seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A Pääkirjat. I Aa Pää- ja rippikirjat. Rippikirja  (1863-1872). Tiedosto 155. Kansallisarkisto. Viitattu 20.12.2023.</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=24581925">http://digi.narc.fi/digi/view.ka?kuid=24581925</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=6154064684&amp;aineistoId=1184224448">https://astia.narc.fi/uusiastia/viewer/?fileId=6154064684&amp;aineistoId=1184224448</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">157 Nahkela</span></p><p><span style="font-family:'Courier New';">Äges af Herr Kronofogden ? A. Nordenskiöld</span></p><p><span style="font-family:'Courier New';">1/2 Setälä hn. 1/6 mt.</span></p><p><span style="font-family:'Courier New';">Lb Carl Johan Nordberg &nbsp; &nbsp; &nbsp;22/10 1812 &nbsp;Borgå - fn Nurmijärvi m.b.No16.63 Död i den 28/5 1871</span><br /><span style="font-family:'Courier New';">hu Anna Johansdr Weckström &nbsp;4/7 &nbsp; 1810 &nbsp;do</span><br /><span style="font-family:'Courier New';">Son Ferdinand Nordberg &nbsp; &nbsp; &nbsp;31/3 &nbsp;1848 &nbsp;Till Helsingfors m.b.No9.65 &lt;HUOM tätä ei löydy&gt;</span></p><p>&nbsp;</p><p>&nbsp;</p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../src/2/8/ce8552f200d05c51c82.html" title="Tuusulan seurakunta: Tuusula Rippilapset 1853-1902" name ="sref4">
 						Tuusulan seurakunta: Tuusula Rippilapset 1853-1902
 						</a>
-						<ol>
-							<li id="sref3a">
+						<ol id="citr">
+							<li id="sref4a">
 								<ul>
 									<li>
 									Date: 1863-06-24
@@ -991,34 +1005,80 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/3/3/cf8f2d45ac85aabf133.html" title="Tuusulan seurakunta: Tuusula Rippikirja 1863-1872" name ="sref4">
-						Tuusulan seurakunta: Tuusula Rippikirja 1863-1872
+						<a href="../../../src/b/4/f5df89073f241ccf8537154be4b.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Muuttaneet 1853-1887" name ="sref5">
+						Helsingin ruotsalais-suomalainen seurakunta: Helsinki Muuttaneet 1853-1887
 						</a>
-						<ol>
-							<li id="sref4a">
+						<ol id="citr">
+							<li id="sref5a">
 								<ul>
 									<li>
-									Page: 157
+									Page: MKO1-8/123
 									</li>
 									<li>
-									Citation: <div class="grampsstylednote"><p>Tuusulan seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A Pääkirjat. I Aa Pää- ja rippikirjat. Rippikirja  (1863-1872). Tiedosto 155. Kansallisarkisto. Viitattu 20.12.2023.</p></div>
+									Citation: <div class="grampsstylednote"><p>Helsinki muuttaneet 1853-1887 (MKO1-8)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19855&amp;pnum=123 / Viitattu 22.12.2023</p></div>
 									</li>
 									<li>
-									Link: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=24581925">http://digi.narc.fi/digi/view.ka?kuid=24581925</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=6154064684&amp;aineistoId=1184224448">https://astia.narc.fi/uusiastia/viewer/?fileId=6154064684&amp;aineistoId=1184224448</a></p></div>
+									Link: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19855&amp;pnum=123">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19855&amp;pnum=123</a></p></div>
 									</li>
 									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">157 Nahkela</span></p><p><span style="font-family:'Courier New';">Äges af Herr Kronofogden ? A. Nordenskiöld</span></p><p><span style="font-family:'Courier New';">1/2 Setälä hn. 1/6 mt.</span></p><p><span style="font-family:'Courier New';">Lb Carl Johan Nordberg &nbsp; &nbsp; &nbsp;22/10 1812 &nbsp;Borgå - fn Nurmijärvi m.b.No16.63 Död i den 28/5 1871</span><br /><span style="font-family:'Courier New';">hu Anna Johansdr Weckström &nbsp;4/7 &nbsp; 1810 &nbsp;do</span><br /><span style="font-family:'Courier New';">Son Ferdinand Nordberg &nbsp; &nbsp; &nbsp;31/3 &nbsp;1848 &nbsp;Till Helsingfors m.b.No9.65 &lt;HUOM tätä ei löydy&gt;</span></p><p>&nbsp;</p><p>&nbsp;</p></div>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">1867</span><br /><span style="font-family:'Courier New';">[Februari] &nbsp;[11] &nbsp;84. &nbsp;Bodbetjänten Ferdinand Nordberg &nbsp; &nbsp;1.559 &nbsp; &nbsp;Helsinge</span></p><p>&nbsp;</p><p>&nbsp;</p></div>
 									</li>
 								</ul>
 							</li>
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/6/2/e1874ddb65965dca5a84a089526.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Muuttaneet 1865-1879" name ="sref5">
+						<a href="../../../src/5/e/cde64666ff7378d50e5.html" title="Helsingin pitäjän seurakunta: Helsingin pitäjä Rippikirja 1866-1875" name ="sref6">
+						Helsingin pitäjän seurakunta: Helsingin pitäjä Rippikirja 1866-1875
+						</a>
+						<ol id="citr">
+							<li id="sref6a">
+								<ul>
+									<li>
+									Page: II/459
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Helsingin pitäjän seurakunnan arkisto. I A KIRKON PÄÄKIRJAT HAKEMISTOINEEN. I Aa Pää- ja rippikirjat. I Aa:16 Kommunionbok för Helsinge församling II  (1866-1875). Tiedosto 183. Kansallisarkisto. Viitattu 22.12.2023.</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=5590947">http://digi.narc.fi/digi/view.ka?kuid=5590947</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5810862110&amp;aineistoId=1198425340">https://astia.narc.fi/uusiastia/viewer/?fileId=5810862110&amp;aineistoId=1198425340</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">459 &nbsp; &nbsp;Qvarnbacka</span></p><p><span style="font-family:'Courier New';">Erikas Kr Boställe 1/2 mtl. Disponeras af Wanda bruk</span></p><p><span style="font-family:'Courier New';">??? Adolf Fredrik Nordberg &nbsp; &nbsp; &nbsp;25/11 1829 &nbsp; &nbsp;21/10 69 Till Somero No89 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Borgå 1868 fr. Borgå</span><br /><span style="font-family:'Courier New';">??? Maria Lovisa Skogström &nbsp; &nbsp; &nbsp;1/10 &nbsp;1833 &nbsp; &nbsp;do &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Borgnäs</span></p><p><span style="font-family:'Courier New';">Dreng ??? Ferdinand Nordberg &nbsp; &nbsp;31/3 &nbsp;1848 &nbsp; &nbsp;1869 med bet 20/11 till Hfors No 147 &nbsp; Mariefors &nbsp;1867 ifrån Hfors med betyg No84.11/2 67</span></p><p>&nbsp;</p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../src/f/2/ce856467e5b2c6b4c2f.html" title="Helsingin pitäjän seurakunta: Helsingin pitäjä Muuttaneet 1853-1879" name ="sref7">
+						Helsingin pitäjän seurakunta: Helsingin pitäjä Muuttaneet 1853-1879
+						</a>
+						<ol id="citr">
+							<li id="sref7a">
+								<ul>
+									<li>
+									Page: 105
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=7577292">http://digi.narc.fi/digi/view.ka?kuid=7577292</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5858215314&amp;aineistoId=1198544485">https://astia.narc.fi/uusiastia/viewer/?fileId=5858215314&amp;aineistoId=1198544485</a></p></div>
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Helsingin pitäjän seurakunnan arkisto. I B MUUTTANEIDEN LUETTELOT. I Ba Seurakuntaan- ja seurakunnasta muuttaneiden luettelot. Seurakuntaan- ja seurakunnasta muuttaneiden luettelo  (1853-1879). Tiedosto 112. Kansallisarkisto. Viitattu 22.12.2023.</p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">Utflyttade år 1869</span></p><p><span style="font-family:'Courier New';">147 &nbsp;20/11 &nbsp;Drengen Ferdinand Nordberg &nbsp; &nbsp;31/11 48 &nbsp; &nbsp;f459 &nbsp; &nbsp;Hfors</span></p><p>&nbsp;</p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../src/6/2/e1874ddb65965dca5a84a089526.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Muuttaneet 1865-1879" name ="sref8">
 						Helsingin ruotsalais-suomalainen seurakunta: Helsinki Muuttaneet 1865-1879
 						</a>
-						<ol>
-							<li id="sref5a">
+						<ol id="citr">
+							<li id="sref8a">
 								<ul>
 									<li>
 									Page: MKO4-10/20
@@ -1037,11 +1097,11 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/8/a/d88c33464e56ebacf9a5b6a8fa8.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Rippikirjahakemisto 1862-1870" name ="sref6">
+						<a href="../../../src/8/a/d88c33464e56ebacf9a5b6a8fa8.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Rippikirjahakemisto 1862-1870" name ="sref9">
 						Helsingin ruotsalais-suomalainen seurakunta: Helsinki Rippikirjahakemisto 1862-1870
 						</a>
-						<ol>
-							<li id="sref6a">
+						<ol id="citr">
+							<li id="sref9a">
 								<ul>
 									<li>
 									Page: NMIE/515-516
@@ -1057,7 +1117,7 @@
 									</li>
 								</ul>
 							</li>
-							<li id="sref6b">
+							<li id="sref9b">
 								<ul>
 									<li>
 									Page: TYÖ/397-398
@@ -1076,11 +1136,11 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/e/e/cde63f91eee556ea9ee.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Rippikirja 1856-1869" name ="sref7">
+						<a href="../../../src/e/e/cde63f91eee556ea9ee.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Rippikirja 1856-1869" name ="sref10">
 						Helsingin ruotsalais-suomalainen seurakunta: Helsinki Rippikirja 1856-1869
 						</a>
-						<ol>
-							<li id="sref7a">
+						<ol id="citr">
+							<li id="sref10a">
 								<ul>
 									<li>
 									Page: I/559
@@ -1096,7 +1156,7 @@
 									</li>
 								</ul>
 							</li>
-							<li id="sref7b">
+							<li id="sref10b">
 								<ul>
 									<li>
 									Page: III/731
@@ -1121,103 +1181,11 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/b/4/f5df89073f241ccf8537154be4b.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Muuttaneet 1853-1887" name ="sref8">
-						Helsingin ruotsalais-suomalainen seurakunta: Helsinki Muuttaneet 1853-1887
-						</a>
-						<ol>
-							<li id="sref8a">
-								<ul>
-									<li>
-									Page: MKO1-8/123
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Helsinki muuttaneet 1853-1887 (MKO1-8)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19855&amp;pnum=123 / Viitattu 22.12.2023</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19855&amp;pnum=123">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19855&amp;pnum=123</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">1867</span><br /><span style="font-family:'Courier New';">[Februari] &nbsp;[11] &nbsp;84. &nbsp;Bodbetjänten Ferdinand Nordberg &nbsp; &nbsp;1.559 &nbsp; &nbsp;Helsinge</span></p><p>&nbsp;</p><p>&nbsp;</p></div>
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
-						<a href="../../../src/5/e/cde64666ff7378d50e5.html" title="Helsingin pitäjän seurakunta: Helsingin pitäjä Rippikirja 1866-1875" name ="sref9">
-						Helsingin pitäjän seurakunta: Helsingin pitäjä Rippikirja 1866-1875
-						</a>
-						<ol>
-							<li id="sref9a">
-								<ul>
-									<li>
-									Page: II/459
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Helsingin pitäjän seurakunnan arkisto. I A KIRKON PÄÄKIRJAT HAKEMISTOINEEN. I Aa Pää- ja rippikirjat. I Aa:16 Kommunionbok för Helsinge församling II  (1866-1875). Tiedosto 183. Kansallisarkisto. Viitattu 22.12.2023.</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=5590947">http://digi.narc.fi/digi/view.ka?kuid=5590947</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5810862110&amp;aineistoId=1198425340">https://astia.narc.fi/uusiastia/viewer/?fileId=5810862110&amp;aineistoId=1198425340</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">459 &nbsp; &nbsp;Qvarnbacka</span></p><p><span style="font-family:'Courier New';">Erikas Kr Boställe 1/2 mtl. Disponeras af Wanda bruk</span></p><p><span style="font-family:'Courier New';">??? Adolf Fredrik Nordberg &nbsp; &nbsp; &nbsp;25/11 1829 &nbsp; &nbsp;21/10 69 Till Somero No89 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Borgå 1868 fr. Borgå</span><br /><span style="font-family:'Courier New';">??? Maria Lovisa Skogström &nbsp; &nbsp; &nbsp;1/10 &nbsp;1833 &nbsp; &nbsp;do &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Borgnäs</span></p><p><span style="font-family:'Courier New';">Dreng ??? Ferdinand Nordberg &nbsp; &nbsp;31/3 &nbsp;1848 &nbsp; &nbsp;1869 med bet 20/11 till Hfors No 147 &nbsp; Mariefors &nbsp;1867 ifrån Hfors med betyg No84.11/2 67</span></p><p>&nbsp;</p></div>
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
-						<a href="../../../src/f/2/ce856467e5b2c6b4c2f.html" title="Helsingin pitäjän seurakunta: Helsingin pitäjä Muuttaneet 1853-1879" name ="sref10">
-						Helsingin pitäjän seurakunta: Helsingin pitäjä Muuttaneet 1853-1879
-						</a>
-						<ol>
-							<li id="sref10a">
-								<ul>
-									<li>
-									Page: 105
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=7577292">http://digi.narc.fi/digi/view.ka?kuid=7577292</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5858215314&amp;aineistoId=1198544485">https://astia.narc.fi/uusiastia/viewer/?fileId=5858215314&amp;aineistoId=1198544485</a></p></div>
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Helsingin pitäjän seurakunnan arkisto. I B MUUTTANEIDEN LUETTELOT. I Ba Seurakuntaan- ja seurakunnasta muuttaneiden luettelot. Seurakuntaan- ja seurakunnasta muuttaneiden luettelo  (1853-1879). Tiedosto 112. Kansallisarkisto. Viitattu 22.12.2023.</p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">Utflyttade år 1869</span></p><p><span style="font-family:'Courier New';">147 &nbsp;20/11 &nbsp;Drengen Ferdinand Nordberg &nbsp; &nbsp;31/11 48 &nbsp; &nbsp;f459 &nbsp; &nbsp;Hfors</span></p><p>&nbsp;</p></div>
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
-						<a href="../../../src/a/2/d88d2437810111fac385307da2a.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Muuttaneet sisään 1865-1879" name ="sref11">
-						Helsingin ruotsalais-suomalainen seurakunta: Helsinki Muuttaneet sisään 1865-1879
-						</a>
-						<ol>
-							<li id="sref11a">
-								<ul>
-									<li>
-									Page: MKO4-10/94
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Helsinki muuttaneet 1865-1879 (MKO4-10)  1769 Dec ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23487&amp;pnum=94 / Viitattu 22.12.2023</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23487&amp;pnum=94">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23487&amp;pnum=94</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">1869</span><br /><span style="font-family:'Courier New';">Forts. af December</span><br /><span style="font-family:'Courier New';">1042. &nbsp; &nbsp;Nordberg, Ferdinand, &nbsp; &nbsp;Dykeri-arbetare &nbsp; &nbsp;1 &nbsp; &nbsp;- &nbsp; &nbsp;3-731</span></p></div>
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
-						<a href="../../../src/0/1/ec7e3745c0d4523cf4bb0b20710.html" title="Helsingin jakamaton seurakunta: Helsinki Rippikirja 1880-1910" name ="sref12">
+						<a href="../../../src/0/1/ec7e3745c0d4523cf4bb0b20710.html" title="Helsingin jakamaton seurakunta: Helsinki Rippikirja 1880-1910" name ="sref11">
 						Helsingin jakamaton seurakunta: Helsinki Rippikirja 1880-1910
 						</a>
-						<ol>
-							<li id="sref12a">
+						<ol id="citr">
+							<li id="sref11a">
 								<ul>
 									<li>
 									Page: III/731
@@ -1233,11 +1201,11 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/f/1/cdeaa816732553f721f.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Kuolleet 1886-1906" name ="sref13">
+						<a href="../../../src/f/1/cdeaa816732553f721f.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Kuolleet 1886-1906" name ="sref12">
 						Helsingin ruotsalais-suomalainen seurakunta: Helsinki Kuolleet 1886-1906
 						</a>
-						<ol>
-							<li id="sref13a">
+						<ol id="citr">
+							<li id="sref12a">
 								<ul>
 									<li>
 									Page: 10
@@ -1256,10 +1224,33 @@
 						</ol>
 					</li>
 					<li>
+						<a href="../../../src/a/2/d88d2437810111fac385307da2a.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Muuttaneet sisään 1865-1879" name ="sref13">
+						Helsingin ruotsalais-suomalainen seurakunta: Helsinki Muuttaneet sisään 1865-1879
+						</a>
+						<ol id="citr">
+							<li id="sref13a">
+								<ul>
+									<li>
+									Page: MKO4-10/94
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Helsinki muuttaneet 1865-1879 (MKO4-10)  1769 Dec ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23487&amp;pnum=94 / Viitattu 22.12.2023</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23487&amp;pnum=94">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=23487&amp;pnum=94</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">1869</span><br /><span style="font-family:'Courier New';">Forts. af December</span><br /><span style="font-family:'Courier New';">1042. &nbsp; &nbsp;Nordberg, Ferdinand, &nbsp; &nbsp;Dykeri-arbetare &nbsp; &nbsp;1 &nbsp; &nbsp;- &nbsp; &nbsp;3-731</span></p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
 						<a href="../../../src/9/b/cde63536c1842f6b8b9.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Vihityt 1856-1876" name ="sref14">
 						Helsingin ruotsalais-suomalainen seurakunta: Helsinki Vihityt 1856-1876
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref14a">
 								<ul>
 									<li>
@@ -1282,7 +1273,7 @@
 						<a href="../../../src/9/1/cdea76d18dc4cf3ac19.html" title="Hufvudstadsbladet" name ="sref15">
 						Hufvudstadsbladet
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref15a">
 								<ul>
 									<li>
@@ -1308,7 +1299,7 @@
 						<a href="../../../src/b/7/cde65158bf529623e7b.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Rippikirja 1870-1881" name ="sref16">
 						Helsingin ruotsalais-suomalainen seurakunta: Helsinki Rippikirja 1870-1881
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref16a">
 								<ul>
 									<li>
@@ -1343,7 +1334,7 @@
 						<a href="../../../src/f/8/cdeaa4afd5d553ac48f.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Lastenkirja 1856-1881" name ="sref17">
 						Helsingin ruotsalais-suomalainen seurakunta: Helsinki Lastenkirja 1856-1881
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref17a">
 								<ul>
 									<li>
@@ -1366,7 +1357,7 @@
 						<a href="../../../src/5/0/f876b4e084736c37eb6c53c1a05.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Henkikirja ja veroäyriluettelo 1875" name ="sref18">
 						Helsingin ruotsalais-suomalainen seurakunta: Helsinki Henkikirja ja veroäyriluettelo 1875
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref18a">
 								<ul>
 									<li>
@@ -1392,7 +1383,7 @@
 						<a href="../../../src/2/c/de1203029595a742f64657e5cc2.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1875" name ="sref19">
 						Uudenmaan lääni: Uusimaa Henkikirja 1875
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref19a">
 								<ul>
 									<li>
@@ -1415,7 +1406,7 @@
 						<a href="../../../src/a/7/f8769a1611b5a7c125e2444167a.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Henkikirja ja veroäyriluettelo 1876" name ="sref20">
 						Helsingin ruotsalais-suomalainen seurakunta: Helsinki Henkikirja ja veroäyriluettelo 1876
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref20a">
 								<ul>
 									<li>
@@ -1441,7 +1432,7 @@
 						<a href="../../../src/d/1/e16139912c44a850f6c6514701d.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1876" name ="sref21">
 						Uudenmaan lääni: Uusimaa Henkikirja 1876
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref21a">
 								<ul>
 									<li>
@@ -1464,7 +1455,7 @@
 						<a href="../../../src/c/e/ec7199ba958ccdf89b93baf6ec.html" title="Adresskalender för Helsingfors stad" name ="sref22">
 						Adresskalender för Helsingfors stad
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref22a">
 								<ul>
 									<li>
@@ -1503,7 +1494,7 @@
 						<a href="../../../src/c/9/f15f303d04766c39801d4dace9c.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1877" name ="sref23">
 						Uudenmaan lääni: Uusimaa Henkikirja 1877
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref23a">
 								<ul>
 									<li>
@@ -1526,7 +1517,7 @@
 						<a href="../../../src/4/6/f8769187adb25b89419705c7464.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Henkikirja ja veroäyriluettelo 1878" name ="sref24">
 						Helsingin ruotsalais-suomalainen seurakunta: Helsinki Henkikirja ja veroäyriluettelo 1878
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref24a">
 								<ul>
 									<li>
@@ -1552,7 +1543,7 @@
 						<a href="../../../src/d/6/f15f008182d659ef53bc6da776d.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1878" name ="sref25">
 						Uudenmaan lääni: Uusimaa Henkikirja 1878
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref25a">
 								<ul>
 									<li>
@@ -1578,7 +1569,7 @@
 						<a href="../../../src/0/7/f87694bd9f6151c0565695bdd70.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Henkikirja ja veroäyriluettelo 1879" name ="sref26">
 						Helsingin ruotsalais-suomalainen seurakunta: Helsinki Henkikirja ja veroäyriluettelo 1879
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref26a">
 								<ul>
 									<li>
@@ -1604,7 +1595,7 @@
 						<a href="../../../src/9/8/f15f10358887d7b94e7af19fc89.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1879" name ="sref27">
 						Uudenmaan lääni: Uusimaa Henkikirja 1879
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref27a">
 								<ul>
 									<li>
@@ -1630,7 +1621,7 @@
 						<a href="../../../src/5/6/d00112ee74d21fbdc65.html" title="Helsingin jakamaton seurakunta: Helsinki Lastenkirja 1880-1910" name ="sref28">
 						Helsingin jakamaton seurakunta: Helsinki Lastenkirja 1880-1910
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref28a">
 								<ul>
 									<li>
@@ -1647,7 +1638,7 @@
 						<a href="../../../src/9/7/ec84a8e4f5547bb63d25501e579.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1884" name ="sref29">
 						Uudenmaan lääni: Uusimaa Henkikirja 1884
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref29a">
 								<ul>
 									<li>
@@ -1670,7 +1661,7 @@
 						<a href="../../../src/9/a/cfcd1c064c818e09da9.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Kuolleet 1854-1885" name ="sref30">
 						Helsingin ruotsalais-suomalainen seurakunta: Helsinki Kuolleet 1854-1885
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref30a">
 								<ul>
 									<li>
@@ -1698,7 +1689,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2023-12-22 13:46:35<br />Created for Entire Database
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2<br />Last change was the 2023-12-22 13:46:35<br />Created for Entire Database
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

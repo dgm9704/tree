@@ -1,27 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>Nordberg Family Tree - , Göran Johansson</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
-	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">Nordberg Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">Nordberg Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li class = "CurrentSection"><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
 					<li><a href="../../../families.html" title="Families">Families</a></li>
@@ -29,13 +39,43 @@
 					<li><a href="../../../places.html" title="Places">Places</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="IndividualDetail">
 			<h3>, Göran Johansson<sup><small></small></sup></h3>
 			<div id="summaryarea">
@@ -54,7 +94,7 @@
 			</div>
 			<div class="subsection" id="events">
 				<h4>Events</h4>
-				<table class="infolist eventlist">
+				<table class="infolist eventlist toggle_event ltr" id="toggle_event" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnEvent">Event</th>
@@ -66,33 +106,7 @@
 					</thead>
 					<tbody>
 						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/3/a/d931c5a586b5b92e9b78dd821a3.html" title="Birth">
-								Birth
-								</a>
-							</td>
-							<td class="ColumnDate">1779</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/1/3/eba5f4ef20049c1972aff5f8931.html" title="Viro">
-								Viro
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref1a">1a</a> <a href="#sref2a">2a</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/d/f/eba5daaacd76f90386feaa125fd.html" title="Residence">
 								Residence
 								</a>
@@ -105,12 +119,9 @@
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref2a">2a</a>
+							 <a href="#sref1a">1a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -118,25 +129,22 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/7/e/eba579246dd33181ea9216143e7.html" title="Residence">
-								Residence
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/3/a/d931c5a586b5b92e9b78dd821a3.html" title="Birth">
+								Birth
 								</a>
 							</td>
-							<td class="ColumnDate">from 1806 to 1818-12-28</td>
+							<td class="ColumnDate">1779</td>
 							<td class="ColumnPlace">
-								<a href="../../../plc/3/a/cea11f0929a42eefca3.html" title="Sibbo, Suomi">
-								Sibbo, Suomi
+								<a href="../../../plc/1/3/eba5f4ef20049c1972aff5f8931.html" title="Viro">
+								Viro
 								</a>
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref2a">2a</a> <a href="#sref3a">3a</a> <a href="#sref1b">1b</a>
+							 <a href="#sref2a">2a</a> <a href="#sref1a">1a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -144,7 +152,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/6/2/eba618512a632dcd76c5eedc26.html" title="Residence">
 								Residence
 								</a>
@@ -157,12 +165,9 @@
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref4a">4a</a>
+							 <a href="#sref3a">3a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -170,85 +175,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/c/b/eba615cca3c5d3329572c234fbc.html" title="Residence">
-								Residence
-								</a>
-							</td>
-							<td class="ColumnDate">from 1813 to 1815</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/7/5/eba614ac41b4dddcb265a360c57.html" title="Grisas, Immersby, Sibbo, Suomi">
-								Grisas, Immersby, Sibbo, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref4b">4b</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/1/0/eba635e0ae47b9119d1d3e78101.html" title="Residence">
-								Residence
-								</a>
-							</td>
-							<td class="ColumnDate">from 1815 to 1816</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/d/a/eba63542c517343d237486cebad.html" title="Petas, Pigby, Sibbo, Suomi">
-								Petas, Pigby, Sibbo, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref4c">4c</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/4/f/eba640a2945263b14bea4d63ef4.html" title="Residence">
-								Residence
-								</a>
-							</td>
-							<td class="ColumnDate">from 1816 to 1818</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/3/d/eba63fc25bc4c6f248324ea26d3.html" title="Garfvaren, Pigby, Sibbo, Suomi">
-								Garfvaren, Pigby, Sibbo, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref5a">5a</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/3/7/eba64256e78323c74df88b50e73.html" title="Residence">
 								Residence
 								</a>
@@ -261,12 +188,9 @@
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref5b">5b</a> <a href="#sref2a">2a</a>
+							 <a href="#sref4a">4a</a> <a href="#sref1a">1a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -274,7 +198,99 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/4/f/eba640a2945263b14bea4d63ef4.html" title="Residence">
+								Residence
+								</a>
+							</td>
+							<td class="ColumnDate">from 1816 to 1818</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/3/d/eba63fc25bc4c6f248324ea26d3.html" title="Garfvaren, Pigby, Sibbo, Suomi">
+								Garfvaren, Pigby, Sibbo, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref4b">4b</a>
+							</td>
+							<tr>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/1/0/eba635e0ae47b9119d1d3e78101.html" title="Residence">
+								Residence
+								</a>
+							</td>
+							<td class="ColumnDate">from 1815 to 1816</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/d/a/eba63542c517343d237486cebad.html" title="Petas, Pigby, Sibbo, Suomi">
+								Petas, Pigby, Sibbo, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref3b">3b</a>
+							</td>
+							<tr>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/c/b/eba615cca3c5d3329572c234fbc.html" title="Residence">
+								Residence
+								</a>
+							</td>
+							<td class="ColumnDate">from 1813 to 1815</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/7/5/eba614ac41b4dddcb265a360c57.html" title="Grisas, Immersby, Sibbo, Suomi">
+								Grisas, Immersby, Sibbo, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref3c">3c</a>
+							</td>
+							<tr>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/7/e/eba579246dd33181ea9216143e7.html" title="Residence">
+								Residence
+								</a>
+							</td>
+							<td class="ColumnDate">from 1806 to 1818-12-28</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/3/a/cea11f0929a42eefca3.html" title="Sibbo, Suomi">
+								Sibbo, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref1a">1a</a> <a href="#sref5a">5a</a> <a href="#sref2b">2b</a>
+							</td>
+							<tr>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/c/b/eba571b6945242646297f476abc.html" title="Residence">
 								Residence
 								</a>
@@ -287,12 +303,9 @@
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref3a">3a</a> <a href="#sref2a">2a</a> <a href="#sref1b">1b</a>
+							 <a href="#sref5a">5a</a> <a href="#sref1a">1a</a> <a href="#sref2b">2b</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -304,7 +317,7 @@
 			</div>
 			<div class="subsection" id="families">
 				<h4>Families</h4>
-				<table class="infolist">
+				<table class="infolist" id="toggle_families" style="display:block">
 					<tr class="BeginFamily">
 						<td class="ColumnValue" colspan="3"><H4 class="subsection"><a href="../../../fam/0/0/d931bead2cf11ace1f80f921800.html" title="Family of , Göran Johansson and , Christina Henricsdotter">Family of , Göran Johansson and , Christina Henricsdotter</a></H4></td>
 					</tr>
@@ -322,9 +335,8 @@
 					</tr>
 					<tr>
 						<td class="ColumnType">&nbsp;</td>
-						<td class="ColumnAttribute">&nbsp;</td>
-						<td class="ColumnValue">
-							<table class="infolist eventlist">
+						<td class="ColumnValue" colspan="2">
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnEvent">Event</th>
@@ -336,7 +348,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/0/8/eba569c2cce61038777b470580.html" title="Residence">
 											Residence
 											</a>
@@ -349,12 +361,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref1b">1b</a>
+										 <a href="#sref2b">2b</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -362,7 +371,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/f/c/d931d1287079c244b40abc90cf.html" title="Marriage">
 											Marriage
 											</a>
@@ -378,9 +387,6 @@
 										 <a href="#sref6a">6a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -388,7 +394,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/c/1/d931d216fd13ef1001da9daa21c.html" title="Residence">
 											Residence
 											</a>
@@ -401,12 +407,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref1a">1a</a> <a href="#sref7a">7a</a>
+										 <a href="#sref2a">2a</a> <a href="#sref7a">7a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -414,7 +417,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/6/c/d931e7af3136d39c0ac05b39ec6.html" title="Residence">
 											Residence
 											</a>
@@ -430,9 +433,6 @@
 										 <a href="#sref8a">8a</a> <a href="#sref9a">9a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -440,7 +440,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/3/8/d9342ff967a5fb5201ceff2ba83.html" title="Residence">
 											Residence
 											</a>
@@ -456,9 +456,6 @@
 										 <a href="#sref10a">10a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -469,10 +466,9 @@
 							</table>
 						</td>
 						<tr>
-							<td class="ColumnType">&nbsp;</td>
 							<td class="ColumnAttribute">Children</td>
-							<td class="ColumnValue" />
-							<table class="infolist eventlist">
+							<td class="ColumnValue Child" colspan="2" />
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnName">Name</th>
@@ -492,7 +488,7 @@
 			</div>
 			<div class="subsection" id="pedigree">
 				<h4>Pedigree</h4>
-				<ol class="pedigreegen">
+				<ol class="pedigreegen" id="toggle_pedigree" style="display:block">
 					<li>
 						<ol>
 							<li class="thisperson">
@@ -520,49 +516,13 @@
 			</div>
 			<div class="subsection" id="sourcerefs">
 				<h4>Source References</h4>
-				<ol>
+				<ol id="srcr">
 					<li>
-						<a href="../../../src/a/9/d6cdbfbe30416ec646fdadfa39a.html" title="Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Rippikirja 1813-1820" name ="sref1">
-						Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Rippikirja 1813-1820
-						</a>
-						<ol>
-							<li id="sref1a">
-								<ul>
-									<li>
-									Page: 230
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=7959644">http://digi.narc.fi/digi/view.ka?kuid=7959644</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5862628943&amp;aineistoId=1167794225">https://astia.narc.fi/uusiastia/viewer/?fileId=5862628943&amp;aineistoId=1167794225</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p>230		Norrveckoski</p><p>Qvarn Stugan<br />Mölnaren			<br />Göran Johansson	1779		} Till ägtenskap förelyste		1819 fn p 228<br />Fästmö Sp. Torp. Enka			}<br />Stina Henriks doter	1776		 1819 fn p 226</p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref1b">
-								<ul>
-									<li>
-									Page: 228
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=7959642">http://digi.narc.fi/digi/view.ka?kuid=7959642</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5862628937&amp;aineistoId=1167794225">https://astia.narc.fi/uusiastia/viewer/?fileId=5862628937&amp;aineistoId=1167794225</a></p></div>
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Rippikirjat 1813-1820 (Läntinen osa), jakso 231, sivu 228: Norrveckoski; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=7959642 / Viitattu 25.4.2021</p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p>228	Norrweckoski<br />Hörande till Byn</p><p>Qvarnstugan [yliviivattu]</p><p>...</p><p>Sockne smed<br />Johan Johansson Nordberg &nbsp; &nbsp;1784<br />ho Hedwig Johansdr	 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 13/4 1792</p><p>...<br />Mölnare &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Den 29 Januarii 1820 fått lysning med Stina Henriksdotter p. 826<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Est från Sibbo med bet af d 28/12 18 No 20 för 1819<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1819 till p 230<br />Göran Johansson &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1799<br />Fästmö LB Enka &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ?? ?? sig häranteknad ?<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1819 fn p 226<br />Stina Johans dotter &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1761</p></div>
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
-						<a href="../../../src/4/5/eba578c4c1a68ca1b9df78e7054.html" title="Porvoon ruotsalainen seurakunta: Porvoo Muuttokirjat 1819-1820" name ="sref2">
+						<a href="../../../src/4/5/eba578c4c1a68ca1b9df78e7054.html" title="Porvoon ruotsalainen seurakunta: Porvoo Muuttokirjat 1819-1820" name ="sref1">
 						Porvoon ruotsalainen seurakunta: Porvoo Muuttokirjat 1819-1820
 						</a>
-						<ol>
-							<li id="sref2a">
+						<ol id="citr">
+							<li id="sref1a">
 								<ul>
 									<li>
 									Page: jakso 171
@@ -581,11 +541,126 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/0/c/db74fe24dbf7525c14f98f33fc0.html" title="Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Muuttaneet 1796-1857" name ="sref3">
+						<a href="../../../src/a/9/d6cdbfbe30416ec646fdadfa39a.html" title="Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Rippikirja 1813-1820" name ="sref2">
+						Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Rippikirja 1813-1820
+						</a>
+						<ol id="citr">
+							<li id="sref2a">
+								<ul>
+									<li>
+									Page: 230
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=7959644">http://digi.narc.fi/digi/view.ka?kuid=7959644</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5862628943&amp;aineistoId=1167794225">https://astia.narc.fi/uusiastia/viewer/?fileId=5862628943&amp;aineistoId=1167794225</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p>230		Norrveckoski</p><p>Qvarn Stugan<br />Mölnaren			<br />Göran Johansson	1779		} Till ägtenskap förelyste		1819 fn p 228<br />Fästmö Sp. Torp. Enka			}<br />Stina Henriks doter	1776		 1819 fn p 226</p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref2b">
+								<ul>
+									<li>
+									Page: 228
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=7959642">http://digi.narc.fi/digi/view.ka?kuid=7959642</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5862628937&amp;aineistoId=1167794225">https://astia.narc.fi/uusiastia/viewer/?fileId=5862628937&amp;aineistoId=1167794225</a></p></div>
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Rippikirjat 1813-1820 (Läntinen osa), jakso 231, sivu 228: Norrveckoski; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=7959642 / Viitattu 25.4.2021</p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p>228	Norrweckoski<br />Hörande till Byn</p><p>Qvarnstugan [yliviivattu]</p><p>...</p><p>Sockne smed<br />Johan Johansson Nordberg &nbsp; &nbsp;1784<br />ho Hedwig Johansdr	 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 13/4 1792</p><p>...<br />Mölnare &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Den 29 Januarii 1820 fått lysning med Stina Henriksdotter p. 826<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Est från Sibbo med bet af d 28/12 18 No 20 för 1819<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1819 till p 230<br />Göran Johansson &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1799<br />Fästmö LB Enka &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ?? ?? sig häranteknad ?<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1819 fn p 226<br />Stina Johans dotter &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1761</p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../src/6/0/eba6153da1eacbcfab4eef5506.html" title="Sipoon ruotsalainen seurakunta: Sipoo Rippikirja 1804-1815" name ="sref3">
+						Sipoon ruotsalainen seurakunta: Sipoo Rippikirja 1804-1815
+						</a>
+						<ol id="citr">
+							<li id="sref3a">
+								<ul>
+									<li>
+									Page: 337
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Sipoon ruotsalaisen seurakunnan arkisto - Rippikirja 1804-1815, jakso 341, sivu 337: Östersundom, Gl. Kärr; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=6343402 / Viitattu 25.4.2021</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p>http://digi.narc.fi/digi/view.ka?kuid=6343402<br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5907773076&amp;aineistoId=1174823424">https://astia.narc.fi/uusiastia/viewer/?fileId=5907773076&amp;aineistoId=1174823424</a></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref3b">
+								<ul>
+									<li>
+									Page: 293
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Sipoon ruotsalaisen seurakunnan arkisto - Rippikirja 1804-1815, jakso 296, sivu 293: Pigby Petas; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=6343359 / Viitattu 25.4.2021</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p>http://digi.narc.fi/digi/view.ka?kuid=6343359<br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5907773097&amp;aineistoId=1174823424">https://astia.narc.fi/uusiastia/viewer/?fileId=5907773097&amp;aineistoId=1174823424</a></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref3c">
+								<ul>
+									<li>
+									Page: 136
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p>http://digi.narc.fi/digi/view.ka?kuid=6343210<br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5907773391&amp;aineistoId=1174823424">https://astia.narc.fi/uusiastia/viewer/?fileId=5907773391&amp;aineistoId=1174823424</a></p></div>
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Sipoon ruotsalaisen seurakunnan arkisto - Rippikirja 1804-1815, jakso 139, sivu 136: Immersby, Grisas; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=6343210 / Viitattu 25.4.2021</p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../src/0/6/eba6403f8734352d144f7b34560.html" title="Sipoon ruotsalainen seurakunta: Sipoo Rippikirja 1816-1826" name ="sref4">
+						Sipoon ruotsalainen seurakunta: Sipoo Rippikirja 1816-1826
+						</a>
+						<ol id="citr">
+							<li id="sref4a">
+								<ul>
+									<li>
+									Page: 91
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Sipoon ruotsalaisen seurakunnan arkisto - Rippikirja 1816-1826, jakso 93, sivu 91: Gesterby, öfrige åboer å Nilsas; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=6343557 / Viitattu 25.4.2021</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p>http://digi.narc.fi/digi/view.ka?kuid=6343557<br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5907816185&amp;aineistoId=1174906236">https://astia.narc.fi/uusiastia/viewer/?fileId=5907816185&amp;aineistoId=1174906236</a></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref4b">
+								<ul>
+									<li>
+									Page: 118
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Sipoon ruotsalaisen seurakunnan arkisto - Rippikirja 1816-1826, jakso 395, sivu 118: Pigby, Garfvaren; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=6343868 / Viitattu 25.4.2021</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p>http://digi.narc.fi/digi/view.ka?kuid=6343868<br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5907816422&amp;aineistoId=1174906236">https://astia.narc.fi/uusiastia/viewer/?fileId=5907816422&amp;aineistoId=1174906236</a></p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../src/0/c/db74fe24dbf7525c14f98f33fc0.html" title="Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Muuttaneet 1796-1857" name ="sref5">
 						Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Muuttaneet 1796-1857
 						</a>
-						<ol>
-							<li id="sref3a">
+						<ol id="citr">
+							<li id="sref5a">
 								<ul>
 									<li>
 									Page: jakso 91
@@ -604,89 +679,10 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/6/0/eba6153da1eacbcfab4eef5506.html" title="Sipoon ruotsalainen seurakunta: Sipoo Rippikirja 1804-1815" name ="sref4">
-						Sipoon ruotsalainen seurakunta: Sipoo Rippikirja 1804-1815
-						</a>
-						<ol>
-							<li id="sref4a">
-								<ul>
-									<li>
-									Page: 337
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Sipoon ruotsalaisen seurakunnan arkisto - Rippikirja 1804-1815, jakso 341, sivu 337: Östersundom, Gl. Kärr; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=6343402 / Viitattu 25.4.2021</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p>http://digi.narc.fi/digi/view.ka?kuid=6343402<br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5907773076&amp;aineistoId=1174823424">https://astia.narc.fi/uusiastia/viewer/?fileId=5907773076&amp;aineistoId=1174823424</a></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref4b">
-								<ul>
-									<li>
-									Page: 136
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p>http://digi.narc.fi/digi/view.ka?kuid=6343210<br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5907773391&amp;aineistoId=1174823424">https://astia.narc.fi/uusiastia/viewer/?fileId=5907773391&amp;aineistoId=1174823424</a></p></div>
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Sipoon ruotsalaisen seurakunnan arkisto - Rippikirja 1804-1815, jakso 139, sivu 136: Immersby, Grisas; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=6343210 / Viitattu 25.4.2021</p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref4c">
-								<ul>
-									<li>
-									Page: 293
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Sipoon ruotsalaisen seurakunnan arkisto - Rippikirja 1804-1815, jakso 296, sivu 293: Pigby Petas; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=6343359 / Viitattu 25.4.2021</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p>http://digi.narc.fi/digi/view.ka?kuid=6343359<br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5907773097&amp;aineistoId=1174823424">https://astia.narc.fi/uusiastia/viewer/?fileId=5907773097&amp;aineistoId=1174823424</a></p></div>
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
-						<a href="../../../src/0/6/eba6403f8734352d144f7b34560.html" title="Sipoon ruotsalainen seurakunta: Sipoo Rippikirja 1816-1826" name ="sref5">
-						Sipoon ruotsalainen seurakunta: Sipoo Rippikirja 1816-1826
-						</a>
-						<ol>
-							<li id="sref5a">
-								<ul>
-									<li>
-									Page: 118
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Sipoon ruotsalaisen seurakunnan arkisto - Rippikirja 1816-1826, jakso 395, sivu 118: Pigby, Garfvaren; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=6343868 / Viitattu 25.4.2021</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p>http://digi.narc.fi/digi/view.ka?kuid=6343868<br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5907816422&amp;aineistoId=1174906236">https://astia.narc.fi/uusiastia/viewer/?fileId=5907816422&amp;aineistoId=1174906236</a></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref5b">
-								<ul>
-									<li>
-									Page: 91
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Sipoon ruotsalaisen seurakunnan arkisto - Rippikirja 1816-1826, jakso 93, sivu 91: Gesterby, öfrige åboer å Nilsas; Kansallisarkisto: http://digi.narc.fi/digi/view.ka?kuid=6343557 / Viitattu 25.4.2021</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p>http://digi.narc.fi/digi/view.ka?kuid=6343557<br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5907816185&amp;aineistoId=1174906236">https://astia.narc.fi/uusiastia/viewer/?fileId=5907816185&amp;aineistoId=1174906236</a></p></div>
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
 						<a href="../../../src/f/b/d6ca92a86b3679725400d86aebf.html" title="Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Vihityt 1805-1841" name ="sref6">
 						Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Vihityt 1805-1841
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref6a">
 								<ul>
 									<li>
@@ -706,7 +702,7 @@
 						<a href="../../../src/e/5/d92e5dd42e222de60753238ab5e.html" title="Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Lastenkirja 1803-1820" name ="sref7">
 						Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Lastenkirja 1803-1820
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref7a">
 								<ul>
 									<li>
@@ -726,7 +722,7 @@
 						<a href="../../../src/d/1/d6cdb6e892b39137797a08ac81d.html" title="Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Rippikirja 1821-1829" name ="sref8">
 						Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Rippikirja 1821-1829
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref8a">
 								<ul>
 									<li>
@@ -746,7 +742,7 @@
 						<a href="../../../src/d/1/d931e49e9d160c9da9b335a291d.html" title="Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Lastenkirja 1820-1831" name ="sref9">
 						Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Lastenkirja 1820-1831
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref9a">
 								<ul>
 									<li>
@@ -766,7 +762,7 @@
 						<a href="../../../src/f/0/d6ca98778dc10e0561f9c06980f.html" title="Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Rippikirja 1829-1839" name ="sref10">
 						Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Rippikirja 1829-1839
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref10a">
 								<ul>
 									<li>
@@ -791,7 +787,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2021-04-25 20:12:40<br />Created for Entire Database
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2<br />Last change was the 2021-04-25 20:12:40<br />Created for Entire Database
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

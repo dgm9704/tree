@@ -1,27 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>Nordberg Family Tree - Korhonen, Hilda Maria</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
-	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">Nordberg Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">Nordberg Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li class = "CurrentSection"><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
 					<li><a href="../../../families.html" title="Families">Families</a></li>
@@ -29,13 +39,43 @@
 					<li><a href="../../../places.html" title="Places">Places</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="IndividualDetail">
 			<h3>Korhonen, Hilda Maria<sup><small></small></sup></h3>
 			<div id="summaryarea">
@@ -58,7 +98,7 @@
 			</div>
 			<div class="subsection" id="events">
 				<h4>Events</h4>
-				<table class="infolist eventlist">
+				<table class="infolist eventlist toggle_event ltr" id="toggle_event" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnEvent">Event</th>
@@ -70,7 +110,7 @@
 					</thead>
 					<tbody>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/5/4/cb589cc804f26fab645.html" title="Birth">
 								Birth
 								</a>
@@ -86,9 +126,6 @@
 							 <a href="#sref1a">1a</a> <a href="#sref2a">2a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -96,33 +133,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/f/8/dcf34d6376f41cc64115dc30f8f.html" title="Residence">
-								Residence
-								</a>
-							</td>
-							<td class="ColumnDate">from 1886 to 1888</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/f/8/dcf34ceb18c4446ad3ad6ee98f.html" title="Arola, Haapamäki, Rautalampi, Suomi">
-								Arola, Haapamäki, Rautalampi, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref3a">3a</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/6/f/dcf34ead2a3624d3e3fe593ff6.html" title="Residence">
 								Residence
 								</a>
@@ -135,12 +146,9 @@
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref3b">3b</a>
+							 <a href="#sref3a">3a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -148,7 +156,30 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/f/8/dcf34d6376f41cc64115dc30f8f.html" title="Residence">
+								Residence
+								</a>
+							</td>
+							<td class="ColumnDate">from 1886 to 1888</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/f/8/dcf34ceb18c4446ad3ad6ee98f.html" title="Arola, Haapamäki, Rautalampi, Suomi">
+								Arola, Haapamäki, Rautalampi, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref3b">3b</a>
+							</td>
+							<tr>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/0/e/dcf2fd9d31811319fed50b4f6e0.html" title="Residence">
 								Residence
 								</a>
@@ -164,9 +195,6 @@
 							 <a href="#sref4a">4a</a> <a href="#sref5a">5a</a> <a href="#sref6a">6a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -174,7 +202,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/5/5/cfcd672b8824c166955.html" title="Residence">
 								Residence
 								</a>
@@ -190,9 +218,6 @@
 							 <a href="#sref6a">6a</a> <a href="#sref7a">7a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -200,33 +225,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/a/4/cfcd622e3c23b12fe4a.html" title="Residence">
-								Residence
-								</a>
-							</td>
-							<td class="ColumnDate">after 1893-01-23</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/5/5/cb589cc7f8d1b88b055.html" title="Helsinki, Suomi">
-								Helsinki, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref8a">8a</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/9/9/defd44d5b6766aec46a1febba99.html" title="Death">
 								Death
 								</a>
@@ -239,12 +238,9 @@
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref9a">9a</a> <a href="#sref10a">10a</a> <a href="#sref11a">11a</a>
+							 <a href="#sref8a">8a</a> <a href="#sref9a">9a</a> <a href="#sref10a">10a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -252,7 +248,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/e/3/ceb81be4ad168389b3e.html" title="Burial">
 								Burial
 								</a>
@@ -265,12 +261,9 @@
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref12a">12a</a> <a href="#sref12b">12b</a>
+							 <a href="#sref11a">11a</a> <a href="#sref11b">11b</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -278,7 +271,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/1/e/defd4628db01e256deeef0e12e1.html" title="Estate Inventory">
 								Estate Inventory
 								</a>
@@ -291,12 +284,32 @@
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref9a">9a</a>
+							 <a href="#sref8a">8a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
 								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/a/4/cfcd622e3c23b12fe4a.html" title="Residence">
+								Residence
+								</a>
+							</td>
+							<td class="ColumnDate">after 1893-01-23</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/5/5/cb589cc7f8d1b88b055.html" title="Helsinki, Suomi">
+								Helsinki, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref12a">12a</a>
+							</td>
+							<tr>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -308,7 +321,7 @@
 			</div>
 			<div class="subsection" id="parents">
 				<h4>Parents</h4>
-				<table class="infolist">
+				<table class="infolist toggle_parent ltr" id="toggle_parent" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnAttribute">Relation to main person</th>
@@ -388,7 +401,7 @@
 			</div>
 			<div class="subsection" id="families">
 				<h4>Families</h4>
-				<table class="infolist">
+				<table class="infolist" id="toggle_families" style="display:block">
 					<tr class="BeginFamily">
 						<td class="ColumnValue" colspan="3"><H4 class="subsection"><a href="../../../fam/7/2/cb589cc7f9c792dc427.html" title="Family of Nordberg, Emil Ferdinand and Korhonen, Hilda Maria">Family of Nordberg, Emil Ferdinand and Korhonen, Hilda Maria</a></H4></td>
 					</tr>
@@ -406,9 +419,8 @@
 					</tr>
 					<tr>
 						<td class="ColumnType">&nbsp;</td>
-						<td class="ColumnAttribute">&nbsp;</td>
-						<td class="ColumnValue">
-							<table class="infolist eventlist">
+						<td class="ColumnValue" colspan="2">
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnEvent">Event</th>
@@ -420,7 +432,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/f/3/cb589cfbc6279ba4d3f.html" title="Marriage">
 											Marriage
 											</a>
@@ -436,9 +448,6 @@
 										 <a href="#sref13a">13a</a> <a href="#sref14a">14a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -446,7 +455,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/5/0/d3f865019692009b88a1b64f05.html" title="Residence">
 											Residence
 											</a>
@@ -462,9 +471,6 @@
 										 <a href="#sref15a">15a</a> <a href="#sref16a">16a</a> <a href="#sref17a">17a</a> <a href="#sref16b">16b</a> <a href="#sref18a">18a</a> <a href="#sref19a">19a</a> <a href="#sref18b">18b</a> <a href="#sref16c">16c</a> <a href="#sref18c">18c</a> <a href="#sref20a">20a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -472,7 +478,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/f/2/d3f893d8c6c4df4ebc1e26fd92f.html" title="Residence">
 											Residence
 											</a>
@@ -488,9 +494,6 @@
 										 <a href="#sref18d">18d</a> <a href="#sref21a">21a</a> <a href="#sref18e">18e</a> <a href="#sref15a">15a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -498,7 +501,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/6/2/f164e26ca8b3bfc2f2bd48c5f26.html" title="Residence">
 											Residence
 											</a>
@@ -514,9 +517,6 @@
 										 <a href="#sref16d">16d</a> <a href="#sref16e">16e</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -524,7 +524,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/3/7/d3f972f1345632f97304d720673.html" title="Residence">
 											Residence
 											</a>
@@ -540,9 +540,6 @@
 										 <a href="#sref18f">18f</a> <a href="#sref15a">15a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -550,7 +547,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/5/7/d3f9d047ed7163c31d7b4a42675.html" title="Residence">
 											Residence
 											</a>
@@ -566,9 +563,6 @@
 										 <a href="#sref15a">15a</a> <a href="#sref16f">16f</a> <a href="#sref22a">22a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -576,7 +570,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/4/6/d3f8508cece5b9c8d9b1928b664.html" title="Residence">
 											Residence
 											</a>
@@ -592,9 +586,6 @@
 										 <a href="#sref23a">23a</a> <a href="#sref23b">23b</a> <a href="#sref24a">24a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -602,7 +593,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/e/c/ceb8059d63a0a6bc9ce.html" title="Residence">
 											Residence
 											</a>
@@ -618,9 +609,6 @@
 										 <a href="#sref23a">23a</a> <a href="#sref23b">23b</a> <a href="#sref25a">25a</a> <a href="#sref26a">26a</a> <a href="#sref27a">27a</a> <a href="#sref28a">28a</a> <a href="#sref29a">29a</a> <a href="#sref30a">30a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -628,7 +616,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/c/f/e1595a9714338ca5d2884056bfc.html" title="Residence">
 											Residence
 											</a>
@@ -644,9 +632,6 @@
 										 <a href="#sref25a">25a</a> <a href="#sref31a">31a</a> <a href="#sref32a">32a</a> <a href="#sref33a">33a</a> <a href="#sref34a">34a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -654,7 +639,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/a/0/dcdce96d789173900fb6b4bb90a.html" title="Residence">
 											Residence
 											</a>
@@ -670,9 +655,6 @@
 										 <a href="#sref25a">25a</a> <a href="#sref35a">35a</a> <a href="#sref36a">36a</a> <a href="#sref37a">37a</a> <a href="#sref38a">38a</a> <a href="#sref33b">33b</a> <a href="#sref39a">39a</a> <a href="#sref40a">40a</a> <a href="#sref40b">40b</a> <a href="#sref40c">40c</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -680,7 +662,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/a/6/f165acc5dcc49d4e83b843596a.html" title="Residence">
 											Residence
 											</a>
@@ -696,9 +678,6 @@
 										 <a href="#sref40d">40d</a> <a href="#sref40e">40e</a> <a href="#sref40f">40f</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -709,10 +688,9 @@
 							</table>
 						</td>
 						<tr>
-							<td class="ColumnType">&nbsp;</td>
 							<td class="ColumnAttribute">Children</td>
-							<td class="ColumnValue" />
-							<table class="infolist eventlist">
+							<td class="ColumnValue Child" colspan="2" />
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnName">Name</th>
@@ -734,7 +712,7 @@
 			</div>
 			<div class="subsection" id="pedigree">
 				<h4>Pedigree</h4>
-				<ol class="pedigreegen">
+				<ol class="pedigreegen" id="toggle_pedigree" style="display:block">
 					<li>
 						<a href="../../../ppl/c/0/cb589cc84e63bbab10c.html">Korhonen, Adam Gabrielsson</a>
 						<ol>
@@ -795,177 +773,179 @@
 			</div>
 			<div class="subsection" id="tree">
 				<h4>Ancestors</h4>
-				<div id="treeContainer" style="width:1234px; height:1200px; top: 0px">
-					<div class="boxbg female AncCol0" style="top: 530px; left: 6px;">
-						<a class="noThumb" href="../../../ppl/3/1/cb589cc804b2d4cd313.html">
-						Korhonen, Hilda Maria<br/>*1869-06-19<br/>+1937-02-04
-						</a>
+				<div class="tree" id="toggle_anc" style="display:block">
+					<div id="treeContainer" style="width:1234px; height:1200px; top: 0px">
+						<div class="boxbg female AncCol0" style="top: 530px; left: 6px;">
+							<a class="noThumb" href="../../../ppl/3/1/cb589cc804b2d4cd313.html">
+							Korhonen, Hilda Maria<br>*1869-06-19<br>+1937-02-04
+							</a>
+						</div>
+						<div class="shadow" style="top: 535px; left: 10px;"></div>
+						<div class="bvline" style="top: 550px; left: 285px; width: 15px"></div>
+						<div class="gvline" style="top: 555px; left: 285px; width: 20px"></div>
+						<div class="boxbg male AncCol1" style="top: 230px; left: 316px;">
+							<a class="noThumb" href="../../../ppl/c/0/cb589cc84e63bbab10c.html">
+							Korhonen, Adam Gabrielsson<br>*1829-12-23<br>+1896-05-10
+							</a>
+						</div>
+						<div class="shadow" style="top: 235px; left: 320px;"></div>
+						<div class="bvline" style="top: 250px; left: 300px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 250px; left: 300px; height: 301px;"></div>
+					
+						<div class="bvline" style="top: 250px; left: 595px; width: 15px"></div>
+						<div class="gvline" style="top: 255px; left: 595px; width: 20px"></div>
+						<div class="boxbg male AncCol2" style="top: 80px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/d/c/cb589cc96125216f2cd.html">
+							Korhonen, Gabriel Påhlsson<br>*1803-12-19<br>+1860-05-01
+							</a>
+						</div>
+						<div class="shadow" style="top: 85px; left: 630px;"></div>
+						<div class="bvline" style="top: 100px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 100px; left: 610px; height: 151px;"></div>
+					
+						<div class="bvline" style="top: 100px; left: 905px; width: 15px"></div>
+						<div class="gvline" style="top: 105px; left: 905px; width: 20px"></div>
+						<div class="boxbg male AncCol3" style="top: 5px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/3/3/cb589ccc8ab1e1e3133.html">
+							Korhonen, Påhl Mattsson<br>*1775<br>+1840-11-08
+							</a>
+						</div>
+						<div class="shadow" style="top: 10px; left: 940px;"></div>
+						<div class="bvline" style="top: 25px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 25px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol3" style="top: 155px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/3/5/cb589ccc88138971b53.html">
+							Huttunen, Lisa Michelsdotter<br>*1778<br>+1854-07-22
+							</a>
+						</div>
+						<div class="shadow" style="top: 160px; left: 940px;"></div>
+						<div class="bvline" style="top: 175px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 100px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol2" style="top: 380px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/d/4/cb589cc95ec038e744d.html">
+							Raatikainen, Anna Lisa Samuelsdotter<br>*1803<br>+1871-11-09
+							</a>
+						</div>
+						<div class="shadow" style="top: 385px; left: 630px;"></div>
+						<div class="bvline" style="top: 400px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 250px; left: 610px; height: 151px;"></div>
+					
+						<div class="bvline" style="top: 400px; left: 905px; width: 15px"></div>
+						<div class="gvline" style="top: 405px; left: 905px; width: 20px"></div>
+						<div class="boxbg male AncCol3" style="top: 305px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/c/c/cb589ccc7ae38cea7cc.html">
+							Radikain, Samuel Samuelsson<br>*1771-03-02<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 310px; left: 940px;"></div>
+						<div class="bvline" style="top: 325px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 325px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol3" style="top: 455px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/e/2/cb589ccc7db4472152e.html">
+							Vepsäläin, Lisa<br>*1777<br>+1809-01-10
+							</a>
+						</div>
+						<div class="shadow" style="top: 460px; left: 940px;"></div>
+						<div class="bvline" style="top: 475px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 400px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol1" style="top: 830px; left: 316px;">
+							<a class="noThumb" href="../../../ppl/3/2/cb589cc84c27af4bb23.html">
+							Jääskeläinen, Eva Pettersdotter<br>*1842-10-30<br>+1927-09-10
+							</a>
+						</div>
+						<div class="shadow" style="top: 835px; left: 320px;"></div>
+						<div class="bvline" style="top: 850px; left: 300px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 550px; left: 300px; height: 301px;"></div>
+					
+						<div class="bvline" style="top: 850px; left: 595px; width: 15px"></div>
+						<div class="gvline" style="top: 855px; left: 595px; width: 20px"></div>
+						<div class="boxbg male AncCol2" style="top: 680px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/2/f/cb589cc94d005da5cf2.html">
+							Jääskeläinen, Petter Mattsson<br>*1806-02-15<br>+1879-06-26
+							</a>
+						</div>
+						<div class="shadow" style="top: 685px; left: 630px;"></div>
+						<div class="bvline" style="top: 700px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 700px; left: 610px; height: 151px;"></div>
+					
+						<div class="bvline" style="top: 700px; left: 905px; width: 15px"></div>
+						<div class="gvline" style="top: 705px; left: 905px; width: 20px"></div>
+						<div class="boxbg male AncCol3" style="top: 605px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/2/8/cb589ccc61103fcae82.html">
+							Jäskeläin, Matts<br>*1783<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 610px; left: 940px;"></div>
+						<div class="bvline" style="top: 625px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 625px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol3" style="top: 755px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/d/1/cb589ccc62b04f0131d.html">
+							Westerinen, Elisabeth<br>*1784<br>+1819-12-10
+							</a>
+						</div>
+						<div class="shadow" style="top: 760px; left: 940px;"></div>
+						<div class="bvline" style="top: 775px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 700px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol2" style="top: 980px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/8/0/cb589cc948c07b4ff08.html">
+							Tarvainen, Caisa Mathilda<br>*1812-11-15<br>+1884-11-01
+							</a>
+						</div>
+						<div class="shadow" style="top: 985px; left: 630px;"></div>
+						<div class="bvline" style="top: 1000px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 850px; left: 610px; height: 151px;"></div>
+					
+						<div class="bvline" style="top: 1000px; left: 905px; width: 15px"></div>
+						<div class="gvline" style="top: 1005px; left: 905px; width: 20px"></div>
+						<div class="boxbg male AncCol3" style="top: 905px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/1/f/cb589ccc4d95f33fbf1.html">
+							Tarvain, Matts<br>*1767<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 910px; left: 940px;"></div>
+						<div class="bvline" style="top: 925px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 925px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol3" style="top: 1055px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/4/8/cb589ccc4c00d9da784.html">
+							Knutin, Elisabeth<br>*1771-08-02<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 1060px; left: 940px;"></div>
+						<div class="bvline" style="top: 1075px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 1000px; left: 920px; height: 76px;"></div>
+					
 					</div>
-					<div class="shadow" style="top: 535px; left: 10px;"></div>
-					<div class="bvline" style="top: 550px; left: 285px; width: 15px"></div>
-					<div class="gvline" style="top: 555px; left: 285px; width: 20px"></div>
-					<div class="boxbg male AncCol1" style="top: 230px; left: 316px;">
-						<a class="noThumb" href="../../../ppl/c/0/cb589cc84e63bbab10c.html">
-						Korhonen, Adam Gabrielsson<br/>*1829-12-23<br/>+1896-05-10
-						</a>
-					</div>
-					<div class="shadow" style="top: 235px; left: 320px;"></div>
-					<div class="bvline" style="top: 250px; left: 300px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 250px; left: 300px; height: 301px;"></div>
-				
-					<div class="bvline" style="top: 250px; left: 595px; width: 15px"></div>
-					<div class="gvline" style="top: 255px; left: 595px; width: 20px"></div>
-					<div class="boxbg male AncCol2" style="top: 80px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/d/c/cb589cc96125216f2cd.html">
-						Korhonen, Gabriel Påhlsson<br/>*1803-12-19<br/>+1860-05-01
-						</a>
-					</div>
-					<div class="shadow" style="top: 85px; left: 630px;"></div>
-					<div class="bvline" style="top: 100px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 100px; left: 610px; height: 151px;"></div>
-				
-					<div class="bvline" style="top: 100px; left: 905px; width: 15px"></div>
-					<div class="gvline" style="top: 105px; left: 905px; width: 20px"></div>
-					<div class="boxbg male AncCol3" style="top: 5px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/3/3/cb589ccc8ab1e1e3133.html">
-						Korhonen, Påhl Mattsson<br/>*1775<br/>+1840-11-08
-						</a>
-					</div>
-					<div class="shadow" style="top: 10px; left: 940px;"></div>
-					<div class="bvline" style="top: 25px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 25px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol3" style="top: 155px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/3/5/cb589ccc88138971b53.html">
-						Huttunen, Lisa Michelsdotter<br/>*1778<br/>+1854-07-22
-						</a>
-					</div>
-					<div class="shadow" style="top: 160px; left: 940px;"></div>
-					<div class="bvline" style="top: 175px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 100px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol2" style="top: 380px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/d/4/cb589cc95ec038e744d.html">
-						Raatikainen, Anna Lisa Samuelsdotter<br/>*1803<br/>+1871-11-09
-						</a>
-					</div>
-					<div class="shadow" style="top: 385px; left: 630px;"></div>
-					<div class="bvline" style="top: 400px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 250px; left: 610px; height: 151px;"></div>
-				
-					<div class="bvline" style="top: 400px; left: 905px; width: 15px"></div>
-					<div class="gvline" style="top: 405px; left: 905px; width: 20px"></div>
-					<div class="boxbg male AncCol3" style="top: 305px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/c/c/cb589ccc7ae38cea7cc.html">
-						Radikain, Samuel Samuelsson<br/>*1771-03-02<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 310px; left: 940px;"></div>
-					<div class="bvline" style="top: 325px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 325px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol3" style="top: 455px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/e/2/cb589ccc7db4472152e.html">
-						Vepsäläin, Lisa<br/>*1777<br/>+1809-01-10
-						</a>
-					</div>
-					<div class="shadow" style="top: 460px; left: 940px;"></div>
-					<div class="bvline" style="top: 475px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 400px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol1" style="top: 830px; left: 316px;">
-						<a class="noThumb" href="../../../ppl/3/2/cb589cc84c27af4bb23.html">
-						Jääskeläinen, Eva Pettersdotter<br/>*1842-10-30<br/>+1927-09-10
-						</a>
-					</div>
-					<div class="shadow" style="top: 835px; left: 320px;"></div>
-					<div class="bvline" style="top: 850px; left: 300px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 550px; left: 300px; height: 301px;"></div>
-				
-					<div class="bvline" style="top: 850px; left: 595px; width: 15px"></div>
-					<div class="gvline" style="top: 855px; left: 595px; width: 20px"></div>
-					<div class="boxbg male AncCol2" style="top: 680px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/2/f/cb589cc94d005da5cf2.html">
-						Jääskeläinen, Petter Mattsson<br/>*1806-02-15<br/>+1879-06-26
-						</a>
-					</div>
-					<div class="shadow" style="top: 685px; left: 630px;"></div>
-					<div class="bvline" style="top: 700px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 700px; left: 610px; height: 151px;"></div>
-				
-					<div class="bvline" style="top: 700px; left: 905px; width: 15px"></div>
-					<div class="gvline" style="top: 705px; left: 905px; width: 20px"></div>
-					<div class="boxbg male AncCol3" style="top: 605px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/2/8/cb589ccc61103fcae82.html">
-						Jäskeläin, Matts<br/>*1783<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 610px; left: 940px;"></div>
-					<div class="bvline" style="top: 625px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 625px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol3" style="top: 755px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/d/1/cb589ccc62b04f0131d.html">
-						Westerinen, Elisabeth<br/>*1784<br/>+1819-12-10
-						</a>
-					</div>
-					<div class="shadow" style="top: 760px; left: 940px;"></div>
-					<div class="bvline" style="top: 775px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 700px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol2" style="top: 980px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/8/0/cb589cc948c07b4ff08.html">
-						Tarvainen, Caisa Mathilda<br/>*1812-11-15<br/>+1884-11-01
-						</a>
-					</div>
-					<div class="shadow" style="top: 985px; left: 630px;"></div>
-					<div class="bvline" style="top: 1000px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 850px; left: 610px; height: 151px;"></div>
-				
-					<div class="bvline" style="top: 1000px; left: 905px; width: 15px"></div>
-					<div class="gvline" style="top: 1005px; left: 905px; width: 20px"></div>
-					<div class="boxbg male AncCol3" style="top: 905px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/1/f/cb589ccc4d95f33fbf1.html">
-						Tarvain, Matts<br/>*1767<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 910px; left: 940px;"></div>
-					<div class="bvline" style="top: 925px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 925px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol3" style="top: 1055px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/4/8/cb589ccc4c00d9da784.html">
-						Knutin, Elisabeth<br/>*1771-08-02<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 1060px; left: 940px;"></div>
-					<div class="bvline" style="top: 1075px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 1000px; left: 920px; height: 76px;"></div>
-				
 				</div>
 			</div>
 			<div class="subsection" id="sourcerefs">
 				<h4>Source References</h4>
-				<ol>
+				<ol id="srcr">
 					<li>
 						<a href="../../../src/4/f/cde6260bdbc4ac95df4.html" title="Rautalammin seurakunta: Rautalampi Syntyneet 1862-1879" name ="sref1">
 						Rautalammin seurakunta: Rautalampi Syntyneet 1862-1879
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref1a">
 								<ul>
 									<li>
@@ -991,7 +971,7 @@
 						<a href="../../../src/5/6/dcf2b1dca8654f628c3a95cd365.html" title="Rautalammin seurakunta: Rautalampi Lastenkirja 1862-1871" name ="sref2">
 						Rautalammin seurakunta: Rautalampi Lastenkirja 1862-1871
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref2a">
 								<ul>
 									<li>
@@ -1014,24 +994,8 @@
 						<a href="../../../src/4/1/dcf2d8934b82a9ee990799ce914.html" title="Rautalammin seurakunta: Rautalampi Rippikirja 1882-1890" name ="sref3">
 						Rautalammin seurakunta: Rautalampi Rippikirja 1882-1890
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref3a">
-								<ul>
-									<li>
-									Page: I/14
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Rautalampi rippikirja 1882-1890 (MKO235-252)  Sivu 14 Haapamäki 4 Arola ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=2611&amp;pnum=18 / Viitattu 18.07.2023</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=2611&amp;pnum=18">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=2611&amp;pnum=18</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">14 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Haapamäki No 4 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; siirr. Karttulaan 010590</span></p><p><span style="font-family:'Courier New';">Arola</span></p><p><span style="font-family:'Courier New';">Hilda Maria Korhonen &nbsp;- &nbsp;1 &nbsp;19/8 1869 &nbsp; &nbsp;l 1525 86 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;14 88</span></p><p>&nbsp;</p><p>&nbsp;</p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref3b">
 								<ul>
 									<li>
 									Page: I/4
@@ -1047,13 +1011,29 @@
 									</li>
 								</ul>
 							</li>
+							<li id="sref3b">
+								<ul>
+									<li>
+									Page: I/14
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Rautalampi rippikirja 1882-1890 (MKO235-252)  Sivu 14 Haapamäki 4 Arola ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=2611&amp;pnum=18 / Viitattu 18.07.2023</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=2611&amp;pnum=18">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=2611&amp;pnum=18</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">14 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Haapamäki No 4 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; siirr. Karttulaan 010590</span></p><p><span style="font-family:'Courier New';">Arola</span></p><p><span style="font-family:'Courier New';">Hilda Maria Korhonen &nbsp;- &nbsp;1 &nbsp;19/8 1869 &nbsp; &nbsp;l 1525 86 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;14 88</span></p><p>&nbsp;</p><p>&nbsp;</p></div>
+									</li>
+								</ul>
+							</li>
 						</ol>
 					</li>
 					<li>
 						<a href="../../../src/2/1/dcf2ff492b77c46dff6af1a8012.html" title="Karttulan seurakunta: Karttula Rippikirja 1885-1890" name ="sref4">
 						Karttulan seurakunta: Karttula Rippikirja 1885-1890
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref4a">
 								<ul>
 									<li>
@@ -1076,7 +1056,7 @@
 						<a href="../../../src/f/5/dcf30098b1978c536c8c158e45f.html" title="Karttulan seurakunta: Karttula Rippikirja 1891-1900" name ="sref5">
 						Karttulan seurakunta: Karttula Rippikirja 1891-1900
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref5a">
 								<ul>
 									<li>
@@ -1099,7 +1079,7 @@
 						<a href="../../../src/4/9/dcf2e2f108741af5fc66ab32494.html" title="Rautalammin seurakunta: Rautalampi Rippikirja 1891-1900" name ="sref6">
 						Rautalammin seurakunta: Rautalampi Rippikirja 1891-1900
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref6a">
 								<ul>
 									<li>
@@ -1122,7 +1102,7 @@
 						<a href="../../../src/4/9/cfcd66c05e11d220f94.html" title="Rautalammin seurakunta: Rautalampi Muuttaneet 1880-1902" name ="sref7">
 						Rautalammin seurakunta: Rautalampi Muuttaneet 1880-1902
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref7a">
 								<ul>
 									<li>
@@ -1145,11 +1125,116 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/a/e/cfcd61aa99f30e2c4ea.html" title="Helsingin suomalais-ruotsalainen seurakunta: Helsinki Muuttaneet 1890-1902" name ="sref8">
+						<a href="../../../src/0/0/defd445dbd3341f9ccc77d7c900.html" title="Nordberg Hilda Maria kuolinpesä: Perukirja Nordberg Hilda Maria" name ="sref8">
+						Nordberg Hilda Maria kuolinpesä: Perukirja Nordberg Hilda Maria
+						</a>
+						<ol id="citr">
+							<li id="sref8a">
+								<ul>
+									<li>
+									Date: 1937-05-02
+									</li>
+									<li>
+									Page: 1-4
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../src/9/0/f06358b3a483c612af5d0043009.html" title="Viipurin tuomiokirkkoseurakunta: Viipurin tksrk Rippikirja 1931-1940" name ="sref9">
+						Viipurin tuomiokirkkoseurakunta: Viipurin tksrk Rippikirja 1931-1940
+						</a>
+						<ol id="citr">
+							<li id="sref9a">
+								<ul>
+									<li>
+									Page: 011b/2794
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Viipurin tksrk / Rippikirjat / Sidos 011b / Sivu 2794 / Hilda Maria Nordberg; Kansallisarkisto Karjala-Tietokanta https://katiha.kansallisarkisto.fi/henkilotieto.php?keyId=0625R011b0000854 / Viitattu 30.12.2023</p><p>&nbsp;</p><p>&nbsp;</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://katiha.kansallisarkisto.fi/henkilotieto.php?keyId=0625R011b0000854">https://katiha.kansallisarkisto.fi/henkilotieto.php?keyId=0625R011b0000854</a></p></div>
+									</li>
+									<li>
+									Source text: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">Hilda Maria Nordberg</span><br /><span style="font-family:'Courier New';">Päätiedot</span><br /><span style="font-family:'Courier New';">Kenttä &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Arvo</span><br /><span style="font-family:'Courier New';">Seurakunta &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Viipurin tksrk</span><br /><span style="font-family:'Courier New';">Kirkonkirja &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Rippikirjat</span><br /><span style="font-family:'Courier New';">Sidos &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 011b</span><br /><span style="font-family:'Courier New';">Sivu &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2794</span><br /><span style="font-family:'Courier New';">Sivu (ab)</span><br /><span style="font-family:'Courier New';">Rivi &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;12</span><br /><span style="font-family:'Courier New';">Numero rivillä 	</span><br /><span style="font-family:'Courier New';">Asuinpaikka &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; N</span><br /><span style="font-family:'Courier New';">Ammatti &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Peltisep.leski</span><br /><span style="font-family:'Courier New';">Etunimi &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Hilda</span><br /><span style="font-family:'Courier New';">Muut etunimet &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Maria</span><br /><span style="font-family:'Courier New';">Patronyymi 	</span><br /><span style="font-family:'Courier New';">Sukunimi &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Nordberg</span><br /><span style="font-family:'Courier New';">Omaa sukua &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Korhonen</span><br /><span style="font-family:'Courier New';">Sukupuoli &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; nainen</span><br /><span style="font-family:'Courier New';">Siviilisääty &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;leski</span><br /><span style="font-family:'Courier New';">Asevelvollisuus 	</span><br /><span style="font-family:'Courier New';">Rekisteröintinumero 	</span><br /><span style="font-family:'Courier New';">Syntymäaika &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 17.8.1869</span><br /><span style="font-family:'Courier New';">Synnyinseurakunta &nbsp; &nbsp; &nbsp; Rautalampi</span><br /><span style="font-family:'Courier New';">Aviosynty 	</span><br /><span style="font-family:'Courier New';">Monisynty 	</span><br /><span style="font-family:'Courier New';">Konfirmoitu 	</span><br /><span style="font-family:'Courier New';">Konfirmointiaika 	</span><br /><span style="font-family:'Courier New';">Rippikoulu &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;suorittanut</span><br /><span style="font-family:'Courier New';">Ehtoollisella käynti 	</span><br /><span style="font-family:'Courier New';">Rokotus &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; on</span><br /><span style="font-family:'Courier New';">Koulusivistys 	</span><br /><span style="font-family:'Courier New';">Kirjoitustaito &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;osaa</span><br /><span style="font-family:'Courier New';">Äidinkieli &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;suomi</span><br /><span style="font-family:'Courier New';">Tulon tyyppi &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;edellisen ajanjakson kirkonkirjasta</span><br /><span style="font-family:'Courier New';">Edellinen seurakunta 	</span><br /><span style="font-family:'Courier New';">Edellinen sivunumero &nbsp; &nbsp;vk.2365</span><br /><span style="font-family:'Courier New';">Edellinen muuttokirja 	</span><br /><span style="font-family:'Courier New';">Tuloaika 	</span><br /><span style="font-family:'Courier New';">Lähdön tyyppi &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; kuollut</span><br /><span style="font-family:'Courier New';">Seuraava seurakunta 	</span><br /><span style="font-family:'Courier New';">Seuraava sivunumero 	</span><br /><span style="font-family:'Courier New';">Seuraava muuttokirja 	</span><br /><span style="font-family:'Courier New';">Lähtöaika &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 4.2.1937</span><br /><span style="font-family:'Courier New';">Ikä 	</span><br /><span style="font-family:'Courier New';">Ruokakunnan numero 	</span><br /><span style="font-family:'Courier New';">Yliviivaus &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;yliviivattu</span></p><p><span style="font-family:'Courier New';">Huomautustiedot</span><br /><span style="font-family:'Courier New';">Kenttä 	 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Arvo</span><br /><span style="font-family:'Courier New';">aviopuoliso &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; mies Emil Ferdinand N.</span><br /><span style="font-family:'Courier New';">aviopuoliso &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; kuoli 17.02.1921.</span></p><p><span style="font-family:'Courier New';">Taitomerkinnät</span><br /><span style="font-family:'Courier New';">Kenttä 	 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Arvo</span><br /><span style="font-family:'Courier New';">sisäluku, innanläsning &nbsp;hyväksytty</span><br /><span style="font-family:'Courier New';">kristinoppi (IX) &nbsp; &nbsp; &nbsp; &nbsp;hyväksytty</span></p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../src/4/d/f171332d9e42b02a648e91798d4.html" title="Tilastollisen päätoimiston tilastoarkisto: Luettelot kuolleista 1936-1965" name ="sref10">
+						Tilastollisen päätoimiston tilastoarkisto: Luettelot kuolleista 1936-1965
+						</a>
+						<ol id="citr">
+							<li id="sref10a">
+								<ul>
+									<li>
+									Page: K03Ab:24/4
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Tilastollisen päätoimiston tilastoarkisto (KA) - K03Ab:24 Luettelot kuolleista , Viipurin lääni: Vahviala - Äyräpää; Kuopion lääni: Eno - Kitee  1937-1937, jakso 281, sivu 4: Kuolleet Viipurin tuomiokirkkoseurakunnassa v:n 1937 I:ltä neljänneksellä.; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=6869796008&amp;aineistoId=1093621726 / Viitattu 30.7.2022</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=6869796008&amp;aineistoId=1093621726">https://astia.narc.fi/uusiastia/viewer/?fileId=6869796008&amp;aineistoId=1093621726</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;4</span><br /><span style="font-family:'Courier New';">Kuolleet Viipurin tuomiokirkkoseurakunnassa v:n 1937 I:ltä neljänneksellä.</span></p><p><span style="font-family:'Courier New';">[Helmik] 4 &nbsp; &nbsp;2794 &nbsp; &nbsp;Nordberg, Hilda Maria, peltisep. leski &nbsp; &nbsp;l. &nbsp; &nbsp;1869 &nbsp;VIII 17 &nbsp; &nbsp;syöpä ihossa 7050 &nbsp; &nbsp;- &nbsp;1</span></p><p>&nbsp;</p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../src/e/e/ceb8173c46800f497ee.html" title="Viipurin tuomiokirkkoseurakunta: Viipuri Hautasijapaikkojen luettelot 1941-1944" name ="sref11">
+						Viipurin tuomiokirkkoseurakunta: Viipuri Hautasijapaikkojen luettelot 1941-1944
+						</a>
+						<ol id="citr">
+							<li id="sref11a">
+								<ul>
+									<li>
+									Date: 1937-02-12
+									</li>
+									<li>
+									Page: jakso 15
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Viipurin tuomiokirkkoseurakunnan arkisto. III TALOUSARKISTO. III B Luettelot. III Bb Hautasijapaikkojen luettelot. III Bb:3 Hautasijapaikkojen luettelot, Ristimäki, Rauhala  (1941-1944). Tiedosto 29. Kansallisarkisto. Viitattu 30.12.2023.</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=24273310">http://digi.narc.fi/digi/view.ka?kuid=24273310</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=6153567133&amp;aineistoId=1240856629">https://astia.narc.fi/uusiastia/viewer/?fileId=6153567133&amp;aineistoId=1240856629</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">N</span></p><p><span style="font-family:'Courier New';">Haudan omistaja &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Polku &nbsp;Haudan N:o </span><br /><span style="font-family:'Courier New';">Nordberg, Emil F. perill &nbsp;B4 &nbsp; &nbsp; 31</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; " &nbsp; &nbsp; Hilda Maria &nbsp; &nbsp; B4 &nbsp; &nbsp; “</span></p><p>&nbsp;</p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref11b">
+								<ul>
+									<li>
+									Page: 5-6, jakso 29
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Viipurin tuomiokirkkoseurakunnan arkisto. III TALOUSARKISTO. III B Luettelot. III Bb Hautasijapaikkojen luettelot. III Bb:3 Hautasijapaikkojen luettelot, Ristimäki, Rauhala  (1941-1944). Tiedosto 29. Kansallisarkisto. Viitattu 30.12.2023.</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=6153567133&amp;aineistoId=1240856629">https://astia.narc.fi/uusiastia/viewer/?fileId=6153567133&amp;aineistoId=1240856629</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">Polku &nbsp;Haudan &nbsp; Pinta- &nbsp;Milloin &nbsp; Haudan omistaja &nbsp;Haudatut &nbsp; &nbsp; &nbsp; &nbsp;Milloin &nbsp; N:o </span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp;N:o &nbsp; &nbsp; &nbsp;ala &nbsp; &nbsp; ostettu &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;haudattu &nbsp;hauta-</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; m2 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; kirjassa</span><br /><span style="font-family:'Courier New';">4 &nbsp; &nbsp; &nbsp;31 &nbsp; &nbsp; &nbsp; 3 &nbsp; &nbsp; &nbsp; 6/2 37 &nbsp; &nbsp;Nordberg Emil &nbsp; &nbsp;Hilda Maria N. &nbsp;12/2 37 &nbsp; 3589</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Ferd. perill. &nbsp; &nbsp;1.8, 4226</span></p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../src/a/e/cfcd61aa99f30e2c4ea.html" title="Helsingin suomalais-ruotsalainen seurakunta: Helsinki Muuttaneet 1890-1902" name ="sref12">
 						Helsingin suomalais-ruotsalainen seurakunta: Helsinki Muuttaneet 1890-1902
 						</a>
-						<ol>
-							<li id="sref8a">
+						<ol id="citr">
+							<li id="sref12a">
 								<ul>
 									<li>
 									Date: 1893-01-23
@@ -1171,115 +1256,10 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/0/0/defd445dbd3341f9ccc77d7c900.html" title="Nordberg Hilda Maria kuolinpesä: Perukirja Nordberg Hilda Maria" name ="sref9">
-						Nordberg Hilda Maria kuolinpesä: Perukirja Nordberg Hilda Maria
-						</a>
-						<ol>
-							<li id="sref9a">
-								<ul>
-									<li>
-									Date: 1937-05-02
-									</li>
-									<li>
-									Page: 1-4
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
-						<a href="../../../src/9/0/f06358b3a483c612af5d0043009.html" title="Viipurin tuomiokirkkoseurakunta: Viipurin tksrk Rippikirja 1931-1940" name ="sref10">
-						Viipurin tuomiokirkkoseurakunta: Viipurin tksrk Rippikirja 1931-1940
-						</a>
-						<ol>
-							<li id="sref10a">
-								<ul>
-									<li>
-									Page: 011b/2794
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Viipurin tksrk / Rippikirjat / Sidos 011b / Sivu 2794 / Hilda Maria Nordberg; Kansallisarkisto Karjala-Tietokanta https://katiha.kansallisarkisto.fi/henkilotieto.php?keyId=0625R011b0000854 / Viitattu 30.12.2023</p><p>&nbsp;</p><p>&nbsp;</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://katiha.kansallisarkisto.fi/henkilotieto.php?keyId=0625R011b0000854">https://katiha.kansallisarkisto.fi/henkilotieto.php?keyId=0625R011b0000854</a></p></div>
-									</li>
-									<li>
-									Source text: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">Hilda Maria Nordberg</span><br /><span style="font-family:'Courier New';">Päätiedot</span><br /><span style="font-family:'Courier New';">Kenttä &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Arvo</span><br /><span style="font-family:'Courier New';">Seurakunta &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Viipurin tksrk</span><br /><span style="font-family:'Courier New';">Kirkonkirja &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Rippikirjat</span><br /><span style="font-family:'Courier New';">Sidos &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 011b</span><br /><span style="font-family:'Courier New';">Sivu &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2794</span><br /><span style="font-family:'Courier New';">Sivu (ab)</span><br /><span style="font-family:'Courier New';">Rivi &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;12</span><br /><span style="font-family:'Courier New';">Numero rivillä 	</span><br /><span style="font-family:'Courier New';">Asuinpaikka &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; N</span><br /><span style="font-family:'Courier New';">Ammatti &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Peltisep.leski</span><br /><span style="font-family:'Courier New';">Etunimi &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Hilda</span><br /><span style="font-family:'Courier New';">Muut etunimet &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Maria</span><br /><span style="font-family:'Courier New';">Patronyymi 	</span><br /><span style="font-family:'Courier New';">Sukunimi &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Nordberg</span><br /><span style="font-family:'Courier New';">Omaa sukua &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Korhonen</span><br /><span style="font-family:'Courier New';">Sukupuoli &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; nainen</span><br /><span style="font-family:'Courier New';">Siviilisääty &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;leski</span><br /><span style="font-family:'Courier New';">Asevelvollisuus 	</span><br /><span style="font-family:'Courier New';">Rekisteröintinumero 	</span><br /><span style="font-family:'Courier New';">Syntymäaika &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 17.8.1869</span><br /><span style="font-family:'Courier New';">Synnyinseurakunta &nbsp; &nbsp; &nbsp; Rautalampi</span><br /><span style="font-family:'Courier New';">Aviosynty 	</span><br /><span style="font-family:'Courier New';">Monisynty 	</span><br /><span style="font-family:'Courier New';">Konfirmoitu 	</span><br /><span style="font-family:'Courier New';">Konfirmointiaika 	</span><br /><span style="font-family:'Courier New';">Rippikoulu &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;suorittanut</span><br /><span style="font-family:'Courier New';">Ehtoollisella käynti 	</span><br /><span style="font-family:'Courier New';">Rokotus &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; on</span><br /><span style="font-family:'Courier New';">Koulusivistys 	</span><br /><span style="font-family:'Courier New';">Kirjoitustaito &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;osaa</span><br /><span style="font-family:'Courier New';">Äidinkieli &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;suomi</span><br /><span style="font-family:'Courier New';">Tulon tyyppi &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;edellisen ajanjakson kirkonkirjasta</span><br /><span style="font-family:'Courier New';">Edellinen seurakunta 	</span><br /><span style="font-family:'Courier New';">Edellinen sivunumero &nbsp; &nbsp;vk.2365</span><br /><span style="font-family:'Courier New';">Edellinen muuttokirja 	</span><br /><span style="font-family:'Courier New';">Tuloaika 	</span><br /><span style="font-family:'Courier New';">Lähdön tyyppi &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; kuollut</span><br /><span style="font-family:'Courier New';">Seuraava seurakunta 	</span><br /><span style="font-family:'Courier New';">Seuraava sivunumero 	</span><br /><span style="font-family:'Courier New';">Seuraava muuttokirja 	</span><br /><span style="font-family:'Courier New';">Lähtöaika &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 4.2.1937</span><br /><span style="font-family:'Courier New';">Ikä 	</span><br /><span style="font-family:'Courier New';">Ruokakunnan numero 	</span><br /><span style="font-family:'Courier New';">Yliviivaus &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;yliviivattu</span></p><p><span style="font-family:'Courier New';">Huomautustiedot</span><br /><span style="font-family:'Courier New';">Kenttä 	 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Arvo</span><br /><span style="font-family:'Courier New';">aviopuoliso &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; mies Emil Ferdinand N.</span><br /><span style="font-family:'Courier New';">aviopuoliso &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; kuoli 17.02.1921.</span></p><p><span style="font-family:'Courier New';">Taitomerkinnät</span><br /><span style="font-family:'Courier New';">Kenttä 	 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Arvo</span><br /><span style="font-family:'Courier New';">sisäluku, innanläsning &nbsp;hyväksytty</span><br /><span style="font-family:'Courier New';">kristinoppi (IX) &nbsp; &nbsp; &nbsp; &nbsp;hyväksytty</span></p></div>
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
-						<a href="../../../src/4/d/f171332d9e42b02a648e91798d4.html" title="Tilastollisen päätoimiston tilastoarkisto: Luettelot kuolleista 1936-1965" name ="sref11">
-						Tilastollisen päätoimiston tilastoarkisto: Luettelot kuolleista 1936-1965
-						</a>
-						<ol>
-							<li id="sref11a">
-								<ul>
-									<li>
-									Page: K03Ab:24/4
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Tilastollisen päätoimiston tilastoarkisto (KA) - K03Ab:24 Luettelot kuolleista , Viipurin lääni: Vahviala - Äyräpää; Kuopion lääni: Eno - Kitee  1937-1937, jakso 281, sivu 4: Kuolleet Viipurin tuomiokirkkoseurakunnassa v:n 1937 I:ltä neljänneksellä.; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=6869796008&amp;aineistoId=1093621726 / Viitattu 30.7.2022</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=6869796008&amp;aineistoId=1093621726">https://astia.narc.fi/uusiastia/viewer/?fileId=6869796008&amp;aineistoId=1093621726</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;4</span><br /><span style="font-family:'Courier New';">Kuolleet Viipurin tuomiokirkkoseurakunnassa v:n 1937 I:ltä neljänneksellä.</span></p><p><span style="font-family:'Courier New';">[Helmik] 4 &nbsp; &nbsp;2794 &nbsp; &nbsp;Nordberg, Hilda Maria, peltisep. leski &nbsp; &nbsp;l. &nbsp; &nbsp;1869 &nbsp;VIII 17 &nbsp; &nbsp;syöpä ihossa 7050 &nbsp; &nbsp;- &nbsp;1</span></p><p>&nbsp;</p></div>
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
-						<a href="../../../src/e/e/ceb8173c46800f497ee.html" title="Viipurin tuomiokirkkoseurakunta: Viipuri Hautasijapaikkojen luettelot 1941-1944" name ="sref12">
-						Viipurin tuomiokirkkoseurakunta: Viipuri Hautasijapaikkojen luettelot 1941-1944
-						</a>
-						<ol>
-							<li id="sref12a">
-								<ul>
-									<li>
-									Date: 1937-02-12
-									</li>
-									<li>
-									Page: jakso 15
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Viipurin tuomiokirkkoseurakunnan arkisto. III TALOUSARKISTO. III B Luettelot. III Bb Hautasijapaikkojen luettelot. III Bb:3 Hautasijapaikkojen luettelot, Ristimäki, Rauhala  (1941-1944). Tiedosto 29. Kansallisarkisto. Viitattu 30.12.2023.</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=24273310">http://digi.narc.fi/digi/view.ka?kuid=24273310</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=6153567133&amp;aineistoId=1240856629">https://astia.narc.fi/uusiastia/viewer/?fileId=6153567133&amp;aineistoId=1240856629</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">N</span></p><p><span style="font-family:'Courier New';">Haudan omistaja &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Polku &nbsp;Haudan N:o </span><br /><span style="font-family:'Courier New';">Nordberg, Emil F. perill &nbsp;B4 &nbsp; &nbsp; 31</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; " &nbsp; &nbsp; Hilda Maria &nbsp; &nbsp; B4 &nbsp; &nbsp; “</span></p><p>&nbsp;</p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref12b">
-								<ul>
-									<li>
-									Page: 5-6, jakso 29
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Viipurin tuomiokirkkoseurakunnan arkisto. III TALOUSARKISTO. III B Luettelot. III Bb Hautasijapaikkojen luettelot. III Bb:3 Hautasijapaikkojen luettelot, Ristimäki, Rauhala  (1941-1944). Tiedosto 29. Kansallisarkisto. Viitattu 30.12.2023.</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=6153567133&amp;aineistoId=1240856629">https://astia.narc.fi/uusiastia/viewer/?fileId=6153567133&amp;aineistoId=1240856629</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">Polku &nbsp;Haudan &nbsp; Pinta- &nbsp;Milloin &nbsp; Haudan omistaja &nbsp;Haudatut &nbsp; &nbsp; &nbsp; &nbsp;Milloin &nbsp; N:o </span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp;N:o &nbsp; &nbsp; &nbsp;ala &nbsp; &nbsp; ostettu &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;haudattu &nbsp;hauta-</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; m2 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; kirjassa</span><br /><span style="font-family:'Courier New';">4 &nbsp; &nbsp; &nbsp;31 &nbsp; &nbsp; &nbsp; 3 &nbsp; &nbsp; &nbsp; 6/2 37 &nbsp; &nbsp;Nordberg Emil &nbsp; &nbsp;Hilda Maria N. &nbsp;12/2 37 &nbsp; 3589</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Ferd. perill. &nbsp; &nbsp;1.8, 4226</span></p></div>
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
 						<a href="../../../src/0/6/cdea804daa770fdbc60.html" title="Uuden Suomettaren Oy: Uusi suometar" name ="sref13">
 						Uuden Suomettaren Oy: Uusi suometar
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref13a">
 								<ul>
 									<li>
@@ -1305,7 +1285,7 @@
 						<a href="../../../src/0/1/ec7e3745c0d4523cf4bb0b20710.html" title="Helsingin jakamaton seurakunta: Helsinki Rippikirja 1880-1910" name ="sref14">
 						Helsingin jakamaton seurakunta: Helsinki Rippikirja 1880-1910
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref14a">
 								<ul>
 									<li>
@@ -1322,7 +1302,7 @@
 						<a href="../../../src/5/6/d00112ee74d21fbdc65.html" title="Helsingin jakamaton seurakunta: Helsinki Lastenkirja 1880-1910" name ="sref15">
 						Helsingin jakamaton seurakunta: Helsinki Lastenkirja 1880-1910
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref15a">
 								<ul>
 									<li>
@@ -1342,7 +1322,7 @@
 						<a href="../../../src/3/0/dcde088884844f55819d0fcc103.html" title="Paul, Aksel: Adress- och yrkeskalender för Helsingfors jämte förorter" name ="sref16">
 						Paul, Aksel: Adress- och yrkeskalender för Helsingfors jämte förorter
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref16a">
 								<ul>
 									<li>
@@ -1445,7 +1425,7 @@
 						<a href="../../../src/c/8/d3f883e7d90233732a94924698c.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1900" name ="sref17">
 						Uudenmaan lääni: Uusimaa Henkikirja 1900
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref17a">
 								<ul>
 									<li>
@@ -1471,7 +1451,7 @@
 						<a href="../../../src/e/0/dcde071bb604b94ae4ef5894f0e.html" title="Tidnings- och Tryckeriaktiebolaget: Adressbok och yrkeskalender för Helsingfors" name ="sref18">
 						Tidnings- och Tryckeriaktiebolaget: Adressbok och yrkeskalender för Helsingfors
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref18a">
 								<ul>
 									<li>
@@ -1595,7 +1575,7 @@
 						<a href="../../../src/f/b/e181a4eca746e1aefa9429df6bf.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1901" name ="sref19">
 						Uudenmaan lääni: Uusimaa Henkikirja 1901
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref19a">
 								<ul>
 									<li>
@@ -1618,7 +1598,7 @@
 						<a href="../../../src/a/7/e181ba08249788ad9b1bde1687a.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1903" name ="sref20">
 						Uudenmaan lääni: Uusimaa Henkikirja 1903
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref20a">
 								<ul>
 									<li>
@@ -1641,7 +1621,7 @@
 						<a href="../../../src/1/f/e181cef685f5e2e3c48e5e678f1.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1904" name ="sref21">
 						Uudenmaan lääni: Uusimaa Henkikirja 1904
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref21a">
 								<ul>
 									<li>
@@ -1664,7 +1644,7 @@
 						<a href="../../../src/4/6/e1819659b836165c9f4f636d64.html" title="Uudenmaan lääni: Uusimaa Henkikirja 1908" name ="sref22">
 						Uudenmaan lääni: Uusimaa Henkikirja 1908
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref22a">
 								<ul>
 									<li>
@@ -1687,7 +1667,7 @@
 						<a href="../../../src/0/b/d3f84cfeb26589bbea07600b1b0.html" title="Viipuri kaupungin henkikirjoittaja: Viipuri Henkikirjojen Aakkoshakemistot 1908-1912" name ="sref23">
 						Viipuri kaupungin henkikirjoittaja: Viipuri Henkikirjojen Aakkoshakemistot 1908-1912
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref23a">
 								<ul>
 									<li>
@@ -1726,7 +1706,7 @@
 						<a href="../../../src/c/6/e16faa236672052a8ed68f18d6c.html" title="Viipurin lääni: Viipuri Henkikirja 1909" name ="sref24">
 						Viipurin lääni: Viipuri Henkikirja 1909
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref24a">
 								<ul>
 									<li>
@@ -1749,7 +1729,7 @@
 						<a href="../../../src/1/a/e1592e7a0cd46d33969024f31a1.html" title="Viipurin kaupungin henkikirjoittaja: Viipuri Henkikirjojen Aakkoshakemistot 1913-1918" name ="sref25">
 						Viipurin kaupungin henkikirjoittaja: Viipuri Henkikirjojen Aakkoshakemistot 1913-1918
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref25a">
 								<ul>
 									<li>
@@ -1772,7 +1752,7 @@
 						<a href="../../../src/f/4/ceb8042e9dc138d664f.html" title="Viipurin lääni: Viipuri Henkikirja 1910" name ="sref26">
 						Viipurin lääni: Viipuri Henkikirja 1910
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref26a">
 								<ul>
 									<li>
@@ -1798,7 +1778,7 @@
 						<a href="../../../src/1/e/e159e6c5cc5322dd8cbfc99fde1.html" title="Viipurin lääni: Viipuri Henkikirja 1911" name ="sref27">
 						Viipurin lääni: Viipuri Henkikirja 1911
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref27a">
 								<ul>
 									<li>
@@ -1821,7 +1801,7 @@
 						<a href="../../../src/c/f/dcdd4e63dde147ca35681e963fc.html" title="Viipurin osote- ja ammattikalenteri" name ="sref28">
 						Viipurin osote- ja ammattikalenteri
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref28a">
 								<ul>
 									<li>
@@ -1853,7 +1833,7 @@
 						<a href="../../../src/4/5/ceb8081a68400f5e654.html" title="Viipurin lääni: Viipuri Henkikirja 1912" name ="sref29">
 						Viipurin lääni: Viipuri Henkikirja 1912
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref29a">
 								<ul>
 									<li>
@@ -1882,7 +1862,7 @@
 						<a href="../../../src/0/6/e15939174b45346d7da47b68e60.html" title="Viipurin lääni: Viipuri Henkikirja 1913" name ="sref30">
 						Viipurin lääni: Viipuri Henkikirja 1913
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref30a">
 								<ul>
 									<li>
@@ -1905,7 +1885,7 @@
 						<a href="../../../src/b/7/e1595a520e87a6c7dc7d4faa67b.html" title="Viipurin lääni: Viipuri Henkikirja 1914" name ="sref31">
 						Viipurin lääni: Viipuri Henkikirja 1914
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref31a">
 								<ul>
 									<li>
@@ -1928,7 +1908,7 @@
 						<a href="../../../src/6/3/ceb810c144e6fa60836.html" title="Viipurin lääni: Viipuri Henkikirja 1915" name ="sref32">
 						Viipurin lääni: Viipuri Henkikirja 1915
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref32a">
 								<ul>
 									<li>
@@ -1954,7 +1934,7 @@
 						<a href="../../../src/4/8/dcdcec255bd7d79316fb78de884.html" title="Viipurin kaupungin ja sen lähimmän ympäristön osotekirja" name ="sref33">
 						Viipurin kaupungin ja sen lähimmän ympäristön osotekirja
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref33a">
 								<ul>
 									<li>
@@ -2005,7 +1985,7 @@
 						<a href="../../../src/2/5/d6ca82a83cf55cc1754df1252.html" title="Viipurin lääni: Viipuri Henkikirja 1916" name ="sref34">
 						Viipurin lääni: Viipuri Henkikirja 1916
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref34a">
 								<ul>
 									<li>
@@ -2028,7 +2008,7 @@
 						<a href="../../../src/e/b/dcdceab42755aacf789154c85be.html" title="Viipurin lääni: Viipuri Henkikirja 1917" name ="sref35">
 						Viipurin lääni: Viipuri Henkikirja 1917
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref35a">
 								<ul>
 									<li>
@@ -2051,7 +2031,7 @@
 						<a href="../../../src/2/f/e1592cef836303f347111395f2.html" title="Viipurin lääni: Viipuri Henkikirja 1918" name ="sref36">
 						Viipurin lääni: Viipuri Henkikirja 1918
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref36a">
 								<ul>
 									<li>
@@ -2074,7 +2054,7 @@
 						<a href="../../../src/7/e/e16fe65e972340e51183e632ce7.html" title="Viipurin lääni: Viipuri Henkikirja 1919" name ="sref37">
 						Viipurin lääni: Viipuri Henkikirja 1919
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref37a">
 								<ul>
 									<li>
@@ -2097,7 +2077,7 @@
 						<a href="../../../src/7/4/ec7da4daf8b2067bae12e7bd747.html" title="Viipurin lääni: Viipuri Henkikirja 1920" name ="sref38">
 						Viipurin lääni: Viipuri Henkikirja 1920
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref38a">
 								<ul>
 									<li>
@@ -2120,7 +2100,7 @@
 						<a href="../../../src/4/4/f7fbc8eb33361230853f0025644.html" title="Viipurin lääni: Viipuri Henkikirja 1922" name ="sref39">
 						Viipurin lääni: Viipuri Henkikirja 1922
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref39a">
 								<ul>
 									<li>
@@ -2146,7 +2126,7 @@
 						<a href="../../../src/a/c/dcdd507efe6530d1b60fce4c7ca.html" title="Viipurin kaupungin osoitekalenteri ja liitehakemisto" name ="sref40">
 						Viipurin kaupungin osoitekalenteri ja liitehakemisto
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref40a">
 								<ul>
 									<li>
@@ -2260,7 +2240,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2018-07-23 22:40:14<br />Created for Entire Database
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2<br />Last change was the 2018-07-23 22:40:14<br />Created for Entire Database
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

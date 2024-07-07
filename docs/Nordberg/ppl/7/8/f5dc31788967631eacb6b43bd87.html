@@ -1,27 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>Nordberg Family Tree - Kullberg, Maria Lovisa Gustafsdotter</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
-	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">Nordberg Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">Nordberg Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li class = "CurrentSection"><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
 					<li><a href="../../../families.html" title="Families">Families</a></li>
@@ -29,13 +39,43 @@
 					<li><a href="../../../places.html" title="Places">Places</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="IndividualDetail">
 			<h3>Kullberg, Maria Lovisa Gustafsdotter<sup><small></small></sup></h3>
 			<div id="summaryarea">
@@ -54,7 +94,7 @@
 			</div>
 			<div class="subsection" id="events">
 				<h4>Events</h4>
-				<table class="infolist eventlist">
+				<table class="infolist eventlist toggle_event ltr" id="toggle_event" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnEvent">Event</th>
@@ -66,85 +106,7 @@
 					</thead>
 					<tbody>
 						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/4/2/f5dc31ca8062e55fbaa33f80124.html" title="Birth">
-								Birth
-								</a>
-							</td>
-							<td class="ColumnDate">1831-04-04</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/e/2/cb589cdf1a006f5082e.html" title="Saxby, Borgå, Suomi">
-								Saxby, Borgå, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref1a">1a</a> <a href="#sref2a">2a</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/a/8/f5df444b4cb3a3306c800a5468a.html" title="Residence">
-								Residence
-								</a>
-							</td>
-							<td class="ColumnDate">from 1859 to 1859-10-13</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/e/2/cb589cdf1a006f5082e.html" title="Saxby, Borgå, Suomi">
-								Saxby, Borgå, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref3a">3a</a> <a href="#sref4a">4a</a> <a href="#sref5a">5a</a> <a href="#sref6a">6a</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/5/3/f5df44d601e1cab8a434f676635.html" title="Residence">
-								Residence
-								</a>
-							</td>
-							<td class="ColumnDate">after 1859-10-28</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/5/5/cb589cc7f8d1b88b055.html" title="Helsinki, Suomi">
-								Helsinki, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref3a">3a</a> <a href="#sref4a">4a</a> <a href="#sref5a">5a</a> <a href="#sref6a">6a</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/7/3/f5df8adc42cecb27c975826537.html" title="Residence">
 								Residence
 								</a>
@@ -157,12 +119,9 @@
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref7a">7a</a> <a href="#sref8a">8a</a>
+							 <a href="#sref1a">1a</a> <a href="#sref2a">2a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -170,7 +129,53 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/4/2/f5dc31ca8062e55fbaa33f80124.html" title="Birth">
+								Birth
+								</a>
+							</td>
+							<td class="ColumnDate">1831-04-04</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/e/2/cb589cdf1a006f5082e.html" title="Saxby, Borgå, Suomi">
+								Saxby, Borgå, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref3a">3a</a> <a href="#sref4a">4a</a>
+							</td>
+							<tr>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/a/8/f5df444b4cb3a3306c800a5468a.html" title="Residence">
+								Residence
+								</a>
+							</td>
+							<td class="ColumnDate">from 1859 to 1859-10-13</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/e/2/cb589cdf1a006f5082e.html" title="Saxby, Borgå, Suomi">
+								Saxby, Borgå, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref5a">5a</a> <a href="#sref6a">6a</a> <a href="#sref7a">7a</a> <a href="#sref8a">8a</a>
+							</td>
+							<tr>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/8/7/f5df944554c173d30439d990a78.html" title="Residence">
 								Residence
 								</a>
@@ -183,12 +188,32 @@
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref7a">7a</a> <a href="#sref8a">8a</a> <a href="#sref9a">9a</a>
+							 <a href="#sref1a">1a</a> <a href="#sref2a">2a</a> <a href="#sref9a">9a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
 								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/5/3/f5df44d601e1cab8a434f676635.html" title="Residence">
+								Residence
+								</a>
+							</td>
+							<td class="ColumnDate">after 1859-10-28</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/5/5/cb589cc7f8d1b88b055.html" title="Helsinki, Suomi">
+								Helsinki, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref5a">5a</a> <a href="#sref6a">6a</a> <a href="#sref7a">7a</a> <a href="#sref8a">8a</a>
+							</td>
+							<tr>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -200,7 +225,7 @@
 			</div>
 			<div class="subsection" id="parents">
 				<h4>Parents</h4>
-				<table class="infolist">
+				<table class="infolist toggle_parent ltr" id="toggle_parent" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnAttribute">Relation to main person</th>
@@ -259,7 +284,7 @@
 			</div>
 			<div class="subsection" id="families">
 				<h4>Families</h4>
-				<table class="infolist">
+				<table class="infolist" id="toggle_families" style="display:block">
 					<tr class="BeginFamily">
 						<td class="ColumnValue" colspan="3"><H4 class="subsection"><a href="../../../fam/c/6/f5df36f49593875405d020dd26c.html" title="Family of Österman, Justus and Kullberg, Maria Lovisa Gustafsdotter">Family of Österman, Justus and Kullberg, Maria Lovisa Gustafsdotter</a></H4></td>
 					</tr>
@@ -277,9 +302,8 @@
 					</tr>
 					<tr>
 						<td class="ColumnType">&nbsp;</td>
-						<td class="ColumnAttribute">&nbsp;</td>
-						<td class="ColumnValue">
-							<table class="infolist eventlist">
+						<td class="ColumnValue" colspan="2">
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnEvent">Event</th>
@@ -291,7 +315,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/a/0/f5df3b893b6253ec3542459f20a.html" title="Marriage">
 											Marriage
 											</a>
@@ -304,12 +328,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref10a">10a</a> <a href="#sref3a">3a</a>
+										 <a href="#sref10a">10a</a> <a href="#sref5a">5a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -317,7 +338,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/3/2/f5df67e3a46599f117c07cffd23.html" title="Residence">
 											Residence
 											</a>
@@ -330,12 +351,9 @@
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref3a">3a</a> <a href="#sref4a">4a</a> <a href="#sref5a">5a</a> <a href="#sref6a">6a</a> <a href="#sref11a">11a</a>
+										 <a href="#sref5a">5a</a> <a href="#sref6a">6a</a> <a href="#sref7a">7a</a> <a href="#sref8a">8a</a> <a href="#sref11a">11a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -350,7 +368,7 @@
 			</div>
 			<div class="subsection" id="pedigree">
 				<h4>Pedigree</h4>
-				<ol class="pedigreegen">
+				<ol class="pedigreegen" id="toggle_pedigree" style="display:block">
 					<li>
 						<a href="../../../ppl/4/6/f5dbefd42bfffb065d136c4c64.html">Kullberg, Gustaf Eriksson</a>
 						<ol>
@@ -385,225 +403,92 @@
 			</div>
 			<div class="subsection" id="tree">
 				<h4>Ancestors</h4>
-				<div id="treeContainer" style="width:1234px; height:375px; top: 0px">
-					<div class="boxbg female AncCol0" style="top: 80px; left: 6px;">
-						<a class="noThumb" href="../../../ppl/7/8/f5dc31788967631eacb6b43bd87.html">
-						Kullberg, Maria Lovisa Gustafsdotter<br/>*1831-04-04<br/>+...
-						</a>
+				<div class="tree" id="toggle_anc" style="display:block">
+					<div id="treeContainer" style="width:1234px; height:375px; top: 0px">
+						<div class="boxbg female AncCol0" style="top: 80px; left: 6px;">
+							<a class="noThumb" href="../../../ppl/7/8/f5dc31788967631eacb6b43bd87.html">
+							Kullberg, Maria Lovisa Gustafsdotter<br>*1831-04-04<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 85px; left: 10px;"></div>
+						<div class="bvline" style="top: 100px; left: 285px; width: 15px"></div>
+						<div class="gvline" style="top: 105px; left: 285px; width: 20px"></div>
+						<div class="boxbg male AncCol1" style="top: 5px; left: 316px;">
+							<a class="noThumb" href="../../../ppl/4/6/f5dbefd42bfffb065d136c4c64.html">
+							Kullberg, Gustaf Eriksson<br>*1798-05-05<br>+1860-06-03
+							</a>
+						</div>
+						<div class="shadow" style="top: 10px; left: 320px;"></div>
+						<div class="bvline" style="top: 25px; left: 300px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 25px; left: 300px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol1" style="top: 155px; left: 316px;">
+							<a class="noThumb" href="../../../ppl/5/6/cb589cd276e459bbf65.html">
+							Nordberg, Maria Staffansdotter<br>*1799-03-19<br>+1875-10-10
+							</a>
+						</div>
+						<div class="shadow" style="top: 160px; left: 320px;"></div>
+						<div class="bvline" style="top: 175px; left: 300px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 100px; left: 300px; height: 76px;"></div>
+					
+						<div class="bvline" style="top: 175px; left: 595px; width: 15px"></div>
+						<div class="gvline" style="top: 180px; left: 595px; width: 20px"></div>
+						<div class="boxbg male AncCol2" style="top: 80px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/0/c/cb589ccecb9359c7dc0.html">
+							Nordberg, Staffan Johansson<br>*1771-12-24<br>+1855-04-16
+							</a>
+						</div>
+						<div class="shadow" style="top: 85px; left: 630px;"></div>
+						<div class="bvline" style="top: 100px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 100px; left: 610px; height: 76px;"></div>
+					
+						<div class="bvline" style="top: 100px; left: 905px; width: 15px"></div>
+						<div class="gvline" style="top: 105px; left: 905px; width: 20px"></div>
+						<div class="boxbg male AncCol3" style="top: 5px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/c/7/cb589ccec504a61ee7c.html">
+							, Johan Mattsson<br>*1740<br>+1798-12-01
+							</a>
+						</div>
+						<div class="shadow" style="top: 10px; left: 940px;"></div>
+						<div class="bvline" style="top: 25px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 25px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol3" style="top: 155px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/4/6/cb589ccec366d226d64.html">
+							, Catharina Henricsdotter<br>*1748-09-16<br>+1833-02-26
+							</a>
+						</div>
+						<div class="shadow" style="top: 160px; left: 940px;"></div>
+						<div class="bvline" style="top: 175px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 100px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol2" style="top: 230px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/4/b/cea5bfedcac46bfefb4.html">
+							, Caisa Hansdotter<br>*1772<br>+1818-02-07
+							</a>
+						</div>
+						<div class="shadow" style="top: 235px; left: 630px;"></div>
+						<div class="bvline" style="top: 250px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 175px; left: 610px; height: 76px;"></div>
+					
 					</div>
-					<div class="shadow" style="top: 85px; left: 10px;"></div>
-					<div class="bvline" style="top: 100px; left: 285px; width: 15px"></div>
-					<div class="gvline" style="top: 105px; left: 285px; width: 20px"></div>
-					<div class="boxbg male AncCol1" style="top: 5px; left: 316px;">
-						<a class="noThumb" href="../../../ppl/4/6/f5dbefd42bfffb065d136c4c64.html">
-						Kullberg, Gustaf Eriksson<br/>*1798-05-05<br/>+1860-06-03
-						</a>
-					</div>
-					<div class="shadow" style="top: 10px; left: 320px;"></div>
-					<div class="bvline" style="top: 25px; left: 300px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 25px; left: 300px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol1" style="top: 155px; left: 316px;">
-						<a class="noThumb" href="../../../ppl/5/6/cb589cd276e459bbf65.html">
-						Nordberg, Maria Staffansdotter<br/>*1799-03-19<br/>+1875-10-10
-						</a>
-					</div>
-					<div class="shadow" style="top: 160px; left: 320px;"></div>
-					<div class="bvline" style="top: 175px; left: 300px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 100px; left: 300px; height: 76px;"></div>
-				
-					<div class="bvline" style="top: 175px; left: 595px; width: 15px"></div>
-					<div class="gvline" style="top: 180px; left: 595px; width: 20px"></div>
-					<div class="boxbg male AncCol2" style="top: 80px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/0/c/cb589ccecb9359c7dc0.html">
-						Nordberg, Staffan Johansson<br/>*1771-12-24<br/>+1855-04-16
-						</a>
-					</div>
-					<div class="shadow" style="top: 85px; left: 630px;"></div>
-					<div class="bvline" style="top: 100px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 100px; left: 610px; height: 76px;"></div>
-				
-					<div class="bvline" style="top: 100px; left: 905px; width: 15px"></div>
-					<div class="gvline" style="top: 105px; left: 905px; width: 20px"></div>
-					<div class="boxbg male AncCol3" style="top: 5px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/c/7/cb589ccec504a61ee7c.html">
-						, Johan Mattsson<br/>*1740<br/>+1798-12-01
-						</a>
-					</div>
-					<div class="shadow" style="top: 10px; left: 940px;"></div>
-					<div class="bvline" style="top: 25px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 25px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol3" style="top: 155px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/4/6/cb589ccec366d226d64.html">
-						, Catharina Henricsdotter<br/>*1748-09-16<br/>+1833-02-26
-						</a>
-					</div>
-					<div class="shadow" style="top: 160px; left: 940px;"></div>
-					<div class="bvline" style="top: 175px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 100px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol2" style="top: 230px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/4/b/cea5bfedcac46bfefb4.html">
-						, Caisa Hansdotter<br/>*1772<br/>+1818-02-07
-						</a>
-					</div>
-					<div class="shadow" style="top: 235px; left: 630px;"></div>
-					<div class="bvline" style="top: 250px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 175px; left: 610px; height: 76px;"></div>
-				
 				</div>
 			</div>
 			<div class="subsection" id="sourcerefs">
 				<h4>Source References</h4>
-				<ol>
+				<ol id="srcr">
 					<li>
-						<a href="../../../src/d/1/d931e49e9d160c9da9b335a291d.html" title="Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Lastenkirja 1820-1831" name ="sref1">
-						Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Lastenkirja 1820-1831
-						</a>
-						<ol>
-							<li id="sref1a">
-								<ul>
-									<li>
-									Page: 290-291
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Porvoo maaseurakunta lastenkirja 1820-1831 (AP_LÄNSI I Ab:8)  Sivu 290 (Saxby ) / Sköldvik Gård ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38677&amp;pnum=148 / Viitattu 16.07.2023</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38677&amp;pnum=148</p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">290 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Saxby</span><br /><span style="font-family:'Courier New';">Sockne Smeden Gustaf Eriksson Kullbergs barn med Maria Nordberg</span><br /><span style="font-family:'Courier New';">Carl Gustafsson Kullberg &nbsp; &nbsp;25/9 &nbsp;826</span><br /><span style="font-family:'Courier New';">Gustaf Gustafsson Kullberg &nbsp;3/12 &nbsp;828</span><br /><span style="font-family:'Courier New';">Maria Lovisa Kullberg &nbsp; &nbsp; &nbsp; 4/4 &nbsp; 831</span></p><p>&nbsp;</p></div>
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
-						<a href="../../../src/e/7/db7f15f20625e2c9b2369407e7e.html" title="Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Syntyneet 1826-1832" name ="sref2">
-						Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Syntyneet 1826-1832
-						</a>
-						<ol>
-							<li id="sref2a">
-								<ul>
-									<li>
-									Page: 390-391
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Porvoo syntyneet 1826-1832 (AP I C:7)  Sivu 390 1831 Mars - April ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38714&amp;pnum=197 / Viitattu 16.07.2023</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38714&amp;pnum=197</p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Födde År 1831</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;April månad</span></p><p><span style="font-family:'Courier New';">N. 4 &nbsp;10 &nbsp;Maria Lovisa &nbsp; &nbsp; &nbsp;Par: Soknesmeden &nbsp; &nbsp; &nbsp; &nbsp; Testes: Smedsonen Carl Staffansson från</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; döpt af &nbsp; &nbsp; &nbsp; Gustaf Ericsson Kull- &nbsp; &nbsp;Hindhår, Gårdssmeden CArl Gustaf Wahl-</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ??? &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; berg &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ström ifrGAmmelgård med hustru Stina</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; v. Pastor Hirn &nbsp; &nbsp;Hu Maria Staffans &nbsp; &nbsp; &nbsp; &nbsp;Johansdotter, Smedlärlingen Carl Ericsson</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; dotter Nordberg &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;fr Saxby, Bondeenkan Maria Henricsdr</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;x32 &nbsp; &nbsp; från Saxby Michels med dotter Lena</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Saxby p. 352 &nbsp; &nbsp; Mattsdotter, Demoiselle Wendla Loh-</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;tander</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Coll 15 kop ????</span></p></div>
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
-						<a href="../../../src/f/f/d6cda20a4443c79320f8ff5ffff.html" title="Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Rippikirja 1859-1868" name ="sref3">
-						Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Rippikirja 1859-1868
-						</a>
-						<ol>
-							<li id="sref3a">
-								<ul>
-									<li>
-									Page: 359
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Porvoo maaseurakunta rippikirja 1859-1868 (AP_LÄNSI I Aa:23)  Sivu 359 Saxby Handtverkare, sockne smed ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38658&amp;pnum=362 / Viitattu 17.07.2023</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38658&amp;pnum=362</p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">359 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Saxby</span><br /><span style="font-family:'Courier New';">Handtverkare</span><br /><span style="font-family:'Courier New';">Sokne Smed</span><br /><span style="font-family:'Courier New';">Gustaf Eriksson Kullberg &nbsp; &nbsp; &nbsp;5/5 1798 &nbsp; &nbsp;Dog am 3 Juni 1860</span><br /><span style="font-family:'Courier New';">Hu Maria Staffansdr Nordberg &nbsp;19/3 1799</span><br /><span style="font-family:'Courier New';">Son Sne Smed &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1859 1/10 till lysning med Maria Lovisa Rosenström från Strömsberg pag. 103</span><br /><span style="font-family:'Courier New';">Gustaf Gustafsson Kullberg &nbsp; 3/12 1828 &nbsp; &nbsp;wigde 8/12 1859</span><br /><span style="font-family:'Courier New';">Hu Maria Lovisa Rosenström &nbsp; 15/1 1836 &nbsp; &nbsp;1859 fr Strömsberg p. 103.</span><br /><span style="font-family:'Courier New';">forman Justus Östermans</span><br /><span style="font-family:'Courier New';">Ea Maria Lovisa Kullberg &nbsp; &nbsp; 7/4 1831 &nbsp; &nbsp;1861 fr Helsigfors m.b. 10/? No 91</span><br /><span style="font-family:'Courier New';">Dotter &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;16/7 1859 till lysning med forman Justus Österman fr. Helsingfors</span><br /><span style="font-family:'Courier New';">Maria Lovisa Kullberg &nbsp; &nbsp; &nbsp; &nbsp; 7/4 1831 &nbsp; &nbsp;mb 13/10 1859 till HFors No 112</span><br /><span style="font-family:'Courier New';">Bror Johannes Kullberg &nbsp; &nbsp; &nbsp; 15/8 1836 &nbsp; &nbsp;} 21/3 1868 lysning med MAria Lovisa Forsblom p. 561.</span><br /><span style="font-family:'Courier New';">Hu Maria Lovisa Forsblom &nbsp; &nbsp; 17/1 1845 &nbsp; &nbsp;} vigde af 25/4 1868</span></p><p>&nbsp;</p><p>&nbsp;</p></div>
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
-						<a href="../../../src/1/1/f5df40d802b7dcf2ff058c11c11.html" title="Porvoon maaseurakunta: Porvoo msrk Muuttaneet 1856-1860" name ="sref4">
-						Porvoon maaseurakunta: Porvoo msrk Muuttaneet 1856-1860
-						</a>
-						<ol>
-							<li id="sref4a">
-								<ul>
-									<li>
-									Page: 154-155
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Porvoo muuttaneet 1856-1860 (AP_ULOS I Bb:3)  Sivu 154  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38730&amp;pnum=80 / Viitattu 17.07.2023</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38730&amp;pnum=80</p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">154 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Utflyttade personer &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; År 1859</span></p><p><span style="font-family:'Courier New';">112. &nbsp; &nbsp; &nbsp;1 &nbsp;Smeddottren Maria Lovisa Kullberg fr Saxby född den 4 April</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1831 i Borgå socken, flyttar nu till H:fors. läser i bok??</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[...]</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;är till äktenskap ??</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;den 13 sistlidne September med formannen Justus Österman.</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;är vaccinerad, - ?? Borgå den 13 Oktob: 1859</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ???</span></p></div>
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
-						<a href="../../../src/b/f/f5df4fd1685676bd12c83b21cfb.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Muuttotodistukset 1859-1859" name ="sref5">
-						Helsingin ruotsalais-suomalainen seurakunta: Helsinki Muuttotodistukset 1859-1859
-						</a>
-						<ol>
-							<li id="sref5a">
-								<ul>
-									<li>
-									Page: jakso 950,951
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Helsingin ruotsalais-suomalaisen seurakunnan arkisto - Saapuneet muuttotodistukset 1859-1859, jakso 950: Kullberg Maria Lovisa; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5879348421&amp;aineistoId=1849435899 / Viitattu 17.7.2023</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p>https://digihakemisto.net/item/1849435899/5879348421/950</p></div>
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
-						<a href="../../../src/5/1/f5df52493651353812721391e15.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Seurakuntaan Muuttaneet 1844-1851" name ="sref6">
-						Helsingin ruotsalais-suomalainen seurakunta: Helsinki Seurakuntaan Muuttaneet 1844-1851
-						</a>
-						<ol>
-							<li id="sref6a">
-								<ul>
-									<li>
-									Page: 68-69
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Helsingin ruotsalais-suomalaisen seurakunnan arkisto - I Ba:1 Seurakuntaan muuttaneiden luettelot 1844-1851, jakso 35, sivu 68-69: 1859 sisään; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5856344992&amp;aineistoId=1846575914 / Viitattu 17.7.2023</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p>https://astia.narc.fi/uusiastia/viewer/?fileId=5856344992&amp;aineistoId=1846575914</p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">68 &nbsp; &nbsp; [Inflyttade under år 1859]</span></p><p><span style="font-family:'Courier New';">[934] &nbsp;Kullberg, Maria Lovisa &nbsp; &nbsp;1-882 &nbsp;_ &nbsp;1 &nbsp;gift Österman</span></p></div>
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
-						<a href="../../../src/e/e/cde63f91eee556ea9ee.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Rippikirja 1856-1869" name ="sref7">
+						<a href="../../../src/e/e/cde63f91eee556ea9ee.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Rippikirja 1856-1869" name ="sref1">
 						Helsingin ruotsalais-suomalainen seurakunta: Helsinki Rippikirja 1856-1869
 						</a>
-						<ol>
-							<li id="sref7a">
+						<ol id="citr">
+							<li id="sref1a">
 								<ul>
 									<li>
 									Page: I/882
@@ -622,11 +507,11 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/b/4/f5df89073f241ccf8537154be4b.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Muuttaneet 1853-1887" name ="sref8">
+						<a href="../../../src/b/4/f5df89073f241ccf8537154be4b.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Muuttaneet 1853-1887" name ="sref2">
 						Helsingin ruotsalais-suomalainen seurakunta: Helsinki Muuttaneet 1853-1887
 						</a>
-						<ol>
-							<li id="sref8a">
+						<ol id="citr">
+							<li id="sref2a">
 								<ul>
 									<li>
 									Page: kuva 70
@@ -645,10 +530,145 @@
 						</ol>
 					</li>
 					<li>
+						<a href="../../../src/d/1/d931e49e9d160c9da9b335a291d.html" title="Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Lastenkirja 1820-1831" name ="sref3">
+						Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Lastenkirja 1820-1831
+						</a>
+						<ol id="citr">
+							<li id="sref3a">
+								<ul>
+									<li>
+									Page: 290-291
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Porvoo maaseurakunta lastenkirja 1820-1831 (AP_LÄNSI I Ab:8)  Sivu 290 (Saxby ) / Sköldvik Gård ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38677&amp;pnum=148 / Viitattu 16.07.2023</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38677&amp;pnum=148</p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">290 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Saxby</span><br /><span style="font-family:'Courier New';">Sockne Smeden Gustaf Eriksson Kullbergs barn med Maria Nordberg</span><br /><span style="font-family:'Courier New';">Carl Gustafsson Kullberg &nbsp; &nbsp;25/9 &nbsp;826</span><br /><span style="font-family:'Courier New';">Gustaf Gustafsson Kullberg &nbsp;3/12 &nbsp;828</span><br /><span style="font-family:'Courier New';">Maria Lovisa Kullberg &nbsp; &nbsp; &nbsp; 4/4 &nbsp; 831</span></p><p>&nbsp;</p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../src/e/7/db7f15f20625e2c9b2369407e7e.html" title="Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Syntyneet 1826-1832" name ="sref4">
+						Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Syntyneet 1826-1832
+						</a>
+						<ol id="citr">
+							<li id="sref4a">
+								<ul>
+									<li>
+									Page: 390-391
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Porvoo syntyneet 1826-1832 (AP I C:7)  Sivu 390 1831 Mars - April ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38714&amp;pnum=197 / Viitattu 16.07.2023</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38714&amp;pnum=197</p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Födde År 1831</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;April månad</span></p><p><span style="font-family:'Courier New';">N. 4 &nbsp;10 &nbsp;Maria Lovisa &nbsp; &nbsp; &nbsp;Par: Soknesmeden &nbsp; &nbsp; &nbsp; &nbsp; Testes: Smedsonen Carl Staffansson från</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; döpt af &nbsp; &nbsp; &nbsp; Gustaf Ericsson Kull- &nbsp; &nbsp;Hindhår, Gårdssmeden CArl Gustaf Wahl-</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ??? &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; berg &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ström ifrGAmmelgård med hustru Stina</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; v. Pastor Hirn &nbsp; &nbsp;Hu Maria Staffans &nbsp; &nbsp; &nbsp; &nbsp;Johansdotter, Smedlärlingen Carl Ericsson</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; dotter Nordberg &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;fr Saxby, Bondeenkan Maria Henricsdr</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;x32 &nbsp; &nbsp; från Saxby Michels med dotter Lena</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Saxby p. 352 &nbsp; &nbsp; Mattsdotter, Demoiselle Wendla Loh-</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;tander</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Coll 15 kop ????</span></p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../src/f/f/d6cda20a4443c79320f8ff5ffff.html" title="Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Rippikirja 1859-1868" name ="sref5">
+						Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Rippikirja 1859-1868
+						</a>
+						<ol id="citr">
+							<li id="sref5a">
+								<ul>
+									<li>
+									Page: 359
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Porvoo maaseurakunta rippikirja 1859-1868 (AP_LÄNSI I Aa:23)  Sivu 359 Saxby Handtverkare, sockne smed ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38658&amp;pnum=362 / Viitattu 17.07.2023</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38658&amp;pnum=362</p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">359 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Saxby</span><br /><span style="font-family:'Courier New';">Handtverkare</span><br /><span style="font-family:'Courier New';">Sokne Smed</span><br /><span style="font-family:'Courier New';">Gustaf Eriksson Kullberg &nbsp; &nbsp; &nbsp;5/5 1798 &nbsp; &nbsp;Dog am 3 Juni 1860</span><br /><span style="font-family:'Courier New';">Hu Maria Staffansdr Nordberg &nbsp;19/3 1799</span><br /><span style="font-family:'Courier New';">Son Sne Smed &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1859 1/10 till lysning med Maria Lovisa Rosenström från Strömsberg pag. 103</span><br /><span style="font-family:'Courier New';">Gustaf Gustafsson Kullberg &nbsp; 3/12 1828 &nbsp; &nbsp;wigde 8/12 1859</span><br /><span style="font-family:'Courier New';">Hu Maria Lovisa Rosenström &nbsp; 15/1 1836 &nbsp; &nbsp;1859 fr Strömsberg p. 103.</span><br /><span style="font-family:'Courier New';">forman Justus Östermans</span><br /><span style="font-family:'Courier New';">Ea Maria Lovisa Kullberg &nbsp; &nbsp; 7/4 1831 &nbsp; &nbsp;1861 fr Helsigfors m.b. 10/? No 91</span><br /><span style="font-family:'Courier New';">Dotter &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;16/7 1859 till lysning med forman Justus Österman fr. Helsingfors</span><br /><span style="font-family:'Courier New';">Maria Lovisa Kullberg &nbsp; &nbsp; &nbsp; &nbsp; 7/4 1831 &nbsp; &nbsp;mb 13/10 1859 till HFors No 112</span><br /><span style="font-family:'Courier New';">Bror Johannes Kullberg &nbsp; &nbsp; &nbsp; 15/8 1836 &nbsp; &nbsp;} 21/3 1868 lysning med MAria Lovisa Forsblom p. 561.</span><br /><span style="font-family:'Courier New';">Hu Maria Lovisa Forsblom &nbsp; &nbsp; 17/1 1845 &nbsp; &nbsp;} vigde af 25/4 1868</span></p><p>&nbsp;</p><p>&nbsp;</p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../src/1/1/f5df40d802b7dcf2ff058c11c11.html" title="Porvoon maaseurakunta: Porvoo msrk Muuttaneet 1856-1860" name ="sref6">
+						Porvoon maaseurakunta: Porvoo msrk Muuttaneet 1856-1860
+						</a>
+						<ol id="citr">
+							<li id="sref6a">
+								<ul>
+									<li>
+									Page: 154-155
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Porvoo muuttaneet 1856-1860 (AP_ULOS I Bb:3)  Sivu 154  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38730&amp;pnum=80 / Viitattu 17.07.2023</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38730&amp;pnum=80</p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">154 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Utflyttade personer &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; År 1859</span></p><p><span style="font-family:'Courier New';">112. &nbsp; &nbsp; &nbsp;1 &nbsp;Smeddottren Maria Lovisa Kullberg fr Saxby född den 4 April</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1831 i Borgå socken, flyttar nu till H:fors. läser i bok??</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[...]</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;är till äktenskap ??</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;den 13 sistlidne September med formannen Justus Österman.</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;är vaccinerad, - ?? Borgå den 13 Oktob: 1859</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ???</span></p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../src/b/f/f5df4fd1685676bd12c83b21cfb.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Muuttotodistukset 1859-1859" name ="sref7">
+						Helsingin ruotsalais-suomalainen seurakunta: Helsinki Muuttotodistukset 1859-1859
+						</a>
+						<ol id="citr">
+							<li id="sref7a">
+								<ul>
+									<li>
+									Page: jakso 950,951
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Helsingin ruotsalais-suomalaisen seurakunnan arkisto - Saapuneet muuttotodistukset 1859-1859, jakso 950: Kullberg Maria Lovisa; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5879348421&amp;aineistoId=1849435899 / Viitattu 17.7.2023</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p>https://digihakemisto.net/item/1849435899/5879348421/950</p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../src/5/1/f5df52493651353812721391e15.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Seurakuntaan Muuttaneet 1844-1851" name ="sref8">
+						Helsingin ruotsalais-suomalainen seurakunta: Helsinki Seurakuntaan Muuttaneet 1844-1851
+						</a>
+						<ol id="citr">
+							<li id="sref8a">
+								<ul>
+									<li>
+									Page: 68-69
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Helsingin ruotsalais-suomalaisen seurakunnan arkisto - I Ba:1 Seurakuntaan muuttaneiden luettelot 1844-1851, jakso 35, sivu 68-69: 1859 sisään; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5856344992&amp;aineistoId=1846575914 / Viitattu 17.7.2023</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p>https://astia.narc.fi/uusiastia/viewer/?fileId=5856344992&amp;aineistoId=1846575914</p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">68 &nbsp; &nbsp; [Inflyttade under år 1859]</span></p><p><span style="font-family:'Courier New';">[934] &nbsp;Kullberg, Maria Lovisa &nbsp; &nbsp;1-882 &nbsp;_ &nbsp;1 &nbsp;gift Österman</span></p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
 						<a href="../../../src/c/6/f5df92fc3cd7693dd68275f656c.html" title="Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtsrk Muuttokirjat 1860-1861" name ="sref9">
 						Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtsrk Muuttokirjat 1860-1861
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref9a">
 								<ul>
 									<li>
@@ -668,7 +688,7 @@
 						<a href="../../../src/9/9/cf932f76149565a5899.html" title="Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Vihityt 1842-1888" name ="sref10">
 						Porvoon ruotsalainen tuomiokirkkoseurakunta: Porvoo rtksrk Vihityt 1842-1888
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref10a">
 								<ul>
 									<li>
@@ -691,7 +711,7 @@
 						<a href="../../../src/b/0/f15561cd05d2af7d083fe019b0b.html" title="Helsingin ruotsalais-suomalainen seurakunta: Helsinki Lastenkirja 1856-1869" name ="sref11">
 						Helsingin ruotsalais-suomalainen seurakunta: Helsinki Lastenkirja 1856-1869
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref11a">
 								<ul>
 									<li>
@@ -716,7 +736,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2023-07-18 18:57:45<br />Created for Entire Database
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2<br />Last change was the 2023-07-18 18:57:45<br />Created for Entire Database
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg

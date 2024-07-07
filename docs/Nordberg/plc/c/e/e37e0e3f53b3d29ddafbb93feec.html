@@ -1,26 +1,37 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>Nordberg Family Tree - Places</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.2.2 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
 </head>
-<body  onload = "initialize();" >
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">Nordberg Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">Nordberg Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav" id="dropmenu">
+				<ul class="nav dropmenu" id="dropmenu">
 					<li><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
 					<li><a href="../../../families.html" title="Families">Families</a></li>
@@ -28,13 +39,43 @@
 					<li class = "CurrentSection"><a href="../../../places.html" title="Places">Places</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="PlaceDetail">
 			<h3>Sisbacka, Kullo, Borgå, Suomi</h3>
 			<div id="summaryarea">
@@ -57,7 +98,7 @@
 							<th class="ColumnAttribute">Enclosed By</th>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/e/c/e37e0e3b6df617f2fec1a952ece.html" title="Kullo">Kullo</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/e/c/e37e0e3b6df617f2fec1a952ece.html" title="Kullo">Kullo</a></td>
 						</tr>
 						<tr>
 							<td>
@@ -70,27 +111,28 @@
 					</tbody>
 				</table>
 			</div>
-			<div id="popup"></div>
+			<div class="ol-popup" id="popup"><a class="ol-popup-closer" href="#" id="popup-closer"></a><div class="ol-popup-title" id="popup-title"></div><div id="popup-content"></div></div>
+			<div class="ol-popup" id="tooltip"><div id="tooltip-content"></div></div>
 			<div class="subsection" id="references">
 				<h4>References</h4>
 				<ol class="Col1" role="Volume-n-Page" type=1>
 					<li>
 						<a href="../../../ppl/a/d/cb589cced27547f2ada.html">
 						Sunnman, Fredric Johansson
-						 (between 1798 and 1801) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/b/5/e37e1309827750365ce2ab68e5b.html">
-						, Anna Stina Jonaedotter
-						 (between 1801 and 1802) 
+						 (between 1798 and 1801 Residence) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../fam/3/b/e37e1214d415bbb698cd4599bb3.html">
 						Family of Sunnman, Fredric Johansson and , Anna Stina Jonaedotter
+						 (between 1801 and 1802) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/b/5/e37e1309827750365ce2ab68e5b.html">
+						, Anna Stina Jonaedotter
 						 (between 1801 and 1802) 
 						
 						</a>
@@ -103,8 +145,8 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/b/5/e37e1309827750365ce2ab68e5b.html">
-						, Anna Stina Jonaedotter
+						<a href="../../../ppl/a/d/cb589cced27547f2ada.html">
+						Sunnman, Fredric Johansson
 						 (between 1803 and 1812) 
 						
 						</a>
@@ -117,8 +159,8 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/a/d/cb589cced27547f2ada.html">
-						Sunnman, Fredric Johansson
+						<a href="../../../ppl/b/5/e37e1309827750365ce2ab68e5b.html">
+						, Anna Stina Jonaedotter
 						 (between 1803 and 1812) 
 						
 						</a>
@@ -126,14 +168,14 @@
 					<li>
 						<a href="../../../ppl/4/4/e3895adaeb25d3cace20dc4a544.html">
 						Sunnman, Anna Stina Fredriscdotter
-						 (1806-02-25) 
+						 (1806-02-25 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/3/a/e3895bbe1b045f26fcf4f3bf2a3.html">
 						Sunnman, Anders Gustaf Fredricsson
-						 (1811-05-15) 
+						 (1811-05-15 Birth) 
 						
 						</a>
 					</li>
@@ -145,15 +187,15 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../fam/3/b/e37e1214d415bbb698cd4599bb3.html">
-						Family of Sunnman, Fredric Johansson and , Anna Stina Jonaedotter
+						<a href="../../../ppl/a/d/cb589cced27547f2ada.html">
+						Sunnman, Fredric Johansson
 						 (between 1813 and 1820) 
 						
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/a/d/cb589cced27547f2ada.html">
-						Sunnman, Fredric Johansson
+						<a href="../../../fam/3/b/e37e1214d415bbb698cd4599bb3.html">
+						Family of Sunnman, Fredric Johansson and , Anna Stina Jonaedotter
 						 (between 1813 and 1820) 
 						
 						</a>
@@ -161,7 +203,14 @@
 					<li>
 						<a href="../../../ppl/a/6/e3895cec6d7386ef8492378f6a.html">
 						Sunnman, Johan
-						 (1813-07-29) 
+						 (1813-07-29 Birth) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/a/d/cb589cced27547f2ada.html">
+						Sunnman, Fredric Johansson
+						 (between 1821 and 1829) 
 						
 						</a>
 					</li>
@@ -180,9 +229,9 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/a/d/cb589cced27547f2ada.html">
-						Sunnman, Fredric Johansson
-						 (between 1821 and 1829) 
+						<a href="../../../fam/3/b/e37e1214d415bbb698cd4599bb3.html">
+						Family of Sunnman, Fredric Johansson and , Anna Stina Jonaedotter
+						 (between 1829 and 1839) 
 						
 						</a>
 					</li>
@@ -194,13 +243,6 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../fam/3/b/e37e1214d415bbb698cd4599bb3.html">
-						Family of Sunnman, Fredric Johansson and , Anna Stina Jonaedotter
-						 (between 1829 and 1839) 
-						
-						</a>
-					</li>
-					<li>
 						<a href="../../../ppl/a/d/cb589cced27547f2ada.html">
 						Sunnman, Fredric Johansson
 						 (between 1829 and 1839) 
@@ -208,8 +250,8 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/e/8/e908b555c4846db2c292a5ae18e.html">
-						Enberg, Hedvig Lovisa
+						<a href="../../../fam/4/3/e908ad64809650ae2763552f734.html">
+						Family of Stjernberg, Gustaf Gustafsson and Enberg, Hedvig Lovisa
 						 (between 1840 and 1841) 
 						
 						</a>
@@ -222,22 +264,22 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../fam/4/3/e908ad64809650ae2763552f734.html">
-						Family of Stjernberg, Gustaf Gustafsson and Enberg, Hedvig Lovisa
+						<a href="../../../ppl/e/8/e908b555c4846db2c292a5ae18e.html">
+						Enberg, Hedvig Lovisa
 						 (between 1840 and 1841) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/b/5/e37e1309827750365ce2ab68e5b.html">
-						, Anna Stina Jonaedotter
-						 (between 1840 and 1848) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../fam/3/b/e37e1214d415bbb698cd4599bb3.html">
 						Family of Sunnman, Fredric Johansson and , Anna Stina Jonaedotter
+						 (between 1840 and 1848) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/b/5/e37e1309827750365ce2ab68e5b.html">
+						, Anna Stina Jonaedotter
 						 (between 1840 and 1848) 
 						
 						</a>
@@ -252,20 +294,20 @@
 					<li>
 						<a href="../../../ppl/f/e/e908b733bf261ac1e3d1edaf1ef.html">
 						, Lovisa Wilhelmina Gustafsdotter
-						 (1841-03-15) 
+						 (1841-03-15 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/e/8/e908b555c4846db2c292a5ae18e.html">
 						Enberg, Hedvig Lovisa
-						 (1841-03-24) 
+						 (1841-03-24 Death) 
 						
 						</a>
 					</li>
 					<li>
-						<a href="../../../fam/b/e/e908de8823946302bb4b7fd0deb.html">
-						Family of Stjernberg, Gustaf Gustafsson and Eskolin, Anna Lovisa
+						<a href="../../../ppl/f/c/e908deba4db6b6f5bce522a03cf.html">
+						Eskolin, Anna Lovisa
 						 (between 1843 and 1848) 
 						
 						</a>
@@ -278,8 +320,8 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/f/c/e908deba4db6b6f5bce522a03cf.html">
-						Eskolin, Anna Lovisa
+						<a href="../../../fam/b/e/e908de8823946302bb4b7fd0deb.html">
+						Family of Stjernberg, Gustaf Gustafsson and Eskolin, Anna Lovisa
 						 (between 1843 and 1848) 
 						
 						</a>
@@ -287,28 +329,7 @@
 					<li>
 						<a href="../../../ppl/c/c/e908dfa1e6019d6f7d11fb9ebcc.html">
 						, Frans Gustaf Gustafsson
-						 (1845-06-29) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/b/d/e9056c9f1ca6adaca885c9841db.html">
-						, Maja Lena Gustafsdotter
-						 (between 1849 and 1858) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../fam/b/e/e908de8823946302bb4b7fd0deb.html">
-						Family of Stjernberg, Gustaf Gustafsson and Eskolin, Anna Lovisa
-						 (between 1849 and 1858) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/b/5/e37e1309827750365ce2ab68e5b.html">
-						, Anna Stina Jonaedotter
-						 (between 1849 and 1858) 
+						 (1845-06-29 Birth) 
 						
 						</a>
 					</li>
@@ -320,15 +341,22 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/f/c/e908deba4db6b6f5bce522a03cf.html">
-						Eskolin, Anna Lovisa
+						<a href="../../../fam/b/e/e908de8823946302bb4b7fd0deb.html">
+						Family of Stjernberg, Gustaf Gustafsson and Eskolin, Anna Lovisa
 						 (between 1849 and 1858) 
 						
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/c/1/e908931435d354a5e2a026b371c.html">
-						Stjernberg, Gustaf Gustafsson
+						<a href="../../../ppl/3/a/e3895bbe1b045f26fcf4f3bf2a3.html">
+						Sunnman, Anders Gustaf Fredricsson
+						 (between 1849 and 1858) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/b/d/e9056c9f1ca6adaca885c9841db.html">
+						, Maja Lena Gustafsdotter
 						 (between 1849 and 1858) 
 						
 						</a>
@@ -348,8 +376,22 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/3/a/e3895bbe1b045f26fcf4f3bf2a3.html">
-						Sunnman, Anders Gustaf Fredricsson
+						<a href="../../../ppl/b/5/e37e1309827750365ce2ab68e5b.html">
+						, Anna Stina Jonaedotter
+						 (between 1849 and 1858) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/f/c/e908deba4db6b6f5bce522a03cf.html">
+						Eskolin, Anna Lovisa
+						 (between 1849 and 1858) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/c/1/e908931435d354a5e2a026b371c.html">
+						Stjernberg, Gustaf Gustafsson
 						 (between 1849 and 1858) 
 						
 						</a>
@@ -357,21 +399,21 @@
 					<li>
 						<a href="../../../ppl/d/e/e909073539c2d591541173103ed.html">
 						Stjernberg, Amanda Josefina
-						 (1850-02-10) 
+						 (1850-02-10 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/a/d/cb589cced27547f2ada.html">
 						Sunnman, Fredric Johansson
-						 (1857-11-29) 
+						 (1857-11-29 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/b/5/e37e1309827750365ce2ab68e5b.html">
 						, Anna Stina Jonaedotter
-						 (1858-01-28) 
+						 (1858-01-28 Death) 
 						
 						</a>
 					</li>
@@ -397,13 +439,6 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../fam/5/7/e908930fa623aab84d895704875.html">
-						Family of Stjernberg, Gustaf Gustafsson and Blomqvist, Sofia Lovisa
-						 (between 1859 and 1868) 
-						
-						</a>
-					</li>
-					<li>
 						<a href="../../../ppl/c/1/e908931435d354a5e2a026b371c.html">
 						Stjernberg, Gustaf Gustafsson
 						 (between 1859 and 1868) 
@@ -413,6 +448,13 @@
 					<li>
 						<a href="../../../ppl/3/1/e90893c0a5cd0fe9c9c7ac3d13.html">
 						Blomqvist, Sofia Lovisa
+						 (between 1859 and 1868) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../fam/5/7/e908930fa623aab84d895704875.html">
+						Family of Stjernberg, Gustaf Gustafsson and Blomqvist, Sofia Lovisa
 						 (between 1859 and 1868) 
 						
 						</a>
@@ -420,41 +462,20 @@
 					<li>
 						<a href="../../../ppl/b/3/e908949db30a4ea3997880ac3b.html">
 						Stjernberg, Anna
-						 (1859-05-31) 
+						 (1859-05-31 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/8/4/e907f6c56873b0302e981f93548.html">
 						Stjernberg, Carl Gustafsson
-						 (between 1863 and 1868) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/c/1/e908931435d354a5e2a026b371c.html">
-						Stjernberg, Gustaf Gustafsson
-						 (between 1869 and 1878) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/3/1/e90893c0a5cd0fe9c9c7ac3d13.html">
-						Blomqvist, Sofia Lovisa
-						 (between 1869 and 1878) 
+						 (between 1863 and 1868 Residence) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/8/4/e907f6c56873b0302e981f93548.html">
 						Stjernberg, Carl Gustafsson
-						 (between 1869 and 1878) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../fam/5/7/e908930fa623aab84d895704875.html">
-						Family of Stjernberg, Gustaf Gustafsson and Blomqvist, Sofia Lovisa
 						 (between 1869 and 1878) 
 						
 						</a>
@@ -474,44 +495,65 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/3/f/e9089601488359a80268c1c78f3.html">
-						Stjernberg, Maria Emilia
-						 (1870-12-29) 
+						<a href="../../../fam/5/7/e908930fa623aab84d895704875.html">
+						Family of Stjernberg, Gustaf Gustafsson and Blomqvist, Sofia Lovisa
+						 (between 1869 and 1878) 
 						
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/c/c/e90896605cf61c49351ae4cc1cc.html">
-						Stjernberg, Carl Emil
-						 (1873-09-26) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/c/c/e90896605cf61c49351ae4cc1cc.html">
-						Stjernberg, Carl Emil
-						 (1874-05-20) 
+						<a href="../../../ppl/c/1/e908931435d354a5e2a026b371c.html">
+						Stjernberg, Gustaf Gustafsson
+						 (between 1869 and 1878) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/3/1/e90893c0a5cd0fe9c9c7ac3d13.html">
 						Blomqvist, Sofia Lovisa
-						 (1874-07-24) 
+						 (between 1869 and 1878) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/3/f/e9089601488359a80268c1c78f3.html">
+						Stjernberg, Maria Emilia
+						 (1870-12-29 Birth) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/c/c/e90896605cf61c49351ae4cc1cc.html">
+						Stjernberg, Carl Emil
+						 (1873-09-26 Birth) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/c/c/e90896605cf61c49351ae4cc1cc.html">
+						Stjernberg, Carl Emil
+						 (1874-05-20 Death) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/3/1/e90893c0a5cd0fe9c9c7ac3d13.html">
+						Blomqvist, Sofia Lovisa
+						 (1874-07-24 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/2/9/e90896f470b13d8140618308092.html">
 						Stjernberg, Alma Sofia
-						 (1875-10-28) 
+						 (1875-10-28 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/b/f/e9089754bf94e569d83a677a9fb.html">
 						Stjernberg, Karl Ivar
-						 (1878-08-27) 
+						 (1878-08-27 Birth) 
 						
 						</a>
 					</li>
@@ -521,7 +563,7 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2019-07-17 01:25:02<br />Created for Entire Database
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.2<br />Last change was the 2019-07-17 01:25:02<br />Created for Entire Database
 			</p>
 			<p id="copyright">
 			&copy; 2024 John Nordberg
