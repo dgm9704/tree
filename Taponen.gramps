@@ -2547,6 +2547,22 @@
       <place hlink="_cdd70e98e0854ad935d"/>
       <citationref hlink="_fa58640d1d333f48d8d6c2ea9f4"/>
     </event>
+    <event handle="_fa58681b68c67212df6cba341a2" change="1720360066" id="E0383">
+      <type>Birth</type>
+      <dateval val="1781"/>
+      <citationref hlink="_fa58640d1d333f48d8d6c2ea9f4"/>
+    </event>
+    <event handle="_fa586878d0f20aa6a06149e40ba" change="1720360105" id="E0384">
+      <type>Residence</type>
+      <datespan start="1804" stop="1816"/>
+      <place hlink="_cdd70e98e0854ad935d"/>
+      <citationref hlink="_fa58640d1d333f48d8d6c2ea9f4"/>
+    </event>
+    <event handle="_fa58d6e9dc13e9fb78ec25d2d0b" change="1720371685" id="E0385">
+      <type>Confirmation</type>
+      <dateval val="1826-05-28"/>
+      <citationref hlink="_da82faf2338726ee88301cf9878"/>
+    </event>
   </events>
   <people home="_cca1691b7c53559cc53">
     <person handle="_cb937baae6821b777ad" change="1501410532" id="I0000">
@@ -2869,7 +2885,7 @@
       <eventref hlink="_cca16d5de892b9a63fe" role="Primary"/>
       <childof hlink="_cca16c73e9d13f8c0de"/>
     </person>
-    <person handle="_cca2047aa577cccb33d" change="1719517391" id="I0035">
+    <person handle="_cca2047aa577cccb33d" change="1720371686" id="I0035">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria</first>
@@ -2877,6 +2893,7 @@
         <surname prim="0" derivation="Patronymic">Davidsdotter</surname>
       </name>
       <eventref hlink="_cca20506c6a49e14734" role="Primary"/>
+      <eventref hlink="_fa58d6e9dc13e9fb78ec25d2d0b" role="Primary"/>
       <parentin hlink="_cb937f1873715ed35b9"/>
       <parentin hlink="_fa3900a08111a27b63772ff000c"/>
     </person>
@@ -3927,7 +3944,7 @@
       </name>
       <parentin hlink="_fa585de1f2874b21549a4a2c5b"/>
     </person>
-    <person handle="_fa585ea4cb215f98f7413781dfc" change="1720359877" id="I0127">
+    <person handle="_fa585ea4cb215f98f7413781dfc" change="1720360371" id="I0127">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Henric</first>
@@ -3938,14 +3955,15 @@
       <childof hlink="_fa585de1f2874b21549a4a2c5b"/>
       <parentin hlink="_fa5860038fe1c9bae74421a4865"/>
     </person>
-    <person handle="_fa585f1883d7454d76938aeb06a" change="1720359878" id="I0128">
+    <person handle="_fa585f1883d7454d76938aeb06a" change="1720360371" id="I0128">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Johan</first>
         <surname>Tapain</surname>
       </name>
       <eventref hlink="_fa585f3ea622a6869c3bc84430b" role="Primary"/>
-      <childof hlink="_fa5860038fe1c9bae74421a4865"/>
+      <childof hlink="_fa585de1f2874b21549a4a2c5b"/>
+      <parentin hlink="_fa5867c973b25b65a115b8b2a99"/>
     </person>
     <person handle="_fa58601a4a34a8ccfc44fa396a2" change="1720359392" id="I0129">
       <gender>F</gender>
@@ -3955,6 +3973,15 @@
       </name>
       <eventref hlink="_fa58605dcc562b1fde81b6b4ee0" role="Primary"/>
       <parentin hlink="_fa5860038fe1c9bae74421a4865"/>
+    </person>
+    <person handle="_fa5867ebe791af48fbc086474fe" change="1720360107" id="I0130">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Anna</first>
+        <surname>Kolko</surname>
+      </name>
+      <eventref hlink="_fa58681b68c67212df6cba341a2" role="Primary"/>
+      <parentin hlink="_fa5867c973b25b65a115b8b2a99"/>
     </person>
   </people>
   <families>
@@ -4358,19 +4385,25 @@
       <eventref hlink="_fa3903a6e1021243d95ffbdb6db" role="Family"/>
       <eventref hlink="_d01e0c44c355063ed41" role="Unknown"/>
     </family>
-    <family handle="_fa585de1f2874b21549a4a2c5b" change="1720359104" id="F0040">
+    <family handle="_fa585de1f2874b21549a4a2c5b" change="1720360371" id="F0040">
       <rel type="Married"/>
       <father hlink="_fa585e515ee8c3c0f85f3763c"/>
       <mother hlink="_fa585ce1a791acec24dd9b6e42e"/>
       <childref hlink="_fa585ea4cb215f98f7413781dfc"/>
+      <childref hlink="_fa585f1883d7454d76938aeb06a"/>
     </family>
-    <family handle="_fa5860038fe1c9bae74421a4865" change="1720359878" id="F0041">
+    <family handle="_fa5860038fe1c9bae74421a4865" change="1720360312" id="F0041">
       <rel type="Married"/>
       <father hlink="_fa585ea4cb215f98f7413781dfc"/>
       <mother hlink="_fa58601a4a34a8ccfc44fa396a2"/>
       <eventref hlink="_fa5860ec7074ae7c70a33268e2d" role="Family"/>
       <eventref hlink="_fa5865928e31a4c13fc84725d21" role="Family"/>
-      <childref hlink="_fa585f1883d7454d76938aeb06a"/>
+    </family>
+    <family handle="_fa5867c973b25b65a115b8b2a99" change="1720360107" id="F0042">
+      <rel type="Married"/>
+      <father hlink="_fa585f1883d7454d76938aeb06a"/>
+      <mother hlink="_fa5867ebe791af48fbc086474fe"/>
+      <eventref hlink="_fa586878d0f20aa6a06149e40ba" role="Family"/>
     </family>
   </families>
   <citations>
@@ -5052,8 +5085,8 @@
       <noteref hlink="_da82f802a393a7cf4f975274b07"/>
       <sourceref hlink="_cdd044203935b79cba4"/>
     </citation>
-    <citation handle="_da82faf2338726ee88301cf9878" change="1717011184" id="C0097">
-      <page>149</page>
+    <citation handle="_da82faf2338726ee88301cf9878" change="1720371315" id="C0097">
+      <page>Aa:5/149</page>
       <confidence>2</confidence>
       <noteref hlink="_f9dba6a593532867eee11ac5cb5"/>
       <noteref hlink="_da82faee8f75564d8164bc6a59b"/>
