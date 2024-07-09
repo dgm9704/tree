@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2024-07-08" version="5.2.2"/>
+    <created date="2024-07-09" version="5.2.2"/>
     <researcher>
     </researcher>
   </header>
@@ -14795,10 +14795,10 @@
       <citationref hlink="_ec00090ba582b491e77a42ff926"/>
       <citationref hlink="_f5ae7098aa65e174af84b8889da"/>
     </event>
-    <event handle="_ec0045a6c5521ef2fd7099d0e76" change="1621786954" id="E0335">
+    <event handle="_ec0045a6c5521ef2fd7099d0e76" change="1720542296" id="E0335">
       <type>Death</type>
       <dateval val="1765-01-23"/>
-      <place hlink="_cb589ccf3d30de73a94"/>
+      <place hlink="_e10c216106e761d03c131abecef"/>
       <citationref hlink="_ec00090ba582b491e77a42ff926"/>
     </event>
     <event handle="_ec005a00325665c18e6cbd8cfcf" change="1628769739" id="E0336">
@@ -15021,17 +15021,21 @@
       <place hlink="_e10c216106e761d03c131abecef"/>
       <citationref hlink="_ed0129d77ae600ee9cf9da072b6"/>
     </event>
-    <event handle="_ed0191c78ba690926f4216540e6" change="1628847656" id="E0372">
+    <event handle="_ed0191c78ba690926f4216540e6" change="1720543086" id="E0372">
       <type>Birth</type>
       <dateval val="1751-07-31"/>
       <place hlink="_cb589ccbc8775a4d7d2"/>
       <noteref hlink="_ed074dbb0f016d9639c28c6e076"/>
       <citationref hlink="_ed0191c306c6d057b21f70673ef"/>
+      <citationref hlink="_f5ae7098aa65e174af84b8889da"/>
       <citationref hlink="_ec0059c57a624a88c58896495d1"/>
     </event>
-    <event handle="_ed01ce376af2453ed07d7900a12" change="1628768874" id="E0373">
+    <event handle="_ed01ce376af2453ed07d7900a12" change="1720543624" id="E0373">
       <type>Birth</type>
-      <dateval val="1755"/>
+      <dateval val="1754-01-11"/>
+      <place hlink="_e10c216106e761d03c131abecef"/>
+      <citationref hlink="_fa5f3e94e583d573da9badc39b"/>
+      <citationref hlink="_f5ae7098aa65e174af84b8889da"/>
       <citationref hlink="_ec0059c57a624a88c58896495d1"/>
     </event>
     <event handle="_ed046743c9e3a5919b0388d468d" change="1628769800" id="E0374">
@@ -16627,10 +16631,12 @@
       <place hlink="_f3827c4e6ed31b0049563beee0a"/>
       <citationref hlink="_f382877a2446ca353f67aa0d214"/>
     </event>
-    <event handle="_f5ae71c659e6bc038e68b4519e1" change="1688309908" id="E0753">
+    <event handle="_f5ae71c659e6bc038e68b4519e1" change="1720543814" id="E0753">
       <type>Birth</type>
-      <dateval val="1757"/>
+      <dateval val="1756-05-08"/>
+      <place hlink="_e10c216106e761d03c131abecef"/>
       <citationref hlink="_f5ae7098aa65e174af84b8889da"/>
+      <citationref hlink="_fa5f4072c2669c6f635c4bf91e1"/>
     </event>
     <event handle="_f5dbef02f5be42e478f08cfadf" change="1689531144" id="E0754">
       <type>Residence</type>
@@ -30930,10 +30936,10 @@
       <eventref hlink="_f3828bd699b32e10ebea731fb8a" role="Primary"/>
       <childof hlink="_f38280ad8d33e79568c54ac99b4"/>
     </person>
-    <person handle="_f5ae71038c97fa177114366ddf1" change="1688310008" id="I0159">
+    <person handle="_f5ae71038c97fa177114366ddf1" change="1720543839" id="I0159">
       <gender>M</gender>
       <name type="Birth Name">
-        <first>Johan</first>
+        <first>Johannes</first>
         <surname derivation="Patronymic">Henricsson</surname>
       </name>
       <eventref hlink="_f5ae71c659e6bc038e68b4519e1" role="Primary"/>
@@ -43683,12 +43689,14 @@
       <noteref hlink="_ebfe21ba8a03307e3ce39db9f1f"/>
       <sourceref hlink="_ebfe1eda0d456bb4ebfb23b45cb"/>
     </citation>
-    <citation handle="_ec00090ba582b491e77a42ff926" change="1621780599" id="C1244">
+    <citation handle="_ec00090ba582b491e77a42ff926" change="1720542658" id="C1244">
       <page>247</page>
       <confidence>2</confidence>
       <noteref hlink="_ec0005446c96f86056ca3e522ce"/>
       <noteref hlink="_ec00055e3d05450fb1e837c528"/>
       <noteref hlink="_ec000903af64cc4434adb445975"/>
+      <noteref hlink="_fa5f3219d227486c5552ed1abdc"/>
+      <noteref hlink="_fa5f323fea17c2fea8f4a2e30d9"/>
       <sourceref hlink="_d6e4395cc5c7786a314c1b36829"/>
     </citation>
     <citation handle="_ec0059c57a624a88c58896495d1" change="1621789292" id="C1245">
@@ -47659,6 +47667,20 @@
       <noteref hlink="_fa592f64c4672f2631ee5f14718"/>
       <noteref hlink="_fa592f85aae692ed8c38d7920f0"/>
       <sourceref hlink="_d6cdc2a86263f2f0fee504a4247"/>
+    </citation>
+    <citation handle="_fa5f3e94e583d573da9badc39b" change="1720543617" id="C1761">
+      <page>C:1/410-411</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa5f3e6adbb1a86ae29c1e9457"/>
+      <noteref hlink="_fa5f3e8f1e268322c6505cd4ef8"/>
+      <sourceref hlink="_cdccc33aada5d1bc81c"/>
+    </citation>
+    <citation handle="_fa5f4072c2669c6f635c4bf91e1" change="1720543813" id="C1762">
+      <page>C:1/502-503</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fa5f404cd27105740b20d5f64d"/>
+      <noteref hlink="_fa5f406e562120e7c1378142a12"/>
+      <sourceref hlink="_cdccc33aada5d1bc81c"/>
     </citation>
   </citations>
   <sources>
@@ -70431,7 +70453,7 @@ https://astia.narc.fi/uusiastia/viewer/?fileId=5862609200&amp;aineistoId=1167501
         <range start="46" end="125"/>
       </style>
     </note>
-    <note handle="_ec000903af64cc4434adb445975" change="1621802450" id="N1799" type="Transcript" format="1">
+    <note handle="_ec000903af64cc4434adb445975" change="1720544698" id="N1799" type="Transcript" format="1">
       <text>247
 Caus hem
 Matts Claesson                     75    död d 23 Jan 1765
@@ -70443,11 +70465,11 @@ ho Anna Johansdr                   39
 dr Anna Henricsdr               58 19
 son Mats Hinderss               61 20
 dr Carin do                     65 15
-dr ???p245
+dr Chris. p245
 ? Caisa Mattsdr                    20
 </text>
-      <style name="fontface" value="Courier New">
-        <range start="0" end="403"/>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="407"/>
       </style>
     </note>
     <note handle="_ec0053570fcbe99da3d4040114" change="1621788389" id="N1800" type="Citation">
@@ -76717,19 +76739,19 @@ Gula Villan purettiin vuonna 1913 Lars Sonckin suunnitteleman uuden asuinkerrost
         <range start="0" end="78"/>
       </style>
     </note>
-    <note handle="_f5ae709080235048f77500d9f5a" change="1688309760" id="N2734" type="Transcript" format="1">
+    <note handle="_f5ae709080235048f77500d9f5a" change="1720542833" id="N2734" type="Transcript" format="1">
       <text>241
 
 Caus h.
 
-Caisa Hindersdr  51  +  ???
+Caisa Hindersdr  51  +  ??? (raamatunlukumerkintöjä...)
 Ebba do          53  +  ???
 Maria do         55  +  ???
 Johan do         57  +  ???
 
 </text>
-      <style name="fontface" value="Courier New">
-        <range start="0" end="127"/>
+      <style name="fontface" value="Monospace">
+        <range start="0" end="155"/>
       </style>
     </note>
     <note handle="_f5dba2d1eee68ac3c0eab169ada" change="1689522989" id="N2735" type="Citation">
@@ -83065,6 +83087,33 @@ pig. Sofia Wilhelm. Holmström    16/1 1847  Ekenäs Landsförs.    p.400       
     </note>
     <note handle="_fa5c141aef62cdfaf8f56498603" change="1720458632" id="N3692" type="Citation">
       <text>Uudenmaan ja Hämeen läänin tilejä. Asiakirjat. 8366 Henkikirja  (1769-1769). Tiedosto 61. Kansallisarkisto. Viitattu 8.7.2024.</text>
+    </note>
+    <note handle="_fa5f3219d227486c5552ed1abdc" change="1720542308" id="N3693" type="Citation">
+      <text>Porvoo maaseurakunta rippikirja 1754-1770 (AP I Aa:2)  Sivu 247 Hindhår Kaus ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38639&amp;pnum=248 / Viitattu 09.07.2024</text>
+    </note>
+    <note handle="_fa5f323fea17c2fea8f4a2e30d9" change="1720542324" id="N3694" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38639&amp;pnum=248</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38639&amp;pnum=248">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_fa5f3e6adbb1a86ae29c1e9457" change="1720543600" id="N3695" type="Citation">
+      <text>Porvoo syntyneet 1742-1756 (AP I C:1)  1754 Januarii ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38708&amp;pnum=209 / Viitattu 09.07.2024</text>
+    </note>
+    <note handle="_fa5f3e8f1e268322c6505cd4ef8" change="1720543615" id="N3696" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38708&amp;pnum=209</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38708&amp;pnum=209">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_fa5f404cd27105740b20d5f64d" change="1720543797" id="N3697" type="Citation">
+      <text>Porvoo syntyneet 1742-1756 (AP I C:1)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38708&amp;pnum=255 / Viitattu 09.07.2024</text>
+    </note>
+    <note handle="_fa5f406e562120e7c1378142a12" change="1720543811" id="N3698" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38708&amp;pnum=255</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38708&amp;pnum=255">
+        <range start="0" end="78"/>
+      </style>
     </note>
   </notes>
   <bookmarks>
