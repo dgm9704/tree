@@ -17380,11 +17380,12 @@
       <place hlink="_f7fc1e1ef9d7482f12ddcd603c9"/>
       <citationref hlink="_f7fc23bbac01fccb23d6267a379"/>
     </event>
-    <event handle="_f7fce7fd1d157911224afddc8ad" change="1704159974" id="E0868">
+    <event handle="_f7fce7fd1d157911224afddc8ad" change="1734885540" id="E0868">
       <type>Burial</type>
       <dateval val="1964-06-13"/>
-      <place hlink="_ceac1478b0919bf2446"/>
+      <place hlink="_fc7585d06a27364836fe03a93f4"/>
       <citationref hlink="_dcdca72dad5232f3a37e3c862ac"/>
+      <citationref hlink="_fc7583068b976e57236000dcd5a"/>
     </event>
     <event handle="_f7ff3e44f1c557ff8ae0b75554f" change="1704262752" id="E0869">
       <type>Residence</type>
@@ -47690,6 +47691,13 @@
       <noteref hlink="_fc74f30602a3ca966e0b887dcd5"/>
       <sourceref hlink="_f14512880813e77217f42ad78d9"/>
     </citation>
+    <citation handle="_fc7583068b976e57236000dcd5a" change="1734885414" id="C1764">
+      <page>5B-00-002-40-00604/NOROVUORI PAUL VILHELM VALDEMAR</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fc75845e56622790e3166a86f90"/>
+      <noteref hlink="_fc7584979cf746dbe12234c404e"/>
+      <sourceref hlink="_f14512880813e77217f42ad78d9"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -52375,10 +52383,12 @@
       <pname value="Karttula"/>
       <placeref hlink="_cb589cfeb254c33cda1"/>
     </placeobj>
-    <placeobj handle="_ceac1478b0919bf2446" change="1704159810" id="P0306" type="Parish">
+    <placeobj handle="_ceac1478b0919bf2446" change="1734885657" id="P0306" type="Parish">
       <ptitle>Lojo, Finland</ptitle>
       <pname value="Lojo" lang="se"/>
-      <pname value="Lohja" lang="fi"/>
+      <pname value="Lohja" lang="fi">
+        <dateval val="1900" type="after"/>
+      </pname>
       <placeref hlink="_cb589cfeb254c33cda1"/>
     </placeobj>
     <placeobj handle="_ceac18e28634c57890d" change="1420240919" id="P0307" type="Parish">
@@ -54561,6 +54571,22 @@
     <placeobj handle="_fa59271c52a28bf86d80a45e244" change="1720380095" id="P0398" type="Farm">
       <pname value="Grindas"/>
       <placeref hlink="_fa59271a14223bb9089fb7f5d9"/>
+    </placeobj>
+    <placeobj handle="_fc7585c99e630639bd88d467513" change="1734885537" id="P0731" type="Cemetery">
+      <pname value="Metsolan hautausmaa"/>
+      <placeref hlink="_ceac1478b0919bf2446"/>
+    </placeobj>
+    <placeobj handle="_fc7585ccd1f48dee9a1510efbfc" change="1734885734" id="P0732" type="Block">
+      <pname value="kortteli 2"/>
+      <placeref hlink="_fc7585c99e630639bd88d467513"/>
+    </placeobj>
+    <placeobj handle="_fc7585ced1be208a3bf31432cc" change="1734885735" id="P0733" type="Path">
+      <pname value="rivi 40"/>
+      <placeref hlink="_fc7585ccd1f48dee9a1510efbfc"/>
+    </placeobj>
+    <placeobj handle="_fc7585d06a27364836fe03a93f4" change="1734885735" id="P0734" type="Grave">
+      <pname value="hauta 604"/>
+      <placeref hlink="_fc7585ced1be208a3bf31432cc"/>
     </placeobj>
   </places>
   <repositories>
@@ -83153,6 +83179,40 @@ NORDBERG MARIA ELVIRA VIOLA Syntymävuosi 1903
       <style name="fontface" value="Courier New">
         <range start="0" end="604"/>
       </style>
+    </note>
+    <note handle="_fc75845e56622790e3166a86f90" change="1734885388" id="N3701" type="Source text" format="1">
+      <text>NOROVUORI PAUL VILHELM VALDEMAR 1908 - 1964
+Lohjan seurakunta, Metsolan hautausmaa
+
+Syntymävuosi    1908
+Kuolinvuosi     1964
+Hautausmaa      Metsolan hautausmaa
+                Myyryntie 2
+                08150 Lohja
+Alue            00
+Kortteli        002
+Rivi            40
+Paikkanumero    00604
+
+Samaan hautaan haudatut
+
+LAVI IRMA MARJATTA
+Syntymävuosi    1921
+Kuolinvuosi     1998
+
+NOROVUORI ALLI ADELE
+Syntymävuosi    1900
+Kuolinvuosi     1969
+
+NOROVUORI PAAVO JUHANI
+Syntymävuosi    1933
+Kuolinvuosi     2019</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="514"/>
+      </style>
+    </note>
+    <note handle="_fc7584979cf746dbe12234c404e" change="1734885411" id="N3702" type="Link">
+      <text>https://www.hautahaku.fi/map/5B-00-002-40-00604/NOROVUORI%20PAUL%20VILHELM%20VALDEMAR</text>
     </note>
   </notes>
   <bookmarks>
