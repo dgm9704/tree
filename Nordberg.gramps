@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2024-07-09" version="5.2.2"/>
+    <created date="2024-12-22" version="5.2.3"/>
     <researcher>
     </researcher>
   </header>
@@ -10806,11 +10806,12 @@
       <place hlink="_dcdcc33d1ca3a963000cc467649"/>
       <citationref hlink="_dcdcc40e48270e12c17516bca00"/>
     </event>
-    <event handle="_dcdcc54c6becaa6715009fa110" change="1703884097" id="E0040">
+    <event handle="_dcdcc54c6becaa6715009fa110" change="1734870168" id="E0040">
       <type>Burial</type>
       <dateval val="1977-06-03"/>
       <place hlink="_defd62ead7732f5fbc0dd0b17c9"/>
       <citationref hlink="_defd60dcd8f52107230c7920d94"/>
+      <citationref hlink="_fc74f3267557502cad4cf59ad5c"/>
     </event>
     <event handle="_dcdccba9dd144bfd76b5b3f4513" change="1703884063" id="E0041">
       <type>Residence</type>
@@ -47682,6 +47683,13 @@
       <noteref hlink="_fa5f406e562120e7c1378142a12"/>
       <sourceref hlink="_cdccc33aada5d1bc81c"/>
     </citation>
+    <citation handle="_fc74f3267557502cad4cf59ad5c" change="1734870161" id="C1763">
+      <page>05-00-029-10-00188/NORDBERG EDIT MARIA ADELE</page>
+      <confidence>2</confidence>
+      <noteref hlink="_fc74f194795691941de119654e2"/>
+      <noteref hlink="_fc74f30602a3ca966e0b887dcd5"/>
+      <sourceref hlink="_f14512880813e77217f42ad78d9"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -83113,6 +83121,37 @@ pig. Sofia Wilhelm. Holmström    16/1 1847  Ekenäs Landsförs.    p.400       
       <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38708&amp;pnum=255</text>
       <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38708&amp;pnum=255">
         <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_fc74f194795691941de119654e2" change="1734869996" id="N3699" type="Link">
+      <text>https://www.hautahaku.fi/map/05-00-029-10-00188/NORDBERG%20EDIT%20MARIA%20ADELE</text>
+    </note>
+    <note handle="_fc74f30602a3ca966e0b887dcd5" change="1734870147" id="N3700" type="Source text" format="1">
+      <text>NORDBERG EDIT MARIA ADELE 1910 - 1980
+Helsingin seurakuntayhtymä, Maunulan uurnalehto
+
+Syntymävuosi    1910
+Kuolinvuosi     1980
+Hautausmaa      Maunulan uurnalehto
+                Pirkkolantie 22
+                00630 Helsinki
+Alue            00
+Kortteli	029
+Rivi            10
+Paikkanumero    00188
+
+Samaan hautaan haudatut
+
+NORDBERG ALISA SIVIÄ ELINA  Syntymävuosi 1906
+                            Kuolinvuosi  1977
+
+NORDBERG ERKKI JUHANI       Syntymävuosi 1946
+                            Kuolinvuosi  2012
+
+NORDBERG MARIA ELVIRA VIOLA Syntymävuosi 1903
+                            Kuolinvuosi  1979</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="604"/>
       </style>
     </note>
   </notes>
