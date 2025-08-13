@@ -14868,11 +14868,11 @@
       <place hlink="_db7edff94ee77607b8e81650c2"/>
       <citationref hlink="_db7ef86f7552c9d48207c68510c"/>
     </event>
-    <event handle="_ece7aab987040e90f4062118035" change="1628157023" id="E0347">
+    <event handle="_ece7aab987040e90f4062118035" change="1755094394" id="E0347">
       <type>Name change</type>
-      <daterange start="1906" stop="1917" quality="estimated"/>
+      <daterange start="1908" stop="1909" quality="estimated"/>
       <place hlink="_db7edba33a070fea96eb55b869c"/>
-      <description>Vuori</description>
+      <description>Wuori</description>
       <citationref hlink="_db7ef86f7552c9d48207c68510c"/>
       <citationref hlink="_eceb8ce4198345caba2679e602c"/>
     </event>
@@ -14908,14 +14908,18 @@
       <place hlink="_eced57296aa34234552df37bd3e"/>
       <citationref hlink="_eced4f922d7526b9d133a56c6a1"/>
     </event>
-    <event handle="_eced93c06e67083e56df81b996d" change="1628157064" id="E0353">
+    <event handle="_eced93c06e67083e56df81b996d" change="1755094274" id="E0353">
       <type>Name change</type>
-      <daterange start="1917" stop="1919" quality="estimated"/>
+      <dateval val="1918-08-02"/>
+      <place hlink="_eceda39ed0c570d40722c26c046"/>
       <description>Pohjanvuori</description>
+      <citationref hlink="_ff665a5c8aa5d5a14643afcfc3b"/>
     </event>
-    <event handle="_eced979bad137c91bd0706cf386" change="1628157468" id="E0354">
+    <event handle="_eced979bad137c91bd0706cf386" change="1755096896" id="E0354">
       <type>Birth</type>
-      <dateval val="1894"/>
+      <dateval val="1894-12-24"/>
+      <place hlink="_eceda39ed0c570d40722c26c046"/>
+      <citationref hlink="_ff66744ee7014c41c88ebd6942a"/>
     </event>
     <event handle="_eceda74d95e79a755e769e1934e" change="1672249384" id="E0355">
       <type>Residence</type>
@@ -17819,6 +17823,32 @@
       <citationref hlink="_eceb10d68214ed3d4c10aff2c08"/>
       <citationref hlink="_eceb1bef8b7568b681ba747950a"/>
       <citationref hlink="_eceb36ad673d34607d209b8292"/>
+    </event>
+    <event handle="_ff663022dfe1ad5accacd114a14" change="1755093529" id="E0994">
+      <type>Residence</type>
+      <datespan start="1910" stop="1918-06-17"/>
+      <place hlink="_eceb80d71fa1070a46fdd502dbc"/>
+      <citationref hlink="_ff66104c31620710c54ddb0f0f9"/>
+      <citationref hlink="_ff6653fa5b922c03847f10961a1"/>
+    </event>
+    <event handle="_ff6657073093271582a8b01d454" change="1755096236" id="E0995">
+      <type>Residence</type>
+      <dateval val="1918-06-28" type="after"/>
+      <place hlink="_eceda3a4695416bcc30e72a1ca9"/>
+      <citationref hlink="_ff665701e2919cf70df26217ba5"/>
+      <citationref hlink="_ff665a5c8aa5d5a14643afcfc3b"/>
+    </event>
+    <event handle="_ff6679b139268fad94750fd463f" change="1755097458" id="E0996">
+      <type>Marriage</type>
+      <dateval val="1918-07-01"/>
+      <place hlink="_eceda3a4695416bcc30e72a1ca9"/>
+      <citationref hlink="_ff6679ab8073cc5594c55d0ff5f"/>
+    </event>
+    <event handle="_ff667bc5249728d054c00577035" change="1755097676" id="E0997">
+      <type>Residence</type>
+      <datespan start="1918" stop="1919"/>
+      <place hlink="_eceda3a4695416bcc30e72a1ca9"/>
+      <citationref hlink="_ff66744ee7014c41c88ebd6942a"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -21614,27 +21644,33 @@
       <eventref hlink="_cb589cd2cc2047ace01" role="Primary"/>
       <childof hlink="_cb589ccf0543e184100"/>
     </person>
-    <person handle="_cb589cd2ce33616538c" change="1755086729" id="I5383">
+    <person handle="_cb589cd2ce33616538c" change="1755094490" id="I5383">
       <gender>M</gender>
       <name type="Also Known As">
-        <first>Jalmar</first>
+        <first>Jalmar Ferdinand</first>
         <surname derivation="Taken">Pohjanvuori</surname>
         <group>Nordberg</group>
-        <datestr val=""/>
+        <dateval val="1918-08-02" type="after"/>
+        <citationref hlink="_ff665a5c8aa5d5a14643afcfc3b"/>
       </name>
       <name alt="1" type="Birth Name">
         <first>Hjalmar Ferdinand</first>
         <surname>Nordberg</surname>
+        <dateval val="1914" type="before" quality="estimated"/>
       </name>
       <name alt="1" type="Also Known As">
-        <first>Jalmar</first>
+        <first>Jalmar Ferdinand</first>
         <surname derivation="Taken">Wuori</surname>
         <group>Nordberg</group>
+        <datespan start="1909" stop="1918" quality="estimated"/>
+        <citationref hlink="_db7ef86f7552c9d48207c68510c"/>
       </name>
       <eventref hlink="_cb589cd2cea729f954f" role="Primary"/>
       <eventref hlink="_ece7a15f46628872419d68ecb90" role="Primary"/>
       <eventref hlink="_ece7a26ca1d1d165560dc6ea8bf" role="Primary"/>
       <eventref hlink="_ece7aab987040e90f4062118035" role="Primary"/>
+      <eventref hlink="_ff663022dfe1ad5accacd114a14" role="Primary"/>
+      <eventref hlink="_ff6657073093271582a8b01d454" role="Primary"/>
       <eventref hlink="_eced93c06e67083e56df81b996d" role="Primary"/>
       <childof hlink="_cb589ccf0543e184100"/>
       <parentin hlink="_eced97242ef3ee2770424bafd29"/>
@@ -30189,11 +30225,12 @@
       <eventref hlink="_ec07bb8819b71b5dc98268f339b" role="Primary"/>
       <childof hlink="_ec074e8655928e939d9784071bb"/>
     </person>
-    <person handle="_eced977b6a957f4acc3034c06f2" change="1628173793" id="I0087">
+    <person handle="_eced977b6a957f4acc3034c06f2" change="1755096395" id="I0087">
       <gender>F</gender>
       <name type="Birth Name">
-        <first>Sandra</first>
-        <surname></surname>
+        <first>Eeva Aleksandra</first>
+        <surname derivation="Unknown ">Jalava</surname>
+        <surname prim="0" derivation="Matronymic">Matildantytär</surname>
       </name>
       <eventref hlink="_eced979bad137c91bd0706cf386" role="Primary"/>
       <parentin hlink="_eced97242ef3ee2770424bafd29"/>
@@ -34868,10 +34905,12 @@
       <childref hlink="_ec0755225742e0bed56f3e13064"/>
       <childref hlink="_ec075c5805c678d95874a2dfb39"/>
     </family>
-    <family handle="_eced97242ef3ee2770424bafd29" change="1628173793" id="F0020">
+    <family handle="_eced97242ef3ee2770424bafd29" change="1755097714" id="F0020">
       <rel type="Married"/>
       <father hlink="_cb589cd2ce33616538c"/>
       <mother hlink="_eced977b6a957f4acc3034c06f2"/>
+      <eventref hlink="_ff6679b139268fad94750fd463f" role="Family"/>
+      <eventref hlink="_ff667bc5249728d054c00577035" role="Family"/>
       <eventref hlink="_eceda74d95e79a755e769e1934e" role="Family"/>
     </family>
     <family handle="_ecfa508d9192a0aba49237471d7" change="1628499234" id="F0021">
@@ -47754,6 +47793,51 @@
       <noteref hlink="_ff661045f4a3a8cc7b029a3eed2"/>
       <sourceref hlink="_ff6607065f836da2ec87afa3ab0"/>
     </citation>
+    <citation handle="_ff6653fa5b922c03847f10961a1" change="1755093504" id="C1767">
+      <datestr val=""/>
+      <page>AP I Ba:2 / kuva 192</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ff665246ccfaf55f156d939eab"/>
+      <noteref hlink="_ff66526630425559d7e0898e7f0"/>
+      <noteref hlink="_ff66534d8627c3ec5ab8dad3bef"/>
+      <sourceref hlink="_ff6651ee01e623f2bd2bfc7b2da"/>
+    </citation>
+    <citation handle="_ff665701e2919cf70df26217ba5" change="1755093821" id="C1768">
+      <datestr val=""/>
+      <page>AP I Ba:2 /99-100</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ff66560b771412e280ec508a77"/>
+      <noteref hlink="_ff66562c6e0281d08500a795b80"/>
+      <noteref hlink="_ff6656fe86c480c5ebbe7074eca"/>
+      <sourceref hlink="_ff6655dc49e18426f53e59dad90"/>
+    </citation>
+    <citation handle="_ff665a5c8aa5d5a14643afcfc3b" change="1755094173" id="C1769">
+      <datestr val=""/>
+      <page>AP I Aa:8 / 188</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ff6658b368b19446845c19c64b2"/>
+      <noteref hlink="_ff6658d85a4686747e854c910f1"/>
+      <noteref hlink="_ff665a58eff4e1896b539300bad"/>
+      <sourceref hlink="_ff66582f09ea739224b56915bd"/>
+    </citation>
+    <citation handle="_ff66744ee7014c41c88ebd6942a" change="1755096894" id="C1770">
+      <datestr val=""/>
+      <page>AP I Aa:8 / 184</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ff667052c4b4f86dd1200d3ab40"/>
+      <noteref hlink="_ff66707ab89533bf20cf30acde9"/>
+      <noteref hlink="_ff66744646118299ad2b68929c4"/>
+      <sourceref hlink="_ff66582f09ea739224b56915bd"/>
+    </citation>
+    <citation handle="_ff6679ab8073cc5594c55d0ff5f" change="1755097456" id="C1771">
+      <datestr val=""/>
+      <page>AP I Eb:2 / 84-85</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ff6677965aa21f3bf537222c30a"/>
+      <noteref hlink="_ff6677b9dcf59be0594687ef01b"/>
+      <noteref hlink="_ff6679a8184a7cde0e455e5bbc"/>
+      <sourceref hlink="_ff66775fc581b79980146135d0f"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -51376,6 +51460,26 @@
     <source handle="_ff6607065f836da2ec87afa3ab0" change="1755085435" id="S0719">
       <stitle>Somero Rippikirja 1910-1919</stitle>
       <sauthor>Someron seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_ff6651ee01e623f2bd2bfc7b2da" change="1755093289" id="S0720">
+      <stitle>Somero Muuttaneet 1892-1922</stitle>
+      <sauthor>Someron seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_ff6655dc49e18426f53e59dad90" change="1755093701" id="S0721">
+      <stitle>Somerniemi Muuttaneet 1892-1922</stitle>
+      <sauthor>Somerniemen seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_ff66582f09ea739224b56915bd" change="1755093945" id="S0722">
+      <stitle>Somerniemi Rippikirja 1909-1919</stitle>
+      <sauthor>Somerniemen seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_ff66775fc581b79980146135d0f" change="1755097215" id="S0723">
+      <stitle>Somerniemi Vihityt 1892-1922</stitle>
+      <sauthor>Somerniemen seurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
   </sources>
@@ -83381,25 +83485,138 @@ pka     Herman                   1/7   1899   &quot;
         <range start="0" end="78"/>
       </style>
     </note>
-    <note handle="_ff661045f4a3a8cc7b029a3eed2" change="1755086404" id="N3716" type="Transcript" format="1">
+    <note handle="_ff661045f4a3a8cc7b029a3eed2" change="1755088373" id="N3716" type="Transcript" format="1">
       <text>318    Joensuu
 
 Yli Aukusti
 
 Kaunela, palstatila
 palstatilall.
-Mäkit. Otto Ferdinand Nordberg         8/8   1858  Pornainen  W.K. 260
-vo     Serafia Juhontytär              3/12  1860  Somero     &quot;
-pa     Hjalmar Ferdinand Otonp. Wuori  14/10 1890  &quot;          &quot;
-tr     Olga Aleksandra                 29/5  1896  &quot;          &quot;
-pa  sotilas Herman  Wuori 1914         1/7   1899  &quot;          &quot;
-tr     Alma Aurora                     6/3   1904  &quot;          &quot;</text>
+Mäkit. Otto Ferdinand Nordberg         8/8   1858  Pornainen  W.K. 260    U.K.s.363
+vo     Serafia Juhontytär              3/12  1860  Somero     &quot;           &quot;
+pa     Hjalmar Ferdinand Otonp. Wuori  14/10 1890  &quot;          &quot;           Somerniemi 17/6 1918 no27
+tr     Olga Aleksandra                 29/5  1896  &quot;          &quot;           U.K.s.363
+pa  sotilas Herman  Wuori 1914         1/7   1899  &quot;          &quot;           &quot;
+tr     Alma Aurora                     6/3   1904  &quot;          &quot;           &quot;</text>
       <style name="fontface" value="Courier New">
-        <range start="0" end="453"/>
+        <range start="0" end="558"/>
       </style>
       <style name="strikethrough">
         <range start="63" end="69"/>
-        <range start="330" end="337"/>
+        <range start="411" end="418"/>
+      </style>
+    </note>
+    <note handle="_ff665246ccfaf55f156d939eab" change="1755093325" id="N3717" type="Citation">
+      <text>Somero muuttaneet 1892-1922 (AP I Ba:2)  1918 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45497&amp;pnum=198 / Viitattu 13.08.2025</text>
+    </note>
+    <note handle="_ff66526630425559d7e0898e7f0" change="1755093338" id="N3718" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45497&amp;pnum=198</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45497&amp;pnum=198">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_ff66534d8627c3ec5ab8dad3bef" change="1755093433" id="N3719" type="Transcript" format="1">
+      <text>Someron seurakunnasta muuttaneet wuonna 1918
+
+27  [Kesäk]  17  Somerniemi  Palstatilall.n pa Jalmar F.Wuori  [m]</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="112"/>
+      </style>
+    </note>
+    <note handle="_ff66560b771412e280ec508a77" change="1755093720" id="N3720" type="Citation">
+      <text>Somerniemi muuttaneet 1892-1922 (AP I Ba:2)  Sivu 99-100 1918 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45423&amp;pnum=53 / Viitattu 13.08.2025</text>
+    </note>
+    <note handle="_ff66562c6e0281d08500a795b80" change="1755093734" id="N3721" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45423&amp;pnum=53</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45423&amp;pnum=53">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_ff6656fe86c480c5ebbe7074eca" change="1755093820" id="N3722" type="Transcript" format="1">
+      <text>siv 99
+    Somerniemen seurakuntaan muuttaneet wuonna 1918
+
+7  Kesä.  28  17  Somero  188  Palstatil.p. Jalmar Ferdinand Vuori  [m]</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="131"/>
+      </style>
+    </note>
+    <note handle="_ff6658b368b19446845c19c64b2" change="1755093999" id="N3723" type="Citation">
+      <text>Somerniemi rippikirja 1909-1919 (AP I Aa:8)  Sivu 188 Oinasjärvi Rauhankallio ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45413&amp;pnum=169 / Viitattu 13.08.2025</text>
+    </note>
+    <note handle="_ff6658d85a4686747e854c910f1" change="1755094014" id="N3724" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45413&amp;pnum=169</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45413&amp;pnum=169">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_ff665a58eff4e1896b539300bad" change="1755094172" id="N3725" type="Transcript">
+      <text>188
+        Oinasjärvi
+
+Rauhankallio
+
+Puuseppä
+              otti 2/8 1918 nimen 
+                      Pohjanvuori
+Jalmar Ferdinand Otonpoika (Vuori)  14/10 1890  Somero  28/6 1918 Somerolta    Aviokuul no 1_1918 (s. 184)    184_1919
+
+</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="236"/>
+      </style>
+    </note>
+    <note handle="_ff667052c4b4f86dd1200d3ab40" change="1755096476" id="N3726" type="Citation">
+      <text>Somerniemi rippikirja 1909-1919 (AP I Aa:8)  Sivu 184 Oinasjärvi Rauhankallio (Edelliset sivut tyhjät) ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45413&amp;pnum=165 / Viitattu 13.08.2025</text>
+    </note>
+    <note handle="_ff66707ab89533bf20cf30acde9" change="1755096492" id="N3727" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45413&amp;pnum=165</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45413&amp;pnum=165">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_ff66744646118299ad2b68929c4" change="1755096890" id="N3728" type="Transcript" format="1">
+      <text>184
+    Oinasjärvi
+
+Rauhankallio verotila
+      ½ mantt.
+
+Hoidokkeja
+Eeva Aleksandra Matildantytär Jalava  24/12 1894  Täällä    Aviokuul noi 1-1918 (siv 188)    alemmas 1919
++ Vihtori Vihtorinpoika Aalto         13/7  1896  &quot;         Kuul 1921 M.b? sivu 214          + 12/11 1921
+poika Wikki Wiljam                    19/12 1921  &quot;                                          uk 253
+Puuseppä
+Jalmar Ferdinand Otonp. Pohjanvuori   14/10 1890  Somero                                     uk 256
+Vaimo Eeva Aleksandra Jalava          24/12 1894  Täällä                                     &quot;
+Tytär Kaisa Aleksandra                10/12 1918  &quot;                                          &quot;</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="679"/>
+      </style>
+    </note>
+    <note handle="_ff6677965aa21f3bf537222c30a" change="1755097238" id="N3729" type="Citation">
+      <text>Somerniemi vihityt 1892-1922 (AP I Eb:2)  Sivu 84-85 1917-1918 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45418&amp;pnum=45 / Viitattu 13.08.2025</text>
+    </note>
+    <note handle="_ff6677b9dcf59be0594687ef01b" change="1755097252" id="N3730" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45418&amp;pnum=45</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45418&amp;pnum=45">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_ff6679a8184a7cde0e455e5bbc" change="1755097455" id="N3731" type="Transcript" format="1">
+      <text>Wuonna 1918                     sivu 85
+Avioliittoon wihityt Somerniemen seurakunnassa
+
+1  Heinäk.  7. 184       Puuseppä Jalmar      27  23  [2 naimatonta]
+                    Ferdinand Vuori ja talon
+                    kasvatti Eeva Aleksandra
+                    Jalava Oinasjärven Rau-
+                    hankalliosta, tätä seura
+                    kuntaa.
+                       Vihki Rauhankalliossa
+                            Alfred Mäkinen</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="451"/>
       </style>
     </note>
   </notes>
