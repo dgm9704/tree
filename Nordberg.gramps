@@ -10781,11 +10781,12 @@
       <citationref hlink="_db8bdbd04363938f472f552196d"/>
       <citationref hlink="_db8bdd83fce41410ae10e60fc32"/>
     </event>
-    <event handle="_dcdc4fb197d2563db24863a1995" change="1703934586" id="E0037">
+    <event handle="_dcdc4fb197d2563db24863a1995" change="1755121980" id="E0037">
       <type>Death</type>
       <dateval val="1928-02-13"/>
       <place hlink="_cde62768b9e01659bdc"/>
       <citationref hlink="_dcdc4fa01c45930920de09eb530"/>
+      <citationref hlink="_ff676380d96435b6f1ba09d382d"/>
     </event>
     <event handle="_dcdc8f491822376639091aa1222" change="1703934181" id="E0038">
       <type>Death</type>
@@ -14876,11 +14877,12 @@
       <citationref hlink="_db7ef86f7552c9d48207c68510c"/>
       <citationref hlink="_eceb8ce4198345caba2679e602c"/>
     </event>
-    <event handle="_ece8e3cb0a01c6baaef46664db1" change="1691005819" id="E0348">
+    <event handle="_ece8e3cb0a01c6baaef46664db1" change="1755120558" id="E0348">
       <type>Death</type>
       <dateval val="1977-03-11"/>
       <place hlink="_ce9a9fdc1a3005f117a"/>
       <citationref hlink="_eced4f922d7526b9d133a56c6a1"/>
+      <citationref hlink="_ff67342745a5c01898fb4e4f384"/>
     </event>
     <event handle="_eceb509d7c02e95db02f64b322e" change="1628101059" id="E0349">
       <type>Residence</type>
@@ -17858,11 +17860,12 @@
       <citationref hlink="_ff66744ee7014c41c88ebd6942a"/>
       <citationref hlink="_ff66941f3ee1bb00bdfbc58854c"/>
     </event>
-    <event handle="_ff66a75d2e14426b9950b13322a" change="1755102247" id="E0999">
+    <event handle="_ff66a75d2e14426b9950b13322a" change="1755120641" id="E0999">
       <type>Death</type>
       <dateval val="1933-11-25"/>
       <place hlink="_eceda3a4695416bcc30e72a1ca9"/>
       <citationref hlink="_ff66a74b78815512ca037b386e1"/>
+      <citationref hlink="_ff674d5ed2496161d482c5cc6e"/>
     </event>
     <event handle="_ff673e064f265211cae0c8ab601" change="1755118045" id="E1000">
       <type>Death</type>
@@ -17942,9 +17945,14 @@
       <childof hlink="_cb589cc80670f6bf5c4"/>
       <parentin hlink="_cb589cc7f9c792dc427"/>
     </person>
-    <person handle="_cb589cc80776138fae0" change="1704129075" id="I4428">
+    <person handle="_cb589cc80776138fae0" change="1755122088" id="I4428">
       <gender>F</gender>
       <name type="Birth Name">
+        <first>Tyyne Elisabeth</first>
+        <surname derivation="Inherited">Nordberg</surname>
+        <datestr val=""/>
+      </name>
+      <name alt="1" type="Birth Name">
         <first>Tyyni Elisabeth</first>
         <surname>Nordberg</surname>
         <nick>Tyyne</nick>
@@ -30274,12 +30282,17 @@
       <eventref hlink="_ec07bb8819b71b5dc98268f339b" role="Primary"/>
       <childof hlink="_ec074e8655928e939d9784071bb"/>
     </person>
-    <person handle="_eced977b6a957f4acc3034c06f2" change="1755119669" id="I0087">
+    <person handle="_eced977b6a957f4acc3034c06f2" change="1755120645" id="I0087">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Eeva Aleksandra</first>
         <surname derivation="Unknown ">Jalava</surname>
         <surname prim="0" derivation="Matronymic">Matildantytär</surname>
+      </name>
+      <name alt="1" type="Birth Name">
+        <first>Eeva Aleksandra</first>
+        <surname derivation="Married Name">Pohjanvuori</surname>
+        <datestr val=""/>
       </name>
       <eventref hlink="_eced979bad137c91bd0706cf386" role="Primary"/>
       <eventref hlink="_ff66a75d2e14426b9950b13322a" role="Primary"/>
@@ -47963,6 +47976,15 @@
       <noteref hlink="_ff6751ca7c66117456a690d6870"/>
       <sourceref hlink="_ff6732b07f4351e714bd6c9f6cf"/>
     </citation>
+    <citation handle="_ff676380d96435b6f1ba09d382d" change="1755121975" id="C1779">
+      <datestr val=""/>
+      <page>1928-2/44</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ff6760f1f55822fa31decac6ad"/>
+      <noteref hlink="_ff67611c56459a756ede1777cd5"/>
+      <noteref hlink="_ff67636bb7b33c2afb5988cffd2"/>
+      <sourceref hlink="_ff67604bbce41971cf37a74e067"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -51625,6 +51647,11 @@
     <source handle="_ff6732b07f4351e714bd6c9f6cf" change="1755116857" id="S0727">
       <stitle>Hautakartta</stitle>
       <reporef hlink="_ff6732a7fd87972f4d179eaa41b" medium="Book"/>
+    </source>
+    <source handle="_ff67604bbce41971cf37a74e067" change="1755121639" id="S0728">
+      <stitle>Semina : Suomens farmaseuttiliiton äänenkannattaja</stitle>
+      <sauthor>Suomen farmasialiitto</sauthor>
+      <reporef hlink="_cdea68c6afd7d08bd3f" medium="Book"/>
     </source>
   </sources>
   <places>
@@ -83911,6 +83938,32 @@ POHJANVUORI JALMARI FERDINAN  1890 - 1978
 SAARINEN OLAVI                1914 - 2002</text>
       <style name="fontface" value="Courier New">
         <range start="0" end="343"/>
+      </style>
+    </note>
+    <note handle="_ff6760f1f55822fa31decac6ad" change="1755121707" id="N3746" type="Citation">
+      <text>Semina : Suomen farmaseuttiliiton äänenkannattaja, 01.02.1928, nro 2, s. 32
+https://digi.kansalliskirjasto.fi/aikakausi/binding/915331?page=32
+Kansalliskirjaston digitaaliset aineistot
+Viitattu:14.08.2025</text>
+    </note>
+    <note handle="_ff67611c56459a756ede1777cd5" change="1755121724" id="N3747" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/915331?page=32</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/915331?page=32">
+        <range start="0" end="66"/>
+      </style>
+    </note>
+    <note handle="_ff67636bb7b33c2afb5988cffd2" change="1755121966" id="N3748" type="Transcript" format="1">
+      <text>     På kommunala sjukhuset härstädes avled 13/2 studenten Tyyne
+Elisabeth Nordberg efter ett tappert buret långvarigt lidande. Under
+en följd av år tjänstgjorde hon på militärapoteken i Viborg och
+Helsingfors. Genom sitt sällsynt nobla, flärdfria och rättframma
+väsen gjorde hon sig älskad och aktad av alla, som hade för-
+månen höra till hennes lilla krets. Arbetsam, kunskapsrik och
+med karaktär av renaste kristall lämnade hon kvar ett minne, som
+säkert skall bevaras uti trogen hågkomst. Vår lilla &quot;general&quot; är
+ej mer, honnör för hennes minne !</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="549"/>
       </style>
     </note>
   </notes>
