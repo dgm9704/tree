@@ -17850,6 +17850,19 @@
       <place hlink="_eceda3a4695416bcc30e72a1ca9"/>
       <citationref hlink="_ff66744ee7014c41c88ebd6942a"/>
     </event>
+    <event handle="_ff668f9f03d70c1830b413bf7dc" change="1755100232" id="E0998">
+      <type>Birth</type>
+      <dateval val="1918-12-10"/>
+      <place hlink="_eceda3a4695416bcc30e72a1ca9"/>
+      <citationref hlink="_ff66744ee7014c41c88ebd6942a"/>
+      <citationref hlink="_ff66941f3ee1bb00bdfbc58854c"/>
+    </event>
+    <event handle="_ff66a75d2e14426b9950b13322a" change="1755102247" id="E0999">
+      <type>Death</type>
+      <dateval val="1933-11-25"/>
+      <place hlink="_eceda3a4695416bcc30e72a1ca9"/>
+      <citationref hlink="_ff66a74b78815512ca037b386e1"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1658869228" id="I3858">
@@ -30225,7 +30238,7 @@
       <eventref hlink="_ec07bb8819b71b5dc98268f339b" role="Primary"/>
       <childof hlink="_ec074e8655928e939d9784071bb"/>
     </person>
-    <person handle="_eced977b6a957f4acc3034c06f2" change="1755096395" id="I0087">
+    <person handle="_eced977b6a957f4acc3034c06f2" change="1755102266" id="I0087">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Eeva Aleksandra</first>
@@ -30233,6 +30246,7 @@
         <surname prim="0" derivation="Matronymic">Matildantytär</surname>
       </name>
       <eventref hlink="_eced979bad137c91bd0706cf386" role="Primary"/>
+      <eventref hlink="_ff66a75d2e14426b9950b13322a" role="Primary"/>
       <parentin hlink="_eced97242ef3ee2770424bafd29"/>
     </person>
     <person handle="_ecfa50b22b076ae1d19f6d35d26" change="1628499234" id="I0088">
@@ -31450,6 +31464,16 @@
       </name>
       <eventref hlink="_fa59292feb94bd534ef43babe98" role="Primary"/>
       <parentin hlink="_fa5928473bc6e0a9d67f279965"/>
+    </person>
+    <person handle="_ff668eddfc63d954383521ca602" change="1755101100" id="I0199">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Kaisa Aleksandra</first>
+        <surname derivation="Inherited">Pohjanvuori</surname>
+        <group>Nordberg</group>
+      </name>
+      <eventref hlink="_ff668f9f03d70c1830b413bf7dc" role="Primary"/>
+      <childof hlink="_eced97242ef3ee2770424bafd29"/>
     </person>
   </people>
   <families>
@@ -34905,13 +34929,15 @@
       <childref hlink="_ec0755225742e0bed56f3e13064"/>
       <childref hlink="_ec075c5805c678d95874a2dfb39"/>
     </family>
-    <family handle="_eced97242ef3ee2770424bafd29" change="1755097714" id="F0020">
+    <family handle="_eced97242ef3ee2770424bafd29" change="1755101100" id="F0020">
       <rel type="Married"/>
       <father hlink="_cb589cd2ce33616538c"/>
       <mother hlink="_eced977b6a957f4acc3034c06f2"/>
       <eventref hlink="_ff6679b139268fad94750fd463f" role="Family"/>
       <eventref hlink="_ff667bc5249728d054c00577035" role="Family"/>
       <eventref hlink="_eceda74d95e79a755e769e1934e" role="Family"/>
+      <childref hlink="_ff668eddfc63d954383521ca602"/>
+      <noteref hlink="_ff669c4e8ce4dc1a9d7855aa4db"/>
     </family>
     <family handle="_ecfa508d9192a0aba49237471d7" change="1628499234" id="F0021">
       <rel type="Married"/>
@@ -47838,6 +47864,24 @@
       <noteref hlink="_ff6679a8184a7cde0e455e5bbc"/>
       <sourceref hlink="_ff66775fc581b79980146135d0f"/>
     </citation>
+    <citation handle="_ff66941f3ee1bb00bdfbc58854c" change="1755100230" id="C1772">
+      <datestr val=""/>
+      <page>AP I C:4 / 446-447</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ff6690bb58940b6d8a494a84a78"/>
+      <noteref hlink="_ff6690d934028704b1885554d50"/>
+      <noteref hlink="_ff6694199275e336ab0172cd766"/>
+      <sourceref hlink="_ff6690856da6c9357750ebac64b"/>
+    </citation>
+    <citation handle="_ff66a74b78815512ca037b386e1" change="1755102240" id="C1773">
+      <datestr val=""/>
+      <page>AP I F:2 / 22</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ff66a4ad932783db61a57df4657"/>
+      <noteref hlink="_ff66a4ce4e4453affc8c252c015"/>
+      <noteref hlink="_ff66a741775600c1fa0974f8670"/>
+      <sourceref hlink="_ff66a46fe927711acb0145a6b05"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -51479,6 +51523,16 @@
     </source>
     <source handle="_ff66775fc581b79980146135d0f" change="1755097215" id="S0723">
       <stitle>Somerniemi Vihityt 1892-1922</stitle>
+      <sauthor>Somerniemen seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_ff6690856da6c9357750ebac64b" change="1755099852" id="S0724">
+      <stitle>Somerniemi Syntyneet 1892-1921</stitle>
+      <sauthor>Somerniemen seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_ff66a46fe927711acb0145a6b05" change="1755101940" id="S0725">
+      <stitle>Somerniemi Kuolleet 1927-1961</stitle>
       <sauthor>Somerniemen seurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
@@ -83617,6 +83671,57 @@ Avioliittoon wihityt Somerniemen seurakunnassa
                             Alfred Mäkinen</text>
       <style name="fontface" value="Courier New">
         <range start="0" end="451"/>
+      </style>
+    </note>
+    <note handle="_ff6690bb58940b6d8a494a84a78" change="1755099874" id="N3732" type="Citation">
+      <text>Somerniemi syntyneet 1892-1921 (AP I C:4)  Sivu 446 1918 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45415&amp;pnum=229 / Viitattu 13.08.2025</text>
+    </note>
+    <note handle="_ff6690d934028704b1885554d50" change="1755099886" id="N3733" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45415&amp;pnum=229</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45415&amp;pnum=229">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_ff6694199275e336ab0172cd766" change="1755100227" id="N3734" type="Transcript" format="1">
+      <text>Wuonna 1918                           sivu 447
+Syntyneet ja kastetut Somerniemen surakunnassa
+
+[Joulukuulla]
+                 [s]   [k]   [i]   [ä]
+[n]  Kaisa       10    22    28    23  Vht: Puuseppä Jalmar Ferdi      184
+     Aleksandra                        nand POhjanvuori ja vaimonsa
+                                       Eeva Aleksandra Jalava
+                                       Oinasjärven Rauhankalliosta
+                                       Kmt: Maanviljelijä Kaarlo Rau-
+                                       hankallio, vaimonsa Amanda
+                                       ja tyttärensä Eeva, ylioppilas
+                                       Tyyne Tyrni ja opettajatar Dag
+                                       mar Mäkeläinen Helsingistä
+                                                Kastoi Alfred Mäkinen</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="831"/>
+      </style>
+    </note>
+    <note handle="_ff669c4e8ce4dc1a9d7855aa4db" change="1755101532" id="N3735" type="Research">
+      <text>Käyty läpi Somerniemi Syntyneet -&gt; 1922 loppuun asti, ei löytynyt lapsia Kaisa Aleksandran jälkeen</text>
+    </note>
+    <note handle="_ff66a4ad932783db61a57df4657" change="1755101966" id="N3736" type="Citation">
+      <text>Somerniemi kuolleet 1927-1961 (AP I F:2)  Sivu 22 1933 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45420&amp;pnum=24 / Viitattu 13.08.2025</text>
+    </note>
+    <note handle="_ff66a4ce4e4453affc8c252c015" change="1755101979" id="N3737" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45420&amp;pnum=24</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45420&amp;pnum=24">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_ff66a741775600c1fa0974f8670" change="1755102236" id="N3738" type="Transcript" format="1">
+      <text>Aukeama 22
+Kuolleet ja haudatut Somerniemen seurakunnassa vuonna 1933
+
+33  [Marrask]  25  10/12  Mekaanikon vaimo Eeva Aleksandra Pohjanvuori  Hengenahdistus (astma)  24/12 1894  28 11 1  naitu  [n]  273
+                          Oinasjärven Rauhankalliosta                   ja sappikivi?         </text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="298"/>
       </style>
     </note>
   </notes>
