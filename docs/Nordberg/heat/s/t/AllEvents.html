@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
+	<title>Nordberg Family Tree - All Events</title>
+	<meta charset="UTF-8" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
+	<meta name ="apple-mobile-web-app-capable" content="yes" />
+	<meta name="generator" content="Gramps 6.0.1 http://gramps-project.org/" />
+	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
+	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
+	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
+	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
+	<link href="../../../css/narrative-maps.css" media="screen" rel="stylesheet" type="text/css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+	<script src="https://openlayers.org/en/v6.15.1/build/ol.js" type="text/javascript"></script>
+	<link href="https://openlayers.org/en/v6.15.1/css/ol.css" rel="stylesheet" type="text/css" />
+	<script href="https://openlayers.org/en/v6.15.1/css/ol.css" rel="stylesheet" type="text/javascript">
+	</script>
+</head>
+<body dir="ltr">
+	<div id="outerwrapper">
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">Nordberg Family Tree</h1>
+		</div>
+		<div class="wrappernav ltr" id="nav" role="navigation">
+			<div class="container">
+				<ul class="nav" id="dropmenu">
+					<li><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
+					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
+					<li><a href="../../../families.html" title="Families">Families</a></li>
+					<li><a href="../../../events.html" title="Events">Events</a></li>
+					<li><a href="../../../places.html" title="Places">Places</a></li>
+					<li><a href="../../../heatmaps.html" title="Heatmaps">Heatmaps</a></li>
+					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
+					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
+					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
+					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
+				</ul>
+			</div>
+		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+		<div class="content" id="events">
+			<p id="description">
+			This section contains the map for all people with the event: All Events (Entire Database)
+			</p>
+		</div>
+		<div id="map_canvas">
+		</div>
+		<div class="ol-popup" id="popup"><a class="ol-popup-closer" href="#" id="popup-closer"></a><div class="ol-popup-title" id="popup-title"></div><div class="ol-popup-content" id="popup-content"></div></div>
+		<div class="ol-popup" id="tooltip"><div id="tooltip-content"></div></div>
+	<script deter="deter" style="width =100%; height =100%;" type="text/javascript">
+	
+  var marker_png = '../../../images/marker.png';
+
+	
+  window.addEventListener("load", function() {
+    var map;
+    var heat = 'heatmap';
+    var tracelife = [[24.952160, 60.166260, ' <a href="../../../plc/e/c/ec7193d941f7ae07606844463ce.html">Västra Kajen 14, Hwalfisken, 3. Stadsdelen, Helsinki, Suomi</a>', "<p><a href='../../../ppl/a/2/cb589cc83ac79e7ec2a.html' title='I4849' target='_self'>Holmström, Sofia Wilhelmina</a>: <a href='../../../evt/6/b/de1203b01f44b7dbcd137b647b6.html' title='from 1875 to 1876' target='_self'>Residence</a> (from 1875 to 1876)" + "<br><a href='../../../ppl/f/e/cb589cc83d1028d9fef.html' title='I4183' target='_self'>Nordberg, Ferdinand</a>: <a href='../../../evt/6/b/de1203b01f44b7dbcd137b647b6.html' title='from 1875 to 1876' target='_self'>Residence</a> (from 1875 to 1876)"],[24.950870, 60.165610, ' <a href="../../../plc/d/1/f15f2fdd8d518f686f5ef49401d.html">Norra Magasinsgatan 4, Abboren, 3. Stadsdelen, Helsinki, Suomi</a>', "<p><a href='../../../ppl/a/2/cb589cc83ac79e7ec2a.html' title='I4849' target='_self'>Holmström, Sofia Wilhelmina</a>: <a href='../../../evt/a/6/f15f3555bd6b49d503bdf7d06a.html' title='1877' target='_self'>Residence</a> (1877)" + "<br><a href='../../../ppl/f/e/cb589cc83d1028d9fef.html' title='I4183' target='_self'>Nordberg, Ferdinand</a>: <a href='../../../evt/a/6/f15f3555bd6b49d503bdf7d06a.html' title='1877' target='_self'>Residence</a> (1877)"],];
+    var iconStyle = new ol.style.Style({
+      image: new ol.style.Icon(({
+        anchor: [0.2, 48],
+        anchorXUnits: 'fraction',
+        anchorYUnits: 'pixels',
+        opacity: 1.0,
+        src: marker_png
+      }))
+    });
+    var markerSource = new ol.source.Vector({
+    });
+    var centerCoord = new ol.proj.transform([24.951515, 60.165935000000005], 'EPSG:4326', 'EPSG:3857');
+    var zoom = 4;
+    var radius = 8;
+    var blur = 15;
+    for (var i = 0; i < tracelife.length; i++) {
+      var loc = tracelife[i];
+      var iconFeature = new ol.Feature({
+       geometry: new ol.geom.Point(ol.proj.transform([loc[0], loc[1]],
+                                                     'EPSG:4326', 'EPSG:3857')),
+       name: loc[2],
+       data: loc[3],
+      });
+      iconFeature.setStyle(iconStyle);
+      markerSource.addFeature(iconFeature);
+    }
+    markerLayer = new ol.layer.Vector({
+      source: markerSource,
+      style: iconStyle
+    });
+    tooltip = new ol.layer.Vector({
+      source: markerSource,
+      style: iconStyle
+    });
+    heatmap = new ol.layer.Heatmap({
+      source: markerSource,
+      radius: radius,
+      blur: blur,
+      style: iconStyle
+    });
+    if (heat == "heatmap") {
+      map = new ol.Map({
+                   target: 'map_canvas',
+                   layers: [new ol.layer.Tile({ source: new ol.source.OSM() }),
+                            heatmap],
+                   view: new ol.View({ center: centerCoord, zoom: zoom })
+                   });
+    } else {
+      map = new ol.Map({
+                   target: 'map_canvas',
+                   layers: [new ol.layer.Tile({ source: new ol.source.OSM() }),
+                            markerLayer, tooltip],
+                   view: new ol.View({ center: centerCoord, zoom: zoom })
+                   });
+    };
+
+	
+    var element = document.getElementById('popup');
+    var content = document.getElementById('popup-content');
+    var ptitle = document.getElementById('popup-title');
+    var closer = document.getElementById('popup-closer');
+    var tip = document.getElementById('tooltip');
+    var tipcontent = document.getElementById('tooltip-content');
+    var tltip1 = undefined;
+    var tltip2 = undefined;
+    var tooltip = new ol.Overlay({
+      element: tip,
+      positioning: 'bottom-center',
+      offset: [10, 0],
+    });
+    map.addOverlay(tooltip);
+    var popup = new ol.Overlay({
+      element: element,
+      positioning: 'bottom-center',
+      autoPan: true,
+      autoPanAnimation: { duration: 500 },
+      stopEvent: true
+    });
+    map.addOverlay(popup);
+    /**
+     * Add a click handler to hide the popup.
+     * @return {boolean} Don't follow the href.
+     */
+    closer.onclick = function() {
+      popup.setPosition(undefined);
+      closer.blur();
+      tltip1 = undefined;
+      tltip2 = undefined;
+      return false;
+    };
+    map.on('pointermove', function(evt) {
+      evt.preventDefault()
+      if (tltip2 !== undefined) {
+        return;
+      }
+      var feature = this.forEachFeatureAtPixel(evt.pixel,
+                                               function(feature, layer) {
+        tltip1 = feature;
+        return feature;
+      });
+      map.getTargetElement().style.cursor = feature ? 'pointer' : '';
+      if (evt.dragging) {
+        tooltip.setPosition(undefined);
+        return;
+      }
+      if (feature) {
+        var coordinate = evt.coordinate;
+        tipcontent.innerHTML = feature.get('name');
+        tooltip.setPosition(coordinate);
+      } else {
+        tooltip.setPosition(undefined);
+      }
+    });
+    map.on('singleclick', function(evt) {
+      evt.preventDefault();
+      if (tltip1 !== undefined) {
+        tooltip.setPosition(undefined);
+      }
+      var feature = map.forEachFeatureAtPixel(evt.pixel,
+                                              function(feature, layer) {
+        tltip2 = feature;
+        return feature;
+      });
+      if (feature) {
+      var coordinate = evt.coordinate;
+      var title = '<h2>' + feature.get('name') + '</h2>';
+      ptitle.innerHTML = title;
+      content.innerHTML = feature.get('data');
+      popup.setPosition(coordinate);
+      }
+      });
+  });
+
+	</script>
+		<div class="fullclear"></div>
+		<div id="footer">
+			<p id="createdate">
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 6.0.1 on 2025-08-13
+			</p>
+			<p id="copyright">
+			&copy; 2025 John Nordberg
+			</p>
+		</div>
+	</div>
+</body>
+</html>

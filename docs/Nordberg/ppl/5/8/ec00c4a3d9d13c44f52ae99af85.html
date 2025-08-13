@@ -5,7 +5,7 @@
 	<meta charset="UTF-8" />
 	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.2.3 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 6.0.1 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
 	<meta name="robots" content="noindex" />
 	<meta name="googlebot" content="noindex" />
@@ -31,12 +31,13 @@
 		</div>
 		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
-				<ul class="nav dropmenu" id="dropmenu">
+				<ul class="nav" id="dropmenu">
 					<li class = "CurrentSection"><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
 					<li><a href="../../../families.html" title="Families">Families</a></li>
 					<li><a href="../../../events.html" title="Events">Events</a></li>
 					<li><a href="../../../places.html" title="Places">Places</a></li>
+					<li><a href="../../../heatmaps.html" title="Heatmaps">Heatmaps</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
@@ -111,29 +112,6 @@ function GoToTop() {
 					<tbody>
 						<tr>
 							<td class="ColumnEvent" rowspan="2">
-								<a href="../../../evt/d/5/fa5926547a43bb7a7d7bb7d035d.html" title="Residence">
-								Residence
-								</a>
-							</td>
-							<td class="ColumnDate">before 1759</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/4/4/fa59271c52a28bf86d80a45e244.html" title="Grindas, Åmisby, Borgå, Suomi">
-								Grindas, Åmisby, Borgå, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref1a">1a</a>
-							</td>
-							<tr>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/2/a/ec00d9865da2bc30a05bb0dcea2.html" title="Birth">
 								Birth
 								</a>
@@ -142,7 +120,7 @@ function GoToTop() {
 							<td class="ColumnPlace">&nbsp;</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref1b">1b</a> <a href="#sref2a">2a</a>
+							 <a href="#sref1a">1a</a> <a href="#sref2a">2a</a>
 							</td>
 							<tr>
 								<td class="ColumnNotes" colspan="3">
@@ -161,6 +139,29 @@ function GoToTop() {
 							<td class="ColumnPlace">
 								<a href="../../../plc/f/e/e10c216106e761d03c131abecef.html" title="Caus hemman, Hindhår, Borgå, Suomi">
 								Caus hemman, Hindhår, Borgå, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref1a">1a</a>
+							</td>
+							<tr>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/d/5/fa5926547a43bb7a7d7bb7d035d.html" title="Residence">
+								Residence
+								</a>
+							</td>
+							<td class="ColumnDate">before 1759</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/4/4/fa59271c52a28bf86d80a45e244.html" title="Grindas, Åmisby, Borgå, Suomi">
+								Grindas, Åmisby, Borgå, Suomi
 								</a>
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
@@ -301,7 +302,7 @@ function GoToTop() {
 										<td class="ColumnPlace">&nbsp;</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref1a">1a</a>
+										 <a href="#sref1b">1b</a>
 										</td>
 										<tr>
 											<td class="ColumnNotes" colspan="3">
@@ -324,7 +325,7 @@ function GoToTop() {
 										</td>
 										<td class="ColumnDescription">&nbsp;</td>
 										<td class="ColumnSources" rowspan="2">
-										 <a href="#sref1a">1a</a>
+										 <a href="#sref1b">1b</a>
 										</td>
 										<tr>
 											<td class="ColumnNotes" colspan="3">
@@ -487,16 +488,10 @@ function GoToTop() {
 								<a href="../../../ppl/1/a/ec00029b896270a220b21f3c3a1.html">, Anna Hansdotter</a>
 								<ol>
 									<li>
-										<a href="../../../ppl/d/2/ec00c45de461172dd20da102a2d.html">, Johanna Matsdotter</a>
-									</li>
-									<li>
-										<a href="../../../ppl/a/6/ec00c62bd3f3bcb1ccf43e59b6a.html">, Johan Matsson</a>
-									</li>
-									<li>
-										<a href="../../../ppl/3/4/ec00c7228bcea09f88619ebf43.html">, Helena Matsdotter</a>
-									</li>
-									<li>
 										<a href="../../../ppl/4/e/cb589cd26eb525e6be4.html">, Hinrich Matsson</a>
+									</li>
+									<li>
+										<a href="../../../ppl/d/2/ec00c45de461172dd20da102a2d.html">, Johanna Matsdotter</a>
 									</li>
 									<li class="thisperson">
 									, Caisa Matsdotter
@@ -505,6 +500,12 @@ function GoToTop() {
 												<a href="../../../ppl/a/9/fa5928953ac43562e1a84e71c9a.html">, Anders Johansson</a>
 											</li>
 										</ol>
+									</li>
+									<li>
+										<a href="../../../ppl/a/6/ec00c62bd3f3bcb1ccf43e59b6a.html">, Johan Matsson</a>
+									</li>
+									<li>
+										<a href="../../../ppl/3/4/ec00c7228bcea09f88619ebf43.html">, Helena Matsdotter</a>
 									</li>
 								</ol>
 							</li>
@@ -558,19 +559,6 @@ function GoToTop() {
 							<li id="sref1a">
 								<ul>
 									<li>
-									Page: 144
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Rippikirjat 1749-1759, jakso 144, sivu 144: &lt;Åmisby&gt; Grindas, Sillwijk Nilsas, B.C 14 Söderberg; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5862230762&amp;aineistoId=1167474982 / Viitattu 7.7.2024</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5862230762&amp;aineistoId=1167474982">https://astia.narc.fi/uusiastia/viewer/?fileId=5862230762&amp;aineistoId=1167474982</a></p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref1b">
-								<ul>
-									<li>
 									Page: 81
 									</li>
 									<li>
@@ -581,6 +569,19 @@ function GoToTop() {
 									</li>
 									<li>
 									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Monospace';">81</span><br /><span style="font-family:'Monospace';">Caus Hem</span></p><p><span style="font-family:'Monospace';">Matts Claesson 70</span><br /><span style="font-family:'Monospace';">Hu Anna Hinddr 60</span></p><p><span style="font-family:'Monospace';">Son Hindr Matson 35</span><br /><span style="font-family:'Monospace';">Hu Anna Johansdr 34</span></p><p><span style="font-family:'Monospace';">Dr Maria? Mattsdr? gift</span></p><p><span style="font-family:'Monospace';">Dr Johanna Matsdr &nbsp;gift till Sjö??</span></p><p><span style="font-family:'Monospace';">Dr Caisa Matsdr 15 &nbsp;144</span><br /><span style="font-family:'Monospace';">Son Joh: Matsson scholari? 49 d 11 Maij 49 ?? Stockholm ??? ??????</span><br /><span style="font-family:'Monospace';">Dr Helena Matsdr</span></p><p>&nbsp;</p><p>&nbsp;</p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref1b">
+								<ul>
+									<li>
+									Page: 144
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto - Rippikirjat 1749-1759, jakso 144, sivu 144: &lt;Åmisby&gt; Grindas, Sillwijk Nilsas, B.C 14 Söderberg; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5862230762&amp;aineistoId=1167474982 / Viitattu 7.7.2024</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5862230762&amp;aineistoId=1167474982">https://astia.narc.fi/uusiastia/viewer/?fileId=5862230762&amp;aineistoId=1167474982</a></p></div>
 									</li>
 								</ul>
 							</li>
@@ -734,10 +735,10 @@ function GoToTop() {
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.2.3<br />Last change was the 2024-07-07 22:37:18<br />Created for Entire Database
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 6.0.1<br />Last change was the 2024-07-07 22:37:18
 			</p>
 			<p id="copyright">
-			&copy; 2024 John Nordberg
+			&copy; 2025 John Nordberg
 			</p>
 		</div>
 	</div>

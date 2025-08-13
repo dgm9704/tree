@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE database PUBLIC "-//Gramps//DTD Gramps XML 1.7.1//EN"
-"http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
-<database xmlns="http://gramps-project.org/xml/1.7.1/">
+<!DOCTYPE database PUBLIC "-//Gramps//DTD Gramps XML 1.7.2//EN"
+"http://gramps-project.org/xml/1.7.2/grampsxml.dtd">
+<database xmlns="http://gramps-project.org/xml/1.7.2/">
   <header>
-    <created date="2024-12-22" version="5.2.3"/>
+    <created date="2025-08-13" version="6.0.1"/>
     <researcher>
     </researcher>
   </header>
@@ -13873,9 +13873,9 @@
       <place hlink="_e8ef61b1a4f456fa3fab2fbf00b"/>
       <citationref hlink="_e8f244c4a0462b755c2959a72e0"/>
     </event>
-    <event handle="_e904b8f6ae9709afbcba26c493b" change="1628604700" id="E0109">
+    <event handle="_e904b8f6ae9709afbcba26c493b" change="1754843528" id="E0109">
       <type>Residence</type>
-      <dateval val="1768" type="before"/>
+      <datespan start="1757" stop="1768"/>
       <place hlink="_e904b4468f157714d0c706f9a92"/>
       <citationref hlink="_e904b8e9c087c4787f67741da7e"/>
       <citationref hlink="_d6e439bdc354c0406c8b506e448"/>
@@ -16952,11 +16952,12 @@
       <place hlink="_db7ebcf83ae47c5be4ce38b223e"/>
       <citationref hlink="_f360fa0f8c45ecafd2dee07be6b"/>
     </event>
-    <event handle="_f609329c64013e7431c21446515" change="1690746026" id="E0802">
+    <event handle="_f609329c64013e7431c21446515" change="1755082226" id="E0802">
       <type>Death</type>
-      <dateval val="1922-12-04" quality="calculated"/>
+      <dateval val="1922-12-02"/>
       <place hlink="_eceb80d71fa1070a46fdd502dbc"/>
       <citationref hlink="_f6092f97dcc205505c1422def8a"/>
+      <citationref hlink="_ff65e82185342587f3bd1f698a5"/>
     </event>
     <event handle="_f60bb54a4de3e888f4a4edd4c7f" change="1690813416" id="E0803">
       <type>Residence</type>
@@ -17796,6 +17797,21 @@
       <dateval val="1808-11-18"/>
       <place hlink="_fa59271c52a28bf86d80a45e244"/>
       <citationref hlink="_fa592f87c6daf13950936d90f6"/>
+    </event>
+    <event handle="_ff5d076d162106c7d3710ea4e81" change="1755077530" id="E0991">
+      <type>Marriage</type>
+      <daterange start="1763" stop="1768"/>
+      <citationref hlink="_e904b8e9c087c4787f67741da7e"/>
+      <citationref hlink="_d6e439bdc354c0406c8b506e448"/>
+      <citationref hlink="_d6d47a5886e11d2d0df80abedc7"/>
+    </event>
+    <event handle="_ff65babb40a2e52391469701647" change="1755077500" id="E0992">
+      <type>Residence</type>
+      <datespan start="1763" stop="1768"/>
+      <place hlink="_e904b4468f157714d0c706f9a92"/>
+      <citationref hlink="_e904b8e9c087c4787f67741da7e"/>
+      <citationref hlink="_d6e439bdc354c0406c8b506e448"/>
+      <citationref hlink="_d6d47a5886e11d2d0df80abedc7"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -18748,7 +18764,7 @@
       <parentin hlink="_cb589cc8ff143a2dd4e"/>
       <parentin hlink="_cb589ccbab76d710864"/>
     </person>
-    <person handle="_cb589ccbc7f6a601fb2" change="1601290587" id="I4112">
+    <person handle="_cb589ccbc7f6a601fb2" change="1755077473" id="I4112">
       <gender>M</gender>
       <name type="Also Known As">
         <first>Johan</first>
@@ -19867,7 +19883,7 @@
       <childof hlink="_cb589cceaf224ab31fa"/>
       <parentin hlink="_cb589ccbb656852f0db"/>
     </person>
-    <person handle="_cb589ccec366d226d64" change="1688310008" id="I3127">
+    <person handle="_cb589ccec366d226d64" change="1755077441" id="I3127">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Catharina</first>
@@ -19875,6 +19891,7 @@
         <surname derivation="Patronymic">Henricsdotter</surname>
       </name>
       <eventref hlink="_cb589ccec3c2b9c8a09" role="Primary"/>
+      <eventref hlink="_ff65babb40a2e52391469701647" role="Primary"/>
       <eventref hlink="_d6e0f69658f331aecd96a396b8" role="Primary"/>
       <eventref hlink="_d6e0f77c3427707b6483b9ae10e" role="Primary"/>
       <eventref hlink="_d6e0f81f1897097081f98352556" role="Primary"/>
@@ -19883,19 +19900,20 @@
       <childof hlink="_cb589ccec4041260320"/>
       <parentin hlink="_cb589ccbca636502f22"/>
     </person>
-    <person handle="_cb589ccec504a61ee7c" change="1601156965" id="I4690">
+    <person handle="_cb589ccec504a61ee7c" change="1755077336" id="I4690">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Johan</first>
         <surname derivation="Patronymic">Mattsson</surname>
       </name>
       <eventref hlink="_cb589ccec537103c0bf" role="Primary"/>
+      <eventref hlink="_e904b8f6ae9709afbcba26c493b" role="Primary"/>
       <eventref hlink="_cb589ccec57109bd359" role="Primary"/>
       <childof hlink="_cb589ccec6565681a23"/>
       <parentin hlink="_cb589ccbca636502f22"/>
       <noteref hlink="_e8fe6b240ef1a056a19af188a60"/>
     </person>
-    <person handle="_cb589ccec7571fa64c7" change="1601290587" id="I3397">
+    <person handle="_cb589ccec7571fa64c7" change="1755077473" id="I3397">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Johannes</first>
@@ -19905,7 +19923,7 @@
       <eventref hlink="_cb589ccec784a68ff81" role="Primary"/>
       <childof hlink="_cb589ccbca636502f22"/>
     </person>
-    <person handle="_cb589ccecb9359c7dc0" change="1601290587" id="I5382">
+    <person handle="_cb589ccecb9359c7dc0" change="1755077473" id="I5382">
       <gender>M</gender>
       <name type="Also Known As">
         <first>Staffan</first>
@@ -19925,7 +19943,7 @@
       <parentin hlink="_cb589cceced7a7aa1bd"/>
       <parentin hlink="_cb589ccecf0511c8c37"/>
     </person>
-    <person handle="_cb589cced0122671d60" change="1601290587" id="I3882">
+    <person handle="_cb589cced0122671d60" change="1755077473" id="I3882">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Johan</first>
@@ -19936,7 +19954,7 @@
       <eventref hlink="_cb589cced0a26308053" role="Primary"/>
       <childof hlink="_cb589ccbca636502f22"/>
     </person>
-    <person handle="_cb589cced27547f2ada" change="1660913398" id="I4237">
+    <person handle="_cb589cced27547f2ada" change="1755077473" id="I4237">
       <gender>M</gender>
       <name type="Also Known As">
         <first>Fredric</first>
@@ -21589,20 +21607,21 @@
       <eventref hlink="_cb589cd2cc2047ace01" role="Primary"/>
       <childof hlink="_cb589ccf0543e184100"/>
     </person>
-    <person handle="_cb589cd2ce33616538c" change="1690747089" id="I5383">
+    <person handle="_cb589cd2ce33616538c" change="1755081699" id="I5383">
       <gender>M</gender>
-      <name type="Birth Name">
+      <name type="Also Known As">
+        <first>Jalmar</first>
+        <surname derivation="Taken">Pohjanvuori</surname>
+        <group>Nordberg</group>
+        <datestr val=""/>
+      </name>
+      <name alt="1" type="Birth Name">
         <first>Hjalmar Ferdinand</first>
         <surname>Nordberg</surname>
       </name>
       <name alt="1" type="Also Known As">
         <first>Jalmar</first>
         <surname derivation="Taken">Wuori</surname>
-        <group>Nordberg</group>
-      </name>
-      <name alt="1" type="Also Known As">
-        <first>Jalmar</first>
-        <surname derivation="Taken">Pohjanvuori</surname>
         <group>Nordberg</group>
       </name>
       <eventref hlink="_cb589cd2cea729f954f" role="Primary"/>
@@ -31928,11 +31947,11 @@
       <mother hlink="_cb589ccead339727b64"/>
       <eventref hlink="_cb589cfcabc39c0a95e" role="Family"/>
     </family>
-    <family handle="_cb589ccbca636502f22" change="1601290587" id="F1442">
+    <family handle="_cb589ccbca636502f22" change="1755077473" id="F1442">
       <rel type="Married"/>
       <father hlink="_cb589ccec504a61ee7c"/>
       <mother hlink="_cb589ccec366d226d64"/>
-      <eventref hlink="_e904b8f6ae9709afbcba26c493b" role="Family"/>
+      <eventref hlink="_ff5d076d162106c7d3710ea4e81" role="Family"/>
       <eventref hlink="_d6d47a5e6fa505297081d872053" role="Family"/>
       <eventref hlink="_d6d47bdac1a35c2e2bc3fa0d0a5" role="Family"/>
       <eventref hlink="_d6e43a9b6c84d5211eaa244b91e" role="Family"/>
@@ -36639,12 +36658,13 @@
       <noteref hlink="_d6ce57bcbb635a8f3a45c725081"/>
       <sourceref hlink="_d6ce578bcc53be09fa28b6d6627"/>
     </citation>
-    <citation handle="_d6d0b9ac6e0434535ea516761e1" change="1660914137" id="C0207">
+    <citation handle="_d6d0b9ac6e0434535ea516761e1" change="1755080180" id="C0207">
+      <datestr val=""/>
       <page>131-132</page>
       <confidence>2</confidence>
       <noteref hlink="_f1b1de0968d4b56620435c72e41"/>
-      <noteref hlink="_d6d0b8a264d7af364a8b1d23f02"/>
       <noteref hlink="_d6d0b997c763b54aa59341b5369"/>
+      <noteref hlink="_d6d0b8a264d7af364a8b1d23f02"/>
       <noteref hlink="_f1b1ded64095bc3142cb6a05bdd"/>
       <noteref hlink="_f1b1defd318196d69118f4b59e"/>
       <sourceref hlink="_d6d0b8750ba3461d04df9858de4"/>
@@ -36678,8 +36698,9 @@
       <noteref hlink="_d6d0f8c149db67980e45beb765"/>
       <sourceref hlink="_d6d0f6d6deb45654ad708990e0"/>
     </citation>
-    <citation handle="_d6d12d94f48160442ee00fe0839" change="1476212106" id="C0212">
-      <page>kuva 216</page>
+    <citation handle="_d6d12d94f48160442ee00fe0839" change="1755079946" id="C0212">
+      <datestr val=""/>
+      <page>424-425</page>
       <confidence>2</confidence>
       <noteref hlink="_d6d12a538f4361820f307cae3aa"/>
       <noteref hlink="_d6d12d20bd97349ca9d58da0fd0"/>
@@ -42278,10 +42299,12 @@
       <noteref hlink="_e8f7e62efa389817db8b0d93d"/>
       <sourceref hlink="_d6ce0c487d74c90ec3c6f73b1b8"/>
     </citation>
-    <citation handle="_e380da902af111f2cc06557a3ea" change="1621778600" id="C1066">
+    <citation handle="_e380da902af111f2cc06557a3ea" change="1754989562" id="C1066">
+      <datestr val=""/>
       <page>206</page>
       <confidence>2</confidence>
       <noteref hlink="_e380da8bbf93cbc4952e8e05ef6"/>
+      <noteref hlink="_ff62744280533e905125c90b439"/>
       <noteref hlink="_e8f78a7ec64489558f14932d248"/>
       <noteref hlink="_e38126542957b16313e6892e0ed"/>
       <sourceref hlink="_d6ce0f8a2fb1b7efba3377d1265"/>
@@ -42790,10 +42813,12 @@
       <noteref hlink="_e8fb28639aa170e3fd108656d4c"/>
       <sourceref hlink="_d6cac3ebefa7ac5b3c739d52590"/>
     </citation>
-    <citation handle="_e904b8e9c087c4787f67741da7e" change="1720458038" id="C1129">
+    <citation handle="_e904b8e9c087c4787f67741da7e" change="1755078225" id="C1129">
+      <datestr val=""/>
       <page>130</page>
       <confidence>2</confidence>
       <noteref hlink="_fa5c0e3f8b774f07576443871e1"/>
+      <noteref hlink="_ff65c238cbe4cead758baa9b8d5"/>
       <noteref hlink="_e904b5edd6529c31714c759bfe1"/>
       <noteref hlink="_e904b840e6e287652481b93866f"/>
       <sourceref hlink="_e904b5aa9e65a0900e554e27c7b"/>
@@ -47698,6 +47723,15 @@
       <noteref hlink="_fc7584979cf746dbe12234c404e"/>
       <sourceref hlink="_f14512880813e77217f42ad78d9"/>
     </citation>
+    <citation handle="_ff65e82185342587f3bd1f698a5" change="1755082195" id="C1765">
+      <datestr val=""/>
+      <page>AP I F:5/kuva 20</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ff65e62b4a029ba04286f56a836"/>
+      <noteref hlink="_ff65e80e496136a150aeb28a504"/>
+      <noteref hlink="_ff65e5eba46336389ddb193964b"/>
+      <sourceref hlink="_ff65e579f3d6dfef40f6e09b57e"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -51311,6 +51345,11 @@
       <stitle>Inkoo Muuttokirjat 1858-1862</stitle>
       <sauthor>Inkoon seurakunta</sauthor>
       <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
+    </source>
+    <source handle="_ff65e579f3d6dfef40f6e09b57e" change="1755081917" id="S0718">
+      <stitle>Somero Kuolleet 1920-1922</stitle>
+      <sauthor>Someron seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
   </sources>
   <places>
@@ -57393,12 +57432,15 @@ https://astia.narc.fi/uusiastia/viewer/?fileId=5862794161&amp;aineistoId=1168638
         <range start="46" end="125"/>
       </style>
     </note>
-    <note handle="_d6d12d20bd97349ca9d58da0fd0" change="1476212105" id="N0392" type="Transcript" format="1">
-      <text>1771
+    <note handle="_d6d12d20bd97349ca9d58da0fd0" change="1755079914" id="N0392" type="Transcript" format="1">
+      <text>424                            1771
 [Decemb]
-24	26	Stephan	Johan Matthsson		Carin Henrics dr		Hindhår
-					T. ??? Matthsson		Cath: Tenhonen
-					Matths Matthsson	Anna Helena Joh dr</text>
+24    26    Stephan    Johan Matthsson    Carin Henrics dr    Hindhår
+                       T. And Matthsson   Cath: Tenhonen
+                       Matths Matthsson   Anna Helena Joh dr</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="232"/>
+      </style>
     </note>
     <note handle="_d6d12ebc66e3a2f8b41ec541061" change="1476212003" id="N0393" type="Link">
       <text>http://digi.narc.fi/digi/view.ka?kuid=7975233
@@ -57425,12 +57467,15 @@ https://astia.narc.fi/uusiastia/viewer/?fileId=5862794560&amp;aineistoId=1168638
         <range start="46" end="125"/>
       </style>
     </note>
-    <note handle="_d6d13abe85f1cc4961621ded277" change="1476213262" id="N0396" type="Transcript" format="1">
+    <note handle="_d6d13abe85f1cc4961621ded277" change="1755080101" id="N0396" type="Transcript" format="1">
       <text>1774
 Martius
-1	3	Johan	Johan Matsson	Caisa Hendrichsdr	Hindhår
-				T. Joh: Bentinen	Maria Ers dr			Smeden
-				And Johanss		Ebba Henrics dr		           24</text>
+1    3    Johan    Johan Matsson    Caisa Hendrichsdr    Hindhår
+                   T. Joh: Bentinen Maria Ers dr         Smeden
+                   And Johanss      Ebba Henrics dr           24</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="206"/>
+      </style>
     </note>
     <note handle="_d6d13c0e5d213a66c299c1f8405" change="1476213400" id="N0397" type="Link">
       <text>http://digi.narc.fi/digi/view.ka?kuid=8399238
@@ -66340,7 +66385,7 @@ https://astia.narc.fi/uusiastia/viewer/?fileId=6038725854&amp;aineistoId=1167610
         <range start="47" end="126"/>
       </style>
     </note>
-    <note handle="_e38126542957b16313e6892e0ed" change="1659879596" id="N1475" type="Research">
+    <note handle="_e38126542957b16313e6892e0ed" change="1754986308" id="N1475" type="Research">
       <text>Fredric Johansson asuu rippikirjan 1786-1794 mukaan 
 isänsä seppä Johan Mattssonin luona Hindhår:ssa.
 Hänen syntymäajaksi on merkitty 1776.
@@ -66361,7 +66406,7 @@ Kuolleista löytyy 62 kpl henkilöitä joilla isän nimenä Johan,
 näistä kaikki joko väärää sukupuolta tai selkeästi väärän ikäisiä.
 
 Edelleen rippikirjassa 1786-1794 on Söderveckkoskella 
-seppä Isaac Sandberg, jolla on oppipoika Fredric Johansson, 
+seppä Isac Sundberg, jolla on oppipoika Fredric Johansson, 
 jonka syntymäaika 1776. 
 Tälle on merkitty ehtoolliskäyntejä alkaen 13.4.1794
 Tämä täsmäisi siihen, että seppä Johan Mattssonin poika 
@@ -70787,22 +70832,22 @@ Nordberg, Ferdinand, dykare 48</text>
         <range start="0" end="227"/>
       </style>
     </note>
-    <note handle="_ece7aa8f65e26a621209aa5f510" change="1627998394" id="N1837" type="Transcript" format="1">
+    <note handle="_ece7aa8f65e26a621209aa5f510" change="1755081619" id="N1837" type="Transcript" format="1">
       <text>260 Joensuu
 Yli Aukusti
 
 U.K. 318
 ???-02                              				7/11 1869 Helsingin pitäjä    vk 252
-its[yliv] Otto Ferdinand Nordberg    3/8   1859   Borgnäs 1899    arpa 2
-vmo Serafia Juhon tr                  2/12  1860   Somero   &quot;
+its[yliv] Otto Ferdinand Nordberg     3/8  1859   Borgnäs 1899    arpa 2
+vmo Serafia Juhon tr                  2/12 1860   Somero   &quot;
 pka Hjalmar Ferdinand (Vuori)        14/10 1890    &quot;       &quot;
 pka Aleksander Nikolai               18/12 1893    &quot;       &quot;         Hukkui jäihin 23/12 1906
 tr Olga Aleksandra                   29/5  1896    &quot;       &quot;   
-pka Herman                           1/7   1899    &quot;       &quot;
-tr Alma Aurora                       6/3   1904    &quot;
+pka Herman                            1/7  1899    &quot;       &quot;
+tr Alma Aurora                        6/3  1904    &quot;
 </text>
       <style name="fontface" value="Courier New">
-        <range start="0" end="579"/>
+        <range start="0" end="578"/>
       </style>
     </note>
     <note handle="_ece8e3c6e754e54ee0efc87e677" change="1628031237" id="N1838" type="Link">
@@ -83213,6 +83258,38 @@ Kuolinvuosi     2019</text>
     </note>
     <note handle="_fc7584979cf746dbe12234c404e" change="1734885411" id="N3702" type="Link">
       <text>https://www.hautahaku.fi/map/5B-00-002-40-00604/NOROVUORI%20PAUL%20VILHELM%20VALDEMAR</text>
+    </note>
+    <note handle="_ff62744280533e905125c90b439" change="1754989514" id="N3703" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38642&amp;pnum=210</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38642&amp;pnum=210">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_ff65c238cbe4cead758baa9b8d5" change="1755078220" id="N3704" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38621&amp;pnum=131</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38621&amp;pnum=131">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_ff65e5eba46336389ddb193964b" change="1755081963" id="N3705" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45495&amp;pnum=20</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45495&amp;pnum=20">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_ff65e62b4a029ba04286f56a836" change="1755081989" id="N3706" type="Citation">
+      <text>Somero kuolleet 1920-1936 (AP I F:5)  1922 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=45495&amp;pnum=20 / Viitattu 13.08.2025</text>
+    </note>
+    <note handle="_ff65e80e496136a150aeb28a504" change="1755082187" id="N3707" type="Transcript" format="1">
+      <text>Kuolleet ja haudatut Someron seurakunnassa vuonna 1922
+
+[Jouluk]  2  &quot;  I_363  Palstatilallinen, raken                           syöpä
+                       nusmestari Otto Ferdi-                       nai  vatsas
+                       nand Nordberg, Joensuun                      nut  sa
+                       Kaunelasta               8/8 1859  63  3 26               [mies]</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="378"/>
+      </style>
     </note>
   </notes>
   <bookmarks>
