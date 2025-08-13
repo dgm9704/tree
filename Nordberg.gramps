@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.2/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.2/">
   <header>
-    <created date="2025-08-13" version="6.0.1"/>
+    <created date="2025-08-14" version="6.0.1"/>
     <researcher>
     </researcher>
   </header>
@@ -14902,11 +14902,12 @@
       <dateval val="1920"/>
       <citationref hlink="_eced4a0881b3a21e5b1a72c519d"/>
     </event>
-    <event handle="_eced5778147414b318d9d7e684b" change="1672246111" id="E0352">
+    <event handle="_eced5778147414b318d9d7e684b" change="1755117583" id="E0352">
       <type>Burial</type>
-      <dateval val="1977"/>
+      <dateval val="1977-03-11" type="after"/>
       <place hlink="_eced57296aa34234552df37bd3e"/>
       <citationref hlink="_eced4f922d7526b9d133a56c6a1"/>
+      <citationref hlink="_ff67342745a5c01898fb4e4f384"/>
     </event>
     <event handle="_eced93c06e67083e56df81b996d" change="1755094274" id="E0353">
       <type>Name change</type>
@@ -17862,6 +17863,34 @@
       <dateval val="1933-11-25"/>
       <place hlink="_eceda3a4695416bcc30e72a1ca9"/>
       <citationref hlink="_ff66a74b78815512ca037b386e1"/>
+    </event>
+    <event handle="_ff673e064f265211cae0c8ab601" change="1755118045" id="E1000">
+      <type>Death</type>
+      <dateval val="1978-06-12"/>
+      <citationref hlink="_ff673dc5f442e6e5ef7b60c8bbc"/>
+    </event>
+    <event handle="_ff673ebf9f751676b003085933f" change="1755118121" id="E1001">
+      <type>Burial</type>
+      <dateval val="1978-06-12" type="after"/>
+      <place hlink="_ff673e946676c7dda2f2139476f"/>
+      <citationref hlink="_ff673dc5f442e6e5ef7b60c8bbc"/>
+    </event>
+    <event handle="_ff674d670c63564e1c3cc382076" change="1755119658" id="E1002">
+      <type>Burial</type>
+      <dateval val="1933-11-25" type="after"/>
+      <place hlink="_ff673e946676c7dda2f2139476f"/>
+      <citationref hlink="_ff674d5ed2496161d482c5cc6e"/>
+    </event>
+    <event handle="_ff6751dff323a8aca75b685d9a5" change="1755120127" id="E1003">
+      <type>Death</type>
+      <dateval val="2008-09-26"/>
+      <citationref hlink="_ff6751cfb0e3b38e7c5b02b7238"/>
+    </event>
+    <event handle="_ff67526984b6ea1134c8b3f4e2a" change="1755120183" id="E1008">
+      <type>Burial</type>
+      <dateval val="2008-09-26" type="after"/>
+      <place hlink="_ff673e946676c7dda2f2139476f"/>
+      <citationref hlink="_ff6751cfb0e3b38e7c5b02b7238"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -21657,12 +21686,11 @@
       <eventref hlink="_cb589cd2cc2047ace01" role="Primary"/>
       <childof hlink="_cb589ccf0543e184100"/>
     </person>
-    <person handle="_cb589cd2ce33616538c" change="1755115805" id="I5383">
+    <person handle="_cb589cd2ce33616538c" change="1755120217" id="I5383">
       <gender>M</gender>
       <name type="Also Known As">
         <first>Jalmar Ferdinand</first>
         <surname derivation="Taken">Pohjanvuori</surname>
-        <group>Nordberg</group>
         <dateval val="1918-08-02" type="after"/>
         <citationref hlink="_ff665a5c8aa5d5a14643afcfc3b"/>
       </name>
@@ -21685,6 +21713,8 @@
       <eventref hlink="_ff663022dfe1ad5accacd114a14" role="Primary"/>
       <eventref hlink="_ff6657073093271582a8b01d454" role="Primary"/>
       <eventref hlink="_eced93c06e67083e56df81b996d" role="Primary"/>
+      <eventref hlink="_ff673e064f265211cae0c8ab601" role="Primary"/>
+      <eventref hlink="_ff673ebf9f751676b003085933f" role="Primary"/>
       <childof hlink="_cb589ccf0543e184100"/>
       <parentin hlink="_eced97242ef3ee2770424bafd29"/>
       <citationref hlink="_ff6728a36c040610fc73fc99853"/>
@@ -21708,9 +21738,14 @@
       <eventref hlink="_cb589cd2d492d2312bc" role="Primary"/>
       <childof hlink="_cb589ccf0543e184100"/>
     </person>
-    <person handle="_cb589cd2d6a3dc236e3" change="1755086729" id="I4392">
+    <person handle="_cb589cd2d6a3dc236e3" change="1755116596" id="I4392">
       <gender>M</gender>
-      <name type="Birth Name">
+      <name type="Also Known As">
+        <first>Herman</first>
+        <surname derivation="Taken">Vuori</surname>
+        <dateval val="1914" type="after"/>
+      </name>
+      <name alt="1" type="Birth Name">
         <first>Herman</first>
         <surname>Nordberg</surname>
       </name>
@@ -30239,7 +30274,7 @@
       <eventref hlink="_ec07bb8819b71b5dc98268f339b" role="Primary"/>
       <childof hlink="_ec074e8655928e939d9784071bb"/>
     </person>
-    <person handle="_eced977b6a957f4acc3034c06f2" change="1755102266" id="I0087">
+    <person handle="_eced977b6a957f4acc3034c06f2" change="1755119669" id="I0087">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Eeva Aleksandra</first>
@@ -30248,6 +30283,7 @@
       </name>
       <eventref hlink="_eced979bad137c91bd0706cf386" role="Primary"/>
       <eventref hlink="_ff66a75d2e14426b9950b13322a" role="Primary"/>
+      <eventref hlink="_ff674d670c63564e1c3cc382076" role="Primary"/>
       <parentin hlink="_eced97242ef3ee2770424bafd29"/>
     </person>
     <person handle="_ecfa50b22b076ae1d19f6d35d26" change="1628499234" id="I0088">
@@ -31466,14 +31502,21 @@
       <eventref hlink="_fa59292feb94bd534ef43babe98" role="Primary"/>
       <parentin hlink="_fa5928473bc6e0a9d67f279965"/>
     </person>
-    <person handle="_ff668eddfc63d954383521ca602" change="1755101100" id="I0199">
+    <person handle="_ff668eddfc63d954383521ca602" change="1755120186" id="I0199">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Kaisa Aleksandra</first>
         <surname derivation="Inherited">Pohjanvuori</surname>
         <group>Nordberg</group>
       </name>
+      <name alt="1" type="Birth Name">
+        <first>Kaisa Aleksandra</first>
+        <surname derivation="Married Name">Saarinen</surname>
+        <datestr val=""/>
+      </name>
       <eventref hlink="_ff668f9f03d70c1830b413bf7dc" role="Primary"/>
+      <eventref hlink="_ff6751dff323a8aca75b685d9a5" role="Primary"/>
+      <eventref hlink="_ff67526984b6ea1134c8b3f4e2a" role="Primary"/>
       <childof hlink="_eced97242ef3ee2770424bafd29"/>
     </person>
   </people>
@@ -47892,6 +47935,34 @@
       <noteref hlink="_ff672544e4f3665c24c57d34433"/>
       <sourceref hlink="_ff6723b0a14453100ae56482bd8"/>
     </citation>
+    <citation handle="_ff67342745a5c01898fb4e4f384" change="1755117010" id="C1775">
+      <datestr val=""/>
+      <page>2H03 17 245/VUORI HERMAN</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ff6734208b661f789c30f1d99c7"/>
+      <sourceref hlink="_ff6732b07f4351e714bd6c9f6cf"/>
+    </citation>
+    <citation handle="_ff673dc5f442e6e5ef7b60c8bbc" change="1755118019" id="C1776">
+      <datestr val=""/>
+      <page>4S02 00 220/POHJANVUORI JALMARI FERDINAN</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ff673dba122567d66084685a14b"/>
+      <sourceref hlink="_ff6732b07f4351e714bd6c9f6cf"/>
+    </citation>
+    <citation handle="_ff674d5ed2496161d482c5cc6e" change="1755119654" id="C1777">
+      <datestr val=""/>
+      <page>4S02 00 220/POHJANVUORI EEVA ALEKSANDRA</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ff674d577d65a1ecba05ca895f"/>
+      <sourceref hlink="_ff6732b07f4351e714bd6c9f6cf"/>
+    </citation>
+    <citation handle="_ff6751cfb0e3b38e7c5b02b7238" change="1755120120" id="C1778">
+      <datestr val=""/>
+      <page>4S02 00 220/SAARINEN KAISA ALEKSANDRA</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ff6751ca7c66117456a690d6870"/>
+      <sourceref hlink="_ff6732b07f4351e714bd6c9f6cf"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -51551,6 +51622,10 @@
       <sauthor>Somero-Seura</sauthor>
       <reporef hlink="_ff67281f0066fee2f78ff07b059" medium="Book"/>
     </source>
+    <source handle="_ff6732b07f4351e714bd6c9f6cf" change="1755116857" id="S0727">
+      <stitle>Hautakartta</stitle>
+      <reporef hlink="_ff6732a7fd87972f4d179eaa41b" medium="Book"/>
+    </source>
   </sources>
   <places>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1704316073" id="P0000" type="City">
@@ -54827,6 +54902,10 @@
       <pname value="hauta 604"/>
       <placeref hlink="_fc7585ced1be208a3bf31432cc"/>
     </placeobj>
+    <placeobj handle="_ff673e946676c7dda2f2139476f" change="1755118103" id="P0735" type="Cemetery">
+      <pname value="Somerniemen hautausmaa"/>
+      <placeref hlink="_eceda39ed0c570d40722c26c046"/>
+    </placeobj>
   </places>
   <repositories>
     <repository handle="_cdea29a49637c6553bc" change="1672241850" id="R0001">
@@ -54927,6 +55006,10 @@
     <repository handle="_ff67281f0066fee2f78ff07b059" change="1755115748" id="R0021">
       <rname>www.someroseura.fi</rname>
       <type>Web site</type>
+    </repository>
+    <repository handle="_ff6732a7fd87972f4d179eaa41b" change="1755116853" id="R0022">
+      <type>Library</type>
+      <url  href="http://www.hautakartta.fi" type="Web Home"/>
     </repository>
   </repositories>
   <notes>
@@ -83762,6 +83845,73 @@ Somerniemen suojeluskunnan paikallispäällikkönä 1922–1928.</text>
       <text>Someron Seura ry. *Sota‑ajan muistokirjoitukset Someron Jouluissa vuosilta 1975–2020*. p. 209. Someron Joulu [PDF]. Retrieved from https://bin.yhdistysavain.fi/1597994/FOX3ZVNJOynpUWzi2Qq10ZX6XW/Sota-ajan%20muistokirjoitukset%20Someron%20Jouluissa%20vuosilta%201975%20-%202020.pdf
 Sota‑ajan muistokirjoitukset Someron Jouluissa vuosilta 1975 ‑ 2020.pdf (accessed 13 August 2025).
 </text>
+    </note>
+    <note handle="_ff6734208b661f789c30f1d99c7" change="1755117007" id="N3742" type="Source text">
+      <text>VUORI HERMAN
+
+Syntynyt                01.07.1899
+Kuollut                 11.03.1977
+Hautatunnus             2H03 17 245
+Koordinaatit (WGS84)    60.6196, 23.5100
+
+Samaan hautaan haudatut
+
+VUORI HARRI EERO OLAVI   1938 - 2008
+VUORI SILJA VILHELMIINA  1899 - 1973</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="260"/>
+      </style>
+    </note>
+    <note handle="_ff673dba122567d66084685a14b" change="1755118014" id="N3743" type="Source text" format="1">
+      <text>POHJANVUORI JALMARI FERDINAN
+
+Syntynyt	             14.10.1890
+Kuollut	                     12.06.1978
+Hautatunnus	             4S02 00 220
+Koordinaatit (WGS84)         60.5746, 23.72829
+
+Samaan hautaan haudatut
+
+POHJANVUORI EEVA ALEKSANDRA  1894 - 1933
+SAARINEN KAISA ALEKSANDRA    1918 - 2008
+SAARINEN OLAVI	             1914 - 2002</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="334"/>
+      </style>
+    </note>
+    <note handle="_ff674d577d65a1ecba05ca895f" change="1755119651" id="N3744" type="Source text" format="1">
+      <text>POHJANVUORI EEVA ALEKSANDRA
+
+Syntynyt                      24.12.1894
+Kuollut                       25.11.1933
+Hautatunnus                   4S02 00 220
+Koordinaatit (WGS84)          60.5746, 23.72829
+
+Samaan hautaan haudatut
+
+POHJANVUORI JALMARI FERDINAN  1890 - 1978
+SAARINEN KAISA ALEKSANDRA     1918 - 2008
+SAARINEN OLAVI	              1914 - 2002</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="351"/>
+      </style>
+    </note>
+    <note handle="_ff6751ca7c66117456a690d6870" change="1755120118" id="N3745" type="Source text" format="1">
+      <text>SAARINEN KAISA ALEKSANDRA
+
+Syntynyt                      10.12.1918
+Kuollut	                      26.09.2008
+Hautatunnus	              4S02 00 220
+Koordinaatit (WGS84)	      60.5746, 23.72829
+
+Samaan hautaan haudatut
+
+POHJANVUORI EEVA ALEKSANDRA   1894 - 1933
+POHJANVUORI JALMARI FERDINAN  1890 - 1978
+SAARINEN OLAVI                1914 - 2002</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="343"/>
+      </style>
     </note>
   </notes>
   <bookmarks>
