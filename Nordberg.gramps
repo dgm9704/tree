@@ -29569,7 +29569,7 @@
       <childof hlink="_ecfa508d9192a0aba49237471d7"/>
       <parentin hlink="_e37e1214d415bbb698cd4599bb3"/>
     </person>
-    <person handle="_e3895adaeb25d3cace20dc4a544" change="1755428782" id="I1025">
+    <person handle="_e3895adaeb25d3cace20dc4a544" change="1755432125" id="I1025">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anna Stina</first>
@@ -29577,9 +29577,11 @@
         <surname prim="0" derivation="Patronymic">Fredriscdotter</surname>
       </name>
       <eventref hlink="_e3895b95d0f2957e70858de2a7c" role="Primary"/>
-      <eventref hlink="_e384aa54c407d2c6ad97990712" role="Unknown"/>
-      <eventref hlink="_e9057cec60038cb4eac21e391ad" role="Unknown"/>
-      <eventref hlink="_e905731589da77cd61d29669d5" role="Unknown"/>
+      <eventref hlink="_e384a7d8cfa278e7697a53ae22a" role="Primary"/>
+      <eventref hlink="_e384a8d628a22dc1242064e3d38" role="Primary"/>
+      <eventref hlink="_e384aa54c407d2c6ad97990712" role="Primary"/>
+      <eventref hlink="_e9057cec60038cb4eac21e391ad" role="Primary"/>
+      <eventref hlink="_e905731589da77cd61d29669d5" role="Primary"/>
       <eventref hlink="_e907f30b1421352238176b0e284" role="Primary"/>
       <childof hlink="_e37e1214d415bbb698cd4599bb3"/>
     </person>
@@ -29595,7 +29597,7 @@
       <childof hlink="_e37e1214d415bbb698cd4599bb3"/>
       <parentin hlink="_e9056c62c75211e1137eee6cae"/>
     </person>
-    <person handle="_e3895cec6d7386ef8492378f6a" change="1755428794" id="I1027">
+    <person handle="_e3895cec6d7386ef8492378f6a" change="1755430745" id="I1027">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Johan</first>
@@ -29603,6 +29605,7 @@
       </name>
       <eventref hlink="_e3895d2b7aa7f5fb4a0ac88a860" role="Primary"/>
       <eventref hlink="_e384aa54c407d2c6ad97990712" role="Unknown"/>
+      <eventref hlink="_e384a8d628a22dc1242064e3d38" role="Primary"/>
       <eventref hlink="_e9057cec60038cb4eac21e391ad" role="Unknown"/>
       <eventref hlink="_e907c8a631f413198a634aa0b09" role="Primary"/>
       <childof hlink="_e37e1214d415bbb698cd4599bb3"/>
@@ -42573,11 +42576,14 @@
       <noteref hlink="_e8f8b9d3f848010c9b63fd4d24"/>
       <sourceref hlink="_d6cdbfbe30416ec646fdadfa39a"/>
     </citation>
-    <citation handle="_e384a7d71815b55a52005294a38" change="1601026611" id="C1070">
+    <citation handle="_e384a7d71815b55a52005294a38" change="1755430859" id="C1070">
+      <datestr val=""/>
       <page>200</page>
       <confidence>2</confidence>
-      <noteref hlink="_e384a7d4e684dc2cd7278117b76"/>
+      <noteref hlink="_ff72e4f8f5f61dbd4e7871e1088"/>
+      <noteref hlink="_ff72e521c4652fa935ac91fbfc0"/>
       <noteref hlink="_e8fae38e251337b339036010aa7"/>
+      <noteref hlink="_e384a7d4e684dc2cd7278117b76"/>
       <sourceref hlink="_d6cdb6e892b39137797a08ac81d"/>
     </citation>
     <citation handle="_e384a8d3af676b36ffd276f03e7" change="1601028122" id="C1071">
@@ -42604,11 +42610,14 @@
       <noteref hlink="_e8f8b57468a1006bd881fc390fb"/>
       <sourceref hlink="_d92e5dd42e222de60753238ab5e"/>
     </citation>
-    <citation handle="_e3895ecc3a54f41d0d52c8f211a" change="1600968865" id="C1074">
+    <citation handle="_e3895ecc3a54f41d0d52c8f211a" change="1755431929" id="C1074">
+      <datestr val=""/>
       <page>200-201</page>
       <confidence>2</confidence>
-      <noteref hlink="_e3895ec65112822dade838cc6ad"/>
+      <noteref hlink="_ff72eee6018232472c7c1cc7103"/>
+      <noteref hlink="_ff72ef134426c1f5c7563fc67ff"/>
       <noteref hlink="_e8f8bcda8482045b585ba3e1c91"/>
+      <noteref hlink="_e3895ec65112822dade838cc6ad"/>
       <sourceref hlink="_d931e49e9d160c9da9b335a291d"/>
     </citation>
     <citation handle="_e38963b40ef38305ce841670ab4" change="1601027179" id="C1075">
@@ -68604,31 +68613,48 @@ Fredric Johansson Sunnman 1776  har egna rum
 Anna Stina Jonaedr 1778
 Lärgosse Gustaf Ersson 5/5 1798 813 f.p. 152 1819 till pag 112</text>
     </note>
-    <note handle="_e8f8bcda8482045b585ba3e1c91" change="1600968862" id="N0174" type="Transcript">
+    <note handle="_e8f8bcda8482045b585ba3e1c91" change="1755431928" id="N0174" type="Transcript" format="1">
       <text>200 Kullo
 Lydande under Sisbacka
 soknesmeden Fredrik Sunnmans barn
-Anna Stina Sunnman 25/2 806
-Anders Gustaf Sunnman 15/5 811
-Johan Sunnman 29/7 813</text>
+Anna Stina Sunnman     25/2 806
+Anders Gustaf Sunnman  15/5 811
+Johan Sunnman          29/7 813</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="162"/>
+      </style>
     </note>
-    <note handle="_e8fae38e251337b339036010aa7" change="1601026607" id="N0175" type="Transcript">
+    <note handle="_e8fae38e251337b339036010aa7" change="1755431818" id="N0175" type="Transcript" format="1">
       <text>200 Kullo Nyby
 Lydande under Sisbacka
 
-sokne smed Fredrik Johansson Sunnman 1776    Har egna rum
-Hu Anna Stina Jonaedotter 1778
+sokne smed 
+Fredrik Johansson Sunnman       1776    Har egna rum
+Hu Anna Stina Jonaedotter       1778
 
-Doter Anna Strina Sunnman 25/2 1806
-Son Anders Gustaf Sunnman 15/5 1811
+Doter                                   Admitt d. 11 Apr. 1822
+Anna Strina Sunnman        25/2 1806
 
-Son Johan Sunnman 29/7 1813
+Son                                     Adm. d. 18. Maij 1826
+Anders Gustaf Sunnman      15/5 1811
 
-Lärgosse Anders Lundgren 28/1 1812
-Lärgosse Henric Johan Byman 12/9 1807
+Son                                     Adm. d. 29. Maij 1828
+Johan Sunnman              29/7 1813
 
-Afskedad dragon, kyrkfattig Erik Backström 1741
-Kyrkfattig Eva? Helena Henricsdotter 1740</text>
+Lärgosse 
+Anders Lundgren            28/1 1812
+
+Lärgosse 
+Henric Johan Byman         12/9 1807
+
+Afskedad dragon, kyrkfattig 
+Erik Backström                  1741
+
+Kyrkfattig 
+Eva? Helena Henricsdotter       1740</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="654"/>
+      </style>
     </note>
     <note handle="_e8fae8eedfd2db2595117bf278f" change="1601027171" id="N0176" type="Transcript">
       <text>Födde år 1806
@@ -84822,6 +84848,24 @@ Marttilan seurakunnasta muuttaneet vuonna 1907
     <note handle="_ff72d0b3b6f62460d09789f9fab" change="1755428704" id="N3808" type="Link">
       <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38654&amp;pnum=232</text>
       <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38654&amp;pnum=232">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_ff72e4f8f5f61dbd4e7871e1088" change="1755430830" id="N3809" type="Citation">
+      <text>Porvoo maaseurakunta rippikirja 1821-1827 (AP_LÄNSI I Aa:13)  Sivu 200 Kullo Nyby Lydande under Sisbacka ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38649&amp;pnum=204 / Viitattu 17.08.2025</text>
+    </note>
+    <note handle="_ff72e521c4652fa935ac91fbfc0" change="1755430847" id="N3810" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38649&amp;pnum=204</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38649&amp;pnum=204">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_ff72eee6018232472c7c1cc7103" change="1755431871" id="N3811" type="Citation">
+      <text>Porvoo maaseurakunta lastenkirja 1820-1831 (AP_LÄNSI I Ab:8)  Sivu 200 (Kullo )lydande under Sisbacka, Lill Bengts #1 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38677&amp;pnum=103 / Viitattu 17.08.2025</text>
+    </note>
+    <note handle="_ff72ef134426c1f5c7563fc67ff" change="1755431889" id="N3812" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38677&amp;pnum=103</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38677&amp;pnum=103">
         <range start="0" end="78"/>
       </style>
     </note>
