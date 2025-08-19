@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.2/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.2/">
   <header>
-    <created date="2025-08-18" version="6.0.4"/>
+    <created date="2025-08-19" version="6.0.4"/>
     <researcher>
     </researcher>
   </header>
@@ -13989,29 +13989,33 @@
       <dateval val="1866-02-13"/>
       <citationref hlink="_e9088ecb47359ee3748c031d5b"/>
     </event>
-    <event handle="_e908965037360fc23e5750aafce" change="1601394317" id="E0130">
+    <event handle="_e908965037360fc23e5750aafce" change="1755611991" id="E0130">
       <type>Birth</type>
       <dateval val="1870-12-29"/>
       <place hlink="_e37e0e3f53b3d29ddafbb93feec"/>
       <citationref hlink="_e9088ecb47359ee3748c031d5b"/>
+      <citationref hlink="_ff79a4a3e2f664531720b197e96"/>
     </event>
-    <event handle="_e90896a670e1b131ac76cedf1e" change="1601394353" id="E0131">
+    <event handle="_e90896a670e1b131ac76cedf1e" change="1755612392" id="E0131">
       <type>Birth</type>
       <dateval val="1873-09-26"/>
       <place hlink="_e37e0e3f53b3d29ddafbb93feec"/>
       <citationref hlink="_e9088ecb47359ee3748c031d5b"/>
+      <citationref hlink="_ff79a87a4b570ec2ffb8ecaebe0"/>
     </event>
-    <event handle="_e90896d56d276cf767468931b55" change="1601394372" id="E0132">
+    <event handle="_e90896d56d276cf767468931b55" change="1755612879" id="E0132">
       <type>Death</type>
       <dateval val="1874-05-20"/>
       <place hlink="_e37e0e3f53b3d29ddafbb93feec"/>
       <citationref hlink="_e9088ecb47359ee3748c031d5b"/>
+      <citationref hlink="_ff79ad1f2066573c70eaa36b276"/>
     </event>
-    <event handle="_e90897255c476bf73281df14177" change="1601394405" id="E0133">
+    <event handle="_e90897255c476bf73281df14177" change="1755613245" id="E0133">
       <type>Birth</type>
       <dateval val="1875-10-28"/>
       <place hlink="_e37e0e3f53b3d29ddafbb93feec"/>
       <citationref hlink="_e9088ecb47359ee3748c031d5b"/>
+      <citationref hlink="_ff79b09b3485418ea456492a478"/>
     </event>
     <event handle="_e908978c45575a7699482466b9c" change="1601394447" id="E0134">
       <type>Birth</type>
@@ -19977,12 +19981,14 @@
       <eventref hlink="_cb589cced0a26308053" role="Primary"/>
       <childof hlink="_cb589ccbca636502f22"/>
     </person>
-    <person handle="_cb589cced27547f2ada" change="1660913398" id="I4237">
+    <person handle="_cb589cced27547f2ada" change="1755584619" id="I4237">
       <gender>M</gender>
       <name type="Also Known As">
         <first>Fredric</first>
         <surname prim="0" derivation="Patronymic">Johansson</surname>
         <surname derivation="Taken">Sunnman</surname>
+        <datestr val=""/>
+        <noteref hlink="_ff789f920ed5fb783bbe6ed93a3"/>
       </name>
       <name alt="1" type="Birth Name">
         <first>Johan</first>
@@ -29598,11 +29604,17 @@
       <eventref hlink="_ff769a6a8764c2b01723e584ff3" role="Primary"/>
       <parentin hlink="_e9056c62c75211e1137eee6cae"/>
     </person>
-    <person handle="_e90577c74d147ffd733c7936c06" change="1601382814" id="I0017">
+    <person handle="_e90577c74d147ffd733c7936c06" change="1755611303" id="I0017">
       <gender>F</gender>
-      <name type="Birth Name">
+      <name type="Also Known As">
+        <first>Maria Sofia</first>
+        <surname derivation="Inherited">Sundman</surname>
+        <dateval val="1869" type="after"/>
+      </name>
+      <name alt="1" type="Birth Name">
         <first>Maria Sofia</first>
         <surname derivation="Inherited">Sunnman</surname>
+        <dateval val="1869" type="before"/>
       </name>
       <eventref hlink="_e905781db41345dbc6830d7525f" role="Primary"/>
       <eventref hlink="_e907f46116650a307921c94277" role="Primary"/>
@@ -42859,10 +42871,13 @@
       <noteref hlink="_e90571e638c50d1895e23029686"/>
       <sourceref hlink="_d6cda20a4443c79320f8ff5ffff"/>
     </citation>
-    <citation handle="_e90577afe9c3bf5950facfa928e" change="1601310575" id="C1131">
+    <citation handle="_e90577afe9c3bf5950facfa928e" change="1755584120" id="C1131">
+      <datestr val=""/>
       <page>228-229</page>
       <confidence>2</confidence>
+      <noteref hlink="_ff789a649aa1740c1ab6ea36e60"/>
       <noteref hlink="_e905765f039eaa7379bb146a90"/>
+      <noteref hlink="_ff789a489094156a90891a0c4cf"/>
       <noteref hlink="_e90577a36f921eb5732abc05c33"/>
       <sourceref hlink="_db7170159ec6d39e88bc913b496"/>
     </citation>
@@ -42873,11 +42888,14 @@
       <noteref hlink="_e9057ccbc7b7f0622a76d3e9017"/>
       <sourceref hlink="_db8a9276e0643ec55c8ba3c3182"/>
     </citation>
-    <citation handle="_e905818e90063ae173495837a6f" change="1601311610" id="C1133">
+    <citation handle="_e905818e90063ae173495837a6f" change="1755583933" id="C1133">
+      <datestr val=""/>
       <page>jakso 169</page>
       <confidence>2</confidence>
+      <noteref hlink="_ff7894815c47a3a22c212b4b214"/>
       <noteref hlink="_e9057e2663e2a299b61607ea576"/>
       <noteref hlink="_e905817a97447be5daa088818c"/>
+      <noteref hlink="_ff7899058b21306df25f27c8f03"/>
       <sourceref hlink="_db8a970c451636eb9c5ac647cbd"/>
     </citation>
     <citation handle="_e907bce224a92e1de46b835765" change="1601371518" id="C1134">
@@ -42887,38 +42905,51 @@
       <noteref hlink="_e907bb3ade571701e3fc61d5dd2"/>
       <sourceref hlink="_d6cda20a4443c79320f8ff5ffff"/>
     </citation>
-    <citation handle="_e907c2f47f22ba90de0d9301f5f" change="1601372155" id="C1135">
+    <citation handle="_e907c2f47f22ba90de0d9301f5f" change="1755583387" id="C1135">
+      <datestr val=""/>
       <page>261</page>
       <confidence>2</confidence>
+      <noteref hlink="_ff7892dc971c815de7d3ac8863"/>
+      <noteref hlink="_ff7892ffa351ba3b6ff38176369"/>
       <noteref hlink="_e907bf8a9cc33f700b6cb45d268"/>
       <noteref hlink="_e907c2eed2e167577e275d90bf6"/>
       <sourceref hlink="_db8ab6037e9d25a7461400cbae"/>
     </citation>
-    <citation handle="_e907c62e4a215382113d86ddf78" change="1601372493" id="C1136">
+    <citation handle="_e907c62e4a215382113d86ddf78" change="1755583210" id="C1136">
+      <datestr val=""/>
       <page>jakso 153</page>
       <confidence>2</confidence>
+      <noteref hlink="_ff788f700f4244e83caca69ba2"/>
       <noteref hlink="_e907c538d1e4787fd05513a166"/>
       <noteref hlink="_e907c6226fb710245feb8910799"/>
       <sourceref hlink="_d6cd9d482e462331073f995d4a4"/>
     </citation>
-    <citation handle="_e908288286756cb9346417e427c" change="1601382804" id="C1137">
+    <citation handle="_e908288286756cb9346417e427c" change="1755586035" id="C1137">
+      <datestr val=""/>
       <page>230</page>
       <confidence>2</confidence>
+      <noteref hlink="_ff78abccb202a5a41aeb0435b21"/>
       <noteref hlink="_e907f78206c6ff4767259d0a8ce"/>
+      <noteref hlink="_ff78abb84c2d6fb8048a793c33"/>
       <noteref hlink="_e90826b148a62d976e15101b6d5"/>
       <noteref hlink="_e908287edca99f319d316f7f0d"/>
       <sourceref hlink="_db8ab6037e9d25a7461400cbae"/>
     </citation>
-    <citation handle="_e908614a30df4cc38b67a09f80" change="1601388757" id="C1138">
+    <citation handle="_e908614a30df4cc38b67a09f80" change="1755585776" id="C1138">
+      <datestr val=""/>
       <page>jakso 106</page>
       <confidence>2</confidence>
+      <noteref hlink="_ff78a906e57544c4c063eec65fe"/>
       <noteref hlink="_e9085fca6f321f1122034cc8ef6"/>
       <noteref hlink="_e908613251929f235bc38fac435"/>
       <sourceref hlink="_cf932f76149565a5899"/>
     </citation>
-    <citation handle="_e9088ecb47359ee3748c031d5b" change="1601393529" id="C1139">
+    <citation handle="_e9088ecb47359ee3748c031d5b" change="1755586173" id="C1139">
+      <datestr val=""/>
       <page>230-231</page>
       <confidence>2</confidence>
+      <noteref hlink="_ff78add443852c86846d68e8847"/>
+      <noteref hlink="_ff78adbebf143e7bb32d8a0961"/>
       <noteref hlink="_e9088b4dbe95dc5c1993c06f3fb"/>
       <noteref hlink="_e9088ec64a97272b93c72174e0"/>
       <sourceref hlink="_df97ac685cf568e61bcce3fdfb2"/>
@@ -47786,6 +47817,42 @@
       <noteref hlink="_ff7698f778771c62a0ab9b4899"/>
       <sourceref hlink="_f16a42ae9774b0ba5a082769407"/>
     </citation>
+    <citation handle="_ff79a4a3e2f664531720b197e96" change="1755611989" id="C1769">
+      <datestr val=""/>
+      <page>C:11/412-413</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ff79a1350f552220ae74cb31075"/>
+      <noteref hlink="_ff79a15a32018529f9e5e8ce674"/>
+      <noteref hlink="_ff79a49f9a5653896c56e5336da"/>
+      <sourceref hlink="_f358ff219b34d511a87e81104d3"/>
+    </citation>
+    <citation handle="_ff79a87a4b570ec2ffb8ecaebe0" change="1755612391" id="C1770">
+      <datestr val=""/>
+      <page>C:11/520-521</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ff79a5dee267267fe7e8ad27c9a"/>
+      <noteref hlink="_ff79a5fe1b37a2eebc3ac9a1fbb"/>
+      <noteref hlink="_ff79a87704a7d4060e6d64505b6"/>
+      <sourceref hlink="_f358ff219b34d511a87e81104d3"/>
+    </citation>
+    <citation handle="_ff79ad1f2066573c70eaa36b276" change="1755612878" id="C1771">
+      <datestr val=""/>
+      <page>F:9/14-15</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ff79ac2ee7f814bfbaba158f76"/>
+      <noteref hlink="_ff79ac6089f5c7495851dd6141"/>
+      <noteref hlink="_ff79ad1b8f56f01fb8392e0e08f"/>
+      <sourceref hlink="_f35831ab3617c8576da514630db"/>
+    </citation>
+    <citation handle="_ff79b09b3485418ea456492a478" change="1755613244" id="C1772">
+      <datestr val=""/>
+      <page>C:12/84-85</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ff79ae92a755da082ac0772e842"/>
+      <noteref hlink="_ff79aeb5f38783f92e1da198856"/>
+      <noteref hlink="_ff79b096bda1e2eed04f24d12a4"/>
+      <sourceref hlink="_ff79ae6b6c67fc0818e318311ea"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -51399,6 +51466,11 @@
       <stitle>Inkoo Muuttokirjat 1858-1862</stitle>
       <sauthor>Inkoon seurakunta</sauthor>
       <reporef hlink="_f5dc19ee7d07e822ec5f7a37d7" medium="Book"/>
+    </source>
+    <source handle="_ff79ae6b6c67fc0818e318311ea" change="1755613015" id="S0718">
+      <stitle>Porvoo msrk Syntyneet 1874-1882</stitle>
+      <sauthor>Porvoon maaseurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
   </sources>
   <places>
@@ -61802,10 +61874,6 @@ maalle.</text>
         <range start="0" end="430"/>
       </style>
     </note>
-    <note handle="_dcdca45220725d795bcfed8a660" change="1658502986" id="N0052" type="Link">
-      <text>
-    </text>
-    </note>
     <note handle="_dcdcc47255b7ef23325d832113c" change="1517754667" id="N0054" type="Link">
       <text>https://drive.google.com/drive/folders/0B2JbCJkLtH0DUWx1U3FuZDk5UjA</text>
       <style name="link" value="https://drive.google.com/drive/folders/0B2JbCJkLtH0DUWx1U3FuZDk5UjA">
@@ -68253,10 +68321,13 @@ Maria Sofia Sunnman           13/7 1846    1867 till p. 251</text>
         <range start="0" end="109"/>
       </style>
     </note>
-    <note handle="_e90577a36f921eb5732abc05c33" change="1601310570" id="N0196" type="Transcript">
+    <note handle="_e90577a36f921eb5732abc05c33" change="1755584118" id="N0196" type="Transcript" format="1">
       <text>228 Kullo Nyby
 Sochne Smeden Gustaf Sunnmans barn med Maja Lena Gustasdotter f 1812
-Maria Sofia Sunnman 13/7 1846</text>
+Maria Sofia Sunnman 13/7 1846          18 8/6 61</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="132"/>
+      </style>
     </note>
     <note handle="_e9057c1309753fe3a0a5734fe31" change="1601311035" id="N0197" type="Link">
       <text>http://digi.narc.fi/digi/view.ka?kuid=7966626
@@ -68274,26 +68345,26 @@ https://astia.narc.fi/uusiastia/viewer/?fileId=5862802985&amp;aineistoId=1168483
 Sockne Smeden Anders Gustaf Sunnmans barn med Maja Lena Gustafsdr f 1812
 Maria Sofia Sunnman 13/7 1846</text>
     </note>
-    <note handle="_e9057e2663e2a299b61607ea576" change="1601311253" id="N0199" type="Link">
-      <text>http://digi.narc.fi/digi/view.ka?kuid=7970080
-https://astia.narc.fi/uusiastia/viewer/?fileId=5862819178&amp;aineistoId=1168782667</text>
-      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=7970080">
-        <range start="0" end="45"/>
-      </style>
-      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5862819178&amp;aineistoId=1168782667">
-        <range start="46" end="125"/>
+    <note handle="_e9057e2663e2a299b61607ea576" change="1755583444" id="N0199" type="Link">
+      <text>https://astia.narc.fi/uusiastia//viewer/?fileId=5862820045&amp;aineistoId=1168782667</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia//viewer/?fileId=5862820045&amp;aineistoId=1168782667">
+        <range start="0" end="80"/>
       </style>
     </note>
-    <note handle="_e905817a97447be5daa088818c" change="1601311602" id="N0200" type="Transcript">
+    <note handle="_e905817a97447be5daa088818c" change="1755583865" id="N0200" type="Transcript" format="1">
       <text>Födde år 1846
 Julii Månad
-13  16  Maria Sofia
-Döpt as v. pastor Bergström
-Par. Sockne Smeden Anders Gustaf Sunnman hu Maja Lena Gustafsdotter x 34 Kullo
-Testes. Rusth. Gustaf Storbondas m. hu Maja Stina Henricsdotter och bror? Adolf Gustafsson, Smeden Sundmans Syster Anna Stina Fredriksdotter fr. Kullo 
-Coll 23 kop. Silfver</text>
-      <style name="link" value="gramps://Person/handle/e3895adaeb25d3cace20dc4a544">
-        <range start="268" end="293"/>
+13  16  Maria Sofia    Par. Sockne Smeden       Testes. Rusth. Gustaf Stor
+                       Anders Gustaf Sunnman    bondas m. hu Maja Stina
+                       hu Maja Lena             Henricsdotter och bror
+                       Gustafsdotter            Adolf Gustafsson, Smeden
+                           x 34                 Sundmans Syster Anna 
+                        Kullo                   Stina Fredriksdotter fr
+Döpt af                                         Kullo
+v. pastor Bergström                             Coll 23 kop. Silfver
+</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="582"/>
       </style>
     </note>
     <note handle="_e907b8f3b1c7bcfd73db73fbfab" change="1601371106" id="N0201" type="Link">
@@ -68327,38 +68398,40 @@ Dotter Maria Sofia Sunnman  13/7 1846               }</text>
         <range start="0" end="108"/>
       </style>
     </note>
-    <note handle="_e907c2eed2e167577e275d90bf6" change="1755517423" id="N0204" type="Transcript" format="1">
+    <note handle="_e907c2eed2e167577e275d90bf6" change="1755583386" id="N0204" type="Transcript" format="1">
       <text>261 Kullo
-Socken Handtverkare
+Sockne Handtverkare
 
 
 Sokne Smed
 Anders Gustaf Sunnman       15/5 1811    Dog den 15 Februari 1870    Gla Bo p 251
-Ea Maja Lena Gustafsdotter  18/4 1812
+Ea Hu Maja Lena Gustafsdotter  18/4 1812
 
 Bror Smed Johan Sunnman     29/7 1813    Dog 18 1/10 79
 Syster Anna Stina Sunnman   25/2 1806    Dog den 18 Maj 1876
 
-Dotter Maria Sofia Sunnman  13/7 1846    1869 till p. 230    17/7 1869 lysning med Carl Stjernberg p. 230</text>
+Doter Maria Sofia Sunnman  13/7 1846    1869 till p. 230    17/7 1869 lysning med Carl Stjernberg p. 230</text>
       <style name="fontface" value="Courier New">
-        <range start="0" end="387"/>
+        <range start="0" end="389"/>
+      </style>
+      <style name="strikethrough">
+        <range start="128" end="130"/>
       </style>
     </note>
-    <note handle="_e907c538d1e4787fd05513a166" change="1601372392" id="N0205" type="Link">
-      <text>http://digi.narc.fi/digi/view.ka?kuid=7975354
-https://astia.narc.fi/uusiastia/viewer/?fileId=5862666768&amp;aineistoId=1168976981</text>
-      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=7975354">
-        <range start="0" end="45"/>
-      </style>
-      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5862666768&amp;aineistoId=1168976981">
-        <range start="46" end="125"/>
+    <note handle="_e907c538d1e4787fd05513a166" change="1755582914" id="N0205" type="Link">
+      <text>https://astia.narc.fi/uusiastia//viewer/?fileId=5862667356&amp;aineistoId=1168976981</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia//viewer/?fileId=5862667356&amp;aineistoId=1168976981">
+        <range start="0" end="80"/>
       </style>
     </note>
-    <note handle="_e907c6226fb710245feb8910799" change="1601372488" id="N0206" type="Transcript">
+    <note handle="_e907c6226fb710245feb8910799" change="1755583209" id="N0206" type="Transcript" format="1">
       <text>Döde år 1870 
 Februari månad
 
-15    27    Anders Gustaf Sunnman    Sockesmed uppl.    58 3/12    Lungsota    Kullo p 261</text>
+15    27    Anders Gustaf Sunnman    Sockesmed uppl.    58 3/12    Lunghosta    Kullo p 261</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="121"/>
+      </style>
     </note>
     <note handle="_e907f78206c6ff4767259d0a8ce" change="1601377665" id="N0207" type="Link">
       <text>https://www.sukuhistoria.fi/sshy/kirjat/Kirkonkirjat/porvoo/rippikirja_1869-1878_ruotksrk_mko422-457/192.htm</text>
@@ -68366,52 +68439,54 @@ Februari månad
         <range start="0" end="108"/>
       </style>
     </note>
-    <note handle="_e90826b148a62d976e15101b6d5" change="1601473839" id="N0268" type="Transcript">
+    <note handle="_e90826b148a62d976e15101b6d5" change="1755586032" id="N0268" type="Transcript" format="1">
       <text>230 Kullo Nyby
 Sisbacka Rusthåll 5/12 mant
-fd Rusthållare, ??? 3dje ggen gift
-Gustaf Gustafsson Stjernberg 28/3 1816
+fd Rusthållare, enkl. 3dje ggen gift
+Gustaf Gustafsson Stjernberg      28/3 1816
 2de ggen gift
-Hu Sofia Lovisa Blomqvist 19/10 1823    Dog den 24 Juli 1874
+Hu Sofia Lovisa Blomqvist        19/10 1823    Dog den 24 Juli 1874
 
 Son
-Frans Gustaf Stjernberg 29/6 1845    1869 till Lovisa m.b. No 181 ???
+Frans Gustaf Stjernberg           29/6 1845    1869 till Lovisa m.b. No 181 ???
 Dotter
-Anna Stjernberg 31/5 1859
+Anna Stjernberg                   31/5 1859
 Son, rusthållare                                          17/7 1869 lysning med Maria Sofia Sundman fr p. 261
-Carl Stjernberg 10/2 1847                                                             } vigde 14/10 1869
-Hu Maria Sofia Sundman 13/7 1846    1869 fr.p. 261       }    
+Carl Stjernberg                   10/2 1847                         } vigde 14/10 1869
+Hu Maria Sofia Sundman            13/7 1846    1869 fr.p. 261       }    
 Stjufson, Hruns af första giftet, sjöman
-Gustaf Adolf Wilkman 16/10 1859
+Gustaf Adolf Wilkman             16/10 1859
 Dotter
-Sofia Stjernberg 25/12 1860
+Sofia Stjernberg                 25/12 1860
 Son
-Johannes Stjernberg 19/1 1863
+Johannes Stjernberg               19/1 1863
 </text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="797"/>
+      </style>
     </note>
     <note handle="_e908287edca99f319d316f7f0d" change="1601382802" id="N0281" type="Research">
       <text>Maria Sofian sukunimi muuttuu tänne muuttaessa Sunnman -&gt; Sundman.
 Kyseessä on kuitenkin sama henkilö koska etunimet, syntymäaika, lähtösivu täsmää, 
 ja lähtösivulla sekä kihlatun nimi ja sivunumero täsmää.</text>
     </note>
-    <note handle="_e9085fca6f321f1122034cc8ef6" change="1601388606" id="N0282" type="Link">
-      <text>http://digi.narc.fi/digi/view.ka?kuid=7977221
-https://astia.narc.fi/uusiastia/viewer/?fileId=5862807197&amp;aineistoId=1168897284</text>
-      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=7977221">
-        <range start="0" end="45"/>
-      </style>
-      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5862807197&amp;aineistoId=1168897284">
-        <range start="46" end="125"/>
+    <note handle="_e9085fca6f321f1122034cc8ef6" change="1755585598" id="N0282" type="Link">
+      <text>https://astia.narc.fi/uusiastia//viewer/?fileId=5862807887&amp;aineistoId=1168897284</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia//viewer/?fileId=5862807887&amp;aineistoId=1168897284">
+        <range start="0" end="80"/>
       </style>
     </note>
-    <note handle="_e908613251929f235bc38fac435" change="1601388748" id="N0283" type="Transcript">
+    <note handle="_e908613251929f235bc38fac435" change="1755585773" id="N0283" type="Transcript" format="1">
       <text>Wigde år 1869
 Oktober Månad
 
-36    14    Carl Stjernberg och Maria Sofia Sundman
-Brudg. Rusthållareson, ungk fr Kullo Sisbacka
-Brud Smeddotter, ogift fr Kullo
-1    60    vigde as t.f. Pastor Moberg    Coll: 6 mk 32p</text>
+36  14  Carl Stjernberg        Brudg. Rusthållareson, ungk             vigde as t.f. Pastor
+              och              fr Kullo Sisbacka                       Moberg
+        Maria Sofia Sundman    Brud Smeddotter, ogift 
+                               fr Kullo                       1  60    Coll: 6 mk 32p</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="339"/>
+      </style>
     </note>
     <note handle="_e9088b4dbe95dc5c1993c06f3fb" change="1601393163" id="N0284" type="Link">
       <text>https://www.sukuhistoria.fi/sshy/kirjat/Kirkonkirjat/porvoo/lastenkirja_1869-1879_ruotksrk_mko561-580/112.htm</text>
@@ -68419,22 +68494,25 @@ Brud Smeddotter, ogift fr Kullo
         <range start="0" end="109"/>
       </style>
     </note>
-    <note handle="_e9088ec64a97272b93c72174e0" change="1601394469" id="N0285" type="Transcript">
+    <note handle="_e9088ec64a97272b93c72174e0" change="1755586171" id="N0285" type="Transcript" format="1">
       <text>230 Kullo nyby
 Sisbacka Rusthåll
 
 fd. Rusthållaren Gustaf Gustafsson Stjernbergs barn med Sofia Lovisa Blomqvist f 19/10 1823
-Anna Stjernberg 31/5 1859
-Sofia Stjernberg 25/12 1860
-Johannes Stjernberg 19/7 1865
-Edward Stjernberg 13/2 1866
-Stjufson Gustaf Adolf Wilkman 16/10 1853
+Anna Stjernberg                 31/5 1859
+Sofia Stjernberg               25/12 1860
+Johannes Stjernberg             19/7 1865
+Edward Stjernberg               13/2 1866
+Stjufson Gustaf Adolf Wilkman  16/10 1853
 
 Rusthållaren Carl Stjernbergs bn med Maria Sofia Sundman f 13/7 1846
-Maria Emilia Stjernberg 29/12 1840
-Carl Emil Stjernberg 26/9 1873    Dog den 20 maj 1874
-Alma Sofia Stjernberg 28/10 1875
-Karl Ivar Stjernberg 27/8 1878</text>
+Maria Emilia Stjernberg        29/12 1840
+Carl Emil Stjernberg            26/9 1873    Dog den 20 maj 1874
+Alma Sofia Stjernberg          28/10 1875
+Karl Ivar Stjernberg            27/8 1878</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="596"/>
+      </style>
     </note>
     <note handle="_e908adfb5266e15cd165467f671" change="1601396799" id="N0286" type="Link">
       <text>http://digi.narc.fi/digi/view.ka?kuid=7961000
@@ -83408,6 +83486,147 @@ Ea Maja Lena Gustafdotter         18/4  1812    271
       <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38667&amp;pnum=781</text>
       <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38667&amp;pnum=781">
         <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_ff788f700f4244e83caca69ba2" change="1755582922" id="N3713" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I F Kuolleiden ja haudattujen luettelot. Kuolleiden ja haudattujen luettelot  (1852-1873). Tiedosto 153. Kansallisarkisto. Viitattu 19.8.2025.</text>
+    </note>
+    <note handle="_ff7892dc971c815de7d3ac8863" change="1755583281" id="N3714" type="Citation">
+      <text>Porvoo maaseurakunta rippikirja 1869-1879 (AP_LÄNSI I Aa:25)  Sivu 261 Kullo Sockne Handtverkare ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38660&amp;pnum=265 / Viitattu 19.08.2025</text>
+    </note>
+    <note handle="_ff7892ffa351ba3b6ff38176369" change="1755583296" id="N3715" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38660&amp;pnum=265</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38660&amp;pnum=265">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_ff7894815c47a3a22c212b4b214" change="1755583454" id="N3716" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I C Syntyneiden ja kastettujen luettelot. Syntyneiden ja kastettujen luettelot  (1841-1850). Tiedosto 169. Kansallisarkisto. Viitattu 19.8.2025.</text>
+    </note>
+    <note handle="_ff7899058b21306df25f27c8f03" change="1755583927" id="N3717" type="Analysis">
+      <text>Isän sukunimi kirjoitettu alunperin &quot;Sundman&quot; mutta korjattu Sunnman.</text>
+    </note>
+    <note handle="_ff789a489094156a90891a0c4cf" change="1755584060" id="N3718" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38683&amp;pnum=117</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38683&amp;pnum=117">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_ff789a649aa1740c1ab6ea36e60" change="1755584071" id="N3719" type="Citation">
+      <text>Porvoo maaseurakunta lastenkirja 1860-1868 (AP_LÄNSI I Ab:14)  Sivu 228 (Kullo )Greijus Rusthåll #1, Malmas torp ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38683&amp;pnum=117 / Viitattu 19.08.2025</text>
+    </note>
+    <note handle="_ff789f920ed5fb783bbe6ed93a3" change="1755589205" id="N3720" type="Analysis">
+      <text>Fredric Johansson oli oppipoikana Seppä Sundmanilla, ja ilmeisesti otti häneltä sukunimen mutta erilaisella kirjoitusasulla Sundman -&gt; Sunnman. 
+Tämän jälkeen sukunimi toistuu melko johdonmukaisesti muodossa Sunnman myös hänen lapsilla. 
+Ainakin yhdessä tapauksessa on ensin kirjattu Sundman joka on korjattu Sunnman.
+Vasta Fredricin vanhemman pojan Anders Gustafin kuoleman aikoihin 1869-1870 muuttuu leskellä ja jälkeläisillä sukunimen kirjoitusasu Sunnman -&gt; Sundman.
+</text>
+    </note>
+    <note handle="_ff78a906e57544c4c063eec65fe" change="1755585605" id="N3721" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I E Kuulutettujen ja vihittyjen luettelot. I Eb Vihittyjen luettelot. Vihittyjen luettelot  (1842-1888). Tiedosto 106. Kansallisarkisto. Viitattu 19.8.2025.</text>
+    </note>
+    <note handle="_ff78abb84c2d6fb8048a793c33" change="1755585888" id="N3722" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38660&amp;pnum=234</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38660&amp;pnum=234">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_ff78abccb202a5a41aeb0435b21" change="1755585896" id="N3723" type="Citation">
+      <text>Porvoo maaseurakunta rippikirja 1869-1879 (AP_LÄNSI I Aa:25)  Sivu 230 Kullo Nyby ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38660&amp;pnum=234 / Viitattu 19.08.2025</text>
+    </note>
+    <note handle="_ff78adbebf143e7bb32d8a0961" change="1755586100" id="N3724" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38685&amp;pnum=118</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38685&amp;pnum=118">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_ff78add443852c86846d68e8847" change="1755586109" id="N3725" type="Citation">
+      <text>Porvoo maaseurakunta lastenkirja 1869-1879 (AP_LÄNSI I Ab:16)  Sivu 230 Kullo Nyby; Sisbacka Rusthåll, Sisbacka  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38685&amp;pnum=118 / Viitattu 19.08.2025</text>
+    </note>
+    <note handle="_ff79a1350f552220ae74cb31075" change="1755611629" id="N3726" type="Citation">
+      <text>Porvoo maaseurakunta syntyneet 1861-1873 (AP I C:11)  Sivu 412  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38692&amp;pnum=209 / Viitattu 19.08.2025</text>
+    </note>
+    <note handle="_ff79a15a32018529f9e5e8ce674" change="1755611644" id="N3727" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38692&amp;pnum=209</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38692&amp;pnum=209">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_ff79a49f9a5653896c56e5336da" change="1755612405" id="N3728" type="Transcript" format="1">
+      <text>Födde år 1970
+December Månad
+29  31  Maria Emilia          Par. Rusthållaresonen    Ts Rusthållaren Gustaf Gustafsson
+          döpt af             Carl Stjernberg hu Ma    med hu Amanda Sofia och Bror
+        t.f. Pastor Moberg    ria Sofia Sundman        Viktor Gustafsson fr Kullo Nyby
+                                              X 24     och Annette Englund fr staden
+                                 Kullo Siisbacka            Coll: 1mk 50pn </text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="449"/>
+      </style>
+    </note>
+    <note handle="_ff79a5dee267267fe7e8ad27c9a" change="1755612118" id="N3729" type="Citation">
+      <text>Porvoo maaseurakunta syntyneet 1861-1873 (AP I C:11)  Sivu 520 1873 September ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38692&amp;pnum=263 / Viitattu 19.08.2025</text>
+    </note>
+    <note handle="_ff79a5fe1b37a2eebc3ac9a1fbb" change="1755612131" id="N3730" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38692&amp;pnum=263</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38692&amp;pnum=263">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_ff79a87704a7d4060e6d64505b6" change="1755612390" id="N3731" type="Transcript" format="1">
+      <text>Födde år 1873
+September Månad
+
+26  30    Carl Emil             Par. Rusthållaren Carl    Ts Sp. Torp. Johan HElenius
+          nöddöpt. nöddopet     Stjernberg hu Maria So    med hu Maria Lovisa, Sjöman
+          confirmeradt af       fia Sundman               Gustaf Adolf Wilkman, Pigan
+          t.f. Pastor Moberg                    X 27      Maria Lovisa Ekholm. Alla
+                                 Kullo Siisbacka          fr Kullo Siisbacka
+                                                              Coll: 1mk 35pn.</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="527"/>
+      </style>
+    </note>
+    <note handle="_ff79ac2ee7f814bfbaba158f76" change="1755612780" id="N3732" type="Citation">
+      <text>Porvoo maaseurakunta kuolleet 1874-1889 (AP I F:9)  Sivu 14 1874 April - Maj ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38703&amp;pnum=9 / Viitattu 19.08.2025</text>
+    </note>
+    <note handle="_ff79ac6089f5c7495851dd6141" change="1755612800" id="N3733" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38703&amp;pnum=9</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38703&amp;pnum=9">
+        <range start="0" end="76"/>
+      </style>
+    </note>
+    <note handle="_ff79ad1b8f56f01fb8392e0e08f" change="1755612877" id="N3734" type="Transcript" format="1">
+      <text>Döde år 1874           15
+Maj Månad
+
+20  25  Carl Emil Stjernberg    Rusthållare barn    2/3    Kikhosta    Kullo Sisbacka
+</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="123"/>
+      </style>
+    </note>
+    <note handle="_ff79ae92a755da082ac0772e842" change="1755613031" id="N3735" type="Citation">
+      <text>Porvoo maaseurakunta syntyneet 1874-1882 (AP I C:12)  Sivu 84  ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38693&amp;pnum=45 / Viitattu 19.08.2025</text>
+    </note>
+    <note handle="_ff79aeb5f38783f92e1da198856" change="1755613045" id="N3736" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38693&amp;pnum=45</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38693&amp;pnum=45">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_ff79b096bda1e2eed04f24d12a4" change="1755613242" id="N3737" type="Transcript" format="1">
+      <text>Födde År 1875          85
+Oktober Månad
+
+28  2/11    Alma Sofia       Par Rusthållaren       Ts Rysth. Carl Mattsson med hu
+            döpt af          Carl Stjernberg hu     Amalia, Rusth. Anders Andersson
+            Kaplan Eklund    Maria Sofia Sundman    Rusthållaredottern Anna Stjärn
+                                         X 29       berg    Alla fr Kullo
+                             Kullo Siisbacka                    Coll: 2mk
+</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="439"/>
       </style>
     </note>
   </notes>
