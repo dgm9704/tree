@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.2/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.2/">
   <header>
-    <created date="2025-08-19" version="6.0.4"/>
+    <created date="2025-08-20" version="6.0.4"/>
     <researcher>
     </researcher>
   </header>
@@ -17864,6 +17864,27 @@
       <citationref hlink="_ff7a00e33d1369f70e494dbe37f"/>
       <citationref hlink="_ff7a07379f445da56899afa8994"/>
     </event>
+    <event handle="_ff7a1b46a866f2864c56c1dfb53" change="1755624800" id="E1001">
+      <type>Birth</type>
+      <dateval val="1889-02-18"/>
+      <place hlink="_e37e0e3f53b3d29ddafbb93feec"/>
+      <citationref hlink="_ff7a00e33d1369f70e494dbe37f"/>
+      <citationref hlink="_ff7a1ecce34405e91dcb2b9b045"/>
+    </event>
+    <event handle="_ff7c7aeedc768c6b4d601563795" change="1755688215" id="E1002">
+      <type>Residence</type>
+      <datespan start="1886" stop="1889"/>
+      <place hlink="_e37e0e3f53b3d29ddafbb93feec"/>
+      <citationref hlink="_ff767f19ccdcc9a747fde2f21f"/>
+      <citationref hlink="_ff7a00e33d1369f70e494dbe37f"/>
+    </event>
+    <event handle="_ff7c8ceeedb4e1db9cbccec40be" change="1755690034" id="E1003">
+      <type>Residence</type>
+      <datespan start="1890" stop="1891"/>
+      <place hlink="_e37e0e3f53b3d29ddafbb93feec"/>
+      <citationref hlink="_ff7697ccae34a8aaa04d914ad7c"/>
+      <citationref hlink="_ff7c8ced58d38508efddda58b06"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1658869228" id="I3858">
@@ -29720,14 +29741,17 @@
       <eventref hlink="_e90895a275222820695f35878db" role="Primary"/>
       <childof hlink="_e908930fa623aab84d895704875"/>
     </person>
-    <person handle="_e9089601488359a80268c1c78f3" change="1755622344" id="I0025">
+    <person handle="_e9089601488359a80268c1c78f3" change="1755690476" id="I0025">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Emilia</first>
         <surname derivation="Inherited">Stjernberg</surname>
       </name>
       <eventref hlink="_e908965037360fc23e5750aafce" role="Primary"/>
+      <eventref hlink="_ff7c7aeedc768c6b4d601563795" role="Primary"/>
+      <eventref hlink="_ff7c8ceeedb4e1db9cbccec40be" role="Primary"/>
       <childof hlink="_e907f69914f37c604d734a4c850"/>
+      <parentin hlink="_ff7a1a83a4814457b23e0cdf9d5"/>
     </person>
     <person handle="_e90896605cf61c49351ae4cc1cc" change="1755622344" id="I0026">
       <gender>M</gender>
@@ -31490,6 +31514,15 @@
       </name>
       <eventref hlink="_ff7a073bcd4119240c53c01a433" role="Primary"/>
       <childof hlink="_e907f69914f37c604d734a4c850"/>
+    </person>
+    <person handle="_ff7a1a8e7342fb5be73c586bc8b" change="1755624823" id="I0200">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Sigfrid Maria</first>
+        <surname derivation="Inherited">Stjärnberg</surname>
+      </name>
+      <eventref hlink="_ff7a1b46a866f2864c56c1dfb53" role="Primary"/>
+      <childof hlink="_ff7a1a83a4814457b23e0cdf9d5"/>
     </person>
   </people>
   <families>
@@ -35196,6 +35229,11 @@
       <eventref hlink="_fa592d804227f03dcdbb5d9efc5" role="Family"/>
       <eventref hlink="_fa592ec2d3b26bc94a90cb80e5e" role="Family"/>
       <eventref hlink="_fa592f8c5805399db316b393514" role="Family"/>
+    </family>
+    <family handle="_ff7a1a83a4814457b23e0cdf9d5" change="1755624823" id="F0044">
+      <rel type="Unmarried"/>
+      <mother hlink="_e9089601488359a80268c1c78f3"/>
+      <childref hlink="_ff7a1a8e7342fb5be73c586bc8b"/>
     </family>
   </families>
   <citations>
@@ -47840,12 +47878,13 @@
       <noteref hlink="_ff767f0d1221c8aa694a688d131"/>
       <sourceref hlink="_cf9322ce51178c4d1e5"/>
     </citation>
-    <citation handle="_ff7697ccae34a8aaa04d914ad7c" change="1755530112" id="C1767">
+    <citation handle="_ff7697ccae34a8aaa04d914ad7c" change="1755692954" id="C1767">
       <datestr val=""/>
       <page>Aa:29/368</page>
       <confidence>2</confidence>
       <noteref hlink="_ff76965c21240359f371c3bc8cb"/>
       <noteref hlink="_ff76967badf4b0cc7649d2d6c48"/>
+      <noteref hlink="_ff7ca8c5ac6fa86c329e6084d9"/>
       <sourceref hlink="_f35ee4a782b1b14429fdeb1f256"/>
     </citation>
     <citation handle="_ff7698fcf262646df106c8c2d77" change="1755530237" id="C1768">
@@ -47927,6 +47966,24 @@
       <noteref hlink="_ff7a043ba8760843ee1e17dcc8f"/>
       <noteref hlink="_ff7a0732c355d9a3406f2b83724"/>
       <sourceref hlink="_ff79ae6b6c67fc0818e318311ea"/>
+    </citation>
+    <citation handle="_ff7a1ecce34405e91dcb2b9b045" change="1755624798" id="C1777">
+      <datestr val=""/>
+      <page>C:14/48-49</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ff7a1c507f16d5a7feed7f215d"/>
+      <noteref hlink="_ff7a1c7fb0ec82b85607b37660"/>
+      <noteref hlink="_ff7a1eca1ca7c2eabbc0ca4d398"/>
+      <sourceref hlink="_f35f3a785f97bd24c3e0721d350"/>
+    </citation>
+    <citation handle="_ff7c8ced58d38508efddda58b06" change="1755690033" id="C1778">
+      <datestr val=""/>
+      <page>Ab:20/368-369</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ff7c86213ba7c53d19fe06d80e8"/>
+      <noteref hlink="_ff7c8641f615996e3ec224c3794"/>
+      <noteref hlink="_ff7c8ce70336da78d71091f7f7f"/>
+      <sourceref hlink="_f35f34546097021d962d6b10cd2"/>
     </citation>
   </citations>
   <sources>
@@ -83812,6 +83869,115 @@ Julii Månad
 </text>
       <style name="fontface" value="Courier New">
         <range start="0" end="404"/>
+      </style>
+    </note>
+    <note handle="_ff7a1c507f16d5a7feed7f215d" change="1755624538" id="N3750" type="Citation">
+      <text>Porvoo maaseurakunta syntyneet 1888-1893 (AP I C:14)  Sivu 48 1889 Januari-Februari ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38695&amp;pnum=26 / Viitattu 19.08.2025</text>
+    </note>
+    <note handle="_ff7a1c7fb0ec82b85607b37660" change="1755624557" id="N3751" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38695&amp;pnum=26</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38695&amp;pnum=26">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_ff7a1eca1ca7c2eabbc0ca4d398" change="1755624797" id="N3752" type="Transcript" format="1">
+      <text>                     År 1889          Pag 49
+
+Födde och Döpte inom Borgå  lands Församling.
+
+[Febr]  18  25  264  Sigfrid Maria. Mater Rusth.dr Maria
+oäkta                Emilia Stjernberg fr Kullo Nyby Sisbacka
+                     Ts: Inh Aug. Edv. Blonberg mhu Kri
+                     stina fr Kullo
+                                  Döpt af K.V. Lehtonen        [n]  18[vuotta]</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="382"/>
+      </style>
+    </note>
+    <note handle="_ff7c86213ba7c53d19fe06d80e8" change="1755689320" id="N3753" type="Citation">
+      <text>Porvoo maaseurakunta lastenkirja 1890-1899 (AP_LÄNSI I Ab:20)  Sivu 368 Kullo-Nyby Sisbacka ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38689&amp;pnum=187 / Viitattu 20.08.2025</text>
+    </note>
+    <note handle="_ff7c8641f615996e3ec224c3794" change="1755689334" id="N3754" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38689&amp;pnum=187</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38689&amp;pnum=187">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_ff7c8ce70336da78d71091f7f7f" change="1755690469" id="N3755" type="Transcript" format="1">
+      <text>368          Kullo-Nyby
+Sisbacka
+
+    Rusth. Karl Stjernbergs bn med afl. h. Maria Sofia Sundman, f. 1846
+Alma Sofia           28/10 75
+Karl Ivar            27/8  78
+Frans Hjalmar        29/7  81
+
+    i sednare giftet med Maria Wilh. Backman, f. 1858
+Viktor Edvard        21/4  83
+Axel Waldemar        27/9  84
+
+    i 3je giftet med Maria Sofia Andersdotter, f. 1869
+Ingrid Olivia Maria  9/2   86          Dog 18/7 1890
+Aina Sofia           12/3  87
+Selma Alina          22/7  88          Dog 25/3 1891
+Karl Sven            1/1   91          Dog 20/1 1892
+Karl Werner          18/3  92          Dog  2/1 1899
+Gustaf Sven          16/5  93          
+Harald Rafael        27/4  98          Dog 5/9  1899
+Ellen Maria          26/5  95
+Hugo Alfons          4/6   96
+
+    Rusth. dr Maria Emilia Stjernbergs, f. 1870, oä barn:
+Sigfrid Maria        18/2  89          Dog 26/3 1895
+
+    Rusthållaremagen Anders Johan Ahlgréns bn mhu Maria Emilia Stjernberg f. 1870
+Selma Emilia         23/9  92
+Edith Alexandra      16/5  1896
+Hugo Johannes        11/6  99
+</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="1049"/>
+      </style>
+    </note>
+    <note handle="_ff7ca8c5ac6fa86c329e6084d9" change="1755692953" id="N3756" type="Transcript" format="1">
+      <text>368          Kullo-Nyby
+Sisbacka
+Rusthåll
+               3g gift             27/7 enl. dopboken
+Rusth. Karl Stjernberg             10/2  1847         gb.264
+Hu Maria Sofia Andersdr            17/4  1869         do
+Q.p. a Hu Maria Emilia Stjernberg  22/12 1870         do                vigd. 29/12 1891   Ktl 54  Brudlysn 93-1891 p.342
+oä Alma Sofia                      28/10 1875         BB 1891  94-372   Brudlysn 1894-50 p.372
+a måg Anders Johan Dahlgren        23/11 1868         91-342            vigd. 29/12 1891             Kasserad
+son Karl Ivar Stjernberg           27/8  1878
+son Frans Hjalmar Stjernberg       29/7  1881         B.B/1892
+
+          Smed Sundmans Ea
+svärmor Maja Lena Gustafsdr        18/4  1812         gb. 264
+
+Piga Johanna Wilkman               27/6  1867         gb. 264  1889-370
+&quot; Anna Sofia Sundman               27/3  1870         89-364   91-370     
+&quot; Fanny Maria Sjöström             4/4   1874         89-351   90-370
+&quot; Amanda Karolina Eriksdr          16/2  1873         91-406   92-410     
+&quot; Anna Sofia Sundman               27/3  1870         93-370   94-326     Brudlysn. 41-1894 p.326
+&quot; Maria Lovisa Sundström           31/12 1874  Borgå  94-342   97-232
+&quot; Emilia Sofia Sundholm            19/3  1880         95-93    97-369     Brudl. no 24-98 98 p. 369
+Piga Maria Charlotta Bergman       13/2  1851  Esbo                       Ifr Helsinge 1898-195
+
+                                                               stad
+Drg Edvard Granqvist               4/3   1871         gb. 264  1889-337
+&quot; Anders Emil Sjöström             2/10  1871         89-384   90-351
+&quot; Frans Ferdinand Dahlqvist        19/9  1876         92-567   92-968
+</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="1678"/>
+      </style>
+      <style name="strikethrough">
+        <range start="131" end="135"/>
+      </style>
+      <style name="underline">
+        <range start="219" end="220"/>
+        <range start="431" end="432"/>
       </style>
     </note>
   </notes>
