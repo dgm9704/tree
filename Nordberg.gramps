@@ -17958,6 +17958,39 @@
       <place hlink="_f35f51bedaa5437a7ec124cc07"/>
       <citationref hlink="_ff7fb57e4c43f9cf2631b8afde"/>
     </event>
+    <event handle="_ff80190bdb6436ccfa961d02dc4" change="1755785256" id="E1019">
+      <type>Death</type>
+      <dateval val="1975-07-29"/>
+      <citationref hlink="_ff801906f757029ed3908c79e6e"/>
+    </event>
+    <event handle="_ff804497a54385db220107bda1b" change="1755789823" id="E1020">
+      <type>Burial</type>
+      <dateval val="1975-07-29" type="after"/>
+      <place hlink="_f35f51bedaa5437a7ec124cc07"/>
+      <citationref hlink="_ff801906f757029ed3908c79e6e"/>
+    </event>
+    <event handle="_ff80485c4091af152af00b720e4" change="1755790218" id="E1021">
+      <type>Death</type>
+      <dateval val="1947-12-25"/>
+      <citationref hlink="_ff8047ad0cffeee34c0317348c"/>
+    </event>
+    <event handle="_ff80491f1aa2c64df09b4606e25" change="1755790355" id="E1022">
+      <type>Burial</type>
+      <dateval val="1947-12-25" type="after"/>
+      <place hlink="_f35f51bedaa5437a7ec124cc07"/>
+      <citationref hlink="_ff8047ad0cffeee34c0317348c"/>
+    </event>
+    <event handle="_ff804c18e7f1cf490ad2e6a8589" change="1755790609" id="E1023">
+      <type>Death</type>
+      <dateval val="1954-01-05"/>
+      <citationref hlink="_ff804bede194f152f261a78a754"/>
+    </event>
+    <event handle="_ff804c69373588f4b94ee811d24" change="1755790642" id="E1030">
+      <type>Burial</type>
+      <dateval val="1951-01-05" type="after"/>
+      <place hlink="_f35f51bedaa5437a7ec124cc07"/>
+      <citationref hlink="_ff804bede194f152f261a78a754"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1658869228" id="I3858">
@@ -18085,7 +18118,7 @@
       <childof hlink="_cb589cc83c13dd8e6b9"/>
       <parentin hlink="_cb589cc803c2012656f"/>
     </person>
-    <person handle="_cb589cc83d1028d9fef" change="1703245595" id="I4183">
+    <person handle="_cb589cc83d1028d9fef" change="1755778666" id="I4183">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Ferdinand</first>
@@ -18103,6 +18136,7 @@
       <eventref hlink="_cb589cc83de57bb2327" role="Primary"/>
       <childof hlink="_cb589cc83ea4c947ebd"/>
       <parentin hlink="_cb589cc803c2012656f"/>
+      <noteref hlink="_ff7fda2e466675f3ecf60817910"/>
     </person>
     <person handle="_cb589cc84347c619504" change="1658789066" id="I4402">
       <gender>F</gender>
@@ -29814,15 +29848,22 @@
       <eventref hlink="_e90895a275222820695f35878db" role="Primary"/>
       <childof hlink="_e908930fa623aab84d895704875"/>
     </person>
-    <person handle="_e9089601488359a80268c1c78f3" change="1755705137" id="I0025">
+    <person handle="_e9089601488359a80268c1c78f3" change="1755790648" id="I0025">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Emilia</first>
         <surname derivation="Inherited">Stjernberg</surname>
       </name>
+      <name alt="1" type="Married Name">
+        <first>Maria Emilia</first>
+        <surname derivation="Married Name">Dahlgren</surname>
+        <datestr val=""/>
+      </name>
       <eventref hlink="_e908965037360fc23e5750aafce" role="Primary"/>
       <eventref hlink="_ff7c7aeedc768c6b4d601563795" role="Primary"/>
       <eventref hlink="_ff7c8ceeedb4e1db9cbccec40be" role="Primary"/>
+      <eventref hlink="_ff804c18e7f1cf490ad2e6a8589" role="Primary"/>
+      <eventref hlink="_ff804c69373588f4b94ee811d24" role="Primary"/>
       <childof hlink="_e907f69914f37c604d734a4c850"/>
       <parentin hlink="_ff7a1a83a4814457b23e0cdf9d5"/>
       <parentin hlink="_ff7d1676cb811e2f3432b6c8e2b"/>
@@ -31599,13 +31640,15 @@
       <eventref hlink="_ff7d1d736192b0b7cd752d20a34" role="Primary"/>
       <childof hlink="_ff7a1a83a4814457b23e0cdf9d5"/>
     </person>
-    <person handle="_ff7d167b3cf612b5ffb2b103445" change="1755705137" id="I0201">
+    <person handle="_ff7d167b3cf612b5ffb2b103445" change="1755790299" id="I0201">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Anders Johan</first>
         <surname derivation="Unknown ">Dahlgren</surname>
       </name>
       <eventref hlink="_ff7d171e009ca6b8b780cf8928" role="Primary"/>
+      <eventref hlink="_ff80485c4091af152af00b720e4" role="Primary"/>
+      <eventref hlink="_ff80491f1aa2c64df09b4606e25" role="Primary"/>
       <parentin hlink="_ff7d1676cb811e2f3432b6c8e2b"/>
     </person>
     <person handle="_ff7d22b9ec9440d5effb738019e" change="1755771163" id="I0202">
@@ -31618,13 +31661,15 @@
       <eventref hlink="_ff7d2358aed27878abe65d8b768" role="Primary"/>
       <childof hlink="_ff7d1676cb811e2f3432b6c8e2b"/>
     </person>
-    <person handle="_ff7d236dc5d1286535c92ccbc7a" change="1755771163" id="I0203">
+    <person handle="_ff7d236dc5d1286535c92ccbc7a" change="1755789841" id="I0203">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Edith Alexandra</first>
         <surname derivation="Inherited">Dahlgren</surname>
       </name>
       <eventref hlink="_ff7d23c7dd56a82cd0ce419c1d1" role="Primary"/>
+      <eventref hlink="_ff80190bdb6436ccfa961d02dc4" role="Primary"/>
+      <eventref hlink="_ff804497a54385db220107bda1b" role="Primary"/>
       <childof hlink="_ff7d1676cb811e2f3432b6c8e2b"/>
     </person>
     <person handle="_ff7d241b133138dbc47a46ecd2a" change="1755774883" id="I0204">
@@ -48180,6 +48225,30 @@
       <noteref hlink="_ff7fce4701f142cfbc2508f863c"/>
       <sourceref hlink="_ff7fcc61c90404927b75e1e8775"/>
     </citation>
+    <citation handle="_ff801906f757029ed3908c79e6e" change="1755785254" id="C1787">
+      <datestr val=""/>
+      <page>ANDERSSON EDITH ALEXANDRA</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_ff8018df6f33d81cca9d93501da"/>
+    </citation>
+    <citation handle="_ff8047ad0cffeee34c0317348c" change="1755790146" id="C1788">
+      <datestr val=""/>
+      <page>ANDERS JOHAN DAHLGREN</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_ff8047747986e3ac9dfa8df66cf"/>
+    </citation>
+    <citation handle="_ff80491a07822cfc57d913640a0" change="1755790295" id="C1789">
+      <datestr val=""/>
+      <page>ANDERS JOHAN DAHLGREN</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_ff8047747986e3ac9dfa8df66cf"/>
+    </citation>
+    <citation handle="_ff804bede194f152f261a78a754" change="1755790592" id="C1790">
+      <datestr val=""/>
+      <page>MARIA EMILIA DAHLGREN</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_ff8047747986e3ac9dfa8df66cf"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -51799,8 +51868,8 @@
       <sauthor>Porvoon maaseurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
-    <source handle="_ff7fb341ce555de3728eb286010" change="1755774808" id="S0719">
-      <stitle>Hautakivi Dalhlgren Näsinmäki</stitle>
+    <source handle="_ff7fb341ce555de3728eb286010" change="1755790396" id="S0719">
+      <stitle>Hautakivi Dahlgren I Näsinmäki</stitle>
       <noteref hlink="_ff7fb53d70a291fd13a397028d3"/>
       <noteref hlink="_ff7fb4b0b1e2ed6d4643c393703"/>
       <noteref hlink="_ff7fb4e1a7d39bae2c751747bc1"/>
@@ -51811,6 +51880,20 @@
       <stitle>Semina : Suomen Farmaseuttiliiton äänenkannattaja</stitle>
       <sauthor>Suomen farmasialiitto</sauthor>
       <reporef hlink="_cdea68c6afd7d08bd3f" medium="Book"/>
+    </source>
+    <source handle="_ff8018df6f33d81cca9d93501da" change="1755785238" id="S0721">
+      <stitle>Hautakivi Andersson Näsinmäki</stitle>
+      <noteref hlink="_ff8018bb0d05fe67f781b10421c"/>
+      <noteref hlink="_ff801869fe93bd08b315bbb2fc"/>
+      <noteref hlink="_ff8016e06d043c66c171a5793f5"/>
+      <noteref hlink="_ff80188b9396a7ebaa2422fbfe"/>
+      <reporef hlink="_f35f4d5eb724cfc665b452b3e63" medium="Book"/>
+    </source>
+    <source handle="_ff8047747986e3ac9dfa8df66cf" change="1755790404" id="S0722">
+      <stitle>Hautakivi Dahlgren II Näsinmäki</stitle>
+      <noteref hlink="_ff8047f92e7518c999b37341d26"/>
+      <noteref hlink="_ff8048188d760052397a8d4a43c"/>
+      <reporef hlink="_f35f4d5eb724cfc665b452b3e63" medium="Book"/>
     </source>
   </sources>
   <places>
@@ -84439,6 +84522,57 @@ ej mer, honnör för hennes minne ! </text>
       <style name="fontface" value="Courier New">
         <range start="0" end="551"/>
       </style>
+    </note>
+    <note handle="_ff7fda2e466675f3ecf60817910" change="1755778664" id="N3784" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/444942?term=dykaren&amp;term=Nordberg&amp;page=1</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/sanomalehti/binding/444942?term=dykaren&amp;term=Nordberg&amp;page=1">
+        <range start="0" end="94"/>
+      </style>
+    </note>
+    <note handle="_ff8016e06d043c66c171a5793f5" change="1755785029" id="N3785" type="Link">
+      <text>https://billiongraves.com/images?t=rec20074926&amp;col=1&amp;cat=189885&amp;rec=20074926</text>
+      <style name="link" value="https://billiongraves.com/images?t=rec20074926&amp;col=1&amp;cat=189885&amp;rec=20074926">
+        <range start="0" end="76"/>
+      </style>
+    </note>
+    <note handle="_ff801869fe93bd08b315bbb2fc" change="1755785190" id="N3786" type="Transcript" format="1">
+      <text>ANDERSSON
+
+GUSTAV LENNART           GUNNAR LENNART
+*6.3.1891 +              *13.6.1930 +25.10.1985
+
+EDITH ALEXANDRA          KARL HENRIK
+*16.5.1896 +29.7.1975    *26.5.1955 +5.1.2002
+</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="183"/>
+      </style>
+    </note>
+    <note handle="_ff80188b9396a7ebaa2422fbfe" change="1755785204" id="N3787" type="Link">
+      <text>https://billiongraves.com/grave/Edith-Alexandra-Andersson/20074926</text>
+      <style name="link" value="https://billiongraves.com/grave/Edith-Alexandra-Andersson/20074926">
+        <range start="0" end="66"/>
+      </style>
+    </note>
+    <note handle="_ff8018bb0d05fe67f781b10421c" change="1755785231" id="N3788" type="Citation">
+      <text>BillionGraves GPS Headstones
+Edith Alexandra Andersson (16 May 1896 - 29 Jul 1975)
+Näsinmäen hautausmaa, Porvoo, Uusimaa, Uusimaa, Finland, Europe
+https://billiongraves.com/grave/Edith-Alexandra-Andersson/20074926
+BillionGraves.com</text>
+    </note>
+    <note handle="_ff8047f92e7518c999b37341d26" change="1755790177" id="N3789" type="Link">
+      <text>https://billiongraves.com/images?t=rec44377333&amp;col=1&amp;cat=189885&amp;rec=44377333</text>
+      <style name="link" value="https://billiongraves.com/images?t=rec44377333&amp;col=1&amp;cat=189885&amp;rec=44377333">
+        <range start="0" end="76"/>
+      </style>
+    </note>
+    <note handle="_ff8048188d760052397a8d4a43c" change="1755790190" id="N3790" type="Citation">
+      <text>BillionGraves GPS Headstones
+Anders Johan Dahlgren (23 Nov 1868 - 25 Dec 1947)
+Näsinmäen hautausmaa, Porvoo, Uusimaa, Uusimaa, Finland, Europe
+https://billiongraves.com/grave/Anders-Johan-Dahlgren/44377333
+BillionGraves.com</text>
     </note>
   </notes>
   <bookmarks>
