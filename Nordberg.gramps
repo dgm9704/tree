@@ -10787,11 +10787,12 @@
       <citationref hlink="_db8bdbd04363938f472f552196d"/>
       <citationref hlink="_db8bdd83fce41410ae10e60fc32"/>
     </event>
-    <event handle="_dcdc4fb197d2563db24863a1995" change="1703934586" id="E0037">
+    <event handle="_dcdc4fb197d2563db24863a1995" change="1755777423" id="E0037">
       <type>Death</type>
       <dateval val="1928-02-13"/>
       <place hlink="_cde62768b9e01659bdc"/>
       <citationref hlink="_dcdc4fa01c45930920de09eb530"/>
+      <citationref hlink="_ff7fce4e9a46da10f6ed859145c"/>
     </event>
     <event handle="_dcdc8f491822376639091aa1222" change="1703934181" id="E0038">
       <type>Death</type>
@@ -17838,9 +17839,10 @@
       <place hlink="_e37e0e3f53b3d29ddafbb93feec"/>
       <citationref hlink="_ff7698fcf262646df106c8c2d77"/>
     </event>
-    <event handle="_ff769a6a8764c2b01723e584ff3" change="1755530386" id="E0997">
+    <event handle="_ff769a6a8764c2b01723e584ff3" change="1755774003" id="E0997">
       <type>Death</type>
       <dateval val="1904-09-02"/>
+      <place hlink="_e37e0e3f53b3d29ddafbb93feec"/>
       <citationref hlink="_ff7698fcf262646df106c8c2d77"/>
     </event>
     <event handle="_ff79d35125b232d9e2bd4c9c349" change="1755617042" id="E0998">
@@ -17944,6 +17946,17 @@
       <datespan start="1900" stop="1909"/>
       <place hlink="_e37e0e3f53b3d29ddafbb93feec"/>
       <citationref hlink="_ff7698fcf262646df106c8c2d77"/>
+    </event>
+    <event handle="_ff7fb58d6c710d18b6208f370e" change="1755774824" id="E1017">
+      <type>Death</type>
+      <dateval val="1965-12-03"/>
+      <citationref hlink="_ff7fb57e4c43f9cf2631b8afde"/>
+    </event>
+    <event handle="_ff7fb60c16c7b7224b91d028f34" change="1755774876" id="E1018">
+      <type>Burial</type>
+      <dateval val="1965-12-03" type="after"/>
+      <place hlink="_f35f51bedaa5437a7ec124cc07"/>
+      <citationref hlink="_ff7fb57e4c43f9cf2631b8afde"/>
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
@@ -31614,13 +31627,15 @@
       <eventref hlink="_ff7d23c7dd56a82cd0ce419c1d1" role="Primary"/>
       <childof hlink="_ff7d1676cb811e2f3432b6c8e2b"/>
     </person>
-    <person handle="_ff7d241b133138dbc47a46ecd2a" change="1755771163" id="I0204">
+    <person handle="_ff7d241b133138dbc47a46ecd2a" change="1755774883" id="I0204">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Hugo Johannes</first>
         <surname derivation="Inherited">Dahlgren</surname>
       </name>
       <eventref hlink="_ff7d244f4714aafa45d5a34a648" role="Primary"/>
+      <eventref hlink="_ff7fb58d6c710d18b6208f370e" role="Primary"/>
+      <eventref hlink="_ff7fb60c16c7b7224b91d028f34" role="Primary"/>
       <childof hlink="_ff7d1676cb811e2f3432b6c8e2b"/>
     </person>
   </people>
@@ -48150,6 +48165,21 @@
       <noteref hlink="_ff7d45189a16ffc208ac77a8634"/>
       <sourceref hlink="_f35f3c41b4359035270d850c2ba"/>
     </citation>
+    <citation handle="_ff7fb57e4c43f9cf2631b8afde" change="1755774818" id="C1785">
+      <datestr val=""/>
+      <page>DAHLGREN HUGO JOHANNES</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_ff7fb341ce555de3728eb286010"/>
+    </citation>
+    <citation handle="_ff7fce4e9a46da10f6ed859145c" change="1755777419" id="C1786">
+      <dateval val="1928-02"/>
+      <page>1926-2/44</page>
+      <confidence>2</confidence>
+      <noteref hlink="_ff7fcd1a361365411064cfae4a8"/>
+      <noteref hlink="_ff7fcd47ac11e89914d2264198c"/>
+      <noteref hlink="_ff7fce4701f142cfbc2508f863c"/>
+      <sourceref hlink="_ff7fcc61c90404927b75e1e8775"/>
+    </citation>
   </citations>
   <sources>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
@@ -51768,6 +51798,19 @@
       <stitle>Porvoo msrk Syntyneet 1874-1882</stitle>
       <sauthor>Porvoon maaseurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_ff7fb341ce555de3728eb286010" change="1755774808" id="S0719">
+      <stitle>Hautakivi Dalhlgren Näsinmäki</stitle>
+      <noteref hlink="_ff7fb53d70a291fd13a397028d3"/>
+      <noteref hlink="_ff7fb4b0b1e2ed6d4643c393703"/>
+      <noteref hlink="_ff7fb4e1a7d39bae2c751747bc1"/>
+      <noteref hlink="_ff7fb50e9438052fb6a8575992"/>
+      <reporef hlink="_f35f4d5eb724cfc665b452b3e63" medium="Book"/>
+    </source>
+    <source handle="_ff7fcc61c90404927b75e1e8775" change="1755777218" id="S0720">
+      <stitle>Semina : Suomen Farmaseuttiliiton äänenkannattaja</stitle>
+      <sauthor>Suomen farmasialiitto</sauthor>
+      <reporef hlink="_cdea68c6afd7d08bd3f" medium="Book"/>
     </source>
   </sources>
   <places>
@@ -84332,6 +84375,69 @@ dr Astrid Maria                  28/4  1907  do
         <range start="1543" end="1552"/>
         <range start="1588" end="1591"/>
         <range start="1605" end="1613"/>
+      </style>
+    </note>
+    <note handle="_ff7fb39720969ee571f48e13e76" change="1755774618" id="N3776" type="Link">
+      <text>https://billiongraves.com/images?t=rec35802013&amp;col=1&amp;cat=189885&amp;rec=35802013</text>
+      <style name="link" value="https://billiongraves.com/images?t=rec35802013&amp;col=1&amp;cat=189885&amp;rec=35802013">
+        <range start="0" end="76"/>
+      </style>
+    </note>
+    <note handle="_ff7fb4b0b1e2ed6d4643c393703" change="1755774733" id="N3777" type="Transcript" format="1">
+      <text>DAHLGREN
+
+HUGO JOHANNES            EDIT IRENE
+*11.6.1899 +3.12.1965    *14.6.1903 +19.12.1975
+
+TOROLF FREDRIK
+*21.9.1934 +3.2.2010</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="130"/>
+      </style>
+    </note>
+    <note handle="_ff7fb4e1a7d39bae2c751747bc1" change="1755774753" id="N3778" type="Link">
+      <text>https://billiongraves.com/grave/Hugo-Johannes-Dahlgren/35802013</text>
+      <style name="link" value="https://billiongraves.com/grave/Hugo-Johannes-Dahlgren/35802013">
+        <range start="0" end="63"/>
+      </style>
+    </note>
+    <note handle="_ff7fb50e9438052fb6a8575992" change="1755774772" id="N3779" type="Link">
+      <text>https://billiongraves.com/images?t=rec35802013&amp;col=1&amp;cat=189885&amp;rec=35802013</text>
+      <style name="link" value="https://billiongraves.com/images?t=rec35802013&amp;col=1&amp;cat=189885&amp;rec=35802013">
+        <range start="0" end="76"/>
+      </style>
+    </note>
+    <note handle="_ff7fb53d70a291fd13a397028d3" change="1755774791" id="N3780" type="Citation">
+      <text>BillionGraves GPS Headstones
+Hugo Johannes Dahlgren (11 Jun 1899 - 3 Dec 1965)
+Näsinmäen hautausmaa, Porvoo, Uusimaa, Uusimaa, Finland, Europe
+https://billiongraves.com/grave/Hugo-Johannes-Dahlgren/35802013
+BillionGraves.com</text>
+    </note>
+    <note handle="_ff7fcd1a361365411064cfae4a8" change="1755777293" id="N3781" type="Citation">
+      <text>Semina : Suomen farmaseuttiliiton äänenkannattaja, 01.02.1928, nro 2, s. 32
+https://digi.kansalliskirjasto.fi/aikakausi/binding/915331?page=32
+Kansalliskirjaston digitaaliset aineistot
+Viitattu:21.08.2025</text>
+    </note>
+    <note handle="_ff7fcd47ac11e89914d2264198c" change="1755777312" id="N3782" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/aikakausi/binding/915331?page=32</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/aikakausi/binding/915331?page=32">
+        <range start="0" end="66"/>
+      </style>
+    </note>
+    <note handle="_ff7fce4701f142cfbc2508f863c" change="1755777504" id="N3783" type="Transcript" format="1">
+      <text>     På kommunala sjukhuset härstädes avled 13/2 studenten Tyyne
+Elisabeth Nordberg efter ett tappert buret långvarigt lidande. Under 
+en följd av år tjänstgjorde hon på militärapoteken i Viborg och
+Helsingfors. Genom sitt sällsynt nobla, flärdfria och rättframma
+väsen gjorde hon sig älskad och aktad av alla, som hade för-
+månen höra till hennes lilla krets. Arbetsam, kunskapsrik och
+med karaktär av renaste kristall lämnade hon kvar ett minne, som
+säkert skall bevaras uti trogen hågkomst. Vår lilla &quot;general&quot; är
+ej mer, honnör för hennes minne ! </text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="551"/>
       </style>
     </note>
   </notes>
