@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.2/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.2/">
   <header>
-    <created date="2025-08-20" version="6.0.4"/>
+    <created date="2025-08-21" version="6.0.4"/>
     <researcher>
     </researcher>
   </header>
@@ -17939,6 +17939,12 @@
       <citationref hlink="_ff7c8ced58d38508efddda58b06"/>
       <citationref hlink="_ff7d451c34d5be634b606d6f94f"/>
     </event>
+    <event handle="_ff7f916c7e4f5ce0d2de791b2d" change="1755771035" id="E1016">
+      <type>Residence</type>
+      <datespan start="1900" stop="1909"/>
+      <place hlink="_e37e0e3f53b3d29ddafbb93feec"/>
+      <citationref hlink="_ff7698fcf262646df106c8c2d77"/>
+    </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
     <person handle="_cb589cc7f8356f9dc4a" change="1658869228" id="I3858">
@@ -31589,7 +31595,7 @@
       <eventref hlink="_ff7d171e009ca6b8b780cf8928" role="Primary"/>
       <parentin hlink="_ff7d1676cb811e2f3432b6c8e2b"/>
     </person>
-    <person handle="_ff7d22b9ec9440d5effb738019e" change="1755709359" id="I0202">
+    <person handle="_ff7d22b9ec9440d5effb738019e" change="1755771163" id="I0202">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Selma Emilia</first>
@@ -31599,7 +31605,7 @@
       <eventref hlink="_ff7d2358aed27878abe65d8b768" role="Primary"/>
       <childof hlink="_ff7d1676cb811e2f3432b6c8e2b"/>
     </person>
-    <person handle="_ff7d236dc5d1286535c92ccbc7a" change="1755709359" id="I0203">
+    <person handle="_ff7d236dc5d1286535c92ccbc7a" change="1755771163" id="I0203">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Edith Alexandra</first>
@@ -31608,7 +31614,7 @@
       <eventref hlink="_ff7d23c7dd56a82cd0ce419c1d1" role="Primary"/>
       <childof hlink="_ff7d1676cb811e2f3432b6c8e2b"/>
     </person>
-    <person handle="_ff7d241b133138dbc47a46ecd2a" change="1755709359" id="I0204">
+    <person handle="_ff7d241b133138dbc47a46ecd2a" change="1755771163" id="I0204">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Hugo Johannes</first>
@@ -35328,12 +35334,13 @@
       <mother hlink="_e9089601488359a80268c1c78f3"/>
       <childref hlink="_ff7a1a8e7342fb5be73c586bc8b"/>
     </family>
-    <family handle="_ff7d1676cb811e2f3432b6c8e2b" change="1755709359" id="F0045">
+    <family handle="_ff7d1676cb811e2f3432b6c8e2b" change="1755771163" id="F0045">
       <rel type="Married"/>
       <father hlink="_ff7d167b3cf612b5ffb2b103445"/>
       <mother hlink="_e9089601488359a80268c1c78f3"/>
       <eventref hlink="_ff7d17a3bed42f7b9dd002649cb" role="Family"/>
       <eventref hlink="_ff7d1c9f9b43387f1e2f90ca272" role="Family"/>
+      <eventref hlink="_ff7f916c7e4f5ce0d2de791b2d" role="Family"/>
       <childref hlink="_ff7d22b9ec9440d5effb738019e"/>
       <childref hlink="_ff7d236dc5d1286535c92ccbc7a"/>
       <childref hlink="_ff7d241b133138dbc47a46ecd2a"/>
@@ -47990,12 +47997,13 @@
       <noteref hlink="_ff7ca8c5ac6fa86c329e6084d9"/>
       <sourceref hlink="_f35ee4a782b1b14429fdeb1f256"/>
     </citation>
-    <citation handle="_ff7698fcf262646df106c8c2d77" change="1755530237" id="C1768">
+    <citation handle="_ff7698fcf262646df106c8c2d77" change="1755771034" id="C1768">
       <datestr val=""/>
       <page>Aa:32/1578</page>
       <confidence>2</confidence>
       <noteref hlink="_ff7698d359b22cc7511f51d09d9"/>
       <noteref hlink="_ff7698f778771c62a0ab9b4899"/>
+      <noteref hlink="_ff7f9165c152a6562a43de7b91b"/>
       <sourceref hlink="_f16a42ae9774b0ba5a082769407"/>
     </citation>
     <citation handle="_ff79a4a3e2f664531720b197e96" change="1755611989" id="C1769">
@@ -83970,7 +83978,7 @@ November
         <range start="0" end="78"/>
       </style>
     </note>
-    <note handle="_ff7a00dd68523b6a2d56f103627" change="1755621660" id="N3746" type="Transcript" format="1">
+    <note handle="_ff7a00dd68523b6a2d56f103627" change="1755769230" id="N3746" type="Transcript" format="1">
       <text>264          Kullo Nyby
 Sisbacka rusthåll
                               Afl/  
@@ -83979,7 +83987,7 @@ Maria Emilia Stjernberg         29/12 1870  Adm 1886
 Alma Sofia Stjernberg           28/10 1875
 Karl Ivar Stjernberg            27/8  1878
 Frans Hjalmar Stjernberg        29/7  1881  Här
-    i ??? giftet med Maria Wilhelmina Backman f. 1858
+    i denare giftet med Maria Wilhelmina Backman f. 1858
 Viktor Edvard Stjernberg        21/4  1883  do
 Axel Waldemar Stjernberg        27/9  1884
     i 3de giftet med Maria Sofia Andersdotter (1869)
@@ -84000,7 +84008,7 @@ Fredrika Mathilda               17/9  1869                    1884 t. 467
     Rusth.dr Maria Emilia Stjernberg f. 1870 oäkta barn
 Sigfrid Maria                   18/2  1889</text>
       <style name="fontface" value="Courier New">
-        <range start="0" end="1212"/>
+        <range start="0" end="1215"/>
       </style>
     </note>
     <note handle="_ff7a03fbf791c93fe13c0fa8339" change="1755621998" id="N3747" type="Citation">
@@ -84060,7 +84068,7 @@ oäkta                Emilia Stjernberg fr Kullo Nyby Sisbacka
         <range start="0" end="78"/>
       </style>
     </note>
-    <note handle="_ff7c8ce70336da78d71091f7f7f" change="1755690469" id="N3755" type="Transcript" format="1">
+    <note handle="_ff7c8ce70336da78d71091f7f7f" change="1755769789" id="N3755" type="Transcript" format="1">
       <text>368          Kullo-Nyby
 Sisbacka
 
@@ -84085,15 +84093,15 @@ Ellen Maria          26/5  95
 Hugo Alfons          4/6   96
 
     Rusth. dr Maria Emilia Stjernbergs, f. 1870, oä barn:
-Sigfrid Maria        18/2  89          Dog 26/3 1895
+Sigfrid Maria        18/2  89          dog 19/5 1891
 
     Rusthållaremagen Anders Johan Ahlgréns bn mhu Maria Emilia Stjernberg f. 1870
-Selma Emilia         23/9  92
+Selma Emilia         23/9  92          Dog 26/3 1895
 Edith Alexandra      16/5  1896
 Hugo Johannes        11/6  99
 </text>
       <style name="fontface" value="Courier New">
-        <range start="0" end="1049"/>
+        <range start="0" end="1072"/>
       </style>
     </note>
     <note handle="_ff7ca8c5ac6fa86c329e6084d9" change="1755692953" id="N3756" type="Transcript" format="1">
@@ -84268,6 +84276,61 @@ Maj  16  20  368  Edith Alexandra Par. Måg Anders Dahl
                                           Wilh. Mårtenson</text>
       <style name="fontface" value="Courier New">
         <range start="0" end="459"/>
+      </style>
+    </note>
+    <note handle="_ff7f9165c152a6562a43de7b91b" change="1755771160" id="N3775" type="Transcript" format="1">
+      <text>1578
+                   Kullo-Nyby
+
+      (en och en half tolftedelan)
+        Sisbacka
+rusthåll
+
+sytn.           3 gr gift        27/7 enl. dopboken
+F.d. Rusth. Karl Stjernberg      10/2  1847        gb.368
+Hu Maria Sofia Andersfr          17/7  1869
+sn Karl Sven                     27/8  1878
+Rusth. sn Frans Hjalmar          29/7  1881
+sn Viktor Edvard                 21/4  1883
+sn Alex Valdemar                 17/9  1884
+dr Aina Sofia                    12/3  1887
+sn Gustaf Sven                   17/5  1893
+dr Ellen Maria                   26/5  1895
+? sn Hugo Alfons                 4/6   1896
+dr Tyra Elise                    20/12 1899
+sn Arne Elias                    10/10 1901  Borgå
+dr Marta                         23/7  1903  &quot; lf
+dr Ester Linnea                  13/8  1906  do
+sr Alli Elvira                   29/4  1908  do
+dr Helga Maria                   3/7   1909  do
+
+
+             Smeden Sundmans enka
+svärmor Maja Lena Gustafsdr      18/4  1812        gb.368
+måg rusth parcelläg Sandkull rusthålls del 1/12 mantal
+Inh Anders Johan Dehlgren        12/11 1868        gb.368
+Hu Maria Emilia Stjernberg       22/12 1870
+dr Edit Alexandra                16/5  1896
+sn Hugo Johannes                 11/6  1899
+
+
+Parcelläg Gustaf Adolf Karlsson  11/1  1878            1905-1573
+Hu Aina Sofia Stjernberg         12/3  1887
+Rusth. Frans Hjalmar Stjernberg  29/7  1881  Borgå lf  1906-ofv
+Hu Olga Maria Karlsson           13/4  1886  do        1906-1873
+dr Astrid Maria                  28/4  1907  do
+
+
+
+</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="1523"/>
+      </style>
+      <style name="strikethrough">
+        <range start="183" end="187"/>
+        <range start="991" end="996"/>
+        <range start="997" end="1006"/>
+        <range start="1042" end="1045"/>
       </style>
     </note>
   </notes>
