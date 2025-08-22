@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.2/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.2/">
   <header>
-    <created date="2025-08-21" version="6.0.4"/>
+    <created date="2025-08-22" version="6.0.4"/>
     <researcher>
     </researcher>
   </header>
@@ -2303,8 +2303,8 @@
       <dateval val="1817-10-17"/>
       <place hlink="_cb589cce2e8338b1e15"/>
     </event>
-    <event handle="_cb589cd15450d36203e" change="1426528546" id="E1437">
-      <type>Birth</type>
+    <event handle="_cb589cd15450d36203e" change="1755856316" id="E1437">
+      <type>Stillbirth</type>
       <dateval val="1819-01-27"/>
       <place hlink="_cb589cce2e8338b1e15"/>
     </event>
@@ -4033,8 +4033,8 @@
       <citationref hlink="_df818da90bdc7fe8dbd2e42263"/>
       <citationref hlink="_df8192818c55ac59897239a13c1"/>
     </event>
-    <event handle="_cb589cd86363ae37cb8" change="1535923045" id="E2599">
-      <type>Birth</type>
+    <event handle="_cb589cd86363ae37cb8" change="1755856274" id="E2599">
+      <type>Stillbirth</type>
       <dateval val="1849-11-08"/>
       <place hlink="_cb589ccbc8775a4d7d2"/>
       <citationref hlink="_df819720a5a260a4c465918aeb1"/>
@@ -14335,8 +14335,8 @@
       <citationref hlink="_ebd38c94b294e1818c9583eda73"/>
       <citationref hlink="_ebd4048e16b52f84e6cc0e8026d"/>
     </event>
-    <event handle="_ebd3f71334954f37b5e1775c9fc" change="1620597599" id="E0186">
-      <type>Birth</type>
+    <event handle="_ebd3f71334954f37b5e1775c9fc" change="1755856355" id="E0186">
+      <type>Stillbirth</type>
       <dateval val="1784-07-22" type="about"/>
       <place hlink="_eba932e2f2b79b8c277926799e1"/>
       <citationref hlink="_ebd3f1e84c46c6d9fe09f040ce7"/>
@@ -20964,14 +20964,13 @@
       <eventref hlink="_cb589cd152309363b0e" role="Primary"/>
       <childof hlink="_cb589cce30926fd83e0"/>
     </person>
-    <person handle="_cb589cd15422de8ff80" change="1426021440" id="I3741">
+    <person handle="_cb589cd15422de8ff80" change="1755856330" id="I3741">
       <gender>F</gender>
       <name type="Birth Name">
         <surname derivation="Patronymic">Fredricsdotter</surname>
         <suffix>†</suffix>
       </name>
       <eventref hlink="_cb589cd15450d36203e" role="Primary"/>
-      <eventref hlink="_cb589cd1552449f1a4e" role="Primary"/>
       <childof hlink="_cb589cce30926fd83e0"/>
     </person>
     <person handle="_cb589cd156a01554f5b" change="1420125514" id="I5643">
@@ -23163,7 +23162,7 @@
       <eventref hlink="_cb589cd8608020ae915" role="Primary"/>
       <childof hlink="_cb589cd27cb038b4c90"/>
     </person>
-    <person handle="_cb589cd8634036d7914" change="1535924221" id="I6186">
+    <person handle="_cb589cd8634036d7914" change="1755856277" id="I6186">
       <gender>F</gender>
       <name type="Birth Name">
         <first>†</first>
@@ -30006,14 +30005,13 @@
       <eventref hlink="_ebd393b566875369f2cde33cd5f" role="Primary"/>
       <childof hlink="_ebc32da4ce3239de1becc5fef10"/>
     </person>
-    <person handle="_ebd3f61e6cf623f1961d7ec3908" change="1620601132" id="I0045">
+    <person handle="_ebd3f61e6cf623f1961d7ec3908" change="1755856362" id="I0045">
       <gender>M</gender>
       <name type="Birth Name">
         <first>†</first>
         <surname derivation="Patronymic">Sigfridsson</surname>
       </name>
       <eventref hlink="_ebd3f71334954f37b5e1775c9fc" role="Primary"/>
-      <eventref hlink="_ebd3f8004103870d925ac3cb639" role="Primary"/>
       <eventref hlink="_ebd3f86954b5e16d0c2f2ed5bfc" role="Primary"/>
       <childof hlink="_ebc32da4ce3239de1becc5fef10"/>
     </person>
