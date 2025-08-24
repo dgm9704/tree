@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.2/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.2/">
   <header>
-    <created date="2025-08-22" version="6.0.4"/>
+    <created date="2025-08-24" version="6.0.4"/>
     <researcher>
     </researcher>
   </header>
@@ -9260,11 +9260,13 @@
       <citationref hlink="_d6cddaa0edc22ac37dc9b99bbbb"/>
       <citationref hlink="_d6d4c70c05c39e0e945549eb36e"/>
     </event>
-    <event handle="_d6d47a5e6fa505297081d872053" change="1628604336" id="E2008">
+    <event handle="_d6d47a5e6fa505297081d872053" change="1756035303" id="E2008">
       <type>Residence</type>
-      <dateval val="1768"/>
+      <datespan start="1768" stop="1770"/>
       <place hlink="_d6d4c9a6ea11b074476c2f15124"/>
+      <citationref hlink="_d6e439bdc354c0406c8b506e448"/>
       <citationref hlink="_d6d47a5886e11d2d0df80abedc7"/>
+      <citationref hlink="_d6d47bd54093603735f54b552e3"/>
     </event>
     <event handle="_d6d47bdac1a35c2e2bc3fa0d0a5" change="1628604214" id="E2009">
       <type>Residence</type>
@@ -18949,7 +18951,7 @@
       <parentin hlink="_cb589cc8ff143a2dd4e"/>
       <parentin hlink="_cb589ccbab76d710864"/>
     </person>
-    <person handle="_cb589ccbc7f6a601fb2" change="1601290587" id="I4112">
+    <person handle="_cb589ccbc7f6a601fb2" change="1756035331" id="I4112">
       <gender>M</gender>
       <name type="Also Known As">
         <first>Johan</first>
@@ -20096,7 +20098,7 @@
       <parentin hlink="_cb589ccbca636502f22"/>
       <noteref hlink="_e8fe6b240ef1a056a19af188a60"/>
     </person>
-    <person handle="_cb589ccec7571fa64c7" change="1601290587" id="I3397">
+    <person handle="_cb589ccec7571fa64c7" change="1756035331" id="I3397">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Johannes</first>
@@ -20106,7 +20108,7 @@
       <eventref hlink="_cb589ccec784a68ff81" role="Primary"/>
       <childof hlink="_cb589ccbca636502f22"/>
     </person>
-    <person handle="_cb589ccecb9359c7dc0" change="1601290587" id="I5382">
+    <person handle="_cb589ccecb9359c7dc0" change="1756035331" id="I5382">
       <gender>M</gender>
       <name type="Also Known As">
         <first>Staffan</first>
@@ -20126,7 +20128,7 @@
       <parentin hlink="_cb589cceced7a7aa1bd"/>
       <parentin hlink="_cb589ccecf0511c8c37"/>
     </person>
-    <person handle="_cb589cced0122671d60" change="1601290587" id="I3882">
+    <person handle="_cb589cced0122671d60" change="1756035331" id="I3882">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Johan</first>
@@ -20137,7 +20139,7 @@
       <eventref hlink="_cb589cced0a26308053" role="Primary"/>
       <childof hlink="_cb589ccbca636502f22"/>
     </person>
-    <person handle="_cb589cced27547f2ada" change="1755584619" id="I4237">
+    <person handle="_cb589cced27547f2ada" change="1756035331" id="I4237">
       <gender>M</gender>
       <name type="Also Known As">
         <first>Fredric</first>
@@ -32231,14 +32233,12 @@
       <mother hlink="_cb589ccead339727b64"/>
       <eventref hlink="_cb589cfcabc39c0a95e" role="Family"/>
     </family>
-    <family handle="_cb589ccbca636502f22" change="1601290587" id="F1442">
+    <family handle="_cb589ccbca636502f22" change="1756035331" id="F1442">
       <rel type="Married"/>
       <father hlink="_cb589ccec504a61ee7c"/>
       <mother hlink="_cb589ccec366d226d64"/>
       <eventref hlink="_e904b8f6ae9709afbcba26c493b" role="Family"/>
       <eventref hlink="_d6d47a5e6fa505297081d872053" role="Family"/>
-      <eventref hlink="_d6d47bdac1a35c2e2bc3fa0d0a5" role="Family"/>
-      <eventref hlink="_d6e43a9b6c84d5211eaa244b91e" role="Family"/>
       <eventref hlink="_d6ce20cf0fa98b8785dddd209a" role="Family"/>
       <eventref hlink="_d6ce1e6c5117355468a1a9f397a" role="Family"/>
       <eventref hlink="_d6d4a2f278e61be8d9074518b5b" role="Family"/>
@@ -36932,18 +36932,24 @@
       <noteref hlink="_e38126542957b16313e6892e0ed"/>
       <sourceref hlink="_d6ce0f8a2fb1b7efba3377d1265"/>
     </citation>
-    <citation handle="_d6ce1e6699335235236d5b8cbf0" change="1476129760" id="C0203">
+    <citation handle="_d6ce1e6699335235236d5b8cbf0" change="1756035838" id="C0203">
+      <datestr val=""/>
       <page>115</page>
       <confidence>2</confidence>
+      <noteref hlink="_ff896a97d7811b852af8c64ed68"/>
       <noteref hlink="_d6ce1e63f091ef4741a041a2872"/>
+      <noteref hlink="_ff896bc164766f264a55954646d"/>
+      <noteref hlink="_ff896ec2e5c897ca9f5112d3af"/>
       <sourceref hlink="_d6ce1e32504608c072239f4321b"/>
     </citation>
-    <citation handle="_d6ce20c9ab514fd6a8746a89488" change="1720458214" id="C0204">
+    <citation handle="_d6ce20c9ab514fd6a8746a89488" change="1756036028" id="C0204">
+      <datestr val=""/>
       <page>114</page>
       <confidence>2</confidence>
       <noteref hlink="_fa5c1014e791c7d9fb7bc2886c"/>
       <noteref hlink="_d6ce20c6a4c443eae86b24ba8a7"/>
       <noteref hlink="_e8fe223d7816e5caaee5d79ec27"/>
+      <noteref hlink="_ff897082a942a1d612ab7e20a99"/>
       <sourceref hlink="_d6ce208ff563b4301d682b6a32a"/>
     </citation>
     <citation handle="_d6ce564113f6786c860d7585d2b" change="1703683665" id="C0205">
@@ -36970,9 +36976,11 @@
       <noteref hlink="_f1b1defd318196d69118f4b59e"/>
       <sourceref hlink="_d6d0b8750ba3461d04df9858de4"/>
     </citation>
-    <citation handle="_d6d0c0b0e793ba32789ae9e1213" change="1476200591" id="C0208">
+    <citation handle="_d6d0c0b0e793ba32789ae9e1213" change="1756036776" id="C0208">
+      <datestr val=""/>
       <page>127-128</page>
       <confidence>2</confidence>
+      <noteref hlink="_ff8977b015545624a6fc66304aa"/>
       <noteref hlink="_d6d0c01e9ed1ce3ef43cbe898d4"/>
       <noteref hlink="_d6d0c0ad3bb5eaa7096abd06c6d"/>
       <sourceref hlink="_d6d0bfda0432268bf4e8108c393"/>
@@ -37071,30 +37079,38 @@
       <noteref hlink="_d6d487fd6e85bc92cb0a6b9dd24"/>
       <sourceref hlink="_d6d486ba44638577abf34859d36"/>
     </citation>
-    <citation handle="_d6d48bae63e13403ace885fd297" change="1476302280" id="C0222">
+    <citation handle="_d6d48bae63e13403ace885fd297" change="1756036837" id="C0222">
+      <datestr val=""/>
       <page>51</page>
       <confidence>2</confidence>
+      <noteref hlink="_ff8978465d7d34d4cb54a522ac"/>
       <noteref hlink="_d6d48abca417f056b22fb5d4241"/>
       <noteref hlink="_d6d48b616c42effdc18766ec7a1"/>
       <sourceref hlink="_d6d48ba913e413d2a1b1e86442d"/>
     </citation>
-    <citation handle="_d6d490cf8457b9bf010563183f8" change="1476302818" id="C0223">
+    <citation handle="_d6d490cf8457b9bf010563183f8" change="1756036905" id="C0223">
+      <datestr val=""/>
       <page>49</page>
       <confidence>2</confidence>
+      <noteref hlink="_ff8978ec15240cbadab52cd8b76"/>
       <noteref hlink="_d6d48e93dda15b84ed97613830a"/>
       <noteref hlink="_d6d48f598367b1c4dfb67a31a10"/>
       <sourceref hlink="_d6d490c51b96202a4019e79cb69"/>
     </citation>
-    <citation handle="_d6d4923ad2d352541df9f5717f" change="1476302967" id="C0224">
+    <citation handle="_d6d4923ad2d352541df9f5717f" change="1756036970" id="C0224">
+      <datestr val=""/>
       <page>264</page>
       <confidence>2</confidence>
+      <noteref hlink="_ff897989d523f65995a3d03fb86"/>
       <noteref hlink="_d6d4915d66e6d5f5f9177e085d4"/>
       <noteref hlink="_d6d491b7de037a2b61f98b4ad6c"/>
       <sourceref hlink="_d6d4922d76e57a23a32c60c7cf7"/>
     </citation>
-    <citation handle="_d6d49b74f404d7830edc98ab423" change="1476303934" id="C0225">
+    <citation handle="_d6d49b74f404d7830edc98ab423" change="1756037030" id="C0225">
+      <datestr val=""/>
       <page>94</page>
       <confidence>2</confidence>
+      <noteref hlink="_ff897a0ce0519d9260a0eeeb422"/>
       <noteref hlink="_d6d49ae6e2c58c5c089309d371d"/>
       <noteref hlink="_d6d49b711c867e1dccb3560d9cd"/>
       <sourceref hlink="_d6d492e78e038699d51ef4284dc"/>
@@ -57831,24 +57847,16 @@ https://astia.narc.fi/uusiastia/viewer/?fileId=6038725281&amp;aineistoId=1167610
         <range start="47" end="126"/>
       </style>
     </note>
-    <note handle="_d6ce1e63f091ef4741a041a2872" change="1476129759" id="N0375" type="Link">
-      <text>http://digi.narc.fi/digi/view.ka?kuid=7958397
-https://astia.narc.fi/uusiastia/viewer/?fileId=5862642468&amp;aineistoId=1167564064</text>
-      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=7958397">
-        <range start="0" end="45"/>
-      </style>
-      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5862642468&amp;aineistoId=1167564064">
-        <range start="46" end="125"/>
+    <note handle="_d6ce1e63f091ef4741a041a2872" change="1756035391" id="N0375" type="Link">
+      <text>https://astia.narc.fi/uusiastia//viewer/?fileId=5862643830&amp;aineistoId=1167564064</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia//viewer/?fileId=5862643830&amp;aineistoId=1167564064">
+        <range start="0" end="80"/>
       </style>
     </note>
-    <note handle="_d6ce20c6a4c443eae86b24ba8a7" change="1476130009" id="N0376" type="Link">
-      <text>http://digi.narc.fi/digi/view.ka?kuid=7958002
-https://astia.narc.fi/uusiastia/viewer/?fileId=5862619112&amp;aineistoId=1167527208</text>
-      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=7958002">
-        <range start="0" end="45"/>
-      </style>
-      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5862619112&amp;aineistoId=1167527208">
-        <range start="46" end="125"/>
+    <note handle="_d6ce20c6a4c443eae86b24ba8a7" change="1756036004" id="N0376" type="Link">
+      <text>https://astia.narc.fi/uusiastia//viewer/?fileId=5862620336&amp;aineistoId=1167527208</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia//viewer/?fileId=5862620336&amp;aineistoId=1167527208">
+        <range start="0" end="80"/>
       </style>
     </note>
     <note handle="_d6ce563b3ca5df7741778d7daf4" change="1476135614" id="N0377" type="Link">
@@ -57891,22 +57899,21 @@ Fridrich do        76</text>
         <range start="0" end="93"/>
       </style>
     </note>
-    <note handle="_d6d0c01e9ed1ce3ef43cbe898d4" change="1476200404" id="N0381" type="Link">
-      <text>http://digi.narc.fi/digi/view.ka?kuid=7953736
-https://astia.narc.fi/uusiastia/viewer/?fileId=5862720517&amp;aineistoId=1168247746</text>
-      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=7953736">
-        <range start="0" end="45"/>
-      </style>
-      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5862720517&amp;aineistoId=1168247746">
-        <range start="46" end="125"/>
+    <note handle="_d6d0c01e9ed1ce3ef43cbe898d4" change="1756036764" id="N0381" type="Link">
+      <text>https://astia.narc.fi/uusiastia//viewer/?fileId=5862721500&amp;aineistoId=1168247746</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia//viewer/?fileId=5862721500&amp;aineistoId=1168247746">
+        <range start="0" end="80"/>
       </style>
     </note>
-    <note handle="_d6d0c0ad3bb5eaa7096abd06c6d" change="1476606164" id="N0382" type="Transcript">
+    <note handle="_d6d0c0ad3bb5eaa7096abd06c6d" change="1756036716" id="N0382" type="Transcript" format="1">
       <text>Hindhår
 Smeden Joh
 +Staphan	71
 Fredric	do	76
 Johan	do	84</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="56"/>
+      </style>
     </note>
     <note handle="_d6d0c4f0130524265ee7c293665" change="1476215173" id="N0383" type="Link">
       <text>http://digi.narc.fi/digi/view.ka?kuid=7954005
@@ -58130,61 +58137,54 @@ https://astia.narc.fi/uusiastia/viewer/?fileId=5945663251&amp;aineistoId=1780669
       <text>Hindhår
 Smeden Johan Mattsson, Caisa hu, 1 Barn</text>
     </note>
-    <note handle="_d6d48abca417f056b22fb5d4241" change="1476302181" id="N0412" type="Link">
-      <text>http://digi.narc.fi/digi/view.ka?kuid=12361161
-https://astia.narc.fi/uusiastia/viewer/?fileId=1780806879&amp;aineistoId=1780799291</text>
-      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=12361161">
-        <range start="0" end="46"/>
-      </style>
-      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=1780806879&amp;aineistoId=1780799291">
-        <range start="47" end="126"/>
+    <note handle="_d6d48abca417f056b22fb5d4241" change="1756036826" id="N0412" type="Link">
+      <text>https://astia.narc.fi/uusiastia//viewer/?fileId=9292489186&amp;aineistoId=1780799291</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia//viewer/?fileId=9292489186&amp;aineistoId=1780799291">
+        <range start="0" end="80"/>
       </style>
     </note>
     <note handle="_d6d48b616c42effdc18766ec7a1" change="1476302248" id="N0414" type="Transcript">
       <text>Hindhår
 Smeden Johan Mattsson, Caisa hu		2 Barn</text>
     </note>
-    <note handle="_d6d48e93dda15b84ed97613830a" change="1476302584" id="N0415" type="Link">
-      <text>http://digi.narc.fi/digi/view.ka?kuid=12382842
-https://astia.narc.fi/uusiastia/viewer/?fileId=1780862012&amp;aineistoId=1780852060</text>
-      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=12382842">
-        <range start="0" end="46"/>
-      </style>
-      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=1780862012&amp;aineistoId=1780852060">
-        <range start="47" end="126"/>
+    <note handle="_d6d48e93dda15b84ed97613830a" change="1756036891" id="N0415" type="Link">
+      <text>https://astia.narc.fi/uusiastia//viewer/?fileId=9293878376&amp;aineistoId=1780852060</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia//viewer/?fileId=9293878376&amp;aineistoId=1780852060">
+        <range start="0" end="80"/>
       </style>
     </note>
-    <note handle="_d6d48f598367b1c4dfb67a31a10" change="1476302665" id="N0416" type="Transcript">
+    <note handle="_d6d48f598367b1c4dfb67a31a10" change="1756036850" id="N0416" type="Transcript" format="1">
       <text>Smeden
 Joh: Matsson, Caisa hu		2 barn</text>
-    </note>
-    <note handle="_d6d4915d66e6d5f5f9177e085d4" change="1476302876" id="N0417" type="Link">
-      <text>http://digi.narc.fi/digi/view.ka?kuid=12376800
-https://astia.narc.fi/uusiastia/viewer/?fileId=1780873230&amp;aineistoId=1780862504</text>
-      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=12376800">
-        <range start="0" end="46"/>
-      </style>
-      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=1780873230&amp;aineistoId=1780862504">
-        <range start="47" end="126"/>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="37"/>
       </style>
     </note>
-    <note handle="_d6d491b7de037a2b61f98b4ad6c" change="1476302913" id="N0418" type="Transcript">
+    <note handle="_d6d4915d66e6d5f5f9177e085d4" change="1756036958" id="N0417" type="Link">
+      <text>https://astia.narc.fi/uusiastia//viewer/?fileId=9293897436&amp;aineistoId=1780862504</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia//viewer/?fileId=9293897436&amp;aineistoId=1780862504">
+        <range start="0" end="80"/>
+      </style>
+    </note>
+    <note handle="_d6d491b7de037a2b61f98b4ad6c" change="1756036916" id="N0418" type="Transcript" format="1">
       <text>Hindhår
 Smed Johan Mattsson, Caisa hu		2 barn</text>
-    </note>
-    <note handle="_d6d49ae6e2c58c5c089309d371d" change="1476303876" id="N0419" type="Link">
-      <text>http://digi.narc.fi/digi/view.ka?kuid=13313606
-https://astia.narc.fi/uusiastia/viewer/?fileId=5969858347&amp;aineistoId=1780915370</text>
-      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=13313606">
-        <range start="0" end="46"/>
-      </style>
-      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5969858347&amp;aineistoId=1780915370">
-        <range start="47" end="126"/>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="45"/>
       </style>
     </note>
-    <note handle="_d6d49b711c867e1dccb3560d9cd" change="1476303933" id="N0420" type="Transcript">
+    <note handle="_d6d49ae6e2c58c5c089309d371d" change="1756037012" id="N0419" type="Link">
+      <text>https://astia.narc.fi/uusiastia//viewer/?fileId=9292382730&amp;aineistoId=1780915370</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia//viewer/?fileId=9292382730&amp;aineistoId=1780915370">
+        <range start="0" end="80"/>
+      </style>
+    </note>
+    <note handle="_d6d49b711c867e1dccb3560d9cd" change="1756037028" id="N0420" type="Transcript" format="1">
       <text>Hindhår
 Smeden Johan Matsson, Caisa hu		2 barn</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="46"/>
+      </style>
     </note>
     <note handle="_d6d4a13bdef67636aa731aa5153" change="1476304540" id="N0421" type="Link">
       <text>http://digi.narc.fi/digi/view.ka?kuid=12377681
@@ -84592,6 +84592,59 @@ BillionGraves.com</text>
     </note>
     <note handle="_ff82c15badd476d2ef45f6ff87" change="1755856592" id="N3792" type="Citation">
       <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I C Syntyneiden ja kastettujen luettelot. Syntyneiden ja kastettujen luettelot  (1841-1850). Tiedosto 253. Kansallisarkisto. Viitattu 22.8.2025.</text>
+    </note>
+    <note handle="_ff896a97d7811b852af8c64ed68" change="1756035399" id="N3793" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A Kirkon pääkirjat hakemistoineen. I Aa Pää- ja rippikirjat. Rippikirjat  (1777-1782). Tiedosto 119. Kansallisarkisto. Viitattu 24.8.2025.</text>
+    </note>
+    <note handle="_ff896bc164766f264a55954646d" change="1756035521" id="N3794" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38641&amp;pnum=120</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38641&amp;pnum=120">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_ff896ec2e5c897ca9f5112d3af" change="1756035836" id="N3795" type="Transcript" format="1">
+      <text>115
+
+Skom. Joh. Renholm   ifr Box ??
+ho Lena Stephansdr  ?? Eric Henricsson ?764    1754
+??? Anders Gustafsson                          1760
+Smed Johan Mattsson                            1740
+ho Caida Henricsdr                             1750
+Enkl Maria Johansdr
+
+No 29
+Drag Johan Hindström                           1751
+ho Stina Ericsdr
+
+No 30
+Drag Georg Lagerblom                           1730
+ho Johanna Johansdr                            1729
+dr Johanna Georgsdr                            1766
+</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="504"/>
+      </style>
+    </note>
+    <note handle="_ff897082a942a1d612ab7e20a99" change="1756036020" id="N3796" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38640&amp;pnum=115</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=38640&amp;pnum=115">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_ff8977b015545624a6fc66304aa" change="1756036772" id="N3797" type="Citation">
+      <text>Porvoon ruotsalaisen tuomiokirkkoseurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A Kirkon pääkirjat hakemistoineen. I Ab Lastenkirjat. Lastenkirjat, Maaseurakunta  (1781-1791). Tiedosto 66. Kansallisarkisto. Viitattu 24.8.2025.</text>
+    </note>
+    <note handle="_ff8978465d7d34d4cb54a522ac" change="1756036834" id="N3798" type="Citation">
+      <text>Uudenmaan ja Hämeen läänin tilejä. Asiakirjat. 8399 Henkikirja  (1777-1777). Tiedosto 55. Kansallisarkisto. Viitattu 24.8.2025.</text>
+    </note>
+    <note handle="_ff8978ec15240cbadab52cd8b76" change="1756036902" id="N3799" type="Citation">
+      <text>Uudenmaan ja Hämeen läänin tilejä. Asiakirjat. 8403 Henkikirja  (1778-1778). Tiedosto 51. Kansallisarkisto. Viitattu 24.8.2025.</text>
+    </note>
+    <note handle="_ff897989d523f65995a3d03fb86" change="1756036966" id="N3800" type="Citation">
+      <text>Uudenmaan ja Hämeen läänin tilejä. Asiakirjat. 8407 Henkikirja  (1779-1779). Tiedosto 267. Kansallisarkisto. Viitattu 24.8.2025.</text>
+    </note>
+    <note handle="_ff897a0ce0519d9260a0eeeb422" change="1756037020" id="N3801" type="Citation">
+      <text>Uudenmaan ja Hämeen läänin tilejä. Asiakirjat. 8411 Henkikirja  (1780-1780). Tiedosto 97. Kansallisarkisto. Viitattu 24.8.2025.</text>
     </note>
   </notes>
   <bookmarks>
