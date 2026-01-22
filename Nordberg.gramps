@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.2/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.2/">
   <header>
-    <created date="2025-08-24" version="6.0.4"/>
+    <created date="2026-01-22" version="6.0.6"/>
     <researcher>
     </researcher>
   </header>
@@ -10822,7 +10822,7 @@
       <place hlink="_dcdcc546fbc30fd171f461b11bb"/>
       <citationref hlink="_dcdcc40e48270e12c17516bca00"/>
     </event>
-    <event handle="_dcdce96d789173900fb6b4bb90a" change="1704131636" id="E0042">
+    <event handle="_dcdce96d789173900fb6b4bb90a" change="1769114942" id="E0042">
       <type>Residence</type>
       <datespan start="1917" stop="1929"/>
       <place hlink="_f7fbd291030467b1cafd64a6517"/>
@@ -10833,6 +10833,7 @@
       <citationref hlink="_ec7da77de26ea52f67c6c2d4cc"/>
       <citationref hlink="_dcdced2e9b857c566302b3505f6"/>
       <citationref hlink="_f7fbd9a0ce515850062bf47ad4a"/>
+      <citationref hlink="_10170aa91b88553c6a58c561531"/>
       <citationref hlink="_dcdd5676d5d753128e0fb29f8ee"/>
       <citationref hlink="_dcdd58882376f47b4bea8ac9e5a"/>
       <citationref hlink="_dcdd51182971028831bd07194e6"/>
@@ -35415,6 +35416,15 @@
     </family>
   </families>
   <citations>
+    <citation handle="_10170aa91b88553c6a58c561531" change="1769114914" id="C1791">
+      <datestr val=""/>
+      <page>Vi:468/8439</page>
+      <confidence>2</confidence>
+      <noteref hlink="_10170a92da946962d678d38e1720"/>
+      <noteref hlink="_10170a8f56946cc3e93a7fd4332c"/>
+      <noteref hlink="_10170aa8d29c6b423266e1f3cf11"/>
+      <sourceref hlink="_10170a88c3e31bed03bb4b7267ac"/>
+    </citation>
     <citation handle="_cdbd0dc1efa1d31833b" change="1476200558" id="C0023">
       <datespan start="1760" stop="1779"/>
       <page>115</page>
@@ -48292,6 +48302,11 @@
     </citation>
   </citations>
   <sources>
+    <source handle="_10170a88c3e31bed03bb4b7267ac" change="1769114937" id="S0723">
+      <stitle>Viipuri Henkikirja 1923</stitle>
+      <sauthor>Viipurin lääni</sauthor>
+      <reporef hlink="_d00112dce232e7f4a7d" medium="Book"/>
+    </source>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
       <stitle>Porvoo SAY 1760-1779</stitle>
       <sauthor>Suomen asutuksen yleisluettelo</sauthor>
@@ -55311,6 +55326,26 @@
     </repository>
   </repositories>
   <notes>
+    <note handle="_10170a8f56946cc3e93a7fd4332c" change="1769114745" id="N3810" type="Link">
+      <text>https://astia.narc.fi/uusiastia//viewer/?fileId=11687228868&amp;aineistoId=2307276603</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia//viewer/?fileId=11687228868&amp;aineistoId=2307276603">
+        <range start="0" end="81"/>
+      </style>
+    </note>
+    <note handle="_10170a92da946962d678d38e1720" change="1769114768" id="N3811" type="Citation">
+      <text>Viipurin läänin henkikirjat - Vi:468 Henkikirja 1923-1923, jakso 245, sivu 8439: Viipuri: Repola; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=11687228868&amp;aineistoId=2307276603 / Viitattu 22.1.2026</text>
+    </note>
+    <note handle="_10170aa8d29c6b423266e1f3cf11" change="1769114912" id="N3812" type="Transcript" format="1">
+      <text>Viipurin kaupungin henkikirja 1923           8439
+                                          sivu 99
+
+Repola  93    Viskaalin  4    [V] Nordberg, Hilda 69, leski  L Elvira 04
+                               &quot;      &quot;     Tyyne 01
+</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="227"/>
+      </style>
+    </note>
     <note handle="_cb589cce30a65dd9031" change="1336471289" id="N0329" type="General">
       <text>Bosatt i Grabbens Lappvik</text>
     </note>
