@@ -46,6 +46,23 @@
       <citationref hlink="_10369504ee1c3cd207ac056165bb"/>
       <citationref hlink="_103695293f9468cca4ae07c6ebe2"/>
     </event>
+    <event handle="_1036976980b5629abfa952a14c0f" change="1782665455" id="E1058">
+      <type>Residence</type>
+      <datespan start="1900" stop="1909"/>
+      <place hlink="_cf8ee1104851319196b"/>
+      <citationref hlink="_10369767bee411c3fb13b3c6f1cd"/>
+    </event>
+    <event handle="_1036976f0f0654d4d3bf2a6ae253" change="1782665491" id="E1060">
+      <type>Death</type>
+      <dateval val="1908-06-06"/>
+      <citationref hlink="_10369767bee411c3fb13b3c6f1cd"/>
+    </event>
+    <event handle="_10369777007d5d0a1733080bec7a" change="1782665543" id="E1062">
+      <type>Birth</type>
+      <dateval val="1901-11-09"/>
+      <place hlink="_cb589cc919979dd6148"/>
+      <citationref hlink="_10369767bee411c3fb13b3c6f1cd"/>
+    </event>
     <event handle="_cb589cc7f88790c0d85" change="1703884041" id="E0006">
       <type>Birth</type>
       <dateval val="1906-01-13"/>
@@ -18034,6 +18051,15 @@
     </event>
   </events>
   <people home="_cb589cc7f8356f9dc4a">
+    <person handle="_10369770248a4f235c90b5a86f28" change="1782665551" id="I0205">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Kaarle Wolmar</first>
+        <surname derivation="Unknown ">Liukkonen</surname>
+      </name>
+      <eventref hlink="_10369777007d5d0a1733080bec7a" role="Primary"/>
+      <childof hlink="_df5a7a4c2dc110e3ac16f97dd74"/>
+    </person>
     <person handle="_cb589cc7f8356f9dc4a" change="1658869228" id="I3858">
       <gender>F</gender>
       <name type="Birth Name">
@@ -29102,13 +29128,14 @@
       <eventref hlink="_df57c6a99567e20f8e6a39a6591" role="Primary"/>
       <childof hlink="_cb589cc91fa5f6431de"/>
     </person>
-    <person handle="_df5a7aec2c96ea91b085cc388d8" change="1534964615" id="I0975">
+    <person handle="_df5a7aec2c96ea91b085cc388d8" change="1782665494" id="I0975">
       <gender>M</gender>
       <name type="Unknown">
         <first>August</first>
         <surname derivation="Unknown ">Liukkonen</surname>
       </name>
       <eventref hlink="_df5de34abb315e193e30de6871d" role="Primary"/>
+      <eventref hlink="_1036976f0f0654d4d3bf2a6ae253" role="Primary"/>
       <parentin hlink="_df5a7a4c2dc110e3ac16f97dd74"/>
     </person>
     <person handle="_df5a858a1961be4be9915d75fce" change="1534883932" id="I0976">
@@ -29165,7 +29192,7 @@
       <eventref hlink="_df5ae59ead556e49d7bb2c40ab2" role="Primary"/>
       <childof hlink="_df5a8572afa1ef4e5dbcdc8ee4b"/>
     </person>
-    <person handle="_df5de4cc64c4035dd942d4ad3f5" change="1534967782" id="I0982">
+    <person handle="_df5de4cc64c4035dd942d4ad3f5" change="1782665551" id="I0982">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Elin Maria</first>
@@ -29174,7 +29201,7 @@
       <eventref hlink="_df5de586e9e3c5eed4aa325490a" role="Primary"/>
       <childof hlink="_df5a7a4c2dc110e3ac16f97dd74"/>
     </person>
-    <person handle="_df5de620453380c4dd065b9ffe2" change="1534967782" id="I0983">
+    <person handle="_df5de620453380c4dd065b9ffe2" change="1782665551" id="I0983">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Tekla Aleksandra</first>
@@ -29183,7 +29210,7 @@
       <eventref hlink="_df5de6ca4a453251294c7b5cc93" role="Primary"/>
       <childof hlink="_df5a7a4c2dc110e3ac16f97dd74"/>
     </person>
-    <person handle="_df5de7202b320c46498108f8c11" change="1534967782" id="I0984">
+    <person handle="_df5de7202b320c46498108f8c11" change="1782665551" id="I0984">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Hjalmar Wäinö</first>
@@ -29193,7 +29220,7 @@
       <eventref hlink="_df5dff5b71167f0f03399b0c24" role="Primary"/>
       <childof hlink="_df5a7a4c2dc110e3ac16f97dd74"/>
     </person>
-    <person handle="_df5de7ad2a010eb8dfa6ce527fb" change="1534967782" id="I0985">
+    <person handle="_df5de7ad2a010eb8dfa6ce527fb" change="1782665551" id="I0985">
       <gender>M</gender>
       <name type="Birth Name">
         <first>August Ilmari</first>
@@ -29202,7 +29229,7 @@
       <eventref hlink="_df5de7e9ecb6ac4fd926db97999" role="Primary"/>
       <childof hlink="_df5a7a4c2dc110e3ac16f97dd74"/>
     </person>
-    <person handle="_df5de7fbb8e71f8be103c7acf2" change="1534967782" id="I0986">
+    <person handle="_df5de7fbb8e71f8be103c7acf2" change="1782665551" id="I0986">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Elina Dagmar</first>
@@ -29211,7 +29238,7 @@
       <eventref hlink="_df5de82e6695c3290b69c229d1f" role="Primary"/>
       <childof hlink="_df5a7a4c2dc110e3ac16f97dd74"/>
     </person>
-    <person handle="_df5df92fce67f4b7f5c6da0afc9" change="1534967782" id="I0987">
+    <person handle="_df5df92fce67f4b7f5c6da0afc9" change="1782665551" id="I0987">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Lydia Emilia</first>
@@ -29220,7 +29247,7 @@
       <eventref hlink="_df5df9b21de427a67bad5c106e1" role="Primary"/>
       <childof hlink="_df5a7a4c2dc110e3ac16f97dd74"/>
     </person>
-    <person handle="_df5df9bfe345e262a66254ef642" change="1534967782" id="I0988">
+    <person handle="_df5df9bfe345e262a66254ef642" change="1782665551" id="I0988">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Hilma Josefina</first>
@@ -29229,7 +29256,7 @@
       <eventref hlink="_df5dfa30e99523b26e33e60271e" role="Primary"/>
       <childof hlink="_df5a7a4c2dc110e3ac16f97dd74"/>
     </person>
-    <person handle="_df5dfa7185e41b5ee26f1acdb7d" change="1534967782" id="I0989">
+    <person handle="_df5dfa7185e41b5ee26f1acdb7d" change="1782665551" id="I0989">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Reino Richard</first>
@@ -34839,7 +34866,7 @@
       <eventref hlink="_df5493d28f85fbe69b0e832f0d8" role="Family"/>
       <eventref hlink="_df54ab2686f22e8e00b5d4a9a3e" role="Family"/>
     </family>
-    <family handle="_df5a7a4c2dc110e3ac16f97dd74" change="1534967782" id="F0389">
+    <family handle="_df5a7a4c2dc110e3ac16f97dd74" change="1782665551" id="F0389">
       <rel type="Married"/>
       <father hlink="_df5a7aec2c96ea91b085cc388d8"/>
       <mother hlink="_cb589ccc20413f61d39"/>
@@ -34849,6 +34876,7 @@
       <eventref hlink="_df5de1aae2a2db7ed05f3f4a16e" role="Family"/>
       <eventref hlink="_df5a87489dd2efa371e3b178b37" role="Family"/>
       <eventref hlink="_df5df8b422610bd8b796533a662" role="Family"/>
+      <eventref hlink="_1036976980b5629abfa952a14c0f" role="Family"/>
       <childref hlink="_df5de4cc64c4035dd942d4ad3f5"/>
       <childref hlink="_df5de620453380c4dd065b9ffe2"/>
       <childref hlink="_df5de7202b320c46498108f8c11"/>
@@ -34857,6 +34885,7 @@
       <childref hlink="_df5df92fce67f4b7f5c6da0afc9"/>
       <childref hlink="_df5df9bfe345e262a66254ef642"/>
       <childref hlink="_df5dfa7185e41b5ee26f1acdb7d"/>
+      <childref hlink="_10369770248a4f235c90b5a86f28"/>
     </family>
     <family handle="_df5a8572afa1ef4e5dbcdc8ee4b" change="1535044338" id="F0390">
       <rel type="Married"/>
@@ -35518,6 +35547,15 @@
       <noteref hlink="_10369517d6cf22b0314709d4388"/>
       <noteref hlink="_1036952911026fce6c096c602313"/>
       <sourceref hlink="_103693c927401d8666e7a8f0b6f2"/>
+    </citation>
+    <citation handle="_10369767bee411c3fb13b3c6f1cd" change="1782665443" id="C1799">
+      <datestr val=""/>
+      <page>AP_I I Aa:16 / 292</page>
+      <confidence>2</confidence>
+      <noteref hlink="_103696fe30189512c42e79953e"/>
+      <noteref hlink="_10369700bfcc4ba6bf4e5af2e92a"/>
+      <noteref hlink="_1036976778f42fc9d9bb99b9c4e2"/>
+      <sourceref hlink="_1036930fe3102f22631825367116"/>
     </citation>
     <citation handle="_cdbd0dc1efa1d31833b" change="1476200558" id="C0023">
       <datespan start="1760" stop="1779"/>
@@ -55598,6 +55636,37 @@ Lisätietoja: osasto 01</text>
 Wuonna 1924    Kuolleita ja haudatuita U.L. Pyhäjärven seurakunnassa
 
 20. [Huhtik]  21  27  Leskiv Heleena Loviisa Wesander, Nyhkälästä    Wanhuuttaan  13/1 1839  85  3  8  leski  [n]  175</text>
+    </note>
+    <note handle="_103696fe30189512c42e79953e" change="1782664751" id="N3830" type="Citation">
+      <text>Karkkila rippikirja 1900-1909 (AP_I I Aa:16)  Sivu 292 Nyhkälä Anttila ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=51811&amp;pnum=260 / Viitattu 28.06.2026</text>
+    </note>
+    <note handle="_10369700bfcc4ba6bf4e5af2e92a" change="1782664768" id="N3831" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=51811&amp;pnum=260</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=51811&amp;pnum=260">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_1036976778f42fc9d9bb99b9c4e2" change="1782665441" id="N3832" type="Transcript" format="1">
+      <text>202  Nyhkälä
+
+Anttila
+
+Itsell + August Liukkonen    11/9  1857  Loppi     vk 340                                  Kuoli 6/6 08
+wo Maria Aurora Otontytär    13/1  1861  Nurmijär  &quot;
+tr Elin Maria                 2/8  1884  Wihti     &quot;                                                     }
+&quot;  Tekla Alexandra           29/3  1886  Loppi     &quot;     Aviol.kuul.no20-09 K.M.Weckström  29.6.08       }
+                                                         Helsing.Sörnäist.r.s:ksta         Helsinkiin    }
+p  August Ilmari             18/11 1889  &quot;         &quot;                                                     }
+tr Elina Dagmar              10/1  1892  &quot;         &quot;                                                     }
+&quot;  Lydia Emilia              21/4  1894  &quot;         &quot;                                                     } Uks.292
+&quot;  Hilma Josefina           18/5[*]1896  &quot;         &quot;     Kuuk. XII muutettu Vksi                         }
+p. Reino Richard              1/2  1899  &quot;         &quot;                                                     }
+p. Kaarle Wolmar              3/11 1901  &quot;                                                               }
+
+[* syntymäkuukauden kohdalla sotkua]</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="1188"/>
+      </style>
     </note>
     <note handle="_cb589cce30a65dd9031" change="1336471289" id="N0329" type="General">
       <text>Bosatt i Grabbens Lappvik</text>
