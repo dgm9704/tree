@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.2/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.2/">
   <header>
-    <created date="2026-01-22" version="6.0.6"/>
+    <created date="2026-06-28" version="6.0.8"/>
     <researcher>
     </researcher>
   </header>
@@ -14,6 +14,18 @@
     <tag handle="_cea28692a6471f03f64" change="1419983986" name="REMOVE" color="#000000000000" priority="0"/>
   </tags>
   <events>
+    <event handle="_103693168f5b20e201395a7f2182" change="1782658200" id="E1037">
+      <type>Residence</type>
+      <datespan start="1901" stop="1909"/>
+      <place hlink="_cf8ee1104851319196b"/>
+      <citationref hlink="_103693158cad595a6d0ec9b8111e"/>
+    </event>
+    <event handle="_103693819ee26dbce20df6f0151f" change="1782658902" id="E1042">
+      <type>Residence</type>
+      <datespan start="1910" stop="1920"/>
+      <place hlink="_cf8ee1104851319196b"/>
+      <citationref hlink="_103693811bd83f2c5e7a6cd43d50"/>
+    </event>
     <event handle="_cb589cc7f88790c0d85" change="1703884041" id="E0006">
       <type>Birth</type>
       <dateval val="1906-01-13"/>
@@ -19189,7 +19201,7 @@
       <childof hlink="_cb589cc91a97a9ab738"/>
       <parentin hlink="_df540cbecf640ddc9444550ea81"/>
     </person>
-    <person handle="_cb589ccc20413f61d39" change="1534964529" id="I4236">
+    <person handle="_cb589ccc20413f61d39" change="1782658905" id="I4236">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Aurora</first>
@@ -19200,7 +19212,7 @@
       <childof hlink="_cb589cc91fa5f6431de"/>
       <parentin hlink="_df5a7a4c2dc110e3ac16f97dd74"/>
     </person>
-    <person handle="_cb589ccc22d4f968a62" change="1534882525" id="I3210">
+    <person handle="_cb589ccc22d4f968a62" change="1782658905" id="I3210">
       <gender>F</gender>
       <name type="Also Known As">
         <first>Josefina</first>
@@ -19217,7 +19229,7 @@
       <childof hlink="_cb589cc91fa5f6431de"/>
       <parentin hlink="_df5a8572afa1ef4e5dbcdc8ee4b"/>
     </person>
-    <person handle="_cb589ccc2c1701aed56" change="1535296494" id="I4507">
+    <person handle="_cb589ccc2c1701aed56" change="1782658905" id="I4507">
       <gender>F</gender>
       <name type="Also Known As">
         <first>Evelina</first>
@@ -19232,7 +19244,7 @@
       <childof hlink="_cb589cc91fa5f6431de"/>
       <parentin hlink="_df5a8d8ce8c63ebc2f04960c304"/>
     </person>
-    <person handle="_cb589ccc2ec5a7e568e" change="1534872995" id="I4471">
+    <person handle="_cb589ccc2ec5a7e568e" change="1782658905" id="I4471">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Edla Sofia</first>
@@ -19242,7 +19254,7 @@
       <eventref hlink="_df5a7982f156f8e0a23e93c03b3" role="Primary"/>
       <childof hlink="_cb589cc91fa5f6431de"/>
     </person>
-    <person handle="_cb589ccc3142d9ef4a4" change="1690794541" id="I3815">
+    <person handle="_cb589ccc3142d9ef4a4" change="1782658905" id="I3815">
       <gender>M</gender>
       <name type="Also Known As">
         <first>Otto Ferdinand</first>
@@ -27724,7 +27736,7 @@
       <eventref hlink="_df6a47c30bb493d3b34b30a2dca" role="Primary"/>
       <parentin hlink="_cb589cc91fa5f6431de"/>
     </person>
-    <person handle="_cf8f23268c000d60194" change="1534877013" id="I1415">
+    <person handle="_cf8f23268c000d60194" change="1782658905" id="I1415">
       <gender>M</gender>
       <name type="Also Known As">
         <first>Karl Evert</first>
@@ -29035,7 +29047,7 @@
       <eventref hlink="_df5752f344e67293d7bbb6eb22b" role="Primary"/>
       <childof hlink="_cb589ccc0d5714da40c"/>
     </person>
-    <person handle="_df5790673bf52ba1eca8b5a1c14" change="1534802178" id="I0972">
+    <person handle="_df5790673bf52ba1eca8b5a1c14" change="1782658905" id="I0972">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Hilda Charlotta</first>
@@ -29046,7 +29058,7 @@
       <eventref hlink="_df57d4f8e691256ff53a8d5eb6f" role="Primary"/>
       <childof hlink="_cb589cc91fa5f6431de"/>
     </person>
-    <person handle="_df57a9c49613d4df7caf57ae9b4" change="1690794787" id="I0973">
+    <person handle="_df57a9c49613d4df7caf57ae9b4" change="1782658905" id="I0973">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Henrika Paulina</first>
@@ -29056,7 +29068,7 @@
       <eventref hlink="_df57ab469dd4b44333aa20d4897" role="Primary"/>
       <childof hlink="_cb589cc91fa5f6431de"/>
     </person>
-    <person handle="_df57c50fc8d441a7e3f92e0b0b" change="1534802195" id="I0974">
+    <person handle="_df57c50fc8d441a7e3f92e0b0b" change="1782658905" id="I0974">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Hilda Charlotta</first>
@@ -32016,7 +32028,7 @@
       <childref hlink="_cb589ccc153230456c0"/>
       <childref hlink="_cb589ccc1ba34111084"/>
     </family>
-    <family handle="_cb589cc91fa5f6431de" change="1534800853" id="F1493">
+    <family handle="_cb589cc91fa5f6431de" change="1782658905" id="F1493">
       <rel type="Married"/>
       <father hlink="_cf8e9d926742f58bf89"/>
       <mother hlink="_cb589cc91e0607d4c76"/>
@@ -32029,6 +32041,8 @@
       <eventref hlink="_cf8ece8fcdf050ed295" role="Family"/>
       <eventref hlink="_cf8edece08b3312d012" role="Family"/>
       <eventref hlink="_cf8ee2160752301933f" role="Family"/>
+      <eventref hlink="_103693168f5b20e201395a7f2182" role="Family"/>
+      <eventref hlink="_103693819ee26dbce20df6f0151f" role="Family"/>
       <childref hlink="_cb589ccc20413f61d39"/>
       <childref hlink="_df5790673bf52ba1eca8b5a1c14"/>
       <childref hlink="_df57a9c49613d4df7caf57ae9b4"/>
@@ -35424,6 +35438,24 @@
       <noteref hlink="_10170a8f56946cc3e93a7fd4332c"/>
       <noteref hlink="_10170aa8d29c6b423266e1f3cf11"/>
       <sourceref hlink="_10170a88c3e31bed03bb4b7267ac"/>
+    </citation>
+    <citation handle="_103693158cad595a6d0ec9b8111e" change="1782658571" id="C1792">
+      <datestr val=""/>
+      <page>AP_I I Aa:16 / 288</page>
+      <confidence>2</confidence>
+      <noteref hlink="_10369319a40a5daf68c7e5bf7425"/>
+      <noteref hlink="_103693218842292582724c87ddcb"/>
+      <noteref hlink="_1036934ee2233ff030cfd9152f4e"/>
+      <sourceref hlink="_1036930fe3102f22631825367116"/>
+    </citation>
+    <citation handle="_103693811bd83f2c5e7a6cd43d50" change="1782658899" id="C1793">
+      <datestr val=""/>
+      <page>AP_I I Aa:18 / 291</page>
+      <confidence>2</confidence>
+      <noteref hlink="_10369360bbd2552df2cd4a4dc27e"/>
+      <noteref hlink="_103693638e4234261904eb0b5d9c"/>
+      <noteref hlink="_1036936e373273c54edb8e1c4b3a"/>
+      <sourceref hlink="_1036935c7e7b4f2a810c14563e02"/>
     </citation>
     <citation handle="_cdbd0dc1efa1d31833b" change="1476200558" id="C0023">
       <datespan start="1760" stop="1779"/>
@@ -48307,6 +48339,16 @@
       <sauthor>Viipurin lääni</sauthor>
       <reporef hlink="_d00112dce232e7f4a7d" medium="Book"/>
     </source>
+    <source handle="_1036930fe3102f22631825367116" change="1782658157" id="S0724">
+      <stitle>Karkkila Rippikirja 1901-1909</stitle>
+      <sauthor>Karkkilan seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_1036935c7e7b4f2a810c14563e02" change="1782658659" id="S0725">
+      <stitle>Karkkila Rippikirja 1910-1920</stitle>
+      <sauthor>Karkkilan seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
       <stitle>Porvoo SAY 1760-1779</stitle>
       <sauthor>Suomen asutuksen yleisluettelo</sauthor>
@@ -55344,6 +55386,57 @@ Repola  93    Viskaalin  4    [V] Nordberg, Hilda 69, leski  L Elvira 04
 </text>
       <style name="fontface" value="Courier New">
         <range start="0" end="227"/>
+      </style>
+    </note>
+    <note handle="_10369319a40a5daf68c7e5bf7425" change="1782658220" id="N3813" type="Citation">
+      <text>Karkkila rippikirja 1900-1909 (AP_I I Aa:16)  Sivu 288 Nyhkälä Anttila ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=51811&amp;pnum=256 / Viitattu 28.06.2026</text>
+    </note>
+    <note handle="_1036931df01868096afadb01049a" change="1782658249" id="N3814" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=51811&amp;pnum=256</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=51811&amp;pnum=256">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_103693218842292582724c87ddcb" change="1782658272" id="N3815" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=51811&amp;pnum=256</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=51811&amp;pnum=256">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_1036934ee2233ff030cfd9152f4e" change="1782658569" id="N3816" type="Transcript" format="1">
+      <text>288          Nyhkälä
+
+Anttila
+
+
++ Ent. torp. Erik Juho Erikinp. Mäkelä    8/6  1829  T.         vk 343          Kuoli 7/10 1904
+  Ent renki Abram Tulander                1/4  1833  T.         vk 593          Uks 292
+  Työm Otto Davidinpka Wesander           19/9 1835  Nurm järv  vk 343
+    wo Helena Lovisa Nordberg             13/1 1839      &quot;         &quot;            Uks 291</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="374"/>
+      </style>
+    </note>
+    <note handle="_10369360bbd2552df2cd4a4dc27e" change="1782658686" id="N3817" type="Citation">
+      <text>Karkkila rippikirja 1910-1920 (AP_I I Aa:18)  Sivu 291 Nyhkälä Anttila ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=51813&amp;pnum=255 / Viitattu 28.06.2026</text>
+    </note>
+    <note handle="_103693638e4234261904eb0b5d9c" change="1782658705" id="N3818" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=51813&amp;pnum=255</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=51813&amp;pnum=255">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_1036936e373273c54edb8e1c4b3a" change="1782658896" id="N3819" type="Transcript" format="1">
+      <text>291          Nyhkälä
+
+Anttila
+
+
+
++ Its. Otto Taavinp. Vesander        19/9 1835  Nurmijärvi  Vk. 288          Kuoli 3/2 12.
+       vmo Helena Lovisa Nordberg    13/1 1839    &quot;   &quot;     &quot;   &quot;            Uks 275 </text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="209"/>
       </style>
     </note>
     <note handle="_cb589cce30a65dd9031" change="1336471289" id="N0329" type="General">
