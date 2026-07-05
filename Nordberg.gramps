@@ -141,11 +141,44 @@
       <place hlink="_df718a6d5d64dd826a2f6ad4f"/>
       <citationref hlink="_1037fdb7957b77bf77352d1514cd"/>
     </event>
-    <event handle="_1037fdbe14367ed39f8015dbc973" change="1783266633" id="E1094">
+    <event handle="_1037fdbe14367ed39f8015dbc973" change="1783267158" id="E1094">
       <type>Residence</type>
       <dateval val="1917-10-27" type="after"/>
       <place hlink="_d89f6013d8242e7cd32ea5d48b0"/>
       <citationref hlink="_1037fdb7957b77bf77352d1514cd"/>
+      <citationref hlink="_1037fe0ca9f82cd8f5045ad6c901"/>
+    </event>
+    <event handle="_103802fcb9be69db93153c3abe19" change="1783275493" id="E1095">
+      <type>Residence</type>
+      <datespan start="1914" stop="1917-10-27"/>
+      <place hlink="_103802e8baea616e00a2be996f5b"/>
+      <citationref hlink="_103802fc6e5192ef4d77db5414f"/>
+      <citationref hlink="_1037fe0ca9f82cd8f5045ad6c901"/>
+    </event>
+    <event handle="_1038033efafa7bd9d61ec30cd419" change="1783275867" id="E1096">
+      <type>Residence</type>
+      <datespan start="1917" stop="1921-07-13"/>
+      <place hlink="_df718a69a206e96be14b2b3da68"/>
+      <citationref hlink="_1038033de5075e0bcbe3fd9f711c"/>
+    </event>
+    <event handle="_1038036ae1ab2dad58a1f450760" change="1783276154" id="E1098">
+      <type>Residence</type>
+      <dateval val="1921-07-13" type="after"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_1038033de5075e0bcbe3fd9f711c"/>
+      <citationref hlink="_1038036aa5ed4f8d5d41a0bea2a0"/>
+    </event>
+    <event handle="_103803bdd7811d581a639503609a" change="1783276698" id="E1100">
+      <type>Death</type>
+      <dateval val="1937-03-30"/>
+      <place hlink="_cb589cc7f8d1b88b055"/>
+      <citationref hlink="_103803bcf3ee117af80d89aca495"/>
+    </event>
+    <event handle="_103803c7d0c02aca2b1427c2c015" change="1783276763" id="E1102">
+      <type>Burial</type>
+      <dateval val="1937-04-11"/>
+      <place hlink="_f608c9914be71f2e5abb5449a41"/>
+      <citationref hlink="_103803bcf3ee117af80d89aca495"/>
     </event>
     <event handle="_cb589cc7f88790c0d85" change="1703884041" id="E0006">
       <type>Birth</type>
@@ -28193,13 +28226,15 @@
       <eventref hlink="_cf96888ddb334a21cbe" role="Primary"/>
       <parentin hlink="_cf968f1c20a236ff8a0"/>
     </person>
-    <person handle="_cf968949df81bba95bb" change="1426534819" id="I1444">
+    <person handle="_cf968949df81bba95bb" change="1783276809" id="I1444">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Alina Wilhelmina</first>
         <surname>Korzard</surname>
       </name>
       <eventref hlink="_cf968944c0515947d26" role="Primary"/>
+      <eventref hlink="_103803bdd7811d581a639503609a" role="Primary"/>
+      <eventref hlink="_103803c7d0c02aca2b1427c2c015" role="Primary"/>
       <childof hlink="_cf968f1c20a236ff8a0"/>
     </person>
     <person handle="_cf96898f6862df0e76f" change="1426536001" id="I1445">
@@ -29468,25 +29503,28 @@
       <eventref hlink="_df7161b62ad7040c135b5b253b4" role="Primary"/>
       <parentin hlink="_df7160839dc4eadbde3ce6cbe0"/>
     </person>
-    <person handle="_df7176a0dbb3f678c09f9c3519f" change="1783266637" id="I0999">
+    <person handle="_df7176a0dbb3f678c09f9c3519f" change="1783276159" id="I0999">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Hilma Maria</first>
         <surname>Korzard</surname>
       </name>
       <eventref hlink="_df71788f76a29d874f9846caf9c" role="Primary"/>
+      <eventref hlink="_1038033efafa7bd9d61ec30cd419" role="Primary"/>
+      <eventref hlink="_1038036ae1ab2dad58a1f450760" role="Primary"/>
       <childof hlink="_df6b219889336aad6e9f7dc3cfc"/>
     </person>
-    <person handle="_df717a6693d3981a4dd369f2182" change="1783266637" id="I1000">
+    <person handle="_df717a6693d3981a4dd369f2182" change="1783275442" id="I1000">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Wäinö Ilmari</first>
         <surname>Korzard</surname>
       </name>
       <eventref hlink="_df717c7293713ccf7929bf6b169" role="Primary"/>
+      <eventref hlink="_103802fcb9be69db93153c3abe19" role="Primary"/>
       <childof hlink="_df6b219889336aad6e9f7dc3cfc"/>
     </person>
-    <person handle="_df718b0fc8b46583e8a69022f40" change="1783266637" id="I1001">
+    <person handle="_df718b0fc8b46583e8a69022f40" change="1783276282" id="I1001">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Otto Alexander</first>
@@ -29494,12 +29532,19 @@
       </name>
       <eventref hlink="_df718c5175d711679df63ca74a5" role="Primary"/>
       <childof hlink="_df6b219889336aad6e9f7dc3cfc"/>
+      <noteref hlink="_1038037dfd3a778e45f4c29c5c78"/>
     </person>
-    <person handle="_df718c7ab1550aec28d13d6e8d0" change="1783266637" id="I1002">
+    <person handle="_df718c7ab1550aec28d13d6e8d0" change="1783274720" id="I1002">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Jalmar Benjamin</first>
         <surname>Korzard</surname>
+      </name>
+      <name alt="1" type="Also Known As">
+        <first>Jalmari Benjamin</first>
+        <surname derivation="Taken">Haukivirta</surname>
+        <datestr val=""/>
+        <citationref hlink="_1038028d924875f564806c421eec"/>
       </name>
       <eventref hlink="_df718d363f9780ce1bce9b3f20b" role="Primary"/>
       <childof hlink="_df6b219889336aad6e9f7dc3cfc"/>
@@ -35780,6 +35825,60 @@
       <noteref hlink="_1037fd7ea7061fd72202378190bc"/>
       <noteref hlink="_1037fdb7451f76782ce0d5d99d1f"/>
       <sourceref hlink="_1037f295707d194dd411f139dd4d"/>
+    </citation>
+    <citation handle="_1037fe0ca9f82cd8f5045ad6c901" change="1783267148" id="C1812">
+      <datestr val=""/>
+      <page>256</page>
+      <confidence>2</confidence>
+      <noteref hlink="_1037fdecd35a3fa707ecdd55a687"/>
+      <noteref hlink="_1037fdef6515df80effa4e51051"/>
+      <noteref hlink="_1037fe0b464a63024f98a0fdb013"/>
+      <sourceref hlink="_1037fdea8e9b32482de8f76013a6"/>
+    </citation>
+    <citation handle="_1038028d924875f564806c421eec" change="1783274704" id="C1813">
+      <dateval val="1936-12-03"/>
+      <page>137 / 2</page>
+      <confidence>2</confidence>
+      <noteref hlink="_1038026c34887f05013c95a81117"/>
+      <noteref hlink="_10380270101bde5db18f9f9d202"/>
+      <noteref hlink="_1038028d4ed368e63b754816b307"/>
+      <sourceref hlink="_103802640b5c37a5f84597d83598"/>
+    </citation>
+    <citation handle="_103802fc6e5192ef4d77db5414f" change="1783275431" id="C1814">
+      <datestr val=""/>
+      <page>I / 525</page>
+      <confidence>2</confidence>
+      <noteref hlink="_103802ed27d04054d70d4995b25c"/>
+      <noteref hlink="_103802ef5c1b3315ead9449ef740"/>
+      <noteref hlink="_103802fbed267a6b049324429dc6"/>
+      <sourceref hlink="_1037f295707d194dd411f139dd4d"/>
+    </citation>
+    <citation handle="_1038033de5075e0bcbe3fd9f711c" change="1783275860" id="C1815">
+      <datestr val=""/>
+      <page>I / 533</page>
+      <confidence>2</confidence>
+      <noteref hlink="_10380322b94b60906daeb06221b5"/>
+      <noteref hlink="_1038032541972b26528f49b05e74"/>
+      <noteref hlink="_1038033da7141f660ea65b9076af"/>
+      <sourceref hlink="_1037f295707d194dd411f139dd4d"/>
+    </citation>
+    <citation handle="_1038036aa5ed4f8d5d41a0bea2a0" change="1783276153" id="C1816">
+      <datestr val=""/>
+      <page>163</page>
+      <confidence>2</confidence>
+      <noteref hlink="_10380350722a60ac522d8ad242ae"/>
+      <noteref hlink="_10380352bde622c8525d2831567a"/>
+      <noteref hlink="_1038036a4e153889dc5ad40df4fe"/>
+      <sourceref hlink="_1037fdea8e9b32482de8f76013a6"/>
+    </citation>
+    <citation handle="_103803bcf3ee117af80d89aca495" change="1783276692" id="C1817">
+      <dateval val="1937-04-03"/>
+      <page>36 / 2</page>
+      <confidence>2</confidence>
+      <noteref hlink="_10380395d1633ba0e0c4597aa044"/>
+      <noteref hlink="_1038039d2e9d4823ddae78cca8"/>
+      <noteref hlink="_103803bcba432b87780b239bcffd"/>
+      <sourceref hlink="_f6082c8c2451eb5efdac593f77b"/>
     </citation>
     <citation handle="_cdbd0dc1efa1d31833b" change="1476200558" id="C0023">
       <datespan start="1760" stop="1779"/>
@@ -48743,6 +48842,15 @@
       <sauthor>Lopen seurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
+    <source handle="_1037fdea8e9b32482de8f76013a6" change="1783266925" id="S0734">
+      <stitle>Loppi Muuttaneet 1893-1922</stitle>
+      <sauthor>Lopen seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_103802640b5c37a5f84597d83598" change="1783274432" id="S0735">
+      <stitle>Riihimäen Sanomat</stitle>
+      <reporef hlink="_cdea68c6afd7d08bd3f" medium="Book"/>
+    </source>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
       <stitle>Porvoo SAY 1760-1779</stitle>
       <sauthor>Suomen asutuksen yleisluettelo</sauthor>
@@ -52396,6 +52504,11 @@
     <placeobj handle="_1037f172dfbd12df68ba11ded86a" change="1783246008" id="P0736" type="Farm">
       <pname value="Mälli"/>
       <placeref hlink="_cb589ccc40934e82e04"/>
+    </placeobj>
+    <placeobj handle="_103802e8baea616e00a2be996f5b" change="1783275301" id="P0737" type="Farm">
+      <code>13</code>
+      <pname value="Uusitalo"/>
+      <placeref hlink="_cf8ecc410a95d24dee9"/>
     </placeobj>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1704316073" id="P0000" type="City">
       <ptitle>Helsingfors, Finland</ptitle>
@@ -56378,6 +56491,146 @@ T. Lyyli Aleksandra             26/7 1908  &quot;          &quot;               
 &quot; Fanny Helena                  12/7 1916  &quot;          &quot;                &quot;</text>
       <style name="fontface" value="Courier New">
         <range start="0" end="728"/>
+      </style>
+    </note>
+    <note handle="_1037fdecd35a3fa707ecdd55a687" change="1783266940" id="N3883" type="Citation">
+      <text>Loppi muuttaneet 1893-1922 (AP I Ba:3)  1917 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=49604&amp;pnum=135 / Viitattu 05.07.2026</text>
+    </note>
+    <note handle="_1037fdef6515df80effa4e51051" change="1783266957" id="N3884" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=49604&amp;pnum=135</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=49604&amp;pnum=135">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_1037fe0b464a63024f98a0fdb013" change="1783267139" id="N3885" type="Transcript" format="1">
+      <text>Siv 256
+Lopen seurakunnasta muuttaneet wuonna 1917
+
+82  [Lokak.] 27  [Sivu] 537  Vihti  Its.  Otto Aleks. Korzard, vo Aleks.  1  1
+                                          laps: Otto, Jalmari, Lyyli      2  1
+                                          Aune, Fanny ja                  -  2
+                                          Wäinö                           1  -</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="367"/>
+      </style>
+    </note>
+    <note handle="_1038026c34887f05013c95a81117" change="1783274485" id="N3886" type="Citation">
+      <text>Riihimäen Sanomat, 03.12.1936, nro 137, s. 2
+https://digi.kansalliskirjasto.fi/sanomalehti/binding/2080964?page=2
+Kansalliskirjaston digitaaliset aineistot
+Viitattu:05.07.2026
+</text>
+    </note>
+    <note handle="_10380270101bde5db18f9f9d202" change="1783274511" id="N3887" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/2080964?page=2</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/sanomalehti/binding/2080964?page=2">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_1038028d4ed368e63b754816b307" change="1783274702" id="N3888" type="Transcript" format="1">
+      <text>Torstaina, joulukuun 3 päivänä          RIIHIMÄEN SANOMAT          N:o 137
+
+
+[...]
+Uusia sukunimiä.
+  Hämeen lääin maaherra on oikeut-
+tanut seuraavat henkilöt ottamaan uu-
+den sukunimen:
+[...]                             Lo-
+pelta: työm. Jalmari Benjamin Kor-
+zard nimen Haukivirta.
+</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="284"/>
+      </style>
+    </note>
+    <note handle="_103802ed27d04054d70d4995b25c" change="1783275330" id="N3889" type="Citation">
+      <text>Loppi rippikirja 1913-1920 (AP_I I Aa:10)  Sivu 525 Läyliäinen N:13 Uusitalo ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=48159&amp;pnum=529 / Viitattu 05.07.2026</text>
+    </note>
+    <note handle="_103802ef5c1b3315ead9449ef740" change="1783275345" id="N3890" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=48159&amp;pnum=529</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=48159&amp;pnum=529">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_103802fbed267a6b049324429dc6" change="1783275534" id="N3891" type="Transcript" format="1">
+      <text>525
+Läyliäinen
+No 13 uusitalo
+
+Rki Wäinö Ilmari Otonp. Korzard  7/2 1897  Loppi  14-537              27/10 1917 Wihti</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="117"/>
+      </style>
+    </note>
+    <note handle="_10380322b94b60906daeb06221b5" change="1783275682" id="N3892" type="Citation">
+      <text>Loppi rippikirja 1913-1920 (AP_I I Aa:10)  Sivu 533 Läyliäinen N:15 Patova ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=48159&amp;pnum=537 / Viitattu 05.07.2026</text>
+    </note>
+    <note handle="_1038032541972b26528f49b05e74" change="1783275698" id="N3893" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=48159&amp;pnum=537</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=48159&amp;pnum=537">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_1038033da7141f660ea65b9076af" change="1783275858" id="N3894" type="Transcript" format="1">
+      <text>533
+Läyliäinen
+No 15 Patova
+
+[Piika] Hilma Maria Korzard  25/3 1899  [Loppi]  17-537    Sörnäisten Suomal Helsinkiin  13/7 1921</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="127"/>
+      </style>
+    </note>
+    <note handle="_10380350722a60ac522d8ad242ae" change="1783275981" id="N3895" type="Citation">
+      <text>Loppi muuttaneet 1893-1922 (AP I Ba:3)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=49604&amp;pnum=163 / Viitattu 05.07.2026</text>
+    </note>
+    <note handle="_10380352bde622c8525d2831567a" change="1783275996" id="N3896" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=49604&amp;pnum=163</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=49604&amp;pnum=163">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_1038036a4e153889dc5ad40df4fe" change="1783276151" id="N3897" type="Transcript" format="1">
+      <text>Siv.          [Lopen] seurakunnasta muuttaneet wuonna 1921
+
+34  [Heinäk]  [13]  533  Sörn suom Helsinki  palv. Hilma Maria Korzard  [np]</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="136"/>
+      </style>
+    </note>
+    <note handle="_1038037dfd3a778e45f4c29c5c78" change="1783276280" id="N3898" type="Person Note">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/2055554?term=Korzard&amp;page=2</text>
+    </note>
+    <note handle="_10380395d1633ba0e0c4597aa044" change="1783276436" id="N3899" type="Citation">
+      <text>Riihimäen Sanomat, 03.04.1937, nro 36, s. 2
+https://digi.kansalliskirjasto.fi/sanomalehti/binding/2081445?page=2
+Kansalliskirjaston digitaaliset aineistot
+Viitattu:05.07.2026</text>
+    </note>
+    <note handle="_1038039d2e9d4823ddae78cca8" change="1783276484" id="N3900" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/2081445?page=2</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/sanomalehti/binding/2081445?page=2">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_103803bcba432b87780b239bcffd" change="1783276691" id="N3901" type="Transcript" format="1">
+      <text>Rakas puolisoni, äitimme ja mummimme
+ALINA VILHELMINA LINDQVIST
+o.s. Korzard
+synt. 27.7.1970 Nurmijärvellä, kuoli pitkällisen
+taudin murtamana 30.3.1937 Helsingin sairaalassa
+
+Alex. Lindqvist.
+Väinö, Karin, Arvo ja Erkki Araluoma
+Sisaret perheineen ja muut sukulaiset
+
+Paljon kärsit, paljon kestit, vihdoin rauhan saavutit.
+
+Hautaus toimitetaan Riihimäen hautausmaalla sunnunt. 11 p:nä
+huhtik., josta sukulaisille ja tuttaville täten kutsuna ilmoitetaan</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="453"/>
       </style>
     </note>
     <note handle="_cb589cce30a65dd9031" change="1336471289" id="N0329" type="General">
