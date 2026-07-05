@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.2/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.2/">
   <header>
-    <created date="2026-06-30" version="6.0.8"/>
+    <created date="2026-07-05" version="6.0.8"/>
     <researcher>
     </researcher>
   </header>
@@ -91,6 +91,12 @@
       <place hlink="_1036949c58992ea7c5055363853a"/>
       <citationref hlink="_df5dff518f93dcd2fe995cd02ac"/>
       <citationref hlink="_10369a7fc01b6359a66ef31fdd5a"/>
+    </event>
+    <event handle="_1037f19ed09c407a5d16718ee560" change="1783246296" id="E1072">
+      <type>Residence</type>
+      <datespan start="1906" stop="1910"/>
+      <place hlink="_1037f172dfbd12df68ba11ded86a"/>
+      <citationref hlink="_1037f19e845e7c9f10c3c917416b"/>
     </event>
     <event handle="_cb589cc7f88790c0d85" change="1703884041" id="E0006">
       <type>Birth</type>
@@ -19348,7 +19354,7 @@
       <eventref hlink="_d00aea2bd602ad356ce" role="Primary"/>
       <childof hlink="_cb589cc91fa5f6431de"/>
     </person>
-    <person handle="_cb589ccc35e52a1e86d" change="1628361809" id="I3539">
+    <person handle="_cb589ccc35e52a1e86d" change="1783246301" id="I3539">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Karl Ferdinand</first>
@@ -19365,7 +19371,7 @@
       <childof hlink="_cb589cc921e71289c52"/>
       <parentin hlink="_df7160839dc4eadbde3ce6cbe0"/>
     </person>
-    <person handle="_cb589ccc386678948c1" change="1628361809" id="I4589">
+    <person handle="_cb589ccc386678948c1" change="1783246301" id="I4589">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Mathilda</first>
@@ -19378,7 +19384,7 @@
       <childof hlink="_cb589cc921e71289c52"/>
       <parentin hlink="_df6ad798a139aa699b15bf7c14"/>
     </person>
-    <person handle="_cb589ccc3ad3998a502" change="1628361809" id="I4212">
+    <person handle="_cb589ccc3ad3998a502" change="1783246301" id="I4212">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Josefina Alexandra</first>
@@ -19388,7 +19394,7 @@
       <eventref hlink="_df6b0be58772030ca43d449483d" role="Primary"/>
       <childof hlink="_cb589cc921e71289c52"/>
     </person>
-    <person handle="_cb589ccc3d42404631d" change="1628361809" id="I5785">
+    <person handle="_cb589ccc3d42404631d" change="1783246301" id="I5785">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Otto Alexander</first>
@@ -19405,7 +19411,7 @@
       <childof hlink="_cb589cc921e71289c52"/>
       <parentin hlink="_df6b219889336aad6e9f7dc3cfc"/>
     </person>
-    <person handle="_cb589ccc3fc36ec92a3" change="1628361809" id="I3167">
+    <person handle="_cb589ccc3fc36ec92a3" change="1783246301" id="I3167">
       <gender>M</gender>
       <name type="Birth Name">
         <first>August</first>
@@ -29307,7 +29313,7 @@
       <eventref hlink="_df69b278ad6e1f908286b53657" role="Primary"/>
       <parentin hlink="_cb589cceeec505a384b"/>
     </person>
-    <person handle="_df6a7e0ca9f684c3e5dddc3a8c9" change="1628361809" id="I0991">
+    <person handle="_df6a7e0ca9f684c3e5dddc3a8c9" change="1783246301" id="I0991">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Vihtori Arthur</first>
@@ -32136,7 +32142,7 @@
       <childref hlink="_cb589ccc3142d9ef4a4"/>
       <childref hlink="_cf8f23268c000d60194"/>
     </family>
-    <family handle="_cb589cc921e71289c52" change="1628361809" id="F1481">
+    <family handle="_cb589cc921e71289c52" change="1783246301" id="F1481">
       <rel type="Married"/>
       <father hlink="_cf96833c846387dd988"/>
       <mother hlink="_cb589cc920502ce8c4c"/>
@@ -32150,6 +32156,7 @@
       <eventref hlink="_df6a82689bd17981752f7932eb8" role="Family"/>
       <eventref hlink="_df6a849fc153d80d0ebbd4f5c15" role="Family"/>
       <eventref hlink="_df6a866eac931bf453df5047585" role="Family"/>
+      <eventref hlink="_1037f19ed09c407a5d16718ee560" role="Family"/>
       <childref hlink="_cb589ccc35e52a1e86d"/>
       <childref hlink="_cb589ccc386678948c1"/>
       <childref hlink="_cb589ccc3ad3998a502"/>
@@ -35628,6 +35635,15 @@
       <confidence>2</confidence>
       <noteref hlink="_10369a7f849be11854784953a45"/>
       <sourceref hlink="_10369a085ce25514f94d1072f698"/>
+    </citation>
+    <citation handle="_1037f19e845e7c9f10c3c917416b" change="1783246294" id="C1805">
+      <datestr val=""/>
+      <page>II / 625</page>
+      <confidence>2</confidence>
+      <noteref hlink="_1037f180dd1e8de3616fed58930"/>
+      <noteref hlink="_1037f1834ce2769b970362bd1bb2"/>
+      <noteref hlink="_1037f19e474f6a65fd7dc12ca376"/>
+      <sourceref hlink="_1037f17a0fba471c9477bfcc8b1"/>
     </citation>
     <citation handle="_cdbd0dc1efa1d31833b" change="1476200558" id="C0023">
       <datespan start="1760" stop="1779"/>
@@ -41640,10 +41656,13 @@
       <noteref hlink="_df6a8488c013c9c8521626fb293"/>
       <sourceref hlink="_cf8ece735cc36899648"/>
     </citation>
-    <citation handle="_df6a866051e5c951fef3f78aa4b" change="1535303837" id="C0874">
+    <citation handle="_df6a866051e5c951fef3f78aa4b" change="1783242833" id="C0874">
+      <datestr val=""/>
       <page>II/884</page>
       <confidence>2</confidence>
+      <noteref hlink="_1037ef2ae0ce59120a6ef33db310"/>
       <noteref hlink="_df6a865da5b612631236024f0aa"/>
+      <noteref hlink="_1037ef8dd1715124d754402ea34c"/>
       <sourceref hlink="_cf8edeb77c037fb1572"/>
     </citation>
     <citation handle="_df6ac1bff6e55fbff6e44bf9fb3" change="1535310063" id="C0875">
@@ -48573,6 +48592,11 @@
       <noteref hlink="_10369a2179e6f3e589497143152"/>
       <reporef hlink="_103694a7eeb317a0b3cd2357b0bb" medium="Book"/>
     </source>
+    <source handle="_1037f17a0fba471c9477bfcc8b1" change="1783246055" id="S0731">
+      <stitle>Loppi Rippikirja 1906-1910</stitle>
+      <sauthor>Lopen seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
     <source handle="_cdbd0d02549650518d1" change="1461493944" id="S0023">
       <stitle>Porvoo SAY 1760-1779</stitle>
       <sauthor>Suomen asutuksen yleisluettelo</sauthor>
@@ -52222,6 +52246,10 @@
     <placeobj handle="_1036949c58992ea7c5055363853a" change="1782660755" id="P0735" type="Cemetery">
       <pname value="vanha hautausmaa"/>
       <placeref hlink="_cb589cc919979dd6148"/>
+    </placeobj>
+    <placeobj handle="_1037f172dfbd12df68ba11ded86a" change="1783246008" id="P0736" type="Farm">
+      <pname value="Mälli"/>
+      <placeref hlink="_cb589ccc40934e82e04"/>
     </placeobj>
     <placeobj handle="_cb589cc7f8d1b88b055" change="1704316073" id="P0000" type="City">
       <ptitle>Helsingfors, Finland</ptitle>
@@ -56017,6 +56045,52 @@ Syntyneet ja kastetut Pyhäjärven seurakunnassa
     </note>
     <note handle="_1036fe9a391a4dc8855351b548de" change="1782838579" id="N3859" type="Citation">
       <text>Loppi vihityt 1855-1887 (MKO547-549)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=19433&amp;pnum=65 / Viitattu 30.06.2026</text>
+    </note>
+    <note handle="_1037ef2ae0ce59120a6ef33db310" change="1783242181" id="N3860" type="Citation">
+      <text>Loppi rippikirja 1896-1905 (MKO125-140)  Sivu 884 Sajaniemi, Käsityöläiset ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=22605&amp;pnum=182 / Viitattu 05.07.2026</text>
+    </note>
+    <note handle="_1037ef8dd1715124d754402ea34c" change="1783242829" id="N3861" type="Transcript" format="1">
+      <text>884
+Sajaniemi
+Käsityöläiset
+
+Puusep
+pä Aleksander Korzard                  27/11 1836  Nurmij    Wk 612                                                      UK 625
+wo Maria Wna Nordberg                   7/2  1842  Porneesi  &quot;                                                           &quot;
+
+06 Läyliäis
+Its. P. Wihtori Arthur Korzard         19/10 1879  Loppi     1901-644  conj.1/9 1900 I.M.Nyberg sivu 573 No31, arpa No6  }
+Wo Ida Maria Nyberg                     1/4  1878  &quot;         1901-644  vih 26/10 1900                                    } 704
+äp.tr.Helmi Maria Nyberg                5/12 1894  &quot;         &quot;                                                           }
+kaks { Pa Wihtori Bernhard Wihtorinpa }18/4  1901  &quot;         &quot;                                                           }
+     { Tr Ida Wna          &quot;       tr }                                                                                  }</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="918"/>
+      </style>
+    </note>
+    <note handle="_1037f180dd1e8de3616fed58930" change="1783246099" id="N3862" type="Citation">
+      <text>Loppi rippikirja 1906-1910 (AP_II I Aa:9)  Sivu 625 Sajaniemi Mälli ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=49594&amp;pnum=81 / Viitattu 05.07.2026</text>
+    </note>
+    <note handle="_1037f1834ce2769b970362bd1bb2" change="1783246115" id="N3863" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=49594&amp;pnum=81</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=49594&amp;pnum=81">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_1037f19e474f6a65fd7dc12ca376" change="1783246292" id="N3864" type="Transcript" format="1">
+      <text>625
+Sajaniemi
+Mälli
+                     Saari
+Its.mkt. Aleksanteri Korzard  27/11 1836  Nurmij.    W.K.884      } 754
+Wo Maria Wna Nordberg          7/2  1842  Pornainen  &quot;            }
+</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="187"/>
+      </style>
+      <style name="strikethrough">
+        <range start="68" end="75"/>
+      </style>
     </note>
     <note handle="_cb589cce30a65dd9031" change="1336471289" id="N0329" type="General">
       <text>Bosatt i Grabbens Lappvik</text>
