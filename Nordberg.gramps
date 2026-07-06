@@ -9099,12 +9099,13 @@
       <citationref hlink="_d00a192d28a3e8f2ada"/>
       <citationref hlink="_d486740a79d15de3395157af4ea"/>
     </event>
-    <event handle="_d48675333e514c9a732c25d06d0" change="1460470982" id="E3335">
+    <event handle="_d48675333e514c9a732c25d06d0" change="1783364507" id="E3335">
       <type>Residence</type>
       <datespan start="1886-10-26" stop="1887"/>
       <place hlink="_d486c5b22024a417f784725d9a4"/>
       <citationref hlink="_d486740a79d15de3395157af4ea"/>
       <citationref hlink="_d486c881e956c0ea38e426c67c"/>
+      <citationref hlink="_103837fe8cc98bbcf7c74c4ce8e"/>
       <citationref hlink="_d486c47e1c96d94316331bee98f"/>
     </event>
     <event handle="_d486e5faa753ed7d2356b72576a" change="1460474817" id="E3336">
@@ -9161,11 +9162,12 @@
       <place hlink="_d486cc4c67cb1e6b9b970daba4"/>
       <citationref hlink="_d48acd3ca1a767fdc90e8ac6d8e"/>
     </event>
-    <event handle="_d48ad3844742f7d793bbed87174" change="1460653049" id="E3349">
-      <type>Engagement</type>
+    <event handle="_d48ad3844742f7d793bbed87174" change="1783366246" id="E3349">
+      <type>Marriage Banns</type>
       <dateval val="1898"/>
       <place hlink="_d4878f85dc1547a405d1a9fbaa7"/>
       <citationref hlink="_d48797896aadc5277e29913f1a"/>
+      <citationref hlink="_d487914a71674447065979d86e"/>
     </event>
     <event handle="_d48d980e27d49e6ce4a70c73347" change="1703935082" id="E3347">
       <type>Baptism</type>
@@ -13740,9 +13742,9 @@
       <place hlink="_ce9b8f427c046131878"/>
       <citationref hlink="_e725052fa0192a9307d405e326"/>
     </event>
-    <event handle="_e726090219a7e439cbc2b5960b7" change="1783284994" id="E0044">
+    <event handle="_e726090219a7e439cbc2b5960b7" change="1783362020" id="E0044">
       <type>Residence</type>
-      <datespan start="1910" stop="1911"/>
+      <datespan start="1910" stop="1911" quality="estimated"/>
       <place hlink="_ce9b8f427c046131878"/>
       <citationref hlink="_d007585432e69f66109"/>
       <citationref hlink="_e725052fa0192a9307d405e326"/>
@@ -19539,7 +19541,7 @@
       <eventref hlink="_cb589ccc4655fa757c0" role="Primary"/>
       <childof hlink="_cb589cc934615c31879"/>
     </person>
-    <person handle="_cb589ccc4845e52a937" change="1783285456" id="I6031">
+    <person handle="_cb589ccc4845e52a937" change="1783362021" id="I6031">
       <gender>M</gender>
       <name type="Also Known As">
         <first>August Teodor</first>
@@ -19558,6 +19560,7 @@
       <eventref hlink="_e7250856fc520ecba2a27ad6bfe" role="Primary"/>
       <childof hlink="_cb589cc934615c31879"/>
       <citationref hlink="_103808f5b47c3b9c2dc0088f5407"/>
+      <citationref hlink="_103830542bd83cbb1783cb5fbf9c"/>
     </person>
     <person handle="_cb589ccc4c00d9da784" change="1519929896" id="I4389">
       <gender>F</gender>
@@ -28453,7 +28456,7 @@
       <eventref hlink="_d1cd232528e0ef5aee7" role="Primary"/>
       <childof hlink="_d1cd22c72236a0934d2"/>
     </person>
-    <person handle="_d4878e26b246fe90aae66b0c638" change="1460653629" id="I1465">
+    <person handle="_d4878e26b246fe90aae66b0c638" change="1783365741" id="I1465">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria</first>
@@ -28462,7 +28465,6 @@
       </name>
       <eventref hlink="_d4879195f232ae5942312284d99" role="Primary"/>
       <eventref hlink="_d48792903d35ce37debd3ec9497" role="Primary"/>
-      <eventref hlink="_d48ad3844742f7d793bbed87174" role="Primary"/>
       <eventref hlink="_d48acd62b947bfef9b51148a071" role="Primary"/>
       <parentin hlink="_d4878df4e4a200b0df7f9ee9878"/>
     </person>
@@ -34829,10 +34831,11 @@
       <mother hlink="_d1cd144b94c5e70ef2f"/>
       <childref hlink="_d1cd22e29cd71905848"/>
     </family>
-    <family handle="_d4878df4e4a200b0df7f9ee9878" change="1460492688" id="F0630">
+    <family handle="_d4878df4e4a200b0df7f9ee9878" change="1783365732" id="F0630">
       <rel type="Unknown"/>
       <father hlink="_d007999b053375c96a5"/>
       <mother hlink="_d4878e26b246fe90aae66b0c638"/>
+      <eventref hlink="_d48ad3844742f7d793bbed87174" role="Family"/>
     </family>
     <family handle="_d8a73dbbedb18bc3a39bbb15176" change="1488833626" id="F0371">
       <rel type="Married"/>
@@ -35889,6 +35892,25 @@
       <noteref hlink="_103808c3bb7c526daccf6305706e"/>
       <noteref hlink="_103808f575c046fd627062eadab7"/>
       <sourceref hlink="_103808bcf4f8711d6be2eab761a2"/>
+    </citation>
+    <citation handle="_103830542bd83cbb1783cb5fbf9c" change="1783351503" id="C1819">
+      <dateval val="1908-06-05"/>
+      <page>128 / 4</page>
+      <confidence>2</confidence>
+      <noteref hlink="_10382f9a224e871ca8384f82714"/>
+      <noteref hlink="_10382f9d1dbdb16f49b59b13bc9"/>
+      <noteref hlink="_10383053ea372e97c8f351329d4d"/>
+      <sourceref hlink="_df545daa1fa6602fcfa69c061bd"/>
+    </citation>
+    <citation handle="_103837fe8cc98bbcf7c74c4ce8e" change="1783364364" id="C1820">
+      <datestr val=""/>
+      <page>kuva 296-297</page>
+      <confidence>2</confidence>
+      <noteref hlink="_1038378bc31076f5527efd359d28"/>
+      <noteref hlink="_1038378e95271aa898d8e8402e"/>
+      <noteref hlink="_1038379471ed5568498fd532d768"/>
+      <noteref hlink="_103837fe2af9167c5da5973f9fcf"/>
+      <sourceref hlink="_10383787ca327f06dc2f9d331b8a"/>
     </citation>
     <citation handle="_cdbd0dc1efa1d31833b" change="1476200558" id="C0023">
       <datespan start="1760" stop="1779"/>
@@ -37111,17 +37133,22 @@
       <noteref hlink="_d4867402cbebd6cf42b7eff5aa"/>
       <sourceref hlink="_d0077e236757274da3f"/>
     </citation>
-    <citation handle="_d486c47e1c96d94316331bee98f" change="1460470545" id="C0162">
+    <citation handle="_d486c47e1c96d94316331bee98f" change="1783362701" id="C0162">
+      <datestr val=""/>
       <page>152</page>
       <confidence>2</confidence>
+      <noteref hlink="_1038370048ca1ce44a0add57bf57"/>
       <noteref hlink="_d486c2275aa744da7a4e9575bd8"/>
       <noteref hlink="_d486c4779374a65c8c3a5738c1"/>
       <sourceref hlink="_d0076156c69697796a7"/>
     </citation>
-    <citation handle="_d486c881e956c0ea38e426c67c" change="1460470966" id="C0163">
-      <page>kuva 390</page>
+    <citation handle="_d486c881e956c0ea38e426c67c" change="1783363518" id="C0163">
+      <datestr val=""/>
+      <page>415</page>
       <confidence>2</confidence>
+      <noteref hlink="_103837760d795bb8d771a6c92cd6"/>
       <noteref hlink="_d486c872a847be96aacc7582030"/>
+      <noteref hlink="_10383767e7a9467c09e30b507782"/>
       <sourceref hlink="_d486c74ad9773f993fea63fdf3f"/>
     </citation>
     <citation handle="_d486e15db7ba82f578fcb10bbf" change="1460474055" id="C0164">
@@ -37131,9 +37158,11 @@
       <noteref hlink="_d486e154624798a7db53a3e914f"/>
       <sourceref hlink="_d486cca5c69495402e10dde5e33"/>
     </citation>
-    <citation handle="_d486e871072144a47600dce0dd6" change="1460474578" id="C0165">
+    <citation handle="_d486e871072144a47600dce0dd6" change="1783362613" id="C0165">
+      <datestr val=""/>
       <page>653</page>
       <confidence>2</confidence>
+      <noteref hlink="_103836f2c18071c63857d65afa90"/>
       <noteref hlink="_d486e72b46378fb12600ba953f9"/>
       <noteref hlink="_d486e867fc518e489d1e81cff93"/>
       <sourceref hlink="_d486e70321a5199be80c2086410"/>
@@ -37152,9 +37181,11 @@
       <noteref hlink="_d48754415d318b818aead5ad390"/>
       <sourceref hlink="_d4875231e0d7e1f7dc07a62504"/>
     </citation>
-    <citation handle="_d48756859cf7ea45b89fff57a44" change="1460486925" id="C0168">
+    <citation handle="_d48756859cf7ea45b89fff57a44" change="1783362513" id="C0168">
+      <datestr val=""/>
       <page>99</page>
       <confidence>2</confidence>
+      <noteref hlink="_103836e3b6293201429ba0c824de"/>
       <noteref hlink="_d48755326391e14ae66f35e2c9e"/>
       <noteref hlink="_d4875663ada53fe6a3abab29f93"/>
       <sourceref hlink="_d0076156c69697796a7"/>
@@ -37166,9 +37197,11 @@
       <noteref hlink="_d48759e3027d997d5333dbe01b"/>
       <sourceref hlink="_d0075a5702010d472eb"/>
     </citation>
-    <citation handle="_d4876040eb2274efa4c44dcb959" change="1460487848" id="C0170">
+    <citation handle="_d4876040eb2274efa4c44dcb959" change="1783362485" id="C0170">
+      <datestr val=""/>
       <page>492</page>
       <confidence>2</confidence>
+      <noteref hlink="_103836db62ce6615c87278682629"/>
       <noteref hlink="_d4875f0c1e1505a54dd26f7ffa3"/>
       <noteref hlink="_d4876030bae13bc7240ebf86f86"/>
       <sourceref hlink="_d0075a5702010d472eb"/>
@@ -37180,31 +37213,42 @@
       <noteref hlink="_d487690cd216cd2d32bf761eb10"/>
       <sourceref hlink="_d4875231e0d7e1f7dc07a62504"/>
     </citation>
-    <citation handle="_d4876d4979455909a2cec5e4f98" change="1508627312" id="C0172">
+    <citation handle="_d4876d4979455909a2cec5e4f98" change="1783362305" id="C0172">
+      <datestr val=""/>
       <page>651</page>
       <confidence>2</confidence>
+      <noteref hlink="_103836c3ada861e2c210e83e382"/>
       <noteref hlink="_d4876c2490148bee16086db03"/>
       <noteref hlink="_d4876d318a67bf334317342d9e2"/>
       <sourceref hlink="_d486e70321a5199be80c2086410"/>
     </citation>
-    <citation handle="_d4876f1d3e246cac6af6555bd2" change="1460488436" id="C0173">
+    <citation handle="_d4876f1d3e246cac6af6555bd2" change="1783362281" id="C0173">
+      <datestr val=""/>
       <page>24-25</page>
       <confidence>2</confidence>
+      <noteref hlink="_103836c028d75f32d9c395dc0831"/>
       <noteref hlink="_d4876e3695c323162fe531caa22"/>
       <noteref hlink="_d4876f128b058c63bb6b0f1adf4"/>
       <sourceref hlink="_d4876e0113f7c849743287e8aea"/>
     </citation>
-    <citation handle="_d487914a71674447065979d86e" change="1508688480" id="C0174">
-      <page>351</page>
+    <citation handle="_d487914a71674447065979d86e" change="1783366236" id="C0174">
+      <datestr val=""/>
+      <page>I Aa:20 / 351</page>
       <confidence>2</confidence>
+      <noteref hlink="_103838e0607d47b5bb7dee22d8c"/>
       <noteref hlink="_d48791444a737715cc7ff97045c"/>
+      <noteref hlink="_103838de106b2e7723335e863db8"/>
+      <noteref hlink="_103839186a887887d3b35cebc8fe"/>
       <sourceref hlink="_d48790f1fe030560eabe9a00489"/>
     </citation>
-    <citation handle="_d48797896aadc5277e29913f1a" change="1460579523" id="C0175">
+    <citation handle="_d48797896aadc5277e29913f1a" change="1783365603" id="C0175">
       <dateval val="1898"/>
       <page>55</page>
       <confidence>2</confidence>
+      <noteref hlink="_103838afd60b3ef933d4d9c6dff6"/>
+      <noteref hlink="_103838b54be025821d9797c4dbec"/>
       <noteref hlink="_d48793c269d7853850afc08c1e9"/>
+      <noteref hlink="_103838b9670b5f07410b3a0b629a"/>
       <noteref hlink="_d48ad3767222f0924f45d5ecd73"/>
       <sourceref hlink="_d48793800125d4065dbe9fe2acf"/>
     </citation>
@@ -43257,9 +43301,11 @@
       <noteref hlink="_e38da7e8a7948876c49920c7851"/>
       <sourceref hlink="_e38da7a48d275b71d83ab303b9d"/>
     </citation>
-    <citation handle="_e725052fa0192a9307d405e326" change="1588413882" id="C0095">
+    <citation handle="_e725052fa0192a9307d405e326" change="1783349850" id="C0095">
+      <datestr val=""/>
       <page>453</page>
       <confidence>2</confidence>
+      <noteref hlink="_10382f5762b2109e56c29c2cb857"/>
       <noteref hlink="_e7250529e446e87f6337ca0afc2"/>
       <noteref hlink="_e72507328b4589d09ec6eb5ebb6"/>
       <sourceref hlink="_e72504e86343d1f7fe689079b77"/>
@@ -48867,6 +48913,11 @@
     </source>
     <source handle="_103808bcf4f8711d6be2eab761a2" change="1783285099" id="S0736">
       <stitle>Tuusula Rikosluettelo 1882-1921</stitle>
+      <sauthor>Tuusulan seurakunta</sauthor>
+      <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
+    </source>
+    <source handle="_10383787ca327f06dc2f9d331b8a" change="1783363585" id="S0737">
+      <stitle>Tuusula Muuttokirjoja 1884-1888</stitle>
       <sauthor>Tuusulan seurakunta</sauthor>
       <reporef hlink="_cdea2ba7429330c4a60" medium="Book"/>
     </source>
@@ -56679,6 +56730,190 @@ synt 12/6 1880             päivää vankeudessa. Hovioikeus on Marraskuun 12 p:
         <range start="0" end="449"/>
       </style>
     </note>
+    <note handle="_10382f5762b2109e56c29c2cb857" change="1783349846" id="N3907" type="Citation">
+      <text>Tuusula rippikirja 1910-1919 (AP_I I Aa:18)  Sivu 453 Jokela ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33307&amp;pnum=455 / Viitattu 06.07.2026</text>
+    </note>
+    <note handle="_10382f9a224e871ca8384f82714" change="1783350284" id="N3908" type="Citation">
+      <text>Työmies, 05.06.1908, nro 128, s. 4
+https://digi.kansalliskirjasto.fi/sanomalehti/binding/729913?page=4
+Kansalliskirjaston digitaaliset aineistot
+Viitattu:06.07.2026
+</text>
+    </note>
+    <note handle="_10382f9d1dbdb16f49b59b13bc9" change="1783350303" id="N3909" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/729913?page=4</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/sanomalehti/binding/729913?page=4">
+        <range start="0" end="67"/>
+      </style>
+    </note>
+    <note handle="_10383053ea372e97c8f351329d4d" change="1783351501" id="N3910" type="Transcript" format="1">
+      <text>4-N:o 125-1908          TYÖMIES          Perjantaina 5 p. Kesäkuuta
+
+[...]
+- Wirkawalta rehottaa Jo-
+kelan asemalla. Liikennetirehtööri
+Bernerin poika, joka on kirjurina
+Jokelan asemalla, osotti tänään ko-
+meuttaan eräälle matkustawaiselle, 
+nimellä Teodor Pohja. Tämä pyysi
+Pitäjänmäkeen pilettiä, mutta herra
+liikennetirehtöörin poika, joka lie ol-
+lut tapauksen sattuessa &quot;komliseera-
+tussa tilassa&quot;, tiuskasi, &quot;ei ole sel-
+laista pilettiä&quot;. - &quot;No mutta olen
+minä ennen saanut&quot; - koetti Pohja
+selittää. - &quot;En anna paitsi Socken-
+backaan&quot; - riiteli waan kirjuri. - 
+Ja kun Pohja koetti selittää, ei-
+köpä &quot;Sockenbackenin&quot; nimi ole suo-
+meksi Pitäjänmäki, niin hyökkäsi mai-
+nittu herrasmies konttoristaan ulos
+ja komensi Pohjan edellään kontto-
+riin, jossa tarttui rintapieliin kiinni
+ja rawisti. Pohja lähti ulos hie-
+man pelästyneenä tämmösestä liken-
+telemisestä ja silloin komensi Berner
+paikkakunnan poliisin viemään Poh-
+jaa aiwan ulos. Poliisi kumminkin
+kieltäytyi karjuwaa kirjuria tottele-
+masta, sanoen Pohjan olewan kaikin
+puolin syyttömän.
+  Wasta kun juna oli tullut asemal-
+le, sai Pohja piletin &quot;Sockenback-
+niin&quot;.
+  Kyllä on wirkawalta rehottamas-
+sa, kun jo aseman kirjuri uskaltaa
+rauhallisia matkustavaisia kohdella
+kuin koiria. Mutta tämä kirjuri on-
+kin saanut kasvatuksensa suuren wir-
+kaherran ruotsalaisessa kodissa ja
+kehittynyt myöhemmin hywille tawoi-
+le kaartin luutnattina.</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="1404"/>
+      </style>
+    </note>
+    <note handle="_103836c028d75f32d9c395dc0831" change="1783362277" id="N3911" type="Citation">
+      <text>Hausjärvi muuttaneet 1892-1908 (MKO499-502)  Sivu 24 1893, 1894 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=16972&amp;pnum=12 / Viitattu 06.07.2026</text>
+    </note>
+    <note handle="_103836c3ada861e2c210e83e382" change="1783362300" id="N3912" type="Citation">
+      <text>Hausjärvi rippikirja 1885-1894 (MKO114-146)  Sivu 651 Ridasjärvi Nyby, Stenbakka ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=16456&amp;pnum=614 / Viitattu 06.07.2026</text>
+    </note>
+    <note handle="_103836db62ce6615c87278682629" change="1783362456" id="N3913" type="Citation">
+      <text>Tuusula rippikirja 1890-1899 (MKO1-24)  Sivu 492 Granhult torp ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=12977&amp;pnum=467 / Viitattu 06.07.2026</text>
+    </note>
+    <note handle="_103836e3b6293201429ba0c824de" change="1783362510" id="N3914" type="Citation">
+      <text>Tuusula rippikirja 1880-1889 (MKO1-13)  Sivu 99 Gustavelunds Gröndahls torp ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=12976&amp;pnum=100 / Viitattu 06.07.2026</text>
+    </note>
+    <note handle="_103836f2c18071c63857d65afa90" change="1783362609" id="N3915" type="Citation">
+      <text>Hausjärvi rippikirja 1885-1894 (MKO114-146)  Sivu 653 Ridasjärvi Nyby, Tiensuu ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=16456&amp;pnum=616 / Viitattu 06.07.2026</text>
+    </note>
+    <note handle="_1038370048ca1ce44a0add57bf57" change="1783362697" id="N3916" type="Citation">
+      <text>Tuusula rippikirja 1880-1889 (MKO1-13)  Sivu 152 Jordtorpare ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=12976&amp;pnum=154 / Viitattu 06.07.2026</text>
+    </note>
+    <note handle="_10383767e7a9467c09e30b507782" change="1783363376" id="N3917" type="Transcript" format="1">
+      <text>Inflyttade personer 1886
+
+[November]
+117  21.  inh. Carl Wilhelm Annasson  [m]  Nurmo  Paijala  93
+
+[toinen etunimi väärin po. Viktor, lähtöpaikka väärin po. Nurmijärvi]</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="169"/>
+      </style>
+    </note>
+    <note handle="_103837760d795bb8d771a6c92cd6" change="1783363469" id="N3918" type="Citation">
+      <text>Tuusula rippikirja 1873-1882 (AP I Aa:12)  Inflyttade år 1886. Utflyttade år 1886 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33301&amp;pnum=415 / Viitattu 06.07.2026</text>
+    </note>
+    <note handle="_1038378bc31076f5527efd359d28" change="1783363611" id="N3919" type="Citation">
+      <text>Tuusula muuttokirjoja 1884-1888 (AP I Jba:15)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=37906&amp;pnum=296 / Viitattu 06.07.2026</text>
+    </note>
+    <note handle="_1038378e95271aa898d8e8402e" change="1783363638" id="N3920" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=37906&amp;pnum=296</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=37906&amp;pnum=296">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_1038379471ed5568498fd532d768" change="1783363668" id="N3921" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=37906&amp;pnum=297</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=37906&amp;pnum=297">
+        <range start="0" end="78"/>
+      </style>
+    </note>
+    <note handle="_103837fe2af9167c5da5973f9fcf" change="1783364421" id="N3922" type="Transcript" format="1">
+      <text>Porvoon Hippakunta
+
+Muutto-kirja No 72 W:na 1886
+
+Itsellinen Kaarle Viktor Annanpoika, Nukarista;
+Syntynyt täällä 30/3 1863;
+
+Muuttaa nyt Tuusulaan;
+
+Lukee ulkoa [...] tyydyttävästi;
+Käsittää Kristin opin yksinkertaisesti;
+[Läsnä ollut] Herrab pyh. Ehtoollisella viimeksi 13/6 86;
+Maineensa puolesta puhdas;
+
+Avioliittoon esteetön nuorimies;
+
+Ruumiin vikoja vikaperä käsi;
+Rokotettu on hän;
+
+Nurmijärvi Lokakuun 26 p. 1886
+Viktor Oksberg
+w.t. Kirkkoh.
+
+Drg å Brandberg
+Paijala p. 152
+
+
+[kääntöpuoli]
+
+
+No 117 1886</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="513"/>
+      </style>
+    </note>
+    <note handle="_103838afd60b3ef933d4d9c6dff6" change="1783365526" id="N3923" type="Citation">
+      <text>Räisälän seurakunnan arkisto - I Eb:1 Vihittyjen luettelot 1867-1900, jakso 59, sivu 55: 1898; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=9449184208&amp;aineistoId=1229341371 / Viitattu 6.7.2026</text>
+    </note>
+    <note handle="_103838b54be025821d9797c4dbec" change="1783365561" id="N3924" type="Citation">
+      <text>Räisälän seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I E Kuulutettujen ja vihittyjen luettelot. I Eb Vihittyjen luettelot. I Eb:1 Vihittyjen luettelot  (1867-1900). Tiedosto 59. Kansallisarkisto. Viitattu 6.7.2026.</text>
+    </note>
+    <note handle="_103838b9670b5f07410b3a0b629a" change="1783365588" id="N3925" type="Link">
+      <text>https://digihakemisto.net/item/1229341371/9449184208/59</text>
+      <style name="link" value="https://digihakemisto.net/item/1229341371/9449184208/59">
+        <range start="0" end="55"/>
+      </style>
+    </note>
+    <note handle="_103838de106b2e7723335e863db8" change="1783365829" id="N3926" type="Link">
+      <text>https://digihakemisto.net/item/1228740947/9450012204/58</text>
+      <style name="link" value="https://digihakemisto.net/item/1228740947/9450012204/58">
+        <range start="0" end="55"/>
+      </style>
+    </note>
+    <note handle="_103838e0607d47b5bb7dee22d8c" change="1783365844" id="N3927" type="Citation">
+      <text>Räisälän seurakunnan arkisto - I Aa:20 Rippikirjat, Näpinlahti - Virtelä 1890-1899, jakso 58, sivu 351: Pudoria Palvelusväki; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=9450012204&amp;aineistoId=1228740947 / Viitattu 6.7.2026</text>
+    </note>
+    <note handle="_103839186a887887d3b35cebc8fe" change="1783366211" id="N3928" type="Transcript" format="1">
+      <text>351          Pudoria
+
+Palvelusväki
+[...]
+Katso lastenkirjasta 351
+Pp Maria Heikint. Rakkolainen  18 15/8 83  Räisälä  Käkisalmesta 1897:34  Hausjärvelle 1898:2 {Aviol. kuul. No1v.1898, ei vihitty, vaan laillisesti
+Pp Maria Heikint, Rakkolainen  18 7/12 78  &quot;        96 TKs.175            Hausjärvelle 1898:2 {moitteetta kuulutettu loisen Hausjärveltä Kaarle
+                                                                                              {Vihtori Laaksosen kanssa.
+</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="479"/>
+      </style>
+      <style name="strikethrough">
+        <range start="66" end="159"/>
+      </style>
+    </note>
     <note handle="_cb589cce30a65dd9031" change="1336471289" id="N0329" type="General">
       <text>Bosatt i Grabbens Lappvik</text>
     </note>
@@ -58713,21 +58948,24 @@ Lokak.		[26]	72		Itsell. Kaarle Viktor Annanpoika	1/- 		Tuusulaan	426		naimis. v
         <range start="0" end="77"/>
       </style>
     </note>
-    <note handle="_d486c4779374a65c8c3a5738c1" change="1476606271" id="N0307" type="Transcript">
+    <note handle="_d486c4779374a65c8c3a5738c1" change="1783362681" id="N0307" type="Transcript" format="1">
       <text>Paijala
 Jordtorpare Tolkinoja
 
-Drg	Carl Victor Annasson	30/3 1853*	Nurmijärvi	derifr. m.b No 117.86	Inskrif i Hausjärvi	Hausjärvi m.b No 96.87
+Drg Carl Victor Annasson    30/3 1853*  Nurmijärvi  derifr. m.b No 117.86  Inskrif i Hausjärvi  Hausjärvi m.b No 96.87
 
 * 1853 vedetty yli, korjattu sukunimen perään 1863</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="201"/>
+      </style>
     </note>
     <note handle="_d486c74572435095796e0606e90" change="1460470837" id="N0308" type="Source Note">
       <text>Löytyy Rippikirja 1873-1882  lopusta</text>
     </note>
-    <note handle="_d486c872a847be96aacc7582030" change="1460470960" id="N0309" type="Link">
-      <text>http://www.sukuhistoria.fi/sshy/kirjat/Kirkonkirjat/tuusula/rippikirja_1873-1882_mko1-14/390.htm</text>
-      <style name="link" value="http://www.sukuhistoria.fi/sshy/kirjat/Kirkonkirjat/tuusula/rippikirja_1873-1882_mko1-14/390.htm">
-        <range start="0" end="96"/>
+    <note handle="_d486c872a847be96aacc7582030" change="1783363488" id="N0309" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33301&amp;pnum=415</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33301&amp;pnum=415">
+        <range start="0" end="78"/>
       </style>
     </note>
     <note handle="_d486ccd96b25c2ad0e54657dd7f" change="1460471421" id="N0310" type="Link">
@@ -58746,13 +58984,16 @@ Drg	Carl Victor Annasson	30/3 1853*	Nurmijärvi	derifr. m.b No 117.86	Inskrif i 
         <range start="0" end="77"/>
       </style>
     </note>
-    <note handle="_d486e867fc518e489d1e81cff93" change="1460474577" id="N0313" type="Transcript">
+    <note handle="_d486e867fc518e489d1e81cff93" change="1783362594" id="N0313" type="Transcript" format="1">
       <text>653
 Ridasjärvi Nyby Nättbohl
 Tiensuu Skattehemman
 
-Dreng	Karl Viktor Annasson Laaksonen	30/3 1865	N:järvi	88.?? 72 Thusby
+Dreng Karl Viktor Annasson Laaksonen  30/3 1865  N:järvi  88.?? 72 Thusby
 Felaktig i venstra handen	89 No 88 Thusby</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="166"/>
+      </style>
     </note>
     <note handle="_d486ec74e956642847be3504f71" change="1460474736" id="N0314" type="Link">
       <text>http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=16971&amp;pnum=5</text>
@@ -58832,11 +59073,14 @@ Seurakunnasta muuttaneet vuonna 18[93]
         <range start="0" end="77"/>
       </style>
     </note>
-    <note handle="_d4876d318a67bf334317342d9e2" change="1460488235" id="N0328" type="Transcript">
+    <note handle="_d4876d318a67bf334317342d9e2" change="1783362400" id="N0328" type="Transcript" format="1">
       <text>Ridasjärvi Nyby Nattbohl
 Stenbacka
 
-Its.	Karl Viktor	Laaksonen	30/4 1865	N:järvi	9/12 93 No 126 Tuusula	Kelpaamaton	UK s 968</text>
+Its. Karl Viktor Laaksonen    30/4 1865  N:järvi 9/12 93 No 126 Tuusula    Kelpaamaton  UK s 968</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="132"/>
+      </style>
     </note>
     <note handle="_d4876e3695c323162fe531caa22" change="1460488342" id="N0330" type="Link">
       <text>http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=16972&amp;pnum=12</text>
@@ -58859,14 +59103,10 @@ https://astia.narc.fi/uusiastia/viewer/?fileId=5767740706&amp;aineistoId=1228740
         <range start="46" end="125"/>
       </style>
     </note>
-    <note handle="_d48793c269d7853850afc08c1e9" change="1460492279" id="N0333" type="Link">
-      <text>http://digi.narc.fi/digi/view.ka?kuid=2101256
-https://astia.narc.fi/uusiastia/viewer/?fileId=5767760959&amp;aineistoId=1229341371</text>
-      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=2101256">
-        <range start="0" end="45"/>
-      </style>
-      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5767760959&amp;aineistoId=1229341371">
-        <range start="46" end="125"/>
+    <note handle="_d48793c269d7853850afc08c1e9" change="1783365511" id="N0333" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=9449184208&amp;aineistoId=1229341371</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=9449184208&amp;aineistoId=1229341371">
+        <range start="0" end="79"/>
       </style>
     </note>
     <note handle="_d48acc7931f60b3c0e74bcd11d2" change="1460578756" id="N0334" type="Link">
@@ -58879,18 +59119,19 @@ https://astia.narc.fi/uusiastia/viewer/?fileId=5767760959&amp;aineistoId=1229341
       <text>Hausjärven seurakuntaan muuttaneet wuonna 1898
 8.	[Helmik]	19	20/I	Räisälä	968	Piika Maria Rakkolainen	-|1</text>
     </note>
-    <note handle="_d48ad3767222f0924f45d5ecd73" change="1460579489" id="N0336" type="Transcript" format="1">
+    <note handle="_d48ad3767222f0924f45d5ecd73" change="1783365479" id="N0336" type="Transcript" format="1">
       <text>1898
-	vigdelse-	De vigdes namn				Stånd och karakter				Förratnings-		Pag. i kyrko-
-	dag																mannens namn		boken
 
-32	?		Kaarlo Viktor Laaksonen	Lois Hausjärveltä, naimaton					1.	–
-19			Maria Hnt. Rakkolainen		Palv. piika, Pudoria, &quot;							351
-																	{Todist. ja muut
-																	{tokirja Hausjär
-																	{velle 22/1 98</text>
-      <style name="fontsize" value="8">
-        <range start="16" end="133"/>
+32  ?  Kaarlo Viktor Laaksonen    Lois Hausjärveltä, naimaton          1.    –
+19     Maria Hnt. Rakkolainen     Palv. piika, Pudoria, &quot;                    351
+                                                             {Todist. ja muut
+                                                             {tokirja Hausjär
+                                                             {velle 22/1 98
+
+
+[huom. vihkipäivän kohdalla kysymysmerkki]</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="442"/>
       </style>
     </note>
     <note handle="_d48da955fdb6b58842e16bebb1e" change="1460655602" id="N0337" type="Link">
