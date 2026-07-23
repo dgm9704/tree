@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE database PUBLIC "-//Gramps//DTD Gramps XML 1.7.1//EN"
-"http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
-<database xmlns="http://gramps-project.org/xml/1.7.1/">
+<!DOCTYPE database PUBLIC "-//Gramps//DTD Gramps XML 1.7.2//EN"
+"http://gramps-project.org/xml/1.7.2/grampsxml.dtd">
+<database xmlns="http://gramps-project.org/xml/1.7.2/">
   <header>
-    <created date="2024-02-15" version="5.1.6"/>
+    <created date="2026-07-23" version="6.0.8"/>
     <researcher>
       <resname>John Nordberg</resname>
     </researcher>
@@ -13,6 +13,13 @@
     <format number="-1" name="Primary[sur] " fmt_str="primary[sur] " active="1"/>
   </name-formats>
   <events>
+    <event handle="_103b6db984853bf96aaee2ce254c" change="1784743280" id="E0014">
+      <type>Burial</type>
+      <datestr val=""/>
+      <place hlink="_103b6db01fe2505ef8992a6ba83f"/>
+      <citationref hlink="_103b6db9173f4019b12e4ead90bb"/>
+      <citationref hlink="_103b6de3dcfc1c1ee5cf141c57eb"/>
+    </event>
     <event handle="_cb589cc7fdd37b0f6f4" change="1708010693" id="E0010">
       <type>Birth</type>
       <dateval val="1907-02-27"/>
@@ -176,9 +183,10 @@
       <citationref hlink="_defa3a1e9bb53987ceaa11f20cb"/>
       <citationref hlink="_df1c587e5ce6cb0d7686e8b8c8"/>
     </event>
-    <event handle="_cb589cc8a732dc47d78" change="1707779583" id="E0133">
+    <event handle="_cb589cc8a732dc47d78" change="1784742775" id="E0133">
       <type>Death</type>
       <dateval val="1942-06-29"/>
+      <place hlink="_103b6d9709a82a7af494ff10f28c"/>
       <citationref hlink="_cfbfaaa89205ee686f9"/>
       <citationref hlink="_defa5b370ab4b54c1e89655103"/>
       <citationref hlink="_df1c587e5ce6cb0d7686e8b8c8"/>
@@ -1137,9 +1145,9 @@
       <place hlink="_df1c48cac856c80b54de6a3a824"/>
       <citationref hlink="_df1c4a9c4e6c1e9e5933f641c0"/>
     </event>
-    <event handle="_df1c5d0173db304041e86af623" change="1533205719" id="E0263">
+    <event handle="_df1c5d0173db304041e86af623" change="1784741476" id="E0263">
       <type>Residence</type>
-      <dateval val="1946-12-18" type="after"/>
+      <dateval val="1946-12-18" type="from"/>
       <place hlink="_df1c5cd9e705371c92cc322e533"/>
       <citationref hlink="_df1c587e5ce6cb0d7686e8b8c8"/>
     </event>
@@ -1190,9 +1198,9 @@
       <place hlink="_df1cc28cd3723ce1310c2eafaef"/>
       <citationref hlink="_df1cc0998d35825d9515eb9afe1"/>
     </event>
-    <event handle="_df1cc35b9e676d4c26823d0ccb9" change="1533216435" id="E0272">
+    <event handle="_df1cc35b9e676d4c26823d0ccb9" change="1784741410" id="E0272">
       <type>Residence</type>
-      <dateval val="1980-11-18" type="after"/>
+      <dateval val="1980-11-18" type="from"/>
       <place hlink="_df1c48cac856c80b54de6a3a824"/>
       <citationref hlink="_df1cc0998d35825d9515eb9afe1"/>
     </event>
@@ -1228,10 +1236,11 @@
       <description>SS Arabic</description>
       <citationref hlink="_f88648851f338a63f3a37adef16"/>
     </event>
-    <event handle="_df2135e86284505d3eea090b192" change="1707775154" id="E0278">
+    <event handle="_df2135e86284505d3eea090b192" change="1784836787" id="E0278">
       <type>Arrival</type>
       <dateval val="1913-02-08"/>
       <place hlink="_df2135e3a917c565828ef1f0ab4"/>
+      <citationref hlink="_103ba5a010c118661ae0cc1e796d"/>
     </event>
     <event handle="_df213bb0d804dd10855c084c8cf" change="1533339826" id="E0279">
       <type>Arrival</type>
@@ -1496,7 +1505,7 @@
       <childof hlink="_cb589cc821d1ec9f954"/>
       <childof hlink="_cb589cc7ff015b9b45f"/>
     </person>
-    <person handle="_cb589cc8a67141d3c50" change="1593955029" id="I0166">
+    <person handle="_cb589cc8a67141d3c50" change="1784743286" id="I0166">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Kaino Arvo Päiviö Iidanpoika</first>
@@ -1504,6 +1513,7 @@
       </name>
       <eventref hlink="_cb589cc8a6b4de5dc52" role="Primary"/>
       <eventref hlink="_cb589cc8a732dc47d78" role="Primary"/>
+      <eventref hlink="_103b6db984853bf96aaee2ce254c" role="Primary"/>
       <childof hlink="_cb589cc821d1ec9f954"/>
       <childof hlink="_cb589cc7ff015b9b45f"/>
     </person>
@@ -2861,6 +2871,30 @@
     </family>
   </families>
   <citations>
+    <citation handle="_103b6db9173f4019b12e4ead90bb" change="1784742996" id="C0080">
+      <datestr val=""/>
+      <page>03-00-071-08-00131 / MATARAINEN ARMAS KAINO</page>
+      <confidence>2</confidence>
+      <noteref hlink="_103b6db7c784d618e73131195ae"/>
+      <sourceref hlink="_103b6db390ca721be049f3d268a"/>
+    </citation>
+    <citation handle="_103b6de3dcfc1c1ee5cf141c57eb" change="1784743276" id="C0081">
+      <datestr val=""/>
+      <page>32xB20bWTR78NfszE106 / ARMAS KAINO MATARAINEN</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_103b6ddd7a1c775f05ba00c30866"/>
+    </citation>
+    <citation handle="_103ba5a010c118661ae0cc1e796d" change="1784837353" id="C0082">
+      <dateval val="1913"/>
+      <page>190 - v. 323-324 Jan 1, 1913 - Feb 28, 1913 / 803,804</page>
+      <confidence>2</confidence>
+      <noteref hlink="_103ba54985454eb1f1f57a4471d1"/>
+      <noteref hlink="_103ba54df2b6373057ac19c52801"/>
+      <noteref hlink="_103ba5f09f1468bb9446b0c312f9"/>
+      <noteref hlink="_103ba5f32f9c48dac59252085cda"/>
+      <noteref hlink="_103ba59fd06e3f74d9ecd5146902"/>
+      <sourceref hlink="_103ba541e73a1a17fb18eb338ad5"/>
+    </citation>
     <citation handle="_cdcfc2532ac0a42deee" change="1708011199" id="C0025">
       <dateval val="1881-05-23"/>
       <page>8</page>
@@ -3249,11 +3283,12 @@
       <noteref hlink="_d17c6842a0a69853642"/>
       <sourceref hlink="_d1797875951238368b4"/>
     </citation>
-    <citation handle="_defa3a1e9bb53987ceaa11f20cb" change="1708011411" id="C0058">
+    <citation handle="_defa3a1e9bb53987ceaa11f20cb" change="1784741757" id="C0058">
+      <datestr val=""/>
       <page>622-623</page>
       <confidence>2</confidence>
       <noteref hlink="_f88c60ae8054cd9f2f38a5de16a"/>
-      <noteref hlink="_defa3a195b351304acba848da58"/>
+      <noteref hlink="_103b6cf8c37f1f0094f7ce31ba13"/>
       <noteref hlink="_defa3dbe260680ae1371403d28a"/>
       <sourceref hlink="_defa39ccc5b79669c92a4f7dc09"/>
     </citation>
@@ -3349,9 +3384,11 @@
       <noteref hlink="_f88396c3e517ba3f20634cf9092"/>
       <sourceref hlink="_e171484c9fc103b3a6b3abd68ec"/>
     </citation>
-    <citation handle="_e7f36c9c688255009aa2da164db" change="1593954912" id="C0003">
+    <citation handle="_e7f36c9c688255009aa2da164db" change="1784745054" id="C0003">
+      <datestr val=""/>
       <page>762-763</page>
       <confidence>2</confidence>
+      <noteref hlink="_103b6ee3c03c228b38630ad954ce"/>
       <noteref hlink="_e7f36c90d183853967405f2335f"/>
       <noteref hlink="_e7f372918a31036e87a4065d88a"/>
       <sourceref hlink="_e7f36c324d76b68d449966ffe84"/>
@@ -3413,6 +3450,19 @@
     </citation>
   </citations>
   <sources>
+    <source handle="_103b6db390ca721be049f3d268a" change="1784742959" id="S0053">
+      <stitle>Hautahaku</stitle>
+    </source>
+    <source handle="_103b6ddd7a1c775f05ba00c30866" change="1784743234" id="S0054">
+      <stitle>Hautakivi Matarainen Malmi</stitle>
+      <noteref hlink="_103b6dd24ba937a6d6baa959d22a"/>
+      <noteref hlink="_103b6ddd3cbce4ea1f3a6c07b03"/>
+      <reporef hlink="_103b6dceb70b461105271fe1437" medium="Book"/>
+    </source>
+    <source handle="_103ba541e73a1a17fb18eb338ad5" change="1784836167" id="S0055">
+      <stitle>Massachusetts, Suffolk, Boston Passenger Lists, 1891-1943</stitle>
+      <reporef hlink="_f88640bb670471c947dff443ecb" medium="Book"/>
+    </source>
     <source handle="_cdcfc23e89e2b9f42c7" change="1439140669" id="S0025">
       <stitle>Toivakka syntyneet 1880-1885</stitle>
       <sauthor>Toivakan seurakunta</sauthor>
@@ -3680,6 +3730,13 @@
     </source>
   </sources>
   <places>
+    <placeobj handle="_103b6d9709a82a7af494ff10f28c" change="1784742772" id="P0009" type="Village">
+      <pname value="Lempaala"/>
+    </placeobj>
+    <placeobj handle="_103b6db01fe2505ef8992a6ba83f" change="1784742937" id="P0010" type="Cemetery">
+      <pname value="Malmin hautausmaa"/>
+      <placeref hlink="_df1c48cac856c80b54de6a3a824"/>
+    </placeobj>
     <placeobj handle="_cb589cc82045ad6c741" change="1439365883" id="P0004" type="Building">
       <pname value="Hakala"/>
       <placeref hlink="_cb589ccd2d748d761bd"/>
@@ -3940,6 +3997,10 @@
     </placeobj>
   </places>
   <repositories>
+    <repository handle="_103b6dceb70b461105271fe1437" change="1784743137" id="R0008">
+      <rname>Suomen kirkot ja hautausmaat</rname>
+      <type>Library</type>
+    </repository>
     <repository handle="_cfa6fb12c7c665292c0" change="1593954235" id="R0000">
       <rname>Arkistolaitos Digitaaliarkisto</rname>
       <type>Archive</type>
@@ -3978,6 +4039,85 @@
     </repository>
   </repositories>
   <notes>
+    <note handle="_103b6cf8c37f1f0094f7ce31ba13" change="1784741735" id="N0122" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=9847953557&amp;aineistoId=1203975550</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=9847953557&amp;aineistoId=1203975550">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_103b6db7c784d618e73131195ae" change="1784742987" id="N0123" type="Source text" format="1">
+      <text>MATARAINEN ARMAS KAINO
+1916 - 1942
+Helsingin seurakuntayhtymä, Malmin hautausmaa
+Syntymäaika	03.07.1916
+Kuolinaika	29.06.1942
+Hautausmaa	
+Malmin hautausmaa
+Malmin kalmistotie
+00700 Helsinki
+Alue	00
+Kortteli	071
+Rivi	08
+Paikkanumero	00131</text>
+    </note>
+    <note handle="_103b6dd24ba937a6d6baa959d22a" change="1784743161" id="N0124" type="Link">
+      <text>https://suomenkiha.fi/grave/32xB20bWTR78NfszE106</text>
+      <style name="link" value="https://suomenkiha.fi/grave/32xB20bWTR78NfszE106">
+        <range start="0" end="48"/>
+      </style>
+    </note>
+    <note handle="_103b6ddd3cbce4ea1f3a6c07b03" change="1784743233" id="N0125" type="Transcript" format="1">
+      <text>      SOTAMIES
+    ARMAS  KAINO
+     MATARAINEN
+* 3.7.1916  +29.6.1942</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="70"/>
+      </style>
+    </note>
+    <note handle="_103b6ee3c03c228b38630ad954ce" change="1784744953" id="N0126" type="Citation">
+      <text>Hiitolan seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A Pääkirjat hakemistoineen. I Ab Lastenkirjat. I Ab:9 Lastenkirjat  (1910-1919). Tiedosto 389. Kansallisarkisto. Viitattu 22.7.2026.</text>
+    </note>
+    <note handle="_103ba54985454eb1f1f57a4471d1" change="1784836217" id="N0127" type="Citation">
+      <text>&quot;Massachusetts, Suffolk, Boston Passenger Lists, 1891-1943,&quot; database with images, FamilySearch (https://familysearch.org/ark:/61903/3:1:33S7-9YW9-94F?cc=1923995&amp;wc=M6B4-SMS%3A219508901 : 20 May 2014), 190 - v. 323-324 Jan 1, 1913 - Feb 28, 1913 &gt; image 803 of 1225; citing NARA microfilm publication T843 (Washington, D.C.: National Archives and Records Administration, n.d.).</text>
+    </note>
+    <note handle="_103ba54df2b6373057ac19c52801" change="1784836246" id="N0128" type="Link">
+      <text>https://www.familysearch.org/ark:/61903/3:1:33S7-9YW9-94F?cc=1923995&amp;wc=13252695&amp;lang=en&amp;i=802&amp;groupId=1923995</text>
+      <style name="link" value="https://www.familysearch.org/ark:/61903/3:1:33S7-9YW9-94F?cc=1923995&amp;wc=13252695&amp;lang=en&amp;i=802&amp;groupId=1923995">
+        <range start="0" end="110"/>
+      </style>
+    </note>
+    <note handle="_103ba59fd06e3f74d9ecd5146902" change="1784837273" id="N0129" type="Transcript" format="1">
+      <text>LIST OR MANIFEST OF ALIEN PASSENGERS FOR THE UNITED
+
+S.S Arabic sailing from Liverpool, January 28th, 1913
+
+[38993]9 5  Kähkönen Juho  34  [male]  [married]  Laborer  [read]  [write]  [Finland]  [Finnish]  [Finland]  [Hiitola]  Wife: Ida Kähkönen Weijola  Hiitola          Minn Virginia
+
+[3899]40 6  Tolvanen Juho  24  [male]  [single]   do       do      do       do         do         do         do         Mother, Karoliina Tolvanen Weijola Hiitola  do   do
+
+[..]
+STATES IMMIGRATION OFFICER AT PORT OF ARRIVAL
+
+Arriving at Port of Boston 8 FEB 1913 
+
+5  [ticket]  [self]  $30  no  -  -  Friend Juho Laasonen Box 261 Virginia Minn  no  no  no  no  Good  no  5[feet] 7[inches]  do  do  Grey  [none]  [Finland]  Hiitola
+
+6  do        do      $25  no  -  -  Friend           do                         no  no  no  no  Good  no  5       4          do  do  do    do      do         do
+</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="881"/>
+      </style>
+    </note>
+    <note handle="_103ba5f09f1468bb9446b0c312f9" change="1784837312" id="N0130" type="Citation">
+      <text>&quot;Massachusetts, Suffolk, Boston Passenger Lists, 1891-1943,&quot; database with images, FamilySearch (https://familysearch.org/ark:/61903/3:1:33SQ-GYW9-TV?cc=1923995&amp;wc=M6B4-SMS%3A219508901 : 20 May 2014), 190 - v. 323-324 Jan 1, 1913 - Feb 28, 1913 &gt; image 804 of 1225; citing NARA microfilm publication T843 (Washington, D.C.: National Archives and Records Administration, n.d.).</text>
+    </note>
+    <note handle="_103ba5f32f9c48dac59252085cda" change="1784837329" id="N0131" type="Link">
+      <text>https://www.familysearch.org/ark:/61903/3:1:33SQ-GYW9-TV?cc=1923995&amp;wc=13252695&amp;lang=en&amp;i=803&amp;groupId=1923995</text>
+      <style name="link" value="https://www.familysearch.org/ark:/61903/3:1:33SQ-GYW9-TV?cc=1923995&amp;wc=13252695&amp;lang=en&amp;i=803&amp;groupId=1923995">
+        <range start="0" end="109"/>
+      </style>
+    </note>
     <note handle="_cdcfc0d83431addb821" change="1708010925" id="N0097" type="Link">
       <text>http://www.sukuhistoria.fi/sshy/kirjat/Kirkonkirjat/toivakka/syntyneet_1880-1885_mko1-2/8.htm</text>
     </note>
@@ -4687,32 +4827,31 @@ Lunastus [6] mk 												käännä
         <range start="0" end="2636"/>
       </style>
     </note>
-    <note handle="_e7f36c90d183853967405f2335f" change="1593954278" id="N0004" type="Link">
-      <text>http://digi.narc.fi/digi/view.ka?kuid=3169395
-https://astia.narc.fi/uusiastia/viewer/?fileId=5766340676&amp;aineistoId=1203908380</text>
-      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=3169395">
-        <range start="0" end="45"/>
-      </style>
-      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5766340676&amp;aineistoId=1203908380">
-        <range start="46" end="125"/>
+    <note handle="_e7f36c90d183853967405f2335f" change="1784744944" id="N0004" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=9847942877&amp;aineistoId=1203908380</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=9847942877&amp;aineistoId=1203908380">
+        <range start="0" end="79"/>
       </style>
     </note>
-    <note handle="_e7f372918a31036e87a4065d88a" change="1593954907" id="N0023" type="Transcript" format="1">
+    <note handle="_e7f372918a31036e87a4065d88a" change="1784745048" id="N0023" type="Transcript" format="1">
       <text>Weijala No 9			763
 
   Talp. Juho Kähkönen, s 1978, ja Iida Emiilia Matarainen, s 23/6 1881
 
-T. Rauha Katri                                        27/2 1907 Hiitola Wk.s.686 Uk.s.1160
-T. Irja Sanelma                                        2/4 1909   &quot;               &quot;
-P. Reino Kalervo                                   20/9 1910   &quot;
-T. Vieno Ilta Tuulikki                             11/4 1913   &quot;
-P. Pauli Voitto Olavi Matarainen	 6/7 1916   &quot;                                  vaimon äpärä
-P. Kaino Arvo Päiviö Matarainen    6/7 1916   &quot;                                  vaimon äpärä
-T. Kirsti Kyllikki                                      10/4 1919   &quot;
+T. Rauha Katri                    27/2 1907 Hiitola Wk.s.686 Uk.s.1160
+T. Irja Sanelma                    2/4 1909   &quot;               &quot;
+P. Reino Kalervo                  20/9 1910   &quot;
+T. Vieno Ilta Tuulikki            11/4 1913   &quot;
+P. Pauli Voitto Olavi Matarainen   6/7 1916   &quot;              vaimon äpärä
+P. Kaino Arvo Päiviö Matarainen    6/7 1916   &quot;              vaimon äpärä
+T. Kirsti Kyllikki                10/4 1919   &quot;
 
 Talp. Eemil Paavonp. Kähkönen  23/6 1899 Hiitola Wk.s.686
 Talp. Wäinö Paavonp. Kähkönen 22/8 1901   &quot;
 </text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="622"/>
+      </style>
     </note>
     <note handle="_f7fcf25cb7a126b215194798dc7" change="1704161062" id="N0079" type="Citation">
       <text>Hiitolan seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I C Syntyneiden ja kastettujen luettelot. I C:12 Syntyneiden ja kastettujen luettelot  (1901-1916). Tiedosto 112. Kansallisarkisto. Viitattu 2.1.2024.</text>
@@ -4909,10 +5048,10 @@ No 3 Soro
         <range start="0" end="66"/>
       </style>
     </note>
-    <note handle="_f883bf27f62693967b327e56704" change="1707779571" id="N0109" type="Link">
-      <text>https://digihakemisto.net/aineisto/2679156538</text>
-      <style name="link" value="https://digihakemisto.net/aineisto/2679156538">
-        <range start="0" end="45"/>
+    <note handle="_f883bf27f62693967b327e56704" change="1784741824" id="N0109" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=5660959061&amp;aineistoId=2679156538</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5660959061&amp;aineistoId=2679156538">
+        <range start="0" end="79"/>
       </style>
     </note>
     <note handle="_f88640f706d6a4380b003653b2c" change="1707846870" id="N0110" type="Citation">
@@ -4975,8 +5114,8 @@ Syntyneitä ja kastetuita vuonna 1881
         <range start="0" end="348"/>
       </style>
     </note>
-    <note handle="_f88c60ae8054cd9f2f38a5de16a" change="1708011257" id="N0118" type="Citation">
-      <text>Hiitolan seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I C Syntyneiden ja kastettujen luettelot. I C:12 Syntyneiden ja kastettujen luettelot  (1901-1916). Tiedosto 232. Kansallisarkisto. Viitattu 15.2.2024.</text>
+    <note handle="_f88c60ae8054cd9f2f38a5de16a" change="1784741753" id="N0118" type="Citation">
+      <text>Hiitolan seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I C Syntyneiden ja kastettujen luettelot. I C:12 Syntyneiden ja kastettujen luettelot  (1901-1916). Tiedosto 237. Kansallisarkisto. Viitattu 22.7.2026.</text>
     </note>
     <note handle="_f88c62c5c0d4d3dcf0fd5507490" change="1708011476" id="N0119" type="Citation">
       <text>Hiitolan seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I E Kuulutettujen ja vihittyjen luettelot. I Eb Vihittyjen luettelot. I Eb:3 Vihittyjen luettelot  (1891-1914). Tiedosto 62. Kansallisarkisto. Viitattu 15.2.2024.</text>
