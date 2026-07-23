@@ -1252,30 +1252,35 @@
       <dateval val="1917-05-01" type="before" quality="estimated"/>
       <place hlink="_df214b4636d4e85a2ea0bff6bec"/>
     </event>
-    <event handle="_df21530809c76621e2b97fa27be" change="1533338874" id="E0281">
+    <event handle="_df21530809c76621e2b97fa27be" change="1784839902" id="E0281">
       <type>Departure</type>
       <dateval val="1917-05-12"/>
       <place hlink="_df215306666436bd70979bc44de"/>
+      <citationref hlink="_103ba77b8f5815323113f2c44acd"/>
     </event>
-    <event handle="_df21559424b43ea5eb0455335c8" change="1533347518" id="E0282">
+    <event handle="_df21559424b43ea5eb0455335c8" change="1784839766" id="E0282">
       <type>Arrival</type>
       <dateval val="1917-05-14"/>
       <place hlink="_df215592ea32cde4f2fa3890679"/>
+      <citationref hlink="_103ba766be073b5a6636678d8b22"/>
     </event>
-    <event handle="_df2155de9395ac87753b8eedc2c" change="1707775169" id="E0283">
+    <event handle="_df2155de9395ac87753b8eedc2c" change="1784840082" id="E0283">
       <type>Departure</type>
       <dateval val="1917-05-16"/>
       <place hlink="_df215592ea32cde4f2fa3890679"/>
+      <citationref hlink="_103ba7970b376a6609dc569da5ca"/>
     </event>
-    <event handle="_df215997d4f9d34faad1216aa0" change="1533339562" id="E0284">
+    <event handle="_df215997d4f9d34faad1216aa0" change="1784839591" id="E0284">
       <type>Departure</type>
       <dateval val="1917-05-09"/>
       <place hlink="_df215996185561e862bff5758dc"/>
+      <citationref hlink="_103ba74674c24333cb3743029485"/>
     </event>
-    <event handle="_df215a8da18358dd54ea06005ee" change="1707775158" id="E0285">
+    <event handle="_df215a8da18358dd54ea06005ee" change="1784839556" id="E0285">
       <type>Departure</type>
       <dateval val="1917-05-01" quality="estimated"/>
       <place hlink="_df214b4636d4e85a2ea0bff6bec"/>
+      <citationref hlink="_103ba74674c24333cb3743029485"/>
     </event>
     <event handle="_e7f36c9eea81d339aca5dcf5f79" change="1593955581" id="E0007">
       <type>Residence</type>
@@ -2895,6 +2900,34 @@
       <noteref hlink="_103ba59fd06e3f74d9ecd5146902"/>
       <sourceref hlink="_103ba541e73a1a17fb18eb338ad5"/>
     </citation>
+    <citation handle="_103ba74674c24333cb3743029485" change="1784840122" id="C0083">
+      <dateval val="1917-05-09"/>
+      <page>1917-05-09</page>
+      <confidence>2</confidence>
+      <noteref hlink="_103ba7443c1247dffc90a19ebe98"/>
+      <sourceref hlink="_103ba73e896c9a1cbebb7a05369"/>
+    </citation>
+    <citation handle="_103ba766be073b5a6636678d8b22" change="1784840109" id="C0084">
+      <dateval val="1917-05-14"/>
+      <page>1917-05-14</page>
+      <confidence>2</confidence>
+      <noteref hlink="_103ba75be86930a49c64b6e5c22"/>
+      <sourceref hlink="_103ba73e896c9a1cbebb7a05369"/>
+    </citation>
+    <citation handle="_103ba77b8f5815323113f2c44acd" change="1784840116" id="C0085">
+      <dateval val="1917-05-12"/>
+      <page>1917-05-12</page>
+      <confidence>2</confidence>
+      <noteref hlink="_103ba77b57b3bc4bb3228eef4d6"/>
+      <sourceref hlink="_103ba73e896c9a1cbebb7a05369"/>
+    </citation>
+    <citation handle="_103ba7970b376a6609dc569da5ca" change="1784840128" id="C0086">
+      <dateval val="1917-05-16"/>
+      <page>1917-05-16</page>
+      <confidence>2</confidence>
+      <noteref hlink="_103ba796d06f5e5c862462025296"/>
+      <sourceref hlink="_103ba73e896c9a1cbebb7a05369"/>
+    </citation>
     <citation handle="_cdcfc2532ac0a42deee" change="1708011199" id="C0025">
       <dateval val="1881-05-23"/>
       <page>8</page>
@@ -3462,6 +3495,11 @@
     <source handle="_103ba541e73a1a17fb18eb338ad5" change="1784836167" id="S0055">
       <stitle>Massachusetts, Suffolk, Boston Passenger Lists, 1891-1943</stitle>
       <reporef hlink="_f88640bb670471c947dff443ecb" medium="Book"/>
+    </source>
+    <source handle="_103ba73e896c9a1cbebb7a05369" change="1784839500" id="S0056">
+      <stitle>Päiväkirja Juho Kähkönen</stitle>
+      <sauthor>Juho Kähkönen</sauthor>
+      <reporef hlink="_df1c4a455f14ce59186d89258e8" medium="Book"/>
     </source>
     <source handle="_cdcfc23e89e2b9f42c7" change="1439140669" id="S0025">
       <stitle>Toivakka syntyneet 1880-1885</stitle>
@@ -4117,6 +4155,31 @@ Arriving at Port of Boston 8 FEB 1913
       <style name="link" value="https://www.familysearch.org/ark:/61903/3:1:33SQ-GYW9-TV?cc=1923995&amp;wc=13252695&amp;lang=en&amp;i=803&amp;groupId=1923995">
         <range start="0" end="109"/>
       </style>
+    </note>
+    <note handle="_103ba7443c1247dffc90a19ebe98" change="1784839538" id="N0132" type="Transcript">
+      <text>Toukok 9. p [1917] 
+Lähdin Bessemeristä New Yorkiin aikomuksella päästä Suomeen.
+Nyt olen matkalla Philadelphiasta New Yorkiin, ei voi pikajunassa kirjoittaa.
+</text>
+    </note>
+    <note handle="_103ba75be86930a49c64b6e5c22" change="1784839734" id="N0133" type="Transcript">
+      <text>14. p [toukokuuta] [1917]
+Olemme Canadassa Halifaxin edustalla satamassa. 
+Viranomaiset tarkastavat lähipäivinä onko sotakielto tavaraa.
+Kovaa tuulta oli New Yorkista tänne. Enemmistö merikipeitä. 
+Voi jos luonanne olisin -
+</text>
+    </note>
+    <note handle="_103ba77b57b3bc4bb3228eef4d6" change="1784839899" id="N0134" type="Transcript">
+      <text>Toukok 12 p [1917] 
+Kello 4:10 iltapäivällä lähdimme New Yorkista United States 
+laivalla pyrkimään yli atlannin.
+</text>
+    </note>
+    <note handle="_103ba796d06f5e5c862462025296" change="1784840079" id="N0135" type="Transcript">
+      <text>16. p [toukokuuta] [1917] kello 6 ilta 
+lähdimme Halifaxista atlannille kohti suurta tuntematonta
+</text>
     </note>
     <note handle="_cdcfc0d83431addb821" change="1708010925" id="N0097" type="Link">
       <text>http://www.sukuhistoria.fi/sshy/kirjat/Kirkonkirjat/toivakka/syntyneet_1880-1885_mko1-2/8.htm</text>
