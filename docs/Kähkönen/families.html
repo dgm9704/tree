@@ -1,24 +1,35 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>My Family Tree - Families</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 6.0.8 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">My Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">My Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
 				<ul class="nav" id="dropmenu">
 					<li><a href="individuals.html" title="Individuals">Individuals</a></li>
@@ -26,33 +37,65 @@
 					<li class = "CurrentSection"><a href="families.html" title="Families">Families</a></li>
 					<li><a href="events.html" title="Events">Events</a></li>
 					<li><a href="places.html" title="Places">Places</a></li>
+					<li><a href="heatmaps.html" title="Heatmaps">Heatmaps</a></li>
 					<li><a href="sources.html" title="Sources">Sources</a></li>
 					<li><a href="repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="media.html" title="Media">Media</a></li>
-					<li><a href="thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="updates.html" title="Updates">Updates</a></li>
 					<li><a href="statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="Relationships">
 			<p id="description">
 			This page contains an index of all the families/ relationships in the database, sorted by their family name/ surname. Clicking on a person&#8217;s name will take you to their family/ relationship&#8217;s page.
 			</p>
-			<div id="alphanav">
-				<ul>
-					<li><a href="#&nbsp;" title="Alphabet Menu: &nbsp;">&nbsp;</a></li>
-					<li><a href="#H" title="Alphabet Menu: H">H</a></li>
-					<li><a href="#I" title="Alphabet Menu: I">I</a></li>
-					<li><a href="#K" title="Alphabet Menu: K">K</a></li>
-					<li><a href="#M" title="Alphabet Menu: M">M</a></li>
-					<li><a href="#P" title="Alphabet Menu: P">P</a></li>
-					<li><a href="#S" title="Alphabet Menu: S">S</a></li>
-					<li><a href="#T" title="Alphabet Menu: T">T</a></li>
-					<li><a href="#W" title="Alphabet Menu: W">W</a></li>
+			<div id="ltr">
+				<ul class="ltr">
+					<li class = "CurrentSection"><a href="families.html" title="Alphabet Menu: …">…</a></li>
+					<li><a href="families1.html" title="Alphabet Menu: E">E</a></li>
+					<li><a href="families2.html" title="Alphabet Menu: H">H</a></li>
+					<li><a href="families3.html" title="Alphabet Menu: I">I</a></li>
+					<li><a href="families4.html" title="Alphabet Menu: K">K</a></li>
+					<li><a href="families5.html" title="Alphabet Menu: M">M</a></li>
+					<li><a href="families6.html" title="Alphabet Menu: P">P</a></li>
+					<li><a href="families7.html" title="Alphabet Menu: S">S</a></li>
+					<li><a href="families8.html" title="Alphabet Menu: T">T</a></li>
+					<li><a href="families9.html" title="Alphabet Menu: W">W</a></li>
 				</ul>
 			</div>
-			<table class="infolist relationships">
+			<table class="infolist relationships ltr">
 				<thead>
 					<tr>
 						<th class="ColumnRowLabel">Letter</th>
@@ -63,9 +106,11 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr class ="BeginFamily">
+					<tr class="BeginLetter BeginFamily">
 						<td class="ColumnRowLabel">
-							<a name="&nbsp;" title="Families beginning with letter &nbsp;">&nbsp;</a>
+							<a name="…" title="Families beginning with letter …">
+							…
+							</a>
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/5/b/cb589ccd0f33cdd3db5.html">, Elisabeth Jacobsdotter</a>
@@ -81,7 +126,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/e/7/d17964afca75f2f737e.html">, Eric Andersson</a>
@@ -97,7 +141,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/c/c/cb589ccd1e349e80dcc.html">, Eva Johansdotter</a>
@@ -113,7 +156,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/b/8/cb589ccd0dc07a8988b.html">, Eva Lisa Bertilsdotter</a>
@@ -129,7 +171,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/9/5/d1796401a9b0889e259.html">, Eva Mattsdotter</a>
@@ -145,7 +186,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/3/cb589ccf9d7696bc434.html">, Helena Ericsdotter</a>
@@ -161,7 +201,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/f/3/cb589ccd0bc2fb88e3f.html">, Jacob Adamsson</a>
@@ -177,7 +216,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/6/9/cb589ccf984306ee996.html">, Maria Ericsdotter</a>
@@ -193,7 +231,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/0/cb589cca0471d2a8304.html">, Maria Jacobsdotter</a>
@@ -209,7 +246,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/4/5/d17964ccda123431954.html">, Walborg Mattsdotter</a>
@@ -225,7 +261,6 @@
 					</tr>
 					<tr class ="BeginFamily">
 						<td class="ColumnRowLabel">
-						&nbsp;
 						</td>
 						<td class="ColumnPartner">
 							<a href="ppl/8/5/cb589ccd15858b29258.html">, Wilhelmina Jacobsdotter</a>
@@ -239,688 +274,16 @@
 						<td class="ColumnDate">&nbsp;</td>
 						<td class="ColumnDate">&nbsp;</td>
 					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-							<a name=" " title="Families beginning with letter  "> </a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/2/7/cb589ccd0150280f972.html">Erikäin, Olof Martinson</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/e/7/cb589cc9fea1d01577e.html" title="Family of Erikäin, Olof Martinson and Savolain, Catharina">
-							Family of Erikäin, Olof Martinson and Savolain, Catharina
-							
-							</a>
-						</td>
-						<td class="ColumnDate">1818-03-30</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/f/7/cb589ccd06e1f074f7f.html">Erikäin, Wilhelm Olofsson</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/8/3/cb589ccd07d2000d338.html" title="Family of Erikäin, Wilhelm Olofsson">
-							Family of Erikäin, Wilhelm Olofsson
-							
-							</a>
-						</td>
-						<td class="ColumnDate">1860-06-24</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/a/5/cb589cc87ce442c815a.html">Erikäinen, Karin Mårtensdotter</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/6/4/cb589cc81ed0dd3ee46.html" title="Family of Kähkönen, Johan Pålsson and Erikäinen, Karin Mårtensdotter">
-							Family of Kähkönen, Johan Pålsson and Erikäinen, Karin Mårtensdotter
-							
-							</a>
-						</td>
-						<td class="ColumnDate">1877-05-27</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/c/7/cb589cc9ffa2d60d07c.html">Erikäinen, Maria Mårtensdotter</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/f/3/cb589cc9ee928bfde3f.html" title="Family of Kähkönen, Pål Pålsson Jr and Erikäinen, Maria Mårtensdotter">
-							Family of Kähkönen, Pål Pålsson Jr and Erikäinen, Maria Mårtensdotter
-							
-							</a>
-						</td>
-						<td class="ColumnDate">1883-11-18</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/e/0/cb589cc9fde56da730e.html">Erikäinen, Mårten Olofsson</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/7/7/cb589cc87e173db5277.html" title="Family of Erikäinen, Mårten Olofsson and Torvinen, Lisa Larsdotter">
-							Family of Erikäinen, Mårten Olofsson and Torvinen, Lisa Larsdotter
-							
-							</a>
-						</td>
-						<td class="ColumnDate">1852-12-19</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-							<a name="H" title="Families beginning with letter H">H</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/7/b/cb589cccbbf118784b7.html">Hohtar, Helena</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/8/b/cb589cc9ea52cf940b8.html" title="Family of Kähköin, Paul Mattsson and Hohtar, Helena">
-							Family of Kähköin, Paul Mattsson and Hohtar, Helena
-							
-							</a>
-						</td>
-						<td class="ColumnDate">&nbsp;</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/8/8/d17962a6f824fa6b588.html">Hopla, Johan</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/3/f/d179629ba13385f7ef3.html" title="Family of Hopla, Johan and , Eva Mattsdotter">
-							Family of Hopla, Johan and , Eva Mattsdotter
-							
-							</a>
-						</td>
-						<td class="ColumnDate">&nbsp;</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-							<a name="I" title="Families beginning with letter I">I</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/d/1/cb589ccf915437eb61d.html">Iliäin, Simon Persson</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/f/6/cb589cccfbe550b8a6f.html" title="Family of Iliäin, Simon Persson and Mygrä, Maria Ericsdotter">
-							Family of Iliäin, Simon Persson and Mygrä, Maria Ericsdotter
-							
-							</a>
-						</td>
-						<td class="ColumnDate">1784-12-15</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/8/3/cb589cccfaa55d88b38.html">Iliäinen, Maria</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/6/7/cb589cc9fcf1a168776.html" title="Family of Torvinen, Lars Gabrielsson and Iliäinen, Maria">
-							Family of Torvinen, Lars Gabrielsson and Iliäinen, Maria
-							
-							</a>
-						</td>
-						<td class="ColumnDate">1810-03-28</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-							<a name="K" title="Families beginning with letter K">K</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/5/1/cb589ccf8ee20d75815.html">Kähköin, Matts</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/9/9/cb589cccbac303d2699.html" title="Family of Kähköin, Matts">
-							Family of Kähköin, Matts
-							
-							</a>
-						</td>
-						<td class="ColumnDate">&nbsp;</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/7/e/cb589cccb9105c2a0e7.html">Kähköin, Paul Mattsson</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/8/b/cb589cc9ea52cf940b8.html" title="Family of Kähköin, Paul Mattsson and Hohtar, Helena">
-							Family of Kähköin, Paul Mattsson and Hohtar, Helena
-							
-							</a>
-						</td>
-						<td class="ColumnDate">&nbsp;</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/3/a/cb589cccf2b20a5cca3.html">Kähkönen, Anna Lydia</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/1/2/cb589cccf3b5dd9d421.html" title="Family of Kähkönen, Anna Lydia">
-							Family of Kähkönen, Anna Lydia
-							
-							</a>
-						</td>
-						<td class="ColumnDate">1911-06-11</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/b/9/cb589cc822c0a11a09b.html">Kähkönen, Irja Sanelma</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/a/5/f7fcf79ab5b3f57dd2251bf2e5a.html" title="Family of Peltoniemi, Reino Olavi and Kähkönen, Irja Sanelma">
-							Family of Peltoniemi, Reino Olavi and Kähkönen, Irja Sanelma
-							
-							</a>
-						</td>
-						<td class="ColumnDate">1938-05-15</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/b/b/cb589cc87a745824fbb.html">Kähkönen, Johan Pålsson</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/6/4/cb589cc81ed0dd3ee46.html" title="Family of Kähkönen, Johan Pålsson and Erikäinen, Karin Mårtensdotter">
-							Family of Kähkönen, Johan Pålsson and Erikäinen, Karin Mårtensdotter
-							
-							</a>
-						</td>
-						<td class="ColumnDate">1877-05-27</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/f/0/cb589cc81d26d21e00f.html">Kähkönen, Juho Juhonpoika</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/f/5/cb589cc7ff015b9b45f.html" title="Family of Kähkönen, Juho Juhonpoika and Matarainen, Ida Emelia Miinantytär">
-							Family of Kähkönen, Juho Juhonpoika and Matarainen, Ida Emelia Miinantytär
-							
-							</a>
-						</td>
-						<td class="ColumnDate">1906-06-04</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/0/6/cb589cc9e8f35269060.html">Kähkönen, Pål Pålsson</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/1/5/cb589cc87be154e0851.html" title="Family of Kähkönen, Pål Pålsson and Savolainen, Elisabeth Johansdotter">
-							Family of Kähkönen, Pål Pålsson and Savolainen, Elisabeth Johansdotter
-							
-							</a>
-						</td>
-						<td class="ColumnDate">1841-06-06</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/a/4/cb589cc9ed939bd894a.html">Kähkönen, Pål Pålsson Jr</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/f/3/cb589cc9ee928bfde3f.html" title="Family of Kähkönen, Pål Pålsson Jr and Erikäinen, Maria Mårtensdotter">
-							Family of Kähkönen, Pål Pålsson Jr and Erikäinen, Maria Mårtensdotter
-							
-							</a>
-						</td>
-						<td class="ColumnDate">1883-11-18</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/4/f/cb589cc7fd941e4faf4.html">Kähkönen, Rauha Katri</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/1/f/cb589cc7f744b307cf1.html" title="Family of Kangasniemi, Johannes Matinpoika and Kähkönen, Rauha Katri">
-							Family of Kangasniemi, Johannes Matinpoika and Kähkönen, Rauha Katri
-							
-							</a>
-						</td>
-						<td class="ColumnDate">1944-09-30</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/4/8/cdcdabedf847ed71684.html">Kangasniemi, Johannes Matinpoika</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/1/f/cb589cc7f744b307cf1.html" title="Family of Kangasniemi, Johannes Matinpoika and Kähkönen, Rauha Katri">
-							Family of Kangasniemi, Johannes Matinpoika and Kähkönen, Rauha Katri
-							
-							</a>
-						</td>
-						<td class="ColumnDate">1944-09-30</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-							<a name="M" title="Families beginning with letter M">M</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/d/8/cb589ccd1c775dc818d.html">Matara-aho, Matts Philipsson</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/c/f/cb589cca077185cb4fc.html" title="Family of Matara-aho, Matts Philipsson and , Eva Johansdotter">
-							Family of Matara-aho, Matts Philipsson and , Eva Johansdotter
-							
-							</a>
-						</td>
-						<td class="ColumnDate">1825-03-06</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/c/b/cb589ccf9c20b02a4bc.html">Matara-aho, Philip Johansson</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/7/5/cb589ccd1d30c343257.html" title="Family of Matara-aho, Philip Johansson and , Helena Ericsdotter">
-							Family of Matara-aho, Philip Johansson and , Helena Ericsdotter
-							
-							</a>
-						</td>
-						<td class="ColumnDate">1796-02-14</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/f/6/cb589ccfaa9795f4e6f.html">Matarainen, Edla</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/0/e/cb589ccfabb372cb1e0.html" title="Family of Matarainen, Edla">
-							Family of Matarainen, Edla
-							
-							</a>
-						</td>
-						<td class="ColumnDate">&nbsp;</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/3/b/cb589ccd2a7679f10b3.html">Matarainen, Herman Mattson</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/2/5/cb589ccd2c274f0a552.html" title="Family of Matarainen, Herman Mattson">
-							Family of Matarainen, Herman Mattson
-							
-							</a>
-						</td>
-						<td class="ColumnDate">1870-12-27</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/b/1/cb589cc81fd22dc191b.html">Matarainen, Ida Emelia Miinantytär</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/4/5/cb589cc821d1ec9f954.html" title="Family of Matarainen, Ida Emelia Miinantytär">
-							Family of Matarainen, Ida Emelia Miinantytär
-							
-							</a>
-						</td>
-						<td class="ColumnDate">&nbsp;</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr>
-						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/f/5/cb589cc7ff015b9b45f.html" title="Family of Kähkönen, Juho Juhonpoika and Matarainen, Ida Emelia Miinantytär">
-							Family of Kähkönen, Juho Juhonpoika and Matarainen, Ida Emelia Miinantytär
-							
-							</a>
-						</td>
-						<td class="ColumnDate">1906-06-04</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/c/a/cb589cca085452137ac.html">Matarainen, Jonas Matinpoika</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/4/2/cb589cca09f5f303924.html" title="Family of Matarainen, Jonas Matinpoika and Talsanen, Wilhelmiina">
-							Family of Matarainen, Jonas Matinpoika and Talsanen, Wilhelmiina
-							
-							</a>
-						</td>
-						<td class="ColumnDate">1885-05-26</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/0/6/cb589ccfa3f261e4860.html">Matarainen, Karl Karlsson</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/2/d/cb589ccfa4e606bffd2.html" title="Family of Matarainen, Karl Karlsson">
-							Family of Matarainen, Karl Karlsson
-							
-							</a>
-						</td>
-						<td class="ColumnDate">&nbsp;</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/3/0/cb589ccd1f718f73503.html">Matarainen, Karl Mattsson</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/8/2/cb589ccd2077ec74f28.html" title="Family of Matarainen, Karl Mattsson">
-							Family of Matarainen, Karl Mattsson
-							
-							</a>
-						</td>
-						<td class="ColumnDate">&nbsp;</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/2/b/cb589cca06b62f2e9b2.html">Matarainen, Matts Mattsson</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/3/4/cb589cc8ab72a31af43.html" title="Family of Matarainen, Matts Mattsson and , Maria Jacobsdotter">
-							Family of Matarainen, Matts Mattsson and , Maria Jacobsdotter
-							
-							</a>
-						</td>
-						<td class="ColumnDate">1859-02-06</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/4/3/cb589cc8a935fbe3634.html">Matarainen, Wilhelmiina Matintytär</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/2/7/cb589cc821858fc4972.html" title="Family of Matarainen, Wilhelmiina Matintytär">
-							Family of Matarainen, Wilhelmiina Matintytär
-							
-							</a>
-						</td>
-						<td class="ColumnDate">&nbsp;</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/5/f/cb589ccf92817bb5df5.html">Mygrä, Maria Ericsdotter</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/f/6/cb589cccfbe550b8a6f.html" title="Family of Iliäin, Simon Persson and Mygrä, Maria Ericsdotter">
-							Family of Iliäin, Simon Persson and Mygrä, Maria Ericsdotter
-							
-							</a>
-						</td>
-						<td class="ColumnDate">1784-12-15</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-							<a name="P" title="Families beginning with letter P">P</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/d/6/f7fcf7a56b14081df36d49b026d.html">Peltoniemi, Reino Olavi</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/a/5/f7fcf79ab5b3f57dd2251bf2e5a.html" title="Family of Peltoniemi, Reino Olavi and Kähkönen, Irja Sanelma">
-							Family of Peltoniemi, Reino Olavi and Kähkönen, Irja Sanelma
-							
-							</a>
-						</td>
-						<td class="ColumnDate">1938-05-15</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-							<a name="S" title="Families beginning with letter S">S</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/a/c/cb589ccf9eb781172ca.html">Salenius, Johannes Philipsson</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/b/7/cb589ccf9fb4c9f587b.html" title="Family of Salenius, Johannes Philipsson">
-							Family of Salenius, Johannes Philipsson
-							
-							</a>
-						</td>
-						<td class="ColumnDate">&nbsp;</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/d/6/cb589ccd03f11360c6d.html">Savolain, Catharina</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/e/7/cb589cc9fea1d01577e.html" title="Family of Erikäin, Olof Martinson and Savolain, Catharina">
-							Family of Erikäin, Olof Martinson and Savolain, Catharina
-							
-							</a>
-						</td>
-						<td class="ColumnDate">1818-03-30</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/3/4/cb589ccce7919f6c443.html">Savolain, Johan Thomasson</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/5/9/cb589cc9ec90f332595.html" title="Family of Savolain, Johan Thomasson and Warjus, Walborg Abramsdotter">
-							Family of Savolain, Johan Thomasson and Warjus, Walborg Abramsdotter
-							
-							</a>
-						</td>
-						<td class="ColumnDate">1799-02-27</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/6/a/cb589cc9eb40ebaf3a6.html">Savolainen, Elisabeth Johansdotter</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/1/5/cb589cc87be154e0851.html" title="Family of Kähkönen, Pål Pålsson and Savolainen, Elisabeth Johansdotter">
-							Family of Kähkönen, Pål Pålsson and Savolainen, Elisabeth Johansdotter
-							
-							</a>
-						</td>
-						<td class="ColumnDate">1841-06-06</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-							<a name="T" title="Families beginning with letter T">T</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/c/6/d174a4f20b77dd5ef6c.html">Talsanen, Wilhelmiina</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/4/2/cb589cca09f5f303924.html" title="Family of Matarainen, Jonas Matinpoika and Talsanen, Wilhelmiina">
-							Family of Matarainen, Jonas Matinpoika and Talsanen, Wilhelmiina
-							
-							</a>
-						</td>
-						<td class="ColumnDate">1885-05-26</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/5/7/cb589cccfcf598ca475.html">Torvinen, Catharina Larsdotter</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/8/a/cb589cccfe8569275a8.html" title="Family of Torvinen, Catharina Larsdotter">
-							Family of Torvinen, Catharina Larsdotter
-							
-							</a>
-						</td>
-						<td class="ColumnDate">1836-01-03</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr>
-						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/8/6/cb589cccfec70ceb068.html" title="Family of Torvinen, Catharina Larsdotter">
-							Family of Torvinen, Catharina Larsdotter
-							
-							</a>
-						</td>
-						<td class="ColumnDate">1839-04-14</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/b/3/cb589cccf94729f233b.html">Torvinen, Lars Gabrielsson</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/6/7/cb589cc9fcf1a168776.html" title="Family of Torvinen, Lars Gabrielsson and Iliäinen, Maria">
-							Family of Torvinen, Lars Gabrielsson and Iliäinen, Maria
-							
-							</a>
-						</td>
-						<td class="ColumnDate">1810-03-28</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-						&nbsp;
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/4/b/cb589cc9fc34b1beeb4.html">Torvinen, Lisa Larsdotter</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/7/7/cb589cc87e173db5277.html" title="Family of Erikäinen, Mårten Olofsson and Torvinen, Lisa Larsdotter">
-							Family of Erikäinen, Mårten Olofsson and Torvinen, Lisa Larsdotter
-							
-							</a>
-						</td>
-						<td class="ColumnDate">1852-12-19</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
-					<tr class ="BeginFamily">
-						<td class="ColumnRowLabel">
-							<a name="W" title="Families beginning with letter W">W</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="ppl/d/0/cb589ccce916cef890d.html">Warjus, Walborg Abramsdotter</a>
-						</td>
-						<td class="ColumnPartner">
-							<a href="fam/5/9/cb589cc9ec90f332595.html" title="Family of Savolain, Johan Thomasson and Warjus, Walborg Abramsdotter">
-							Family of Savolain, Johan Thomasson and Warjus, Walborg Abramsdotter
-							
-							</a>
-						</td>
-						<td class="ColumnDate">1799-02-27</td>
-						<td class="ColumnDate">&nbsp;</td>
-					</tr>
 				</tbody>
 			</table>
 		</div>
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2024-01-02 04:17:07
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 6.0.8<br />Last change was the 2015-08-15 01:40:25
 			</p>
 			<p id="copyright">
-			&copy; 2024 John Nordberg
+			&copy; 2026 John Nordberg
 			</p>
 		</div>
 	</div>

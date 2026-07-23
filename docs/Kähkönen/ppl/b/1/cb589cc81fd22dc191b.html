@@ -1,25 +1,35 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>My Family Tree - Matarainen, Ida Emelia Miinantytär</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 6.0.8 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
-	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">My Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">My Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
 				<ul class="nav" id="dropmenu">
 					<li class = "CurrentSection"><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
@@ -27,15 +37,46 @@
 					<li><a href="../../../families.html" title="Families">Families</a></li>
 					<li><a href="../../../events.html" title="Events">Events</a></li>
 					<li><a href="../../../places.html" title="Places">Places</a></li>
+					<li><a href="../../../heatmaps.html" title="Heatmaps">Heatmaps</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="IndividualDetail">
 			<h3>Matarainen, Ida Emelia Miinantytär<sup><small></small></sup></h3>
 			<div id="summaryarea">
@@ -62,7 +103,7 @@
 			</div>
 			<div class="subsection" id="events">
 				<h4>Events</h4>
-				<table class="infolist eventlist">
+				<table class="infolist eventlist toggle_event ltr" id="toggle_event" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnEvent">Event</th>
@@ -74,7 +115,7 @@
 					</thead>
 					<tbody>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/9/2/cb589cc82001ad9c229.html" title="Birth">
 								Birth
 								</a>
@@ -90,9 +131,6 @@
 							 <a href="#sref1a">1a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -100,7 +138,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/7/0/d16cb89875e37288407.html" title="Residence">
 								Residence
 								</a>
@@ -116,9 +154,6 @@
 							 <a href="#sref2a">2a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -126,7 +161,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/f/5/d16cba0265568c49e5f.html" title="Residence">
 								Residence
 								</a>
@@ -142,9 +177,6 @@
 							 <a href="#sref3a">3a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -152,33 +184,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
-								<a href="../../../evt/2/0/f883a9d5eb733d35365f4fc3202.html" title="Residence">
-								Residence
-								</a>
-							</td>
-							<td class="ColumnDate">after 1901-12-01</td>
-							<td class="ColumnPlace">
-								<a href="../../../plc/c/8/f883a9cdbbe23c3210968f1748c.html" title="Kirkkoherran virkatalo, Haapaniemi, Wiitasaari, Suomi">
-								Kirkkoherran virkatalo, Haapaniemi, Wiitasaari, Suomi
-								</a>
-							</td>
-							<td class="ColumnDescription">&nbsp;</td>
-							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref4a">4a</a> <a href="#sref5a">5a</a>
-							</td>
-							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
-								<td class="ColumnNotes" colspan="3">
-									<div>
-									</div>
-								</td>
-							</tr>
-						</tr>
-						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/d/f/d16b839dac3404746fd.html" title="Residence">
 								Residence
 								</a>
@@ -191,12 +197,9 @@
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref5b">5b</a> <a href="#sref6a">6a</a> <a href="#sref7a">7a</a>
+							 <a href="#sref4a">4a</a> <a href="#sref5a">5a</a> <a href="#sref6a">6a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -204,7 +207,30 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/2/0/f883a9d5eb733d35365f4fc3202.html" title="Residence">
+								Residence
+								</a>
+							</td>
+							<td class="ColumnDate">after 1901-12-01</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/c/8/f883a9cdbbe23c3210968f1748c.html" title="Kirkkoherran virkatalo, Haapaniemi, Wiitasaari, Suomi">
+								Kirkkoherran virkatalo, Haapaniemi, Wiitasaari, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref7a">7a</a> <a href="#sref4b">4b</a>
+							</td>
+							<tr>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/a/1/d16b80a96237e513b1a.html" title="Residence">
 								Residence
 								</a>
@@ -217,12 +243,9 @@
 							</td>
 							<td class="ColumnDescription">&nbsp;</td>
 							<td class="ColumnSources" rowspan="2">
-							 <a href="#sref7a">7a</a> <a href="#sref8a">8a</a>
+							 <a href="#sref6a">6a</a> <a href="#sref8a">8a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -230,7 +253,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/2/1/cb589cc820e01880812.html" title="Death">
 								Death
 								</a>
@@ -246,9 +269,6 @@
 							 <a href="#sref9a">9a</a> <a href="#sref10a">10a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -260,7 +280,7 @@
 			</div>
 			<div class="subsection" id="parents">
 				<h4>Parents</h4>
-				<table class="infolist">
+				<table class="infolist toggle_parent ltr" id="toggle_parent" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnAttribute">Relation to main person</th>
@@ -287,15 +307,14 @@
 			</div>
 			<div class="subsection" id="families">
 				<h4>Families</h4>
-				<table class="infolist fixed_subtables">
+				<table class="infolist fixed_subtables" id="toggle_families" style="display:block">
 					<tr class="BeginFamily">
 						<td class="ColumnValue" colspan="3"><H4 class="subsection"><a href="../../../fam/4/5/cb589cc821d1ec9f954.html" title="Family of Matarainen, Ida Emelia Miinantytär">Family of Matarainen, Ida Emelia Miinantytär</a></H4></td>
 					</tr>
 					<tr>
-						<td class="ColumnType">&nbsp;</td>
 						<td class="ColumnAttribute">Children</td>
-						<td class="ColumnValue" />
-						<table class="infolist eventlist">
+						<td class="ColumnValue Child" colspan="2" />
+						<table class="infolist eventlist ltr">
 							<thead>
 								<tr>
 									<th class="ColumnName">Name</th>
@@ -326,9 +345,8 @@
 					</tr>
 					<tr>
 						<td class="ColumnType">&nbsp;</td>
-						<td class="ColumnAttribute">&nbsp;</td>
-						<td class="ColumnValue">
-							<table class="infolist eventlist">
+						<td class="ColumnValue" colspan="2">
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnEvent">Event</th>
@@ -340,7 +358,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/0/e/cb589cfbce519e985e0.html" title="Marriage">
 											Marriage
 											</a>
@@ -356,9 +374,6 @@
 										 <a href="#sref11a">11a</a> <a href="#sref12a">12a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -366,7 +381,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/a/9/d16b63a9b59340dc29a.html" title="Residence">
 											Residence
 											</a>
@@ -382,9 +397,6 @@
 										 <a href="#sref8b">8b</a> <a href="#sref13a">13a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -392,7 +404,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/9/7/e7f36c9eea81d339aca5dcf5f79.html" title="Residence">
 											Residence
 											</a>
@@ -408,9 +420,6 @@
 										 <a href="#sref14a">14a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -421,10 +430,9 @@
 							</table>
 						</td>
 						<tr>
-							<td class="ColumnType">&nbsp;</td>
 							<td class="ColumnAttribute">Children</td>
-							<td class="ColumnValue" />
-							<table class="infolist eventlist">
+							<td class="ColumnValue Child" colspan="2" />
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnName">Name</th>
@@ -449,7 +457,7 @@
 			</div>
 			<div class="subsection" id="pedigree">
 				<h4>Pedigree</h4>
-				<ol class="pedigreegen">
+				<ol class="pedigreegen" id="toggle_pedigree" style="display:block">
 					<li>
 						<a href="../../../ppl/4/3/cb589cc8a935fbe3634.html">Matarainen, Wilhelmiina Matintytär</a>
 						<ol>
@@ -503,101 +511,103 @@
 			</div>
 			<div class="subsection" id="tree">
 				<h4>Ancestors</h4>
-				<div id="treeContainer" style="width:1234px; height:600px; top: 0px">
-					<div class="boxbg female AncCol0" style="top: 230px; left: 6px;">
-						<a class="noThumb" href="../../../ppl/b/1/cb589cc81fd22dc191b.html">
-						Matarainen, Ida Emelia Miinantytär<br/>*1881-05-23<br/>+1932-06-09
-						</a>
+				<div class="tree" id="toggle_anc" style="display:block">
+					<div id="treeContainer" style="width:1234px; height:600px; top: 0px">
+						<div class="boxbg female AncCol0" style="top: 230px; left: 6px;">
+							<a class="noThumb" href="../../../ppl/b/1/cb589cc81fd22dc191b.html">
+							Matarainen, Ida Emelia Miinantytär<br>*1881-05-23<br>+1932-06-09
+							</a>
+						</div>
+						<div class="shadow" style="top: 235px; left: 10px;"></div>
+						<div class="bvline" style="top: 250px; left: 285px; width: 15px"></div>
+						<div class="gvline" style="top: 255px; left: 285px; width: 20px"></div>
+						<div class="boxbg female AncCol1" style="top: 230px; left: 316px;">
+							<a class="noThumb" href="../../../ppl/4/3/cb589cc8a935fbe3634.html">
+							Matarainen, Wilhelmiina Matintytär<br>*1859-04-17<br>+1883-05-19
+							</a>
+						</div>
+						<div class="shadow" style="top: 235px; left: 320px;"></div>
+						<div class="bvline" style="top: 250px; left: 300px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 250px; left: 300px; height: 1px;"></div>
+					
+						<div class="bvline" style="top: 250px; left: 595px; width: 15px"></div>
+						<div class="gvline" style="top: 255px; left: 595px; width: 20px"></div>
+						<div class="boxbg male AncCol2" style="top: 80px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/2/b/cb589cca06b62f2e9b2.html">
+							Matarainen, Matts Mattsson<br>*1832-03-20<br>+1902-10-11
+							</a>
+						</div>
+						<div class="shadow" style="top: 85px; left: 630px;"></div>
+						<div class="bvline" style="top: 100px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 100px; left: 610px; height: 151px;"></div>
+					
+						<div class="bvline" style="top: 100px; left: 905px; width: 15px"></div>
+						<div class="gvline" style="top: 105px; left: 905px; width: 20px"></div>
+						<div class="boxbg male AncCol3" style="top: 5px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/d/8/cb589ccd1c775dc818d.html">
+							Matara-aho, Matts Philipsson<br>*1804<br>+1864-03-28
+							</a>
+						</div>
+						<div class="shadow" style="top: 10px; left: 940px;"></div>
+						<div class="bvline" style="top: 25px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 25px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol3" style="top: 155px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/c/c/cb589ccd1e349e80dcc.html">
+							, Eva Johansdotter<br>*1805<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 160px; left: 940px;"></div>
+						<div class="bvline" style="top: 175px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 100px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol2" style="top: 380px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/4/0/cb589cca0471d2a8304.html">
+							, Maria Jacobsdotter<br>*1833-01-23<br>+1892-01-03
+							</a>
+						</div>
+						<div class="shadow" style="top: 385px; left: 630px;"></div>
+						<div class="bvline" style="top: 400px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 250px; left: 610px; height: 151px;"></div>
+					
+						<div class="bvline" style="top: 400px; left: 905px; width: 15px"></div>
+						<div class="gvline" style="top: 405px; left: 905px; width: 20px"></div>
+						<div class="boxbg male AncCol3" style="top: 305px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/f/3/cb589ccd0bc2fb88e3f.html">
+							, Jacob Adamsson<br>*1795<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 310px; left: 940px;"></div>
+						<div class="bvline" style="top: 325px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 325px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol3" style="top: 455px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/b/8/cb589ccd0dc07a8988b.html">
+							, Eva Lisa Bertilsdotter<br>*1800<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 460px; left: 940px;"></div>
+						<div class="bvline" style="top: 475px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 400px; left: 920px; height: 76px;"></div>
+					
 					</div>
-					<div class="shadow" style="top: 235px; left: 10px;"></div>
-					<div class="bvline" style="top: 250px; left: 285px; width: 15px"></div>
-					<div class="gvline" style="top: 255px; left: 285px; width: 20px"></div>
-					<div class="boxbg female AncCol1" style="top: 230px; left: 316px;">
-						<a class="noThumb" href="../../../ppl/4/3/cb589cc8a935fbe3634.html">
-						Matarainen, Wilhelmiina Matintytär<br/>*1859-04-17<br/>+1883-05-19
-						</a>
-					</div>
-					<div class="shadow" style="top: 235px; left: 320px;"></div>
-					<div class="bvline" style="top: 250px; left: 300px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 250px; left: 300px; height: 1px;"></div>
-				
-					<div class="bvline" style="top: 250px; left: 595px; width: 15px"></div>
-					<div class="gvline" style="top: 255px; left: 595px; width: 20px"></div>
-					<div class="boxbg male AncCol2" style="top: 80px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/2/b/cb589cca06b62f2e9b2.html">
-						Matarainen, Matts Mattsson<br/>*1832-03-20<br/>+1902-10-11
-						</a>
-					</div>
-					<div class="shadow" style="top: 85px; left: 630px;"></div>
-					<div class="bvline" style="top: 100px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 100px; left: 610px; height: 151px;"></div>
-				
-					<div class="bvline" style="top: 100px; left: 905px; width: 15px"></div>
-					<div class="gvline" style="top: 105px; left: 905px; width: 20px"></div>
-					<div class="boxbg male AncCol3" style="top: 5px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/d/8/cb589ccd1c775dc818d.html">
-						Matara-aho, Matts Philipsson<br/>*1804<br/>+1864-03-28
-						</a>
-					</div>
-					<div class="shadow" style="top: 10px; left: 940px;"></div>
-					<div class="bvline" style="top: 25px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 25px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol3" style="top: 155px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/c/c/cb589ccd1e349e80dcc.html">
-						, Eva Johansdotter<br/>*1805<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 160px; left: 940px;"></div>
-					<div class="bvline" style="top: 175px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 100px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol2" style="top: 380px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/4/0/cb589cca0471d2a8304.html">
-						, Maria Jacobsdotter<br/>*1833-01-23<br/>+1892-01-03
-						</a>
-					</div>
-					<div class="shadow" style="top: 385px; left: 630px;"></div>
-					<div class="bvline" style="top: 400px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 250px; left: 610px; height: 151px;"></div>
-				
-					<div class="bvline" style="top: 400px; left: 905px; width: 15px"></div>
-					<div class="gvline" style="top: 405px; left: 905px; width: 20px"></div>
-					<div class="boxbg male AncCol3" style="top: 305px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/f/3/cb589ccd0bc2fb88e3f.html">
-						, Jacob Adamsson<br/>*1795<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 310px; left: 940px;"></div>
-					<div class="bvline" style="top: 325px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 325px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol3" style="top: 455px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/b/8/cb589ccd0dc07a8988b.html">
-						, Eva Lisa Bertilsdotter<br/>*1800<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 460px; left: 940px;"></div>
-					<div class="bvline" style="top: 475px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 400px; left: 920px; height: 76px;"></div>
-				
 				</div>
 			</div>
 			<div class="subsection" id="sourcerefs">
 				<h4>Source References</h4>
-				<ol>
+				<ol id="srcr">
 					<li>
 						<a href="../../../src/7/c/cdcfc23e89e2b9f42c7.html" title="Toivakan seurakunta: Toivakka syntyneet 1880-1885" name ="sref1">
 						Toivakan seurakunta: Toivakka syntyneet 1880-1885
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref1a">
 								<ul>
 									<li>
@@ -626,7 +636,7 @@
 						<a href="../../../src/7/8/d16c629bdbd3b9a1b87.html" title="Toivakan seurakunta: Toivakka Rippikirja 1890-1899" name ="sref2">
 						Toivakan seurakunta: Toivakka Rippikirja 1890-1899
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref2a">
 								<ul>
 									<li>
@@ -643,7 +653,7 @@
 						<a href="../../../src/d/2/d16cbcdb53d4f997a2d.html" title="Toivakan seurakunta: Toivakka Muuttaneet 1890-1914 (ulos)" name ="sref3">
 						Toivakan seurakunta: Toivakka Muuttaneet 1890-1914 (ulos)
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref3a">
 								<ul>
 									<li>
@@ -657,53 +667,11 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/6/b/d16b879bfcb2a4bcbb6.html" title="Viitasaaren seurakunta: Viitasaari Muuttaneet 1890-1908 (sisään)" name ="sref4">
-						Viitasaaren seurakunta: Viitasaari Muuttaneet 1890-1908 (sisään)
-						</a>
-						<ol>
-							<li id="sref4a">
-								<ul>
-									<li>
-									Date: 1901-12-02
-									</li>
-									<li>
-									Page: 37-38
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Viitasaari muuttaneet 1890-1908 (MKO8)  Sivu 37-38 Huhti 1901 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=2753&amp;pnum=20 / Viitattu 12.02.2024</p></div>
-									</li>
-									<li>
-									Url: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=2753&amp;pnum=20">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=2753&amp;pnum=20</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Monospace';">37</span></p><p><span style="font-family:'Monospace';">Wiitasaaren Seurakuntaan muuttaneita vuonna 1901</span></p><p>&nbsp;</p><p><span style="font-family:'Monospace';">50 &nbsp;Joulu &nbsp;2 &nbsp;69 &nbsp;Karjakko Ida Emilia Matarainen &nbsp;Toivakka &nbsp;[1901] &nbsp;11 &nbsp;19 &nbsp;30 &nbsp;_ 1</span></p><p>&nbsp;</p></div>
-									</li>
-								</ul>
-							</li>
-						</ol>
-					</li>
-					<li>
-						<a href="../../../src/3/a/f883aacdab746c5ba17e27a66a3.html" title="Viitasaaren seurakunta: Viitasaari Rippikirja 1900-1909" name ="sref5">
+						<a href="../../../src/3/a/f883aacdab746c5ba17e27a66a3.html" title="Viitasaaren seurakunta: Viitasaari Rippikirja 1900-1909" name ="sref4">
 						Viitasaaren seurakunta: Viitasaari Rippikirja 1900-1909
 						</a>
-						<ol>
-							<li id="sref5a">
-								<ul>
-									<li>
-									Page: I/91
-									</li>
-									<li>
-									Citation: <div class="grampsstylednote"><p>Viitasaari rippikirja 1900-1909 (AP_I I Aa:20)  Sivu 91 Haapaniemi, No 3 Kirkkoherran virkatalo ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31787&amp;pnum=92 / Viitattu 12.02.2024</p></div>
-									</li>
-									<li>
-									Link: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31787&amp;pnum=92">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31787&amp;pnum=92</a></p></div>
-									</li>
-									<li>
-									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Monospace';">91</span><br /><span style="font-family:'Monospace';">Haapaniemi</span><br /><span style="font-family:'Monospace';">No 3 Kirkkoherran virkatalo</span></p><p><span style="font-family:'Monospace';">Karjakko Iida Emilia Miinantr Matarainen &nbsp;28/5 1881 &nbsp;Jkylän pit &nbsp;N30-01 2.12 Toivakasta &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1222-1901</span></p><p>&nbsp;</p><p>&nbsp;</p></div>
-									</li>
-								</ul>
-							</li>
-							<li id="sref5b">
+						<ol id="citr">
+							<li id="sref4a">
 								<ul>
 									<li>
 									Page: III/1222
@@ -719,14 +687,30 @@
 									</li>
 								</ul>
 							</li>
+							<li id="sref4b">
+								<ul>
+									<li>
+									Page: I/91
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Viitasaari rippikirja 1900-1909 (AP_I I Aa:20)  Sivu 91 Haapaniemi, No 3 Kirkkoherran virkatalo ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31787&amp;pnum=92 / Viitattu 12.02.2024</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31787&amp;pnum=92">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=31787&amp;pnum=92</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Monospace';">91</span><br /><span style="font-family:'Monospace';">Haapaniemi</span><br /><span style="font-family:'Monospace';">No 3 Kirkkoherran virkatalo</span></p><p><span style="font-family:'Monospace';">Karjakko Iida Emilia Miinantr Matarainen &nbsp;28/5 1881 &nbsp;Jkylän pit &nbsp;N30-01 2.12 Toivakasta &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1222-1901</span></p><p>&nbsp;</p><p>&nbsp;</p></div>
+									</li>
+								</ul>
+							</li>
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/c/5/f883a3a3e1bb7035db0401c95c.html" title="Viitasaaren seurakunta: Viitasaari Muuttaneet 1890-1917" name ="sref6">
+						<a href="../../../src/c/5/f883a3a3e1bb7035db0401c95c.html" title="Viitasaaren seurakunta: Viitasaari Muuttaneet 1890-1917" name ="sref5">
 						Viitasaaren seurakunta: Viitasaari Muuttaneet 1890-1917
 						</a>
-						<ol>
-							<li id="sref6a">
+						<ol id="citr">
+							<li id="sref5a">
 								<ul>
 									<li>
 									Page: 62-63
@@ -745,11 +729,11 @@
 						</ol>
 					</li>
 					<li>
-						<a href="../../../src/5/d/d16b81c82fc1531ebd5.html" title="Hiitolan seurakunta: Hiitola Muuttaneet 1891-1913 (sisään)" name ="sref7">
+						<a href="../../../src/5/d/d16b81c82fc1531ebd5.html" title="Hiitolan seurakunta: Hiitola Muuttaneet 1891-1913 (sisään)" name ="sref6">
 						Hiitolan seurakunta: Hiitola Muuttaneet 1891-1913 (sisään)
 						</a>
-						<ol>
-							<li id="sref7a">
+						<ol id="citr">
+							<li id="sref6a">
 								<ul>
 									<li>
 									Date: 1904-10-15
@@ -771,10 +755,36 @@
 						</ol>
 					</li>
 					<li>
+						<a href="../../../src/6/b/d16b879bfcb2a4bcbb6.html" title="Viitasaaren seurakunta: Viitasaari Muuttaneet 1890-1908 (sisään)" name ="sref7">
+						Viitasaaren seurakunta: Viitasaari Muuttaneet 1890-1908 (sisään)
+						</a>
+						<ol id="citr">
+							<li id="sref7a">
+								<ul>
+									<li>
+									Date: 1901-12-02
+									</li>
+									<li>
+									Page: 37-38
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Viitasaari muuttaneet 1890-1908 (MKO8)  Sivu 37-38 Huhti 1901 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=2753&amp;pnum=20 / Viitattu 12.02.2024</p></div>
+									</li>
+									<li>
+									Url: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=2753&amp;pnum=20">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=2753&amp;pnum=20</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Monospace';">37</span></p><p><span style="font-family:'Monospace';">Wiitasaaren Seurakuntaan muuttaneita vuonna 1901</span></p><p>&nbsp;</p><p><span style="font-family:'Monospace';">50 &nbsp;Joulu &nbsp;2 &nbsp;69 &nbsp;Karjakko Ida Emilia Matarainen &nbsp;Toivakka &nbsp;[1901] &nbsp;11 &nbsp;19 &nbsp;30 &nbsp;_ 1</span></p><p>&nbsp;</p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
 						<a href="../../../src/a/0/d16b802ca800f3d590a.html" title="Hiitolan seurakunta: Hiitola Rippikirja 1900-1909" name ="sref8">
 						Hiitolan seurakunta: Hiitola Rippikirja 1900-1909
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref8a">
 								<ul>
 									<li>
@@ -813,7 +823,7 @@
 						<a href="../../../src/c/e/e171484c9fc103b3a6b3abd68ec.html" title="Hiitolan seurakunta: Hiitola Kuolleet 1915-1941" name ="sref9">
 						Hiitolan seurakunta: Hiitola Kuolleet 1915-1941
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref9a">
 								<ul>
 									<li>
@@ -836,7 +846,7 @@
 						<a href="../../../src/5/c/cfbf8376f243a6523c5.html" title="Hiitolan seurakunta: Hiitola kuolleet" name ="sref10">
 						Hiitolan seurakunta: Hiitola kuolleet
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref10a">
 								<ul>
 									<li>
@@ -856,7 +866,7 @@
 						<a href="../../../src/e/9/cfbf1c8b1154c6fc19e.html" title="Hiitolan seurakunta: Hiitola vihityt" name ="sref11">
 						Hiitolan seurakunta: Hiitola vihityt
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref11a">
 								<ul>
 									<li>
@@ -873,7 +883,7 @@
 						<a href="../../../src/a/a/d16b5236e811c77a3aa.html" title="Hiitolan seurakunta: Hiitola vihityt 1891-1914" name ="sref12">
 						Hiitolan seurakunta: Hiitola vihityt 1891-1914
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref12a">
 								<ul>
 									<li>
@@ -899,7 +909,7 @@
 						<a href="../../../src/9/9/d16b612f7b55df5b599.html" title="Hiitolan seurakunta: Hiitola Lastenkirja 1900-1909" name ="sref13">
 						Hiitolan seurakunta: Hiitola Lastenkirja 1900-1909
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref13a">
 								<ul>
 									<li>
@@ -922,17 +932,20 @@
 						<a href="../../../src/4/8/e7f36c324d76b68d449966ffe84.html" title="Hiitolan seurakunta: Hiitola Lastenkirja 1910-1919" name ="sref14">
 						Hiitolan seurakunta: Hiitola Lastenkirja 1910-1919
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref14a">
 								<ul>
 									<li>
 									Page: 762-763
 									</li>
 									<li>
-									Link: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=3169395">http://digi.narc.fi/digi/view.ka?kuid=3169395</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5766340676&amp;aineistoId=1203908380">https://astia.narc.fi/uusiastia/viewer/?fileId=5766340676&amp;aineistoId=1203908380</a></p></div>
+									Citation: <div class="grampsstylednote"><p>Hiitolan seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A Pääkirjat hakemistoineen. I Ab Lastenkirjat. I Ab:9 Lastenkirjat  (1910-1919). Tiedosto 389. Kansallisarkisto. Viitattu 22.7.2026.</p></div>
 									</li>
 									<li>
-									Transcript: <div class="grampsstylednote"><p>Weijala No 9			763</p><p>&nbsp; Talp. Juho Kähkönen, s 1978, ja Iida Emiilia Matarainen, s 23/6 1881</p><p>T. Rauha Katri &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;27/2 1907 Hiitola Wk.s.686 Uk.s.1160<br />T. Irja Sanelma &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2/4 1909 &nbsp; " &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "<br />P. Reino Kalervo &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 20/9 1910 &nbsp; "<br />T. Vieno Ilta Tuulikki &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 11/4 1913 &nbsp; "<br />P. Pauli Voitto Olavi Matarainen	 6/7 1916 &nbsp; " &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;vaimon äpärä<br />P. Kaino Arvo Päiviö Matarainen &nbsp; &nbsp;6/7 1916 &nbsp; " &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;vaimon äpärä<br />T. Kirsti Kyllikki &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;10/4 1919 &nbsp; "</p><p>Talp. Eemil Paavonp. Kähkönen &nbsp;23/6 1899 Hiitola Wk.s.686<br />Talp. Wäinö Paavonp. Kähkönen 22/8 1901 &nbsp; "</p><p>&nbsp;</p></div>
+									Link: <div class="grampsstylednote"><p><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=9847942877&amp;aineistoId=1203908380">https://astia.narc.fi/uusiastia/viewer/?fileId=9847942877&amp;aineistoId=1203908380</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">Weijala No 9			763</span></p><p><span style="font-family:'Courier New';">&nbsp; Talp. Juho Kähkönen, s 1978, ja Iida Emiilia Matarainen, s 23/6 1881</span></p><p><span style="font-family:'Courier New';">T. Rauha Katri &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;27/2 1907 Hiitola Wk.s.686 Uk.s.1160</span><br /><span style="font-family:'Courier New';">T. Irja Sanelma &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2/4 1909 &nbsp; " &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "</span><br /><span style="font-family:'Courier New';">P. Reino Kalervo &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;20/9 1910 &nbsp; "</span><br /><span style="font-family:'Courier New';">T. Vieno Ilta Tuulikki &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;11/4 1913 &nbsp; "</span><br /><span style="font-family:'Courier New';">P. Pauli Voitto Olavi Matarainen &nbsp; 6/7 1916 &nbsp; " &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;vaimon äpärä</span><br /><span style="font-family:'Courier New';">P. Kaino Arvo Päiviö Matarainen &nbsp; &nbsp;6/7 1916 &nbsp; " &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;vaimon äpärä</span><br /><span style="font-family:'Courier New';">T. Kirsti Kyllikki &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;10/4 1919 &nbsp; "</span></p><p><span style="font-family:'Courier New';">Talp. Eemil Paavonp. Kähkönen &nbsp;23/6 1899 Hiitola Wk.s.686</span><br /><span style="font-family:'Courier New';">Talp. Wäinö Paavonp. Kähkönen 22/8 1901 &nbsp; "</span></p><p>&nbsp;</p></div>
 									</li>
 								</ul>
 							</li>
@@ -944,10 +957,10 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2024-02-13 00:46:16
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 6.0.8<br />Last change was the 2024-02-13 00:46:16
 			</p>
 			<p id="copyright">
-			&copy; 2024 John Nordberg
+			&copy; 2026 John Nordberg
 			</p>
 		</div>
 	</div>

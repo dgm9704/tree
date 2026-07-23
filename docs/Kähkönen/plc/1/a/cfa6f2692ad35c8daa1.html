@@ -1,24 +1,35 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>My Family Tree - Places</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 6.0.8 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
 </head>
-<body  onload = "initialize();" >
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">My Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">My Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
 				<ul class="nav" id="dropmenu">
 					<li><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
@@ -26,15 +37,46 @@
 					<li><a href="../../../families.html" title="Families">Families</a></li>
 					<li><a href="../../../events.html" title="Events">Events</a></li>
 					<li class = "CurrentSection"><a href="../../../places.html" title="Places">Places</a></li>
+					<li><a href="../../../heatmaps.html" title="Heatmaps">Heatmaps</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="PlaceDetail">
 			<h3>Hiitola, Suomi</h3>
 			<div id="summaryarea">
@@ -57,7 +99,7 @@
 							<th class="ColumnAttribute">Enclosed By</th>
 						</tr>
 						<tr>
-							<td class="ColumnValue">Suomi</td>
+							<td class="ColumnPlace"><a href="../../../plc/1/a/cb589cfeb254c33cda1.html" title="Suomi">Suomi</a></td>
 						</tr>
 						<tr>
 							<td>
@@ -68,37 +110,31 @@
 							<th class="ColumnAttribute">Place Encloses</th>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/e/9/cb589cc87ae1fd7429e.html" title="Weijala">Weijala</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/7/c/cb589cccfb3022131c7.html" title="Hennilä">Hennilä</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/7/5/cb589cc9ebe33ae8a57.html" title="Kilpola">Kilpola</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/7/5/cb589cc9ebe33ae8a57.html" title="Kilpola">Kilpola</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/7/c/cb589cccfb3022131c7.html" title="Hennilä">Hennilä</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/e/f/d16b7fb93110538e3fe.html" title="Kirkonkylä">Kirkonkylä</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/1/9/cb589cccfda59f61291.html" title="Ulaskanniemi">Ulaskanniemi</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/1/9/cb589cccfda59f61291.html" title="Ulaskanniemi">Ulaskanniemi</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/e/f/d16b7fb93110538e3fe.html" title="Kirkonkylä">Kirkonkylä</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/e/9/cb589cc87ae1fd7429e.html" title="Weijala">Weijala</a></td>
 						</tr>
 					</tbody>
 				</table>
 			</div>
-			<div id="popup"></div>
+			<div class="ol-popup" id="popup"><a class="ol-popup-closer" href="#" id="popup-closer"></a><div class="ol-popup-title" id="popup-title"></div><div id="popup-content"></div></div>
+			<div class="ol-popup" id="tooltip"><div id="tooltip-content"></div></div>
 			<div class="subsection" id="references">
 				<h4>References</h4>
 				<ol class="Col1" role="Volume-n-Page" type=1>
 					<li>
 						<a href="../../../fam/f/6/cb589cccfbe550b8a6f.html">
 						Family of Iliäin, Simon Persson and Mygrä, Maria Ericsdotter
-						 (1784-12-15) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/5/f/cb589ccf92817bb5df5.html">
-						Mygrä, Maria Ericsdotter
 						 (1784-12-15) 
 						
 						</a>
@@ -111,8 +147,15 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../fam/6/7/cb589cc9fcf1a168776.html">
-						Family of Torvinen, Lars Gabrielsson and Iliäinen, Maria
+						<a href="../../../ppl/5/f/cb589ccf92817bb5df5.html">
+						Mygrä, Maria Ericsdotter
+						 (1784-12-15) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/8/3/cb589cccfaa55d88b38.html">
+						Iliäinen, Maria
 						 (1810-03-28) 
 						
 						</a>
@@ -125,8 +168,8 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/8/3/cb589cccfaa55d88b38.html">
-						Iliäinen, Maria
+						<a href="../../../fam/6/7/cb589cc9fcf1a168776.html">
+						Family of Torvinen, Lars Gabrielsson and Iliäinen, Maria
 						 (1810-03-28) 
 						
 						</a>
@@ -134,21 +177,21 @@
 					<li>
 						<a href="../../../ppl/9/6/cb589cc9ef44a4cb069.html">
 						Kähkönen, Helena Pålsdotter
-						 (1872-01-24) 
+						 (1872-01-24 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/c/9/cb589cc89f9219a069c.html">
 						Kähkönen, Wäinö
-						 (1895-02-07) 
+						 (1895-02-07 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/9/3/cb589cc881c756c8e39.html">
 						Kähkönen, Ilma Katrina
-						 (1898-04-23) 
+						 (1898-04-23 Death) 
 						
 						</a>
 					</li>
@@ -176,56 +219,56 @@
 					<li>
 						<a href="../../../ppl/8/2/cb589cc82703b8aad28.html">
 						Kähkönen, Vieno Ilta Tuulikki
-						 (1913-04-11) 
+						 (1913-04-11 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/c/6/cb589cc828e39e0b56c.html">
 						Kähkönen, Kirsti Kyllikki
-						 (1919-04-10) 
+						 (1919-04-10 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/7/0/cb589cc82ad2aec4207.html">
 						Kähkönen, Unto Kauko
-						 (1922-05-20) 
+						 (1922-05-20 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/b/b/cb589cc87a745824fbb.html">
 						Kähkönen, Johan Pålsson
-						 (1930-11-04) 
+						 (1930-11-04 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/4/f/cb589cc7fd941e4faf4.html">
 						Kähkönen, Rauha Katri
-						 (before 1931-03-03) 
+						 (before 1931-03-03 Residence) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/b/1/cb589cc81fd22dc191b.html">
 						Matarainen, Ida Emelia Miinantytär
-						 (1932-06-09) 
+						 (1932-06-09 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/f/0/cb589cc81d26d21e00f.html">
 						Kähkönen, Juho Juhonpoika
-						 (1932-11-23) 
+						 (1932-11-23 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/a/5/cb589cc87ce442c815a.html">
 						Erikäinen, Karin Mårtensdotter
-						 (1939-01-01) 
+						 (1939-01-01 Death) 
 						
 						</a>
 					</li>
@@ -235,10 +278,10 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2015-08-09 15:15:50
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 6.0.8<br />Last change was the 2015-08-09 15:15:50
 			</p>
 			<p id="copyright">
-			&copy; 2024 John Nordberg
+			&copy; 2026 John Nordberg
 			</p>
 		</div>
 	</div>
