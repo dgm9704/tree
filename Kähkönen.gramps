@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.2/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.2/">
   <header>
-    <created date="2026-07-23" version="6.0.8"/>
+    <created date="2026-07-25" version="6.0.8"/>
     <researcher>
       <resname>John Nordberg</resname>
     </researcher>
@@ -1252,11 +1252,12 @@
       <dateval val="1917-05-01" type="before" quality="estimated"/>
       <place hlink="_df214b4636d4e85a2ea0bff6bec"/>
     </event>
-    <event handle="_df21530809c76621e2b97fa27be" change="1784839902" id="E0281">
+    <event handle="_df21530809c76621e2b97fa27be" change="1784840438" id="E0281">
       <type>Departure</type>
       <dateval val="1917-05-12"/>
       <place hlink="_df215306666436bd70979bc44de"/>
       <citationref hlink="_103ba77b8f5815323113f2c44acd"/>
+      <citationref hlink="_103ba7c85a282e34da7d12bb5a8"/>
     </event>
     <event handle="_df21559424b43ea5eb0455335c8" change="1784839766" id="E0282">
       <type>Arrival</type>
@@ -1334,7 +1335,7 @@
       <childof hlink="_cb589cc7ff015b9b45f"/>
       <parentin hlink="_cb589cc7f744b307cf1"/>
     </person>
-    <person handle="_cb589cc81d26d21e00f" change="1533389100" id="I0140">
+    <person handle="_cb589cc81d26d21e00f" change="1785001370" id="I0140">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Juho</first>
@@ -1358,6 +1359,10 @@
       <eventref hlink="_cb589cc81e3033469a2" role="Primary"/>
       <childof hlink="_cb589cc81ed0dd3ee46"/>
       <parentin hlink="_cb589cc7ff015b9b45f"/>
+      <citationref hlink="_103c035f90134886ea499bbe36fd"/>
+      <citationref hlink="_103c03b06b3d7b4c22130f0dc10f"/>
+      <citationref hlink="_103c05a84fa07b8f57b737db1c15"/>
+      <citationref hlink="_103c07b9880a508b24a9b58399f1"/>
     </person>
     <person handle="_cb589cc81fd22dc191b" change="1707777976" id="I0141">
       <gender>F</gender>
@@ -2928,6 +2933,49 @@
       <noteref hlink="_103ba796d06f5e5c862462025296"/>
       <sourceref hlink="_103ba73e896c9a1cbebb7a05369"/>
     </citation>
+    <citation handle="_103ba7c85a282e34da7d12bb5a8" change="1784840404" id="C0087">
+      <dateval val="1917-05-11"/>
+      <page>New York / 1917-05-11</page>
+      <confidence>2</confidence>
+      <noteref hlink="_103ba7c81e517e92e6ba53e84961"/>
+      <sourceref hlink="_103ba7be64c85ed6ddaf39d8298c"/>
+    </citation>
+    <citation handle="_103c035f90134886ea499bbe36fd" change="1784994067" id="C0088">
+      <dateval val="1913-03-14"/>
+      <page>1913-62 / 3</page>
+      <confidence>2</confidence>
+      <noteref hlink="_103c0338eca82e0012c46778ba26"/>
+      <noteref hlink="_103c033719de18ea25826bd030f0"/>
+      <noteref hlink="_103c035eaca938014bce33505774"/>
+      <sourceref hlink="_103c032b596351245a628e88943e"/>
+    </citation>
+    <citation handle="_103c03b06b3d7b4c22130f0dc10f" change="1784997630" id="C0089">
+      <dateval val="1913-09-13"/>
+      <page>1913-215 / 5</page>
+      <confidence>2</confidence>
+      <noteref hlink="_103c039b7dcf5392d63cd85032bc"/>
+      <noteref hlink="_103c039e4c5672d50979a244abb9"/>
+      <noteref hlink="_103c0396e85d4b3f0ac573adb887"/>
+      <sourceref hlink="_103c032b596351245a628e88943e"/>
+    </citation>
+    <citation handle="_103c05a84fa07b8f57b737db1c15" change="1784997899" id="C0090">
+      <dateval val="1914-12-23"/>
+      <page>1914-298 / 6</page>
+      <confidence>2</confidence>
+      <noteref hlink="_103c058d40335c7db3083c3609b2"/>
+      <noteref hlink="_103c05910be3148d4a6b973a28ac"/>
+      <noteref hlink="_103c05a7ec39302741f11efe2ac5"/>
+      <sourceref hlink="_103c032b596351245a628e88943e"/>
+    </citation>
+    <citation handle="_103c07b9880a508b24a9b58399f1" change="1785001368" id="C0091">
+      <dateval val="1915-12-21" type="before"/>
+      <page>1915-299 / 4</page>
+      <confidence>2</confidence>
+      <noteref hlink="_103c07a5c6774f1677eabde6ae12"/>
+      <noteref hlink="_103c07a9c34c4e37a704095addbe"/>
+      <noteref hlink="_103c07b942f01fc5910b7cb2cdc3"/>
+      <sourceref hlink="_103c032b596351245a628e88943e"/>
+    </citation>
     <citation handle="_cdcfc2532ac0a42deee" change="1708011199" id="C0025">
       <dateval val="1881-05-23"/>
       <page>8</page>
@@ -3501,6 +3549,17 @@
       <sauthor>Juho Kähkönen</sauthor>
       <reporef hlink="_df1c4a455f14ce59186d89258e8" medium="Book"/>
     </source>
+    <source handle="_103ba7be64c85ed6ddaf39d8298c" change="1784840338" id="S0057">
+      <stitle>Postikortti</stitle>
+      <sauthor>Juho Kähkönen</sauthor>
+      <reporef hlink="_df1c4a455f14ce59186d89258e8" medium="Book"/>
+    </source>
+    <source handle="_103c032b596351245a628e88943e" change="1784994627" id="S0058">
+      <stitle>Työmies</stitle>
+      <sauthor>The American-Finnish Publishers</sauthor>
+      <spubinfo>Hancock 16.08.1904 - 12.10.1914</spubinfo>
+      <reporef hlink="_103c032b06ca4db3792868cf3ffb" medium="Book"/>
+    </source>
     <source handle="_cdcfc23e89e2b9f42c7" change="1439140669" id="S0025">
       <stitle>Toivakka syntyneet 1880-1885</stitle>
       <sauthor>Toivakan seurakunta</sauthor>
@@ -4039,6 +4098,10 @@
       <rname>Suomen kirkot ja hautausmaat</rname>
       <type>Library</type>
     </repository>
+    <repository handle="_103c032b06ca4db3792868cf3ffb" change="1784993723" id="R0009">
+      <rname>Kansalliskirjasto digitoidut aineistot</rname>
+      <type>Library</type>
+    </repository>
     <repository handle="_cfa6fb12c7c665292c0" change="1593954235" id="R0000">
       <rname>Arkistolaitos Digitaaliarkisto</rname>
       <type>Archive</type>
@@ -4180,6 +4243,127 @@ laivalla pyrkimään yli atlannin.
       <text>16. p [toukokuuta] [1917] kello 6 ilta 
 lähdimme Halifaxista atlannille kohti suurta tuntematonta
 </text>
+    </note>
+    <note handle="_103ba7c81e517e92e6ba53e84961" change="1784840402" id="N0136" type="Transcript">
+      <text>leima New York May 11 1917
+?
+kaivattut
+huomenna lähden vesille
+en tiedä kuinka käy mutta yli 200 suomalaista on lähdössä
+jos onnistun niin ? kanssa olen sillä sydämellisin tervehdys kaikille 
+isältä juuri lähtiessäni sain ? kanssa kirjoittamassani? kirjeessä ensitöikseni?
+</text>
+    </note>
+    <note handle="_103c033719de18ea25826bd030f0" change="1784993802" id="N0137" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/2729473?page=3</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/sanomalehti/binding/2729473?page=3">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_103c0338eca82e0012c46778ba26" change="1784993814" id="N0138" type="Citation">
+      <text>Työmies, 14.03.1913, nro 62, s. 3
+https://digi.kansalliskirjasto.fi/sanomalehti/binding/2729473?page=3
+Kansalliskirjaston digitaaliset aineistot
+Viitattu:25.07.2026</text>
+    </note>
+    <note handle="_103c035eaca938014bce33505774" change="1784994061" id="N0139" type="Transcript" format="1">
+      <text>Puuseppä MIKKO KIURU, Hiitolas-
+ta, Viipurin läänistä, joka pari vuotta
+takaperin oli Chicagon Sosialisti Osas-
+to N: o 1 rakennuskomit. puheenjohta-
+ja, kirjoitappa entiselle vanhanmaan
+naapurillesi Kähkösen Jussille Virgini-
+aan ja ainoalle veljellesi vanhaan-
+maahan. Samoin entinen kisaveikko
+BERTTEL NESTOR ROTHMAN anna
+Jussille tietoja. Heidän tuttunsa nyh-
+jätkää poikia kylkeen kun tämän huo-
+maatte. Osote: JUKKA KANGAS, 815
+—3rd St., N. Side, Virginia, Minn.
+(63) </text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="474"/>
+      </style>
+    </note>
+    <note handle="_103c0396e85d4b3f0ac573adb887" change="1784994430" id="N0140" type="Transcript" format="1">
+      <text>215) Farmarit Huom.! Jos teillä on
+kolmelle miehelle talsin veistoa ensi-
+kevääseen asti, vaikkapa naapuruk-
+silla, nii nkutsukaa meitä työhön.
+Olemtme vanhassa Suomessa veisto-
+kurssin suorittaneet. Maksun toivoi-
+simme kuukausittain, ja etupäässä St.
+Louis kauntissa työala, menemme kau-
+vemmaksikin. Kirjoittukaa allaoleval-
+la osoitteelta maksuistanne, metsien-
+ne hyvyydestä, poortauksesta y. m. 
+Jukka Kangas, 825 —2nd St. N. S., Vir-
+ginia. Minn. </text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="454"/>
+      </style>
+    </note>
+    <note handle="_103c039b7dcf5392d63cd85032bc" change="1784994460" id="N0141" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/2729388?page=5</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/sanomalehti/binding/2729388?page=5">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_103c039e4c5672d50979a244abb9" change="1784994478" id="N0142" type="Citation">
+      <text>Työmies, 13.09.1913, nro 215, s. 5
+https://digi.kansalliskirjasto.fi/sanomalehti/binding/2729388?page=5
+Kansalliskirjaston digitaaliset aineistot
+Viitattu:25.07.2026</text>
+    </note>
+    <note handle="_103c058d40335c7db3083c3609b2" change="1784997722" id="N0143" type="Citation">
+      <text>Työmies, 23.12.1914, nro 298, s. 6
+https://digi.kansalliskirjasto.fi/sanomalehti/binding/2731408?page=6
+Kansalliskirjaston digitaaliset aineistot
+Viitattu:25.07.2026</text>
+    </note>
+    <note handle="_103c05910be3148d4a6b973a28ac" change="1784997747" id="N0144" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/2731408?page=6</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/sanomalehti/binding/2731408?page=6">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_103c05a7ec39302741f11efe2ac5" change="1784997897" id="N0145" type="Transcript" format="1">
+      <text>       Virginia
+[...]
+Anna ja John Lasonen sekä
+  lapset, 825-2nd st.
+[...]
+John Kangas (Juho Kähkö-
+  nen), 615-4th st.
+</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="121"/>
+      </style>
+    </note>
+    <note handle="_103c07a5c6774f1677eabde6ae12" change="1785001238" id="N0146" type="Citation">
+      <text>Työmies, 21.12.1915, nro 299 Section IV, s. 4
+https://digi.kansalliskirjasto.fi/sanomalehti/binding/2737284?page=4
+Kansalliskirjaston digitaaliset aineistot
+Viitattu:25.07.2026</text>
+    </note>
+    <note handle="_103c07a9c34c4e37a704095addbe" change="1785001264" id="N0147" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/2737284?page=4</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/sanomalehti/binding/2737284?page=4">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_103c07b942f01fc5910b7cb2cdc3" change="1785001366" id="N0148" type="Transcript" format="1">
+      <text>VIRGINIA, MINN
+
+John Kangas (Kähkönen)
+        615 4th St. N. S.
+[...]
+Anni ja John Lasonen
+        825 2nd St. N. S.
+</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="118"/>
+      </style>
     </note>
     <note handle="_cdcfc0d83431addb821" change="1708010925" id="N0097" type="Link">
       <text>http://www.sukuhistoria.fi/sshy/kirjat/Kirkonkirjat/toivakka/syntyneet_1880-1885_mko1-2/8.htm</text>
