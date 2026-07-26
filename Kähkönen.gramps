@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.2/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.2/">
   <header>
-    <created date="2026-07-25" version="6.0.8"/>
+    <created date="2026-07-26" version="6.0.8"/>
     <researcher>
       <resname>John Nordberg</resname>
     </researcher>
@@ -19,6 +19,12 @@
       <place hlink="_103b6db01fe2505ef8992a6ba83f"/>
       <citationref hlink="_103b6db9173f4019b12e4ead90bb"/>
       <citationref hlink="_103b6de3dcfc1c1ee5cf141c57eb"/>
+    </event>
+    <event handle="_103c2d329a25c662d2409072a4" change="1785064237" id="E0015">
+      <type>Residence</type>
+      <dateval val="1939-03-29" type="from"/>
+      <place hlink="_df1c48cac856c80b54de6a3a824"/>
+      <citationref hlink="_df1c587e5ce6cb0d7686e8b8c8"/>
     </event>
     <event handle="_cb589cc7fdd37b0f6f4" change="1708010693" id="E0010">
       <type>Birth</type>
@@ -1151,9 +1157,9 @@
       <place hlink="_df1c5cd9e705371c92cc322e533"/>
       <citationref hlink="_df1c587e5ce6cb0d7686e8b8c8"/>
     </event>
-    <event handle="_df1c65c20f6132587be38746901" change="1549395045" id="E0264">
+    <event handle="_df1c65c20f6132587be38746901" change="1785061473" id="E0264">
       <type>Residence</type>
-      <dateval val="1939-01-11" type="after"/>
+      <dateval val="1939-01-11" type="from"/>
       <place hlink="_df1c48cac856c80b54de6a3a824"/>
       <citationref hlink="_df1c65bc0b97cb053e8871dab11"/>
     </event>
@@ -1398,13 +1404,14 @@
       <childof hlink="_cb589cc7ff015b9b45f"/>
       <parentin hlink="_f7fcf79ab5b3f57dd2251bf2e5a"/>
     </person>
-    <person handle="_cb589cc824e51a1192b" change="1593955029" id="I0114">
+    <person handle="_cb589cc824e51a1192b" change="1785066724" id="I0114">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Reino Kalervo</first>
         <surname>Kähkönen</surname>
       </name>
       <eventref hlink="_cb589cc82553c551054" role="Primary"/>
+      <eventref hlink="_103c2d329a25c662d2409072a4" role="Primary"/>
       <eventref hlink="_cb589cc825107a10fb3" role="Primary"/>
       <childof hlink="_cb589cc7ff015b9b45f"/>
     </person>
@@ -1437,7 +1444,7 @@
       <eventref hlink="_df1c946723513f5c6571a83eefd" role="Primary"/>
       <childof hlink="_cb589cc7ff015b9b45f"/>
     </person>
-    <person handle="_cb589cc82ad2aec4207" change="1593955029" id="I0107">
+    <person handle="_cb589cc82ad2aec4207" change="1785063679" id="I0107">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Unto Kauko</first>
@@ -1447,6 +1454,7 @@
       <eventref hlink="_df1c65c20f6132587be38746901" role="Primary"/>
       <eventref hlink="_cb589cc82b06a847a24" role="Primary"/>
       <childof hlink="_cb589cc7ff015b9b45f"/>
+      <citationref hlink="_103c2cdd45f722b89601893abded"/>
     </person>
     <person handle="_cb589cc87a745824fbb" change="1427654022" id="I0156">
       <gender>M</gender>
@@ -2977,6 +2985,15 @@
       <noteref hlink="_103c07b942f01fc5910b7cb2cdc3"/>
       <sourceref hlink="_103c032b596351245a628e88943e"/>
     </citation>
+    <citation handle="_103c2cdd45f722b89601893abded" change="1785063678" id="C0092">
+      <dateval val="1941-07-20"/>
+      <page>1941-193 / 4</page>
+      <confidence>2</confidence>
+      <noteref hlink="_103c2ccba2e957db6d4f7e2bac86"/>
+      <noteref hlink="_103c2cc9f89b54a403bdd653ec8b"/>
+      <noteref hlink="_103c2cdcce8a3e9240d5de0fe7e6"/>
+      <sourceref hlink="_103c2cc2035f66365dbf6a8f2bb8"/>
+    </citation>
     <citation handle="_cdcfc2532ac0a42deee" change="1708011199" id="C0025">
       <dateval val="1881-05-23"/>
       <page>8</page>
@@ -3506,14 +3523,15 @@
       <noteref hlink="_f883aed66c7f3c58057630d055"/>
       <sourceref hlink="_f883aacdab746c5ba17e27a66a3"/>
     </citation>
-    <citation handle="_f883b75d14943cc0a136e9111ad" change="1707778886" id="C0077">
+    <citation handle="_f883b75d14943cc0a136e9111ad" change="1785061531" id="C0077">
+      <datestr val=""/>
       <page>Kuusimäki, Vilho - Kärenaho, Anna/2447</page>
       <confidence>2</confidence>
       <noteref hlink="_f883b50d8096ceb8ffc91eefb8c"/>
       <noteref hlink="_f883b52f9c038340ab05304a9b1"/>
-      <noteref hlink="_f883b687313976fd16f6414106"/>
       <noteref hlink="_f883b6ec95b9e2bf720b826a81"/>
       <noteref hlink="_f883b724591161182f302de1933"/>
+      <noteref hlink="_f883b687313976fd16f6414106"/>
       <sourceref hlink="_defa5a95c5f439b431ef6716129"/>
     </citation>
     <citation handle="_f883bf32591c2bdf4ff828241e" change="1707779575" id="C0078">
@@ -3560,6 +3578,12 @@
       <stitle>Työmies</stitle>
       <sauthor>The American-Finnish Publishers</sauthor>
       <spubinfo>Hancock 16.08.1904 - 12.10.1914</spubinfo>
+      <reporef hlink="_103c032b06ca4db3792868cf3ffb" medium="Book"/>
+    </source>
+    <source handle="_103c2cc2035f66365dbf6a8f2bb8" change="1785063499" id="S0059">
+      <stitle>Hufvudstadsbladet</stitle>
+      <sauthor>Hufvudstadsbladet Ab</sauthor>
+      <spubinfo>Helsingfors 05.12.1864 -</spubinfo>
       <reporef hlink="_103c032b06ca4db3792868cf3ffb" medium="Book"/>
     </source>
     <source handle="_cdcfc23e89e2b9f42c7" change="1439140669" id="S0025">
@@ -4367,6 +4391,35 @@ Anni ja John Lasonen
         <range start="0" end="118"/>
       </style>
     </note>
+    <note handle="_103c2cc9f89b54a403bdd653ec8b" change="1785063551" id="N0149" type="Link">
+      <text>https://digi.kansalliskirjasto.fi/sanomalehti/binding/2236158?page=4</text>
+      <style name="link" value="https://digi.kansalliskirjasto.fi/sanomalehti/binding/2236158?page=4">
+        <range start="0" end="68"/>
+      </style>
+    </note>
+    <note handle="_103c2ccba2e957db6d4f7e2bac86" change="1785063562" id="N0150" type="Citation">
+      <text>Hufvudstadsbladet, 20.07.1941, nro 193, s. 4
+https://digi.kansalliskirjasto.fi/sanomalehti/binding/2236158?page=4
+Kansalliskirjaston digitaaliset aineistot
+Viitattu:26.07.2026</text>
+    </note>
+    <note handle="_103c2cdcce8a3e9240d5de0fe7e6" change="1785063675" id="N0151" type="Transcript" format="1">
+      <text>    Frän rådhusrätten.
+  Rådhusrätten i Helsingfors dömde Unto
+Kauko Kähkönen för stöld till fängelse-
+straff under 5 månader och till förlust
+av medborgerligt förtroende under 3 är
+utöver tiden for frihetsstraffet. Dess-
+utom förordnade rådhusrätten att det ho-
+nom tidigare för döljande av tjuvgods
+och för första resan stöld villkorligt
+ådömda straffet skall bringas i verkstäl-
+lighet. Den dömde hade från en kon-
+fektionsaffär tillgripit en herrkostym.</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="457"/>
+      </style>
+    </note>
     <note handle="_cdcfc0d83431addb821" change="1708010925" id="N0097" type="Link">
       <text>http://www.sukuhistoria.fi/sshy/kirjat/Kirkonkirjat/toivakka/syntyneet_1880-1885_mko1-2/8.htm</text>
     </note>
@@ -4989,29 +5042,31 @@ https://astia.narc.fi/uusiastia/viewer/?fileId=5400869728&amp;aineistoId=1204386
         <range start="47" end="126"/>
       </style>
     </note>
-    <note handle="_e17769b2fab1c1031a7da96f80b" change="1549393691" id="N0077" type="Transcript" format="1">
-      <text>(Leima: 							Viite [ES 6-1168]
+    <note handle="_e17769b2fab1c1031a7da96f80b" change="1785061467" id="N0077" type="Transcript" format="1">
+      <text>(Leima:                                          Viite [ES 6-1168]
 Helsingin 
 hiippakunnan 
 tuomiokapituli)
 
-VIRKATODISTUS 					[perunkirjoitusta] varten
+VIRKATODISTUS perunkirjoitusta varten
 
 Paikka, aika ja virasto
-Helsinki [16.01.1989 ST/HK] 		Helsingin ev.-lut. seurakuntien keskusrekisteri
-
+Helsinki 16.01.1989 ST/HK Helsingin ev.-lut. seurakuntien keskusrekisteri
 
 Hiitolasta muutti 11.01.1939 Helsinkiin
-		Unto Kauko Kähkönen, 
+         Unto Kauko Kähkönen, 
 synt. 20.05.1922 Hiitola, kuoli 05.05.1942 Eteläisen suomalaisen 
 seurakunnan jäsenenä naimattomana. 
 Kirjoissamme ei ole lapsia.
 
 
-Lunastus [3] mk				tip 260/89-3849/85				&lt;allekirjoitus&gt;
-Vr 37 9 87  40 000												Samuli Toivio
-																		johtaja
+Lunastus 3 mk          tip 260/89-3849/85          &lt;allekirjoitus&gt;
+Vr 37 9 87  40 000                                    Samuli Toivio
+                                                        johtaja
 </text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="649"/>
+      </style>
     </note>
     <note handle="_e17776796469348f307549f27e" change="1704162496" id="N0078" type="Transcript" format="1">
       <text>(leima:                                   VIRKATODISTUS
