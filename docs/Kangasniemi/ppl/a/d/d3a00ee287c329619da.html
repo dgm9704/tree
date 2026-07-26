@@ -1,25 +1,35 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>My Family Tree - Kangasniemi, Anni</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 6.0.8 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
-	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">My Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">My Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
 				<ul class="nav" id="dropmenu">
 					<li class = "CurrentSection"><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
@@ -27,15 +37,46 @@
 					<li><a href="../../../families.html" title="Families">Families</a></li>
 					<li><a href="../../../events.html" title="Events">Events</a></li>
 					<li><a href="../../../places.html" title="Places">Places</a></li>
+					<li><a href="../../../heatmaps.html" title="Heatmaps">Heatmaps</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="IndividualDetail">
 			<h3>Kangasniemi, Anni<sup><small> <a href="#sref1a">1a</a></small></sup></h3>
 			<div id="summaryarea">
@@ -49,13 +90,13 @@
 					<tr>
 						<td class="ColumnAttribute">Married Name</td>
 						<td class="ColumnValue">
-						Koski, Anni
+						from 1921-04-26 to 1924-12-12: Koski, Anni
 						</td>
 					</tr>
 					<tr>
 						<td class="ColumnAttribute">Married Name</td>
 						<td class="ColumnValue">
-						Hakkola, Anni
+						from 1924-12-12: Hakkola, Anni
 						</td>
 					</tr>
 					<tr>
@@ -70,7 +111,7 @@
 			</div>
 			<div class="subsection" id="events">
 				<h4>Events</h4>
-				<table class="infolist eventlist">
+				<table class="infolist eventlist toggle_event ltr" id="toggle_event" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnEvent">Event</th>
@@ -82,7 +123,7 @@
 					</thead>
 					<tbody>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/8/a/d3a00f319990ebcb2a8.html" title="Birth">
 								Birth
 								</a>
@@ -98,9 +139,6 @@
 							 <a href="#sref2a">2a</a> <a href="#sref3a">3a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -108,7 +146,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/8/9/df29fc420fd63a9f2b6c584098.html" title="Departure">
 								Departure
 								</a>
@@ -126,9 +164,6 @@
 							 <a href="#sref1a">1a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -136,7 +171,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/3/9/df2a010490a417fa23858583b93.html" title="Departure">
 								Departure
 								</a>
@@ -154,9 +189,6 @@
 							 <a href="#sref4a">4a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -164,7 +196,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/d/a/df2a03737874db6d74bbba09fad.html" title="Arrival">
 								Arrival
 								</a>
@@ -182,9 +214,6 @@
 							 <a href="#sref5a">5a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -192,7 +221,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/a/8/df2a48f360556cd19f03bad6f8a.html" title="Death">
 								Death
 								</a>
@@ -204,9 +233,6 @@
 							 <a href="#sref6a">6a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -214,7 +240,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/e/9/df2a499c4304d64b9ae89a9f9e.html" title="Burial">
 								Burial
 								</a>
@@ -230,9 +256,6 @@
 							 <a href="#sref6a">6a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -244,7 +267,7 @@
 			</div>
 			<div class="subsection" id="parents">
 				<h4>Parents</h4>
-				<table class="infolist">
+				<table class="infolist toggle_parent ltr" id="toggle_parent" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnAttribute">Relation to main person</th>
@@ -352,7 +375,7 @@
 			</div>
 			<div class="subsection" id="families">
 				<h4>Families</h4>
-				<table class="infolist fixed_subtables">
+				<table class="infolist fixed_subtables" id="toggle_families" style="display:block">
 					<tr class="BeginFamily">
 						<td class="ColumnValue" colspan="3"><H4 class="subsection"><a href="../../../fam/1/9/df2a0d0846850adf2135c7cc791.html" title="Family of Koski, John and Kangasniemi, Anni">Family of Koski, John and Kangasniemi, Anni</a></H4></td>
 					</tr>
@@ -370,9 +393,8 @@
 					</tr>
 					<tr>
 						<td class="ColumnType">&nbsp;</td>
-						<td class="ColumnAttribute">&nbsp;</td>
-						<td class="ColumnValue">
-							<table class="infolist eventlist">
+						<td class="ColumnValue" colspan="2">
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnEvent">Event</th>
@@ -384,7 +406,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/a/c/df2a0de399979028d5eab30eeca.html" title="Marriage">
 											Marriage
 											</a>
@@ -400,9 +422,6 @@
 										 <a href="#sref7a">7a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -430,9 +449,8 @@
 					</tr>
 					<tr>
 						<td class="ColumnType">&nbsp;</td>
-						<td class="ColumnAttribute">&nbsp;</td>
-						<td class="ColumnValue">
-							<table class="infolist eventlist">
+						<td class="ColumnValue" colspan="2">
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnEvent">Event</th>
@@ -444,7 +462,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/f/6/df2a22f7edf170eb89e13ec466f.html" title="Marriage">
 											Marriage
 											</a>
@@ -460,9 +478,6 @@
 										 <a href="#sref7b">7b</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -470,7 +485,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/2/6/df2d552c7fc44681a69c7658162.html" title="Census">
 											Census
 											</a>
@@ -486,9 +501,6 @@
 										 <a href="#sref8a">8a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -496,7 +508,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/8/a/df2d8f8e29479e8c0f29716bfa8.html" title="Residence">
 											Residence
 											</a>
@@ -512,9 +524,6 @@
 										 <a href="#sref9a">9a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -522,7 +531,7 @@
 										</tr>
 									</tr>
 									<tr>
-										<td class="ColumnEvent">
+										<td class="ColumnEvent" rowspan="2">
 											<a href="../../../evt/8/4/df2d752279d573f175bbe7fe048.html" title="Census">
 											Census
 											</a>
@@ -538,9 +547,6 @@
 										 <a href="#sref9a">9a</a>
 										</td>
 										<tr>
-											<td class="ColumnEvent">
-											
-											</td>
 											<td class="ColumnNotes" colspan="3">
 												<div>
 												</div>
@@ -551,10 +557,9 @@
 							</table>
 						</td>
 						<tr>
-							<td class="ColumnType">&nbsp;</td>
 							<td class="ColumnAttribute">Children</td>
-							<td class="ColumnValue" />
-							<table class="infolist eventlist">
+							<td class="ColumnValue Child" colspan="2" />
+							<table class="infolist eventlist ltr">
 								<thead>
 									<tr>
 										<th class="ColumnName">Name</th>
@@ -582,7 +587,7 @@
 			</div>
 			<div class="subsection" id="pedigree">
 				<h4>Pedigree</h4>
-				<ol class="pedigreegen">
+				<ol class="pedigreegen" id="toggle_pedigree" style="display:block">
 					<li>
 						<a href="../../../ppl/4/f/d3a0085fd3249703bf4.html">Kangasniemi, Matti Matinpoika vanh.</a>
 						<ol>
@@ -676,145 +681,147 @@
 			</div>
 			<div class="subsection" id="tree">
 				<h4>Ancestors</h4>
-				<div id="treeContainer" style="width:1234px; height:900px; top: 0px">
-					<div class="boxbg female AncCol0" style="top: 455px; left: 6px;">
-						<a class="noThumb" href="../../../ppl/a/d/d3a00ee287c329619da.html">
-						Kangasniemi, Anni<br/>*1897-03-20<br/>+1988
-						</a>
+				<div class="tree" id="toggle_anc" style="display:block">
+					<div id="treeContainer" style="width:1234px; height:900px; top: 0px">
+						<div class="boxbg female AncCol0" style="top: 455px; left: 6px;">
+							<a class="noThumb" href="../../../ppl/a/d/d3a00ee287c329619da.html">
+							Kangasniemi, Anni<br>*1897-03-20<br>+1988
+							</a>
+						</div>
+						<div class="shadow" style="top: 460px; left: 10px;"></div>
+						<div class="bvline" style="top: 475px; left: 285px; width: 15px"></div>
+						<div class="gvline" style="top: 480px; left: 285px; width: 20px"></div>
+						<div class="boxbg male AncCol1" style="top: 230px; left: 316px;">
+							<a class="noThumb" href="../../../ppl/4/f/d3a0085fd3249703bf4.html">
+							Kangasniemi, Matti Matinpoika vanh.<br>*1845-03-18<br>+1928-11-23
+							</a>
+						</div>
+						<div class="shadow" style="top: 235px; left: 320px;"></div>
+						<div class="bvline" style="top: 250px; left: 300px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 250px; left: 300px; height: 226px;"></div>
+					
+						<div class="bvline" style="top: 250px; left: 595px; width: 15px"></div>
+						<div class="gvline" style="top: 255px; left: 595px; width: 20px"></div>
+						<div class="boxbg male AncCol2" style="top: 80px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/6/c/da6940331644d79bfb4089004c6.html">
+							Tuohimaa, Mathias Samuelsson<br>*1818-06-28<br>+1886-05-22
+							</a>
+						</div>
+						<div class="shadow" style="top: 85px; left: 630px;"></div>
+						<div class="bvline" style="top: 100px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 100px; left: 610px; height: 151px;"></div>
+					
+						<div class="bvline" style="top: 100px; left: 905px; width: 15px"></div>
+						<div class="gvline" style="top: 105px; left: 905px; width: 20px"></div>
+						<div class="boxbg male AncCol3" style="top: 5px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/0/a/da6c72c29c85a8944528d3fcca0.html">
+							, Samuel Mattsson<br>*1795-05-21<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 10px; left: 940px;"></div>
+						<div class="bvline" style="top: 25px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 25px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol3" style="top: 155px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/0/5/da6c82c39201fd5a609e852e250.html">
+							, Maria Thomasdotter<br>*1798-09-17<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 160px; left: 940px;"></div>
+						<div class="bvline" style="top: 175px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 100px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol2" style="top: 380px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/f/f/da698b6704d287a4458c68097ff.html">
+							, Hedwig Mattsdotter<br>*1820-10-23<br>+1856-01-07
+							</a>
+						</div>
+						<div class="shadow" style="top: 385px; left: 630px;"></div>
+						<div class="bvline" style="top: 400px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 250px; left: 610px; height: 151px;"></div>
+					
+						<div class="bvline" style="top: 400px; left: 905px; width: 15px"></div>
+						<div class="gvline" style="top: 405px; left: 905px; width: 20px"></div>
+						<div class="boxbg male AncCol3" style="top: 305px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/6/e/dc6c54bd1ca25a696ed876dcbe6.html">
+							, Matts Danielsson<br>*1789-01-15<br>+1829-02-03
+							</a>
+						</div>
+						<div class="shadow" style="top: 310px; left: 940px;"></div>
+						<div class="bvline" style="top: 325px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 325px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol3" style="top: 455px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/b/1/dc6c55546541888067ff750711b.html">
+							, Anna Justina Michelsdotter<br>*1784-10-18<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 460px; left: 940px;"></div>
+						<div class="bvline" style="top: 475px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 400px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol1" style="top: 680px; left: 316px;">
+							<a class="noThumb" href="../../../ppl/3/f/d3a008cbc102865eef3.html">
+							, Eva Kristina Hedwigsdotter<br>*1849-12-04<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 685px; left: 320px;"></div>
+						<div class="bvline" style="top: 700px; left: 300px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 475px; left: 300px; height: 226px;"></div>
+					
+						<div class="bvline" style="top: 700px; left: 595px; width: 15px"></div>
+						<div class="gvline" style="top: 705px; left: 595px; width: 20px"></div>
+						<div class="boxbg female AncCol2" style="top: 680px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/2/b/dc68c293bf01ffc24f58745a8b2.html">
+							, Hedwig Johansdotter<br>*1826-04-12<br>+1868-06-15
+							</a>
+						</div>
+						<div class="shadow" style="top: 685px; left: 630px;"></div>
+						<div class="bvline" style="top: 700px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 700px; left: 610px; height: 1px;"></div>
+					
+						<div class="bvline" style="top: 700px; left: 905px; width: 15px"></div>
+						<div class="gvline" style="top: 705px; left: 905px; width: 20px"></div>
+						<div class="boxbg male AncCol3" style="top: 605px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/2/4/dc68cc991637c85a7605d34c42.html">
+							Ikola, Johan Mattsson<br>*1806-01-06<br>+1866-10-04
+							</a>
+						</div>
+						<div class="shadow" style="top: 610px; left: 940px;"></div>
+						<div class="bvline" style="top: 625px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 625px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol3" style="top: 755px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/b/4/dc68cd2664323a5c9bba703b54b.html">
+							, Clara Mattsdotter<br>*1795-12-24<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 760px; left: 940px;"></div>
+						<div class="bvline" style="top: 775px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 700px; left: 920px; height: 76px;"></div>
+					
 					</div>
-					<div class="shadow" style="top: 460px; left: 10px;"></div>
-					<div class="bvline" style="top: 475px; left: 285px; width: 15px"></div>
-					<div class="gvline" style="top: 480px; left: 285px; width: 20px"></div>
-					<div class="boxbg male AncCol1" style="top: 230px; left: 316px;">
-						<a class="noThumb" href="../../../ppl/4/f/d3a0085fd3249703bf4.html">
-						Kangasniemi, Matti Matinpoika vanh.<br/>*1845-03-18<br/>+1928-11-23
-						</a>
-					</div>
-					<div class="shadow" style="top: 235px; left: 320px;"></div>
-					<div class="bvline" style="top: 250px; left: 300px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 250px; left: 300px; height: 226px;"></div>
-				
-					<div class="bvline" style="top: 250px; left: 595px; width: 15px"></div>
-					<div class="gvline" style="top: 255px; left: 595px; width: 20px"></div>
-					<div class="boxbg male AncCol2" style="top: 80px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/6/c/da6940331644d79bfb4089004c6.html">
-						Tuohimaa, Mathias Samuelsson<br/>*1818-06-28<br/>+1886-05-22
-						</a>
-					</div>
-					<div class="shadow" style="top: 85px; left: 630px;"></div>
-					<div class="bvline" style="top: 100px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 100px; left: 610px; height: 151px;"></div>
-				
-					<div class="bvline" style="top: 100px; left: 905px; width: 15px"></div>
-					<div class="gvline" style="top: 105px; left: 905px; width: 20px"></div>
-					<div class="boxbg male AncCol3" style="top: 5px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/0/a/da6c72c29c85a8944528d3fcca0.html">
-						, Samuel Mattsson<br/>*1795-05-21<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 10px; left: 940px;"></div>
-					<div class="bvline" style="top: 25px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 25px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol3" style="top: 155px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/0/5/da6c82c39201fd5a609e852e250.html">
-						, Maria Thomasdotter<br/>*1798-09-17<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 160px; left: 940px;"></div>
-					<div class="bvline" style="top: 175px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 100px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol2" style="top: 380px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/f/f/da698b6704d287a4458c68097ff.html">
-						, Hedwig Mattsdotter<br/>*1820-10-23<br/>+1856-01-07
-						</a>
-					</div>
-					<div class="shadow" style="top: 385px; left: 630px;"></div>
-					<div class="bvline" style="top: 400px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 250px; left: 610px; height: 151px;"></div>
-				
-					<div class="bvline" style="top: 400px; left: 905px; width: 15px"></div>
-					<div class="gvline" style="top: 405px; left: 905px; width: 20px"></div>
-					<div class="boxbg male AncCol3" style="top: 305px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/6/e/dc6c54bd1ca25a696ed876dcbe6.html">
-						, Matts Danielsson<br/>*1789-01-15<br/>+1829-02-03
-						</a>
-					</div>
-					<div class="shadow" style="top: 310px; left: 940px;"></div>
-					<div class="bvline" style="top: 325px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 325px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol3" style="top: 455px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/b/1/dc6c55546541888067ff750711b.html">
-						, Anna Justina Michelsdotter<br/>*1784-10-18<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 460px; left: 940px;"></div>
-					<div class="bvline" style="top: 475px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 400px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol1" style="top: 680px; left: 316px;">
-						<a class="noThumb" href="../../../ppl/3/f/d3a008cbc102865eef3.html">
-						, Eva Kristina Hedwigsdotter<br/>*1849-12-04<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 685px; left: 320px;"></div>
-					<div class="bvline" style="top: 700px; left: 300px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 475px; left: 300px; height: 226px;"></div>
-				
-					<div class="bvline" style="top: 700px; left: 595px; width: 15px"></div>
-					<div class="gvline" style="top: 705px; left: 595px; width: 20px"></div>
-					<div class="boxbg female AncCol2" style="top: 680px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/2/b/dc68c293bf01ffc24f58745a8b2.html">
-						, Hedwig Johansdotter<br/>*1826-04-12<br/>+1868-06-15
-						</a>
-					</div>
-					<div class="shadow" style="top: 685px; left: 630px;"></div>
-					<div class="bvline" style="top: 700px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 700px; left: 610px; height: 1px;"></div>
-				
-					<div class="bvline" style="top: 700px; left: 905px; width: 15px"></div>
-					<div class="gvline" style="top: 705px; left: 905px; width: 20px"></div>
-					<div class="boxbg male AncCol3" style="top: 605px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/2/4/dc68cc991637c85a7605d34c42.html">
-						Ikola, Johan Mattsson<br/>*1806-01-06<br/>+1866-10-04
-						</a>
-					</div>
-					<div class="shadow" style="top: 610px; left: 940px;"></div>
-					<div class="bvline" style="top: 625px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 625px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol3" style="top: 755px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/b/4/dc68cd2664323a5c9bba703b54b.html">
-						, Clara Mattsdotter<br/>*1795-12-24<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 760px; left: 940px;"></div>
-					<div class="bvline" style="top: 775px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 700px; left: 920px; height: 76px;"></div>
-				
 				</div>
 			</div>
 			<div class="subsection" id="sourcerefs">
 				<h4>Source References</h4>
-				<ol>
+				<ol id="srcr">
 					<li>
 						<a href="../../../src/4/6/d3b956fd73001efe564.html" title="Siirtolaisuusinstituutti: Matkustajaluettelo" name ="sref1">
 						Siirtolaisuusinstituutti: Matkustajaluettelo
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref1a">
 								<ul>
 									<li>
@@ -834,14 +841,20 @@
 						<a href="../../../src/4/a/d39fb22328b469e63a4.html" title="Jaakkiman seurakunta: Jaakkima Lastenkirja 1890-1899" name ="sref2">
 						Jaakkiman seurakunta: Jaakkima Lastenkirja 1890-1899
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref2a">
 								<ul>
 									<li>
 									Page: 109-110
 									</li>
 									<li>
-									Url: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=2700297">http://digi.narc.fi/digi/view.ka?kuid=2700297</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5774899382&amp;aineistoId=1211256323">https://astia.narc.fi/uusiastia/viewer/?fileId=5774899382&amp;aineistoId=1211256323</a></p></div>
+									Link: <div class="grampsstylednote"><p><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=9851048033&amp;aineistoId=1211256323">https://astia.narc.fi/uusiastia/viewer/?fileId=9851048033&amp;aineistoId=1211256323</a></p></div>
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Jaakkiman seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A Pääkirjat hakemistoineen. I Ab Lastenkirjat. I Ab:11 Lastenkirjat, Harvia - Tervajärvi  (1890-1899). Tiedosto 58. Kansallisarkisto. Viitattu 26.7.2026.</p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">109 &nbsp; &nbsp; &nbsp; &nbsp; Ihalanoja</span><br /><span style="font-family:'Courier New';">No 9</span></p><p><span style="font-family:'Courier New';">&nbsp; Matti Matinp. Kangasniemen (s 12/3 1845) ja vnsa Eva Kristina Hentriikintyttären (4/12 49</span><br /><span style="font-family:'Courier New';">pka Jaakko &nbsp; &nbsp; &nbsp; &nbsp; 10/7 1880 Jalasjärvi &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }Jalasjärvellä &nbsp;}</span><br /><span style="font-family:'Courier New';">tr Hedvig Sofia &nbsp; &nbsp;24/5 1882 " &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;}16/12 93 &nbsp; &nbsp; &nbsp; }</span><br /><span style="font-family:'Courier New';">" Susanna Loviisa &nbsp;17/7 1884 " &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }Muuttok </span><br /><span style="font-family:'Courier New';">pka Anshelm &nbsp; &nbsp; &nbsp; &nbsp; 1/4 1887 " &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }Kurkijoelle</span><br /><span style="font-family:'Courier New';">Tr Hilma Matilda &nbsp; 13/6 1892 " &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Kuoli 7/4 1894} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }28/1 1898</span><br /><span style="font-family:'Courier New';">Tr Tyyne Pka Matin 14/6 1896 ereys! pojan lapsi kts alemmas! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;}</span><br /><span style="font-family:'Courier New';">" Anni &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 20/3 1897 </span></p><p>&nbsp;</p><p><span style="font-family:'Courier New';">Läks Matti Matinp. Kangasniemen s.15/3 1872 ja vnsa Maria Jaakontyttären s. 27/7 1864 lapset</span><br /><span style="font-family:'Courier New';">Tr Tyyne &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 14/6 1896 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;} slle 124. 99</span><br /><span style="font-family:'Courier New';">Tr Lyyli &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 10/5 1898 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;}</span></p><p>&nbsp;</p></div>
 									</li>
 								</ul>
 							</li>
@@ -851,14 +864,20 @@
 						<a href="../../../src/e/2/d39fa0d3a406818f12e.html" title="Jaakkiman seurakunta: Jaakkima Syntyneet 1890-1897" name ="sref3">
 						Jaakkiman seurakunta: Jaakkima Syntyneet 1890-1897
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref3a">
 								<ul>
 									<li>
 									Page: 455-456
 									</li>
 									<li>
-									Url: <div class="grampsstylednote"><p><a href="http://digi.narc.fi/digi/view.ka?kuid=2705526">http://digi.narc.fi/digi/view.ka?kuid=2705526</a><br /><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=5775579599&amp;aineistoId=1211569879">https://astia.narc.fi/uusiastia/viewer/?fileId=5775579599&amp;aineistoId=1211569879</a></p></div>
+									Citation: <div class="grampsstylednote"><p>Jaakkiman seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I C Syntyneiden ja kastettujen luettelot. I C:10 Syntyneiden ja kastettujen luettelot  (1890-1897). Tiedosto 234. Kansallisarkisto. Viitattu 26.7.2026.</p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://astia.narc.fi/uusiastia/viewer/?fileId=9851073942&amp;aineistoId=1211569879">https://astia.narc.fi/uusiastia/viewer/?fileId=9851073942&amp;aineistoId=1211569879</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Vuonna 1897 &nbsp;Siv. 455</span><br /><span style="font-family:'Courier New';">Syntyneet ja kastetut Jaakkiman Seurakunnassa</span></p><p><span style="font-family:'Courier New';">Fr.p. 109 &nbsp;[Maalisk.] 20 &nbsp;Maal 20 &nbsp;Anni Hätäkastettu. Vt Its.</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Matti Matinp. Kangasniemi ja </span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;vmo Eva Kristina Henrikintr</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Ihalanojalta No9. Kt Renki Taa</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;vetti Raipio ja vmo Anna Maria</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Tikka, Vaarasta 4, Hätäjast. toimitti Mäkit. vmo</span><br /><span style="font-family:'Courier New';">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Maria Inkinen. Vahvisti 17/, O.E. Härmälä &nbsp; &nbsp;[n] &nbsp;51 &nbsp;47</span></p><p>&nbsp;</p></div>
 									</li>
 								</ul>
 							</li>
@@ -868,7 +887,7 @@
 						<a href="../../../src/f/a/da736f82dab5e938330b960e6af.html" title="UK, Outward Passenger Lists, 1890-1960" name ="sref4">
 						UK, Outward Passenger Lists, 1890-1960
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref4a">
 								<ul>
 									<li>
@@ -885,7 +904,7 @@
 						<a href="../../../src/4/a/d3b95b95204096aeba4.html" title="The Statue of Liberty-Ellis Island Foundation: Ship manifest" name ="sref5">
 						The Statue of Liberty-Ellis Island Foundation: Ship manifest
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref5a">
 								<ul>
 									<li>
@@ -905,7 +924,7 @@
 						<a href="../../../src/3/2/df2a3fa8af07f8be377ffc30823.html" title="Find A Grave Memorials" name ="sref6">
 						Find A Grave Memorials
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref6a">
 								<ul>
 									<li>
@@ -928,7 +947,7 @@
 						<a href="../../../src/b/8/df2a0e98a2f2da453c436ed328b.html" title="Michigan Marriages 1868-1925" name ="sref7">
 						Michigan Marriages 1868-1925
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref7a">
 								<ul>
 									<li>
@@ -957,10 +976,13 @@
 									Url: <div class="grampsstylednote"><p><a href="https://www.familysearch.org/ark:/61903/3:1:S3HY-DTL9-3YK?i=16&amp;cc=1452395">https://www.familysearch.org/ark:/61903/3:1:S3HY-DTL9-3YK?i=16&amp;cc=1452395</a></p></div>
 									</li>
 									<li>
+									Citation: <div class="grampsstylednote"><p>"Michigan Marriages, 1868-1925", database with images, FamilySearch (https://familysearch.org/ark:/61903/1:1:NQSV-WB3 : 15 May 2018), Jacob Hakkala and Annie Kangas Koski, 1924.</p></div>
+									</li>
+									<li>
 									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Monospace';">Annie Kangas Koski</span><br /><span style="font-family:'Monospace';">Michigan Marriages, 1868-1925</span><br /><span style="font-family:'Monospace';">Name:			Jacob Hakkala</span><br /><span style="font-family:'Monospace';">Event Type:		Marriage</span><br /><span style="font-family:'Monospace';">Event Date:		12 Dec 1924</span><br /><span style="font-family:'Monospace';">Event Place:		Gwinn, Marquette, Michigan</span><br /><span style="font-family:'Monospace';">Age:			36y</span><br /><span style="font-family:'Monospace';">Birth Date:		1888</span><br /><span style="font-family:'Monospace';">Birthplace:		Finland</span><br /><span style="font-family:'Monospace';">Father's Name:		Andrew Hakkala</span><br /><span style="font-family:'Monospace';">Mother's Name:		Lina Hakkala</span><br /><span style="font-family:'Monospace';">Spouse's Name:		Annie Kangas Koski</span><br /><span style="font-family:'Monospace';">Spouse's Age:		28y</span><br /><span style="font-family:'Monospace';">Spouse's Birth Date:	1896</span><br /><span style="font-family:'Monospace';">Spouse's Birthplace:	Finland</span><br /><span style="font-family:'Monospace';">Spouse's Father's Name:	Matt Kangas</span><br /><span style="font-family:'Monospace';">Spouse's Mother's Name:	Eva Ikola</span></p></div>
 									</li>
 									<li>
-									Citation: <div class="grampsstylednote"><p>"Michigan Marriages, 1868-1925", database with images, FamilySearch (https://familysearch.org/ark:/61903/1:1:NQSV-WB3 : 15 May 2018), Jacob Hakkala and Annie Kangas Koski, 1924.</p></div>
+									Analysis: <div class="grampsstylednote"><p>Morsiamen äidin nimeksi merkitty "Eva Ikola" mikä täsmää sen kanssa että <span style="text-decoration:underline;">Eva Christinan syntyessä äiti on ollut "Hedwig Johandr Ikola"</span></p><p>&nbsp;</p><p>&nbsp;</p></div>
 									</li>
 								</ul>
 							</li>
@@ -970,7 +992,7 @@
 						<a href="../../../src/a/5/df2d4aa831c69d5f17f439bce5a.html" title="United States Census, 1930" name ="sref8">
 						United States Census, 1930
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref8a">
 								<ul>
 									<li>
@@ -996,7 +1018,7 @@
 						<a href="../../../src/b/a/df2d77470c37c7b0a2158398ab.html" title="United States Census, 1940" name ="sref9">
 						United States Census, 1940
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref9a">
 								<ul>
 									<li>
@@ -1024,10 +1046,10 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2018-08-07 19:49:39
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 6.0.8<br />Last change was the 2026-07-26 17:27:28
 			</p>
 			<p id="copyright">
-			&copy; 2024 John Nordberg
+			&copy; 2026 John Nordberg
 			</p>
 		</div>
 	</div>

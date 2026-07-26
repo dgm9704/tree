@@ -1,24 +1,35 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>My Family Tree - Places</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 6.0.8 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
 </head>
-<body  onload = "initialize();" >
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">My Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">My Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
 				<ul class="nav" id="dropmenu">
 					<li><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
@@ -26,15 +37,46 @@
 					<li><a href="../../../families.html" title="Families">Families</a></li>
 					<li><a href="../../../events.html" title="Events">Events</a></li>
 					<li class = "CurrentSection"><a href="../../../places.html" title="Places">Places</a></li>
+					<li><a href="../../../heatmaps.html" title="Heatmaps">Heatmaps</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="PlaceDetail">
 			<h3>Jalasjärvi, Suomi</h3>
 			<div id="summaryarea">
@@ -42,11 +84,11 @@
 					<tbody>
 						<tr>
 							<td class="ColumnAttribute">Latitude</td>
-							<td class="ColumnValue">62.491667</td>
+							<td class="ColumnValue">62°29'30.00"N</td>
 						</tr>
 						<tr>
 							<td class="ColumnAttribute">Longitude</td>
-							<td class="ColumnValue">22.766667</td>
+							<td class="ColumnValue">22°46'00.00"E</td>
 						</tr>
 						<tr>
 							<td class="ColumnAttribute">Church Parish</td>
@@ -65,7 +107,7 @@
 							<th class="ColumnAttribute">Enclosed By</th>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/3/2/d39f029900a70df4223.html" title="Suomi">Suomi</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/3/2/d39f029900a70df4223.html" title="Suomi">Suomi</a></td>
 						</tr>
 						<tr>
 							<td>
@@ -76,40 +118,44 @@
 							<th class="ColumnAttribute">Place Encloses</th>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/2/f/d3a2d8e4a0f31340bf2.html" title="Koskue">Koskue</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/8/4/dc7288490b95c2a97a53e468448.html" title="Isooja">Isooja</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/2/4/da6ca8ca2d329d089d970540742.html" title="Keskikylä">Keskikylä</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/2/4/da6ca8ca2d329d089d970540742.html" title="Keskikylä">Keskikylä</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/3/6/dc7334cbb7bc63fb38c4666d63.html" title="Taivalkoski">Taivalkoski</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/2/f/d3a2d8e4a0f31340bf2.html" title="Koskue">Koskue</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue"><a href="../../../plc/2/8/dc79287deb42610cb40de2d0e82.html" title="Martila">Martila</a></td>
+							<td class="ColumnPlace"><a href="../../../plc/b/d/da6c81b227541b03285898b04db.html" title="Kyrkoby">Kyrkoby</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">Kyrkoby</td>
+							<td class="ColumnPlace"><a href="../../../plc/5/4/dc6ee5b257d28921d1072027745.html" title="Luopajärvi">Luopajärvi</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">Luopajärvi</td>
+							<td class="ColumnPlace"><a href="../../../plc/2/8/dc79287deb42610cb40de2d0e82.html" title="Martila">Martila</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">Ylis Kylä</td>
+							<td class="ColumnPlace"><a href="../../../plc/3/6/dc7334cbb7bc63fb38c4666d63.html" title="Taivalkoski">Taivalkoski</a></td>
 						</tr>
 						<tr>
-							<td class="ColumnValue">Isooja</td>
+							<td class="ColumnPlace"><a href="../../../plc/b/7/f9d2308c677322191c77619e67b.html" title="Walli">Walli</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnPlace"><a href="../../../plc/8/c/dc7271aa07045b235b84d2420c8.html" title="Ylis Kylä">Ylis Kylä</a></td>
 						</tr>
 					</tbody>
 				</table>
 			</div>
-			<div id="popup"></div>
+			<div class="ol-popup" id="popup"><a class="ol-popup-closer" href="#" id="popup-closer"></a><div class="ol-popup-title" id="popup-title"></div><div id="popup-content"></div></div>
+			<div class="ol-popup" id="tooltip"><div id="tooltip-content"></div></div>
 			<div class="subsection" id="references">
 				<h4>References</h4>
 				<ol class="Col1" role="Volume-n-Page" type=1>
 					<li>
 						<a href="../../../ppl/4/4/dc68d72ec5cfb3e7ce3d5c5b44.html">
 						, Hedwig Johansdotter
-						 (1785-12-21) 
+						 (1785-12-21 Birth) 
 						
 						</a>
 					</li>
@@ -137,7 +183,7 @@
 					<li>
 						<a href="../../../ppl/7/9/da6d395151c715118758b6d597.html">
 						Kando, Matts Matsson
-						 (1798-11-18) 
+						 (1798-11-18 Death) 
 						
 						</a>
 					</li>
@@ -165,28 +211,35 @@
 					<li>
 						<a href="../../../ppl/1/c/da6f9966d66331390fb4f9abac1.html">
 						, Matts Jacobsson
-						 (1800-07-05) 
+						 (1800-07-05 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/b/1/dc6c55546541888067ff750711b.html">
 						, Anna Justina Michelsdotter
-						 (between 1803 and 1808) 
+						 (between 1803 and 1808 Residence) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/2/4/dc68cc991637c85a7605d34c42.html">
 						Ikola, Johan Mattsson
-						 (1806-01-06) 
+						 (1806-01-06 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/2/e/da6f99fc6a8448d3e095b0b06e2.html">
 						, Hedwig Jacobsdotter
-						 (1807-01-16) 
+						 (1807-01-16 Birth) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../fam/2/1/dc6c54b62a67984ce04e4fcc612.html">
+						Family of , Matts Danielsson and , Anna Justina Michelsdotter
+						 (1808-02-14) 
 						
 						</a>
 					</li>
@@ -205,79 +258,72 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../fam/2/1/dc6c54b62a67984ce04e4fcc612.html">
-						Family of , Matts Danielsson and , Anna Justina Michelsdotter
-						 (1808-02-14) 
-						
-						</a>
-					</li>
-					<li>
 						<a href="../../../ppl/2/5/da6f9a9438b2b4b5093d87bd52.html">
 						, Susanna Jacobsdotter
-						 (1809-09-03) 
+						 (1809-09-03 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/0/d/da6f9ae66c33a11363719a271d0.html">
 						, Ulrika Jacobsdotter
-						 (1810-11-22) 
+						 (1810-11-22 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/5/c/da6f9b6fffe279c48634ca276c5.html">
 						, Isak Jacobsson
-						 (1812-07-21) 
+						 (1812-07-21 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/b/0/da6f9c2e2b44b671f78dc8dab0b.html">
 						, Jacob Jacobsson
-						 (1813-10-19) 
+						 (1813-10-19 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/f/f/da698b6704d287a4458c68097ff.html">
 						, Hedwig Mattsdotter
-						 (1820-10-23) 
+						 (1820-10-23 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/2/b/dc68c293bf01ffc24f58745a8b2.html">
 						, Hedwig Johansdotter
-						 (1826-04-12) 
+						 (1826-04-12 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/e/1/da6fb6d24f334b7d2b07459ee1e.html">
 						, Maria Jonasdotter
-						 (1828-10-10) 
+						 (1828-10-10 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/c/7/dc68d04904e7aff3485534b2c7c.html">
 						, Anna Johansdotter
-						 (1831-12-12) 
+						 (1831-12-12 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/8/9/dc68d0d4cbb7be8a40637302998.html">
 						, Matts Johansson
-						 (1834-02-17) 
+						 (1834-02-17 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/b/7/dc68d13cdde1a525541136ca07b.html">
 						, Susanna Lovisa Johansdotter
-						 (1837-02-22) 
+						 (1837-02-22 Birth) 
 						
 						</a>
 					</li>
@@ -303,15 +349,15 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../fam/4/a/da698b2ad881a2c8800a7250a4.html">
-						Family of Tuohimaa, Mathias Samuelsson and , Hedwig Mattsdotter
+						<a href="../../../ppl/6/c/da6940331644d79bfb4089004c6.html">
+						Tuohimaa, Mathias Samuelsson
 						 (1843-08-13) 
 						
 						</a>
 					</li>
 					<li>
-						<a href="../../../ppl/6/c/da6940331644d79bfb4089004c6.html">
-						Tuohimaa, Mathias Samuelsson
+						<a href="../../../fam/4/a/da698b2ad881a2c8800a7250a4.html">
+						Family of Tuohimaa, Mathias Samuelsson and , Hedwig Mattsdotter
 						 (1843-08-13) 
 						
 						</a>
@@ -326,28 +372,35 @@
 					<li>
 						<a href="../../../ppl/f/7/da69424496c3e7145330b8ec47f.html">
 						, Samuel Valentin Mattsson
-						 (1843-10-03) 
+						 (1843-10-03 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/e/e/da698e815ea512c323c7d4450ee.html">
 						, Salomon Benjamin Mattsson
-						 (1847-11-07) 
+						 (1847-11-07 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/f/6/da698ffdab66f2e9716d231d96f.html">
 						, Justina Maria Mattsdotter
-						 (1850-06-13) 
+						 (1850-06-13 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/f/3/da6990b2d687b3438afb710283f.html">
 						, Hedwig Mattsdotter
-						 (1854-11-19) 
+						 (1854-11-19 Birth) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../fam/f/a/da694007c4a5ddb782a71ec1eaf.html">
+						Family of Tuohimaa, Mathias Samuelsson and Korvajärvi, Albertina Hedwigsdotter
+						 (1856-10-30) 
 						
 						</a>
 					</li>
@@ -366,15 +419,8 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../fam/f/a/da694007c4a5ddb782a71ec1eaf.html">
-						Family of Tuohimaa, Mathias Samuelsson and Korvajärvi, Albertina Hedwigsdotter
-						 (1856-10-30) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/6/c/da6940331644d79bfb4089004c6.html">
-						Tuohimaa, Mathias Samuelsson
+						<a href="../../../fam/8/0/da6fb288e1e10d5c7586e52b708.html">
+						Family of Tuohimaa, Mathias Samuelsson and , Hedwig Eliasdotter
 						 (1859-12-27) 
 						
 						</a>
@@ -387,8 +433,8 @@
 						</a>
 					</li>
 					<li>
-						<a href="../../../fam/8/0/da6fb288e1e10d5c7586e52b708.html">
-						Family of Tuohimaa, Mathias Samuelsson and , Hedwig Eliasdotter
+						<a href="../../../ppl/6/c/da6940331644d79bfb4089004c6.html">
+						Tuohimaa, Mathias Samuelsson
 						 (1859-12-27) 
 						
 						</a>
@@ -396,20 +442,20 @@
 					<li>
 						<a href="../../../ppl/4/f/d3a0085fd3249703bf4.html">
 						Kangasniemi, Matti Matinpoika vanh.
-						 (between 1866 and 1870) 
+						 (between 1866 and 1870 Residence) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/e/c/f9d234c79901bcf1af913d83ce.html">
+						, Johan Nestor Marianpoika
+						 (1872-09-15 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/6/c/da6940331644d79bfb4089004c6.html">
 						Tuohimaa, Mathias Samuelsson
-						 (1874-07-11) 
-						
-						</a>
-					</li>
-					<li>
-						<a href="../../../ppl/e/1/da6fb6d24f334b7d2b07459ee1e.html">
-						, Maria Jonasdotter
 						 (1874-07-11) 
 						
 						</a>
@@ -422,65 +468,114 @@
 						</a>
 					</li>
 					<li>
+						<a href="../../../ppl/e/1/da6fb6d24f334b7d2b07459ee1e.html">
+						, Maria Jonasdotter
+						 (1874-07-11) 
+						
+						</a>
+					</li>
+					<li>
 						<a href="../../../ppl/b/0/d3a2ef6557d7b88940b.html">
 						Kangasniemi, Juho Vihtori
-						 (1876-03-16) 
+						 (1876-03-16 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/5/0/d3a2f0a24fa2a13e305.html">
 						Kangasniemi, Samuel Valentin
-						 (1878-06-07) 
+						 (1878-06-07 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/6/a/d3a00bd753f72634ba6.html">
 						Kangasniemi, Jaakko
-						 (1880-07-10) 
+						 (1880-07-10 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/5/f/d3a00c71274649e16f5.html">
 						Kangasniemi, Hedvig Sofia
-						 (1882-05-24) 
+						 (1882-05-24 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/d/6/d3a00ced83748adba6d.html">
 						Kangasniemi, Susanna Loviisa
-						 (1884-07-17) 
+						 (1884-07-17 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/6/b/d3a00dcd16f6f5513b6.html">
 						Kangasniemi, Anshelm
-						 (1887-04-01) 
+						 (1887-04-01 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/9/a/d3a2f17c4a658e488a9.html">
 						Kangasniemi, Lydia
-						 (1890-02-04) 
+						 (1890-02-04 Birth) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/9/a/d3a2f17c4a658e488a9.html">
 						Kangasniemi, Lydia
-						 (1890-03-27) 
+						 (1890-03-27 Death) 
 						
 						</a>
 					</li>
 					<li>
 						<a href="../../../ppl/9/3/d3a00e44dd71ac45839.html">
 						Kangasniemi, Hilma Matilda
-						 (1892-06-13) 
+						 (1892-06-13 Birth) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../fam/9/8/f9d2349c61d503fb13516550589.html">
+						Family of , Johan Nestor Marianpoika and Kangasniemi, Maria Alexandra
+						 (1895-06-14) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/b/a/d3a2dc44377013490ab.html">
+						Kangasniemi, Maria Alexandra
+						 (1895-06-14) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/e/c/f9d234c79901bcf1af913d83ce.html">
+						, Johan Nestor Marianpoika
+						 (1895-06-14) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/e/c/f9d234c79901bcf1af913d83ce.html">
+						, Johan Nestor Marianpoika
+						 (1895-09-20) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/b/a/d3a2dc44377013490ab.html">
+						Kangasniemi, Maria Alexandra
+						 (1895-09-20) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../fam/9/8/f9d2349c61d503fb13516550589.html">
+						Family of , Johan Nestor Marianpoika and Kangasniemi, Maria Alexandra
+						 (1895-09-20) 
 						
 						</a>
 					</li>
@@ -490,10 +585,10 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2018-08-07 22:36:05
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 6.0.8<br />Last change was the 2018-08-07 22:36:05
 			</p>
 			<p id="copyright">
-			&copy; 2024 John Nordberg
+			&copy; 2026 John Nordberg
 			</p>
 		</div>
 	</div>

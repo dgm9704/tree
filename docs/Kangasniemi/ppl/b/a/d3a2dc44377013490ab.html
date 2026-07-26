@@ -1,25 +1,35 @@
 <!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
 	<title>My Family Tree - Kangasniemi, Maria Alexandra</title>
 	<meta charset="UTF-8" />
-	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.1.6 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 6.0.8 http://gramps-project.org/" />
 	<meta name="author" content="John Nordberg" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
 	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
-	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 </head>
-<body>
+<body dir="ltr">
 	<div id="outerwrapper">
-		<div id="header">
-			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
-			<h1 id="SiteTitle">My Family Tree</h1>
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">My Family Tree</h1>
 		</div>
-		<div class="wrappernav" id="nav" role="navigation">
+		<div class="wrappernav ltr" id="nav" role="navigation">
 			<div class="container">
 				<ul class="nav" id="dropmenu">
 					<li class = "CurrentSection"><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
@@ -27,15 +37,46 @@
 					<li><a href="../../../families.html" title="Families">Families</a></li>
 					<li><a href="../../../events.html" title="Events">Events</a></li>
 					<li><a href="../../../places.html" title="Places">Places</a></li>
+					<li><a href="../../../heatmaps.html" title="Heatmaps">Heatmaps</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../repositories.html" title="Repositories">Repositories</a></li>
-					<li><a href="../../../media.html" title="Media">Media</a></li>
-					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
 					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
 					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
 				</ul>
 			</div>
 		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 		<div class="content" id="IndividualDetail">
 			<h3>Kangasniemi, Maria Alexandra<sup><small></small></sup></h3>
 			<div id="summaryarea">
@@ -52,9 +93,20 @@
 					</tr>
 				</table>
 			</div>
+			<div class="subsection narrative">
+				<h4>Notes</h4>
+				<div class="subsection narrative" id="toggle_note" style="display:block">
+					<h4>Link</h4>
+					<div class="grampsstylednote">
+						<p>
+						https://www.myheritage.fi/site-family-tree-451113611/j-saari?tr_id=m_nyfltjw7j8_x8owzew1xd
+						</p>
+					</div>
+				</div>
+			</div>
 			<div class="subsection" id="events">
 				<h4>Events</h4>
-				<table class="infolist eventlist">
+				<table class="infolist eventlist toggle_event ltr" id="toggle_event" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnEvent">Event</th>
@@ -66,7 +118,7 @@
 					</thead>
 					<tbody>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/6/f/d3a2dca84c3388b04f6.html" title="Birth">
 								Birth
 								</a>
@@ -78,9 +130,6 @@
 							 <a href="#sref1a">1a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
-								</td>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -88,7 +137,7 @@
 							</tr>
 						</tr>
 						<tr>
-							<td class="ColumnEvent">
+							<td class="ColumnEvent" rowspan="2">
 								<a href="../../../evt/2/3/d3a611d1fa967ae1632.html" title="Residence">
 								Residence
 								</a>
@@ -104,9 +153,52 @@
 							 <a href="#sref2a">2a</a>
 							</td>
 							<tr>
-								<td class="ColumnEvent">
-								
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
 								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/1/8/f9d23092fb3445edb660be3ba81.html" title="Residence">
+								Residence
+								</a>
+							</td>
+							<td class="ColumnDate">from 1893 to 1894</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/2/1/f9d2308fe553c9aee0f88506112.html" title="Ahomäki, Walli, Jalasjärvi, Suomi">
+								Ahomäki, Walli, Jalasjärvi, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref2b">2b</a>
+							</td>
+							<tr>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+						<tr>
+							<td class="ColumnEvent" rowspan="2">
+								<a href="../../../evt/5/d/f9d2334ec3a1c2715b24d85b0d5.html" title="Residence">
+								Residence
+								</a>
+							</td>
+							<td class="ColumnDate">1895</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/2/1/f9d2308fe553c9aee0f88506112.html" title="Ahomäki, Walli, Jalasjärvi, Suomi">
+								Ahomäki, Walli, Jalasjärvi, Suomi
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref3a">3a</a>
+							</td>
+							<tr>
 								<td class="ColumnNotes" colspan="3">
 									<div>
 									</div>
@@ -118,7 +210,7 @@
 			</div>
 			<div class="subsection" id="parents">
 				<h4>Parents</h4>
-				<table class="infolist">
+				<table class="infolist toggle_parent ltr" id="toggle_parent" style="display:block">
 					<thead>
 						<tr>
 							<th class="ColumnAttribute">Relation to main person</th>
@@ -224,9 +316,209 @@
 					</tbody>
 				</table>
 			</div>
+			<div class="subsection" id="families">
+				<h4>Families</h4>
+				<table class="infolist" id="toggle_families" style="display:block">
+					<tr class="BeginFamily">
+						<td class="ColumnValue" colspan="3"><H4 class="subsection"><a href="../../../fam/9/8/f9d2349c61d503fb13516550589.html" title="Family of , Johan Nestor Marianpoika and Kangasniemi, Maria Alexandra">Family of , Johan Nestor Marianpoika and Kangasniemi, Maria Alexandra</a></H4></td>
+					</tr>
+					<tr class="BeginFamily">
+						<td class="ColumnType">Married</td>
+						<td class="ColumnAttribute">Husband</td>
+						<td class="ColumnValue">
+							<a href="../../../ppl/e/c/f9d234c79901bcf1af913d83ce.html">, Johan Nestor Marianpoika</a>
+						 ( * 
+						1872-09-15
+						 + 
+						...
+						 )
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnType">&nbsp;</td>
+						<td class="ColumnValue" colspan="2">
+							<table class="infolist eventlist ltr">
+								<thead>
+									<tr>
+										<th class="ColumnEvent">Event</th>
+										<th class="ColumnDate">Date</th>
+										<th class="ColumnPlace">Place</th>
+										<th class="ColumnDescription">Description</th>
+										<th class="ColumnSources">Sources</th>
+										</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td class="ColumnEvent" rowspan="2">
+											<a href="../../../evt/d/4/f9d4845d7ee77eff64a2867464d.html" title="Marriage Banns">
+											Marriage Banns
+											</a>
+										</td>
+										<td class="ColumnDate">1895-06-14</td>
+										<td class="ColumnPlace">
+											<a href="../../../plc/e/0/d39f029f4072f50b90e.html" title="Jalasjärvi, Suomi">
+											Jalasjärvi, Suomi
+											</a>
+										</td>
+										<td class="ColumnDescription">&nbsp;</td>
+										<td class="ColumnSources" rowspan="2">
+										 <a href="#sref4a">4a</a>
+										</td>
+										<tr>
+											<td class="ColumnNotes" colspan="3">
+												<div>
+												</div>
+											</td>
+										</tr>
+									</tr>
+									<tr>
+										<td class="ColumnEvent" rowspan="2">
+											<a href="../../../evt/0/c/f9d2399c11e6a86fade1d7607c0.html" title="Marriage">
+											Marriage
+											</a>
+										</td>
+										<td class="ColumnDate">1895-09-20</td>
+										<td class="ColumnPlace">
+											<a href="../../../plc/e/0/d39f029f4072f50b90e.html" title="Jalasjärvi, Suomi">
+											Jalasjärvi, Suomi
+											</a>
+										</td>
+										<td class="ColumnDescription">&nbsp;</td>
+										<td class="ColumnSources" rowspan="2">
+										 <a href="#sref5a">5a</a>
+										</td>
+										<tr>
+											<td class="ColumnNotes" colspan="3">
+												<div>
+												</div>
+											</td>
+										</tr>
+									</tr>
+									<tr>
+										<td class="ColumnEvent" rowspan="2">
+											<a href="../../../evt/1/9/f9d23b7081f4ee4ff5d1c592291.html" title="Residence">
+											Residence
+											</a>
+										</td>
+										<td class="ColumnDate">1895</td>
+										<td class="ColumnPlace">
+											<a href="../../../plc/2/1/f9d2308fe553c9aee0f88506112.html" title="Ahomäki, Walli, Jalasjärvi, Suomi">
+											Ahomäki, Walli, Jalasjärvi, Suomi
+											</a>
+										</td>
+										<td class="ColumnDescription">&nbsp;</td>
+										<td class="ColumnSources" rowspan="2">
+										 <a href="#sref3b">3b</a>
+										</td>
+										<tr>
+											<td class="ColumnNotes" colspan="3">
+												<div>
+												</div>
+											</td>
+										</tr>
+									</tr>
+									<tr>
+										<td class="ColumnEvent" rowspan="2">
+											<a href="../../../evt/0/9/f9d23e124e050f6218014073690.html" title="Residence">
+											Residence
+											</a>
+										</td>
+										<td class="ColumnDate">from 1896 to 1900</td>
+										<td class="ColumnPlace">
+											<a href="../../../plc/b/e/f9d23d767f31efd8dec404a82eb.html" title="Syrjälä, Hirsimäki, Walli, Jalasjärvi, Suomi">
+											Syrjälä, Hirsimäki, Walli, Jalasjärvi, Suomi
+											</a>
+										</td>
+										<td class="ColumnDescription">&nbsp;</td>
+										<td class="ColumnSources" rowspan="2">
+										 <a href="#sref3c">3c</a>
+										</td>
+										<tr>
+											<td class="ColumnNotes" colspan="3">
+												<div>
+												</div>
+											</td>
+										</tr>
+									</tr>
+									<tr>
+										<td class="ColumnEvent" rowspan="2">
+											<a href="../../../evt/8/5/f9d242a98d67f146a8f1d193f58.html" title="Residence">
+											Residence
+											</a>
+										</td>
+										<td class="ColumnDate">from 1900 to 1904</td>
+										<td class="ColumnPlace">
+											<a href="../../../plc/1/2/f9d2421846f4fc216165320a121.html" title="Saari, Wallinmaa, Walli, Jalasjärvi, Suomi">
+											Saari, Wallinmaa, Walli, Jalasjärvi, Suomi
+											</a>
+										</td>
+										<td class="ColumnDescription">&nbsp;</td>
+										<td class="ColumnSources" rowspan="2">
+										 <a href="#sref3d">3d</a>
+										</td>
+										<tr>
+											<td class="ColumnNotes" colspan="3">
+												<div>
+												</div>
+											</td>
+										</tr>
+									</tr>
+									<tr>
+										<td class="ColumnEvent" rowspan="2">
+											<a href="../../../evt/4/b/f9d2459e7f2287d7d99cf40dcb4.html" title="Residence">
+											Residence
+											</a>
+										</td>
+										<td class="ColumnDate">from 1905 to 1914</td>
+										<td class="ColumnPlace">
+											<a href="../../../plc/1/2/f9d2421846f4fc216165320a121.html" title="Saari, Wallinmaa, Walli, Jalasjärvi, Suomi">
+											Saari, Wallinmaa, Walli, Jalasjärvi, Suomi
+											</a>
+										</td>
+										<td class="ColumnDescription">&nbsp;</td>
+										<td class="ColumnSources" rowspan="2">
+										 <a href="#sref6a">6a</a>
+										</td>
+										<tr>
+											<td class="ColumnNotes" colspan="3">
+												<div>
+												</div>
+											</td>
+										</tr>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+						<tr>
+							<td class="ColumnAttribute">Children</td>
+							<td class="ColumnValue Child" colspan="2" />
+							<table class="infolist eventlist ltr">
+								<thead>
+									<tr>
+										<th class="ColumnName">Name</th>
+										<th class="ColumnDate">Birth Date</th>
+										<th class="ColumnDate">Death Date</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr><td /><a href="../../../ppl/5/0/f9d48620ce3d60588a30894805.html">, Samuel Arvid Juhonpoika</a><td>1897-04-04</td><td>1898-03-27</td></tr>
+									<tr><td /><a href="../../../ppl/d/b/f9d4878a240489740e9f67e17bd.html">, Iisak Anshelm Juhonpoika</a><td>1898-10-14</td><td></td></tr>
+									<tr><td /><a href="../../../ppl/e/a/f9d489166924e65e0c0272f6fae.html">, Tyyne Maria Juhontytär</a><td>1901-07-13</td><td></td></tr>
+									<tr><td /><a href="../../../ppl/9/5/f9d4896f6831e0d97f60485f659.html">, Ksenia Hedvig Juhontytär</a><td>1903-10-21</td><td></td></tr>
+									<tr><td /><a href="../../../ppl/a/3/f9d48a4c760646ead2e7d04c83a.html">, Martha Susanna Juhontytär</a><td>1905-07-29</td><td></td></tr>
+									<tr><td /><a href="../../../ppl/3/3/f9d48a9e9501eb062b7a24ecb33.html">, Laimi Amalia Juhontytär</a><td>1907-12-02</td><td></td></tr>
+									<tr><td /><a href="../../../ppl/9/8/f9d48ae7e7736c83140ab505789.html">, Juho Jaakoppi Juhonpoika</a><td>1909-06-19</td><td></td></tr>
+									<tr><td /><a href="../../../ppl/a/3/f9d48b54b751d6b7fa1d5a29e3a.html">, Anni Rakel Juhontytär</a><td>1912-02-06</td><td></td></tr>
+									<tr><td /><a href="../../../ppl/1/a/f9d48ba53be7c38371012ec13a1.html">, Matias Mikael Juhonpoika</a><td>1913-02-07</td><td></td></tr>
+								</tbody>
+							</table>
+						</tr>
+					</tr>
+				</table>
+			</div>
 			<div class="subsection" id="pedigree">
 				<h4>Pedigree</h4>
-				<ol class="pedigreegen">
+				<ol class="pedigreegen" id="toggle_pedigree" style="display:block">
 					<li>
 						<a href="../../../ppl/4/f/d3a0085fd3249703bf4.html">Kangasniemi, Matti Matinpoika vanh.</a>
 						<ol>
@@ -241,6 +533,40 @@
 									</li>
 									<li class="thisperson">
 									Kangasniemi, Maria Alexandra
+										<ol class="spouselist">
+											<li class="spouse">
+												<a href="../../../ppl/e/c/f9d234c79901bcf1af913d83ce.html">, Johan Nestor Marianpoika</a>
+												<ol>
+													<li>
+														<a href="../../../ppl/5/0/f9d48620ce3d60588a30894805.html">, Samuel Arvid Juhonpoika</a>
+													</li>
+													<li>
+														<a href="../../../ppl/d/b/f9d4878a240489740e9f67e17bd.html">, Iisak Anshelm Juhonpoika</a>
+													</li>
+													<li>
+														<a href="../../../ppl/e/a/f9d489166924e65e0c0272f6fae.html">, Tyyne Maria Juhontytär</a>
+													</li>
+													<li>
+														<a href="../../../ppl/9/5/f9d4896f6831e0d97f60485f659.html">, Ksenia Hedvig Juhontytär</a>
+													</li>
+													<li>
+														<a href="../../../ppl/a/3/f9d48a4c760646ead2e7d04c83a.html">, Martha Susanna Juhontytär</a>
+													</li>
+													<li>
+														<a href="../../../ppl/3/3/f9d48a9e9501eb062b7a24ecb33.html">, Laimi Amalia Juhontytär</a>
+													</li>
+													<li>
+														<a href="../../../ppl/9/8/f9d48ae7e7736c83140ab505789.html">, Juho Jaakoppi Juhonpoika</a>
+													</li>
+													<li>
+														<a href="../../../ppl/a/3/f9d48b54b751d6b7fa1d5a29e3a.html">, Anni Rakel Juhontytär</a>
+													</li>
+													<li>
+														<a href="../../../ppl/1/a/f9d48ba53be7c38371012ec13a1.html">, Matias Mikael Juhonpoika</a>
+													</li>
+												</ol>
+											</li>
+										</ol>
 									</li>
 									<li>
 										<a href="../../../ppl/b/0/d3a2ef6557d7b88940b.html">Kangasniemi, Juho Vihtori</a>
@@ -277,152 +603,163 @@
 			</div>
 			<div class="subsection" id="tree">
 				<h4>Ancestors</h4>
-				<div id="treeContainer" style="width:1234px; height:900px; top: 0px">
-					<div class="boxbg female AncCol0" style="top: 455px; left: 6px;">
-						<a class="noThumb" href="../../../ppl/b/a/d3a2dc44377013490ab.html">
-						Kangasniemi, Maria Alexandra<br/>*1873-12-27<br/>+...
-						</a>
+				<div class="tree" id="toggle_anc" style="display:block">
+					<div id="treeContainer" style="width:1234px; height:900px; top: 0px">
+						<div class="boxbg female AncCol0" style="top: 455px; left: 6px;">
+							<a class="noThumb" href="../../../ppl/b/a/d3a2dc44377013490ab.html">
+							Kangasniemi, Maria Alexandra<br>*1873-12-27<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 460px; left: 10px;"></div>
+						<div class="bvline" style="top: 475px; left: 285px; width: 15px"></div>
+						<div class="gvline" style="top: 480px; left: 285px; width: 20px"></div>
+						<div class="boxbg male AncCol1" style="top: 230px; left: 316px;">
+							<a class="noThumb" href="../../../ppl/4/f/d3a0085fd3249703bf4.html">
+							Kangasniemi, Matti Matinpoika vanh.<br>*1845-03-18<br>+1928-11-23
+							</a>
+						</div>
+						<div class="shadow" style="top: 235px; left: 320px;"></div>
+						<div class="bvline" style="top: 250px; left: 300px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 250px; left: 300px; height: 226px;"></div>
+					
+						<div class="bvline" style="top: 250px; left: 595px; width: 15px"></div>
+						<div class="gvline" style="top: 255px; left: 595px; width: 20px"></div>
+						<div class="boxbg male AncCol2" style="top: 80px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/6/c/da6940331644d79bfb4089004c6.html">
+							Tuohimaa, Mathias Samuelsson<br>*1818-06-28<br>+1886-05-22
+							</a>
+						</div>
+						<div class="shadow" style="top: 85px; left: 630px;"></div>
+						<div class="bvline" style="top: 100px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 100px; left: 610px; height: 151px;"></div>
+					
+						<div class="bvline" style="top: 100px; left: 905px; width: 15px"></div>
+						<div class="gvline" style="top: 105px; left: 905px; width: 20px"></div>
+						<div class="boxbg male AncCol3" style="top: 5px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/0/a/da6c72c29c85a8944528d3fcca0.html">
+							, Samuel Mattsson<br>*1795-05-21<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 10px; left: 940px;"></div>
+						<div class="bvline" style="top: 25px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 25px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol3" style="top: 155px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/0/5/da6c82c39201fd5a609e852e250.html">
+							, Maria Thomasdotter<br>*1798-09-17<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 160px; left: 940px;"></div>
+						<div class="bvline" style="top: 175px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 100px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol2" style="top: 380px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/f/f/da698b6704d287a4458c68097ff.html">
+							, Hedwig Mattsdotter<br>*1820-10-23<br>+1856-01-07
+							</a>
+						</div>
+						<div class="shadow" style="top: 385px; left: 630px;"></div>
+						<div class="bvline" style="top: 400px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 250px; left: 610px; height: 151px;"></div>
+					
+						<div class="bvline" style="top: 400px; left: 905px; width: 15px"></div>
+						<div class="gvline" style="top: 405px; left: 905px; width: 20px"></div>
+						<div class="boxbg male AncCol3" style="top: 305px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/6/e/dc6c54bd1ca25a696ed876dcbe6.html">
+							, Matts Danielsson<br>*1789-01-15<br>+1829-02-03
+							</a>
+						</div>
+						<div class="shadow" style="top: 310px; left: 940px;"></div>
+						<div class="bvline" style="top: 325px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 325px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol3" style="top: 455px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/b/1/dc6c55546541888067ff750711b.html">
+							, Anna Justina Michelsdotter<br>*1784-10-18<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 460px; left: 940px;"></div>
+						<div class="bvline" style="top: 475px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 400px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol1" style="top: 680px; left: 316px;">
+							<a class="noThumb" href="../../../ppl/3/f/d3a008cbc102865eef3.html">
+							, Eva Kristina Hedwigsdotter<br>*1849-12-04<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 685px; left: 320px;"></div>
+						<div class="bvline" style="top: 700px; left: 300px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 475px; left: 300px; height: 226px;"></div>
+					
+						<div class="bvline" style="top: 700px; left: 595px; width: 15px"></div>
+						<div class="gvline" style="top: 705px; left: 595px; width: 20px"></div>
+						<div class="boxbg female AncCol2" style="top: 680px; left: 626px;">
+							<a class="noThumb" href="../../../ppl/2/b/dc68c293bf01ffc24f58745a8b2.html">
+							, Hedwig Johansdotter<br>*1826-04-12<br>+1868-06-15
+							</a>
+						</div>
+						<div class="shadow" style="top: 685px; left: 630px;"></div>
+						<div class="bvline" style="top: 700px; left: 610px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 700px; left: 610px; height: 1px;"></div>
+					
+						<div class="bvline" style="top: 700px; left: 905px; width: 15px"></div>
+						<div class="gvline" style="top: 705px; left: 905px; width: 20px"></div>
+						<div class="boxbg male AncCol3" style="top: 605px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/2/4/dc68cc991637c85a7605d34c42.html">
+							Ikola, Johan Mattsson<br>*1806-01-06<br>+1866-10-04
+							</a>
+						</div>
+						<div class="shadow" style="top: 610px; left: 940px;"></div>
+						<div class="bvline" style="top: 625px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 625px; left: 920px; height: 76px;"></div>
+					
+						<div class="boxbg female AncCol3" style="top: 755px; left: 936px;">
+							<a class="noThumb" href="../../../ppl/b/4/dc68cd2664323a5c9bba703b54b.html">
+							, Clara Mattsdotter<br>*1795-12-24<br>+...
+							</a>
+						</div>
+						<div class="shadow" style="top: 760px; left: 940px;"></div>
+						<div class="bvline" style="top: 775px; left: 920px; width: 15px;"></div>
+					
+						<div class="bhline" style="top: 700px; left: 920px; height: 76px;"></div>
+					
 					</div>
-					<div class="shadow" style="top: 460px; left: 10px;"></div>
-					<div class="bvline" style="top: 475px; left: 285px; width: 15px"></div>
-					<div class="gvline" style="top: 480px; left: 285px; width: 20px"></div>
-					<div class="boxbg male AncCol1" style="top: 230px; left: 316px;">
-						<a class="noThumb" href="../../../ppl/4/f/d3a0085fd3249703bf4.html">
-						Kangasniemi, Matti Matinpoika vanh.<br/>*1845-03-18<br/>+1928-11-23
-						</a>
-					</div>
-					<div class="shadow" style="top: 235px; left: 320px;"></div>
-					<div class="bvline" style="top: 250px; left: 300px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 250px; left: 300px; height: 226px;"></div>
-				
-					<div class="bvline" style="top: 250px; left: 595px; width: 15px"></div>
-					<div class="gvline" style="top: 255px; left: 595px; width: 20px"></div>
-					<div class="boxbg male AncCol2" style="top: 80px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/6/c/da6940331644d79bfb4089004c6.html">
-						Tuohimaa, Mathias Samuelsson<br/>*1818-06-28<br/>+1886-05-22
-						</a>
-					</div>
-					<div class="shadow" style="top: 85px; left: 630px;"></div>
-					<div class="bvline" style="top: 100px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 100px; left: 610px; height: 151px;"></div>
-				
-					<div class="bvline" style="top: 100px; left: 905px; width: 15px"></div>
-					<div class="gvline" style="top: 105px; left: 905px; width: 20px"></div>
-					<div class="boxbg male AncCol3" style="top: 5px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/0/a/da6c72c29c85a8944528d3fcca0.html">
-						, Samuel Mattsson<br/>*1795-05-21<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 10px; left: 940px;"></div>
-					<div class="bvline" style="top: 25px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 25px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol3" style="top: 155px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/0/5/da6c82c39201fd5a609e852e250.html">
-						, Maria Thomasdotter<br/>*1798-09-17<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 160px; left: 940px;"></div>
-					<div class="bvline" style="top: 175px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 100px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol2" style="top: 380px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/f/f/da698b6704d287a4458c68097ff.html">
-						, Hedwig Mattsdotter<br/>*1820-10-23<br/>+1856-01-07
-						</a>
-					</div>
-					<div class="shadow" style="top: 385px; left: 630px;"></div>
-					<div class="bvline" style="top: 400px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 250px; left: 610px; height: 151px;"></div>
-				
-					<div class="bvline" style="top: 400px; left: 905px; width: 15px"></div>
-					<div class="gvline" style="top: 405px; left: 905px; width: 20px"></div>
-					<div class="boxbg male AncCol3" style="top: 305px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/6/e/dc6c54bd1ca25a696ed876dcbe6.html">
-						, Matts Danielsson<br/>*1789-01-15<br/>+1829-02-03
-						</a>
-					</div>
-					<div class="shadow" style="top: 310px; left: 940px;"></div>
-					<div class="bvline" style="top: 325px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 325px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol3" style="top: 455px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/b/1/dc6c55546541888067ff750711b.html">
-						, Anna Justina Michelsdotter<br/>*1784-10-18<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 460px; left: 940px;"></div>
-					<div class="bvline" style="top: 475px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 400px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol1" style="top: 680px; left: 316px;">
-						<a class="noThumb" href="../../../ppl/3/f/d3a008cbc102865eef3.html">
-						, Eva Kristina Hedwigsdotter<br/>*1849-12-04<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 685px; left: 320px;"></div>
-					<div class="bvline" style="top: 700px; left: 300px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 475px; left: 300px; height: 226px;"></div>
-				
-					<div class="bvline" style="top: 700px; left: 595px; width: 15px"></div>
-					<div class="gvline" style="top: 705px; left: 595px; width: 20px"></div>
-					<div class="boxbg female AncCol2" style="top: 680px; left: 626px;">
-						<a class="noThumb" href="../../../ppl/2/b/dc68c293bf01ffc24f58745a8b2.html">
-						, Hedwig Johansdotter<br/>*1826-04-12<br/>+1868-06-15
-						</a>
-					</div>
-					<div class="shadow" style="top: 685px; left: 630px;"></div>
-					<div class="bvline" style="top: 700px; left: 610px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 700px; left: 610px; height: 1px;"></div>
-				
-					<div class="bvline" style="top: 700px; left: 905px; width: 15px"></div>
-					<div class="gvline" style="top: 705px; left: 905px; width: 20px"></div>
-					<div class="boxbg male AncCol3" style="top: 605px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/2/4/dc68cc991637c85a7605d34c42.html">
-						Ikola, Johan Mattsson<br/>*1806-01-06<br/>+1866-10-04
-						</a>
-					</div>
-					<div class="shadow" style="top: 610px; left: 940px;"></div>
-					<div class="bvline" style="top: 625px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 625px; left: 920px; height: 76px;"></div>
-				
-					<div class="boxbg female AncCol3" style="top: 755px; left: 936px;">
-						<a class="noThumb" href="../../../ppl/b/4/dc68cd2664323a5c9bba703b54b.html">
-						, Clara Mattsdotter<br/>*1795-12-24<br/>+...
-						</a>
-					</div>
-					<div class="shadow" style="top: 760px; left: 940px;"></div>
-					<div class="bvline" style="top: 775px; left: 920px; width: 15px;"></div>
-				
-					<div class="bhline" style="top: 700px; left: 920px; height: 76px;"></div>
-				
 				</div>
 			</div>
 			<div class="subsection" id="sourcerefs">
 				<h4>Source References</h4>
-				<ol>
+				<ol id="srcr">
 					<li>
 						<a href="../../../src/8/7/d3a2d9e50926ee42f78.html" title="Jalasjärven seurakunta: Jalasjärvi Rippikirja 1867-1874" name ="sref1">
 						Jalasjärven seurakunta: Jalasjärvi Rippikirja 1867-1874
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref1a">
 								<ul>
 									<li>
 									Page: 9
 									</li>
 									<li>
+									Citation: <div class="grampsstylednote"><p>Jalasjärvi rippikirja 1867-1874 (AP I Aa:14)  Sivu 9 Koskue Maja Joensuu Hautaniemi Niemenmaa ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=41153&amp;pnum=12 / Viitattu 26.07.2026</p></div>
+									</li>
+									<li>
 									Url: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/kirjat/Kirkonkirjat/jalasjarvi/rippikirja_1867-1874_mko41-63/10.htm">http://www.sukuhistoria.fi/sshy/kirjat/Kirkonkirjat/jalasjarvi/rippikirja_1867-1874_mko41-63/10.htm</a></p></div>
+									</li>
+									<li>
+									Link: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=41153&amp;pnum=12">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=41153&amp;pnum=12</a></p></div>
+									</li>
+									<li>
+									Transcript: <div class="grampsstylednote"><p><span style="font-family:'Courier New';">9 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Koskue</span></p><p><span style="font-family:'Courier New';">Niemenmaa</span></p><p><span style="font-family:'Courier New';">inh T. Matts Mattss &nbsp; &nbsp; &nbsp; &nbsp; 12/3 &nbsp;1849 &nbsp;[Jalasj] &nbsp;s.567</span><br /><span style="font-family:'Courier New';">Hru Eva Kristina Hedvigsdr &nbsp;4/12 &nbsp;1849 &nbsp;do &nbsp; &nbsp; &nbsp; &nbsp;V.k.721 vigde 2/3 70 &nbsp;lysning med nedavarande? 21/1 70 &nbsp;V.k. 78</span><br /><span style="font-family:'Courier New';">Sn Anshelm &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;19/11 1870 &nbsp;do &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;död 18 23/10 72</span><br /><span style="font-family:'Courier New';">Sn Matts &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;15/3 &nbsp;1872 &nbsp;do</span><br /><span style="font-family:'Courier New';">Dr Maria Alexandra &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;27/12 1873 &nbsp;do</span></p><p>&nbsp;</p></div>
 									</li>
 								</ul>
 							</li>
@@ -432,14 +769,152 @@
 						<a href="../../../src/6/f/d3a2eeb743e205ffff6.html" title="Jalasjärven seurakunta: Jalasjärvi Rippikirja 1885-1894" name ="sref2">
 						Jalasjärven seurakunta: Jalasjärvi Rippikirja 1885-1894
 						</a>
-						<ol>
+						<ol id="citr">
 							<li id="sref2a">
 								<ul>
 									<li>
 									Page: 247
 									</li>
 									<li>
+									Citation: <div class="grampsstylednote"><p>Jalasjärvi rippikirja 1885-1894 (AP_I I Aa:16)  Sivu 247 Koskuen kylä  Myllyniemi ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=41155&amp;pnum=251 / Viitattu 26.05.2024</p></div>
+									</li>
+									<li>
 									Url: <div class="grampsstylednote"><p><a href="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7935&amp;pnum=237">http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7935&amp;pnum=237</a></p></div>
+									</li>
+									<li>
+									Url: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=41155&amp;pnum=251">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=41155&amp;pnum=251</a></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref2b">
+								<ul>
+									<li>
+									Page: I Aa:18/631
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Jalasjärvi rippikirja 1885-1894 (AP_I I Aa:16)  Sivu 631 Wallin kylä No 10 Ahomäki Palkolliset ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=41155&amp;pnum=633 / Viitattu 26.05.2024</p></div>
+									</li>
+									<li>
+									Url: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=41155&amp;pnum=633">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=41155&amp;pnum=633</a></p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../src/a/1/d3a62bb5698644e4e1a.html" title="Jalasjärven seurakunta: Jalasjärvi Rippikirja 1895-1904" name ="sref3">
+						Jalasjärven seurakunta: Jalasjärvi Rippikirja 1895-1904
+						</a>
+						<ol id="citr">
+							<li id="sref3a">
+								<ul>
+									<li>
+									Page: 874
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Jalasjärvi rippikirja 1895-1904 (AP_II I Aa:19)  Sivu 874 Walli No 10 Ahomäki Palkolliset ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33336&amp;pnum=80 / Viitattu 26.05.2024</p></div>
+									</li>
+									<li>
+									Url: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33336&amp;pnum=80">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33336&amp;pnum=80</a></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref3b">
+								<ul>
+									<li>
+									Page: I Aa:19/879
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Jalasjärvi rippikirja 1895-1904 (AP_II I Aa:19)  Sivu 879 Walli No 10 Ahomäki Majamäki ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33336&amp;pnum=85 / Viitattu 26.05.2024</p></div>
+									</li>
+									<li>
+									Url: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33336&amp;pnum=85">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33336&amp;pnum=85</a></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref3c">
+								<ul>
+									<li>
+									Page: Aa:19/957
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Jalasjärvi rippikirja 1895-1904 (AP_II I Aa:19)  Sivu 957 Walli No 17 Hirsimäki Pinomäki Syrjälä ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33336&amp;pnum=161 / Viitattu 26.05.2024</p></div>
+									</li>
+									<li>
+									Url: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33336&amp;pnum=161">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33336&amp;pnum=161</a></p></div>
+									</li>
+								</ul>
+							</li>
+							<li id="sref3d">
+								<ul>
+									<li>
+									Page: Aa:19/909
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Jalasjärvi rippikirja 1895-1904 (AP_II I Aa:19)  Sivu 909 Walli No 13 Wallinmaa Mäkinen Saari ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33336&amp;pnum=115 / Viitattu 26.05.2024</p></div>
+									</li>
+									<li>
+									Url: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33336&amp;pnum=115">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33336&amp;pnum=115</a></p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../src/c/1/f9d4839029a68dca2f2e0f4961c.html" title="Jalasjärven seurakunta: Jalasjärvi Kuulutetut 1884-1903" name ="sref4">
+						Jalasjärven seurakunta: Jalasjärvi Kuulutetut 1884-1903
+						</a>
+						<ol id="citr">
+							<li id="sref4a">
+								<ul>
+									<li>
+									Page: Ea:1/116-117
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Jalasjärvi kuulutetut 1884-1903 (AP I Ea:1)   ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33415&amp;pnum=61 / Viitattu 27.05.2024</p></div>
+									</li>
+									<li>
+									Url: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33415&amp;pnum=61">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33415&amp;pnum=61</a></p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../src/7/8/f9d2393f910de22185df768687.html" title="Jalasjärven seurakunta: Jalasjärvi Vihityt 1885-1906" name ="sref5">
+						Jalasjärven seurakunta: Jalasjärvi Vihityt 1885-1906
+						</a>
+						<ol id="citr">
+							<li id="sref5a">
+								<ul>
+									<li>
+									Page: 64-65
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Jalasjärvi vihityt 1885-1906 (AP I Eb:2)  Sivu 64 1895 heinä-marraskuu ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33408&amp;pnum=35 / Viitattu 26.05.2024</p></div>
+									</li>
+									<li>
+									Url: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33408&amp;pnum=35">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33408&amp;pnum=35</a></p></div>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../src/6/1/f9d2453b48b3ea99fb94c7f6c16.html" title="Jalasjärven seurakunta: Jalasjärvi RIppikirja 1905-1914" name ="sref6">
+						Jalasjärven seurakunta: Jalasjärvi RIppikirja 1905-1914
+						</a>
+						<ol id="citr">
+							<li id="sref6a">
+								<ul>
+									<li>
+									Page: Aa:22/717
+									</li>
+									<li>
+									Citation: <div class="grampsstylednote"><p>Jalasjärvi rippikirja 1905-1914 (AP_II I Aa:22)  Sivu 717 Walli No 13 Wallinmaa Saari (Syrjänen) Koivumäki ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33339&amp;pnum=160 / Viitattu 26.05.2024</p></div>
+									</li>
+									<li>
+									Url: <div class="grampsstylednote"><p><a href="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33339&amp;pnum=160">https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=33339&amp;pnum=160</a></p></div>
 									</li>
 								</ul>
 							</li>
@@ -451,10 +926,10 @@
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.6<br />Last change was the 2017-12-31 16:30:26
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 6.0.8<br />Last change was the 2024-05-27 00:16:34
 			</p>
 			<p id="copyright">
-			&copy; 2024 John Nordberg
+			&copy; 2026 John Nordberg
 			</p>
 		</div>
 	</div>

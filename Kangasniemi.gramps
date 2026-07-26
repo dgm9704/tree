@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE database PUBLIC "-//Gramps//DTD Gramps XML 1.7.1//EN"
-"http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
-<database xmlns="http://gramps-project.org/xml/1.7.1/">
+<!DOCTYPE database PUBLIC "-//Gramps//DTD Gramps XML 1.7.2//EN"
+"http://gramps-project.org/xml/1.7.2/grampsxml.dtd">
+<database xmlns="http://gramps-project.org/xml/1.7.2/">
   <header>
-    <created date="2024-05-27" version="5.2.2"/>
+    <created date="2026-07-26" version="6.0.8"/>
     <researcher>
     </researcher>
   </header>
@@ -1955,7 +1955,7 @@
       <eventref hlink="_d3a0187b86154a737bc" role="Primary"/>
       <childof hlink="_d3a007c50b00dd9f28a"/>
     </person>
-    <person handle="_d3a00ee287c329619da" change="1533660579" id="I0013">
+    <person handle="_d3a00ee287c329619da" change="1785076048" id="I0013">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anni</first>
@@ -1964,10 +1964,12 @@
       <name alt="1" type="Married Name">
         <first>Anni</first>
         <surname>Koski</surname>
+        <datespan start="1921-04-26" stop="1924-12-12"/>
       </name>
       <name alt="1" type="Married Name">
         <first>Anni</first>
         <surname>Hakkola</surname>
+        <dateval val="1924-12-12" type="from"/>
       </name>
       <eventref hlink="_d3a00f319990ebcb2a8" role="Primary"/>
       <eventref hlink="_df29fc420fd63a9f2b6c584098" role="Primary"/>
@@ -3013,10 +3015,10 @@
       <eventref hlink="_f9d48a8481056a9cda8c8ef9c15" role="Primary"/>
       <childof hlink="_f9d2349c61d503fb13516550589"/>
     </person>
-    <person handle="_f9d48a9e9501eb062b7a24ecb33" change="1716821192" id="I0114">
+    <person handle="_f9d48a9e9501eb062b7a24ecb33" change="1716828758" id="I0114">
       <gender>F</gender>
       <name type="Birth Name">
-        <first>Saimi Amalia</first>
+        <first>Laimi Amalia</first>
         <surname derivation="Patronymic">Juhontytär</surname>
       </name>
       <eventref hlink="_f9d48ad57df17676d42892a0d54" role="Primary"/>
@@ -3412,10 +3414,13 @@
       <noteref hlink="_d39fa861b5d2578814f"/>
       <sourceref hlink="_d39fa5f7fe55ebfaf1a"/>
     </citation>
-    <citation handle="_d39fb28c5b7713723e1" change="1454278331" id="C0005">
+    <citation handle="_d39fb28c5b7713723e1" change="1785068499" id="C0005">
+      <datestr val=""/>
       <page>109-110</page>
       <confidence>2</confidence>
-      <noteref hlink="_d39fb283b126bb8fb0c"/>
+      <noteref hlink="_103c2f620684bcefcfb7fc44d81"/>
+      <noteref hlink="_103c2f634a785d1cc858292ed405"/>
+      <noteref hlink="_103c2fbcc10a12b2cbc7a9a16a54"/>
       <sourceref hlink="_d39fb22328b469e63a4"/>
     </citation>
     <citation handle="_d39fb654a8545dc1ba5" change="1454268201" id="C0006">
@@ -3437,10 +3442,13 @@
       <noteref hlink="_d3a004e457444d6ad19"/>
       <sourceref hlink="_d3a00451837645179e0"/>
     </citation>
-    <citation handle="_d3a015f3a6e6231bc27" change="1454278228" id="C0009">
+    <citation handle="_d3a015f3a6e6231bc27" change="1785067849" id="C0009">
+      <datestr val=""/>
       <page>455-456</page>
       <confidence>2</confidence>
-      <noteref hlink="_d3a015eda976804af1d"/>
+      <noteref hlink="_103c2f311f926c4e81f3b23c4f19"/>
+      <noteref hlink="_103c2f2fd199d157e9c9c90033b"/>
+      <noteref hlink="_103c2f5957a467f108e19841bd4c"/>
       <sourceref hlink="_d39fa0d3a406818f12e"/>
     </citation>
     <citation handle="_d3a01872dfe0eb51bcb" change="1454278490" id="C0010">
@@ -3540,10 +3548,14 @@
       <noteref hlink="_d3a2a68724653a557d1"/>
       <sourceref hlink="_d3a2a65a1b5258ad537"/>
     </citation>
-    <citation handle="_d3a2d9e87903c57e15a" change="1500903442" id="C0026">
+    <citation handle="_d3a2d9e87903c57e15a" change="1785077417" id="C0026">
+      <datestr val=""/>
       <page>9</page>
       <confidence>2</confidence>
+      <noteref hlink="_103c34de55bc5e4525746edbb55"/>
       <noteref hlink="_d3a2da3cd221b669c34"/>
+      <noteref hlink="_103c34dcbad36d45928f65dc984b"/>
+      <noteref hlink="_103c350d4ab53e79c9054b6bb148"/>
       <sourceref hlink="_d3a2d9e50926ee42f78"/>
     </citation>
     <citation handle="_d3a2eedad9a07e42971" change="1454355036" id="C0027">
@@ -3815,16 +3827,22 @@
       <noteref hlink="_da65f3323f53c63e3204be1f047"/>
       <sourceref hlink="_da65f301eee5eb6813991103e04"/>
     </citation>
-    <citation handle="_da68c9be8a32d8923c5dce71155" change="1500897476" id="C0077">
-      <page>237</page>
+    <citation handle="_da68c9be8a32d8923c5dce71155" change="1785076845" id="C0077">
+      <datestr val=""/>
+      <page>236-237</page>
       <confidence>2</confidence>
+      <noteref hlink="_103c348e9874d60af7c2468dfa0"/>
+      <noteref hlink="_103c348d34f464d1a142235fd10d"/>
       <noteref hlink="_da68c9b71f360116347f79bd2a8"/>
+      <noteref hlink="_103c34b61c0b145a1ee36b6f9f2a"/>
       <sourceref hlink="_da68c965103152f9af01bf5b57f"/>
     </citation>
-    <citation handle="_da68edde53e3a457c4cd31c1374" change="1500901263" id="C0078">
+    <citation handle="_da68edde53e3a457c4cd31c1374" change="1785076431" id="C0078">
+      <datestr val=""/>
       <page>30</page>
       <confidence>2</confidence>
-      <noteref hlink="_da68ec1a67e77d0d566d9ac0e0b"/>
+      <noteref hlink="_103c34766f7377063da6a1c35d25"/>
+      <noteref hlink="_103c34739a172f266051af1f65a4"/>
       <noteref hlink="_da68edd3b4c130d35f11c38adb9"/>
       <sourceref hlink="_da68ebdf0273114bed7d8b903ee"/>
     </citation>
@@ -4331,12 +4349,14 @@
       <noteref hlink="_df2a0ebec396293215b06743de9"/>
       <sourceref hlink="_df2a0e98a2f2da453c436ed328b"/>
     </citation>
-    <citation handle="_df2a22f3c5676bc2a7640d8092a" change="1533584949" id="C0070">
+    <citation handle="_df2a22f3c5676bc2a7640d8092a" change="1785077959" id="C0070">
+      <datestr val=""/>
       <page>Anni Koski Jakob Hakkala 2342761/4210097/17</page>
       <confidence>2</confidence>
       <noteref hlink="_df2a223a6c534b1a57a17b39fe5"/>
-      <noteref hlink="_df2a22bd0dd7c4df7c077a63783"/>
       <noteref hlink="_df2a22ebc8a5bfc67c56158ce28"/>
+      <noteref hlink="_df2a22bd0dd7c4df7c077a63783"/>
+      <noteref hlink="_103c3560132b5c76a9703e2156a"/>
       <sourceref hlink="_df2a0e98a2f2da453c436ed328b"/>
     </citation>
     <citation handle="_df2a40b7c69684a67db34025d8c" change="1533579536" id="C0071">
@@ -5470,6 +5490,124 @@
     </repository>
   </repositories>
   <notes>
+    <note handle="_103c2f2fd199d157e9c9c90033b" change="1785067574" id="N0259" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=9851073942&amp;aineistoId=1211569879</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=9851073942&amp;aineistoId=1211569879">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_103c2f311f926c4e81f3b23c4f19" change="1785067583" id="N0260" type="Citation">
+      <text>Jaakkiman seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I C Syntyneiden ja kastettujen luettelot. I C:10 Syntyneiden ja kastettujen luettelot  (1890-1897). Tiedosto 234. Kansallisarkisto. Viitattu 26.7.2026.</text>
+    </note>
+    <note handle="_103c2f5957a467f108e19841bd4c" change="1785077530" id="N0261" type="Transcript" format="1">
+      <text>                        Vuonna 1897  Siv. 455
+Syntyneet ja kastetut Jaakkiman Seurakunnassa
+
+Fr.p. 109  [Maalisk.] 20  Maal 20  Anni Hätäkastettu. Vt Its.
+                                   Matti Matinp. Kangasniemi ja 
+                                   vmo Eva Kristina Henrikintr
+                                   Ihalanojalta No9. Kt Renki Taa
+                                   vetti Raipio ja vmo Anna Maria
+                                   Tikka, Vaarasta 4, Hätäjast. toimitti Mäkit. vmo
+                                   Maria Inkinen. Vahvisti 17/, O.E. Härmälä    [n]  51  47
+</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="591"/>
+      </style>
+    </note>
+    <note handle="_103c2f620684bcefcfb7fc44d81" change="1785067903" id="N0262" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=9851048033&amp;aineistoId=1211256323</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=9851048033&amp;aineistoId=1211256323">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_103c2f634a785d1cc858292ed405" change="1785067911" id="N0263" type="Citation">
+      <text>Jaakkiman seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A Pääkirjat hakemistoineen. I Ab Lastenkirjat. I Ab:11 Lastenkirjat, Harvia - Tervajärvi  (1890-1899). Tiedosto 58. Kansallisarkisto. Viitattu 26.7.2026.</text>
+    </note>
+    <note handle="_103c2fbcc10a12b2cbc7a9a16a54" change="1785077463" id="N0264" type="Transcript" format="1">
+      <text>109         Ihalanoja
+No 9
+
+  Matti Matinp. Kangasniemen (s 12/3 1845) ja vnsa Eva Kristina Hentriikintyttären (4/12 49
+pka Jaakko         10/7 1880 Jalasjärvi                     }Jalasjärvellä  }
+tr Hedvig Sofia    24/5 1882 &quot;                              }16/12 93       }
+&quot; Susanna Loviisa  17/7 1884 &quot;                              }               }Muuttok 
+pka Anshelm         1/4 1887 &quot;                              }               }Kurkijoelle
+Tr Hilma Matilda   13/6 1892 &quot;                Kuoli 7/4 1894}               }28/1 1898
+Tr Tyyne Pka Matin 14/6 1896 ereys! pojan lapsi kts alemmas!                }
+&quot; Anni             20/3 1897 
+
+
+Läks Matti Matinp. Kangasniemen s.15/3 1872 ja vnsa Maria Jaakontyttären s. 27/7 1864 lapset
+Tr Tyyne           14/6 1896                                                } slle 124. 99
+Tr Lyyli           10/5 1898                                                }
+</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="910"/>
+      </style>
+    </note>
+    <note handle="_103c34739a172f266051af1f65a4" change="1785076407" id="N0265" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7820&amp;pnum=21</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7820&amp;pnum=21">
+        <range start="0" end="76"/>
+      </style>
+    </note>
+    <note handle="_103c34766f7377063da6a1c35d25" change="1785076425" id="N0266" type="Citation">
+      <text>Jalasjärvi vihityt 1859-1884 (UK145)  1870 ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7820&amp;pnum=21 / Viitattu 26.07.2026</text>
+    </note>
+    <note handle="_103c348d34f464d1a142235fd10d" change="1785076575" id="N0267" type="Link">
+      <text>https://digihakemisto.net/item/1273510334/3677180536/121</text>
+      <style name="link" value="https://digihakemisto.net/item/1273510334/3677180536/121">
+        <range start="0" end="56"/>
+      </style>
+    </note>
+    <note handle="_103c348e9874d60af7c2468dfa0" change="1785076584" id="N0268" type="Citation">
+      <text>Jalasjärven seurakunnan arkisto - IC:5 Syntyneiden ja kastettujen luettelot 1841-1854, jakso 121, sivu 236-237: 1849 10-12; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=3677180536&amp;aineistoId=1273510334 / Viitattu 26.7.2026</text>
+    </note>
+    <note handle="_103c34b61c0b145a1ee36b6f9f2a" change="1785077672" id="N0269" type="Transcript" format="1">
+      <text>         237
+
+[December]
+oä.  4.  7.  20-25  Eva Christina bdedr dej Hedwig Johandr Ikolas o-
+                    ägta barn. Test: Bn Matts Mattss Somero med hu Lisa Mattsdr
+                    Bs Matts Johanss Ikola et pig Maja Caisasdr Wuohi-
+                    luoma                  ibid af Joh. Lindlöf                  [n]</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="329"/>
+      </style>
+    </note>
+    <note handle="_103c34dcbad36d45928f65dc984b" change="1785077096" id="N0270" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=41153&amp;pnum=12</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=41153&amp;pnum=12">
+        <range start="0" end="77"/>
+      </style>
+    </note>
+    <note handle="_103c34de55bc5e4525746edbb55" change="1785077106" id="N0271" type="Citation">
+      <text>Jalasjärvi rippikirja 1867-1874 (AP I Aa:14)  Sivu 9 Koskue Maja Joensuu Hautaniemi Niemenmaa ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=41153&amp;pnum=12 / Viitattu 26.07.2026</text>
+    </note>
+    <note handle="_103c350d4ab53e79c9054b6bb148" change="1785077414" id="N0272" type="Transcript" format="1">
+      <text>9          Koskue
+
+Niemenmaa
+
+inh T. Matts Mattss         12/3  1849  [Jalasj]  s.567
+Hru Eva Kristina Hedvigsdr  4/12  1849  do        V.k.721 vigde 2/3 70  lysning med nedavarande? 21/1 70  V.k. 78
+Sn Anshelm                  19/11 1870  do                                                              död 18 23/10 72
+Sn Matts                    15/3  1872  do
+Dr Maria Alexandra          27/12 1873  do
+</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="406"/>
+      </style>
+    </note>
+    <note handle="_103c3560132b5c76a9703e2156a" change="1785078048" id="N0273" type="Analysis">
+      <text>Morsiamen äidin nimeksi merkitty &quot;Eva Ikola&quot; mikä täsmää sen kanssa että Eva Christinan syntyessä äiti on ollut &quot;Hedwig Johandr Ikola&quot;
+
+</text>
+      <style name="link" value="gramps://Citation/handle/da68c9be8a32d8923c5dce71155">
+        <range start="73" end="134"/>
+      </style>
+    </note>
     <note handle="_d39f04afbb15f7c1a54" change="1454249574" id="N0000" type="Url">
       <text>http://digi.narc.fi/digi/view.ka?kuid=2683785
 https://astia.narc.fi/uusiastia/viewer/?fileId=5774122243&amp;aineistoId=1209939916</text>
@@ -6323,13 +6461,15 @@ Manifest Line Number:		0004</text>
         <range start="0" end="45"/>
       </style>
     </note>
-    <note handle="_da68edd3b4c130d35f11c38adb9" change="1500901259" id="N0085" type="Transcript" format="1">
+    <note handle="_da68edd3b4c130d35f11c38adb9" change="1785076999" id="N0085" type="Transcript" format="1">
       <text>30.
-		Wigde år 1870
+          Wigde år 1870
 
-Mars
-	2.	Matts Mattss. Niemenmaa, Torp. och ung karl samt Eva Kristina Hedwigsdr Niemenmaa
-		ung piga, begge fr. Maja. hemma utan skrud af								G. Jernberg</text>
+Mars  2.  Matts Mattss. Niemenmaa, Torp. och ung karl samt Eva Kristina Hedwigsdr Niemenmaa
+          ung piga, begge fr. Maja. hemma utan skrud af                         G. Jernberg</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="212"/>
+      </style>
     </note>
     <note handle="_da6902418fd59e431a99c00d297" change="1500903401" id="N0086" type="Url">
       <text>http://www.sukuhistoria.fi/sshy/kirjat/Kirkonkirjat/jalasjarvi/rippikirja_1867-1874_mko41-63/662.htm</text>
@@ -7112,7 +7252,7 @@ Memorial ID 	145308620</text>
     <note handle="_df2a486e5092fd79eb0f37e58d8" change="1533579355" id="N0181" type="Citation">
       <text>Find A Grave, database and images (https://www.findagrave.com : accessed 06 August 2018), memorial page for Anni Hakkola (1897–1988), Find A Grave Memorial no. 77642021, citing Pine Grove Cemetery, Chatham, Alger County, Michigan, USA ; Maintained by Find A Grave (contributor 8) .</text>
     </note>
-    <note handle="_df2a48ea1f92bd0755c244bf10d" change="1533579405" id="N0182" type="Transcript" format="1">
+    <note handle="_df2a48ea1f92bd0755c244bf10d" change="1785068585" id="N0182" type="Transcript" format="1">
       <text>Anni Hakkola
 Birth 		1897
 Death 		1988 (aged 90–91)
@@ -7120,7 +7260,7 @@ Burial 		Pine Grove Cemetery
 		Chatham, Alger County, Michigan, USA
 Memorial ID 	77642021</text>
       <style name="fontface" value="Monospace">
-        <range start="0" end="142"/>
+        <range start="0" end="141"/>
       </style>
     </note>
     <note handle="_df2a62f683348642e795aa559e4" change="1533582137" id="N0183" type="Url">
@@ -7173,7 +7313,7 @@ Mother's Name:		Eliisa Koski</text>
         <range start="0" end="840"/>
       </style>
     </note>
-    <note handle="_df2d503500a3075716bc7ccf1f1" change="1533674007" id="N0189" type="Transcript" format="1">
+    <note handle="_df2d503500a3075716bc7ccf1f1" change="1785069098" id="N0189" type="Transcript" format="1">
       <text>Jacob Hakkola 		Male 	41 	Married 	White 	Head 		1889 	Finland 	1909 	Finland 	Finland 	A 	9
 Anna Hakkola 		Female 	33 	Married 	White 	Wife 		1897 	Finland 	1921 	Finland 	Finland 	A 	9
 Fannie M Hakkola 	Female 	15 	Single 		White 	Daughter 	1915 	Michigan 		Finland 	Finland 	A 	9
@@ -7184,7 +7324,7 @@ Eva M Hakkola 		Female 	8 	Single 		White 	Stepdaughter 	1922 	Michigan 		Finlan
 Elsie E Hakkola 	Female 	7 	Single 		White 	Stepdaughter 	1923 	Michigan 		Finland 	Finland 	A 	9
 Eino H Hakkola 		Male 	4 	Single 		White 	Son 		1926 	Michigan 		Finland 	Finland 	A 	9</text>
       <style name="fontface" value="Monospace">
-        <range start="0" end="838"/>
+        <range start="0" end="837"/>
       </style>
     </note>
     <note handle="_df2d52fa3dd23224ba5c83bfcca" change="1533660991" id="N0190" type="Url">
