@@ -12,6 +12,18 @@
     <format number="-2" name="Primary, Given Patronymic NotPatronymic Suffix" fmt_str="Primary, given patronymic notpatronymic suffix" active="1"/>
   </name-formats>
   <events>
+    <event handle="_103c3758ae027ead53ac03a79485" change="1785081313" id="E0283">
+      <type>Residence</type>
+      <datespan start="1910" stop="1919"/>
+      <place hlink="_d3a053a869a04e8cf05"/>
+      <citationref hlink="_103c3757cdfc6af32bece9fb7176"/>
+    </event>
+    <event handle="_103c38066dfb3ce5a694251075ce" change="1785082402" id="E0284">
+      <type>Death</type>
+      <dateval val="1931-05-30"/>
+      <place hlink="_d3acc2519d73e9bb104"/>
+      <citationref hlink="_103c380634c67916c38fa4b4521c"/>
+    </event>
     <event handle="_d39f02b001f738df056" change="1454954680" id="E0000">
       <type>Birth</type>
       <dateval val="1872-03-15"/>
@@ -96,9 +108,9 @@
       <citationref hlink="_da6962eff5d234d67a1aa8da955"/>
       <citationref hlink="_d39fbadaf7367dff069"/>
     </event>
-    <event handle="_d3a00b949377a06e02a" change="1454280593" id="E0011">
+    <event handle="_d3a00b949377a06e02a" change="1785089967" id="E0011">
       <type>Residence</type>
-      <datespan start="1893" stop="1898"/>
+      <datespan start="1893-12-27" stop="1898-01-28"/>
       <place hlink="_d39fa3d104c4abc6a4d"/>
       <citationref hlink="_d3a02a6a5ae5cd33010"/>
       <citationref hlink="_d39fbadaf7367dff069"/>
@@ -155,9 +167,9 @@
       <place hlink="_d39fa3d104c4abc6a4d"/>
       <citationref hlink="_d3a01fee81d42b8c1e3"/>
     </event>
-    <event handle="_d3a02e497b6390c72cb" change="1454955721" id="E0020">
+    <event handle="_d3a02e497b6390c72cb" change="1785090515" id="E0020">
       <type>Residence</type>
-      <datespan start="1898" stop="1899"/>
+      <datespan start="1898-02-26" stop="1899"/>
       <place hlink="_d3a02fe7b553c5df3a6"/>
       <citationref hlink="_d3a02e0e2fd229194f2"/>
       <citationref hlink="_d3a0306a54c41aa260d"/>
@@ -336,10 +348,11 @@
       <citationref hlink="_d39fbadaf7367dff069"/>
       <citationref hlink="_d3a004e79d05a44f5f1"/>
     </event>
-    <event handle="_d3accbd41fa4642b59c" change="1701118255" id="E0049">
+    <event handle="_d3accbd41fa4642b59c" change="1785081642" id="E0049">
       <type>Death</type>
       <dateval val="1928-11-23"/>
       <place hlink="_d3acc2519d73e9bb104"/>
+      <citationref hlink="_103c378f590370ab77092622b897"/>
       <citationref hlink="_d3accbbf76c31d2a4cd"/>
     </event>
     <event handle="_d3acd7165315cf30e4d" change="1701117499" id="E0050">
@@ -1794,7 +1807,7 @@
     </event>
   </events>
   <people home="_d39f9e62893689f03a0">
-    <person handle="_d39f01bf22d12a2183b" change="1514730626" id="I0000">
+    <person handle="_d39f01bf22d12a2183b" change="1785084902" id="I0000">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Matti</first>
@@ -1896,17 +1909,19 @@
       <childof hlink="_da694007c4a5ddb782a71ec1eaf"/>
       <parentin hlink="_d3a007c50b00dd9f28a"/>
     </person>
-    <person handle="_d3a008cbc102865eef3" change="1514730626" id="I0007">
+    <person handle="_d3a008cbc102865eef3" change="1785091277" id="I0007">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Eva Kristina</first>
         <surname derivation="Matronymic">Hedwigsdotter</surname>
       </name>
       <eventref hlink="_d3a009598061bdc311e" role="Primary"/>
+      <eventref hlink="_103c38066dfb3ce5a694251075ce" role="Primary"/>
       <childof hlink="_dc68c250da978fa02a30b5d0cb1"/>
       <parentin hlink="_d3a007c50b00dd9f28a"/>
+      <noteref hlink="_103c3d4fac1c6bc157ae57bffdea"/>
     </person>
-    <person handle="_d3a00bd753f72634ba6" change="1514730626" id="I0008">
+    <person handle="_d3a00bd753f72634ba6" change="1785084902" id="I0008">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Jaakko</first>
@@ -1915,7 +1930,7 @@
       <eventref hlink="_d3a00c23f9d005ad809" role="Primary"/>
       <childof hlink="_d3a007c50b00dd9f28a"/>
     </person>
-    <person handle="_d3a00c71274649e16f5" change="1514730626" id="I0009">
+    <person handle="_d3a00c71274649e16f5" change="1785084902" id="I0009">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Hedvig Sofia</first>
@@ -1925,7 +1940,7 @@
       <childof hlink="_d3a007c50b00dd9f28a"/>
       <parentin hlink="_d3a03ceedf565b0bee4"/>
     </person>
-    <person handle="_d3a00ced83748adba6d" change="1514730626" id="I0010">
+    <person handle="_d3a00ced83748adba6d" change="1785084902" id="I0010">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Susanna Loviisa</first>
@@ -1935,7 +1950,7 @@
       <childof hlink="_d3a007c50b00dd9f28a"/>
       <parentin hlink="_d3a03edbbb34d352cc2"/>
     </person>
-    <person handle="_d3a00dcd16f6f5513b6" change="1514730626" id="I0011">
+    <person handle="_d3a00dcd16f6f5513b6" change="1785084902" id="I0011">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Anshelm</first>
@@ -1945,7 +1960,7 @@
       <eventref hlink="_d3a03bf01536517f93a" role="Primary"/>
       <childof hlink="_d3a007c50b00dd9f28a"/>
     </person>
-    <person handle="_d3a00e44dd71ac45839" change="1514730626" id="I0012">
+    <person handle="_d3a00e44dd71ac45839" change="1785084902" id="I0012">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Hilma Matilda</first>
@@ -1955,7 +1970,7 @@
       <eventref hlink="_d3a0187b86154a737bc" role="Primary"/>
       <childof hlink="_d3a007c50b00dd9f28a"/>
     </person>
-    <person handle="_d3a00ee287c329619da" change="1785076048" id="I0013">
+    <person handle="_d3a00ee287c329619da" change="1785084902" id="I0013">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Anni</first>
@@ -2038,7 +2053,7 @@
       <eventref hlink="_d3a28f68278052b016e" role="Primary"/>
       <childof hlink="_d3a03ceedf565b0bee4"/>
     </person>
-    <person handle="_d3a2daa9142466e94e3" change="1514730626" id="I0020">
+    <person handle="_d3a2daa9142466e94e3" change="1785084902" id="I0020">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Anshelmi</first>
@@ -2048,7 +2063,7 @@
       <eventref hlink="_d3a2db987676c22bc0f" role="Primary"/>
       <childof hlink="_d3a007c50b00dd9f28a"/>
     </person>
-    <person handle="_d3a2dc44377013490ab" change="1716758194" id="I0021">
+    <person handle="_d3a2dc44377013490ab" change="1785084902" id="I0021">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Maria Alexandra</first>
@@ -2062,7 +2077,7 @@
       <parentin hlink="_f9d2349c61d503fb13516550589"/>
       <noteref hlink="_f9d0fd8d47f6fd133830c3d3f02"/>
     </person>
-    <person handle="_d3a2ef6557d7b88940b" change="1514730626" id="I0022">
+    <person handle="_d3a2ef6557d7b88940b" change="1785084902" id="I0022">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Juho Vihtori</first>
@@ -2071,7 +2086,7 @@
       <eventref hlink="_d3a2f037c66654f353e" role="Primary"/>
       <childof hlink="_d3a007c50b00dd9f28a"/>
     </person>
-    <person handle="_d3a2f0a24fa2a13e305" change="1514730626" id="I0023">
+    <person handle="_d3a2f0a24fa2a13e305" change="1785084902" id="I0023">
       <gender>M</gender>
       <name type="Birth Name">
         <first>Samuel Valentin</first>
@@ -2080,7 +2095,7 @@
       <eventref hlink="_d3a2f113fdb31ac3dd7" role="Primary"/>
       <childof hlink="_d3a007c50b00dd9f28a"/>
     </person>
-    <person handle="_d3a2f17c4a658e488a9" change="1514730626" id="I0024">
+    <person handle="_d3a2f17c4a658e488a9" change="1785084902" id="I0024">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Lydia</first>
@@ -3069,16 +3084,17 @@
       <childref hlink="_d39f9e62893689f03a0"/>
       <childref hlink="_d3a0203e758367cbe94"/>
     </family>
-    <family handle="_d3a007c50b00dd9f28a" change="1514730626" id="F0001">
+    <family handle="_d3a007c50b00dd9f28a" change="1785084902" id="F0001">
       <rel type="Married"/>
       <father hlink="_d3a0085fd3249703bf4"/>
       <mother hlink="_d3a008cbc102865eef3"/>
-      <eventref hlink="_d3a2d9eb89519b11852" role="Family"/>
       <eventref hlink="_da68edf03df102e210b3cc78273" role="Family"/>
+      <eventref hlink="_d3a2d9eb89519b11852" role="Family"/>
       <eventref hlink="_d3a2eedd7745bbaf71d" role="Family"/>
       <eventref hlink="_d3a00b949377a06e02a" role="Family"/>
       <eventref hlink="_d3a02e497b6390c72cb" role="Family"/>
       <eventref hlink="_d3a0386dbcd408ab62c" role="Family"/>
+      <eventref hlink="_103c3758ae027ead53ac03a79485" role="Family"/>
       <childref hlink="_d3a2daa9142466e94e3"/>
       <childref hlink="_d39f01bf22d12a2183b"/>
       <childref hlink="_d3a2dc44377013490ab"/>
@@ -3382,6 +3398,33 @@
     </family>
   </families>
   <citations>
+    <citation handle="_103c3757cdfc6af32bece9fb7176" change="1785081258" id="C0191">
+      <datestr val=""/>
+      <page>554</page>
+      <confidence>2</confidence>
+      <noteref hlink="_103c3711437d572856a1ae216411"/>
+      <noteref hlink="_103c3710455538893f81d7fab2b1"/>
+      <noteref hlink="_103c375792da149c35d1073b9d01"/>
+      <sourceref hlink="_103c370b0e4b651c2f4df43aa49b"/>
+    </citation>
+    <citation handle="_103c378f590370ab77092622b897" change="1785081622" id="C0192">
+      <datestr val=""/>
+      <page>233</page>
+      <confidence>2</confidence>
+      <noteref hlink="_103c377bcf773f2960ba3be51393"/>
+      <noteref hlink="_103c377a69e23eb79c1e4064c92f"/>
+      <noteref hlink="_103c378ef700688f5a71d42c611d"/>
+      <sourceref hlink="_103c377727d612d7429e694f8731"/>
+    </citation>
+    <citation handle="_103c380634c67916c38fa4b4521c" change="1785082401" id="C0193">
+      <datestr val=""/>
+      <page>252</page>
+      <confidence>2</confidence>
+      <noteref hlink="_103c37f1439718e65d96119277cf"/>
+      <noteref hlink="_103c37f329f54eea8d5b99d440b5"/>
+      <noteref hlink="_103c3805ee8c46b48e9c0429ee68"/>
+      <sourceref hlink="_103c377727d612d7429e694f8731"/>
+    </citation>
     <citation handle="_d39f04fd7455373bb7f" change="1454954632" id="C0000">
       <page>135</page>
       <confidence>2</confidence>
@@ -3429,10 +3472,13 @@
       <noteref hlink="_d39fb6508f176d530b6"/>
       <sourceref hlink="_d39fb5fe913732d5dea"/>
     </citation>
-    <citation handle="_d39fbadaf7367dff069" change="1454616499" id="C0007">
+    <citation handle="_d39fbadaf7367dff069" change="1785089323" id="C0007">
+      <datestr val=""/>
       <page>109</page>
       <confidence>2</confidence>
+      <noteref hlink="_103c3bb524433013fd74e538a549"/>
       <noteref hlink="_d39fbad88784c29aeab"/>
+      <noteref hlink="_103c3c24c4777fb294c7cd1d105b"/>
       <sourceref hlink="_d39fba89f3159a8fad9"/>
     </citation>
     <citation handle="_d3a004e79d05a44f5f1" change="1454616508" id="C0008">
@@ -3465,28 +3511,40 @@
       <noteref hlink="_f1b876b70806da1c233ed52d404"/>
       <sourceref hlink="_d39fa5f7fe55ebfaf1a"/>
     </citation>
-    <citation handle="_d3a02a6a5ae5cd33010" change="1454280374" id="C0012">
+    <citation handle="_d3a02a6a5ae5cd33010" change="1785085547" id="C0012">
+      <datestr val=""/>
       <page>46-47</page>
       <confidence>2</confidence>
+      <noteref hlink="_103c39b76d7a1c7698c5385a071"/>
       <noteref hlink="_d3a02a66f1347a777e3"/>
+      <noteref hlink="_103c39e60d54201a79b3ac7eef25"/>
       <sourceref hlink="_d3a00451837645179e0"/>
     </citation>
-    <citation handle="_d3a02c65ae17d606b5f" change="1454280581" id="C0013">
+    <citation handle="_d3a02c65ae17d606b5f" change="1785089942" id="C0013">
+      <datestr val=""/>
       <page>49-50</page>
       <confidence>2</confidence>
+      <noteref hlink="_103c3c58dc11173fa535ae22f684"/>
       <noteref hlink="_d3a02c49d525b639300"/>
+      <noteref hlink="_103c3c84b4e94cab6c5c016b4dab"/>
       <sourceref hlink="_d3a02c2d9fb7bbb4b47"/>
     </citation>
-    <citation handle="_d3a02e0e2fd229194f2" change="1454280774" id="C0014">
-      <page>4-5</page>
+    <citation handle="_d3a02e0e2fd229194f2" change="1785090333" id="C0014">
+      <datestr val=""/>
+      <page>8-9</page>
       <confidence>2</confidence>
+      <noteref hlink="_103c3cb3309faf1fc55219ad66e"/>
       <noteref hlink="_d3a02e39fc637fbbf3e"/>
+      <noteref hlink="_103c3cc037f25fe572bd78f9b917"/>
       <sourceref hlink="_d3a02dfd19b4fac1d07"/>
     </citation>
-    <citation handle="_d3a0306a54c41aa260d" change="1454281003" id="C0015">
+    <citation handle="_d3a0306a54c41aa260d" change="1785090513" id="C0015">
+      <datestr val=""/>
       <page>197</page>
       <confidence>2</confidence>
+      <noteref hlink="_103c3cca9251d65a621855c406e"/>
       <noteref hlink="_d3a0306849363170569"/>
+      <noteref hlink="_103c3cdb3c8660d9f2268a10f9de"/>
       <sourceref hlink="_d3a0303d59e595de1e6"/>
     </citation>
     <citation handle="_d3a031d88af400e79e9" change="1454955719" id="C0016">
@@ -3495,10 +3553,13 @@
       <noteref hlink="_d3a031cdb0730ab7432"/>
       <sourceref hlink="_d3a0319cbd157596712"/>
     </citation>
-    <citation handle="_d3a0386b56b544a3f54" change="1454281842" id="C0017">
+    <citation handle="_d3a0386b56b544a3f54" change="1785080428" id="C0017">
+      <datestr val=""/>
       <page>192</page>
       <confidence>2</confidence>
+      <noteref hlink="_103c369b4b2b5a80011bf943fe90"/>
       <noteref hlink="_d3a038690a167b45cb0"/>
+      <noteref hlink="_103c36d8edac2fca72868d3a851a"/>
       <sourceref hlink="_d3a038392f01dcf99a2"/>
     </citation>
     <citation handle="_d3a039b773239ba8091" change="1454282630" id="C0018">
@@ -3558,10 +3619,13 @@
       <noteref hlink="_103c350d4ab53e79c9054b6bb148"/>
       <sourceref hlink="_d3a2d9e50926ee42f78"/>
     </citation>
-    <citation handle="_d3a2eedad9a07e42971" change="1454355036" id="C0027">
+    <citation handle="_d3a2eedad9a07e42971" change="1785084854" id="C0027">
+      <datestr val=""/>
       <page>29</page>
       <confidence>2</confidence>
+      <noteref hlink="_103c3917efd02c3db296d4b58ba8"/>
       <noteref hlink="_d3a2eed99c250585d6b"/>
+      <noteref hlink="_103c397c4e8d242a7fd242902470"/>
       <sourceref hlink="_d3a2eeb743e205ffff6"/>
     </citation>
     <citation handle="_d3a5fafc70b1b3b97da" change="1454436461" id="C0028">
@@ -4609,6 +4673,16 @@
     </citation>
   </citations>
   <sources>
+    <source handle="_103c370b0e4b651c2f4df43aa49b" change="1785080755" id="S0094">
+      <stitle>Kurkijoki Rippikirja 1910-1919</stitle>
+      <sauthor>Kurkijoen seurakunta</sauthor>
+      <reporef hlink="_f1b86d395e01a7a263b0fbac8ff" medium="Book"/>
+    </source>
+    <source handle="_103c377727d612d7429e694f8731" change="1785081463" id="S0095">
+      <stitle>Kurkijoki Kuolleet 1911-1944</stitle>
+      <sauthor>Kurkijoen seurakunta</sauthor>
+      <reporef hlink="_f1b86d395e01a7a263b0fbac8ff" medium="Book"/>
+    </source>
     <source handle="_d39f0446de217f10266" change="1454249531" id="S0000">
       <stitle>Jaakkima Rippikirja 1900-1909</stitle>
       <sauthor>Jaakkiman seurakunta</sauthor>
@@ -5608,6 +5682,221 @@ Dr Maria Alexandra          27/12 1873  do
         <range start="73" end="134"/>
       </style>
     </note>
+    <note handle="_103c369b4b2b5a80011bf943fe90" change="1785080022" id="N0274" type="Citation">
+      <text>Kurkijoen seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A Pääkirjat hakemistoineen. I Aa Pää- ja rippikirjat. I Aa:19 Rippikirjat  (1900-1909). Tiedosto 198. Kansallisarkisto. Viitattu 26.7.2026.</text>
+    </note>
+    <note handle="_103c36d8edac2fca72868d3a851a" change="1785080426" id="N0275" type="Transcript" format="1">
+      <text>192          Mariavaara
+
+Lks. Matti Matinp. Kangasniemi         [m]  12/3  1845  Jalasjärvi  26/2 98 Jaakkimasta W.K.197 }
+Vo Eva Kristiina Henrikintytär         [n]  4/12  1849  &quot;                                       }
+
+T. Hedvig Sofia Matint. Kangasniemi    [n]  24/5  1882  &quot;           slle 500                    }              *
+
+T. Susanna Lovisa Matint. Kangasniemi  [n]  17/7  1884  &quot;                                       } UK.554       **
+
+
+* {vihityt 15/5 1904
+  {Av.k.N.8 v 1904 Työmies Juho Vihtori Holmbergin
+  {kanssa Wanajan sn Luulajasta.
+
+** åpåräl 1906</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="572"/>
+      </style>
+    </note>
+    <note handle="_103c3710455538893f81d7fab2b1" change="1785080789" id="N0276" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=9293336921&amp;aineistoId=1215038038</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=9293336921&amp;aineistoId=1215038038">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_103c3711437d572856a1ae216411" change="1785080796" id="N0277" type="Citation">
+      <text>Kurkijoen seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A Pääkirjat hakemistoineen. I Aa Pää- ja rippikirjat. I Aa:20 Rippikirjat  (1910-1919). Tiedosto 559. Kansallisarkisto. Viitattu 26.7.2026.</text>
+    </note>
+    <note handle="_103c375792da149c35d1073b9d01" change="1785081256" id="N0278" type="Transcript" format="1">
+      <text>554          Savoja
+
+Lks. Matti MAtinp. Kangasniemi   [m]  12/3  1845  Jalasjärvi  vk.192 Jaakkima 1892
+Vo Eeva Kristiina Henrikintytär  [n]  4/12  1849  &quot;
+T. Susanna Lovisa Kangasniemi    [n]  17/7  1884  &quot;            slle 136            aviok.N:52 v1911 s136  synnytti äpäräl.1906
+T. Anni Matint Kangasniemi       [n]  20/3  1897                                   Papint. Amer. vart. 4/10 1920
+
+</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="397"/>
+      </style>
+    </note>
+    <note handle="_103c377a69e23eb79c1e4064c92f" change="1785081485" id="N0279" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=9293637134&amp;aineistoId=1215525020</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=9293637134&amp;aineistoId=1215525020">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_103c377bcf773f2960ba3be51393" change="1785081494" id="N0280" type="Citation">
+      <text>Kurkijoen seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I F Kuolleiden ja haudattujen luettelot. I F:3 Kuolleiden ja haudattujen luettelot  (1911-1944). Tiedosto 122. Kansallisarkisto. Viitattu 26.7.2026.</text>
+    </note>
+    <note handle="_103c378ef700688f5a71d42c611d" change="1785081619" id="N0281" type="Transcript" format="1">
+      <text>                                         233
+Kuolleet ja Haudatut Kurkijoen seurakunnassa
+           marraskuussa v. 1928
+
+23  2/12  IV 282  Its. Matti Mat.p. Kangasniemi  Vanhuus  82  8  11  1845  nssa  [m]
+                  Tervu
+</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="232"/>
+      </style>
+    </note>
+    <note handle="_103c37f1439718e65d96119277cf" change="1785082264" id="N0282" type="Citation">
+      <text>Kurkijoen seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I F Kuolleiden ja haudattujen luettelot. I F:3 Kuolleiden ja haudattujen luettelot  (1911-1944). Tiedosto 142. Kansallisarkisto. Viitattu 26.7.2026.</text>
+    </note>
+    <note handle="_103c37f329f54eea8d5b99d440b5" change="1785082276" id="N0283" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=9293637194&amp;aineistoId=1215525020</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=9293637194&amp;aineistoId=1215525020">
+        <range start="0" end="79"/>
+      </style>
+    </note>
+    <note handle="_103c3805ee8c46b48e9c0429ee68" change="1785082399" id="N0284" type="Transcript" format="1">
+      <text>Kuolleet ja Haudatut Kurkijoen seurakunnassa
+         Toukokussa v. 1931
+
+30  3/6  III 219   Its. Matti Kangasniemen li Eva Kristii-
+                   na Henrikintr, Tervu                     vanhuus  81  5  26  1849  leski  [n]</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="229"/>
+      </style>
+    </note>
+    <note handle="_103c3917efd02c3db296d4b58ba8" change="1785084195" id="N0285" type="Citation">
+      <text>Jalasjärvi rippikirja 1885-1894 (AP_I I Aa:16)  Sivu 29 Koskuen kylä No 1 Maja Kangasniemi ; SSHY http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=41155&amp;pnum=32 / Viitattu 26.07.2026</text>
+    </note>
+    <note handle="_103c397c4e8d242a7fd242902470" change="1785084853" id="N0286" type="Transcript" format="1">
+      <text>29          Koskuen kylä
+No 1
+Maja
+Abel   Kangasniemi  omistaja Parkanossa
+vk.78 Trp Matti Matinp       12/3  1845  Jalaj  Wk 7/78? } pk. 8/8 93 koko perheelle
+Wo Eva Kristina Hetviikintr  4/12  1849  do     do       } Jaakkiman pitäjään Siellä kirjoissa Tull No2 v94    16/12 1893
+P. Matti                     15/3  1872  do     do                                                             Sv.214/1888 
+T. Maria Aleksantra          27/12 1873  do     do                                                             Sv.197/1891
+P. Juho Wihtori              16/3  1876  do     do                                                             Sv.196/1891
+P. Samuel Walentin           7/6   1872  do     do                                                             Sv.184/1893
+P. Jaakko                    10/7  1880  do     do       }
+T. Hetviiki Sofia            24/5  1882  do     do       } Jaakkiman pitäjään                                  16/12 1893
+T. Susanna Lovisa            17/7  1884  do              } Siellä kirjoihin pantu Tull.No 2 v 1894
+P. Anshelm                   1/4   1887  do              }
++T. Lydia                    4/2   1890  do              }                                                     +27/3 1890
+T. Hilma Matilta             13/6  1892  do              }
+</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="1295"/>
+      </style>
+    </note>
+    <note handle="_103c39b76d7a1c7698c5385a071" change="1785085240" id="N0287" type="Citation">
+      <text>Jaakkiman seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I B Muuttaneiden luettelot. I Ba Seurakuntaan muuttaneiden luettelot. I Ba:3 Seurakuntaan muuttaneiden luettelot  (1890-1911). Tiedosto 27. Kansallisarkisto. Viitattu 26.7.2026.</text>
+    </note>
+    <note handle="_103c39e60d54201a79b3ac7eef25" change="1785085546" id="N0288" type="Transcript" format="1">
+      <text>Sivu 46
+Jaakkiman Seurakuntaan muuttaneita vuonna 1893
+
+77  [Joulu]  [27]  109  Torp Matti Matinp Kangas
+                        niemi, vo Eva Kristiina Hentri
+
+Sivu 47
+Jaakkiman Seurakuntaan muuttaneita vuonna 1893
+                        
+                        kintytär ja lapset Jaakko,
+                        Hedwig, Susanna, Anshelm ja 
+                        Hilma Matilta                Jalasjärvi  1893  12  16  57  3[m]  4[n]
+
+</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="440"/>
+      </style>
+    </note>
+    <note handle="_103c3bb524433013fd74e538a549" change="1785088580" id="N0289" type="Citation">
+      <text>Jaakkiman seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A Pääkirjat hakemistoineen. I Aa Pää- ja rippikirjat. I Aa:27 Rippikirjat, Harvia - Tervajärvi  (1890-1899). Tiedosto 112. Kansallisarkisto. Viitattu 26.7.2026.</text>
+    </note>
+    <note handle="_103c3c24c4777fb294c7cd1d105b" change="1785089312" id="N0290" type="Transcript" format="1">
+      <text>109          Ihalanoja
+No 9
+
+
+Matti Matinp. Kangasniemi            18 12/3 45  Jalasjärvi  } muuttok sieltä                          }Muuttok. Kurkijoelle 28/1 1898
+Wo Eva Kristiina Hentriikintytär     18 4/12 49  &quot;           } 16/12 93 no 77                          }  
+Läks Poika Matti Matinp Kangasniemi  18 15/3 72  &quot;             muuttok sieltä 15/4 95 No 37 }124/99    Konj 11/5 95 alemma }vihityt 4/8 1895   Arpa No14
+wmo Maria Jaakontytär                18 27/7 64                                             }                              }
+[...]
+Piika Maria Jaakontytär              18 27/7 64  Parkano    sieltä muuttok 26/1 1895 no48   ylemmä 1895   Konj 11/5 95 ylemmä
+
+
+</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="684"/>
+      </style>
+    </note>
+    <note handle="_103c3c58dc11173fa535ae22f684" change="1785089653" id="N0291" type="Citation">
+      <text>Jaakkiman seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I B Muuttaneiden luettelot. I Bb Seurakunnasta muuttaneiden luettelot. I Bb:1 Seurakunnasta muuttaneiden luettelot  (1890-1913). Tiedosto 29. Kansallisarkisto. Viitattu 26.7.2026.</text>
+    </note>
+    <note handle="_103c3c84b4e94cab6c5c016b4dab" change="1785089941" id="N0292" type="Transcript" format="1">
+      <text>Sivu 49
+Jaakkiman Seurakunnasta muuttaneita vuonna 1898
+
+7  [Tammi]  28  Fr.p.109  Ent.vuokr. Matti Matinp. Kangasniemi      }Kurkijoki  3  4  maanvilj Häkli Kurkijo
+                          vo Eva Kristiina, lapset: jaakko, Hedvig  }                                  elta
+                          Sofia, Susanna Loviisa, Aneshelm, ????    }
+                          ??? ja Anni                               }</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="413"/>
+      </style>
+      <style name="strikethrough">
+        <range start="334" end="338"/>
+        <range start="370" end="373"/>
+      </style>
+    </note>
+    <note handle="_103c3cb3309faf1fc55219ad66e" change="1785090245" id="N0293" type="Citation">
+      <text>Kurkijoen seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I B Muuttaneiden luettelot. I Ba Seurakuntaan muuttaneiden luettelot. I Ba:3 Seurakuntaan muuttaneiden luettelot  (1896-1906). Tiedosto 7. Kansallisarkisto. Viitattu 26.7.2026.</text>
+    </note>
+    <note handle="_103c3cc037f25fe572bd78f9b917" change="1785090331" id="N0294" type="Transcript" format="1">
+      <text>Sivu 8
+          Kurkijoen Seurakuntaan muuttaneita vuonna 1898
+
+10  [Helmik]  26  197  Matti Kangasniemi perheineen  Jaakkima  1898  Tam  28  7  3  4</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="150"/>
+      </style>
+    </note>
+    <note handle="_103c3cca9251d65a621855c406e" change="1785090399" id="N0295" type="Citation">
+      <text>Kurkijoen seurakunnan arkisto. I VÄESTÖREKISTERIARKISTO. I A Pääkirjat hakemistoineen. I Aa Pää- ja rippikirjat. I Aa:18 Rippikirjat  (1892-1899). Tiedosto 201. Kansallisarkisto. Viitattu 26.7.2026.</text>
+    </note>
+    <note handle="_103c3cdb3c8660d9f2268a10f9de" change="1785090508" id="N0296" type="Transcript" format="1">
+      <text>197          Mariavaara
+
+Lks Matti Matinp Kangasniemi    12/3  1845  Jalasjärvi  }26/2 1898  
+vo Eeva Kristina Henrikintytär  4/12  1849  Jalasjärvi  }Jaakkima</text>
+      <style name="fontface" value="Courier New">
+        <range start="0" end="159"/>
+      </style>
+    </note>
+    <note handle="_103c3d4fac1c6bc157ae57bffdea" change="1785091271" id="N0297" type="Analysis">
+      <text>Eva Kristinan (kastemerkintä Eva Christina) alkuperäinen matronyymi on Hedwigsdotter äitinsä Hedwig Johandotterin mukaan.
+Tuo muuttuu parin muuton yhteydessä patronyymiksi, mikä selkeästi johtuu kirjausvirheistä koska kysessä on kuitenkin muiden seikkojen perusteella varmasti sama henkilö.
+
+Rippikirja Jalasjärvi 1867-1874 nimenä on vielä Eva Kristina Hedvigsd[otte]r
+Seuraavaan rippikirjaan 1885-1894 nimen muodoksi tulee Eva Kristina Hetviikint[ytär], mikä on vielä sama nimi mutta suomalaisempi muoto
+Jaakkimaan muutettaessa muuttoluettelossa 1893 onkin käynyt jo kopiointivirhe? ja nimeksi on kirjattu Eva Kristiina Hentrikintytär
+Samoin Jaakkima rippikirjassa 1890-1899 lukee Eva Kristiina Hentriikintytär
+Seuravaan muuton yhteydessä Kurkijoki rippikirja 1892-1899 nimi onkin jo muodossa Eeva Kristina Henrikintytär.
+Tämä väärä patronyymi seuraakin Eva Kristiinaa sitten hautaan asti.</text>
+      <style name="bold">
+        <range start="71" end="84"/>
+        <range start="353" end="368"/>
+        <range start="437" end="453"/>
+        <range start="621" end="635"/>
+        <range start="696" end="712"/>
+        <range start="808" end="822"/>
+      </style>
+    </note>
     <note handle="_d39f04afbb15f7c1a54" change="1454249574" id="N0000" type="Url">
       <text>http://digi.narc.fi/digi/view.ka?kuid=2683785
 https://astia.narc.fi/uusiastia/viewer/?fileId=5774122243&amp;aineistoId=1209939916</text>
@@ -5678,14 +5967,10 @@ https://astia.narc.fi/uusiastia/viewer/?fileId=5775679702&amp;aineistoId=1211751
         <range start="46" end="125"/>
       </style>
     </note>
-    <note handle="_d39fbad88784c29aeab" change="1454268675" id="N0007" type="Url">
-      <text>http://digi.narc.fi/digi/view.ka?kuid=2681222
-https://astia.narc.fi/uusiastia/viewer/?fileId=5786369754&amp;aineistoId=1209713616</text>
-      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=2681222">
-        <range start="0" end="45"/>
-      </style>
-      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5786369754&amp;aineistoId=1209713616">
-        <range start="46" end="125"/>
+    <note handle="_d39fbad88784c29aeab" change="1785088573" id="N0007" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=9916116396&amp;aineistoId=1209713616</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=9916116396&amp;aineistoId=1209713616">
+        <range start="0" end="79"/>
       </style>
     </note>
     <note handle="_d3a004e457444d6ad19" change="1454276439" id="N0008" type="Url">
@@ -5728,44 +6013,28 @@ https://astia.narc.fi/uusiastia/viewer/?fileId=5775610723&amp;aineistoId=1211588
         <range start="46" end="125"/>
       </style>
     </note>
-    <note handle="_d3a02a66f1347a777e3" change="1454280372" id="N0012" type="Url">
-      <text>http://digi.narc.fi/digi/view.ka?kuid=2703205
-https://astia.narc.fi/uusiastia/viewer/?fileId=5774972545&amp;aineistoId=1211377615</text>
-      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=2703205">
-        <range start="0" end="45"/>
-      </style>
-      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5774972545&amp;aineistoId=1211377615">
-        <range start="46" end="125"/>
+    <note handle="_d3a02a66f1347a777e3" change="1785085232" id="N0012" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=9851044696&amp;aineistoId=1211377615</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=9851044696&amp;aineistoId=1211377615">
+        <range start="0" end="79"/>
       </style>
     </note>
-    <note handle="_d3a02c49d525b639300" change="1454280570" id="N0013" type="Url">
-      <text>http://digi.narc.fi/digi/view.ka?kuid=2704280
-https://astia.narc.fi/uusiastia/viewer/?fileId=5775245540&amp;aineistoId=1211426868</text>
-      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=2704280">
-        <range start="0" end="45"/>
-      </style>
-      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5775245540&amp;aineistoId=1211426868">
-        <range start="46" end="125"/>
+    <note handle="_d3a02c49d525b639300" change="1785089646" id="N0013" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=9851056249&amp;aineistoId=1211426868</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=9851056249&amp;aineistoId=1211426868">
+        <range start="0" end="79"/>
       </style>
     </note>
-    <note handle="_d3a02e39fc637fbbf3e" change="1454280773" id="N0014" type="Url">
-      <text>http://digi.narc.fi/digi/view.ka?kuid=3772396
-https://astia.narc.fi/uusiastia/viewer/?fileId=5783592883&amp;aineistoId=1215390615</text>
-      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=3772396">
-        <range start="0" end="45"/>
-      </style>
-      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5783592883&amp;aineistoId=1215390615">
-        <range start="46" end="125"/>
+    <note handle="_d3a02e39fc637fbbf3e" change="1785090237" id="N0014" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=9315902616&amp;aineistoId=1215390615</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=9315902616&amp;aineistoId=1215390615">
+        <range start="0" end="79"/>
       </style>
     </note>
-    <note handle="_d3a0306849363170569" change="1454281002" id="N0015" type="Url">
-      <text>http://digi.narc.fi/digi/view.ka?kuid=3469074
-https://astia.narc.fi/uusiastia/viewer/?fileId=5775812981&amp;aineistoId=1214973647</text>
-      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=3469074">
-        <range start="0" end="45"/>
-      </style>
-      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5775812981&amp;aineistoId=1214973647">
-        <range start="46" end="125"/>
+    <note handle="_d3a0306849363170569" change="1785090390" id="N0015" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=9293357771&amp;aineistoId=1214973647</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=9293357771&amp;aineistoId=1214973647">
+        <range start="0" end="79"/>
       </style>
     </note>
     <note handle="_d3a031cdb0730ab7432" change="1454955717" id="N0016" type="Url">
@@ -5778,14 +6047,10 @@ https://astia.narc.fi/uusiastia/viewer/?fileId=5781200975&amp;aineistoId=1215353
         <range start="46" end="125"/>
       </style>
     </note>
-    <note handle="_d3a038690a167b45cb0" change="1454281841" id="N0017" type="Url">
-      <text>http://digi.narc.fi/digi/view.ka?kuid=3470054
-https://astia.narc.fi/uusiastia/viewer/?fileId=5776816138&amp;aineistoId=1215020042</text>
-      <style name="link" value="http://digi.narc.fi/digi/view.ka?kuid=3470054">
-        <range start="0" end="45"/>
-      </style>
-      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=5776816138&amp;aineistoId=1215020042">
-        <range start="46" end="125"/>
+    <note handle="_d3a038690a167b45cb0" change="1785080010" id="N0017" type="Link">
+      <text>https://astia.narc.fi/uusiastia/viewer/?fileId=9293323252&amp;aineistoId=1215020042</text>
+      <style name="link" value="https://astia.narc.fi/uusiastia/viewer/?fileId=9293323252&amp;aineistoId=1215020042">
+        <range start="0" end="79"/>
       </style>
     </note>
     <note handle="_d3a039b337670af9868" change="1454281976" id="N0018" type="Url">
@@ -5870,10 +6135,10 @@ https://astia.narc.fi/uusiastia/viewer/?fileId=5783592829&amp;aineistoId=1215390
         <range start="0" end="99"/>
       </style>
     </note>
-    <note handle="_d3a2eed99c250585d6b" change="1454436156" id="N0027" type="Url">
-      <text>http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7935&amp;pnum=28</text>
-      <style name="link" value="http://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=7935&amp;pnum=28">
-        <range start="0" end="75"/>
+    <note handle="_d3a2eed99c250585d6b" change="1785083818" id="N0027" type="Link">
+      <text>https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=41155&amp;pnum=32</text>
+      <style name="link" value="https://www.sukuhistoria.fi/sshy/sivut/jasenille/paikat.php?bid=41155&amp;pnum=32">
+        <range start="0" end="77"/>
       </style>
     </note>
     <note handle="_d3a5faf7fa14ee10513" change="1454436460" id="N0028" type="Url">
